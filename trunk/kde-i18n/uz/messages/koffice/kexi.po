@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
-"POT-Creation-Date: 2004-05-13 01:30+0200\n"
+"POT-Creation-Date: 2005-02-22 01:22+0100\n"
 "PO-Revision-Date: 2004-05-23 18:14+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -30,15 +30,27 @@ msgstr ""
 msgid "Kexi Mail Merge"
 msgstr ""
 
-#: core/kexidialogbase.cpp:222
+#: core/kexiguimsghandler.cpp:121
+msgid "Unknown error"
+msgstr "Номаълум хато"
+
+#: core/kexidialogbase.cpp:280
 msgid "Design has been changed. You must save it before switching to other view."
 msgstr ""
 
-#: core/kexipartmanager.cpp:115
+#: core/kexidialogbase.cpp:445
+msgid "Saving object's definition failed."
+msgstr ""
+
+#: core/kexidialogbase.cpp:470
+msgid "Saving object's data failed."
+msgstr ""
+
+#: core/kexipartmanager.cpp:126
 msgid "Error during loading part module \"%1\""
 msgstr ""
 
-#: core/kexipartmanager.cpp:190
+#: core/kexipartmanager.cpp:202
 msgid "No parts module for mime type \"%1\""
 msgstr ""
 
@@ -46,156 +58,256 @@ msgstr ""
 msgid "Context Help"
 msgstr ""
 
-#: core/kexiproperty.cpp:96 widget/propertyeditor/propertyeditorlist.cpp:258
+#: core/kexiproperty.cpp:100 widget/propertyeditor/propertyeditorlist.cpp:282
 msgid "Arrow"
 msgstr ""
 
-#: core/kexiproperty.cpp:97 widget/propertyeditor/propertyeditorlist.cpp:259
+#: core/kexiproperty.cpp:101 widget/propertyeditor/propertyeditorlist.cpp:283
 msgid "Up Arrow"
 msgstr ""
 
-#: core/kexiproperty.cpp:98 widget/propertyeditor/propertyeditorlist.cpp:260
+#: core/kexiproperty.cpp:102 widget/propertyeditor/propertyeditorlist.cpp:284
 msgid "Cross"
 msgstr ""
 
-#: core/kexiproperty.cpp:99 widget/propertyeditor/propertyeditorlist.cpp:261
+#: core/kexiproperty.cpp:103 widget/propertyeditor/propertyeditorlist.cpp:285
 msgid "Waiting"
 msgstr ""
 
-#: core/kexiproperty.cpp:100 widget/propertyeditor/propertyeditorlist.cpp:262
+#: core/kexiproperty.cpp:104 widget/propertyeditor/propertyeditorlist.cpp:286
 msgid "iBeam"
 msgstr ""
 
-#: core/kexiproperty.cpp:101 widget/propertyeditor/propertyeditorlist.cpp:263
+#: core/kexiproperty.cpp:105 widget/propertyeditor/propertyeditorlist.cpp:287
 msgid "Size Vertical"
 msgstr ""
 
-#: core/kexiproperty.cpp:102 widget/propertyeditor/propertyeditorlist.cpp:264
+#: core/kexiproperty.cpp:106 widget/propertyeditor/propertyeditorlist.cpp:288
 msgid "Size Horizontal"
 msgstr ""
 
-#: core/kexiproperty.cpp:103 widget/propertyeditor/propertyeditorlist.cpp:265
+#: core/kexiproperty.cpp:107 widget/propertyeditor/propertyeditorlist.cpp:289
 msgid "Size Slash"
 msgstr ""
 
-#: core/kexiproperty.cpp:104 widget/propertyeditor/propertyeditorlist.cpp:266
+#: core/kexiproperty.cpp:108 widget/propertyeditor/propertyeditorlist.cpp:290
 msgid "Size Backslash"
 msgstr ""
 
-#: core/kexiproperty.cpp:105 widget/propertyeditor/propertyeditorlist.cpp:267
+#: core/kexiproperty.cpp:109 widget/propertyeditor/propertyeditorlist.cpp:291
 msgid "Size All"
 msgstr ""
 
-#: core/kexiproperty.cpp:106 widget/propertyeditor/propertyeditorlist.cpp:268
+#: core/kexiproperty.cpp:110 widget/propertyeditor/propertyeditorlist.cpp:292
 msgid "Blank"
 msgstr ""
 
-#: core/kexiproperty.cpp:107 widget/propertyeditor/propertyeditorlist.cpp:269
+#: core/kexiproperty.cpp:111 widget/propertyeditor/propertyeditorlist.cpp:293
 msgid "Split Vertical"
 msgstr ""
 
-#: core/kexiproperty.cpp:108 widget/propertyeditor/propertyeditorlist.cpp:270
+#: core/kexiproperty.cpp:112 widget/propertyeditor/propertyeditorlist.cpp:294
 msgid "Split Horizontal"
 msgstr ""
 
-#: core/kexiproperty.cpp:109 widget/propertyeditor/propertyeditorlist.cpp:271
+#: core/kexiproperty.cpp:113 widget/propertyeditor/propertyeditorlist.cpp:295
 msgid "Pointing Hand"
 msgstr ""
 
-#: core/kexiproperty.cpp:110 widget/propertyeditor/propertyeditorlist.cpp:272
+#: core/kexiproperty.cpp:114 widget/propertyeditor/propertyeditorlist.cpp:296
 msgid "Forbidden"
 msgstr ""
 
-#: core/kexiproperty.cpp:111
+#: core/kexiproperty.cpp:115
 msgid "What's This"
 msgstr ""
 
-#: core/kexiproperty.cpp:180 core/kexiproperty.cpp:196
+#: core/kexiproperty.cpp:191 core/kexiproperty.cpp:207
 msgid "width"
 msgstr ""
 
-#: core/kexiproperty.cpp:181 core/kexiproperty.cpp:197
+#: core/kexiproperty.cpp:192 core/kexiproperty.cpp:208
 msgid "height"
 msgstr ""
 
-#: core/kexiproperty.cpp:187 core/kexiproperty.cpp:194
+#: core/kexiproperty.cpp:198 core/kexiproperty.cpp:205
 msgid "x"
 msgstr ""
 
-#: core/kexiproperty.cpp:188 core/kexiproperty.cpp:195
+#: core/kexiproperty.cpp:199 core/kexiproperty.cpp:206
 msgid "y"
 msgstr ""
 
-#: core/kexiproperty.cpp:205
+#: core/kexiproperty.cpp:219
 msgid "horSizeType"
 msgstr ""
 
-#: core/kexiproperty.cpp:208
+#: core/kexiproperty.cpp:222
 msgid "verSizeType"
 msgstr ""
 
-#: core/kexiproperty.cpp:210
+#: core/kexiproperty.cpp:224
 msgid "hStretch"
 msgstr ""
 
-#: core/kexiproperty.cpp:211
+#: core/kexiproperty.cpp:225
 msgid "vStretch"
 msgstr ""
 
-#: core/kexiproperty.cpp:614
+#: core/kexiproperty.cpp:642
 msgid "True"
 msgstr ""
 
-#: core/kexiproperty.cpp:617
+#: core/kexiproperty.cpp:645
 msgid "False"
 msgstr ""
 
-#: core/kexiproperty.cpp:624
+#: core/kexiproperty.cpp:652
 msgid "Light"
 msgstr ""
 
-#: core/kexiproperty.cpp:626 formeditor/extrawidgets.cpp:75
+#: core/kexiproperty.cpp:654
 msgid "Bold"
 msgstr ""
 
-#: core/kexiproject.cpp:78
+#: core/kexiproject.cpp:106
 msgid "Could not open project \"%1\""
 msgstr ""
 
-#: core/kexiproject.cpp:97
+#: core/kexiproject.cpp:125
 msgid "Could not create project \"%1\""
 msgstr ""
 
-#: core/kexi.cpp:48
+#: core/kexiproject.cpp:399
+msgid "Opening object \"%1\" failed."
+msgstr ""
+
+#: core/kexiproject.cpp:450 main/keximainwindowimpl.cpp:2767
+msgid "Could not set empty name for this object."
+msgstr ""
+
+#: core/kexiproject.cpp:454
+msgid "Could not use this name. Object with name \"%1\" already exists."
+msgstr ""
+
+#: core/kexiproject.cpp:459
+msgid "Could not rename object \"%1\"."
+msgstr ""
+
+#: core/kexiproject.cpp:593
+msgid "Warning: entire project's data will be removed."
+msgstr ""
+
+#: core/kexiproject.cpp:607
+msgid ""
+"The project \"%1\" already exists.\n"
+"Do you want to replace it with a new, blank one?"
+msgstr ""
+
+#: core/kexiproject.cpp:633
+msgid "Do you want to drop the project \"%1\"?"
+msgstr ""
+
+#: core/kexiinternalpart.cpp:56
+msgid "Could not load \"%1\" plugin."
+msgstr ""
+
+#: core/kexipart.cpp:239
+msgid "Object \"%1\" could not be opened in Design View."
+msgstr ""
+
+#: core/kexipart.cpp:240
+msgid "Object could not be opened in Data View."
+msgstr ""
+
+#: core/kexipart.cpp:241
+msgid "Do you want to open it in Text View?"
+msgstr ""
+
+#: core/kexipart.cpp:254
+msgid "Failed loading object's definition."
+msgstr ""
+
+#: core/kexipart.cpp:254
+msgid "Data may be corrupted."
+msgstr ""
+
+#: core/kexipart.cpp:306
+msgid "Failed loading object's data."
+msgstr ""
+
+#: core/kexipart.cpp:306
+msgid "Data identifier: \"%1\"."
+msgstr ""
+
+#: core/kexiuseractionmethod.cpp:19
+#, fuzzy
+msgid "Open Object"
+msgstr "&Лойиҳани яратиш"
+
+#: core/kexiuseractionmethod.cpp:21
+#, fuzzy
+msgid "Close Object"
+msgstr "&Лойиҳани яратиш"
+
+#: core/kexiuseractionmethod.cpp:23
+#, fuzzy
+msgid "Delete Object"
+msgstr "Лойиҳани яратиш"
+
+#: core/kexiuseractionmethod.cpp:25
+msgid "Execute Script"
+msgstr ""
+
+#: core/kexiuseractionmethod.cpp:27
+msgid "Exit Main Application"
+msgstr ""
+
+#: core/kexiuseraction.cpp:41
+#, fuzzy
+msgid "Specified part does not exist"
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: core/kexiuseraction.cpp:48
+msgid "Specified document could not be opened."
+msgstr ""
+
+#: core/kexi.cpp:105
+msgid "No View"
+msgstr ""
+
+#: core/kexi.cpp:106
 msgid "Data View"
 msgstr ""
 
-#: core/kexi.cpp:49
+#: core/kexi.cpp:107
 msgid "Design View"
 msgstr ""
 
-#: core/kexi.cpp:50
+#: core/kexi.cpp:108
 msgid "Text View"
 msgstr ""
 
-#: core/kexi.cpp:52
+#: core/kexi.cpp:110
 #, fuzzy
 msgid "Unknown"
 msgstr "Номаълум хато"
 
-#: core/kexi.cpp:124
-msgid ""
-"Value of \"%1\" column must be an identifier.\n"
-"\"%2\" is not a valid identifier."
+#: core/kexi.cpp:168
+msgid "Value of \"%1\" column must be an identifier."
 msgstr ""
 
-#: core/kexi.cpp:150
+#: core/kexi.cpp:169
+msgid "\"%1\" is not a valid identifier."
+msgstr ""
+
+#: core/kexi.cpp:231
 msgid ""
 "You cannot use name \"%1\" for your object.\n"
 "It is reserved for internal Kexi objects. Please choose another name."
 msgstr ""
 
-#: core/kexi.cpp:153
+#: core/kexi.cpp:234
 msgid "Names of internal Kexi objects are starting with \"kexi__\"."
 msgstr ""
 
@@ -203,23 +315,36 @@ msgstr ""
 msgid "\"%1\" value has to be entered."
 msgstr ""
 
-#: main/kexibrowser.cpp:62
+#: core/kexivalidator.h:75
+msgid "You can correct data in this row or use \"Cancel row changes\" function."
+msgstr ""
+
+#: main/kexibrowser.cpp:74 main/keximainwindowimpl.cpp:605
 msgid "Project Navigator"
 msgstr ""
 
-#: main/kexibrowser.cpp:86
+#: main/kexibrowser.cpp:103 main/startup/KexiStartup.cpp:323
+#: widget/kexidbconnectionwidget.cpp:227
 msgid "&Open"
 msgstr "&Очиш"
 
-#: main/kexibrowser.cpp:89
+#: main/kexibrowser.cpp:107
 msgid "&Design"
 msgstr ""
 
-#: main/kexibrowser.cpp:195
+#: main/kexibrowser.cpp:111
+msgid "Open in &Text View"
+msgstr ""
+
+#: main/kexibrowser.cpp:139
+msgid "&Rename"
+msgstr ""
+
+#: main/kexibrowser.cpp:288
 msgid "&Create Object: %1..."
 msgstr ""
 
-#: main/kexibrowser.cpp:197
+#: main/kexibrowser.cpp:293
 msgid "&Create Object..."
 msgstr ""
 
@@ -229,8 +354,8 @@ msgstr ""
 
 #: main/kexiaboutdata.h:36
 msgid ""
-"(c) 2002-2004, Kexi Team\n"
-"(c) 2003, 2004, OpenOffice Polska Ltd.\n"
+"(c) 2002-2005, Kexi Team\n"
+"(c) 2003, 2005, OpenOffice Polska Ltd.\n"
 msgstr ""
 
 #: main/kexiaboutdata.h:38
@@ -247,56 +372,61 @@ msgid "Developer & Maintainer"
 msgstr "Тузувчи ва таъминловчи"
 
 #: main/kexiaboutdata.h:46
-msgid "Developer"
-msgstr "Тузувчи"
-
-#: main/kexiaboutdata.h:47
-msgid "Form Designer, UIModes & much more"
-msgstr ""
-
-#: main/kexiaboutdata.h:48
-msgid "CQL++, SQL assistance"
-msgstr ""
-
-#: main/kexiaboutdata.h:49
-msgid "Code cleanings"
-msgstr ""
-
-#: main/kexiaboutdata.h:50
-msgid "Bugfixes, Original Table Widget"
-msgstr ""
-
-#: main/kexiaboutdata.h:51
 msgid "KexiPropertyEditor and FormDesigner"
 msgstr ""
 
-#: main/kexiaboutdata.h:52
+#: main/kexiaboutdata.h:47
 msgid "Developer, Designer, KexiDB, commercially supported version, win32 port"
 msgstr ""
 
+#: main/kexiaboutdata.h:48
+msgid "PostgreSQL database driver"
+msgstr ""
+
+#: main/kexiaboutdata.h:49
+#, fuzzy
+msgid "Former Developer"
+msgstr "Тузувчи"
+
+#: main/kexiaboutdata.h:50
+msgid "Original Form Designer, Original user interface & much more"
+msgstr ""
+
+#: main/kexiaboutdata.h:51
+msgid "CQL++, SQL assistance"
+msgstr ""
+
+#: main/kexiaboutdata.h:52
+msgid "Original code cleanings"
+msgstr ""
+
 #: main/kexiaboutdata.h:53
-msgid "Initial design improvements"
+msgid "Bugfixes, Original Table Widget"
 msgstr ""
 
 #: main/kexiaboutdata.h:54
-msgid "Icons and UI-Research"
+msgid "Initial design improvements"
 msgstr ""
 
 #: main/kexiaboutdata.h:55
+msgid "Icons and user interface research"
+msgstr ""
+
+#: main/kexiaboutdata.h:56
+msgid "Coffee sponsoring"
+msgstr ""
+
+#: main/kexiaboutdata.h:57
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "Машраб Қуватов"
 
-#: main/kexiaboutdata.h:55
+#: main/kexiaboutdata.h:57
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
-
-#: main/kexiaboutdata.h:56
-msgid "Coffee sponsoring"
-msgstr ""
 
 #: main/filters/kexifiltermanager.cpp:131
 msgid "All Natively Supported File Types"
@@ -306,23 +436,23 @@ msgstr ""
 msgid "All Supported File Types"
 msgstr ""
 
-#: main/startup/KexiStartupFileDialog.cpp:95
+#: main/startup/KexiStartupFileDialog.cpp:101
 msgid "All Kexi Files"
 msgstr ""
 
-#: main/startup/KexiStartupFileDialog.cpp:159
+#: main/startup/KexiStartupFileDialog.cpp:171
 msgid "Enter a filename"
 msgstr "Файлнинг номини киритинг"
 
-#: main/startup/KexiStartupFileDialog.cpp:169
+#: main/startup/KexiStartupFileDialog.cpp:181
 msgid "The file \"%1\" doesn't exist."
 msgstr "\"%1\" файли мавжуд эмас."
 
-#: main/startup/KexiStartupFileDialog.cpp:173
+#: main/startup/KexiStartupFileDialog.cpp:185
 msgid "The file \"%1\" is not readable."
 msgstr ""
 
-#: main/startup/KexiStartupFileDialog.cpp:178
+#: main/startup/KexiStartupFileDialog.cpp:190
 msgid ""
 "The file \"%1\" already exists.\n"
 "Do you want to overwrite it?"
@@ -341,6 +471,7 @@ msgstr "Лойиҳани яратиш"
 msgid "Open Existing Project"
 msgstr ""
 
+#: main/startup/KexiProjectSelector.cpp:211
 #: main/startup/KexiStartupDialog.cpp:183
 msgid "Open Recent Project"
 msgstr ""
@@ -349,461 +480,685 @@ msgstr ""
 msgid "Choose a project"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:325
+#: main/startup/KexiStartupDialog.cpp:327
 msgid "&Create Project"
 msgstr "&Лойиҳани яратиш"
 
-#: main/startup/KexiStartupDialog.cpp:339
+#: main/startup/KexiStartupDialog.cpp:341
 msgid "Don't show me this dialog again"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:348
+#: main/startup/KexiStartupDialog.cpp:350
 msgid "Blank Databases"
 msgstr "Бўш маълумот базаси"
 
-#: main/startup/KexiStartupDialog.cpp:348
+#: main/startup/KexiStartupDialog.cpp:350
 msgid "New Blank Database Project"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:352
+#: main/startup/KexiStartupDialog.cpp:354
 msgid "Kexi will create a new blank database. Click \"OK\" button to proceed."
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:359
+#: main/startup/KexiStartupDialog.cpp:362
 msgid "Personal Databases"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:359
+#: main/startup/KexiStartupDialog.cpp:362
 msgid "New Personal Database Project Templates"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:369
+#: main/startup/KexiStartupDialog.cpp:372
 msgid "Business Databases"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:369
+#: main/startup/KexiStartupDialog.cpp:372
 msgid "New Business Database Project Templates"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:390
+#: main/startup/KexiStartupDialog.cpp:394
 msgid "CD Catalog"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:391
+#: main/startup/KexiStartupDialog.cpp:395
 msgid "Easy-to-use database for storing information about your CD collection."
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:393
+#: main/startup/KexiStartupDialog.cpp:397
 msgid "Expenses"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:394
+#: main/startup/KexiStartupDialog.cpp:398
 msgid "A database for managing your personal expenses."
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:396
+#: main/startup/KexiStartupDialog.cpp:400
 msgid "Image Gallery"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:397
+#: main/startup/KexiStartupDialog.cpp:401
 msgid "A database for archiving your image collection in a form of gallery."
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:405
+#: main/startup/KexiStartupDialog.cpp:409
 msgid "Address Book"
 msgstr "Манзиллар дафтари"
 
-#: main/startup/KexiStartupDialog.cpp:406
+#: main/startup/KexiStartupDialog.cpp:410
 msgid "A database that offers you a contact information"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:506
+#: main/startup/KexiStartupDialog.cpp:510
 msgid "Open &Existing Project"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:577
+#: main/startup/KexiStartupDialog.cpp:582
 msgid "Open &Recent Project"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:41
-msgid "<qt>The file \"%1\" does not exist."
+#: main/startup/KexiStartup.cpp:204
+msgid ""
+"You have specified invalid argument (\"%1\") for \"type\" command-line "
+"option."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:57
+#: main/startup/KexiStartup.cpp:259
+msgid "You have specified invalid port number \"%1\"."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:279
+msgid "Could not start Kexi application this way."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:283
+msgid "You have used both \"createdb\" and \"dropdb\" startup options."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:289
+msgid "No project name specified."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:298
+msgid "Opening database"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:299
+msgid "Please enter the password."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:306
+#, fuzzy
+msgid "local database server"
+msgstr "Бўш маълумот базаси"
+
+#: main/startup/KexiStartup.cpp:307
+#, fuzzy, c-format
+msgid "Database server: %1"
+msgstr "Бўш маълумот базаси"
+
+#: main/startup/KexiStartup.cpp:311
+msgid ""
+"_: unspecified user\n"
+"(unspecified)"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:314
+#, c-format
+msgid "Username: %1"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:322 widget/kexidbconnectionwidget.cpp:157
+msgid "&Details"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:347
+msgid "You have used both \"final-mode\" and \"design-mode\" startup options."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:365
+#, fuzzy
+msgid ""
+"Could not remove project.\n"
+"The file \"%1\" does not exist."
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: main/startup/KexiStartup.cpp:396
+msgid ""
+"Could not open shortcut file\n"
+"\"%1\"."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:469
+msgid ""
+"You have specified a few database objects to be opened automatically, using "
+"startup options.\n"
+"These options will be ignored because it is not available while creating or "
+"dropping projects."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:485
+msgid "Project \"%1\" created successfully."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:495
+msgid "Project \"%1\" dropped successfully."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:608
+#, fuzzy
+msgid ""
+"Could not load project.\n"
+"The file \"%1\" does not exist."
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: main/startup/KexiStartup.cpp:639
+msgid ""
+"The project file \"%1\" is recognized as compatible with \"%2\" database "
+"driver, while you have asked for \"%3\" database driver to be used.\n"
+"Do you want to use \"%4\" database driver?"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:652
+msgid ""
+"Previous version of database file format (\"%1\") is detected in the \"%2\" "
+"project file.\n"
+"Do you want to convert the project to a new \"%3\" format (recommended)?"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:663
+msgid ""
+"Failed converting project file \"%1\" to a new \"%2\" format.\n"
+"The file format remain unchanged."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:675
+msgid "Possible problems:"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:679
 msgid "The file \"%1\" is not recognized as being supported by Kexi."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:58
+#: main/startup/KexiStartup.cpp:681
 #, c-format
-msgid "<qt>Database driver for this file type not found. <p>Detected MIME type: %1"
+msgid ""
+"Database driver for this file type not found.\n"
+"Detected MIME type: %1"
 msgstr ""
 
-#: main/startup/KexiProjectSelector.cpp:211
-msgid "Open recent project"
+#: main/startup/KexiStartup.cpp:700
+msgid "Could not load list of available projects for connection \"%1\""
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:719
+msgid ""
+"Failed saving connection data to\n"
+"\"%1\" file."
+msgstr ""
+
+#: main/startup/KexiStartup_p.cpp:75
+msgid "Saving \"%1\" project file to a new \"%2\" database format..."
 msgstr ""
 
 #: main/startup/KexiProjectSelector.cpp:219
-msgid "Open project"
-msgstr ""
+#, fuzzy
+msgid "Open Project"
+msgstr "&Лойиҳани яратиш"
 
 #: main/startup/KexiProjectSelector.cpp:227
 msgid "Select one of these existing projects on server <b>%1</b>:"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:82
-msgid "Creating a new project"
-msgstr ""
+#: main/startup/KexiNewProjectWizard.cpp:84
+#, fuzzy
+msgid "Creating New Project"
+msgstr "Лойиҳани яратиш"
 
-#: main/startup/KexiNewProjectWizard.cpp:83
+#: main/startup/KexiNewProjectWizard.cpp:85
 msgid "Create"
 msgstr "Яратиш"
 
-#: main/startup/KexiNewProjectWizard.cpp:89
+#: main/startup/KexiNewProjectWizard.cpp:91
 msgid "New project stored in a file"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:91
+#: main/startup/KexiNewProjectWizard.cpp:93
 msgid "New project stored on a database server"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:93
+#: main/startup/KexiNewProjectWizard.cpp:95
 msgid "Don't show me this question again."
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:95
+#: main/startup/KexiNewProjectWizard.cpp:97
 msgid "Always &use database server for creating new projects."
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:105
-msgid "Select a storage method"
+#: main/startup/KexiNewProjectWizard.cpp:107
+msgid "Select Storage Method"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:110
-msgid "Select project's caption"
+#: main/startup/KexiNewProjectWizard.cpp:112
+msgid "Select Project's Caption"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:118
+#: main/startup/KexiNewProjectWizard.cpp:120
 msgid "Enter a new Kexi project's file name:"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:121
+#: main/startup/KexiNewProjectWizard.cpp:123
 msgid ""
 "Select database server's connection you wish to use to create a new Kexi "
 "project. <p>Here you may also add, edit or remove connections from the list."
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:138
-msgid "Select project's location"
+#: main/startup/KexiNewProjectWizard.cpp:140
+msgid "Select Project's Location"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:142
+#: main/startup/KexiNewProjectWizard.cpp:144
 msgid "Existing project databases on server <b>%1</b>:"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:151
-#: main/startup/KexiNewProjectWizard.cpp:219
+#: main/startup/KexiNewProjectWizard.cpp:153
+#: main/startup/KexiNewProjectWizard.cpp:228
 msgid "New database"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:159
-msgid "Select project's caption and database name"
+#: main/startup/KexiNewProjectWizard.cpp:161
+msgid "Select Project's Caption & Database Name"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:257
-#: main/startup/KexiNewProjectWizard.cpp:296
+#: main/startup/KexiNewProjectWizard.cpp:266
+#: main/startup/KexiNewProjectWizard.cpp:305
 msgid "Enter project caption"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:269
+#: main/startup/KexiNewProjectWizard.cpp:278
 msgid "Select server connection for a new project"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:303
+#: main/startup/KexiNewProjectWizard.cpp:312
 msgid "Enter project's database name"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:312
+#: main/startup/KexiNewProjectWizard.cpp:321
 msgid ""
 "<b>A project with database name \"%1\" already exists</b>"
 "<p>Do you want to delete it and create a new one?"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:290 rc.cpp:27
+#: main/keximainwindowimpl.cpp:283
+msgid "Could not start %1 application."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:284
+msgid "Command \"%1\" failed."
+msgstr ""
+
+#. i18n: file data/kexiui.rc line 92
+#: main/keximainwindowimpl.cpp:408 main/keximainwindowimpl.cpp:437 rc.cpp:105
+#, no-c-format
 msgid "&Window"
 msgstr "&Ойна"
 
-#: main/keximainwindowimpl.cpp:293
-msgid "Task bar"
+#: main/keximainwindowimpl.cpp:411
+#, fuzzy
+msgid "Task Bar"
 msgstr "Вазифалар панели"
 
-#: main/keximainwindowimpl.cpp:333
+#: main/keximainwindowimpl.cpp:486
 msgid "&New..."
 msgstr "Я&нги"
 
-#: main/keximainwindowimpl.cpp:335
+#: main/keximainwindowimpl.cpp:488
 msgid "Create a new project"
 msgstr "Янги лойиҳани яратиш"
 
-#: main/keximainwindowimpl.cpp:336
+#: main/keximainwindowimpl.cpp:489
 msgid "Creates a new project. Currently opened project is not affected."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:339
+#: main/keximainwindowimpl.cpp:492
 msgid "Open an existing project"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:340
+#: main/keximainwindowimpl.cpp:493
 msgid "Opens an existing project. Currently opened project is not affected."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:348
-msgid "&More projects..."
-msgstr ""
+#: main/keximainwindowimpl.cpp:502
+#, fuzzy
+msgid "&More Projects..."
+msgstr "&Лойиҳани яратиш"
 
-#: main/keximainwindowimpl.cpp:352
+#: main/keximainwindowimpl.cpp:510
 msgid "Save object changes"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:353
+#: main/keximainwindowimpl.cpp:511
 msgid "Saves object changes from currently selected window."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:355
+#: main/keximainwindowimpl.cpp:514
 msgid "Save &As..."
 msgstr "...сифатида с&ақлаш"
 
-#: main/keximainwindowimpl.cpp:357 main/keximainwindowimpl.cpp:1494
+#: main/keximainwindowimpl.cpp:516 main/keximainwindowimpl.cpp:1953
 msgid "Save object as"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:358
+#: main/keximainwindowimpl.cpp:517
 msgid ""
 "Saves object changes from currently selected window under a new name (within "
 "the same project)."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:360 main/keximainwindowimpl.cpp:1500
-msgid "Project properties"
+#: main/keximainwindowimpl.cpp:519
+msgid "Project Properties"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:363
+#: main/keximainwindowimpl.cpp:526
 #, fuzzy
 msgid "&Close Project"
 msgstr "&Лойиҳани яратиш"
 
-#: main/keximainwindowimpl.cpp:365
+#: main/keximainwindowimpl.cpp:528
 #, fuzzy
 msgid "Close the current project"
 msgstr "Янги лойиҳани яратиш"
 
-#: main/keximainwindowimpl.cpp:366
+#: main/keximainwindowimpl.cpp:529
 msgid "Closes the current project."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:370
+#: main/keximainwindowimpl.cpp:534
 msgid "&Relationships..."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:372
+#: main/keximainwindowimpl.cpp:536
 msgid "Project relationships"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:373
+#: main/keximainwindowimpl.cpp:537
 msgid "Shows project relationships."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:381
+#: main/keximainwindowimpl.cpp:547
+#, fuzzy
+msgid "Project..."
+msgstr "&Лойиҳани яратиш"
+
+#: main/keximainwindowimpl.cpp:560
 #, fuzzy
 msgid "Delete object"
 msgstr "Лойиҳани яратиш"
 
-#: main/keximainwindowimpl.cpp:382
+#: main/keximainwindowimpl.cpp:561
 msgid "Deletes currently selected object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:384
+#: main/keximainwindowimpl.cpp:563
 msgid "Delete Row"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:386
-msgid "Delete currently selected row from a table."
+#: main/keximainwindowimpl.cpp:565
+msgid "Delete currently selected row from a table"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:387
-msgid "Deletes currently selected row from a table ."
+#: main/keximainwindowimpl.cpp:566
+msgid "Deletes currently selected row from a table."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:390
-msgid "&Data View"
+#: main/keximainwindowimpl.cpp:568
+msgid "Clear Table Contents"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:394
-msgid "Switch to Data View mode"
+#: main/keximainwindowimpl.cpp:570
+msgid "Clear table contents"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:395
-msgid "Switches to Data View mode."
+#: main/keximainwindowimpl.cpp:571
+msgid "Clears table contents."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:397
-msgid "D&esign View"
+#: main/keximainwindowimpl.cpp:574
+msgid "Edit Item"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:401
-msgid "Switch to Design View mode"
+#: main/keximainwindowimpl.cpp:575
+msgid "Edit currently selected item"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:402
-msgid "Switches to Design View mode."
+#: main/keximainwindowimpl.cpp:576
+msgid "Edits currently selected item."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:404
-msgid "&Text View"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:408
-msgid "Switch to Text View mode"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:409
-msgid "Switches to Text View mode."
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:411
-msgid "Project navigator"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:413
-msgid "Go to Project navigator panel"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:414
-msgid "Goes to Project navigator panel."
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:417
-msgid "Property editor"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:419
-msgid "Go to Property editor panel"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:420
-msgid "Goes to Property editor panel."
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:423 main/keximainwindowimpl.cpp:1525
-msgid "From File..."
-msgstr "Файлдан"
-
-#: main/keximainwindowimpl.cpp:425 main/keximainwindowimpl.cpp:1530
-msgid "From Server..."
-msgstr "Сервердан"
-
-#: main/keximainwindowimpl.cpp:429
-msgid "&Save Row"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:430
-msgid "Save currently selected table row's data"
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:431
-msgid "Saves currently selected table row's data."
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:433
+#: main/keximainwindowimpl.cpp:578
 msgid "&Insert Empty Row"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:435
+#: main/keximainwindowimpl.cpp:580
 msgid "Insert one empty row above"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:436
+#: main/keximainwindowimpl.cpp:581
 msgid "Inserts one empty row above currently selected table row."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:441
+#: main/keximainwindowimpl.cpp:584
+msgid "&Data View"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:588
+msgid "Switch to Data View mode"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:589
+msgid "Switches to Data View mode."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:591
+msgid "D&esign View"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:595
+msgid "Switch to Design View mode"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:596
+msgid "Switches to Design View mode."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:598
+msgid "&Text View"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:602
+msgid "Switch to Text View mode"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:603
+msgid "Switches to Text View mode."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:607
+msgid "Go to Project navigator panel"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:608
+msgid "Goes to Project navigator panel."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:611
+msgid "Property Editor"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:613
+msgid "Go to Property editor panel"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:614
+msgid "Goes to Property editor panel."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:618
+msgid "&Save Row"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:619
+msgid "Save currently selected table row's data"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:620
+msgid "Saves currently selected table row's data."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:623
+msgid "&Cancel Row Changes"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:624
+msgid "Cancel changes made to currently selected table row"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:625
+msgid "Cancels changes made to currently selected table row."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:628
+msgid "&Filter"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:634
+msgid "&Ascending"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:636
+msgid "Sort data in ascending order"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:637
+msgid ""
+"Sorts data in ascending order (from A to Z and from 0 to 9). Data from "
+"selected column is used for sorting."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:639
+msgid "&Descending"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:641
+msgid "Sort data in descending order"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:642
+msgid ""
+"Sorts data in descending (from Z to A and from 9 to 0). Data from selected "
+"column is used for sorting."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:647
+#, fuzzy
+msgid "&Next Window"
+msgstr "&Ойна"
+
+#: main/keximainwindowimpl.cpp:654
+msgid "Next window"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:655
+msgid "Switches to the next window."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:657
+#, fuzzy
+msgid "&Previous Window"
+msgstr "&Ойна"
+
+#: main/keximainwindowimpl.cpp:664
+msgid "Previous window"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:665
+msgid "Switches to the previous window."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:670
 msgid "Lets you configure shortcut keys."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:444
+#: main/keximainwindowimpl.cpp:674
 msgid "Lets you configure toolbars."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:446
+#: main/keximainwindowimpl.cpp:677
 msgid "Other"
 msgstr "Бошқа"
 
-#: main/keximainwindowimpl.cpp:449
+#: main/keximainwindowimpl.cpp:680
 msgid "Show Context Help"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:452
+#: main/keximainwindowimpl.cpp:683
 msgid "Hide Context Help"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:456
+#: main/keximainwindowimpl.cpp:693
 msgid "Enable Forms"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:458
+#: main/keximainwindowimpl.cpp:695
 msgid "Disable Forms"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:468
+#: main/keximainwindowimpl.cpp:714
 msgid "Lets you configure Kexi."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:473
+#: main/keximainwindowimpl.cpp:720
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:475 main/keximainwindowimpl.cpp:2265
-msgid "Important information"
+#: main/keximainwindowimpl.cpp:723 main/keximainwindowimpl.cpp:2858
+msgid "Important Information"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:658
+#: main/keximainwindowimpl.cpp:856
 msgid "reason:"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:691
+#: main/keximainwindowimpl.cpp:894
 msgid "cannot create object - "
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:692
+#: main/keximainwindowimpl.cpp:895
 msgid "unknown object type \"%1\""
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:699
+#: main/keximainwindowimpl.cpp:902
 msgid "cannot create object of type \"%1\""
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:709
+#: main/keximainwindowimpl.cpp:912
 msgid "object not found"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:715
+#: main/keximainwindowimpl.cpp:925
 msgid "cannot open object"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:723
+#: main/keximainwindowimpl.cpp:934
 msgid ""
 "You have requested selected objects to be opened automatically on startup. "
 "Several objects cannot be opened."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:749
-msgid "Could not load list of available projects for connection \"%1\""
-msgstr ""
-
-#: main/keximainwindowimpl.cpp:793
+#: main/keximainwindowimpl.cpp:994
 msgid "Welcome"
 msgstr "Марҳамат"
 
-#: main/keximainwindowimpl.cpp:793
+#: main/keximainwindowimpl.cpp:994
 msgid ""
 "The <B>KEXI team</B>"
 " wishes you a lot of productive work, with this product. "
@@ -821,55 +1176,103 @@ msgid ""
 "starting point."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1582
+#: main/keximainwindowimpl.cpp:1985
+msgid "From File..."
+msgstr "Файлдан"
+
+#: main/keximainwindowimpl.cpp:1990
+msgid "From Server..."
+msgstr "Сервердан"
+
+#: main/keximainwindowimpl.cpp:2040
 msgid "Selected view mode is not supported for \"%1\" object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1584
+#: main/keximainwindowimpl.cpp:2042
 msgid "Selected view mode (%1) is not supported by this object type (%2)"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1592
-msgid "Switching to other view failed."
+#: main/keximainwindowimpl.cpp:2051
+msgid "Switching to other view failed (%1)."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1695
-msgid "Unknown error"
-msgstr "Номаълум хато"
+#: main/keximainwindowimpl.cpp:2196
+msgid "Saving \"%1\" object failed."
+msgstr ""
 
-#: main/keximainwindowimpl.cpp:1754
+#: main/keximainwindowimpl.cpp:2218
 msgid "Save Object As"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1768
+#: main/keximainwindowimpl.cpp:2232
 msgid ""
+"_: %1 is the type of the object (eg 'report', 'table', 'query') and %2 is "
+"its name For example: Table \"my_table\" allready exists\n"
 "%1 \"%2\" already exists.\n"
 "Please choose other name."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1806
-msgid "<p>The object has been modified: %1 \"%2\".</p><p>Do you want to save it?</p>"
+#: main/keximainwindowimpl.cpp:2248
+msgid "Saving new \"%1\" object failed."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2167
+#: main/keximainwindowimpl.cpp:2282
+msgid ""
+"_: %1 is the type of the object (eg 'Report', 'Table', 'query') and %2 is "
+"its name\n"
+"<p>%1 \"%2\" has been modified.</p><p>Do you want to save it?</p>"
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:2732
 msgid "Do you want to remove:"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2307
+#: main/keximainwindowimpl.cpp:2757
+msgid "Could not remove object."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:2775
+msgid "Renaming object \"%1\" failed."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:2899
 msgid ""
 "Please note that forms are currently unstable functionality, provided "
 "<u>only for your preview</u>."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2310
+#: main/keximainwindowimpl.cpp:2902
 msgid "Forms will be available after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2314
+#: main/keximainwindowimpl.cpp:2906
 msgid "Forms will be hidden after restarting Kexi application."
 msgstr ""
 
-#: main/kexinamewidget.cpp:63
+#: main/keximainwindowimpl.cpp:2931
+msgid "Could not start project \"%1\" in Final Mode."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:2936
+msgid "No Final Mode data found."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:2944
+msgid "Error reading Final Mode data."
+msgstr ""
+
+#: main/keximainwindowimpl.cpp:2974
+#, fuzzy
+msgid "Specified plugin does not exist."
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: main/keximainwindowimpl.cpp:2982
+msgid "Specified object could not be opened."
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 78
+#: main/kexinamewidget.cpp:63 rc.cpp:141
+#, no-c-format
 msgid "Caption:"
 msgstr ""
 
@@ -885,11 +1288,15 @@ msgstr ""
 msgid "Database Location"
 msgstr ""
 
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:41
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 111
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:41 rc.cpp:525
+#, no-c-format
 msgid "Local"
 msgstr ""
 
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:42
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 139
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:42 rc.cpp:528
+#, no-c-format
 msgid "Remote"
 msgstr ""
 
@@ -897,11 +1304,16 @@ msgstr ""
 msgid "Custom socket:"
 msgstr ""
 
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:48 rc.cpp:75
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 183
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:48 rc.cpp:407
+#, no-c-format
 msgid "Host:"
 msgstr ""
 
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:50 rc.cpp:77
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 218
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:50 rc.cpp:411
+#: rc.cpp:537
+#, no-c-format
 msgid "Port:"
 msgstr ""
 
@@ -913,8 +1325,10 @@ msgstr ""
 msgid "Driver: "
 msgstr ""
 
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 87
 #: main/projectWizard/kexicreateproject.cpp:52
-#: main/projectWizard/kexicreateprojectpageengine.cpp:86 rc.cpp:44 rc.cpp:65
+#: main/projectWizard/kexicreateprojectpageengine.cpp:86 rc.cpp:324 rc.cpp:381
+#, no-c-format
 msgid "Engine"
 msgstr ""
 
@@ -938,12 +1352,16 @@ msgstr ""
 msgid "Internal error while retrieving information. (No driver installed ?)"
 msgstr ""
 
-#: main/projectWizard/kexicreateproject.cpp:54 rc.cpp:68
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 30
+#: main/projectWizard/kexicreateproject.cpp:54 rc.cpp:388
+#, no-c-format
 msgid "Location"
 msgstr ""
 
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 270
 #: main/projectWizard/kexicreateproject.cpp:56
-#: main/projectWizard/kexicreateprojectpageauth.cpp:35 rc.cpp:80
+#: main/projectWizard/kexicreateprojectpageauth.cpp:35 rc.cpp:420 rc.cpp:540
+#, no-c-format
 msgid "Authentication"
 msgstr ""
 
@@ -955,7 +1373,9 @@ msgstr ""
 msgid "Select from existing databases:"
 msgstr ""
 
-#: main/projectWizard/kexicreateprojectpagedb.cpp:64 rc.cpp:64
+#. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 64
+#: main/projectWizard/kexicreateprojectpagedb.cpp:64 rc.cpp:378 rc.cpp:510
+#, no-c-format
 msgid "Database"
 msgstr ""
 
@@ -979,7 +1399,9 @@ msgstr ""
 msgid "User:"
 msgstr ""
 
-#: main/projectWizard/kexicreateprojectpageauth.cpp:39 rc.cpp:82
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 294
+#: main/projectWizard/kexicreateprojectpageauth.cpp:39 rc.cpp:426
+#, no-c-format
 msgid "Password:"
 msgstr ""
 
@@ -1002,8 +1424,86 @@ msgstr ""
 msgid " Line: %1 Col: %2 "
 msgstr ""
 
-#: main.cpp:44
+#: kexi_utils.h:38
+msgid "This function is not available"
+msgstr ""
+
+#: kexi_utils.h:40
+msgid "\"%1\" function is not available"
+msgstr ""
+
+#: kexi_utils.h:42
 msgid ""
+"_: %1 is one of the sentence above ie This function is not available\n"
+" %1 for version %2 of %3 application."
+msgstr ""
+
+#: tests/gui/finddialog/main.cpp:29
+msgid "KFind"
+msgstr ""
+
+#: tests/gui/finddialog/kexifinddialog.cpp:37
+msgid "(All columns)"
+msgstr ""
+
+#: main.cpp:46
+#, fuzzy
+msgid "Options related to entire projects:"
+msgstr "Янги лойиҳани яратиш"
+
+#: main.cpp:48
+msgid ""
+"Create a new, blank project using specified\n"
+"database driver and database name\n"
+"and exit immediately.\n"
+"You will be asked for confirmation\n"
+"if overwriting is needed."
+msgstr ""
+
+#: main.cpp:54
+msgid ""
+"Like --createdb, but also open newly\n"
+"created database.\n"
+msgstr ""
+
+#: main.cpp:57
+msgid ""
+"Drop (remove) a project using specified\n"
+"database driver and database name.\n"
+"You will be asked for confirmation."
+msgstr ""
+
+#: main.cpp:62
+msgid ""
+"Database driver to be used\n"
+"for connecting to a database project\n"
+"(SQLite by default).\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+
+#: main.cpp:69
+msgid ""
+"Specifies a type of a file provided\n"
+"as argument. This option is useful\n"
+"if your filename has not set a valid \n"
+"extension and it's type cannot be detected\n"
+"unambiguously by looking at it's contents.\n"
+"This option is ignored if no file\n"
+"is specified as an argument.\n"
+"Available file types are:\n"
+"- \"project\" for a project file (the default)\n"
+"- \"shortcut\" for a shortcut file pointing\n"
+"  you to a project.\n"
+msgstr ""
+
+#: main.cpp:82
+msgid "Options related to opening objects within a project:"
+msgstr ""
+
+#: main.cpp:84
+msgid ""
+"\n"
 "Open object of type <object_type>\n"
 "and name <object_name> from specified project\n"
 "on application start.\n"
@@ -1017,1009 +1517,1033 @@ msgid ""
 " --open query:\"My very big query\""
 msgstr ""
 
-#: main.cpp:45
+#: main.cpp:96
 msgid ""
+"\n"
 "Like --open, but the object will\n"
 "be opened in Design Mode, if one is available"
 msgstr ""
 
-#: main.cpp:46
+#: main.cpp:99
+msgid ""
+"\n"
+"Like --open, but the object will\n"
+"be opened in Text Mode, if one is available"
+msgstr ""
+
+#: main.cpp:102
 msgid "Start new object design of type <object_type>"
 msgstr ""
 
-#: main.cpp:47
-msgid "Database project file (or shortcut file) to open"
-msgstr ""
-
-#: filters/import/csv/kexicsvsource.cpp:36
-msgid "Could not open file"
-msgstr ""
-
-#: filters/import/csv/kexicsvsource.cpp:36
-msgid "CSV import"
-msgstr ""
-
-#: filters/import/csv/kexicsvimport.cpp:51
-msgid "csv file"
-msgstr ""
-
-#: filters/import/kspread_chain/kexikspreadsource.cpp:294
+#: main.cpp:105
 msgid ""
-"You have not specified a valid cell range. This must contain the data you "
-"would like to import"
+"Start project in the Final Mode, regardless \n"
+"of the project settings"
 msgstr ""
 
-#: filters/import/kspread_chain/kexikspreadsource.cpp:300
+#: main.cpp:108
 msgid ""
-"You have chosen that a separate header range should be used. The specified "
-"range is invalid though. You have to fix that problem before you can proceed"
+"Start project in the Design Mode, regardless \n"
+"of the project settings"
 msgstr ""
 
-#: filters/import/kspread_chain/kexikspreadimport.cpp:51
-msgid "kspread file"
+#: main.cpp:113
+msgid "Options related to database servers:"
 msgstr ""
 
-#: kexidb/field.cpp:565
+#: main.cpp:116
+msgid ""
+"User name to be used\n"
+"for connecting to a database project.\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+
+#: main.cpp:127
+msgid ""
+"Server (host) name to be used\n"
+"for connecting to a database project.\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+
+#: main.cpp:132
+msgid ""
+"Server's port name to be used\n"
+"for connecting to a database project.\n"
+"Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+
+#: main.cpp:137
+msgid ""
+"Server's local socket filename\n"
+"to be used for connecting to a database\n"
+"project. Ignored if a shortcut filename\n"
+"is provided."
+msgstr ""
+
+#: main.cpp:144
+msgid ""
+"Database project filename\n"
+"or shortcut filename\n"
+"or database name on a server to open"
+msgstr ""
+
+#: kexidb/drivermanager.cpp:170 migration/migratemanager.cpp:136
+msgid "Could not find any database drivers."
+msgstr ""
+
+#: kexidb/drivermanager.cpp:180 kexidb/drivermanager.cpp:197
+#: migration/migratemanager.cpp:155
+msgid "Could not find database driver \"%1\"."
+msgstr ""
+
+#: kexidb/drivermanager.cpp:209 migration/migratemanager.cpp:167
+msgid "Could not load database driver \"%1\"."
+msgstr ""
+
+#: migration/importwizard.cpp:83
+msgid "Introduction"
+msgstr ""
+
+#: migration/importwizard.cpp:86
+#, fuzzy
+msgid "Select Source Database Type"
+msgstr "Бўш маълумот базаси"
+
+#: migration/importwizard.cpp:89
+msgid "Select Source Connection"
+msgstr ""
+
+#: migration/importwizard.cpp:92
+#, fuzzy
+msgid "Select Source Database"
+msgstr "Бўш маълумот базаси"
+
+#: migration/importwizard.cpp:95
+#, fuzzy
+msgid "Select Destination Database Type"
+msgstr "Бўш маълумот базаси"
+
+#: migration/importwizard.cpp:97
+msgid "Select Destination Project's Caption"
+msgstr ""
+
+#: migration/importwizard.cpp:100
+#, fuzzy
+msgid "Select Destination Database"
+msgstr "Бўш маълумот базаси"
+
+#: migration/importwizard.cpp:103
+msgid "Finished"
+msgstr ""
+
+#: migration/importwizard.cpp:119
+msgid ""
+"This wizard will guide you through the\n"
+"process of converting an existing data\n"
+"set into a kexi database"
+msgstr ""
+
+#: migration/importwizard.cpp:179
+msgid "Destination project's caption:"
+msgstr ""
+
+#: migration/importwizard.cpp:217
+msgid ""
+"Finished!\n"
+"All required information has now\n"
+"been gathered.  Click Finish below\n"
+"to start the import process\n"
+"\n"
+"NOTE:  You may be asked for extra\n"
+"information such as field types if\n"
+"the import module cannot automatically\n"
+"determine this for you"
+msgstr ""
+
+#: migration/importwizard.cpp:240
+msgid "Source type was not PostgreSQL Database."
+msgstr ""
+
+#: migration/importwizard.cpp:246
+msgid ""
+"\n"
+"No new database name was entered."
+msgstr ""
+
+#: migration/importwizard.cpp:251
+msgid "The following problems were found with the data you entered:"
+msgstr ""
+
+#: migration/importwizard.cpp:252
+msgid "Please go back and correct these errors."
+msgstr ""
+
+#: migration/importwizard.cpp:256
+msgid "No problems were found with the data you entered."
+msgstr ""
+
+#: migration/importwizard.cpp:331
+msgid "Import Succeeded."
+msgstr ""
+
+#: migration/importwizard.cpp:331
+msgid "Success"
+msgstr ""
+
+#: migration/importwizard.cpp:335
+msgid "Import failed because: "
+msgstr ""
+
+#: migration/importwizard.cpp:335
+msgid "Failure"
+msgstr ""
+
+#: kexidb/field.cpp:618
 msgid "Invalid type"
 msgstr ""
 
-#: kexidb/field.cpp:566
+#: kexidb/field.cpp:619
 msgid "Byte"
 msgstr ""
 
-#: kexidb/field.cpp:567
+#: kexidb/field.cpp:620
 msgid "Short integer number"
 msgstr ""
 
-#: kexidb/field.cpp:568 kexidb/field.cpp:598
+#: kexidb/field.cpp:621 kexidb/field.cpp:651
 msgid "Integer number"
 msgstr ""
 
-#: kexidb/field.cpp:569
+#: kexidb/field.cpp:622
 msgid "Big integer number"
 msgstr ""
 
-#: kexidb/field.cpp:570
+#: kexidb/field.cpp:623
 msgid "Yes/No value"
 msgstr ""
 
-#: kexidb/field.cpp:571
+#: kexidb/field.cpp:624
 msgid "Date"
 msgstr ""
 
-#: kexidb/field.cpp:572
+#: kexidb/field.cpp:625
 msgid "Date and time"
 msgstr ""
 
-#: kexidb/field.cpp:573
+#: kexidb/field.cpp:626
 msgid "Time"
 msgstr ""
 
-#: kexidb/field.cpp:574
+#: kexidb/field.cpp:627
 msgid "Single precision number"
 msgstr ""
 
-#: kexidb/field.cpp:575
+#: kexidb/field.cpp:628
 msgid "Double precision number"
 msgstr ""
 
-#: kexidb/field.cpp:576 kexidb/field.cpp:597
+#: kexidb/field.cpp:629 kexidb/field.cpp:650
 msgid "Text"
 msgstr ""
 
-#: kexidb/field.cpp:577
+#: kexidb/field.cpp:630
 msgid "Long text"
 msgstr ""
 
-#: kexidb/field.cpp:578 kexidb/field.cpp:602
+#: kexidb/field.cpp:631 kexidb/field.cpp:655
 msgid "Object"
 msgstr ""
 
-#: kexidb/field.cpp:596
+#: kexidb/field.cpp:649
 msgid "Invalid group"
 msgstr ""
 
-#: kexidb/field.cpp:599
+#: kexidb/field.cpp:652
 msgid "Floating point number"
 msgstr ""
 
-#: kexidb/field.cpp:600
+#: kexidb/field.cpp:653
 msgid "Yes/No"
 msgstr ""
 
-#: kexidb/field.cpp:601
+#: kexidb/field.cpp:654
 msgid "Date/Time"
 msgstr ""
 
-#: kexidb/drivers/mySQL/mysqlcursor.cpp:57
 #: kexidb/drivers/pqxx/pqxxcursor.cpp:66
 msgid "No connection for cursor open operation specified"
 msgstr ""
 
-#: kexidb/drivers/sqlite/sqlitecursor.cpp:267
-msgid "Cannot fetch a record with a cursor"
-msgstr ""
-
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:136
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:178
 msgid "Could not remove file \"%1\"."
 msgstr ""
 
-#: kexidb/cursor.cpp:386 kexidb/cursor.cpp:409
+#: kexidb/driver_p.cpp:48
+msgid "Client library version"
+msgstr ""
+
+#: kexidb/driver_p.cpp:52
+msgid "Default character encoding on server"
+msgstr ""
+
+#: kexidb/driver_p.cpp:58
+msgid "File-based database driver"
+msgstr ""
+
+#: kexidb/driver_p.cpp:62
+msgid "File-based database's MIME type"
+msgstr ""
+
+#: kexidb/driver_p.cpp:67
+msgid "Single transactions"
+msgstr ""
+
+#: kexidb/driver_p.cpp:69
+msgid "Multiple transactions"
+msgstr ""
+
+#: kexidb/driver_p.cpp:71
+msgid "Nested transactions"
+msgstr ""
+
+#: kexidb/driver_p.cpp:73
+msgid "Ignored"
+msgstr ""
+
+#: kexidb/driver_p.cpp:75 plugins/queries/kexiquerydesignerguieditor.cpp:1294
+msgid "None"
+msgstr ""
+
+#: kexidb/driver_p.cpp:77
+msgid "Transaction support"
+msgstr ""
+
+#: kexidb/driver_p.cpp:82
+msgid "KexiDB driver version"
+msgstr ""
+
+#: kexidb/cursor.cpp:119
+msgid "No query statement or schema defined."
+msgstr ""
+
+#: kexidb/cursor.cpp:125
+msgid "Query statement is empty."
+msgstr ""
+
+#: kexidb/cursor.cpp:134
+msgid "Error opening database cursor."
+msgstr ""
+
+#: kexidb/cursor.cpp:389 kexidb/cursor.cpp:412
 msgid "Cannot fetch next record."
 msgstr ""
 
-#: kexidb/object.cpp:39
+#: kexidb/object.cpp:51
 msgid "Unspecified error encountered"
 msgstr ""
 
-#: kexidb/drivermanager.cpp:122
-msgid "Could not find any database drivers."
+#: kexidb/queryschema.cpp:164
+#: plugins/queries/kexiquerydesignerguieditor.cpp:881
+msgid ""
+"_: short for expression (only latin letters, please)\n"
+"expr"
 msgstr ""
 
-#: kexidb/drivermanager.cpp:141
-msgid "Could not find database driver \"%1\"."
-msgstr ""
-
-#: kexidb/drivermanager.cpp:153
-msgid "Could not load database driver \"%1\"."
-msgstr ""
-
-#: kexidb/drivermanager.cpp:281
+#: kexidb/drivermanager.cpp:352
 msgid "No such driver service: \"%1\"."
 msgstr ""
 
-#: sqlparser.y:424
+#: kexidb/parser/parser_p.cpp:136
+msgid "identifier was expected"
+msgstr ""
+
+#: kexidb/parser/parser_p.cpp:144 kexidb/parser/parser_p.cpp:147
 msgid "Syntax Error"
 msgstr ""
 
-#: sqlparser.y:424
-msgid "Syntax Error near '%1'"
+#: kexidb/parser/parser_p.cpp:145
+msgid "\"%1\" is a reserved keyword"
 msgstr ""
 
-#: sqlparser.y:452 sqlparser.y:469 sqlparser.y:720
-msgid "Field List Error"
+#: kexidb/parser/parser_p.cpp:148
+msgid "Syntax Error near \"%1\""
 msgstr ""
 
-#: sqlparser.y:452
-msgid "Unknown table '%1' in field list"
+#: kexidb/parser/parser_p.cpp:177
+msgid "No query specified"
 msgstr ""
 
-#: sqlparser.y:469
+#: kexidb/parser/parser_p.cpp:242
+msgid "\"*\" could not be used if no tables are specified"
+msgstr ""
+
+#: kexidb/expression.cpp:539 kexidb/parser/parser_p.cpp:289
+msgid "Ambiguous field name"
+msgstr ""
+
+#: kexidb/expression.cpp:540 kexidb/parser/parser_p.cpp:290
+msgid ""
+"Both table \"%1\" and \"%2\" have defined \"%3\" field. Use "
+"\"<tableName>.%4\" notation to specify table name."
+msgstr ""
+
+#: kexidb/expression.cpp:549 kexidb/expression.cpp:620
+#: kexidb/parser/parser_p.cpp:299 kexidb/parser/parser_p.cpp:381
+msgid "Field not found"
+msgstr ""
+
+#: kexidb/expression.cpp:550 kexidb/parser/parser_p.cpp:300
+msgid "Table containing \"%1\" field not found"
+msgstr ""
+
+#: kexidb/expression.cpp:575 kexidb/parser/parser_p.cpp:323
+msgid "Could not access the table directly using its name"
+msgstr ""
+
+#: kexidb/expression.cpp:576 kexidb/parser/parser_p.cpp:324
+msgid "Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\""
+msgstr ""
+
+#: kexidb/expression.cpp:608 kexidb/parser/parser_p.cpp:351
+msgid "Ambiguous \"%1.*\" expression"
+msgstr ""
+
+#: kexidb/expression.cpp:609 kexidb/parser/parser_p.cpp:352
+msgid "More than one \"%1\" table or alias defined"
+msgstr ""
+
+#: kexidb/expression.cpp:636 kexidb/parser/parser_p.cpp:371
+msgid "Ambiguous \"%1.%2\" expression"
+msgstr ""
+
+#: kexidb/expression.cpp:638 kexidb/parser/parser_p.cpp:372
+msgid "More than one \"%1\" table or alias defined containing \"%2\" field"
+msgstr ""
+
+#: kexidb/expression.cpp:621 kexidb/parser/parser_p.cpp:381
+msgid "Table \"%1\" has no \"%2\" field"
+msgstr ""
+
+#. i18n("Field List Error"), 
+#: kexidb/parser/parser_p.cpp:437
 #, fuzzy
-msgid "Table '%1' doesn't exist"
+msgid "Table \"%1\" does not exist"
 msgstr "\"%1\" файли мавжуд эмас."
 
-#: sqlparser.y:720
-msgid "Unknown column '%1' in table '%2'"
+#: kexidb/parser/parser_p.cpp:511
+msgid "Invalid alias definition for column \"%1\""
 msgstr ""
 
-#: kexidb/connectiondata.cpp:86
+#: kexidb/parser/parser_p.cpp:543
+msgid "Invalid \"%1\" column definition"
+msgstr ""
+
+#: sqlscanner.l:97
+msgid "Invalid integer number"
+msgstr ""
+
+#: sqlscanner.l:97
+msgid "This integer number may be too large."
+msgstr ""
+
+#: sqlscanner.l:266 sqlscanner.l:280
+msgid "Invalid identifier"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1053 sqlscanner.l:267
+#: sqlscanner.l:281
+msgid "Identifiers should start with a letter or '_' character"
+msgstr ""
+
+#: kexidb/expression.cpp:594
+msgid "Table not found"
+msgstr ""
+
+#: kexidb/connection.cpp:1346 kexidb/expression.cpp:595
+msgid "Unknown table \"%1\""
+msgstr ""
+
+#: kexidb/connectiondata.cpp:98
 msgid "file"
 msgstr ""
 
-#: kexidb/driver.cpp:91
+#: kexidb/driver.cpp:100
 msgid ""
 "Incompatible database driver's \"%1\" version: found version %2, expected "
 "version %3."
 msgstr ""
 
-#: kexidb/driver.cpp:96
-msgid "Invalid database driver's \"%1\" implementation:\n"
+#: kexidb/driver.cpp:107
+msgid ""
+"Invalid database driver's \"%1\" implementation:\n"
 msgstr ""
 
-#: kexidb/driver.cpp:97
+#: kexidb/driver.cpp:108
 msgid "Value of \"%1\" is not initialized for the driver."
 msgstr ""
 
-#: kexidb/driver.cpp:123
+#: kexidb/driver.cpp:165
 msgid "File name expected for file-based database driver."
 msgstr ""
 
-#: kexidb/connection.cpp:81
+#: kexidb/connection.cpp:69
 msgid "Invalid database contents. "
 msgstr ""
 
-#: kexidb/connection.cpp:147
+#: kexidb/connection.cpp:73
+msgid "It is a system object."
+msgstr ""
+
+#: kexidb/connection.cpp:169
 msgid "Connection already established."
 msgstr ""
 
-#: kexidb/connection.cpp:187
+#: kexidb/connection.cpp:175
+msgid "Could not open \"%1\" project file."
+msgstr ""
+
+#: kexidb/connection.cpp:176
+msgid "Could not connect to \"%1\" database server."
+msgstr ""
+
+#: kexidb/connection.cpp:213
 msgid "Not connected to the database server."
 msgstr ""
 
-#: kexidb/connection.cpp:197
+#: kexidb/connection.cpp:223
 msgid "Currently no database is used."
 msgstr ""
 
-#: kexidb/connection.cpp:253
+#: kexidb/connection.cpp:279
 msgid "The database \"%1\" does not exist."
 msgstr ""
 
-#: kexidb/connection.cpp:273
+#: kexidb/connection.cpp:299
 msgid "Database file \"%1\" does not exist."
 msgstr ""
 
-#: kexidb/connection.cpp:278
+#: kexidb/connection.cpp:304
 msgid "Database file \"%1\" is not readable."
 msgstr ""
 
-#: kexidb/connection.cpp:283
+#: kexidb/connection.cpp:309
 msgid "Database file \"%1\" is not writable."
 msgstr ""
 
-#: kexidb/connection.cpp:325
+#: kexidb/connection.cpp:351
 msgid "Database \"%1\" already exists."
 msgstr ""
 
-#: kexidb/connection.cpp:329
+#: kexidb/connection.cpp:355
 msgid "Cannot create database \"%1\". This name is reserved for system database."
 msgstr ""
 
-#: kexidb/connection.cpp:344
+#: kexidb/connection.cpp:370
 msgid "Error creating database \"%1\" on the server."
 msgstr ""
 
-#: kexidb/connection.cpp:358
+#: kexidb/connection.cpp:384
 msgid "Database \"%1\" created but could not be opened."
 msgstr ""
 
-#: kexidb/connection.cpp:455
+#: kexidb/connection.cpp:472
+msgid "Opening database \"%1\" failed"
+msgstr ""
+
+#: kexidb/connection.cpp:483
 msgid "\"%1\" database property not found"
 msgstr ""
 
-#: kexidb/connection.cpp:472
+#: kexidb/connection.cpp:500
 msgid "Database version (%1) does not match Kexi application's version (%2)"
 msgstr ""
 
-#: kexidb/connection.cpp:536
+#: kexidb/connection.cpp:564
 msgid "Cannot find any database for temporary connection."
 msgstr ""
 
-#: kexidb/connection.cpp:540
+#: kexidb/connection.cpp:568
 msgid "Error during starting temporary connection using \"%1\" database name."
 msgstr ""
 
-#: kexidb/connection.cpp:557
+#: kexidb/connection.cpp:585
 msgid "Cannot drop database - name not specified."
 msgstr ""
 
-#: kexidb/connection.cpp:575
+#: kexidb/connection.cpp:603
 msgid "Cannot delete database - name not specified."
 msgstr ""
 
-#: kexidb/connection.cpp:580
+#: kexidb/connection.cpp:608
 msgid "Cannot delete system database \"%1\"."
 msgstr ""
 
-#: kexidb/connection.cpp:990
+#: kexidb/connection.cpp:904
+msgid "Error while executing SQL statement."
+msgstr ""
+
+#: kexidb/connection.cpp:1092
 msgid "Cannot create table without fields."
 msgstr ""
 
-#: kexidb/connection.cpp:994
+#: kexidb/connection.cpp:1096
 msgid "System name \"%1\" cannot be used as table name."
 msgstr ""
 
-#: kexidb/connection.cpp:1002
+#: kexidb/connection.cpp:1103
 msgid "System name \"%1\" cannot be used as one of fields in \"%2\" table."
 msgstr ""
 
-#: kexidb/connection.cpp:1112
+#: kexidb/connection.cpp:1115
+msgid "Could not create the same table \"%1\" twice."
+msgstr ""
+
+#: kexidb/connection.cpp:1127
+#, fuzzy
+msgid "Table \"%1\" already exists."
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: kexidb/connection.cpp:1240
+msgid "Could not remove object's data."
+msgstr ""
+
+#: kexidb/connection.cpp:1272
 msgid "Table \"%1\" cannot be removed."
 msgstr ""
 
-#: kexidb/connection.cpp:1237
+#: kexidb/connection.cpp:1309
+#, fuzzy
+msgid "Table \"%1\" does not exist."
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: kexidb/connection.cpp:1324
+msgid "Could not alter table \"%1\" using the same table."
+msgstr ""
+
+#: kexidb/connection.cpp:1350
+msgid "Invalid table name \"%1\""
+msgstr ""
+
+#: kexidb/connection.cpp:1355
+msgid "Could rename table \"%1\" using the same name."
+msgstr ""
+
+#: kexidb/connection.cpp:1378
+msgid "Could not rename table \"%1\" to \"%2\". Table \"%3\" already exists."
+msgstr ""
+
+#: kexidb/connection.cpp:1486
+#, fuzzy
+msgid "Query \"%1\" does not exist."
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: kexidb/connection.cpp:1566
 msgid "Transaction already started."
 msgstr ""
 
-#: kexidb/connection.cpp:1274 kexidb/connection.cpp:1303
+#: kexidb/connection.cpp:1605 kexidb/connection.cpp:1638
 msgid "Transaction not started."
 msgstr ""
 
-#: kexidb/connection.cpp:1286
+#: kexidb/connection.cpp:1619
 msgid "Error on commit transaction"
 msgstr ""
 
-#: kexidb/connection.cpp:1315
+#: kexidb/connection.cpp:1652
 msgid "Error on rollback transaction"
 msgstr ""
 
-#: kexidb/connection.cpp:1468 kexidb/connection.cpp:1629
+#: kexidb/connection.cpp:1809 kexidb/connection.cpp:2049
 msgid "Invalid object name \"%1\""
 msgstr ""
 
-#: kexidb/connection.cpp:1857 kexidb/connection.cpp:1980
+#: kexidb/connection.cpp:1899
+#, fuzzy
+msgid "Column %1 does not exist for the query."
+msgstr "\"%1\" файли мавжуд эмас."
+
+#: kexidb/connection.cpp:2354 kexidb/connection.cpp:2500
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr ""
 
-#: kexidb/connection.cpp:1871
+#: kexidb/connection.cpp:2366
 msgid "Row updating on the server failed."
 msgstr ""
 
-#: kexidb/connection.cpp:1918
+#: kexidb/connection.cpp:2434
 msgid "Row inserting on the server failed."
 msgstr ""
 
-#: kexidb/connection.cpp:1994
-msgid "Row deleting on the server failed."
+#: kexidb/connection.cpp:2512 kexidb/connection.cpp:2534
+msgid "Row deletion on the server failed."
 msgstr ""
 
-#: kexidb/utils.cpp:114
+#: kexidb/utils.cpp:120
 msgid "Message from server:"
 msgstr "Сервердан олинган хабар:"
 
-#: kexidb/utils.cpp:116
+#: kexidb/utils.cpp:122
 msgid "SQL statement:"
 msgstr ""
 
-#: kexidb/utils.cpp:119
+#: kexidb/utils.cpp:134
 msgid "Server result name:"
 msgstr ""
 
-#: kexidb/utils.cpp:121
-msgid "Result number:"
-msgstr ""
-
-#: formeditor/test/main.cpp:23 formeditor/test/main.cpp:35
-msgid "KFormDesigner"
-msgstr ""
-
-#: formeditor/test/main.cpp:29
-msgid "Document to open."
-msgstr ""
-
-#: formeditor/test/kfmview.cpp:37
-msgid "Objects"
-msgstr ""
-
-#: formeditor/test/kfmview.cpp:53
-msgid "Print object tree"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:640 formeditor/test/kfmview.cpp:62
-#: plugins/forms/kexiformpart.cpp:81
-msgid "Edit tab order"
-msgstr ""
-
-#: formeditor/test/kfmview.cpp:63 plugins/forms/kexiformpart.cpp:82
-msgid "Adjust Size"
-msgstr ""
-
-#: formeditor/commands.cpp:112
-msgid "Change %1 of multiple widgets"
-msgstr ""
-
-#: formeditor/commands.cpp:114
-msgid "Change %1 of widget %2"
-msgstr ""
-
-#: formeditor/commands.cpp:163
-msgid "Move multiple widgets"
-msgstr ""
-
-#: formeditor/commands.cpp:201
-#, c-format
-msgid "Change layout of %1"
-msgstr ""
-
-#: formeditor/commands.cpp:279
-#, c-format
-msgid "Insert %1"
-msgstr ""
-
-#: formeditor/commands.cpp:281
-msgid "Insert widget"
-msgstr ""
-
-#: formeditor/commands.cpp:393
-msgid "Lay out widgets horizontally"
-msgstr ""
-
-#: formeditor/commands.cpp:395
-msgid "Lay out widgets vertically"
-msgstr ""
-
-#: formeditor/commands.cpp:397
-msgid "Lay out widgets in a grid"
-msgstr ""
-
-#: formeditor/commands.cpp:399
-#, fuzzy
-msgid "Create Layout"
-msgstr "Лойиҳани яратиш"
-
-#: formeditor/commands.cpp:566
-msgid "Delete widget"
-msgstr ""
-
-#: formeditor/widgetfactory.cpp:92
-msgid "Edit list of items"
-msgstr ""
-
-#: formeditor/widgetfactory.cpp:95
-msgid "%1 contents"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:55
-#: formeditor/factories/stdwidgetfactory.cpp:356
-msgid "Edit rich text"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:77
-msgid "Underline"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:83
-msgid "Superscript"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:84
-msgid "Subscript"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:90
-msgid "Right Align"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:93
-msgid "Left Align"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:96
-msgid "Centered"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:99
-msgid "Justified"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:235
-#: formeditor/factories/stdwidgetfactory.cpp:361
-msgid "Edit listview contents"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:243
-msgid "Columns"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:253 formeditor/extrawidgets.cpp:336
-msgid "&Add Item"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:260
-msgid "New &Subitem"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:267 formeditor/extrawidgets.cpp:343
-#: formeditor/formmanager.cpp:74
-msgid "&Remove Item"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:274 formeditor/extrawidgets.cpp:350
-msgid "Move Item &Up"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:281 formeditor/extrawidgets.cpp:357
-msgid "Move Item &Down"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:324
-#: plugins/queries/kexiquerydesignerguieditor.cpp:542
-#: plugins/tables/kexialtertabledialog.cpp:261
-msgid "Caption"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:326
-msgid "Clickable"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:327
-msgid "Resizable"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:328
-msgid "Full Width"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:453 formeditor/extrawidgets.cpp:454
-msgid "New Column"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:593
-msgid "New Item"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:606
-msgid "Sub Item"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:667
-msgid "Move Widget &Up"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:674
-msgid "Move Widget &Down"
-msgstr ""
-
-#: formeditor/extrawidgets.cpp:680
-msgid "Handle tab stops automatically"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:104
-msgid "Text Label"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:105
-msgid "A widget to display text"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:111
-msgid "Picture Label"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:112
-msgid "A widget to display pixmaps"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:120
-msgid "Line Edit"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:121
-msgid "A widget to input text"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:127
-msgid "Spacer"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:128
-msgid "A spacer widget to fill in blanks"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:136
-msgid "Push Button"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:137
-msgid "A simple push button to execute a command"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:143
-msgid "Radio"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:144
-msgid "A radio button with text or pixmap label"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:150
-#: formeditor/factories/stdwidgetfactory.cpp:292
-msgid "Check Box"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:151
-msgid "A check box with text or pixmap label"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:159
-msgid "Spin Box"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:160
-msgid "A spin box widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:168
-msgid "Combo Box"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:169
-msgid "A combo box widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:177
-msgid "List Box"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:178
-msgid "A simple list widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:186
-msgid "Text Editor"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:187
-msgid "A simple single-page rich text editor"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:195
-msgid "List View"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:196
-msgid "A list (or tree) widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:202
-msgid "Slider"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:203
-msgid "An horizontal slider"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:211
-msgid "Progress Bar"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:212
-msgid "A progress indicator widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:218
-msgid "Line"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:219
-msgid "A line to be used as a separator"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:229
-msgid "Date Widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:230
-msgid "A widget to input or display a date"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:240
-msgid "Time Widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:241
-msgid "A widget to input or display a time"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:251
-msgid "Date/Time Widget"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:252
-msgid "A widget to input or display a time and a date"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:276
-msgid "Label"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:286
-msgid "Button"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:289
-msgid "Radio Button"
-msgstr "Танлаш тугмаси"
-
-#: formeditor/factories/stdwidgetfactory.cpp:304
-msgid "Enter your text here"
-msgstr ""
-
-#: formeditor/factories/stdwidgetfactory.cpp:309
-msgid "Column 1"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:157
-#, c-format
-msgid "Page %1"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:210
-#: formeditor/factories/containerfactory.cpp:418
-#: formeditor/factories/containerfactory.cpp:429
-#: formeditor/factories/containerfactory.cpp:441
-msgid "Add Page"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:223
-#: formeditor/factories/containerfactory.cpp:307
-msgid "Button Group"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:224
-msgid "A simple container to group buttons"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:234
-msgid "Tab Widget"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:235
-msgid "A widget to display multiple pages using tabs"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:241
-msgid "Basic container"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:242
-msgid "An empty container with no frame"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:248
-#: formeditor/factories/containerfactory.cpp:341
-msgid "Group Box"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:249
-msgid "A container to group some widgets"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:255
-msgid "Frame"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:256
-msgid "A very simple container"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:262
-msgid "Widget Stack"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:263
-msgid "A container with multiple pages"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:269
-msgid "HBox"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:270
-msgid "A simple container to group widgets horizontally"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:276
-msgid "VBox"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:277
-msgid "A simple container to group widgets vertically"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:283
-msgid "Grid"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:284
-msgid "A simple container to group widgets in a grid"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:419
-#: formeditor/factories/containerfactory.cpp:430
-msgid "Rename Page"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:420
-#: formeditor/factories/containerfactory.cpp:431
-#: formeditor/factories/containerfactory.cpp:443
-msgid "Remove Page"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:447
-msgid "Jump to next page"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:451
-msgid "Jump to previous page"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:573
-msgid "New Page Title"
-msgstr ""
-
-#: formeditor/factories/containerfactory.cpp:573
-msgid "Enter a new title for the current page"
-msgstr ""
-
-#: formeditor/formIO.cpp:99 formeditor/formIO.cpp:201
-msgid "*.ui|Qt Designer UI files"
-msgstr ""
-
-#: formeditor/form.cpp:65 formeditor/widgetlibrary.cpp:182
-#: plugins/forms/kexiformpart.cpp:56
-msgid "Form"
-msgstr ""
-
-#: formeditor/form.cpp:174
-msgid ""
-"A widget with this name already exists. Please choose another name or rename "
-"this widget before."
-msgstr ""
-
-#: formeditor/objecttreeview.cpp:154 formeditor/objpropbuffer.cpp:357
-#: plugins/tables/kexialtertabledialog.cpp:247 rc.cpp:43 rc.cpp:154 rc.cpp:174
-msgid "Name"
-msgstr ""
-
-#: formeditor/objecttreeview.cpp:155
-msgid "Class"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:358
-msgid "Background Pixmap"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:359
-msgid "Enabled"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:360
-msgid "Geometry"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:362
-msgid "Cursor"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:389
-msgid "No Background"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:390
-msgid "Palette Foreground"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:391
-msgid "Auto"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:442
-msgid "Horizontal alignment"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:456
-msgid "Vertical Alignment"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:460
-msgid "Word Break"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:529
-msgid "Container's layout"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:534
-msgid "Layout margin"
-msgstr ""
-
-#: formeditor/objpropbuffer.cpp:539
-msgid "Layout spacing"
-msgstr ""
-
-#: formeditor/formmanager.cpp:72
-msgid "Cu&t"
-msgstr ""
-
-#: formeditor/formmanager.cpp:77
-msgid "&Lay out horizontally"
-msgstr ""
-
-#: formeditor/formmanager.cpp:78
-msgid "&Lay out vertically"
-msgstr ""
-
-#: formeditor/formmanager.cpp:79
-msgid "&Lay out in a grid"
-msgstr ""
-
-#: formeditor/formmanager.cpp:110
-msgid "Pointer"
-msgstr ""
-
-#: formeditor/formmanager.cpp:514
-msgid ""
-"<b>Cannot create the layout.</b>\n"
-"All selected widgets must have the same parent."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:146
-#: plugins/tables/kexitablepart.cpp:56 rc.cpp:1 rc.cpp:16
-#: widget/relations/kexirelationwidget.cpp:58
-#: widget/relations/kexirelationwidget.cpp:307
+#: kexidb/utils.cpp:136
+msgid "Server result number:"
+msgstr ""
+
+#. i18n: file data/kexidatatableui.rc line 5
+#: plugins/queries/kexiquerydesignerguieditor.cpp:167
+#: plugins/tables/kexitablepart.cpp:45 rc.cpp:3
+#: widget/relations/kexirelationwidget.cpp:56
+#: widget/relations/kexirelationwidget.cpp:325
+#, no-c-format
 msgid "Table"
 msgstr ""
 
-#: rc.cpp:4 rc.cpp:5
+#. i18n: file data/kexiformpartinstui.rc line 15
+#: rc.cpp:6 rc.cpp:54
+#, no-c-format
+msgid "&Format"
+msgstr ""
+
+#. i18n: file data/kexiformpartinstui.rc line 32
+#: rc.cpp:9 rc.cpp:57
+#, no-c-format
 msgid "Widgets"
 msgstr ""
 
-#: rc.cpp:7 rc.cpp:10 rc.cpp:15 rc.cpp:24
+#. i18n: file data/kexiformpartinstui.rc line 53
+#: rc.cpp:12 rc.cpp:60
+#, no-c-format
+msgid "Format Toolbar"
+msgstr ""
+
+#. i18n: file data/kexiformpartui.rc line 5
+#: rc.cpp:15
+#, no-c-format
+msgid "Tools Toolbar"
+msgstr ""
+
+#. i18n: file data/kexikugarhandlerui.rc line 6
+#: rc.cpp:21 rc.cpp:39 rc.cpp:63 rc.cpp:93
+#, no-c-format
 msgid "&Create"
 msgstr ""
 
-#: rc.cpp:8
+#. i18n: file data/kexiquerydesignerui.rc line 5
+#: rc.cpp:24
+#, no-c-format
 msgid "&Query"
 msgstr ""
 
-#: rc.cpp:9
+#. i18n: file data/kexiquerydesignerui.rc line 12
+#: rc.cpp:27
+#, no-c-format
 msgid "State"
 msgstr ""
 
-#: rc.cpp:11 rc.cpp:13 rc.cpp:18
-msgid "&Project"
-msgstr ""
-
-#: rc.cpp:12 rc.cpp:14 rc.cpp:32
-msgid "Project"
-msgstr ""
-
-#: rc.cpp:20 rc.cpp:86
-msgid "&Import"
-msgstr ""
-
-#: rc.cpp:21
-msgid "&Export"
-msgstr ""
-
-#: rc.cpp:25
+#. i18n: file data/kexiquerypartinstui.rc line 10
+#: rc.cpp:33 rc.cpp:96
+#, no-c-format
 msgid "&Data"
 msgstr ""
 
-#: rc.cpp:29
+#. i18n: file data/kexiquerypartinstui.rc line 18
+#: rc.cpp:36 rc.cpp:69
+#, no-c-format
+msgid "Design"
+msgstr ""
+
+#. i18n: file data/kexirelationhandlerui.rc line 5
+#: rc.cpp:42 rc.cpp:48 rc.cpp:75
+#, no-c-format
+msgid "&Project"
+msgstr ""
+
+#. i18n: file data/kexirelationhandlerui.rc line 11
+#: rc.cpp:45 rc.cpp:51 rc.cpp:132
+#, no-c-format
+msgid "Project"
+msgstr ""
+
+#. i18n: file data/kexiui.rc line 20
+#: rc.cpp:81
+#, no-c-format
+msgid "&Import"
+msgstr ""
+
+#. i18n: file data/kexiui.rc line 26
+#: rc.cpp:84
+#, no-c-format
+msgid "&Export"
+msgstr ""
+
+#. i18n: file data/kexiui.rc line 77
+#: rc.cpp:99
+#, no-c-format
+msgid "Sort"
+msgstr ""
+
+#. i18n: file data/kexiui.rc line 107
+#: rc.cpp:111
+#, no-c-format
 msgid "&Other"
 msgstr ""
 
-#: rc.cpp:31
+#. i18n: file data/kexiui.rc line 122
+#: rc.cpp:117
+#, no-c-format
 msgid "Other &Licenses"
 msgstr ""
 
-#: rc.cpp:34
-msgid "KexiNewPrjTypeSelector"
+#. i18n: file data/kexiui.rc line 152
+#: rc.cpp:126
+#, no-c-format
+msgid "Data"
 msgstr ""
 
-#: rc.cpp:35
+#. i18n: file ./main/projectsettingsui.ui line 16
+#: rc.cpp:129
+#, no-c-format
+msgid "Project Settings"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 46
+#: rc.cpp:135
+#, no-c-format
+msgid "Project Data"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 67
+#: rc.cpp:138
+#, no-c-format
+msgid "Summary:"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 86
+#: rc.cpp:144
+#, no-c-format
+msgid "Icon:"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 120
+#: rc.cpp:148
+#, no-c-format
+msgid "Startup"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 131
+#: rc.cpp:151
+#, no-c-format
+msgid "Automatically launch a document on startup"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 139
+#: rc.cpp:154
+#, no-c-format
+msgid "Part:"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 145
+#: rc.cpp:157
+#, no-c-format
+msgid "Forms"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 163
+#: rc.cpp:160
+#, no-c-format
+msgid "Item:"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 169
+#: rc.cpp:163
+#, no-c-format
+msgid "main"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 215
+#: rc.cpp:166 rc.cpp:260
+#, no-c-format
+msgid "Actions"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 226
+#: rc.cpp:169
+#, no-c-format
+msgid "Menubar"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 235
+#: rc.cpp:172
+#, no-c-format
+msgid "Action"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 246
+#: rc.cpp:175
+#, fuzzy, no-c-format
+msgid "MyProject"
+msgstr "&Лойиҳани яратиш"
+
+#. i18n: file ./main/projectsettingsui.ui line 301
+#: rc.cpp:196 rc.cpp:221
+#, no-c-format
+msgid "About Kexi"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 309
+#: rc.cpp:199 rc.cpp:224
+#, fuzzy, no-c-format
+msgid "About MyProject"
+msgstr "Лойиҳани яратиш"
+
+#. i18n: file ./main/projectsettingsui.ui line 394
+#: rc.cpp:206
+#, no-c-format
+msgid "-- Separator --"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 447
+#: rc.cpp:227
+#, no-c-format
+msgid "Artists"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 455
+#: rc.cpp:230
+#, no-c-format
+msgid "Albums"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 478
+#: rc.cpp:233
+#, no-c-format
+msgid "&New Action"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 486
+#: rc.cpp:236
+#, fuzzy, no-c-format
+msgid "&Delete Action"
+msgstr "Лойиҳани яратиш"
+
+#. i18n: file ./main/projectsettingsui.ui line 494
+#: rc.cpp:239
+#, no-c-format
+msgid "Toolbars"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 570
+#: rc.cpp:249
+#, no-c-format
+msgid "Toolbar:"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 614
+#: rc.cpp:254
+#, no-c-format
+msgid "Main"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 655
+#: rc.cpp:266
+#, no-c-format
+msgid "MDI Mode:"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 661
+#: rc.cpp:269
+#, no-c-format
+msgid "Use user settings"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 666
+#: rc.cpp:272
+#, no-c-format
+msgid "Toplevel"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 671
+#: rc.cpp:275
+#, no-c-format
+msgid "Child Frame"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 676
+#: rc.cpp:278
+#, no-c-format
+msgid "Tab Page"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 681
+#: rc.cpp:281
+#, no-c-format
+msgid "IDEAL"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 709
+#: rc.cpp:284
+#, fuzzy, no-c-format
+msgid "Show Taskbar"
+msgstr "Вазифалар панели"
+
+#. i18n: file ./main/projectsettingsui.ui line 725
+#: rc.cpp:287
+#, no-c-format
+msgid "Show Menubar"
+msgstr ""
+
+#. i18n: file ./main/projectsettingsui.ui line 751
+#: rc.cpp:296
+#, no-c-format
+msgid "&Ok"
+msgstr ""
+
+#. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 36
+#: rc.cpp:299
+#, no-c-format
 msgid ""
 "Kexi will create a new database project. Select a storage method which will "
 "be used to store the new project.\n"
 msgstr ""
 
-#: rc.cpp:36
-msgid "Always &use files for creating new projects."
+#. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 72
+#: rc.cpp:303
+#, no-c-format
+msgid "Always &use files for creating new projects"
 msgstr ""
 
-#: rc.cpp:37
-msgid "KexiOpenExistingFile"
+#. i18n: file ./main/startup/KexiOpenExistingFile.ui line 36
+#: rc.cpp:306
+#, no-c-format
+msgid ""
+"<b>Select existing Kexi project file to open:</b>\n"
 msgstr ""
 
-#: rc.cpp:38
-msgid "<b>Select existing Kexi project file to open:</b>\n"
-msgstr ""
-
-#: rc.cpp:39 rc.cpp:52
-msgid "&Advanced "
-msgstr ""
-
-#: rc.cpp:40
+#. i18n: file ./main/startup/KexiOpenExistingFile.ui line 97
+#: rc.cpp:310
+#, no-c-format
 msgid ""
 "Click \"Advanced\" button if you want to find an existing project on a "
 "server rather than a file."
 msgstr ""
 
-#: rc.cpp:41
-msgid "KexiConnSelectorBase"
+#. i18n: file ./main/startup/KexiOpenExistingFile.ui line 116
+#: rc.cpp:313 rc.cpp:345
+#, no-c-format
+msgid "&Advanced "
 msgstr ""
 
-#: rc.cpp:42
-msgid "&Back"
-msgstr ""
-
-#: rc.cpp:45
-msgid "Server information"
-msgstr ""
-
-#: rc.cpp:46
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 64
+#: rc.cpp:316
+#, no-c-format
 msgid ""
 "<b>Select existing database server's connection from the list below and "
 "click \"OK\".</b>\n"
@@ -2028,739 +2552,541 @@ msgid ""
 "list.\n"
 msgstr ""
 
-#: rc.cpp:47 widget/relations/kexirelationwidget.cpp:68
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 76
+#: plugins/tables/kexialtertabledialog.cpp:267 rc.cpp:321 rc.cpp:570
+#: rc.cpp:630
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 98
+#: rc.cpp:327
+#, no-c-format
+msgid "Server Information"
+msgstr ""
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 180
+#: rc.cpp:330 widget/relations/kexirelationwidget.cpp:64
+#, no-c-format
 msgid "&Add"
 msgstr ""
 
-#: rc.cpp:50
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 247
+#: rc.cpp:339
+#, no-c-format
 msgid "Click \"Back\" button if you want to open existing Kexi project file."
 msgstr ""
 
-#: rc.cpp:51
-msgid "KexiNewFileDBWidget"
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 269
+#: rc.cpp:342
+#, no-c-format
+msgid "&Back"
 msgstr ""
 
-#: rc.cpp:53
+#. i18n: file ./main/startup/KexiNewFileDBWidget.ui line 104
+#: rc.cpp:348
+#, no-c-format
 msgid ""
 "Click \"Advanced\" button if you want to create a new database on a server "
 "instead of a file."
 msgstr ""
 
-#: rc.cpp:54
+#. i18n: file ./main/startup/KexiNewFileDBWidget.ui line 124
+#: rc.cpp:351
+#, no-c-format
 msgid ""
 "<P><b>Kexi will create a new database, which will be stored in a file on "
 "this computer.</b>\n"
 "<P>&nbsp;"
 msgstr ""
 
-#: rc.cpp:55
+#. i18n: file ./main/startup/KexiNewFileDBWidget.ui line 144
+#: rc.cpp:355
+#, no-c-format
 msgid ""
 "Always &use files for creating new projects.\n"
 "Don't show me this dialog again. "
 msgstr ""
 
-#: rc.cpp:56
-msgid "Form1"
-msgstr ""
-
-#: rc.cpp:57 rc.cpp:60
+#. i18n: file ./main/startup/KexiServerDBNamePage.ui line 24
+#: rc.cpp:359 rc.cpp:368
+#, no-c-format
 msgid "Project caption: "
 msgstr ""
 
-#: rc.cpp:58
+#. i18n: file ./main/startup/KexiServerDBNamePage.ui line 32
+#: rc.cpp:362
+#, no-c-format
 msgid "Project's database name: "
 msgstr ""
 
-#: rc.cpp:59
-msgid "Form2"
+#. i18n: file ./main/startup/KexiDBTitlePage.ui line 17
+#: rc.cpp:365
+#, no-c-format
+msgid "KexiDBTitlePageBase"
 msgstr ""
 
-#: rc.cpp:61
-msgid "KexiProjectSelectorBase"
-msgstr ""
-
-#: rc.cpp:62
+#. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 44
+#: rc.cpp:371
+#, no-c-format
 msgid ""
 "<b>There are Kexi projects you have recently opened.</b>"
 " Select one you wish to open:\n"
 msgstr ""
 
-#: rc.cpp:63
+#. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 53
+#: rc.cpp:375
+#, no-c-format
 msgid "Project Name"
 msgstr ""
 
-#: rc.cpp:66
+#. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 86
+#: rc.cpp:384
+#, no-c-format
 msgid "Connection"
 msgstr ""
 
-#: rc.cpp:69
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 41
+#: rc.cpp:391
+#, no-c-format
 msgid "Localhost"
 msgstr ""
 
-#: rc.cpp:70
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 52
+#: rc.cpp:394
+#, no-c-format
 msgid "Remote host"
 msgstr ""
 
-#: rc.cpp:72
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 112
+#: rc.cpp:398
+#, no-c-format
 msgid "Socket:"
 msgstr ""
 
-#: rc.cpp:73 rc.cpp:78
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 128
+#: rc.cpp:401 rc.cpp:414
+#, no-c-format
 msgid "Custom:"
 msgstr ""
 
-#: rc.cpp:81
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 281
+#: rc.cpp:423
+#, no-c-format
 msgid "Username:"
 msgstr ""
 
-#: rc.cpp:83
+#. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 302
+#: rc.cpp:429
+#, no-c-format
 msgid "Save password in the projectfile"
 msgstr ""
 
-#: rc.cpp:84 rc.cpp:108 rc.cpp:120
-msgid "CSV Import"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 16
+#: rc.cpp:432
+#, no-c-format
+msgid "Find Text"
 msgstr ""
 
-#: rc.cpp:87 rc.cpp:109 rc.cpp:121
-msgid "CSV Options"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 44
+#: rc.cpp:435
+#, no-c-format
+msgid "C&ase sensitive"
 msgstr ""
 
-#: rc.cpp:88 rc.cpp:110 rc.cpp:132
-msgid "Textquote:"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 64
+#: rc.cpp:438
+#, no-c-format
+msgid "Any part of field"
 msgstr ""
 
-#: rc.cpp:89 rc.cpp:111 rc.cpp:127
-msgid ","
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 69
+#: rc.cpp:441
+#, no-c-format
+msgid "Whole field"
 msgstr ""
 
-#: rc.cpp:90 rc.cpp:112 rc.cpp:128
-msgid ";"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 74
+#: rc.cpp:444
+#, no-c-format
+msgid "Start of field"
 msgstr ""
 
-#: rc.cpp:91 rc.cpp:113 rc.cpp:129
-msgid "<TAB>"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 89
+#: rc.cpp:447
+#, no-c-format
+msgid "Fi&nd:"
 msgstr ""
 
-#: rc.cpp:92 rc.cpp:114 rc.cpp:130
-msgid "<SPACE>"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 100
+#: rc.cpp:450
+#, no-c-format
+msgid "Re&place with:"
 msgstr ""
 
-#: rc.cpp:93 rc.cpp:115 rc.cpp:131
-msgid "Delimiter:"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 111
+#: rc.cpp:453
+#, no-c-format
+msgid "&Search:"
 msgstr ""
 
-#: rc.cpp:94 rc.cpp:116 rc.cpp:122
-msgid "<none>"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 122
+#: rc.cpp:456
+#, no-c-format
+msgid "&Match:"
 msgstr ""
 
-#: rc.cpp:95 rc.cpp:117 rc.cpp:123
-msgid "\""
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 131
+#: rc.cpp:459
+#, no-c-format
+msgid "Up"
 msgstr ""
 
-#: rc.cpp:96 rc.cpp:118 rc.cpp:124
-msgid "'"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 136
+#: rc.cpp:462
+#, no-c-format
+msgid "Down"
 msgstr ""
 
-#: rc.cpp:97 rc.cpp:119 rc.cpp:125
-msgid "Ignore duplicated delimiters"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 141
+#: rc.cpp:465
+#, no-c-format
+msgid "All rows"
 msgstr ""
 
-#: rc.cpp:98
-msgid "Table name:"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 167
+#: rc.cpp:468
+#, no-c-format
+msgid "&Look in column:"
 msgstr ""
 
-#: rc.cpp:99
-msgid "Create ID column"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 198
+#: rc.cpp:471
+#, no-c-format
+msgid "&Whole words only"
 msgstr ""
 
-#: rc.cpp:100
-msgid "Column Options"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 209
+#: rc.cpp:474
+#, no-c-format
+msgid "Prompt on replace"
 msgstr ""
 
-#: rc.cpp:101
-msgid "Fieldname:"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 248
+#: rc.cpp:478
+#, no-c-format
+msgid "&Find next"
 msgstr ""
 
-#: rc.cpp:102
-msgid "Fieldtype:"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 267
+#: rc.cpp:485
+#, no-c-format
+msgid "&Replace"
 msgstr ""
 
-#: rc.cpp:103
-msgid "Current:"
+#. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 275
+#: rc.cpp:488
+#, no-c-format
+msgid "&Replace All"
 msgstr ""
 
-#: rc.cpp:104 rc.cpp:126
-msgid "Fieldnames in first row"
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 16
+#: rc.cpp:491
+#, no-c-format
+msgid "KexiDBConnectionWidgetDetailsBase"
 msgstr ""
 
-#: rc.cpp:105
-msgid "Varchar"
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 41
+#: rc.cpp:494
+#, no-c-format
+msgid "Use socket &file instead of TCP/IP port:"
 msgstr ""
 
-#: rc.cpp:106
-msgid "Integer"
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 45
+#: rc.cpp:497
+#, no-c-format
+msgid "Alt+F"
 msgstr ""
 
-#: rc.cpp:107
-msgid "Double"
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 92
+#: rc.cpp:500 rc.cpp:531
+#, no-c-format
+msgid "default"
 msgstr ""
 
-#: rc.cpp:133
-msgid "Data end:"
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 157
+#: rc.cpp:504
+#, no-c-format
+msgid "&Description:"
 msgstr ""
 
-#: rc.cpp:134 rc.cpp:142
-msgid "Use Current Selection"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 16
+#: rc.cpp:507
+#, no-c-format
+msgid "KexiConnectionWidget"
 msgstr ""
 
-#: rc.cpp:135
-msgid "Data area:"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 46
+#: rc.cpp:513 widget/pixmapcollection.cpp:160
+#, no-c-format
+msgid "&Name:"
 msgstr ""
 
-#: rc.cpp:136
-msgid "End of selection"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 62
+#: rc.cpp:516
+#, no-c-format
+msgid "&Title:"
 msgstr ""
 
-#: rc.cpp:137
-msgid "First empty row/column within selection"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 76
+#: rc.cpp:519
+#, no-c-format
+msgid "&Engine:"
 msgstr ""
 
-#: rc.cpp:138
-msgid "Expand selection if needed until first empty Row/Column"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 100
+#: rc.cpp:522
+#, no-c-format
+msgid "Database location"
 msgstr ""
 
-#: rc.cpp:139
-msgid "Data record is a:"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 156
+#: rc.cpp:534
+#, no-c-format
+msgid "&Hostname:"
 msgstr ""
 
-#: rc.cpp:140
-msgid "Row"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 218
+#: rc.cpp:543
+#, no-c-format
+msgid "&Username:"
 msgstr ""
 
-#: rc.cpp:141
-msgid "Column"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 234
+#: rc.cpp:546
+#, no-c-format
+msgid "&Password:"
 msgstr ""
 
-#: rc.cpp:143
-msgid "Header row/column:"
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 253
+#: rc.cpp:549
+#, no-c-format
+msgid "Save password in the shortcut file"
 msgstr ""
 
-#: rc.cpp:144
-msgid "Important License Notice"
-msgstr ""
-
-#: rc.cpp:145
-msgid ""
-"The \"Kugar Report Generator\" is not part of Kexi, although reports are "
-"displayed within Kexi main window. It is loaded as as a plugin, but is a "
-"stand alone product licensed as GPL. There are no invocations of Kugar's "
-"internal methods.\n"
-"Kexi only generates data files, which are not covered by the GPL license "
-"(FAQ at: http://www.fsf.org/copyleft/gpl.html)  and only the LGPL kparts "
-"interface is used for telling Kugar which datafile to use and to display the "
-"navigation actions. This has been approved by all (including the original) "
-"copyright holders.\n"
-"\n"
-"The GPL application Kugar is part of the KOffice package (www.koffice.org). "
-"The copyright/left holders known at  the time this notice is written are:\n"
-"Mutiny Bay Software (info@mutinybaysoftware.com)  (Metaphrast)\n"
-"Phil Thompson (phil@river-bank.demon.co.uk) (Kugar)\n"
-"Alexander Dymo (cloudtemple@mksat.net) (Kugar)\n"
-"Joseph Wenninger (jowenn@kde.org) (Kugar)\n"
-msgstr ""
-
-#: rc.cpp:146
-msgid ""
-"\t\t    GNU GENERAL PUBLIC LICENSE\n"
-"\t\t       Version 2, June 1991\n"
-"\n"
-" Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
-"                          59 Temple Place, Suite 330, Boston, MA 02111-1307, "
-"USA\n"
-" Everyone is permitted to copy and distribute verbatim copies\n"
-" of this license document, but changing it is not allowed.\n"
-"\n"
-"\t\t\t    Preamble\n"
-"\n"
-"  The licenses for most software are designed to take away your\n"
-"freedom to share and change it.  By contrast, the GNU General Public\n"
-"License is intended to guarantee your freedom to share and change free\n"
-"software--to make sure the software is free for all its users.  This\n"
-"General Public License applies to most of the Free Software\n"
-"Foundation's software and to any other program whose authors commit to\n"
-"using it.  (Some other Free Software Foundation software is covered by\n"
-"the GNU Library General Public License instead.)  You can apply it to\n"
-"your programs, too.\n"
-"\n"
-"  When we speak of free software, we are referring to freedom, not\n"
-"price.  Our General Public Licenses are designed to make sure that you\n"
-"have the freedom to distribute copies of free software (and charge for\n"
-"this service if you wish), that you receive source code or can get it\n"
-"if you want it, that you can change the software or use pieces of it\n"
-"in new free programs; and that you know you can do these things.\n"
-"\n"
-"  To protect your rights, we need to make restrictions that forbid\n"
-"anyone to deny you these rights or to ask you to surrender the rights.\n"
-"These restrictions translate to certain responsibilities for you if you\n"
-"distribute copies of the software, or if you modify it.\n"
-"\n"
-"  For example, if you distribute copies of such a program, whether\n"
-"gratis or for a fee, you must give the recipients all the rights that\n"
-"you have.  You must make sure that they, too, receive or can get the\n"
-"source code.  And you must show them these terms so they know their\n"
-"rights.\n"
-"\n"
-"  We protect your rights with two steps: (1) copyright the software, and\n"
-"(2) offer you this license which gives you legal permission to copy,\n"
-"distribute and/or modify the software.\n"
-"\n"
-"  Also, for each author's protection and ours, we want to make certain\n"
-"that everyone understands that there is no warranty for this free\n"
-"software.  If the software is modified by someone else and passed on, we\n"
-"want its recipients to know that what they have is not the original, so\n"
-"that any problems introduced by others will not reflect on the original\n"
-"authors' reputations.\n"
-"\n"
-"  Finally, any free program is threatened constantly by software\n"
-"patents.  We wish to avoid the danger that redistributors of a free\n"
-"program will individually obtain patent licenses, in effect making the\n"
-"program proprietary.  To prevent this, we have made it clear that any\n"
-"patent must be licensed for everyone's free use or not licensed at all.\n"
-"\n"
-"  The precise terms and conditions for copying, distribution and\n"
-"modification follow.\n"
-" \n"
-"\t\t    GNU GENERAL PUBLIC LICENSE\n"
-"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
-"\n"
-"  0. This License applies to any program or other work which contains\n"
-"a notice placed by the copyright holder saying it may be distributed\n"
-"under the terms of this General Public License.  The \"Program\", below,\n"
-"refers to any such program or work, and a \"work based on the Program\"\n"
-"means either the Program or any derivative work under copyright law:\n"
-"that is to say, a work containing the Program or a portion of it,\n"
-"either verbatim or with modifications and/or translated into another\n"
-"language.  (Hereinafter, translation is included without limitation in\n"
-"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
-"\n"
-"Activities other than copying, distribution and modification are not\n"
-"covered by this License; they are outside its scope.  The act of\n"
-"running the Program is not restricted, and the output from the Program\n"
-"is covered only if its contents constitute a work based on the\n"
-"Program (independent of having been made by running the Program).\n"
-"Whether that is true depends on what the Program does.\n"
-"\n"
-"  1. You may copy and distribute verbatim copies of the Program's\n"
-"source code as you receive it, in any medium, provided that you\n"
-"conspicuously and appropriately publish on each copy an appropriate\n"
-"copyright notice and disclaimer of warranty; keep intact all the\n"
-"notices that refer to this License and to the absence of any warranty;\n"
-"and give any other recipients of the Program a copy of this License\n"
-"along with the Program.\n"
-"\n"
-"You may charge a fee for the physical act of transferring a copy, and\n"
-"you may at your option offer warranty protection in exchange for a fee.\n"
-"\n"
-"  2. You may modify your copy or copies of the Program or any portion\n"
-"of it, thus forming a work based on the Program, and copy and\n"
-"distribute such modifications or work under the terms of Section 1\n"
-"above, provided that you also meet all of these conditions:\n"
-"\n"
-"    a) You must cause the modified files to carry prominent notices\n"
-"    stating that you changed the files and the date of any change.\n"
-"\n"
-"    b) You must cause any work that you distribute or publish, that in\n"
-"    whole or in part contains or is derived from the Program or any\n"
-"    part thereof, to be licensed as a whole at no charge to all third\n"
-"    parties under the terms of this License.\n"
-"\n"
-"    c) If the modified program normally reads commands interactively\n"
-"    when run, you must cause it, when started running for such\n"
-"    interactive use in the most ordinary way, to print or display an\n"
-"    announcement including an appropriate copyright notice and a\n"
-"    notice that there is no warranty (or else, saying that you provide\n"
-"    a warranty) and that users may redistribute the program under\n"
-"    these conditions, and telling the user how to view a copy of this\n"
-"    License.  (Exception: if the Program itself is interactive but\n"
-"    does not normally print such an announcement, your work based on\n"
-"    the Program is not required to print an announcement.)\n"
-" \n"
-"These requirements apply to the modified work as a whole.  If\n"
-"identifiable sections of that work are not derived from the Program,\n"
-"and can be reasonably considered independent and separate works in\n"
-"themselves, then this License, and its terms, do not apply to those\n"
-"sections when you distribute them as separate works.  But when you\n"
-"distribute the same sections as part of a whole which is a work based\n"
-"on the Program, the distribution of the whole must be on the terms of\n"
-"this License, whose permissions for other licensees extend to the\n"
-"entire whole, and thus to each and every part regardless of who wrote it.\n"
-"\n"
-"Thus, it is not the intent of this section to claim rights or contest\n"
-"your rights to work written entirely by you; rather, the intent is to\n"
-"exercise the right to control the distribution of derivative or\n"
-"collective works based on the Program.\n"
-"\n"
-"In addition, mere aggregation of another work not based on the Program\n"
-"with the Program (or with a work based on the Program) on a volume of\n"
-"a storage or distribution medium does not bring the other work under\n"
-"the scope of this License.\n"
-"\n"
-"  3. You may copy and distribute the Program (or a work based on it,\n"
-"under Section 2) in object code or executable form under the terms of\n"
-"Sections 1 and 2 above provided that you also do one of the following:\n"
-"\n"
-"    a) Accompany it with the complete corresponding machine-readable\n"
-"    source code, which must be distributed under the terms of Sections\n"
-"    1 and 2 above on a medium customarily used for software interchange; "
-"or,\n"
-"\n"
-"    b) Accompany it with a written offer, valid for at least three\n"
-"    years, to give any third party, for a charge no more than your\n"
-"    cost of physically performing source distribution, a complete\n"
-"    machine-readable copy of the corresponding source code, to be\n"
-"    distributed under the terms of Sections 1 and 2 above on a medium\n"
-"    customarily used for software interchange; or,\n"
-"\n"
-"    c) Accompany it with the information you received as to the offer\n"
-"    to distribute corresponding source code.  (This alternative is\n"
-"    allowed only for noncommercial distribution and only if you\n"
-"    received the program in object code or executable form with such\n"
-"    an offer, in accord with Subsection b above.)\n"
-"\n"
-"The source code for a work means the preferred form of the work for\n"
-"making modifications to it.  For an executable work, complete source\n"
-"code means all the source code for all modules it contains, plus any\n"
-"associated interface definition files, plus the scripts used to\n"
-"control compilation and installation of the executable.  However, as a\n"
-"special exception, the source code distributed need not include\n"
-"anything that is normally distributed (in either source or binary\n"
-"form) with the major components (compiler, kernel, and so on) of the\n"
-"operating system on which the executable runs, unless that component\n"
-"itself accompanies the executable.\n"
-"\n"
-"If distribution of executable or object code is made by offering\n"
-"access to copy from a designated place, then offering equivalent\n"
-"access to copy the source code from the same place counts as\n"
-"distribution of the source code, even though third parties are not\n"
-"compelled to copy the source along with the object code.\n"
-" \n"
-"  4. You may not copy, modify, sublicense, or distribute the Program\n"
-"except as expressly provided under this License.  Any attempt\n"
-"otherwise to copy, modify, sublicense or distribute the Program is\n"
-"void, and will automatically terminate your rights under this License.\n"
-"However, parties who have received copies, or rights, from you under\n"
-"this License will not have their licenses terminated so long as such\n"
-"parties remain in full compliance.\n"
-"\n"
-"  5. You are not required to accept this License, since you have not\n"
-"signed it.  However, nothing else grants you permission to modify or\n"
-"distribute the Program or its derivative works.  These actions are\n"
-"prohibited by law if you do not accept this License.  Therefore, by\n"
-"modifying or distributing the Program (or any work based on the\n"
-"Program), you indicate your acceptance of this License to do so, and\n"
-"all its terms and conditions for copying, distributing or modifying\n"
-"the Program or works based on it.\n"
-"\n"
-"  6. Each time you redistribute the Program (or any work based on the\n"
-"Program), the recipient automatically receives a license from the\n"
-"original licensor to copy, distribute or modify the Program subject to\n"
-"these terms and conditions.  You may not impose any further\n"
-"restrictions on the recipients' exercise of the rights granted herein.\n"
-"You are not responsible for enforcing compliance by third parties to\n"
-"this License.\n"
-"\n"
-"  7. If, as a consequence of a court judgment or allegation of patent\n"
-"infringement or for any other reason (not limited to patent issues),\n"
-"conditions are imposed on you (whether by court order, agreement or\n"
-"otherwise) that contradict the conditions of this License, they do not\n"
-"excuse you from the conditions of this License.  If you cannot\n"
-"distribute so as to satisfy simultaneously your obligations under this\n"
-"License and any other pertinent obligations, then as a consequence you\n"
-"may not distribute the Program at all.  For example, if a patent\n"
-"license would not permit royalty-free redistribution of the Program by\n"
-"all those who receive copies directly or indirectly through you, then\n"
-"the only way you could satisfy both it and this License would be to\n"
-"refrain entirely from distribution of the Program.\n"
-"\n"
-"If any portion of this section is held invalid or unenforceable under\n"
-"any particular circumstance, the balance of the section is intended to\n"
-"apply and the section as a whole is intended to apply in other\n"
-"circumstances.\n"
-"\n"
-"It is not the purpose of this section to induce you to infringe any\n"
-"patents or other property right claims or to contest validity of any\n"
-"such claims; this section has the sole purpose of protecting the\n"
-"integrity of the free software distribution system, which is\n"
-"implemented by public license practices.  Many people have made\n"
-"generous contributions to the wide range of software distributed\n"
-"through that system in reliance on consistent application of that\n"
-"system; it is up to the author/donor to decide if he or she is willing\n"
-"to distribute software through any other system and a licensee cannot\n"
-"impose that choice.\n"
-"\n"
-"This section is intended to make thoroughly clear what is believed to\n"
-"be a consequence of the rest of this License.\n"
-" \n"
-"  8. If the distribution and/or use of the Program is restricted in\n"
-"certain countries either by patents or by copyrighted interfaces, the\n"
-"original copyright holder who places the Program under this License\n"
-"may add an explicit geographical distribution limitation excluding\n"
-"those countries, so that distribution is permitted only in or among\n"
-"countries not thus excluded.  In such case, this License incorporates\n"
-"the limitation as if written in the body of this License.\n"
-"\n"
-"  9. The Free Software Foundation may publish revised and/or new versions\n"
-"of the General Public License from time to time.  Such new versions will\n"
-"be similar in spirit to the present version, but may differ in detail to\n"
-"address new problems or concerns.\n"
-"\n"
-"Each version is given a distinguishing version number.  If the Program\n"
-"specifies a version number of this License which applies to it and \"any\n"
-"later version\", you have the option of following the terms and conditions\n"
-"either of that version or of any later version published by the Free\n"
-"Software Foundation.  If the Program does not specify a version number of\n"
-"this License, you may choose any version ever published by the Free "
-"Software\n"
-"Foundation.\n"
-"\n"
-"  10. If you wish to incorporate parts of the Program into other free\n"
-"programs whose distribution conditions are different, write to the author\n"
-"to ask for permission.  For software which is copyrighted by the Free\n"
-"Software Foundation, write to the Free Software Foundation; we sometimes\n"
-"make exceptions for this.  Our decision will be guided by the two goals\n"
-"of preserving the free status of all derivatives of our free software and\n"
-"of promoting the sharing and reuse of software generally.\n"
-"\n"
-"\t\t\t    NO WARRANTY\n"
-"\n"
-"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
-"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
-"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
-"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
-"EXPRESSED\n"
-"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
-"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
-"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
-"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
-"REPAIR OR CORRECTION.\n"
-"\n"
-"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
-"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
-"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
-"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
-"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
-"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
-"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
-"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
-"POSSIBILITY OF SUCH DAMAGES.\n"
-"\n"
-"\t\t     END OF TERMS AND CONDITIONS\n"
-"\n"
-"\n"
-"\t    How to Apply These Terms to Your New Programs\n"
-"\n"
-"  If you develop a new program, and you want it to be of the greatest\n"
-"possible use to the public, the best way to achieve this is to make it\n"
-"free software which everyone can redistribute and change under these terms.\n"
-"\n"
-"  To do so, attach the following notices to the program.  It is safest\n"
-"to attach them to the start of each source file to most effectively\n"
-"convey the exclusion of warranty; and each file should have at least\n"
-"the \"copyright\" line and a pointer to where the full notice is found.\n"
-"\n"
-"    <one line to give the program's name and a brief idea of what it does.>\n"
-"    Copyright (C) 19yy  <name of author>\n"
-"\n"
-"    This program is free software; you can redistribute it and/or modify\n"
-"    it under the terms of the GNU General Public License as published by\n"
-"    the Free Software Foundation; either version 2 of the License, or\n"
-"    (at your option) any later version.\n"
-"\n"
-"    This program is distributed in the hope that it will be useful,\n"
-"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
-"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
-"    GNU General Public License for more details.\n"
-"\n"
-"    You should have received a copy of the GNU General Public License\n"
-"    along with this program; if not, write to the Free Software\n"
-"    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  "
-"USA\n"
-"\n"
-"\n"
-"Also add information on how to contact you by electronic and paper mail.\n"
-"\n"
-"If the program is interactive, make it output a short notice like this\n"
-"when it starts in an interactive mode:\n"
-"\n"
-"    Gnomovision version 69, Copyright (C) 19yy name of author\n"
-"    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show "
-"w'.\n"
-"    This is free software, and you are welcome to redistribute it\n"
-"    under certain conditions; type `show c' for details.\n"
-"\n"
-"The hypothetical commands `show w' and `show c' should show the appropriate\n"
-"parts of the General Public License.  Of course, the commands you use may\n"
-"be called something other than `show w' and `show c'; they could even be\n"
-"mouse-clicks or menu items--whatever suits your program.\n"
-"\n"
-"You should also get your employer (if you work as a programmer) or your\n"
-"school, if any, to sign a \"copyright disclaimer\" for the program, if\n"
-"necessary.  Here is a sample; alter the names:\n"
-"\n"
-"  Yoyodyne, Inc., hereby disclaims all copyright interest in the program\n"
-"  `Gnomovision' (which makes passes at compilers) written by James Hacker.\n"
-"\n"
-"  <signature of Ty Coon>, 1 April 1989\n"
-"  Ty Coon, President of Vice\n"
-"\n"
-"This General Public License does not permit incorporating your program into\n"
-"proprietary programs.  If your program is a subroutine library, you may\n"
-"consider it more useful to permit linking proprietary applications with the\n"
-"library.  If this is what you want to do, use the GNU Library General\n"
-"Public License instead of this License.\n"
-msgstr ""
-
-#: plugins/kugar/kudesigner/kudesigner_kexiplugin.cpp:226 rc.cpp:148
+#. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 16
+#: rc.cpp:552
+#, no-c-format
 msgid "Parameter"
 msgstr ""
 
-#: rc.cpp:149
+#. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 35
+#: rc.cpp:555
+#, no-c-format
 msgid "Name:"
 msgstr ""
 
-#: rc.cpp:150
+#. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 51
+#: rc.cpp:558
+#, no-c-format
 msgid "kexi_"
 msgstr ""
 
-#: rc.cpp:151
+#. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 96
+#: rc.cpp:561
+#, no-c-format
 msgid "Message:"
 msgstr ""
 
-#: rc.cpp:152
+#. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 119
+#: rc.cpp:564
+#, no-c-format
 msgid "Type:"
 msgstr ""
 
-#: rc.cpp:153
+#. i18n: file ./plugins/queries/kexiparameterlisteditor.ui line 24
+#: rc.cpp:567
+#, no-c-format
 msgid "Parameters:"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:251 rc.cpp:155 rc.cpp:175
+#. i18n: file ./plugins/queries/kexiparameterlisteditor.ui line 41
+#: plugins/tables/kexialtertabledialog.cpp:271 rc.cpp:573 rc.cpp:633
+#, no-c-format
 msgid "Type"
 msgstr ""
 
-#: rc.cpp:158
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 20
+#: rc.cpp:582
+#, no-c-format
 msgid "Open File"
 msgstr ""
 
-#: rc.cpp:159
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 28
+#: rc.cpp:585
+#, no-c-format
 msgid "Loading Import Plugin"
 msgstr ""
 
-#: rc.cpp:160
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 39
+#: rc.cpp:588
+#, no-c-format
 msgid ""
 "Please be patient for a few seconds, while the appropriate plugin for your "
 "request is being loaded."
 msgstr ""
 
-#: rc.cpp:161
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 52
+#: rc.cpp:591
+#, no-c-format
 msgid "dummySourcePage"
 msgstr ""
 
-#: rc.cpp:162
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 60
+#: rc.cpp:594
+#, no-c-format
 msgid "Import Destination"
 msgstr ""
 
-#: rc.cpp:163
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 71
+#: rc.cpp:597
+#, no-c-format
 msgid "Please Choose Where You Would Like to Import the Data To"
 msgstr ""
 
-#: rc.cpp:164
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 85
+#: rc.cpp:600
+#, no-c-format
 msgid "New table"
 msgstr ""
 
-#: rc.cpp:165
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 93
+#: rc.cpp:603
+#, no-c-format
 msgid "Existing table"
 msgstr ""
 
-#: rc.cpp:166 rc.cpp:167
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 106
+#: rc.cpp:606 rc.cpp:609
+#, no-c-format
 msgid "Table:"
 msgstr ""
 
-#: rc.cpp:168
-msgid "Mapping Between source and destination Fields"
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 148
+#: rc.cpp:612
+#, no-c-format
+msgid "Mapping Between Source and Destination Fields"
 msgstr ""
 
-#: rc.cpp:169
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 159
+#: rc.cpp:615
+#, no-c-format
 msgid ""
 "Please choose into which fields of the selected destination table the "
 "imported data fields should be inserted"
 msgstr ""
 
-#: rc.cpp:170 rc.cpp:187
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 168
+#: rc.cpp:618 rc.cpp:669
+#, no-c-format
 msgid "Destination Field"
 msgstr ""
 
-#: rc.cpp:171 rc.cpp:188
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 173
+#: rc.cpp:621 rc.cpp:672
+#, no-c-format
 msgid "Source"
 msgstr ""
 
-#: rc.cpp:172
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 193
+#: rc.cpp:624
+#, no-c-format
 msgid "Setup New Table"
 msgstr ""
 
-#: rc.cpp:173
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 204
+#: rc.cpp:627
+#, no-c-format
 msgid "Table Properties"
 msgstr ""
 
-#: rc.cpp:176
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 229
+#: rc.cpp:636
+#, no-c-format
 msgid "Default Value"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:279 rc.cpp:177
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 237
+#: plugins/tables/kexialtertabledialog.cpp:101
+#: plugins/tables/kexialtertabledialog.cpp:309
+#: plugins/tables/kexitablepart.cpp:63 rc.cpp:639
+#, no-c-format
 msgid "Primary Key"
 msgstr ""
 
-#: rc.cpp:178
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 245
+#: rc.cpp:642
+#, no-c-format
 msgid "Allow NULL"
 msgstr ""
 
-#: rc.cpp:179 rc.cpp:189
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 253
+#: rc.cpp:645 rc.cpp:675
+#, no-c-format
 msgid "1"
 msgstr ""
 
-#: rc.cpp:180 rc.cpp:190
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 261
+#: rc.cpp:648 rc.cpp:678
+#, no-c-format
 msgid "2"
 msgstr ""
 
-#: rc.cpp:181 rc.cpp:191
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 269
+#: rc.cpp:651 rc.cpp:681
+#, no-c-format
 msgid "3"
 msgstr ""
 
-#: rc.cpp:182
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 306
+#: rc.cpp:654
+#, no-c-format
 msgid "Add New Field"
 msgstr ""
 
-#: rc.cpp:183
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 314
+#: rc.cpp:657
+#, no-c-format
 msgid "Delete Field"
 msgstr ""
 
-#: rc.cpp:184
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 322
+#: rc.cpp:660
+#, no-c-format
 msgid "Move Field Down"
 msgstr ""
 
-#: rc.cpp:185
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 330
+#: rc.cpp:663
+#, no-c-format
 msgid "Move Field Up"
 msgstr ""
 
-#: rc.cpp:186
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 342
+#: rc.cpp:666
+#, no-c-format
 msgid "Field Mapping"
 msgstr ""
 
-#: rc.cpp:192
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 408
+#: rc.cpp:684
+#, no-c-format
 msgid "Finishing"
 msgstr ""
 
-#: rc.cpp:193
+#. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 419
+#: rc.cpp:687
+#, no-c-format
 msgid ""
 "You have now provided all information needed for importing. Just click the "
 "<b>Finish</b> button to eventually start the import process. If you have "
@@ -2772,72 +3098,125 @@ msgstr ""
 msgid "Fields"
 msgstr ""
 
-#: widget/propertyeditor/test/main.cpp:12
-msgid "A KDE KPart Application"
+#: widget/kexidbconnectionwidget.cpp:68
+msgid "Save changes"
 msgstr ""
 
-#: widget/propertyeditor/test/main.cpp:24
-msgid "test"
+#: widget/kexidbconnectionwidget.cpp:69
+msgid "Save all changes made to this connection"
 msgstr ""
 
-#: widget/propertyeditor/kexipropertyeditor.cpp:46
+#: widget/kexidbconnectionwidget.cpp:148
+msgid "&Information"
+msgstr ""
+
+#: widget/kexidbconnectionwidget.cpp:225
+#, fuzzy
+msgid "Open database"
+msgstr "&Очиш"
+
+#: widget/kexidbconnectionwidget.cpp:227
+msgid "Open database connection"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:66
+msgid "Row:"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:78
+msgid "First row"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:85
+msgid "Previous row"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:97
+msgid "Current row number"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:99
+msgid "of"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:114
+msgid "Number of rows"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:126
+msgid "Next row"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:132
+msgid "Last row"
+msgstr ""
+
+#: widget/utils/kexirecordnavigator.cpp:139
+msgid "New row"
+msgstr ""
+
+#: widget/propertyeditor/kexipropertyeditor.cpp:53
 msgid "Property"
 msgstr ""
 
-#: widget/propertyeditor/kexipropertyeditor.cpp:47
+#: widget/propertyeditor/kexipropertyeditor.cpp:54
 msgid "Value"
 msgstr ""
 
-#: widget/propertyeditor/propertyeditorlist.cpp:273
+#: widget/propertyeditor/kexipropertyeditor.cpp:78
+msgid "Undo changes"
+msgstr ""
+
+#: widget/propertyeditor/propertyeditorlist.cpp:297
 msgid "What's this"
 msgstr ""
 
-#: widget/propertyeditor/propertyeditorfile.cpp:43
-#: widget/propertyeditor/propertyeditorfile.cpp:122
+#: widget/propertyeditor/propertyeditorfile.cpp:45
+#: widget/propertyeditor/propertyeditorfile.cpp:123
 msgid " ... "
 msgstr ""
 
-#: widget/propertyeditor/propertyeditorfile.cpp:73
-#: widget/propertyeditor/propertyeditorfile.cpp:190
-msgid "Choose a file"
+#: widget/propertyeditor/propertyeditorfile.cpp:75
+msgid "Choose File"
 msgstr ""
 
-#: widget/propertyeditor/propertyeditorfile.cpp:189
+#: widget/propertyeditor/propertyeditorfile.cpp:205
 msgid "*.png *.xpm *.bmp *.jpg|Pixmap Files"
 msgstr ""
 
-#: widget/kexidatatableview.cpp:246
-msgid "Error occurred while updating table."
+#: widget/propertyeditor/propertyeditorfile.cpp:206
+msgid "Choose a file"
 msgstr ""
 
-#: widget/kexidatatableview.cpp:247
-msgid "Database Error"
+#: widget/kexiscrollview.cpp:287
+msgid "Outer area"
 msgstr ""
 
-#: widget/relations/kexirelationview.cpp:77
+#: widget/relations/kexirelationview.cpp:75
 msgid "&Hide Selected Table/Query"
 msgstr ""
 
-#: widget/relations/kexirelationview.cpp:79
+#: widget/relations/kexirelationview.cpp:77
 msgid "&Remove Selected Relationship"
 msgstr ""
 
-#: widget/relations/kexirelationview.cpp:81
+#: widget/relations/kexirelationview.cpp:79
 msgid "&Open Selected Table/Query"
 msgstr ""
 
-#: widget/relations/kexirelationwidget.cpp:89
+#: widget/relations/kexirelationwidget.cpp:85
 #, fuzzy
 msgid "&Open Table"
 msgstr "&Очиш"
 
-#: widget/relations/kexirelationwidget.cpp:92
+#: widget/relations/kexirelationwidget.cpp:88
 msgid "&Design Table"
 msgstr ""
 
-#: widget/relations/kexirelationwidget.cpp:97
-msgid "&Hide table"
-msgstr ""
+#: widget/relations/kexirelationwidget.cpp:93
+#, fuzzy
+msgid "&Hide Table"
+msgstr "&Очиш"
 
 #: widget/relations/kexirelationwidget.cpp:119
 msgid "Relations"
@@ -2850,214 +3229,602 @@ msgid ""
 "table is the child (slave) in the relationship."
 msgstr ""
 
-#: widget/relations/kexirelationwidget.cpp:311
+#: widget/relations/kexirelationwidget.cpp:329
 msgid "Relationship"
 msgstr ""
 
-#: widget/kexidswelcome.cpp:40
+#: widget/pixmapcollection.cpp:154
+msgid "Load KDE Icon by Name"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:168
+msgid "&Size:"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:176
+msgid "Small"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:176
+msgid "Medium"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:176
+msgid "Large"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:176
+msgid "Huge"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:235
+#, c-format
+msgid "Edit Pixmap Collection: %1"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:246
+msgid "&Add File"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:253
+msgid "&Add an icon"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:260
+msgid "&Remove selected item"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:314
+msgid "Do you want to remove item \"%1\" from collection \"%2\"?"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:369
+msgid "Rename Item"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:370
+msgid "Remove Item"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:376
+#, c-format
+msgid "Select a pixmap from %1"
+msgstr ""
+
+#: widget/pixmapcollection.cpp:377
+msgid "Edit Collection..."
+msgstr ""
+
+#: widget/kexidswelcome.cpp:39
 msgid ""
 "Kexi can help you with creation of %2 using data sources in almost no time "
 "with the \"%1 Wizard\""
 msgstr ""
 
-#: widget/kexidswelcome.cpp:42
+#: widget/kexidswelcome.cpp:41
 msgid "Create %1 using the \"%1 Wizard\""
 msgstr ""
 
-#: widget/kexidswelcome.cpp:47
-msgid "Do not show this Wizard again"
+#: widget/kexidswelcome.cpp:46
+msgid "Do not show this wizard again"
 msgstr ""
 
-#: widget/kexidswelcome.cpp:80
+#: widget/kexidswelcome.cpp:72
+msgid "&Next"
+msgstr ""
+
+#: widget/kexidswelcome.cpp:79
 msgid "&Finish"
+msgstr ""
+
+#: widget/kexiquerydesignersqleditor.cpp:234
+msgid "&Code Folding"
+msgstr ""
+
+#: widget/tableview/kexidataawareobjectiface.cpp:813
+#: widget/tableview/kexitableview.cpp:3291
+#: widget/tableview/kexitableviewdata.cpp:505
+msgid "The column's constraint is declared as NOT NULL."
+msgstr ""
+
+#: widget/tableview/kexidataawareobjectiface.cpp:832
+#: widget/tableview/kexitableview.cpp:3310
+#: widget/tableview/kexitableviewdata.cpp:516
+msgid "The column's constraint is declared as NOT EMPTY."
+msgstr ""
+
+#: widget/tableview/kexidataawareobjectiface.cpp:848
+#: widget/tableview/kexitableview.cpp:3326
+msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
+msgstr ""
+
+#: widget/tableview/kexidataawareobjectiface.cpp:881
+#: widget/tableview/kexitableview.cpp:3359
+msgid "Entered value is invalid."
+msgstr ""
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1021
+#: widget/tableview/kexitableview.cpp:826
+msgid "Do you want to delete selected row?"
+msgstr ""
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1022
+#: widget/tableview/kexitableview.cpp:827
+#, fuzzy
+msgid "&Delete row"
+msgstr "Лойиҳани яратиш"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1106
+#: widget/tableview/kexitableview.cpp:978
+msgid "Do you want to clear the contents of table %1?"
+msgstr ""
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1107
+#: widget/tableview/kexitableview.cpp:979
+msgid "&Clear contents"
+msgstr ""
+
+#: widget/tableview/kexitableviewdata.cpp:503
+#: widget/tableview/kexitableviewdata.cpp:514
+msgid "\"%1\" column requires a value to be entered."
+msgstr ""
+
+#: widget/tableview/kexitableviewdata.cpp:526
+msgid "Row inserting failed."
+msgstr ""
+
+#: widget/tableview/kexitableviewdata.cpp:541
+msgid "Row changing failed."
+msgstr ""
+
+#: widget/tableview/kexitableviewdata.cpp:604
+msgid "Row deleting failed."
+msgstr ""
+
+#: widget/tableview/kexiblobtableedit.cpp:256
+msgid "Open With..."
+msgstr ""
+
+#: widget/tableview/kexiblobtableedit.cpp:258
+msgid "Load From File..."
+msgstr ""
+
+#: widget/tableview/kexiblobtableedit.cpp:259
+msgid "Save to File..."
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:279
+msgid "Add Record"
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:282
+msgid "Remove Record"
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:739
+#: widget/tableview/kexitableview.cpp:1743
+msgid "(autonumber)"
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:4259
+msgid "Row: "
+msgstr ""
+
+#: scripting/python/test/test.cpp:40
+msgid "Pythonfile to execute."
 msgstr ""
 
 #: tips.cpp:3
 msgid ""
 "<h3>Kexi - Database Creation for Everyone</h3>\n"
-"\n"
 "<h3>Welcome</h3>\n"
 "<p>Kexi is under active development.</p>\n"
-"<p>Current Kexi version is <b>Beta3 Pre1</b>.</p>\n"
+"<p>Visit kexi home page at http://www.kexi-project.org/</p>\n"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:31
-msgid "Database Form"
+#: plugins/reports/kexireportview.cpp:45
+msgid "Page:"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:70
-msgid "Change Datasource"
-msgstr ""
-
-#: plugins/kugar/kexikugarhandler.cpp:58
+#: plugins/reports/kexireportfactory.cpp:42
+#: plugins/reports/kexireportpart.cpp:45
 msgid "Report"
 msgstr ""
 
-#: plugins/kugar/kexikugarhandler.cpp:64
-msgid "Reports"
-msgstr ""
-
-#: plugins/kugar/kexikugarhandler.cpp:129
-msgid "New Report"
-msgstr ""
-
-#: plugins/kugar/kexikugarhandler.cpp:129
-msgid "Report name:"
-msgstr ""
-
-#: plugins/kugar/kexikugarhandlerproxy.cpp:43
-msgid "Create &Report..."
-msgstr ""
-
-#: plugins/kugar/kexikugarhandlerproxy.cpp:46
-msgid "Open Report"
-msgstr ""
-
-#: plugins/kugar/kexikugarhandlerproxy.cpp:48
-msgid "Edit Report"
-msgstr ""
-
-#: plugins/kugar/kexikugarhandlerproxy.cpp:50
-msgid "Delete Report..."
-msgstr ""
-
-#: plugins/kugar/kexikugarhandlerproxy.cpp:64
-msgid "Report Generator Licensing..."
-msgstr ""
-
-#: plugins/kugar/kudesigner/kudesigner_kexiplugin.cpp:100
-msgid "<NONE>"
-msgstr ""
-
-#: plugins/kugar/kudesigner/kudesigner_kexiplugin.cpp:107
-#: plugins/kugar/kudesigner/kudesigner_kexiplugin.cpp:143
-#: plugins/kugar/kudesigner/kudesigner_kexiplugin.cpp:153
+#: plugins/reports/kexireportfactory.cpp:44
 msgid ""
-"_: Please make sure that the translated string looks like Detail %1. (%1 "
-"preceded by a space and directly followed by a . and no character after "
-"that)\n"
-"Detail %1."
+"_: This string will be used to name widgets of this class. It must _not_ "
+"contain white spaces and non latin1 characters\n"
+"Report"
 msgstr ""
 
-#: plugins/kugar/kudesigner/kudesigner_kexiplugin.cpp:218
-msgid "Unsupported"
+#: plugins/reports/kexireportfactory.cpp:45
+msgid "A report"
 msgstr ""
 
-#: plugins/kugar/kudesigner/kudesigner_kexiplugin.cpp:225
-msgid "Datasource"
+#: plugins/reports/kexireportfactory.cpp:51
+msgid "Label"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:76
+#: plugins/reports/kexireportfactory.cpp:52
+msgid ""
+"_: Widget name (see above)\n"
+"Label"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:53
+msgid "A label to display text"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:59
+msgid "Picture Label"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:60
+msgid ""
+"_: Widget name (see above)\n"
+"PicLabel"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:61
+msgid "A label to display images or icons"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:67
+msgid "Line"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:68
+msgid ""
+"_: Widget name (see above)\n"
+"Line"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:69
+msgid "A simple line"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:75
+msgid "Sub Report"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:76
+msgid ""
+"_: Widget name (see above)\n"
+"SubReport"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:77
+msgid "A report embedded in another report"
+msgstr ""
+
+#: plugins/reports/kexireportfactory.cpp:114
+msgid "Edit Rich Text"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:146
+msgid "Database Form"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:147
+msgid "DBForm"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:148
+msgid "A db-aware form widget"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:154
+msgid "Sub Form"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:155
+msgid "SubForm"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:156
+msgid "A form widget included in another Form"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:166
+msgid "Line Edit"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:167
+msgid ""
+"_: Widget name (see above)\n"
+"LineEdit"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:168
+msgid "A widget to input text"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:177
+msgid "Text Label"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:178
+msgid ""
+"_: Widget name (see above)\n"
+"TextLabel"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:179
+msgid "A widget to display text"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:182
+msgid "Data source"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:183
+msgid "Form name"
+msgstr ""
+
+#: plugins/forms/kexidataprovider.cpp:124
+msgid "NAME"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:46
+msgid "Form"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:79 plugins/forms/kexiformpart.cpp:101
+msgid "Edit Tab Order"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:80
+msgid "Adjust Size"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:95
+msgid "Show Form UI Code"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:100
+msgid "Clear Widget Contents"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:102
+msgid "Edit Pixmap Collection"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:103
+msgid "Edit Form Connections"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:105
+msgid "Lay Out Widgets &Horizontally"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:106
+msgid "Lay Out Widgets &Vertically"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:107
+msgid "Lay Out Widgets in &Grid"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:108
+#, fuzzy
+msgid "&Break Layout"
+msgstr "Лойиҳани яратиш"
+
+#: plugins/forms/kexiformpart.cpp:110
+msgid "Bring Widget to Front"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:111
+msgid "Send Widget to Back"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:113
+msgid "Align Widgets Position"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:115
+msgid "To Left"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:116
+msgid "To Right"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:117
+msgid "To Top"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:118
+msgid "To Bottom"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:119 plugins/forms/kexiformpart.cpp:124
+msgid "To Grid"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:121
+msgid "Adjust Widgets Size"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:123
+msgid "To Fit"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:125
+msgid "To Shortest"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:126
+msgid "To Tallest"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:127
+msgid "To Narrowest"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:128
+msgid "To Widest"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:112
 msgid "Query columns"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:138
-msgid "Field"
+#: plugins/queries/kexiquerydesignerguieditor.cpp:160
+msgid "Column"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:152
+#: plugins/queries/kexiquerydesignerguieditor.cpp:172
 msgid "Visible"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:155
+#: plugins/queries/kexiquerydesignerguieditor.cpp:175
 msgid "Totals"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:157
+#: plugins/queries/kexiquerydesignerguieditor.cpp:177
 msgid "Group by"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:158
+#: plugins/queries/kexiquerydesignerguieditor.cpp:178
 msgid "Sum"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:159
+#: plugins/queries/kexiquerydesignerguieditor.cpp:179
 msgid "Average"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:160
+#: plugins/queries/kexiquerydesignerguieditor.cpp:180
 msgid "Min"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:161
+#: plugins/queries/kexiquerydesignerguieditor.cpp:181
 msgid "Max"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:177
+#: plugins/queries/kexiquerydesignerguieditor.cpp:197
 msgid "Criteria"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:323
+#: plugins/queries/kexiquerydesignerguieditor.cpp:314
 msgid ""
 "Cannot switch to data view, because query design is empty.\n"
 "First, please create your design."
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:546
+#: plugins/queries/kexiquerydesignerguieditor.cpp:344
+msgid "Select column for table \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:360
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1205
+msgid "Invalid criteria \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:380
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1070
+msgid "Invalid expression \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:514
+msgid "Query definition loading failed."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:514
+msgid "Query data may be corrupted."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1052
+msgid "Entered column alias \"%1\" is not a valid identifier."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1179
+msgid "Could not set criteria for \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1182
+msgid "Could not set criteria for empty row"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1277
+#: plugins/tables/kexialtertabledialog.cpp:282
+msgid "Caption"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1282
 msgid "Alias"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:560
-msgid "None"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:560
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1294
 msgid "Ascending"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:560
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1294
 msgid "Descending"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:561
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1296
 msgid "Sorting"
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:52
-msgid "Create &Query..."
+#: plugins/queries/kexiqueryview.cpp:47
+msgid "Query executing failed."
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:55
-msgid "Open Query"
+#: plugins/queries/kexiquerydesignersql.cpp:100
+msgid "SQL Query Text"
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:57
-msgid "Edit Query"
+#: plugins/queries/kexiquerydesignersql.cpp:135
+msgid "SQL Query History"
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:59
-msgid "Delete Query..."
+#: plugins/queries/kexiquerydesignersql.cpp:139
+msgid "Back to selected query"
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:110
-msgid "New Query"
+#: plugins/queries/kexiquerydesignersql.cpp:140
+msgid "Clear history"
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:110
-msgid "Query name:"
+#: plugins/queries/kexiquerydesignersql.cpp:167
+msgid "The query is correct"
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:176
-msgid "Query not found"
+#: plugins/queries/kexiquerydesignersql.cpp:174
+msgid "The query is incorrect"
 msgstr ""
 
-#: plugins/queries/kexiquerypartproxy.cpp:181
-msgid "Do you want to delete \"%1\" query?"
+#: plugins/queries/kexiquerydesignersql.cpp:181
+msgid "Please enter your query and execute \"Check query\" function to verify it."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignersql.cpp:224
+msgid "The query you entered is incorrect."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignersql.cpp:225
+msgid "Do you want to cancel any changes made to this SQL text?"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignersql.cpp:226
+msgid "Answering \"No\" allows you to make corrections."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignersql.cpp:447
+msgid "Do you want to save invalid query?"
 msgstr ""
 
 #: plugins/queries/kexiaddparamdialog.cpp:30
 msgid "Add Parameter"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignersqlhistory.cpp:120
+#: plugins/queries/kexiquerydesignersqlhistory.cpp:44
 msgid "Copy to Clipboard"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignersqlhistory.cpp:124
-msgid "Requery"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignersqlhistory.cpp:288
+#: plugins/queries/kexiquerydesignersqlhistory.cpp:339
 #, c-format
 msgid "Error: %1"
 msgstr ""
@@ -3070,12 +3837,20 @@ msgstr ""
 msgid "Query"
 msgstr ""
 
-#: plugins/queries/kexiquerydesigner.cpp:77
-msgid "Composer"
+#: plugins/queries/kexiquerypart.cpp:127 plugins/queries/kexiquerypart.cpp:129
+msgid "Check Query"
 msgstr ""
 
-#: plugins/queries/kexiquerydesigner.cpp:78
-msgid "SQL"
+#: plugins/queries/kexiquerypart.cpp:130
+msgid "Checks query for validity."
+msgstr ""
+
+#: plugins/queries/kexiquerypart.cpp:133
+msgid "Show SQL History"
+msgstr ""
+
+#: plugins/queries/kexiquerypart.cpp:135
+msgid "Shows or hides SQL editor's history."
 msgstr ""
 
 #: plugins/relations/kexirelationmaindlg.cpp:41
@@ -3108,88 +3883,162 @@ msgstr ""
 msgid "An unknown error has been encountered while creating the destination table"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:79
-msgid "Filter"
+#: plugins/tables/kexitablepart.cpp:65
+msgid "Sets or removes primary key for currently selected field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:75
+#: plugins/tables/kexitablepart.cpp:113
+msgid ""
+"You are about to remove table \"%1\" but following objects using this table "
+"are opened:"
+msgstr ""
+
+#: plugins/tables/kexitablepart.cpp:160
+msgid "Do you want to close all windows for these objects?"
+msgstr ""
+
+#: plugins/tables/kexitablepart.cpp:161
+msgid "Close windows"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:100
+msgid ""
+"_: Primary Key\n"
+"PK"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:106
 msgid "Field name"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:82
+#: plugins/tables/kexialtertabledialog.cpp:112
 msgid "Data type"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:94
+#: plugins/tables/kexialtertabledialog.cpp:129
 msgid "Comments"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:259
+#: plugins/tables/kexialtertabledialog.cpp:280
 msgid "Subtype"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:266
+#: plugins/tables/kexialtertabledialog.cpp:290
 msgid "Unsigned number"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:268
+#: plugins/tables/kexialtertabledialog.cpp:292
 msgid "Length"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:270
+#: plugins/tables/kexialtertabledialog.cpp:294
 msgid "Precision"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:273
+#: plugins/tables/kexialtertabledialog.cpp:300
 msgid "Column width"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:275
+#: plugins/tables/kexialtertabledialog.cpp:305
 msgid "Default value"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:281
+#: plugins/tables/kexialtertabledialog.cpp:312
 msgid "Unique"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:283
+#: plugins/tables/kexialtertabledialog.cpp:314
 msgid "Required"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:285
-msgid "Not Empty"
+#: plugins/tables/kexialtertabledialog.cpp:316
+msgid ""
+"Allow Zero\n"
+"Size"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:287
+#: plugins/tables/kexialtertabledialog.cpp:318
+msgid "Autonumber"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:321
 msgid "Indexed"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:319
+#: plugins/tables/kexialtertabledialog.cpp:430
+msgid "Do you want to save the design now?"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:432
+msgid "Note: This table is already filled with data which will be removed."
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:447
 msgid ""
 "Cannot switch to data view, because table design is empty.\n"
 "First, please create your design."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:574
+#: plugins/tables/kexialtertabledialog.cpp:458
+msgid "Saving changes for existing table design is now required."
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:691
+msgid "Setting autonumber requires primary key to be set for current field."
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:693
+msgid "Previous primary key will be removed."
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:695
+msgid ""
+"Do you want to create primary key for current field? Click \"Cancel\" to "
+"cancel setting autonumber."
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:699
+msgid "Setting autonumber field"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:700
+msgid "Create &primary key"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:728
+msgid ""
+"<p>Table \"%1\" has no <b>primary key</b> defined.</p>"
+"<p>Although a primary key is not required, it is needed for creating "
+"relations between database tables. Do you want to add primary key "
+"automatically now?</p>"
+"<p>If you want to add a primary key by hand, press \"Cancel\" to cancel "
+"saving table design.</p>"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:734
+msgid "&Add a primary key"
+msgstr ""
+
+#: plugins/tables/kexialtertabledialog.cpp:768
 msgid "You should enter field name."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:584
+#: plugins/tables/kexialtertabledialog.cpp:780
 msgid ""
 "You have added no fields.\n"
 "Every table should have at least one field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:590
+#: plugins/tables/kexialtertabledialog.cpp:787
 msgid ""
 "You have added \"%1\" field name twice.\n"
 "Field names cannot be repeated. Correct name of the field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:664
+#: plugins/tables/kexialtertabledialog.cpp:914
 msgid ""
-"Saving changes for existing table design are not yet supported.\n"
-"Do you want to discard your changes now?"
+"You are about to change the design of table \"%1\" but following objects "
+"using this table are opened:"
 msgstr ""
 
 #: plugins/scripting/kexiscripthandler.cpp:48
@@ -3217,98 +4066,29 @@ msgid "Script"
 msgstr ""
 
 #: plugins/scripting/kexiqsahost.cpp:64
-msgid "// code here!\n"
+msgid ""
+"// code here!\n"
 msgstr ""
 
-#: tableview/kexitableviewdata.cpp:461 tableview/kexitableviewdata.cpp:468
-msgid "\"%1\" column requires a value to be entered."
-msgstr ""
+#, fuzzy
+#~ msgid "Create another project"
+#~ msgstr "Янги лойиҳани яратиш"
 
-#: tableview/kexitableview.cpp:2608 tableview/kexitableviewdata.cpp:462
-msgid "The column's constraint is declared as NOT NULL."
-msgstr ""
+#, fuzzy
+#~ msgid "Table '%1' does not exist"
+#~ msgstr "\"%1\" файли мавжуд эмас."
 
-#: tableview/kexitableview.cpp:2625 tableview/kexitableviewdata.cpp:469
-msgid "The column's constraint is declared as NOT EMPTY."
-msgstr ""
+#, fuzzy
+#~ msgid "Create Layout"
+#~ msgstr "Лойиҳани яратиш"
 
-#: tableview/kexitableviewdata.cpp:478
-msgid "Row inserting failed."
-msgstr ""
+#, fuzzy
+#~ msgid "Break Layout: %1"
+#~ msgstr "Лойиҳани яратиш"
 
-#: tableview/kexitableviewdata.cpp:493
-msgid "Row changing failed."
-msgstr ""
+#, fuzzy
+#~ msgid "Set the current view style."
+#~ msgstr "Янги лойиҳани яратиш"
 
-#: tableview/kexitableviewdata.cpp:554
-msgid "Row deleting failed."
-msgstr ""
-
-#: tableview/kexiblobtableedit.cpp:253
-msgid "Open With..."
-msgstr ""
-
-#: tableview/kexiblobtableedit.cpp:255
-msgid "Load From File..."
-msgstr ""
-
-#: tableview/kexiblobtableedit.cpp:256
-msgid "Save to File..."
-msgstr ""
-
-#: tableview/kexitableview.cpp:156
-msgid "Add Record"
-msgstr ""
-
-#: tableview/kexitableview.cpp:159
-msgid "Remove Record"
-msgstr ""
-
-#: tableview/kexitableview.cpp:257
-msgid "Row:"
-msgstr ""
-
-#: tableview/kexitableview.cpp:269
-msgid "First row"
-msgstr ""
-
-#: tableview/kexitableview.cpp:275
-msgid "Previous row"
-msgstr ""
-
-#: tableview/kexitableview.cpp:287
-msgid "Current row number"
-msgstr ""
-
-#: tableview/kexitableview.cpp:289
-msgid "of"
-msgstr ""
-
-#: tableview/kexitableview.cpp:315
-msgid "Next row"
-msgstr ""
-
-#: tableview/kexitableview.cpp:321
-msgid "Last row"
-msgstr ""
-
-#: tableview/kexitableview.cpp:329
-msgid "New row"
-msgstr ""
-
-#: tableview/kexitableview.cpp:576
-msgid "Do you want to delete selected row?"
-msgstr ""
-
-#: tableview/kexitableview.cpp:2639
-msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
-msgstr ""
-
-#: tableview/kexitableview.cpp:2670
-msgid "Entered value is invalid."
-msgstr ""
-
-#: tableview/kexitableview.cpp:3519
-msgid "Row: "
-msgstr ""
-
+#~ msgid "Radio Button"
+#~ msgstr "Танлаш тугмаси"
