@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
-"POT-Creation-Date: 2005-01-03 01:39+0100\n"
+"POT-Creation-Date: 2005-02-03 01:19+0100\n"
 "PO-Revision-Date: 2004-08-04 00:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -189,7 +189,7 @@ msgid "URLs older than"
 msgstr ""
 
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 151
-#: about/konq_aboutpage.cc:182 rc.cpp:324
+#: about/konq_aboutpage.cc:265 rc.cpp:324
 #, no-c-format
 msgid "Details"
 msgstr "Тафсилотлар"
@@ -240,7 +240,8 @@ msgstr ""
 "Сабаб:\n"
 "%2"
 
-#: konq_factory.cc:211
+#: about/konq_aboutpage.cc:109 about/konq_aboutpage.cc:170
+#: about/konq_aboutpage.cc:221 about/konq_aboutpage.cc:314 konq_factory.cc:211
 msgid "Konqueror"
 msgstr "Konqueror"
 
@@ -264,7 +265,7 @@ msgstr ""
 msgid "developer (framework, parts)"
 msgstr ""
 
-#: konq_factory.cc:220 konq_factory.cc:243
+#: konq_factory.cc:220 konq_factory.cc:247
 msgid "developer (framework)"
 msgstr ""
 
@@ -282,6 +283,8 @@ msgstr ""
 
 #: konq_factory.cc:224 konq_factory.cc:225 konq_factory.cc:226
 #: konq_factory.cc:228 konq_factory.cc:229 konq_factory.cc:231
+#: konq_factory.cc:232 konq_factory.cc:233 konq_factory.cc:234
+#: konq_factory.cc:235
 msgid "developer (HTML rendering engine)"
 msgstr ""
 
@@ -293,55 +296,55 @@ msgstr ""
 msgid "developer (HTML rendering engine, I/O lib, regression test framework)"
 msgstr ""
 
-#: konq_factory.cc:232
+#: konq_factory.cc:236
 msgid "developer (HTML rendering engine, JavaScript)"
 msgstr ""
 
-#: konq_factory.cc:233
+#: konq_factory.cc:237
 msgid "developer (JavaScript)"
 msgstr "тузувчи (JavaScript)"
 
-#: konq_factory.cc:234
+#: konq_factory.cc:238
 msgid "developer (Java applets and other embedded objects)"
 msgstr ""
 
-#: konq_factory.cc:235 konq_factory.cc:236
+#: konq_factory.cc:239 konq_factory.cc:240
 msgid "developer (I/O lib)"
 msgstr "тузувчи (К/Ч кутубхонаси)"
 
-#: konq_factory.cc:237 konq_factory.cc:238
+#: konq_factory.cc:241 konq_factory.cc:242
 msgid "developer (Java applet support)"
 msgstr "тузувчи (Java апплетни қўллаш)"
 
-#: konq_factory.cc:239
+#: konq_factory.cc:243
 msgid ""
 "developer (Java 2 security manager support,\n"
 " and other major improvements to applet support)"
 msgstr ""
 
-#: konq_factory.cc:240
+#: konq_factory.cc:244
 msgid "developer (Netscape plugin support)"
 msgstr "тузувчи (Netscape плагинни қўллаш)"
 
-#: konq_factory.cc:241
+#: konq_factory.cc:245
 msgid "developer (SSL, Netscape plugins)"
 msgstr "тузувчи (SSL, Netscape плагинлар)"
 
-#: konq_factory.cc:242
+#: konq_factory.cc:246
 msgid "developer (I/O lib, Authentication support)"
 msgstr ""
 "тузувчи (К/Ч кутубхонаси, тасдиқлашни "
 "қўллаш)"
 
-#: konq_factory.cc:244
+#: konq_factory.cc:248
 msgid "graphics/icons"
 msgstr "графика/нишончалар"
 
-#: konq_factory.cc:245
+#: konq_factory.cc:249
 msgid "kfm author"
 msgstr "kfm муаллифи"
 
-#: konq_factory.cc:246
+#: konq_factory.cc:250
 msgid "developer (navigation panel framework)"
 msgstr ""
 
@@ -375,10 +378,15 @@ msgstr "%1 билан кўриб чиқиш"
 msgid "Preview In"
 msgstr "...да кўриб чиқиш"
 
-#: konq_guiclients.cc:184
+#: konq_guiclients.cc:189
 #, c-format
 msgid "Show %1"
 msgstr "%1"
+
+#: konq_guiclients.cc:193
+#, fuzzy, c-format
+msgid "Hide %1"
+msgstr "Бекитиш"
 
 #: konq_main.cc:40
 msgid "Start without a default window"
@@ -410,7 +418,7 @@ msgstr ""
 msgid "Location to open"
 msgstr "Кўриш учун манзил"
 
-#: konq_mainwindow.cc:500
+#: konq_mainwindow.cc:496
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -419,7 +427,7 @@ msgstr ""
 "Нотўгри URL\n"
 "%1"
 
-#: konq_mainwindow.cc:505
+#: konq_mainwindow.cc:501
 #, c-format
 msgid ""
 "Protocol not supported\n"
@@ -428,344 +436,345 @@ msgstr ""
 "Протокол қўлланмаган\n"
 "%1"
 
-#: konq_mainwindow.cc:579 konq_run.cc:117
+#: konq_mainwindow.cc:575 konq_run.cc:117
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
 "with %1, but it cannot handle this file type."
 msgstr ""
 
-#: konq_mainwindow.cc:1410
+#: konq_mainwindow.cc:1406
 msgid "Open Location"
 msgstr "Манзилни кўриш"
 
-#: konq_mainwindow.cc:1440
+#: konq_mainwindow.cc:1436
 msgid "Cannot create the find part, check your installation."
 msgstr ""
 
-#: konq_mainwindow.cc:1721
+#: konq_mainwindow.cc:1717
 msgid "Canceled."
 msgstr "Бекор қилинди."
 
-#: konq_mainwindow.cc:1759
+#: konq_mainwindow.cc:1755
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the page will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:1760 konq_mainwindow.cc:2524 konq_mainwindow.cc:2542
-#: konq_mainwindow.cc:2649 konq_mainwindow.cc:2664 konq_mainwindow.cc:2681
-#: konq_mainwindow.cc:2718 konq_mainwindow.cc:2751 konq_mainwindow.cc:5007
-#: konq_mainwindow.cc:5024 konq_viewmgr.cc:1120 konq_viewmgr.cc:1138
+#: konq_mainwindow.cc:1756 konq_mainwindow.cc:2551 konq_mainwindow.cc:2569
+#: konq_mainwindow.cc:2677 konq_mainwindow.cc:2693 konq_mainwindow.cc:2710
+#: konq_mainwindow.cc:2747 konq_mainwindow.cc:2780 konq_mainwindow.cc:5130
+#: konq_mainwindow.cc:5148 konq_viewmgr.cc:1165 konq_viewmgr.cc:1183
 msgid "Discard Changes?"
 msgstr "Ўзгаришлардан воз кечиш"
 
-#: konq_mainwindow.cc:1760 konq_mainwindow.cc:2524 konq_mainwindow.cc:2542
-#: konq_mainwindow.cc:2649 konq_mainwindow.cc:2664 konq_mainwindow.cc:2681
-#: konq_mainwindow.cc:2718 konq_mainwindow.cc:2751 konq_mainwindow.cc:5007
-#: konq_mainwindow.cc:5024 konq_viewmgr.cc:1120 konq_viewmgr.cc:1138
+#: konq_mainwindow.cc:1756 konq_mainwindow.cc:2551 konq_mainwindow.cc:2569
+#: konq_mainwindow.cc:2677 konq_mainwindow.cc:2693 konq_mainwindow.cc:2710
+#: konq_mainwindow.cc:2747 konq_mainwindow.cc:2780 konq_mainwindow.cc:5130
+#: konq_mainwindow.cc:5148 konq_viewmgr.cc:1165 konq_viewmgr.cc:1183
 msgid "&Discard Changes"
 msgstr "Ўзгариш&лардан воз кечиш"
 
-#: konq_mainwindow.cc:2523 konq_mainwindow.cc:2541
+#: konq_mainwindow.cc:2550 konq_mainwindow.cc:2568
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Detaching the tab will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:2648
+#: konq_mainwindow.cc:2676
 msgid ""
 "This view contains changes that have not been submitted.\n"
 "Closing the view will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:2663 konq_mainwindow.cc:2680
+#: konq_mainwindow.cc:2692 konq_mainwindow.cc:2709
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the tab will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:2702
+#: konq_mainwindow.cc:2731
 msgid "Do you really want to close all other tabs?"
 msgstr "Ростдан бошқа табларни ёпмоқчимисиз?"
 
-#: konq_mainwindow.cc:2703
+#: konq_mainwindow.cc:2732
 msgid "Close Other Tabs Confirmation"
 msgstr "Бошқа табларни ёпиш"
 
-#: konq_mainwindow.cc:2703 konq_mainwindow.cc:3652 konq_tabs.cc:421
+#: konq_mainwindow.cc:2732 konq_mainwindow.cc:3771 konq_tabs.cc:424
 msgid "Close &Other Tabs"
 msgstr "&Бошқа табларни ёпиш"
 
-#: konq_mainwindow.cc:2717
+#: konq_mainwindow.cc:2746
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing other tabs will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:2750
+#: konq_mainwindow.cc:2779
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Reloading all tabs will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:2824
+#: konq_mainwindow.cc:2853
 #, c-format
 msgid "No permissions to write to %1"
 msgstr "%1'га ёзиш учун рухсат йўқ."
 
-#: konq_mainwindow.cc:2834
+#: konq_mainwindow.cc:2863
 msgid "Enter Target"
 msgstr "Мўлжални киритинг"
 
-#: konq_mainwindow.cc:2843
+#: konq_mainwindow.cc:2872
 msgid "<qt><b>%1</b> is not valid</qt>"
 msgstr "<qt><b>%1</b> нотўғри</qt>"
 
-#: konq_mainwindow.cc:2859
+#: konq_mainwindow.cc:2888
 #, fuzzy
 msgid "Copy selected files from %1 to:"
 msgstr "Белгиланган файллардан нусха кўчириш"
 
-#: konq_mainwindow.cc:2869
+#: konq_mainwindow.cc:2898
 #, fuzzy
 msgid "Move selected files from %1 to:"
 msgstr "Белгиланган файлларни кўчириш"
 
-#: konq_mainwindow.cc:3564
+#: konq_mainwindow.cc:3675
 msgid "&Edit File Type..."
 msgstr "Файл т&урини таҳрирлаш"
 
-#: konq_mainwindow.cc:3566 sidebar/trees/history_module/history_module.cpp:78
+#: konq_mainwindow.cc:3677 sidebar/trees/history_module/history_module.cpp:78
 msgid "New &Window"
 msgstr "&Янги ойна"
 
-#: konq_mainwindow.cc:3567
+#: konq_mainwindow.cc:3678
 msgid "&Duplicate Window"
 msgstr "&Ойнани нусхасини яратиш"
 
-#: konq_mainwindow.cc:3568
+#: konq_mainwindow.cc:3679
 msgid "Send &Link Address..."
 msgstr "&Боғ манзилини жўнатиш"
 
-#: konq_mainwindow.cc:3569
+#: konq_mainwindow.cc:3680
 msgid "S&end File..."
 msgstr "&Файлни жўнатиш"
 
-#: konq_mainwindow.cc:3570
+#: konq_mainwindow.cc:3681
 msgid "&Run Command..."
 msgstr "&Буйруқни бажариш..."
 
-#: konq_mainwindow.cc:3573
+#: konq_mainwindow.cc:3684
 msgid "Open &Terminal"
 msgstr "&Терминални очиш"
 
-#: konq_mainwindow.cc:3575
+#: konq_mainwindow.cc:3686
 msgid "&Open Location..."
 msgstr "&Манзилни кўриш..."
 
-#: konq_mainwindow.cc:3577
+#: konq_mainwindow.cc:3688
 msgid "&Find File..."
 msgstr "Файлни &қидириш..."
 
-#: konq_mainwindow.cc:3582
+#: konq_mainwindow.cc:3693
 msgid "&Use index.html"
 msgstr "index.html'дан ф&ойдаланиш"
 
-#: konq_mainwindow.cc:3583
+#: konq_mainwindow.cc:3694
 msgid "Lock to Current Location"
 msgstr ""
 
-#: konq_mainwindow.cc:3584
+#: konq_mainwindow.cc:3695
 msgid "Lin&k View"
 msgstr "Кўринишни &боғлаш"
 
-#: konq_mainwindow.cc:3587
+#: konq_mainwindow.cc:3698
 msgid "&Up"
 msgstr "&Юқорига"
 
-#: konq_mainwindow.cc:3600
+#: konq_mainwindow.cc:3717
 msgid "History"
 msgstr "Тарих"
 
-#: konq_mainwindow.cc:3604
-msgid "Home URL"
+#: konq_mainwindow.cc:3721
+#, fuzzy
+msgid "Home"
 msgstr "Уй URL"
 
-#: konq_mainwindow.cc:3606
+#: konq_mainwindow.cc:3725
 msgid "App&lications"
 msgstr "&Дастурлар"
 
-#: konq_mainwindow.cc:3607
+#: konq_mainwindow.cc:3726
 msgid "&Storage Media"
 msgstr ""
 
-#: konq_mainwindow.cc:3608
+#: konq_mainwindow.cc:3727
 msgid "Sett&ings"
 msgstr "Мос&ламалар"
 
-#: konq_mainwindow.cc:3610
+#: about/konq_aboutpage.cc:132 konq_mainwindow.cc:3729
 msgid "Trash"
 msgstr "Чиқиндилар қутиси"
 
-#: konq_mainwindow.cc:3611
+#: konq_mainwindow.cc:3730
 msgid "Templates"
 msgstr "Намуналар"
 
-#: konq_mainwindow.cc:3612
+#: konq_mainwindow.cc:3731
 msgid "Autostart"
 msgstr "Авто-бошлаш"
 
-#: konq_mainwindow.cc:3613
+#: konq_mainwindow.cc:3732
 msgid "Most Often Visited"
 msgstr "Энг кўп кўрилган"
 
-#: konq_mainwindow.cc:3619 konq_mainwindow.cc:4134
+#: konq_mainwindow.cc:3738 konq_mainwindow.cc:4278
 msgid "&Save View Profile..."
 msgstr "&Кўриш профилини сақлаш"
 
-#: konq_mainwindow.cc:3620
+#: konq_mainwindow.cc:3739
 msgid "View Properties Saved in &Folder"
 msgstr "Жил&дга сақланган хоссаларни кўриш"
 
-#: konq_mainwindow.cc:3622
+#: konq_mainwindow.cc:3741
 msgid "Remove Folder Properties"
 msgstr "Жилднинг хоссаларини олиб ташлаш"
 
-#: konq_mainwindow.cc:3641
+#: konq_mainwindow.cc:3760
 #, fuzzy
 msgid "Configure Extensions..."
 msgstr "Имлони текширишни мослаш"
 
-#: konq_mainwindow.cc:3642
+#: konq_mainwindow.cc:3761
 msgid "Configure Spell Checking..."
 msgstr "Имлони текширишни мослаш"
 
-#: konq_mainwindow.cc:3645
+#: konq_mainwindow.cc:3764
 msgid "Split View &Left/Right"
 msgstr "&Вертикал бўйича бўлиш"
 
-#: konq_mainwindow.cc:3646
+#: konq_mainwindow.cc:3765
 msgid "Split View &Top/Bottom"
 msgstr "&Горизонтал бўйича бўлиш"
 
-#: konq_mainwindow.cc:3647 konq_tabs.cc:80
+#: konq_mainwindow.cc:3766 konq_tabs.cc:83
 msgid "&New Tab"
 msgstr "Янги &таб"
 
-#: konq_mainwindow.cc:3648
+#: konq_mainwindow.cc:3767
 msgid "&Duplicate Current Tab"
 msgstr "Табнинг &нусхасини яратиш"
 
-#: konq_mainwindow.cc:3649
+#: konq_mainwindow.cc:3768
 msgid "Detach Current Tab"
 msgstr "Табни ажратиш"
 
-#: konq_mainwindow.cc:3650
+#: konq_mainwindow.cc:3769
 msgid "&Close Active View"
 msgstr "&Ҳамма актив кўринишларни ёпиш"
 
-#: konq_mainwindow.cc:3651
+#: konq_mainwindow.cc:3770
 msgid "Close Current Tab"
 msgstr "Жорий табни ёпиш"
 
-#: konq_mainwindow.cc:3654
+#: konq_mainwindow.cc:3773
 msgid "Activate Next Tab"
 msgstr "Кейинги табни активлаштириш"
 
-#: konq_mainwindow.cc:3655
+#: konq_mainwindow.cc:3774
 msgid "Activate Previous Tab"
 msgstr "Олдинги табни активлаштириш"
 
-#: konq_mainwindow.cc:3660
+#: konq_mainwindow.cc:3779
 #, c-format
 msgid "Activate Tab %1"
 msgstr "%1 табни активлаштириш"
 
-#: konq_mainwindow.cc:3663
+#: konq_mainwindow.cc:3782
 msgid "Move Tab Left"
 msgstr "Табни чапга суриш"
 
-#: konq_mainwindow.cc:3664
+#: konq_mainwindow.cc:3783
 msgid "Move Tab Right"
 msgstr "Табни ўнгга суриш"
 
-#: konq_mainwindow.cc:3667
+#: konq_mainwindow.cc:3786
 msgid "Dump Debug Info"
 msgstr ""
 
-#: konq_mainwindow.cc:3670
+#: konq_mainwindow.cc:3789
 msgid "C&onfigure View Profiles..."
 msgstr "Кўриш профилларни м&ослаш"
 
-#: konq_mainwindow.cc:3671
+#: konq_mainwindow.cc:3790
 msgid "Load &View Profile"
 msgstr "Кўриш про&филини юклаш"
 
-#: konq_mainwindow.cc:3684 konq_tabs.cc:399
+#: konq_mainwindow.cc:3803 konq_tabs.cc:402
 msgid "&Reload All Tabs"
 msgstr "Ҳамма табларни қайтадан &юклаш"
 
-#: konq_mainwindow.cc:3695
+#: konq_mainwindow.cc:3818
 msgid "&Stop"
 msgstr "&Тўхтатиш"
 
-#: konq_mainwindow.cc:3697
+#: konq_mainwindow.cc:3820
 msgid "&Rename"
 msgstr "&Номини ўзгартириш"
 
-#: konq_mainwindow.cc:3698
+#: konq_mainwindow.cc:3821
 msgid "&Move to Trash"
 msgstr "&Чиқиндилар қутисига олиб ташлаш"
 
-#: konq_mainwindow.cc:3707
+#: konq_mainwindow.cc:3827
 msgid "Animated Logo"
 msgstr ""
 
-#: konq_mainwindow.cc:3710 konq_mainwindow.cc:3711
+#: konq_mainwindow.cc:3830 konq_mainwindow.cc:3831
 msgid "L&ocation: "
 msgstr "&Манзил: "
 
-#: konq_mainwindow.cc:3714
+#: konq_mainwindow.cc:3834
 msgid "Location Bar"
 msgstr "Манзил панели"
 
-#: konq_mainwindow.cc:3719
+#: konq_mainwindow.cc:3839
 msgid "Location Bar<p>Enter a web address or search term."
 msgstr ""
 "Манзил панели"
 "<p>Веб-саҳифанинг манзилини ёки қидириш "
 "учун сўзни киритинг."
 
-#: konq_mainwindow.cc:3722
+#: konq_mainwindow.cc:3842
 msgid "Clear Location Bar"
 msgstr "Манзил панелини тозалаш"
 
-#: konq_mainwindow.cc:3725
+#: konq_mainwindow.cc:3845
 msgid "Clear Location bar<p>Clears the content of the location bar."
 msgstr ""
 "Манзил панелини тозалаш"
 "<p>Манзил панелидаги ёзувни ўчиради."
 
-#: konq_mainwindow.cc:3748
+#: konq_mainwindow.cc:3868
 msgid "Bookmark This Location"
 msgstr "Бу манзилни хатчўпларга қўшиш"
 
-#: konq_mainwindow.cc:3752
+#: konq_mainwindow.cc:3872
 msgid "Kon&queror Introduction"
 msgstr "Konqueror'га &кириш"
 
-#: konq_mainwindow.cc:3754
+#: konq_mainwindow.cc:3874
 msgid "Go"
 msgstr "Ўтиш"
 
-#: konq_mainwindow.cc:3755
+#: konq_mainwindow.cc:3875
 msgid "Go<p>Goes to the page that has been entered into the location bar."
 msgstr ""
 "Ўтиш"
 "<p>Манзил панелида кўрсатилган саҳифага "
 "ўтади."
 
-#: konq_mainwindow.cc:3761
+#: konq_mainwindow.cc:3881
 msgid ""
 "Enter the parent folder"
 "<p>For instance, if the current location is file:/home/%1 clicking this "
@@ -776,38 +785,39 @@ msgstr ""
 "бу тугмани боссангиз file:/home жилдига "
 "ўтасиз."
 
-#: konq_mainwindow.cc:3764
+#: konq_mainwindow.cc:3884
 msgid "Enter the parent folder"
 msgstr "Юқори жилдга ўтиш"
 
-#: konq_mainwindow.cc:3766
+#: konq_mainwindow.cc:3886
 msgid "Move backwards one step in the browsing history<p>"
 msgstr "Кўриш тарихида бир қадам орқага ўтиш<p>"
 
-#: konq_mainwindow.cc:3767
+#: konq_mainwindow.cc:3887
 msgid "Move backwards one step in the browsing history"
 msgstr "Кўриш тарихида бир қадам орқага ўтиш"
 
-#: konq_mainwindow.cc:3769
+#: konq_mainwindow.cc:3889
 msgid "Move forward one step in the browsing history<p>"
 msgstr "Кўриш тарихида бир қадам олдинга ўтиш<p>"
 
-#: konq_mainwindow.cc:3770
+#: konq_mainwindow.cc:3890
 msgid "Move forward one step in the browsing history"
 msgstr "Кўриш тарихида бир қадам олдинга ўтиш"
 
-#: konq_mainwindow.cc:3772
+#: konq_mainwindow.cc:3892
 msgid ""
-"Navigate to your 'Home URL'"
+"Navigate to your 'Home Location'"
 "<p>You can configure the location this button takes you to in the <b>KDE "
 "Control Center</b>, under <b>File Manager</b>/<b>Behavior</b>."
 msgstr ""
 
-#: konq_mainwindow.cc:3775
-msgid "Navigate to your 'Home URL'"
+#: konq_mainwindow.cc:3895
+#, fuzzy
+msgid "Navigate to your 'Home Location'"
 msgstr "Уй URL'га ўтиш"
 
-#: konq_mainwindow.cc:3777
+#: konq_mainwindow.cc:3897
 msgid ""
 "Reload the currently displayed document"
 "<p>This may, for example, be needed to refresh webpages that have been "
@@ -819,11 +829,11 @@ msgstr ""
 "ўзгаришларни кўриш учун керак бўлиши "
 "мумкин."
 
-#: konq_mainwindow.cc:3780
+#: konq_mainwindow.cc:3900
 msgid "Reload the currently displayed document"
 msgstr "Жорий ҳужжатни қайта юклаш"
 
-#: konq_mainwindow.cc:3782
+#: konq_mainwindow.cc:3902
 msgid ""
 "Reload all currently displayed documents in tabs"
 "<p>This may, for example, be needed to refresh webpages that have been "
@@ -836,24 +846,24 @@ msgstr ""
 "ўзгаришларни кўриш учун керак бўлиши "
 "мумкин."
 
-#: konq_mainwindow.cc:3785
+#: konq_mainwindow.cc:3905
 msgid "Reload all currently displayed document in tabs"
 msgstr ""
 "Ҳамма таблардаги ҳужжатларни қайтадан "
 "юклаш"
 
-#: konq_mainwindow.cc:3787
+#: konq_mainwindow.cc:3907
 msgid ""
 "Stop loading the document"
 "<p>All network transfers will be stopped and Konqueror will display the "
 "content that has been received so far."
 msgstr ""
 
-#: konq_mainwindow.cc:3790
+#: konq_mainwindow.cc:3910
 msgid "Stop loading the document"
 msgstr "Ҳужжатни юклашни тўхтатиш"
 
-#: konq_mainwindow.cc:3792
+#: konq_mainwindow.cc:3912
 msgid ""
 "Cut the currently selected text or item(s) and move it to the system "
 "clipboard"
@@ -866,13 +876,13 @@ msgstr ""
 "дастурларига <b>Қўйиш</b> буйруғи билан "
 "қўйиш мумкин."
 
-#: konq_mainwindow.cc:3796
+#: konq_mainwindow.cc:3916
 msgid "Move the selected text or item(s) to the clipboard"
 msgstr ""
 "Белгиланган матн ёки элемент(лар)ни "
 "тизимнинг клипбордига кесиш"
 
-#: konq_mainwindow.cc:3798
+#: konq_mainwindow.cc:3918
 msgid ""
 "Copy the currently selected text or item(s) to the system clipboard"
 "<p>This makes it available to the <b>Paste</b> command in Konqueror and "
@@ -885,13 +895,13 @@ msgstr ""
 "дастурларига <b>Қўйиш</b> буйруғи билан "
 "қўйиш мумкин."
 
-#: konq_mainwindow.cc:3802
+#: konq_mainwindow.cc:3922
 msgid "Copy the selected text or item(s) to the clipboard"
 msgstr ""
 "Белгиланган матн ёки элемент(лар)дан "
 "тизимнинг клипбордига нусха кўчириш"
 
-#: konq_mainwindow.cc:3804
+#: konq_mainwindow.cc:3924
 msgid ""
 "Paste the previously cut or copied clipboard contents"
 "<p>This also works for text copied or cut from other KDE applications."
@@ -900,11 +910,11 @@ msgstr ""
 "<p>Бу билан бошқа KDE дастуридан кесилган "
 "ёки нусха кўчирилган матнни қўйиш мумкин."
 
-#: konq_mainwindow.cc:3807
+#: konq_mainwindow.cc:3927
 msgid "Paste the clipboard contents"
 msgstr "Клипборддаги нарсаларни қўйиш"
 
-#: konq_mainwindow.cc:3809
+#: konq_mainwindow.cc:3929
 msgid ""
 "Print the currently displayed document"
 "<p>You will be presented with a dialog where you can set various options, "
@@ -921,127 +931,132 @@ msgstr ""
 "KDE'нинг махсус хизматларидан фойдаланиш "
 "имкониятини яратади."
 
-#: konq_mainwindow.cc:3815
+#: konq_mainwindow.cc:3935
 msgid "Print the current document"
 msgstr "Жорий ҳужжатни босиб чиқариш"
 
-#: konq_mainwindow.cc:3821
+#: konq_mainwindow.cc:3941
 msgid "If present, open index.html when entering a folder."
 msgstr ""
 "Жилдга ўтишда, агар у ерда index.html файли "
 "мавжуд бўлса, уни очиш."
 
-#: konq_mainwindow.cc:3822
+#: konq_mainwindow.cc:3942
 msgid ""
 "A locked view cannot change folders. Use in combination with 'link view' to "
 "explore many files from one folder"
 msgstr ""
 
-#: konq_mainwindow.cc:3823
+#: konq_mainwindow.cc:3943
 msgid ""
 "Sets the view as 'linked'. A linked view follows folder changes made in "
 "other linked views."
 msgstr ""
 
-#: konq_mainwindow.cc:3838
+#: konq_mainwindow.cc:3958
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:70
 msgid "Open Folder in Tabs"
 msgstr "Жилдни табда очиш"
 
-#: konq_mainwindow.cc:3843
+#: konq_mainwindow.cc:3963
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:66
 #: sidebar/trees/konq_sidebartree.cpp:919
 msgid "Open in New Window"
 msgstr "Янги ойнада очиш"
 
-#: konq_mainwindow.cc:3844
+#: konq_mainwindow.cc:3964
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:68
 #: sidebar/trees/konq_sidebartree.cpp:921
 msgid "Open in New Tab"
 msgstr "Янги табда очиш"
 
-#: konq_mainwindow.cc:3991
+#: konq_mainwindow.cc:4135
 msgid "Copy &Files..."
 msgstr "Файллардан &нусха кўчириш"
 
-#: konq_mainwindow.cc:3992
+#: konq_mainwindow.cc:4136
 msgid "M&ove Files..."
 msgstr "Файлларни &жойидан кўчириш"
 
-#: konq_mainwindow.cc:3996
+#: konq_mainwindow.cc:4140
 msgid "Create Folder..."
 msgstr "Жилдни яратиш"
 
-#: konq_mainwindow.cc:4133
+#: konq_mainwindow.cc:4277
 msgid "&Save View Profile \"%1\"..."
 msgstr "\"%1\" кўриш профилини &сақлаш"
 
-#: konq_mainwindow.cc:4474
+#: konq_mainwindow.cc:4617
 #, fuzzy
-msgid "Open in This &Window"
+msgid "Open in T&his Window"
 msgstr "&Янги ойнада очиш"
 
-#: konq_mainwindow.cc:4476 sidebar/web_module/web_module.h:55
+#: konq_mainwindow.cc:4618
+#, fuzzy
+msgid "Open the document in current window"
+msgstr "Ҳужжатни янги ойнада очиш"
+
+#: konq_mainwindow.cc:4620 sidebar/web_module/web_module.h:55
 #: sidebar/web_module/web_module.h:58
 msgid "Open in New &Window"
 msgstr "&Янги ойнада очиш"
 
-#: konq_mainwindow.cc:4477
+#: konq_mainwindow.cc:4621
 msgid "Open the document in a new window"
 msgstr "Ҳужжатни янги ойнада очиш"
 
-#: konq_mainwindow.cc:4478
+#: konq_mainwindow.cc:4622
 msgid "Open in &New Tab"
 msgstr "&Янги табда очиш"
 
-#: konq_mainwindow.cc:4479
+#: konq_mainwindow.cc:4623
 msgid "Open the document in a new tab"
 msgstr "Ҳужжатни янги табда очиш"
 
-#: konq_mainwindow.cc:4705
+#: konq_mainwindow.cc:4828
 #, c-format
 msgid "Open with %1"
 msgstr "%1 билан очиш"
 
-#: konq_mainwindow.cc:4762
+#: konq_mainwindow.cc:4885
 msgid "&View Mode"
 msgstr "Кўриш &усули"
 
-#: konq_mainwindow.cc:4970
+#: konq_mainwindow.cc:5093
 msgid "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "Ушбу ойнада бир нечта таб очилган. "
 "Чиқишга ишончингиз комилми?"
 
-#: konq_mainwindow.cc:4972 konq_viewmgr.cc:1102
+#: konq_mainwindow.cc:5095 konq_viewmgr.cc:1147
 msgid "Confirmation"
 msgstr "Тасдиқлаш"
 
-#: konq_mainwindow.cc:4974
+#: konq_mainwindow.cc:5097
 msgid "C&lose Current Tab"
 msgstr "Ж&орий табни ёпиш"
 
-#: konq_mainwindow.cc:5006
+#: konq_mainwindow.cc:5129
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:5023
+#: konq_mainwindow.cc:5147
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: konq_mainwindow.cc:5112
+#: konq_mainwindow.cc:5236
 msgid "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 
-#: konq_mainwindow.cc:5112 konq_mainwindow.cc:5119
+#: konq_mainwindow.cc:5236 konq_mainwindow.cc:5243
 msgid "Web Sidebar"
 msgstr "Веб ён панели"
 
-#: konq_mainwindow.cc:5117
+#: konq_mainwindow.cc:5241
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr ""
 
@@ -1069,7 +1084,7 @@ msgstr "Профилни ўчи&риш"
 msgid "&Rename Profile"
 msgstr "Профилни номини ў&згартириш"
 
-#: konq_tabs.cc:61
+#: konq_tabs.cc:64
 msgid ""
 "This bar contains list of currently open tabs. Click on a tab to make it "
 "active. The option to show a close button instead of website icon in the "
@@ -1079,48 +1094,48 @@ msgid ""
 "case it was truncated to fit the tab size."
 msgstr ""
 
-#: konq_tabs.cc:85
+#: konq_tabs.cc:88
 msgid "&Duplicate Tab"
 msgstr "Табнинг нусхасини &яратиш"
 
-#: konq_tabs.cc:91
+#: konq_tabs.cc:94
 #, fuzzy
 msgid "&Reload Tab"
 msgstr "Ҳамма табларни қайтадан &юклаш"
 
-#: konq_tabs.cc:97
+#: konq_tabs.cc:100
 #, fuzzy
 msgid "Other Tabs"
 msgstr "&Бошқа табларни ёпиш"
 
-#: konq_tabs.cc:102
+#: konq_tabs.cc:105
 msgid "D&etach Tab"
 msgstr "Табни &ажратиш"
 
-#: konq_tabs.cc:109
+#: konq_tabs.cc:112
 msgid "&Close Tab"
 msgstr "Табни &ёпиш"
 
-#: konq_tabs.cc:144
+#: konq_tabs.cc:147
 msgid "Open a new tab"
 msgstr "Янги табни очиш"
 
-#: konq_tabs.cc:153
+#: konq_tabs.cc:156
 msgid "Close the current tab"
 msgstr "Жорий табни ёпиш"
 
-#: konq_view.cc:1290
+#: konq_view.cc:1320
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
 "resend the data, any action the form carried out (such as search or online "
 "purchase) will be repeated. "
 msgstr ""
 
-#: konq_view.cc:1292
+#: konq_view.cc:1322
 msgid "Resend"
 msgstr "Бошқадан жўнатиш"
 
-#: konq_viewmgr.cc:1100
+#: konq_viewmgr.cc:1145
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -1128,17 +1143,17 @@ msgstr ""
 "Ушбу ойнада бир нечта таб очилган.\n"
 "Кўриш профилини юклаш уларни ёпади."
 
-#: konq_viewmgr.cc:1103
+#: konq_viewmgr.cc:1148
 msgid "Load View Profile"
 msgstr "Кўриш профилини юклаш"
 
-#: konq_viewmgr.cc:1119
+#: konq_viewmgr.cc:1164
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
 msgstr ""
 
-#: konq_viewmgr.cc:1137
+#: konq_viewmgr.cc:1182
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
@@ -1401,7 +1416,7 @@ msgstr "URL'ни кўрсатиш"
 msgid "Case Insensitive Sort"
 msgstr "Катта-кичик ҳарфни фарқламай саралаш"
 
-#: listview/konq_listviewwidget.cc:361 listview/konq_textviewwidget.cc:79
+#: listview/konq_listviewwidget.cc:357 listview/konq_textviewwidget.cc:79
 msgid "Name"
 msgstr "Номи"
 
@@ -1437,13 +1452,15 @@ msgstr "Favicon'ни янгилаш"
 msgid "Recursive Sort"
 msgstr "Рекурсив саралаш"
 
-#: keditbookmarks/actionsimpl.cpp:140 sidebar/trees/konq_sidebartree.cpp:909
-msgid "&Create New Folder..."
-msgstr "&Янги жилдни яратиш"
+#: keditbookmarks/actionsimpl.cpp:140
+#, fuzzy
+msgid "&New Folder..."
+msgstr "Янги жилд"
 
 #: keditbookmarks/actionsimpl.cpp:143
-msgid "Create &New Bookmark"
-msgstr "&Янги хатчўп яратиш"
+#, fuzzy
+msgid "&New Bookmark"
+msgstr "&Хатчўп"
 
 #: keditbookmarks/actionsimpl.cpp:146
 msgid "&Insert Separator"
@@ -1712,6 +1729,28 @@ msgstr "*.xbel|Galeon хатчўп файллари (*.xbel)"
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|KDE хатчўп файллари (*.xml)"
 
+#: keditbookmarks/kbookmarkmerger.cpp:42
+msgid "Directory to scan for extra bookmarks"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:62
+#, fuzzy
+msgid "KBookmarkMerger"
+msgstr "Хатчўп"
+
+#: keditbookmarks/kbookmarkmerger.cpp:63
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:65
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:66
+#, fuzzy
+msgid "Original author"
+msgstr "Биринчи муаллиф"
+
 #: keditbookmarks/listview.cpp:335
 msgid "Drop Items"
 msgstr "Элементларни ўчириш"
@@ -1889,52 +1928,114 @@ msgstr "Қ&идириш:"
 msgid "Read Only"
 msgstr "Фақат ўқишга"
 
-#: about/konq_aboutpage.cc:96 about/konq_aboutpage.cc:140
-#: about/konq_aboutpage.cc:226
+#: about/konq_aboutpage.cc:108 about/konq_aboutpage.cc:110
+#: about/konq_aboutpage.cc:169 about/konq_aboutpage.cc:171
+#: about/konq_aboutpage.cc:220 about/konq_aboutpage.cc:222
+#: about/konq_aboutpage.cc:313 about/konq_aboutpage.cc:315
 msgid "Conquer your Desktop!"
 msgstr "Иш столингизни мосланг!"
 
-#: about/konq_aboutpage.cc:97 about/konq_aboutpage.cc:141
-#: about/konq_aboutpage.cc:227
-msgid "Please enter a term or an address to be searched on the Internet."
+#: about/konq_aboutpage.cc:111 about/konq_aboutpage.cc:172
+#: about/konq_aboutpage.cc:223 about/konq_aboutpage.cc:316
+msgid "Konqueror is your file manager, web browser and universal document viewer."
 msgstr ""
-"Илтимос Интернетда қидириш учун атамани "
-"ёки манзилни киритинг."
 
-#: about/konq_aboutpage.cc:98 about/konq_aboutpage.cc:101
-#: about/konq_aboutpage.cc:142 about/konq_aboutpage.cc:228
+#: about/konq_aboutpage.cc:112 about/konq_aboutpage.cc:173
+#: about/konq_aboutpage.cc:317
+#, fuzzy
+msgid "Starting Points"
+msgstr "Мос&ламалар"
+
+#: about/konq_aboutpage.cc:113 about/konq_aboutpage.cc:174
+#: about/konq_aboutpage.cc:225 about/konq_aboutpage.cc:318
 msgid "Introduction"
 msgstr "Кириш"
 
-#: about/konq_aboutpage.cc:99 about/konq_aboutpage.cc:143
-#: about/konq_aboutpage.cc:229 about/konq_aboutpage.cc:231
+#: about/konq_aboutpage.cc:114 about/konq_aboutpage.cc:175
+#: about/konq_aboutpage.cc:226 about/konq_aboutpage.cc:319
 msgid "Tips"
 msgstr "Маслаҳатлар"
 
-#: about/konq_aboutpage.cc:100 about/konq_aboutpage.cc:144
-#: about/konq_aboutpage.cc:145 about/konq_aboutpage.cc:230
+#: about/konq_aboutpage.cc:115 about/konq_aboutpage.cc:176
+#: about/konq_aboutpage.cc:227 about/konq_aboutpage.cc:228
+#: about/konq_aboutpage.cc:320
 msgid "Specifications"
 msgstr "Хусусиятлар"
 
-#: about/konq_aboutpage.cc:102
-#, c-format
-msgid "Welcome to Konqueror %1."
-msgstr "Konqueror %1'га марҳамат."
+#: about/konq_aboutpage.cc:120
+#, fuzzy
+msgid "Home Folder"
+msgstr "Янги жилд"
 
-#: about/konq_aboutpage.cc:103
-msgid ""
-"With Konqueror you have your filesystem at your command, browsing local or "
-"networked drives with equal ease. Thanks to the component technology used "
-"throughout KDE, Konqueror is also a full featured, easy to use and "
-"comfortable Web Browser, which you can use to explore the Internet."
+#: about/konq_aboutpage.cc:121
+msgid "Your personal files"
 msgstr ""
 
-#: about/konq_aboutpage.cc:108
+#: about/konq_aboutpage.cc:124
+msgid "Storage Media"
+msgstr ""
+
+#: about/konq_aboutpage.cc:125
+msgid "Disks and removable media"
+msgstr ""
+
+#: about/konq_aboutpage.cc:128
+#, fuzzy
+msgid "Network Folders"
+msgstr "Янги жилд"
+
+#: about/konq_aboutpage.cc:129
+msgid "Shared files and folders"
+msgstr ""
+
+#: about/konq_aboutpage.cc:133
+msgid "Browse and restore the trash"
+msgstr ""
+
+#: about/konq_aboutpage.cc:136
+#, fuzzy
+msgid "Applications"
+msgstr "&Дастурлар"
+
+#: about/konq_aboutpage.cc:137
+#, fuzzy
+msgid "Installed programs"
+msgstr "Ўрнатилган плагинлар"
+
+#: about/konq_aboutpage.cc:140
+#, fuzzy
+msgid "Settings"
+msgstr "Мос&ламалар"
+
+#: about/konq_aboutpage.cc:141
+#, fuzzy
+msgid "Desktop configuration"
+msgstr "Мослаш тугмасини кўрсатиш"
+
+#: about/konq_aboutpage.cc:144
+#, fuzzy
+msgid "Next: An Introduction to Konqueror"
+msgstr "Кириш"
+
+#: about/konq_aboutpage.cc:146
+msgid "Search the Web"
+msgstr ""
+
+#: about/konq_aboutpage.cc:177
 msgid ""
-"Simply enter the Internet address (e.g. <A "
-"HREF=\"http://www.kde.org\">http://www.kde.org</A>"
-") of the web page you want and press Enter, or choose one of the entries in "
-"your Bookmarks menu."
+"Konqueror makes working with and managing your files easy. You can browse "
+"both local and networked folders while enjoying advanced features such as "
+"the powerful sidebar and file previews."
+msgstr ""
+
+#: about/konq_aboutpage.cc:181
+#, fuzzy
+msgid ""
+"Konqueror is also a full featured and easy to use web browser which you can  "
+"use to explore the Internet. Enter the address (e.g. <a "
+"href=\"http://www.kde.org\">http://www.kde.org</A>) of a web page you would "
+"like to visit in the location bar and press Enter, or choose an entry from "
+"the Bookmarks menu."
 msgstr ""
 "Истаган веб-саҳифанинг Интернет "
 "манзилини (м-н <A "
@@ -1942,41 +2043,58 @@ msgstr ""
 "ENTER тугмасини босинг, ёки Хатчўплар "
 "менюсидан бирон бандни танланг."
 
-#: about/konq_aboutpage.cc:111
+#: about/konq_aboutpage.cc:186
+#, fuzzy
 msgid ""
-"If you want to go back to the previous web page, press the button <IMG "
-"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp;(\"Back\") in the toolbar."
+"To return to the previous location, press the back button  <img width='16' "
+"height='16' src=\"%1\"> in the toolbar. "
 msgstr ""
 "Агар олдинги веб-саҳифага ўтмоқчи "
 "бўлсангиз, асбоблар панелида <IMG WIDTH=16 "
 "HEIGHT=16 SRC=\"%1\"> &nbsp;(\"Орқага\") тугмасини "
 "босинг."
 
-#: about/konq_aboutpage.cc:114
+#: about/konq_aboutpage.cc:189
+#, fuzzy
 msgid ""
-"To go back to the home directory of your local filesystem press <IMG "
-"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Home\"). "
+"To quickly go to your Home folder press the  home button <img width='16' "
+"height='16' src=\"%1\">."
 msgstr ""
-"Локал файл тизимдаги уй жилдига ўтиш учун "
-"<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Уй\") тугмасини "
-"босинг. "
+"Агар олдинги веб-саҳифага ўтмоқчи "
+"бўлсангиз, асбоблар панелида <IMG WIDTH=16 "
+"HEIGHT=16 SRC=\"%1\"> &nbsp;(\"Орқага\") тугмасини "
+"босинг."
 
-#: about/konq_aboutpage.cc:116
-msgid "For more detailed documentation on Konqueror click <A HREF=\"%1\">here</A>."
+#: about/konq_aboutpage.cc:191
+#, fuzzy
+msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
 msgstr ""
 "Konqueror учун батафсилроқ кўлланма <A "
 "HREF=\"%1\">бу ерда</A>."
 
-#: about/konq_aboutpage.cc:118
+#: about/konq_aboutpage.cc:193
 msgid ""
-"<I>Tuning Tip:</I> If you want the Konqueror web browser to start faster, "
-"you can turn off this information screen by clicking <A "
-"HREF=\"%1\">here</A>. You can re-enable it by choosing the Help ->"
+"<em>Tuning Tip:</em> If you want the Konqueror web browser to start faster, "
+"you can turn off this information screen by clicking <a "
+"href=\"%1\">here</a>. You can re-enable it by choosing the Help ->"
 " Konqueror Introduction menu option, and then pressing Settings ->"
 " Save View Profile \"Web Browsing\"."
 msgstr ""
 
-#: about/konq_aboutpage.cc:146
+#: about/konq_aboutpage.cc:197 about/konq_aboutpage.cc:275
+#: about/konq_aboutpage.cc:356
+msgid "<img width='16' height='16' src=\"%1\">"
+msgstr ""
+
+#: about/konq_aboutpage.cc:198
+msgid "Next: Tips &amp; Tricks"
+msgstr ""
+
+#: about/konq_aboutpage.cc:224
+msgid "Launch"
+msgstr ""
+
+#: about/konq_aboutpage.cc:229
 msgid ""
 "Konqueror is designed to embrace and support Internet standards. The aim is "
 "to fully implement the officially sanctioned standards from organizations "
@@ -1986,19 +2104,19 @@ msgid ""
 "and <A HREF=\"%1\">XBEL bookmarks</A>, Konqueror also implements:"
 msgstr ""
 
-#: about/konq_aboutpage.cc:153
-msgid "W E B B R O W S I N G"
-msgstr "В Е Б Н И К Ў Р И Ш"
+#: about/konq_aboutpage.cc:236
+msgid "Web Browsing"
+msgstr ""
 
-#: about/konq_aboutpage.cc:154
+#: about/konq_aboutpage.cc:237
 msgid "Supported standards"
 msgstr "Кўлланган андозалар"
 
-#: about/konq_aboutpage.cc:155
+#: about/konq_aboutpage.cc:238
 msgid "Additional requirements*"
 msgstr "Қўшимча талаблар*"
 
-#: about/konq_aboutpage.cc:156
+#: about/konq_aboutpage.cc:239
 msgid ""
 "<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A "
 "HREF=\"%2\">HTML 4.01</A>"
@@ -2007,29 +2125,29 @@ msgstr ""
 " (Level 1, қисман Level 2) асосидаги <A HREF=\"%2\">HTML "
 "4.01</A>"
 
-#: about/konq_aboutpage.cc:158 about/konq_aboutpage.cc:160
-#: about/konq_aboutpage.cc:172 about/konq_aboutpage.cc:177
-#: about/konq_aboutpage.cc:179
+#: about/konq_aboutpage.cc:241 about/konq_aboutpage.cc:243
+#: about/konq_aboutpage.cc:255 about/konq_aboutpage.cc:260
+#: about/konq_aboutpage.cc:262
 msgid "built-in"
 msgstr "ичига қурилган"
 
-#: about/konq_aboutpage.cc:159
+#: about/konq_aboutpage.cc:242
 msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
 msgstr "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, қисман CSS 2)"
 
-#: about/konq_aboutpage.cc:161
+#: about/konq_aboutpage.cc:244
 msgid "<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)"
 msgstr ""
 "<A HREF=\"%1\">ECMA-262</A> 3чи таҳрир (тахминан JavaScript "
 "1.5'га тенг)"
 
-#: about/konq_aboutpage.cc:162
+#: about/konq_aboutpage.cc:245
 msgid "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
 msgstr ""
 "JavaScript ўчирилган (умумий). JavaScript'ни <A "
 "HREF=\"%1\">бу ерда</A> ёқишингиз мумкин."
 
-#: about/konq_aboutpage.cc:163
+#: about/konq_aboutpage.cc:246
 msgid ""
 "JavaScript enabled (globally). Configure JavaScript <A "
 "HREF=\\\"%1\\\">here</A>."
@@ -2037,11 +2155,11 @@ msgstr ""
 "JavaScript ёқилган (умумий). JavaScript'ни <A "
 "HREF=\"%1\">бу ерда</A> мослашингиз мумкин."
 
-#: about/konq_aboutpage.cc:164
+#: about/konq_aboutpage.cc:247
 msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
 msgstr "Хавфсиз <A HREF=\"%1\">Java</A><SUP>&reg;</SUP>"
 
-#: about/konq_aboutpage.cc:165
+#: about/konq_aboutpage.cc:248
 msgid ""
 "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A "
 "HREF=\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
@@ -2050,13 +2168,13 @@ msgstr ""
 "HREF=\"%1\">Blackdown</A>, <A HREF=\"%2\">IBM</A> ёки <A "
 "HREF=\"%3\">Sun</A>)"
 
-#: about/konq_aboutpage.cc:167
+#: about/konq_aboutpage.cc:250
 msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
 msgstr ""
 "Java'ни (умумий) <A HREF=\"%1\">бу ерда</A>"
 " ёқишингиз мумкин."
 
-#: about/konq_aboutpage.cc:168
+#: about/konq_aboutpage.cc:251
 msgid ""
 "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
 "viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A "
@@ -2069,88 +2187,93 @@ msgstr ""
 "HREF=\"%3\">Real<SUP>&reg;</SUP></A>Video, ва ҳоказони кўриш "
 "учун.)"
 
-#: about/konq_aboutpage.cc:173
+#: about/konq_aboutpage.cc:256
 msgid "Secure Sockets Layer"
 msgstr "Secure Sockets Layer"
 
-#: about/konq_aboutpage.cc:174
+#: about/konq_aboutpage.cc:257
 msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
 msgstr ""
 "хавфсиз алоқалар учун то 168 битгача (TLS/SSL "
 "v2/3)"
 
-#: about/konq_aboutpage.cc:175
+#: about/konq_aboutpage.cc:258
 msgid "OpenSSL"
 msgstr "OpenSSL"
 
-#: about/konq_aboutpage.cc:176
+#: about/konq_aboutpage.cc:259
 msgid "Bidirectional 16bit unicode support"
 msgstr ""
 
-#: about/konq_aboutpage.cc:178
+#: about/konq_aboutpage.cc:261
 msgid "AutoCompletion for forms"
 msgstr "Шакилларни авто-тўлдириш"
 
-#: about/konq_aboutpage.cc:180
+#: about/konq_aboutpage.cc:263
 msgid "G E N E R A L"
 msgstr "У М У М И Й"
 
-#: about/konq_aboutpage.cc:181
+#: about/konq_aboutpage.cc:264
 msgid "Feature"
 msgstr "Ҳусусиятлар"
 
-#: about/konq_aboutpage.cc:183
+#: about/konq_aboutpage.cc:266
 msgid "Image formats"
 msgstr "Расм форматлари"
 
-#: about/konq_aboutpage.cc:184
+#: about/konq_aboutpage.cc:267
 msgid "Transfer protocols"
 msgstr "Узатиш протоколлари"
 
-#: about/konq_aboutpage.cc:185
+#: about/konq_aboutpage.cc:268
 msgid "HTTP 1.1 (including gzip/bzip2 compression)"
 msgstr "HTTP 1.1 (gzip/bzip2 қисиш билан)"
 
-#: about/konq_aboutpage.cc:186
+#: about/konq_aboutpage.cc:269
 msgid "FTP"
 msgstr "FTP"
 
-#: about/konq_aboutpage.cc:187
+#: about/konq_aboutpage.cc:270
 msgid "and <A HREF=\"%1\">many more...</A>"
 msgstr "ва <A HREF=\"%1\">ҳоказо...</A>"
 
-#: about/konq_aboutpage.cc:188
+#: about/konq_aboutpage.cc:271
 msgid "URL-Completion"
 msgstr "URL-тўлдириш"
 
-#: about/konq_aboutpage.cc:189
+#: about/konq_aboutpage.cc:272
 msgid "Manual"
 msgstr "Қўлбола"
 
-#: about/konq_aboutpage.cc:190
+#: about/konq_aboutpage.cc:273
 msgid "Popup"
 msgstr "Попап"
 
-#: about/konq_aboutpage.cc:191
+#: about/konq_aboutpage.cc:274
 msgid "(Short-) Automatic"
 msgstr "(Қисқа-) Автоматик"
 
-#: about/konq_aboutpage.cc:192
-msgid "<A HREF=\"%1\">Back</A> to the Introduction"
-msgstr "Кириш қисмга <A HREF=\"%1\">қайтиш</A>"
-
-#: about/konq_aboutpage.cc:232
-msgid ""
-"Use Internet-Keywords and Web-Shortcuts! By typing \"gg: KDE\" one can "
-"search the Internet, using Google, for the search phrase \"KDE\". There are "
-"a lot of Web-Shortcuts predefined to make searching for software or looking "
-"up certain words in an encyclopedia a breeze. You can even <A "
-"HREF=\"%1\">create your own</A> Web-Shortcuts!"
+#: about/konq_aboutpage.cc:276
+msgid "<a href=\"%1\">Return to Starting Points</a>"
 msgstr ""
 
-#: about/konq_aboutpage.cc:237
+#: about/konq_aboutpage.cc:321
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#: about/konq_aboutpage.cc:322
 msgid ""
-"Use the magnifier button <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the "
+"Use Internet-Keywords and Web-Shortcuts: by typing \"gg: KDE\" one can "
+"search the Internet, using Google, for the search phrase \"KDE\". There are "
+"a lot of Web-Shortcuts predefined to make searching for software or looking "
+"up certain words in an encyclopedia a breeze. You can even <a "
+"href=\"%1\">create your own</a> Web-Shortcuts."
+msgstr ""
+
+#: about/konq_aboutpage.cc:327
+#, fuzzy
+msgid ""
+"Use the magnifier button <img width='16' height='16' src=\"%1\"> in the "
 "toolbar to increase the font size on your web page."
 msgstr ""
 "Веб-саҳифанинг шрифтини катталаштириш "
@@ -2158,14 +2281,14 @@ msgstr ""
 "SRC=\"%1\"> &nbsp;катталаштириш тугмасидан "
 "фойдаланинг."
 
-#: about/konq_aboutpage.cc:239
+#: about/konq_aboutpage.cc:329
 msgid ""
 "When you want to paste a new address into the Location toolbar you might "
 "want to clear the current entry by pressing the black arrow with the white "
-"cross &nbsp;<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the toolbar."
+"cross <img width='16' height='16' src=\"%1\"> in the toolbar."
 msgstr ""
 
-#: about/konq_aboutpage.cc:243
+#: about/konq_aboutpage.cc:333
 msgid ""
 "To create a link on your desktop pointing to the current page, simply drag "
 "the \"Location\" label that is to the left of the Location toolbar, drop it "
@@ -2176,88 +2299,98 @@ msgstr ""
 "столига олиб қўйинг ва \"Шу ерга боғлаш\" "
 "бандини танланг холос."
 
-#: about/konq_aboutpage.cc:246
+#: about/konq_aboutpage.cc:336
 msgid ""
-"You can also find <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; \"Full-Screen "
-"Mode\" in the Window menu. This feature is very useful for \"Talk\" sessions."
+"You can also find <img width='16' height='16' src=\"%1\"> \"Full-Screen "
+"Mode\" in the Settings menu. This feature is very useful for \"Talk\" "
+"sessions."
 msgstr ""
 
-#: about/konq_aboutpage.cc:249
+#: about/konq_aboutpage.cc:339
 msgid ""
 "Divide et impera (lat. \"Divide and conquer\") - by splitting a window into "
-"two parts (e.g. Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Split "
-"View Left/Right) you can make Konqueror appear the way you like. You can "
-"even load some example view-profiles (e.g. Midnight Commander), or create "
-"your own ones."
+"two parts (e.g. Window -> <img width='16' height='16' src=\"%1\">"
+" Split View Left/Right) you can make Konqueror appear the way you like. You "
+"can even load some example view-profiles (e.g. Midnight Commander), or "
+"create your own ones."
 msgstr ""
 
-#: about/konq_aboutpage.cc:254
+#: about/konq_aboutpage.cc:344
 msgid ""
-"Use the <A HREF=\"%1\">user-agent</A> feature if the website you are "
+"Use the <a href=\"%1\">user-agent</a> feature if the website you are "
 "visiting asks you to use a different browser (and do not forget to send a "
 "complaint to the webmaster!)"
 msgstr ""
 
-#: about/konq_aboutpage.cc:257
+#: about/konq_aboutpage.cc:347
+#, fuzzy
 msgid ""
-"The <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; History in your SideBar "
-"ensures that you can keep track of the pages you have visited recently."
+"The <img width='16' height='16' src=\"%1\"> History in your SideBar ensures "
+"that you can keep track of the pages you have visited recently."
 msgstr ""
 "Ён панелидаги Тарихда&nbsp;<IMG WIDTH=16 HEIGHT=16 "
 "SRC=\"%1\"> яқинда кўрилган саҳифалар ҳақида "
 "маълумот сақланади."
 
-#: about/konq_aboutpage.cc:259
-msgid "Use a caching <A HREF=\"%1\">proxy</A> to speed up your Internet connection."
+#: about/konq_aboutpage.cc:349
+#, fuzzy
+msgid "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
 msgstr ""
 "Интернет алоқасини тезлаштириш учун <A "
 "HREF=\"%1\">проксидан</A> фойдаланинг."
 
-#: about/konq_aboutpage.cc:261
+#: about/konq_aboutpage.cc:351
+#, fuzzy
 msgid ""
 "Advanced users will appreciate the Konsole which you can embed into "
-"Konqueror (Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Show "
-"Terminal Emulator)."
+"Konqueror (Window -> <img width='16' height='16' SRC=\"%1\"> Show Terminal "
+"Emulator)."
 msgstr ""
 "Тажрибали фойдаланувчилар Konqueror ойнасига "
 "қуриб бўладиган терминални ишлатиши "
 "мумкин (Ойна -> <IMG WIDTH=16 HEIGHT=16 "
 "SRC=\"%1\">&nbsp;Терминал эмулятори)."
 
-#: about/konq_aboutpage.cc:264
+#: about/konq_aboutpage.cc:354
+#, fuzzy
 msgid ""
-"Thanks to <A HREF=\"%1\">DCOP</A> you can have full control over Konqueror "
+"Thanks to <a href=\"%1\">DCOP</a> you can have full control over Konqueror "
 "using a script."
 msgstr ""
 "Скрипт ва <A HREF=\"%1\">DCOP</A> ёрдамида Konqueror'ни "
 "тўлиқ бошқарса бўлади."
 
-#: about/konq_aboutpage.cc:282
+#: about/konq_aboutpage.cc:357
+#, fuzzy
+msgid "Next: Specifications"
+msgstr "Хусусиятлар"
+
+#: about/konq_aboutpage.cc:373
 msgid "Installed Plugins"
 msgstr "Ўрнатилган плагинлар"
 
-#: about/konq_aboutpage.cc:283
+#: about/konq_aboutpage.cc:374
 msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
 msgstr ""
 "<td>Плагин</td>"
 "<td>Таърифи</td><td>Файл</td><td>Турлар</td>"
 
-#: about/konq_aboutpage.cc:284
+#: about/konq_aboutpage.cc:375
 msgid "Installed"
 msgstr "Ўрнатилган"
 
-#: about/konq_aboutpage.cc:285
+#: about/konq_aboutpage.cc:376
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr ""
 "<td>MIME "
 "тури</td>"
 "<td>Таърифи</td><td>Суффикслар</td><td>Плагин</td>"
 
-#: about/konq_aboutpage.cc:385
+#: about/konq_aboutpage.cc:482
 msgid "Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr ""
 
-#: about/konq_aboutpage.cc:387
+#: about/konq_aboutpage.cc:484
 msgid "Faster Startup?"
 msgstr ""
 
@@ -2422,6 +2555,10 @@ msgstr "Хатчўпни ўчириш"
 msgid "Bookmark Properties"
 msgstr "Хатчўпнинг хоссалари"
 
+#: sidebar/trees/konq_sidebartree.cpp:909
+msgid "&Create New Folder..."
+msgstr "&Янги жилдни яратиш"
+
 #: sidebar/trees/konq_sidebartree.cpp:915
 msgid "Delete Link"
 msgstr "Боғни ўчириш"
@@ -2553,7 +2690,7 @@ msgstr " минут"
 msgid " seconds"
 msgstr " сония"
 
-#: sidebar/konqsidebar.cpp:116
+#: sidebar/konqsidebar.cpp:118
 msgid "Extended Sidebar"
 msgstr "Кенгайтирилган ён панели"
 
@@ -2580,6 +2717,29 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
+
+#~ msgid "Welcome to Konqueror %1."
+#~ msgstr "Konqueror %1'га марҳамат."
+
+#, fuzzy
+#~ msgid "Remote Folders"
+#~ msgstr "Жилдни ўчириш"
+
+#, fuzzy
+#~ msgid "To go back to the home directory of your local filesystem press <img width='16' height='16' src=\"%1\"> &nbsp; (\"Home\"). "
+#~ msgstr "Локал файл тизимдаги уй жилдига ўтиш учун <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Уй\") тугмасини босинг. "
+
+#~ msgid "<A HREF=\"%1\">Back</A> to the Introduction"
+#~ msgstr "Кириш қисмга <A HREF=\"%1\">қайтиш</A>"
+
+#~ msgid "Please enter a term or an address to be searched on the Internet."
+#~ msgstr "Илтимос Интернетда қидириш учун атамани ёки манзилни киритинг."
+
+#~ msgid "W E B B R O W S I N G"
+#~ msgstr "В Е Б Н И К Ў Р И Ш"
+
+#~ msgid "Create &New Bookmark"
+#~ msgstr "&Янги хатчўп яратиш"
 
 #~ msgid "&Devices"
 #~ msgstr "&Ускуналар"
