@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeprint\n"
-"POT-Creation-Date: 2004-04-13 09:53+0200\n"
+"POT-Creation-Date: 2004-04-13 01:32+0200\n"
 "PO-Revision-Date: 2004-04-26 16:49+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -322,9 +322,9 @@ msgid ""
 "Unable to create the spool directory %1. Check that you have the required "
 "permissions for that operation."
 msgstr ""
-"Спул директирияни (%1) яратиб бўлмади. Бу "
+"Спул директориясини (%1) яратиб бўлмади. Бу "
 "операцияни бажариш учун сизда етарли "
-"ҳуқуқлар борлигин текширинг."
+"ҳуқуқлар борлигини текширинг."
 
 #: lpr/kmlprmanager.cpp:382
 #, c-format
@@ -364,22 +364,6 @@ msgstr "Спулер"
 #: lpr/kmconfiglpr.cpp:34
 msgid "Spooler Settings"
 msgstr "Спулернинг мосламалари"
-
-#: cups/kmcupsuimanager.cpp:115 lpr/kmlpruimanager.cpp:58
-msgid "&Local printer (parallel, serial, USB)"
-msgstr "&Локал принтер (параллел, кетма-кет, USB)"
-
-#: cups/kmcupsuimanager.cpp:117 lpr/kmlpruimanager.cpp:59
-msgid "&Remote LPD queue"
-msgstr "&Масофадаги LPD навбат"
-
-#: lpr/kmlpruimanager.cpp:60
-msgid "&Network printer (TCP)"
-msgstr "Та&рмоқдаги принтер (TCP)"
-
-#: cups/kmcupsuimanager.cpp:119 lpr/kmlpruimanager.cpp:61
-msgid "&SMB shared printer (Windows)"
-msgstr ""
 
 #: lpr/lpchelper.cpp:235 lpr/lpchelper.cpp:273 lpr/lpchelper.cpp:291
 #: lpr/lpchelper.cpp:314
@@ -803,7 +787,9 @@ msgstr "&Ёйиш"
 
 #: kprintdialog.cpp:908
 msgid "Initializing printing system..."
-msgstr "Босиб чиқариш система ишга тайёрланмоқда..."
+msgstr ""
+"Босиб чиқариш система ишга "
+"тайёрланмоқда..."
 
 #: kprintdialog.cpp:944
 msgid "Print to File"
@@ -1063,7 +1049,8 @@ msgid "Operation aborted (process killed)."
 msgstr "Операция тўхтатилди (жараён ўлдирилди)."
 
 #: cups/cupsaddsmb2.cpp:358
-msgid "<h3>Operation failed!</h3><p>%1</p>"
+#, fuzzy
+msgid "<h3>Operation failed.</h3><p>%1</p>"
 msgstr "<h3>Операция муваффақиятсиз тугади!</h3><p>%1</p>"
 
 #: cups/cupsaddsmb2.cpp:373
@@ -1111,7 +1098,8 @@ msgid "Remote IPP Printer Selection"
 msgstr "Масофадаги IPP принтерни танлаш"
 
 #: cups/kmwippselect.cpp:49
-msgid "You must select a printer!"
+#, fuzzy
+msgid "You must select a printer."
 msgstr "Принтерни танлашингиз шарт!"
 
 #: cups/ipprequest.cpp:110
@@ -1214,16 +1202,17 @@ msgstr "Компьютернинг номи:"
 msgid "Port:"
 msgstr "Порт:"
 
-#: cups/kmwipp.cpp:52
-msgid "Empty server name!"
-msgstr "Сервернинг номи кўрсатилмаган!"
+#: cups/kmwipp.cpp:52 management/kmwsmb.cpp:79
+msgid "Empty server name."
+msgstr "Сервернинг номи кўрсатилмаган."
 
 #: cups/kmwipp.cpp:59
-msgid "Incorrect port number!"
+#, fuzzy
+msgid "Incorrect port number."
 msgstr "Портнинг рақами нотўғри!"
 
 #: cups/kmwipp.cpp:72
-msgid "<nobr>Unable to connect to <b>%1</b> on port <b>%2</b> !</nobr>"
+msgid "<nobr>Unable to connect to <b>%1</b> on port <b>%2</b> .</nobr>"
 msgstr ""
 
 #: cups/kmpropbanners.cpp:49 kpgeneralpage.cpp:137
@@ -1360,27 +1349,64 @@ msgstr "Фақат ўқишга"
 msgid "The tag name must not contain any spaces: <b>%1</b>."
 msgstr "Тэг номида бўш жой бўлмаши керак: <b>%1</b>."
 
-#: cups/kmcupsuimanager.cpp:83 cups/kmcupsuimanager.cpp:86
-#: cups/kmcupsuimanager.cpp:89 cups/kmcupsuimanager.cpp:92
-#: cups/kmcupsuimanager.cpp:95 cups/kmcupsuimanager.cpp:98
-#: cups/kmcupsuimanager.cpp:101 cups/kmcupsuimanager.cpp:104
-#: cups/kmcupsuimanager.cpp:107 cups/kmcupsuimanager.cpp:110
-msgid "<qt><p> </p>. </qt>"
-msgstr "<qt><p> </p>. </qt>"
+#: cups/kmcupsuimanager.cpp:84
+msgid ""
+"<qt>"
+"<p>Print queue on remote CUPS server</p>"
+"<p>Use this for a print queue installed on a remote machine running a CUPS "
+"server. This allows to use remote printers when CUPS browsing is turned "
+"off.</p></qt>"
+msgstr ""
 
-#: cups/kmcupsuimanager.cpp:121
-msgid "Ne&twork printer (TCP)"
-msgstr "&Тармоқдаги принтер (TCP)"
+#: cups/kmcupsuimanager.cpp:91
+msgid ""
+"<qt>"
+"<p>Network IPP printer</p>"
+"<p>Use this for a network-enabled printer using the IPP protocol. Modern "
+"high-end printers can use this mode. Use this mode instead of TCP if your "
+"printer can do both.</p></qt>"
+msgstr ""
 
-#: cups/kmcupsuimanager.cpp:123
+#: cups/kmcupsuimanager.cpp:98
+msgid ""
+"<qt>"
+"<p>Fax/Modem printer</p>"
+"<p>Use this for a fax/modem printer. This requires the installation of the "
+"<a href=\"http://vigna.dsi.unimi.it/fax4CUPS/\">fax4CUPS</a> backend. "
+"Documents sent on this printer will be faxed to the given target fax "
+"number.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:105
+msgid ""
+"<qt>"
+"<p>Other printer</p>"
+"<p>Use this for any printer type. To use this option, you must know the URI "
+"of the printer you want to install. Refer to the CUPS documentation for more "
+"information about the printer URI. This option is mainly useful for printer "
+"types using 3rd party backends not covered by the other "
+"possibilities.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:113
+msgid ""
+"<qt>"
+"<p>Class of printers</p>"
+"<p>Use this to create a class of printers. When sending a document to a "
+"class, the document is actually sent to the first available (idle) printer "
+"in the class. Refer to the CUPS documentation for more information about "
+"class of printers.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:126
 msgid "Re&mote CUPS server (IPP/HTTP)"
 msgstr "Ма&софадаги CUPS сервери (IPP/HTTP)"
 
-#: cups/kmcupsuimanager.cpp:125
+#: cups/kmcupsuimanager.cpp:127
 msgid "Network printer w/&IPP (IPP/HTTP)"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:127
+#: cups/kmcupsuimanager.cpp:128
 msgid "S&erial Fax/Modem printer"
 msgstr "&Кетма-кет Факс/Модем принтери"
 
@@ -1388,15 +1414,15 @@ msgstr "&Кетма-кет Факс/Модем принтери"
 msgid "Other &printer type"
 msgstr "Принтернинг &бошқа тури"
 
-#: cups/kmcupsuimanager.cpp:133
+#: cups/kmcupsuimanager.cpp:131
 msgid "Cl&ass of printers"
 msgstr "Принтерлар &синфи"
 
-#: cups/kmcupsuimanager.cpp:212
+#: cups/kmcupsuimanager.cpp:209
 msgid "Priority"
 msgstr "Муҳимлик даражаси"
 
-#: cups/kmcupsuimanager.cpp:214
+#: cups/kmcupsuimanager.cpp:211
 msgid "Billing Information"
 msgstr ""
 
@@ -1414,40 +1440,40 @@ msgstr ""
 msgid "You must select a device."
 msgstr "Ускунани танлашингиз шарт."
 
-#: cups/kmcupsmanager.cpp:742
+#: cups/kmcupsmanager.cpp:745
 msgid "Library cupsdconf not found. Check your installation."
 msgstr ""
 "Cupsdconf кутубхонаси топилмади. У тўғри "
 "ўрнатилганлигини текширинг."
 
-#: cups/kmcupsmanager.cpp:748
+#: cups/kmcupsmanager.cpp:751
 msgid "Symbol %1 not found in cupsdconf library."
 msgstr ""
 
-#: cups/kmcupsmanager.cpp:823
+#: cups/kmcupsmanager.cpp:826
 msgid "&Export Driver..."
 msgstr "Драйверни &экспорт қилиш"
 
-#: cups/kmcupsmanager.cpp:825
+#: cups/kmcupsmanager.cpp:828
 msgid "&Printer IPP Report..."
 msgstr "&Принтернинг IPP ҳисоботи"
 
-#: cups/kmcupsmanager.cpp:871
+#: cups/kmcupsmanager.cpp:874
 #, c-format
 msgid "IPP report for %1"
 msgstr "%1 учун IPP ҳисоботи"
 
-#: cups/kmcupsmanager.cpp:875
+#: cups/kmcupsmanager.cpp:878
 msgid "Unable to retrieve printer information. Error received:"
 msgstr ""
 "Принтер ҳақида маълумотни аниқлаб "
 "бўлмади. Олинган хабар:"
 
-#: cups/kmcupsmanager.cpp:887
+#: cups/kmcupsmanager.cpp:890
 msgid "Connected to %1:%2"
 msgstr "%1:%2 билан алоқа ўрнатилди"
 
-#: cups/kmcupsmanager.cpp:925 cups/kmcupsmanager.cpp:952
+#: cups/kmcupsmanager.cpp:928 cups/kmcupsmanager.cpp:955
 #, c-format
 msgid ""
 "Connection to CUPS server failed. Check that the CUPS server is correctly "
@@ -1458,17 +1484,17 @@ msgstr ""
 "ўрнатилганлигини ва ишга "
 "туширилганлигини текширинг. Хато: %1."
 
-#: cups/kmcupsmanager.cpp:926
+#: cups/kmcupsmanager.cpp:929
 msgid "the IPP request failed for an unknown reason"
 msgstr ""
 "IPP талаб номаълум сабабга кўра "
 "муваффақиятсиз тугади"
 
-#: cups/kmcupsmanager.cpp:953
+#: cups/kmcupsmanager.cpp:956
 msgid "connection refused"
 msgstr "алоқа рад этилди"
 
-#: cups/kmcupsmanager.cpp:953
+#: cups/kmcupsmanager.cpp:956
 msgid "host not found"
 msgstr "хост топилмади"
 
@@ -1507,11 +1533,13 @@ msgid "&IPP Report..."
 msgstr "IPP ҳ&исоботи"
 
 #: cups/kmwippprinter.cpp:112
-msgid "You must enter a printer URI!"
+#, fuzzy
+msgid "You must enter a printer URI."
 msgstr "Принтернинг URI'сини киритишингиз шарт!"
 
 #: cups/kmwippprinter.cpp:119 management/kmwsocket.cpp:116
-msgid "No printer found at this address/port!"
+#, fuzzy
+msgid "No printer found at this address/port."
 msgstr ""
 "Кўрсатилган манзилда/портда принтер "
 "топилмади!"
@@ -1678,7 +1706,8 @@ msgid ""
 msgstr ""
 
 #: cups/kmwquota.cpp:130
-msgid "You must at least specify one quota limit!"
+#, fuzzy
+msgid "You must specify at least one quota limit."
 msgstr ""
 "Камида битта квота чегарасини "
 "кўрсатишингиз шарт!"
@@ -2439,7 +2468,8 @@ msgid "Class printers:"
 msgstr "Синфнинг принтерлари:"
 
 #: management/kmwclass.cpp:79
-msgid "You must select at least one printer!"
+#, fuzzy
+msgid "You must select at least one printer."
 msgstr ""
 "Ҳеч бўлмаганда битта принтерни "
 "танлашингиз шарт!"
@@ -2527,12 +2557,13 @@ msgstr ""
 msgid "Print to file:"
 msgstr "Фалй сифатида сақлаш:"
 
-#: management/kmwfile.cpp:60
-msgid "Empty file name!"
-msgstr "Файлнинг номи кўрсатилмаган!"
+#: management/kmconfiggeneral.cpp:137 management/kmwfile.cpp:60
+msgid "Empty file name."
+msgstr "Файлнинг номи кўрсатилмаган."
 
 #: management/kmwfile.cpp:66
-msgid "Directory does not exist!"
+#, fuzzy
+msgid "Directory does not exist."
 msgstr "Директория мавжуд эмас!"
 
 #: management/kmconfigpreview.cpp:35
@@ -2692,7 +2723,7 @@ msgid "Driver Database"
 msgstr "Драйвер маълумот базаси"
 
 #: management/kmdbcreator.cpp:171
-msgid "Error while creating driver database: abnormal child process termination!"
+msgid "Error while creating driver database: abnormal child-process termination."
 msgstr ""
 
 #: management/kmwpassword.cpp:37
@@ -2724,11 +2755,12 @@ msgstr ""
 
 #: management/kmwpassword.cpp:88
 #, fuzzy
-msgid "Select one option!"
+msgid "Select one option"
 msgstr "Матн параметрлари"
 
 #: management/kmwpassword.cpp:90
-msgid "User name is empty!"
+#, fuzzy
+msgid "User name is empty."
 msgstr "Фойдаланувчи кўрсатилмаган!"
 
 #: management/kmwsocket.cpp:38
@@ -2744,11 +2776,13 @@ msgid "P&ort:"
 msgstr "П&орт:"
 
 #: management/kmwsocket.cpp:98
-msgid "You must enter a printer address!"
+#, fuzzy
+msgid "You must enter a printer address."
 msgstr "Принтернинг манзилини киритишингиз шарт!"
 
 #: management/kmwsocket.cpp:109
-msgid "Wrong port number!"
+#, fuzzy
+msgid "Wrong port number."
 msgstr "Портнинг рақами нотўғри!"
 
 #: management/kmpropcontainer.cpp:35
@@ -2769,7 +2803,8 @@ msgid "Raw printer"
 msgstr ""
 
 #: management/kmwdriver.cpp:113
-msgid "Internal error: unable to locate the driver!"
+#, fuzzy
+msgid "Internal error: unable to locate the driver."
 msgstr "Ички хато: драйвер топилмади!"
 
 #: management/kmjobviewer.cpp:101 management/kmjobviewer.cpp:158
@@ -2951,10 +2986,6 @@ msgstr ""
 "Танланган синов бети PostScript файли эмас. "
 "Принтерни синаб бўлмаши мумкин."
 
-#: management/kmconfiggeneral.cpp:137
-msgid "Empty file name."
-msgstr "Файлнинг номи кўрсатилмаган."
-
 #: management/smbview.cpp:38
 msgid "Comment"
 msgstr "Изоҳ"
@@ -3092,10 +3123,6 @@ msgstr "Ишчи гуруҳ:"
 #: management/kmwsmb.cpp:45
 msgid "Server:"
 msgstr "Сервер:"
-
-#: management/kmwsmb.cpp:79
-msgid "Empty server name."
-msgstr "Сервернинг номи кўрсатилмаган."
 
 #: management/kmwsmb.cpp:99
 #, fuzzy, c-format
@@ -3341,20 +3368,23 @@ msgid "LPD Queue Information"
 msgstr "LPD навбати ҳақида маълумот"
 
 #: management/kmwlpd.cpp:44
+#, fuzzy
 msgid ""
-"<p>Enter the information concerning the remote LPD queue. This wizard will "
-"check them before continuing.</p>"
+"<p>Enter the information concerning the remote LPD queue; this wizard will "
+"check it before continuing.</p>"
 msgstr ""
 "<p>LPD навбати ҳақида маълумотни киритинг. "
 "Давом этишдан олдинг ёрдамчи уларни "
 "текшириб кўради.</p>"
 
 #: management/kmwlpd.cpp:54
-msgid "Some information is missing!"
+#, fuzzy
+msgid "Some information is missing."
 msgstr "Қандайдир маълумот етишмаяпти!"
 
 #: management/kmwlpd.cpp:61
-msgid "Can't find queue %1 on server %2! Do you want to continue anyway?"
+#, fuzzy
+msgid "Can not find queue %1 on server %2; do you want to continue anyway?"
 msgstr ""
 "Серверда (%2) навбат (%1) топилмади! Бунга "
 "қарамасдан давом этишни истайсизми?"
@@ -3405,7 +3435,8 @@ msgid "Driver Information"
 msgstr "Драйвер ҳақида маълумот"
 
 #: management/kmwdriverselect.cpp:62
-msgid "You must select a driver!"
+#, fuzzy
+msgid "You must select a driver."
 msgstr "Драйверни танлашингиз шарт!"
 
 #: management/kmwdriverselect.cpp:82
@@ -3622,14 +3653,16 @@ msgid "Name:"
 msgstr "Номи:"
 
 #: management/kmwname.cpp:48
-msgid "You must supply at least a name!"
+#, fuzzy
+msgid "You must supply at least a name."
 msgstr "Ҳеч бўлмаганда номини киритишингиз шарт!"
 
 #: management/kmwname.cpp:56
+#, fuzzy
 msgid ""
-"This is usually not a good idea to include spaces in printer name. This may "
+"It is usually not a good idea to include spaces in printer name: it may "
 "prevent your printer from working correctly. The wizard can strip all spaces "
-"from the string you entered, resulting in %1. What do you want to do?"
+"from the string you entered, resulting in %1; what do you want to do?"
 msgstr ""
 "Одатда, принтер номида бўш жой борлиги "
 "яхши эмас. Бу, принтерни тўғри "
@@ -3642,17 +3675,66 @@ msgstr ""
 msgid "Strip"
 msgstr "Бўш жойларни олиб ташлаш"
 
-#: kprinterimpl.cpp:493 management/kmwname.cpp:62
+#: kprinterimpl.cpp:503 management/kmwname.cpp:62
 msgid "Keep"
 msgstr "Шундай қолдириш"
 
-#: management/kmwbackend.cpp:52
+#: management/kmwbackend.cpp:54
 msgid "Backend Selection"
 msgstr "Интерфейсни танлаш"
 
-#: management/kmwbackend.cpp:66
-msgid "You must select a backend!"
+#: management/kmwbackend.cpp:68
+#, fuzzy
+msgid "You must select a backend."
 msgstr "Интерфейсни танлашингиз шарт!"
+
+#: management/kmwbackend.cpp:115
+msgid "&Local printer (parallel, serial, USB)"
+msgstr "&Локал принтер (параллел, кетма-кет, USB)"
+
+#: management/kmwbackend.cpp:116
+msgid ""
+"<qt>"
+"<p>Locally-connected printer</p>"
+"<p>Use this for a printer connected to the computer via a parallel, serial "
+"or USB port.</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:122
+msgid "&SMB shared printer (Windows)"
+msgstr ""
+
+#: management/kmwbackend.cpp:123
+msgid ""
+"<qt>"
+"<p>Shared Windows printer</p>"
+"<p>Use this for a printer installed on a Windows server and shared on the "
+"network using the SMB protocol (samba).</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:130
+msgid "&Remote LPD queue"
+msgstr "&Масофадаги LPD навбат"
+
+#: management/kmwbackend.cpp:131
+msgid ""
+"<qt>"
+"<p>Print queue on a remote LPD server</p>"
+"<p>Use this for a print queue existing on a remote machine running a LPD "
+"print server.</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:137
+msgid "Ne&twork printer (TCP)"
+msgstr "&Тармоқдаги принтер (TCP)"
+
+#: management/kmwbackend.cpp:138
+msgid ""
+"<qt>"
+"<p>Network TCP printer</p>Use this for a network-enabled printer using TCP "
+"(usually on port 9100) as communication protocol. Most network printers can "
+"use this mode.</p></qt>"
+msgstr ""
 
 #: management/kminstancepage.cpp:61
 msgid ""
@@ -3703,7 +3785,7 @@ msgstr ""
 
 #: management/kminstancepage.cpp:142 management/kminstancepage.cpp:187
 #, fuzzy
-msgid "Instance name may not contain any space!"
+msgid "Instance name must not contain any spaces or slashes."
 msgstr "Тэг номида бўш жой бўлмаши керак: <b>%1</b>."
 
 #: management/kminstancepage.cpp:161
@@ -4084,7 +4166,15 @@ msgid ""
 "information.</p>"
 msgstr ""
 
-#: kprinterimpl.cpp:356 kprinterimpl.cpp:372
+#: kprinterimpl.cpp:355
+#, fuzzy
+msgid "<p>Could not load filter description for <b>%1</b>.</p>"
+msgstr ""
+"<p><b>%1</b> учун филтер таърифини ўқишда хато "
+"рўй берди. Бажариш учун буйруқ "
+"аниқланмаган.</p>"
+
+#: kprinterimpl.cpp:371
 msgid ""
 "<p>Error while reading filter description for <b>%1</b>. Empty command line "
 "received.</p>"
@@ -4093,7 +4183,7 @@ msgstr ""
 "рўй берди. Бажариш учун буйруқ "
 "аниқланмаган.</p>"
 
-#: kprinterimpl.cpp:386
+#: kprinterimpl.cpp:385
 msgid ""
 "The MIME type %1 is not supported as input of the filter chain (this may "
 "happen with non-CUPS spoolers when performing page selection on a "
@@ -4101,29 +4191,29 @@ msgid ""
 "format?</p>"
 msgstr ""
 
-#: kprinterimpl.cpp:390 kprinterimpl.cpp:492
+#: kprinterimpl.cpp:389 kprinterimpl.cpp:502
 msgid "Convert"
 msgstr "Айлантириш"
 
-#: kprinterimpl.cpp:400
+#: kprinterimpl.cpp:399
 msgid "Select MIME Type"
 msgstr "MIME турини танлаш"
 
-#: kprinterimpl.cpp:401
+#: kprinterimpl.cpp:400
 msgid "Select the target format for the conversion:"
 msgstr "Айлантириш учун натижа турини танланг:"
 
-#: kprinterimpl.cpp:405 kprinterimpl.cpp:431
+#: kprinterimpl.cpp:404 kprinterimpl.cpp:430
 msgid "Operation aborted."
 msgstr "Операция тўхтатилди."
 
-#: kprinterimpl.cpp:411
+#: kprinterimpl.cpp:410
 msgid "No appropriate filter found. Select another target format."
 msgstr ""
 "Тўғри келадиган филтер топилмади. Бошқа "
 "натижа турини танланг."
 
-#: kprinterimpl.cpp:424
+#: kprinterimpl.cpp:423
 msgid ""
 "<qt>Operation failed with message:"
 "<br>%1<br>Select another target format.</qt>"
@@ -4132,19 +4222,23 @@ msgstr ""
 "муваффақиятсиз тугади:"
 "<br>%1<br>Бошқа натижа турини танланг.</qt>"
 
-#: kprinterimpl.cpp:442
+#: kprinterimpl.cpp:441
 msgid "Filtering print data"
 msgstr ""
 "Босиб чиқариш маълумоти филтердан "
 "ўтказилмоқда"
 
-#: kprinterimpl.cpp:446
+#: kprinterimpl.cpp:445
 msgid "Error while filtering. Command was: <b>%1</b>."
 msgstr ""
 "Филтерлашда хато рўй берди. Буйруқ "
 "қуйидагича эди: <b>%1</b>."
 
 #: kprinterimpl.cpp:487
+msgid "<qt>The print file is empty and will be ignored:<p>%1</p></qt>"
+msgstr ""
+
+#: kprinterimpl.cpp:497
 msgid ""
 "The file format %1 is not directly supported by the current print system. "
 "KDE can try to convert this file automatically to a supported format. But "
@@ -4152,7 +4246,7 @@ msgid ""
 "you want KDE to try to convert this file to %2?"
 msgstr ""
 
-#: kprinterimpl.cpp:501
+#: kprinterimpl.cpp:511
 msgid ""
 "No appropriate filter was found to convert the file format %1 into %2. Do "
 "you want to print the file using its original format?"
@@ -4162,7 +4256,7 @@ msgstr ""
 "Файлни асл форматида босиб чиқаришни "
 "истайсизми?"
 
-#: kprinterimpl.cpp:506
+#: kprinterimpl.cpp:516
 msgid "Skip"
 msgstr "Ўтказиб юбориш"
 
@@ -4287,6 +4381,10 @@ msgstr "&Боши:"
 #: kpgeneralpage.cpp:160
 msgid "En&d:"
 msgstr "&Охири:"
+
+#: ppdloader.cpp:173
+msgid "(line %1): "
+msgstr ""
 
 #: droptionview.cpp:60
 msgid "Value:"
@@ -4580,7 +4678,8 @@ msgid "Printer Configuration"
 msgstr "Принтерни мослаш"
 
 #: kprinterpropertydialog.cpp:138
-msgid "No configurable options for that printer!"
+#, fuzzy
+msgid "No configurable options for that printer."
 msgstr ""
 "Бу принтер учун мосланадиган параметрлар "
 "йўқ!"
@@ -4632,6 +4731,15 @@ msgstr "Миллиметр (мм)"
 #: driver.cpp:387
 msgid "JCL"
 msgstr "JCL"
+
+#: kmvirtualmanager.cpp:161
+msgid ""
+"<qt>You are about to set a pseudo-printer as your personal default. This "
+"setting is specific to KDE and will not be available outside KDE "
+"applications. Note that this will only make your personal default printer as "
+"undefined for non-KDE applications and should not prevent you from printing "
+"normally. Do you really want to set <b>%1</b> as your personal default?</qt>"
+msgstr ""
 
 #: kpposterpage.cpp:40
 msgid "Poster"
@@ -4742,3 +4850,14 @@ msgstr "&Оқ-қора"
 msgid "Ot&her"
 msgstr "Б&ошқа"
 
+#~ msgid "&Network printer (TCP)"
+#~ msgstr "Та&рмоқдаги принтер (TCP)"
+
+#~ msgid "Empty server name!"
+#~ msgstr "Сервернинг номи кўрсатилмаган!"
+
+#~ msgid "<qt><p> </p>. </qt>"
+#~ msgstr "<qt><p> </p>. </qt>"
+
+#~ msgid "Empty file name!"
+#~ msgstr "Файлнинг номи кўрсатилмаган!"

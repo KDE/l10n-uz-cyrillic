@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
-"POT-Creation-Date: 2003-12-16 01:42+0100\n"
+"POT-Creation-Date: 2004-05-03 01:48+0200\n"
 "PO-Revision-Date: 2004-03-07 16:50-0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "F&ormat"
 msgstr "&Формат"
 
-#: kwconfig.cc:91 rc.cpp:6 rc.cpp:25
+#: kwconfig.cc:89 rc.cpp:6 rc.cpp:25
 msgid "Formula"
 msgstr "Формула"
 
@@ -96,8 +96,8 @@ msgstr "Янги хатчўпни яратиш"
 
 #: rc.cpp:39
 msgid ""
-"<p>Bookmarks allow you to jump between parts of your document.<br>Please "
-"provide the name of your bookmark.</p>"
+"<p>Bookmarks allow you to jump between parts of your document."
+"<br>Please provide the name of your bookmark.</p>"
 msgstr ""
 
 #: kwframestylemanager.cc:244 kwtablestylemanager.cc:284 mailmerge.cc:516
@@ -184,11 +184,78 @@ msgstr "&Порт:"
 msgid "default"
 msgstr "андоза"
 
+#: rc.cpp:64
+#, fuzzy
+msgid "Address Selection"
+msgstr "Ифодани қўшиш"
+
+#: rc.cpp:65
+msgid "&Add >>"
+msgstr ""
+
+#: rc.cpp:66
+#, fuzzy
+msgid "<< &Remove"
+msgstr "Сатрни ўчириш"
+
+#: rc.cpp:67
+msgid "Save as &Distribution List..."
+msgstr ""
+
+#: rc.cpp:68
+msgid "Save selected single entries to a new distribution list."
+msgstr ""
+
+#: rc.cpp:69
+#, fuzzy
+msgid "&Filter on:"
+msgstr "Очиш учун файл"
+
+#: mailmerge/serialletter_classicplugin.cc:244 rc.cpp:71 rc.cpp:78
+msgid "Name"
+msgstr "Номи"
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:72
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:104
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:122
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:167
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:203
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:244
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:246
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:298
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:340
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:386
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:484 rc.cpp:72
+msgid "Distribution Lists"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:82
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:391 rc.cpp:73
+msgid "Single Entries"
+msgstr ""
+
+#: rc.cpp:74
+msgid "Address B&ook..."
+msgstr ""
+
+#: rc.cpp:75
+msgid "Launch KAddressbook"
+msgstr ""
+
+#: rc.cpp:76
+msgid "&Address Book"
+msgstr ""
+
+#: rc.cpp:77
+#, fuzzy
+msgid "&Selected Addresses"
+msgstr "Фреймлар тўпламини белгилаш"
+
 #: configfootnotedia.cc:39
 msgid "Configure Endnote/Footnote"
 msgstr ""
 
-#: configfootnotedia.cc:50 kwtextframeset.cc:3594
+#: configfootnotedia.cc:50 kwtextframeset.cc:3074
 msgid "Footnotes"
 msgstr ""
 
@@ -304,33 +371,48 @@ msgstr ""
 msgid "Table of Contents"
 msgstr "Мундарижа"
 
-#: deldia.cc:50
+#: deldia.cc:52
 msgid "Delete the row from the table."
 msgstr "Жадвалдан сатрни ўчириш."
 
-#: deldia.cc:51
+#: deldia.cc:53
 msgid "Delete the column from the table."
 msgstr "Жадвалдан устунни ўчириш."
 
-#: deldia.cc:60
-msgid "Delete rows:"
-msgstr "Сатрларни ўчириш:"
-
-#: deldia.cc:60
-msgid "Delete columns:"
-msgstr "Устунларни ўчириш:"
-
-#: deldia.cc:88
-msgid "Delete the whole table"
+#: deldia.cc:92
+#, fuzzy
+msgid "Delete the whole table?"
 msgstr "Бутун жадвални ўчириш"
 
-#: deldia.cc:92
-msgid "Delete all selected rows"
+#: deldia.cc:95
+#, fuzzy
+msgid "Delete all selected rows?"
 msgstr "Белгиланган сатрларни ўчириш"
 
-#: deldia.cc:92
-msgid "Delete all selected cells"
+#: deldia.cc:95
+#, fuzzy
+msgid "Delete all selected cells?"
 msgstr "Белгиланган катакларни ўчириш"
+
+#: deldia.cc:97
+#, fuzzy
+msgid "Delete row number %1?"
+msgstr "Бетни (%1) ўчириш"
+
+#: deldia.cc:97
+#, fuzzy
+msgid "Delete column number %1?"
+msgstr "Устунларни ўчириш:"
+
+#: deldia.cc:100
+#, fuzzy
+msgid "Delete rows: %1 ?"
+msgstr "Сатрларни ўчириш:"
+
+#: deldia.cc:100
+#, fuzzy
+msgid "Delete columns: %1 ?"
+msgstr "Устунларни ўчириш:"
 
 #: docstruct.cc:333
 msgid "Arrangement"
@@ -554,245 +636,246 @@ msgid ""
 "Lon&gest side"
 msgstr ""
 
-#: framedia.cc:636
-msgid "Distance between frame and text (%1):"
+#: framedia.cc:631
+#, fuzzy
+msgid "Distance between frame and text (%1)"
 msgstr "Фрейм ва матн орасидаги масофа (%1):"
 
-#: framedia.cc:734
+#: framedia.cc:735
 msgid "Connect Text Frames"
 msgstr "Матн фреймларини боғлаш"
 
-#: framedia.cc:742
+#: framedia.cc:743
 msgid "Select existing frameset to connect frame to:"
 msgstr ""
 
-#: framedia.cc:752
+#: framedia.cc:753
 msgid "No."
 msgstr ""
 
-#: framedia.cc:753
+#: framedia.cc:754
 msgid "Frameset Name"
 msgstr "Фреймлар тўпламининг номи"
 
-#: framedia.cc:763
+#: framedia.cc:764
 msgid "Create a new frameset"
 msgstr "Янги фреймлар тўпламини яратиш"
 
-#: framedia.cc:775
+#: framedia.cc:776
 msgid "Name of frameset:"
 msgstr "Фреймлар тўпламининг номи:"
 
-#: framedia.cc:820 framedia.cc:1539 kwcanvas.cc:1325 kwtextframeset.cc:99
+#: framedia.cc:821 framedia.cc:1459 kwcanvas.cc:1327 kwtextframeset.cc:102
 #, c-format
 msgid "Text Frameset %1"
 msgstr "Фреймлар тўплами %1"
 
-#: framedia.cc:868 tabledia.cc:93
+#: framedia.cc:869 tabledia.cc:93
 msgid "Geometry"
 msgstr "Геометрия"
 
-#: framedia.cc:871
+#: framedia.cc:872
 msgid "Frame is inline"
 msgstr ""
 
-#: framedia.cc:878
+#: framedia.cc:879
 msgid "Protect size and position"
 msgstr ""
 
-#: framedia.cc:901
+#: framedia.cc:902
 msgid "Position (%1)"
 msgstr "Жойлашиши (%1)"
 
-#: framedia.cc:904 framedia.cc:967
+#: framedia.cc:905 framedia.cc:1978
 msgid "Left:"
 msgstr "Чап:"
 
-#: framedia.cc:916 framedia.cc:989
+#: framedia.cc:917 framedia.cc:1989
 msgid "Top:"
 msgstr "Юқори:"
 
-#: framedia.cc:926
+#: framedia.cc:927
 msgid "Width:"
 msgstr "Эни:"
 
-#: framedia.cc:940
+#: framedia.cc:941
 msgid "Height:"
 msgstr "Узунаси:"
 
-#: framedia.cc:960
+#: framedia.cc:961
 msgid "Margins (%1)"
 msgstr "Бўш жойлар (%1)"
 
-#: framedia.cc:963
-msgid "Synchronize changes"
-msgstr ""
-
-#: framedia.cc:964
-msgid "When this is checked any change in margins will be used for all directions"
-msgstr ""
-
-#: framedia.cc:978
-msgid "Right:"
-msgstr "Ўнг:"
-
-#: framedia.cc:1001
-msgid "Bottom:"
-msgstr "Паст:"
-
-#: framedia.cc:1072 framedia.cc:1116
+#: framedia.cc:1007 framedia.cc:1051
 msgid "Table is inline"
 msgstr ""
 
-#: framedia.cc:1146 kwframestylemanager.cc:611
+#: framedia.cc:1084 kwframestylemanager.cc:611
 msgid "Background"
 msgstr "Орқа фон"
 
-#: framedia.cc:1151
+#: framedia.cc:1089
 msgid "Set new color on all selected frames"
 msgstr ""
 
-#: framedia.cc:1158 kwframestylemanager.cc:585
+#: framedia.cc:1096 kwframestylemanager.cc:585
 msgid "Background color:"
 msgstr "Орқа фон ранги:"
 
-#: framedia.cc:1169
+#: framedia.cc:1107
 msgid "Background style:"
 msgstr "Орқа фон услуби:"
 
-#: framedia.cc:1178
+#: framedia.cc:1116
 msgid "No Background Fill"
 msgstr ""
 
-#: framedia.cc:1179
+#: framedia.cc:1117
 msgid "100% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1180
+#: framedia.cc:1118
 msgid "94% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1181
+#: framedia.cc:1119
 msgid "88% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1182
+#: framedia.cc:1120
 msgid "63% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1183
+#: framedia.cc:1121
 msgid "50% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1184
+#: framedia.cc:1122
 msgid "37% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1185
+#: framedia.cc:1123
 msgid "12% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1186
+#: framedia.cc:1124
 msgid "6% Fill Pattern"
 msgstr ""
 
-#: framedia.cc:1187
+#: framedia.cc:1125
 msgid "Horizontal Lines"
 msgstr "Горизонтал чизиқлар"
 
-#: framedia.cc:1188
+#: framedia.cc:1126
 msgid "Vertical Lines"
 msgstr "Вертикал чизиқлар"
 
-#: framedia.cc:1189
+#: framedia.cc:1127
 msgid "Crossing Lines"
 msgstr "Кесишган чизиқлар"
 
-#: framedia.cc:1190
+#: framedia.cc:1128
 msgid "Diagonal Lines ( / )"
 msgstr "Диагонал чизиқлар ( / )"
 
-#: framedia.cc:1191
+#: framedia.cc:1129
 msgid "Diagonal Lines ( \\ )"
 msgstr "Диагонал чизиқлар ( \\ )"
 
-#: framedia.cc:1192
+#: framedia.cc:1130
 msgid "Diagonal Crossing Lines"
 msgstr "Диагонал кесишган чизиқлар"
 
-#: framedia.cc:1564 framedia.cc:1566
+#: framedia.cc:1484 framedia.cc:1486
 msgid "Rename Frameset"
 msgstr ""
 
-#: framedia.cc:1610
+#: framedia.cc:1530
 msgid ""
 "A new frameset with the name '%1' can not be made because a frameset with "
 "that name already exists. Please enter another name or select an existing "
 "frameset from the list."
 msgstr ""
 
-#: framedia.cc:1616
+#: framedia.cc:1536
 msgid "A frameset with the name '%1' already exists. Please enter another name."
 msgstr ""
 
-#: framedia.cc:1667 framedia.cc:1668 framedia.cc:1685 framedia.cc:1686
-#: kwtableframeset.cc:2311 kwtableframeset.cc:2314
+#: framedia.cc:1587 framedia.cc:1588 framedia.cc:1605 framedia.cc:1606
+#: kwtableframeset.cc:2327 kwtableframeset.cc:2330
 msgid "Protect Content"
 msgstr ""
 
-#: framedia.cc:1733 framedia.cc:1746 framedia.cc:1876
+#: framedia.cc:1653 framedia.cc:1666 framedia.cc:1804
 msgid "Frame Properties"
 msgstr "Фреймнинг ҳоссалари"
 
-#: framedia.cc:1858 framedia.cc:1957
+#: framedia.cc:1783 framedia.cc:1885
 msgid ""
 "The frame will not be resized because the new size would be greater than the "
 "size of the page."
 msgstr ""
 
-#: framedia.cc:1863 framedia.cc:1864 kwcanvas.cc:1329
+#: framedia.cc:1788 framedia.cc:1789 kwcanvas.cc:1331
 msgid "Create Text Frame"
 msgstr "Матн фреймини яратиш"
 
-#: framedia.cc:1897 kwview.cc:5974 kwview.cc:5980
+#: framedia.cc:1825 kwview.cc:5911 kwview.cc:5917
 msgid "Make Frameset Inline"
 msgstr ""
 
-#: framedia.cc:1919 kwview.cc:5994
+#: framedia.cc:1847 kwview.cc:5931
 msgid "Make Frameset Non-Inline"
 msgstr ""
 
-#: framedia.cc:1928
+#: framedia.cc:1856
 msgid "Protect Size"
 msgstr ""
 
-#: framedia.cc:1949 framedia.cc:1951 kwcanvas.cc:1249
+#: framedia.cc:1877 framedia.cc:1879 kwcanvas.cc:1251
 msgid "Resize Frame"
 msgstr "Фреймнинг катталигини ўзгартириш"
 
-#: framedia.cc:1969 framedia.cc:1970
+#: framedia.cc:1896 framedia.cc:1897
 msgid "Change Margin Frame"
 msgstr ""
 
-#: framedia.cc:2027
+#: framedia.cc:1954
 msgid ""
 "You are about to reconnect the last frame of the frameset '%1'. The contents "
 "of this frameset will be deleted.\n"
 "Are you sure you want to do that?"
 msgstr ""
 
-#: framedia.cc:2031
+#: framedia.cc:1958
 msgid "Reconnect Frame"
 msgstr ""
 
-#: framedia.cc:2031
+#: framedia.cc:1958
 msgid "&Reconnect"
 msgstr "Қай&тадан боғлаш"
 
-#: insdia.cc:55 kwview.cc:3887 kwview.cc:3902 tabledia.cc:253
+#: framedia.cc:1974
+msgid "Synchronize changes"
+msgstr ""
+
+#: framedia.cc:1975
+msgid "When this is checked any change in margins will be used for all directions"
+msgstr ""
+
+#: framedia.cc:2000
+msgid "Right:"
+msgstr "Ўнг:"
+
+#: framedia.cc:2010
+msgid "Bottom:"
+msgstr "Паст:"
+
+#: insdia.cc:55 kwview.cc:3881 kwview.cc:3896 tabledia.cc:253
 msgid "Insert Row"
 msgstr "Сатрни қўйиш"
 
-#: insdia.cc:55 kwview.cc:3931 kwview.cc:3955 tabledia.cc:282
+#: insdia.cc:55 kwview.cc:3925 kwview.cc:3949 tabledia.cc:282
 msgid "Insert Column"
 msgstr "Устунни қўйиш"
 
@@ -820,143 +903,157 @@ msgstr "Сатр:"
 msgid "Column:"
 msgstr "Устун:"
 
-#: kwcanvas.cc:197 kwview.cc:1705
+#: kwcanvas.cc:199 kwview.cc:1700
 msgid "Printing..."
 msgstr "Босиб чиқариш"
 
-#: kwcanvas.cc:442 kwview.cc:5986
+#: kwcanvas.cc:444 kwview.cc:5923
 msgid "Move Frame"
 msgstr "Фреймни кўчириш"
 
-#: kwcanvas.cc:594 kwcanvas.cc:2539 kwtableframeset.cc:2799
+#: kwcanvas.cc:596 kwcanvas.cc:2541 kwtableframeset.cc:2815
 msgid "Read-only content cannot be changed. No modifications will be accepted."
 msgstr ""
 
-#: kwcanvas.cc:750
+#: kwcanvas.cc:752
 msgid "Insert Inline Table"
 msgstr ""
 
-#: kwcanvas.cc:1346
+#: kwcanvas.cc:1348
 msgid "Connect Frame"
 msgstr "Фреймни боғлаш"
 
-#: kwcanvas.cc:1390
+#: kwcanvas.cc:1392
 msgid "Create Picture Frame"
 msgstr "Расм фреймини яратиш"
 
-#: kwcanvas.cc:1417
+#: kwcanvas.cc:1419
 msgid "Create Formula Frame"
 msgstr "Формула фреймини яратиш"
 
-#: kwcanvas.cc:1431
+#: kwcanvas.cc:1433
 msgid ""
 "KWord is unable to insert the table because there is not enough space "
 "available."
 msgstr ""
 
-#: kwcanvas.cc:1436 kwtableframeset.cc:119
+#: kwcanvas.cc:1438 kwtableframeset.cc:119
 msgid "Create Table"
 msgstr "Жадвални яратиш"
 
-#: kwcanvas.cc:1610
+#: kwcanvas.cc:1612
 msgid "Change Left Border Frame"
 msgstr ""
 
-#: kwcanvas.cc:1665
+#: kwcanvas.cc:1667
 msgid "Change Right Border Frame"
 msgstr ""
 
-#: kwcanvas.cc:1721
+#: kwcanvas.cc:1723
 msgid "Change Top Border Frame"
 msgstr ""
 
-#: kwcanvas.cc:1776
+#: kwcanvas.cc:1778
 msgid "Change Bottom Border Frame"
 msgstr ""
 
-#: kwcanvas.cc:1818
+#: kwcanvas.cc:1820
 msgid "Change Frame Background Color"
 msgstr "Фреймнинг орқа фон рангини ўзгартириш"
 
-#: kwcanvas.cc:2052
+#: kwcanvas.cc:2054
 msgid "Paste Frames"
 msgstr "Фреймларни қўйиш"
 
-#: kwcommand.cc:1721 kwinsertpagedia.cc:31 kwinsertpagedia.cc:35
-#: kwtextframeset.cc:3691
+#: kwcommand.cc:1733 kwinsertpagedia.cc:31 kwinsertpagedia.cc:35
+#: kwtextframeset.cc:3818
 msgid "Insert Page"
 msgstr "Бетни қўйиш"
 
-#: kwcommand.cc:1722
+#: kwcommand.cc:1734
 #, c-format
 msgid "Delete Page %1"
 msgstr "Бетни (%1) ўчириш"
 
-#: kwconfig.cc:73
+#: kwconfig.cc:71
 msgid "Configure KWord"
 msgstr "KWord мосламаси"
 
-#: kwconfig.cc:78 kwconfig.cc:239
+#: kwconfig.cc:76 kwconfig.cc:224
 msgid "Interface"
 msgstr "Интерфейс"
 
-#: kwconfig.cc:78
+#: kwconfig.cc:76
 msgid "Interface Settings"
 msgstr "Интерфейс мосламалари"
 
-#: kwconfig.cc:82
+#: kwconfig.cc:80
 msgid "Document"
 msgstr "Ҳужжат"
 
-#: kwconfig.cc:82 kwconfig.cc:765
+#: kwconfig.cc:80 kwconfig.cc:717
 msgid "Document Settings"
 msgstr "Ҳужжат мосламалари"
 
-#: kwconfig.cc:87
+#: kwconfig.cc:85
 msgid "Spelling"
 msgstr "Имло"
 
-#: kwconfig.cc:87
+#: kwconfig.cc:85
 msgid "Spell Checker Behavior"
 msgstr "Имлони текширувчининг хусусиятлари"
 
-#: kwconfig.cc:91
+#: kwconfig.cc:89
 msgid "Formula Defaults"
 msgstr "Формуланинг андозалари"
 
-#: kwconfig.cc:96 kwconfig.cc:413
+#: kwconfig.cc:94 kwconfig.cc:449
 msgid "Misc"
 msgstr "Хар ҳил"
 
-#: kwconfig.cc:96
+#: kwconfig.cc:94
 msgid "Misc Settings"
 msgstr "Хар ҳил мосламалар"
 
-#: kwconfig.cc:100 kwconfig.cc:925 kwconfig.cc:932
+#: kwconfig.cc:98 kwconfig.cc:892 kwconfig.cc:899
 msgid "Path"
 msgstr "Йўл"
 
-#: kwconfig.cc:100
+#: kwconfig.cc:98
 msgid "Path Settings"
 msgstr "Йўл мосламалари"
 
-#: kwconfig.cc:135 kwconfig.cc:143
+#: kwconfig.cc:147 kwconfig.cc:155
 msgid "Change Config"
 msgstr "Мосламани ўзгартириш"
 
-#: kwconfig.cc:264
+#: kwconfig.cc:252
+#, fuzzy
+msgid "&Units:"
+msgstr "Ўлчовлар:"
+
+#: kwconfig.cc:258
+msgid ""
+"Select the unit type used every time a distance or width/height is displayed "
+"or entered. This one setting is for the whole of KWord: all dialogs, the "
+"rulers etc.Note that KWord documents specify the unit which was used to "
+"create them, so this setting only affects this document and all documents "
+"that will be created later."
+msgstr ""
+
+#: kwconfig.cc:265
 msgid "Show &status bar"
 msgstr "&Ҳолат панелини кўрсатиш"
 
-#: kwconfig.cc:267
+#: kwconfig.cc:268
 msgid "Show s&crollbar"
 msgstr "&Варақлаш панелини кўрсатиш"
 
-#: kwconfig.cc:270
+#: kwconfig.cc:271
 msgid "PageUp/PageDown &moves the caret"
 msgstr ""
 
-#: kwconfig.cc:273
+#: kwconfig.cc:274
 msgid ""
 "If this option is enabled, the PageUp and PageDown keys move the text caret, "
 "as in other KDE applications. If it is disabled, they move the scrollbars, "
@@ -967,7 +1064,7 @@ msgstr ""
 msgid "Number of recent &files:"
 msgstr ""
 
-#: kwconfig.cc:280
+#: kwconfig.cc:283
 msgid ""
 "The number of files remembered in the file open dialog and in the recent "
 "files menu item"
@@ -977,311 +1074,327 @@ msgstr ""
 msgid "&Horizontal grid size:"
 msgstr ""
 
-#: kwconfig.cc:288
+#: kwconfig.cc:295
 msgid ""
 "The grid size on which frames, tabs and other content snaps while moving and "
 "scaling"
 msgstr ""
 
-#: kwconfig.cc:297
+#: kwconfig.cc:299
 msgid "&Vertical grid size:"
 msgstr ""
 
-#: kwconfig.cc:298
+#: kwconfig.cc:308
 msgid ""
 "The grid size on which frames and other content snaps while moving and "
 "scaling"
 msgstr ""
 
-#: kwconfig.cc:307
+#: kwconfig.cc:312
 msgid "&Paragraph indent by toolbar buttons:"
 msgstr ""
 
-#: kwconfig.cc:308
+#: kwconfig.cc:321
 msgid ""
 "Configure the indent width used when using the 'Increase' or 'Decrease' "
-"indentation buttons on a paragraph.<p>The lower the value, the more often "
-"the buttons will have to be pressed to gain the same indentation."
+"indentation buttons on a paragraph."
+"<p>The lower the value, the more often the buttons will have to be pressed "
+"to gain the same indentation."
 msgstr ""
 
-#: kwconfig.cc:315
+#: kwconfig.cc:327
 msgid "Number of pa&ges per row in preview mode:"
 msgstr ""
 
-#: kwconfig.cc:316
+#: kwconfig.cc:332
 msgid ""
-"After selecting preview mode (via the \"View\" menu, option \"Preview mode"
-"\") this is the amount of pages KWord will position on one horizontal row"
+"After selecting preview mode (via the \"View\" menu, option \"Preview "
+"mode\") this is the amount of pages KWord will position on one horizontal row"
 msgstr ""
 
-#: kwconfig.cc:431
-msgid "Units:"
-msgstr "Ўлчовлар:"
-
-#: kwconfig.cc:475
-msgid ""
-"Select the unit type used every time a distance or width/height is displayed "
-"or entered. This one setting is for the whole of KWord."
-msgstr ""
-
-#: kwconfig.cc:481
-msgid "Undo/redo limit:"
+#: kwconfig.cc:465
+#, fuzzy
+msgid "Undo/&redo limit:"
 msgstr "Амални бекор қилиш/қайтариш чегараси:"
 
-#: kwconfig.cc:483
+#: kwconfig.cc:469
 msgid "Limit the amount of undo/redo actions remembered to save memory"
 msgstr ""
 
-#: kwconfig.cc:487
+#: kwconfig.cc:473
 msgid "Display &links"
 msgstr "&Боғларни кўрсатиш"
 
-#: kwconfig.cc:489
+#: kwconfig.cc:475
 msgid "&Underline all links"
 msgstr "Ҳамма боғларнинг &тагини чизиш"
 
-#: kwconfig.cc:493
+#: kwconfig.cc:479
 msgid "Display c&omments"
 msgstr "Изоҳларни &кўрсатиш"
 
-#: kwconfig.cc:496
+#: kwconfig.cc:482
 msgid "Display field code"
 msgstr "Майдоннинг кодини кўрсатиш"
 
-#: kwconfig.cc:500
+#: kwconfig.cc:486
 msgid "View Formatting"
 msgstr ""
 
-#: kwconfig.cc:509
+#: kwconfig.cc:495
 msgid "View formatting end paragraph"
 msgstr ""
 
-#: kwconfig.cc:512
+#: kwconfig.cc:498
 msgid "View formatting space"
 msgstr ""
 
-#: kwconfig.cc:515
+#: kwconfig.cc:501
 msgid "View formatting tabs"
 msgstr ""
 
-#: kwconfig.cc:518
+#: kwconfig.cc:504
 msgid "View formatting break"
 msgstr ""
 
-#: kwconfig.cc:586 kwconfig.cc:588 kwconfig.cc:598 kwconfig.cc:600
-#: kwconfig.cc:610 kwconfig.cc:612
+#: kwconfig.cc:530 kwconfig.cc:532 kwconfig.cc:542 kwconfig.cc:544
+#: kwconfig.cc:554 kwconfig.cc:556
 msgid "Change Display Link Command"
 msgstr ""
 
-#: kwconfig.cc:621 kwconfig.cc:623
+#: kwconfig.cc:565 kwconfig.cc:567
 msgid "Change Display Field Code Command"
 msgstr ""
 
-#: kwconfig.cc:685
+#: kwconfig.cc:634
 msgid "Document Defaults"
 msgstr "Ҳужжатнинг андозалари"
 
-#: kwconfig.cc:704
+#: kwconfig.cc:649
 msgid "Default column spacing:"
 msgstr "Устунлар орасидаги андоза масофа:"
 
-#: kwconfig.cc:705
+#: kwconfig.cc:657
 msgid ""
 "When setting a document to use more than one column this distance will be "
 "used to separate the columns. This value is merely a default setting as the "
 "column spacing can be changed per document"
 msgstr ""
 
-#: kwconfig.cc:716
+#: kwconfig.cc:668
 msgid "Default font:"
 msgstr "Андоза шрифт:"
 
-#: kwconfig.cc:725
+#: kwconfig.cc:677
 msgid "Choose..."
 msgstr "Танлаш"
 
-#: kwconfig.cc:751
+#: kwconfig.cc:703
 msgid "Global language:"
 msgstr "Умумий тил:"
 
-#: kwconfig.cc:762
+#: kwconfig.cc:714
 msgid "Automatic hyphenation"
 msgstr ""
 
-#: kwconfig.cc:771
+#: kwconfig.cc:722
 msgid "Autosave every (min):"
 msgstr "Авто-сақлаш (мин):"
 
-#: kwconfig.cc:772
+#: kwconfig.cc:726
 msgid ""
 "A backup copy of the current document is created when a change has been "
 "made. The interval used to create backup documents is set here."
 msgstr ""
 
-#: kwconfig.cc:774
+#: kwconfig.cc:728
 msgid "No autosave"
 msgstr "Авто-сақлашсиз"
 
-#: kwconfig.cc:775
+#: kwconfig.cc:729
 msgid " min"
 msgstr " мин"
 
-#: kwconfig.cc:784
+#: kwconfig.cc:738
 msgid "Create backup file"
 msgstr ""
 
-#: kwconfig.cc:787
+#: kwconfig.cc:742
 msgid "Starting page number:"
 msgstr "Бетнинг бошланғич сони:"
 
-#: kwconfig.cc:795
+#: kwconfig.cc:751
 msgid "Tab stop (%1):"
 msgstr ""
 
-#: kwconfig.cc:801
+#: kwconfig.cc:760
 msgid "Cursor"
 msgstr "Курсор"
 
-#: kwconfig.cc:805
+#: kwconfig.cc:764
 msgid "Cursor in protected area"
 msgstr ""
 
-#: kwconfig.cc:808
+#: kwconfig.cc:767
 msgid "Direct insert cursor"
 msgstr ""
 
-#: kwconfig.cc:869 kwconfig.cc:870
+#: kwconfig.cc:828 kwconfig.cc:829
 msgid "Change Starting Page Number"
 msgstr "Бетнинг бошланғич сонини ўзгартириш"
 
-#: kwconfig.cc:879 kwconfig.cc:882
+#: kwconfig.cc:838 kwconfig.cc:841
 msgid "Change Tab Stop Value"
 msgstr ""
 
-#: kwconfig.cc:931
+#: kwconfig.cc:898
 msgid "Type"
 msgstr "Тури"
 
-#: kwconfig.cc:933 kwconfig.cc:957 kwconfig.cc:995 kwconfig.cc:1013
+#: kwconfig.cc:900 kwconfig.cc:924 kwconfig.cc:962 kwconfig.cc:980
 msgid "Personal Expression"
 msgstr ""
 
-#: kwconfig.cc:934 kwconfig.cc:973 kwconfig.cc:998 kwconfig.cc:1037
+#: kwconfig.cc:901 kwconfig.cc:940 kwconfig.cc:965 kwconfig.cc:1008
 msgid "Picture Path"
 msgstr "Расмнинг йўли"
 
-#: kwconfig.cc:935 kwconfig.cc:983 kwconfig.cc:1001 kwconfig.cc:1052
+#: kwconfig.cc:902 kwconfig.cc:950 kwconfig.cc:968 kwconfig.cc:1023
 msgid "Backup Path"
 msgstr ""
 
-#: kwconfig.cc:937 kwconfig.cc:965 kwconfig.cc:1005 kwconfig.cc:1025
+#: kwconfig.cc:904 kwconfig.cc:932 kwconfig.cc:972 kwconfig.cc:996
 msgid "Horizontal Line Path"
 msgstr ""
 
-#: kwconfig.cc:940
+#: kwconfig.cc:907
 msgid "Modify Path..."
 msgstr "Йўлни ўзгартириш"
 
-#: kwcreatebookmarkdia.cc:43 kwcreatebookmarkdia.cc:98
+#: kwcreatebookmarkdia.cc:43 kwcreatebookmarkdia.cc:99
 #: kwcreatebookmarkdia.cc:123
 msgid "Rename Bookmark"
 msgstr "Хатчўпнинг номини ўзгартириш"
 
 #: kwcreatebookmarkdia.cc:64
 msgid "That name already exists, please choose another name."
-msgstr "Бу номли хатчўп аллақачон мавжуд. Илтимос бошқа номни танланг."
+msgstr ""
+"Бу номли хатчўп аллақачон мавжуд. Илтимос "
+"бошқа номни танланг."
 
-#: kwcreatebookmarkdia.cc:102
+#: kwcreatebookmarkdia.cc:103
 msgid "Delete Bookmark"
 msgstr "Хатчўпни ўчириш"
 
-#: kwaboutdata.h:37 kwdoc.cc:589
+#: kwaboutdata.h:37 kwdoc.cc:503
 msgid "KWord"
 msgstr "KWord"
 
-#: kwdoc.cc:1135
+#: kwdoc.cc:1048 kwdoc.cc:1316
 msgid "Invalid document. No mimetype specified."
-msgstr "Ҳужжат ҳақиқий эма. Ҳеч қандай MIME-тури кўрсатилмаган."
-
-#: kwdoc.cc:1141
-#, c-format
-msgid ""
-"Invalid document. Expected mimetype application/x-kword or application/vnd."
-"kde.kword, got %1"
 msgstr ""
+"Ҳужжат ҳақиқий эма. Ҳеч қандай MIME-тури "
+"кўрсатилмаган."
 
-#: kwdoc.cc:1148
-msgid ""
-"This document was created with a newer version of KWord (syntax version: %"
-"1)\n"
-"Opening it in this version of KWord will lose some information."
+#: kwdoc.cc:1069 kwdoc.cc:1372
+#, fuzzy, c-format
+msgid "Invalid document. Paper size: %1x%2"
 msgstr ""
+"Ҳужжат ҳақиқий эма. Ҳеч қандай MIME-тури "
+"кўрсатилмаган."
 
-#: kwdoc.cc:1150
-msgid "File Format Mismatch"
-msgstr ""
+#: kwdoc.cc:1158
+#, fuzzy
+msgid "Main Text Frameset"
+msgstr "Фреймлар тўплами %1"
 
-#: kwdoc.cc:1389
-msgid "First Page Header"
-msgstr ""
-
-#: kwdoc.cc:1402
+#: kwdoc.cc:1215 kwdoc.cc:1612
 msgid "Odd Pages Header"
 msgstr ""
 
-#: kwdoc.cc:1413
+#: kwdoc.cc:1215
+msgid "Header"
+msgstr ""
+
+#: kwdoc.cc:1217 kwdoc.cc:1623
 msgid "Even Pages Header"
 msgstr ""
 
-#: kwdoc.cc:1424
-msgid "First Page Footer"
-msgstr ""
-
-#: kwdoc.cc:1436
+#: kwdoc.cc:1219 kwdoc.cc:1646
 msgid "Odd Pages Footer"
 msgstr ""
 
-#: kwdoc.cc:1448
+#: kwdoc.cc:1219
+msgid "Footer"
+msgstr ""
+
+#: kwdoc.cc:1221 kwdoc.cc:1658
 msgid "Even Pages Footer"
 msgstr ""
 
-#: kwdoc.cc:2080 kwdoc.cc:2088
+#: kwdoc.cc:1322
+#, c-format
+msgid ""
+"Invalid document. Expected mimetype application/x-kword or "
+"application/vnd.kde.kword, got %1"
+msgstr ""
+
+#: kwdoc.cc:1329
+msgid ""
+"This document was created with a newer version of KWord (syntax version: "
+"%1)\n"
+"Opening it in this version of KWord will lose some information."
+msgstr ""
+
+#: kwdoc.cc:1331
+msgid "File Format Mismatch"
+msgstr ""
+
+#: kwdoc.cc:1599
+msgid "First Page Header"
+msgstr ""
+
+#: kwdoc.cc:1634
+msgid "First Page Footer"
+msgstr ""
+
+#: kwdoc.cc:2302 kwdoc.cc:2310
 msgid "Copy%1-%2"
 msgstr ""
 
-#: kwdoc.cc:2741
+#: kwdoc.cc:2980
 msgid "Create Part Frame"
 msgstr ""
 
-#: kwdoc.cc:4048 kwdoc.cc:4140 kwtableframeset.cc:124 kwview.cc:2545
+#: kwdoc.cc:4301 kwdoc.cc:4393 kwtableframeset.cc:124 kwview.cc:2532
 msgid "Delete Table"
 msgstr "Жадвални ўчириш"
 
-#: kwdoc.cc:4063
+#: kwdoc.cc:4316
 msgid "Delete Text Frame"
 msgstr "Матн фреймини ўчириш"
 
-#: kwdoc.cc:4067
+#: kwdoc.cc:4320
 msgid "Delete Formula Frame"
 msgstr "Формула фреймини ўчириш"
 
-#: kwdoc.cc:4076
+#: kwdoc.cc:4329
 msgid "Delete Picture Frame"
 msgstr "Расм фреймини ўчириш"
 
-#: kwdoc.cc:4080
+#: kwdoc.cc:4333
 msgid "Delete Object Frame"
 msgstr "Объект фреймини ўчириш"
 
-#: kwdoc.cc:4085
+#: kwdoc.cc:4338
 msgid "Delete Horizontal Line"
 msgstr "Горизонтал чизиқни ўчириш"
 
-#: kwdoc.cc:4115
+#: kwdoc.cc:4368
 msgid "Delete Frames"
 msgstr "Фреймларни ўчириш"
 
-#: kwdoc.cc:4166 kwview.cc:2573 kwview.cc:2590 kwview.cc:2608
+#: kwdoc.cc:4419 kwview.cc:2560 kwview.cc:2577 kwview.cc:2595
 msgid "Delete Frame"
 msgstr "Фреймни ўчириш"
 
@@ -1319,12 +1432,12 @@ msgstr "янги гуруҳ"
 msgid "Formula %1"
 msgstr "Формула %1"
 
-#: kwframe.cc:1790
+#: kwframe.cc:1956
 #, c-format
 msgid "Picture %1"
 msgstr "Расм %1"
 
-#: kwframe.cc:1977
+#: kwframe.cc:2183
 #, c-format
 msgid "Horizontal line %1"
 msgstr "Горизонтал чизиқ %1"
@@ -1342,7 +1455,7 @@ msgstr "Файлдан импорт қилиш"
 msgid "Preview"
 msgstr "Кўриб чиқиш"
 
-#: kwframestylemanager.cc:250 kwview.cc:7461
+#: kwframestylemanager.cc:250 kwview.cc:7412
 msgid "General"
 msgstr "Умумий"
 
@@ -1350,30 +1463,30 @@ msgstr "Умумий"
 msgid "New Framestyle Template (%1)"
 msgstr ""
 
-#: kwimportstyledia.cc:52 kwimportstyledia.cc:61 kwimportstyledia.cc:135
-#: kwimportstyledia.cc:143 kwimportstyledia.cc:153 kwimportstyledia.cc:192
-#: kwimportstyledia.cc:201 kwimportstyledia.cc:242 kwimportstyledia.cc:250
+#: kwimportstyledia.cc:52 kwimportstyledia.cc:61 kwimportstyledia.cc:134
+#: kwimportstyledia.cc:142 kwimportstyledia.cc:152 kwimportstyledia.cc:191
+#: kwimportstyledia.cc:200 kwimportstyledia.cc:240 kwimportstyledia.cc:248
 msgid "Import Style"
 msgstr "Услубни импорт қилиш"
 
-#: kwimportstyledia.cc:60 kwimportstyledia.cc:200 kwview.cc:5917
-#: kwview.cc:6469
+#: kwimportstyledia.cc:60 kwimportstyledia.cc:199 kwview.cc:5854
+#: kwview.cc:6406
 msgid "File name is empty."
 msgstr "Файлнинг номи кўрсатилмаган."
 
-#: kwimportstyledia.cc:134 kwimportstyledia.cc:241
+#: kwimportstyledia.cc:133 kwimportstyledia.cc:239
 msgid "File does not contain any styles. It may be the wrong version."
 msgstr ""
 
-#: kwimportstyledia.cc:142 kwimportstyledia.cc:249 kwview.cc:6491
+#: kwimportstyledia.cc:141 kwimportstyledia.cc:247 kwview.cc:6427
 msgid "This file is not a KWord file!"
 msgstr "Бу файл KWord файли эмас!"
 
-#: kwimportstyledia.cc:158
+#: kwimportstyledia.cc:157
 msgid "Select style to import:"
 msgstr "Импорт қилиш учун услубни танланг:"
 
-#: kwinserthorizontallinedia.cc:34 kwview.cc:7167
+#: kwinserthorizontallinedia.cc:34 kwview.cc:7113
 msgid "Insert Horizontal Line"
 msgstr "Горизонтал чизиқни қўйиш"
 
@@ -1401,32 +1514,32 @@ msgstr ""
 msgid "Choose Picture"
 msgstr "Расмни танлаш"
 
-#: kwpartframeset.cc:36
+#: kwpartframeset.cc:37
 #, c-format
 msgid "Object %1"
 msgstr "Объект %1"
 
-#: kwpartframeset.cc:171
+#: kwpartframeset.cc:175
 msgid "Move/Resize Frame"
 msgstr ""
 
-#: kwpartframeset.cc:269
+#: kwpartframeset.cc:273
 msgid "Make Document External"
 msgstr ""
 
-#: kwpartframeset.cc:275
+#: kwpartframeset.cc:279
 msgid "Make Document Internal"
 msgstr ""
 
-#: kwtableframeset.cc:1481 kwview.cc:4049
+#: kwtableframeset.cc:1497 kwview.cc:4043
 msgid "Join Cells"
 msgstr "Катакларни бирлаштириш"
 
-#: kwtableframeset.cc:1638 kwview.cc:4086 kwview.cc:4095
+#: kwtableframeset.cc:1654 kwview.cc:4080 kwview.cc:4089
 msgid "Split Cells"
 msgstr "Катакларни бўлиш"
 
-#: kwtableframeset.cc:2424
+#: kwtableframeset.cc:2440
 msgid ""
 "_: Hello dear translator :), 1 is the table name, 2 and 3 are row and "
 "column\n"
@@ -1493,41 +1606,41 @@ msgstr "Биринчи устун"
 msgid "Last column"
 msgstr "Охирги устун"
 
-#: kwtextframeset.cc:1434 kwtextparag.cc:70
+#: kwtextframeset.cc:1457 kwtextparag.cc:75
 msgid "--- Frame Break ---"
 msgstr ""
 
-#: kwtextframeset.cc:2472
+#: kwtextframeset.cc:2585
 msgid "Change Paragraph Attribute"
 msgstr "Параграфнинг атрибутини ўзгартириш"
 
-#: kwtextframeset.cc:2483 kwtextframeset.cc:3329
+#: kwtextframeset.cc:2596 kwtextframeset.cc:3471
 msgid "Paste Text"
 msgstr "Матнни қўйиш"
 
-#: kwtextframeset.cc:2511
+#: kwtextframeset.cc:2627
 msgid "Insert Table of Contents"
 msgstr "Мундарижани қўйиш"
 
-#: kwtextframeset.cc:2558
+#: kwtextframeset.cc:2674
 msgid "Insert Break After Paragraph"
 msgstr ""
 
-#: kwtextframeset.cc:2818
+#: kwtextframeset.cc:2934
 #, c-format
 msgid "Endnote %1"
 msgstr ""
 
-#: kwtextframeset.cc:2818
+#: kwtextframeset.cc:2934
 #, c-format
 msgid "Footnote %1"
 msgstr ""
 
-#: kwtextframeset.cc:3529 kwtextframeset.cc:3531
+#: kwtextframeset.cc:3671 kwtextframeset.cc:3673
 msgid "Insert Expression"
 msgstr "Ифодани қўйиш"
 
-#: kwtextframeset.cc:3673
+#: kwtextframeset.cc:3800
 msgid "Insert Variable"
 msgstr "Ўзгарувчини қўйиш"
 
@@ -1543,1568 +1656,1626 @@ msgstr ""
 msgid "Endnote"
 msgstr ""
 
-#: kwview.cc:416
+#: kwview.cc:418
 msgid "&Create Template From Document..."
 msgstr "Ҳужжатдан &намуна яратиш"
 
-#: kwview.cc:419
+#: kwview.cc:421
 msgid "Save this document and use it later as a template"
-msgstr "Ушбу ҳужжатни сақлаш ва кейинчалик уни намуна сифатида ишлатиш"
+msgstr ""
+"Ушбу ҳужжатни сақлаш ва кейинчалик уни "
+"намуна сифатида ишлатиш"
 
-#: kwview.cc:420
+#: kwview.cc:422
 msgid ""
-"You can save this document as a template.<br><br>You can use this new "
-"template as a starting point for another document."
+"You can save this document as a template."
+"<br>"
+"<br>You can use this new template as a starting point for another document."
 msgstr ""
 
-#: kwview.cc:422 kwview.cc:7438 kwview.cc:7644 kwview.cc:7703
+#: kwview.cc:424 kwview.cc:7389 kwview.cc:7591 kwview.cc:7650
 msgid "Statistics"
 msgstr "Статистика"
 
-#: kwview.cc:423
+#: kwview.cc:425
 msgid "Sentence, word and letter counts for this document"
 msgstr ""
 
-#: kwview.cc:424
+#: kwview.cc:426
 msgid ""
 "Information on the number of letters, words, syllables and sentences for "
 "this document.<p>Evaluates readability using the Flesch reading score."
 msgstr ""
 
-#: kwview.cc:435
+#: kwview.cc:437
 msgid "Delete Page"
 msgstr "Бетни ўчириш"
 
-#: kwview.cc:440
+#: kwview.cc:442
 msgid "Configure Mai&l Merge..."
 msgstr ""
 
-#: kwview.cc:445
+#: kwview.cc:447
 msgid "Drag Mail Merge Variable"
 msgstr ""
 
-#: kwview.cc:451
+#: kwview.cc:453
 msgid "&Delete Frame"
 msgstr "&Фреймни ўчириш"
 
-#: kwview.cc:454 kwview.cc:455
+#: kwview.cc:456 kwview.cc:457
 msgid "Delete the currently selected frame(s)."
 msgstr "Белгиланган фрейм(лар)ни ўчириш."
 
-#: kwview.cc:457 kwview.cc:2637
+#: kwview.cc:459 kwview.cc:2624
 msgid "Create Linked Copy"
 msgstr ""
 
-#: kwview.cc:458
+#: kwview.cc:460
 msgid "Create a copy of the current frame, always showing the same contents"
 msgstr ""
 
-#: kwview.cc:459
+#: kwview.cc:461
 msgid ""
 "Create a copy of the current frame, that remains linked to it. This means "
 "they always show the same contents: modifying the contents in such a frame "
 "will update all its linked copies."
 msgstr ""
 
-#: kwview.cc:461
+#: kwview.cc:463
 msgid "Ra&ise Frame"
 msgstr "Фрейм &олдинга"
 
-#: kwview.cc:464
+#: kwview.cc:466
 msgid ""
 "Raise the currently selected frame so that it appears above all the other "
 "frames"
 msgstr ""
 
-#: kwview.cc:465
+#: kwview.cc:467
 msgid ""
 "Raise the currently selected frame so that it appears above all the other "
 "frames. This is only useful if frames overlap each other. If multiple frames "
 "are selected they are all raised in turn."
 msgstr ""
 
-#: kwview.cc:467
+#: kwview.cc:469
 msgid "&Lower Frame"
 msgstr "Фрей&м орқага"
 
-#: kwview.cc:470
+#: kwview.cc:472
 msgid ""
 "Lower the currently selected frame so that it disappears under any frame "
 "that overlaps it"
 msgstr ""
 
-#: kwview.cc:471
+#: kwview.cc:473
 msgid ""
 "Lower the currently selected frame so that it disappears under any frame "
 "that overlaps it. If multiple frames are selected they are all lowered in "
 "turn."
 msgstr ""
 
-#: kwview.cc:473 kwview.cc:2376
+#: kwview.cc:475 kwview.cc:2371
 msgid "Bring to Front"
 msgstr ""
 
-#: kwview.cc:477 kwview.cc:2380
+#: kwview.cc:479 kwview.cc:2375
 msgid "Send to Back"
 msgstr ""
 
-#: kwview.cc:483
+#: kwview.cc:485
 msgid "Text Mode"
 msgstr "Матн усули"
 
-#: kwview.cc:486
+#: kwview.cc:488
 msgid "Only show the text of the document."
 msgstr "Ҳужжатнинг фақат матнини кўрсатиш."
 
-#: kwview.cc:487
+#: kwview.cc:489
 msgid ""
 "Do not show any pictures, formatting or layout. KWord will display only the "
 "text for editing."
 msgstr ""
 
-#: kwview.cc:490
+#: kwview.cc:492
 msgid "&Page Mode"
 msgstr "&Бет усули"
 
-#: kwview.cc:493
+#: kwview.cc:495
 msgid ""
-"Switch to page mode.<br><br> Page mode is designed to make editing your text "
-"easy.<br><br>This function is most frequently used to return to text editing "
-"after switching to preview mode."
+"Switch to page mode."
+"<br>"
+"<br> Page mode is designed to make editing your text easy."
+"<br>"
+"<br>This function is most frequently used to return to text editing after "
+"switching to preview mode."
 msgstr ""
 
-#: kwview.cc:494
+#: kwview.cc:496
 msgid "Switch to page editing mode."
 msgstr ""
 
-#: kwview.cc:498
+#: kwview.cc:500
 msgid "Pre&view Mode"
 msgstr "&Кўриб чиқиш усули"
 
-#: kwview.cc:501
+#: kwview.cc:503
 msgid ""
-"Zoom out from your document to get a look at several pages of your document."
-"<br><br>The number of pages per line can be customized."
+"Zoom out from your document to get a look at several pages of your "
+"document.<br><br>The number of pages per line can be customized."
 msgstr ""
 
-#: kwview.cc:502
+#: kwview.cc:504
 msgid "Zoom out to a multiple page view."
 msgstr ""
 
-#: kwview.cc:506
+#: kwview.cc:508
 msgid "&Formatting Characters"
 msgstr ""
 
-#: kwview.cc:509
+#: kwview.cc:511
 msgid "Toggle the display of non-printing characters."
 msgstr ""
 
-#: kwview.cc:510
+#: kwview.cc:512
 msgid ""
-"Toggle the display of non-printing characters.<br><br>When this is enabled, "
-"KWord shows you tabs, spaces, carriage returns and other non-printing "
-"characters."
+"Toggle the display of non-printing characters."
+"<br>"
+"<br>"
+"When this is enabled, KWord shows you tabs, spaces, carriage returns and "
+"other non-printing characters."
 msgstr ""
 
-#: kwview.cc:512
+#: kwview.cc:514
 msgid "Frame &Borders"
 msgstr "Фреймнинг че&гаралари"
 
-#: kwview.cc:515
+#: kwview.cc:517
 msgid "Turns the border display on and off."
 msgstr "Фреймнинг чегараларини бекитиш/кўрсатиш."
 
-#: kwview.cc:516
+#: kwview.cc:518
 msgid ""
-"Turns the border display on and off.<br><br>The borders are never printed. "
-"This option is useful to see how the document will appear on the printed "
-"page."
+"Turns the border display on and off."
+"<br>"
+"<br>The borders are never printed. This option is useful to see how the "
+"document will appear on the printed page."
 msgstr ""
 
-#: kwview.cc:518
+#: kwview.cc:520
 msgid "Show &Header"
 msgstr ""
 
-#: kwview.cc:521
+#: kwview.cc:523
 msgid "Shows and hides header display."
 msgstr ""
 
-#: kwview.cc:522
+#: kwview.cc:524
 msgid ""
-"Selecting this option toggles the display of headers in KWord."
-"<br><br>Headers are special frames at the top of each page which can contain "
+"Selecting this option toggles the display of headers in "
+"KWord."
+"<br>"
+"<br>Headers are special frames at the top of each page which can contain "
 "page numbers or other information."
 msgstr ""
 
-#: kwview.cc:524
+#: kwview.cc:526
 msgid "Show Foo&ter"
 msgstr ""
 
-#: kwview.cc:527
+#: kwview.cc:529
 msgid "Shows and hides footer display."
 msgstr ""
 
-#: kwview.cc:528
+#: kwview.cc:530
 msgid ""
 "Selecting this option toggles the display of footers in KWord. "
-"<br><br>Footers are special frames at the bottom of each page which can "
-"contain page numbers or other information."
+"<br>"
+"<br>Footers are special frames at the bottom of each page which can contain "
+"page numbers or other information."
 msgstr ""
 
-#: kwview.cc:539
+#: kwview.cc:541
 msgid "Sp&ecial Character..."
 msgstr "&Махсус белги"
 
-#: kwview.cc:543 kwview.cc:544
+#: kwview.cc:545 kwview.cc:546
 msgid "Insert one or more symbols or letters not found on the keyboard."
 msgstr ""
 
-#: kwview.cc:550
+#: kwview.cc:552
 msgid "Page Break"
 msgstr ""
 
-#: kwview.cc:551
+#: kwview.cc:553
 msgid "Force the remainder of the text into the next page."
 msgstr ""
 
-#: kwview.cc:552
+#: kwview.cc:554
 msgid ""
 "This inserts a non-printing character at the current cursor position. All "
 "text after this point will be moved into the next page."
 msgstr ""
 
-#: kwview.cc:554
+#: kwview.cc:556
 msgid "&Hard Frame Break"
 msgstr ""
 
-#: kwview.cc:555
+#: kwview.cc:557
 msgid "Force the remainder of the text into the next frame."
 msgstr ""
 
-#: kwview.cc:556
+#: kwview.cc:558
 msgid ""
 "This inserts a non-printing character at the current cursor position. All "
 "text after this point will be moved into the next frame in the frameset."
 msgstr ""
 
-#: kwview.cc:559
+#: kwview.cc:561
 msgid "Page..."
 msgstr "Бет"
 
-#: kwview.cc:563
+#: kwview.cc:565
 msgid "Link..."
 msgstr "Боғ"
 
-#: kwview.cc:566 kwview.cc:567
+#: kwview.cc:568 kwview.cc:569
 msgid "Insert a Web address, email address or hyperlink to a file."
 msgstr ""
 
-#: kwview.cc:569
+#: kwview.cc:571
 msgid "Comment..."
 msgstr "Изоҳ"
 
-#: kwview.cc:572
+#: kwview.cc:574
 msgid "Insert a comment about the selected text."
 msgstr "Белгиланган матн учун изоҳни қўйиш."
 
-#: kwview.cc:573
+#: kwview.cc:575
 msgid ""
 "Insert a comment about the selected text. These comments are not designed to "
 "appear on the final page."
 msgstr ""
 
-#: kwview.cc:575
+#: kwview.cc:577
 msgid "Edit Comment..."
 msgstr "Изоҳни таҳрирлаш"
 
-#: kwview.cc:578 kwview.cc:579
+#: kwview.cc:580 kwview.cc:581
 msgid "Change the content of a comment."
 msgstr "Изоҳни ўзгартириш."
 
-#: kwview.cc:581
+#: kwview.cc:583
 msgid "Remove Comment"
 msgstr "Изоҳни олиб ташлаш"
 
-#: kwview.cc:584 kwview.cc:585
+#: kwview.cc:586 kwview.cc:587
 msgid "Remove the selected document comment."
 msgstr ""
 
-#: kwview.cc:586
+#: kwview.cc:588
 msgid "Copy Text of Comment..."
 msgstr "Изоҳдан нусха кўчириш"
 
-#: kwview.cc:591
+#: kwview.cc:593
 msgid "&Footnote/Endnote..."
 msgstr ""
 
-#: kwview.cc:594 kwview.cc:595
+#: kwview.cc:596 kwview.cc:597
 msgid "Insert a footnote referencing the selected text."
 msgstr ""
 
-#: kwview.cc:597 kwview.cc:3302
+#: kwview.cc:599 kwview.cc:3293
 msgid "Table of &Contents"
 msgstr "&Мундарижа"
 
-#: kwview.cc:600 kwview.cc:601
+#: kwview.cc:602 kwview.cc:603
 msgid "Insert table of contents at the current cursor position."
 msgstr "Курсордан бошлаб мундарижани қўйиш."
 
-#: kwview.cc:604
+#: kwview.cc:606
 msgid "&Variable"
 msgstr "Ў&згарувчи"
 
-#: kwview.cc:608
+#: kwview.cc:610
 msgid "Document &Information"
 msgstr "Ҳужжат &ҳақида маълумот"
 
-#: kwview.cc:609
+#: kwview.cc:611
 msgid "&Date"
 msgstr "Са&на"
 
-#: kwview.cc:610
+#: kwview.cc:612
 msgid "&Time"
 msgstr "&Вақт"
 
-#: kwview.cc:611
+#: kwview.cc:613
 msgid "&Page"
 msgstr "&Бет"
 
-#: kwview.cc:613 kwview.cc:1381
+#: kwview.cc:615 kwview.cc:1376
 msgid "&Custom"
 msgstr "Б&ошқа"
 
-#: kwview.cc:622
+#: kwview.cc:624
 msgid "&Refresh All Variables"
 msgstr "Ҳамма ўзга&рувчиларни янгилаш"
 
-#: kwview.cc:625
+#: kwview.cc:627
 msgid "Update all variables to current values."
 msgstr ""
 
-#: kwview.cc:626
+#: kwview.cc:628
 msgid ""
-"Update all variables in the document to current values.<br><br>This will "
-"update page numbers, dates or any other variables that need updating."
+"Update all variables in the document to current values."
+"<br>"
+"<br>This will update page numbers, dates or any other variables that need "
+"updating."
 msgstr ""
 
-#: kwview.cc:630
+#: kwview.cc:632
 msgid "&Expression"
 msgstr "&Ифода"
 
-#: kwview.cc:634
+#: kwview.cc:636
 msgid "Te&xt Frame"
 msgstr "Ма&тн фрейми"
 
-#: kwview.cc:637 kwview.cc:638
+#: kwview.cc:639 kwview.cc:640
 msgid "Create a new text frame."
 msgstr "Янги матн фреймини яратиш."
 
-#: kwview.cc:641
+#: kwview.cc:643
 msgid "For&mula"
 msgstr "&Формула"
 
-#: kwview.cc:644 kwview.cc:645
+#: kwview.cc:646 kwview.cc:647
 msgid "Insert a formula into a new frame."
 msgstr "Формулани янги фреймга қўйиш."
 
-#: kwview.cc:647
+#: kwview.cc:649
 msgid "&Table..."
 msgstr "&Жадвал"
 
-#: kwview.cc:651
+#: kwview.cc:653
 msgid "Create a table."
 msgstr "Жадвални яратиш."
 
-#: kwview.cc:652
+#: kwview.cc:654
 msgid ""
-"Create a table.<br><br>The table can either exist in a frame of its own or "
-"inline."
+"Create a table."
+"<br><br>The table can either exist in a frame of its own or inline."
 msgstr ""
 
-#: kwview.cc:654
+#: kwview.cc:656
 msgid "P&icture..."
 msgstr "&Расм"
 
-#: kwview.cc:658
+#: kwview.cc:660
 msgid "Create a new frame for a picture."
 msgstr "Расм учун янги фреймни яратиш."
 
-#: kwview.cc:659
+#: kwview.cc:661
 msgid "Create a new frame for a picture or diagram."
 msgstr ""
 
-#: kwview.cc:662
+#: kwview.cc:664
 msgid "&Object Frame"
 msgstr "&Объект фрейми"
 
-#: kwview.cc:665 kwview.cc:666
+#: kwview.cc:667 kwview.cc:668
 msgid "Insert an object into a new frame."
 msgstr "Объектни янги фреймга қўйиш."
 
-#: kwview.cc:668
+#: kwview.cc:670
 msgid "Fi&le..."
 msgstr "Фай&л"
 
-#: kwview.cc:674
+#: kwview.cc:676
 msgid "&Font..."
 msgstr "&Шрифт"
 
-#: kwview.cc:677
+#: kwview.cc:679
 msgid "Change character size, font, boldface, italics, etc."
 msgstr ""
 
-#: kwview.cc:678
+#: kwview.cc:680
 msgid "Change the attributes of the currently selected characters."
 msgstr ""
 
-#: kwview.cc:680
+#: kwview.cc:682
 msgid "&Paragraph..."
 msgstr "&Параграф"
 
-#: kwview.cc:683
+#: kwview.cc:685
 msgid "Change paragraph margins, text flow, borders, bullets, numbering, etc."
 msgstr ""
 
-#: kwview.cc:684
+#: kwview.cc:686
 msgid ""
-"Change paragraph margins, text flow, borders, bullets, numbering, etc."
+"Change paragraph margins, text flow, borders, bullets, numbering, "
+"etc."
 "<p>Select text in multiple paragraphs to change the formatting of all "
-"selected paragraphs.<p>If no text is selected, the paragraph where the "
-"cursor is located will be changed."
+"selected paragraphs."
+"<p>"
+"If no text is selected, the paragraph where the cursor is located will be "
+"changed."
 msgstr ""
 
-#: kwview.cc:686
+#: kwview.cc:688
 msgid "F&rame/Frameset Properties..."
 msgstr "&Фрейм/Фреймлар тўпламининг хоссалари"
 
-#: kwview.cc:689
+#: kwview.cc:691
 msgid "Alter frameset properties."
-msgstr "Фреймлар тўпламининг хоссаларини ўзгартириш."
+msgstr ""
+"Фреймлар тўпламининг хоссаларини "
+"ўзгартириш."
 
-#: kwview.cc:690
+#: kwview.cc:692
 msgid "Alter frameset properties.<p>Currently you can change the frame background."
 msgstr ""
 
-#: kwview.cc:692
+#: kwview.cc:694
 msgid "Page &Layout..."
 msgstr ""
 
-#: kwview.cc:695
+#: kwview.cc:697
 msgid "Change properties of entire page."
 msgstr ""
 
-#: kwview.cc:696
+#: kwview.cc:698
 msgid ""
-"Change properties of the entire page.<p>Currently you can change paper size, "
-"paper orientation, header and footer sizes, and column settings."
+"Change properties of the entire page."
+"<p>"
+"Currently you can change paper size, paper orientation, header and footer "
+"sizes, and column settings."
 msgstr ""
 
-#: kwview.cc:699
-msgid "&Frame Style Manager"
-msgstr ""
+#: kwview.cc:701
+#, fuzzy
+msgid "&Frame Style Manager..."
+msgstr "Услуб &бошқарувчиси"
 
-#: kwview.cc:702
+#: kwview.cc:704
 msgid "Change attributes of framestyles."
 msgstr ""
 
-#: kwview.cc:703
+#: kwview.cc:705
 msgid ""
-"Change background and borders of framestyles.<p>Multiple framestyles can be "
-"changed using the dialog box."
+"Change background and borders of framestyles."
+"<p>Multiple framestyles can be changed using the dialog box."
 msgstr ""
 
-#: kwview.cc:706
+#: kwview.cc:708
 msgid "&Style Manager"
 msgstr "Услуб &бошқарувчиси"
 
-#: kwview.cc:709
+#: kwview.cc:711
 msgid "Change attributes of styles."
 msgstr "Услубнинг атрибутларини ўзгартириш."
 
-#: kwview.cc:710
+#: kwview.cc:712
 msgid ""
-"Change font and paragraph attributes of styles.<p>Multiple styles can be "
-"changed using the dialog box."
+"Change font and paragraph attributes of styles."
+"<p>Multiple styles can be changed using the dialog box."
 msgstr ""
 
-#: kwview.cc:717
+#: kwview.cc:719
 msgid "Increase Font Size"
 msgstr "Шрифтни катталаштириш"
 
-#: kwview.cc:718
+#: kwview.cc:720
 msgid "Decrease Font Size"
 msgstr "Шрифтни кичиклаштириш"
 
-#: kwview.cc:720
+#: kwview.cc:722
 msgid "Font Family"
 msgstr "Шрифт оиласи"
 
-#: kwview.cc:725 kwview.cc:727
+#: kwview.cc:727 kwview.cc:729
 msgid "St&yle"
 msgstr "&Услуб"
 
-#: kwview.cc:735 kwview.cc:4873
+#: kwview.cc:737 kwview.cc:4874
 msgid "Default Format"
 msgstr "Андоза формат"
 
-#: kwview.cc:738 kwview.cc:739
+#: kwview.cc:740 kwview.cc:741
 msgid "Change font and paragraph attributes to their default values."
 msgstr ""
 
-#: kwview.cc:743
+#: kwview.cc:745
 msgid "&Bold"
 msgstr "Қал&ин"
 
-#: kwview.cc:746
+#: kwview.cc:748
 msgid "&Italic"
 msgstr "&Қия"
 
-#: kwview.cc:749
+#: kwview.cc:751
 msgid "&Underline"
 msgstr "&Таги чизилган"
 
-#: kwview.cc:752
+#: kwview.cc:754
 msgid "&Strike Out"
 msgstr "У&сти чизилган"
 
-#: kwview.cc:756
+#: kwview.cc:758
 msgid "Align &Left"
 msgstr ""
 
-#: kwview.cc:761
+#: kwview.cc:763
 msgid "Align &Center"
 msgstr ""
 
-#: kwview.cc:765
+#: kwview.cc:767
 msgid "Align &Right"
 msgstr ""
 
-#: kwview.cc:769
+#: kwview.cc:771
 msgid "Align &Block"
 msgstr ""
 
-#: kwview.cc:774
+#: kwview.cc:776
 msgid "Superscript"
 msgstr ""
 
-#: kwview.cc:778
+#: kwview.cc:780
 msgid "Subscript"
 msgstr ""
 
-#: kwview.cc:783
+#: kwview.cc:785
 msgid "Increase Indent"
 msgstr ""
 
-#: kwview.cc:788
+#: kwview.cc:790
 msgid "Decrease Indent"
 msgstr ""
 
-#: kwview.cc:793
+#: kwview.cc:795
 msgid "Text Color..."
 msgstr "Матннинг ранги"
 
-#: kwview.cc:804
+#: kwview.cc:806
 msgid "Number"
 msgstr "Сон"
 
-#: kwview.cc:807
+#: kwview.cc:809
 msgid "Bullet"
 msgstr ""
 
-#: kwview.cc:832
+#: kwview.cc:834
 msgid "Fra&mestyle"
 msgstr "&Фреймнинг услуби"
 
-#: kwview.cc:834
+#: kwview.cc:836
 msgid "Framest&yle"
 msgstr "Фрей&мнинг услуби"
 
-#: kwview.cc:839
+#: kwview.cc:841
 msgid "Border Outline"
 msgstr ""
 
-#: kwview.cc:841
+#: kwview.cc:843
 msgid "Border Left"
 msgstr "Чап чегара"
 
-#: kwview.cc:843
+#: kwview.cc:845
 msgid "Border Right"
 msgstr "Ўнг чегара"
 
-#: kwview.cc:845
+#: kwview.cc:847
 msgid "Border Top"
 msgstr "Юқори чегара"
 
-#: kwview.cc:847
+#: kwview.cc:849
 msgid "Border Bottom"
 msgstr "Пастги чегара"
 
-#: kwview.cc:849
+#: kwview.cc:851
 msgid "Border Style"
 msgstr "Чегара услуби"
 
-#: kwview.cc:862
+#: kwview.cc:864
 msgid "Border Width"
 msgstr "Чегара эни"
 
-#: kwview.cc:871
+#: kwview.cc:873
 msgid "Border Color"
 msgstr "Чегара ранги"
 
-#: kwview.cc:876 kwview.cc:1788
+#: kwview.cc:878 kwview.cc:1783
 msgid "Text Background Color..."
 msgstr "Матннинг орқа фон ранги"
 
-#: kwview.cc:877 kwview.cc:878
+#: kwview.cc:879 kwview.cc:880
 msgid "Change background color for currently selected text."
-msgstr "Белгиланган матннинг орқа фон рангини ўзгартириш."
+msgstr ""
+"Белгиланган матннинг орқа фон рангини "
+"ўзгартириш."
 
-#: kwview.cc:887 kwview.cc:888
+#: kwview.cc:889 kwview.cc:890
 msgid "Adjust properties of the current table."
 msgstr "Жорий жадвалнинг хоссаларини мослаш."
 
-#: kwview.cc:899
+#: kwview.cc:901
 msgid "&Insert Row..."
 msgstr "&Сатрни қўйиш"
 
-#: kwview.cc:902
+#: kwview.cc:904
 msgid "Insert one or more rows at cursor location."
-msgstr "Курсордан бошлаб битта ёки бир нечта сатр қўйиш."
-
-#: kwview.cc:903
-msgid "Insert one or more rows at current cursor location."
-msgstr "Курсордан бошлаб битта ёки бир нечта сатр қўйиш."
+msgstr ""
+"Курсордан бошлаб битта ёки бир нечта сатр "
+"қўйиш."
 
 #: kwview.cc:905
+msgid "Insert one or more rows at current cursor location."
+msgstr ""
+"Курсордан бошлаб битта ёки бир нечта сатр "
+"қўйиш."
+
+#: kwview.cc:907
 msgid "I&nsert Column..."
 msgstr "&Устунни қўйиш"
 
-#: kwview.cc:908 kwview.cc:909
+#: kwview.cc:910 kwview.cc:911
 msgid "Insert one or more columns into the current table."
-msgstr "Жорий жадвалга битта ёки бир нечта устун қўйиш."
+msgstr ""
+"Жорий жадвалга битта ёки бир нечта устун "
+"қўйиш."
 
-#: kwview.cc:911
+#: kwview.cc:913
 msgid "&Delete Selected Rows..."
 msgstr "Белгиланган &сатрларни ўчириш"
 
-#: kwview.cc:914 kwview.cc:915
+#: kwview.cc:916 kwview.cc:917
 msgid "Delete selected rows from the current table."
-msgstr "Жорий жадвалдан белгиланган сатрларни ўчириш."
+msgstr ""
+"Жорий жадвалдан белгиланган сатрларни "
+"ўчириш."
 
-#: kwview.cc:917
+#: kwview.cc:919
 msgid "D&elete Selected Columns..."
 msgstr "Белгиланган &устунларни ўчириш"
 
-#: kwview.cc:920 kwview.cc:921
+#: kwview.cc:922 kwview.cc:923
 msgid "Delete selected columns from the current table."
-msgstr "Жорий жадвалдан белгиланган устунларни ўчириш."
+msgstr ""
+"Жорий жадвалдан белгиланган устунларни "
+"ўчириш."
 
-#: kwview.cc:923
+#: kwview.cc:925
 msgid "Resize Column..."
 msgstr "Устуннинг катталигини ўзгартириш"
 
-#: kwview.cc:926 kwview.cc:927
+#: kwview.cc:928 kwview.cc:929
 msgid "Change the width of the currently selected column."
 msgstr "Белгиланган устуннинг энини ўзгартириш."
 
-#: kwview.cc:930
+#: kwview.cc:932
 msgid "&Join Cells"
 msgstr "Катакларни &бирлаштириш"
 
-#: kwview.cc:933
+#: kwview.cc:935
 msgid "Join two or more cells into one large cell."
-msgstr "Бир нечта катакларни битта катта катакга бирлаштириш."
-
-#: kwview.cc:934
-msgid ""
-"Join two or more cells into one large cell.<p>This is a good way to create "
-"titles and labels within a table."
 msgstr ""
+"Бир нечта катакларни битта катта катакга "
+"бирлаштириш."
 
 #: kwview.cc:936
+msgid ""
+"Join two or more cells into one large cell."
+"<p>This is a good way to create titles and labels within a table."
+msgstr ""
+
+#: kwview.cc:938
 msgid "&Split Cells..."
 msgstr "Катаклар&ни бўлиш"
 
-#: kwview.cc:939
+#: kwview.cc:941
 msgid "Split one cell into two or more cells."
 msgstr "Битта катакни бир нечта катакларга бўлиш."
 
-#: kwview.cc:940
+#: kwview.cc:942
 msgid ""
-"Split one cell into two or more cells.<p>Cells can be split horizontally, "
-"vertically or both directions at once."
+"Split one cell into two or more cells."
+"<p>Cells can be split horizontally, vertically or both directions at once."
 msgstr ""
 
-#: kwview.cc:942
+#: kwview.cc:944
 msgid "Protect Cells"
 msgstr ""
 
-#: kwview.cc:945
+#: kwview.cc:947
 msgid "Prevent changes to content of selected cells."
 msgstr ""
 
-#: kwview.cc:946
+#: kwview.cc:948
 msgid ""
-"Toggles cell protection on and off.<br><br>When cell protection is on, the "
-"user can not alter the content or formatting of the text within the cell."
+"Toggles cell protection on and off."
+"<br>"
+"<br>When cell protection is on, the user can not alter the content or "
+"formatting of the text within the cell."
 msgstr ""
 
-#: kwview.cc:948
+#: kwview.cc:950
 msgid "&Ungroup Table"
 msgstr ""
 
-#: kwview.cc:951
+#: kwview.cc:953
 msgid "Break a table into individual frames."
 msgstr ""
 
-#: kwview.cc:952
+#: kwview.cc:954
 msgid ""
-"Break a table into individual frames<p>Each frame can be moved independently "
-"around the page."
+"Break a table into individual frames"
+"<p>Each frame can be moved independently around the page."
 msgstr ""
 
-#: kwview.cc:954
+#: kwview.cc:956
 msgid "Delete &Table"
 msgstr "Жад&вални ўчириш"
 
-#: kwview.cc:957
+#: kwview.cc:959
 msgid "Delete the entire table."
 msgstr "Бутун жадвални ўчириш."
 
-#: kwview.cc:958
+#: kwview.cc:960
 msgid ""
 "Deletes all cells and the content within the cells of the currently selected "
 "table."
 msgstr ""
 
-#: kwview.cc:961
+#: kwview.cc:963
 msgid "T&able Style Manager"
 msgstr ""
 
-#: kwview.cc:964
+#: kwview.cc:966
 msgid "Change attributes of tablestyles."
-msgstr "Жадвал услубларининг атрибутларини ўзгартириш."
+msgstr ""
+"Жадвал услубларининг атрибутларини "
+"ўзгартириш."
 
-#: kwview.cc:965
+#: kwview.cc:967
 msgid ""
-"Change textstyle and framestyle of the tablestyles.<p>Multiple tablestyles "
-"can be changed using the dialog box."
+"Change textstyle and framestyle of the tablestyles."
+"<p>Multiple tablestyles can be changed using the dialog box."
 msgstr ""
 
-#: kwview.cc:967 kwview.cc:969
+#: kwview.cc:969 kwview.cc:971
 msgid "Table&style"
 msgstr "Жадвал &услуби"
 
-#: kwview.cc:975 kwview.cc:6939
+#: kwview.cc:977 kwview.cc:6885
 msgid "Convert Table to Text"
 msgstr "Жадвални матнга айлантириш"
 
-#: kwview.cc:978 sortdia.cc:31
+#: kwview.cc:980 sortdia.cc:31
 msgid "Sort Text"
 msgstr "Матнни саралаш"
 
-#: kwview.cc:982
+#: kwview.cc:984
 msgid "Add Expression"
 msgstr "Ифодани қўшиш"
 
-#: kwview.cc:990
+#: kwview.cc:992
 msgid "Enable Autocorrection"
 msgstr ""
 
-#: kwview.cc:993 kwview.cc:994
+#: kwview.cc:995 kwview.cc:996
 msgid "Toggle autocorrection on and off."
 msgstr ""
 
-#: kwview.cc:996
+#: kwview.cc:998
 msgid "Configure &Autocorrection..."
 msgstr "Авто-тўғ&рилашни мослаш"
 
-#: kwview.cc:999
+#: kwview.cc:1001
 msgid "Change autocorrection options."
 msgstr "Авто-тўғрилаш параметрларини ўзгартириш."
 
-#: kwview.cc:1000
+#: kwview.cc:1002
 msgid ""
-"Change autocorrection options including:<p> <UL><LI><P>exceptions to "
-"autocorrection</P> <LI><P>add/remove autocorrection replacement text</P> "
+"Change autocorrection options including:"
+"<p> "
+"<UL>"
+"<LI>"
+"<P>exceptions to autocorrection</P> "
+"<LI>"
+"<P>add/remove autocorrection replacement text</P> "
 "<LI><P>and basic autocorrection options</P>."
 msgstr ""
 
-#: kwview.cc:1002
+#: kwview.cc:1004
 msgid "Custom &Variables..."
 msgstr "&Бошқа ўзгарувчилар"
 
-#: kwview.cc:1006
+#: kwview.cc:1008
 msgid "Edit &Personal Expressions..."
 msgstr "Шахсий ифодаларни &таҳрирлаш"
 
-#: kwview.cc:1009
+#: kwview.cc:1011
 msgid "Add or change one or more personal expressions."
 msgstr ""
 
-#: kwview.cc:1010
+#: kwview.cc:1012
 msgid ""
-"Add or change one or more personal expressions.<p>Personal expressions are a "
-"way to quickly insert commonly used phrases or text into your document."
+"Add or change one or more personal expressions."
+"<p>"
+"Personal expressions are a way to quickly insert commonly used phrases or "
+"text into your document."
 msgstr ""
 
-#: kwview.cc:1012
+#: kwview.cc:1014
 msgid "Change Case..."
 msgstr ""
 
-#: kwview.cc:1015
+#: kwview.cc:1017
 msgid "Alter the capitalization of selected text."
 msgstr ""
 
-#: kwview.cc:1016
+#: kwview.cc:1018
 msgid ""
 "Alter the capitalization of selected text to one of five pre-defined "
-"patterns.<p>You can also switch all letters from upper case to lower case "
-"and from lower case to upper case in one move."
+"patterns."
+"<p>You can also switch all letters from upper case to lower case and from "
+"lower case to upper case in one move."
 msgstr ""
 
-#: kwview.cc:1022
+#: kwview.cc:1024
 msgid "Change Picture..."
 msgstr "Расмни ўзгартириш"
 
-#: kwview.cc:1025
+#: kwview.cc:1027
 msgid "Change the picture in the currently selected frame."
 msgstr "Белгиланган фреймдаги расмни ўзгартириш."
 
-#: kwview.cc:1026
+#: kwview.cc:1028
 msgid ""
-"You can specify a different picture in the current frame.<br><br>KWord "
-"automatically resizes the new picture to fit within the old frame."
+"You can specify a different picture in the current frame."
+"<br>"
+"<br>KWord automatically resizes the new picture to fit within the old frame."
 msgstr ""
 
-#: kwview.cc:1028
+#: kwview.cc:1030
 msgid "Configure Header/Footer..."
 msgstr ""
 
-#: kwview.cc:1031 kwview.cc:1032
+#: kwview.cc:1033 kwview.cc:1034
 msgid "Configure the currently selected header or footer."
 msgstr ""
 
-#: kwview.cc:1034
+#: kwview.cc:1036
 msgid "Inline Frame"
 msgstr ""
 
-#: kwview.cc:1037
+#: kwview.cc:1039
 msgid "Convert current frame to an inline frame."
 msgstr ""
 
-#: kwview.cc:1038
+#: kwview.cc:1040
 msgid ""
-"Convert the current frame to an inline frame.<br><br>Place the inline frame "
-"within the text at the point nearest to the frames current position."
+"Convert the current frame to an inline frame."
+"<br>"
+"<br>Place the inline frame within the text at the point nearest to the "
+"frames current position."
 msgstr ""
 
-#: kwview.cc:1040
+#: kwview.cc:1042
 msgid "Open Link"
 msgstr "Боғни очиш"
 
-#: kwview.cc:1043
+#: kwview.cc:1045
 msgid "Open the link with the appropriate application."
 msgstr "Боғни мос келадиган дастур билан очиш."
 
-#: kwview.cc:1044
+#: kwview.cc:1046
 msgid ""
-"Open the link with the appropriate application.<br><br>Web addresses are "
-"opened in a browser.<br>Email addresses begin a new message addressed to the "
-"link.<br>File links are opened by the appropriate viewer or editor."
+"Open the link with the appropriate application."
+"<br>"
+"<br>Web addresses are opened in a browser."
+"<br>Email addresses begin a new message addressed to the link."
+"<br>File links are opened by the appropriate viewer or editor."
 msgstr ""
 
-#: kwview.cc:1046
+#: kwview.cc:1048
 msgid "Change Link..."
 msgstr "Боғни ўзгартириш"
 
-#: kwview.cc:1049
+#: kwview.cc:1051
 msgid "Change the content of the currently selected link."
 msgstr ""
 
-#: kwview.cc:1050
+#: kwview.cc:1052
 msgid "Change the details of the currently selected link."
 msgstr ""
 
-#: kwview.cc:1052
+#: kwview.cc:1054
 msgid "Copy Link"
 msgstr "Боғдан нусха кўчириш"
 
-#: kwview.cc:1056
+#: kwview.cc:1058
 msgid "Add to Bookmark"
 msgstr "Хатчўпга қўшиш"
 
-#: kwview.cc:1060
+#: kwview.cc:1062
 msgid "Remove Link"
 msgstr "Боғни олиб ташлаш"
 
-#: kwview.cc:1064
+#: kwview.cc:1066
 msgid "Show Doc Structure"
 msgstr "Ҳужжат тузилишини кўрсатиш"
 
-#: kwview.cc:1067
+#: kwview.cc:1069
 msgid "Open document structure sidebar."
 msgstr ""
 
-#: kwview.cc:1068
+#: kwview.cc:1070
 msgid ""
-"Open document structure sidebar.<p>This sidebar helps you organize your "
-"document and quickly find pictures, tables, etc."
+"Open document structure sidebar."
+"<p>This sidebar helps you organize your document and quickly find pictures, "
+"tables, etc."
 msgstr ""
 
-#: kwview.cc:1070
-# mashrab: I have no idea what it could be else.
+#: kwview.cc:1072
 msgid "Show Rulers"
 msgstr "Линейкаларни кўрсатиш"
 
-#: kwview.cc:1073
+#: kwview.cc:1075
 msgid "Shows or hides rulers."
 msgstr "Линейкаларни кўрсатиш/бекитиш."
 
-#: kwview.cc:1074
+#: kwview.cc:1076
 msgid ""
 "The rulers are the white measuring spaces top and left of the document. The "
 "rulers show the position and width of pages and of frames and can be used to "
-"position tabulators among others.<p>Uncheck this to disable the rulers from "
-"being displayed."
+"position tabulators among others."
+"<p>Uncheck this to disable the rulers from being displayed."
 msgstr ""
 
-#: kwview.cc:1079
-msgid "&Configure Completion..."
+#: kwview.cc:1081
+#, fuzzy
+msgid "Configure C&ompletion..."
 msgstr "&Тўлдиришни мослаш"
 
-#: kwview.cc:1082
+#: kwview.cc:1084
 msgid "Change the words and options for autocompletion."
 msgstr ""
 
-#: kwview.cc:1083
+#: kwview.cc:1085
 msgid "Add words or change the options for autocompletion."
 msgstr ""
 
-#: kwview.cc:1087
+#: kwview.cc:1089
 msgid "Insert Non-Breaking Space"
 msgstr ""
 
-#: kwview.cc:1089
+#: kwview.cc:1091
 msgid "Insert Soft Hyphen"
 msgstr ""
 
-#: kwview.cc:1091
+#: kwview.cc:1093
 msgid "Line Break"
 msgstr ""
 
-#: kwview.cc:1094
+#: kwview.cc:1096
 msgid "Completion"
 msgstr "Тўлдириш"
 
-#: kwview.cc:1096
+#: kwview.cc:1098
 msgid "Edit Variable..."
 msgstr "Ўзгарувчини таҳрирлаш"
 
-#: kwview.cc:1099
+#: kwview.cc:1101
 msgid "Apply Autocorrection"
 msgstr "Авто-тўғрилашни қўллаш"
 
-#: kwview.cc:1102 kwview.cc:1103
+#: kwview.cc:1104 kwview.cc:1105
 msgid "Manually force KWord to scan the entire document and apply autocorrection."
 msgstr ""
 
-#: kwview.cc:1105
-msgid "Create Style From Selection"
-msgstr ""
+#: kwview.cc:1107
+#, fuzzy
+msgid "Create Style From Selection..."
+msgstr "Ҳужжатдан &намуна яратиш"
 
-#: kwview.cc:1108 kwview.cc:1109
+#: kwview.cc:1110 kwview.cc:1111
 msgid "Create a new style based on the currently selected text."
 msgstr ""
 
-#: kwview.cc:1111
+#: kwview.cc:1113
 msgid "&Footnote..."
 msgstr ""
 
-#: kwview.cc:1114 kwview.cc:1115
+#: kwview.cc:1116 kwview.cc:1117
 msgid "Change the look of footnotes."
 msgstr ""
 
-#: kwview.cc:1117 kwview.cc:5650
+#: kwview.cc:1119 kwview.cc:5585
 msgid "Edit Footnote"
 msgstr ""
 
-#: kwview.cc:1120 kwview.cc:1121
+#: kwview.cc:1122 kwview.cc:1123
 msgid "Change the content of the currently selected footnote."
 msgstr ""
 
-#: kwview.cc:1124
+#: kwview.cc:1126
 msgid "Change Footnote/Endnote Parameter"
 msgstr ""
 
-#: kwview.cc:1128
+#: kwview.cc:1130
 msgid "Save Picture..."
 msgstr "Расмни сақлаш"
 
-#: kwview.cc:1131
+#: kwview.cc:1133
 msgid "Save the picture in a separate file."
 msgstr "Расмни алоҳида файлга сақлаш."
 
-#: kwview.cc:1132
+#: kwview.cc:1134
 msgid ""
 "Save the picture in the currently selected frame in a separate file, outside "
 "the KWord document."
 msgstr ""
 
-#: kwview.cc:1134
+#: kwview.cc:1136
 msgid "Autospellcheck"
 msgstr "Имлони авто-текшириш"
 
-#: kwview.cc:1143
+#: kwview.cc:1145
 msgid "Edit Text Frameset"
 msgstr ""
 
-#: kwview.cc:1147
+#: kwview.cc:1149
 msgid "Delete Frameset"
 msgstr "Фреймлар тўпламини ўчириш"
 
-#: kwview.cc:1151
+#: kwview.cc:1153
 msgid "Edit Frameset Properties"
 msgstr ""
 
-#: kwview.cc:1156
+#: kwview.cc:1158
 msgid "Select Frameset"
 msgstr "Фреймлар тўпламини белгилаш"
 
-#: kwview.cc:1161
+#: kwview.cc:1163
 msgid "&Bookmark..."
 msgstr "&Хатчўп"
 
-#: kwview.cc:1164
-msgid "Select Bookmark..."
+#: kwview.cc:1166
+#, fuzzy
+msgid "Select &Bookmark..."
 msgstr "Хатчўпни танлаш"
 
-#: kwview.cc:1168
+#: kwview.cc:1170
 msgid "Import Style..."
 msgstr "Услубни импорт қилиш"
 
-#: kwview.cc:1172
+#: kwview.cc:1174
 msgid "&Create Framestyle From Frame..."
 msgstr ""
 
-#: kwview.cc:1175
+#: kwview.cc:1177
 msgid "Create a new style based on the currently selected frame."
 msgstr ""
 
-#: kwview.cc:1176
+#: kwview.cc:1178
 msgid "Create a new framestyle based on the currently selected frame."
 msgstr ""
 
-#: kwview.cc:1178
+#: kwview.cc:1180
 msgid "Type Anywhere Cursor"
 msgstr ""
 
-#: kwview.cc:1182 kwview.cc:6982 kwview.cc:6989 kwview.cc:7007
+#: kwview.cc:1184 kwview.cc:6928 kwview.cc:6935 kwview.cc:6953
 msgid "Convert to Text Box"
 msgstr ""
 
-#: kwview.cc:1187
+#: kwview.cc:1189
 msgid "Ignore All"
 msgstr "Ҳаммасига эътибор бермаш"
 
-#: kwview.cc:1192
+#: kwview.cc:1194
 msgid "Horizontal Line..."
 msgstr "Горизонтал чизиқ"
 
-#: kwview.cc:1196
+#: kwview.cc:1198
 msgid "Change Horizontal Line..."
 msgstr "Горизонтал чизиқни ўзгартириш"
 
-#: kwview.cc:1201
+#: kwview.cc:1203
 msgid "Add Word to Dictionary"
 msgstr "Сўзни луғатга қўшиш"
 
-#: kwview.cc:1205
+#: kwview.cc:1207
 msgid "Store Document Internally"
 msgstr ""
 
-#: kwview.cc:1418
+#: kwview.cc:1351
+msgid "Insert variable \"%1\" into the text"
+msgstr ""
+
+#: kwview.cc:1413
 msgid "New..."
 msgstr "Янги..."
 
-#: kwview.cc:1478
+#: kwview.cc:1473
 msgid "Page %1/%2"
 msgstr "Бет %1/%2"
 
-#: kwview.cc:1515
+#: kwview.cc:1510
 msgid ""
 "_: Statusbar info\n"
 "%1. Frame: %2, %3  -  %4, %5 (width: %6, height: %7) (%8)"
 msgstr "%1. Фрейм: %2, %3  -  %4, %5 (эни: %6, узунаси: %7) (%8)"
 
-#: kwview.cc:1525
+#: kwview.cc:1520
 msgid "%1 frames selected"
 msgstr "%1 та фрейм белгиланган"
 
-#: kwview.cc:1786 kwview.cc:5735
+#: kwview.cc:1781 kwview.cc:5670
 msgid "Frame Background Color..."
 msgstr "Фреймнинг орқа фон ранги"
 
-#: kwview.cc:2368
+#: kwview.cc:2363
 msgid "Raise Frame"
 msgstr "Фрейм олдинга"
 
-#: kwview.cc:2372
+#: kwview.cc:2367
 msgid "Lower Frame"
 msgstr "Фрейм орқага"
 
-#: kwview.cc:2542
+#: kwview.cc:2529
 msgid ""
 "You are about to delete a table.\n"
 "Doing so will delete all the text in the table.\n"
 "Are you sure you want to do that?"
 msgstr ""
 "Сиз жадвални ўчириш арафасидасиз.\n"
-"Агар давом этсангиз, жадвалдаги матн ўчирилади.\n"
+"Агар давом этсангиз, жадвалдаги матн "
+"ўчирилади.\n"
 "Давом этишга ишончингиз комилми?"
 
-#: kwview.cc:2568
+#: kwview.cc:2555
 msgid ""
 "You are about to delete the last Frame of the Frameset '%1'. The contents of "
 "this Frameset will not appear anymore!\n"
 "Are you sure you want to do that?"
 msgstr ""
 
-#: kwview.cc:2589 kwview.cc:2607
+#: kwview.cc:2576 kwview.cc:2594
 msgid "Do you want to delete this frame?"
 msgstr "Шу фреймни ўчиришни истайсизми?"
 
-#: kwview.cc:2658 kwview.cc:2690 kwview.cc:2691
+#: kwview.cc:2645 kwview.cc:2677 kwview.cc:2678
 msgid "Change Custom Variable"
 msgstr ""
 
-#: kwview.cc:2762 kwview.cc:2933
+#: kwview.cc:2753 kwview.cc:2924
 msgid "Zoom to Width"
 msgstr ""
 
-#: kwview.cc:2765 kwview.cc:2938
+#: kwview.cc:2756 kwview.cc:2929
 msgid "Zoom to Whole Page"
 msgstr ""
 
-#: kwview.cc:2791 kwview.cc:2795 kwview.cc:2796 kwview.cc:2797 kwview.cc:2798
-#: kwview.cc:2799 kwview.cc:2800 kwview.cc:2801 kwview.cc:2802 kwview.cc:2803
-#: kwview.cc:2804 kwview.cc:2805 kwview.cc:2806 kwview.cc:2814
+#: kwview.cc:2782 kwview.cc:2786 kwview.cc:2787 kwview.cc:2788 kwview.cc:2789
+#: kwview.cc:2790 kwview.cc:2791 kwview.cc:2792 kwview.cc:2793 kwview.cc:2794
+#: kwview.cc:2795 kwview.cc:2796 kwview.cc:2797 kwview.cc:2805
 msgid "%1%"
 msgstr "%1%"
 
-#: kwview.cc:2835
+#: kwview.cc:2826
 msgid "Show Header"
 msgstr ""
 
-#: kwview.cc:2835
+#: kwview.cc:2826
 msgid "Hide Header"
 msgstr ""
 
-#: kwview.cc:2883
+#: kwview.cc:2874
 msgid "Show Footer"
 msgstr ""
 
-#: kwview.cc:2883
+#: kwview.cc:2874
 msgid "Hide Footer"
 msgstr ""
 
-#: kwview.cc:3076 kwview.cc:3101
+#: kwview.cc:3067 kwview.cc:3092
 msgid "Insert Picture Inline"
 msgstr ""
 
-#: kwview.cc:3120 kwview.cc:3133
+#: kwview.cc:3111 kwview.cc:3124
 msgid "Set cursor where you want to insert inline frame."
 msgstr ""
 
-#: kwview.cc:3121
+#: kwview.cc:3112
 msgid "Insert Inline Frame"
 msgstr ""
 
-#: kwview.cc:3285
+#: kwview.cc:3276
 msgid "You can only insert footnotes or endnotes into the first frameset."
 msgstr ""
 
-#: kwview.cc:3287
+#: kwview.cc:3278
 msgid "Insert Footnote"
 msgstr ""
 
-#: kwview.cc:3302
+#: kwview.cc:3293
 msgid "Update Table of &Contents"
 msgstr "Мундарижани &янгилаш"
 
-#: kwview.cc:3338
+#: kwview.cc:3329
 msgid "Change Font"
 msgstr "Шрифтни ўзгартириш"
 
-#: kwview.cc:3369 kwview.cc:3403 kwview.cc:3416 kwview.cc:3427 kwview.cc:3437
-#: kwview.cc:3447 kwview.cc:3460 kwview.cc:3470 kwview.cc:3480 kwview.cc:3491
-#: kwview.cc:3503 kwview.cc:3514
+#: kwview.cc:3360 kwview.cc:3394 kwview.cc:3407 kwview.cc:3418 kwview.cc:3428
+#: kwview.cc:3438 kwview.cc:3451 kwview.cc:3461 kwview.cc:3471 kwview.cc:3482
+#: kwview.cc:3494 kwview.cc:3505
 msgid "Paragraph Settings"
 msgstr "Параграфнинг мосламалари"
 
-#: kwview.cc:3593 kwview.cc:5126 kwview.cc:5953
+#: kwview.cc:3584 kwview.cc:5127 kwview.cc:5890
 msgid "Change Layout"
 msgstr ""
 
-#: kwview.cc:3612
+#: kwview.cc:3603
 msgid "You must select a frame first."
 msgstr "Аввало, фреймни танлашингиз керак."
 
-#: kwview.cc:3613
+#: kwview.cc:3604
 msgid "Format Frameset"
 msgstr ""
 
-#: kwview.cc:3744
+#: kwview.cc:3738
 msgid "Insert Table"
 msgstr "Жадвални қўйиш"
 
-#: kwview.cc:3767
+#: kwview.cc:3761
 msgid "Insert Formula"
 msgstr "Формулани қўйиш"
 
-#: kwview.cc:3818
+#: kwview.cc:3812
 msgid "Remove Rows"
 msgstr "Сатрларни ўчириш"
 
-#: kwview.cc:3821 tabledia.cc:250
+#: kwview.cc:3815 tabledia.cc:250
 msgid "Remove Row"
 msgstr "Сатрни ўчириш"
 
-#: kwview.cc:3844
+#: kwview.cc:3838
 msgid "Remove Columns"
 msgstr "Устунларни ўчириш"
 
-#: kwview.cc:3847 tabledia.cc:279
+#: kwview.cc:3841 tabledia.cc:279
 msgid "Remove Column"
 msgstr "Устунни ўчириш"
 
-#: kwview.cc:3872
+#: kwview.cc:3866
 msgid "Adjust Table"
 msgstr "Жадвални мослаш"
 
-#: kwview.cc:3973
+#: kwview.cc:3967
 msgid ""
 "The table has only one row. Deleting this row will delete the table.\n"
 "Do you want to delete the table?"
 msgstr ""
-"Жадвал фақат битта сатрдан иборат. Уни ўчирсангиз, жадвал ҳам ўчирилади.\n"
+"Жадвал фақат битта сатрдан иборат. Уни "
+"ўчирсангиз, жадвал ҳам ўчирилади.\n"
 "Жадвални ўчиришни истайсизми?"
 
-#: kwview.cc:3976 kwview.cc:3987
+#: kwview.cc:3970 kwview.cc:3981
 msgid "Delete Row"
 msgstr "Сатрни ўчириш"
 
-#: kwview.cc:4005
+#: kwview.cc:3999
 msgid ""
 "The table has only one column. Deleting this column will delete the table.\n"
 "Do you want to delete the table?"
 msgstr ""
-"Жадвал фақат битта устундан иборат. Уни ўчирсангиз, жадвал ҳам ўчирилади.\n"
+"Жадвал фақат битта устундан иборат. Уни "
+"ўчирсангиз, жадвал ҳам ўчирилади.\n"
 "Жадвални ўчиришни истайсизми?"
 
-#: kwview.cc:4008 kwview.cc:4019
+#: kwview.cc:4002 kwview.cc:4013
 msgid "Delete Column"
 msgstr "Устунни ўчириш"
 
-#: kwview.cc:4031 resizetabledia.cc:98 resizetabledia.cc:112
+#: kwview.cc:4025 resizetabledia.cc:98 resizetabledia.cc:112
 msgid "Resize Column"
 msgstr "Устуннинг катталигини ўзгартириш"
 
-#: kwview.cc:4047
+#: kwview.cc:4041
 msgid ""
 "You have to select some cells which are next to each other and are not "
 "already joined."
 msgstr ""
 
-#: kwview.cc:4084
+#: kwview.cc:4078
 msgid "You have to put the cursor into a table before splitting cells."
 msgstr ""
 
-#: kwview.cc:4094
+#: kwview.cc:4088
 msgid ""
 "There is not enough space to split the cell into that many parts, make it "
 "bigger first"
 msgstr ""
 
-#: kwview.cc:4117
+#: kwview.cc:4111
 msgid "Ungroup Table"
 msgstr ""
 
-#: kwview.cc:4207
+#: kwview.cc:4201
 msgid "Apply Style to Frame"
 msgstr "Услубни фреймга қўллаш"
 
-#: kwview.cc:4207
+#: kwview.cc:4201
 msgid "Apply Style to Frames"
 msgstr "Услубни фреймларга қўллаш"
 
-#: kwview.cc:4253 kwview.cc:4268
+#: kwview.cc:4247 kwview.cc:4262
 msgid "Apply Framestyle to Frame"
 msgstr ""
 
-#: kwview.cc:4268
+#: kwview.cc:4262
 msgid "Apply Framestyle to Frames"
 msgstr ""
 
-#: kwview.cc:4273
+#: kwview.cc:4267
 msgid "Apply Framestyle"
 msgstr ""
 
-#: kwview.cc:4325 kwview.cc:4340 kwview.cc:4345
+#: kwview.cc:4319 kwview.cc:4334 kwview.cc:4339
 msgid "Apply Tablestyle to Frame"
 msgstr ""
 
-#: kwview.cc:4340
+#: kwview.cc:4334
 msgid "Apply Tablestyle to Frames"
 msgstr ""
 
-#: kwview.cc:4390
+#: kwview.cc:4384
 msgid "Change Text Size"
 msgstr "Матннинг катталигини ўзгартириш"
 
-#: kwview.cc:4413
+#: kwview.cc:4407
 msgid "Change Text Font"
 msgstr "Матннинг шрифтини ўзгартириш"
 
-#: kwview.cc:4462
+#: kwview.cc:4456
 msgid "Make Text Bold"
 msgstr ""
 
-#: kwview.cc:4482
+#: kwview.cc:4476
 msgid "Make Text Italic"
 msgstr ""
 
-#: kwview.cc:4502
+#: kwview.cc:4496
 msgid "Underline Text"
 msgstr "Матнни тагидан чизиш"
 
-#: kwview.cc:4521
+#: kwview.cc:4515
 msgid "Strike Out Text"
 msgstr "Матнни устидан чизиш"
 
-#: kwview.cc:4547
+#: kwview.cc:4541
 msgid "Set Text Color"
 msgstr ""
 
-#: kwview.cc:4568
+#: kwview.cc:4562
 msgid "Left-Align Text"
 msgstr ""
 
-#: kwview.cc:4592
+#: kwview.cc:4586
 msgid "Center Text"
 msgstr ""
 
-#: kwview.cc:4616
+#: kwview.cc:4610
 msgid "Right-Align Text"
 msgstr ""
 
-#: kwview.cc:4640
+#: kwview.cc:4634
 msgid "Justify Text"
 msgstr ""
 
-#: kwview.cc:4681
+#: kwview.cc:4682
 msgid "Change List Type"
 msgstr ""
 
-#: kwview.cc:4702
+#: kwview.cc:4703
 msgid "Make Text Superscript"
 msgstr ""
 
-#: kwview.cc:4722
+#: kwview.cc:4723
 msgid "Make Text Subscript"
 msgstr ""
 
-#: kwview.cc:4745
+#: kwview.cc:4746
 msgid "Change Case of Text"
 msgstr ""
 
-#: kwview.cc:4781
+#: kwview.cc:4782
 msgid "Increase Paragraph Depth"
 msgstr ""
 
-#: kwview.cc:4830
+#: kwview.cc:4831
 msgid "Decrease Paragraph Depth"
 msgstr ""
 
-#: kwview.cc:5026 kwview.cc:5033 kwview.cc:5041 kwview.cc:5049
+#: kwview.cc:5027 kwview.cc:5034 kwview.cc:5042 kwview.cc:5050
 msgid "Change Border"
 msgstr "Чегарани ўзгартириш"
 
-#: kwview.cc:5094
+#: kwview.cc:5095
 msgid "Change Tabulator"
 msgstr ""
 
-#: kwview.cc:5151
+#: kwview.cc:5152
 msgid "Change First Line Indent"
 msgstr ""
 
-#: kwview.cc:5171 kwview.cc:5193
+#: kwview.cc:5172 kwview.cc:5194
 msgid "Change Indent"
 msgstr ""
 
-#: kwview.cc:5276
+#: kwview.cc:5279
 msgid "Go to Footnote"
 msgstr ""
 
-#: kwview.cc:5276
+#: kwview.cc:5279
 msgid "Go to Endnote"
 msgstr ""
 
-#: kwview.cc:5307 kwview.cc:5367 kwview.cc:7233
-msgid "Spell Checking"
-msgstr "Имлони текшириш"
-
-#: kwview.cc:5366
-msgid "Spellcheck selection finished."
-msgstr ""
-
-#: kwview.cc:5408
+#: kwview.cc:5364
 msgid "Correct Misspelled Word"
 msgstr "Нотўғри ёзилган сўзни тўғрилаш"
 
-#: kwview.cc:5474
+#: kwview.cc:5419
 msgid "ISpell seems to have crashed."
 msgstr ""
 
-#: kwview.cc:5497
+#: kwview.cc:5443
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
 msgstr ""
 "ISpell дастурини ишга тушириб бўлмади.\n"
-"Илтимос ISpell дастури тўғри ўрнатилганлигини ва у ўрнатилган директория $PATH муҳит ўзгарувчисида кўрсатилганлигини текширинг."
+"Илтимос ISpell дастури тўғри "
+"ўрнатилганлигини ва у ўрнатилган "
+"директория $PATH муҳит ўзгарувчисида "
+"кўрсатилганлигини текширинг."
 
-#: kwview.cc:5650
+#: kwview.cc:5585
 msgid "Edit Endnote"
 msgstr ""
 
-#: kwview.cc:5651
+#: kwview.cc:5586
 msgid "Change Footnote Parameter"
 msgstr ""
 
-#: kwview.cc:5651
+#: kwview.cc:5586
 msgid "Change Endnote Parameter"
 msgstr ""
 
-#: kwview.cc:5880
+#: kwview.cc:5817
 msgid "Change Picture"
 msgstr "Расмни ўзгартириш"
 
-#: kwview.cc:5910 kwview.cc:5918 kwview.cc:5928
+#: kwview.cc:5847 kwview.cc:5855 kwview.cc:5865
 msgid "Save Picture"
 msgstr "Расмни сақлаш"
 
-#: kwview.cc:5927
+#: kwview.cc:5864
 msgid "Error during saving."
 msgstr "Сақлаш вақтида хато рўй берди."
 
-#: kwview.cc:6032
+#: kwview.cc:5969
 msgid "Change Link"
 msgstr "Боғни ўзгартириш"
 
-#: kwview.cc:6148
+#: kwview.cc:6085
 msgid "Change Note Text"
 msgstr ""
 
-#: kwview.cc:6203
+#: kwview.cc:6140
 msgid "Apply Autoformat"
 msgstr "Авто-форматни қўллаш"
 
-#: kwview.cc:6367
+#: kwview.cc:6304
 msgid "Change Footnote Parameters"
 msgstr ""
 
-#: kwview.cc:6461 kwview.cc:6470 kwview.cc:6492 kwview.cc:6512 kwview.cc:6735
-#: kwview.cc:6747
+#: kwview.cc:6398 kwview.cc:6407 kwview.cc:6428 kwview.cc:6448 kwview.cc:6671
+#: kwview.cc:6683
 msgid "Insert File"
 msgstr "Файлдан қўйиш"
 
-#: kwview.cc:6511
+#: kwview.cc:6447
 msgid "File name is not a KWord file!"
 msgstr "Файлнинг номи KWord файли эмас!"
 
-#: kwview.cc:7106 kwview.cc:7111 kwview.cc:7117
+#: kwview.cc:7052 kwview.cc:7057 kwview.cc:7063
 msgid "Normal"
 msgstr "Оддий"
 
-#: kwview.cc:7191
+#: kwview.cc:7137
 msgid "Change HorizontalLine"
 msgstr ""
 
-#: kwview.cc:7259
+#: kwview.cc:7210
 msgid "Replace Word"
 msgstr "Сўзни алмаштириш"
 
-#: kwview.cc:7468
+#: kwview.cc:7419
 msgid "Text"
 msgstr "Матн"
 
-#: kwview.cc:7474
+#: kwview.cc:7425
 msgid "Selected Text"
 msgstr "Белгиланган сўз"
 
-#: kwview.cc:7587
+#: kwview.cc:7538
 msgid "Counting..."
 msgstr "Ҳисобланмоқда..."
 
-#: kwview.cc:7623 kwview.cc:7714
+#: kwview.cc:7572 kwview.cc:7661
 #, c-format
 msgid "approximately %1"
 msgstr "тахминан %1"
 
-#: kwview.cc:7654
+#: kwview.cc:7601
 msgid "Number of pages:"
 msgstr "Бетлар сони:"
 
-#: kwview.cc:7659
+#: kwview.cc:7606
 msgid "Number of frames:"
 msgstr "Фреймлар сони:"
 
-#: kwview.cc:7664
+#: kwview.cc:7611
 msgid "Number of pictures:"
 msgstr "Расмлар сони:"
 
-#: kwview.cc:7670
+#: kwview.cc:7617
 msgid "Number of tables:"
 msgstr "Жадваллар сони:"
 
-#: kwview.cc:7675
+#: kwview.cc:7622
 msgid "Number of embedded objects:"
 msgstr ""
 
-#: kwview.cc:7680
+#: kwview.cc:7627
 msgid "Number of formula frameset:"
 msgstr ""
 
-#: kwview.cc:7697
+#: kwview.cc:7644
 msgid "&Include text from foot- and endnotes"
 msgstr ""
 
-#: kwview.cc:7717
+#: kwview.cc:7664
 msgid "Characters including spaces:"
 msgstr ""
 
-#: kwview.cc:7722
+#: kwview.cc:7669
 msgid "Characters without spaces:"
 msgstr ""
 
-#: kwview.cc:7727
+#: kwview.cc:7674
 msgid "Syllables:"
 msgstr ""
 
-#: kwview.cc:7732
+#: kwview.cc:7679
 msgid "Words:"
 msgstr "Сўзлар:"
 
-#: kwview.cc:7737
+#: kwview.cc:7684
 msgid "Sentences:"
 msgstr "Гаплар:"
 
-#: kwview.cc:7742
+#: kwview.cc:7689
 msgid "Lines:"
 msgstr "Чизиқлар:"
 
-#: kwview.cc:7748
+#: kwview.cc:7695
 msgid "Flesch reading ease:"
 msgstr ""
 
@@ -3365,10 +3536,11 @@ msgid ""
 msgstr "Рангли"
 
 #: stylenames.cc:51
+#, fuzzy
 msgid ""
 "_: Style name\n"
-"Blueish"
-msgstr ""
+"Bluish"
+msgstr "Қора"
 
 #: stylenames.cc:54
 msgid ""
@@ -3604,7 +3776,7 @@ msgstr ""
 
 #: xml_doc.cc:23
 msgid "Thank you,"
-msgstr "Катта рахмат,"
+msgstr "Катта раҳмат,"
 
 #: xml_doc.cc:24
 msgid "Thanks,"
@@ -3658,45 +3830,12 @@ msgstr "ШАХСИЙ"
 msgid "FACSIMILE"
 msgstr ""
 
-#: mailmerge/serialletter_classicplugin.cc:90
-#: mailmerge/serialletter_classicplugin.cc:150
-msgid "No Value"
-msgstr ""
-
-#: mailmerge/serialletter_classicplugin.cc:244
-msgid "Name"
-msgstr "Номи"
-
-#: mailmerge/serialletter_classicplugin.cc:245
-#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:24
-msgid "Value"
-msgstr "Қиймати"
-
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:43
 #: mailmerge/serialletter_classicplugin.cc:332
 #: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:10
 #: mailmerge/sql/serialletter_qtsql_power_plugin.cc:179
 #: mailmerge/sql/serialletter_qtsqlplugin.cc:166
 msgid "Mail Merge - Editor"
-msgstr ""
-
-#: mailmerge/serialletter_classicplugin.cc:376
-msgid "Add record"
-msgstr "Ёзувни қўшиш"
-
-#: mailmerge/serialletter_classicplugin.cc:383
-msgid "Add entry"
-msgstr ""
-
-#: mailmerge/serialletter_classicplugin.cc:390
-msgid "Remove record"
-msgstr "Ёзувни олиб ташлаш"
-
-#: mailmerge/serialletter_classicplugin.cc:397
-msgid "Remove entry"
-msgstr ""
-
-#: mailmerge/serialletter_classicplugin.cc:468
-msgid "Enter entry name:"
 msgstr ""
 
 #: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:13
@@ -3731,8 +3870,23 @@ msgstr ""
 msgid "Condition"
 msgstr "Шарт"
 
+#: mailmerge/serialletter_classicplugin.cc:245
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:24
+msgid "Value"
+msgstr "Қиймати"
+
 #: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:54
 msgid "NOT"
+msgstr ""
+
+#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:81
+#: mailmerge/sql/serialletter_qtsqlplugin.cc:61
+msgid ">>>Illegal position within datasource<<<"
+msgstr ""
+
+#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:82
+#: mailmerge/sql/serialletter_qtsqlplugin.cc:62
+msgid ">>>Field %1 is unknown in the current database query<<<"
 msgstr ""
 
 #: mailmerge/sql/qtsqlopeneditor.cc:41
@@ -3749,20 +3903,87 @@ msgstr "Мосламаларни сақлаш"
 
 #: mailmerge/sql/serialletter_qtsql_base.cc:94
 msgid "Please enter the password for the database connection"
-msgstr "Маълумот базаси билан алоқа ўрнатиш учун махфий сўзни киритинг"
+msgstr ""
+"Маълумот базаси билан алоқа ўрнатиш учун "
+"махфий сўзни киритинг"
 
 #: mailmerge/sql/serialletter_qtsql_base.cc:103
 msgid "Unable to create database object"
 msgstr "Маълумот база объектини яратиб бўлмади"
 
-#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:81
-#: mailmerge/sql/serialletter_qtsqlplugin.cc:61
-msgid ">>>Illegal position within datasource<<<"
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:368
+msgid "New Distribution List"
 msgstr ""
 
-#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:82
-#: mailmerge/sql/serialletter_qtsqlplugin.cc:62
-msgid ">>>Field %1 is unknown in the current database query<<<"
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:369
+#, fuzzy
+msgid "Please enter name:"
+msgstr "Фреймларни қўйиш"
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:378
+msgid ""
+"<qt>Distribution list with the given name <b>%1</b> already exists. Please "
+"select a different name.</qt>"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:433
+msgid "no category"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:171
+msgid "KAddressbook entry '%1' not available."
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:353
+msgid "%1 South"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:355
+msgid "%1 North"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:360
+msgid "%1 West"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:362
+msgid "%1 East"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:364
+msgid ""
+"_: Geographic coordinates\n"
+"%1, %2"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:389
+#, c-format
+msgid "Unkown mail merge variable: %1"
+msgstr ""
+
+#: mailmerge/serialletter_classicplugin.cc:90
+#: mailmerge/serialletter_classicplugin.cc:150
+msgid "No Value"
+msgstr ""
+
+#: mailmerge/serialletter_classicplugin.cc:376
+msgid "Add record"
+msgstr "Ёзувни қўшиш"
+
+#: mailmerge/serialletter_classicplugin.cc:383
+msgid "Add entry"
+msgstr ""
+
+#: mailmerge/serialletter_classicplugin.cc:390
+msgid "Remove record"
+msgstr "Ёзувни олиб ташлаш"
+
+#: mailmerge/serialletter_classicplugin.cc:397
+msgid "Remove entry"
+msgstr ""
+
+#: mailmerge/serialletter_classicplugin.cc:468
+msgid "Enter entry name:"
 msgstr ""
 
 #: kwaboutdata.h:27
@@ -3770,7 +3991,8 @@ msgid "KOffice Word Processor"
 msgstr "KOffice матн процессори"
 
 #: kwaboutdata.h:39
-msgid "(c) 1998-2002, The KWord Team"
+#, fuzzy
+msgid "(c) 1998-2004, The KWord Team"
 msgstr "(C) 1998-2002, KWord жамоаси"
 
 #: kwaboutdata.h:50
@@ -3789,3 +4011,5 @@ msgid ""
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
+#~ msgid "Spell Checking"
+#~ msgstr "Имлони текшириш"
