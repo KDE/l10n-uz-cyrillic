@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: konsolekalendar\n"
-"POT-Creation-Date: 2003-11-11 02:00+0100\n"
+"POT-Creation-Date: 2004-03-28 10:35+0200\n"
 "PO-Revision-Date: 2004-02-10 01:11+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
@@ -30,33 +30,37 @@ msgstr "kmashrab@uni-bremen.de"
 msgid "View Events <Dry Run>:"
 msgstr ""
 
-#: konsolekalendar.cpp:161
+#: konsolekalendar.cpp:120
+msgid "View Event <Verbose>:"
+msgstr ""
+
+#: konsolekalendar.cpp:190
 msgid "Sorry, export to HTML by UID is not supported yet"
 msgstr ""
 
-#: konsolekalendar.cpp:323 konsolekalendaradd.cpp:139
+#: konsolekalendar.cpp:355 konsolekalendaradd.cpp:124
 #: konsolekalendarchange.cpp:88 konsolekalendarchange.cpp:97
 #: konsolekalendardelete.cpp:76
 msgid "  What:  "
 msgstr ""
 
-#: konsolekalendar.cpp:324 konsolekalendaradd.cpp:140
+#: konsolekalendar.cpp:356 konsolekalendaradd.cpp:125
 #: konsolekalendarchange.cpp:89 konsolekalendarchange.cpp:98
 #: konsolekalendardelete.cpp:77
 msgid "  Begin: "
 msgstr ""
 
-#: konsolekalendar.cpp:325 konsolekalendaradd.cpp:141
+#: konsolekalendar.cpp:357 konsolekalendaradd.cpp:126
 #: konsolekalendarchange.cpp:90 konsolekalendarchange.cpp:99
 #: konsolekalendardelete.cpp:78
 msgid "  End:   "
 msgstr ""
 
-#: konsolekalendar.cpp:327 konsolekalendaradd.cpp:143
+#: konsolekalendar.cpp:359 konsolekalendaradd.cpp:128
 msgid "  No Time Associated with Event"
 msgstr ""
 
-#: konsolekalendar.cpp:329 konsolekalendaradd.cpp:145
+#: konsolekalendar.cpp:361 konsolekalendaradd.cpp:130
 #: konsolekalendarchange.cpp:91 konsolekalendarchange.cpp:100
 #: konsolekalendardelete.cpp:79
 msgid "  Desc:  "
@@ -99,31 +103,31 @@ msgstr ""
 msgid "Delete Event <Dry Run>:"
 msgstr ""
 
-#: konsolekalendarexports.cpp:61
+#: konsolekalendarexports.cpp:58
 msgid "Date:"
 msgstr "Сана:"
 
-#: konsolekalendarexports.cpp:74
+#: konsolekalendarexports.cpp:71
 msgid "Summary:"
 msgstr "Ҳисобот:"
 
-#: konsolekalendarexports.cpp:76
+#: konsolekalendarexports.cpp:73
 msgid "Description:"
 msgstr "Таьрифи:"
 
-#: konsolekalendarexports.cpp:80
+#: konsolekalendarexports.cpp:77
 msgid "(no description available)"
 msgstr "(ҳеч қандай таъриф йўқ)"
 
-#: konsolekalendarexports.cpp:82
+#: konsolekalendarexports.cpp:79
 msgid "UID:"
 msgstr ""
 
-#: konsolekalendarvariables.cpp:358
+#: konsolekalendarvariables.cpp:422
 msgid "Default KOrganizer resource"
 msgstr ""
 
-#: konsolekalendarvariables.cpp:360
+#: konsolekalendarvariables.cpp:424
 msgid "Active Calendar"
 msgstr ""
 
@@ -179,6 +183,10 @@ msgstr ""
 msgid " Operation modifiers:"
 msgstr ""
 
+#: main.cpp:82
+msgid "  View next activity in calendar"
+msgstr ""
+
 #: main.cpp:83
 msgid "  View all calendar entries"
 msgstr ""
@@ -188,54 +196,58 @@ msgid "  Event Unique-string identifier"
 msgstr ""
 
 #: main.cpp:85
-msgid "  Start from this day [YYYY-MM-DD]"
+msgid "  From this day show next # days' activities"
 msgstr ""
 
 #: main.cpp:86
-msgid "  Start from this time [HH:MM:SS]"
+msgid "  Start from this day [YYYY-MM-DD]"
 msgstr ""
 
 #: main.cpp:87
-msgid "  End at this day [YYYY-MM-DD]"
+msgid "  Start from this time [HH:MM:SS]"
 msgstr ""
 
 #: main.cpp:88
-msgid "  End at this time [HH:MM:SS]"
+msgid "  End at this day [YYYY-MM-DD]"
 msgstr ""
 
 #: main.cpp:89
-msgid " Start from this time [secs since epoch]"
+msgid "  End at this time [HH:MM:SS]"
 msgstr ""
 
 #: main.cpp:90
-msgid "  End at this time [secs since epoch]"
+msgid " Start from this time [secs since epoch]"
 msgstr ""
 
 #: main.cpp:91
-msgid "  Add summary to event (for add/change modes)"
+msgid "  End at this time [secs since epoch]"
 msgstr ""
 
 #: main.cpp:92
+msgid "  Add summary to event (for add/change modes)"
+msgstr ""
+
+#: main.cpp:93
 msgid "Add description to event (for add/change modes)"
 msgstr ""
 
-#: main.cpp:94
+#: main.cpp:95
 msgid " Export options:"
 msgstr ""
 
-#: main.cpp:95
+#: main.cpp:96
 msgid "Export file type (Default: text)"
 msgstr ""
 
-#: main.cpp:96
+#: main.cpp:97
 msgid "Export to file (Default: stdout)"
 msgstr ""
 
-#: main.cpp:97
+#: main.cpp:98
 msgid "  Print list of export types supported and exit"
 msgstr ""
 
-#: main.cpp:99
+#: main.cpp:100
 msgid ""
 "Examples:\n"
 "  konsolekalendar --view\n"
@@ -245,15 +257,15 @@ msgid ""
 "  konsolekalendar --delete --uid KOrganizer-1740380426.803"
 msgstr ""
 
-#: main.cpp:121
+#: main.cpp:123
 msgid "Primary Author"
 msgstr "Биринчи муаллиф"
 
-#: main.cpp:127
+#: main.cpp:129
 msgid "Author"
 msgstr "Муаллиф"
 
-#: main.cpp:191
+#: main.cpp:193
 msgid ""
 "\n"
 "KonsoleKalendar supports these export formats:\n"
@@ -262,79 +274,90 @@ msgid ""
 "  CSV (Comma-Separated Values)"
 msgstr ""
 
-#: main.cpp:212
+#: main.cpp:214
 msgid "Invalid Export Type Specified: "
 msgstr ""
 
-#: main.cpp:344
+#: main.cpp:347
 msgid "Invalid Start Date Specified: "
 msgstr ""
 
-#: main.cpp:362
+#: main.cpp:366
 msgid "Invalid Start Time Specified: "
 msgstr ""
 
-#: main.cpp:380
+#: main.cpp:385
 msgid "Invalid End Date Specified: "
 msgstr ""
 
-#: main.cpp:397
+#: main.cpp:407
+msgid "Invalid Date Count Specified: "
+msgstr ""
+
+#: main.cpp:429
 msgid "Invalid End Time Specified: "
 msgstr ""
 
-#: main.cpp:465 main.cpp:469
+#: main.cpp:496 main.cpp:502 main.cpp:657
 msgid "Calendar "
 msgstr ""
 
-#: main.cpp:465
+#: main.cpp:498
 msgid " already exists"
 msgstr ""
 
-#: main.cpp:469
+#: main.cpp:504
 msgid " successfully created."
 msgstr ""
 
-#: main.cpp:472
+#: main.cpp:507
 msgid "Unable to create calendar: "
 msgstr ""
 
-#: main.cpp:478
+#: main.cpp:514
 msgid "Calendar file not found"
 msgstr ""
 
-#: main.cpp:479
+#: main.cpp:516
 msgid "Try --create to create new calendar file"
 msgstr ""
 
-#: main.cpp:577
+#: main.cpp:615
 msgid "Only 1 operation mode (view, add, change, delete,create) permitted at a time"
 msgstr ""
 
-#: main.cpp:583
+#: main.cpp:621
 msgid "Ending Date/Time occurs before the Starting Date/Time"
 msgstr ""
 
-#: main.cpp:634
+#: main.cpp:659
+msgid " successfully imported."
+msgstr ""
+
+#: main.cpp:662
+msgid "Unable to import calendar: "
+msgstr ""
+
+#: main.cpp:673
 msgid "Attempting to insert an event that already exists"
 msgstr ""
 
-#: main.cpp:642
+#: main.cpp:681
 msgid "Must specify a UID with --uid to change event"
 msgstr ""
 
-#: main.cpp:646
+#: main.cpp:685
 msgid "Attempting to change a non-existent event"
 msgstr ""
 
-#: main.cpp:655
+#: main.cpp:694
 msgid "Must specify a UID with --uid to delete event"
 msgstr ""
 
-#: main.cpp:659
+#: main.cpp:698
 msgid "Attempting to delete a non-existent event"
 msgstr ""
 
-#: main.cpp:668
+#: main.cpp:707
 msgid "Cannot open specified export file: "
 msgstr ""
-

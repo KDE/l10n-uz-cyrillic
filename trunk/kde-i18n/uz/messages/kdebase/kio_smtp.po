@@ -1,18 +1,19 @@
-# translation of kio_smtp.po to 
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003.
+# translation of kio_smtp.po to Uzbek
+# translation of kio_smtp.po to
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_smtp\n"
-"POT-Creation-Date: 2003-07-31 01:32+0200\n"
-"PO-Revision-Date: 2003-12-06 19:46+0000\n"
+"POT-Creation-Date: 2004-02-12 22:29+0100\n"
+"PO-Revision-Date: 2004-02-25 20:25-0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"X-Generator: KBabel 1.3\n"
 
 #: command.cc:124
 msgid ""
@@ -26,6 +27,9 @@ msgid ""
 "Unexpected server response to %1 command.\n"
 "%2"
 msgstr ""
+"%1 буйруғига сервердан кутилмаган жавоб "
+"олинди.\n"
+"%2"
 
 #: command.cc:158
 msgid ""
@@ -45,7 +49,7 @@ msgstr "Алоқа ўрнатиш муваффақиятсиз тугади."
 
 #: command.cc:197
 msgid "No compatible authentication methods found."
-msgstr ""
+msgstr "Мос келадиган тасдиқлаш усули топилмади."
 
 #: command.cc:202
 msgid ""
@@ -59,6 +63,8 @@ msgid ""
 "Your SMTP server doesn't support %1.\n"
 "Choose a different authentication method."
 msgstr ""
+"SMTP сервери %1'ни қўлламайди.\n"
+"Бошқа тасдиқлаш усулини танланг."
 
 #: command.cc:262
 msgid ""
@@ -66,6 +72,9 @@ msgid ""
 "Choose a different authentication method.\n"
 "%2"
 msgstr ""
+"SMTP сервери %1'ни қўлламайди.\n"
+"Бошқа тасдиқлаш усулини танланг.\n"
+"%2"
 
 #: command.cc:267
 #, c-format
@@ -73,6 +82,8 @@ msgid ""
 "Your SMTP server doesn't support authentication.\n"
 "%2"
 msgstr ""
+"SMTP сервери тасдиқлашни қўлламайди.\n"
+"%2"
 
 #: command.cc:271
 #, c-format
@@ -81,10 +92,13 @@ msgid ""
 "Most likely the password is wrong.\n"
 "%1"
 msgstr ""
+"Тасдиқлаш муваффақиятсиз тугади.\n"
+"Эҳтимол, махфий сўз нотўғри.\n"
+"%1"
 
 #: command.cc:409
 msgid "Could not read data from application."
-msgstr ""
+msgstr "Дастурдан маълумотни ўқиб бўлмади."
 
 #: command.cc:426
 #, c-format
@@ -99,49 +113,56 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Сервердан олинган жавоб:\n"
+"%1"
 
 #: response.cc:108
 msgid "The server responded: \"%1\""
-msgstr ""
+msgstr "Сервердан олинган жавоб: \"%1\""
 
 #: response.cc:111
 msgid "This is a temporary failure. You may try again later."
-msgstr ""
+msgstr "Вақтинчалик хато. Кейинроқ уриниб кўринг."
 
-#: smtp.cc:151
+#: smtp.cc:158
 msgid "The application sent an invalid request."
 msgstr ""
 
-#: smtp.cc:213
+#: smtp.cc:220
 msgid "The sender address is missing."
-msgstr ""
+msgstr "Жўнатувчининг манзили етишмайди."
 
-#: smtp.cc:221
+#: smtp.cc:228
 msgid "SMTPProtocol::smtp_open failed (%1)"
-msgstr ""
+msgstr "SMTPProtocol::smtp_open муваффақиятсиз тугади (%1)"
 
-#: smtp.cc:229
+#: smtp.cc:236
 msgid ""
 "Your server does not support sending of 8-bit messages.\n"
 "Please use base64 or quoted-printable encoding."
 msgstr ""
+"Сервер 8-битли хабарларни қўлламайди.\n"
+"Илтимос base64 ёки quoted-printable кодлаш усулини "
+"танланг."
 
-#: smtp.cc:308
+#: smtp.cc:315
 msgid "Invalid SMTP response (%1) received."
-msgstr ""
+msgstr "Хато SMTP жавоби (%1) олинди."
 
-#: smtp.cc:490
+#: smtp.cc:497
 #, c-format
 msgid ""
 "The server did not accept the connection.\n"
 "%1"
 msgstr ""
+"Сервер алоқани қабул қилмади.\n"
+"%1"
 
-#: smtp.cc:540
+#: smtp.cc:554
 msgid "Username and password for your SMTP account:"
-msgstr ""
+msgstr "SMTP ҳисоби учун фойдаланувчи ва махфий сўз:"
 
-#: smtp.cc:542
+#: smtp.cc:556
 msgid "When prompted, you ran away."
 msgstr ""
 
@@ -151,12 +172,18 @@ msgid ""
 "The server did not accept a blank sender address.\n"
 "%1"
 msgstr ""
+"Сервер жўнатувчининг бўш манзилини қабул "
+"қилмади.\n"
+"%1"
 
 #: transactionstate.cc:56
 msgid ""
 "The server did not accept the sender address \"%1\".\n"
 "%2"
 msgstr ""
+"Сервер жўнатувчининг \"%1\" манзилини қабул "
+"қилмади.\n"
+"%2"
 
 #: transactionstate.cc:97
 #, c-format
@@ -165,6 +192,10 @@ msgid ""
 "server:\n"
 "%1"
 msgstr ""
+"Хабарни жўнатиш муваффақиятсиз тугади, "
+"чунки сервер қуйидаги қабул қилувчиларни "
+"рад этди:\n"
+"%1"
 
 #: transactionstate.cc:107
 #, c-format

@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
-"POT-Creation-Date: 2004-02-11 01:28+0100\n"
-"PO-Revision-Date: 2004-02-21 10:21-0500\n"
+"POT-Creation-Date: 2004-04-18 08:58+0200\n"
+"PO-Revision-Date: 2004-04-05 23:58+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +32,7 @@ msgstr "<андоза>"
 
 #: kdm-appear.cpp:113
 msgid "&Greeting:"
-msgstr ""
+msgstr "&Саломлашиш:"
 
 #: kdm-appear.cpp:118
 msgid ""
@@ -53,7 +53,7 @@ msgstr ""
 
 #: kdm-appear.cpp:138
 msgid "Logo area:"
-msgstr ""
+msgstr "Белги майдони:"
 
 #: kdm-appear.cpp:143 kdm-conv.cpp:78 kdm-users.cpp:103
 msgid "&None"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: kdm-appear.cpp:252
 msgid "&Color scheme:"
-msgstr ""
+msgstr "&Ранг қолипи:"
 
 #: kdm-appear.cpp:256
 msgid "You can choose a basic Color Scheme here that will be used by KDM only."
@@ -165,7 +165,7 @@ msgstr ""
 
 #: kdm-appear.cpp:330
 msgid "without name"
-msgstr ""
+msgstr "номсиз"
 
 #: kdm-appear.cpp:476
 msgid ""
@@ -173,6 +173,9 @@ msgid ""
 "%1\n"
 "It will not be saved."
 msgstr ""
+"Тасвирни юклашда хато рўй берди:\n"
+"%1\n"
+"У сақланмайди."
 
 #: kdm-appear.cpp:520 kdm-appear.cpp:570
 #, c-format
@@ -200,7 +203,7 @@ msgstr ""
 
 #: kdm-font.cpp:54
 msgid "&Failures:"
-msgstr ""
+msgstr "&Хатолар:"
 
 #: kdm-font.cpp:57
 msgid ""
@@ -210,7 +213,7 @@ msgstr ""
 
 #: kdm-font.cpp:62
 msgid "Gree&ting:"
-msgstr ""
+msgstr "&Саломлашиш:"
 
 #: kdm-font.cpp:65
 msgid "This changes the font which is used for the login manager's greeting."
@@ -218,7 +221,7 @@ msgstr ""
 
 #: kdm-font.cpp:70
 msgid "Use anti-aliasing for fonts"
-msgstr ""
+msgstr "Текис шрифтлардан фойдаланиш"
 
 #: kdm-font.cpp:71
 msgid ""
@@ -228,7 +231,7 @@ msgstr ""
 
 #: kdm-sess.cpp:48
 msgid "Allow Shutdown"
-msgstr "Компютерни ўчиришга рухсат бериш"
+msgstr "Компьютерни ўчиришга рухсат бериш"
 
 #: kdm-sess.cpp:51
 msgid "&Local:"
@@ -261,6 +264,18 @@ msgid ""
 "entered the root password</li> "
 "<li><em>Nobody:</em> nobody can shutdown the computer using KDM</li></ul>"
 msgstr ""
+"Бу ерда, компьютерни KDM ёрдамида ким "
+"ўчириши мумкинлигини кўрсатишингиз "
+"мумкин. Локал ва масофадаги дисплейлар "
+"учун турли қийматларни танлашингиз "
+"мумкин. Улар:"
+"<ul> "
+"<li><em>Ҳамма:</em> KDM ёрдамида компьютерни ҳар "
+"ким ўчириши мумкин</li> "
+"<li><em>Фақат root:</em> KDM ёрдамида компьютерни "
+"фақат root ўчириши мумкин</li> "
+"<li><em>Ҳеч ким:</em> KDM ёрдамида компьютерни "
+"ҳеч ким ўчириши мумкин эмас</li></ul>"
 
 #: kdm-sess.cpp:71
 msgid "LILO"
@@ -268,7 +283,7 @@ msgstr "LILO"
 
 #: kdm-sess.cpp:73
 msgid "Show boot opt&ions"
-msgstr ""
+msgstr "Юклаш &параметрларини кўрсатиш"
 
 #: kdm-sess.cpp:76
 msgid "Enable LILO boot options in the \"Shutdown...\" dialog."
@@ -293,11 +308,11 @@ msgstr ""
 
 #: kdm-users.cpp:85
 msgid "Below:"
-msgstr ""
+msgstr "Паст:"
 
 #: kdm-users.cpp:92
 msgid "Above:"
-msgstr ""
+msgstr "Юқори:"
 
 #: kdm-users.cpp:100
 msgid "Show Users"
@@ -321,12 +336,15 @@ msgid ""
 "If this option is selected, KDM will only show the users checked in the "
 "\"Select users\" list."
 msgstr ""
+"Агар танланса, KDM фақат "
+"\"Фойдаланувчиларни танланг\" рўйхатида "
+"танланган фойдаланувчиларни кўрсатади."
 
 #: kdm-users.cpp:110
 msgid ""
 "_: not hidden users\n"
 "Not hidden"
-msgstr ""
+msgstr "Яширилмаган"
 
 #: kdm-users.cpp:111
 msgid ""
@@ -345,8 +363,7 @@ msgid ""
 msgstr ""
 
 #: kdm-users.cpp:119
-#, fuzzy
-msgid "S&elect users and groups:"
+msgid "S&elect users:"
 msgstr "Фой&даланувчиларни танланг:"
 
 #: kdm-users.cpp:121
@@ -354,19 +371,17 @@ msgid "Selected Users"
 msgstr "Белгиланган фойдаланувчилар"
 
 #: kdm-users.cpp:123
-msgid ""
-"KDM will show all checked users. Entries denoted with '@' are user groups. "
-"Checking a group is like checking all users in that group."
+msgid "KDM will show all checked users."
 msgstr ""
+"KDM ҳамма танланган фойдаланувчиларни "
+"кўрсатади."
 
 #: kdm-users.cpp:130
 msgid "Hidden Users"
 msgstr "Яширилган фойдаланувчилар"
 
 #: kdm-users.cpp:132
-msgid ""
-"KDM will show all non-checked non-system users. Entries denoted with '@' are "
-"user groups. Checking a group is like checking all users in that group."
+msgid "KDM will show all non-checked non-system users."
 msgstr ""
 
 #: kdm-users.cpp:139
@@ -388,11 +403,11 @@ msgstr "Админ"
 
 #: kdm-users.cpp:147
 msgid "Admin, user"
-msgstr ""
+msgstr "Админ, фойдаланувчи"
 
 #: kdm-users.cpp:148
 msgid "User, admin"
-msgstr ""
+msgstr "Фойдаланувчи, админ"
 
 #: kdm-users.cpp:149
 msgid "User"
@@ -400,7 +415,7 @@ msgstr "Фойдаланувчи"
 
 #: kdm-users.cpp:151
 msgid "User Images"
-msgstr ""
+msgstr "Фойдаланувчи тасвирлари"
 
 #: kdm-users.cpp:154
 msgid "The user the image below belongs to."
@@ -428,10 +443,15 @@ msgstr ""
 #: kdm-users.cpp:169
 msgid "Click this button to make KDM use the default image for the selected user."
 msgstr ""
+"Танланган фойдаланувчи учун андоза "
+"тасвирдан фойдаланиш учун, шу тугмани "
+"босинг."
 
 #: kdm-users.cpp:264
 msgid "Save image as default image?"
 msgstr ""
+"Тасвирни андоза тасвир сифатида сақлашни "
+"истайсизми?"
 
 #: kdm-users.cpp:272
 #, c-format
@@ -439,6 +459,8 @@ msgid ""
 "There was an error loading the image\n"
 "%1"
 msgstr ""
+"Тасвирни юклашда хато рўй берди:\n"
+"%1"
 
 #: kdm-users.cpp:281
 #, c-format
@@ -446,6 +468,8 @@ msgid ""
 "There was an error saving the image:\n"
 "%1"
 msgstr ""
+"Тасвирни сақлашда хато рўй берди:\n"
+"%1"
 
 #: kdm-users.cpp:294
 msgid "Choose Image"
@@ -457,6 +481,9 @@ msgid ""
 "<center><font color=red><big><b>Attention!"
 "<br>Read help!</b></big></font></center></qt>"
 msgstr ""
+"<qt>"
+"<center><font color=red><big><b>Диққат!"
+"<br>Қўлланмани ўқинг!</b></big></font></center></qt>"
 
 #: kdm-conv.cpp:50
 msgid "Automatic Login"
@@ -479,6 +506,8 @@ msgstr "&Фойдаланувчи:"
 #: kdm-conv.cpp:64
 msgid "Select the user to be logged in automatically."
 msgstr ""
+"Автоматик равишда кириши мумкин бўлган "
+"фойдаланувчини танланг."
 
 #: kdm-conv.cpp:73
 msgid "Preselect User"
@@ -527,11 +556,11 @@ msgstr ""
 
 #: kdm-conv.cpp:105
 msgid "Password-Less Login"
-msgstr ""
+msgstr "Махфий сўзсиз кириш"
 
 #: kdm-conv.cpp:107
 msgid "Enable password-&less logins"
-msgstr ""
+msgstr "Махфий сўзсиз &киришни ёқиш"
 
 #: kdm-conv.cpp:108
 msgid ""
@@ -539,23 +568,27 @@ msgid ""
 "allowed to log in without entering their password. This applies only to "
 "KDM's graphical login. Think twice before enabling this!"
 msgstr ""
+"Агар танланса, қуйидаги рўйхатдан "
+"танланган фойдаланувчилар махфий сўзни "
+"киритмасдан кириши мумкин. Бу фақат KDM "
+"орқали киришга таълуқли. Буни ёқишдан "
+"олдин икки марта ўйлаб кўринг!"
 
 #: kdm-conv.cpp:116
 msgid "No password re&quired for:"
-msgstr ""
+msgstr "Қуйда&гилар махфий сўзсиз кириши мумкин:"
 
 #: kdm-conv.cpp:122
-msgid ""
-"Check all users you want to allow a password-less login for. Entries denoted "
-"with '@' are user groups. Checking a group is like checking all users in "
-"that group."
+msgid "Check all users you want to allow a password-less login for."
 msgstr ""
+"Махфий сўзсиз кириши мумкин бўлган "
+"фойдаланувчиларни танланг."
 
-#: kdm-conv.cpp:129
+#: kdm-conv.cpp:128
 msgid "Automatically log in again after &X server crash"
 msgstr ""
 
-#: kdm-conv.cpp:130
+#: kdm-conv.cpp:129
 msgid ""
 "When this option is on, a user will be logged in again automatically, when "
 "his session is interrupted by an X server crash. Note, that this can open a "
@@ -563,38 +596,42 @@ msgid ""
 "this will make circumventing a password-secured screen lock possible."
 msgstr ""
 
-#: main.cpp:66
+#: main.cpp:65
 msgid ""
 "%1 does not appear to be an image file.\n"
 "Please use files with these extensions:\n"
 "%2"
 msgstr ""
+"%1 расм файлига ўхшамайди.\n"
+"Илтимос қуйидаги кенгайтмали файллардан "
+"фойдаланинг:\n"
+"%2"
 
-#: main.cpp:138
+#: main.cpp:100
 msgid "A&ppearance"
 msgstr "&Кўриниши"
 
-#: main.cpp:142
+#: main.cpp:104
 msgid "&Font"
 msgstr "&Шрифт"
 
-#: main.cpp:146
+#: main.cpp:108
 msgid "&Background"
 msgstr "&Орқа фон"
 
-#: main.cpp:150
+#: main.cpp:112
 msgid "&Shutdown"
 msgstr "Ў&чириш"
 
-#: main.cpp:154
+#: main.cpp:116
 msgid "&Users"
 msgstr "&Фойдаланувчилар"
 
-#: main.cpp:162
+#: main.cpp:124
 msgid "Con&venience"
-msgstr ""
+msgstr "&Қулайлик"
 
-#: main.cpp:187
+#: main.cpp:149
 msgid ""
 "<h1>Login Manager</h1> In this module you can configure the various aspects "
 "of the KDE Login Manager. This includes the look and feel as well as the "
@@ -625,23 +662,25 @@ msgid ""
 "them very carefully."
 msgstr ""
 
-#: main.cpp:215
+#: main.cpp:177
 msgid "kcmkdm"
 msgstr "kcmkdm"
 
-#: main.cpp:215
+#: main.cpp:177
 msgid "KDE Login Manager Config Module"
 msgstr ""
+"Системага кириш бошқарувчиси учун "
+"бошқарув модули"
 
-#: main.cpp:217
+#: main.cpp:179
 msgid "(c) 1996 - 2002 The KDM Authors"
-msgstr "(c) 1996 - 2002 KDM муаллифлари"
+msgstr "(C) 1996-2002 KDM муаллифлари"
 
-#: main.cpp:219
+#: main.cpp:181
 msgid "Original author"
 msgstr "Биринчи муаллиф"
 
-#: main.cpp:221
+#: main.cpp:183
 msgid "Current maintainer"
 msgstr "Жорий таъминловчи"
 
@@ -656,4 +695,3 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
-

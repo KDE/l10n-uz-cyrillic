@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker\n"
-"POT-Creation-Date: 2004-02-20 01:29+0100\n"
-"PO-Revision-Date: 2004-02-21 17:16-0500\n"
+"POT-Creation-Date: 2004-04-13 09:54+0200\n"
+"PO-Revision-Date: 2004-03-08 22:12+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -33,15 +33,16 @@ msgstr "Пастга варақлаш"
 #: buttons/browserbutton.cpp:71
 #, c-format
 msgid "Browse: %1"
-msgstr ""
+msgstr "Кўриш: %1"
 
 #: buttons/desktopbutton.cpp:43
 msgid "Show desktop"
 msgstr "Иш столини кўрсатиш"
 
-#: buttons/desktopbutton.cpp:44
-msgid "Show Desktop"
-msgstr "Иш столини кўрсатиш"
+#: buttons/desktopbutton.cpp:44 ui/addspecialbutton_mnu.cpp:54
+#: ui/removespecialbutton_mnu.cpp:77
+msgid "Desktop Access"
+msgstr ""
 
 #: buttons/kbutton.cpp:50
 msgid "Click here to browse and start applications"
@@ -49,13 +50,14 @@ msgstr ""
 "Дастурларни танлаш ва ишга тушириш учун "
 "шу ерни босинг"
 
-#: buttons/kbutton.cpp:51
-msgid "Start Applications"
-msgstr "Дастурларни ишга тушириш"
+#: buttons/kbutton.cpp:51 ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:73
+#: ui/removespecialbutton_mnu.cpp:62
+msgid "K Menu"
+msgstr "К-меню"
 
 #: buttons/nonkdeappbutton.cpp:125 buttons/nonkdeappbutton.cpp:145
 msgid "Cannot execute non-KDE application!"
-msgstr ""
+msgstr "Но-KDE дастурини ишга тушириб бўлмади!"
 
 #: buttons/nonkdeappbutton.cpp:126 buttons/nonkdeappbutton.cpp:146
 msgid "Kicker Error"
@@ -65,7 +67,7 @@ msgstr "Kicker хатоси"
 msgid "Applications"
 msgstr "Дастурлар"
 
-#: buttons/urlbutton.cpp:194
+#: buttons/urlbutton.cpp:217
 msgid "The file %1 doesn't exist"
 msgstr "Файл %1 мавжуд эмас"
 
@@ -73,7 +75,7 @@ msgstr "Файл %1 мавжуд эмас"
 msgid "Window list"
 msgstr "Ойналар рўйхати"
 
-#: buttons/windowlistbutton.cpp:41
+#: buttons/windowlistbutton.cpp:41 ui/addspecialbutton_mnu.cpp:49
 msgid "Window List"
 msgstr "Ойналар рўйхати"
 
@@ -103,7 +105,7 @@ msgstr "Панелни кўрсатиш"
 msgid "Hide panel"
 msgstr "Панелни бекитиш"
 
-#: core/kicker.cpp:237 core/kickerbindings.cpp:16 ui/addcontainer_mnu.cpp:47
+#: core/kicker.cpp:265 core/kickerbindings.cpp:16 ui/addcontainer_mnu.cpp:47
 #: ui/removecontainer_mnu.cpp:48
 msgid "Panel"
 msgstr "Панел"
@@ -116,20 +118,19 @@ msgstr ""
 msgid "Toggle Showing Desktop"
 msgstr "Иш столини кўрсатиш/бекитиш"
 
-#: core/main.cpp:45
-msgid "The KDE desktop panel."
-msgstr "KDE иш столи учун панел."
-
-#: core/main.cpp:115
+#: core/main.cpp:109
 msgid "KDE Panel"
 msgstr "KDE панел"
 
-#: core/main.cpp:117
-#, fuzzy
-msgid "(c) 1999-2004, The KDE Team"
+#: core/main.cpp:111
+msgid "The KDE desktop panel."
+msgstr "KDE иш столи учун панел."
+
+#: core/main.cpp:113
+msgid "(c) 1999-2002, The KDE Team"
 msgstr "(с) 1999-2003, KDE жамоаси"
 
-#: core/main.cpp:126
+#: core/main.cpp:122
 msgid "Kiosk mode"
 msgstr ""
 
@@ -145,27 +146,14 @@ msgstr "Дастур тугмаси"
 msgid "Special Button"
 msgstr "Махсус тугма"
 
-#: ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:73
-#: ui/removespecialbutton_mnu.cpp:62
-msgid "K Menu"
-msgstr "К-меню"
-
-#: ui/addspecialbutton_mnu.cpp:49 ui/removespecialbutton_mnu.cpp:67
-msgid "Windowlist"
-msgstr "Ойналар рўйхати"
-
-#: ui/addspecialbutton_mnu.cpp:54 ui/removespecialbutton_mnu.cpp:77
-msgid "Desktop Access"
-msgstr ""
-
-#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:235
+#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:238
 #: ui/removespecialbutton_mnu.cpp:82
 msgid "Quick Browser"
 msgstr "Тез кўриш"
 
 #: ui/addspecialbutton_mnu.cpp:58 ui/removespecialbutton_mnu.cpp:87
 msgid "Non-KDE Application"
-msgstr "KDE дастури эмас"
+msgstr "Но-KDE дастури"
 
 #: ui/appletop_mnu.cpp:60
 msgid "&Move %1 Menu"
@@ -248,7 +236,7 @@ msgstr "Жилдни танлаш"
 
 #: ui/browser_dlg.cpp:100
 msgid "'%1' is not a valid folder."
-msgstr ""
+msgstr "\"%1\" ҳақиқий жилд эмас."
 
 #: ui/browser_mnu.cpp:130 ui/browser_mnu.cpp:139
 msgid "Failed to Read Folder"
@@ -260,13 +248,13 @@ msgstr ""
 
 #: ui/browser_mnu.cpp:155
 msgid "Open in File Manager"
-msgstr ""
+msgstr "Файл бошқарувчида очиш"
 
 #: ui/browser_mnu.cpp:157
 msgid "Open in Terminal"
 msgstr "Терминалда очиш"
 
-#: ui/browser_mnu.cpp:295
+#: ui/browser_mnu.cpp:299
 msgid "More..."
 msgstr "Кўпроқ..."
 
@@ -300,15 +288,15 @@ msgstr ""
 
 #: ui/exe_dlg.cpp:49
 msgid "Non-KDE Application Configuration"
-msgstr ""
+msgstr "Но-KDE дастурини мослаш"
 
 #: ui/exe_dlg.cpp:52
 msgid "Executable: "
-msgstr ""
+msgstr "Бажариб бўладиган файл:"
 
 #: ui/exe_dlg.cpp:60
 msgid "Optional command line arguments:"
-msgstr ""
+msgstr "Агар бўлса, кўшимча параметрлар:"
 
 #: ui/exe_dlg.cpp:63
 msgid "Run in terminal"
@@ -318,11 +306,11 @@ msgstr "Терминалда бажариш"
 msgid "Select &File..."
 msgstr "&Файлни танлаш"
 
-#: ui/exe_dlg.cpp:153 ui/exe_dlg.cpp:165
+#: ui/exe_dlg.cpp:157 ui/exe_dlg.cpp:169
 msgid "Select Executable"
-msgstr ""
+msgstr "Бажариб бўладиган файлни танлаш"
 
-#: ui/exe_dlg.cpp:160
+#: ui/exe_dlg.cpp:164
 msgid ""
 "The selected file is not executable.\n"
 "Do you want to select another file?"
@@ -330,35 +318,35 @@ msgstr ""
 "Танланган файлни бажариб бўлмайди.\n"
 "Бошқа файлни танлашни истайсизми?"
 
-#: ui/k_mnu.cpp:204
+#: ui/k_mnu.cpp:207
 msgid "All Applications"
 msgstr "Ҳамма дастурлар"
 
-#: ui/k_mnu.cpp:206
+#: ui/k_mnu.cpp:209
 msgid "Actions"
 msgstr "Амаллар"
 
-#: ui/k_mnu.cpp:282
+#: ui/k_mnu.cpp:285
 msgid "Run Command..."
 msgstr "Буйруқни бажариш"
 
-#: ui/k_mnu.cpp:299
+#: ui/k_mnu.cpp:302
 msgid "Start New Session"
 msgstr "Янги сеансни бошлаш"
 
-#: ui/k_mnu.cpp:309
+#: ui/k_mnu.cpp:312
 msgid "Save Session"
 msgstr "Сеансни сақлаш"
 
-#: ui/k_mnu.cpp:312
+#: ui/k_mnu.cpp:315
 msgid "Lock Screen"
 msgstr "Экранни қулфлаш"
 
-#: ui/k_mnu.cpp:315
+#: ui/k_mnu.cpp:318
 msgid "Logout..."
 msgstr "Чиқиш"
 
-#: ui/k_mnu.cpp:364
+#: ui/k_mnu.cpp:365
 msgid ""
 "<p>You have chosen to open another desktop session."
 "<br>The current session will be hidden and a new login screen will be "
@@ -371,7 +359,7 @@ msgstr ""
 
 #: ui/panelop_mnu.cpp:111
 msgid "Tiny"
-msgstr "Жудда кичкина"
+msgstr "Жуда кичкина"
 
 #: ui/panelop_mnu.cpp:112
 msgid "Small"
@@ -451,11 +439,20 @@ msgstr "%1 (Пастда)"
 msgid "%1 (Left)"
 msgstr "%1 (Чапда)"
 
-#: ui/service_mnu.cpp:249
-msgid "No Entries"
-msgstr ""
+#: ui/removespecialbutton_mnu.cpp:67
+msgid "Windowlist"
+msgstr "Ойналар рўйхати"
 
-#: ui/service_mnu.cpp:256
+#: ui/service_mnu.cpp:252
+msgid "No Entries"
+msgstr "Ҳеч нарса йўқ"
+
+#: ui/service_mnu.cpp:259
 msgid "Add This Menu"
 msgstr "Бу менюни қўшиш"
 
+#~ msgid "Show Desktop"
+#~ msgstr "Иш столини кўрсатиш"
+
+#~ msgid "Start Applications"
+#~ msgstr "Дастурларни ишга тушириш"

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 2004-02-14 01:32+0100\n"
-"PO-Revision-Date: 2004-02-21 10:25-0500\n"
+"POT-Creation-Date: 2004-04-15 09:32+0200\n"
+"PO-Revision-Date: 2004-02-22 19:31-0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -26,17 +26,17 @@ msgid ""
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: ar.cpp:111 ar.cpp:130 ar.cpp:178 ar.cpp:235 ar.cpp:269
-#: compressedfile.cpp:206 compressedfile.cpp:318 lha.cpp:162 lha.cpp:253
-#: lha.cpp:304 lha.cpp:338 rar.cpp:125 rar.cpp:217 rar.cpp:277 rar.cpp:311
-#: tar.cpp:247 tar.cpp:667 tar.cpp:759 tar.cpp:806 zip.cpp:120 zip.cpp:212
-#: zip.cpp:276 zip.cpp:311 zoo.cpp:129 zoo.cpp:213 zoo.cpp:278 zoo.cpp:312
-msgid "Could not start a subprocess."
+#: ar.cpp:111 ar.cpp:130 ar.cpp:192 ar.cpp:249 ar.cpp:283
+#: compressedfile.cpp:206 compressedfile.cpp:318 lha.cpp:162 lha.cpp:267
+#: lha.cpp:318 lha.cpp:352 rar.cpp:125 rar.cpp:231 rar.cpp:291 rar.cpp:325
+#: tar.cpp:247 tar.cpp:667 tar.cpp:759 tar.cpp:806 zip.cpp:120 zip.cpp:223
+#: zip.cpp:287 zip.cpp:322 zoo.cpp:129 zoo.cpp:227 zoo.cpp:292 zoo.cpp:326
+msgid "Couldn't start a subprocess."
 msgstr ""
 
-#: arch.cpp:165 arch.cpp:238 compressedfile.cpp:224 zip.cpp:329
+#: arch.cpp:165 arch.cpp:238 compressedfile.cpp:224 zip.cpp:340
 msgid ""
-"You probably do not have sufficient permissions.\n"
+"You probably don't have sufficient permissions.\n"
 "Please check the file owner and the integrity of the archive."
 msgstr ""
 
@@ -75,15 +75,17 @@ msgid ""
 "If this is not correct, please choose the appropriate format."
 msgstr ""
 
-#: archiveformatinfo.cpp:68
+#: archiveformatinfo.cpp:73
 msgid "Compressed File"
 msgstr "Қисилган файл"
 
-#: archiveformatinfo.cpp:106
-msgid "All Valid Archives\n"
-msgstr "Ҳамма архивлар\n"
+#: archiveformatinfo.cpp:111
+msgid ""
+"All Valid Archives\n"
+msgstr ""
+"Ҳамма архивлар\n"
 
-#: archiveformatinfo.cpp:107
+#: archiveformatinfo.cpp:112
 msgid "All Files"
 msgstr "Ҳамма файллар"
 
@@ -169,11 +171,11 @@ msgstr "Жами: 0 файл"
 msgid "0 files selected"
 msgstr "0 файл танланган"
 
-#: arkapp.cpp:142
+#: arkapp.cpp:149
 msgid "Wrong number of arguments specified"
 msgstr "Кўрсатилган аргументларнинг сони нотўғри"
 
-#: arkapp.cpp:151 arkapp.cpp:196
+#: arkapp.cpp:158 arkapp.cpp:203
 msgid "You need to specify at least one file to be added to the archive."
 msgstr ""
 "Архивга қўшиш учун камида битта файлни "
@@ -270,7 +272,7 @@ msgstr "Файлларни архивга қўшишда хато рўй бер�
 msgid "The archive %1 does not exist."
 msgstr "%1 архиви мавжуд эмас."
 
-#: arkwidget.cpp:628 arkwidgetpart.cpp:105
+#: arkwidget.cpp:628
 msgid "You do not have permission to access that archive."
 msgstr ""
 
@@ -382,7 +384,7 @@ msgstr ""
 msgid ""
 "The file you're trying to view may be an executable. Running untrusted "
 "executables may compromise your system's security.\n"
-"Are you sure you want to run that file?"
+"Are you sure you want to view that file?"
 msgstr ""
 
 #: arkwidget.cpp:1937
@@ -454,6 +456,10 @@ msgstr "%1 архивини очишда хато рўй берди"
 #: arkwidgetpart.cpp:56
 msgid "Ark Kparts"
 msgstr "Ark Kparts"
+
+#: arkwidgetpart.cpp:105
+msgid "You don't have permission to access that archive."
+msgstr ""
 
 #: arkwidgetpart.cpp:614
 msgid "bzip does not support filename extensions that use capital letters."
@@ -761,9 +767,8 @@ msgid "Create folder %1?"
 msgstr "%1 жилдини яратайми?"
 
 #: extractdlg.cpp:218
-#, fuzzy
-msgid "Missing folder."
-msgstr "Жилд қўшилмоқда..."
+msgid "Missing folder!"
+msgstr ""
 
 #: extractdlg.cpp:227
 msgid "The folder could not be created. Please check permissions."
@@ -772,9 +777,8 @@ msgstr ""
 "ҳуқуқларни текширинг."
 
 #: extractdlg.cpp:233
-#, fuzzy
 msgid ""
-"You do not have write permission to this folder. Please provide another "
+"You do not have write permission to this folder! Please provide another "
 "folder."
 msgstr ""
 "Бу жилдга ёзишга сизда рухсат йўқ. "
@@ -835,7 +839,6 @@ msgid "Folder Settings"
 msgstr "Жилднинг мосламалари"
 
 #: generalOptDlg.cpp:77
-#, fuzzy
 msgid "Replace old files only &with newer files"
 msgstr ""
 "Фақат эски файлларни янги файллар билан "
@@ -900,20 +903,20 @@ msgstr "Жорий таъминловчи"
 msgid "&Action"
 msgstr "&Амал"
 
-#: selectDlg.cpp:48
+#: selectDlg.cpp:49
 msgid "Selection"
 msgstr "Танлаш"
 
-#: selectDlg.cpp:57
+#: selectDlg.cpp:58
 msgid "Select files:"
 msgstr "Файлларни танлаш:"
 
-#: shellOutputDlg.cpp:43
+#: shellOutputDlg.cpp:44
 msgid "Shell Output"
 msgstr ""
 
 #: tar.cpp:469
-msgid "Unable to fork a decompressor"
+msgid "I can't fork a decompressor"
 msgstr ""
 
 #: tar.cpp:498
@@ -928,9 +931,8 @@ msgstr ""
 msgid "Please wait..."
 msgstr "Илтимос кутиб туринг..."
 
-#: zip.cpp:335
+#: zip.cpp:346
 msgid "Test of integrity failed"
 msgstr ""
 "Бутунлигини текшириш муваффақиятсиз "
 "тугади"
-

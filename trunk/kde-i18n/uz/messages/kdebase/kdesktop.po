@@ -1,12 +1,12 @@
 # translation of kdesktop.po to Uzbek
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003.
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kdesktop\n"
-"POT-Creation-Date: 2004-01-12 01:57+0100\n"
-"PO-Revision-Date: 2004-01-16 23:35+0100\n"
+"POT-Creation-Date: 2004-04-17 09:19+0200\n"
+"PO-Revision-Date: 2004-04-04 18:28+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -26,21 +26,25 @@ msgstr "<nobr><b>Экран %1 томонидан қулфланган</b><br>"
 msgid "&Start New Session"
 msgstr "Янги сеансни &бошлаш"
 
-#: lock/lockdlg.cc:186
+#: lock/lockdlg.cc:187
 msgid "<b>Unlocking failed</b>"
-msgstr ""
+msgstr "<b>Экранни очиш муваффақиятсиз тугади</b>"
 
-#: lock/lockdlg.cc:192
+#: lock/lockdlg.cc:193
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr "<b>Диққат: CapsLock ёқилган!</b>"
 
-#: lock/lockdlg.cc:416
+#: lock/lockdlg.cc:417
 msgid ""
 "Cannot unlock the screen, as the authentication system fails to work.\n"
 "You must kill kdesktop_lock (pid %1) manually."
 msgstr ""
+"Экранни очиб бўлмайди, чунки тасдиқлаш "
+"тизими ишламаяпти.\n"
+"kdesktop_lock (pid %1) дастурини қўлбаки тўхтатиш "
+"керак."
 
-#: lock/lockdlg.cc:489
+#: lock/lockdlg.cc:515
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
 "current one."
@@ -50,22 +54,36 @@ msgid ""
 "first session, F%2 to the second session and so on. You can switch between "
 "sessions by pressing CTRL, ALT and the appropriate F-key at the same time."
 msgstr ""
+"Сиз жорий сеансни давом этишни ўрнига "
+"янги сеансни бошлашни "
+"танладингиз."
+"<br>Давом этсангиз, жорий сеанс бекитилади "
+"ва кириш ойнаси кўрсатилади."
+"<br>Ҳар бир сеансга битта функционал тугма "
+"белгиланган. Одатда, биринчи сеансга F%1, "
+"иккинчи сеансга F%2 ва ҳоказо. Сеансни "
+"улисидан-булисига ўтиш учун бир вақтни "
+"ичида Ctrl, Alt ва керакли функционал тугмани "
+"босиш керак."
 
-#: lock/lockprocess.cc:651
-msgid "Will not lock the screen, as unlocking would be impossible:\n"
+#: lock/lockprocess.cc:658
+msgid ""
+"Will not lock the screen, as unlocking would be impossible:\n"
 msgstr ""
+"Экранни қулфлаб бўлмайди, чунки кейин уни "
+"очиб бўлмайди:\n"
 
-#: lock/lockprocess.cc:655
+#: lock/lockprocess.cc:662
 msgid "Cannot start <i>kcheckpass</i>."
-msgstr ""
+msgstr "<i>kcheckpass</i> дастурини ишга тушириб бўлмади."
 
-#: lock/lockprocess.cc:656
+#: lock/lockprocess.cc:663
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
 msgstr ""
 
-#: lock/lockprocess.cc:700
+#: lock/lockprocess.cc:707
 msgid "No appropriate greeter plugin configured."
-msgstr ""
+msgstr "Керакли гритер плагини мосланмаган."
 
 #: lock/main.cc:51
 msgid "Force screen locking"
@@ -73,31 +91,31 @@ msgstr ""
 
 #: lock/main.cc:52
 msgid "Only start screensaver"
-msgstr ""
+msgstr "Фақат экран сақловчисини ишга тушириш"
 
 #: lock/main.cc:53
 msgid "Only use the blank screensaver"
-msgstr ""
+msgstr "Фақат бўш экран сақловчисидан фойдаланиш"
 
 #: lock/main.cc:63
 msgid "KDesktop Locker"
-msgstr ""
+msgstr "KDesktop қулфлагич"
 
 #: lock/main.cc:63
 msgid "Screen Locker for KDesktop"
-msgstr ""
+msgstr "KDesktop учун экран қулфлагичи"
 
 #: desktop.cc:661
 msgid "Set as Primary Background Color"
-msgstr ""
+msgstr "Асосий орқа фон ранги деб белгилаш"
 
 #: desktop.cc:662
 msgid "Set as Secondary Background Color"
-msgstr ""
+msgstr "Иккиламчи орқа фон ранги деб белгилаш"
 
 #: desktop.cc:678
 msgid "&Save to Desktop..."
-msgstr ""
+msgstr "&Иш столига сақлаш"
 
 #: desktop.cc:680
 msgid "Set as &Wallpaper"
@@ -105,11 +123,11 @@ msgstr ""
 
 #: desktop.cc:688
 msgid "Enter a name for the image below:"
-msgstr ""
+msgstr "Расмнинг номини киринтинг:"
 
 #: desktop.cc:697
 msgid "image.png"
-msgstr ""
+msgstr "image.png"
 
 #: desktop.cc:745
 msgid ""
@@ -118,26 +136,32 @@ msgid ""
 "pressing Ctrl+Alt+Backspace. Note, however, that your current session will "
 "not be saved with a forced shutdown."
 msgstr ""
+"Тўғри чиқиб бўлмади.\n"
+"Сеанс бошқарувчиси билан алоқа ўрнатиб "
+"бўлмади. Чиқиш учун \"қўпол\" усулидан "
+"фойдаланишингиз мумкин. Бунинг учун бир "
+"вақтни ичида Ctrl, Alt ва Backspace тугмаларини "
+"босинг. Бу ҳолда, жорий сеанс сақланмайди."
 
-#: kdiconview.cc:380
+#: kdiconview.cc:390
 msgid "&Rename"
 msgstr "&Номини ўзгартириш"
 
-#: kdiconview.cc:381
+#: kdiconview.cc:391
 msgid "&Move to Trash"
 msgstr "&Чиқиндилар қутисига олиб ташлаш"
 
-#: kdiconview.cc:384
+#: kdiconview.cc:394
 msgid "&Shred"
 msgstr "Қ&ириб ташлаш"
 
 #: krootwm.cc:129
 msgid "Run Command..."
-msgstr "Буйруқни бажариш..."
+msgstr "Буйруқни бажариш"
 
 #: krootwm.cc:133
 msgid "Configure Desktop..."
-msgstr "Иш столини мослаш..."
+msgstr "Иш столини мослаш"
 
 #: krootwm.cc:135 krootwm.cc:332
 msgid "Disable Desktop Menu"
@@ -211,19 +235,19 @@ msgstr "Менюлик иш столи"
 msgid "Icons"
 msgstr "Нишончалар"
 
-#: krootwm.cc:401 krootwm.cc:458
+#: krootwm.cc:401 krootwm.cc:455
 msgid "Windows"
 msgstr "Ойналар"
 
-#: krootwm.cc:451
+#: krootwm.cc:448
 msgid "New"
 msgstr "Янги"
 
-#: kdesktopbindings.cpp:14 krootwm.cc:457 krootwm.cc:628
+#: kdesktopbindings.cpp:14 krootwm.cc:454 krootwm.cc:632
 msgid "Desktop"
 msgstr "Иш столи"
 
-#: krootwm.cc:693
+#: krootwm.cc:696
 msgid ""
 "<p>You have chosen to open another desktop session."
 "<br>The current session will be hidden and a new login screen will be "
@@ -233,24 +257,38 @@ msgid ""
 "sessions by pressing CTRL, ALT and the appropriate F-key at the same "
 "time.</p>"
 msgstr ""
+"<p>Сиз янги сеансни бошлашни "
+"танладингиз."
+"<br>Давом этсангиз, жорий сеанс бекитилади "
+"ва кириш ойнаси кўрсатилади."
+"<br>Ҳар бир сеансга битта функционал тугма "
+"белгиланган. Одатда, биринчи сеансга F%1, "
+"иккинчи сеансга F%2 ва ҳоказо. Сеансни "
+"улисидан-булисига ўтиш учун бир вақтни "
+"ичида Ctrl, Alt ва керакли функционал тугмани "
+"босиш керак.</p>"
 
-#: main.cc:40
+#: main.cc:42
 msgid "The KDE Desktop."
 msgstr "KDE иш столи."
 
-#: main.cc:46
+#: main.cc:48
 msgid "Use this if the desktop window appears as a real window"
 msgstr ""
+"Агар иш столи ҳақиқий ойнага ўхшаса, "
+"шундан фойдаланинг"
 
-#: main.cc:47
+#: main.cc:49
 msgid "Use this to disable the Autostart folder"
 msgstr ""
+"Авто-бошлаш жилдини ўчириш учун шундан "
+"фойдаланинг"
 
-#: main.cc:48
+#: main.cc:50
 msgid "Wait for kded to finish building database"
-msgstr ""
+msgstr "Kded маълумот базани яратишини кутиб туриш"
 
-#: main.cc:140
+#: main.cc:142
 msgid "KDesktop"
 msgstr "KDesktop"
 
@@ -309,8 +347,10 @@ msgstr ""
 "эмас.</qt>"
 
 #: minicli.cpp:395
-msgid "You don't exist!\n"
-msgstr "Сиз мавжуд эмассиз!\n"
+msgid ""
+"You don't exist!\n"
+msgstr ""
+"Сиз мавжуд эмассиз!\n"
 
 #: minicli.cpp:420
 msgid "Incorrect password! Please try again."
@@ -340,7 +380,7 @@ msgid ""
 "The specified command does not exist!"
 msgstr ""
 "<center><b>%1</b></center>\n"
-"Берилган буйруқ мавжуд емас!"
+"Берилган буйруқ мавжуд эмас!"
 
 #: minicli.cpp:605
 msgid "&Options <<"
@@ -357,28 +397,11 @@ msgstr ""
 msgid "Warning - Run Command"
 msgstr "Диққат - Буйруқни бажариш"
 
-#: rc.cpp:2
-msgid "Enter the name of the application you want to run or the URL you want to view"
-msgstr ""
-"Ишга тушириш учун дастурнинг номини ёки "
-"кўриш учун URL'ни киритинг."
-
-#: rc.cpp:3
-msgid "Com&mand:"
-msgstr "&Буйруқ:"
-
-#: rc.cpp:4 rc.cpp:29
-msgid ""
-"Enter the command you wish to execute or the address of the resource you "
-"want to open. This can be a remote URL like \"www.kde.org\" or a local one "
-"like \"~/.kderc\"."
-msgstr ""
-
-#: rc.cpp:8
+#: rc.cpp:4
 msgid "Run with realtime &scheduling"
 msgstr ""
 
-#: rc.cpp:9
+#: rc.cpp:5
 msgid ""
 "<qt>Select whether realtime scheduling should be enabled for the "
 "application. The scheduler governs which process will run and which will "
@@ -395,39 +418,39 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:10
+#: rc.cpp:6
 msgid "User&name:"
-msgstr "Ф&ойдаланувчи:"
+msgstr "&Фойдаланувчи:"
 
-#: rc.cpp:11 rc.cpp:21
+#: rc.cpp:7 rc.cpp:17
 msgid "Enter the user you want to run the application as here."
-msgstr ""
+msgstr "Шу ерга фойдаланувчини киритинг."
 
-#: rc.cpp:12 rc.cpp:14
+#: rc.cpp:8 rc.cpp:10
 msgid "Enter the password here for the user you specified above."
 msgstr ""
 "Бу ерда, юқорида кўрсатилган "
 "фойдаланувчи учун махфий сўзни киритинг."
 
-#: rc.cpp:13
+#: rc.cpp:9
 msgid "Pass&word:"
 msgstr "&Махфий сўз:"
 
-#: rc.cpp:15
+#: rc.cpp:11
 msgid "Run in &terminal window"
 msgstr "&Терминалда бажариш"
 
-#: rc.cpp:16
+#: rc.cpp:12
 msgid ""
 "Check this option if the application you want to run is a text mode "
 "application. The application will then be run in a terminal emulator window."
 msgstr ""
 
-#: rc.cpp:17
+#: rc.cpp:13
 msgid "&Priority:"
 msgstr "&Муҳимлик даражаси:"
 
-#: rc.cpp:18 rc.cpp:23 rc.cpp:25 rc.cpp:26
+#: rc.cpp:14 rc.cpp:19 rc.cpp:21 rc.cpp:22
 msgid ""
 "The priority that the command will be run with can be set here. From left to "
 "right, it goes from low to high. The center position is the default value. "
@@ -435,30 +458,30 @@ msgid ""
 "password."
 msgstr ""
 
-#: rc.cpp:19
+#: rc.cpp:15
 msgid "Run with a &different priority"
 msgstr "Бошқа &муҳимлик даражаси билан бажариш"
 
-#: rc.cpp:20
+#: rc.cpp:16
 msgid ""
 "Check this option if you want to run the application with a different "
 "priority. A higher priority tells the operating system to give more "
 "processing time to your application."
 msgstr ""
 
-#: rc.cpp:22
+#: rc.cpp:18
 msgid "Low"
 msgstr "Паст"
 
-#: rc.cpp:24
+#: rc.cpp:20
 msgid "High"
 msgstr "Юқори"
 
-#: rc.cpp:27
+#: rc.cpp:23
 msgid "Run as a different &user"
 msgstr "Бошқа &фойдаланувчи сифатида бажариш"
 
-#: rc.cpp:28
+#: rc.cpp:24
 msgid ""
 "Check this option if you want to run the application with a different user "
 "id. Every process has a user id associated with it. This id code determines "
@@ -466,54 +489,19 @@ msgid ""
 "do this."
 msgstr ""
 
-#~ msgid "Enter the password for user %1 (%2)"
-#~ msgstr "Фойдаланувчи %1 (%2) учун махфий сўзни киритинг"
+#: rc.cpp:25
+msgid "Com&mand:"
+msgstr "&Буйруқ:"
 
-#~ msgid "Form1"
-#~ msgstr "Form1"
+#: rc.cpp:26 rc.cpp:28
+msgid ""
+"Enter the command you wish to execute or the address of the resource you "
+"want to open. This can be a remote URL like \"www.kde.org\" or a local one "
+"like \"~/.kderc\"."
+msgstr ""
 
-#~ msgid "<b>The screen is locked</b>"
-#~ msgstr "<b>Экран қулфланган</b>"
-
-#~ msgid "&Password:"
-#~ msgstr "&Махфий сўз:"
-
-#~ msgid "Failed"
-#~ msgstr "Муваффақиятсиз тугади"
-
-#~ msgid "Enter Password"
-#~ msgstr "Махфий сўзни киритинг"
-
-#~ msgid "Screen Locking Failed"
-#~ msgstr "Дисплейни қулфлаб бўлмайди"
-
-#~ msgid "Halt Computer"
-#~ msgstr "Компютерни ўчириш"
-
-#~ msgid "Reboot Computer"
-#~ msgstr "Компютерни ўчириб-ёқиш"
-
-#~ msgid "Advanced Settings"
-#~ msgstr "Қўшимча мосламалар"
-
-#~ msgid "Normal"
-#~ msgstr "Оддий"
-
-#~ msgid "none"
-#~ msgstr "йўқ"
-
-#~ msgid "Password required: %1"
-#~ msgstr "Махфий сўз талаб қилинади: %1"
-
-#~ msgid "Arrange Icons"
-#~ msgstr "Нишончаларни тартиблаш"
-
-#~ msgid "By Name (Case Insensitive)"
-#~ msgstr "Номи бўйича (Ҳарфни катталигини эътиборга олмай)"
-
-#~ msgid "By Name (Case Sensitive)"
-#~ msgstr "Номи бўйича (Ҳарфни катталигини эътиборга олиб)"
-
-#~ msgid "Execute Command"
-#~ msgstr "Буйруқни бажариш"
-
+#: rc.cpp:29
+msgid "Enter the name of the application you want to run or the URL you want to view"
+msgstr ""
+"Ишга тушириш учун дастурнинг номини ёки "
+"кўриш учун URL'ни киритинг."
