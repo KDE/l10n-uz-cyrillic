@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: noatun\n"
-"POT-Creation-Date: 2004-03-14 01:27+0100\n"
-"PO-Revision-Date: 2004-05-06 15:38+0200\n"
+"POT-Creation-Date: 2004-06-13 01:24+0200\n"
+"PO-Revision-Date: 2004-06-14 00:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -125,8 +125,8 @@ msgstr ""
 msgid "&Analyzer"
 msgstr ""
 
-#: library/noatunstdaction.cpp:164 modules/kjofol-skin/kjbutton.cpp:230
-#: rc.cpp:40
+#: library/noatunstdaction.cpp:165 modules/kaiman/userinterface.cpp:539
+#: modules/kjofol-skin/kjbutton.cpp:230 rc.cpp:40
 msgid "&None"
 msgstr "&Йўқ"
 
@@ -178,7 +178,7 @@ msgstr "Тез"
 
 #: rc.cpp:53
 msgid "System Font"
-msgstr "Системанинг шрифти"
+msgstr "Тизимнинг шрифти"
 
 #: rc.cpp:54
 msgid "Color:"
@@ -190,7 +190,7 @@ msgstr "Шрифт:"
 
 #: rc.cpp:56
 msgid "Use system font"
-msgstr "Системанинг шрифтидан фойдаланиш"
+msgstr "Тизимнинг шрифтидан фойдаланиш"
 
 #: app/main.cpp:8
 msgid "The Fusion of Frequencies"
@@ -204,9 +204,9 @@ msgstr ""
 msgid "Open a Playlist"
 msgstr "Қўшиқ рўйхатини очиш"
 
-#: app/main.cpp:20 modules/kjofol-skin/kjloader.cpp:114
-#: modules/simple/userinterface.cpp:56 modules/systray/systray.cpp:303
-#: modules/systray/systray.cpp:305 modules/winskin/waSkin.cpp:107
+#: app/main.cpp:20 modules/kaiman/userinterface.cpp:516
+#: modules/kjofol-skin/kjloader.cpp:122 modules/simple/userinterface.cpp:56
+#: modules/systray/systray.cpp:97 modules/winskin/waSkin.cpp:107
 msgid "Noatun"
 msgstr "Noatun"
 
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Video - Noatun"
 msgstr "Видео - Noatun"
 
-#: library/ksaver.cpp:81 modules/splitplaylist/view.cpp:464
+#: library/ksaver.cpp:81 modules/splitplaylist/view.cpp:468
 #, c-format
 msgid "Could not write to %1."
 msgstr "%1'га ёзиб бўлмади"
@@ -308,7 +308,6 @@ msgid "&Return to start of playlist on finish"
 msgstr "&Тугагач қўшиқ рўйхатининг бошига қайтиш"
 
 #: library/cmodule.cpp:217
-#, fuzzy
 msgid ""
 "When the playlist is finished playing, return to the start, but do not start "
 "playing."
@@ -412,8 +411,8 @@ msgstr "&Интерфейслар"
 msgid "<b>Select one playlist to use:</b>"
 msgstr ""
 
-#: library/noatunstdaction.cpp:174 library/pluginmodule.cpp:168
-#: modules/kjofol-skin/kjbutton.cpp:232
+#: library/noatunstdaction.cpp:175 library/pluginmodule.cpp:168
+#: modules/kaiman/userinterface.cpp:543 modules/kjofol-skin/kjbutton.cpp:232
 msgid "&Playlist"
 msgstr "Қўшиқ &рўйхати"
 
@@ -421,7 +420,7 @@ msgstr "Қўшиқ &рўйхати"
 msgid "<b>Select any visualizations to use:</b>"
 msgstr ""
 
-#: library/noatunstdaction.cpp:114 library/pluginmodule.cpp:179
+#: library/noatunstdaction.cpp:115 library/pluginmodule.cpp:179
 msgid "&Visualizations"
 msgstr "&Визуаллаштириш"
 
@@ -500,22 +499,28 @@ msgid ""
 "configured properly."
 msgstr ""
 
-#: library/app.cpp:376 modules/kjofol-skin/kjbutton.cpp:217
-#: modules/splitplaylist/view.cpp:868
+#: library/app.cpp:118 modules/marquis/marquis.cpp:161
+msgid ""
+"No playlist plugin was found. Please make sure that Noatun was installed "
+"correctly."
+msgstr ""
+
+#: library/app.cpp:388 modules/kjofol-skin/kjbutton.cpp:217
+#: modules/splitplaylist/view.cpp:881
 msgid "Select File to Play"
 msgstr ""
 
-#: library/playlistsaver.cpp:89 library/playlistsaver.cpp:274
-#: library/playlistsaver.cpp:521
+#: library/playlistsaver.cpp:110 library/playlistsaver.cpp:306
+#: library/playlistsaver.cpp:556
 #, c-format
 msgid "Stream from %1"
 msgstr ""
 
-#: library/playlistsaver.cpp:695
+#: library/playlistsaver.cpp:747
 msgid "Stream from %1 (port: %2)"
 msgstr ""
 
-#: library/playlistsaver.cpp:697
+#: library/playlistsaver.cpp:749
 msgid "Stream from %1, (ip: %2, port: %3)"
 msgstr ""
 
@@ -534,43 +539,49 @@ msgstr "Вақтинча тўхтатиш"
 msgid "Show Playlist"
 msgstr "Қўшиқ рўйхатини кўрсатиш"
 
-#: library/noatunstdaction.cpp:70
+#: library/noatunstdaction.cpp:52
+msgid "Hide Playlist"
+msgstr "Қўшиқ рўйхатини бекитиш"
+
+#: library/noatunstdaction.cpp:71
 msgid "&Actions"
 msgstr "&Амаллар"
 
-#: library/noatunstdaction.cpp:162
+#: library/noatunstdaction.cpp:163
 msgid "&Loop"
 msgstr ""
 
-#: library/noatunstdaction.cpp:169 modules/kjofol-skin/kjbutton.cpp:231
+#: library/noatunstdaction.cpp:170 modules/kaiman/userinterface.cpp:541
+#: modules/kjofol-skin/kjbutton.cpp:231
 msgid "&Song"
 msgstr "&Қўшиқ"
 
-#: library/noatunstdaction.cpp:179 modules/kjofol-skin/kjbutton.cpp:233
+#: library/noatunstdaction.cpp:180 modules/kaiman/userinterface.cpp:545
+#: modules/kjofol-skin/kjbutton.cpp:233
 msgid "&Random"
 msgstr "&Тасодифий"
 
-#: library/noatunstdaction.cpp:241
+#: library/noatunstdaction.cpp:242
 msgid "&Effects..."
 msgstr "&Эффектлар"
 
-#: library/noatunstdaction.cpp:246
+#: library/noatunstdaction.cpp:247
 msgid "E&qualizer..."
 msgstr "Э&квалайзер"
 
-#: library/noatunstdaction.cpp:251
+#: library/noatunstdaction.cpp:252
 msgid "&Back"
 msgstr "О&рқага"
 
-#: library/noatunstdaction.cpp:269
+#: library/noatunstdaction.cpp:270
 msgid "&Forward"
 msgstr "О&лдинга"
 
-#: library/noatunstdaction.cpp:274
+#: library/noatunstdaction.cpp:275
 msgid "&Play"
 msgstr "Ўй&наш"
 
-#: library/noatunstdaction.cpp:287
+#: library/noatunstdaction.cpp:288
 msgid "&Pause"
 msgstr "&Вақтинча тўхтатиш"
 
@@ -749,37 +760,35 @@ msgstr ""
 msgid "Show &Volume Control"
 msgstr ""
 
-#: modules/excellent/userinterface.cpp:315
+#: modules/excellent/userinterface.cpp:86
+msgid "Hide &Volume Control"
+msgstr ""
+
+#: modules/excellent/userinterface.cpp:316
 #: modules/noatunui/userinterface.cpp:263
 msgid "No looping"
 msgstr ""
 
-#: modules/excellent/userinterface.cpp:318
+#: modules/excellent/userinterface.cpp:319
 #: modules/noatunui/userinterface.cpp:267
 msgid "Song looping"
 msgstr ""
 
-#: modules/excellent/userinterface.cpp:321
+#: modules/excellent/userinterface.cpp:322
 #: modules/noatunui/userinterface.cpp:271
 msgid "Playlist looping"
 msgstr ""
 
-#: modules/excellent/userinterface.cpp:324
+#: modules/excellent/userinterface.cpp:325
 #: modules/noatunui/userinterface.cpp:275
 msgid "Random play"
 msgstr ""
 
-#: modules/excellent/userinterface.cpp:336
+#: modules/excellent/userinterface.cpp:337
 msgid "<qt>Press %1 to show the menubar.</qt>"
 msgstr ""
 "<qt>Менюлар панелини кўрсатиш учун %1'ни "
 "босинг.</qt>"
-
-#: modules/marquis/marquis.cpp:161
-msgid ""
-"No playlist plugin was found. Please make sure that Noatun was installed "
-"correctly."
-msgstr ""
 
 #: modules/metatag/edit.cpp:27
 msgid "Tag Editor"
@@ -837,53 +846,53 @@ msgstr "О&рқага қидириш"
 msgid "Time"
 msgstr "Вақт"
 
-#: modules/splitplaylist/view.cpp:630
+#: modules/splitplaylist/view.cpp:643
 msgid "Add &Files..."
 msgstr "&Файлларни қўшиш"
 
-#: modules/splitplaylist/view.cpp:631
+#: modules/splitplaylist/view.cpp:644
 msgid "Add Fol&ders..."
 msgstr "&Жилдларни қўшиш"
 
-#: modules/splitplaylist/view.cpp:643
+#: modules/splitplaylist/view.cpp:656
 msgid "Shuffle"
 msgstr "Тартибсиз"
 
-#: modules/splitplaylist/view.cpp:734
+#: modules/splitplaylist/view.cpp:747
 msgid "End of playlist reached. Continue searching from beginning?"
 msgstr ""
 "Кўшиқ рўйхатининг охири. Қидиришни "
 "бошидан бошлайми?"
 
-#: modules/splitplaylist/view.cpp:739
+#: modules/splitplaylist/view.cpp:752
 msgid "Beginning of playlist reached. Continue searching from end?"
 msgstr ""
 "Кўшиқ рўйхатининг боши. Қидиришни "
 "охиридан бошлайми?"
 
-#: modules/splitplaylist/view.cpp:821
+#: modules/splitplaylist/view.cpp:834
 msgid "Save Playlist"
 msgstr "Қўшиқ рўйхатини сақлаш"
 
-#: modules/splitplaylist/view.cpp:830
+#: modules/splitplaylist/view.cpp:843
 msgid "Insert Playlist"
 msgstr "Қўшиқ рўйхатидан қўйиш"
 
-#: modules/splitplaylist/view.cpp:839
+#: modules/splitplaylist/view.cpp:852
 msgid "Open New Playlist"
 msgstr "Янги қўшиқ рўйхатини очиш"
 
-#: modules/splitplaylist/view.cpp:879
+#: modules/splitplaylist/view.cpp:892
 msgid "Select Folder"
 msgstr "Жилдни танлаш"
 
 #: modules/kjofol-skin/kjbutton.cpp:123 modules/noatunui/userinterface.cpp:67
-#: modules/simple/userinterface.cpp:221 modules/splitplaylist/view.cpp:907
+#: modules/simple/userinterface.cpp:221 modules/splitplaylist/view.cpp:920
 msgid "Playlist"
 msgstr "Қўшиқ рўйхати"
 
 #: modules/systray/cmodule.cpp:42
-msgid "Young Hickory"
+msgid "System Tray Icon"
 msgstr ""
 
 #: modules/systray/cmodule.cpp:42
@@ -918,40 +927,70 @@ msgstr "Кўрсатиш"
 msgid "None"
 msgstr "Йўқ"
 
-#: modules/systray/systray.cpp:167
-#, c-format
-msgid "Length: %1"
-msgstr "Узунлиги: %1"
+#: modules/systray/systray.cpp:169
+msgid ""
+"<qt><nobr><b>Noatun - Playing</b></nobr>"
+"<br><nobr>%1</nobr>"
+"<br><nobr>Length: %2</nobr><img src=\"%3\" align=right></qt>"
+msgstr ""
 
-#: modules/systray/systray.cpp:176
-msgid "Stopped"
-msgstr "Тўхтатилган"
+#: modules/systray/systray.cpp:177
+msgid ""
+"<qt><nobr><b>Noatun - Playing</b></nobr>"
+"<br><nobr>%1</nobr><br><nobr>Length: %2</nobr></qt>"
+msgstr ""
 
-#: modules/systray/systray.cpp:182
-msgid "%1 - Paused"
-msgstr "%1 - вақтинча тўхтатилган"
+#: modules/systray/systray.cpp:187
+msgid ""
+"<qt><nobr><b>Noatun - Playing</b></nobr>"
+"<br><nobr>%1</nobr><br><img src=\"%2\" align=right></qt>"
+msgstr ""
 
-#: modules/kaiman/style.cpp:1377
+#: modules/systray/systray.cpp:194
+msgid "<qt><nobr><b>Noatun - Playing</b></nobr><br><nobr>%1</nobr></qt>"
+msgstr ""
+
+#: modules/systray/systray.cpp:206
+msgid "<qt><nobr><b>Noatun - Stopped</b></nobr></qt>"
+msgstr ""
+
+#: modules/systray/systray.cpp:217
+msgid ""
+"<qt><nobr><b>Noatun - Paused</b></nobr>"
+"<br><nobr>%1</nobr><br><nobr>Length: %2</nobr></qt>"
+msgstr ""
+
+#: modules/systray/systray.cpp:224
+msgid "<qt><nobr><b>Noatun - Paused</b></nobr><br><nobr>%1</nobr></qt>"
+msgstr ""
+
+#: modules/kaiman/style.cpp:1381
 msgid "Cannot load style. Style not installed."
 msgstr ""
 "Услубни юклаб бўлмади. Услуб "
 "ўрнатилмаган."
 
-#: modules/kaiman/style.cpp:1381
+#: modules/kaiman/style.cpp:1385
 msgid "Cannot load style. Unsupported or faulty style description."
 msgstr ""
 
-#: modules/kaiman/userinterface.cpp:71
-msgid "Kaiman"
-msgstr "Kaiman"
-
-#: modules/kaiman/userinterface.cpp:89
+#: modules/kaiman/userinterface.cpp:91
 msgid "Cannot load skin %1. Switching to default skin."
 msgstr ""
 
-#: modules/kaiman/userinterface.cpp:92
+#: modules/kaiman/userinterface.cpp:94
 #, c-format
 msgid "Cannot load default skin %1."
+msgstr ""
+
+#: modules/kaiman/userinterface.cpp:523
+msgid ""
+"_: TITLE (LENGTH)\n"
+"%1 (%2)"
+msgstr ""
+
+#: modules/kaiman/userinterface.cpp:538 modules/kjofol-skin/kjbutton.cpp:229
+msgid "Loop Style"
 msgstr ""
 
 #: modules/kaiman/pref.cpp:35 modules/kaiman/pref.cpp:39
@@ -1001,49 +1040,49 @@ msgstr ""
 msgid "O&ther Settings"
 msgstr "Бошқа &мосламалар"
 
-#: modules/kjofol-skin/kjprefs.cpp:382
+#: modules/kjofol-skin/kjprefs.cpp:388
 msgid "Non-Local files are not supported yet"
 msgstr ""
 
-#: modules/kjofol-skin/kjprefs.cpp:397
+#: modules/kjofol-skin/kjprefs.cpp:403
 msgid "The selected file does not appear to be a valid zip-archive"
 msgstr ""
 "Танланган файл ҳақиқий ZIP-архивига "
 "ўхшамайди."
 
-#: modules/kjofol-skin/kjprefs.cpp:418
+#: modules/kjofol-skin/kjprefs.cpp:424
 msgid "Extracting skin-archive failed"
 msgstr ""
 
-#: modules/kjofol-skin/kjprefs.cpp:466
+#: modules/kjofol-skin/kjprefs.cpp:472
 msgid ""
 "Installing new skin failed: Destination path is invalid.\n"
 "Please report a bug to the K-Jöfol maintainer"
 msgstr ""
 
-#: modules/kjofol-skin/kjprefs.cpp:477
+#: modules/kjofol-skin/kjprefs.cpp:483
 msgid ""
 "Installing new skin failed: Either source or destination path is invalid.\n"
 "Please report a bug to the K-Jöfol maintainer"
 msgstr ""
 
-#: modules/kjofol-skin/kjprefs.cpp:492
+#: modules/kjofol-skin/kjprefs.cpp:498
 msgid ""
 "No new skin has been installed.\n"
 "Make sure the archive contains a valid K-Jöfol skin"
 msgstr ""
 
-#: modules/kjofol-skin/kjprefs.cpp:496
+#: modules/kjofol-skin/kjprefs.cpp:502
 msgid "The new skin has been successfully installed"
 msgstr ""
 
-#: modules/kjofol-skin/kjprefs.cpp:505
+#: modules/kjofol-skin/kjprefs.cpp:511
 msgid ""
 "Are you sure you want to remove %1?\n"
 "This will delete the files installed by this skin "
 msgstr ""
 
-#: modules/kjofol-skin/kjprefs.cpp:513
+#: modules/kjofol-skin/kjprefs.cpp:519
 msgid "Confirmation"
 msgstr "Тасдиқлаш"
 
@@ -1108,7 +1147,6 @@ msgid "Rewind"
 msgstr "Орқага"
 
 #: modules/kjofol-skin/kjbutton.cpp:143
-#, fuzzy
 msgid "K-Jöfol Preferences"
 msgstr "K-Jöfol мосламалари"
 
@@ -1120,11 +1158,7 @@ msgstr ""
 msgid "Return from dockmode"
 msgstr ""
 
-#: modules/kjofol-skin/kjbutton.cpp:229
-msgid "Loop Style"
-msgstr ""
-
-#: modules/kjofol-skin/kjloader.cpp:137
+#: modules/kjofol-skin/kjloader.cpp:145
 msgid "There was trouble loading skin %1. Please select another skin file."
 msgstr ""
 
