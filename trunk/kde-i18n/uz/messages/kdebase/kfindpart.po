@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
-"POT-Creation-Date: 2003-08-22 01:21+0200\n"
-"PO-Revision-Date: 2003-11-04 19:42+0100\n"
+"POT-Creation-Date: 2003-10-30 01:25+0100\n"
+"PO-Revision-Date: 2003-11-05 23:27+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -68,8 +68,8 @@ msgid "Please specify an absolute path in the \"Look in\" box."
 msgstr ""
 
 #: kfinddlg.cpp:183
-msgid "Could not find the specified directory."
-msgstr ""
+msgid "Could not find the specified folder."
+msgstr "Кўрсатилган жилд топилмади."
 
 #: kfindpart.cpp:81
 msgid "Find Component"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: kftabdlg.cpp:63
 msgid "&Named:"
-msgstr ""
+msgstr "&Номи:"
 
 #: kftabdlg.cpp:64
 msgid "You can use wildcard matching and \";\" for separating multiple names"
@@ -85,15 +85,15 @@ msgstr ""
 
 #: kftabdlg.cpp:66
 msgid "&Look in:"
-msgstr ""
+msgstr "&Қаерда:"
 
 #: kftabdlg.cpp:67
-msgid "Include &subdirectories"
+msgid "Include &subfolders"
 msgstr ""
 
 #: kftabdlg.cpp:68
 msgid "Case s&ensitive search"
-msgstr ""
+msgstr "Ҳарфнинг &катталигини эътиборга олиб"
 
 #: kftabdlg.cpp:69
 msgid "&Browse..."
@@ -105,36 +105,45 @@ msgstr ""
 
 #: kftabdlg.cpp:88
 msgid ""
-"<qt>Enter the filename you are looking for. <br>Alternatives may be "
-"separated by a semicolon \";\".<br><br>The filename may contain the "
-"following special characters:<ul><li><b>?</b> matches any single character</"
-"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
-"matches any of the characters in braces</li></ul><br>Example searches:"
-"<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or .txt</"
-"li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all files "
-"that start with \"Hel\" and end with \"o\", having one character in between</"
-"li><li><b>My Document.kwd</b> finds a file of exactly that name</li></ul></"
-"qt>"
+"<qt>Enter the filename you are looking for. "
+"<br>Alternatives may be separated by a semicolon \";\"."
+"<br>"
+"<br>The filename may contain the following special "
+"characters:"
+"<ul>"
+"<li><b>?</b> matches any single character</li>"
+"<li><b>*</b> matches zero or more of any characters</li>"
+"<li><b>[...]</b> matches any of the characters in "
+"braces</li></ul>"
+"<br>Example searches:"
+"<ul>"
+"<li><b>*.kwd;*.txt</b> finds all files ending with .kwd or "
+".txt</li>"
+"<li><b>go[dt]</b> finds god and got</li>"
+"<li><b>Hel?o</b>"
+" finds all files that start with \"Hel\" and end with \"o\", having one "
+"character in between</li>"
+"<li><b>My Document.kwd</b> finds a file of exactly that name</li></ul></qt>"
 msgstr ""
 
 #: kftabdlg.cpp:109
 msgid ""
-"<qt>This lets you use the files' index created by the <i>slocate</i> package "
-"to speed-up the search. Don't forget to update the index from time to time "
-"(using <i>updatedb</i>).</qt>"
+"<qt>This lets you use the files' index created by the <i>slocate</i>"
+" package to speed-up the search. Don't forget to update the index from time "
+"to time (using <i>updatedb</i>).</qt>"
 msgstr ""
 
 #: kftabdlg.cpp:146
 msgid "Find all files created or &modified:"
-msgstr ""
+msgstr "Қуйидаги вақтда яра&тилган ёки ўзгартирилган ҳамма файлларни қидириш:"
 
 #: kftabdlg.cpp:148
 msgid "&between"
-msgstr ""
+msgstr "&оралиғда"
 
 #: kftabdlg.cpp:149
 msgid "&during the previous"
-msgstr ""
+msgstr "о&хирги вақт ичида"
 
 #: kftabdlg.cpp:150
 msgid "and"
@@ -170,27 +179,27 @@ msgstr "Файлнинг &эгаси:"
 
 #: kftabdlg.cpp:175
 msgid "Owned by &group:"
-msgstr ""
+msgstr "&Груҳга тегишли:"
 
 #: kftabdlg.cpp:177
 msgid "(none)"
-msgstr ""
+msgstr "(йўқ)"
 
 #: kftabdlg.cpp:178
 msgid "At Least"
-msgstr ""
+msgstr "Камида"
 
 #: kftabdlg.cpp:179
 msgid "At Most"
-msgstr ""
+msgstr "Кўпида"
 
 #: kftabdlg.cpp:180
 msgid "Equal To"
-msgstr ""
+msgstr "Тенг"
 
 #: kftabdlg.cpp:182
 msgid "Bytes"
-msgstr ""
+msgstr "Байт"
 
 #: kftabdlg.cpp:183
 msgid "KB"
@@ -206,18 +215,19 @@ msgstr "Файлнинг &тури:"
 
 #: kftabdlg.cpp:248
 msgid "C&ontaining text:"
-msgstr ""
+msgstr "Матндан &иборат:"
 
 #: kftabdlg.cpp:251
 msgid ""
-"<qt>If specified, only files that contain this text are found. Note that not "
-"all file types from the list above are supported. Please refer to the "
+"<qt>"
+"If specified, only files that contain this text are found. Note that not all "
+"file types from the list above are supported. Please refer to the "
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 
 #: kftabdlg.cpp:259
 msgid "Case s&ensitive"
-msgstr ""
+msgstr "Ҳарфнинг &катталигини эътиборга олиб"
 
 #: kftabdlg.cpp:260
 msgid "Include &binary files"
@@ -225,11 +235,12 @@ msgstr ""
 
 #: kftabdlg.cpp:261
 msgid "Regular e&xpression"
-msgstr ""
+msgstr "Доимий и&фода"
 
 #: kftabdlg.cpp:264
 msgid ""
-"<qt>This lets you search in any type of file, even those that usually do not "
+"<qt>"
+"This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
 
@@ -246,87 +257,107 @@ msgid "Search &metainfo sections:"
 msgstr ""
 
 #: kftabdlg.cpp:281
-msgid "All Files & Directories"
-msgstr ""
+msgid "All Files & Folders"
+msgstr "Ҳамма файл ва жилдлар"
 
 #: kftabdlg.cpp:283
-msgid "Directories"
-msgstr ""
+msgid "Folders"
+msgstr "Жилдлар"
 
 #: kftabdlg.cpp:284
 msgid "Symbolic Links"
-msgstr ""
+msgstr "Рамзий боғлар"
 
 #: kftabdlg.cpp:285
 msgid "Special Files (Sockets, Device Files...)"
-msgstr ""
+msgstr "Махсус файллар (сокет, ускуна файли...)"
 
 #: kftabdlg.cpp:286
 msgid "Executable Files"
-msgstr ""
+msgstr "Бажариб бўладиган файллар"
 
 #: kftabdlg.cpp:287
 msgid "SUID Executable Files"
-msgstr ""
+msgstr "SUID бажариб бўладиган файллар"
 
-#: kftabdlg.cpp:334
+#: kftabdlg.cpp:288
+msgid "All images"
+msgstr "Ҳамма расмлар"
+
+#: kftabdlg.cpp:289
+msgid "All video"
+msgstr "Ҳамма видеолар"
+
+#: kftabdlg.cpp:290
+msgid "All sounds"
+msgstr "Ҳамма товушлар"
+
+#: kftabdlg.cpp:338
 msgid "Name/&Location"
-msgstr ""
+msgstr "Номи/&Жойи"
 
-#: kftabdlg.cpp:335
+#: kftabdlg.cpp:339
 msgid "C&ontents"
-msgstr ""
+msgstr "&Таркиби"
 
-#: kftabdlg.cpp:336
+#: kftabdlg.cpp:340
 msgid "&Properties"
 msgstr "Ҳосса&лари"
 
-#: kftabdlg.cpp:341
+#: kftabdlg.cpp:345
 msgid ""
-"<qt>Search within files' specific comments/metainfo<br>These are some "
-"examples:<br><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
-"title, an album</li><li><b>Images (png...)</b> Search images with a special "
-"resolution, comment...</li></ul></qt>"
+"<qt>Search within files' specific comments/metainfo"
+"<br>These are some examples:"
+"<br>"
+"<ul>"
+"<li><b>Audio files (mp3...)</b> Search in id3 tag for a title, an "
+"album</li>"
+"<li><b>Images (png...)</b> Search images with a special resolution, "
+"comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:349
+#: kftabdlg.cpp:353
 msgid ""
-"<qt>If specified, search only in this field<br><ul><li><b>Audio files "
-"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
-"Search only in Resolution, Bitdepth...</li></ul></qt>"
+"<qt>If specified, search only in this field"
+"<br>"
+"<ul>"
+"<li><b>Audio files (mp3...)</b> This can be Title, "
+"Album...</li>"
+"<li><b>Images (png...)</b> Search only in Resolution, "
+"Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:524
+#: kftabdlg.cpp:547
 msgid "Unable to search within a period which is less than a minute."
 msgstr ""
 
-#: kftabdlg.cpp:535
+#: kftabdlg.cpp:558
 msgid "The date is not valid!"
-msgstr ""
+msgstr "Сана ҳақиқий эмас!"
 
-#: kftabdlg.cpp:537
+#: kftabdlg.cpp:560
 msgid "Invalid date range!"
-msgstr ""
+msgstr "Сананинг чегараси ҳақиқий эмас!"
 
-#: kftabdlg.cpp:539
+#: kftabdlg.cpp:562
 msgid "Unable to search dates in the future."
 msgstr ""
 
-#: kftabdlg.cpp:591
+#: kftabdlg.cpp:614
 msgid "Size is too big... Set maximum size value?"
 msgstr ""
 
 #: kfwin.cpp:48
 msgid "Read-write"
-msgstr ""
+msgstr "Ўқиш-ёзиш"
 
 #: kfwin.cpp:49
 msgid "Read-only"
-msgstr ""
+msgstr "Фақат ўқишга"
 
 #: kfwin.cpp:50
 msgid "Write-only"
-msgstr ""
+msgstr "Фақат ёзишга"
 
 #: kfwin.cpp:51
 msgid "Inaccessible"
@@ -334,23 +365,23 @@ msgstr ""
 
 #: kfwin.cpp:114
 msgid "Name"
-msgstr ""
+msgstr "Номи"
 
 #: kfwin.cpp:115
-msgid "In Subdirectory"
+msgid "In Subfolder"
 msgstr ""
 
 #: kfwin.cpp:116
 msgid "Size"
-msgstr ""
+msgstr "Ҳажми"
 
 #: kfwin.cpp:118
 msgid "Modified"
-msgstr ""
+msgstr "Ўзгарган"
 
 #: kfwin.cpp:120
 msgid "Permissions"
-msgstr ""
+msgstr "Ҳуқуқлар"
 
 #: kfwin.cpp:123
 msgid "First Matching Line"
@@ -358,23 +389,23 @@ msgstr ""
 
 #: kfwin.cpp:193
 msgid "Save Results As"
-msgstr ""
+msgstr "Натижаларни сақлаш"
 
 #: kfwin.cpp:200
 msgid "Save as:"
-msgstr ""
+msgstr "Сақлаш:"
 
 #: kfwin.cpp:217
 msgid "It wasn't possible to save results!"
-msgstr ""
+msgstr "Натижаларни сақлаб бўлмади!"
 
 #: kfwin.cpp:228 kfwin.cpp:229 kfwin.cpp:230
 msgid "KFind Results File"
-msgstr ""
+msgstr "KFind натижалар файли"
 
 #: kfwin.cpp:257
 msgid "Results were saved to file\n"
-msgstr ""
+msgstr "Натижалар файлга сақланди\n"
 
 #: kfwin.cpp:287
 #, c-format
@@ -382,18 +413,20 @@ msgid ""
 "_n: Do you really want to delete the selected file?\n"
 "Do you really want to delete the %n selected files?"
 msgstr ""
+"Белгиланган файлни ростдан ўчиришни истайсизми?\n"
+"Белгиланган %n файлни ростдан ўчиришни истайсизми?"
 
 #: kfwin.cpp:412
-msgid "Open Directory"
-msgstr ""
+msgid "Open Folder"
+msgstr "Жилдни очиш"
 
 #: kfwin.cpp:413
 msgid "Open With..."
-msgstr ""
+msgstr "...билан очиш"
 
 #: kfwin.cpp:420
 msgid "Selected Files"
-msgstr ""
+msgstr "Белгиланган файллар"
 
 #: kquery.cpp:452
 msgid "Error while using locate"
@@ -401,7 +434,7 @@ msgstr ""
 
 #: main.cpp:14
 msgid "KDE File find utility."
-msgstr ""
+msgstr "KDE файл қидириш учун восита."
 
 #: main.cpp:18
 msgid "Path(s) to search."
@@ -409,7 +442,7 @@ msgstr ""
 
 #: main.cpp:25
 msgid "KFind"
-msgstr ""
+msgstr "KFind"
 
 #: main.cpp:27
 msgid "(c) 1998-2003, The KDE Developers"
