@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 2004-07-06 01:19+0200\n"
-"PO-Revision-Date: 2004-07-10 20:13+0200\n"
+"POT-Creation-Date: 2004-08-01 01:26+0200\n"
+"PO-Revision-Date: 2004-08-04 00:38+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -27,14 +27,14 @@ msgid ""
 msgstr "kmashrab@uni-bremen.de"
 
 #: ar.cpp:110 ar.cpp:129 ar.cpp:173 ar.cpp:230 ar.cpp:264
-#: compressedfile.cpp:205 compressedfile.cpp:317 lha.cpp:159 lha.cpp:247
-#: lha.cpp:298 lha.cpp:332 rar.cpp:124 rar.cpp:211 rar.cpp:271 rar.cpp:305
-#: tar.cpp:254 tar.cpp:658 tar.cpp:746 tar.cpp:794 zip.cpp:120 zip.cpp:203
+#: compressedfile.cpp:206 compressedfile.cpp:322 lha.cpp:159 lha.cpp:247
+#: lha.cpp:298 lha.cpp:332 rar.cpp:130 rar.cpp:217 rar.cpp:277 rar.cpp:311
+#: tar.cpp:262 tar.cpp:670 tar.cpp:758 tar.cpp:806 zip.cpp:120 zip.cpp:203
 #: zip.cpp:267 zip.cpp:301 zoo.cpp:126 zoo.cpp:206 zoo.cpp:271 zoo.cpp:305
 msgid "Could not start a subprocess."
 msgstr ""
 
-#: arch.cpp:146 arch.cpp:219 compressedfile.cpp:223 zip.cpp:319
+#: arch.cpp:146 arch.cpp:219 compressedfile.cpp:224 zip.cpp:319
 msgid ""
 "You probably do not have sufficient permissions.\n"
 "Please check the file owner and the integrity of the archive."
@@ -139,11 +139,11 @@ msgstr "&Танлаш"
 
 #: ark_part.cpp:137
 msgid "&Deselect All"
-msgstr "Ҳаммасини белгилашни &бекор қилиш"
+msgstr "Ҳаммасини танлашни &бекор қилиш"
 
 #: ark_part.cpp:140
 msgid "&Invert Selection"
-msgstr "Те&скарисини белгилаш"
+msgstr "Те&скарисини танлаш"
 
 #: ark_part.cpp:147
 msgid "Configure &Ark..."
@@ -227,7 +227,7 @@ msgstr "Қисилмоқда..."
 msgid "Please Wait"
 msgstr "Илтимос кутиб туринг"
 
-#: arkutils.cpp:191
+#: arkutils.cpp:195
 msgid "You have run out of disk space."
 msgstr "Дискда бўш жой қолмади."
 
@@ -478,7 +478,8 @@ msgstr ""
 msgid "An error occurred while trying to open the archive %1"
 msgstr "%1 архивини очишда хато рўй берди"
 
-#: arkwidget.cpp:2519 rc.cpp:37
+#: arkwidget.cpp:2519 rc.cpp:74
+#, no-c-format
 msgid "General"
 msgstr ""
 
@@ -619,11 +620,13 @@ msgstr ""
 "Фақат эски файлларни янги файллар билан "
 "&алмаштириш"
 
-#: common_texts.cpp:26 rc.cpp:11
+#: common_texts.cpp:26 rc.cpp:22
+#, no-c-format
 msgid "Keep entries &generic (Lha)"
 msgstr ""
 
-#: common_texts.cpp:27 rc.cpp:12
+#: common_texts.cpp:27 rc.cpp:24
+#, no-c-format
 msgid "Force &MS-DOS short filenames (Zip)"
 msgstr ""
 
@@ -631,23 +634,28 @@ msgstr ""
 msgid "Translate LF to DOS &CRLF (Zip)"
 msgstr ""
 
-#: common_texts.cpp:29 rc.cpp:15
+#: common_texts.cpp:29 rc.cpp:30
+#, no-c-format
 msgid "&Recursively add subfolders (Zip, Rar)"
 msgstr ""
 
-#: common_texts.cpp:30 rc.cpp:14
+#: common_texts.cpp:30 rc.cpp:28
+#, no-c-format
 msgid "&Store symlinks as links (Zip, Rar)"
 msgstr ""
 
-#: common_texts.cpp:31 rc.cpp:16
+#: common_texts.cpp:31 rc.cpp:32
+#, no-c-format
 msgid "O&verwrite files (Zip, Tar, Zoo, Rar)"
 msgstr "&Файлларни алмаштириш (Zip, Tar, Zoo, Rar)"
 
-#: common_texts.cpp:32 rc.cpp:17
+#: common_texts.cpp:32 rc.cpp:34
+#, no-c-format
 msgid "&Preserve permissions (Tar)"
 msgstr "&Ҳуқуқларни сақлаб қолиш (Tar)"
 
-#: common_texts.cpp:33 rc.cpp:18
+#: common_texts.cpp:33 rc.cpp:36
+#, no-c-format
 msgid "&Ignore folder names (Zip)"
 msgstr ""
 
@@ -663,7 +671,7 @@ msgstr ""
 "Файлларнинг номини &бош ҳарфларга "
 "алмаштириш (Rar)"
 
-#: compressedfile.cpp:70
+#: compressedfile.cpp:71
 msgid ""
 "You are creating a simple compressed archive which contains only one input "
 "file.\n"
@@ -672,15 +680,16 @@ msgid ""
 "If you add more files you will be prompted to convert it to a real archive."
 msgstr ""
 
-#: compressedfile.cpp:73
+#: compressedfile.cpp:74
 msgid "Simple Compressed Archive"
 msgstr ""
 
-#: compressedfile.cpp:332 tar.cpp:156 tar.cpp:173
+#: compressedfile.cpp:337 tar.cpp:164 tar.cpp:181
 msgid "Trouble writing to the archive..."
 msgstr "Архивга ёзишда муаммо..."
 
-#: extractdlg.cpp:56 rc.cpp:31
+#: extractdlg.cpp:56 rc.cpp:62
+#, no-c-format
 msgid "Extract"
 msgstr ""
 
@@ -759,7 +768,7 @@ msgid ""
 "%1 %"
 msgstr "%1 %"
 
-#: filelistview.cpp:191
+#: filelistview.cpp:189
 msgid ""
 "This area is for displaying information about the files contained within an "
 "archive."
@@ -829,245 +838,274 @@ msgstr "Нишончалар"
 msgid "Ideas, help with the icons"
 msgstr ""
 
-#: rc.cpp:3 rc.cpp:7
+#: rc.cpp:6 rc.cpp:14
+#, no-c-format
 msgid "&Action"
 msgstr "&Амал"
 
-#: rc.cpp:10
+#: rc.cpp:20
+#, no-c-format
 msgid "Replace old files only &with newer files"
 msgstr ""
 "Фақат эски файлларни янги файллар билан "
 "&алмаштириш"
 
-#: rc.cpp:13
+#: rc.cpp:26
+#, no-c-format
 msgid "Translate &LF to DOS CRLF (Zip)"
 msgstr ""
 
-#: rc.cpp:19
-#, fuzzy
+#: rc.cpp:38
+#, fuzzy, no-c-format
 msgid "Convert file names to &lowercase (Zip, Rar)"
 msgstr ""
 "Файлларнинг номини &кичкина ҳарфларга "
 "алмаштириш (Zip, Rar)"
 
-#: rc.cpp:20
-#, fuzzy
+#: rc.cpp:40
+#, fuzzy, no-c-format
 msgid "Convert file names to &uppercase (Rar)"
 msgstr ""
 "Файлларнинг номини &бош ҳарфларга "
 "алмаштириш (Rar)"
 
-#: rc.cpp:22 rc.cpp:27 rc.cpp:32
+#: rc.cpp:44 rc.cpp:54 rc.cpp:64
+#, no-c-format
 msgid "Use Folder"
 msgstr "Жилддан фойдаланиш"
 
-#: rc.cpp:23 rc.cpp:28 rc.cpp:33
+#: rc.cpp:46 rc.cpp:56 rc.cpp:66
+#, no-c-format
 msgid "&Last"
 msgstr "&Охирги"
 
-#: rc.cpp:24 rc.cpp:29 rc.cpp:34
+#: rc.cpp:48 rc.cpp:58 rc.cpp:68
+#, no-c-format
 msgid "Common"
 msgstr "Умумий"
 
-#: rc.cpp:25 rc.cpp:30 rc.cpp:35
+#: rc.cpp:50 rc.cpp:60 rc.cpp:70
+#, no-c-format
 msgid "Custom:"
 msgstr "Бошқа:"
 
-#: rc.cpp:36
+#: rc.cpp:72
+#, no-c-format
 msgid "Common folder:"
 msgstr "Умумий жилд:"
 
-#: rc.cpp:38
+#: rc.cpp:76
+#, no-c-format
 msgid "&Use integrated viewer"
 msgstr ""
 
-#: rc.cpp:39
+#: rc.cpp:78
+#, no-c-format
 msgid "&Enable Konqueror integration"
 msgstr ""
 
-#: rc.cpp:40
-msgid ""
-"Enable Konqueror Integration\n"
-"\"\n"
-"\t                                              \"Check this option to "
-"enable Ark's integration into the Konqueror file manager, letting you easily "
-"archive and unarchive files through the context menus."
-msgstr ""
-
-#: rc.cpp:41
+#: rc.cpp:80
+#, no-c-format
 msgid ""
 "<font size=\"-1\"><i>Konqueror integration is only available if you install "
 "the Konqueror integration plugin from the kdeaddons package.</i></font>"
 msgstr ""
 
-#: rc.cpp:42
+#: rc.cpp:82
+#, no-c-format
 msgid "Replace old files only with newer files"
 msgstr ""
 "Фақат эски файлларни янги файллар билан "
 "алмаштириш"
 
-#: rc.cpp:43
+#: rc.cpp:84
+#, no-c-format
 msgid ""
 "If this option is enabled and you add filenames that already exist in an "
 "archive, only replace the old files if the added files are newer than them"
 msgstr ""
 
-#: rc.cpp:44
+#: rc.cpp:86
+#, no-c-format
 msgid "Overwrite files (Zip, Tar, Zoo, Rar)"
 msgstr "Файлларни алмаштириш (Zip, Tar, Zoo, Rar)"
 
-#: rc.cpp:45
+#: rc.cpp:88
+#, no-c-format
 msgid ""
 "Overwrite any files that have matching names on disk with the one from the "
 "archive"
 msgstr ""
 
-#: rc.cpp:46
+#: rc.cpp:90
+#, no-c-format
 msgid "Keep entries generic (Lha)"
 msgstr ""
 
-#: rc.cpp:47
+#: rc.cpp:92
+#, no-c-format
 msgid "Affects only Lha archives"
 msgstr ""
 
-#: rc.cpp:48
+#: rc.cpp:94
+#, no-c-format
 msgid "Preserve permissions"
 msgstr "Ҳуқуқларни сақлаб қолиш"
 
-#: rc.cpp:49
+#: rc.cpp:96
+#, no-c-format
 msgid ""
 "Save the user, group, and permission settings on files. Use with care, as "
 "this may result in files being extracted that do not belong to any valid "
 "user on your computer"
 msgstr ""
 
-#: rc.cpp:50
+#: rc.cpp:98
+#, no-c-format
 msgid "Force MS-DOS short filenames (Zip)"
 msgstr ""
 
-#: rc.cpp:51
+#: rc.cpp:100
+#, no-c-format
 msgid "Force names of files in Zip archives to the DOS 8.3 format"
 msgstr ""
 
-#: rc.cpp:52
+#: rc.cpp:102
+#, no-c-format
 msgid "Translate LF to DOS CRLF"
 msgstr ""
 
-#: rc.cpp:53
+#: rc.cpp:104
+#, no-c-format
 msgid "Ignore folder names (Zip)"
 msgstr ""
 
-#: rc.cpp:54
+#: rc.cpp:106
+#, no-c-format
 msgid ""
 "Extract all the files into the extraction folder, ignoring any folder "
 "structure in the archive."
 msgstr ""
 
-#: rc.cpp:55
+#: rc.cpp:108
+#, no-c-format
 msgid "Store symlinks as links (Zip, Rar)"
 msgstr ""
 
-#: rc.cpp:56
+#: rc.cpp:110
+#, no-c-format
 msgid "Recursively add subfolders (Zip, Rar)"
 msgstr ""
 
-#: rc.cpp:57
+#: rc.cpp:112
+#, no-c-format
 msgid "Convert filenames to lowercase (Zip, Rar)"
 msgstr ""
 "Файлларнинг номини кичкина ҳарфларга "
 "алмаштириш (Zip, Rar)"
 
-#: rc.cpp:58
+#: rc.cpp:114
+#, no-c-format
 msgid "Convert filenames to uppercase"
 msgstr ""
 "Файлларнинг номини бош ҳарфларга "
 "алмаштириш"
 
-#: rc.cpp:59
+#: rc.cpp:116
+#, no-c-format
 msgid "Show search bar"
 msgstr ""
 
-#: rc.cpp:60
+#: rc.cpp:118
+#, no-c-format
 msgid "Enable Konqueror integration"
 msgstr ""
 
-#: rc.cpp:61
+#: rc.cpp:120
+#, no-c-format
 msgid ""
 "Enables integration with Konqueror's context menus, letting you easily "
 "archive or unarchive files. This option will only work if you have the "
 "kdeaddons package installed."
 msgstr ""
 
-#: rc.cpp:62
+#: rc.cpp:122
+#, no-c-format
 msgid "Use integrated viewer"
 msgstr ""
 
-#: rc.cpp:63
+#: rc.cpp:124
+#, no-c-format
 msgid "Tar Command"
 msgstr "Tar буйруғи"
 
-#: rc.cpp:64
-#, fuzzy
+#: rc.cpp:126
+#, fuzzy, no-c-format
 msgid "Opening Folder"
 msgstr "Охирги очиш жилди"
 
-#: rc.cpp:65 rc.cpp:69 rc.cpp:73
-#, fuzzy
+#: rc.cpp:128 rc.cpp:136 rc.cpp:144
+#, fuzzy, no-c-format
 msgid "Common folder"
 msgstr "Умумий жилд:"
 
-#: rc.cpp:66 rc.cpp:70 rc.cpp:74
-#, fuzzy
+#: rc.cpp:130 rc.cpp:138 rc.cpp:146
+#, fuzzy, no-c-format
 msgid "Custom folder"
 msgstr "Бошқа жилд"
 
-#: rc.cpp:67 rc.cpp:71 rc.cpp:75
-#, fuzzy
+#: rc.cpp:132 rc.cpp:140 rc.cpp:148
+#, fuzzy, no-c-format
 msgid "Last used folder"
 msgstr "Охирги &қўшиш жилди:"
 
-#: rc.cpp:68
-#, fuzzy
+#: rc.cpp:134
+#, fuzzy, no-c-format
 msgid "Addition Folder"
 msgstr "Жилд қўшилмоқда..."
 
-#: rc.cpp:72
-#, fuzzy
+#: rc.cpp:142
+#, fuzzy, no-c-format
 msgid "Extraction Folder"
 msgstr "Охирги очиш жилди"
 
-#: rc.cpp:76
+#: rc.cpp:150
+#, no-c-format
 msgid "Common Folder"
 msgstr "Умумий жилд"
 
-#: rc.cpp:77
-#, fuzzy
+#: rc.cpp:152
+#, fuzzy, no-c-format
 msgid "Custom Opening Folder"
 msgstr "Бошқа жилд"
 
-#: rc.cpp:78
-#, fuzzy
+#: rc.cpp:154
+#, fuzzy, no-c-format
 msgid "Custom Addition Folder"
 msgstr "Бошқа жилд"
 
-#: rc.cpp:79
-#, fuzzy
+#: rc.cpp:156
+#, fuzzy, no-c-format
 msgid "Custom Extraction Folder"
 msgstr "Бошқа жилд"
 
-#: rc.cpp:80
+#: rc.cpp:158
+#, no-c-format
 msgid "Last Start Folder"
 msgstr "Охирги бошлаш жилди"
 
-#: rc.cpp:81
+#: rc.cpp:160
+#, no-c-format
 msgid "Last Open Folder"
 msgstr "Охирги очиш жилди"
 
-#: rc.cpp:82
+#: rc.cpp:162
+#, no-c-format
 msgid "Last Add Folder"
 msgstr "Охирги қўшиш жилди"
 
-#: rc.cpp:83
+#: rc.cpp:164
+#, no-c-format
 msgid "Last Extract Folder"
 msgstr ""
 
@@ -1093,11 +1131,11 @@ msgstr "Файлларни танлаш:"
 msgid "Shell Output"
 msgstr ""
 
-#: tar.cpp:500
+#: tar.cpp:512
 msgid "Unable to fork a decompressor"
 msgstr ""
 
-#: tar.cpp:529
+#: tar.cpp:541
 msgid "Trouble writing to the tempfile..."
 msgstr "Вақтинчалик файлга ёзишда муаммо..."
 

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
-"POT-Creation-Date: 2004-07-05 01:59+0200\n"
-"PO-Revision-Date: 2004-07-09 22:29+0200\n"
+"POT-Creation-Date: 2004-08-02 01:41+0200\n"
+"PO-Revision-Date: 2004-08-04 01:48+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -48,55 +48,54 @@ msgstr ""
 msgid "Icons"
 msgstr "Нишончалар"
 
-#: kpcommandhistory.cpp:626
+#: kpcommandhistory.cpp:628
 #, c-format
 msgid "&Undo: %1"
-msgstr ""
+msgstr "&Бекор қилиш: %1"
 
-#: kpcommandhistory.cpp:637
+#: kpcommandhistory.cpp:639
 #, c-format
 msgid "&Redo: %1"
-msgstr ""
+msgstr "Қай&тариш: %1"
 
-#: kpcommandhistory.cpp:780
-#, fuzzy
+#: kpcommandhistory.cpp:787
 msgid "%1: %2"
-msgstr "%1 x %2"
+msgstr "%1: %2"
 
-#: kpcommandhistory.cpp:788
+#: kpcommandhistory.cpp:795
 #, c-format
 msgid ""
 "_n: %n more item\n"
 "%n more items"
 msgstr ""
 
-#: kpdocument.cpp:134
+#: kpdocument.cpp:152
 msgid "Could not open \"%1\"."
 msgstr "'%1' файлини очиб бўлмади."
 
-#: kpdocument.cpp:158
+#: kpdocument.cpp:176
 msgid "Could not open \"%1\" - unknown mimetype."
 msgstr "'%1' файлини очиб бўлмади - номаълум MIME-тури."
 
-#: kpdocument.cpp:169
+#: kpdocument.cpp:187
 msgid ""
 "Could not open \"%1\" - unsupported image format.\n"
 "The file may be corrupt."
 msgstr ""
 
-#: kpdocument.cpp:202
+#: kpdocument.cpp:248
 msgid "image \"%1\""
 msgstr ""
 
-#: kpdocument.cpp:208
+#: kpdocument.cpp:289
 msgid "Could not open \"%1\" - out of graphics memory."
 msgstr ""
 
-#: kpdocument.cpp:296
+#: kpdocument.cpp:387
 msgid "Could not save image - insufficient information."
 msgstr ""
 
-#: kpdocument.cpp:297
+#: kpdocument.cpp:388
 msgid ""
 "URL: %1\n"
 "Mimetype: %2"
@@ -104,211 +103,327 @@ msgstr ""
 "URL: %1\n"
 "MIME-тур: %2"
 
-#: kpdocument.cpp:300
+#: kpdocument.cpp:392
 msgid "<empty>"
 msgstr "<бўш>"
 
-#: kpdocument.cpp:301
+#: kpdocument.cpp:394
 msgid "Internal Error"
 msgstr "Ички хато"
 
-#: kpdocument.cpp:340
+#: kpdocument.cpp:427
+msgid ""
+"<qt>"
+"<p>The <b>%1</b>"
+" format may not be able to preserve all of the image's color "
+"information.</p><p>Are you sure you want to save in this format?</p></qt>"
+msgstr ""
+
+#: kpdocument.cpp:434
+msgid "Lossy File Format"
+msgstr ""
+
+#: kpdocument.cpp:442
+msgid ""
+"<qt>"
+"<p>Saving the image at the low color depth of %1-bit may result in the loss "
+"of color information. Any transparency will also be removed."
+"<p>Are you sure you want to save at this color depth?</p></qt>"
+msgstr ""
+
+#: kpdocument.cpp:449
+msgid "Low Color Depth"
+msgstr ""
+
+#: kpdocument.cpp:579
 msgid ""
 "A document called \"%1\" already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
+"'%1' номли ҳужжат аллақачон мавжуд.\n"
+"Уни алмаштиришни истайсизми?"
 
-#: kpdocument.cpp:344
+#: kpdocument.cpp:583
 msgid "Overwrite"
 msgstr "Алмаштириш"
 
-#: kpdocument.cpp:368
+#: kpdocument.cpp:619
 msgid "Could not save image - unable to create temporary file."
 msgstr ""
 
-#: kpdocument.cpp:389
+#: kpdocument.cpp:650
 msgid "Could not save as \"%1\"."
 msgstr ""
 
-#: kpdocument.cpp:400
+#: kpdocument.cpp:665
 msgid "Could not save image - failed to upload."
 msgstr ""
 
-#: kpmainwindow.cpp:647
+#: kpdocumentsaveoptionswidget.cpp:69 kpdocumentsaveoptionswidget.cpp:75
+msgid "Save Preview"
+msgstr ""
+
+#: kpdocumentsaveoptionswidget.cpp:142
+msgid "%1 bytes"
+msgstr "%1 байт"
+
+#: kpdocumentsaveoptionswidget.cpp:143
+msgid "%1 bytes (%2%)"
+msgstr "%1 байт (%2%)"
+
+#: kpdocumentsaveoptionswidget.cpp:144
+msgid "%1 B"
+msgstr "%1 Б"
+
+#: kpdocumentsaveoptionswidget.cpp:145
+msgid "%1 B (%2%)"
+msgstr "%1 Б (%2%)"
+
+#: kpdocumentsaveoptionswidget.cpp:146
+msgid "%1 B (approx. %2%)"
+msgstr "%1 Б (таҳмин. %2%)"
+
+#: kpdocumentsaveoptionswidget.cpp:147
+msgid "%1B"
+msgstr "%1 Б"
+
+#: kpdocumentsaveoptionswidget.cpp:148
+msgid "%1B (%2%)"
+msgstr "%1B (%2%)"
+
+#: kpdocumentsaveoptionswidget.cpp:149
+msgid "%1B (approx. %2%)"
+msgstr "%1 Б (таҳмин. %2%)"
+
+#: kpdocumentsaveoptionswidget.cpp:150
+msgid "%1 bytes (approx. %2%)"
+msgstr "%1 байт (таҳмин. %2%)"
+
+#: kpdocumentsaveoptionswidget.cpp:225
+msgid "Convert &to:"
+msgstr "&Айлантириш:"
+
+#: kpdocumentsaveoptionswidget.cpp:230
+msgid "Quali&ty:"
+msgstr "&Сифати:"
+
+#: kpdocumentsaveoptionswidget.cpp:237
+msgid "&Preview"
+msgstr "&Кўриб чиқиш"
+
+#: kpdocumentsaveoptionswidget.cpp:342
+msgid "Monochrome"
+msgstr "Монохром"
+
+#: kpdocumentsaveoptionswidget.cpp:343
+msgid "Monochrome (Dithered)"
+msgstr ""
+
+#: kpdocumentsaveoptionswidget.cpp:347
+msgid "256 Color"
+msgstr "256 ранг"
+
+#: kpdocumentsaveoptionswidget.cpp:348
+msgid "256 Color (Dithered)"
+msgstr ""
+
+#: kpdocumentsaveoptionswidget.cpp:353
+msgid "24-bit Color"
+msgstr "24-бит ранг"
+
+#: kpmainwindow.cpp:675
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save it?"
 msgstr ""
+"'%1' ҳужжатига ўзгаришлар киритилди.\n"
+"Уни сақлашни истайсизми?"
 
-#: kpmainwindow_edit.cpp:60
+#: kpmainwindow_edit.cpp:64
 msgid "image to be pasted"
 msgstr ""
 
-#: kpmainwindow_edit.cpp:85
+#: kpmainwindow_edit.cpp:89
 msgid "Paste in &New Window"
-msgstr ""
+msgstr "Янги &ойнага қўйиш"
 
-#: kpmainwindow_edit.cpp:90
+#: kpmainwindow_edit.cpp:94
 msgid "&Delete Selection"
-msgstr ""
+msgstr "Танланганни ў&чириш"
 
-#: kpmainwindow_edit.cpp:97
+#: kpmainwindow_edit.cpp:101
 msgid "C&opy to File..."
-msgstr ""
+msgstr "&Файлга нусха кўчириш"
 
-#: kpmainwindow_edit.cpp:99
+#: kpmainwindow_edit.cpp:103
 msgid "Paste &From File..."
-msgstr ""
+msgstr "Фай&лдан қўйиш"
 
-#: kpmainwindow_edit.cpp:291 tools/kptoolselection.cpp:483
+#: kpmainwindow_edit.cpp:309 tools/kptoolselection.cpp:613
 msgid "Text: Create Box"
 msgstr ""
 
-#: kpmainwindow_edit.cpp:292 kpmainwindow_image.cpp:237
-#: tools/kptoolselection.cpp:878
+#: kpmainwindow_edit.cpp:310 kpmainwindow_image.cpp:245
+#: tools/kptoolselection.cpp:1015
 msgid "Selection: Create"
-msgstr ""
+msgstr "Танланган: Яратиш"
 
-#: kpmainwindow_edit.cpp:343
+#: kpmainwindow_edit.cpp:377
 msgid "Text: Paste"
+msgstr "Матн: Қўйиш"
+
+#: kpmainwindow_edit.cpp:550
+msgid ""
+"<qt>"
+"<p>KolourPaint cannot paste the contents of the clipboard as the data "
+"unexpectedly disappeared.</p>"
+"<p>This usually occurs if the application which was responsible for the "
+"clipboard contents has been closed.</p></qt>"
 msgstr ""
 
-#: kpmainwindow_edit.cpp:532
+#: kpmainwindow_edit.cpp:556
+msgid "Cannot Paste"
+msgstr "Қўйиб бўлмайди"
+
+#: kpmainwindow_edit.cpp:640
 msgid "Text: Delete Box"
 msgstr ""
 
-#: kpmainwindow_edit.cpp:533
+#: kpmainwindow_edit.cpp:641
 msgid "Selection: Delete"
-msgstr ""
+msgstr "Танланган: Ўчириш"
 
-#: kpmainwindow_edit.cpp:605
+#: kpmainwindow_edit.cpp:713
 msgid "Text: Finish"
-msgstr ""
+msgstr "Матн: Тугатиш"
 
-#: kpmainwindow_edit.cpp:606
+#: kpmainwindow_edit.cpp:714
 msgid "Selection: Deselect"
 msgstr ""
 
-#: kpmainwindow_edit.cpp:662
+#: kpmainwindow_edit.cpp:773
 msgid "Copy to File"
-msgstr ""
+msgstr "Файлга нусха кўчириш"
 
-#: kpmainwindow_edit.cpp:701
+#: kpmainwindow_edit.cpp:820
 msgid "Paste From File"
-msgstr ""
+msgstr "Файлдан қўйиш"
 
-#: kpmainwindow_file.cpp:72
+#: kpmainwindow_file.cpp:73
 msgid "E&xport..."
 msgstr "&Экспорт қилиш"
 
-#: kpmainwindow_file.cpp:76
+#: kpmainwindow_file.cpp:77
 msgid "Reloa&d"
 msgstr "&Қайтадан юклаш"
 
-#: kpmainwindow_file.cpp:85
+#: kpmainwindow_file.cpp:86
 msgid "Set as Wa&llpaper (Centered)"
-msgstr ""
+msgstr "Иш столига қўйиш (&марказда)"
 
-#: kpmainwindow_file.cpp:87
+#: kpmainwindow_file.cpp:88
 msgid "Set as Wallpaper (&Tiled)"
 msgstr ""
 
-#: kpmainwindow_file.cpp:314
+#: kpmainwindow_file.cpp:329
 msgid "Open Image"
 msgstr "Расмни очиш"
 
-#: kpmainwindow_file.cpp:480
+#: kpmainwindow_file.cpp:583
 msgid "Save Image As"
-msgstr ""
+msgstr "Расмни сақлаш"
 
-#: kpmainwindow_file.cpp:586
+#: kpmainwindow_file.cpp:701
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Reloading will lose all changes since you last saved it.\n"
 "Are you sure?"
 msgstr ""
 
-#: kpmainwindow_file.cpp:596
+#: kpmainwindow_file.cpp:711
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Reloading will lose all changes.\n"
 "Are you sure?"
 msgstr ""
 
-#: kpmainwindow_file.cpp:726
+#: kpmainwindow_file.cpp:840
 msgid ""
 "You must save this image before sending it.\n"
 "Do you want to save it?"
 msgstr ""
+"Расмни жўнатишдан олдин уни сақлаш керак.\n"
+"Уни сақлашни истайсизми?"
 
-#: kpmainwindow_file.cpp:769
+#: kpmainwindow_file.cpp:883
 msgid ""
 "Before this image can be set as the wallpaper, you must save it as a local "
 "file.\n"
 "Do you want to save it?"
 msgstr ""
+"Расмни иш столига қўйишдан олдин уни сақлаш керак.\n"
+"Уни сақлашни истайсизми?"
 
-#: kpmainwindow_file.cpp:775
+#: kpmainwindow_file.cpp:889
 msgid ""
 "Before this image can be set as the wallpaper, you must save it.\n"
 "Do you want to save it?"
 msgstr ""
+"Расмни иш столига қўйишдан олдин уни сақлаш керак.\n"
+"Уни сақлашни истайсизми?"
 
-#: kpmainwindow_file.cpp:839
+#: kpmainwindow_file.cpp:953
 msgid "Could not change wallpaper."
-msgstr ""
+msgstr "Расмни иш столига қўйиб бўлмади."
 
-#: kpmainwindow_image.cpp:83
+#: kpmainwindow_image.cpp:91
 msgid "R&esize / Scale..."
 msgstr ""
 
-#: kpmainwindow_image.cpp:86
-msgid "Crop Ou&tside Selection"
+#: kpmainwindow_image.cpp:94
+msgid "Se&t as Image (Crop)"
 msgstr ""
 
-#: kpmainwindow_image.cpp:89
-msgid "A&utocrop"
-msgstr ""
-
-#: kpmainwindow_image.cpp:92
+#: kpmainwindow_image.cpp:100
 msgid "&Flip..."
 msgstr ""
 
-#: kpmainwindow_image.cpp:95
+#: kpmainwindow_image.cpp:103
 msgid "&Rotate..."
 msgstr "&Айлантириш"
 
-#: kpmainwindow_image.cpp:98
+#: kpmainwindow_image.cpp:106
 msgid "S&kew..."
+msgstr "&Эгиш"
+
+#: kpmainwindow_image.cpp:109
+msgid "Reduce to Mo&nochrome (Dithered)"
 msgstr ""
 
-#: kpmainwindow_image.cpp:101
-msgid "Convert to &Black && White"
+#: kpmainwindow_image.cpp:112
+msgid "Reduce to &Grayscale"
 msgstr ""
 
-#: kpmainwindow_image.cpp:104
-msgid "Convert to &Grayscale"
-msgstr ""
-
-#: kpmainwindow_image.cpp:107
+#: kpmainwindow_image.cpp:115
 msgid "&Invert Colors"
 msgstr ""
 
-#: kpmainwindow_image.cpp:110
+#: kpmainwindow_image.cpp:118
 msgid "C&lear"
 msgstr "Т&озалаш"
 
-#: kpmainwindow_image.cpp:113
+#: kpmainwindow_image.cpp:121
 msgid "&More Effects..."
 msgstr "&Бошқа эффектлар"
 
-#: kpmainwindow_image.cpp:151 rc.cpp:2 rc.cpp:5
+#: kpmainwindow_image.cpp:159 rc.cpp:4 rc.cpp:10
+#, no-c-format
 msgid "&Image"
 msgstr "&Расм"
 
-#: kpmainwindow_image.cpp:152
+#: kpmainwindow_image.cpp:160
 msgid "Select&ion"
-msgstr "&Танлаш"
+msgstr "&Танланган"
 
 #: kpmainwindow_settings.cpp:63
 msgid "Show &Path"
@@ -363,7 +478,7 @@ msgstr "Тагини чизиш"
 
 #: kpmainwindow_text.cpp:66
 msgid "Strike Through"
-msgstr ""
+msgstr "Устини чизиш"
 
 #: kpmainwindow_tools.cpp:103
 msgid "Previous Tool Option (Group #1)"
@@ -380,6 +495,23 @@ msgstr ""
 #: kpmainwindow_tools.cpp:119
 msgid "Next Tool Option (Group #2)"
 msgstr ""
+
+#: kpmainwindow_tools.cpp:524
+msgid ""
+"<qt>"
+"<p>"
+"Resizing the image to %1x%2 may take a substantial amount of memory. This "
+"can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to resize the image?</p></qt>"
+msgstr ""
+
+#: kpmainwindow_tools.cpp:534 tools/kptoolresizescale.cpp:1125
+msgid "Resize Image?"
+msgstr ""
+
+#: kpmainwindow_tools.cpp:535 tools/kptoolresizescale.cpp:1126
+msgid "R&esize Image"
+msgstr "Ўлчами&ни ўзгартириш"
 
 #: kpmainwindow_view.cpp:89
 msgid "Show &Grid"
@@ -412,73 +544,222 @@ msgstr ""
 msgid "Text"
 msgstr "Матн"
 
-#: kpselection.cpp:323 tools/kptoolresizescale.cpp:567
+#: kpselection.cpp:323 tools/kptoolresizescale.cpp:571
 msgid "Selection"
-msgstr "Танлаш"
+msgstr "Танланган"
 
-#: kpthumbnail.cpp:134
+#: kpthumbnail.cpp:145
 msgid "%1% - Thumbnail"
 msgstr ""
 
-#: kpthumbnail.cpp:141
+#: kpthumbnail.cpp:152
 msgid "Thumbnail"
 msgstr ""
 
-#: kpviewscrollablecontainer.cpp:206
-msgid "Resize Image: Let go of all the mouse buttons."
-msgstr ""
-
-#: kpviewscrollablecontainer.cpp:236
-msgid "Resize Image: Right click to cancel."
-msgstr ""
-
-#: kpviewscrollablecontainer.cpp:269 kpviewscrollablecontainer.cpp:775
-#: kpviewscrollablecontainer.cpp:777 kpviewscrollablecontainer.cpp:779
+#: kpviewscrollablecontainer.cpp:156 kpviewscrollablecontainer.cpp:870
+#: kpviewscrollablecontainer.cpp:876 kpviewscrollablecontainer.cpp:882
 msgid "Drag the handle to resize the image."
 msgstr ""
 
-#: rc.cpp:3 rc.cpp:6
+#: kpviewscrollablecontainer.cpp:215
+msgid "Resize Image: Let go of all the mouse buttons."
+msgstr ""
+
+#: kpviewscrollablecontainer.cpp:245
+msgid "Resize Image: Right click to cancel."
+msgstr "Расмнинг ўлчамини ўзгартириш: Бекор қилиш учун ўнг сичқончани босинг."
+
+#: rc.cpp:6 rc.cpp:12
+#, no-c-format
 msgid "Text Toolbar"
 msgstr "Матн панели"
 
-#: pixmapfx/kpcoloreffect.cpp:63 tools/kptoolautocrop.cpp:505
-#: tools/kptoolclear.cpp:64 tools/kptoolconverttoblackandwhite.cpp:67
+#: pixmapfx/kpcoloreffect.cpp:63 tools/kptoolclear.cpp:64
 #: tools/kptoolconverttograyscale.cpp:62 tools/kptoolflip.cpp:89
-#: tools/kptoolinvertcolors.cpp:60 tools/kptoolresizescale.cpp:129
-#: tools/kptoolrotate.cpp:78 tools/kptoolskew.cpp:81
+#: tools/kptoolresizescale.cpp:131 tools/kptoolrotate.cpp:78
+#: tools/kptoolskew.cpp:81
 #, c-format
 msgid "Selection: %1"
-msgstr "Танлаш: %1"
+msgstr "Танланган: %1"
 
-#: pixmapfx/kpeffectcontrast.cpp:45 pixmapfx/kpeffectsdialog.cpp:83
-msgid "Contrast"
-msgstr "Контраст"
+#: pixmapfx/kpeffectbalance.cpp:60 pixmapfx/kpeffectsdialog.cpp:96
+msgid "Balance"
+msgstr ""
 
-#: pixmapfx/kpeffectcontrast.cpp:80
+#: pixmapfx/kpeffectbalance.cpp:263
+msgid "&Brightness:"
+msgstr "&Ёруғлик:"
+
+#: pixmapfx/kpeffectbalance.cpp:266
+msgid "Re&set"
+msgstr "&Тиклаш"
+
+#: pixmapfx/kpeffectbalance.cpp:268
 msgid "Co&ntrast:"
 msgstr "Кон&траст:"
 
-#: pixmapfx/kpeffectsdialog.cpp:71
+#: pixmapfx/kpeffectbalance.cpp:271
+msgid "&Reset"
+msgstr ""
+
+#: pixmapfx/kpeffectbalance.cpp:273
+msgid "&Gamma:"
+msgstr "&Гамма:"
+
+#: pixmapfx/kpeffectbalance.cpp:280
+msgid "Rese&t"
+msgstr "&Тиклаш"
+
+#: pixmapfx/kpeffectbalance.cpp:287
+msgid "C&hannels:"
+msgstr "&Каналлар:"
+
+#: pixmapfx/kpeffectbalance.cpp:289
+msgid "All"
+msgstr "Ҳаммаси"
+
+#: pixmapfx/kpeffectbalance.cpp:290
+msgid "Red"
+msgstr "Қизил"
+
+#: pixmapfx/kpeffectbalance.cpp:291
+msgid "Green"
+msgstr "Яшил"
+
+#: pixmapfx/kpeffectbalance.cpp:292
+msgid "Blue"
+msgstr "Кўк"
+
+#: pixmapfx/kpeffectbalance.cpp:295
+msgid "Reset &All Values"
+msgstr ""
+
+#: pixmapfx/kpeffectbalance.cpp:364
+msgid "Settings"
+msgstr "Мосламалар"
+
+#: pixmapfx/kpeffectblursharpen.cpp:53
+msgid "Soften && Sharpen"
+msgstr "Юмшатиш ва ўткирлаш"
+
+#: pixmapfx/kpeffectblursharpen.cpp:123 pixmapfx/kpeffectemboss.cpp:119
+msgid "&Amount:"
+msgstr "&Миқдори:"
+
+#: pixmapfx/kpeffectblursharpen.cpp:188
+msgid "Soften"
+msgstr "Юмшатиш"
+
+#: pixmapfx/kpeffectblursharpen.cpp:190
+msgid "Sharpen"
+msgstr "Ўткирлаш"
+
+#: pixmapfx/kpeffectemboss.cpp:53 pixmapfx/kpeffectsdialog.cpp:97
+msgid "Emboss"
+msgstr "Қавариқ"
+
+#: pixmapfx/kpeffectemboss.cpp:122
+msgid "None"
+msgstr "Йўқ"
+
+#: pixmapfx/kpeffectemboss.cpp:138 pixmapfx/kpeffectflatten.cpp:132
+msgid "E&nable"
+msgstr "Ёқ&иш"
+
+#: pixmapfx/kpeffectflatten.cpp:56 pixmapfx/kpeffectsdialog.cpp:98
+msgid "Flatten"
+msgstr "Ясси"
+
+#: pixmapfx/kpeffectflatten.cpp:186
+msgid "Colors"
+msgstr "Ранглар"
+
+#: pixmapfx/kpeffectinvert.cpp:51 pixmapfx/kpeffectinvert.cpp:58
+#: pixmapfx/kpeffectsdialog.cpp:99
+msgid "Invert"
+msgstr ""
+
+#: pixmapfx/kpeffectinvert.cpp:166
+msgid "&Red"
+msgstr "Қизи&л"
+
+#: pixmapfx/kpeffectinvert.cpp:167
+msgid "&Green"
+msgstr "&Яшил"
+
+#: pixmapfx/kpeffectinvert.cpp:168
+msgid "&Blue"
+msgstr "&Кўк"
+
+#: pixmapfx/kpeffectinvert.cpp:173
+msgid "&All"
+msgstr "Ҳам&маси"
+
+#: pixmapfx/kpeffectinvert.cpp:247
+msgid "Channels"
+msgstr "Каналлар"
+
+#: pixmapfx/kpeffectreducecolors.cpp:200
+msgid "Reduce to Monochrome (Dithered)"
+msgstr ""
+
+#: pixmapfx/kpeffectreducecolors.cpp:202
+msgid "Reduce to Monochrome"
+msgstr "Монохромга камайтириш"
+
+#: pixmapfx/kpeffectreducecolors.cpp:207
+msgid "Reduce to 256 Color (Dithered)"
+msgstr ""
+
+#: pixmapfx/kpeffectreducecolors.cpp:209
+msgid "Reduce to 256 Color"
+msgstr "256 рангга камайтириш"
+
+#: pixmapfx/kpeffectreducecolors.cpp:286
+msgid "&Monochrome"
+msgstr "&Монохром"
+
+#: pixmapfx/kpeffectreducecolors.cpp:289
+msgid "Mo&nochrome (Dithered)"
+msgstr ""
+
+#: pixmapfx/kpeffectreducecolors.cpp:291
+msgid "256 Co&lor"
+msgstr "256 ран&г"
+
+#: pixmapfx/kpeffectreducecolors.cpp:293
+msgid "256 Colo&r (Dithered)"
+msgstr ""
+
+#: pixmapfx/kpeffectreducecolors.cpp:295
+msgid "24-&bit Color"
+msgstr "24-би&т ранг"
+
+#: pixmapfx/kpeffectreducecolors.cpp:418
+msgid "Reduce To:"
+msgstr "Камайтириш:"
+
+#: pixmapfx/kpeffectsdialog.cpp:79
 msgid "More Image Effects (Selection)"
-msgstr ""
+msgstr "Бошқа эффектлар (танланган)"
 
-#: pixmapfx/kpeffectsdialog.cpp:73
+#: pixmapfx/kpeffectsdialog.cpp:81
 msgid "More Image Effects"
-msgstr ""
+msgstr "Бошқа эффектлар"
 
-#: pixmapfx/kpeffectsdialog.cpp:80
+#: pixmapfx/kpeffectsdialog.cpp:93
 msgid "&Effect:"
 msgstr "&Эффект:"
 
-#: pixmapfx/kpeffectsdialog.cpp:84 pixmapfx/kpeffectswirl.cpp:47
-msgid "Swirl"
-msgstr ""
+#: pixmapfx/kpeffectsdialog.cpp:100
+msgid "Reduce Colors"
+msgstr "Рангларни камайтириш"
 
-#: pixmapfx/kpeffectswirl.cpp:84
-msgid "Swirl &angle:"
-msgstr ""
+#: pixmapfx/kpeffectsdialog.cpp:101
+msgid "Soften & Sharpen"
+msgstr "Юмшатиш ва ўткирлаш"
 
-#: pixmapfx/kppixmapfx.cpp:302
+#: pixmapfx/kppixmapfx.cpp:339
 msgid ""
 "The %1 may have more colors than the current screen mode. In order to "
 "display it, some colors may be changed. Try increasing your screen depth to "
@@ -487,74 +768,74 @@ msgid ""
 "data will be approximated with a 1-bit transparency mask."
 msgstr ""
 
-#: pixmapfx/kppixmapfx.cpp:330
+#: pixmapfx/kppixmapfx.cpp:367
 msgid ""
 "The %1 may have more colors than the current screen mode. In order to "
 "display it, some colors may be changed. Try increasing your screen depth to "
 "at least %2bpp."
 msgstr ""
 
-#: pixmapfx/kppixmapfx.cpp:338
+#: pixmapfx/kppixmapfx.cpp:375
 msgid "Low Screen Depth"
 msgstr ""
 
-#: pixmapfx/kppixmapfx.cpp:344
+#: pixmapfx/kppixmapfx.cpp:381
 msgid ""
 "The %1 contains translucency which is not fully supported. The translucency "
 "data will be approximated with a 1-bit transparency mask."
 msgstr ""
 
-#: pixmapfx/kppixmapfx.cpp:351
+#: pixmapfx/kppixmapfx.cpp:388
 msgid "Image Contains Translucency"
 msgstr ""
 
-#: tools/kptool.cpp:196
+#: tools/kptool.cpp:197
 msgid ""
 "_: <Tool Name> (<Single Accel Key>)\n"
 "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
-#: tools/kptool.cpp:1344
+#: tools/kptool.cpp:1398
 msgid "left"
 msgstr "чап"
 
-#: tools/kptool.cpp:1351
+#: tools/kptool.cpp:1405
 msgid "right"
 msgstr "ўнг"
 
-#: tools/kptool.cpp:1363
+#: tools/kptool.cpp:1417
 msgid "Left click"
 msgstr ""
 
-#: tools/kptool.cpp:1365
+#: tools/kptool.cpp:1419
 msgid "left click"
 msgstr ""
 
-#: tools/kptool.cpp:1370
+#: tools/kptool.cpp:1424
 msgid "Right click"
 msgstr ""
 
-#: tools/kptool.cpp:1372
+#: tools/kptool.cpp:1426
 msgid "right click"
 msgstr ""
 
-#: tools/kptool.cpp:1384
+#: tools/kptool.cpp:1438
 msgid "Left drag"
 msgstr ""
 
-#: tools/kptool.cpp:1386
+#: tools/kptool.cpp:1440
 msgid "left drag"
 msgstr ""
 
-#: tools/kptool.cpp:1391
+#: tools/kptool.cpp:1445
 msgid "Right drag"
 msgstr ""
 
-#: tools/kptool.cpp:1393
+#: tools/kptool.cpp:1447
 msgid "right drag"
 msgstr ""
 
-#: tools/kptool.cpp:1412
+#: tools/kptool.cpp:1466
 msgid "%1: "
 msgstr ""
 
@@ -574,35 +855,51 @@ msgstr ""
 #: tools/kptoolfloodfill.cpp:117 tools/kptoolpen.cpp:223
 #: tools/kptoolpolygon.cpp:477 tools/kptoolpolygon.cpp:483
 #: tools/kptoolpolygon.cpp:504 tools/kptoolpolygon.cpp:508
-#: tools/kptoolrectangle.cpp:443 tools/kptoolselection.cpp:296
+#: tools/kptoolrectangle.cpp:443 tools/kptoolselection.cpp:338
 msgid "%1 to cancel."
 msgstr ""
 
-#: tools/kptoolairspray.cpp:212 tools/kptoolcolorpicker.cpp:110
-#: tools/kptoolfloodfill.cpp:141 tools/kptoolpen.cpp:872
+#: tools/kptoolairspray.cpp:212 tools/kptoolcolorpicker.cpp:115
+#: tools/kptoolfloodfill.cpp:141 tools/kptoolpen.cpp:879
 #: tools/kptoolpolygon.cpp:702 tools/kptoolrectangle.cpp:518
-#: tools/kptoolselection.cpp:95 tools/kptoolselection.cpp:376
-#: tools/kptoolselection.cpp:806
+#: tools/kptoolselection.cpp:130 tools/kptoolselection.cpp:460
+#: tools/kptoolselection.cpp:941
 msgid "Let go of all the mouse buttons."
 msgstr ""
 
-#: tools/kptoolautocrop.cpp:312
-msgid "Autocrop could not find the %1 border so could not crop it."
-msgstr ""
-
-#: tools/kptoolautocrop.cpp:313
-msgid "selection's"
-msgstr ""
-
-#: tools/kptoolautocrop.cpp:313
-msgid "image's"
-msgstr ""
-
 #: tools/kptoolautocrop.cpp:314
-msgid "Nothing to Autocrop"
+msgid ""
+"KolourPaint cannot remove the selection's internal border as it could not be "
+"located."
 msgstr ""
 
-#: tools/kptoolautocrop.cpp:502
+#: tools/kptoolautocrop.cpp:316
+msgid "Cannot Remove Internal Border"
+msgstr ""
+
+#: tools/kptoolautocrop.cpp:322
+msgid ""
+"KolourPaint cannot automatically crop the image as its border could not be "
+"located."
+msgstr ""
+
+#: tools/kptoolautocrop.cpp:324
+msgid "Cannot Autocrop"
+msgstr ""
+
+#: tools/kptoolautocrop.cpp:516
+msgid "Remove Internal B&order"
+msgstr ""
+
+#: tools/kptoolautocrop.cpp:518
+msgid "Remove Internal Border"
+msgstr ""
+
+#: tools/kptoolautocrop.cpp:523
+msgid "Autocr&op"
+msgstr ""
+
+#: tools/kptoolautocrop.cpp:525
 msgid "Autocrop"
 msgstr ""
 
@@ -614,7 +911,7 @@ msgstr "Бўёқ"
 msgid "Draw using brushes of different shapes and sizes"
 msgstr ""
 
-#: tools/kptoolcolorpicker.cpp:54 tools/kptoolcolorpicker.cpp:154
+#: tools/kptoolcolorpicker.cpp:54 tools/kptoolcolorpicker.cpp:168
 msgid "Color Picker"
 msgstr "Ранг танлагич"
 
@@ -627,7 +924,7 @@ msgid "Click to select a color."
 msgstr "Рангни танлаш учун босинг."
 
 #: tools/kptoolcolorwasher.cpp:34 tools/kptoolpen.cpp:209
-#: tools/kptoolpen.cpp:383
+#: tools/kptoolpen.cpp:390
 msgid "Color Eraser"
 msgstr "Рангни ўчирувчи"
 
@@ -635,16 +932,12 @@ msgstr "Рангни ўчирувчи"
 msgid "Replaces pixels of the foreground color with the background color"
 msgstr ""
 
-#: tools/kptoolconverttoblackandwhite.cpp:64
-msgid "Convert to Black && White"
-msgstr ""
-
 #: tools/kptoolconverttograyscale.cpp:59
-msgid "Convert to Grayscale"
+msgid "Reduce to Grayscale"
 msgstr ""
 
 #: tools/kptoolcrop.cpp:149
-msgid "Crop Outside Selection"
+msgid "Set as Image"
 msgstr ""
 
 #: tools/kptoolcurve.cpp:36
@@ -653,7 +946,7 @@ msgstr "Эгри чизиқ"
 
 #: tools/kptoolcurve.cpp:37
 msgid "Draws curves"
-msgstr ""
+msgstr "Эгри чизиқ чизиш"
 
 #: tools/kptoolellipse.cpp:34 tools/kptoolrectangle.cpp:582
 msgid "Ellipse"
@@ -661,11 +954,11 @@ msgstr "Эллипс"
 
 #: tools/kptoolellipse.cpp:35
 msgid "Draws ellipses and circles"
-msgstr ""
+msgstr "Эллипс ва айлана чизиш"
 
 #: tools/kptoolellipticalselection.cpp:36
 msgid "Selection (Elliptical)"
-msgstr ""
+msgstr "Танлаш (эллептик)"
 
 #: tools/kptoolellipticalselection.cpp:37
 msgid "Makes an elliptical or circular selection"
@@ -703,7 +996,7 @@ msgstr ""
 msgid "Flip Image"
 msgstr ""
 
-#: tools/kptoolflip.cpp:165 tools/kptoolrotate.cpp:257
+#: tools/kptoolflip.cpp:165 tools/kptoolrotate.cpp:267
 msgid "Direction"
 msgstr "Йўналиш"
 
@@ -717,7 +1010,7 @@ msgstr ""
 
 #: tools/kptoolfloodfill.cpp:55 tools/kptoolfloodfill.cpp:182
 msgid "Flood Fill"
-msgstr ""
+msgstr "Тўлдириш"
 
 #: tools/kptoolfloodfill.cpp:55
 msgid "Fills regions in the image"
@@ -735,21 +1028,17 @@ msgstr ""
 msgid "Makes a free-form selection"
 msgstr ""
 
-#: tools/kptoolinvertcolors.cpp:57
-msgid "Invert Colors"
-msgstr ""
-
 #: tools/kptoolline.cpp:36
 msgid "Line"
 msgstr "Чизиқ"
 
 #: tools/kptoolline.cpp:37
 msgid "Draws lines"
-msgstr ""
+msgstr "Тўгри чизиқ чизиш"
 
 #: tools/kptoolpen.cpp:75 tools/kptoolpen.cpp:200
 msgid "Pen"
-msgstr ""
+msgstr "Қалам"
 
 #: tools/kptoolpen.cpp:75
 msgid "Draws dots and freehand strokes"
@@ -773,11 +1062,11 @@ msgstr ""
 
 #: tools/kptoolpolygon.cpp:317
 msgid "Polygon"
-msgstr ""
+msgstr "Кўпбурчак"
 
 #: tools/kptoolpolygon.cpp:317
 msgid "Draws polygons"
-msgstr ""
+msgstr "Кўпбурчак чизиш"
 
 #: tools/kptoolpolygon.cpp:342 tools/kptoolrectangle.cpp:305
 msgid "Drag to draw."
@@ -805,37 +1094,37 @@ msgstr ""
 
 #: tools/kptoolpolyline.cpp:36
 msgid "Connected Lines"
-msgstr ""
+msgstr "Уланган чизиқлар"
 
 #: tools/kptoolpolyline.cpp:37
 msgid "Draws connected lines"
-msgstr ""
+msgstr "Уланган чизиқлар чизиш"
 
-#: tools/kptoolpreviewdialog.cpp:157
+#: tools/kptoolpreviewdialog.cpp:129
 msgid "%1 Selection"
 msgstr ""
 
-#: tools/kptoolpreviewdialog.cpp:159
+#: tools/kptoolpreviewdialog.cpp:131
 msgid "%1 Image"
 msgstr ""
 
-#: tools/kptoolpreviewdialog.cpp:165 tools/kptoolresizescale.cpp:685
+#: tools/kptoolpreviewdialog.cpp:137 tools/kptoolresizescale.cpp:721
 msgid "Dimensions"
 msgstr "Ўлчамлар"
 
-#: tools/kptoolpreviewdialog.cpp:167 tools/kptoolresizescale.cpp:692
+#: tools/kptoolpreviewdialog.cpp:139 tools/kptoolresizescale.cpp:728
 msgid "Original:"
 msgstr "Асл нусха:"
 
-#: tools/kptoolpreviewdialog.cpp:171 tools/kptoolpreviewdialog.cpp:252
+#: tools/kptoolpreviewdialog.cpp:143 tools/kptoolpreviewdialog.cpp:231
 msgid "%1 x %2"
 msgstr "%1 x %2"
 
-#: tools/kptoolpreviewdialog.cpp:183
+#: tools/kptoolpreviewdialog.cpp:155
 msgid "After %1:"
 msgstr ""
 
-#: tools/kptoolpreviewdialog.cpp:201 widgets/kpcolorsimilaritydialog.cpp:58
+#: tools/kptoolpreviewdialog.cpp:173 widgets/kpcolorsimilaritydialog.cpp:58
 msgid "Preview"
 msgstr "Кўриб чиқиш"
 
@@ -845,7 +1134,7 @@ msgstr "Тўртбурчак"
 
 #: tools/kptoolrectangle.cpp:173
 msgid "Draws rectangles and squares"
-msgstr ""
+msgstr "Тўртбурчак чизиш"
 
 #: tools/kptoolrectangle.cpp:580 tools/kptoolroundedrectangle.cpp:34
 msgid "Rounded Rectangle"
@@ -853,51 +1142,49 @@ msgstr ""
 
 #: tools/kptoolrectselection.cpp:36
 msgid "Selection (Rectangular)"
-msgstr ""
+msgstr "Танлаш (тўртбурчак)"
 
 #: tools/kptoolrectselection.cpp:37
 msgid "Makes a rectangular selection"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:114
+#: tools/kptoolresizescale.cpp:116
 msgid "Resize"
-msgstr ""
+msgstr "Ўлчамини ўзгартириш"
 
-#: tools/kptoolresizescale.cpp:117
+#: tools/kptoolresizescale.cpp:119
 msgid "Scale"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:120
+#: tools/kptoolresizescale.cpp:122
 msgid "Smooth Scale"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:127
+#: tools/kptoolresizescale.cpp:129
 msgid "Text: %1 Box"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:504
+#: tools/kptoolresizescale.cpp:506
 msgid "Resize / Scale"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:558
+#: tools/kptoolresizescale.cpp:562
 msgid "Ac&t on:"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:564
-#, fuzzy
+#: tools/kptoolresizescale.cpp:568
 msgid "Entire Image"
-msgstr "Расмни очиш"
+msgstr "Бутун расм"
 
-#: tools/kptoolresizescale.cpp:570
-#, fuzzy
+#: tools/kptoolresizescale.cpp:574
 msgid "Text Box"
-msgstr "Матн"
+msgstr ""
 
-#: tools/kptoolresizescale.cpp:604
+#: tools/kptoolresizescale.cpp:640
 msgid "Operation"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:606
+#: tools/kptoolresizescale.cpp:642
 msgid ""
 "<qt>"
 "<ul>"
@@ -911,185 +1198,333 @@ msgid ""
 "picture.</li></ul></qt>"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:627
+#: tools/kptoolresizescale.cpp:663
 msgid "&Resize"
-msgstr ""
+msgstr "Ўлчами&ни ўзгартириш"
 
-#: tools/kptoolresizescale.cpp:632
+#: tools/kptoolresizescale.cpp:668
 msgid "&Scale"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:637
+#: tools/kptoolresizescale.cpp:673
 msgid "S&mooth Scale"
 msgstr ""
 
-#: tools/kptoolresizescale.cpp:687
+#: tools/kptoolresizescale.cpp:723
 msgid "Width:"
 msgstr "Эни:"
 
-#: tools/kptoolresizescale.cpp:689
+#: tools/kptoolresizescale.cpp:725
 msgid "Height:"
 msgstr "Узунаси:"
 
-#: tools/kptoolresizescale.cpp:696 tools/kptoolresizescale.cpp:703
-#: tools/kptoolresizescale.cpp:712
+#: tools/kptoolresizescale.cpp:732 tools/kptoolresizescale.cpp:739
+#: tools/kptoolresizescale.cpp:748
 msgid "x"
-msgstr ""
+msgstr "x"
 
-#: tools/kptoolresizescale.cpp:701
+#: tools/kptoolresizescale.cpp:737
 msgid "&New:"
 msgstr "&Янги:"
 
-#: tools/kptoolresizescale.cpp:706
+#: tools/kptoolresizescale.cpp:742
 msgid "&Percent:"
 msgstr "&Фоиз:"
 
-#: tools/kptoolresizescale.cpp:711 tools/kptoolresizescale.cpp:717
-#: widgets/kpcolorsimilaritydialog.cpp:73
+#: tools/kptoolresizescale.cpp:747 tools/kptoolresizescale.cpp:753
+#: widgets/kpcolorsimilaritydialog.cpp:81
 #, c-format
 msgid "%"
 msgstr "%"
 
-#: tools/kptoolresizescale.cpp:719
+#: tools/kptoolresizescale.cpp:755
 msgid "Keep &aspect ratio"
 msgstr ""
 
-#: tools/kptoolrotate.cpp:75 tools/kptoolrotate.cpp:234
+#: tools/kptoolresizescale.cpp:1103
+msgid ""
+"<qt>"
+"<p>Resizing the text box to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to resize the text box?</p></qt>"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1111
+msgid "Resize Text Box?"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1112
+msgid "R&esize Text Box"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1117
+msgid ""
+"<qt>"
+"<p>"
+"Resizing the image to %1x%2 may take a substantial amount of memory. This "
+"can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to resize the image?</p></qt>"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1135
+msgid ""
+"<qt>"
+"<p>Scaling the image to %1x%2 may take a substantial amount of memory. This "
+"can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to scale the image?</p></qt>"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1143
+msgid "Scale Image?"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1144
+msgid "Scal&e Image"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1149
+msgid ""
+"<qt>"
+"<p>Scaling the selection to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to scale the selection?</p></qt>"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1157
+msgid "Scale Selection?"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1158
+msgid "Scal&e Selection"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1167
+msgid ""
+"<qt>"
+"<p>Smooth Scaling the image to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p>"
+"<p>Are you sure you want to smooth scale the image?</p></qt>"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1175
+msgid "Smooth Scale Image?"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1176
+msgid "Smooth Scal&e Image"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1181
+msgid ""
+"<qt>"
+"<p>Smooth Scaling the selection to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p>"
+"<p>Are you sure you want to smooth scale the selection?</p></qt>"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1189
+msgid "Smooth Scale Selection?"
+msgstr ""
+
+#: tools/kptoolresizescale.cpp:1190
+msgid "Smooth Scal&e Selection"
+msgstr ""
+
+#: tools/kptoolrotate.cpp:75 tools/kptoolrotate.cpp:239
 msgid "Rotate"
 msgstr "Айлантириш"
 
-#: tools/kptoolrotate.cpp:268
+#: tools/kptoolrotate.cpp:278
 msgid "Cou&nterclockwise"
-msgstr ""
+msgstr "Соат &кўрсатгичига қарши"
 
-#: tools/kptoolrotate.cpp:269
+#: tools/kptoolrotate.cpp:279
 msgid "C&lockwise"
 msgstr "&Соат кўрсатгичи бўйича"
 
-#: tools/kptoolrotate.cpp:300 tools/kptoolskew.cpp:237
+#: tools/kptoolrotate.cpp:310 tools/kptoolskew.cpp:250
 msgid "Angle"
 msgstr "Бурчак"
 
-#: tools/kptoolrotate.cpp:304
+#: tools/kptoolrotate.cpp:314
 msgid "90 &degrees"
 msgstr "&90 даража"
 
-#: tools/kptoolrotate.cpp:305
+#: tools/kptoolrotate.cpp:315
 msgid "180 d&egrees"
 msgstr "&180 даража"
 
-#: tools/kptoolrotate.cpp:306
+#: tools/kptoolrotate.cpp:316
 msgid "270 de&grees"
 msgstr "&270 даража"
 
-#: tools/kptoolrotate.cpp:308
+#: tools/kptoolrotate.cpp:318
 msgid "C&ustom:"
 msgstr "&Бошқа:"
 
-#: tools/kptoolrotate.cpp:312 tools/kptoolskew.cpp:249
-#: tools/kptoolskew.cpp:260
+#: tools/kptoolrotate.cpp:322 tools/kptoolskew.cpp:262
+#: tools/kptoolskew.cpp:273
 msgid "degrees"
 msgstr "даража"
 
-#: tools/kptoolrotate.cpp:316 tools/kptoolskew.cpp:265
-#: widgets/kpcolorsimilaritydialog.cpp:79
-msgid "Update &Preview"
+#: tools/kptoolrotate.cpp:455
+msgid ""
+"<qt>"
+"<p>Rotating the selection to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to rotate the selection?</p></qt>"
 msgstr ""
+
+#: tools/kptoolrotate.cpp:463
+msgid "Rotate Selection?"
+msgstr ""
+
+#: tools/kptoolrotate.cpp:464
+msgid "Rotat&e Selection"
+msgstr "Танланганни &айлантириш"
+
+#: tools/kptoolrotate.cpp:470
+msgid ""
+"<qt>"
+"<p>"
+"Rotating the image to %1x%2 may take a substantial amount of memory. This "
+"can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to rotate the image?</p></qt>"
+msgstr ""
+
+#: tools/kptoolrotate.cpp:478
+msgid "Rotate Image?"
+msgstr ""
+
+#: tools/kptoolrotate.cpp:479
+msgid "Rotat&e Image"
+msgstr "Расмни &айлантириш"
 
 #: tools/kptoolroundedrectangle.cpp:35
 msgid "Draws rectangles and squares with rounded corners"
 msgstr ""
 
-#: tools/kptoolselection.cpp:102
-msgid "Left click to change cursor position."
-msgstr ""
-
-#: tools/kptoolselection.cpp:104
+#: tools/kptoolselection.cpp:136
 msgid "Left drag to resize text box."
 msgstr ""
 
-#: tools/kptoolselection.cpp:106
-msgid "Left drag to move text box."
-msgstr ""
-
-#: tools/kptoolselection.cpp:111
+#: tools/kptoolselection.cpp:138
 msgid "Left drag to scale selection."
 msgstr ""
 
-#: tools/kptoolselection.cpp:113
+#: tools/kptoolselection.cpp:145
+msgid "Left click to change cursor position."
+msgstr ""
+
+#: tools/kptoolselection.cpp:147
+msgid "Left drag to move text box."
+msgstr ""
+
+#: tools/kptoolselection.cpp:151
 msgid "Left drag to move selection."
 msgstr ""
 
-#: tools/kptoolselection.cpp:119
+#: tools/kptoolselection.cpp:157
 msgid "Left drag to create text box."
 msgstr ""
 
-#: tools/kptoolselection.cpp:121
+#: tools/kptoolselection.cpp:159
 msgid "Left drag to create selection."
 msgstr ""
 
-#: tools/kptoolselection.cpp:833
+#: tools/kptoolselection.cpp:970
 msgid "%1: Smear"
 msgstr ""
 
-#: tools/kptoolselection.cpp:840
+#: tools/kptoolselection.cpp:977
 msgid "Text: Move Box"
 msgstr ""
 
-#: tools/kptoolselection.cpp:841
+#: tools/kptoolselection.cpp:978
 msgid "Selection: Move"
-msgstr ""
+msgstr "Танланган: Кўчириш"
 
-#: tools/kptoolselection.cpp:1012
+#: tools/kptoolselection.cpp:1149
 msgid "Selection: Transparency"
+msgstr "Танланган: Шаффофлик"
+
+#: tools/kptoolselection.cpp:1200
+msgid "Selection: Opaque"
 msgstr ""
 
-#: tools/kptoolselection.cpp:1061
-#, fuzzy
-msgid "Selection: Opaque"
-msgstr "Танлаш: %1"
-
-#: tools/kptoolselection.cpp:1062
-#, fuzzy
+#: tools/kptoolselection.cpp:1201
 msgid "Selection: Transparent"
-msgstr "Шаффоф"
+msgstr "Танланган: Шаффоф"
 
-#: tools/kptoolselection.cpp:1097
+#: tools/kptoolselection.cpp:1240
 msgid "Selection: Transparency Color"
 msgstr ""
 
-#: tools/kptoolselection.cpp:1132
+#: tools/kptoolselection.cpp:1279
 msgid "Selection: Transparency Color Similarity"
 msgstr ""
 
-#: tools/kptoolselection.cpp:1697
+#: tools/kptoolselection.cpp:1854
 msgid "Text: Resize Box"
 msgstr ""
 
-#: tools/kptoolselection.cpp:1698
-#, fuzzy
+#: tools/kptoolselection.cpp:1855
 msgid "Selection: Smooth Scale"
-msgstr "Танлаш: %1"
+msgstr ""
 
-#: tools/kptoolskew.cpp:78 tools/kptoolskew.cpp:221
+#: tools/kptoolskew.cpp:78 tools/kptoolskew.cpp:225
 msgid "Skew"
-msgstr ""
+msgstr "Эгиш"
 
-#: tools/kptoolskew.cpp:244
+#: tools/kptoolskew.cpp:257
 msgid "&Horizontal:"
+msgstr "&Энига:"
+
+#: tools/kptoolskew.cpp:268
+msgid "&Vertical:"
+msgstr "&Бўйига:"
+
+#: tools/kptoolskew.cpp:400
+msgid ""
+"<qt>"
+"<p>Skewing the selection to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to skew the selection?</p></qt>"
 msgstr ""
 
-#: tools/kptoolskew.cpp:255
-msgid "&Vertical:"
+#: tools/kptoolskew.cpp:408
+msgid "Skew Selection?"
 msgstr ""
+
+#: tools/kptoolskew.cpp:409
+msgid "Sk&ew Selection"
+msgstr "Танланганни э&гиш"
+
+#: tools/kptoolskew.cpp:415
+msgid ""
+"<qt>"
+"<p>Skewing the image to %1x%2 may take a substantial amount of memory. This "
+"can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to skew the image?</p></qt>"
+msgstr ""
+
+#: tools/kptoolskew.cpp:423
+msgid "Skew Image?"
+msgstr ""
+
+#: tools/kptoolskew.cpp:424
+msgid "Sk&ew Image"
+msgstr "Расмни &эгиш"
 
 #: tools/kptooltext.cpp:48
 msgid "Writes text"
-msgstr ""
+msgstr "Матн ёзиш"
 
 #: tools/kptooltext.cpp:203
 msgid "Text: New Line"
-msgstr ""
+msgstr "Матн: Янги сатр"
 
 #: tools/kptooltext.cpp:224
 msgid "Text: Backspace"
@@ -1097,11 +1532,11 @@ msgstr ""
 
 #: tools/kptooltext.cpp:245
 msgid "Text: Delete"
-msgstr ""
+msgstr "Матн: Ўчириш"
 
 #: tools/kptooltext.cpp:495
 msgid "Text: Write"
-msgstr ""
+msgstr "Матн: Ёзиш"
 
 #: tools/kptooltext.cpp:588
 msgid "Text: Opaque Background"
@@ -1117,35 +1552,35 @@ msgstr ""
 
 #: tools/kptooltext.cpp:629
 msgid "Text: Foreground Color"
-msgstr ""
+msgstr "Матн: Олдин фон ранги"
 
 #: tools/kptooltext.cpp:648
 msgid "Text: Background Color"
-msgstr ""
+msgstr "Матн: Орқа фон ранги"
 
 #: tools/kptooltext.cpp:680
 msgid "Text: Font"
-msgstr ""
+msgstr "Матн: Шрифт"
 
 #: tools/kptooltext.cpp:703
 msgid "Text: Font Size"
-msgstr ""
+msgstr "Матн: Шрифтнинг ўлчами"
 
 #: tools/kptooltext.cpp:723
 msgid "Text: Bold"
-msgstr ""
+msgstr "Матн: Қалин"
 
 #: tools/kptooltext.cpp:742
 msgid "Text: Italic"
-msgstr ""
+msgstr "Матн: Қия"
 
 #: tools/kptooltext.cpp:761
 msgid "Text: Underline"
-msgstr ""
+msgstr "Матн: Тагини чизиш"
 
 #: tools/kptooltext.cpp:780
 msgid "Text: Strike Through"
-msgstr ""
+msgstr "Матн: Устини чизиш"
 
 #: widgets/kpcolorsimilaritycube.cpp:71
 msgid ""
@@ -1176,24 +1611,24 @@ msgstr ""
 msgid "Color Similarity"
 msgstr ""
 
-#: widgets/kpcolorsimilaritydialog.cpp:68
+#: widgets/kpcolorsimilaritydialog.cpp:76
 msgid "RGB Color Cube Distance"
 msgstr ""
 
-#: widgets/kpcolorsimilaritydialog.cpp:74
+#: widgets/kpcolorsimilaritydialog.cpp:82
 msgid "Exact Match"
 msgstr ""
 
-#: widgets/kpcolortoolbar.cpp:688
+#: widgets/kpcolortoolbar.cpp:720
 #: widgets/kptoolwidgetopaqueortransparent.cpp:45
 msgid "Transparent"
 msgstr "Шаффоф"
 
-#: widgets/kpcolortoolbar.cpp:841
+#: widgets/kpcolortoolbar.cpp:873
 msgid "Color similarity: %1%"
 msgstr ""
 
-#: widgets/kpcolortoolbar.cpp:843
+#: widgets/kpcolortoolbar.cpp:875
 msgid "Color similarity: Exact"
 msgstr ""
 
