@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
-"POT-Creation-Date: 2004-06-28 01:55+0200\n"
-"PO-Revision-Date: 2004-06-28 21:12+0200\n"
+"POT-Creation-Date: 2004-07-03 01:17+0200\n"
+"PO-Revision-Date: 2004-07-07 22:12+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -23,19 +23,19 @@ msgstr "Амал &гуруҳининг номи:"
 msgid "&Disable"
 msgstr "Ўч&ириш"
 
-#: rc.cpp:3 rc.cpp:27 rc.cpp:64
+#: rc.cpp:3 rc.cpp:27 rc.cpp:70
 msgid "&Comment:"
 msgstr "И&зоҳ:"
 
-#: rc.cpp:4 rc.cpp:11 rc.cpp:48 rc.cpp:59
+#: rc.cpp:4 rc.cpp:11 rc.cpp:54 rc.cpp:65
 msgid "Comment:"
 msgstr "Изоҳ:"
 
-#: rc.cpp:5 rc.cpp:12 rc.cpp:49 rc.cpp:60
+#: rc.cpp:5 rc.cpp:12 rc.cpp:55 rc.cpp:66
 msgid "&New"
 msgstr "&Янги"
 
-#: rc.cpp:6 rc.cpp:13 rc.cpp:50 rc.cpp:61
+#: rc.cpp:6 rc.cpp:13 rc.cpp:56 rc.cpp:67
 msgid "&Modify..."
 msgstr "Ўзгар&тириш"
 
@@ -107,11 +107,15 @@ msgstr "Сичқончанинг тугмаси:"
 msgid "Gesture timeout (ms):"
 msgstr ""
 
-#: app/main.cpp:89 rc.cpp:35 rc.cpp:36
+#: rc.cpp:35
+msgid "Windows to Exclude"
+msgstr ""
+
+#: app/main.cpp:89 rc.cpp:36 rc.cpp:37
 msgid "KHotKeys"
 msgstr "KHotKeys"
 
-#: rc.cpp:37
+#: rc.cpp:38
 msgid ""
 "<p>This module allows configuring input actions, like mouse gestures, "
 "keyboard shortcuts for performing commands, launching applications or DCOP "
@@ -121,127 +125,156 @@ msgid ""
 "enabling/disabling actions, and changing triggers.</p>"
 msgstr ""
 
-#: rc.cpp:38
+#: rc.cpp:39
+msgid "Keyboard_input_widget_ui"
+msgstr ""
+
+#: rc.cpp:40
 msgid "Keyboard input:"
 msgstr ""
 
-#: rc.cpp:39
+#: rc.cpp:41
 msgid "Modify..."
 msgstr "Ўзгартириш"
 
-#: rc.cpp:40
-msgid "Send to specific &window"
-msgstr "&Кўрсатилган ойнага жўнатиш"
+#: rc.cpp:42
+msgid "Send Input To"
+msgstr ""
 
-#: kcontrol/tab_widget.cpp:416 rc.cpp:41 rc.cpp:58
+#: rc.cpp:43
+msgid ""
+"Specify the window where the keyboard input should be sent to:<ul>\n"
+"<li><em>Action window:</em>"
+" The window where the triggering action happened; this is usually the "
+"currently active window, except for mouse gesture triggers - where it is the "
+"window under mouse - and window triggers -where it is the window triggering "
+"the action.</li>\n"
+"<li><em>Active window:</em> The currently active window.</li>\n"
+"<li><em>Specific window:</em> Any window matching the given criteria.</li>\n"
+"</ul>"
+msgstr ""
+
+#: rc.cpp:44
+msgid "Action window"
+msgstr "Амал ойнаси"
+
+#: rc.cpp:45
+msgid "Active window"
+msgstr "Актив ойна"
+
+#: rc.cpp:46
+msgid "Specific window"
+msgstr "Махсус ойна"
+
+#: kcontrol/tab_widget.cpp:416 rc.cpp:47 rc.cpp:64
 msgid "Window"
 msgstr "Ойна"
 
-#: rc.cpp:42
+#: rc.cpp:48
 msgid "&New Action"
 msgstr "&Янги амал"
 
-#: rc.cpp:43
+#: rc.cpp:49
 msgid "New &Group"
 msgstr "Янги &гуруҳ"
 
-#: rc.cpp:44
+#: rc.cpp:50
 msgid "Delete Action"
 msgstr "Амални ўчириш"
 
-#: rc.cpp:45
+#: rc.cpp:51
 msgid "Global &Settings"
 msgstr "&Умумий мосламалар"
 
-#: rc.cpp:46
+#: rc.cpp:52
 msgid "Menu entry to execute:"
 msgstr "Бажариш учун менюнинг банди:"
 
-#: rc.cpp:47
+#: rc.cpp:53
 msgid "&Browse..."
 msgstr "&Танлаш"
 
-#: rc.cpp:53
+#: rc.cpp:59
 msgid "Trigger When"
 msgstr ""
 
-#: rc.cpp:54
+#: rc.cpp:60
 msgid "Window appears"
 msgstr "Ойна пайдо бўлади"
 
-#: rc.cpp:55
+#: rc.cpp:61
 msgid "Window disappears"
 msgstr "Ойна йўқолади"
 
-#: rc.cpp:56
+#: rc.cpp:62
 msgid "Window activates"
 msgstr ""
 
-#: rc.cpp:57
+#: rc.cpp:63
 msgid "Window deactivates"
 msgstr ""
 
-#: rc.cpp:65
+#: rc.cpp:71
 msgid "Window &title:"
 msgstr "Ойнанинг &сарлавҳаси:"
 
-#: rc.cpp:66 rc.cpp:74 rc.cpp:82
+#: rc.cpp:72 rc.cpp:80 rc.cpp:88
 msgid "Is Not Important"
 msgstr "Муҳим эмас"
 
-#: rc.cpp:67 rc.cpp:75 rc.cpp:83
+#: rc.cpp:73 rc.cpp:81 rc.cpp:89
 msgid "Contains"
 msgstr ""
 
-#: rc.cpp:68 rc.cpp:76 rc.cpp:84
+#: rc.cpp:74 rc.cpp:82 rc.cpp:90
 msgid "Is"
 msgstr ""
 
-#: rc.cpp:69 rc.cpp:77 rc.cpp:85
+#: rc.cpp:75 rc.cpp:83 rc.cpp:91
 msgid "Matches Regular Expression"
 msgstr "Доимий ифодага тенг"
 
-#: rc.cpp:70 rc.cpp:78 rc.cpp:86
+#: rc.cpp:76 rc.cpp:84 rc.cpp:92
 msgid "Does Not Contain"
 msgstr ""
 
-#: rc.cpp:71 rc.cpp:79 rc.cpp:87
+#: rc.cpp:77 rc.cpp:85 rc.cpp:93
 msgid "Is Not"
 msgstr ""
 
-#: rc.cpp:72 rc.cpp:80 rc.cpp:88
+#: rc.cpp:78 rc.cpp:86 rc.cpp:94
 msgid "Does Not Match Regular Expression"
 msgstr "Доимий ифодага тенг эмас"
 
-#: rc.cpp:73
+#: rc.cpp:79
 msgid "Window c&lass:"
 msgstr "Ойнанинг с&инфи:"
 
-#: rc.cpp:81
+#: rc.cpp:87
 msgid "Window &role:"
 msgstr ""
 
-#: rc.cpp:89
+#: rc.cpp:95
 msgid "&Autodetect"
 msgstr "&Авто-аниқлаш"
 
-#: rc.cpp:90
+#: rc.cpp:96
 msgid "Window Types"
 msgstr "Ойнанинг турлари"
 
-#: rc.cpp:91
+#: rc.cpp:97
 msgid "Normal"
 msgstr "Оддий"
 
-#: rc.cpp:92
+#: rc.cpp:98
 msgid "Dialog"
 msgstr "Диалог"
 
-#: rc.cpp:93
+#: rc.cpp:99
 msgid "Desktop"
 msgstr "Иш столи"
 
-#: rc.cpp:94
+#: rc.cpp:100
 msgid "Dock"
 msgstr ""
 
@@ -261,11 +294,11 @@ msgstr "Менюнинг банди : "
 msgid "DCOP : "
 msgstr "DCOP : "
 
-#: shared/actions.cpp:378
+#: shared/actions.cpp:390
 msgid "Keyboard input : "
 msgstr ""
 
-#: shared/actions.cpp:424
+#: shared/actions.cpp:436
 msgid "Activate window : "
 msgstr "Ойнани активлаш : "
 
@@ -308,25 +341,25 @@ msgid ""
 "want to import it?"
 msgstr ""
 
-#: kcontrol/menuedit.cpp:85 shared/settings.cpp:235
+#: kcontrol/menuedit.cpp:85 shared/settings.cpp:245
 msgid "These entries were created using Menu Editor."
 msgstr ""
 "Бу бандлар меню таҳрирчи ёрдамида "
 "яратилган."
 
-#: shared/triggers.cpp:148
+#: shared/triggers.cpp:149
 msgid "Shortcut trigger: "
 msgstr ""
 
-#: shared/triggers.cpp:294
+#: shared/triggers.cpp:314
 msgid "Window trigger: "
 msgstr ""
 
-#: shared/triggers.cpp:330
+#: shared/triggers.cpp:350
 msgid "Gesture trigger: "
 msgstr ""
 
-#: shared/windows.cpp:322
+#: shared/windows.cpp:371
 msgid "Window simple: "
 msgstr ""
 
@@ -450,35 +483,35 @@ msgid ""
 "save or 'Reset' to try again."
 msgstr ""
 
-#: kcontrol/gestures_settings_tab.cpp:32
+#: kcontrol/gestures_settings_tab.cpp:33
 msgid "Button 2 (middle)"
 msgstr "Тугма 2 (ўрта)"
 
-#: kcontrol/gestures_settings_tab.cpp:33
+#: kcontrol/gestures_settings_tab.cpp:34
 msgid "Button 3 (secondary)"
 msgstr "Тугма 3 (иккиламчи)"
 
-#: kcontrol/gestures_settings_tab.cpp:34
+#: kcontrol/gestures_settings_tab.cpp:35
 msgid "Button 4 (often wheel up)"
 msgstr "Тугма 4 (одатда ғилдирак юқорига)"
 
-#: kcontrol/gestures_settings_tab.cpp:35
+#: kcontrol/gestures_settings_tab.cpp:36
 msgid "Button 5 (often wheel down)"
 msgstr "Тугма 5 (одатда ғилдирак пастга)"
 
-#: kcontrol/gestures_settings_tab.cpp:36
+#: kcontrol/gestures_settings_tab.cpp:37
 msgid "Button 6 (if available)"
 msgstr "Тугма 6 (агар бўлса)"
 
-#: kcontrol/gestures_settings_tab.cpp:37
+#: kcontrol/gestures_settings_tab.cpp:38
 msgid "Button 7 (if available)"
 msgstr "Тугма 7 (агар бўлса)"
 
-#: kcontrol/gestures_settings_tab.cpp:38
+#: kcontrol/gestures_settings_tab.cpp:39
 msgid "Button 8 (if available)"
 msgstr "Тугма 8 (агар бўлса)"
 
-#: kcontrol/gestures_settings_tab.cpp:39
+#: kcontrol/gestures_settings_tab.cpp:40
 msgid "Button 9 (if available)"
 msgstr "Тугма 9 (агар бўлса)"
 
@@ -495,11 +528,11 @@ msgstr "Янги амал"
 msgid "New Action Group"
 msgstr "Янги амал гуруҳи"
 
-#: kcontrol/kcmkhotkeys.cpp:257
+#: kcontrol/kcmkhotkeys.cpp:263
 msgid "Select File with Actions to Be Imported"
 msgstr "Импорт қилиш учун амаллар файлини танланг"
 
-#: kcontrol/kcmkhotkeys.cpp:264
+#: kcontrol/kcmkhotkeys.cpp:270
 msgid ""
 "Import of the specified file failed. Most probably the file is not a valid "
 "file with actions."
