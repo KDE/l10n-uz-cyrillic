@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeprint\n"
-"POT-Creation-Date: 2004-01-15 01:57+0100\n"
-"PO-Revision-Date: 2004-01-26 23:25+0100\n"
+"POT-Creation-Date: 2004-01-28 16:49+0100\n"
+"PO-Revision-Date: 2004-01-30 20:21+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -158,9 +158,8 @@ msgid "Local printer queue (%1)"
 msgstr "Локал принтернинг навбати (%1)"
 
 #: lpd/kmlpdmanager.cpp:87
-msgid ""
-"_: Unknown Type of local printer queue\n"
-"Unknown"
+#, fuzzy
+msgid "Unknown Type of local printer queue"
 msgstr "Номаълум"
 
 #: lpd/kmlpdmanager.cpp:88
@@ -168,9 +167,8 @@ msgid "<Not available>"
 msgstr ""
 
 #: lpd/kmlpdmanager.cpp:89
-msgid ""
-"_: Unknown Driver\n"
-"Unknown"
+#, fuzzy
+msgid "Unknown Driver"
 msgstr "Номаълум"
 
 #: lpd/kmlpdmanager.cpp:95
@@ -708,10 +706,10 @@ msgid "&Name:"
 msgstr "&Номи:"
 
 #: kprintdialog.cpp:267 management/kminfopage.cpp:50
-msgid ""
-"_: Status\n"
-"State:"
-msgstr "Ҳолати:"
+#: management/kmjobviewer.cpp:236
+#, fuzzy
+msgid "Status"
+msgstr "&Боши:"
 
 #: kprintdialog.cpp:269 management/kminfopage.cpp:48
 msgid "Type:"
@@ -1415,11 +1413,15 @@ msgid "You must select a device."
 msgstr "Ускунани танлашингиз шарт."
 
 #: cups/kmcupsmanager.cpp:742
-msgid "Library libcupsdconf not found. Check your installation."
+#, fuzzy
+msgid "Library cupsdconf not found. Check your installation."
 msgstr ""
+"Буйруқ (<b>%1</b>) сизнинг $PATH муҳит "
+"ўзгарувчингизда кўрсатилган "
+"директориялар ичида топилмади."
 
 #: cups/kmcupsmanager.cpp:748
-msgid "Symbol %1 not found in libcupsdconf library."
+msgid "Symbol %1 not found in cupsdconf library."
 msgstr ""
 
 #: cups/kmcupsmanager.cpp:823
@@ -1515,9 +1517,8 @@ msgstr ""
 "топилмади!"
 
 #: cups/kmwippprinter.cpp:139 management/kmwsocket.cpp:135
-msgid ""
-"_: Unknown host - 1 is the IP\n"
-"<Unknown> (%1)"
+#, fuzzy
+msgid "Unknown host - 1 is the IP"
 msgstr "<Номаълум> (%1)"
 
 #: cups/kmwippprinter.cpp:173
@@ -1549,9 +1550,8 @@ msgid "Processing..."
 msgstr "Ишлаяпман..."
 
 #: cups/kmwippprinter.cpp:190 kmjob.cpp:132 kmprinter.cpp:142
-msgid ""
-"_: Unknown State\n"
-"Unknown"
+#, fuzzy
+msgid "Unknown State"
 msgstr "Номаълум"
 
 #: cups/kmwippprinter.cpp:192
@@ -2364,21 +2364,19 @@ msgid "Serial Fax/Modem printer"
 msgstr "Кетма-кет факс/модем принтер"
 
 #: management/kmpropbackend.cpp:71
-msgid ""
-"_: Unknown Protocol\n"
-"Unknown"
+#, fuzzy
+msgid "Unknown Protocol"
 msgstr "Номаълум"
 
 #: management/kminfopage.cpp:44 management/kmpropgeneral.cpp:38
-msgid ""
-"_: Physical Location\n"
-"Location:"
+#, fuzzy
+msgid "Physical Location"
 msgstr "Манзили:"
 
 #: management/kminfopage.cpp:46 management/kmpropgeneral.cpp:39
 #: management/kmwname.cpp:41
 msgid "Description:"
-msgstr "Таьрифи:"
+msgstr "Таърифи:"
 
 #: management/kminfopage.cpp:56
 msgid "Model:"
@@ -2415,9 +2413,8 @@ msgid "Special (pseudo) printer"
 msgstr "Махсус (сохта) принтер"
 
 #: management/kminfopage.cpp:121
-msgid ""
-"_: Unknown class of printer\n"
-"Unknown"
+#, fuzzy
+msgid "Unknown class of printer"
 msgstr "Номаълум"
 
 #: management/kmwclass.cpp:37
@@ -2785,12 +2782,6 @@ msgstr "Вазифа рақами"
 #: management/kmjobviewer.cpp:234
 msgid "Owner"
 msgstr "Эгаси"
-
-#: management/kmjobviewer.cpp:236
-msgid ""
-"_: Status\n"
-"State"
-msgstr "Ҳолати"
 
 #: management/kmjobviewer.cpp:237
 msgid "Size (KB)"
@@ -3947,6 +3938,18 @@ msgstr ""
 "Принтернинг баъзи маълумотлари "
 "етишмаяпти"
 
+#: foomatic/kmfoomaticmanager.cpp:164
+msgid "ev_longname"
+msgstr ""
+
+#: foomatic/kmfoomaticmanager.cpp:164 foomatic/kmfoomaticmanager.cpp:188
+msgid "en"
+msgstr ""
+
+#: foomatic/kmfoomaticmanager.cpp:188
+msgid "arg_longname"
+msgstr ""
+
 #: kmmanager.cpp:70
 msgid "This operation is not implemented."
 msgstr "Бу операция амалга оширилгани йўқ."
@@ -4038,10 +4041,7 @@ msgstr ""
 "туширилганлигини текширинг."
 
 #: kprinterimpl.cpp:283
-msgid ""
-"_: 1 is the command that <files> is given to\n"
-"Check the command syntax:\n"
-"%1 <files>"
+msgid "1 is the command that <files> is given to"
 msgstr ""
 
 #: kprinterimpl.cpp:290
@@ -4236,23 +4236,10 @@ msgstr "&Тескари энига"
 msgid "R&everse portrait"
 msgstr "Те&скари узунасига"
 
-#: kpgeneralpage.cpp:145
-msgid ""
-"_: duplex orientation\n"
-"&None"
+#: kpgeneralpage.cpp:145 kpgeneralpage.cpp:146 kpgeneralpage.cpp:147
+#, fuzzy
+msgid "duplex orientation"
 msgstr "&Йўқ"
-
-#: kpgeneralpage.cpp:146
-msgid ""
-"_: duplex orientation\n"
-"Lon&g side"
-msgstr ""
-
-#: kpgeneralpage.cpp:147
-msgid ""
-"_: duplex orientation\n"
-"S&hort side"
-msgstr ""
 
 #: kpgeneralpage.cpp:159
 msgid "S&tart:"
@@ -4715,4 +4702,3 @@ msgstr ""
 #: kpqtpage.cpp:89
 msgid "Ot&her"
 msgstr "Б&ошқа"
-

@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
-"POT-Creation-Date: 2004-01-16 01:39+0100\n"
-"PO-Revision-Date: 2004-01-28 00:47+0100\n"
+"POT-Creation-Date: 2004-01-28 16:48+0100\n"
+"PO-Revision-Date: 2004-01-30 20:21+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 msgid "File '%1' is not readable"
 msgstr "%1 файлини ўқиб бўлмайди"
 
-#: kio/global.cpp:693 kio/job.cpp:1477 kio/job.cpp:2658 kio/job.cpp:3077
+#: kio/global.cpp:693 kio/job.cpp:1477 kio/job.cpp:2658 kio/job.cpp:3079
 #: kio/paste.cpp:58
 msgid "File Already Exists"
 msgstr "Файл аллақачон мавжуд"
@@ -26,7 +26,7 @@ msgstr "Файл аллақачон мавжуд"
 msgid "Folder Already Exists"
 msgstr "Жилд аллақачон мавжуд"
 
-#: kio/job.cpp:2658 kio/job.cpp:3077
+#: kio/job.cpp:2658 kio/job.cpp:3079
 msgid "Already Exists as Folder"
 msgstr "Жилд сифатида аллақачон мавжуд"
 
@@ -508,11 +508,11 @@ msgstr "Давом этиб бўлмайди"
 msgid "%1/s (done)"
 msgstr "%1/с (бажарилди)"
 
-#: kio/kservice.cpp:823
+#: kio/kservice.cpp:825
 msgid "Updating System Configuration"
 msgstr "Системанинг мосламаси янгиланмоқда"
 
-#: kio/kservice.cpp:824
+#: kio/kservice.cpp:826
 msgid "Updating system configuration."
 msgstr "Системанинг мосламаси янгиланмоқда"
 
@@ -567,7 +567,7 @@ msgstr ""
 "Битта жилд\n"
 "%n жилд"
 
-#: ../kioslave/file/file.cc:1379 kio/global.cpp:185
+#: ../kioslave/file/file.cc:1381 kio/global.cpp:185
 #, c-format
 msgid "Could not read %1"
 msgstr "%1'ни ўқиб бўлмади"
@@ -2150,7 +2150,7 @@ msgstr ""
 "Фойдаланувчининг исмини ва махфий сўзини "
 "киритишингиз керак"
 
-#: kfile/kpropertiesdialog.cpp:3332 kio/passdlg.cpp:106 rc.cpp:33
+#: kfile/kpropertiesdialog.cpp:3338 kio/passdlg.cpp:106 rc.cpp:33
 msgid "&Username:"
 msgstr "Ф&ойдаланувчи:"
 
@@ -2224,7 +2224,7 @@ msgstr "Рамзий боғ"
 msgid "%1 (Link)"
 msgstr "%1 (Боғ)"
 
-#: kfile/kpropertiesdialog.cpp:837 kio/kfileitem.cpp:610
+#: kfile/kpropertiesdialog.cpp:841 kio/kfileitem.cpp:610
 msgid "Type:"
 msgstr "Тури:"
 
@@ -2233,11 +2233,11 @@ msgstr "Тури:"
 msgid "Link to %1"
 msgstr "%1 билан боғланган"
 
-#: kfile/kpropertiesdialog.cpp:877 kio/kfileitem.cpp:619
+#: kfile/kpropertiesdialog.cpp:881 kio/kfileitem.cpp:619
 msgid "Size:"
 msgstr "Ҳажми:"
 
-#: kfile/kpropertiesdialog.cpp:970 kio/kfileitem.cpp:622
+#: kfile/kpropertiesdialog.cpp:974 kio/kfileitem.cpp:622
 msgid "Modified:"
 msgstr "Ўзгарган:"
 
@@ -2493,7 +2493,7 @@ msgstr "Ким томонидан берилган:"
 msgid "IP address:"
 msgstr "IP рақами:"
 
-#: kfile/kpropertiesdialog.cpp:2293 kssl/ksslinfodlg.cc:218
+#: kfile/kpropertiesdialog.cpp:2297 kssl/ksslinfodlg.cc:218
 msgid "URL:"
 msgstr "URL:"
 
@@ -2741,7 +2741,7 @@ msgid "KDE Wallet Service"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:321
-msgid "Invalid password for wallet '%1'. Please try again. %2"
+msgid "Invalid password for wallet '%1'. Please try again. (Error code %2)"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:363
@@ -2928,11 +2928,13 @@ msgid " Files: %1 "
 msgstr " Файллар: %1 "
 
 #: misc/uiserver.cpp:597
-msgid " Size: %1 kB "
+#, fuzzy
+msgid " Rem Size: %1 kB "
 msgstr " Ҳажми: %1 Кб "
 
 #: misc/uiserver.cpp:598
-msgid " Time: 00:00:00 "
+#, fuzzy
+msgid " Rem Time: 00:00:00 "
 msgstr " Вақт: 00:00:00 "
 
 #: misc/uiserver.cpp:599
@@ -2944,11 +2946,13 @@ msgid "Cancel Job"
 msgstr "Бекор қилиш"
 
 #: misc/uiserver.cpp:1081
-msgid " Size: %1 "
+#, fuzzy
+msgid " Rem Size: %1 "
 msgstr " Ҳажми: %1 "
 
 #: misc/uiserver.cpp:1083
-msgid " Time: %1 "
+#, fuzzy
+msgid " Rem Time: %1 "
 msgstr " Вақт: %1 "
 
 #: misc/uiserver.cpp:1347
@@ -3123,7 +3127,7 @@ msgstr "Юқорига"
 msgid "Move Down"
 msgstr "Пастга"
 
-#: kfile/kfiledialog.cpp:1598 kfile/kfilefiltercombo.cpp:32
+#: kfile/kfiledialog.cpp:1602 kfile/kfilefiltercombo.cpp:32
 msgid "*|All Files"
 msgstr "*|Ҳамма файллар"
 
@@ -3234,7 +3238,7 @@ msgstr "&Системанинг нишончалари:"
 msgid "O&ther icons:"
 msgstr "&Бошқа нишончалар:"
 
-#: kfile/kicondialog.cpp:240 kfile/kpropertiesdialog.cpp:3248 rc.cpp:90
+#: kfile/kicondialog.cpp:240 kfile/kpropertiesdialog.cpp:3254 rc.cpp:90
 msgid "&Browse..."
 msgstr "&Танлаш"
 
@@ -3280,7 +3284,7 @@ msgstr "Жилдни танлаш"
 msgid "Folder"
 msgstr "Жилд"
 
-#: bookmarks/kbookmarkmenu.cc:785 kfile/kpropertiesdialog.cpp:869
+#: bookmarks/kbookmarkmenu.cc:785 kfile/kpropertiesdialog.cpp:873
 #: kfile/kurlrequesterdlg.cpp:47
 msgid "Location:"
 msgstr "Манзили:"
@@ -3555,17 +3559,17 @@ msgstr ""
 msgid "&Filter:"
 msgstr "&Филтер:"
 
-#: kfile/kfiledialog.cpp:1439
+#: kfile/kfiledialog.cpp:1443
 msgid ""
 "The chosen filenames don't\n"
 "appear to be valid."
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1441
+#: kfile/kfiledialog.cpp:1445
 msgid "Invalid Filenames"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1471
+#: kfile/kfiledialog.cpp:1475
 msgid ""
 "The requested filenames\n"
 "%1\n"
@@ -3578,31 +3582,31 @@ msgstr ""
 "Файл номлари қўштирноқ ичидалигига ишонч "
 "хосил қилинг."
 
-#: kfile/kfiledialog.cpp:1475
+#: kfile/kfiledialog.cpp:1479
 msgid "Filename Error"
 msgstr "Файлнинг номида хато"
 
-#: kfile/kfiledialog.cpp:1595
+#: kfile/kfiledialog.cpp:1599
 msgid "*|All Folders"
 msgstr "*|Ҳамма жилдлар"
 
-#: kfile/kfiledialog.cpp:1879
+#: kfile/kfiledialog.cpp:1883
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1880
+#: kfile/kfiledialog.cpp:1884
 msgid "the extension <b>%1</b>"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1888
+#: kfile/kfiledialog.cpp:1892
 msgid "Automatically select filename e&xtension"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1889
+#: kfile/kfiledialog.cpp:1893
 msgid "a suitable extension"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1900
+#: kfile/kfiledialog.cpp:1904
 msgid ""
 "This option enables some convenient features for saving files with "
 "extensions:"
@@ -3779,7 +3783,7 @@ msgstr "Ҳуқуқлар"
 msgid "Owner"
 msgstr "Эгаси"
 
-#: kfile/kfiledetailview.cpp:71 kfile/kpropertiesdialog.cpp:1769
+#: kfile/kfiledetailview.cpp:71 kfile/kpropertiesdialog.cpp:1773
 msgid "Group"
 msgstr "Гуруҳ"
 
@@ -3798,68 +3802,68 @@ msgstr "%1 ҳоссалари"
 msgid "&General"
 msgstr "&Умумий"
 
-#: kfile/kpropertiesdialog.cpp:850
+#: kfile/kpropertiesdialog.cpp:854
 msgid "Edit file type"
 msgstr "Файлнинг турини таҳрирлаш"
 
-#: kfile/kpropertiesdialog.cpp:860
+#: kfile/kpropertiesdialog.cpp:864
 msgid "Contents:"
 msgstr "Таркиби:"
 
-#: kfile/kpropertiesdialog.cpp:896
+#: kfile/kpropertiesdialog.cpp:900
 msgid "Calculate"
 msgstr "Ҳисоблаш"
 
-#: kfile/kpropertiesdialog.cpp:907 kfile/kpropertiesdialog.cpp:1098
+#: kfile/kpropertiesdialog.cpp:911 kfile/kpropertiesdialog.cpp:1102
 msgid "Refresh"
 msgstr "Янгилаш"
 
-#: kfile/kpropertiesdialog.cpp:920
+#: kfile/kpropertiesdialog.cpp:924
 msgid "Mounted on:"
 msgstr "Уланган:"
 
-#: kfile/kpropertiesdialog.cpp:927
+#: kfile/kpropertiesdialog.cpp:931
 msgid "Free disk space:"
 msgstr "Дискдаги бўш жой:"
 
-#: kfile/kpropertiesdialog.cpp:942
+#: kfile/kpropertiesdialog.cpp:946
 msgid "Points to:"
 msgstr "Билан боғланган:"
 
-#: kfile/kpropertiesdialog.cpp:959
+#: kfile/kpropertiesdialog.cpp:963
 msgid "Created:"
 msgstr "Яратилган:"
 
-#: kfile/kpropertiesdialog.cpp:981
+#: kfile/kpropertiesdialog.cpp:985
 msgid "Accessed:"
 msgstr "Фойдаланилган:"
 
-#: kfile/kpropertiesdialog.cpp:1057 kfile/kpropertiesdialog.cpp:1071
+#: kfile/kpropertiesdialog.cpp:1061 kfile/kpropertiesdialog.cpp:1075
 msgid ""
 "_: Available space out of total partition size (percent used)\n"
 "%1 out of %2 (%3% used)"
 msgstr "%2'дан %1 (%3% ишлатилган)"
 
-#: kfile/kpropertiesdialog.cpp:1080
+#: kfile/kpropertiesdialog.cpp:1084
 msgid "Calculating... %1 (%2)"
 msgstr "Ҳисобланмоқда...%1 (%2)"
 
-#: kfile/kpropertiesdialog.cpp:1107
+#: kfile/kpropertiesdialog.cpp:1111
 msgid "Calculating..."
 msgstr "Ҳисобланмоқда..."
 
-#: kfile/kpropertiesdialog.cpp:1125
+#: kfile/kpropertiesdialog.cpp:1129
 msgid "Stopped"
 msgstr "Тўхтатилди"
 
-#: kfile/kpropertiesdialog.cpp:1165
+#: kfile/kpropertiesdialog.cpp:1169
 msgid "The new file name is empty!"
 msgstr "Янги файлнинг номи кўрсатилмаган!"
 
-#: kfile/kpropertiesdialog.cpp:1291 kfile/kpropertiesdialog.cpp:2349
-#: kfile/kpropertiesdialog.cpp:2511 kfile/kpropertiesdialog.cpp:2717
-#: kfile/kpropertiesdialog.cpp:2981 kfile/kpropertiesdialog.cpp:3469
-#: kfile/kpropertiesdialog.cpp:3713
+#: kfile/kpropertiesdialog.cpp:1295 kfile/kpropertiesdialog.cpp:2353
+#: kfile/kpropertiesdialog.cpp:2515 kfile/kpropertiesdialog.cpp:2721
+#: kfile/kpropertiesdialog.cpp:2987 kfile/kpropertiesdialog.cpp:3475
+#: kfile/kpropertiesdialog.cpp:3719
 msgid ""
 "<qt>"
 "Could not save properties. You do not have sufficient access to write to "
@@ -3869,133 +3873,133 @@ msgstr ""
 "ёзиш учун етарли ҳуқуқларга эга "
 "эмассиз.</qt>"
 
-#: kfile/kpropertiesdialog.cpp:1361 kfile/kpropertiesdialog.cpp:1365
-#: kfile/kpropertiesdialog.cpp:1370
+#: kfile/kpropertiesdialog.cpp:1365 kfile/kpropertiesdialog.cpp:1369
+#: kfile/kpropertiesdialog.cpp:1374
 msgid "Forbidden"
 msgstr "Тақиқланган"
 
-#: kfile/kpropertiesdialog.cpp:1362
+#: kfile/kpropertiesdialog.cpp:1366
 msgid "Can Read"
 msgstr "Ўқиши мумкин"
 
-#: kfile/kpropertiesdialog.cpp:1363
+#: kfile/kpropertiesdialog.cpp:1367
 msgid "Can Read & Write"
 msgstr "Ўқиши ва ёзиши мумкин"
 
-#: kfile/kpropertiesdialog.cpp:1366
+#: kfile/kpropertiesdialog.cpp:1370
 msgid "Can View Content"
 msgstr "Таркибини кўриши мумкин"
 
-#: kfile/kpropertiesdialog.cpp:1367
+#: kfile/kpropertiesdialog.cpp:1371
 msgid "Can View & Modify Content"
 msgstr "Таркибини кўриши ва ўзгартириши мумкин"
 
-#: kfile/kpropertiesdialog.cpp:1371
+#: kfile/kpropertiesdialog.cpp:1375
 msgid "Can View Content & Read"
 msgstr "Таркибини кўриши ва ўқиши мумкин"
 
-#: kfile/kpropertiesdialog.cpp:1372
+#: kfile/kpropertiesdialog.cpp:1376
 msgid "Can View/Read & Modify/Write"
 msgstr "Кўриши/ўқиши ва ўзгартириши/ёзиши мумкин"
 
-#: kfile/kpropertiesdialog.cpp:1462
+#: kfile/kpropertiesdialog.cpp:1466
 msgid "&Permissions"
 msgstr "&Ҳуқуқлар"
 
-#: kfile/kpropertiesdialog.cpp:1473 kfile/kpropertiesdialog.cpp:1705
+#: kfile/kpropertiesdialog.cpp:1477 kfile/kpropertiesdialog.cpp:1709
 msgid "Access Permissions"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1484
+#: kfile/kpropertiesdialog.cpp:1488
 msgid ""
 "_n: This file is a link and does not have permissions.\n"
 "All files are links and do not have permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1487
+#: kfile/kpropertiesdialog.cpp:1491
 msgid "Only the owner can change permissions."
 msgstr ""
 "Ҳуқуқларни фақат эгаси ўзгартириши "
 "мумкин."
 
-#: kfile/kpropertiesdialog.cpp:1490
+#: kfile/kpropertiesdialog.cpp:1494
 msgid "O&wner:"
 msgstr "&Эгаси:"
 
-#: kfile/kpropertiesdialog.cpp:1496
+#: kfile/kpropertiesdialog.cpp:1500
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1498
+#: kfile/kpropertiesdialog.cpp:1502
 msgid "Gro&up:"
 msgstr "&Гуруҳ:"
 
-#: kfile/kpropertiesdialog.cpp:1504
+#: kfile/kpropertiesdialog.cpp:1508
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1506
+#: kfile/kpropertiesdialog.cpp:1510
 msgid "O&thers:"
 msgstr "Б&ошқалар:"
 
-#: kfile/kpropertiesdialog.cpp:1512
+#: kfile/kpropertiesdialog.cpp:1516
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
 "group, are allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1517
+#: kfile/kpropertiesdialog.cpp:1521
 msgid "Only own&er can rename and delete folder content"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1518
+#: kfile/kpropertiesdialog.cpp:1522
 msgid "Is &executable"
 msgstr "&Бажариб бўлади"
 
-#: kfile/kpropertiesdialog.cpp:1522
+#: kfile/kpropertiesdialog.cpp:1526
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
 "contained files and folders. Other users can only add new files, which "
 "requires the 'Modify Content' permission."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1526
+#: kfile/kpropertiesdialog.cpp:1530
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1533
+#: kfile/kpropertiesdialog.cpp:1537
 msgid "A&dvanced Permissions..."
 msgstr "&Қўшимча ҳуқуқлар"
 
-#: kfile/kpropertiesdialog.cpp:1542
+#: kfile/kpropertiesdialog.cpp:1546
 msgid "Ownership"
 msgstr "Эгалик"
 
-#: kfile/kpropertiesdialog.cpp:1549
+#: kfile/kpropertiesdialog.cpp:1553
 msgid "User:"
 msgstr "Фойдаланувчи:"
 
-#: kfile/kpropertiesdialog.cpp:1633
+#: kfile/kpropertiesdialog.cpp:1637
 msgid "Group:"
 msgstr "Гуруҳ:"
 
-#: kfile/kpropertiesdialog.cpp:1675
+#: kfile/kpropertiesdialog.cpp:1679
 msgid "Apply changes to all subfolders and their contents"
 msgstr ""
 "Ўзгаришларни шу жилддаги барча "
 "элементларга қўллаш"
 
-#: kfile/kpropertiesdialog.cpp:1697
+#: kfile/kpropertiesdialog.cpp:1701
 msgid "Advanced Permissions"
 msgstr "Қўшимча ҳуқуқлар"
 
-#: kfile/kpropertiesdialog.cpp:1711
+#: kfile/kpropertiesdialog.cpp:1715
 msgid "Class"
 msgstr "Синф"
 
-#: kfile/kpropertiesdialog.cpp:1715
+#: kfile/kpropertiesdialog.cpp:1719
 msgid ""
 "Show\n"
 "Entries"
@@ -4003,19 +4007,19 @@ msgstr ""
 "Элементларни\n"
 "кўрсатиш"
 
-#: kfile/kpropertiesdialog.cpp:1717
+#: kfile/kpropertiesdialog.cpp:1721
 msgid "Read"
 msgstr "Ўқиш"
 
-#: kfile/kpropertiesdialog.cpp:1721
+#: kfile/kpropertiesdialog.cpp:1725
 msgid "This flag allows viewing the content of the folder."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1723
+#: kfile/kpropertiesdialog.cpp:1727
 msgid "The Read flag allows viewing the content of the file."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1727
+#: kfile/kpropertiesdialog.cpp:1731
 msgid ""
 "Write\n"
 "Entries"
@@ -4023,223 +4027,223 @@ msgstr ""
 "Элементларни\n"
 "ёзиш"
 
-#: kfile/kpropertiesdialog.cpp:1729
+#: kfile/kpropertiesdialog.cpp:1733
 msgid "Write"
 msgstr "Ёзиш"
 
-#: kfile/kpropertiesdialog.cpp:1733
+#: kfile/kpropertiesdialog.cpp:1737
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1736
+#: kfile/kpropertiesdialog.cpp:1740
 msgid "The Write flag allows modifying the content of the file."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1741
+#: kfile/kpropertiesdialog.cpp:1745
 msgid ""
 "_: Enter folder\n"
 "Enter"
 msgstr "Ўтиш"
 
-#: kfile/kpropertiesdialog.cpp:1742
+#: kfile/kpropertiesdialog.cpp:1746
 msgid "Enable this flag to allow entering the folder."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1745
+#: kfile/kpropertiesdialog.cpp:1749
 msgid "Exec"
 msgstr "Бажариш"
 
-#: kfile/kpropertiesdialog.cpp:1746
+#: kfile/kpropertiesdialog.cpp:1750
 msgid "Enable this flag to allow executing the file as a program."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1755
+#: kfile/kpropertiesdialog.cpp:1759
 msgid "Special"
 msgstr "Махсус"
 
-#: kfile/kpropertiesdialog.cpp:1759
+#: kfile/kpropertiesdialog.cpp:1763
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1762
+#: kfile/kpropertiesdialog.cpp:1766
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1766 rc.cpp:30
+#: kfile/kpropertiesdialog.cpp:1770 rc.cpp:30
 msgid "User"
 msgstr "Фойдаланувчи"
 
-#: kfile/kpropertiesdialog.cpp:1772
+#: kfile/kpropertiesdialog.cpp:1776
 msgid "Others"
 msgstr "Бошқалар"
 
-#: kfile/kpropertiesdialog.cpp:1775
+#: kfile/kpropertiesdialog.cpp:1779
 msgid "Set UID"
 msgstr "UID'ни ўрнатиш"
 
-#: kfile/kpropertiesdialog.cpp:1779
+#: kfile/kpropertiesdialog.cpp:1783
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
 "files."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1782
+#: kfile/kpropertiesdialog.cpp:1786
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the owner."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1786
+#: kfile/kpropertiesdialog.cpp:1790
 msgid "Set GID"
 msgstr "GID'ни ўрнатиш"
 
-#: kfile/kpropertiesdialog.cpp:1790
+#: kfile/kpropertiesdialog.cpp:1794
 msgid "If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1793
+#: kfile/kpropertiesdialog.cpp:1797
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the group."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1797
+#: kfile/kpropertiesdialog.cpp:1801
 msgid ""
 "_: File permission, sets user or group ID on execution\n"
 "Sticky"
 msgstr "Ёпишқоқ"
 
-#: kfile/kpropertiesdialog.cpp:1801
+#: kfile/kpropertiesdialog.cpp:1805
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1805
+#: kfile/kpropertiesdialog.cpp:1809
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
 "systems"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1940
+#: kfile/kpropertiesdialog.cpp:1944
 msgid "Link"
 msgstr "Боғ"
 
-#: kfile/kpropertiesdialog.cpp:1956
+#: kfile/kpropertiesdialog.cpp:1960
 msgid "Varying (No Change)"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2055
+#: kfile/kpropertiesdialog.cpp:2059
 msgid ""
 "_n: This file uses advanced permissions\n"
 "These files use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2071
+#: kfile/kpropertiesdialog.cpp:2075
 msgid ""
 "_n: This folder uses advanced permissions.\n"
 "These folders use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2086
+#: kfile/kpropertiesdialog.cpp:2090
 msgid "These files use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2288
+#: kfile/kpropertiesdialog.cpp:2292
 msgid "U&RL"
 msgstr "U&RL"
 
-#: kfile/kpropertiesdialog.cpp:2398
+#: kfile/kpropertiesdialog.cpp:2402
 msgid "A&ssociation"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2407
+#: kfile/kpropertiesdialog.cpp:2411
 msgid "Pattern ( example: *.html;*.htm )"
 msgstr "Намуна (мисол: *.html;*.htm)"
 
-#: kfile/kpropertiesdialog.cpp:2419
+#: kfile/kpropertiesdialog.cpp:2423
 msgid "Mime Type"
 msgstr "MIME тури"
 
-#: kfile/kpropertiesdialog.cpp:2430
+#: kfile/kpropertiesdialog.cpp:2434
 msgid "Comment"
 msgstr "Изоҳ"
 
-#: kfile/kpropertiesdialog.cpp:2440
+#: kfile/kpropertiesdialog.cpp:2444
 msgid "Left click previews"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2556
+#: kfile/kpropertiesdialog.cpp:2560
 msgid "De&vice"
 msgstr "&Ускуна"
 
-#: kfile/kpropertiesdialog.cpp:2586
+#: kfile/kpropertiesdialog.cpp:2590
 msgid "Device (/dev/fd0):"
 msgstr "Ускуна (/dev/fd0):"
 
-#: kfile/kpropertiesdialog.cpp:2587
+#: kfile/kpropertiesdialog.cpp:2591
 msgid "Device:"
 msgstr "Ускуна:"
 
-#: kfile/kpropertiesdialog.cpp:2597
+#: kfile/kpropertiesdialog.cpp:2601
 msgid "Read only"
 msgstr "Фақат ўқишга"
 
-#: kfile/kpropertiesdialog.cpp:2602
+#: kfile/kpropertiesdialog.cpp:2606
 msgid "Mount point (/mnt/floppy):"
 msgstr "Улаш нуқтаси (/mnt/floppy):"
 
-#: kfile/kpropertiesdialog.cpp:2603
+#: kfile/kpropertiesdialog.cpp:2607
 msgid "Mount point:"
 msgstr "Улаш нуқтаси:"
 
-#: kfile/kpropertiesdialog.cpp:2618
+#: kfile/kpropertiesdialog.cpp:2622
 msgid "Unmounted Icon"
 msgstr "\"Ажратилган\" нишончаси"
 
-#: kfile/kpropertiesdialog.cpp:2749 kfile/kpropertiesdialog.cpp:3529
+#: kfile/kpropertiesdialog.cpp:2753 kfile/kpropertiesdialog.cpp:3535
 msgid "&Application"
 msgstr "&Дастур"
 
-#: kfile/kpropertiesdialog.cpp:2859
+#: kfile/kpropertiesdialog.cpp:2863
 #, c-format
 msgid "Add File Type for %1"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2862
+#: kfile/kpropertiesdialog.cpp:2866
 msgid "&Add"
 msgstr "&Қўшиш"
 
-#: kfile/kpropertiesdialog.cpp:2862 kfile/kpropertiesdialog.cpp:2863
+#: kfile/kpropertiesdialog.cpp:2867 kfile/kpropertiesdialog.cpp:2868
 msgid ""
 "Add the selected file types to\n"
 "the list of supported file types."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3049 kfile/kpropertiesdialog.cpp:3501
+#: kfile/kpropertiesdialog.cpp:3055 kfile/kpropertiesdialog.cpp:3507
 msgid "Only executables on local file systems are supported."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3061
+#: kfile/kpropertiesdialog.cpp:3067
 #, c-format
 msgid "Advanced Options for %1"
 msgstr "%1 учун қўшимча параметрлар"
 
-#: kfile/kpropertiesdialog.cpp:3216
+#: kfile/kpropertiesdialog.cpp:3222
 msgid "E&xecute"
 msgstr "&Бажариш"
 
-#: kfile/kpropertiesdialog.cpp:3223
+#: kfile/kpropertiesdialog.cpp:3229
 msgid "Comman&d:"
 msgstr "Буй&руқ:"
 
-#: kfile/kpropertiesdialog.cpp:3232
+#: kfile/kpropertiesdialog.cpp:3238
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -4255,48 +4259,48 @@ msgid ""
 "%c - the caption"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3253
+#: kfile/kpropertiesdialog.cpp:3259
 msgid "Panel Embedding"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3262
+#: kfile/kpropertiesdialog.cpp:3268
 msgid "&Execute on click:"
 msgstr "Босганда б&ажариш:"
 
-#: kfile/kpropertiesdialog.cpp:3270
+#: kfile/kpropertiesdialog.cpp:3276
 msgid "&Window title:"
 msgstr "Ойна &сарлавҳаси:"
 
-#: kfile/kpropertiesdialog.cpp:3290 rc.cpp:25
+#: kfile/kpropertiesdialog.cpp:3296 rc.cpp:25
 msgid "&Run in terminal"
 msgstr "&Терминалда бажариш"
 
-#: kfile/kpropertiesdialog.cpp:3305 rc.cpp:28
+#: kfile/kpropertiesdialog.cpp:3311 rc.cpp:28
 msgid "Do not &close when command exits"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3309 rc.cpp:27
+#: kfile/kpropertiesdialog.cpp:3315 rc.cpp:27
 msgid "&Terminal options:"
 msgstr "Терминалнинг &параметрлари:"
 
-#: kfile/kpropertiesdialog.cpp:3329 rc.cpp:31
+#: kfile/kpropertiesdialog.cpp:3335 rc.cpp:31
 msgid "Ru&n as a different user"
 msgstr "Бошқа ф&ойдаланувчи сифатида бажариш"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:247
-#: bookmarks/kbookmarkmenu.cc:779 kfile/kpropertiesdialog.cpp:3563
+#: bookmarks/kbookmarkmenu.cc:779 kfile/kpropertiesdialog.cpp:3569
 msgid "Name:"
 msgstr "Номи:"
 
-#: kfile/kpropertiesdialog.cpp:3570
-msgid "Description:"
-msgstr "Таьрифи:"
-
 #: kfile/kpropertiesdialog.cpp:3576
+msgid "Description:"
+msgstr "Таърифи:"
+
+#: kfile/kpropertiesdialog.cpp:3582
 msgid "Comment:"
 msgstr "Изоҳ:"
 
-#: kfile/kpropertiesdialog.cpp:3582
+#: kfile/kpropertiesdialog.cpp:3588
 msgid "File types:"
 msgstr "Файл турлари:"
 
@@ -4338,7 +4342,7 @@ msgstr ""
 msgid "You need to be authorized to share directories."
 msgstr ""
 
-#: kfile/kurlbar.cpp:306
+#: kfile/kurlbar.cpp:315
 msgid ""
 "<qt>The <b>Quick Access</b>"
 " panel provides easy access to commonly used file locations."
@@ -4347,52 +4351,52 @@ msgid ""
 "<p>By right clicking on an entry you can add, edit and remove shortcuts.</qt>"
 msgstr ""
 
-#: kfile/kurlbar.cpp:683
+#: kfile/kurlbar.cpp:692
 msgid "&Large Icons"
 msgstr "&Катта нишончалар"
 
-#: kfile/kurlbar.cpp:683
+#: kfile/kurlbar.cpp:692
 msgid "&Small Icons"
 msgstr "К&ичкина нишончалар"
 
-#: kfile/kurlbar.cpp:689
+#: kfile/kurlbar.cpp:698
 msgid "&Edit Entry..."
 msgstr "Элементни &таҳрирлаш"
 
-#: kfile/kurlbar.cpp:691
+#: kfile/kurlbar.cpp:700
 msgid "&Remove Entry"
 msgstr "Элементни ў&чириш"
 
-#: kfile/kurlbar.cpp:694
+#: kfile/kurlbar.cpp:703
 msgid "&Add Entry..."
 msgstr "&Элементни қўшиш"
 
-#: kfile/kurlbar.cpp:724
+#: kfile/kurlbar.cpp:733
 msgid "Enter a description"
 msgstr "Таърифни киритинг"
 
-#: kfile/kurlbar.cpp:863
+#: kfile/kurlbar.cpp:872
 msgid "Edit Quick Access Entry"
 msgstr ""
 
-#: kfile/kurlbar.cpp:866
+#: kfile/kurlbar.cpp:875
 msgid ""
 "<qt><b>Please provide a description, URL and icon for this Quick Access "
 "entry.</b></br></qt>"
 msgstr ""
 
-#: kfile/kurlbar.cpp:873
+#: kfile/kurlbar.cpp:882
 msgid ""
 "<qt>This is the text that will appear in the Quick Access panel."
 "<p>The description should consist of one or two words that will help you "
 "remember what this entry refers to.</qt>"
 msgstr ""
 
-#: kfile/kurlbar.cpp:876 rc.cpp:81
+#: kfile/kurlbar.cpp:885 rc.cpp:81
 msgid "&Description:"
 msgstr "&Таърифи:"
 
-#: kfile/kurlbar.cpp:883
+#: kfile/kurlbar.cpp:892
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
 "used. For "
@@ -4404,25 +4408,25 @@ msgid ""
 "appropriate URL.</qt>"
 msgstr ""
 
-#: kfile/kurlbar.cpp:887
+#: kfile/kurlbar.cpp:896
 msgid "&URL:"
 msgstr "&URL:"
 
-#: kfile/kurlbar.cpp:894
+#: kfile/kurlbar.cpp:903
 msgid ""
 "<qt>This is the icon that will appear in the Quick Access panel."
 "<p>Click on the button to select a different icon.</qt>"
 msgstr ""
 
-#: kfile/kurlbar.cpp:896
+#: kfile/kurlbar.cpp:905
 msgid "Choose an &icon:"
 msgstr "&Нишончани танлаш:"
 
-#: kfile/kurlbar.cpp:913
+#: kfile/kurlbar.cpp:921
 msgid "&Only show when using this application (%1)"
 msgstr "Фақат %1 &дастурини ишлатганда кўрсатиш"
 
-#: kfile/kurlbar.cpp:916
+#: kfile/kurlbar.cpp:924
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
 "current application (%1)."
@@ -4807,11 +4811,11 @@ msgid ""
 "DCOP options or to run it as a different user."
 msgstr ""
 
-#: ../kioslave/http/http.cc:4831 kpasswdserver/kpasswdserver.cpp:206
+#: ../kioslave/http/http.cc:4847 kpasswdserver/kpasswdserver.cpp:206
 msgid "  Do you want to retry?"
 msgstr "  Бошқадан уриниб кўрасизми?"
 
-#: ../kioslave/http/http.cc:4832 kpasswdserver/kpasswdserver.cpp:208
+#: ../kioslave/http/http.cc:4848 kpasswdserver/kpasswdserver.cpp:208
 msgid "Authentication"
 msgstr "Тасдиқлаш"
 
@@ -4865,7 +4869,7 @@ msgid "Delete Bookmark"
 msgstr "Хатчўпни ўчириш"
 
 #: bookmarks/kbookmarkmanager.cc:504 bookmarks/kbookmarkmenu.cc:344
-msgid "Can't add bookmark with empty URL"
+msgid "Can't add bookmark with empty URL."
 msgstr ""
 
 #: bookmarks/kbookmarkmenu.cc:382
@@ -4986,14 +4990,14 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cc:470 ../kioslave/http/http.cc:4843
+#: ../kioslave/ftp/ftp.cc:470 ../kioslave/http/http.cc:4859
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Бу сайтга кириш учун сиз "
 "фойдаланувчининг исмини ва махфий сўзни "
 "кўрсатишингиз керкак."
 
-#: ../kioslave/ftp/ftp.cc:472 ../kioslave/http/http.cc:4851
+#: ../kioslave/ftp/ftp.cc:472 ../kioslave/http/http.cc:4867
 msgid "Site:"
 msgstr "Сайт:"
 
@@ -5010,7 +5014,7 @@ msgstr "Кириш ОК"
 msgid "Could not login to %1."
 msgstr "%1'га кириб бўлмади."
 
-#: ../kioslave/file/file.cc:460 ../kioslave/file/file.cc:621
+#: ../kioslave/file/file.cc:460 ../kioslave/file/file.cc:623
 #, c-format
 msgid ""
 "Could not change permissions for\n"
@@ -5349,43 +5353,43 @@ msgstr ""
 msgid "Sending data to %1"
 msgstr ""
 
-#: ../kioslave/http/http.cc:4092
+#: ../kioslave/http/http.cc:4100
 msgid "Retrieving %1 from %2..."
 msgstr "%1 %2'дан аниқланмоқда..."
 
-#: ../kioslave/http/http.cc:4099
+#: ../kioslave/http/http.cc:4107
 msgid "Retrieving from %1..."
 msgstr "%1'дан аниқланмоқда..."
 
-#: ../kioslave/http/http.cc:4823 ../kioslave/http/http.cc:4942
+#: ../kioslave/http/http.cc:4839 ../kioslave/http/http.cc:4958
 msgid "Authentication Failed!"
 msgstr "Тасдиқлаш муваффқиятсиз тугади!"
 
-#: ../kioslave/http/http.cc:4826 ../kioslave/http/http.cc:4945
+#: ../kioslave/http/http.cc:4842 ../kioslave/http/http.cc:4961
 msgid "Proxy Authentication Failed!"
 msgstr ""
 "Прокси ёрдамида тасдиқлаш муваффқиятсиз "
 "тугади!"
 
-#: ../kioslave/http/http.cc:4852 ../kioslave/http/http.cc:4869
+#: ../kioslave/http/http.cc:4868 ../kioslave/http/http.cc:4885
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr ""
 
-#: ../kioslave/http/http.cc:4859
+#: ../kioslave/http/http.cc:4875
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
 
-#: ../kioslave/http/http.cc:4868
+#: ../kioslave/http/http.cc:4884
 msgid "Proxy:"
 msgstr ""
 
-#: ../kioslave/http/http.cc:4888
+#: ../kioslave/http/http.cc:4904
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr ""
 
-#: ../kioslave/http/http.cc:5286
+#: ../kioslave/http/http.cc:5302
 msgid "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
 
