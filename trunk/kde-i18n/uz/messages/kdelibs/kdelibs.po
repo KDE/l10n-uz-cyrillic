@@ -1,12 +1,11 @@
-# translation of kdelibs_merged.po to Uzbek
 # translation of kdelibs.po to Uzbek
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2003-10-02 01:23+0200\n"
-"PO-Revision-Date: 2003-10-05 17:53+0200\n"
+"POT-Creation-Date: 2003-10-09 01:25+0200\n"
+"PO-Revision-Date: 2003-10-10 22:25+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -25,10 +24,13 @@ msgid ""
 "honor your changes in the Control Center. All other choices will override "
 "that setting."
 msgstr ""
+"Илтимос ушбу дастурда сиз ишлатмоқчи бўлган матн таҳрирчи компонентини "
+"танланг. Агар <b>Система андозасини</b> танласангиз, дастур Бошқариш "
+"Марказида кўрсатилган компонентни ишлатади. Бошқа танлов буни бекор қилади."
 
 #: rc.cpp:3
 msgid "AutoExampleDialog"
-msgstr ""
+msgstr "AutoExampleDialog"
 
 #: rc.cpp:4
 msgid "OneOption"
@@ -36,16 +38,15 @@ msgstr "БирПараметр"
 
 #: rc.cpp:5
 msgid "AnotherOption:"
-msgstr "БирПараметр:"
+msgstr "БошқаПараметр:"
 
 #: rc.cpp:6
 msgid "Form1"
 msgstr "Form1"
 
 #: rc.cpp:7
-#, fuzzy
 msgid "MyString:"
-msgstr "Қатор"
+msgstr "МенингҚаторим:"
 
 #: rc.cpp:8
 msgid "&Certificate"
@@ -71,7 +72,8 @@ msgstr "Асосий тугмалар бирикмаси:"
 msgid ""
 "The currently set shortcut or the shortcut you are entering will show up "
 "here."
-msgstr "Жорий ўрнатилган ёки киритилаётган тугмалар бирикмаси шу ерда кўринади."
+msgstr ""
+"Жорий ўрнатилган ёки киритилаётган тугмалар бирикмаси шу ерда кўринади."
 
 #: rc.cpp:19 rc.cpp:21
 msgid "x"
@@ -108,7 +110,7 @@ msgstr "Alt+Tab"
 msgid "More >>"
 msgstr "Кўпроқ >>"
 
-#: common_texts.cpp:77 rc.cpp:30 rc.cpp:78
+#: common_texts.cpp:77 rc.cpp:30 rc.cpp:97
 msgid "&File"
 msgstr "&Файл"
 
@@ -116,11 +118,11 @@ msgstr "&Файл"
 msgid "&Game"
 msgstr "&Ўйин"
 
-#: common_texts.cpp:81 rc.cpp:32 rc.cpp:68 rc.cpp:79
+#: common_texts.cpp:81 rc.cpp:32 rc.cpp:87 rc.cpp:98
 msgid "&Edit"
 msgstr "&Тузатиш"
 
-#: common_texts.cpp:84 rc.cpp:34 rc.cpp:80
+#: common_texts.cpp:84 rc.cpp:34 rc.cpp:99
 msgid "&View"
 msgstr "&Кўриниш"
 
@@ -140,142 +142,282 @@ msgstr "Хи&зматлар"
 msgid "&Settings"
 msgstr "Мос&ламалар"
 
-#: common_texts.cpp:253 rc.cpp:41 rc.cpp:81
+#: common_texts.cpp:253 rc.cpp:41 rc.cpp:100
 msgid "Main Toolbar"
 msgstr "Асосий асбоблар панели"
 
 #: rc.cpp:42
+msgid "KSpellUI"
+msgstr "KSpellUI"
+
+#: rc.cpp:43
 msgid "Unknown word:"
 msgstr "Номаълум сўз:"
 
-#: rc.cpp:43
-msgid "<b>mispeled</b>"
+#: rc.cpp:44 rc.cpp:47
+msgid ""
+"<qt><p>This word was considered an \"unknown word\" because it does not "
+"match any entry in the dictionary currently in use. It may also be a word in "
+"a foreign language.</p>\n"
+"<p>If the word is not misspelled, you may add it to the dictionary by "
+"clicking <b>Add to Dictionary</b>. If you don't want to add the unknown word "
+"to the dictionary, but you want to let it unchanged, click <b>Ignore</b> or "
+"<b>Ignore All</b>.</p>\n"
+"<p>But if the word is misspelled, you can try to find the correct "
+"replacement on the list below. If you can't find a replacement there, you "
+"may type it on the text box below, and click <b>Replace</b> or <b>Replace "
+"All</b>.</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:45
+msgid "<b>misspelled</b>"
 msgstr "<b>нотўғри ёзилган</b>"
 
-#: rc.cpp:44
+#: rc.cpp:46
+msgid "Unknown word"
+msgstr "Номаълум сўз"
+
+#: rc.cpp:48
 msgid "&Language:"
 msgstr "&Тил:"
 
-#: rc.cpp:45
-msgid "... the <b>mispeled</b> word shown in context ..."
+#: rc.cpp:49 rc.cpp:77
+msgid ""
+"<qt>\n"
+"<p>Select here the language of the document you are proofing.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>Бу ерда текшираётган ҳужжатингизнинг тилини танланг.</p>\n"
+"</qt>"
+
+#: rc.cpp:50
+msgid "... the <b>misspelled</b> word shown in context ..."
 msgstr ""
 
-#: rc.cpp:46
+#: rc.cpp:51
+msgid "Text excerpt showing the unknown word in its context."
+msgstr ""
+
+#: rc.cpp:52
+msgid ""
+"<qt>\n"
+"<p>Here you can see a text excerpt showing the unknown word in its context. "
+"If this information is not sufficient to choose the best replacement for the "
+"unknown word, you can click on the document you are proofing, read a larger "
+"part of the text and then return here to continue proofing.</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:53
 msgid "<< Add to Dictionary"
 msgstr "<< Луғатга қўшиш"
 
-#: rc.cpp:47
+#: rc.cpp:54
+msgid ""
+"<qt>\n"
+"<p>The unknown word was detected and considered unknown because it is not "
+"included in the dictionary.<br>\n"
+"Click here if you consider that the unknown word is not misspelled and you "
+"want to avoid wrongly detecting it again in the future. If you want to let "
+"it remain as is, but not add it to the dictionary, then click <b>Ignore</b> "
+"or <b>Ignore All</b> instead.</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:55
 msgid "R&eplace All"
 msgstr "Ҳа&ммасини алмаштириш"
 
-#: rc.cpp:48
+#: rc.cpp:56
 msgid "Alt+E"
 msgstr "Alt+М"
 
-#: rc.cpp:49
+#: rc.cpp:57
+msgid ""
+"<qt>\n"
+"<p>Click here to replace this all occurrences of the unknown text with the "
+"text on the edit box above (to the left).</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:58
 msgid "Suggested Words"
 msgstr "Таклиф қилинган сўзлар"
 
-#: kdeui/keditcl2.cpp:825 kutils/kfinddialog.cpp:228 rc.cpp:50
+#: rc.cpp:59
+msgid "Suggestion List"
+msgstr "Таклиф қилинган сўзлар рўйхати"
+
+#: rc.cpp:60
+msgid ""
+"<qt>\n"
+"<p>If the unknown word is misspelled, you should check if the correction for "
+"the unknown word is available and if yes, click on it. If none of the words "
+"in this list is a good replacement you may type the correct word in the edit "
+"box above</p>\n"
+"<p>To correct this word click <b>Replace</b> if you want to correct only "
+"this occurrence or <b>Replace All</b> if you want to correct all occurrences."
+"</p>\n"
+"</qt>"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:825 kutils/kfinddialog.cpp:228 rc.cpp:61
 msgid "&Replace"
 msgstr "&Алмаштириш"
 
-#: rc.cpp:51
+#: rc.cpp:62
 msgid "Alt+R"
 msgstr "Alt+А"
 
-#: rc.cpp:52
+#: rc.cpp:63
+msgid ""
+"<qt>\n"
+"<p>Click here to replace this occurrence of the unknown text with the text "
+"on the edit box above (to the left).</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:64
 msgid "Replace &with:"
 msgstr "Шу &билан алмаштириш:"
 
-#: rc.cpp:53
+#: rc.cpp:65 rc.cpp:72
+msgid ""
+"<qt>\n"
+"<p>If the unknown word is misspelled, you should type here the correction "
+"for your misspelled word or select it in the list below.</p>\n"
+"<p>Then, you can click <b>Replace</b> if you want to correct only this "
+"occurrence of this word or <b>Replace All</b> if you want to correct all "
+"occurrences.</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:66
 msgid "&Ignore"
 msgstr "Ў&тказиб юбориш"
 
-#: rc.cpp:54
+#: rc.cpp:67
 msgid "Alt+I"
 msgstr "Alt+Т"
 
-#: rc.cpp:55
+#: rc.cpp:68
+msgid ""
+"<qt>\n"
+"<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word "
+"or any other unknown word that you want to use but not add to the dictionary."
+"</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:69
 msgid "I&gnore All"
 msgstr "Ҳаммасини ўт&казиб юбориш"
 
-#: rc.cpp:56
+#: rc.cpp:70
 msgid "Alt+G"
 msgstr "Alt+К"
 
-#: rc.cpp:57
+#: rc.cpp:71
+msgid ""
+"<qt>\n"
+"<p>Click here to let all occurrences of the unknown word remain as they are."
+"</p>\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word "
+"or any other unknown word that you want to use but not add to the dictionary."
+"</p>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:73
 msgid "S&uggest"
 msgstr "Так&лиф қилиш"
 
-#: rc.cpp:58
+#: rc.cpp:74
 msgid "Alt+U"
 msgstr "Alt+Л"
 
-#: kdeui/ksconfig.cpp:285 rc.cpp:59
+#: kdeui/ksconfig.cpp:285 rc.cpp:75
 msgid "English"
 msgstr "Инглизча"
 
-#: rc.cpp:60
+#: rc.cpp:76
+msgid "Language Selection"
+msgstr "Тилни танлаш"
+
+#: rc.cpp:78
 msgid "Frame"
 msgstr "Фрейм"
 
-#: rc.cpp:61
+#: rc.cpp:79
 msgid "Image"
 msgstr "Расм"
 
-#: rc.cpp:62
+#: rc.cpp:80
 msgid "JavaScript Errors"
 msgstr "JavaScript хатоси"
 
-#: rc.cpp:64
+#: rc.cpp:81
+msgid ""
+"This dialog provides you with notification and details of scripting errors "
+"that occur on web pages.  In many cases it is due to an error in the web "
+"site as designed by its author.  In other cases it is the result of a "
+"programming error in Konqueror.  If you suspect the former, please contact "
+"the webmaster of the site in question.  Conversely if you suspect an error "
+"in Konqueror, please file a bug report at http://bugs.kde.org/.  A testcase "
+"which illustrates the problem will be appreciated."
+msgstr ""
+
+#: rc.cpp:83
 msgid "Alt+C"
 msgstr "Alt+С"
 
 #: kdeui/klineeditdlg.cpp:111 kdeui/kstdaction_p.h:40
-#: kdeui/kstdguiitem.cpp:134 rc.cpp:65
+#: kdeui/kstdguiitem.cpp:134 rc.cpp:84
 msgid "C&lear"
 msgstr "Т&озалаш"
 
-#: rc.cpp:66
+#: rc.cpp:85
 msgid "Alt+L"
 msgstr "Alt+О"
 
-#: rc.cpp:69
+#: rc.cpp:88
 msgid "Document Information"
 msgstr "Хужжат ҳақида маълумот"
 
-#: kdecore/kconfig_compiler/autoexample.cpp:54 rc.cpp:70
+#: kdecore/kconfig_compiler/autoexample.cpp:52 rc.cpp:89
 msgid "General"
 msgstr "Умумий"
 
-#: rc.cpp:71
+#: rc.cpp:90
 msgid "URL:"
 msgstr "URL:"
 
-#: rc.cpp:72
+#: rc.cpp:91
 msgid "Title:"
 msgstr "Сарлавҳа:"
 
-#: rc.cpp:73
+#: rc.cpp:92
 msgid "Last modified:"
 msgstr "Охирги ўзгартириш:"
 
-#: rc.cpp:74
+#: rc.cpp:93
 msgid "HTTP Headers"
 msgstr "HTTP сарлавҳалари"
 
-#: rc.cpp:75
+#: rc.cpp:94
 msgid "Property"
 msgstr "Ҳоссаси"
 
-#: khtml/java/kjavaappletviewer.cpp:128 rc.cpp:76
+#: khtml/java/kjavaappletviewer.cpp:128 rc.cpp:95
 msgid "Value"
 msgstr "Қиймат"
 
 #: common_texts.cpp:24 kdeui/kautoconfigdialog.cpp:56
-#: kdeui/kautoconfigdialog.cpp:91 kutils/kcmultidialog.cpp:43
-#: kutils/ksettings/dialog.cpp:571
+#: kdeui/kautoconfigdialog.cpp:91 kdeui/kconfigdialog.cpp:56
+#: kutils/kcmultidialog.cpp:43 kutils/ksettings/dialog.cpp:571
 msgid "Configure"
 msgstr "Мослаш"
 
@@ -307,7 +449,7 @@ msgstr "Бет"
 msgid "Border"
 msgstr "Чегара"
 
-#: common_texts.cpp:32 kdeui/ktoolbar.cpp:2034
+#: common_texts.cpp:32 kdeui/ktoolbar.cpp:2037
 msgid "Orientation"
 msgstr "Жойлашиши"
 
@@ -391,7 +533,7 @@ msgstr "Катталаштириш"
 msgid "&Zoom"
 msgstr "&Катталаштириш"
 
-#: arts/message/artsmessage.cc:84 common_texts.cpp:54 kabc/lock.cpp:128
+#: arts/message/artsmessage.cc:88 common_texts.cpp:54 kabc/lock.cpp:128
 #: kdeui/kmessagebox.cpp:695 kdeui/kmessagebox.cpp:721 kjs/object.cpp:488
 #: kutils/kpluginselector.cpp:214
 msgid "Error"
@@ -416,7 +558,7 @@ msgstr "Ҳа"
 msgid "No"
 msgstr "Йўқ"
 
-#: arts/message/artsmessage.cc:80 common_texts.cpp:59
+#: arts/message/artsmessage.cc:82 common_texts.cpp:59
 #: kdeui/kmessagebox.cpp:522 kdeui/kmessagebox.cpp:590
 #: kdeui/kmessagebox.cpp:662
 msgid "Warning"
@@ -443,7 +585,7 @@ msgstr "&Ҳақида"
 msgid "A&bout"
 msgstr "&Ҳақида"
 
-#: common_texts.cpp:65 kparts/part.cpp:483
+#: common_texts.cpp:65 kparts/part.cpp:484
 msgid "Untitled"
 msgstr "Сарлавҳасиз"
 
@@ -575,8 +717,8 @@ msgstr "Сақлаш"
 msgid "&Save"
 msgstr "&Сақлаш"
 
-#: common_texts.cpp:111 khtml/khtml_part.cpp:3192 khtml/khtml_part.cpp:3386
-#: khtml/khtml_part.cpp:3458 khtml/khtml_run.cpp:73 kparts/browserrun.cpp:360
+#: common_texts.cpp:111 khtml/khtml_part.cpp:3220 khtml/khtml_part.cpp:3414
+#: khtml/khtml_part.cpp:3486 khtml/khtml_run.cpp:73 kparts/browserrun.cpp:360
 msgid "Save As"
 msgstr "Сақлаш"
 
@@ -775,7 +917,7 @@ msgstr "Алмаштириш"
 msgid "&Replace..."
 msgstr "&Алмаштириш..."
 
-#: common_texts.cpp:173 kdeui/klineedit.cpp:816 kdeui/ktoolbar.cpp:2010
+#: common_texts.cpp:173 kdeui/klineedit.cpp:816 kdeui/ktoolbar.cpp:2013
 msgid "Default"
 msgstr "Андоза"
 
@@ -795,7 +937,7 @@ msgstr "Яқинда фойдаланилганни очиш"
 msgid "Open &Recent"
 msgstr "&Яқинда фойдаланилганни очиш"
 
-#: common_texts.cpp:179 kdeui/kstdaction_p.h:43 khtml/khtml_part.cpp:3498
+#: common_texts.cpp:179 kdeui/kstdaction_p.h:43 khtml/khtml_part.cpp:3526
 msgid "&Find..."
 msgstr "&Қидириш"
 
@@ -1283,79 +1425,85 @@ msgstr "Тарқариш рўйхатини <рўйхатнинг номи> би
 msgid "Test Distribution Lists"
 msgstr "Тарқариш рўйхатини синаш"
 
-#: kabc/phonenumber.cpp:135
+#: kabc/phonenumber.cpp:134
+msgid ""
+"_: Preferred phone\n"
+"Preferred"
+msgstr "Энг афзал"
+
+#: kabc/phonenumber.cpp:138
 msgid ""
 "_: Home phone\n"
 "Home"
 msgstr "Уй"
 
-#: kabc/phonenumber.cpp:138
+#: kabc/phonenumber.cpp:141
 msgid ""
 "_: Work phone\n"
 "Work"
 msgstr "Иш"
 
-#: kabc/phonenumber.cpp:141
+#: kabc/phonenumber.cpp:144
 msgid "Messenger"
 msgstr "Мессенжер"
 
-#: kabc/phonenumber.cpp:144
+#: kabc/phonenumber.cpp:147
 msgid "Preferred Number"
 msgstr "Энг афзал рақам"
 
-#: kabc/phonenumber.cpp:147
+#: kabc/phonenumber.cpp:150
 msgid "Voice"
 msgstr "Товушли"
 
-#: kabc/phonenumber.cpp:150
+#: kabc/phonenumber.cpp:153
 msgid "Fax"
 msgstr "Факс"
 
-#: kabc/phonenumber.cpp:153
+#: kabc/phonenumber.cpp:156
 msgid ""
 "_: Mobile Phone\n"
 "Mobile"
 msgstr "Уяли"
 
-#: kabc/phonenumber.cpp:156
+#: kabc/phonenumber.cpp:159
 msgid "Video"
 msgstr "Видео"
 
-#: kabc/phonenumber.cpp:159
+#: kabc/phonenumber.cpp:162
 msgid "Mailbox"
 msgstr "Мейлбокс"
 
-#: kabc/phonenumber.cpp:162
+#: kabc/phonenumber.cpp:165
 msgid "Modem"
 msgstr "Модем"
 
-#: kabc/phonenumber.cpp:165
+#: kabc/phonenumber.cpp:168
 msgid ""
 "_: Car Phone\n"
 "Car"
 msgstr "Автомобил телефон"
 
-#: kabc/phonenumber.cpp:168
+#: kabc/phonenumber.cpp:171
 msgid "ISDN"
 msgstr "ISDN"
 
-#: kabc/phonenumber.cpp:171
+#: kabc/phonenumber.cpp:174
 msgid "PCS"
 msgstr "PCS"
 
-#: kabc/phonenumber.cpp:174
+#: kabc/phonenumber.cpp:177
 msgid "Pager"
 msgstr "Пейжер"
 
-#: kabc/phonenumber.cpp:177
+#: kabc/phonenumber.cpp:180
 msgid "Home Fax"
 msgstr "Факс (уй)"
 
-#: kabc/phonenumber.cpp:180
+#: kabc/phonenumber.cpp:183
 msgid "Work Fax"
 msgstr "Факс (иш)"
 
-#: kabc/address.cpp:306 kabc/phonenumber.cpp:183 kdecore/kcharsets.cpp:43
+#: kabc/address.cpp:309 kabc/phonenumber.cpp:186 kdecore/kcharsets.cpp:43
 msgid "Other"
 msgstr "Бошқаси"
 
@@ -1537,35 +1685,41 @@ msgstr "Давлат"
 msgid "Delivery Label"
 msgstr "Етказиб бериш белгиси"
 
-#: kabc/address.cpp:285
+#: kabc/address.cpp:284
+msgid ""
+"_: Preferred address\n"
+"Preferred"
+msgstr "Энг афзал"
+
+#: kabc/address.cpp:288
 msgid "Domestic"
 msgstr "Маҳаллий"
 
-#: kabc/address.cpp:288
+#: kabc/address.cpp:291
 msgid "International"
 msgstr "Халқаро"
 
-#: kabc/address.cpp:291
+#: kabc/address.cpp:294
 msgid "Postal"
 msgstr "Почта"
 
-#: kabc/address.cpp:294
+#: kabc/address.cpp:297
 msgid "Parcel"
 msgstr "Посилка"
 
-#: kabc/address.cpp:297
+#: kabc/address.cpp:300
 msgid ""
 "_: Home Address\n"
 "Home"
 msgstr "Уй манзили"
 
-#: kabc/address.cpp:300
+#: kabc/address.cpp:303
 msgid ""
 "_: Work Address\n"
 "Work"
 msgstr "Иш манзили"
 
-#: kabc/address.cpp:303
+#: kabc/address.cpp:306
 msgid "Preferred Address"
 msgstr "Энг афзал манзил"
 
@@ -1700,11 +1854,11 @@ msgstr "Sycoca маълумот базасини фақат бир марта т
 
 #: kded/kded.cpp:674
 msgid "KDE Daemon"
-msgstr ""
+msgstr "KDE демони"
 
 #: kded/kded.cpp:676
 msgid "KDE Daemon - triggers Sycoca database updates when needed."
-msgstr ""
+msgstr "KDE демони - керагида Sycoca маълумот базасини янгилайди."
 
 #: kded/kbuildsycoca.cpp:682
 msgid "Do not signal applications to update."
@@ -1990,7 +2144,8 @@ msgstr "дастурнинг асосий ойнасининг катталиг�
 
 #: kdecore/kapplication.cpp:1310
 msgid "Define a 'sessionKey' for the session id. Only valid with -session"
-msgstr "Сеанс ID'си учун \"sessionKey\"ни аниқлайди. Фақат -session билан ҳақиқий."
+msgstr ""
+"Сеанс ID'си учун \"sessionKey\"ни аниқлайди. Фақат -session билан ҳақиқий."
 
 #: kdecore/kapplication.cpp:1350
 msgid "The style %1 was not found\n"
@@ -2014,15 +2169,15 @@ msgstr "DCOP орқали KLauncher'ни ишлатиб бўлмади.\n"
 msgid "Desktop %1"
 msgstr "Иш столи %1"
 
-#: kdecore/kconfigbackend.cpp:984
+#: kdecore/kconfigbackend.cpp:947
 msgid "Will not save configuration.\n"
 msgstr "Мослама сақланмайди.\n"
 
-#: kdecore/kconfigbackend.cpp:988 kdecore/kconfigbackend.cpp:994
+#: kdecore/kconfigbackend.cpp:951 kdecore/kconfigbackend.cpp:957
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Мослама файлига (%1) ёзиб бўлмайди.\n"
 
-#: kdecore/kconfigbackend.cpp:1001
+#: kdecore/kconfigbackend.cpp:964
 msgid "Please contact your systems administrator.\n"
 msgstr "Илтимос сйстемангизнинг бошқарувчисига мурожаат қилинг.\n"
 
@@ -2202,7 +2357,7 @@ msgstr "Олдиндаги сўзни ўчириш"
 msgid "Find"
 msgstr "Қидириш"
 
-#: kdecore/kstdaccel.cpp:66 kutils/kfind.cpp:43
+#: kdecore/kstdaccel.cpp:66 kutils/kfind.cpp:44
 msgid "Find Next"
 msgstr "Кейингисини қидириш"
 
@@ -3047,15 +3202,15 @@ msgstr ""
 msgid "Front"
 msgstr ""
 
-#: kdecore/kcharsets.cpp:44 khtml/khtml_part.cpp:228
+#: kdecore/kcharsets.cpp:44 khtml/khtml_part.cpp:229
 msgid "Arabic"
 msgstr "Арабча"
 
-#: kdecore/kcharsets.cpp:45 khtml/khtml_part.cpp:229
+#: kdecore/kcharsets.cpp:45 khtml/khtml_part.cpp:230
 msgid "Baltic"
 msgstr "Болтиқча"
 
-#: kdecore/kcharsets.cpp:46 khtml/khtml_part.cpp:230
+#: kdecore/kcharsets.cpp:46 khtml/khtml_part.cpp:231
 msgid "Central European"
 msgstr "Марказий Ойропача"
 
@@ -3071,16 +3226,16 @@ msgstr "Анъанавий Хитойча"
 msgid "Cyrillic"
 msgstr "Кирилча"
 
-#: kdecore/kcharsets.cpp:50 khtml/khtml_part.cpp:232
+#: kdecore/kcharsets.cpp:50 khtml/khtml_part.cpp:233
 msgid "Greek"
 msgstr "Грекча"
 
 #: kdecore/kcharsets.cpp:51 kdeui/ksconfig.cpp:232 kdeui/ksconfig.cpp:385
-#: kdeui/ksconfig.cpp:612 khtml/khtml_part.cpp:233
+#: kdeui/ksconfig.cpp:612 khtml/khtml_part.cpp:234
 msgid "Hebrew"
 msgstr "Яҳудийча"
 
-#: kdecore/kcharsets.cpp:52 khtml/khtml_part.cpp:234
+#: kdecore/kcharsets.cpp:52 khtml/khtml_part.cpp:235
 msgid "Japanese"
 msgstr "Японча"
 
@@ -3092,11 +3247,11 @@ msgstr "Корейсча"
 msgid "Thai"
 msgstr "Тайча"
 
-#: kdecore/kcharsets.cpp:55 khtml/khtml_part.cpp:238
+#: kdecore/kcharsets.cpp:55 khtml/khtml_part.cpp:239
 msgid "Turkish"
 msgstr "Туркча"
 
-#: kdecore/kcharsets.cpp:56 khtml/khtml_part.cpp:241
+#: kdecore/kcharsets.cpp:56 khtml/khtml_part.cpp:242
 msgid "Western European"
 msgstr "Жанубий Ойропача"
 
@@ -3243,25 +3398,31 @@ msgstr "NEC SOCKS сервери учун клиент"
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS сервери учун клиент"
 
-#: kdecore/kconfig_compiler/kconfig_compiler.cpp:39
-#, fuzzy
-msgid "Input kcfg XML file."
-msgstr "Киритиш файли"
+#: kdecore/kconfig_compiler/kconfig_compiler.cpp:41
+msgid "Directory to generate files in"
+msgstr "Файлларни яратиш учун директория"
 
-#: kdecore/kconfig_compiler/kconfig_compiler.cpp:40
+#: kdecore/kconfig_compiler/kconfig_compiler.cpp:42
+msgid "Input kcfg XML file."
+msgstr ""
+
+#: kdecore/kconfig_compiler/kconfig_compiler.cpp:43
 msgid "Code generation options file."
 msgstr ""
 
-#: kdecore/kconfig_compiler/kconfig_compiler.cpp:328
-#, fuzzy
-msgid "KConfig Compiler"
-msgstr "Филтерни мослаш"
+#: kdecore/kconfig_compiler/kconfig_compiler.cpp:586
+msgid "KDE .kcfg compiler"
+msgstr ""
 
-#: kdecore/kconfig_compiler/autoexample.cpp:41
+#: kdecore/kconfig_compiler/kconfig_compiler.cpp:587
+msgid "KConfig Compiler"
+msgstr ""
+
+#: kdecore/kconfig_compiler/autoexample.cpp:39
 msgid "autoconfig example"
 msgstr "autoconfig мисоли"
 
-#: kdecore/kconfig_compiler/autoexample.cpp:59
+#: kdecore/kconfig_compiler/autoexample.cpp:57
 msgid "MyOptions"
 msgstr "МенингПараметрларим"
 
@@ -3315,7 +3476,8 @@ msgstr "&Андоза"
 msgid ""
 "This will bind the default key to the selected action. Usually a reasonable "
 "choice."
-msgstr "Бу танланган амал билан андоза тугмани боғлайди. Одатда бу маъқул танлов."
+msgstr ""
+"Бу танланган амал билан андоза тугмани боғлайди. Одатда бу маъқул танлов."
 
 #: kdeui/kkeydialog.cpp:363
 msgid "C&ustom"
@@ -3462,7 +3624,7 @@ msgstr "Норвег тили"
 msgid "Polish"
 msgstr "Полякча"
 
-#: kdeui/ksconfig.cpp:315 khtml/khtml_part.cpp:236
+#: kdeui/ksconfig.cpp:315 khtml/khtml_part.cpp:237
 msgid "Russian"
 msgstr "Русча"
 
@@ -3486,7 +3648,7 @@ msgstr "Шведча"
 msgid "Swiss German"
 msgstr "Олмонча (Швецария)"
 
-#: kdeui/ksconfig.cpp:333 khtml/khtml_part.cpp:239
+#: kdeui/ksconfig.cpp:333 khtml/khtml_part.cpp:240
 msgid "Ukrainian"
 msgstr "Украинча"
 
@@ -3677,7 +3839,7 @@ msgstr "Нисбий"
 
 #: kdeui/kfontdialog.cpp:251
 msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
-msgstr ""
+msgstr "Шрифтнинг<br><i>белгиланган</i> ёки <i>муҳитга нисбатан</i> катталиги"
 
 #: kdeui/kfontdialog.cpp:253
 msgid ""
@@ -3901,8 +4063,11 @@ msgid "Discard changes"
 msgstr "Ўзгаришлардан воз кечиш"
 
 #: kdeui/kstdguiitem.cpp:102
-msgid "Pressing this button will discard all recent changes made in this dialog"
-msgstr "Агар бу тугма босилса, ушбу диалогда киритилган ўзгаришлар эътиборга олинмайди."
+msgid ""
+"Pressing this button will discard all recent changes made in this dialog"
+msgstr ""
+"Агар бу тугма босилса, ушбу диалогда киритилган ўзгаришлар эътиборга "
+"олинмайди."
 
 #: kdeui/kstdguiitem.cpp:108
 msgid "Save data"
@@ -4099,7 +4264,8 @@ msgid "Curr&ent actions:"
 msgstr "&Жорий амаллар:"
 
 #: kdeui/kedittoolbar.cpp:679
-msgid "This element will be replaced with all the elements of an embedded component."
+msgid ""
+"This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
 #: kdeui/kedittoolbar.cpp:681
@@ -4137,7 +4303,9 @@ msgstr "Номланган ранглар"
 msgid ""
 "Unable to read X11 RGB color strings. The following file location(s) were "
 "examined:\n"
-msgstr "X11 RGB ранг мосламаларини ўқиб бўлмади. Қуйидаги файл йўл(лар)и текширилди:\n"
+msgstr ""
+"X11 RGB ранг мосламаларини ўқиб бўлмади. Қуйидаги файл йўл(лар)и "
+"текширилди:\n"
 
 #: kdeui/kcolordialog.cpp:901
 msgid "Select Color"
@@ -4171,7 +4339,7 @@ msgstr "B:"
 msgid "&Add to Custom Colors"
 msgstr "Менинг рангларимга &қўшиш"
 
-#: kdeui/kcolordialog.cpp:1095 kresources/configdialog.cpp:60
+#: kdeui/kcolordialog.cpp:1095 kresources/configdialog.cpp:53
 msgid "Name:"
 msgstr "Номи:"
 
@@ -4201,27 +4369,28 @@ msgstr "&Home"
 msgid "Show St&atusbar"
 msgstr "&Ҳолат панелини кўрсатиш"
 
-#: kdeui/kpassdlg.cpp:282
+#: kdeui/kpassdlg.cpp:289
 msgid "&Password:"
 msgstr "&Махфий сўз"
 
-#: kdeui/kpassdlg.cpp:300
+#: kdeui/kpassdlg.cpp:307
 msgid "&Keep password"
 msgstr "Махфий сўзни &эслаб қолиш"
 
-#: kdeui/kpassdlg.cpp:312
+#: kdeui/kpassdlg.cpp:319
 msgid "&Verify:"
 msgstr "&Тасдиқлаш:"
 
-#: kdeui/kpassdlg.cpp:331 kdeui/kpassdlg.cpp:467
+#: kdeui/kpassdlg.cpp:338 kdeui/kpassdlg.cpp:472
 msgid "Passwords do not match"
 msgstr "Махфий сўзлар мос келмайди"
 
-#: kdeui/kpassdlg.cpp:395
+#: kdeui/kpassdlg.cpp:400
 msgid "You entered two different passwords. Please try again."
-msgstr "Сиз иккита ҳар хил махфий сўз киритингиз. Илтимос яна бир уриниб кўринг."
+msgstr ""
+"Сиз иккита ҳар хил махфий сўз киритингиз. Илтимос яна бир уриниб кўринг."
 
-#: kdeui/kpassdlg.cpp:467
+#: kdeui/kpassdlg.cpp:472
 msgid "Passwords match"
 msgstr "Махфий сўзлар мос келади"
 
@@ -4288,7 +4457,8 @@ msgid "Submit Bug Report"
 msgstr "Хато ҳақида хабар қилиш"
 
 #: kdeui/kbugreport.cpp:108
-msgid "Your email address. If incorrect, use the Configure Email button to change it"
+msgid ""
+"Your email address. If incorrect, use the Configure Email button to change it"
 msgstr ""
 "Сизнинг электрон почтангиз. Агар у нотўғри бўлса, \"Электрон почтани мослаш"
 "\" тугмаси ёрдамида тузатинг."
@@ -4405,8 +4575,8 @@ msgid ""
 "The information displayed above will be transferred to that server."
 msgstr ""
 "Хато ҳақида хабар бериш учун қуйидаги боғни босинг.\n"
-"Сўнг, браузернинг янги ойнасида http://bugs.kde.org саҳифаси очилади. "
-"У ерда тўлдириш учун шакилни топасиз.\n"
+"Сўнг, браузернинг янги ойнасида http://bugs.kde.org саҳифаси очилади. У ерда "
+"тўлдириш учун шакилни топасиз.\n"
 "Юқоридаги маълумот ўша серверга узатилади."
 
 #: kdeui/kbugreport.cpp:297
@@ -4431,17 +4601,14 @@ msgid ""
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
-"<p>Сиз танлаган жиддийлик даража - <b>Жуда жиддий</b>. "
-"Илтимос эътибор беринг, бу жиддийлик даражаси"
-"<ul>"
-"<li>бошқа дастурларни (ёки бутун системани) ишдан чиқариши</li>"
-"<li>жиддий маълумотни йўқотишга сабабчи бўлиши</li>"
-"<li>ушбу дастур ўрнатилса системанинг хавфсизлигига носозлик киритиши</li>"
-"</ul>"
-"мумкин бўлган хатолар учун.\n"
-"<p>Сиз хабар бермоқчи бўлган хато юқоридаги носозликларга сабабчими? "
-"Агар бундай бўлмаса, илтимос пасроқ жиддийлик даражасини танланг. "
-"Катта рахмат!</p>"
+"<p>Сиз танлаган жиддийлик даража - <b>Жуда жиддий</b>. Илтимос эътибор "
+"беринг, бу жиддийлик даражаси<ul><li>бошқа дастурларни (ёки бутун системани) "
+"ишдан чиқариши</li><li>жиддий маълумотни йўқотишга сабабчи бўлиши</"
+"li><li>ушбу дастур ўрнатилса системанинг хавфсизлигига носозлик киритиши</"
+"li></ul>мумкин бўлган хатолар учун.\n"
+"<p>Сиз хабар бермоқчи бўлган хато юқоридаги носозликларга сабабчими? Агар "
+"бундай бўлмаса, илтимос пасроқ жиддийлик даражасини танланг. Катта рахмат!</"
+"p>"
 
 #: kdeui/kbugreport.cpp:393
 msgid ""
@@ -4453,18 +4620,14 @@ msgid ""
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
-"<p>Сиз танлаган жиддийлик даража - <b>Жиддий</b>. "
-"Илтимос эътибор беринг, бу жиддийлик даражаси"
-"<ul>"
-"<li>дастурни ишлатиб бўлмайдиган даражага олиб келиши</li>"
-"<li>маълумотни йўқотишга сабабчи бўлиши</li>"
-"<li>системанинг хавфсизлигига носозлик киритиб шу дастурни "
-"ишлатаётган фойдаланувчиларнинг ҳисобига йўл очиб беришига олиб келиши</li>"
-"</ul>"
-"мумкин бўлган хатолар учун.\n"
-"<p>Сиз хабар бермоқчи бўлган хато юқоридаги носозликларга сабабчими? "
-"Агар бундай бўлмаса, илтимос пасроқ жиддийлик даражасини танланг. "
-"Катта рахмат!</p>"
+"<p>Сиз танлаган жиддийлик даража - <b>Жиддий</b>. Илтимос эътибор беринг, бу "
+"жиддийлик даражаси<ul><li>дастурни ишлатиб бўлмайдиган даражага олиб келиши</"
+"li><li>маълумотни йўқотишга сабабчи бўлиши</li><li>системанинг хавфсизлигига "
+"носозлик киритиб шу дастурни ишлатаётган фойдаланувчиларнинг ҳисобига йўл "
+"очиб беришига олиб келиши</li></ul>мумкин бўлган хатолар учун.\n"
+"<p>Сиз хабар бермоқчи бўлган хато юқоридаги носозликларга сабабчими? Агар "
+"бундай бўлмаса, илтимос пасроқ жиддийлик даражасини танланг. Катта рахмат!</"
+"p>"
 
 #: kdeui/kbugreport.cpp:405
 msgid ""
@@ -4546,11 +4709,11 @@ msgstr "%1 ҳ&ақида"
 msgid "About &KDE"
 msgstr "&KDE ҳақида"
 
-#: kdeui/kactionclasses.cpp:1903
+#: kdeui/kactionclasses.cpp:1915
 msgid "Exit F&ull Screen Mode"
 msgstr "Бутун &дисплейдан қайтиш"
 
-#: kdeui/kactionclasses.cpp:1908 kdeui/kstdaction_p.h:79
+#: kdeui/kactionclasses.cpp:1920 kdeui/kstdaction_p.h:79
 msgid "F&ull Screen Mode"
 msgstr "Бутун &дисплейга"
 
@@ -4566,73 +4729,73 @@ msgstr "Билганмисиз...?\n"
 msgid "&Show tips on startup"
 msgstr "KDE ишга тушаётганида маслахатларни &кўрсатиш"
 
-#: kdeui/ktoolbar.cpp:1992
+#: kdeui/ktoolbar.cpp:1995
 msgid "Toolbar Menu"
 msgstr "Асбоблар панелининг менюси"
 
-#: kdeui/ktoolbar.cpp:1995
+#: kdeui/ktoolbar.cpp:1998
 msgid ""
 "_: toolbar position string\n"
 "Top"
 msgstr "Юқорида"
 
-#: kdeui/ktoolbar.cpp:1996
+#: kdeui/ktoolbar.cpp:1999
 msgid ""
 "_: toolbar position string\n"
 "Left"
 msgstr "Чапда"
 
-#: kdeui/ktoolbar.cpp:1997
+#: kdeui/ktoolbar.cpp:2000
 msgid ""
 "_: toolbar position string\n"
 "Right"
 msgstr "Ўнгда"
 
-#: kdeui/ktoolbar.cpp:1998
+#: kdeui/ktoolbar.cpp:2001
 msgid ""
 "_: toolbar position string\n"
 "Bottom"
 msgstr "Пастда"
 
-#: kdeui/ktoolbar.cpp:2001
+#: kdeui/ktoolbar.cpp:2004
 msgid ""
 "_: min toolbar\n"
 "Flat"
 msgstr "Бекитиш"
 
-#: kdeui/ktoolbar.cpp:2004
+#: kdeui/ktoolbar.cpp:2007
 msgid "Icons Only"
 msgstr "Фақат нишончалар"
 
-#: kdeui/ktoolbar.cpp:2005
+#: kdeui/ktoolbar.cpp:2008
 msgid "Text Only"
 msgstr "Фақат матн"
 
-#: kdeui/ktoolbar.cpp:2006
+#: kdeui/ktoolbar.cpp:2009
 msgid "Text Alongside Icons"
 msgstr "Матн нишончалар ёнида"
 
-#: kdeui/ktoolbar.cpp:2007
+#: kdeui/ktoolbar.cpp:2010
 msgid "Text Under Icons"
 msgstr "Матн нишончалар пастида"
 
-#: kdeui/ktoolbar.cpp:2025
+#: kdeui/ktoolbar.cpp:2028
 msgid "Small (%1x%2)"
 msgstr "Кичик (%1x%2)"
 
-#: kdeui/ktoolbar.cpp:2027
+#: kdeui/ktoolbar.cpp:2030
 msgid "Medium (%1x%2)"
 msgstr "Ўрта (%1x%2)"
 
-#: kdeui/ktoolbar.cpp:2029
+#: kdeui/ktoolbar.cpp:2032
 msgid "Large (%1x%2)"
 msgstr "Катта (%1x%2)"
 
-#: kdeui/ktoolbar.cpp:2036
+#: kdeui/ktoolbar.cpp:2039
 msgid "Text Position"
 msgstr "Матннинг жойлашиши"
 
-#: kdeui/ktoolbar.cpp:2038
+#: kdeui/ktoolbar.cpp:2041
 msgid "Icon Size"
 msgstr "Нишончанинг катталиги"
 
@@ -4680,7 +4843,7 @@ msgstr ""
 "Хужжатнинг боши.\n"
 "Охиридан давом этайми?"
 
-#: kdeui/keditcl2.cpp:693 kdeui/keditcl2.cpp:825 kutils/kfind.cpp:47
+#: kdeui/keditcl2.cpp:693 kdeui/keditcl2.cpp:825 kutils/kfind.cpp:48
 #: kutils/kfinddialog.cpp:236
 msgid "&Find"
 msgstr "&Қидириш"
@@ -4790,87 +4953,88 @@ msgstr "Расм - %1x%2 пиксел"
 msgid "Done."
 msgstr "Тайёр."
 
-#: khtml/khtml_ext.cpp:342
+#: khtml/khtml_ext.cpp:343
 msgid "&Copy Text"
 msgstr "&Матндан нусха кўчириш"
 
-#: khtml/khtml_ext.cpp:347
+#: khtml/khtml_ext.cpp:348
 msgid "Stop Animations"
 msgstr "Анимацияни тўхтатиш"
 
-#: khtml/khtml_ext.cpp:353
+#: khtml/khtml_ext.cpp:354
 msgid "&Save Link As..."
 msgstr "&Боғни сақлаш"
 
-#: khtml/khtml_ext.cpp:355
+#: khtml/khtml_ext.cpp:356
 msgid "Copy Link Location"
 msgstr "Боғнинг манзилини сақлаш"
 
-#: khtml/khtml_ext.cpp:362
+#: khtml/khtml_ext.cpp:363
 msgid "Open in New &Window"
 msgstr "&Янги ойнада очиш"
 
-#: khtml/khtml_ext.cpp:364
+#: khtml/khtml_ext.cpp:365
 msgid "Open in &New Tab"
 msgstr "&Янги табда очиш"
 
-#: khtml/khtml_ext.cpp:366
+#: khtml/khtml_ext.cpp:367
 msgid "Reload Frame"
 msgstr "Фреймни қайта юклаш"
 
-#: khtml/khtml_ext.cpp:368 khtml/khtml_part.cpp:198
+#: khtml/khtml_ext.cpp:369 khtml/khtml_part.cpp:199
 msgid "View Frame Source"
 msgstr "Фреймнинг кодини кўриш"
 
-#: khtml/khtml_ext.cpp:370
+#: khtml/khtml_ext.cpp:371
 msgid "View Frame Information"
 msgstr "Фрейм ҳақида маълумотни кўриш"
 
-#: khtml/khtml_ext.cpp:374
+#: khtml/khtml_ext.cpp:375
 msgid "Print Frame..."
 msgstr "Фреймни босиб чиқариш"
 
-#: khtml/khtml_ext.cpp:389
+#: khtml/khtml_ext.cpp:390
 msgid "Save Image As..."
 msgstr "Расмни сақлаш"
 
-#: khtml/khtml_ext.cpp:391
+#: khtml/khtml_ext.cpp:392
 msgid "Send Image"
 msgstr "Расмни юбориш"
 
-#: khtml/khtml_ext.cpp:395
+#: khtml/khtml_ext.cpp:396
 msgid "Copy Image Location"
 msgstr "Расмнинг манзилидан нусха кўчириш"
 
-#: khtml/khtml_ext.cpp:398
+#: khtml/khtml_ext.cpp:399
 msgid "View Image (%1)"
 msgstr "Расмни (%1) кўриш"
 
-#: khtml/khtml_ext.cpp:420
+#: khtml/khtml_ext.cpp:421
 msgid "Save Link As"
 msgstr "Боғни сақлаш"
 
-#: khtml/khtml_ext.cpp:440
+#: khtml/khtml_ext.cpp:441
 msgid "Save Image As"
 msgstr "Расмни сақлаш"
 
-#: khtml/khtml_ext.cpp:530
-msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+#: khtml/khtml_ext.cpp:531
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "\"%1\" номли файл аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: khtml/khtml_ext.cpp:530
+#: khtml/khtml_ext.cpp:531
 msgid "Overwrite File?"
 msgstr "Файлни алмаштирайми?"
 
-#: khtml/khtml_ext.cpp:530
+#: khtml/khtml_ext.cpp:531
 msgid "Overwrite"
 msgstr "Устидан ёзиш"
 
-#: khtml/khtml_ext.cpp:586 kparts/browserrun.cpp:335
+#: khtml/khtml_ext.cpp:587 kparts/browserrun.cpp:335
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 
-#: khtml/khtml_ext.cpp:587 kparts/browserrun.cpp:336
+#: khtml/khtml_ext.cpp:588 kparts/browserrun.cpp:336
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -4880,11 +5044,11 @@ msgstr ""
 "\n"
 "Konqueror билан интеграция ўчирилади!"
 
-#: khtml/khtml_ext.cpp:647
+#: khtml/khtml_ext.cpp:648
 msgid "Default Font Size"
 msgstr "Шрифтнинг андоза катталиги"
 
-#: khtml/khtml_ext.cpp:657
+#: khtml/khtml_ext.cpp:658
 #, c-format
 msgid "Font Size %1"
 msgstr "Шрифтнинг катталиги %1"
@@ -4905,31 +5069,31 @@ msgstr "Расмларни босиб чиқариш"
 msgid "Print header"
 msgstr "Сарлавҳани босиб чиқариш"
 
-#: khtml/khtml_part.cpp:197
+#: khtml/khtml_part.cpp:198
 msgid "View Do&cument Source"
 msgstr "Ҳужжатнинг &кодини кўриш"
 
-#: khtml/khtml_part.cpp:199
+#: khtml/khtml_part.cpp:200
 msgid "View Document Information"
 msgstr "Хужжат ҳақида маълумотни кўриш"
 
-#: khtml/khtml_part.cpp:200
+#: khtml/khtml_part.cpp:201
 msgid "Save &Background Image As..."
 msgstr "О&рқа фон тасвирини сақлаш"
 
-#: khtml/khtml_part.cpp:201
+#: khtml/khtml_part.cpp:202
 msgid "&Save As..."
 msgstr "...сифатида с&ақлаш"
 
-#: khtml/khtml_part.cpp:204
+#: khtml/khtml_part.cpp:205
 msgid "Save &Frame As..."
 msgstr "&Фреймни сақлаш"
 
-#: khtml/khtml_part.cpp:205
+#: khtml/khtml_part.cpp:206
 msgid "Security..."
 msgstr "Хавфсизлик"
 
-#: khtml/khtml_part.cpp:206
+#: khtml/khtml_part.cpp:207
 msgid ""
 "Security Settings<p>Shows the certificate of the displayed page. Only pages "
 "that have been transmitted using a secure, encrypted connection have a "
@@ -4941,57 +5105,57 @@ msgstr ""
 "Маслаҳат: Қулфланган қулфнинг расми кўринса, саҳифа кодланган алоқа орқали "
 "узатилганлигини англатади."
 
-#: khtml/khtml_part.cpp:212
+#: khtml/khtml_part.cpp:213
 msgid "JavaScript &Debugger"
 msgstr "JavaScript &дебаггери"
 
-#: khtml/khtml_part.cpp:213
+#: khtml/khtml_part.cpp:214
 msgid "Print Rendering Tree to STDOUT"
 msgstr ""
 
-#: khtml/khtml_part.cpp:214
+#: khtml/khtml_part.cpp:215
 msgid "Print DOM Tree to STDOUT"
 msgstr ""
 
-#: khtml/khtml_part.cpp:215 khtml/khtml_part.cpp:219
+#: khtml/khtml_part.cpp:216 khtml/khtml_part.cpp:220
 msgid "Stop Animated Images"
 msgstr "Анимация расмларини тўхтатиш"
 
-#: khtml/khtml_part.cpp:217
+#: khtml/khtml_part.cpp:218
 msgid "Show Images"
 msgstr "Расмларни кўрсатиш"
 
-#: khtml/khtml_part.cpp:218
+#: khtml/khtml_part.cpp:219
 msgid "Show Animated Images"
 msgstr "Анимация расмларини кўрсатиш"
 
-#: khtml/khtml_part.cpp:222
+#: khtml/khtml_part.cpp:223
 msgid "Set &Encoding"
 msgstr "&Кодлаш усулини танлаш"
 
-#: khtml/khtml_part.cpp:227
+#: khtml/khtml_part.cpp:228
 msgid "Semi-Automatic"
 msgstr "Ярим-афтоматик"
 
-#: khtml/khtml_part.cpp:245
+#: khtml/khtml_part.cpp:246
 msgid "Automatic Detection"
 msgstr "Авто-аниқлаш"
 
-#: khtml/khtml_part.cpp:250
+#: khtml/khtml_part.cpp:251
 msgid ""
 "_: short for Manual Detection\n"
 "Manual"
 msgstr ""
 
-#: khtml/khtml_part.cpp:305
+#: khtml/khtml_part.cpp:306
 msgid "Use S&tylesheet"
 msgstr "S&tylesheet'дан фойдаланиш"
 
-#: khtml/khtml_part.cpp:307
+#: khtml/khtml_part.cpp:308
 msgid "Increase Font Sizes"
 msgstr "Шрифтни катталаштириш"
 
-#: khtml/khtml_part.cpp:308
+#: khtml/khtml_part.cpp:309
 msgid ""
 "Increase Font Size<p>Make the font in this window bigger. Click and hold "
 "down the mouse button for a menu with all available font sizes."
@@ -5000,11 +5164,11 @@ msgstr ""
 "Шрифтнинг мавжуд бўлган катталигларини кўрсатувчи менюни кўриш учун сичқонча "
 "билан босиб ушлаб туринг."
 
-#: khtml/khtml_part.cpp:311
+#: khtml/khtml_part.cpp:312
 msgid "Decrease Font Sizes"
 msgstr "Шрифтни кичиклаштириш"
 
-#: khtml/khtml_part.cpp:312
+#: khtml/khtml_part.cpp:313
 msgid ""
 "Decrease Font Size<p>Make the font in this window smaller. Click and hold "
 "down the mouse button for a menu with all available font sizes."
@@ -5013,31 +5177,31 @@ msgstr ""
 "Шрифтнинг мавжуд бўлган катталигларини кўрсатувчи менюни кўриш учун сичқонча "
 "билан босиб ушлаб туринг."
 
-#: khtml/khtml_part.cpp:315
+#: khtml/khtml_part.cpp:316
 msgid "Zoom In Fast"
 msgstr "Тез катталаштириш"
 
-#: khtml/khtml_part.cpp:318
+#: khtml/khtml_part.cpp:319
 msgid "Zoom Out Fast"
 msgstr "Тез кичиклаштириш"
 
-#: khtml/khtml_part.cpp:323
+#: khtml/khtml_part.cpp:324
 msgid ""
 "Find text<p>Shows a dialog that allows you to find text on the displayed "
 "page."
 msgstr "Матнни қидириш<p>Ҳужжатдаги матни қидириш учун диалогни кўрсатади."
 
-#: khtml/khtml_part.cpp:327
+#: khtml/khtml_part.cpp:328
 msgid ""
 "Find next<p>Find the next occurrence of the text that you have found using "
 "the <b>Find Text</b> function"
 msgstr ""
 
-#: khtml/khtml_part.cpp:336
+#: khtml/khtml_part.cpp:337
 msgid "Print Frame"
 msgstr "Фреймни босиб чиқариш"
 
-#: khtml/khtml_part.cpp:337
+#: khtml/khtml_part.cpp:338
 msgid ""
 "Print Frame<p>Some pages have several frames. To print only a single frame, "
 "click on it and then use this function."
@@ -5046,104 +5210,103 @@ msgstr ""
 "битта фреймни босиб чиқариш учун уни сичқонча билан танланг ва ушбу "
 "функциядан фойдаланинг."
 
-#: khtml/khtml_part.cpp:345
+#: khtml/khtml_part.cpp:346
 msgid "Toggle Caret Mode"
 msgstr ""
 
-#: khtml/khtml_part.cpp:910
+#: khtml/khtml_part.cpp:909
 msgid "This web page contains coding errors."
 msgstr "Ушбу веб-саҳифанинг кодида хато бор."
 
-#: khtml/khtml_part.cpp:941
+#: khtml/khtml_part.cpp:947
 msgid "&Hide Errors"
 msgstr "&Хатоларни кўрсатмаш"
 
-#: khtml/khtml_part.cpp:942
-#, fuzzy
+#: khtml/khtml_part.cpp:948
 msgid "&Disable Error Reporting"
-msgstr "Вазифани спулинг қилишни &ўчириш"
+msgstr "Хатони хабар қилишни &ўчириш"
 
-#: khtml/khtml_part.cpp:976
+#: khtml/khtml_part.cpp:981
 msgid "<b>Error</b>: %1: %2"
 msgstr "<b>Хато</b>: %1: %2"
 
-#: khtml/khtml_part.cpp:1009
+#: khtml/khtml_part.cpp:1014
 msgid "<b>Error</b>: node %1: %2"
 msgstr "<b>Хато</b>: боғ %1: %2"
 
-#: khtml/khtml_part.cpp:1126
+#: khtml/khtml_part.cpp:1131
 msgid "Display Images on Page"
 msgstr "Саҳифадаги расмларни кўрсатиш"
 
-#: khtml/khtml_part.cpp:1284 khtml/khtml_part.cpp:1372
+#: khtml/khtml_part.cpp:1289 khtml/khtml_part.cpp:1377
 msgid "Session is secured with %1 bit %2."
 msgstr "Сеанс %1 бит %2 билан ҳимояланган."
 
-#: khtml/khtml_part.cpp:1285 khtml/khtml_part.cpp:1374
+#: khtml/khtml_part.cpp:1290 khtml/khtml_part.cpp:1379
 msgid "Session is not secured."
 msgstr "Сеанс ҳимояланмаган."
 
-#: khtml/khtml_part.cpp:1462
+#: khtml/khtml_part.cpp:1467
 #, c-format
 msgid "Error while loading %1"
 msgstr "%1'ни юклашда хато рўй берди"
 
-#: khtml/khtml_part.cpp:1464
+#: khtml/khtml_part.cpp:1469
 msgid "An error occurred while loading <B>%1</B>:"
 msgstr "<B>%1</B>'ни юклашда хато рўй берди:"
 
-#: khtml/khtml_part.cpp:1508
+#: khtml/khtml_part.cpp:1513
 msgid "Error: "
 msgstr "Хато: "
 
-#: khtml/khtml_part.cpp:1511
+#: khtml/khtml_part.cpp:1516
 msgid "The requested operation could not be completed"
 msgstr "Талаб қилинган операцияни бажариб бўлмади"
 
-#: khtml/khtml_part.cpp:1517
+#: khtml/khtml_part.cpp:1522
 msgid "Technical Reason: "
 msgstr "Техник сабаб:"
 
-#: khtml/khtml_part.cpp:1522
+#: khtml/khtml_part.cpp:1527
 msgid "Details of the Request:"
 msgstr "Талабнинг тафсилотлари:"
 
-#: khtml/khtml_part.cpp:1524
+#: khtml/khtml_part.cpp:1529
 #, c-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
-#: khtml/khtml_part.cpp:1531
+#: khtml/khtml_part.cpp:1536
 #, c-format
 msgid "Date and Time: %1"
 msgstr "Сана ва вақт: %1"
 
-#: khtml/khtml_part.cpp:1533
+#: khtml/khtml_part.cpp:1538
 #, c-format
 msgid "Additional Information: %1"
 msgstr "Қўшимча маълумот: %1"
 
-#: khtml/khtml_part.cpp:1535
+#: khtml/khtml_part.cpp:1540
 msgid "Description:"
 msgstr "Таърифи:"
 
-#: khtml/khtml_part.cpp:1541
+#: khtml/khtml_part.cpp:1546
 msgid "Possible Causes:"
 msgstr "Эхтимол сабаблар:"
 
-#: khtml/khtml_part.cpp:1548
+#: khtml/khtml_part.cpp:1553
 msgid "Possible Solutions:"
 msgstr "Эхтимол ечимлар:"
 
-#: khtml/khtml_part.cpp:1634
+#: khtml/khtml_part.cpp:1639
 msgid "[Untitled]"
 msgstr "[Сарлавҳасиз]"
 
-#: khtml/khtml_part.cpp:1813
+#: khtml/khtml_part.cpp:1841
 msgid "Page loaded."
 msgstr "Хужжат юкланди."
 
-#: khtml/khtml_part.cpp:1815
+#: khtml/khtml_part.cpp:1843
 msgid ""
 "_n: %n Image of %1 loaded.\n"
 "%n Images of %1 loaded."
@@ -5151,47 +5314,47 @@ msgstr ""
 "%1та расмдан %nта юкланди.\n"
 "%1та расмдан %nта юкланди."
 
-#: khtml/khtml_part.cpp:3053
+#: khtml/khtml_part.cpp:3081
 msgid "Symbolic Link"
 msgstr "Рамзий боғ"
 
-#: khtml/khtml_part.cpp:3055
+#: khtml/khtml_part.cpp:3083
 msgid "%1 (Link)"
 msgstr "%1 (Боғ)"
 
-#: khtml/khtml_part.cpp:3075
+#: khtml/khtml_part.cpp:3103
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 Байт)"
 
-#: khtml/khtml_part.cpp:3079
+#: khtml/khtml_part.cpp:3107
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 К)"
 
-#: khtml/khtml_part.cpp:3101
+#: khtml/khtml_part.cpp:3129
 msgid " (In new window)"
 msgstr " (Янги ойнада)"
 
-#: khtml/khtml_part.cpp:3108
+#: khtml/khtml_part.cpp:3136
 msgid " (In other frame)"
 msgstr " (Бошқа фреймда)"
 
-#: khtml/khtml_part.cpp:3113
+#: khtml/khtml_part.cpp:3141
 msgid "Email to: "
 msgstr "Хат юбориш: "
 
-#: khtml/khtml_part.cpp:3117
+#: khtml/khtml_part.cpp:3145
 msgid " - Subject: "
 msgstr " - Мавзу: "
 
-#: khtml/khtml_part.cpp:3119
+#: khtml/khtml_part.cpp:3147
 msgid " - CC: "
 msgstr " - Нусха: "
 
-#: khtml/khtml_part.cpp:3121
+#: khtml/khtml_part.cpp:3149
 msgid " - BCC: "
 msgstr " - BCC: "
 
-#: khtml/khtml_part.cpp:3197
+#: khtml/khtml_part.cpp:3225
 msgid ""
 "<qt>The link <B>%1</B><BR>leads from this untrusted page to your local "
 "filesystem.<BR>Do you want to follow the link?"
@@ -5199,27 +5362,27 @@ msgstr ""
 "<qt>Боғ <B>%1</B><BR>ишончсиз саҳифадан сизнинг локал файл системангизга "
 "олиб келади.<BR>Уни очишни истайсизми?"
 
-#: khtml/khtml_part.cpp:3198
+#: khtml/khtml_part.cpp:3226
 msgid "Follow"
 msgstr "Очиш"
 
-#: khtml/khtml_part.cpp:3299
+#: khtml/khtml_part.cpp:3327
 msgid "Frame Information"
 msgstr "Фрейм ҳақида маълумот"
 
-#: khtml/khtml_part.cpp:3305
+#: khtml/khtml_part.cpp:3333
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Ҳоссалари]</a>"
 
-#: khtml/khtml_part.cpp:3374
+#: khtml/khtml_part.cpp:3402
 msgid "Save Background Image As"
 msgstr "Орқа фон тасвирини сақлаш"
 
-#: khtml/khtml_part.cpp:3496
+#: khtml/khtml_part.cpp:3524
 msgid "&Find in Frame..."
 msgstr "Фреймда қ&идириш"
 
-#: khtml/khtml_part.cpp:3931
+#: khtml/khtml_part.cpp:3971
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -5231,11 +5394,11 @@ msgstr ""
 "Учинчи тараф маълумотни йўлда ушлаб олиб уни кўришим мумкин.\n"
 "Давом этишга ишончингиз комилми?"
 
-#: khtml/khtml_part.cpp:3934
+#: khtml/khtml_part.cpp:3974
 msgid "SSL"
 msgstr "SSL"
 
-#: khtml/khtml_part.cpp:3941
+#: khtml/khtml_part.cpp:3981
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -5244,12 +5407,12 @@ msgstr ""
 "Диққат: Маълумот кодланмаган шакилда тармоқ орқали узатилмоқда.\n"
 "Давом этишга ишончингиз комилми?"
 
-#: khtml/khtml_part.cpp:3943 khtml/khtml_part.cpp:3967
-#: khtml/khtml_part.cpp:4043
+#: khtml/khtml_part.cpp:3983 khtml/khtml_part.cpp:4007
+#: khtml/khtml_part.cpp:4083
 msgid "KDE"
 msgstr "KDE"
 
-#: khtml/khtml_part.cpp:3965
+#: khtml/khtml_part.cpp:4005
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -5257,7 +5420,7 @@ msgstr ""
 "Бу сайт мълумотни электрон почта орқали жўнатишга уринаяпти.\n"
 "Давом этишга ишончингиз комилми?"
 
-#: khtml/khtml_part.cpp:3989
+#: khtml/khtml_part.cpp:4029
 msgid ""
 "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local filesystem."
 "<BR>Do you want to submit the form?"
@@ -5265,12 +5428,12 @@ msgstr ""
 "<qt>Маълумот сизнинг локал файл системангиздаги<BR><B>%1</"
 "B>'га<BR>жўнатилади.<BR>Маълумотни жўнатишни истайсизми?"
 
-#: khtml/html/html_formimpl.cpp:1284 khtml/khtml_part.cpp:3990
+#: khtml/html/html_formimpl.cpp:1286 khtml/khtml_part.cpp:4030
 #: khtml/rendering/render_form.cpp:265
 msgid "Submit"
 msgstr "Жўнатиш"
 
-#: khtml/khtml_part.cpp:4043
+#: khtml/khtml_part.cpp:4083
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -5278,36 +5441,35 @@ msgstr ""
 "Бу сайт жўнатилаётган маълумотга компютерингиздаги файлни илова қилишга "
 "уринди. Сизнинг ҳимоянгиз учун илова олиб ташланди."
 
-#: khtml/khtml_part.cpp:4807
+#: khtml/khtml_part.cpp:4852
 msgid "(%1/s)"
 msgstr "(%1/с)"
 
-#: khtml/khtml_part.cpp:5690
+#: khtml/khtml_part.cpp:5709
 msgid "Security Warning"
 msgstr "Хавфсизлик огоҳномаси"
 
-#: khtml/khtml_part.cpp:5696
+#: khtml/khtml_part.cpp:5715
 msgid ""
 "<qt>This untrusted page contains a link<BR><B>%1</B><BR>to your local file "
 "system."
 msgstr ""
-"<qt>Бу ишончсиз саҳифа сизнинг локал файл системангизга олиб келувчи"
-"<BR><B>%1</B><BR>"
-"боғга эга."
+"<qt>Бу ишончсиз саҳифа сизнинг локал файл системангизга олиб келувчи<BR><B>%"
+"1</B><BR>боғга эга."
 
-#: khtml/khtml_part.cpp:5697
+#: khtml/khtml_part.cpp:5716
 msgid "Security Alert"
 msgstr "Хафвсизлик хабарномаси"
 
-#: khtml/khtml_part.cpp:5983
+#: khtml/khtml_part.cpp:6002
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:6023
+#: khtml/khtml_part.cpp:6042
 msgid "&Close Wallet"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1620
+#: khtml/khtmlview.cpp:1493
 #, c-format
 msgid "Print %1"
 msgstr "%1'ни босиб чиқариш"
@@ -5411,29 +5573,29 @@ msgstr ""
 msgid "Confirmation: JavaScript Popup"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1304 khtml/ecma/kjs_window.cpp:1308
+#: khtml/ecma/kjs_window.cpp:1314 khtml/ecma/kjs_window.cpp:1318
 msgid "Prompt"
 msgstr "Сўроқ"
 
-#: khtml/ecma/kjs_window.cpp:1466
+#: khtml/ecma/kjs_window.cpp:1476
 msgid "Close window?"
 msgstr "Ойнани ёпайми?"
 
-#: khtml/ecma/kjs_window.cpp:1466
+#: khtml/ecma/kjs_window.cpp:1476
 msgid "Confirmation Required"
 msgstr "Тасдиқлаш талаб қилинади"
 
-#: khtml/ecma/kjs_window.cpp:2046
+#: khtml/ecma/kjs_window.cpp:2056
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" %2to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2047
+#: khtml/ecma/kjs_window.cpp:2057
 msgid "titled \"%2\" "
 msgstr "\"%2\" сарлавҳали "
 
-#: khtml/ecma/kjs_window.cpp:2051
+#: khtml/ecma/kjs_window.cpp:2061
 msgid "Disallow"
 msgstr "Рухсат бермаш"
 
@@ -5471,11 +5633,10 @@ msgid ""
 "browser window via JavaScript.<br />Do you want to allow the form to be "
 "submitted?</qt>"
 msgstr ""
-"<qt>Бу сайт JavaScript орқали браузернинг янги ойнасида <p>%1</p> "
-"саҳифасини очадиган шакилни жўнатмоқчи.<br />"
-"Шакилни жўнатишга рухсат берасизми?</qt>"
+"<qt>Бу сайт JavaScript орқали браузернинг янги ойнасида <p>%1</p> саҳифасини "
+"очадиган шакилни жўнатмоқчи.<br />Шакилни жўнатишга рухсат берасизми?</qt>"
 
-#: khtml/html/htmlparser.cpp:1254
+#: khtml/html/htmlparser.cpp:1262
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "Бу қидириб бўладиган индекс. Калит сўзларини киритинг: "
 
@@ -5638,7 +5799,8 @@ msgstr "KDE эски усули плагини"
 
 #: kstyles/utils/installtheme/main.cpp:35
 msgid "KDE Tool to build a cache list of all pixmap themes installed"
-msgstr "Ўрнатилган ҳамма pixmap мавзуларнинг кэш рўйхатини яратиш учун KDE воситаси."
+msgstr ""
+"Ўрнатилган ҳамма pixmap мавзуларнинг кэш рўйхатини яратиш учун KDE воситаси."
 
 #: kparts/browserextension.cpp:459
 msgid "<qt>Do you want to search the Internet for <b>%1</b>?"
@@ -5652,7 +5814,7 @@ msgstr "Интернетдан қидириш"
 msgid "&Search"
 msgstr "Қ&идириш"
 
-#: kparts/part.cpp:486
+#: kparts/part.cpp:487
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save it?"
@@ -5660,7 +5822,7 @@ msgstr ""
 "Ҳужжатга (%1) ўзгариш киритилди.\n"
 "Уни сақлашни истайсизми?"
 
-#: kparts/part.cpp:488
+#: kparts/part.cpp:489
 msgid "Save Document?"
 msgstr "Хужжатни сақлайми?"
 
@@ -5708,7 +5870,7 @@ msgstr "&Қидириш учун матн:"
 
 #: kutils/kfinddialog.cpp:127
 msgid "Regular e&xpression"
-msgstr ""
+msgstr "Оддий и&фода"
 
 #: kresources/configpage.cpp:107 kutils/kfinddialog.cpp:128
 msgid "&Edit..."
@@ -5759,8 +5921,8 @@ msgid ""
 "<qt>If you press the <b>Replace</b> button, the document is searched for the "
 "text to find and any occurrence is replaced with the replacement text.</qt>"
 msgstr ""
-"<qt>Агар <b>Алмаштириш</b> тугмасини боссангиз, қидириш учун киритилган "
-"матн ҳужжатда топилса у алмаштириш матни билан алмаштирилади.</qt>"
+"<qt>Агар <b>Алмаштириш</b> тугмасини боссангиз, қидириш учун киритилган матн "
+"ҳужжатда топилса у алмаштириш матни билан алмаштирилади.</qt>"
 
 #: kutils/kfinddialog.cpp:237
 msgid "Start searching"
@@ -5836,7 +5998,7 @@ msgstr "Кидириш учун матнни киритишингиз керак
 
 #: kutils/kfinddialog.cpp:464
 msgid "Invalid regular expression."
-msgstr ""
+msgstr "Оддий ифода ҳақиқий эмас."
 
 #: kutils/kcmoduleloader.cpp:117
 msgid "Module %1 not found!"
@@ -5868,11 +6030,11 @@ msgstr "Ў&тказиб юбориш"
 msgid "Replace '%1' with '%2'?"
 msgstr "\"%1\"ни \"%2\" билан алмаштирайми?"
 
-#: kutils/kreplace.cpp:98 kutils/kreplace.cpp:288
+#: kutils/kreplace.cpp:105 kutils/kreplace.cpp:295
 msgid "No text was replaced."
 msgstr "Ҳеч қандай матн алмаштирилмади."
 
-#: kutils/kreplace.cpp:100 kutils/kreplace.cpp:290
+#: kutils/kreplace.cpp:107 kutils/kreplace.cpp:297
 #, c-format
 msgid ""
 "_n: 1 replacement done.\n"
@@ -5881,19 +6043,19 @@ msgstr ""
 "%n алмаштириш бажарилди.\n"
 "%n алмаштириш бажарилди."
 
-#: kutils/kfind.cpp:381 kutils/kreplace.cpp:295
+#: kutils/kfind.cpp:401 kutils/kreplace.cpp:302
 msgid "Beginning of document reached."
 msgstr "Хужжатнинг боши."
 
-#: kutils/kfind.cpp:383 kutils/kreplace.cpp:297
+#: kutils/kfind.cpp:403 kutils/kreplace.cpp:304
 msgid "End of document reached."
 msgstr "Хужжатнинг охири."
 
-#: kutils/kfind.cpp:390 kutils/kreplace.cpp:304
+#: kutils/kfind.cpp:410 kutils/kreplace.cpp:311
 msgid "Do you want to restart search from the end?"
 msgstr "Қидиришни охирдан бошлашни истайсизми?"
 
-#: kutils/kfind.cpp:391 kutils/kreplace.cpp:305
+#: kutils/kfind.cpp:411 kutils/kreplace.cpp:312
 msgid "Do you want to restart search at the beginning?"
 msgstr "Қидиришни бошдан бошлашни истайсизми?"
 
@@ -5917,11 +6079,11 @@ msgstr "бу плагинни мослаб бўлмайди"
 msgid "&Reset"
 msgstr "&Тиклаш"
 
-#: kutils/kfind.cpp:49
+#: kutils/kfind.cpp:50
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr ""
 
-#: kutils/kfind.cpp:354 kutils/kfind.cpp:374
+#: kutils/kfind.cpp:374 kutils/kfind.cpp:394
 #, c-format
 msgid ""
 "_n: 1 match found.\n"
@@ -5930,11 +6092,11 @@ msgstr ""
 "%n ўхшашлик топилди.\n"
 "%n ўхшашлик топилди."
 
-#: kutils/kfind.cpp:356
+#: kutils/kfind.cpp:376
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt><b>\"%1\"</b>учун ўхшашлик топилмади.</qt>"
 
-#: kutils/kfind.cpp:376
+#: kutils/kfind.cpp:396
 msgid "No matches found for '<b>%1</b>'."
 msgstr "\"<b>%1</b>\" учун ўхшашлик топилмади."
 
@@ -5946,7 +6108,7 @@ msgstr "Қисмларни танаш"
 msgid "Configure..."
 msgstr "Мослаш..."
 
-#: kresources/selectdialog.cpp:93
+#: kresources/selectdialog.cpp:95
 msgid "There is no resource available!"
 msgstr ""
 
@@ -5962,24 +6124,24 @@ msgstr ""
 msgid "(c) 2003 Tobias Koenig"
 msgstr "(с) 2003 Тобиас Кёник"
 
-#: kresources/configdialog.cpp:45 kresources/configpage.cpp:82
+#: kresources/configdialog.cpp:40 kresources/configpage.cpp:82
 #: kresources/configpage.cpp:248
 msgid "Resource Configuration"
 msgstr "Манбани мослаш"
 
-#: kresources/configdialog.cpp:58
+#: kresources/configdialog.cpp:51
 msgid "General Settings"
 msgstr "Умумий мосламалар"
 
-#: kresources/configdialog.cpp:64
+#: kresources/configdialog.cpp:57
 msgid "Read-only"
 msgstr "Фақат ўқишга"
 
-#: kresources/configdialog.cpp:73
+#: kresources/configdialog.cpp:66
 msgid "%1 Resource Settings"
 msgstr ""
 
-#: kresources/configdialog.cpp:114
+#: kresources/configdialog.cpp:107
 msgid "Please enter a resource name"
 msgstr "Илтимос манбанинг номини киритинг"
 
@@ -6424,31 +6586,31 @@ msgstr "0.1"
 msgid "KConvertTest"
 msgstr "KConvertTest"
 
-#: arts/message/artsmessage.cc:43
+#: arts/message/artsmessage.cc:45
 msgid "Display error message (default)"
 msgstr "Хато ҳақида хабарни кўрсатиш (андоза)"
 
-#: arts/message/artsmessage.cc:45
+#: arts/message/artsmessage.cc:47
 msgid "Display warning message"
 msgstr "Огоҳнома хабарини кўрсатиш"
 
-#: arts/message/artsmessage.cc:47
+#: arts/message/artsmessage.cc:49
 msgid "Display informational message"
 msgstr "Маълумотнома хабарини кўрсатиш"
 
-#: arts/message/artsmessage.cc:48
+#: arts/message/artsmessage.cc:50
 msgid "Message string to be displayed"
 msgstr "Кўрсатиш учун хабар"
 
-#: arts/message/artsmessage.cc:52
+#: arts/message/artsmessage.cc:54
 msgid "artsmessage"
 msgstr "artsmessage"
 
-#: arts/message/artsmessage.cc:53
+#: arts/message/artsmessage.cc:55
 msgid "Utility to display aRts error messages."
 msgstr "aRts хато хабарини кўрсатиш учун утилита."
 
-#: arts/message/artsmessage.cc:82
+#: arts/message/artsmessage.cc:86
 msgid "Informational"
 msgstr "Маълумот учун"
 
@@ -6615,11 +6777,11 @@ msgstr ""
 msgid "KDE Certificate Part"
 msgstr "KDE сертификат қисми"
 
-#: khtml/khtml_settings.cc:136
+#: khtml/khtml_settings.cc:137
 msgid "Accept"
 msgstr "Қабул қилиш"
 
-#: khtml/khtml_settings.cc:137
+#: khtml/khtml_settings.cc:138
 msgid "Reject"
 msgstr "Қабул қилмаш"
 
@@ -8014,4 +8176,3 @@ msgid ""
 "_: QXml\n"
 "error in the text declaration of an external entity"
 msgstr ""
-
