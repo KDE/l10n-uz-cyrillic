@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kontact\n"
-"POT-Creation-Date: 2004-02-12 22:46+0100\n"
+"POT-Creation-Date: 2004-05-30 01:17+0200\n"
 "PO-Revision-Date: 2004-03-06 10:49-0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,7 +58,7 @@ msgstr "KDE Kontact"
 msgid "(c), 2003 Cornelius Schumacher"
 msgstr "(C), 2003 Корнелиус Шумаҳер (Cornelius Schumacher)"
 
-#: src/kcmkontact.cpp:112
+#: plugins/summary/kcmkontactsummary.cpp:82 src/kcmkontact.cpp:112
 msgid "Name"
 msgstr "Номи"
 
@@ -66,44 +66,61 @@ msgstr "Номи"
 msgid "Description"
 msgstr "Таърифи"
 
-#: src/main.cpp:42
+#: src/main.cpp:44
 msgid "A KDE Personal Information Manager"
 msgstr "KDE учун шахсий маълумот бошқарувчиси"
 
-#: src/main.cpp:99
+#: src/main.cpp:61
+msgid "Open a specific Kontact module."
+msgstr ""
+
+#: src/main.cpp:62
+msgid "Disable the splash screen."
+msgstr ""
+
+#: src/main.cpp:63
+msgid "List plugins that are run at startup."
+msgstr ""
+
+#: src/main.cpp:136
 msgid "Kontact"
 msgstr "Kontact"
 
-#: src/main.cpp:100
-msgid "(C) 2001-2003 The Kontact developers"
+#: src/main.cpp:137
+#, fuzzy
+msgid "(C) 2001-2004 The Kontact developers"
 msgstr "(C) 2001-2003, Kontact тузувчилари"
 
-#: src/main.cpp:107
+#: src/main.cpp:146
 msgid "Original Author"
 msgstr "Биринчи муаллиф"
 
-#: src/mainwindow.cpp:182
+#: src/mainwindow.cpp:196
 msgid "New"
 msgstr "Янги"
 
-#: src/mainwindow.cpp:185
+#: src/mainwindow.cpp:199
 msgid "Configure Kontact..."
 msgstr "Kontact мосламаси"
 
-#: src/mainwindow.cpp:188
+#: src/mainwindow.cpp:202
 msgid "&Tip of the Day"
 msgstr "&Кун маслаҳати"
 
-#: src/mainwindow.cpp:425
+#: src/mainwindow.cpp:204
+msgid "&Request Feature..."
+msgstr ""
+
+#: src/mainwindow.cpp:441
 msgid "Application is running standalone. Foregrounding..."
 msgstr ""
 
-#: src/mainwindow.cpp:438
+#: src/mainwindow.cpp:454
 #, c-format
-msgid "Can't load Part for %1"
+msgid "Cannot load Part for %1"
 msgstr ""
 
-#: src/mainwindow.cpp:456
+#: src/mainwindow.cpp:472
 msgid ""
 "_: Plugin dependent window title\n"
 "%1 - Kontact"
@@ -113,11 +130,12 @@ msgstr "%1 - Kontact"
 msgid "Birthdays and Anniversaries"
 msgstr "Туғилган кун ва йилликлар"
 
-#: plugins/kaddressbook/kabsummarywidget.cpp:141
+#: plugins/kaddressbook/kabsummarywidget.cpp:156
+#: plugins/korganizer/summarywidget.cpp:159
 msgid "Today"
 msgstr "Бугун"
 
-#: plugins/kaddressbook/kabsummarywidget.cpp:143
+#: plugins/kaddressbook/kabsummarywidget.cpp:158
 #, c-format
 msgid ""
 "_n: in 1 day\n"
@@ -126,7 +144,7 @@ msgstr ""
 "1 кунда\n"
 "%n кунда"
 
-#: plugins/kaddressbook/kabsummarywidget.cpp:174
+#: plugins/kaddressbook/kabsummarywidget.cpp:189
 #, c-format
 msgid ""
 "_n: one year\n"
@@ -135,7 +153,7 @@ msgstr ""
 "бир йил\n"
 "%n йил"
 
-#: plugins/kaddressbook/kabsummarywidget.cpp:188
+#: plugins/kaddressbook/kabsummarywidget.cpp:203
 #, c-format
 msgid ""
 "_n: No birthdays or anniversaries pending within the next 1 day\n"
@@ -146,81 +164,247 @@ msgstr ""
 "Келаси %n кун ичида ҳеч кимнинг туғилган "
 "кун ёки йиллиги йўқ."
 
-#: plugins/kaddressbook/kabsummarywidget.cpp:233
+#: plugins/kaddressbook/kabsummarywidget.cpp:249
 msgid "Send &Mail"
 msgstr "Хат &жўнатиш"
 
-#: plugins/kaddressbook/kabsummarywidget.cpp:235
+#: plugins/kaddressbook/kabsummarywidget.cpp:251
 msgid "View &Contact"
 msgstr "&Алоқани кўриш"
 
-#: plugins/kaddressbook/kabsummarywidget.cpp:252
+#: plugins/kaddressbook/kabsummarywidget.cpp:268
 #, c-format
 msgid "Mail to %1"
 msgstr "%1 га хат"
 
-#: plugins/kaddressbook/kaddressbook_plugin.cpp:52
-msgid "New Contact"
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:55
+#, fuzzy
+msgid "New Contact..."
 msgstr "Янги алоқа"
 
-#: plugins/kmail/kmail_plugin.cpp:50
-msgid "New Mail"
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:133
+#: plugins/korganizer/korganizerplugin.cpp:151
+#: plugins/korganizer/todoplugin.cpp:144
+msgid "Drops of multiple mails are not supported."
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:142
+#: plugins/korganizer/korganizerplugin.cpp:164
+#: plugins/korganizer/todoplugin.cpp:157
+msgid "Cannot handle drop events of type '%1'."
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:79
+#: plugins/korganizer/kcmkorgsummary.cpp:78
+#, fuzzy
+msgid ""
+"_n:  day\n"
+" days"
+msgstr ""
+"1 кунда\n"
+"%n кунда"
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:87
+msgid "Address Book Summary"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:91
+msgid "How many days should the address book summary display at once?"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:94
+#: plugins/korganizer/kcmkorgsummary.cpp:93
+msgid "One day"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:97
+#: plugins/korganizer/kcmkorgsummary.cpp:96
+msgid "Five days"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:100
+#: plugins/korganizer/kcmkorgsummary.cpp:99
+msgid "One week"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:103
+#: plugins/korganizer/kcmkorgsummary.cpp:102
+msgid "One month"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:119
+msgid "Event Types"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:120
+msgid "Show all birthdays"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:121
+#, fuzzy
+msgid "Show all anniversaries"
+msgstr "Туғилган кун ва йилликлар"
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:190
+msgid "kcmkabsummary"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:191
+msgid "Address Book Configuration Dialog"
+msgstr ""
+
+#: plugins/kaddressbook/kcmkabsummary.cpp:193
+#: plugins/kmail/kcmkmailsummary.cpp:185
+msgid "(c) 2004 Tobias Koenig"
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:75
+#, fuzzy
+msgid "Summary"
+msgstr "Kontact ҳисоботи"
+
+#: plugins/kmail/kcmkmailsummary.cpp:77
+msgid "Show full path for folders"
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:97
+msgid ""
+"_: prefix for local folders\n"
+"Local"
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:182
+msgid "kcmkmailsummary"
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:183
+msgid "Mail Summary Configuration Dialog"
+msgstr ""
+
+#: plugins/kmail/kmail_plugin.cpp:57
+#, fuzzy
+msgid "New Mail..."
 msgstr "Янги хат"
 
 #: plugins/kmail/summarywidget.cpp:50
 msgid "New Messages"
 msgstr "Янги хабарлар"
 
-#: plugins/kmail/summarywidget.cpp:137
+#: plugins/kmail/summarywidget.cpp:130
+msgid ""
+"_: %1: number of unread messages %2: total number of messages\n"
+"%1 / %2"
+msgstr ""
+
+#: plugins/kmail/summarywidget.cpp:142
 msgid "No unread messages"
 msgstr "Ўқилмаган хабарлар йўқ"
 
 #: plugins/knode/knode_plugin.cpp:51
-msgid "New Article"
+#, fuzzy
+msgid "New Article..."
 msgstr "Янги мақола"
 
-#: plugins/knotes/knotes_part.cpp:77
+#: plugins/knotes/knotes_part.cpp:79
+msgid "Edit Note"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:113
 msgid "Title"
 msgstr "Сарлавҳа"
 
-#: plugins/knotes/knotes_part.cpp:84
+#: plugins/knotes/knotes_part.cpp:114
+#, fuzzy
+msgid "Content"
+msgstr "Учрашувлар"
+
+#: plugins/knotes/knotes_part.cpp:120
+#, fuzzy
+msgid "&New..."
+msgstr "Янги"
+
+#: plugins/knotes/knotes_part.cpp:121
 msgid "Rename"
 msgstr "Номини ўзгартириш"
 
-#: plugins/knotes/knotes_part.cpp:212
+#: plugins/knotes/knotes_part.cpp:228
 #, c-format
 msgid ""
-"_n: Do you really want to delete that note?\n"
+"_n: Do you really want to delete this note?\n"
 "Do you really want to delete these %n notes?"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:214
+#: plugins/knotes/knotes_part.cpp:230
 msgid "Confirm Delete"
 msgstr "Ўчиришни тасдиқлаш"
 
-#: plugins/knotes/knotes_plugin.cpp:44
+#: plugins/knotes/knotes_part.cpp:295
 msgid "New Note"
+msgstr "Янги ёзма хотира"
+
+#: plugins/knotes/knotes_part.cpp:296
+msgid "Enter title for the note:"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:333
+msgid "Unable to access the notes, make sure no other program uses them."
+msgstr ""
+
+#: plugins/knotes/knotes_plugin.cpp:44
+#, fuzzy
+msgid "New Note..."
 msgstr "Янги ёзма хотира"
 
 #: plugins/knotes/knotes_plugin.cpp:72 plugins/knotes/knotes_plugin.cpp:74
 msgid "Notes Management"
 msgstr ""
 
-#: plugins/knotes/summarywidget.cpp:50
+#: plugins/knotes/summarywidget.cpp:56
 msgid "Notes"
 msgstr "Ёзма хотира"
 
-#: plugins/korganizer/korganizerplugin.cpp:57
-msgid "New Event"
-msgstr "Янги ҳодиса"
+#: plugins/korganizer/kcmkorgsummary.cpp:86
+#, fuzzy
+msgid "Calendar"
+msgstr "Актив календар"
 
-#: plugins/korganizer/korganizerplugin.cpp:151
-#: plugins/korganizer/todoplugin.cpp:143
-msgid "Drops of multiple mails aren't supported."
+#: plugins/korganizer/kcmkorgsummary.cpp:90
+msgid "How many days should the calendar display at once?"
 msgstr ""
 
+#: plugins/korganizer/kcmkorgsummary.cpp:118
+#: plugins/korganizer/todosummarywidget.cpp:54
+#, fuzzy
+msgid "Todos"
+msgstr "Янги вазифа"
+
+#: plugins/korganizer/kcmkorgsummary.cpp:119
+msgid "Show all tasks"
+msgstr ""
+
+#: plugins/korganizer/kcmkorgsummary.cpp:120
+msgid "Show today's tasks"
+msgstr ""
+
+#: plugins/korganizer/kcmkorgsummary.cpp:191
+msgid "kcmkorgsummary"
+msgstr ""
+
+#: plugins/korganizer/kcmkorgsummary.cpp:192
+msgid "Schedule Configuration Dialog"
+msgstr ""
+
+#: plugins/korganizer/kcmkorgsummary.cpp:194
+msgid "(c) 2003 - 2004 Tobias Koenig"
+msgstr ""
+
+#: plugins/korganizer/korganizerplugin.cpp:57
+#, fuzzy
+msgid "New Event..."
+msgstr "Янги ҳодиса"
+
 #: plugins/korganizer/korganizerplugin.cpp:154
-#: plugins/korganizer/todoplugin.cpp:146
+#: plugins/korganizer/todoplugin.cpp:147
 msgid ""
 "From: %1\n"
 "To: %2\n"
@@ -231,37 +415,197 @@ msgstr ""
 "Мавзу: %3"
 
 #: plugins/korganizer/korganizerplugin.cpp:158
-#: plugins/korganizer/todoplugin.cpp:150
+#: plugins/korganizer/todoplugin.cpp:151
 #, c-format
 msgid "Mail: %1"
 msgstr "Хат: %1"
 
-#: plugins/korganizer/korganizerplugin.cpp:164
-#: plugins/korganizer/todoplugin.cpp:156
-msgid "Can't handle drop events of type '%1'."
-msgstr ""
-
-#: plugins/korganizer/summarywidget.cpp:55
+#: plugins/korganizer/summarywidget.cpp:54
 msgid "Appointments"
 msgstr "Учрашувлар"
 
-#: plugins/korganizer/summarywidget.cpp:68
+#: plugins/korganizer/summarywidget.cpp:72
+#: plugins/korganizer/todosummarywidget.cpp:72
 msgid "Default KOrganizer resource"
 msgstr ""
 
-#: plugins/korganizer/summarywidget.cpp:70
+#: plugins/korganizer/summarywidget.cpp:74
+#: plugins/korganizer/todosummarywidget.cpp:74
 msgid "Active Calendar"
 msgstr "Актив календар"
 
-#: plugins/korganizer/summarywidget.cpp:138
+#: plugins/korganizer/summarywidget.cpp:163
+msgid "Tomorrow"
+msgstr ""
+
+#: plugins/korganizer/summarywidget.cpp:203
+msgid ""
+"_: Time from - to\n"
+"%1 - %2"
+msgstr ""
+
+#: plugins/korganizer/summarywidget.cpp:220
 msgid "No appointments pending"
 msgstr "Ҳеч қандай учрашув йўқ"
 
-#: plugins/korganizer/todoplugin.cpp:55
-msgid "New Todo"
+#: plugins/korganizer/todoplugin.cpp:56
+#, fuzzy
+msgid "New Todo..."
 msgstr "Янги вазифа"
 
-#: plugins/summary/summaryview_part.cpp:200
+#: plugins/korganizer/todosummarywidget.cpp:127
+msgid "overdue"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:134
+msgid "in progress"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:140
+msgid "starts today"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:146
+msgid "ends today"
+msgstr ""
+
+#: plugins/korganizer/todosummarywidget.cpp:188
+#, fuzzy
+msgid "No Todos pending"
+msgstr "Ҳеч қандай учрашув йўқ"
+
+#: plugins/kpilot/kpilot_plugin.cpp:53 plugins/kpilot/summarywidget.cpp:64
+#, fuzzy
+msgid "KPilot Information"
+msgstr "Об-ҳаво ҳақида маълумот"
+
+#: plugins/kpilot/kpilot_plugin.cpp:55
+msgid ""
+"KPilot - HotSync software for KDE\n"
+"\n"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:58
+msgid "Project Leader"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:61
+msgid "Maintainer"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:64
+msgid "Core and conduits developer"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:65
+msgid "VCal conduit"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:66
+msgid "Abbrowser conduit"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:67
+msgid "Expenses conduit"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:68 plugins/kpilot/kpilot_plugin.cpp:69
+msgid "Bugfixer"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:71
+msgid "XML GUI"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:74
+msgid ".ui files"
+msgstr ""
+
+#: plugins/kpilot/kpilot_plugin.cpp:76
+msgid "Bugfixer, coolness"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:69
+msgid "<i>Last sync:</i>"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:70 plugins/kpilot/summarywidget.cpp:100
+#: plugins/kpilot/summarywidget.cpp:175 plugins/kpilot/summarywidget.cpp:195
+msgid "No information available"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:72
+msgid "[log]"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:79
+msgid "<i>User:</i>"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:80 plugins/kpilot/summarywidget.cpp:86
+msgid "Unknown"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:85
+msgid "<i>Device:</i>"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:91
+msgid "<i>Status:</i>"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:92 plugins/kpilot/summarywidget.cpp:194
+msgid "No communication with the daemon possible"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:97
+msgid "<i>Conduits:</i>"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:183 plugins/kpilot/summarywidget.cpp:184
+#: plugins/kpilot/summarywidget.cpp:192 plugins/kpilot/summarywidget.cpp:193
+msgid "unknown"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:190
+msgid "No information available (Daemon not running?)"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:202
+msgid "KPilot HotSync Log"
+msgstr ""
+
+#: plugins/kpilot/summarywidget.cpp:210
+#, c-format
+msgid "Unable to open Hotsync log %1."
+msgstr ""
+
+#: plugins/summary/kcmkontactsummary.cpp:97
+msgid ""
+"Here you can select which summary plugins to have visible in your summary "
+"view."
+msgstr ""
+
+#: plugins/summary/kcmkontactsummary.cpp:176
+#, fuzzy
+msgid "kontactsummary"
+msgstr "Kontact ҳисоботи"
+
+#: plugins/summary/kcmkontactsummary.cpp:177
+#, fuzzy
+msgid "KDE Kontact Summary"
+msgstr "Kontact ҳисоботи"
+
+#: plugins/summary/kcmkontactsummary.cpp:179
+msgid "(c), 2004 Tobias Koenig"
+msgstr ""
+
+#: plugins/summary/summaryview_part.cpp:85
+#, fuzzy
+msgid "&Configure Summary View..."
+msgstr "Kontact мосламаси"
+
+#: plugins/summary/summaryview_part.cpp:213
 msgid "What's next?"
 msgstr ""
 
@@ -286,14 +630,24 @@ msgstr "Синаш"
 msgid "Weather Information"
 msgstr "Об-ҳаво ҳақида маълумот"
 
-#: plugins/weather/summarywidget.cpp:136
+#: plugins/weather/summarywidget.cpp:56
+msgid ""
+"No weather dcop service available;\n"
+"you need KWeather to use this plugin."
+msgstr ""
+
+#: plugins/weather/summarywidget.cpp:135
 msgid "Wind Speed"
 msgstr "Шамол тезлиги"
 
-#: plugins/weather/summarywidget.cpp:138
+#: plugins/weather/summarywidget.cpp:137
 msgid "Rel. Humidity"
 msgstr "Нисб. намлик"
 
 #: plugins/weather/weather_plugin.cpp:56
 msgid "Improvements and more code cleanups"
 msgstr ""
+
+#, fuzzy
+#~ msgid "No description"
+#~ msgstr "Таърифи"

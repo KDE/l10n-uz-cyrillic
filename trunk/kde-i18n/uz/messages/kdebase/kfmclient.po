@@ -6,38 +6,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfmclient\n"
-"POT-Creation-Date: 2004-02-12 22:29+0100\n"
+"POT-Creation-Date: 2004-05-15 01:19+0200\n"
 "PO-Revision-Date: 2004-03-10 20:55+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: kfmclient.cc:54
+#: kfmclient.cc:52
 msgid "kfmclient"
 msgstr "kfmclient"
 
-#: kfmclient.cc:56
+#: kfmclient.cc:54
 msgid "KDE tool for opening URLs from the command line"
 msgstr ""
 "Буйруқ сатридан URL'ларни очиш учун KDE "
 "воситаси"
 
-#: kfmclient.cc:65
+#: kfmclient.cc:63
 msgid "Show available commands."
 msgstr "Мавжуд бўлган буйруқларни кўрсатиш."
 
-#: kfmclient.cc:66
+#: kfmclient.cc:64
 msgid "Command (see --commands)."
 msgstr "Буйруқ (--commands параметрига қаранг)."
 
-#: kfmclient.cc:67
+#: kfmclient.cc:65
 msgid "Arguments for command."
 msgstr "Буйруқ учун аргументлар."
 
-#: kfmclient.cc:82
+#: kfmclient.cc:80
 msgid ""
 "\n"
 "Syntax:\n"
@@ -45,7 +45,7 @@ msgstr ""
 "\n"
 "Фойдаланиш:\n"
 
-#: kfmclient.cc:83
+#: kfmclient.cc:81
 msgid ""
 "  kfmclient openURL 'url' ['mimetype']\n"
 "            # Opens a window showing 'url'.\n"
@@ -55,7 +55,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kfmclient.cc:88
+#: kfmclient.cc:86
 msgid ""
 "            # If 'mimetype' is specified, it will be used to determine the\n"
 "            #   component that Konqueror should use. For instance, set it "
@@ -64,7 +64,16 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kfmclient.cc:92
+#: kfmclient.cc:90
+msgid ""
+"  kfmclient newTab 'url' ['mimetype']\n"
+"            # Same as above but opens a new tab with 'url' in an existing "
+"Konqueror\n"
+"            #   window on the current active desktop if possible.\n"
+"\n"
+msgstr ""
+
+#: kfmclient.cc:94
 msgid ""
 "  kfmclient openProfile 'profile' ['url']\n"
 "            # Opens a window using the given profile.\n"
@@ -74,14 +83,14 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kfmclient.cc:97
+#: kfmclient.cc:99
 msgid ""
 "  kfmclient openProperties 'url'\n"
 "            # Opens a properties menu\n"
 "\n"
 msgstr ""
 
-#: kfmclient.cc:99
+#: kfmclient.cc:101
 msgid ""
 "  kfmclient exec ['url' ['binding']]\n"
 "            # Tries to execute 'url'. 'url' may be a usual\n"
@@ -89,13 +98,13 @@ msgid ""
 "            #   'binding'. In this case the default binding\n"
 msgstr ""
 
-#: kfmclient.cc:103
+#: kfmclient.cc:105
 msgid ""
 "            #   is tried. Of course URL may be the URL of a\n"
 "            #   document, or it may be a *.desktop file.\n"
 msgstr ""
 
-#: kfmclient.cc:105
+#: kfmclient.cc:107
 msgid ""
 "            #   This way you could for example mount a device\n"
 "            #   by passing 'Mount default' as binding to \n"
@@ -103,14 +112,14 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kfmclient.cc:108
+#: kfmclient.cc:110
 msgid ""
 "  kfmclient move 'src' 'dest'\n"
 "            # Moves the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
 
-#: kfmclient.cc:113
+#: kfmclient.cc:115
 msgid ""
 "  kfmclient download ['src']\n"
 "            # Copies the URL 'src' to a user specified location'.\n"
@@ -119,7 +128,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kfmclient.cc:117
+#: kfmclient.cc:119
 msgid ""
 "  kfmclient copy 'src' 'dest'\n"
 "            # Copies the URL 'src' to 'dest'.\n"
@@ -127,14 +136,14 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kfmclient.cc:120
+#: kfmclient.cc:122
 msgid ""
 "  kfmclient sortDesktop\n"
 "            # Rearranges all icons on the desktop.\n"
 "\n"
 msgstr ""
 
-#: kfmclient.cc:122
+#: kfmclient.cc:124
 msgid ""
 "  kfmclient configure\n"
 "            # Re-read Konqueror's configuration.\n"
@@ -144,7 +153,7 @@ msgstr ""
 "            # Konqueror мосламасини қайтадан юклаш.\n"
 "\n"
 
-#: kfmclient.cc:124
+#: kfmclient.cc:126
 msgid ""
 "  kfmclient configureDesktop\n"
 "            # Re-read kdesktop's configuration.\n"
@@ -154,7 +163,7 @@ msgstr ""
 "            # kdesktop мосламасини қайтадан юклаш.\n"
 "\n"
 
-#: kfmclient.cc:127
+#: kfmclient.cc:129
 msgid ""
 "*** Examples:\n"
 "  kfmclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
@@ -166,14 +175,14 @@ msgstr ""
 "             // Компакт-дискни улаш.\n"
 "\n"
 
-#: kfmclient.cc:130
+#: kfmclient.cc:132
 msgid ""
 "  kfmclient exec file:/home/weis/data/test.html\n"
 "             // Opens the file with default binding\n"
 "\n"
 msgstr ""
 
-#: kfmclient.cc:132
+#: kfmclient.cc:134
 msgid ""
 "  kfmclient exec file:/home/weis/data/test.html Netscape\n"
 "             // Opens the file with netscape\n"
@@ -183,14 +192,14 @@ msgstr ""
 "             // Файлни Netscape билан очиш.\n"
 "\n"
 
-#: kfmclient.cc:134
+#: kfmclient.cc:136
 msgid ""
 "  kfmclient exec ftp://localhost/\n"
 "             // Opens new window with URL\n"
 "\n"
 msgstr ""
 
-#: kfmclient.cc:136
+#: kfmclient.cc:138
 msgid ""
 "  kfmclient exec file:/root/Desktop/emacs.desktop\n"
 "             // Starts emacs\n"
@@ -200,7 +209,7 @@ msgstr ""
 "             // Emacs дастурини ишга тушириш.\n"
 "\n"
 
-#: kfmclient.cc:138
+#: kfmclient.cc:140
 msgid ""
 "  kfmclient exec file:/root/Desktop/cdrom.desktop\n"
 "             // Opens the CD-ROM's mount directory\n"
@@ -211,7 +220,7 @@ msgstr ""
 "директориясини очиш.\n"
 "\n"
 
-#: kfmclient.cc:140
+#: kfmclient.cc:142
 msgid ""
 "  kfmclient exec .\n"
 "             // Opens the current directory. Very convenient.\n"
@@ -222,31 +231,31 @@ msgstr ""
 "қулай.\n"
 "\n"
 
-#: kfmclient.cc:367
+#: kfmclient.cc:369
 msgid ""
 "Profile %1 not found\n"
 msgstr ""
 "%1 профили топилмади\n"
 
-#: kfmclient.cc:404
+#: kfmclient.cc:406
 msgid ""
 "Syntax Error: Not enough arguments\n"
 msgstr ""
 "Фойдаланиш хатоси: Аргументлар сони "
 "етарли эмас\n"
 
-#: kfmclient.cc:409
+#: kfmclient.cc:411
 msgid ""
 "Syntax Error: Too many arguments\n"
 msgstr ""
 "Фойдаланиш хатоси: Аргументлар сони жуда "
 "кўп\n"
 
-#: kfmclient.cc:523
+#: kfmclient.cc:525
 msgid "Unable to download from an invalid URL."
 msgstr "Хато URL'дан ёзиб олиб бўлмади."
 
-#: kfmclient.cc:581
+#: kfmclient.cc:585
 msgid ""
 "Syntax Error: Unknown command '%1'\n"
 msgstr ""

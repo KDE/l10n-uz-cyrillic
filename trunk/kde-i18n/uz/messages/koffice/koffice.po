@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
-"POT-Creation-Date: 2004-01-28 15:33+0100\n"
+"POT-Creation-Date: 2004-06-05 01:22+0200\n"
 "PO-Revision-Date: 2004-03-07 16:50-0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -67,7 +67,7 @@ msgid "Index"
 msgstr "Индекс"
 
 #: kformula/kformulacommand.cc:127 kformula/kformulacommand.cc:184
-#: kotext/kotextobject.cc:1360 kotext/kotextobject.cc:1399
+#: kotext/kotextobject.cc:1328 kotext/kotextobject.cc:1367
 msgid "Remove Selected Text"
 msgstr "Белгиланган матнни ўчириш"
 
@@ -119,23 +119,25 @@ msgstr "Замонавий компьютер (TeX) услуби"
 msgid "Symbol font style"
 msgstr "Белгилар учун шрифт услуби"
 
-#: kformula/kformulaconfigpage.cc:195
+#: kformula/kformulaconfigpage.cc:201
 msgid "Choose..."
 msgstr "Танлаш"
 
-#: kformula/kformulaconfigpage.cc:253 kformula/kformulaconfigpage.cc:275
+#: kformula/kformulaconfigpage.cc:261 kformula/kformulaconfigpage.cc:283
 msgid "The fonts '%1' are missing. Do you want to change the font style anyway?"
 msgstr ""
-"\"%1\" шрифтлари мавжуд эмас. Бунга қарамасдан шрифтнинг "
-"услубини ўзгартиришни истайсизми?"
+"\"%1\" шрифтлари мавжуд эмас. Бунга "
+"қарамасдан шрифтнинг услубини "
+"ўзгартиришни истайсизми?"
 
-#: kformula/kformulaconfigpage.cc:291
+#: kformula/kformulaconfigpage.cc:299
 msgid "The font 'symbol' is missing. Do you want to change the font style anyway?"
 msgstr ""
-"\"symbol\" шрифти мавжуд эмас. Бунга қарамасдан шрифтнинг "
-"услубини ўзгартиришни истайсизми?"
+"\"symbol\" шрифти мавжуд эмас. Бунга "
+"қарамасдан шрифтнинг услубини "
+"ўзгартиришни истайсизми?"
 
-#: kformula/kformulacontainer.cc:473
+#: kformula/kformulacontainer.cc:474
 msgid "Base Size Change"
 msgstr ""
 
@@ -296,7 +298,7 @@ msgid "Symbol Names"
 msgstr ""
 
 #: kformula/kformuladocument.cc:669 kotext/koSearchDia.cc:619
-#: kotext/kotextformat.cc:1199
+#: kotext/kotextformat.cc:1542
 msgid "Normal"
 msgstr "Оддий"
 
@@ -376,28 +378,32 @@ msgstr ""
 msgid "Add Element"
 msgstr "Элементни қўшиш"
 
-#: kofficecore/koApplication.cc:40
+#: kofficecore/koApplication.cc:41
 msgid "Only print and exit"
 msgstr "Фақат босиб чиқариш ва чиқиш"
 
-#: kofficecore/koApplication.cc:41
+#: kofficecore/koApplication.cc:42
 msgid "Open a new document with a template"
 msgstr "Намуна билан янги ҳужжатни очиш"
 
-#: kofficecore/koApplication.cc:74
+#: kofficecore/koApplication.cc:43
+msgid "Override display DPI"
+msgstr ""
+
+#: kofficecore/koApplication.cc:76
 msgid "KOffice"
 msgstr "KOffice"
 
-#: kofficecore/koApplication.cc:169
+#: kofficecore/koApplication.cc:190
 msgid "No template found for: %1 "
 msgstr "%1 учун ҳеч қандай намуна топилмади."
 
-#: kofficecore/koApplication.cc:172
+#: kofficecore/koApplication.cc:193
 #, c-format
 msgid "Too many templates found for: %1"
 msgstr "%1 учун жуда кўп намуна топилди."
 
-#: kofficecore/koApplication.cc:192
+#: kofficecore/koApplication.cc:213
 msgid "Template %1 failed to load."
 msgstr "%1 намунани юклаш муваффақиятсиз тугади."
 
@@ -413,7 +419,7 @@ msgstr ""
 msgid "Saving..."
 msgstr "Сақланмоқда..."
 
-#: kofficecore/koDocument.cc:428
+#: kofficecore/koDocument.cc:429
 #, c-format
 msgid ""
 "Could not save\n"
@@ -422,7 +428,7 @@ msgstr ""
 "%1\n"
 "файлини сақлаб бўлмади."
 
-#: kofficecore/koDocument.cc:431
+#: kofficecore/koDocument.cc:432
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
@@ -430,33 +436,40 @@ msgstr ""
 "%1 файлини сақлаб бўлмади.\n"
 "Сабаб: %2"
 
-#: kofficecore/koDocument.cc:517
+#: kofficecore/koDocument.cc:527
 msgid "Autosaving..."
 msgstr "Авто-сақланмоқда..."
 
-#: kofficecore/koDocument.cc:919
+#: kofficecore/koDocument.cc:539
+msgid "Error during autosave! Partition full?"
+msgstr ""
+
+#: kofficecore/koDocument.cc:936
 msgid "Couldn't open the file for saving"
 msgstr "Файлни сақлаш учун очиб бўлмади."
 
-#: kofficecore/koDocument.cc:928
+#: kofficecore/koDocument.cc:945
 msgid "Error while saving embedded documents"
 msgstr ""
 
-#: kofficecore/koDocument.cc:947
-msgid "Not able to write 'maindoc.xml'."
+#: kofficecore/koDocument.cc:980 kofficecore/koDocument.cc:996
+#: kofficecore/koDocument.cc:1031
+#, fuzzy
+msgid "Not able to write '%1'. Partition full?"
 msgstr "\"maindoc.xml\" файлини ёзиб бўлмади."
 
-#: kofficecore/koDocument.cc:1128
+#: kofficecore/koDocument.cc:1236
 msgid ""
 "An autosaved file for an unnamed document exists in %1.\n"
 "This file is dated %2\n"
 "Do you want to open it?"
 msgstr ""
-"Номсиз ҳужжатнинг авто-сақланган нусхаси %1'да мавжуд.\n"
+"Номсиз ҳужжатнинг авто-сақланган нусхаси "
+"%1'да мавжуд.\n"
 "Унинг санаси: %2\n"
 "Уни очишни истайсизми?"
 
-#: kofficecore/koDocument.cc:1181
+#: kofficecore/koDocument.cc:1289
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -465,21 +478,22 @@ msgstr ""
 "Нотўгри URL\n"
 "%1"
 
-#: kofficecore/koDocument.cc:1197
+#: kofficecore/koDocument.cc:1305
 msgid ""
 "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
 msgstr ""
-"Бу ҳужжатнинг авто-сақланган нусхаси мавжуд.\n"
+"Бу ҳужжатнинг авто-сақланган нусхаси "
+"мавжуд.\n"
 "Уни очишни истайсизми?"
 
-#: kofficecore/koDocument.cc:1236 kofficeui/koTemplateChooseDia.cc:84
+#: kofficecore/koDocument.cc:1344 kofficeui/koTemplateChooseDia.cc:84
 #: kofficeui/koTemplateChooseDia.cc:643
 msgid "The file %1 doesn't exist."
 msgstr "%1 файли мавжуд эмас."
 
-#: kofficecore/koDocument.cc:1293 kofficecore/koDocument.cc:1309
-#: kofficecore/koDocument.cc:1330
+#: kofficecore/koDocument.cc:1401 kofficecore/koDocument.cc:1417
+#: kofficecore/koDocument.cc:1438
 #, c-format
 msgid ""
 "Could not open\n"
@@ -488,7 +502,7 @@ msgstr ""
 "%1\n"
 "файлини очиб бўлмади."
 
-#: kofficecore/koDocument.cc:1332
+#: kofficecore/koDocument.cc:1440
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
@@ -496,46 +510,59 @@ msgstr ""
 "%1 файлини очиб бўлмади.\n"
 "Сабаб: %2"
 
-#: kofficecore/koDocument.cc:1395
+#: kofficecore/koDocument.cc:1507
+#, fuzzy, c-format
+msgid "Could not find %1"
+msgstr "%1 модули топилмади"
+
+#: kofficecore/koDocument.cc:1519
+msgid ""
+"Parsing error in the main document at line %1, column %2\n"
+"Error message: %3"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1532
 msgid "%1 is not a file."
 msgstr "%1 файл эмас."
 
-#: kofficecore/koDocument.cc:1411
+#: kofficecore/koDocument.cc:1548
 msgid "Couldn't open the file for reading (check read permissions)."
-msgstr "Файлни ўқиш учун очиб бўлмади (ҳуқуқларни текширинг)."
+msgstr ""
+"Файлни ўқиш учун очиб бўлмади (ҳуқуқларни "
+"текширинг)."
 
-#: kofficecore/koDocument.cc:1421
+#: kofficecore/koDocument.cc:1558
 msgid "Couldn't read the beginning of the file."
 msgstr "Файлнинг бошини ўқиб бўлмади."
 
-#: kofficecore/koDocument.cc:1447 kofficecore/koDocument.cc:1481
+#: kofficecore/koDocument.cc:1584
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr ""
 
-#: kofficecore/koDocument.cc:1464
+#: kofficecore/koDocument.cc:1608
 msgid "Not a valid KOffice file."
 msgstr "Ҳақиқий KOffice файли эмас."
 
-#: kofficecore/koDocument.cc:1497
+#: kofficecore/koDocument.cc:1662
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr ""
 
-#: kofficecore/koDocument.cc:1509
-msgid "Couldn't load embedded objects."
-msgstr ""
-
-#: kofficecore/koDocument.cc:1649 kofficecore/koMainWindow.cc:994
+#: kofficecore/koDocument.cc:1822 kofficecore/koMainWindow.cc:998
 msgid ""
-"<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
-"</p>"
+"<p>The document <b>'%1'</b> has been modified.</p>"
+"<p>Do you want to save it?</p>"
 msgstr ""
-"<p><b>\"%1\"</b> ҳужжатига ўзгаришлар киритилди.</p><p>Уни сақлашни истайсизми?"
-"</p>"
+"<p><b>\"%1\"</b> ҳужжатига ўзгаришлар "
+"киритилди.</p><p>Уни сақлашни истайсизми?</p>"
 
-#: kofficecore/koDocument.cc:1790
+#: kofficecore/koDocument.cc:1963
 msgid "Internal error: saveXML not implemented"
+msgstr ""
+
+#: kofficecore/koDocument.cc:2189
+msgid "Internal error: saveOasis not implemented"
 msgstr ""
 
 #: kofficecore/koDocumentChild.cc:185
@@ -586,7 +613,7 @@ msgid "Author"
 msgstr "Муаллиф"
 
 #: kofficecore/koDocumentInfoDlg.cc:185 kofficeui/koTemplateChooseDia.cc:668
-#: kofficeui/koTemplateCreateDia.cc:96 kotext/koStylist.cc:185
+#: kofficeui/koTemplateCreateDia.cc:102 kotext/koStylist.cc:193
 #: kotext/koVariableDlgs.cc:69 kotext/koVariableDlgs.cc:299
 msgid "Name:"
 msgstr "Номи:"
@@ -645,23 +672,23 @@ msgstr "Ҳақида"
 msgid "Abstract:"
 msgstr "Қисқача мазмуни:"
 
-#: kofficecore/koFilterManager.cc:45
+#: kofficecore/koFilterManager.cc:52
 msgid "Choose Filter"
 msgstr "Филтерни танлаш"
 
-#: kofficecore/koFilterManager.cc:57
+#: kofficecore/koFilterManager.cc:64
 msgid "Select a filter:"
 msgstr "Филтерни танлаш:"
 
-#: kofficecore/koFilterManager.cc:257 kofficecore/koFilterManager.cc:265
+#: kofficecore/koFilterManager.cc:274 kofficecore/koFilterManager.cc:282
 msgid "Could not export file."
 msgstr "Файлни экспорт қилиб бўлмади."
 
-#: kofficecore/koFilterManager.cc:257 kofficecore/koFilterManager.cc:265
+#: kofficecore/koFilterManager.cc:274 kofficecore/koFilterManager.cc:282
 msgid "Missing Export Filter"
 msgstr "Экспорт филтери етишмаяпти"
 
-#: kofficecore/koFilterManager.cc:484
+#: kofficecore/koFilterManager.cc:501
 #, c-format
 msgid ""
 "Could not import file of type\n"
@@ -670,243 +697,251 @@ msgstr ""
 "%1\n"
 "турли файлни импорт қилиб бўлмади"
 
-#: kofficecore/koFilterManager.cc:486
+#: kofficecore/koFilterManager.cc:503
 msgid "Missing Import Filter"
 msgstr "Импорт филтери етишмаяпти"
 
-#: kofficecore/koGlobal.cc:53
+#: kofficecore/koGlobal.cc:54
 msgid "ISO A3"
 msgstr "ISO A3"
 
-#: kofficecore/koGlobal.cc:54
+#: kofficecore/koGlobal.cc:55
 msgid "ISO A4"
 msgstr "ISO A4"
 
-#: kofficecore/koGlobal.cc:55
+#: kofficecore/koGlobal.cc:56
 msgid "ISO A5"
 msgstr "ISO A5"
 
-#: kofficecore/koGlobal.cc:56
+#: kofficecore/koGlobal.cc:57
 msgid "US Letter"
 msgstr ""
 
-#: kofficecore/koGlobal.cc:57
+#: kofficecore/koGlobal.cc:58
 msgid "US Legal"
 msgstr ""
 
-#: kofficecore/koGlobal.cc:58
+#: kofficecore/koGlobal.cc:59
 msgid "Screen"
 msgstr "Экран"
 
-#: kofficecore/koGlobal.cc:59 kofficeui/koTemplateCreateDia.cc:139
+#: kofficecore/koGlobal.cc:60 kofficeui/koTemplateCreateDia.cc:145
 msgid "Custom"
 msgstr "Бошқа"
 
-#: kofficecore/koGlobal.cc:60
+#: kofficecore/koGlobal.cc:61
 msgid "ISO B5"
 msgstr "ISO B5"
 
-#: kofficecore/koGlobal.cc:61
+#: kofficecore/koGlobal.cc:63
 msgid "US Executive"
 msgstr ""
 
-#: kofficecore/koGlobal.cc:62
+#: kofficecore/koGlobal.cc:64
 msgid "ISO A0"
 msgstr "ISO A0"
 
-#: kofficecore/koGlobal.cc:63
+#: kofficecore/koGlobal.cc:65
 msgid "ISO A1"
 msgstr "ISO A1"
 
-#: kofficecore/koGlobal.cc:64
+#: kofficecore/koGlobal.cc:66
 msgid "ISO A2"
 msgstr "ISO A2"
 
-#: kofficecore/koGlobal.cc:65
+#: kofficecore/koGlobal.cc:67
 msgid "ISO A6"
 msgstr "ISO A6"
 
-#: kofficecore/koGlobal.cc:66
+#: kofficecore/koGlobal.cc:68
 msgid "ISO A7"
 msgstr "ISO A7"
 
-#: kofficecore/koGlobal.cc:67
+#: kofficecore/koGlobal.cc:69
 msgid "ISO A8"
 msgstr "ISO A8"
 
-#: kofficecore/koGlobal.cc:68
+#: kofficecore/koGlobal.cc:70
 msgid "ISO A9"
 msgstr "ISO A9"
 
-#: kofficecore/koGlobal.cc:69
+#: kofficecore/koGlobal.cc:71
 msgid "ISO B0"
 msgstr "ISO B0"
 
-#: kofficecore/koGlobal.cc:70
+#: kofficecore/koGlobal.cc:72
 msgid "ISO B1"
 msgstr "ISO B1"
 
-#: kofficecore/koGlobal.cc:71
+#: kofficecore/koGlobal.cc:73
 msgid "ISO B10"
 msgstr "ISO B10"
 
-#: kofficecore/koGlobal.cc:72
+#: kofficecore/koGlobal.cc:74
 msgid "ISO B2"
 msgstr "ISO B2"
 
-#: kofficecore/koGlobal.cc:73
+#: kofficecore/koGlobal.cc:75
 msgid "ISO B3"
 msgstr "ISO B3"
 
-#: kofficecore/koGlobal.cc:74
+#: kofficecore/koGlobal.cc:76
 msgid "ISO B4"
 msgstr "ISO B4"
 
-#: kofficecore/koGlobal.cc:75
+#: kofficecore/koGlobal.cc:77
 msgid "ISO B6"
 msgstr "ISO B6"
 
-#: kofficecore/koGlobal.cc:76
+#: kofficecore/koGlobal.cc:78
 msgid "ISO C5"
 msgstr "ISO C5"
 
-#: kofficecore/koGlobal.cc:77
+#: kofficecore/koGlobal.cc:79
 msgid "US Common 10"
 msgstr ""
 
-#: kofficecore/koGlobal.cc:78
+#: kofficecore/koGlobal.cc:80
 msgid "ISO DL"
 msgstr "ISO DL"
 
-#: kofficecore/koGlobal.cc:79
+#: kofficecore/koGlobal.cc:81
 msgid "US Folio"
 msgstr ""
 
-#: kofficecore/koGlobal.cc:80
+#: kofficecore/koGlobal.cc:82
 msgid "US Ledger"
 msgstr ""
 
-#: kofficecore/koGlobal.cc:81
+#: kofficecore/koGlobal.cc:83
 msgid "US Tabloid"
 msgstr ""
 
-#: kofficecore/koMainWindow.cc:106
+#: kofficecore/koMainWindow.cc:110
 msgid "%1 (KOffice-1.1 Format)"
 msgstr "%1 (KOffice-1.1 формати)"
 
-#: kofficecore/koMainWindow.cc:107
+#: kofficecore/koMainWindow.cc:111
 msgid "%1 (Uncompressed XML Files)"
 msgstr "%1 (қисилмаган XML-файллари)"
 
-#: kofficecore/koMainWindow.cc:121
+#: kofficecore/koMainWindow.cc:112
+#, fuzzy
+msgid "%1 (KOffice-1.3 Format)"
+msgstr "%1 (KOffice-1.1 формати)"
+
+#: kofficecore/koMainWindow.cc:113
+msgid "%1 (OASIS Format - experimental)"
+msgstr ""
+
+#: kofficecore/koMainWindow.cc:130
 msgid "%1 (%2 Compatible)"
 msgstr "%1 (%2 билан мос)"
 
-#: kofficecore/koMainWindow.cc:258
-msgid "Send File..."
-msgstr "Файлни жўнатиш"
-
-#: kofficecore/koMainWindow.cc:265
+#: kofficecore/koMainWindow.cc:274
 msgid "I&mport..."
 msgstr "&Импорт қилиш"
 
-#: kofficecore/koMainWindow.cc:268
+#: kofficecore/koMainWindow.cc:277
 msgid "E&xport..."
 msgstr "&Экспорт қилиш"
 
-#: kofficecore/koMainWindow.cc:272
+#: kofficecore/koMainWindow.cc:281
 msgid "&Document Information"
 msgstr "Ҳужжат &ҳақида маълумот"
 
-#: kofficecore/koMainWindow.cc:295
+#: kofficecore/koMainWindow.cc:304
 msgid "&Close All Views"
 msgstr "Ҳамма &кўринишларни ёпиш"
 
-#: kofficecore/koMainWindow.cc:300
+#: kofficecore/koMainWindow.cc:309
 msgid "&Split View"
 msgstr "Кўр&инишни бўлиш"
 
-#: kofficecore/koMainWindow.cc:303
+#: kofficecore/koMainWindow.cc:312
 msgid "&Remove View"
 msgstr "Кўринишни &олиб ташлаш"
 
-#: kofficecore/koMainWindow.cc:308
+#: kofficecore/koMainWindow.cc:317
 msgid "Splitter &Orientation"
 msgstr ""
 
-#: kofficecore/koMainWindow.cc:312
+#: kofficecore/koMainWindow.cc:321
 msgid "&Vertical"
 msgstr "&Бўйига"
 
-#: kofficecore/koMainWindow.cc:313
+#: kofficecore/koMainWindow.cc:322
 msgid "&Horizontal"
 msgstr "&Энига"
 
-#: kofficecore/koMainWindow.cc:645
+#: kofficecore/koMainWindow.cc:654
 msgid "%1 (unknown file type)"
 msgstr "%1 (файлнинг тури номаълум)"
 
-#: kofficecore/koMainWindow.cc:655
+#: kofficecore/koMainWindow.cc:664
 msgid ""
-"<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
-"want to save in this format?</qt>"
+"<qt>Saving as a %1 may result in some loss of formatting."
+"<p>Do you still want to save in this format?</qt>"
 msgstr ""
 
-#: kofficecore/koMainWindow.cc:658
+#: kofficecore/koMainWindow.cc:667
 msgid "Confirm Save"
 msgstr "Сақлашни тасдиқлаш"
 
-#: kofficecore/koMainWindow.cc:669
+#: kofficecore/koMainWindow.cc:678
 msgid ""
-"<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
-"want to export to this format?</qt>"
+"<qt>Exporting as a %1 may result in some loss of formatting."
+"<p>Do you still want to export to this format?</qt>"
 msgstr ""
 
-#: kofficecore/koMainWindow.cc:672
+#: kofficecore/koMainWindow.cc:681
 msgid "Confirm Export"
 msgstr "Экспорт қилишни тасдиқлаш"
 
-#: kofficecore/koMainWindow.cc:744
+#: kofficecore/koMainWindow.cc:759
 msgid "Save Document As"
 msgstr "Ҳужжатни сақлаш"
 
-#: kofficecore/koMainWindow.cc:746
+#: kofficecore/koMainWindow.cc:761
 msgid "Export Document As"
 msgstr "Ҳужжатни экспорт қилиш"
 
-#: kofficecore/koMainWindow.cc:814
+#: kofficecore/koMainWindow.cc:813
 msgid ""
 "A document with this name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
-"Ҳудди шундай номли ҳужжат аллақачон мавжуд.\n"
+"Ҳудди шундай номли ҳужжат аллақачон "
+"мавжуд.\n"
 "Уни алмаштиришни истайсизми?"
 
-#: kofficecore/koMainWindow.cc:1063 kofficeui/koTemplateChooseDia.cc:172
+#: kofficecore/koMainWindow.cc:1067 kofficeui/koTemplateChooseDia.cc:172
 msgid "Open Document"
 msgstr "Ҳужжатни очиш"
 
-#: kofficecore/koMainWindow.cc:1065
+#: kofficecore/koMainWindow.cc:1069
 msgid "Import Document"
 msgstr "Ҳужжатни импорт қилиш"
 
-#: kofficecore/koMainWindow.cc:1485
+#: kofficecore/koMainWindow.cc:1491
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: kofficecore/koMainWindow.cc:1555
-msgid "ERROR: File not found."
-msgstr "ХАТО: Файл топилмади."
+#: kofficecore/koMainWindow.cc:1494
+msgid "Hide %1 Toolbar"
+msgstr ""
 
-#: kofficecore/koMainWindow.cc:1556
-msgid "To send a file you must first have saved the file to the filesystem."
-msgstr "Файлни жўнатиш учун, аввало уни дискга сақлаш керак."
+#: kofficecore/koMainWindow.cc:1553
+#, fuzzy
+msgid ""
+"You must save this document before sending it.\n"
+"Do you want to save it?"
+msgstr ""
+"Ҳудди шундай номли ҳужжат аллақачон "
+"мавжуд.\n"
+"Уни алмаштиришни истайсизми?"
 
-#: kofficecore/koMainWindow.cc:1557
-msgid "Error: File Not Found!"
-msgstr "Хато: Файл топилмади!"
-
-#: kofficecore/koMainWindow.cc:1567
+#: kofficecore/koMainWindow.cc:1598
 msgid ""
 "You will lose all your changes!\n"
 "Do you want to continue?"
@@ -914,92 +949,92 @@ msgstr ""
 "Киритилган ҳамма ўзгаришлар йўқолади!\n"
 "Давом этишни истайсизми?"
 
-#: kofficecore/koUnit.cc:43
+#: kofficecore/koUnit.cc:44
 msgid "Millimeters (mm)"
 msgstr "Миллиметр (мм)"
 
-#: kofficecore/koUnit.cc:45
+#: kofficecore/koUnit.cc:46
 msgid "Centimeters (cm)"
 msgstr "Сантиметр (см)"
 
-#: kofficecore/koUnit.cc:47
+#: kofficecore/koUnit.cc:48
 msgid "Decimeters (dm)"
 msgstr "Дециметр (дм)"
 
-#: kofficecore/koUnit.cc:49
+#: kofficecore/koUnit.cc:50
 msgid "Inches (in)"
 msgstr "Дюйм (дм)"
 
-#: kofficecore/koUnit.cc:51
+#: kofficecore/koUnit.cc:52
 msgid "Pica (pi)"
 msgstr ""
 
-#: kofficecore/koUnit.cc:53
+#: kofficecore/koUnit.cc:54
 msgid "Didot (dd)"
 msgstr ""
 
-#: kofficecore/koUnit.cc:55
+#: kofficecore/koUnit.cc:56
 msgid "Cicero (cc)"
 msgstr ""
 
-#: kofficecore/koUnit.cc:57
+#: kofficecore/koUnit.cc:58
 msgid "Points (pt)"
 msgstr ""
 
-#: kofficecore/koUnit.cc:59
+#: kofficecore/koUnit.cc:60
 msgid "Error!"
 msgstr "Хато!"
 
-#: kofficeui/koCharSelectDia.cc:33 kofficeui/koCharSelectDia.cc:43
+#: kofficeui/koCharSelectDia.cc:33 kofficeui/koCharSelectDia.cc:44
 msgid "Select Character"
 msgstr "Белгини танлаш"
 
-#: kofficeui/koCharSelectDia.cc:38 kofficeui/koCharSelectDia.cc:48
+#: kofficeui/koCharSelectDia.cc:39 kofficeui/koCharSelectDia.cc:49
 msgid "Insert the selected character in the text"
 msgstr "Танланган белгини матнга қўйиш"
 
-#: kofficeui/koInsertLink.cc:38
+#: kofficeui/koInsertLink.cc:39
 msgid "Insert Link"
 msgstr "Боғни қўйиш"
 
-#: kofficeui/koInsertLink.cc:43
+#: kofficeui/koInsertLink.cc:44
 msgid "Internet"
 msgstr "Интернет"
 
-#: kofficeui/koInsertLink.cc:47
+#: kofficeui/koInsertLink.cc:48
 msgid "Mail & News"
 msgstr "Хат ва янгиликлар"
 
-#: kofficeui/koInsertLink.cc:57
+#: kofficeui/koInsertLink.cc:58
 msgid "Bookmark"
 msgstr "Хатчўп"
 
-#: kofficeui/koInsertLink.cc:195 kofficeui/koInsertLink.cc:267
-#: kofficeui/koInsertLink.cc:348 kofficeui/koInsertLink.cc:417
+#: kofficeui/koInsertLink.cc:196 kofficeui/koInsertLink.cc:268
+#: kofficeui/koInsertLink.cc:349 kofficeui/koInsertLink.cc:418
 msgid "Comment:"
 msgstr "Изоҳ:"
 
-#: kofficeui/koInsertLink.cc:203
+#: kofficeui/koInsertLink.cc:204
 msgid "Internet address:"
 msgstr "Интернет манзили:"
 
-#: kofficeui/koInsertLink.cc:275
+#: kofficeui/koInsertLink.cc:276
 msgid "Bookmark name:"
 msgstr "Хатчўпнинг номи:"
 
-#: kofficeui/koInsertLink.cc:356
+#: kofficeui/koInsertLink.cc:357
 msgid "Target:"
 msgstr "Мўлжал:"
 
-#: kofficeui/koInsertLink.cc:424
+#: kofficeui/koInsertLink.cc:425
 msgid "Recent file:"
 msgstr "Яқинда очилган файллар:"
 
-#: kofficeui/koInsertLink.cc:442
+#: kofficeui/koInsertLink.cc:443
 msgid "No Entries"
 msgstr ""
 
-#: kofficeui/koInsertLink.cc:452
+#: kofficeui/koInsertLink.cc:453
 msgid "File location:"
 msgstr "Файл:"
 
@@ -1007,171 +1042,178 @@ msgstr "Файл:"
 msgid "Page Preview"
 msgstr "Бетни кўриб чиқиш"
 
-#: kofficeui/koPageLayoutDia.cc:121 kofficeui/koPageLayoutDia.cc:153
+#: kofficeui/koPageLayoutDia.cc:121 kofficeui/koPageLayoutDia.cc:152
 msgid "Page Layout"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:291
+#: kofficeui/koPageLayoutDia.cc:289
 msgid "Page Size && &Margins"
 msgstr "Бетнинг катталиги ва &бўш жойлар"
 
-#: kofficeui/koPageLayoutDia.cc:303
+#: kofficeui/koPageLayoutDia.cc:301
 msgid "Unit:"
 msgstr "Бирлик:"
 
-#: kofficeui/koPageLayoutDia.cc:314
+#: kofficeui/koPageLayoutDia.cc:312
 #, c-format
 msgid "All values are given in %1."
 msgstr "Ҳамма қийматлар %1 да берилган."
 
-#: kofficeui/koPageLayoutDia.cc:319
+#: kofficeui/koPageLayoutDia.cc:317
 msgid "Page Size"
 msgstr "Бетнинг катталиги"
 
-#: kofficeui/koPageLayoutDia.cc:326
+#: kofficeui/koPageLayoutDia.cc:324
 msgid "&Size:"
 msgstr "&Катталиги:"
 
-#: kofficeui/koPageLayoutDia.cc:337 kotext/koParagDia.cc:1291
+#: kofficeui/koPageLayoutDia.cc:335 kotext/koParagDia.cc:1293
 msgid "&Width:"
 msgstr "&Эни:"
 
-#: kofficeui/koPageLayoutDia.cc:349
+#: kofficeui/koPageLayoutDia.cc:347
 msgid "&Height:"
 msgstr "&Узунаси:"
 
-#: kofficeui/koPageLayoutDia.cc:370
+#: kofficeui/koPageLayoutDia.cc:368
 msgid "&Portrait"
 msgstr "&Узунасига"
 
-#: kofficeui/koPageLayoutDia.cc:375
+#: kofficeui/koPageLayoutDia.cc:373
 msgid "La&ndscape"
 msgstr "Э&нига"
 
-#: kofficeui/koPageLayoutDia.cc:382
+#: kofficeui/koPageLayoutDia.cc:380
 msgid "Margins"
 msgstr "Бўш жой"
 
-#: kofficeui/koPageLayoutDia.cc:389
+#: kofficeui/koPageLayoutDia.cc:387
 msgid "&Left:"
 msgstr "&Чапдан:"
 
-#: kofficeui/koPageLayoutDia.cc:399
+#: kofficeui/koPageLayoutDia.cc:397
 msgid "&Right:"
 msgstr "Ўн&гдан:"
 
-#: kofficeui/koPageLayoutDia.cc:409
+#: kofficeui/koPageLayoutDia.cc:407
 msgid "&Top:"
 msgstr "&Юқоридан:"
 
-#: kofficeui/koPageLayoutDia.cc:419
+#: kofficeui/koPageLayoutDia.cc:417
 msgid "&Bottom:"
 msgstr "&Пастдан:"
 
-#: kofficeui/koPageLayoutDia.cc:495 kofficeui/koPageLayoutDia.cc:630
+#: kofficeui/koPageLayoutDia.cc:493 kofficeui/koPageLayoutDia.cc:628
 msgid "H&eader && Footer"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:499
+#: kofficeui/koPageLayoutDia.cc:497
 msgid "Head Line"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:504 kofficeui/koPageLayoutDia.cc:533
+#: kofficeui/koPageLayoutDia.cc:502 kofficeui/koPageLayoutDia.cc:531
 msgid "Left:"
 msgstr "Чап:"
 
-#: kofficeui/koPageLayoutDia.cc:511 kofficeui/koPageLayoutDia.cc:540
+#: kofficeui/koPageLayoutDia.cc:509 kofficeui/koPageLayoutDia.cc:538
 msgid "Mid:"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:518 kofficeui/koPageLayoutDia.cc:547
+#: kofficeui/koPageLayoutDia.cc:516 kofficeui/koPageLayoutDia.cc:545
 msgid "Right:"
 msgstr "Ўнг:"
 
-#: kofficeui/koPageLayoutDia.cc:528
+#: kofficeui/koPageLayoutDia.cc:526
 msgid "Foot Line"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:556
+#: kofficeui/koPageLayoutDia.cc:554
 msgid "You can insert several tags in the text:"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:559
+#: kofficeui/koPageLayoutDia.cc:557
 msgid ""
-"<qt><ul><li>&lt;sheet&gt; The sheet name</li><li>&lt;page&gt; The current "
-"page</li><li>&lt;pages&gt; The total number of pages</li><li>&lt;name&gt; "
-"The filename or URL</li><li>&lt;file&gt; The filename with complete path or "
-"the URL</li></ul></qt>"
+"<qt>"
+"<ul>"
+"<li>&lt;sheet&gt; The sheet name</li>"
+"<li>&lt;page&gt; The current page</li>"
+"<li>&lt;pages&gt; The total number of pages</li>"
+"<li>&lt;name&gt; The filename or URL</li>"
+"<li>&lt;file&gt; The filename with complete path or the URL</li></ul></qt>"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:566
+#: kofficeui/koPageLayoutDia.cc:564
 msgid ""
-"<qt><ul><li>&lt;time&gt; The current time</li><li>&lt;date&gt; The current "
-"date</li><li>&lt;author&gt; Your full name</li><li>&lt;org&gt; Your "
-"organization</li><li>&lt;email&gt; Your email address</li></ul></qt>"
+"<qt>"
+"<ul>"
+"<li>&lt;time&gt; The current time</li>"
+"<li>&lt;date&gt; The current date</li>"
+"<li>&lt;author&gt; Your full name</li>"
+"<li>&lt;org&gt; Your organization</li>"
+"<li>&lt;email&gt; Your email address</li></ul></qt>"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:577
+#: kofficeui/koPageLayoutDia.cc:575
 msgid "Col&umns"
 msgstr "&Устунлар"
 
-#: kofficeui/koPageLayoutDia.cc:581
+#: kofficeui/koPageLayoutDia.cc:579
 msgid "Co&lumns:"
 msgstr "У&стунлар:"
 
-#: kofficeui/koPageLayoutDia.cc:592
+#: kofficeui/koPageLayoutDia.cc:590
 msgid "Column &spacing (%1):"
 msgstr "&Устунлар орасидаги масофа (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:633
+#: kofficeui/koPageLayoutDia.cc:631
 msgid "&Header"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:638
+#: kofficeui/koPageLayoutDia.cc:636
 msgid "Different header for the first page"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:644
+#: kofficeui/koPageLayoutDia.cc:642
 msgid "Different header for even and odd pages"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:650
+#: kofficeui/koPageLayoutDia.cc:648
 msgid "Spacing between header and body (%1):"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:663
+#: kofficeui/koPageLayoutDia.cc:661
 msgid "&Footer"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:668
+#: kofficeui/koPageLayoutDia.cc:666
 msgid "Different footer for the first page"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:674
+#: kofficeui/koPageLayoutDia.cc:672
 msgid "Different footer for even and odd pages"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:680
+#: kofficeui/koPageLayoutDia.cc:678
 msgid "Spacing between footer and body (%1):"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:693
+#: kofficeui/koPageLayoutDia.cc:691
 msgid "Foot&note/Endnote"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:698
+#: kofficeui/koPageLayoutDia.cc:696
 msgid "Spacing between footnote and body (%1):"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:866
+#: kofficeui/koPageLayoutDia.cc:864
 msgid "The page width is smaller than the left and right margins."
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:867 kofficeui/koPageLayoutDia.cc:874
+#: kofficeui/koPageLayoutDia.cc:865 kofficeui/koPageLayoutDia.cc:872
 msgid "Page Layout Problem"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:873
+#: kofficeui/koPageLayoutDia.cc:871
 msgid "The page height is smaller than the top and bottom margins."
 msgstr ""
 
@@ -1191,45 +1233,13 @@ msgstr "Изоҳ"
 msgid "*.svg *.wmf|Clipart (*.svg *.wmf)"
 msgstr "*.svg *.wmf|Клипарт (*.svg *.wmf)"
 
-#: kofficeui/koRuler.cc:970
+#: kofficeui/koRuler.cc:998
 msgid "Page Layout..."
 msgstr ""
 
-#: kofficeui/koRuler.cc:972
+#: kofficeui/koRuler.cc:1000
 msgid "Remove Tabulator"
 msgstr ""
-
-#: kofficeui/koSpellConfig.cc:51
-msgid "Spelling"
-msgstr "Имло"
-
-#: kofficeui/koSpellConfig.cc:58
-msgid "Show misspelled words in document"
-msgstr "Ҳужжатдаги нотўғри ёзилган сўзларни кўрсатиш"
-
-#: kofficeui/koSpellConfig.cc:64 kotext/koStylist.cc:217
-msgid "General"
-msgstr "Умумий"
-
-#: kofficeui/koSpellConfig.cc:67 kofficeui/koSpellConfig.cc:78
-msgid "Word"
-msgstr "Сўз"
-
-#: kofficeui/koSpellConfig.cc:71
-msgid "Clear Ignore All Word History"
-msgstr ""
-
-#: kofficeui/koSpellConfig.cc:74
-msgid "Ignore All List"
-msgstr ""
-
-#: kofficeui/koSpellConfig.cc:82
-msgid "Clear Dictionary"
-msgstr "Луғатни тозалаш"
-
-#: kofficeui/koSpellConfig.cc:85
-msgid "Dictionary"
-msgstr "Луғат"
 
 #: kofficeui/koTabChooser.cc:158
 msgid "Tabulator &Left"
@@ -1261,7 +1271,9 @@ msgstr "Бўш ҳужжатни яратиш"
 
 #: kofficeui/koTemplateChooseDia.cc:429
 msgid "Always start %1 with the selected template"
-msgstr "%1'ни ҳамма вақт танланган намуна билан бошлаш"
+msgstr ""
+"%1'ни ҳамма вақт танланган намуна билан "
+"бошлаш"
 
 #: kofficeui/koTemplateChooseDia.cc:481
 msgid "&Create Document"
@@ -1287,75 +1299,83 @@ msgstr "Таърифи:"
 msgid "No description available"
 msgstr "Ҳеч қандай таъриф мавжуд эмас"
 
-#: kofficeui/koTemplateCreateDia.cc:86
+#: kofficeui/koTemplateCreateDia.cc:92
 msgid "Create Template"
 msgstr "Намуна яратиш"
 
-#: kofficeui/koTemplateCreateDia.cc:106
+#: kofficeui/koTemplateCreateDia.cc:112
 msgid "Group:"
 msgstr "Гуруҳ:"
 
-#: kofficeui/koTemplateCreateDia.cc:120
+#: kofficeui/koTemplateCreateDia.cc:126
 msgid "&Add Group..."
 msgstr "&Гуруҳни қўшиш"
 
-#: kofficeui/koTemplateCreateDia.cc:128
+#: kofficeui/koTemplateCreateDia.cc:134
 msgid "Picture"
 msgstr "Расм"
 
-#: kofficeui/koTemplateCreateDia.cc:134
+#: kofficeui/koTemplateCreateDia.cc:140
 msgid "&Default"
 msgstr "&Андоза"
 
-#: kofficeui/koTemplateCreateDia.cc:143
+#: kofficeui/koTemplateCreateDia.cc:149
 msgid "&Select..."
 msgstr "&Танлаш"
 
-#: kofficeui/koTemplateCreateDia.cc:148
+#: kofficeui/koTemplateCreateDia.cc:154
 msgid "Preview:"
 msgstr "Кўриб чиқиш:"
 
-#: kofficeui/koTemplateCreateDia.cc:245
+#: kofficeui/koTemplateCreateDia.cc:258
 msgid "Do you really want to overwrite the existing '%1' template?"
-msgstr "Мавжуд бўлган \"%1\" намунани ростдан алмаштиришни истайсизми?"
+msgstr ""
+"Мавжуд бўлган \"%1\" намунани ростдан "
+"алмаштиришни истайсизми?"
 
-#: kofficeui/koTemplateCreateDia.cc:316
+#: kofficeui/koTemplateCreateDia.cc:333
 msgid "Select Picture"
 msgstr "Расмни танлаш"
 
-#: kofficeui/koTemplateCreateDia.cc:330
-msgid "Only local files are currently supported."
+#: kofficeui/koTemplateCreateDia.cc:360
+msgid "Remote file could not be downloaded."
 msgstr ""
 
-#: kofficeui/koTemplateCreateDia.cc:348
+#: kofficeui/koTemplateCreateDia.cc:379 kofficeui/koTemplateCreateDia.cc:385
 msgid "Add Group"
 msgstr "Гуруҳни қўшиш"
 
-#: kofficeui/koTemplateCreateDia.cc:348
+#: kofficeui/koTemplateCreateDia.cc:379
 msgid "Enter group name:"
 msgstr "Гуруҳнинг номини киритинг:"
 
-#: kofficeui/koTemplateCreateDia.cc:376
+#: kofficeui/koTemplateCreateDia.cc:385
+msgid "This name is already used."
+msgstr ""
+
+#: kofficeui/koTemplateCreateDia.cc:409
 msgid "Do you really want to remove that group?"
 msgstr "Гуруҳни ростдан олиб ташлашни истайсизми?"
 
-#: kofficeui/koTemplateCreateDia.cc:377
+#: kofficeui/koTemplateCreateDia.cc:410
 msgid "Remove Group"
 msgstr "Гуруҳни олиб ташлаш"
 
-#: kofficeui/koTemplateCreateDia.cc:379
+#: kofficeui/koTemplateCreateDia.cc:412
 msgid "Do you really want to remove that template?"
-msgstr "Намунани ростдан олиб ташлашни истайсизми?"
+msgstr ""
+"Намунани ростдан олиб ташлашни "
+"истайсизми?"
 
-#: kofficeui/koTemplateCreateDia.cc:380
+#: kofficeui/koTemplateCreateDia.cc:413
 msgid "Remove Template"
 msgstr "Намунани олиб ташлаш"
 
-#: kofficeui/koTemplateCreateDia.cc:424
+#: kofficeui/koTemplateCreateDia.cc:461
 msgid "Could not load picture."
 msgstr "Расмни юклаб бўлмади."
 
-#: kofficeui/koTemplateCreateDia.cc:427
+#: kofficeui/koTemplateCreateDia.cc:464
 msgid "No picture available."
 msgstr "Ҳеч қандай расм йўқ."
 
@@ -2293,7 +2313,9 @@ msgstr ""
 #: koscript/koscript_eval.cc:247
 #, c-format
 msgid "Unary Operator + not defined for type %1"
-msgstr "%1 тури учун + мантиқий оператори аниқланмаган"
+msgstr ""
+"%1 тури учун + мантиқий оператори "
+"аниқланмаган"
 
 #: koscript/koscript_eval.cc:375
 #, c-format
@@ -2303,7 +2325,9 @@ msgstr "%1 тури учун + оператори аниқланмаган"
 #: koscript/koscript_eval.cc:402
 #, c-format
 msgid "Unary Operator - not defined for type %1"
-msgstr "%1 тури учун - мантиқий оператори аниқланмаган"
+msgstr ""
+"%1 тури учун - мантиқий оператори "
+"аниқланмаган"
 
 #: koscript/koscript_eval.cc:521
 #, c-format
@@ -2444,7 +2468,9 @@ msgstr "Сананинг формати нотўғри: %1"
 
 #: koscript/koscript_func.cc:135
 msgid "Cannot calculate length of a %1 value."
-msgstr "%1 қийматининг узунлигини ҳисоблаб бўлмади."
+msgstr ""
+"%1 қийматининг узунлигини ҳисоблаб "
+"бўлмади."
 
 #: koscript/koscript_func.cc:188
 msgid "Cannot determine emptiness of a %1 value."
@@ -2481,7 +2507,9 @@ msgstr ""
 
 #: koscript/koscript_util.cc:87
 msgid "Arguments did not match the methods %1 parameter list."
-msgstr "%1 методи учун аргументлар параметр рўйхатига мос келмади."
+msgstr ""
+"%1 методи учун аргументлар параметр "
+"рўйхатига мос келмади."
 
 #: koscript/koscript_util.cc:93
 #, c-format
@@ -2506,8 +2534,10 @@ msgid "KOffice script interpreter."
 msgstr "KOffice скрипт интерпретатори."
 
 #: koscript/main.cc:54
-msgid "You must specify a script.\n"
-msgstr "Скриптни кўрсатишингиз керак.\n"
+msgid ""
+"You must specify a script.\n"
+msgstr ""
+"Скриптни кўрсатишингиз керак.\n"
 
 #: kotext/dateformatwidget_impl.cc:24
 msgid ""
@@ -2612,72 +2642,74 @@ msgstr "Эрталаб/Кечқурун"
 msgid "Correct in Days"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:799 kotext/koAutoFormat.cc:814
+#: kotext/koAutoFormat.cc:852 kotext/koAutoFormat.cc:867
 msgid "Completion Word"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:934 kotext/koAutoFormat.cc:944
-#: kotext/koAutoFormat.cc:956 kotext/koAutoFormat.cc:1968
-#: kotext/koAutoFormat.cc:1979 kotext/koAutoFormat.cc:1991
+#: kotext/koAutoFormat.cc:988 kotext/koAutoFormat.cc:998
+#: kotext/koAutoFormat.cc:1010 kotext/koAutoFormat.cc:2041
+#: kotext/koAutoFormat.cc:2052 kotext/koAutoFormat.cc:2064
 #: kotext/koAutoFormatDia.cc:176
 msgid "Autocorrection"
 msgstr "Авто-тўғрилаш"
 
-#: kotext/koAutoFormat.cc:1036 kotext/koAutoFormat.cc:1046
-#: kotext/koAutoFormat.cc:1369
+#: kotext/koAutoFormat.cc:1105 kotext/koAutoFormat.cc:1115
+#: kotext/koAutoFormat.cc:1436
 msgid "Autocorrect Word"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1043
+#: kotext/koAutoFormat.cc:1112
 msgid "Autocorrect Word with Format"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1107
+#: kotext/koAutoFormat.cc:1174
 msgid "Typographic Quote"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1159
+#: kotext/koAutoFormat.cc:1226
 msgid "Autocorrect (capitalize first letter)"
-msgstr "Авто-тўғрилаш (биринчи ҳарфни бош ҳарфга алмаштириш)"
+msgstr ""
+"Авто-тўғрилаш (биринчи ҳарфни бош ҳарфга "
+"алмаштириш)"
 
-#: kotext/koAutoFormat.cc:1184
+#: kotext/koAutoFormat.cc:1251
 msgid ""
 "Autocorrect (Convert two upper case letters to one upper case and one lower "
 "case letter.)"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1223
+#: kotext/koAutoFormat.cc:1290
 msgid "Autocorrect (replace 1/2... with "
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1264
+#: kotext/koAutoFormat.cc:1331
 msgid "Insert Variable"
 msgstr "Ўзгарувчини қўйиш"
 
-#: kotext/koAutoFormat.cc:1359
+#: kotext/koAutoFormat.cc:1426
 msgid "Autocorrection: Change Format"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1405
+#: kotext/koAutoFormat.cc:1472
 msgid "Autocorrect (use bullet style)"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1489
+#: kotext/koAutoFormat.cc:1556
 msgid "Autocorrect (use number style)"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1569 kotext/koAutoFormat.cc:1598
+#: kotext/koAutoFormat.cc:1636 kotext/koAutoFormat.cc:1665
 msgid "Autocorrect (remove start and end line space)"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1636
+#: kotext/koAutoFormat.cc:1703
 msgid "Capitalize Name of Days"
 msgstr ""
 
-#: kotext/koAutoFormat.cc:1887 kotext/koAutoFormat.cc:1910
-#: kotext/koAutoFormat.cc:1920 kotext/koAutoFormat.cc:1938
-#: kotext/koAutoFormat.cc:1953 kotext/koAutoFormat.cc:1998
-#: kotext/koAutoFormat.cc:2007
+#: kotext/koAutoFormat.cc:1960 kotext/koAutoFormat.cc:1983
+#: kotext/koAutoFormat.cc:1993 kotext/koAutoFormat.cc:2011
+#: kotext/koAutoFormat.cc:2026 kotext/koAutoFormat.cc:2071
+#: kotext/koAutoFormat.cc:2080
 msgid "Apply Autoformat"
 msgstr "Авто-форматлашни қўллаш"
 
@@ -2685,8 +2717,8 @@ msgstr "Авто-форматлашни қўллаш"
 msgid "Autoinclude"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:177 kotext/koAutoFormatDia.cc:1140
-#: kotext/koFontDia.cc:1096
+#: kotext/koAutoFormatDia.cc:177 kotext/koAutoFormatDia.cc:1141
+#: kotext/koFontDia.cc:1108
 msgid "&Reset"
 msgstr "&Тиклаш"
 
@@ -2742,7 +2774,9 @@ msgstr ""
 
 #: kotext/koAutoFormatDia.cc:274
 msgid "R&emove spaces at the beginning and end of paragraphs"
-msgstr "&Параграфнинг боши ва охиридаги бўш жойларни олиб ташлаш"
+msgstr ""
+"&Параграфнинг боши ва охиридаги бўш "
+"жойларни олиб ташлаш"
 
 #: kotext/koAutoFormatDia.cc:276
 msgid ""
@@ -2816,134 +2850,135 @@ msgstr ""
 msgid "Advanced Autocorrection"
 msgstr "Қўшимча авто-тўғрилаш"
 
-#: kotext/koAutoFormatDia.cc:535
+#: kotext/koAutoFormatDia.cc:504 kotext/koAutoFormatDia.cc:506
+#, fuzzy
+msgid "All Languages"
+msgstr "Тил:"
+
+#: kotext/koAutoFormatDia.cc:537
 msgid "Replacements and exceptions for language:"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:539
+#: kotext/koAutoFormatDia.cc:541
 msgid "Enable word replacement"
 msgstr "Сўз алмаштиришни ёқиш"
 
-#: kotext/koAutoFormatDia.cc:544
+#: kotext/koAutoFormatDia.cc:546
 msgid "Replace text with format"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:547
+#: kotext/koAutoFormatDia.cc:549
 msgid "&Find:"
 msgstr "&Қидириш:"
 
-#: kotext/koAutoFormatDia.cc:566
+#: kotext/koAutoFormatDia.cc:568
 msgid "&Replace:"
 msgstr "&Алмаштириш:"
 
-#: kotext/koAutoFormatDia.cc:585 kotext/koAutoFormatDia.cc:749
-#: kotext/koAutoFormatDia.cc:768 kotext/koAutoFormatDia.cc:815
-#: kotext/koAutoFormatDia.cc:833 kotext/koAutoFormatDia.cc:909
+#: kotext/koAutoFormatDia.cc:587 kotext/koAutoFormatDia.cc:750
+#: kotext/koAutoFormatDia.cc:769 kotext/koAutoFormatDia.cc:816
+#: kotext/koAutoFormatDia.cc:834 kotext/koAutoFormatDia.cc:910
 msgid "&Add"
 msgstr "&Қўшиш"
 
-#: kotext/koAutoFormatDia.cc:591
+#: kotext/koAutoFormatDia.cc:593
 msgid "Find"
 msgstr "Қидириш"
 
-#: kotext/koAutoFormatDia.cc:606
+#: kotext/koAutoFormatDia.cc:608
 msgid "Change Format..."
 msgstr "Форматни ўзгартириш"
 
-#: kotext/koAutoFormatDia.cc:612
+#: kotext/koAutoFormatDia.cc:614
 msgid "Clear Format"
 msgstr "Форматни тозалаш"
 
-#: kotext/koAutoFormatDia.cc:715
+#: kotext/koAutoFormatDia.cc:716
 msgid "Exceptions"
 msgstr "Қоидадан ташқари ҳолатлар"
 
-#: kotext/koAutoFormatDia.cc:720
+#: kotext/koAutoFormatDia.cc:721
 msgid "Do not treat as the end of a sentence:"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:727
+#: kotext/koAutoFormatDia.cc:728
 msgid "Accept two uppercase letters in:"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:791
+#: kotext/koAutoFormatDia.cc:792
 msgid "Change Text Format"
 msgstr "Матннинг форматини ўзгартириш"
 
-#: kotext/koAutoFormatDia.cc:899
+#: kotext/koAutoFormatDia.cc:900
 msgid "An area is empty"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:904
+#: kotext/koAutoFormatDia.cc:905
 msgid "Find string is the same as replace string!"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1139
+#: kotext/koAutoFormatDia.cc:1140
 msgid "Completion"
 msgstr "Тўлдириш"
 
-#: kotext/koAutoFormatDia.cc:1171
+#: kotext/koAutoFormatDia.cc:1172
 msgid "E&nable completion"
 msgstr "Тўлдиришни ёқ&иш"
 
-#: kotext/koAutoFormatDia.cc:1175
+#: kotext/koAutoFormatDia.cc:1176
 msgid "&Automatically add new words to completion list"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1176
+#: kotext/koAutoFormatDia.cc:1177
 msgid ""
 "If this option is enabled, any word typed in this document will "
 "automatically be added to the list of words used by the completion."
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1182
+#: kotext/koAutoFormatDia.cc:1183
 msgid "Add Completion Entry..."
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1185
+#: kotext/koAutoFormatDia.cc:1186
 msgid "R&emove Completion Entry"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1188
+#: kotext/koAutoFormatDia.cc:1189
 msgid "&Save Completion List"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1194
+#: kotext/koAutoFormatDia.cc:1195
 msgid "&Minimum word length:"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1198
+#: kotext/koAutoFormatDia.cc:1199
 msgid "Ma&ximum number of completion words:"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1201
+#: kotext/koAutoFormatDia.cc:1202
 msgid "A&ppend space"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1229
+#: kotext/koAutoFormatDia.cc:1230
 msgid ""
 "Completion list saved.\n"
 "It will be used for all documents from now on."
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1230
+#: kotext/koAutoFormatDia.cc:1231
 msgid "Completion List Saved"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1236
+#: kotext/koAutoFormatDia.cc:1237
 msgid "Add Completion Entry"
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1236
+#: kotext/koAutoFormatDia.cc:1237
 msgid "Enter entry:"
 msgstr ""
 
-#: kotext/koBgSpellCheck.cc:187
-msgid "Spell Checking"
-msgstr "Имлони текшириш"
-
-#: kotext/koChangeCaseDia.cc:34 kotext/kotextobject.cc:1726
-#: kotext/kotextobject.cc:1802
+#: kotext/koChangeCaseDia.cc:34 kotext/kotextobject.cc:1700
+#: kotext/kotextobject.cc:1776
 msgid "Change Case"
 msgstr ""
 
@@ -2973,7 +3008,9 @@ msgstr ""
 
 #: kotext/koChangeCaseDia.cc:47
 msgid "Convert first letter of a sentence to uppercase."
-msgstr "Гапнинг биринчи ҳарфини бош ҳарфга айлантириш."
+msgstr ""
+"Гапнинг биринчи ҳарфини бош ҳарфга "
+"айлантириш."
 
 #: kotext/koCommentDia.cc:32
 msgid "Edit Comment"
@@ -2993,13 +3030,21 @@ msgstr "Илтимос янги услубнинг номини киритинг
 
 #: kotext/koCreateStyleDia.cc:47
 msgid "Name already exists! Please choose another name"
-msgstr "Бу ном аллақачон мавжуд! Илтимос бошқасини танланг"
+msgstr ""
+"Бу ном аллақачон мавжуд! Илтимос "
+"бошқасини танланг"
+
+#: kotext/koFontDia.cc:56
+msgid ""
+"_: Test string for shadow dialog\n"
+"KOffice"
+msgstr ""
 
 #: kotext/koFontDia.cc:80
 msgid "Shadow"
 msgstr "Соя"
 
-#: kotext/koFontDia.cc:85 kotext/koParagDia.cc:1301
+#: kotext/koFontDia.cc:85 kotext/koParagDia.cc:1303
 msgid "Co&lor:"
 msgstr "&Ранги:"
 
@@ -3007,83 +3052,83 @@ msgstr "&Ранги:"
 msgid "&Distance (pt):"
 msgstr ""
 
-#: kotext/koFontDia.cc:98
+#: kotext/koFontDia.cc:99
 msgid "pt"
 msgstr ""
 
-#: kotext/koFontDia.cc:103
+#: kotext/koFontDia.cc:104
 msgid "Di&rection:"
 msgstr "&Йўналиш:"
 
-#: kotext/koFontDia.cc:288
+#: kotext/koFontDia.cc:289
 msgid "S&hadow"
 msgstr "&Соя"
 
-#: kotext/koFontDia.cc:381
+#: kotext/koFontDia.cc:382
 msgid "Position"
 msgstr "Жойлашиши"
 
-#: kotext/koFontDia.cc:387
+#: kotext/koFontDia.cc:390
 msgid "Su&perscript"
 msgstr ""
 
-#: kotext/koFontDia.cc:390
+#: kotext/koFontDia.cc:393
 msgid "Su&bscript"
 msgstr ""
 
-#: kotext/koFontDia.cc:393
+#: kotext/koFontDia.cc:396
 msgid "Relative &size:"
 msgstr "Нисбий &катталиги:"
 
-#: kotext/koFontDia.cc:405
+#: kotext/koFontDia.cc:408
 msgid "Offse&t from baseline:"
 msgstr ""
 
-#: kotext/koFontDia.cc:424
+#: kotext/koFontDia.cc:427
 msgid "Colors"
 msgstr "Ранглар"
 
-#: kotext/koFontDia.cc:427 kotext/koFontDia.cc:476
+#: kotext/koFontDia.cc:430 kotext/koFontDia.cc:479
 msgid "Change Co&lor..."
 msgstr "&Рангни ўзгартириш"
 
-#: kotext/koFontDia.cc:430
+#: kotext/koFontDia.cc:433
 msgid "Change Bac&kground Color..."
 msgstr "Орқа фон &рангини ўзгартириш"
 
-#: kotext/koFontDia.cc:452
+#: kotext/koFontDia.cc:455
 msgid "Font &Effects"
 msgstr "Шрифт &эффектлари"
 
-#: kotext/koFontDia.cc:462
+#: kotext/koFontDia.cc:465
 msgid "&Underlining:"
 msgstr "Та&гини чизиш:"
 
-#: kotext/koFontDia.cc:480
+#: kotext/koFontDia.cc:483
 msgid "&Strikethrough:"
 msgstr ""
 
-#: kotext/koFontDia.cc:492
+#: kotext/koFontDia.cc:495
 msgid "&Word by word"
 msgstr "Сў&зма-сўз"
 
-#: kotext/koFontDia.cc:496
+#: kotext/koFontDia.cc:499
 msgid "A&ttribute:"
 msgstr "&Атрибут:"
 
-#: kotext/koFontDia.cc:506
+#: kotext/koFontDia.cc:509
 msgid "Capitalization"
 msgstr ""
 
-#: kotext/koFontDia.cc:515
+#: kotext/koFontDia.cc:518
 msgid "La&nguage:"
 msgstr "&Тил:"
 
-#: kotext/koFontDia.cc:523
+#: kotext/koFontDia.cc:526
 msgid "Auto h&yphenation"
 msgstr ""
 
-#: kotext/koFontDia.cc:1093
+#: kotext/koFontDia.cc:1105
 msgid "Select Font"
 msgstr "Шрифтни танлаш"
 
@@ -3111,15 +3156,15 @@ msgstr "Бошқа &белги:"
 msgid "Counter alignment:"
 msgstr ""
 
-#: kotext/koParagDia.cc:126 kotext/koParagDia.cc:192 kotext/koParagDia.cc:292
+#: kotext/koParagDia.cc:126 kotext/koParagDia.cc:192 kotext/koParagDia.cc:294
 msgid "Align Auto"
 msgstr ""
 
-#: kotext/koParagDia.cc:127 kotext/koParagDia.cc:188 kotext/koParagDia.cc:288
+#: kotext/koParagDia.cc:127 kotext/koParagDia.cc:188 kotext/koParagDia.cc:290
 msgid "Align Left"
 msgstr ""
 
-#: kotext/koParagDia.cc:128 kotext/koParagDia.cc:190 kotext/koParagDia.cc:290
+#: kotext/koParagDia.cc:128 kotext/koParagDia.cc:190 kotext/koParagDia.cc:292
 msgid "Align Right"
 msgstr ""
 
@@ -3135,203 +3180,204 @@ msgstr ""
 msgid "&Restart numbering at this paragraph"
 msgstr ""
 
-#: kotext/koParagDia.cc:330
+#: kotext/koParagDia.cc:332
 msgid "Arabic Numbers"
 msgstr "Араб рақамлари"
 
-#: kotext/koParagDia.cc:332
+#: kotext/koParagDia.cc:334
 msgid "Lower Alphabetical"
 msgstr ""
 
-#: kotext/koParagDia.cc:334
+#: kotext/koParagDia.cc:336
 msgid "Upper Alphabetical"
 msgstr ""
 
-#: kotext/koParagDia.cc:336
+#: kotext/koParagDia.cc:338
 msgid "Lower Roman Numbers"
 msgstr "Кичик рим рақамлари"
 
-#: kotext/koParagDia.cc:338
+#: kotext/koParagDia.cc:340
 msgid "Upper Roman Numbers"
 msgstr "Катта рим рақамлари"
 
-#: kotext/koParagDia.cc:342
+#: kotext/koParagDia.cc:344
 msgid "Disc Bullet"
 msgstr ""
 
-#: kotext/koParagDia.cc:344
+#: kotext/koParagDia.cc:346
 msgid "Square Bullet"
 msgstr ""
 
-#: kotext/koParagDia.cc:346
+#: kotext/koParagDia.cc:348
 msgid "Box Bullet"
 msgstr ""
 
-#: kotext/koParagDia.cc:348
+#: kotext/koParagDia.cc:350
 msgid "Circle Bullet"
 msgstr ""
 
-#: kotext/koParagDia.cc:350
+#: kotext/koParagDia.cc:352
 msgid "Custom Bullet"
 msgstr ""
 
-#: kotext/koParagDia.cc:353
+#: kofficeui/kolinestyleaction.cpp:75 kotext/koParagDia.cc:355
 msgid "None"
 msgstr "Йўқ"
 
-#: kotext/koParagDia.cc:489 kotext/koParagDia.cc:563 kotext/koParagDia.cc:1333
-#: kotext/koParagDia.cc:1563 kotext/koStylist.cc:213
+#: kotext/koParagDia.cc:491 kotext/koParagDia.cc:565 kotext/koParagDia.cc:1335
+#: kotext/koParagDia.cc:1565 kotext/koStylist.cc:221
 msgid "Preview"
 msgstr "Кўриб чиқиш"
 
-#: kotext/koParagDia.cc:816
+#: kotext/koParagDia.cc:818
 #, c-format
 msgid "Frame width: %1"
 msgstr "Фреймнинг эни: %1"
 
-#: kotext/koParagDia.cc:820
+#: kotext/koParagDia.cc:822
 msgid "Indent"
 msgstr ""
 
-#: kotext/koParagDia.cc:830
+#: kotext/koParagDia.cc:832
 msgid "&Left (%1):"
 msgstr "&Чап (%1):"
 
-#: kotext/koParagDia.cc:840
+#: kotext/koParagDia.cc:842
 msgid "&Right (%1):"
 msgstr "&Ўнг (%1):"
 
-#: kotext/koParagDia.cc:850
+#: kotext/koParagDia.cc:852
 msgid "&First line (%1):"
 msgstr "Би&ринчи сатр (%1):"
 
-#: kotext/koParagDia.cc:867
+#: kotext/koParagDia.cc:869
 msgid "Behavior at &End of Frame/Page"
 msgstr ""
 
-#: kotext/koParagDia.cc:871
+#: kotext/koParagDia.cc:873
 msgid "&Keep lines together"
 msgstr ""
 
-#: kotext/koParagDia.cc:873
+#: kotext/koParagDia.cc:875
 msgid "Insert break before paragraph"
 msgstr ""
 
-#: kotext/koParagDia.cc:875
+#: kotext/koParagDia.cc:877
 msgid "Insert break after paragraph"
 msgstr ""
 
-#: kotext/koParagDia.cc:887
+#: kotext/koParagDia.cc:889
 msgid "Line &Spacing"
 msgstr "&Сатрлар орасидаги масофа"
 
-#: kotext/koParagDia.cc:893
+#: kotext/koParagDia.cc:895
 msgid ""
 "_: Line spacing value\n"
 "Single"
 msgstr ""
 
-#: kotext/koParagDia.cc:894
+#: kotext/koParagDia.cc:896
 msgid ""
 "_: Line spacing value\n"
 "1.5 Lines"
 msgstr "1.5 сатр"
 
-#: kotext/koParagDia.cc:895
+#: kotext/koParagDia.cc:897
 msgid ""
 "_: Line spacing value\n"
 "Double"
 msgstr ""
 
-#: kotext/koParagDia.cc:896
-msgid "Multiply"
-msgstr "Кўпайтириш"
+#: kotext/koParagDia.cc:898
+#, fuzzy
+msgid "Proportional"
+msgstr "&Энига"
 
-#: kotext/koParagDia.cc:897
+#: kotext/koParagDia.cc:899
 msgid "Line Distance (%1)"
 msgstr ""
 
-#: kotext/koParagDia.cc:898
+#: kotext/koParagDia.cc:900
 msgid "At Least (%1)"
 msgstr "Камида (%1)"
 
-#: kotext/koParagDia.cc:899
+#: kotext/koParagDia.cc:901
 msgid "Fixed (%1)"
 msgstr ""
 
-#: kotext/koParagDia.cc:918
+#: kotext/koParagDia.cc:920
 msgid "Para&graph Space"
 msgstr ""
 
-#: kotext/koParagDia.cc:922
+#: kotext/koParagDia.cc:924
 msgid "Before (%1):"
 msgstr "Олдин (%1):"
 
-#: kotext/koParagDia.cc:931
+#: kotext/koParagDia.cc:933
 msgid "After (%1):"
 msgstr "Кейин (%1):"
 
-#: kotext/koParagDia.cc:1099 kotext/koParagDia.cc:2064
+#: kotext/koParagDia.cc:1101 kotext/koParagDia.cc:2066
 msgid "Indent && S&pacing"
 msgstr ""
 
-#: kotext/koParagDia.cc:1162
+#: kotext/koParagDia.cc:1164
 msgid "Align:"
 msgstr "Текислаш:"
 
-#: kotext/koParagDia.cc:1165 kotext/koParagDia.cc:1719
+#: kotext/koParagDia.cc:1167 kotext/koParagDia.cc:1721
 msgid "&Left"
 msgstr "&Чап"
 
-#: kotext/koParagDia.cc:1169 kotext/koParagDia.cc:1723
+#: kotext/koParagDia.cc:1171 kotext/koParagDia.cc:1725
 msgid "C&enter"
 msgstr "&Марказ"
 
-#: kotext/koParagDia.cc:1173 kotext/koParagDia.cc:1727
+#: kotext/koParagDia.cc:1175 kotext/koParagDia.cc:1729
 msgid "&Right"
 msgstr "&Ўнг"
 
-#: kotext/koParagDia.cc:1177
+#: kotext/koParagDia.cc:1179
 msgid "&Justify"
 msgstr ""
 
-#: kotext/koParagDia.cc:1233 kotext/koParagDia.cc:2069
+#: kotext/koParagDia.cc:1235 kotext/koParagDia.cc:2071
 msgid "Al&ignment"
 msgstr "&Текислаш"
 
-#: kotext/koParagDia.cc:1277
+#: kotext/koParagDia.cc:1279
 msgid "St&yle:"
 msgstr "&Услуб:"
 
-#: kotext/koParagDia.cc:1505 kotext/koParagDia.cc:2074
+#: kotext/koParagDia.cc:1507 kotext/koParagDia.cc:2076
 msgid "&Borders"
 msgstr "&Чегаралар"
 
-#: kotext/koParagDia.cc:1518
+#: kotext/koParagDia.cc:1520
 msgid "Numbering"
 msgstr ""
 
-#: kotext/koParagDia.cc:1529
+#: kotext/koParagDia.cc:1531
 msgid "&None"
 msgstr "&Йўқ"
 
-#: kotext/koParagDia.cc:1535
+#: kotext/koParagDia.cc:1537
 msgid "&List"
 msgstr "&Рўйхат"
 
-#: kotext/koParagDia.cc:1540
+#: kotext/koParagDia.cc:1542
 msgid "Chapt&er"
 msgstr "&Боб"
 
-#: kotext/koParagDia.cc:1563
+#: kotext/koParagDia.cc:1565
 msgid "Normal paragraph text"
 msgstr ""
 
-#: kotext/koParagDia.cc:1589 kotext/koParagDia.cc:2079
+#: kotext/koParagDia.cc:1591 kotext/koParagDia.cc:2081
 msgid "B&ullets/Numbers"
 msgstr ""
 
-#: kotext/koParagDia.cc:1660
+#: kotext/koParagDia.cc:1662
 #, c-format
 msgid ""
 "\n"
@@ -3340,74 +3386,74 @@ msgstr ""
 "\n"
 "Фреймнинг эни: %1"
 
-#: kotext/koParagDia.cc:1681
+#: kotext/koParagDia.cc:1683
 msgid "Po&sition"
 msgstr "&Жойлашиши"
 
-#: kotext/koParagDia.cc:1704
+#: kotext/koParagDia.cc:1706
 #, c-format
 msgid ""
 "_: 1 is a unit name\n"
 "Tabulator positions are given in %1"
 msgstr ""
 
-#: kotext/koParagDia.cc:1709
+#: kotext/koParagDia.cc:1711
 msgid "Alignment"
 msgstr "Текислаш"
 
-#: kotext/koParagDia.cc:1735
+#: kotext/koParagDia.cc:1737
 msgid "On followin&g character: "
 msgstr ""
 
-#: kotext/koParagDia.cc:1748
+#: kotext/koParagDia.cc:1750
 msgid "Tab Leader"
 msgstr ""
 
-#: kotext/koParagDia.cc:1756
+#: kotext/koParagDia.cc:1758
 msgid "The space a tab uses can be filled with a pattern."
 msgstr ""
 
-#: kotext/koParagDia.cc:1762
+#: kotext/koParagDia.cc:1764
 msgid "&Filling:"
 msgstr "&Тўлдириш:"
 
-#: kotext/koParagDia.cc:1767
+#: kotext/koParagDia.cc:1769
 msgid "Blank"
 msgstr ""
 
-#: kotext/koParagDia.cc:1768
+#: kotext/koParagDia.cc:1770
 msgid "Dots"
 msgstr ""
 
-#: kotext/koParagDia.cc:1769
+#: kotext/koParagDia.cc:1771
 msgid "Line"
 msgstr "Чизиқ"
 
-#: kotext/koParagDia.cc:1770
+#: kotext/koParagDia.cc:1772
 msgid "DashLine"
 msgstr ""
 
-#: kotext/koParagDia.cc:1771
+#: kotext/koParagDia.cc:1773
 msgid "DashDotLine"
 msgstr ""
 
-#: kotext/koParagDia.cc:1772
+#: kotext/koParagDia.cc:1774
 msgid "DashDotDotLine"
 msgstr ""
 
-#: kotext/koParagDia.cc:1777
+#: kotext/koParagDia.cc:1779
 msgid "&Width (%1):"
 msgstr "&Эни (%1):"
 
-#: kotext/koParagDia.cc:1797
+#: kotext/koParagDia.cc:1799
 msgid "&New"
 msgstr "&Янги"
 
-#: kotext/koParagDia.cc:2049 kotext/koParagDia.cc:2084
+#: kotext/koParagDia.cc:2051 kotext/koParagDia.cc:2086
 msgid "&Tabulators"
 msgstr ""
 
-#: kotext/koParagDia.cc:2060 kotext/koSearchDia.cc:536
+#: kotext/koParagDia.cc:2062 kotext/koSearchDia.cc:536
 msgid "Reset"
 msgstr "Тиклаш"
 
@@ -3467,7 +3513,7 @@ msgstr "Устидан чизиш:"
 msgid "Capitalization:"
 msgstr ""
 
-#: kospell/koSpelldlg.cpp:61 kotext/koSearchDia.cc:571
+#: kotext/koSearchDia.cc:571
 msgid "Language:"
 msgstr "Тил:"
 
@@ -3483,37 +3529,41 @@ msgstr ""
 msgid "Superscript"
 msgstr ""
 
-#: kotext/koStylist.cc:65
+#: kotext/koStylist.cc:66
 msgid "Style Manager"
 msgstr "Услуб бошқарувчиси"
 
-#: kotext/koStylist.cc:159
+#: kotext/koStylist.cc:167
 msgid "New"
 msgstr "Янги"
 
-#: kotext/koStylist.cc:196
+#: kotext/koStylist.cc:204
 msgid "Next style:"
 msgstr "Кейинги услуб:"
 
-#: kotext/koStylist.cc:205
+#: kotext/koStylist.cc:213
 msgid "Inherit style:"
 msgstr ""
 
-#: kotext/koStylist.cc:210
+#: kotext/koStylist.cc:218
 msgid "Include in table of contents"
 msgstr "Мундарижага киритиш"
 
-#: kotext/koStylist.cc:213
+#: kotext/koStylist.cc:221
 msgid "The quick brown fox jumps over the lazy dog"
 msgstr ""
 "Оқ чойнакга оқ қапқоқ кўк чойнакга кўк "
 "қапқоқ"
 
-#: kotext/koStylist.cc:219 kotext/kovariable.cc:1571 kotext/kovariable.cc:1817
+#: kotext/koStylist.cc:225
+msgid "General"
+msgstr "Умумий"
+
+#: kotext/koStylist.cc:227 kotext/kovariable.cc:1816 kotext/kovariable.cc:2062
 msgid "<None>"
 msgstr "<Йўқ>"
 
-#: kotext/koStylist.cc:372
+#: kotext/koStylist.cc:380
 msgid "New Style Template (%1)"
 msgstr "Янги услуб намунаси (%1)"
 
@@ -3525,7 +3575,7 @@ msgstr ""
 msgid "Variable Name"
 msgstr "Ўзгарувчининг номи"
 
-#: kotext/koVariableDlgs.cc:165 kotext/kovariable.cc:642
+#: kotext/koVariableDlgs.cc:165 kotext/kovariable.cc:826
 msgid "Variable"
 msgstr "Ўзгарувчи"
 
@@ -3569,151 +3619,55 @@ msgstr "Импорт қилиш учун услубни танланг:"
 msgid "Load..."
 msgstr "Юклаш"
 
-#: kospell/koSconfig.cpp:591 kotext/kospell.cc:610 kotext/kospell.cc:663
-msgid ""
-"_: default spelling dictionary\n"
-"Default - %1 [%2]"
-msgstr "Андоза - %1 [%2]"
-
-#: kospell/koSconfig.cpp:384 kotext/kospell.cc:696
-msgid "English"
-msgstr "Инглизча"
-
-#: kospell/koSconfig.cpp:387 kotext/kospell.cc:699
-msgid "Spanish"
-msgstr "Испанча"
-
-#: kospell/koSconfig.cpp:390 kotext/kospell.cc:702
-msgid "Danish"
-msgstr "Данияча"
-
-#: kospell/koSconfig.cpp:393 kotext/kospell.cc:705
-msgid "German"
-msgstr "Олмонча"
-
-#: kotext/kospell.cc:708
-msgid "German (new orth.)"
-msgstr "Олмонча (янги орт.)"
-
-#: kospell/koSconfig.cpp:399 kotext/kospell.cc:711
-msgid "Brazilian Portuguese"
-msgstr "Португалча (Бразилия)"
-
-#: kospell/koSconfig.cpp:402 kotext/kospell.cc:714
-msgid "Portuguese"
-msgstr "Португалча"
-
-#: kospell/koSconfig.cpp:405 kotext/kospell.cc:717
-msgid "Esperanto"
-msgstr "Эсперанто"
-
-#: kospell/koSconfig.cpp:408 kotext/kospell.cc:720
-msgid "Norwegian"
-msgstr "Норвегча"
-
-#: kospell/koSconfig.cpp:411 kotext/kospell.cc:723
-msgid "Polish"
-msgstr "Полякча"
-
-#: kospell/koSconfig.cpp:414 kotext/kospell.cc:726
-msgid "Russian"
-msgstr "Русча"
-
-#: kospell/koSconfig.cpp:417 kotext/kospell.cc:729
-msgid "Slovenian"
-msgstr "Словенча"
-
-#: kospell/koSconfig.cpp:420 kotext/kospell.cc:732
-msgid "Slovak"
-msgstr "Словакча"
-
-#: kospell/koSconfig.cpp:422 kotext/kospell.cc:735
-msgid "Czech"
-msgstr "Чехча"
-
-#: kospell/koSconfig.cpp:425 kotext/kospell.cc:738
-msgid "Swedish"
-msgstr "Шведча"
-
-#: kospell/koSconfig.cpp:428 kotext/kospell.cc:741
-msgid "Swiss German"
-msgstr "Олмонча (Швейцария)"
-
-#: kospell/koSconfig.cpp:431 kotext/kospell.cc:744
-msgid "Ukrainian"
-msgstr "Украинча"
-
-#: kospell/koSconfig.cpp:434 kotext/kospell.cc:747
-msgid "Lithuanian"
-msgstr "Литвача"
-
-#: kospell/koSconfig.cpp:437 kotext/kospell.cc:750
-msgid "French"
-msgstr "Французча"
-
-#: kospell/koSconfig.cpp:440 kotext/kospell.cc:753
-msgid "Belarusian"
-msgstr "Белорусча"
-
-#: kospell/koSconfig.cpp:443 kotext/kospell.cc:756
-msgid "Hungarian"
-msgstr "Венгрча"
-
-#: kospell/koSconfig.cpp:447 kotext/kospell.cc:759
-msgid ""
-"_: Unknown ispell dictionary\n"
-"Unknown"
-msgstr "Номаълум"
-
-#: kotext/kotextformat.cc:1178 kotext/kotextformat.cc:1189
+#: kotext/kotextformat.cc:1521 kotext/kotextformat.cc:1532
 msgid "Without"
 msgstr ""
 
-#: kotext/kotextformat.cc:1179 kotext/kotextformat.cc:1190
+#: kotext/kotextformat.cc:1522 kotext/kotextformat.cc:1533
 msgid "Single"
 msgstr ""
 
-#: kotext/kotextformat.cc:1180 kotext/kotextformat.cc:1191
+#: kotext/kotextformat.cc:1523 kotext/kotextformat.cc:1534
 msgid "Simple Bold"
 msgstr "Оддий қалин"
 
-#: kotext/kotextformat.cc:1181 kotext/kotextformat.cc:1192
+#: kotext/kotextformat.cc:1524 kotext/kotextformat.cc:1535
 msgid "Double"
 msgstr ""
 
-#: kotext/kotextformat.cc:1182
+#: kotext/kotextformat.cc:1525
 msgid "Wave"
 msgstr ""
 
-#: kotext/kotextformat.cc:1200
+#: kotext/kotextformat.cc:1543
 msgid "Uppercase"
 msgstr "Катта ҳарф"
 
-#: kotext/kotextformat.cc:1201
+#: kotext/kotextformat.cc:1544
 msgid "Lowercase"
 msgstr "Кичик ҳарф"
 
-#: kotext/kotextformat.cc:1202
+#: kotext/kotextformat.cc:1545
 msgid "Small Caps"
 msgstr ""
 
-#: kotext/kotextformat.cc:1209 kotext/kotextformat.cc:1220
+#: kotext/kotextformat.cc:1552 kotext/kotextformat.cc:1563
 msgid "Solid Line"
 msgstr ""
 
-#: kotext/kotextformat.cc:1210 kotext/kotextformat.cc:1221
+#: kotext/kotextformat.cc:1553 kotext/kotextformat.cc:1564
 msgid "Dash Line"
 msgstr ""
 
-#: kotext/kotextformat.cc:1211 kotext/kotextformat.cc:1222
+#: kotext/kotextformat.cc:1554 kotext/kotextformat.cc:1565
 msgid "Dot Line"
 msgstr ""
 
-#: kotext/kotextformat.cc:1212 kotext/kotextformat.cc:1223
+#: kotext/kotextformat.cc:1555 kotext/kotextformat.cc:1566
 msgid "Dash Dot Line"
 msgstr ""
 
-#: kotext/kotextformat.cc:1213 kotext/kotextformat.cc:1224
+#: kotext/kotextformat.cc:1556 kotext/kotextformat.cc:1567
 msgid "Dash Dot Dot Line"
 msgstr ""
 
@@ -3726,52 +3680,52 @@ msgstr "Матнни ўчириш"
 msgid "Insert Text"
 msgstr "Матнни қўйиш"
 
-#: kotext/kotextobject.cc:695 kotext/kotextview.cc:1193
+#: kotext/kotextobject.cc:691 kotext/kotextview.cc:1193
 msgid "Paste Text"
 msgstr "Матнни қўйиш"
 
-#: kotext/kotextobject.cc:733
+#: kotext/kotextobject.cc:728
 #, c-format
 msgid "Apply Style %1"
 msgstr "%1 услубини қўллаш"
 
-#: kotext/kotextobject.cc:988
+#: kotext/kotextobject.cc:956
 msgid "Format Text"
 msgstr "Матнни формат қилиш"
 
-#: kotext/kotextobject.cc:1075
+#: kotext/kotextobject.cc:1043
 msgid "Change List Type"
 msgstr "Рўйхатнинг турини ўзгартириш"
 
-#: kotext/kotextobject.cc:1111
+#: kotext/kotextobject.cc:1079
 msgid "Change Alignment"
 msgstr "Текислашни ўзгартириш"
 
-#: kotext/kotextobject.cc:1148
+#: kotext/kotextobject.cc:1116
 msgid "Change First Line Indent"
 msgstr ""
 
-#: kotext/kotextobject.cc:1150
+#: kotext/kotextobject.cc:1118
 msgid "Change Indent"
 msgstr ""
 
-#: kotext/kotextobject.cc:1152
+#: kotext/kotextobject.cc:1120
 msgid "Change Paragraph Spacing"
 msgstr ""
 
-#: kotext/kotextobject.cc:1202
+#: kotext/kotextobject.cc:1170
 msgid "Change Line Spacing"
 msgstr "Сатрлар орасидаги масофани ўзгартириш"
 
-#: kotext/kotextobject.cc:1262
+#: kotext/kotextobject.cc:1230
 msgid "Change Borders"
 msgstr "Чегараларни ўзгартириш"
 
-#: kotext/kotextobject.cc:1301
+#: kotext/kotextobject.cc:1269
 msgid "Change Tabulator"
 msgstr ""
 
-#: kotext/kotextobject.cc:1343
+#: kotext/kotextobject.cc:1311
 msgid "Change Shadow"
 msgstr "Сояни ўзгартириш"
 
@@ -3811,275 +3765,284 @@ msgstr "Изоҳни олиб ташлаш"
 msgid "Remove Link"
 msgstr "Боғни олиб ташлаш"
 
-#: kotext/kovariable.cc:169
+#: kotext/kovariable.cc:176
 msgid "No date set"
 msgstr ""
 
-#: kotext/kovariable.cc:241
+#: kotext/kovariable.cc:253
 msgid "Locale date format"
 msgstr ""
 
-#: kotext/kovariable.cc:242
+#: kotext/kovariable.cc:254
 msgid "Short locale date format"
 msgstr ""
 
-#: kotext/kovariable.cc:243
+#: kotext/kovariable.cc:255
 msgid "Locale date & time format"
 msgstr ""
 
-#: kotext/kovariable.cc:244
+#: kotext/kovariable.cc:256
 msgid "Short locale date & time format"
 msgstr ""
 
-#: kotext/kovariable.cc:319
+#: kotext/kovariable.cc:331
 msgid "Locale format"
 msgstr ""
 
-#: kotext/kovariable.cc:477
+#: kotext/kovariable.cc:489
 msgid "No value"
 msgstr "Ҳеч қандай қиймат йўқ"
 
-#: kotext/kovariable.cc:840
+#: kotext/kovariable.cc:944
 msgid "Date (Fixed)"
 msgstr ""
 
-#: kotext/kovariable.cc:842 kotext/kovariable.cc:850
+#: kotext/kovariable.cc:946 kotext/kovariable.cc:954
 msgid "Date"
 msgstr "Сана"
 
-#: kotext/kovariable.cc:844
+#: kotext/kovariable.cc:948
 msgid "Last Printing"
 msgstr "Охирги босиб чиқариш"
 
-#: kotext/kovariable.cc:846
+#: kotext/kovariable.cc:950
 msgid "File Creation"
 msgstr "Файлни яратиш"
 
-#: kotext/kovariable.cc:848
+#: kotext/kovariable.cc:952
 msgid "File Modification"
 msgstr "Файлни ўзгартириш"
 
-#: kotext/kovariable.cc:946
+#: kotext/kovariable.cc:1075
 msgid "Current Date (fixed)"
 msgstr ""
 
-#: kotext/kovariable.cc:947
+#: kotext/kovariable.cc:1076
 msgid "Current Date (variable)"
 msgstr "Жорий сана (ўзгарувчи)"
 
-#: kotext/kovariable.cc:948
+#: kotext/kovariable.cc:1077
 msgid "Date of Last Printing"
 msgstr "Охирги босиб чиқарилган сана"
 
-#: kotext/kovariable.cc:949
+#: kotext/kovariable.cc:1078
 msgid "Date of File Creation"
 msgstr ""
 
-#: kotext/kovariable.cc:950
+#: kotext/kovariable.cc:1079
 msgid "Date of File Modification"
 msgstr ""
 
-#: kotext/kovariable.cc:968
+#: kotext/kovariable.cc:1097
 msgid "Date Format"
 msgstr "Санани кўриниши"
 
-#: kotext/kovariable.cc:1038
+#: kotext/kovariable.cc:1167
 msgid "Time (Fixed)"
 msgstr ""
 
-#: kotext/kovariable.cc:1038
+#: kotext/kovariable.cc:1167
 msgid "Time"
 msgstr "Вақт"
 
-#: kotext/kovariable.cc:1116
+#: kotext/kovariable.cc:1264
 msgid "Current Time (fixed)"
 msgstr ""
 
-#: kotext/kovariable.cc:1117
+#: kotext/kovariable.cc:1265
 msgid "Current Time (variable)"
 msgstr "Жорий вақт (ўзгарувчи)"
 
-#: kotext/kovariable.cc:1130
+#: kotext/kovariable.cc:1278
 msgid "Time Format"
 msgstr "Вақтни кўриниши"
 
-#: kotext/kovariable.cc:1205
+#: kotext/kovariable.cc:1353
 msgid "Custom Variable"
 msgstr "Бошқа ўзгарувчи"
 
-#: kotext/kovariable.cc:1249
+#: kotext/kovariable.cc:1411
 msgid "Custom..."
 msgstr "Бошқа..."
 
-#: kotext/kovariable.cc:1268
+#: kotext/kovariable.cc:1430
 msgid "Mail Merge"
 msgstr ""
 
-#: kotext/kovariable.cc:1303
+#: kotext/kovariable.cc:1465
 msgid "&Mail Merge..."
 msgstr ""
 
-#: kotext/kovariable.cc:1317
+#: kotext/kovariable.cc:1479
 msgid "Page Current Num"
 msgstr "Жорий бет"
 
-#: kotext/kovariable.cc:1319
+#: kotext/kovariable.cc:1481
 msgid "Total Page Num"
 msgstr "Бетларнинг жами"
 
-#: kotext/kovariable.cc:1321 kotext/kovariable.cc:1328
+#: kotext/kovariable.cc:1483 kotext/kovariable.cc:1490
 msgid "Current Section"
 msgstr ""
 
-#: kotext/kovariable.cc:1323
+#: kotext/kovariable.cc:1485
 msgid "Previous Page Number"
 msgstr "Олдинги бет"
 
-#: kotext/kovariable.cc:1325
+#: kotext/kovariable.cc:1487
 msgid "Next Page Number"
 msgstr "Кейинги бет"
 
-#: kotext/kovariable.cc:1361
+#: kotext/kovariable.cc:1549
 msgid "Page Number"
 msgstr "Бетнинг сони"
 
-#: kotext/kovariable.cc:1362
+#: kotext/kovariable.cc:1550
 msgid "Number of Pages"
 msgstr "Бетларнинг сони"
 
-#: kotext/kovariable.cc:1363
+#: kotext/kovariable.cc:1551
 msgid "Section Title"
 msgstr ""
 
-#: kotext/kovariable.cc:1364
+#: kotext/kovariable.cc:1552
 msgid "Previous Page"
 msgstr "Олдинги бет"
 
-#: kotext/kovariable.cc:1365
+#: kotext/kovariable.cc:1553
 msgid "Next Page"
 msgstr "Кейинги бет"
 
-#: kotext/kovariable.cc:1394
+#: kotext/kovariable.cc:1582
 msgid "Filename"
 msgstr "Файлнинг номи"
 
-#: kotext/kovariable.cc:1397 kotext/kovariable.cc:1598
+#: kotext/kovariable.cc:1585 kotext/kovariable.cc:1843
 msgid "Directory Name"
 msgstr "Директориянинг номи"
 
-#: kotext/kovariable.cc:1400
+#: kotext/kovariable.cc:1588
 msgid "Path Filename"
 msgstr "Йўлнинг номи"
 
-#: kotext/kovariable.cc:1403
+#: kotext/kovariable.cc:1591
 msgid "Filename Without Extension"
 msgstr "Кенгайтмасиз файлнинг номи"
 
-#: kotext/kovariable.cc:1406 kotext/kovariable.cc:1582
+#: kotext/kovariable.cc:1594 kotext/kovariable.cc:1827
 msgid "Author Name"
 msgstr "Муаллифнинг исми"
 
-#: kotext/kovariable.cc:1409 kotext/kovariable.cc:1585
+#: kotext/kovariable.cc:1597 kotext/kovariable.cc:1830
 msgid "Email"
 msgstr "Электрон почта"
 
-#: kotext/kovariable.cc:1412
+#: kotext/kovariable.cc:1600
 msgid "Company Name"
 msgstr "Ташкилотнинг номи"
 
-#: kotext/kovariable.cc:1415 kotext/kovariable.cc:1586
+#: kotext/kovariable.cc:1603 kotext/kovariable.cc:1831
 msgid "Telephone"
 msgstr "Телефон"
 
-#: kotext/kovariable.cc:1418 kotext/kovariable.cc:1587
+#: kotext/kovariable.cc:1606 kotext/kovariable.cc:1832
 msgid "Fax"
 msgstr "Факс"
 
-#: kotext/kovariable.cc:1421 kotext/kovariable.cc:1591
+#: kotext/kovariable.cc:1609 kotext/kovariable.cc:1836
 msgid "Country"
 msgstr "Давлат"
 
-#: kotext/kovariable.cc:1424 kotext/kovariable.cc:1589
+#: kotext/kovariable.cc:1612 kotext/kovariable.cc:1834
 msgid "Postal Code"
 msgstr "Индекс"
 
-#: kotext/kovariable.cc:1427 kotext/kovariable.cc:1590
+#: kotext/kovariable.cc:1615 kotext/kovariable.cc:1835
 msgid "City"
 msgstr "Шаҳар"
 
-#: kotext/kovariable.cc:1430 kotext/kovariable.cc:1588
+#: kotext/kovariable.cc:1618 kotext/kovariable.cc:1833
 msgid "Street"
 msgstr "Кўча"
 
-#: kotext/kovariable.cc:1433
+#: kotext/kovariable.cc:1621
 msgid "Author Title"
 msgstr ""
 
-#: kotext/kovariable.cc:1436 kotext/kovariable.cc:1583
+#: kotext/kovariable.cc:1624 kotext/kovariable.cc:1828
 msgid "Title"
 msgstr ""
 
-#: kotext/kovariable.cc:1439
+#: kotext/kovariable.cc:1627
 msgid "Abstract"
 msgstr "Қисқача мазмуни"
 
-#: kotext/kovariable.cc:1442 kotext/kovariable.cc:1600
+#: kotext/kovariable.cc:1630 kotext/kovariable.cc:1845
 msgid "Initials"
 msgstr ""
 
-#: kotext/kovariable.cc:1445
+#: kotext/kovariable.cc:1633
 msgid "Field"
 msgstr "Майдон"
 
-#: kotext/kovariable.cc:1584
+#: kotext/kovariable.cc:1829
 msgid "Company"
 msgstr "Ташкилот"
 
-#: kotext/kovariable.cc:1593
+#: kotext/kovariable.cc:1838
 msgid "Document Title"
 msgstr "Ҳужжатнинг сарлавҳаси"
 
-#: kotext/kovariable.cc:1594
+#: kotext/kovariable.cc:1839
 msgid "Document Abstract"
 msgstr "Ҳужжатнинг қисқача мазмуни"
 
-#: kotext/kovariable.cc:1596
+#: kotext/kovariable.cc:1841
 msgid "File Name"
 msgstr "Файлнинг номи"
 
-#: kotext/kovariable.cc:1597
+#: kotext/kovariable.cc:1842
 msgid "File Name without Extension"
 msgstr "Кенгайтмасиз файлнинг номи"
 
-#: kotext/kovariable.cc:1599
+#: kotext/kovariable.cc:1844
 msgid "Directory && File Name"
 msgstr "Директория ва файлнинг номи"
 
-#: kotext/kovariable.cc:1673
+#: kotext/kovariable.cc:1918
 msgid "Link"
 msgstr "Боғ"
 
-#: kotext/kovariable.cc:1710
+#: kotext/kovariable.cc:1955
 msgid "Link..."
 msgstr "Боғ"
 
-#: kotext/kovariable.cc:1740
+#: kotext/kovariable.cc:1985
 msgid "Note"
 msgstr ""
 
-#: kotext/kovariable.cc:1767
+#: kotext/kovariable.cc:2012
 msgid "Note..."
 msgstr ""
 
 #: kotext/timeformatwidget_impl.cc:24
 msgid ""
 "_: TimeFormat\n"
-"This dialog allows you to set the format of the time variable"
+"This Dialog Allows You to Set the Format of the Time Variable"
 msgstr ""
 
 #: kotext/timeformatwidget_impl.cc:40
 msgid "Correct in Minutes"
 msgstr ""
+
+#: store/koStore.cc:165
+msgid "The directory mode is not supported for remote locations."
+msgstr ""
+
+#: store/koStore.cc:166
+#, fuzzy
+msgid "KOffice Storage"
+msgstr "KOffice"
 
 #: kofficeui/kocommandhistory.cpp:179 kofficeui/kocommandhistory.cpp:194
 #: kofficeui/kocommandhistory.cpp:225 kofficeui/kocommandhistory.cpp:265
@@ -4119,6 +4082,31 @@ msgstr ""
 #, c-format
 msgid "Redo: %1"
 msgstr "Амални қайтариш: %1"
+
+#: kofficeui/kolinewidthaction.cpp:101
+#, fuzzy
+msgid "&Custom..."
+msgstr "Бошқа..."
+
+#: kofficeui/kolinewidthaction.cpp:167
+msgid "Custom Line Width"
+msgstr ""
+
+#: kofficeui/kolinewidthaction.cpp:176
+#, fuzzy
+msgid "Line width:"
+msgstr "&Эни:"
+
+#: kofficeui/kozoomaction.cpp:72 kofficeui/kozoomaction.cpp:75
+#: kofficeui/kozoomaction.cpp:95 kofficeui/kozoomaction.cpp:96
+#: kofficeui/kozoomaction.cpp:97 kofficeui/kozoomaction.cpp:98
+#: kofficeui/kozoomaction.cpp:99 kofficeui/kozoomaction.cpp:100
+#: kofficeui/kozoomaction.cpp:101 kofficeui/kozoomaction.cpp:102
+#: kofficeui/kozoomaction.cpp:103 kofficeui/kozoomaction.cpp:104
+#: kofficeui/kozoomaction.cpp:105 kofficeui/kozoomaction.cpp:106
+#: kofficeui/kozoomaction.cpp:109
+msgid "%1%"
+msgstr ""
 
 #: kofficeui/tkcoloractions.cpp:83
 msgid "More Text Colors..."
@@ -4717,143 +4705,188 @@ msgstr "Ўртача кўк"
 msgid "Navy"
 msgstr ""
 
-#: kospell/koSconfig.cpp:123
-msgid "Create root/affix combinations not in dictionary"
-msgstr ""
+#~ msgid "Spelling"
+#~ msgstr "Имло"
 
-#: kospell/koSconfig.cpp:128
-msgid "Consider run-together words as spelling errors"
-msgstr "Бирга ёзилган сўзларни хато деб ҳисоблаш"
+#~ msgid "Show misspelled words in document"
+#~ msgstr "Ҳужжатдаги нотўғри ёзилган сўзларни кўрсатиш"
 
-#: kospell/koSconfig.cpp:139
-msgid "Dictionary:"
-msgstr "Луғат:"
+#~ msgid "Word"
+#~ msgstr "Сўз"
 
-#: kospell/koSconfig.cpp:163
-msgid "Encoding:"
-msgstr "Кодлаш усули:"
+#~ msgid "Clear Dictionary"
+#~ msgstr "Луғатни тозалаш"
 
-#: kospell/koSconfig.cpp:167
-msgid "International Ispell"
-msgstr "Халқаро Ispell"
+#~ msgid "Dictionary"
+#~ msgstr "Луғат"
 
-#: kospell/koSconfig.cpp:168
-msgid "Aspell"
-msgstr "Aspell"
+#~ msgid ""
+#~ "_: default spelling dictionary\n"
+#~ "Default - %1 [%2]"
+#~ msgstr "Андоза - %1 [%2]"
 
-#: kospell/koSconfig.cpp:169
-msgid "Hspell"
-msgstr "Hspell"
+#~ msgid "English"
+#~ msgstr "Инглизча"
 
-#: kospell/koSconfig.cpp:174
-msgid "Client:"
-msgstr "Клиент:"
+#~ msgid "Spanish"
+#~ msgstr "Испанча"
 
-#: kospell/koSconfig.cpp:184
-msgid "Ignore case when checking words"
-msgstr "Сўзларни текширишда ҳарфларни катта-кичиклигига эътибор бермаш"
+#~ msgid "Danish"
+#~ msgstr "Данияча"
 
-#: kospell/koSconfig.cpp:187
-msgid "Ignore accents when checking words"
-msgstr ""
+#~ msgid "German"
+#~ msgstr "Олмонча"
 
-#: kospell/koSconfig.cpp:190
-msgid "Check words with numbers"
-msgstr "Сонлар билан бирга ёзилган сўзларни текшириш"
+#~ msgid "German (new orth.)"
+#~ msgstr "Олмонча (янги орт.)"
 
-#: kospell/koSconfig.cpp:193
-msgid "Ignore uppercase words"
-msgstr ""
+#~ msgid "Brazilian Portuguese"
+#~ msgstr "Португалча (Бразилия)"
 
-#: kospell/koSconfig.cpp:196
-msgid ""
-"This option tells the spell-checker to accept words that are written in "
-"uppercase, such as KDE."
-msgstr ""
+#~ msgid "Portuguese"
+#~ msgstr "Португалча"
 
-#: kospell/koSconfig.cpp:198
-msgid "Ignore title case words"
-msgstr ""
+#~ msgid "Esperanto"
+#~ msgstr "Эсперанто"
 
-#: kospell/koSconfig.cpp:201
-msgid ""
-"This option tells the spell-checker to accept words starting with an "
-"uppercase letter, such as United States."
-msgstr ""
+#~ msgid "Norwegian"
+#~ msgstr "Норвегча"
 
-#: kospell/koSconfig.cpp:323 kospell/koSconfig.cpp:516
-#: kospell/koSconfig.cpp:687 kospell/koSconfig.cpp:764
-msgid "Hebrew"
-msgstr "Яҳудийча"
+#~ msgid "Polish"
+#~ msgstr "Полякча"
 
-#: kospell/koSconfig.cpp:396
-msgid "German (new spelling)"
-msgstr "Олмонча (янги имло)"
+#~ msgid "Russian"
+#~ msgstr "Русча"
 
-#: kospell/koSconfig.cpp:549
-msgid "ISpell Default"
-msgstr "ISpell андозаси"
+#~ msgid "Slovenian"
+#~ msgstr "Словенча"
 
-#: kospell/koSconfig.cpp:960
-msgid "ASpell Default"
-msgstr "ASpell андозаси"
+#~ msgid "Slovak"
+#~ msgstr "Словакча"
 
-#: kospell/koSconfig.cpp:1005
-#, c-format
-msgid ""
-"_: default spelling dictionary\n"
-"Default - %1"
-msgstr "Андоза - %1"
+#~ msgid "Czech"
+#~ msgstr "Чехча"
 
-#: kospell/koSpelldlg.cpp:46
-msgid "Check Spelling"
-msgstr "Имлони текшириш"
+#~ msgid "Swedish"
+#~ msgstr "Шведча"
 
-#: kospell/koSpelldlg.cpp:46
-msgid "&Stop"
-msgstr "&Тўхтатиш"
+#~ msgid "Swiss German"
+#~ msgstr "Олмонча (Швейцария)"
 
-#: kospell/koSpelldlg.cpp:69
-msgid "Previous word"
-msgstr "Олдинги сўз"
+#~ msgid "Ukrainian"
+#~ msgstr "Украинча"
 
-#: kospell/koSpelldlg.cpp:80
-msgid "Misspelled word:"
-msgstr "Нотўғри ёзилган сўз:"
+#~ msgid "Lithuanian"
+#~ msgstr "Литвача"
 
-#: kospell/koSpelldlg.cpp:82
-msgid "Replacement:"
-msgstr ""
+#~ msgid "French"
+#~ msgstr "Французча"
 
-#: kospell/koSpelldlg.cpp:84
-msgid "Suggestions:"
-msgstr "Таклифлар:"
+#~ msgid "Belarusian"
+#~ msgstr "Белорусча"
 
-#: kospell/koSpelldlg.cpp:91
-msgid "&Replace"
-msgstr "&Алмаштириш"
+#~ msgid "Hungarian"
+#~ msgstr "Венгрча"
 
-#: kospell/koSpelldlg.cpp:95
-msgid "Replace &All"
-msgstr "Ҳа&ммасини алмаштириш"
+#~ msgid ""
+#~ "_: Unknown ispell dictionary\n"
+#~ "Unknown"
+#~ msgstr "Номаълум"
 
-#: kospell/koSpelldlg.cpp:99
-msgid "&Ignore"
-msgstr "&Эътибор бермаш"
+#~ msgid "Consider run-together words as spelling errors"
+#~ msgstr "Бирга ёзилган сўзларни хато деб ҳисоблаш"
 
-#: kospell/koSpelldlg.cpp:102
-msgid "I&gnore All"
-msgstr "Ҳамма&сига эътибор бермаш"
+#~ msgid "Dictionary:"
+#~ msgstr "Луғат:"
 
-#: kospell/koSpelldlg.cpp:105
-msgid "A&dd"
-msgstr "Қўш&иш"
+#~ msgid "Encoding:"
+#~ msgstr "Кодлаш усули:"
 
-#: kospell/koSpelldlg.cpp:110
-msgid "AutoCorrection"
-msgstr "Авто-тўғрилаш"
+#~ msgid "International Ispell"
+#~ msgstr "Халқаро Ispell"
 
-#: kospell/koaspell.cpp:563 kospell/koispell.cpp:1233
-msgid "Spell Checker"
-msgstr "Имлони текширувчи"
+#~ msgid "Aspell"
+#~ msgstr "Aspell"
 
+#~ msgid "Hspell"
+#~ msgstr "Hspell"
+
+#~ msgid "Client:"
+#~ msgstr "Клиент:"
+
+#~ msgid "Ignore case when checking words"
+#~ msgstr "Сўзларни текширишда ҳарфларни катта-кичиклигига эътибор бермаш"
+
+#~ msgid "Check words with numbers"
+#~ msgstr "Сонлар билан бирга ёзилган сўзларни текшириш"
+
+#~ msgid "Hebrew"
+#~ msgstr "Яҳудийча"
+
+#~ msgid "German (new spelling)"
+#~ msgstr "Олмонча (янги имло)"
+
+#~ msgid "ISpell Default"
+#~ msgstr "ISpell андозаси"
+
+#~ msgid "ASpell Default"
+#~ msgstr "ASpell андозаси"
+
+#~ msgid ""
+#~ "_: default spelling dictionary\n"
+#~ "Default - %1"
+#~ msgstr "Андоза - %1"
+
+#~ msgid "Check Spelling"
+#~ msgstr "Имлони текшириш"
+
+#~ msgid "&Stop"
+#~ msgstr "&Тўхтатиш"
+
+#~ msgid "Previous word"
+#~ msgstr "Олдинги сўз"
+
+#~ msgid "Misspelled word:"
+#~ msgstr "Нотўғри ёзилган сўз:"
+
+#~ msgid "Suggestions:"
+#~ msgstr "Таклифлар:"
+
+#~ msgid "&Replace"
+#~ msgstr "&Алмаштириш"
+
+#~ msgid "Replace &All"
+#~ msgstr "Ҳа&ммасини алмаштириш"
+
+#~ msgid "&Ignore"
+#~ msgstr "&Эътибор бермаш"
+
+#~ msgid "I&gnore All"
+#~ msgstr "Ҳамма&сига эътибор бермаш"
+
+#~ msgid "A&dd"
+#~ msgstr "Қўш&иш"
+
+#~ msgid "AutoCorrection"
+#~ msgstr "Авто-тўғрилаш"
+
+#~ msgid "Spell Checker"
+#~ msgstr "Имлони текширувчи"
+
+#~ msgid "Send File..."
+#~ msgstr "Файлни жўнатиш"
+
+#~ msgid "ERROR: File not found."
+#~ msgstr "ХАТО: Файл топилмади."
+
+#~ msgid "To send a file you must first have saved the file to the filesystem."
+#~ msgstr "Файлни жўнатиш учун, аввало уни дискга сақлаш керак."
+
+#~ msgid "Error: File Not Found!"
+#~ msgstr "Хато: Файл топилмади!"
+
+#~ msgid "Spell Checking"
+#~ msgstr "Имлони текшириш"
+
+#~ msgid "Multiply"
+#~ msgstr "Кўпайтириш"

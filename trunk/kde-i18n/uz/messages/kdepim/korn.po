@@ -5,24 +5,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: korn\n"
-"POT-Creation-Date: 2004-02-25 09:56+0100\n"
+"POT-Creation-Date: 2004-05-30 01:17+0200\n"
 "PO-Revision-Date: 2004-02-10 00:07+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.2\n"
 
-#: dropman.cpp:77
+#: dropman.cpp:79
 msgid "MBOX Monitor"
 msgstr ""
 
-#: dropman.cpp:177
+#: dropman.cpp:179
 msgid "Inbox"
 msgstr ""
 
-#: dropman.cpp:184
+#: dropman.cpp:186
 msgid ""
 "Mail Monitor was unable to automatically detect\n"
 "your email settings. You need to configure mail\n"
@@ -31,11 +31,11 @@ msgid ""
 "select 'Configure Korn...'."
 msgstr ""
 
-#: dropman.cpp:189
+#: dropman.cpp:191
 msgid "Mail Monitor"
 msgstr ""
 
-#: dropman.cpp:242
+#: dropman.cpp:244
 msgid " (clone)"
 msgstr ""
 
@@ -96,22 +96,51 @@ msgid "&Icon:"
 msgstr "&Нишонча:"
 
 #: comcfg.cpp:31
+#, fuzzy
+msgid "Commands"
+msgstr "&Буйруқлар"
+
+#: comcfg.cpp:34
 msgid "&New mail:"
 msgstr "Янги &хат:"
 
-#: comcfg.cpp:32
+#: comcfg.cpp:36
 msgid "C&lick:"
 msgstr ""
 
+#: comcfg.cpp:40
+msgid "Passive Popups (KIO only)"
+msgstr ""
+
+#: comcfg.cpp:43
+msgid "&Passive popup on new mail"
+msgstr ""
+
+#: comcfg.cpp:44
+msgid "P&opup contains date of mail"
+msgstr ""
+
+#: comcfg.cpp:47
+msgid "Miscellaneous Options"
+msgstr ""
+
 #: comcfg.cpp:50
-msgid "&Commands"
-msgstr "&Буйруқлар"
+msgid "Play &sound:"
+msgstr ""
+
+#: comcfg.cpp:53
+msgid "&Reset to 0 on click"
+msgstr ""
+
+#: comcfg.cpp:73
+msgid "&Actions"
+msgstr ""
 
 #: imapcfg.cpp:35
 msgid "&IMAP 4"
 msgstr "&IMAP 4"
 
-#: imapcfg.cpp:50 popcfg.cpp:48
+#: imapcfg.cpp:50 kiocfg.cpp:81 popcfg.cpp:48
 msgid "Server"
 msgstr "Сервер"
 
@@ -123,7 +152,7 @@ msgstr "Сервер:"
 msgid "Port:"
 msgstr "Порт:"
 
-#: imapcfg.cpp:74 popcfg.cpp:66
+#: imapcfg.cpp:74 kiocfg.cpp:128 popcfg.cpp:66
 msgid "Identity"
 msgstr ""
 
@@ -142,6 +171,21 @@ msgstr "Махфий сўз:"
 #: imapcfg.cpp:100 popcfg.cpp:83
 msgid "Save password"
 msgstr "Махфий сўзни сақлаш"
+
+#: kornbutt.cpp:194
+msgid "From  Subject  Data"
+msgstr ""
+
+#: kornbutt.cpp:196
+msgid "From  Subject"
+msgstr ""
+
+#: kornbutt.cpp:212
+msgid ""
+"\n"
+"\n"
+"[There are %1 new messages]"
+msgstr ""
 
 #: main.cpp:13
 msgid "The KDE Mail Checker"
@@ -265,55 +309,62 @@ msgstr ""
 msgid "Mbox path:"
 msgstr ""
 
-#: subjectsdlg.cpp:59
+#: subjectsdlg.cpp:61
 msgid "&Invert Selection"
 msgstr ""
 
-#: subjectsdlg.cpp:60
+#: subjectsdlg.cpp:62
 msgid "&Remove Selection"
 msgstr ""
 
-#: subjectsdlg.cpp:62
+#: subjectsdlg.cpp:64
 msgid "&Show"
 msgstr ""
 
-#: subjectsdlg.cpp:78
+#: subjectsdlg.cpp:80
 msgid "From"
 msgstr ""
 
-#: subjectsdlg.cpp:79
+#: subjectsdlg.cpp:81
 msgid "Subject"
 msgstr ""
 
-#: subjectsdlg.cpp:80
+#: subjectsdlg.cpp:82
 msgid "Date"
 msgstr ""
 
-#: subjectsdlg.cpp:81
+#: subjectsdlg.cpp:83
 msgid "Size (Bytes)"
 msgstr ""
 
-#: subjectsdlg.cpp:154
+#: subjectsdlg.cpp:189
 #, c-format
 msgid ""
 "_n: Do you really want to delete %n message?\n"
 "Do you really want to delete %n messages?"
 msgstr ""
 
-#: subjectsdlg.cpp:155
+#: subjectsdlg.cpp:190
 msgid "Confirmation"
 msgstr ""
 
-#: subjectsdlg.cpp:169
+#: subjectsdlg.cpp:206
 msgid "Deleting mails. Please wait..."
 msgstr ""
 
-#: subjectsdlg.cpp:248
+#: subjectsdlg.cpp:244
+msgid ""
+"remove list view items not implemented! See void "
+"KornSubjectsDlg::deleteMessage()"
+msgstr ""
+
+#: subjectsdlg.cpp:294
 msgid "Loading subjects. Please wait..."
 msgstr ""
 
-#: subjectsdlg.cpp:292
-msgid "Mails in Box: "
+#: subjectsdlg.cpp:359
+#, c-format
+msgid "Mails in Box: %1"
 msgstr ""
 
 #: maildlg.cpp:11
@@ -324,7 +375,7 @@ msgstr ""
 msgid "&Full Message"
 msgstr ""
 
-#: maildlg.cpp:40
+#: maildlg.cpp:41
 msgid "Loading full mail. Please wait..."
 msgstr ""
 
@@ -343,6 +394,87 @@ msgstr ""
 
 #: mailsubject.cpp:50
 msgid "Date:"
+msgstr ""
+
+#: kio.cpp:181
+msgid "url is not valid"
+msgstr ""
+
+#: kio.cpp:299
+#, fuzzy
+msgid "No protocol specified"
+msgstr "<кўрсатилмаган>"
+
+#: kio.cpp:314
+#, fuzzy
+msgid "No server specified"
+msgstr "<кўрсатилмаган>"
+
+#: kio.cpp:322
+#, fuzzy
+msgid "No username specified"
+msgstr "<кўрсатилмаган>"
+
+#: kio.cpp:328
+#, fuzzy
+msgid "No mailbox specified"
+msgstr "<кўрсатилмаган>"
+
+#: kio_count.cpp:93
+#, c-format
+msgid "Not able to open a kio slave for %1."
+msgstr ""
+
+#: kio_count.cpp:150 kio_count.cpp:195
+msgid "Got unknown job; something must be wrong..."
+msgstr ""
+
+#: kio_count.cpp:155
+#, c-format
+msgid "The next KIO-error occured by counting: %1"
+msgstr ""
+
+#: kio_subjects.cpp:69
+msgid "Already a slave pending."
+msgstr ""
+
+#: kio_subjects.cpp:104
+#, c-format
+msgid "Not able to open a kio-slave for %1."
+msgstr ""
+
+#: kio_single_subject.cpp:124 kio_single_subject.cpp:132
+msgid "Got invalid job; something strange happened?"
+msgstr ""
+
+#: kio_single_subject.cpp:136
+msgid "Error when fetching %1: %2"
+msgstr ""
+
+#: kio_read.cpp:78 kio_read.cpp:92
+msgid "Unknown job returned; I will try if this one will do... "
+msgstr ""
+
+#: kio_read.cpp:81
+#, c-format
+msgid "An error occurred when fetching the requested email: %1."
+msgstr ""
+
+#: kio_delete.cpp:111
+msgid "Could not get a connected slave; I cannot delete this way..."
+msgstr ""
+
+#: kio_delete.cpp:188
+#, c-format
+msgid "An error occurred when deleting email: %1."
+msgstr ""
+
+#: kiocfg.cpp:67
+msgid "&KIO"
+msgstr ""
+
+#: kiocfg.cpp:87
+msgid "Protocol:"
 msgstr ""
 
 #: _translatorinfo.cpp:1

@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdevelop\n"
-"POT-Creation-Date: 2004-03-19 10:24+0100\n"
+"POT-Creation-Date: 2004-06-05 01:42+0200\n"
 "PO-Revision-Date: 2003-11-18 18:54+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -200,6 +200,34 @@ msgstr ""
 msgid "GenericName=VisualBoyAdvance support"
 msgstr ""
 
+#: kdevelop/kdevassistant.desktop:1
+#, fuzzy
+msgid "Name=KDevelop Assistant"
+msgstr "Name=KDevelop"
+
+#: kdevelop/kdevassistant.desktop:7
+msgid "GenericName=Documentation Viewer"
+msgstr ""
+
+#: kdevelop/kdevdesigner/designer/kdevdesigner_part.desktop:1
+#, fuzzy
+msgid "Name=KDevDesignerPart"
+msgstr "Name=KDevelop"
+
+#: kdevelop/kdevdesigner/src/kdevdesigner.desktop:1
+#, fuzzy
+msgid "Name=KDevelop Designer"
+msgstr "Name=KDevelop"
+
+#: kdevelop/kdevdesigner/src/kdevdesigner.desktop:2
+msgid "Comment=GUI Designer for Qt/KDE"
+msgstr ""
+
+#: kdevelop/kdevdesigner/src/kdevdesigner.desktop:7
+#, fuzzy
+msgid "GenericName=KDevelop Designer"
+msgstr "Name=KDevelop"
+
 #: kdevelop/kdevelop.desktop:1
 msgid "Name=KDevelop"
 msgstr "Name=KDevelop"
@@ -233,7 +261,7 @@ msgid "GenericName=Bash Support"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/dcopservice/dcopservice.desktop:1
-msgid "Name=$APPNAME$"
+msgid "Name=%{APPNAME}"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/dcopservice/dcopservice.desktop:2
@@ -257,39 +285,40 @@ msgid "Comment=Your short description about the plugin goes here"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kbearimportfilter/kbearimportfilter.desktop:1
-msgid "Name=$APPNAME$ Import Filter"
+msgid "Name=%{APPNAME} Import Filter"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kbearplugin/kbearplugin.desktop:1
-msgid "Name=KBear$APPNAME$"
+msgid "Name=KBear%{APPNAME}"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kbearplugin/kbearplugin.desktop:2
-msgid "Comment=$APPNAME$"
+msgid "Comment=%{APPNAME}"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kcmodule/module.desktop:1
-msgid "Name=The $APPNAME$ applet"
+msgid "Name=The %{APPNAME} applet"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kcmodule/module.desktop:2
-msgid "Comment=$APPNAME$ - a kcontrol module"
+msgid "Comment=%{APPNAME} - a kcontrol module"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kcmodule/module.desktop:4
-msgid "Keywords=$APPNAME$,$APPNAMELC$"
+msgid "Keywords=%{APPNAME},%{APPNAMELC}"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kdevlang/kdevlang.desktop:1
-msgid "Name=KDev$APPNAME$"
+msgid "Name=KDev%{APPNAME}"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kdevpart2/kdevpart.desktop:7
-msgid "GenericName=$APPNAME$"
-msgstr ""
+#, fuzzy
+msgid "GenericName=%{APPNAME}"
+msgstr "GenericName=Ada лойиҳаси"
 
 #: kdevelop/languages/cpp/app_templates/kfileplugin/kfile_plugin.desktop:1
-msgid "Name=$APPNAME$ Info"
+msgid "Name=%{APPNAME} Info"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/khello/app.desktop:2
@@ -297,7 +326,7 @@ msgid "Comment=A simple KDE Application"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kicker/applet.desktop:1
-msgid "Name=$APPNAMELC$"
+msgid "Name=%{APPNAMELC}"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kicker/applet.desktop:2
@@ -313,15 +342,15 @@ msgid "Comment=A konqueror navigation panel plugin called $NAME$"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kpartapp/app.desktop:1
-msgid "Name=$APPNAME$Part"
+msgid "Name=%{APPNAME}Part"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/kscreensaver/kscreensaver.desktop:2
 msgid "Comment=A KDE Screen Saver"
 msgstr ""
 
-#: kdevelop/languages/cpp/app_templates/qtopiaapp/example.desktop:2
-msgid "Comment=An $APPNAME$ Program"
+#: kdevelop/languages/cpp/app_templates/opieapp/example.desktop:2
+msgid "Comment=An %{APPNAME} Program"
 msgstr ""
 
 #: kdevelop/languages/cpp/app_templates/wxhello/app.desktop:2
@@ -598,6 +627,10 @@ msgstr ""
 msgid "Name=Diff Frontend Interface"
 msgstr ""
 
+#: kdevelop/lib/interfaces/kdevelopdocumentationplugins.desktop:1
+msgid "Name=KDevelop Documentation Plugin Interface"
+msgstr ""
+
 #: kdevelop/lib/interfaces/kdeveloplanguagesupport.desktop:1
 msgid "Name=KDevelop Language Support Interface"
 msgstr ""
@@ -646,6 +679,14 @@ msgstr ""
 
 #: kdevelop/parts/abbrev/kdevabbrev.desktop:7
 msgid "GenericName=Abbreviation Expansion"
+msgstr ""
+
+#: kdevelop/parts/appwizard/common/kde-app.desktop:1
+msgid "Name=$APPNAME$"
+msgstr ""
+
+#: kdevelop/parts/appwizard/common/kde-part.desktop:1
+msgid "Name=$APPNAME$Part"
 msgstr ""
 
 #: kdevelop/parts/appwizard/kdevappwizard.desktop:1
@@ -755,6 +796,24 @@ msgstr ""
 msgid "GenericName=CTags Frontend"
 msgstr ""
 
+#: kdevelop/parts/ctags2/kdevpart_ctags2.desktop:1
+#, fuzzy
+msgid "Name=KDevCTags2"
+msgstr "Name=KDevelop"
+
+#: kdevelop/parts/ctags2/kdevpart_ctags2.desktop:2
+msgid ""
+"Comment=CTags is a source navigation tool with support for many languages. "
+"When loaded it provides a context menu for finding type "
+"declarations/definitions and also a query dialog. "
+"http://ctags.sourceforge.net/"
+msgstr ""
+
+#: kdevelop/parts/ctags2/kdevpart_ctags2.desktop:7
+#, fuzzy
+msgid "GenericName=CTags Frontend (2)"
+msgstr "GenericName=Pascal лойиҳаси"
+
 #: kdevelop/parts/diff/kdevdiff.desktop:1
 msgid "Name=KDevDiff"
 msgstr ""
@@ -803,6 +862,58 @@ msgstr ""
 msgid "GenericName=Documentation"
 msgstr ""
 
+#: kdevelop/parts/documentation/kdevpart_documentation.desktop:1
+#, fuzzy
+msgid "Name=KDevDocumentation"
+msgstr "Name=KDevelop"
+
+#: kdevelop/parts/documentation/kdevpart_documentation.desktop:2
+msgid "Comment=Documentation"
+msgstr ""
+
+#: kdevelop/parts/documentation/plugins/chm/docchmplugin.desktop:1
+#, fuzzy
+msgid "Name=DocCHMPlugin"
+msgstr "Name=KDevelop"
+
+#: kdevelop/parts/documentation/plugins/chm/docchmplugin.desktop:2
+msgid "Comment=Documentation plugin for CHM documentation"
+msgstr ""
+
+#: kdevelop/parts/documentation/plugins/devhelp/docdevhelpplugin.desktop:1
+#, fuzzy
+msgid "Name=DevHelpPlugin"
+msgstr "Name=KDevelop"
+
+#: kdevelop/parts/documentation/plugins/devhelp/docdevhelpplugin.desktop:2
+msgid "Comment=Documentation plugin for DevHelp documentation"
+msgstr ""
+
+#: kdevelop/parts/documentation/plugins/doxygen/docdoxygenplugin.desktop:1
+msgid "Name=DocDoxygenPlugin"
+msgstr ""
+
+#: kdevelop/parts/documentation/plugins/doxygen/docdoxygenplugin.desktop:2
+msgid "Comment=Documentation plugin for Doxygen documentation"
+msgstr ""
+
+#: kdevelop/parts/documentation/plugins/kdevtoc/dockdevtocplugin.desktop:1
+#, fuzzy
+msgid "Name=DocKDevTOCPlugin"
+msgstr "Name=KDevelop"
+
+#: kdevelop/parts/documentation/plugins/kdevtoc/dockdevtocplugin.desktop:2
+msgid "Comment=Documentation plugin for KDevelopTOC documentation"
+msgstr ""
+
+#: kdevelop/parts/documentation/plugins/qt/docqtplugin.desktop:1
+msgid "Name=DocQtPlugin"
+msgstr ""
+
+#: kdevelop/parts/documentation/plugins/qt/docqtplugin.desktop:2
+msgid "Comment=Documentation plugin for Qt DCF documentation"
+msgstr ""
+
 #: kdevelop/parts/doxygen/kdevdoxygen.desktop:1
 msgid "Name=KDevDoxygen"
 msgstr ""
@@ -830,6 +941,22 @@ msgstr ""
 #: kdevelop/parts/filecreate/kdevpart_filecreate.desktop:7
 msgid "GenericName=FileCreate"
 msgstr ""
+
+#: kdevelop/parts/filelist/kdevpart_filelist.desktop:1
+#, fuzzy
+msgid "Name=KDevfilelist"
+msgstr "Name=KDevelop"
+
+#: kdevelop/parts/filelist/kdevpart_filelist.desktop:2
+msgid ""
+"Comment=Provides a list of all currently open files. (Handy when the tab bar "
+"is not quite wide enough.)"
+msgstr ""
+
+#: kdevelop/parts/filelist/kdevpart_filelist.desktop:7
+#, fuzzy
+msgid "GenericName=FileList"
+msgstr "GenericName=Pascal лойиҳаси"
 
 #: kdevelop/parts/fileselector/kdevpart_fileselector.desktop:1
 msgid "Name=KDevFileSelector"
@@ -1007,8 +1134,8 @@ msgstr ""
 
 #: kdevelop/parts/quickopen/kdevpart_quickopen.desktop:2
 msgid ""
-"Comment=Provides an efficient way of finding/opening files in a large "
-"project. Appears in the File menu when loaded."
+"Comment=Provides an efficient way of finding/opening files, classes and "
+"methods in a large project. Appears in the File and Tools menus when loaded."
 msgstr ""
 
 #: kdevelop/parts/quickopen/kdevpart_quickopen.desktop:7
@@ -1060,6 +1187,21 @@ msgstr ""
 #: kdevelop/parts/scripting/kdevscripting.desktop:7
 msgid "GenericName=Python Scripting Interface"
 msgstr ""
+
+#: kdevelop/parts/snippet/kdevpart_snippet.desktop:1
+msgid "Name=Code Snippets"
+msgstr ""
+
+#: kdevelop/parts/snippet/kdevpart_snippet.desktop:2
+msgid ""
+"Comment=This plugin allows you to store code snippets and add them to your "
+"code"
+msgstr ""
+
+#: kdevelop/parts/snippet/kdevpart_snippet.desktop:7
+#, fuzzy
+msgid "GenericName=Code Snippets"
+msgstr "GenericName=Ada лойиҳаси"
 
 #: kdevelop/parts/sourcenav/kdevpart_sourcenav.desktop:1
 msgid "Name=KDevSourceNav"
@@ -1210,7 +1352,7 @@ msgid ""
 msgstr ""
 
 #: kdevelop/vcs/cvsservice/kdevcvsservice.desktop:7
-msgid "GenericName=CVS Integration using Cervisia's cvsservice"
+msgid "GenericName=CVS Integration (Cervisia)"
 msgstr ""
 
 #: kdevelop/vcs/perforce/kdevperforce.desktop:1
