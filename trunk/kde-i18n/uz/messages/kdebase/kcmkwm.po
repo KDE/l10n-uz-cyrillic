@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
-"POT-Creation-Date: 2003-10-14 01:24+0200\n"
+"POT-Creation-Date: 2003-12-10 01:37+0100\n"
 "PO-Revision-Date: 2003-10-29 18:52+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
@@ -46,10 +46,11 @@ msgstr "&Қўшимча"
 msgid ""
 "<h1>Window Behavior</h1> Here you can customize the way windows behave when "
 "being moved, resized or clicked on. You can also specify a focus policy as "
-"well as a placement policy for new windows. <p>Please note that this "
-"configuration will not take effect if you don't use KWin as your window "
-"manager. If you do use a different window manager, please refer to its "
-"documentation for how to customize window behavior."
+"well as a placement policy for new windows. "
+"<p>"
+"Please note that this configuration will not take effect if you don't use "
+"KWin as your window manager. If you do use a different window manager, "
+"please refer to its documentation for how to customize window behavior."
 msgstr ""
 
 #: main.cpp:162
@@ -174,8 +175,8 @@ msgstr ""
 
 #: mouse.cpp:139
 msgid ""
-"Behavior on <em>left</em> click into the titlebar or frame of an <em>active</"
-"em> window."
+"Behavior on <em>left</em> click into the titlebar or frame of an "
+"<em>active</em> window."
 msgstr ""
 
 #: mouse.cpp:142
@@ -347,18 +348,23 @@ msgstr ""
 #: windows.cpp:131
 msgid ""
 "The focus policy is used to determine the active window, i.e. the window you "
-"can work in. <ul> <li><em>Click to focus:</em> A window becomes active when "
-"you click into it. This is the behavior you might know from other operating "
-"systems.</li> <li><em>Focus follows mouse:</em> Moving the mouse pointer "
-"actively on to a normal window activates it. Very practical if you are using "
-"the mouse a lot.</li> <li><em>Focus under mouse:</em> The window that "
-"happens to be under the mouse pointer becomes active. If the mouse points "
-"nowhere, the last window that was under the mouse has focus. </li> "
+"can work in. "
+"<ul> "
+"<li><em>Click to focus:</em>"
+" A window becomes active when you click into it. This is the behavior you "
+"might know from other operating systems.</li> "
+"<li><em>Focus follows mouse:</em> Moving the mouse pointer actively on to a "
+"normal window activates it. Very practical if you are using the mouse a "
+"lot.</li> "
+"<li><em>Focus under mouse:</em> The window that happens to be under the "
+"mouse pointer becomes active. If the mouse points nowhere, the last window "
+"that was under the mouse has focus. </li> "
 "<li><em>Focus strictly under mouse:</em> This is even worse than 'Focus "
 "under mouse'. Only the window under the mouse pointer is active. If the "
-"mouse points nowhere, nothing has focus. </ul> Note that 'Focus under mouse' "
-"and 'Focus strictly under mouse' are not particularly useful. They are only "
-"provided for old-fashioned die-hard UNIX people ;-)"
+"mouse points nowhere, nothing has focus. </ul>"
+" Note that 'Focus under mouse' and 'Focus strictly under mouse' are not "
+"particularly useful. They are only provided for old-fashioned die-hard UNIX "
+"people ;-)"
 msgstr ""
 
 #: windows.cpp:154
@@ -416,10 +422,12 @@ msgstr ""
 msgid ""
 "Hold down the Alt key and press the Tab key repeatedly to walk through the "
 "windows on the current desktop (the Alt+Tab combination can be "
-"reconfigured). The two different modes mean:<ul><li><b>KDE</b>: a nice "
-"widget is shown, displaying the icons of all windows to walk through and the "
-"title of the currently selected one;<li><b>CDE</b>: the focus is passed to a "
-"new window each time Tab is pressed. No fancy widget.</li></ul>"
+"reconfigured). The two different modes mean:"
+"<ul>"
+"<li><b>KDE</b>: a nice widget is shown, displaying the icons of all windows "
+"to walk through and the title of the currently selected one;"
+"<li><b>CDE</b>: the focus is passed to a new window each time Tab is "
+"pressed. No fancy widget.</li></ul>"
 msgstr ""
 
 #: windows.cpp:207
@@ -439,7 +447,8 @@ msgstr ""
 #: windows.cpp:217
 msgid ""
 "Enable this option if you want keyboard or active desktop border navigation "
-"beyond an edge desktop to bring you to the desktop at the opposite edge."
+"beyond the edge of a desktop to take you to the opposite edge of the new "
+"desktop."
 msgstr ""
 
 #: windows.cpp:221
@@ -552,167 +561,173 @@ msgstr ""
 
 #: windows.cpp:527
 msgid ""
-"This option specifies how much will KWin try to prevent unwanted focus "
-"stealing caused by unexpected activation of new windows.<ul><li><em>None:</"
-"em> The standard old behaviour - prevention is turned off and new windows "
-"get always activated.</li><li><em>Low:</em> Prevention is enabled; when some "
-"window doesn't have support for the underlying mechanism and KWin cannot "
-"reliably decide whether to activate the window or not, it will be activated. "
-"This setting may have bothworse and better results than normal level "
-"depending on the applications.</li><li><em>Normal:</em> Prevention is "
-"enabled; the default setting.</li><li><em>High:</em> New windows get "
-"activated only if no window is currently active or if they belong to the "
-"currently active application. This setting is probably not really usable "
-"when noting using mouse focus policy.</li><li><em>Extreme:</em> All windows "
-"must be explicitly activated by the user.</li></ul>"
+"This option specifies how much KWin will try to prevent unwanted focus "
+"stealing caused by unexpected activation of new "
+"windows."
+"<ul>"
+"<li><em>None:</em> The standard old behavior - prevention is turned off and "
+"new windows always become activated.</li>"
+"<li><em>Low:</em> Prevention is enabled; when some window doesn't have "
+"support for the underlying mechanism and KWin cannot reliably decide whether "
+"to activate the window or not, it will be activated. This setting may have "
+"both worse and better results than normal level, depending on the "
+"applications.</li>"
+"<li><em>Normal:</em> Prevention is enabled; the default "
+"setting.</li>"
+"<li><em>High:</em> New windows get activated only if no window is currently "
+"active or if they belong to the currently active application. This setting "
+"is probably not really usable when not using mouse focus "
+"policy.</li>"
+"<li><em>Extreme:</em> All windows must be explicitly activated by the "
+"user.</li></ul>"
 msgstr ""
 
-#: windows.cpp:684
+#: windows.cpp:688
 msgid "Windows"
 msgstr ""
 
-#: windows.cpp:692
+#: windows.cpp:696
 msgid "Di&splay content in moving windows"
 msgstr ""
 
-#: windows.cpp:694
+#: windows.cpp:698
 msgid ""
 "Enable this option if you want a window's content to be fully shown while "
 "moving it, instead of just showing a window 'skeleton'. The result may not "
 "be satisfying on slow machines without graphic acceleration."
 msgstr ""
 
-#: windows.cpp:698
+#: windows.cpp:702
 msgid "Display content in &resizing windows"
 msgstr ""
 
-#: windows.cpp:700
+#: windows.cpp:704
 msgid ""
 "Enable this option if you want a window's content to be shown while resizing "
 "it, instead of just showing a window 'skeleton'. The result may not be "
 "satisfying on slow machines."
 msgstr ""
 
-#: windows.cpp:704
+#: windows.cpp:708
 msgid "Display window &geometry when moving or resizing"
 msgstr ""
 
-#: windows.cpp:706
+#: windows.cpp:710
 msgid ""
 "Enable this option if you want a window's geometry to be displayed while it "
 "is being moved or resized. The window position relative to the top-left "
 "corner of the screen is displayed together with its size."
 msgstr ""
 
-#: windows.cpp:716
+#: windows.cpp:720
 msgid "Animate minimi&ze and restore"
 msgstr ""
 
-#: windows.cpp:718
+#: windows.cpp:722
 msgid ""
 "Enable this option if you want an animation shown when windows are minimized "
 "or restored."
 msgstr ""
 
-#: windows.cpp:732
+#: windows.cpp:736
 msgid "Slow"
 msgstr ""
 
-#: windows.cpp:736
+#: windows.cpp:740
 msgid "Fast"
 msgstr ""
 
-#: windows.cpp:740
+#: windows.cpp:744
 msgid ""
 "Here you can set the speed of the animation shown when windows are minimized "
 "and restored. "
 msgstr ""
 
-#: windows.cpp:746
+#: windows.cpp:750
 msgid "Allow moving and resizing o&f maximized windows"
 msgstr ""
 
-#: windows.cpp:748
+#: windows.cpp:752
 msgid ""
 "When enabled, this feature activates the border of maximized windows and "
 "allows you to move or resize them, just like for normal windows"
 msgstr ""
 
-#: windows.cpp:754
+#: windows.cpp:758
 msgid "&Placement:"
 msgstr ""
 
-#: windows.cpp:757
+#: windows.cpp:761
 msgid "Smart"
 msgstr ""
 
-#: windows.cpp:758
+#: windows.cpp:762
 msgid "Cascade"
 msgstr ""
 
-#: windows.cpp:759
+#: windows.cpp:763
 msgid "Random"
 msgstr ""
 
-#: windows.cpp:760
+#: windows.cpp:764
 msgid "Centered"
 msgstr ""
 
-#: windows.cpp:761
+#: windows.cpp:765
 msgid "Zero-Cornered"
 msgstr ""
 
-#: windows.cpp:768
+#: windows.cpp:772
 msgid ""
 "The placement policy determines where a new window will appear on the "
-"desktop. For now, there are three different policies: <ul><li><em>Smart</em> "
-"will try to achieve a minimum overlap of windows</li> <li><em>Cascade</em> "
-"will cascade the windows</li> <li><em>Random</em> will use a random "
-"position</li></ul>"
+"desktop. For now, there are three different policies: "
+"<ul>"
+"<li><em>Smart</em> will try to achieve a minimum overlap of windows</li> "
+"<li><em>Cascade</em> will cascade the windows</li> "
+"<li><em>Random</em> will use a random position</li></ul>"
 msgstr ""
 
-#: windows.cpp:800
+#: windows.cpp:804
 msgid "Snap Zones"
 msgstr ""
 
-#: windows.cpp:804 windows.cpp:814
+#: windows.cpp:808 windows.cpp:818
 msgid "none"
 msgstr ""
 
-#: windows.cpp:806
+#: windows.cpp:810
 msgid "&Border snap zone:"
 msgstr ""
 
-#: windows.cpp:807 windows.cpp:817
+#: windows.cpp:811 windows.cpp:821
 msgid " pixels"
 msgstr ""
 
-#: windows.cpp:809
+#: windows.cpp:813
 msgid ""
 "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
 "the magnetic field which will make windows snap to the border when moved "
 "near it."
 msgstr ""
 
-#: windows.cpp:816
+#: windows.cpp:820
 msgid "&Window snap zone:"
 msgstr ""
 
-#: windows.cpp:819
+#: windows.cpp:823
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
 "magnetic field which will make windows snap to each other when they're moved "
 "near another window."
 msgstr ""
 
-#: windows.cpp:823
+#: windows.cpp:827
 msgid "Snap windows onl&y when overlapping"
 msgstr ""
 
-#: windows.cpp:824
+#: windows.cpp:828
 msgid ""
 "Here you can set that windows will be only snapped if you try to overlap "
 "them, i.e. they won't be snapped if the windows comes only near another "
 "window or border."
 msgstr ""
-
