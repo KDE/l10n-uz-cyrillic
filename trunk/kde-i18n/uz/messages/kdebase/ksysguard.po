@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "POT-Creation-Date: 2003-10-15 01:23+0200\n"
-"PO-Revision-Date: 2003-10-22 04:17+0200\n"
+"PO-Revision-Date: 2003-10-23 12:55+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: KSysGuardApplet.cc:450 WorkSheet.cc:221
 #, c-format
 msgid "Can't save file %1"
-msgstr ""
+msgstr "Файлни (%1) сақлаб бўлмади."
 
 #: WorkSheet.cc:269
 msgid "The clipboard does not contain a valid display description."
@@ -48,7 +48,7 @@ msgstr "\"%1\" билан алоқа ўрнатиб бўлмади!"
 
 #: KSysGuardApplet.cc:195 WorkSheet.cc:322
 msgid "Select Display Type"
-msgstr ""
+msgstr "Дисплейнинг турини танланг"
 
 #: KSysGuardApplet.cc:198 WorkSheet.cc:325
 msgid "&Signal Plotter"
@@ -68,17 +68,19 @@ msgstr ""
 
 #: KSysGuardApplet.cc:246 WorkSheet.cc:454
 msgid "Do you really want to delete the display?"
-msgstr ""
+msgstr "Ростдан бу дисплейни ўчиришни истайсизми?"
 
 #: ksgrd/SensorAgent.cc:89
 msgid ""
 "Message from %1:\n"
 "%2"
 msgstr ""
+"%1'дан олинган хабар:\n"
+"%2"
 
 #: ksgrd/TimerSettings.cc:37
 msgid "Timer Settings"
-msgstr ""
+msgstr "Таймернинг мосламалари"
 
 #: ksgrd/TimerSettings.cc:44
 msgid "Use update interval of worksheet"
@@ -86,12 +88,12 @@ msgstr ""
 
 #: KSGAppletSettings.cc:61 WorkSheetSettings.cc:86 ksgrd/TimerSettings.cc:47
 msgid "Update interval:"
-msgstr ""
+msgstr "Янгилаш даври:"
 
 #: KSGAppletSettings.cc:67 WorkSheetSettings.cc:92 ksgrd/TimerSettings.cc:52
 #: rc.cpp:7
 msgid " sec"
-msgstr ""
+msgstr " сония"
 
 #: WorkSheetSettings.cc:100 ksgrd/TimerSettings.cc:55
 msgid "All displays of the sheet are updated at the rate specified here."
@@ -99,7 +101,7 @@ msgstr ""
 
 #: ksgrd/HostConnector.cc:38
 msgid "Connect Host"
-msgstr ""
+msgstr "Хостга уланиш"
 
 #: ksgrd/HostConnector.cc:45
 msgid "Host:"
@@ -107,11 +109,11 @@ msgstr "Хост:"
 
 #: ksgrd/HostConnector.cc:55
 msgid "Enter the name of the host you want to connect to."
-msgstr ""
+msgstr "Сиз уланмоқчи бўлган хостнинг номини киритинг."
 
 #: ksgrd/HostConnector.cc:62
 msgid "Connection Type"
-msgstr ""
+msgstr "Алоқанинг тури"
 
 #: ksgrd/HostConnector.cc:67
 msgid "ssh"
@@ -119,7 +121,7 @@ msgstr "ssh"
 
 #: ksgrd/HostConnector.cc:70
 msgid "Select this to use the secure shell to login to the remote host."
-msgstr ""
+msgstr "Масофадаги хостга уланишда хавфсиз шеллдан (ssh) фойдаланиш учун шуни танланг."
 
 #: ksgrd/HostConnector.cc:73
 msgid "rsh"
@@ -127,7 +129,7 @@ msgstr "rsh"
 
 #: ksgrd/HostConnector.cc:74
 msgid "Select this to use the remote shell to login to the remote host."
-msgstr ""
+msgstr "Масофадаги хостга уланишда масофадаги шеллдан (rsh) фойдаланиш учун шуни танланг."
 
 #: ksgrd/HostConnector.cc:77
 msgid "Daemon"
@@ -141,7 +143,7 @@ msgstr ""
 
 #: ksgrd/HostConnector.cc:81
 msgid "Custom command"
-msgstr ""
+msgstr "Бошқа буйруқ"
 
 #: ksgrd/HostConnector.cc:82
 msgid ""
@@ -173,7 +175,7 @@ msgstr ""
 
 #: ksgrd/HostConnector.cc:110
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
-msgstr ""
+msgstr "м-н ssh -l root remote.host.org ksysguardd"
 
 #: ksgrd/StyleSettings.cc:42
 msgid "Global Style Settings"
@@ -207,16 +209,16 @@ msgstr "Шрифт катталиги:"
 
 #: ksgrd/StyleSettings.cc:86
 msgid "Sensor Colors"
-msgstr ""
+msgstr "Сенсорнинг ранглари"
 
 #: ksgrd/ColorPicker.cc:51 ksgrd/StyleSettings.cc:92
 msgid "Change Color..."
-msgstr ""
+msgstr "Тангни ўзгартириш"
 
 #: ksgrd/StyleSettings.cc:167
 #, c-format
 msgid "Color %1"
-msgstr ""
+msgstr "Ранг %1"
 
 #: ksgrd/SensorManager.cc:51
 msgid "CPU Load"
@@ -240,7 +242,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:56
 msgid "Memory"
-msgstr ""
+msgstr "Хотира"
 
 #: ksgrd/SensorManager.cc:57
 msgid "Physical Memory"
@@ -248,11 +250,11 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:58
 msgid "Swap Memory"
-msgstr ""
+msgstr "Своп хотира"
 
 #: ksgrd/SensorManager.cc:59
 msgid "Cached Memory"
-msgstr ""
+msgstr "Кэш хотира"
 
 #: ksgrd/SensorManager.cc:60
 msgid "Buffered Memory"
@@ -260,15 +262,15 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:61
 msgid "Used Memory"
-msgstr ""
+msgstr "Ишлатилган хотира"
 
 #: ksgrd/SensorManager.cc:62
 msgid "Application Memory"
-msgstr ""
+msgstr "Дастур хотираси"
 
 #: ksgrd/SensorManager.cc:63
 msgid "Free Memory"
-msgstr ""
+msgstr "Бўш хотира"
 
 #: ksgrd/SensorManager.cc:64
 msgid "Process Count"
@@ -302,11 +304,11 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:71
 msgid "Read Data"
-msgstr ""
+msgstr "Маълумотни ўқиш"
 
 #: ksgrd/SensorManager.cc:72
 msgid "Write Data"
-msgstr ""
+msgstr "Маълумотни ёзиш"
 
 #: ksgrd/SensorManager.cc:73
 msgid "Pages In"
@@ -330,19 +332,19 @@ msgstr "Интерфейслари"
 
 #: ksgrd/SensorManager.cc:78
 msgid "Receiver"
-msgstr ""
+msgstr "Қабул қилувчи"
 
 #: ksgrd/SensorManager.cc:79
 msgid "Transmitter"
-msgstr ""
+msgstr "Тарқатувчи"
 
 #: ksgrd/SensorManager.cc:80
 msgid "Data"
-msgstr ""
+msgstr "Маълумот"
 
 #: ksgrd/SensorManager.cc:81
 msgid "Compressed Packets"
-msgstr ""
+msgstr "Қисилган пакетлар"
 
 #: ksgrd/SensorManager.cc:82
 msgid "Dropped Packets"
@@ -350,7 +352,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:83
 msgid "Errors"
-msgstr ""
+msgstr "Хатолар"
 
 #: ksgrd/SensorManager.cc:84
 msgid "FIFO Overruns"
@@ -366,7 +368,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:87
 msgid "Packets"
-msgstr ""
+msgstr "Пакетлар"
 
 #: ksgrd/SensorManager.cc:88
 msgid "Carrier"
@@ -378,15 +380,15 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:90
 msgid "Sockets"
-msgstr ""
+msgstr "Сокетлар"
 
 #: ksgrd/SensorManager.cc:91
 msgid "Total Number"
-msgstr ""
+msgstr "Жами"
 
 #: ksgrd/SensorManager.cc:92 ksgrd/SensorManager.cc:145
 msgid "Table"
-msgstr ""
+msgstr "Жадвал"
 
 #: ksgrd/SensorManager.cc:93
 msgid "Advanced Power Management"
@@ -394,7 +396,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:94
 msgid "ACPI"
-msgstr ""
+msgstr "ACPI"
 
 #: ksgrd/SensorManager.cc:95
 msgid "Battery"
@@ -406,11 +408,11 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:97
 msgid "Remaining Time"
-msgstr ""
+msgstr "Қолган вақт"
 
 #: ksgrd/SensorManager.cc:98
 msgid "Interrupts"
-msgstr ""
+msgstr "Тўхталишлар"
 
 #: ksgrd/SensorManager.cc:99
 msgid "Load Average (1 min)"
@@ -438,11 +440,11 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:105
 msgid "Used Space"
-msgstr ""
+msgstr "Ишлатилган жой"
 
 #: ksgrd/SensorManager.cc:106
 msgid "Free Space"
-msgstr ""
+msgstr "Бўш жой"
 
 #: ksgrd/SensorManager.cc:107
 msgid "Fill Level"
@@ -451,57 +453,57 @@ msgstr ""
 #: ksgrd/SensorManager.cc:111
 #, c-format
 msgid "CPU%1"
-msgstr ""
+msgstr "Процессор%1"
 
 #: ksgrd/SensorManager.cc:113
 #, c-format
 msgid "Disk%1"
-msgstr ""
+msgstr "Диск%1"
 
 #: ksgrd/SensorManager.cc:118
 #, c-format
 msgid "Fan%1"
-msgstr ""
+msgstr "Совутгич%1"
 
 #: ksgrd/SensorManager.cc:120
 #, c-format
 msgid "Temperature%1"
-msgstr ""
+msgstr "Ҳарорат%1"
 
 #: ksgrd/SensorManager.cc:123
 msgid "Total"
-msgstr ""
+msgstr "Жами"
 
 #: ksgrd/SensorManager.cc:129
 #, c-format
 msgid "Int%1"
-msgstr ""
+msgstr "Int%1"
 
 #: ksgrd/SensorManager.cc:136
 msgid ""
 "_: the unit 1 per second\n"
 "1/s"
-msgstr ""
+msgstr "1/с"
 
 #: ksgrd/SensorManager.cc:137
 msgid "kBytes"
-msgstr ""
+msgstr "Кб"
 
 #: ksgrd/SensorManager.cc:138
 msgid ""
 "_: the unit minutes\n"
 "min"
-msgstr ""
+msgstr "мин"
 
 #: ksgrd/SensorManager.cc:139
 msgid ""
 "_: the frequency unit\n"
 "MHz"
-msgstr ""
+msgstr "МГц"
 
 #: ksgrd/SensorManager.cc:142
 msgid "Integer Value"
-msgstr ""
+msgstr "Бутун сон қиймати"
 
 #: ksgrd/SensorManager.cc:143
 msgid "Floating Point Value"
@@ -509,7 +511,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:280
 msgid "Connection to %1 has been lost!"
-msgstr ""
+msgstr "%1 билан алоқа узилди!"
 
 #: ksgrd/SensorSocketAgent.cc:105
 msgid "Connection to %1 refused"
@@ -517,7 +519,7 @@ msgstr ""
 
 #: ksgrd/SensorSocketAgent.cc:109
 msgid "Host %1 not found"
-msgstr ""
+msgstr "Хост (%1) топилмади"
 
 #: ksgrd/SensorSocketAgent.cc:113
 #, c-format
@@ -528,13 +530,13 @@ msgstr ""
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr ""
+msgstr "Машраб Қуватов"
 
 #: _translatorinfo.cpp:3
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr ""
+msgstr "kmashrab@uni-bremen.de"
 
 #: Workspace.cc:50
 msgid ""
@@ -544,7 +546,7 @@ msgstr ""
 
 #: Workspace.cc:102 ksysguard.cc:175
 msgid "Process Table"
-msgstr ""
+msgstr "Вазифалар жадвали"
 
 #: Workspace.cc:132
 #, c-format
@@ -559,7 +561,7 @@ msgstr ""
 
 #: Workspace.cc:176 Workspace.cc:230
 msgid "*.sgrd|Sensor Files"
-msgstr ""
+msgstr "*.sgrd|Сенсор файллари"
 
 #: Workspace.cc:179
 msgid "Select Worksheet to Load"
@@ -579,15 +581,15 @@ msgstr ""
 
 #: Workspace.cc:443
 msgid "Cannot find file ProcessTable.sgrd!"
-msgstr ""
+msgstr "ProcessTable.sgrd файлини топиб бўлмади!"
 
 #: KSGAppletSettings.cc:34
 msgid "KSysGuard Applet Settings"
-msgstr ""
+msgstr "KSysGuard апплетнинг мосламалари"
 
 #: KSGAppletSettings.cc:42
 msgid "Number of displays:"
-msgstr ""
+msgstr "Дисплейлар сони:"
 
 #: KSGAppletSettings.cc:51
 msgid "Size ratio:"
@@ -596,13 +598,13 @@ msgstr ""
 #: KSGAppletSettings.cc:57
 #, c-format
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: SensorDisplayLib/ProcessList.cc:111
 msgid ""
 "_: process status\n"
 "running"
-msgstr ""
+msgstr "ишлаяпти"
 
 #: SensorDisplayLib/ProcessList.cc:113
 msgid ""
@@ -620,13 +622,13 @@ msgstr ""
 msgid ""
 "_: process status\n"
 "zombie"
-msgstr ""
+msgstr "зомби"
 
 #: SensorDisplayLib/ProcessList.cc:118
 msgid ""
 "_: process status\n"
 "stopped"
-msgstr ""
+msgstr "тўхтаган"
 
 #: SensorDisplayLib/ProcessList.cc:119
 msgid ""
@@ -642,11 +644,11 @@ msgstr ""
 
 #: SensorDisplayLib/ProcessList.cc:251
 msgid "Remove Column"
-msgstr ""
+msgstr "Устунни олиб ташлаш"
 
 #: SensorDisplayLib/ProcessList.cc:252
 msgid "Add Column"
-msgstr ""
+msgstr "Устунни қўшиш"
 
 #: SensorDisplayLib/ProcessList.cc:253
 msgid "Help on Column"
@@ -659,19 +661,19 @@ msgstr ""
 
 #: SensorDisplayLib/ProcessList.cc:766
 msgid "Hide Column"
-msgstr ""
+msgstr "Устунни бекитиш"
 
 #: SensorDisplayLib/ProcessList.cc:771
 msgid "Show Column"
-msgstr ""
+msgstr "Устунни кўрсатиш"
 
 #: SensorDisplayLib/ProcessList.cc:775
 msgid "Select All Processes"
-msgstr ""
+msgstr "Ҳамма вазифаларни белгилаш"
 
 #: SensorDisplayLib/ProcessList.cc:776
 msgid "Unselect All Processes"
-msgstr ""
+msgstr "Вазифаларни белгилашни бекор қилиш"
 
 #: SensorDisplayLib/ProcessList.cc:782
 msgid "Select All Child Processes"
@@ -683,83 +685,83 @@ msgstr ""
 
 #: SensorDisplayLib/ProcessList.cc:785
 msgid "SIGABRT"
-msgstr ""
+msgstr "SIGABRT"
 
 #: SensorDisplayLib/ProcessList.cc:786
 msgid "SIGALRM"
-msgstr ""
+msgstr "SIGALRM"
 
 #: SensorDisplayLib/ProcessList.cc:787
 msgid "SIGCHLD"
-msgstr ""
+msgstr "SIGCHLD"
 
 #: SensorDisplayLib/ProcessList.cc:788
 msgid "SIGCONT"
-msgstr ""
+msgstr "SIGCONT"
 
 #: SensorDisplayLib/ProcessList.cc:789
 msgid "SIGFPE"
-msgstr ""
+msgstr "SIGFPE"
 
 #: SensorDisplayLib/ProcessList.cc:790
 msgid "SIGHUP"
-msgstr ""
+msgstr "SIGHUP"
 
 #: SensorDisplayLib/ProcessList.cc:791
 msgid "SIGILL"
-msgstr ""
+msgstr "SIGILL"
 
 #: SensorDisplayLib/ProcessList.cc:792
 msgid "SIGINT"
-msgstr ""
+msgstr "SIGINT"
 
 #: SensorDisplayLib/ProcessList.cc:793
 msgid "SIGKILL"
-msgstr ""
+msgstr "SIGKILL"
 
 #: SensorDisplayLib/ProcessList.cc:794
 msgid "SIGPIPE"
-msgstr ""
+msgstr "SIGPIPE"
 
 #: SensorDisplayLib/ProcessList.cc:795
 msgid "SIGQUIT"
-msgstr ""
+msgstr "SIGQUIT"
 
 #: SensorDisplayLib/ProcessList.cc:796
 msgid "SIGSEGV"
-msgstr ""
+msgstr "SIGSEGV"
 
 #: SensorDisplayLib/ProcessList.cc:797
 msgid "SIGSTOP"
-msgstr ""
+msgstr "SIGSTOP"
 
 #: SensorDisplayLib/ProcessList.cc:798
 msgid "SIGTERM"
-msgstr ""
+msgstr "SIGTERM"
 
 #: SensorDisplayLib/ProcessList.cc:799
 msgid "SIGTSTP"
-msgstr ""
+msgstr "SIGTSTP"
 
 #: SensorDisplayLib/ProcessList.cc:800
 msgid "SIGTTIN"
-msgstr ""
+msgstr "SIGTTIN"
 
 #: SensorDisplayLib/ProcessList.cc:801
 msgid "SIGTTOU"
-msgstr ""
+msgstr "SIGTTOU"
 
 #: SensorDisplayLib/ProcessList.cc:802
 msgid "SIGUSR1"
-msgstr ""
+msgstr "SIGUSR1"
 
 #: SensorDisplayLib/ProcessList.cc:803
 msgid "SIGUSR2"
-msgstr ""
+msgstr "SIGUSR2"
 
 #: SensorDisplayLib/ProcessList.cc:806
 msgid "Send Signal"
-msgstr ""
+msgstr "Сигнал юбориш"
 
 #: SensorDisplayLib/ProcessList.cc:814
 msgid "Renice Process..."
@@ -770,6 +772,8 @@ msgid ""
 "_n: Do you really want to send signal %1 to the selected process?\n"
 "Do you really want to send signal %1 to the %n selected processes?"
 msgstr ""
+"Белгиланган вазифага ростдан %1 сигналини юборишни истайсизми?\n"
+"Белгиланган %n вазифага ростдан %1 сигналини юборишни истайсизми?"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:44
 msgid "Edit BarGraph Preferences"
@@ -777,17 +781,17 @@ msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:48
 msgid "Range"
-msgstr ""
+msgstr "Чегара"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:51 WorkSheetSettings.cc:49
 #: rc.cpp:16 rc.cpp:33 rc.cpp:38 rc.cpp:45
 msgid "Title"
-msgstr ""
+msgstr "Сарлавҳа"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:55
 #: SensorDisplayLib/FancyPlotterSettings.cc:64 rc.cpp:17
 msgid "Enter the title of the display here."
-msgstr ""
+msgstr "Бу ерга дисплейнинг сарлавҳасини киритинг."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:60
 msgid "Display Range"
@@ -796,7 +800,7 @@ msgstr ""
 #: SensorDisplayLib/DancingBarsSettings.cc:64
 #: SensorDisplayLib/FancyPlotterSettings.cc:89
 msgid "Minimum value:"
-msgstr ""
+msgstr "Энг кичик қиймат:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:68
 #: SensorDisplayLib/FancyPlotterSettings.cc:95
@@ -808,7 +812,7 @@ msgstr ""
 #: SensorDisplayLib/DancingBarsSettings.cc:72
 #: SensorDisplayLib/FancyPlotterSettings.cc:99
 msgid "Maximum value:"
-msgstr ""
+msgstr "Энг катта қиймат:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:76
 #: SensorDisplayLib/FancyPlotterSettings.cc:105
@@ -836,7 +840,7 @@ msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:96 rc.cpp:11 rc.cpp:28
 msgid "Lower limit:"
-msgstr ""
+msgstr "Пастги чегара:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:106 rc.cpp:12 rc.cpp:21
 msgid "Alarm for Maximum Value"
@@ -847,8 +851,9 @@ msgid "Enable the maximum value alarm."
 msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:15 rc.cpp:24
+# next_start
 msgid "Upper limit:"
-msgstr ""
+msgstr "Юқори чегара:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:127
 msgid "Look"
