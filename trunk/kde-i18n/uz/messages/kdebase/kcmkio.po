@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
-"POT-Creation-Date: 2004-02-28 01:26+0100\n"
-"PO-Revision-Date: 2004-04-26 16:48+0200\n"
+"POT-Creation-Date: 2004-05-13 01:23+0200\n"
+"PO-Revision-Date: 2004-05-23 18:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -155,13 +155,13 @@ msgstr ""
 msgid "Variable Proxy Configuration"
 msgstr "Проксининг хар ҳил мосламалари"
 
-#: kenvvarproxydlg.cpp:135 kenvvarproxydlg.cpp:315
+#: kenvvarproxydlg.cpp:135 kenvvarproxydlg.cpp:306
 msgid "You must specify at least one valid proxy environment variable."
 msgstr ""
 "Камида битта прокси муҳит ўзгарувчисини "
 "аниқлашингиз керак."
 
-#: kenvvarproxydlg.cpp:138 kenvvarproxydlg.cpp:318
+#: kenvvarproxydlg.cpp:138 kenvvarproxydlg.cpp:309
 msgid ""
 "<qt>Make sure you entered the actual environment variable name rather than "
 "its value. For example, if the environment variable is "
@@ -170,8 +170,8 @@ msgid ""
 "http://localhost:3128.</qt>"
 msgstr ""
 
-#: kenvvarproxydlg.cpp:146 kenvvarproxydlg.cpp:326 kmanualproxydlg.cpp:324
-#: kproxydlg.cpp:227 kproxydlg.cpp:258 kproxydlg.cpp:277
+#: kenvvarproxydlg.cpp:146 kenvvarproxydlg.cpp:317 kproxydlg.cpp:227
+#: kproxydlg.cpp:258 kproxydlg.cpp:277
 msgid "Invalid Proxy Setup"
 msgstr "Прокси мосламаси нотўғри"
 
@@ -205,45 +205,79 @@ msgstr "Прокси ўзгарувчиларни авто-аниқлаш"
 msgid "Manual Proxy Configuration"
 msgstr ""
 
-#: kmanualproxydlg.cpp:317
-msgid "You must specify at least one valid proxy address."
-msgstr ""
-"Камида битта проксининг манзилини "
-"кўрсатишингиз шарт."
+#: kmanualproxydlg.cpp:271
+#, fuzzy
+msgid "Invalid Proxy Setting"
+msgstr "Прокси мосламаси нотўғри"
 
-#: kmanualproxydlg.cpp:319
+#: kmanualproxydlg.cpp:272
 msgid ""
-"<qt>Make sure that you have specified at least one valid proxy address, eg. "
-"<b>http://192.168.1.20</b>.</qt>"
+"One or more of the specified proxy settings are invalid. The incorrect "
+"entries are highlighted."
 msgstr ""
-"<qt>Камида битта ҳақиқий проксининг "
-"манзилини кўрсатганингизга ишонч ҳосил "
-"қилинг. Масалан <b>http://192.168.1.20</b>.</qt>"
 
-#: kmanualproxydlg.cpp:393
-msgid "<qt><center><b>%1</b><br/>already exists!"
+#: kmanualproxydlg.cpp:343
+msgid "You entered a duplicate address. Please try again."
+msgstr ""
+
+#: kmanualproxydlg.cpp:345
+#, fuzzy
+msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
 msgstr "<qt><center><b>%1</b><br/> аллақачон мавжуд!"
 
-#: kmanualproxydlg.cpp:395
-msgid "Duplicate Exception"
-msgstr ""
+#: kmanualproxydlg.cpp:347
+#, fuzzy
+msgid "Duplicate Entry"
+msgstr "Қоида нусхасини яратиш"
 
-#: kmanualproxydlg.cpp:410 kmanualproxydlg.cpp:448
-msgid "Enter the address or URL for which the above proxy server should be used:"
-msgstr ""
-
-#: kmanualproxydlg.cpp:413 kmanualproxydlg.cpp:451
-msgid ""
-"Enter the address or URL that should be excluded from using the above proxy "
-"server:"
-msgstr ""
-
-#: kmanualproxydlg.cpp:416
+#: kmanualproxydlg.cpp:359
 msgid "New Exception"
 msgstr ""
 
-#: kmanualproxydlg.cpp:455
+#: kmanualproxydlg.cpp:366
 msgid "Change Exception"
+msgstr ""
+
+#: kmanualproxydlg.cpp:442
+#, fuzzy
+msgid "Invalid Entry"
+msgstr "Прокси мосламаси нотўғри"
+
+#: kmanualproxydlg.cpp:445
+msgid "The address you have entered is not valid."
+msgstr ""
+
+#: kmanualproxydlg.cpp:447
+msgid ""
+"<qt>"
+"Make sure none of the addresses or URLs you specified contain invalid or "
+"wildcard characters such as spaces, asteriks(*) or question "
+"marks(?)."
+"<p><u>Examples of VALID entries:</u>"
+"<br/><code>http://mycompany.com, 192.168.10.1, mycompany,com, localhost, "
+"http://localhost</code>"
+"<p><u>Examples of INVALID entries:</u>"
+"<br/><code>http://my company.com, http:/mycompany,com file:/localhost</code>"
+msgstr ""
+
+#: kmanualproxydlg.cpp:468
+#, fuzzy
+msgid "Enter the URL or address that should use the above proxy settings:"
+msgstr "FTP прокси серверининг манзилини киритинг."
+
+#: kmanualproxydlg.cpp:471
+msgid ""
+"Enter the address or URL that should be excluded from using the above proxy "
+"settings:"
+msgstr ""
+
+#: kmanualproxydlg.cpp:474
+msgid ""
+"<qt>Enter a valid address or url."
+"<p><b><u>NOTE:</u></b> Wildcard matching such as <code>*.kde.org</code> is "
+"not supported. If you want to match any host in the <code>.kde.org</code> "
+"domain, e.g. <code>printing.kde.org</code>, then simply enter "
+"<code>.kde.org</code></qt>"
 msgstr ""
 
 #: kproxydlg.cpp:53
@@ -255,10 +289,11 @@ msgid "&SOCKS"
 msgstr "&SOCKS"
 
 #: kproxydlg.cpp:222
+#, fuzzy
 msgid ""
-"<qt>The address of the automatic proxy configuration script is invalid! "
-"Please correct this problem before proceeding. Otherwise the changes you "
-"made will be ignored!</qt>"
+"<qt>The address of the automatic proxy configuration script is invalid: "
+"please correct this problem before proceeding; otherwise, the changes you "
+"have made will be ignored.</qt>"
 msgstr ""
 "<qt>Проксини автоматик равишда мослаш "
 "скриптининг манзили ҳақиқий эмас. "
@@ -266,11 +301,25 @@ msgstr ""
 "қилинг. Акс ҳолда, сиз киритган "
 "ўзгаришлар эътиборга олинмайди!</qt>"
 
-#: kproxydlg.cpp:252 kproxydlg.cpp:271
+#: kproxydlg.cpp:252
+#, fuzzy
 msgid ""
-"<qt>Proxy information was not setup properly! Please click on the "
-"<em>Setup...</em> button to correct this problem before proceeding. "
-"Otherwise the changes you made will be ignored!</qt>"
+"<qt>Proxy information was not setup properly: please click on the "
+"<em>Setup...</em> button to correct this problem before proceeding; "
+"otherwise, the changes you have made will be ignored.</qt>"
+msgstr ""
+"<qt>Прокси тўғри ўрнатилмади! Илтимос "
+"давом этишдан олдин бу муаммони ҳал қилиш "
+"учун <em>Мослаш</em> тугмасини босинг. Акс "
+"ҳолда, сиз киритган ўзгаришлар эътиборга "
+"олинмайди!</qt>"
+
+#: kproxydlg.cpp:271
+#, fuzzy
+msgid ""
+"<qt>Proxy information was not setup properly: please click on the "
+"<em>Setup...</em> button to correct this problem before proceeding; "
+"otherwise. the changes you have made will be ignored.</qt>"
 msgstr ""
 "<qt>Прокси тўғри ўрнатилмади! Илтимос "
 "давом этишдан олдин бу муаммони ҳал қилиш "
@@ -401,7 +450,7 @@ msgstr ""
 "Бу ерга SMB сервери учун махфий сўзни "
 "киритинг."
 
-#: ksmboptdlg.cpp:171 rc.cpp:149
+#: ksmboptdlg.cpp:171 rc.cpp:153
 msgid "&Add"
 msgstr "&Қўшиш"
 
@@ -438,7 +487,7 @@ msgid ""
 msgstr ""
 
 #: ksmboptdlg.cpp:210
-msgid "Don't s&tore new bindings"
+msgid "Do not s&tore new bindings"
 msgstr ""
 
 #: ksmboptdlg.cpp:213
@@ -498,7 +547,7 @@ msgstr "ResLISa де&мони"
 
 #: main.cpp:105
 msgid "lan:/ && &rlan:/"
-msgstr "lan:/ && &rlan:/"
+msgstr "lan:/ ва &rlan:/"
 
 #: main.cpp:145
 msgid ""
@@ -670,11 +719,11 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:15 rc.cpp:98
+#: rc.cpp:15 rc.cpp:103
 msgid "&FTP:"
 msgstr "&FTP:"
 
-#: rc.cpp:17 rc.cpp:99
+#: rc.cpp:17 rc.cpp:104
 msgid "HTTP&S:"
 msgstr "HTTP&S:"
 
@@ -718,7 +767,7 @@ msgid ""
 "HTTP_PROXY, FTP_PROXY and NO_PROXY.</qt>"
 msgstr ""
 
-#: rc.cpp:24 rc.cpp:100
+#: rc.cpp:24 rc.cpp:105
 msgid "H&TTP:"
 msgstr "H&TTP:"
 
@@ -744,11 +793,11 @@ msgstr ""
 msgid "Host [Set By]"
 msgstr ""
 
-#: rc.cpp:32 rc.cpp:61 rc.cpp:191
+#: rc.cpp:32 rc.cpp:61 rc.cpp:195
 msgid "D&elete"
 msgstr "Ў&чириш"
 
-#: rc.cpp:33 rc.cpp:62 rc.cpp:193
+#: rc.cpp:33 rc.cpp:62 rc.cpp:197
 msgid "Delete A&ll"
 msgstr "Ҳам&масини ўчириш"
 
@@ -837,8 +886,9 @@ msgid ""
 msgstr ""
 
 #: rc.cpp:50
+#, fuzzy
 msgid "Treat &all cookies as session cookies"
-msgstr ""
+msgstr "Сеанс кукиларини &авто-қабул қилиш"
 
 #: rc.cpp:51
 msgid ""
@@ -906,11 +956,11 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:59 rc.cpp:118 rc.cpp:187
+#: rc.cpp:59 rc.cpp:122 rc.cpp:191
 msgid "&New..."
 msgstr "Я&нги"
 
-#: rc.cpp:60 rc.cpp:189
+#: rc.cpp:60 rc.cpp:193
 msgid "Chan&ge..."
 msgstr "Ўз&гартириш"
 
@@ -945,135 +995,161 @@ msgid ""
 msgstr ""
 
 #: rc.cpp:68
-msgid "Connect to the Internet &directly"
+#, fuzzy
+msgid "Connect to the &Internet directly"
 msgstr "Интернетга тўғридан-тўғри &уланиш"
 
 #: rc.cpp:69
-msgid "Connect to the Internet directly without using a proxy server."
+msgid "Alt+I"
 msgstr ""
-"Интернетга тўғридан-тўғри прокси "
-"серверидан фойдаланмасдан уланиш"
 
 #: rc.cpp:70
+#, fuzzy
+msgid "Connect to the Internet directly."
+msgstr "Интернетга тўғридан-тўғри &уланиш"
+
+#: rc.cpp:71
 msgid "A&utomatically detect proxy configuration"
 msgstr "Прокси &мосламасини авто-аниқлаш"
 
-#: rc.cpp:71
+#: rc.cpp:72
+msgid "Alt+U"
+msgstr ""
+
+#: rc.cpp:73
 msgid ""
 "<qt>\n"
-"Automatically detect and configure the proxy server settings.<p>\n"
-"The configuration file is automatically downloaded using the <b>Web Proxy "
-"Auto-Discovery Protocol (WPAD)</b> specification.\n"
+"Automatically detect and configure the proxy settings.<p>\n"
+"Automatic detection is performed using the <b>Web Proxy Auto-Discovery "
+"Protocol (WPAD)</b>.<p>\n"
+"<b>NOTE:</b>This option might not work properly or not work at all in some "
+"Unix/Linux distributions. If you encounter a problem when using this option, "
+"please check the FAQ section at http://konqueror.kde.org.\n"
 "</qt>"
 msgstr ""
 
-#: rc.cpp:72
+#: rc.cpp:74
 msgid "U&se the following proxy configuration URL"
 msgstr "Қуйида&ги прокси мослама URL'дан фойдаланиш"
 
-#: rc.cpp:73
-msgid "Use the specified configuration script to setup the proxy server settings."
+#: rc.cpp:75
+msgid "Alt+S"
+msgstr ""
+
+#: rc.cpp:76
+#, fuzzy
+msgid "Use the specified proxy script URL to configure the proxy settings."
 msgstr ""
 "Прокси серверининг мосламаларини мослаш "
 "учун кўрсатилган скриптдан фойдаланиш."
 
-#: rc.cpp:74
+#: rc.cpp:77
 msgid "Enter the address for the proxy configuration script."
 msgstr ""
 "Прокси мослама скрипти жойлашган "
 "манзилни киритинг."
 
-#: rc.cpp:75
+#: rc.cpp:78
 msgid "Use preset proxy environment &variables"
 msgstr ""
 "&Олдиндан аниқланган прокси муҳит "
 "ўзгарувчиларини ишлатиш"
 
-#: rc.cpp:76
-msgid ""
-"<qt>\n"
-"Use environment variables to setup the proxy server settings.<p>\n"
-"Environment variables such as <b>HTTP_PROXY</b> and <b>NO_PROXY</b> based "
-"configuration are usually used in multi-user UNIX installations, where both "
-"graphical and non-graphical applications need to share the same proxy "
-"configuration information.\n"
-"</qt>"
-msgstr ""
-
-#: rc.cpp:77 rc.cpp:81
-msgid "Setup..."
-msgstr "Мослаш"
-
-#: rc.cpp:78
-msgid "Show the proxy environment variable configuration dialog."
-msgstr ""
-
 #: rc.cpp:79
-msgid "&Manually specify the proxy settings"
+msgid "Alt+V"
 msgstr ""
 
 #: rc.cpp:80
 msgid ""
 "<qt>\n"
-"Manually enter proxy server configuration information.\n"
+"Use environment variables to configure the proxy settings.<p>\n"
+"Environment variables such as <b>HTTP_PROXY</b> and <b>NO_PROXY</b> are "
+"usually used in multi-user UNIX installations, where both graphical and "
+"non-graphical applications need to share the same proxy configuration "
+"information.\n"
 "</qt>"
 msgstr ""
 
+#: rc.cpp:81 rc.cpp:86
+msgid "Setup..."
+msgstr "Мослаш"
+
 #: rc.cpp:82
-msgid "Show the manual proxy configuration dialog."
+#, fuzzy
+msgid "Show the proxy environment variable configuration dialog."
 msgstr ""
+"Муҳит ўзгарувчиларнинг қийматини "
+"&кўрсатиш"
 
 #: rc.cpp:83
+msgid "&Manually specify the proxy settings"
+msgstr ""
+
+#: rc.cpp:84
+msgid "Alt+M"
+msgstr ""
+
+#: rc.cpp:85
+#, fuzzy
+msgid "Manually enter proxy server configuration information."
+msgstr "Прокси &мосламасини авто-аниқлаш"
+
+#: rc.cpp:87
+#, fuzzy
+msgid "Show the manual proxy configuration dialog."
+msgstr "Қуйида&ги прокси мослама URL'дан фойдаланиш"
+
+#: rc.cpp:88
 msgid "Authori&zation"
 msgstr "&Тасдиқлаш"
 
-#: rc.cpp:84
+#: rc.cpp:89
 msgid "Prompt as &needed"
 msgstr "Керагида сў&раш"
 
-#: rc.cpp:85
+#: rc.cpp:90
 msgid "Prompt for login information whenever it is required."
 msgstr ""
 "Талаб қилинганда тасдиқлаш маълумотини "
 "сўраш."
 
-#: rc.cpp:86
+#: rc.cpp:91
 msgid "Use the following lo&gin information."
 msgstr ""
 "Уланиш учун қуйидаги маъ&лумотдан "
 "фойдаланиш"
 
-#: rc.cpp:87
+#: rc.cpp:92
 msgid "Use the information below to login into proxy servers as needed."
 msgstr ""
 "Прокси серверига уланишда талаб "
 "қилинганда қуйидаги маълумотни ишлатиш."
 
-#: rc.cpp:88 rc.cpp:91
+#: rc.cpp:93 rc.cpp:96
 msgid "Login password."
 msgstr "Махфий сўз."
 
-#: rc.cpp:89 rc.cpp:93
+#: rc.cpp:94 rc.cpp:98
 msgid "Login name."
 msgstr "Фойдаланувчи."
 
-#: rc.cpp:90
+#: rc.cpp:95
 msgid "Password:"
 msgstr "Махфий сўз:"
 
-#: rc.cpp:92
+#: rc.cpp:97
 msgid "Username:"
 msgstr "Фойдаланувчи:"
 
-#: rc.cpp:94
+#: rc.cpp:99
 msgid "O&ptions"
 msgstr "&Параметрлар"
 
-#: rc.cpp:95
+#: rc.cpp:100
 msgid "Use persistent connections to proxy"
 msgstr ""
 
-#: rc.cpp:96
+#: rc.cpp:101
 msgid ""
 "<qt>\n"
 "Use persistent proxy connection.<p>\n"
@@ -1084,25 +1160,25 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:97
+#: rc.cpp:102
 msgid "Ser&vers"
 msgstr "&Серверлар"
 
-#: rc.cpp:101
+#: rc.cpp:106
 msgid "Enter the address of the HTTP proxy server."
 msgstr "HTTP прокси серверининг манзилини киритинг."
 
-#: rc.cpp:102
+#: rc.cpp:107
 msgid "Enter the address of the HTTPS proxy server."
 msgstr ""
 "HTTPS прокси серверининг манзилини "
 "киритинг."
 
-#: rc.cpp:103
+#: rc.cpp:108
 msgid "Enter the address of the FTP proxy server."
 msgstr "FTP прокси серверининг манзилини киритинг."
 
-#: rc.cpp:104
+#: rc.cpp:109
 msgid ""
 "Enter the port number of the FTP proxy server. Default 8080. Another common "
 "value is 3128."
@@ -1111,7 +1187,7 @@ msgstr ""
 "Андоза - 8080. Бошқа кенг ишлатиладиган порт "
 "- 3128."
 
-#: rc.cpp:105 rc.cpp:106
+#: rc.cpp:110 rc.cpp:111
 msgid ""
 "Enter the port number of the HTTP proxy server. Default is 8080. Another "
 "common value is 3128."
@@ -1120,21 +1196,21 @@ msgstr ""
 "Андоза - 8080. Бошқа кенг ишлатиладиган порт "
 "- 3128."
 
-#: rc.cpp:107
+#: rc.cpp:112
 msgid "&Use the same proxy server for all protocols"
 msgstr ""
 "Ҳамма про&токоллар учун битта прокси "
 "серверини ишлатиш"
 
-#: rc.cpp:109
+#: rc.cpp:114
 msgid "E&xceptions"
 msgstr "Қоидадан т&ашқари ҳолатлар"
 
-#: rc.cpp:110
+#: rc.cpp:115
 msgid "Use proxy only for entries in this list"
 msgstr "Рўйхатдагилар учун проксини ишлатиш"
 
-#: rc.cpp:111
+#: rc.cpp:116
 msgid ""
 "<qt>\n"
 "Reverse the use of the exception list. Checking this box will result in the "
@@ -1147,62 +1223,52 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:112
-msgid "De&lete"
-msgstr "Ўч&ириш"
-
-#: rc.cpp:113
-msgid "Remove the selected proxy exception address from the list."
-msgstr ""
-"Қоидадан ташқари танланган прокси "
-"манзилини рўйхатдан олиб ташлаш."
-
-#: rc.cpp:114
+#: rc.cpp:117
 msgid "D&elete All"
 msgstr "Ҳам&масини ўчириш"
 
-#: rc.cpp:115
+#: rc.cpp:118
 msgid "Remove all proxy exception addresses from the list."
 msgstr ""
 "Қоидадан ташқари ҳамма прокси "
 "манзилларини рўйхатдан олиб ташлаш."
 
-#: rc.cpp:116
-msgid "C&hange..."
-msgstr "Ўз&гартириш"
+#: rc.cpp:119
+msgid "De&lete"
+msgstr "Ўч&ириш"
 
-#: rc.cpp:117
-msgid "Change the selected proxy exception address."
+#: rc.cpp:120
+msgid "Alt+L"
+msgstr ""
+
+#: rc.cpp:121
+msgid "Remove the selected proxy exception address from the list."
 msgstr ""
 "Қоидадан ташқари танланган прокси "
-"манзилини ўзгартириш."
+"манзилини рўйхатдан олиб ташлаш."
 
-#: rc.cpp:119
+#: rc.cpp:123
 msgid "Add new proxy exception address to the list."
 msgstr ""
 "Қоидадан ташқари янги прокси манзилини "
 "рўйхатга қўшиш."
 
-#: rc.cpp:120
-msgid "Address"
-msgstr "Манзили"
+#: rc.cpp:124
+msgid "C&hange..."
+msgstr "Ўз&гартириш"
 
-#: rc.cpp:121
-msgid ""
-"<qt>\n"
-"List of addresses that are either exempt or allowed, based on the \"Use "
-"proxy only...\" option, from using the proxy server."
-"<p>"
-"If the \"Use proxy only...\" option is checked, only addresses that match "
-"the ones in this list will be sent through the proxy server.\n"
-"</qt>"
+#: rc.cpp:125
+msgid "Change the selected proxy exception address."
 msgstr ""
+"Қоидадан ташқари танланган прокси "
+"манзилини ўзгартириш."
 
-#: rc.cpp:122
+#: rc.cpp:126
+#, fuzzy
 msgid "&Domain name:"
-msgstr ""
+msgstr "Фойдаланувчи."
 
-#: rc.cpp:123 rc.cpp:124
+#: rc.cpp:127 rc.cpp:128
 msgid ""
 "<qt>\n"
 "Enter the host or domain to which this policy applies, e.g. "
@@ -1210,11 +1276,11 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:125
+#: rc.cpp:129
 msgid "&Policy:"
 msgstr "Қ&оида:"
 
-#: rc.cpp:126 rc.cpp:130
+#: rc.cpp:130 rc.cpp:134
 msgid ""
 "<qt>\n"
 "Select the desired policy:\n"
@@ -1237,41 +1303,41 @@ msgstr ""
 "</ul>\n"
 "</qt>"
 
-#: rc.cpp:127
+#: rc.cpp:131
 msgid "Accept"
 msgstr "Қабул қилиш"
 
-#: rc.cpp:128
+#: rc.cpp:132
 msgid "Reject"
 msgstr "Рад этиш"
 
-#: rc.cpp:129
+#: rc.cpp:133
 msgid "Ask"
 msgstr "Сўраш"
 
-#: rc.cpp:131
+#: rc.cpp:135
 msgid "SOCKS"
 msgstr "SOCKS"
 
-#: rc.cpp:132
+#: rc.cpp:136
 msgid "&Enable SOCKS support"
 msgstr "SOCKS &қўллашни ёқиш"
 
-#: rc.cpp:133
+#: rc.cpp:137
 msgid ""
 "Check this to enable SOCKS4 and SOCKS5 support in KDE applications and I/O "
 "subsystems."
 msgstr ""
 
-#: rc.cpp:134
+#: rc.cpp:138
 msgid "SOCKS Implementation"
 msgstr "SOCKS амалга оширилиши"
 
-#: rc.cpp:135
+#: rc.cpp:139
 msgid "A&uto detect"
 msgstr "&Авто-аниқлаш"
 
-#: rc.cpp:136
+#: rc.cpp:140
 msgid ""
 "If you select Autodetect, then KDE will automatically search for an "
 "implementation of SOCKS on your computer."
@@ -1280,54 +1346,54 @@ msgstr ""
 "қандай амалга оширилганини автоматик "
 "равишда аниқлайди."
 
-#: rc.cpp:137
+#: rc.cpp:141
 msgid "&NEC SOCKS"
 msgstr "&NEC SOCKS"
 
-#: rc.cpp:138
+#: rc.cpp:142
 msgid "This will force KDE to use NEC SOCKS if it can be found."
 msgstr ""
 "Агар топилса, KDE NEC SOCKS кутубхонасидан "
 "фойдаланади."
 
-#: rc.cpp:139
+#: rc.cpp:143
 msgid "Use &custom library"
 msgstr "&Бошқа кутубхонани ишлатиш"
 
-#: rc.cpp:140
+#: rc.cpp:144
 msgid ""
 "Select custom if you wish to use an unlisted SOCKS library. Please note that "
 "this may not always work as it depends on the API of the library which you "
 "specify (below)."
 msgstr ""
 
-#: rc.cpp:141
+#: rc.cpp:145
 msgid "&Path:"
 msgstr "Йў&л:"
 
-#: rc.cpp:142
+#: rc.cpp:146
 msgid "Enter the path to an unsupported SOCKS library."
 msgstr ""
 "Қўлланмаган SOCKS кутубхонасига йўллни "
 "киритинг."
 
-#: rc.cpp:143
+#: rc.cpp:147
 msgid "&Dante"
 msgstr "&Dante"
 
-#: rc.cpp:144
+#: rc.cpp:148
 msgid "This will force KDE to use Dante if it can be found."
 msgstr ""
 "Агар топилса, KDE Dante кутубхонасидан "
 "фойдаланади."
 
-#: rc.cpp:145
+#: rc.cpp:149
 msgid "Additional Library Search Paths"
 msgstr ""
 "Қўшимча кутубхоналарни қидириш учун "
 "йўллар"
 
-#: rc.cpp:146
+#: rc.cpp:150
 msgid ""
 "Here you can specify additional directories to search for the SOCKS "
 "libraries. /usr/lib, /usr/local/lib, /usr/local/socks5/lib and "
@@ -1339,31 +1405,31 @@ msgstr ""
 "фойдаланилади.\n"
 "/usr/lib, /usr/local/lib, /usr/local/socks5/lib, /opt/socks5/lib"
 
-#: rc.cpp:147
+#: rc.cpp:151
 msgid "Path"
 msgstr "Йўл"
 
-#: rc.cpp:148
+#: rc.cpp:152
 msgid "This is the list of additional paths that will be searched."
 msgstr ""
 "Қўшимча кутубхоналарни қидириш учун "
 "йўллар рўйхати."
 
-#: rc.cpp:151
+#: rc.cpp:155
 msgid "&Test"
 msgstr "&Синаш"
 
-#: rc.cpp:152
+#: rc.cpp:156
 msgid "Click here to test SOCKS support."
 msgstr ""
 "SOCKS қўлланганини текшириш учун шу ерни "
 "босинг."
 
-#: rc.cpp:153
+#: rc.cpp:157
 msgid "&When browsing the following site:"
 msgstr ""
 
-#: rc.cpp:154 rc.cpp:155
+#: rc.cpp:158 rc.cpp:159
 msgid ""
 "<qt>\n"
 "Enter the site or domain name where a fake browser identification should be "
@@ -1377,11 +1443,14 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:156
+#: rc.cpp:160
+#, fuzzy
 msgid "&Use the following identification:"
 msgstr ""
+"Уланиш учун қуйидаги маъ&лумотдан "
+"фойдаланиш"
 
-#: rc.cpp:157 rc.cpp:158
+#: rc.cpp:161 rc.cpp:162
 msgid ""
 "<qt>\n"
 "Select the browser identification to use whenever contacting the site you "
@@ -1389,11 +1458,11 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:159
+#: rc.cpp:163
 msgid "Real identification:"
 msgstr ""
 
-#: rc.cpp:160 rc.cpp:161
+#: rc.cpp:164 rc.cpp:165
 msgid ""
 "<qt>\n"
 "The actual browser identification text that will be sent to the remote "
@@ -1401,11 +1470,11 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:162
+#: rc.cpp:166
 msgid "Update &List"
 msgstr "Рўй&хатни янгилаш"
 
-#: rc.cpp:163
+#: rc.cpp:167
 msgid ""
 "<qt>\n"
 "Refresh the browser identification list.<p>\n"
@@ -1414,7 +1483,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:166
+#: rc.cpp:170
 msgid ""
 "<qt>\n"
 "Here you can modify the default browser-identification text or set a site "
@@ -1429,11 +1498,11 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:167
+#: rc.cpp:171
 msgid "&Send identification"
 msgstr ""
 
-#: rc.cpp:168
+#: rc.cpp:172
 msgid ""
 "<qt>\n"
 "Send the browser identification to web sites.<p>\n"
@@ -1445,99 +1514,103 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:169
+#: rc.cpp:173
 msgid "Default Identification"
 msgstr ""
 
-#: rc.cpp:170
+#: rc.cpp:174
 msgid ""
 "The browser identification text sent to the sites you visit. Use the "
 "provided options to customize it."
 msgstr ""
 
-#: rc.cpp:171
+#: rc.cpp:175
 msgid ""
 "The browser identification text sent to the sites you visit. You can "
 "customize it using the options provided below."
 msgstr ""
 
-#: rc.cpp:172
+#: rc.cpp:176
 msgid "Add operating s&ystem name"
 msgstr "Операцион си&стеманинг номи"
 
-#: rc.cpp:173
+#: rc.cpp:177
 msgid "Includes your operating system's name in the browser identification text."
 msgstr ""
 
-#: rc.cpp:174
+#: rc.cpp:178
 msgid "Add operating system &version"
 msgstr "Операцион системанинг &версиясини қўшиш"
 
-#: rc.cpp:175
+#: rc.cpp:179
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
 msgstr ""
 
-#: rc.cpp:176
+#: rc.cpp:180
 msgid "Add &platform name"
 msgstr "&Платформанинг номини қўшиш"
 
-#: rc.cpp:177
+#: rc.cpp:181
 msgid "Includes your platform type in the browser identification text"
 msgstr ""
 
-#: rc.cpp:178
+#: rc.cpp:182
 msgid "Add &machine (processor) type"
 msgstr "П&роцессорнинг турини қўшиш"
 
-#: rc.cpp:179
+#: rc.cpp:183
 msgid "Includes your machine's CPU type in the browser identification text."
 msgstr ""
 
-#: rc.cpp:180
+#: rc.cpp:184
 msgid "Add lang&uage information"
 msgstr "&Тил ҳақида маълумотни қўшиш"
 
-#: rc.cpp:181
+#: rc.cpp:185
 msgid "Includes your language settings in the browser identification text."
 msgstr ""
 
-#: rc.cpp:182
+#: rc.cpp:186
 msgid "Site Specific Identification"
 msgstr ""
 
-#: rc.cpp:183
+#: rc.cpp:187
 msgid "Site Name"
 msgstr "Сайтнинг номи"
 
-#: rc.cpp:184
+#: rc.cpp:188
 msgid "Identification"
 msgstr ""
 
-#: rc.cpp:185
+#: rc.cpp:189
+#, fuzzy
 msgid "User Agent"
-msgstr ""
+msgstr "Фойдаланувчининг мосламалари"
 
-#: rc.cpp:186
+#: rc.cpp:190
 msgid ""
 "List of sites for which the specified identification text will be used "
 "instead of the default one."
 msgstr ""
 
-#: rc.cpp:188
+#: rc.cpp:192
 msgid "Add new identification text for a site."
 msgstr ""
 
-#: rc.cpp:190
+#: rc.cpp:194
+#, fuzzy
 msgid "Change the selected identifier text."
 msgstr ""
+"Қоидадан ташқари танланган прокси "
+"манзилини ўзгартириш."
 
-#: rc.cpp:192
+#: rc.cpp:196
 msgid "Delete the selected identifier text."
 msgstr ""
 
-#: rc.cpp:194
+#: rc.cpp:198
 msgid "Delete all identifiers."
 msgstr ""
 
@@ -1599,7 +1672,8 @@ msgid "SOCKS Support"
 msgstr "SOCKS'ни қўллаш"
 
 #: socks.cpp:116
-msgid "Success! SOCKS was found and initialized."
+#, fuzzy
+msgid "Success: SOCKS was found and initialized."
 msgstr "SOCKS'ни ишга тайёрлаш муваффақиятли тугади!"
 
 #: socks.cpp:121
@@ -1613,9 +1687,8 @@ msgid ""
 "proxy.</p>"
 "<p>SOCKS is a protocol to traverse firewalls as described in <a "
 "href=\"http://rfc.net/rfc1928.html\">RFC 1928</a>. "
-"<p>"
-"If you have no idea what this is and if your system administrator doesn't "
-"tell you to use it, leave it disabled.</p>"
+"<p>If you have no idea what this is and if your system administrator does "
+"not tell you to use it, leave it disabled.</p>"
 msgstr ""
 
 #: socks.cpp:271
@@ -1666,3 +1739,4 @@ msgid ""
 "dialog box, simply click on the quick help button on the window title bar, "
 "then click on the section for which you are seeking help."
 msgstr ""
+
