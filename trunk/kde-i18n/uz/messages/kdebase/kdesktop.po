@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdesktop\n"
-"POT-Creation-Date: 2003-10-11 01:27+0200\n"
-"PO-Revision-Date: 2003-10-18 19:11+0200\n"
+"POT-Creation-Date: 2003-10-31 01:26+0100\n"
+"PO-Revision-Date: 2003-11-02 01:52+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -14,75 +14,106 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.2\n"
 
-#: lock/lockdlg.cc:126
+#: lock/lockdlg.cc:167
 msgid "Enter the password for user %1 (%2)"
+msgstr "Фойдаланувчи %1 (%2) учун махфий сўзни киритинг"
+
+#: lock/lockdlg.cc:71
+msgid "<nobr><b>The screen is locked by %1</b><br>"
 msgstr ""
 
-#: lock/lockdlg.cc:135
+#: lock/lockdlg.cc:81
+msgid "&Start New Session"
+msgstr ""
+
+#: lock/lockdlg.cc:181
 msgid "<b>Unlocking failed</b>"
 msgstr ""
 
-#: lock/lockdlg.cc:141
+#: lock/lockdlg.cc:187
 msgid "<b>Warning: Caps Lock on</b>"
-msgstr ""
+msgstr "<b>Диққат: CapsLock ёқилган!</b>"
 
-#: lock/lockdlg.cc:246 lock/lockdlg.cc:289
+#: lock/lockdlg.cc:407
 msgid ""
-"Verification failed\n"
-"Kill kdesktop_lock"
+"Cannot unlock the screen, as the authentication system fails to work.\n"
+"You must kill kdesktop_lock (pid %1) manually."
 msgstr ""
 
-#: lock/lockdlg.cc:321
+#: lock/lockdlg.cc:475
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
-"current one.<br>The current session will be hidden and a new login screen "
-"will be displayed.<br>An F-key is assigned to each session; F%1 is usually "
-"assigned to the first session, F%2 to the second session and so on. You can "
-"switch between sessions by pressing CTRL, ALT and the appropriate F-key at "
-"the same time."
+"current one."
+"<br>The current session will be hidden and a new login screen will be "
+"displayed."
+"<br>An F-key is assigned to each session; F%1 is usually assigned to the "
+"first session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing CTRL, ALT and the appropriate F-key at the same time."
 msgstr ""
 
-#: lock/main.cc:31
+#: lock/lockprocess.cc:640
+msgid ""
+"Will not lock the screen, as unlocking would be impossible:\n"
+msgstr ""
+
+#: lock/lockprocess.cc:644
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr ""
+
+#: lock/lockprocess.cc:645
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
+msgstr ""
+
+#: lock/lockprocess.cc:697
+msgid "No appropriate greeter plugin configured."
+msgstr ""
+
+#: lock/main.cc:44
 msgid "Force screen locking"
 msgstr ""
 
-#: lock/main.cc:32
+#: lock/main.cc:45
 msgid "Only start screensaver"
 msgstr ""
 
-#: lock/main.cc:33
+#: lock/main.cc:46
 msgid "Only use the blank screensaver"
 msgstr ""
 
-#: lock/main.cc:111
+#: lock/main.cc:56
+#, fuzzy
+msgid "KDesktop Locker"
+msgstr "KDesktop"
+
+#: lock/main.cc:56
 msgid "Screen Locker for KDesktop"
 msgstr ""
 
-#: desktop.cc:643
+#: desktop.cc:662
 msgid "Set as Primary Background Color"
 msgstr ""
 
-#: desktop.cc:644
+#: desktop.cc:663
 msgid "Set as Secondary Background Color"
 msgstr ""
 
-#: desktop.cc:660
+#: desktop.cc:679
 msgid "&Save to Desktop..."
 msgstr ""
 
-#: desktop.cc:661
+#: desktop.cc:680
 msgid "Set as &Wallpaper"
 msgstr ""
 
-#: desktop.cc:669
+#: desktop.cc:688
 msgid "Enter a name for the image below:"
 msgstr ""
 
-#: desktop.cc:678
+#: desktop.cc:697
 msgid "image.png"
 msgstr ""
 
-#: desktop.cc:724
+#: desktop.cc:743
 msgid ""
 "Could not logout properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
@@ -90,21 +121,17 @@ msgid ""
 "not be saved with a forced shutdown."
 msgstr ""
 
-#: kdiconview.cc:304
+#: kdiconview.cc:314
 msgid "&Rename"
 msgstr "&Номини ўзгартириш"
 
-#: kdiconview.cc:305
+#: kdiconview.cc:315
 msgid "&Move to Trash"
 msgstr "&Чиқиндилар қутисига олиб ташлаш"
 
-#: kdiconview.cc:308
+#: kdiconview.cc:318
 msgid "&Shred"
 msgstr "Қ&ириб ташлаш"
-
-#: krootwm.cc:92 krootwm.cc:458
-msgid "Bookmarks"
-msgstr "Хатчўплар"
 
 #: krootwm.cc:128
 msgid "Run Command..."
@@ -120,11 +147,11 @@ msgstr "Менюсиз иш столи"
 
 #: krootwm.cc:138
 msgid "Unclutter Windows"
-msgstr ""
+msgstr "Ойналарни тартибсизлаш"
 
 #: krootwm.cc:140
 msgid "Cascade Windows"
-msgstr ""
+msgstr "Ойналарни тартиблаш"
 
 #: krootwm.cc:146
 msgid "By Name"
@@ -152,7 +179,7 @@ msgstr "Вертикал бўйича текислаш"
 
 #: krootwm.cc:162
 msgid "Align to Grid"
-msgstr ""
+msgstr "Текислаш"
 
 #: krootwm.cc:168
 msgid "Refresh Desktop"
@@ -160,15 +187,15 @@ msgstr "Иш столини янгилаш"
 
 #: kdesktopbindings.cpp:30 krootwm.cc:174
 msgid "Lock Screen"
-msgstr "Дисплейни қулфлаш"
+msgstr "Экранни қулфлаш"
 
 #: krootwm.cc:183
 msgid "Logout \"%1\"..."
-msgstr ""
+msgstr "Чиқиш - \"%1\""
 
 #: krootwm.cc:194
 msgid "Start New Session"
-msgstr ""
+msgstr "Янги сеансни бошлаш"
 
 #: krootwm.cc:313 krootwm.cc:391
 msgid "Sort Icons"
@@ -194,17 +221,19 @@ msgstr "Ойналар"
 msgid "New"
 msgstr "Янги"
 
-#: kdesktopbindings.cpp:14 krootwm.cc:460 krootwm.cc:621
+#: kdesktopbindings.cpp:14 krootwm.cc:460 krootwm.cc:630
 msgid "Desktop"
 msgstr "Иш столи"
 
-#: krootwm.cc:686
+#: krootwm.cc:695
 msgid ""
-"<p>You have chosen to open another desktop session.<br>The current session "
-"will be hidden and a new login screen will be displayed.<br>An F-key is "
-"assigned to each session; F%1 is usually assigned to the first session, F%2 "
-"to the second session and so on. You can switch between sessions by pressing "
-"CTRL, ALT and the appropriate F-key at the same time.</p>"
+"<p>You have chosen to open another desktop session."
+"<br>The current session will be hidden and a new login screen will be "
+"displayed."
+"<br>An F-key is assigned to each session; F%1 is usually assigned to the "
+"first session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing CTRL, ALT and the appropriate F-key at the same "
+"time.</p>"
 msgstr ""
 
 #: main.cc:40
@@ -231,7 +260,7 @@ msgstr "KDesktop"
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "Машраб Куватов"
+msgstr "Машраб Қуватов"
 
 #: _translatorinfo.cpp:3
 msgid ""
@@ -239,7 +268,7 @@ msgid ""
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: kdesktopbindings.cpp:20 minicli.cpp:74
+#: kdesktopbindings.cpp:20 minicli.cpp:76
 msgid "Run Command"
 msgstr "Буйруқни бажариш"
 
@@ -267,27 +296,31 @@ msgstr "Тасдиқламай ўчириш"
 msgid "Reboot without Confirmation"
 msgstr "Тасдиқламай ўчириб-ёқиш"
 
-#: minicli.cpp:92 minicli.cpp:611
+#: minicli.cpp:94 minicli.cpp:622
 msgid "&Options >>"
 msgstr "&Параметрлар >>"
 
-#: minicli.cpp:95
+#: minicli.cpp:97
 msgid "&Run"
 msgstr "&Бажариш"
 
-#: minicli.cpp:379
+#: minicli.cpp:390
 msgid "<qt>The user <b>%1</b> does not exist on this system.</qt>"
-msgstr "<qt>Фойдаланувчи <b>%1</b> системада мавжуд эмас.</qt>"
+msgstr ""
+"<qt>Фойдаланувчи <b>%1</b> системада мавжуд "
+"эмас.</qt>"
 
-#: minicli.cpp:389
+#: minicli.cpp:400
 msgid "You don't exist!\n"
 msgstr "Сиз мавжуд эмассиз!\n"
 
-#: minicli.cpp:414
+#: minicli.cpp:425
 msgid "Incorrect password! Please try again."
-msgstr "Махфий сўз нотўғри! Илтимос яна бир марта уриниб кўринг."
+msgstr ""
+"Махфий сўз нотўғри! Илтимос яна бир марта "
+"уриниб кўринг."
 
-#: minicli.cpp:525
+#: minicli.cpp:536
 msgid ""
 "<center><b>%1</b></center>\n"
 "You do not have permission to execute this command!"
@@ -295,7 +328,7 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "Бу буйруқни бажаришга ҳақингиз йўқ!"
 
-#: minicli.cpp:550
+#: minicli.cpp:561
 msgid ""
 "<center><b>%1</b></center>\n"
 "Could not run the specified command!"
@@ -303,7 +336,7 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "Берилган буйруқни бажаролмадим!"
 
-#: minicli.cpp:562
+#: minicli.cpp:573
 msgid ""
 "<center><b>%1</b></center>\n"
 "The specified command does not exist!"
@@ -311,30 +344,32 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "Берилган буйруқ мавжуд емас!"
 
-#: minicli.cpp:599
+#: minicli.cpp:610
 msgid "&Options <<"
 msgstr "&Параметрлар <<"
 
-#: minicli.cpp:806
+#: minicli.cpp:817
 msgid ""
 "Running a realtime application can be very dangerous. If the application "
 "misbehaves, the system might hang unrecoverably.\n"
 "Are you sure you want to continue?"
 msgstr ""
 
-#: minicli.cpp:809
+#: minicli.cpp:820
 msgid "Warning - Run Command"
 msgstr ""
 
 #: rc.cpp:2
 msgid "Enter the name of the application you want to run or the URL you want to view"
-msgstr "Ишга тушириш учун дастурнинг номини ёки кўриш учун URL'ни киритинг."
+msgstr ""
+"Ишга тушириш учун дастурнинг номини ёки "
+"кўриш учун URL'ни киритинг."
 
 #: rc.cpp:3
 msgid "Com&mand:"
 msgstr "&Буйруқ:"
 
-#: rc.cpp:4 rc.cpp:33
+#: rc.cpp:4 rc.cpp:29
 msgid ""
 "Enter the command you wish to execute or the address of the resource you "
 "want to open. This can be a remote URL like \"www.kde.org\" or a local one "
@@ -346,10 +381,6 @@ msgid "Run with realtime &scheduling"
 msgstr ""
 
 #: rc.cpp:9
-msgid "Alt+S"
-msgstr ""
-
-#: rc.cpp:10
 msgid ""
 "<qt>Select whether realtime scheduling should be enabled for the "
 "application. The scheduler governs which process will run and which will "
@@ -357,92 +388,77 @@ msgid ""
 "<ul>\n"
 "<li><em>Normal:</em> This is the standard, timesharing scheduler. It will "
 "divide fairly the available processing time between all processes.</li>\n"
-"<li><em>Realtime:</em>This scheduler will run your application uninterrupted "
-"until it gives up the processor. This can be dangerous. An application that "
-"does not give up the processor might hang the system. You need root's "
-"password to use the scheduler.</li>\n"
+"<li><em>Realtime:</em>"
+"This scheduler will run your application uninterrupted until it gives up the "
+"processor. This can be dangerous. An application that does not give up the "
+"processor might hang the system. You need root's password to use the "
+"scheduler.</li>\n"
 "</ul>\n"
 "</qt>"
 msgstr ""
 
-#: rc.cpp:11
+#: rc.cpp:10
 msgid "User&name:"
 msgstr "Ф&ойдаланувчи:"
 
-#: rc.cpp:12 rc.cpp:24
+#: rc.cpp:11 rc.cpp:21
 msgid "Enter the user you want to run the application as here."
 msgstr ""
 
-#: rc.cpp:13
-msgid "Enter the password for the user specified above here."
+#: rc.cpp:12 rc.cpp:14
+msgid "Enter the password here for the user you specified above."
 msgstr ""
 
-#: rc.cpp:14
+#: rc.cpp:13
 msgid "Pass&word:"
 msgstr "&Махфий сўз:"
 
 #: rc.cpp:15
-msgid "Enter the password here for the user you specified above."
-msgstr ""
-
-#: rc.cpp:16
 msgid "Run in &terminal window"
 msgstr "&Терминалда бажариш"
 
-#: rc.cpp:17
-msgid "Alt+T"
-msgstr ""
-
-#: rc.cpp:18
+#: rc.cpp:16
 msgid ""
 "Check this option if the application you want to run is a text mode "
 "application. The application will then be run in a terminal emulator window."
 msgstr ""
 
-#: rc.cpp:19
+#: rc.cpp:17
 msgid "&Priority:"
 msgstr ""
 
-#: rc.cpp:20 rc.cpp:26 rc.cpp:28 rc.cpp:29
+#: rc.cpp:18 rc.cpp:23 rc.cpp:25 rc.cpp:26
 msgid ""
-"The priority the command will be run with can be set here. From left to "
+"The priority that the command will be run with can be set here. From left to "
 "right, it goes from low to high. The center position is the default value. "
-"For priorities higher than the default, you will need to providethe root "
+"For priorities higher than the default, you will need to provide the root "
 "password."
 msgstr ""
 
-#: rc.cpp:21
+#: rc.cpp:19
 msgid "Run with a &different priority"
 msgstr ""
 
-#: rc.cpp:22
-msgid "Alt+D"
-msgstr ""
-
-#: rc.cpp:23
+#: rc.cpp:20
 msgid ""
 "Check this option if you want to run the application with a different "
 "priority. A higher priority tells the operating system to give more "
 "processing time to your application."
 msgstr ""
 
-#: rc.cpp:25
+#: rc.cpp:22
 msgid "Low"
 msgstr "Паст"
 
-#: rc.cpp:27
+#: rc.cpp:24
 msgid "High"
 msgstr "Юқори"
 
-#: rc.cpp:30
+#: rc.cpp:27
 msgid "Run as a different &user"
 msgstr "Бошқа &фойдаланувчи сифатида бажариш"
 
-#: rc.cpp:31
-msgid "Alt+U"
-msgstr ""
-
-#: rc.cpp:32
+#: rc.cpp:28
 msgid ""
 "Check this option if you want to run the application with a different user "
 "id. Every process has a user id associated with it. This id code determines "
@@ -450,17 +466,21 @@ msgid ""
 "do this."
 msgstr ""
 
-#: rc.cpp:35
+#: rc.cpp:30
+msgid "Form1"
+msgstr "Form1"
+
+#: rc.cpp:31
+msgid "<b>The screen is locked</b>"
+msgstr "<b>Экран қулфланган</b>"
+
+#: rc.cpp:33
 msgid "&Password:"
 msgstr "&Махфий сўз:"
 
 #: rc.cpp:36
-msgid "<b>The screen is locked</b>"
-msgstr ""
-
-#: rc.cpp:38
 msgid "&Start New Session"
-msgstr ""
+msgstr "Янги сеансни &бошлаш"
 
 #~ msgid "Failed"
 #~ msgstr "Муваффақиятсиз тугади"
