@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
-"POT-Creation-Date: 2004-05-03 01:42+0200\n"
+"POT-Creation-Date: 2004-05-08 01:16+0200\n"
 "PO-Revision-Date: 2004-05-06 17:30+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -17,16 +17,16 @@ msgstr ""
 msgid "File '%1' is not readable"
 msgstr "%1 файлини ўқиб бўлмайди"
 
-#: kio/global.cpp:693 kio/job.cpp:1574 kio/job.cpp:2824 kio/job.cpp:3260
+#: kio/global.cpp:693 kio/job.cpp:1574 kio/job.cpp:2852 kio/job.cpp:3288
 #: kio/paste.cpp:58
 msgid "File Already Exists"
 msgstr "Файл аллақачон мавжуд"
 
-#: kio/global.cpp:703 kio/job.cpp:2542
+#: kio/global.cpp:703 kio/job.cpp:2570
 msgid "Folder Already Exists"
 msgstr "Жилд аллақачон мавжуд"
 
-#: kio/job.cpp:2824 kio/job.cpp:3260
+#: kio/job.cpp:2852 kio/job.cpp:3288
 msgid "Already Exists as Folder"
 msgstr "Жилд сифатида аллақачон мавжуд"
 
@@ -107,7 +107,7 @@ msgstr "%1 да ўзгарган"
 msgid "The source file is '%1'"
 msgstr "Манба файлнинг номи \"%1\""
 
-#: kio/kdirlister.cpp:1932 kio/krun.cpp:721 kio/paste.cpp:95
+#: kio/kdirlister.cpp:1932 kio/krun.cpp:736 kio/paste.cpp:95
 #: kio/renamedlg.cpp:421
 #, c-format
 msgid ""
@@ -139,9 +139,9 @@ msgid ""
 "<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
 "access to the file to perform the change.</qt>"
 msgstr ""
-"<qt><b>%1</b> файлнинг эгасини ўзгартириб бўлмади. "
-"Бу амални бажариш учун сиз етарли ҳуқуқга "
-"эга эмассиз.</qt>"
+"<qt><b>%1</b> файлнинг эгасини ўзгартириб "
+"бўлмади. Бу амални бажариш учун сиз "
+"етарли ҳуқуқга эга эмассиз.</qt>"
 
 #: kio/chmodjob.cpp:187
 #, fuzzy
@@ -1104,7 +1104,7 @@ msgid ""
 "on this resource."
 msgstr ""
 "Бу манба устида амал бажариш учун сизни "
-"ҳуқуларингиз етарли бўлмаши мумкин."
+"ҳуқуқларингиз етарли бўлмаши мумкин."
 
 #: kio/global.cpp:539
 msgid "The file may be in use (and thus locked) by another user or application."
@@ -2199,7 +2199,7 @@ msgstr "Махфий сўзни &эслаб қолиш"
 msgid "Authorization Dialog"
 msgstr "Тасдиқлаш диалоги"
 
-#: kio/krun.cpp:94
+#: kio/krun.cpp:110
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
 "You do not have access rights to this location.</qt>"
@@ -2208,36 +2208,36 @@ msgstr ""
 "Сизда бу манзил учун етарли ҳуқуқлар "
 "йўқ.</qt>"
 
-#: kio/krun.cpp:134
+#: kio/krun.cpp:149
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
 "started.</qt>"
 msgstr ""
 
-#: kio/krun.cpp:141
+#: kio/krun.cpp:156
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr ""
 "<qt>Сизга <b>%1</b>'ни ишга туширишга рухсат "
 "йўқ.</qt>"
 
-#: kio/krun.cpp:173 kio/krun.cpp:496
+#: kio/krun.cpp:188 kio/krun.cpp:511
 msgid "You are not authorized to execute this file."
 msgstr ""
 
-#: kfile/kopenwith.cpp:804 kio/krun.cpp:177
+#: kfile/kopenwith.cpp:804 kio/krun.cpp:192
 msgid "Open with:"
 msgstr "Дастур билан очиш:"
 
-#: kio/krun.cpp:530
+#: kio/krun.cpp:545
 #, c-format
 msgid "Launching %1"
 msgstr "%1'ни ишга тушириш"
 
-#: kio/krun.cpp:607
+#: kio/krun.cpp:622
 msgid "You are not authorized to execute this service."
 msgstr ""
 
-#: kio/krun.cpp:752
+#: kio/krun.cpp:767
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
@@ -2245,7 +2245,7 @@ msgstr ""
 "<qt>Кўрсатилган буйруқни бажариб бўлмади. "
 "Файл ёки жилд (<b>%1</b>) мавжуд эмас.</qt>"
 
-#: kio/krun.cpp:1186
+#: kio/krun.cpp:1201
 #, fuzzy
 msgid "Could not find the program '%1'"
 msgstr "%1 дастурини топиб бўлмади"
@@ -2303,7 +2303,8 @@ msgstr "io-slave (%1) яратиб бўлмади"
 #: kio/slave.cpp:386
 #, fuzzy
 msgid "Unknown protocol '%1'."
-msgstr "Номаълум протокол \"%1\".\n"
+msgstr ""
+"Номаълум протокол \"%1\".\n"
 
 #: kio/slave.cpp:394
 msgid "Can not find io-slave for protocol '%1'."
@@ -2411,59 +2412,64 @@ msgstr ""
 msgid "Public Key: "
 msgstr "Оммавий калит: "
 
-#: kssl/ksslcertificate.cc:880
+#: kssl/ksslcertificate.cc:896
 msgid "The certificate is valid."
 msgstr "Ҳақиқий сертификат."
 
-#: kssl/ksslcertificate.cc:884
+#: kssl/ksslcertificate.cc:900
 msgid ""
 "Certificate signing authority root files could not be found so the "
 "certificate is not verified."
 msgstr ""
 
-#: kssl/ksslcertificate.cc:886
+#: kssl/ksslcertificate.cc:902
 msgid "Certificate signing authority is unknown or invalid."
 msgstr ""
 
-#: kssl/ksslcertificate.cc:888
+#: kssl/ksslcertificate.cc:904
 msgid "Certificate is self-signed and thus may not be trustworthy."
 msgstr ""
 
-#: kssl/ksslcertificate.cc:890
+#: kssl/ksslcertificate.cc:906
 msgid "Certificate has expired."
 msgstr "Сертификатнинг муддати ўтиб кетган."
 
-#: kssl/ksslcertificate.cc:892
+#: kssl/ksslcertificate.cc:908
 msgid "Certificate has been revoked."
 msgstr "Сертификат бекор қилинган."
 
-#: kssl/ksslcertificate.cc:894
+#: kssl/ksslcertificate.cc:910
 msgid "SSL support was not found."
 msgstr ""
 
-#: kssl/ksslcertificate.cc:896
+#: kssl/ksslcertificate.cc:912
 msgid "Signature is untrusted."
 msgstr "Имзо ишончли эмас."
 
-#: kssl/ksslcertificate.cc:898
+#: kssl/ksslcertificate.cc:914
 msgid "Signature test failed."
 msgstr "Имзони текшириш муваффақиятсиз тугади."
 
-#: kssl/ksslcertificate.cc:901
+#: kssl/ksslcertificate.cc:917
 msgid "Rejected, possibly due to an invalid purpose."
 msgstr ""
 
-#: kssl/ksslcertificate.cc:903
+#: kssl/ksslcertificate.cc:919
 msgid "Private key test failed."
 msgstr ""
 "Шахсий калитни текшириш муваффақиятсиз "
 "тугади."
 
-#: kssl/ksslcertificate.cc:905
+#: kssl/ksslcertificate.cc:921
 msgid "The certificate has not been issued for this host."
 msgstr ""
 
-#: kssl/ksslcertificate.cc:910
+#: kssl/ksslcertificate.cc:923
+#, fuzzy
+msgid "This certificate is not relevant."
+msgstr "Сертификат ҳақиқий эмас."
+
+#: kssl/ksslcertificate.cc:928
 msgid "The certificate is invalid."
 msgstr "Сертификат ҳақиқий эмас."
 
@@ -2488,8 +2494,7 @@ msgstr "%1 амали қўлланмаган"
 msgid "KDE SSL Information"
 msgstr "KDE SSL ҳақида маълумот"
 
-#: kssl/ksslkeygen.cc:97 kssl/ksslkeygen.cc:106 misc/kwalletd/kwalletd.cpp:369
-#: misc/uiserver.cpp:1351
+#: kssl/ksslkeygen.cc:97 kssl/ksslkeygen.cc:106 misc/uiserver.cpp:1351
 msgid "KDE"
 msgstr "KDE"
 
@@ -2619,33 +2624,33 @@ msgstr ""
 msgid "%1 bits used of a %2 bit cipher"
 msgstr "%2 битли шифрнинг %1 бити ишлатилган"
 
-#: kssl/ksslinfodlg.cc:373
+#: kssl/ksslinfodlg.cc:381
 msgid "Organization:"
 msgstr "Ташкилот:"
 
-#: kssl/ksslinfodlg.cc:378
+#: kssl/ksslinfodlg.cc:386
 msgid "Organizational unit:"
 msgstr "Бўлим:"
 
-#: kssl/ksslinfodlg.cc:383
+#: kssl/ksslinfodlg.cc:391
 msgid "Locality:"
 msgstr "Шаҳар/Қишлоқ ва туман:"
 
-#: kssl/ksslinfodlg.cc:388
+#: kssl/ksslinfodlg.cc:396
 msgid ""
 "_: Federal State\n"
 "State:"
 msgstr ""
 
-#: kssl/ksslinfodlg.cc:393
+#: kssl/ksslinfodlg.cc:401
 msgid "Country:"
 msgstr "Давлат:"
 
-#: kssl/ksslinfodlg.cc:398
+#: kssl/ksslinfodlg.cc:406
 msgid "Common name:"
 msgstr "Умумий номи:"
 
-#: kssl/ksslinfodlg.cc:403
+#: kssl/ksslinfodlg.cc:411
 msgid "Email:"
 msgstr "Электрон почта:"
 
@@ -2769,96 +2774,107 @@ msgstr "Ҳеч қандай файл кўрсатилмаган"
 msgid "Cannot determine metadata"
 msgstr "Мета маълумотни аниқлаб бўлмади"
 
-#: misc/kwalletd/kwalletd.cpp:290
+#: misc/kwalletd/kwalletd.cpp:291
 msgid ""
-"KDE has requested to open the wallet '%1'. Please enter the password for "
-"this wallet below."
-msgstr ""
-
-#: misc/kwalletd/kwalletd.cpp:292
-msgid ""
-"The application '%1' has requested to open the wallet '%2'. Please enter the "
+"<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
 "password for this wallet below."
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1750 misc/kwalletd/kwalletd.cpp:295
-#: misc/kwalletd/kwalletd.cpp:306
+#: misc/kwalletd/kwalletd.cpp:293
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to open the wallet "
+"'<b>%2</b>'. Please enter the password for this wallet below."
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1751 misc/kwalletd/kwalletd.cpp:296
+#: misc/kwalletd/kwalletd.cpp:307
 msgid "&Open"
 msgstr "&Очиш"
 
-#: misc/kwalletd/kwalletd.cpp:301
+#: misc/kwalletd/kwalletd.cpp:302
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
 "click cancel to deny the application's request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:303
+#: misc/kwalletd/kwalletd.cpp:304
 msgid ""
-"The application '%1' has requested to open the KDE wallet. This is used to "
-"store sensitive data in a secure fashion. Please enter a password to use "
-"with this wallet or click cancel to deny the application's request."
+"<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
+"is used to store sensitive data in a secure fashion. Please enter a password "
+"to use with this wallet or click cancel to deny the application's request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:310
+#: misc/kwalletd/kwalletd.cpp:311
 msgid ""
-"KDE has requested to create a new wallet named '%1'. Please choose a "
-"password for this wallet, or cancel to deny the application's request."
-msgstr ""
-
-#: misc/kwalletd/kwalletd.cpp:312
-msgid ""
-"The application '%1' has requested to create a new wallet named '%2'. Please "
+"<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
 "choose a password for this wallet, or cancel to deny the application's "
 "request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:315
+#: misc/kwalletd/kwalletd.cpp:313
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to create a new wallet named "
+"'<b>%2</b>"
+"'. Please choose a password for this wallet, or cancel to deny the "
+"application's request."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:316
 msgid "&Create"
 msgstr "&Яратиш"
 
-#: misc/kwalletd/kwalletd.cpp:318 misc/kwalletd/kwalletd.cpp:369
-#: misc/kwalletd/kwalletd.cpp:451 misc/kwalletd/kwalletd.cpp:467
-#: misc/kwalletd/kwalletd.cpp:477 misc/kwalletd/kwalletd.cpp:482
-#: misc/kwalletd/kwalletd.cpp:600 misc/kwalletd/kwalletd.cpp:920
+#: misc/kwalletd/kwalletd.cpp:319 misc/kwalletd/kwalletd.cpp:370
+#: misc/kwalletd/kwalletd.cpp:372 misc/kwalletd/kwalletd.cpp:455
+#: misc/kwalletd/kwalletd.cpp:471 misc/kwalletd/kwalletd.cpp:481
+#: misc/kwalletd/kwalletd.cpp:486 misc/kwalletd/kwalletd.cpp:604
+#: misc/kwalletd/kwalletd.cpp:924
 msgid "KDE Wallet Service"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:326
-msgid "Invalid password for wallet '%1'. Please try again. (Error code %2)"
+#: misc/kwalletd/kwalletd.cpp:327
+msgid ""
+"<qt>Error opening the wallet '<b>%1</b>'. Please try again."
+"<br>(Error code %2: %3)"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:369
-msgid "The application '%1' has requested access to the open wallet '%2'."
+#: misc/kwalletd/kwalletd.cpp:370
+msgid "<qt>KDE has requested access to the open wallet '<b>%2</b>'."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:369
+#: misc/kwalletd/kwalletd.cpp:370 misc/kwalletd/kwalletd.cpp:372
 msgid "Allow &Once"
 msgstr "Бир марта рухсат &бериш"
 
-#: misc/kwalletd/kwalletd.cpp:369
+#: misc/kwalletd/kwalletd.cpp:370 misc/kwalletd/kwalletd.cpp:372
 msgid "Allow &Always"
 msgstr "Ҳамиша &рухсат бериш"
 
-#: misc/kwalletd/kwalletd.cpp:451
+#: misc/kwalletd/kwalletd.cpp:372
+msgid ""
+"<qt>The application '<b>%1</b>' has requested access to the open wallet "
+"'<b>%2</b>'."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:455
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:466
-msgid "Please choose a new password for the wallet '%1'."
+#: misc/kwalletd/kwalletd.cpp:470
+msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:477
+#: misc/kwalletd/kwalletd.cpp:481
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:482
+#: misc/kwalletd/kwalletd.cpp:486
 msgid "Error reopening the wallet. Data may be lost."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:600 misc/kwalletd/kwalletd.cpp:920
+#: misc/kwalletd/kwalletd.cpp:604 misc/kwalletd/kwalletd.cpp:924
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
@@ -3112,8 +3128,10 @@ msgid "URL(s) or local file(s) used for 'command'"
 msgstr ""
 
 #: kioexec/main.cpp:72
-msgid "'command' expected.\n"
-msgstr "\"буйруқ\" кутилган эди.\n"
+msgid ""
+"'command' expected.\n"
+msgstr ""
+"\"буйруқ\" кутилган эди.\n"
 
 #: kioexec/main.cpp:97
 msgid ""
@@ -3213,7 +3231,7 @@ msgstr "Юқорига"
 msgid "Move Down"
 msgstr "Пастга"
 
-#: kfile/kfiledialog.cpp:1602 kfile/kfilefiltercombo.cpp:32
+#: kfile/kfiledialog.cpp:1603 kfile/kfilefiltercombo.cpp:32
 msgid "*|All Files"
 msgstr "*|Ҳамма файллар"
 
@@ -3362,13 +3380,23 @@ msgstr "Кўриб чиқиш"
 msgid "No preview available."
 msgstr "Кўриб чиқишни иложи йўқ."
 
-#: kfile/kdirselectdialog.cpp:66
+#: kfile/kdirselectdialog.cpp:68
 msgid "Select Folder"
 msgstr "Жилдни танлаш"
 
-#: kfile/kdirselectdialog.cpp:83
+#: kfile/kdirselectdialog.cpp:85
 msgid "Folder"
 msgstr "Жилд"
+
+#: kfile/kdirselectdialog.cpp:101
+#, fuzzy
+msgid "Show Hidden Folders"
+msgstr "Яширилган файлларни кўрсатиш"
+
+#: kfile/kdirselectdialog.cpp:103
+#, fuzzy
+msgid "Hide Hidden Folders"
+msgstr "Яширилган файлларни кўрсатиш"
 
 #: bookmarks/kbookmarkmenu.cc:786 kfile/kpropertiesdialog.cpp:890
 #: kfile/kurlrequesterdlg.cpp:47
@@ -3621,7 +3649,11 @@ msgstr ""
 msgid "Show Quick Access Navigation Panel"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:937
+#: kfile/kfiledialog.cpp:933
+msgid "Hide Quick Access Navigation Panel"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:938
 msgid ""
 "<qt>This is the configuration menu for the file dialog. Various options can "
 "be accessed from this menu including: "
@@ -3633,11 +3665,11 @@ msgid ""
 "<li>file previews</li><li>separating folders from files</li></ul></qt>"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:990
+#: kfile/kfiledialog.cpp:991
 msgid "&Location:"
 msgstr "&Манзил:"
 
-#: kfile/kfiledialog.cpp:1015
+#: kfile/kfiledialog.cpp:1016
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
 "match the filter will not be shown."
@@ -3646,11 +3678,11 @@ msgid ""
 "<p>Wildcards such as * and ? are allowed.</qt>"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1021
+#: kfile/kfiledialog.cpp:1022
 msgid "&Filter:"
 msgstr "&Филтер:"
 
-#: kfile/kfiledialog.cpp:1443
+#: kfile/kfiledialog.cpp:1444
 #, fuzzy
 msgid ""
 "The chosen filenames do not\n"
@@ -3659,11 +3691,11 @@ msgstr ""
 "%1\n"
 "тўғри URL'га ўхшамайди.\n"
 
-#: kfile/kfiledialog.cpp:1445
+#: kfile/kfiledialog.cpp:1446
 msgid "Invalid Filenames"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1475
+#: kfile/kfiledialog.cpp:1476
 #, fuzzy
 msgid ""
 "The requested filenames\n"
@@ -3677,31 +3709,31 @@ msgstr ""
 "Файл номлари қўштирноқ ичидалигига ишонч "
 "хосил қилинг."
 
-#: kfile/kfiledialog.cpp:1479
+#: kfile/kfiledialog.cpp:1480
 msgid "Filename Error"
 msgstr "Файлнинг номида хато"
 
-#: kfile/kfiledialog.cpp:1599
+#: kfile/kfiledialog.cpp:1600
 msgid "*|All Folders"
 msgstr "*|Ҳамма жилдлар"
 
-#: kfile/kfiledialog.cpp:1888
+#: kfile/kfiledialog.cpp:1889
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1889
+#: kfile/kfiledialog.cpp:1890
 msgid "the extension <b>%1</b>"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1897
+#: kfile/kfiledialog.cpp:1898
 msgid "Automatically select filename e&xtension"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1898
+#: kfile/kfiledialog.cpp:1899
 msgid "a suitable extension"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1909
+#: kfile/kfiledialog.cpp:1910
 msgid ""
 "This option enables some convenient features for saving files with "
 "extensions:"
@@ -3853,12 +3885,22 @@ msgid "Show Hidden Files"
 msgstr "Яширилган файлларни кўрсатиш"
 
 #: kfile/kdiroperator.cpp:1237
+#, fuzzy
+msgid "Hide Hidden Files"
+msgstr "Яширилган файлларни кўрсатиш"
+
+#: kfile/kdiroperator.cpp:1238
 msgid "Separate Folders"
 msgstr "Жилдларни ажратиш"
 
-#: kfile/kdiroperator.cpp:1241
+#: kfile/kdiroperator.cpp:1242
 msgid "Show Preview"
 msgstr "Кўриб чиқишни кўрсатиш"
+
+#: kfile/kdiroperator.cpp:1246
+#, fuzzy
+msgid "Hide Preview"
+msgstr "Кўриб чиқиш"
 
 #: kfile/kfiledetailview.cpp:66
 msgid "Name"
@@ -5514,4 +5556,3 @@ msgstr ""
 #, c-format
 msgid "No metainfo for %1"
 msgstr "%1 учун мета маълумот йўқ"
-
