@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard\n"
-"POT-Creation-Date: 2004-05-20 01:17+0200\n"
+"POT-Creation-Date: 2004-07-20 01:20+0200\n"
 "PO-Revision-Date: 2004-06-06 00:28+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -27,21 +27,20 @@ msgid ""
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: rc.cpp:1
-msgid "Form2"
-msgstr "Form2"
-
 #: rc.cpp:2
+#, no-c-format
 msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr ""
 "<b>KDE smartcard хизмати билан алоқа ўрнатиб "
 "бўлмади.</b>"
 
-#: rc.cpp:3
+#: rc.cpp:4
+#, no-c-format
 msgid "Possible Reasons"
 msgstr "Эхтимол сабаблар"
 
-#: rc.cpp:4
+#: rc.cpp:6
+#, no-c-format
 msgid ""
 "\n"
 "1) The KDE daemon, 'kded' is not running. You can restart it by running the "
@@ -52,67 +51,77 @@ msgid ""
 "need to recompile the kdelibs package with libpcsclite installed."
 msgstr ""
 
-#: rc.cpp:5
-msgid "SmartcardBase"
-msgstr "SmartcardBase"
-
-#: rc.cpp:6
+#: rc.cpp:11
+#, no-c-format
 msgid "Smartcard Support"
 msgstr "Smartcard'ни қўллаш"
 
-#: rc.cpp:7
+#: rc.cpp:13
+#, no-c-format
 msgid "&Enable smartcard support"
 msgstr "Smartcard'ни &қўллашни ёқиш"
 
-#: rc.cpp:8
+#: rc.cpp:15
+#, no-c-format
 msgid "Enable &polling to autodetect card events"
 msgstr ""
 
-#: rc.cpp:9
+#: rc.cpp:17
+#, no-c-format
 msgid ""
 "In most cases you should have this enabled. It allows KDE to automatically "
 "detect card insertion and reader hotplug events."
 msgstr ""
 
-#: rc.cpp:10
+#: rc.cpp:19
+#, no-c-format
 msgid "Automatically &launch card manager if inserted card is unclaimed"
 msgstr ""
 
-#: rc.cpp:11
+#: rc.cpp:21
+#, no-c-format
 msgid ""
 "When you insert a smartcard, KDE can automatically launch a management tool "
 "if no other application attempts to use the card."
 msgstr ""
 
-#: rc.cpp:12
+#: rc.cpp:23
+#, no-c-format
 msgid "&Beep on card insert and removal"
 msgstr "&Картани қўйиш ва олишда товуш чиқариш"
 
-#: rc.cpp:13
+#: rc.cpp:25
+#, no-c-format
 msgid "Readers"
 msgstr "Ўқувчилар"
 
-#: rc.cpp:14
+#: rc.cpp:27
+#, no-c-format
 msgid "Reader"
 msgstr "Ўқувчи"
 
-#: rc.cpp:15
+#: rc.cpp:29
+#, no-c-format
 msgid "Type"
 msgstr "Тури"
 
-#: rc.cpp:16
+#: rc.cpp:31
+#, no-c-format
 msgid "Subtype"
 msgstr ""
 
-#: rc.cpp:17
+#: rc.cpp:33
+#, no-c-format
 msgid "SubSubtype"
 msgstr ""
 
-#: rc.cpp:18
+#: rc.cpp:35
+#, no-c-format
 msgid "PCSCLite Configuration"
 msgstr "PCSCLite мосламаси"
 
-#: rc.cpp:19
+#: rc.cpp:37
+#, no-c-format
 msgid ""
 "To add new readers you have to modify /etc/readers.conf file and re-start "
 "pcscd"
@@ -121,58 +130,63 @@ msgstr ""
 "файлига ўзгартириш киритиб pcscd хизматини "
 "қайтадан ишга тушириш керак"
 
-#: smartcard.cpp:66
+#: smartcard.cpp:60
+msgid "kcmsmartcard"
+msgstr "kcmsmartcard"
+
+#: smartcard.cpp:60
+msgid "KDE Smartcard Control Module"
+msgstr "Smartcard учун бошқарув модули"
+
+#: smartcard.cpp:62
+msgid "(c) 2001 George Staikos"
+msgstr "(C) 2001 Георги Стайкос (George Staikos)"
+
+#: smartcard.cpp:74
 msgid "Change Module..."
 msgstr "Модулни ўзгартириш"
 
-#: smartcard.cpp:128
+#: smartcard.cpp:136
 msgid "Unable to launch KCardChooser"
 msgstr "KCardChooser дастурини ишга тушириб бўлмади"
 
-#: smartcard.cpp:177
+#: smartcard.cpp:185
 msgid "No card inserted"
 msgstr "Ҳеч қандай карта қўйилмаган"
 
-#: smartcard.cpp:216
+#: smartcard.cpp:224
 msgid "Smart card support disabled"
 msgstr "Smartcard'ни қўллаш ўчирилган"
 
-#: smartcard.cpp:227
+#: smartcard.cpp:235
 msgid "No readers found. Check 'pcscd' is running"
 msgstr ""
 "Ҳеч қандай ўқувчи топилмади. Pcscd дастури "
 "ишга туширилганни текширинг."
 
-#: smartcard.cpp:250 smartcard.cpp:270
+#: smartcard.cpp:258 smartcard.cpp:278
 msgid "NO ATR or no card inserted"
 msgstr ""
 
-#: smartcard.cpp:282
+#: smartcard.cpp:290
 msgid "Managed by: "
 msgstr ""
 
-#: smartcard.cpp:292
+#: smartcard.cpp:300
 msgid "No module managing this card"
 msgstr ""
 "Ушбу картани бошқариш учун ҳеч қандай "
 "модул йўқ"
 
-#: smartcard.cpp:381
+#: smartcard.cpp:389
 msgid ""
 "<h1>smartcard</h1> This module allows you to configure KDE support for "
 "smartcards. These can be used for various tasks such as storing SSL "
 "certificates and logging in to the system."
 msgstr ""
 
-#: smartcard.cpp:390
-msgid "kcmsmartcard"
-msgstr "kcmsmartcard"
+#~ msgid "Form2"
+#~ msgstr "Form2"
 
-#: smartcard.cpp:390
-msgid "KDE Smartcard Control Module"
-msgstr "Smartcard учун бошқарув модули"
-
-#: smartcard.cpp:392
-msgid "(c) 2001 George Staikos"
-msgstr "(C) 2001 Георги Стайкос (George Staikos)"
-
+#~ msgid "SmartcardBase"
+#~ msgstr "SmartcardBase"
