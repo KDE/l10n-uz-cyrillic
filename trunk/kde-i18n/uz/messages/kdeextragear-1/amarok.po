@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2004-06-26 01:27+0200\n"
-"PO-Revision-Date: 2004-06-27 20:41+0200\n"
+"POT-Creation-Date: 2004-06-29 01:30+0200\n"
+"PO-Revision-Date: 2004-06-30 00:30+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -12,45 +12,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: playlist.cpp:96 playlist.cpp:1211 tracktooltip.cpp:28
+#: playlist.cpp:98 playlist.cpp:1213 tracktooltip.cpp:28
 msgid "Title"
 msgstr "Сарлавҳа"
 
 #: collectionbrowser.cpp:85 collectionbrowser.cpp:92 collectionbrowser.cpp:157
 #: collectionbrowser.cpp:605 collectionbrowser.cpp:622
-#: collectionbrowser.cpp:636 collectionbrowser.cpp:649 playlist.cpp:97
-#: playlist.cpp:1212 tracktooltip.cpp:28
+#: collectionbrowser.cpp:636 collectionbrowser.cpp:649 playlist.cpp:99
+#: playlist.cpp:1214 tracktooltip.cpp:28
 msgid "Artist"
 msgstr "Санаткор"
 
 #: collectionbrowser.cpp:84 collectionbrowser.cpp:91 collectionbrowser.cpp:603
 #: collectionbrowser.cpp:621 collectionbrowser.cpp:635
-#: collectionbrowser.cpp:648 playlist.cpp:98 playlist.cpp:1213
+#: collectionbrowser.cpp:648 playlist.cpp:100 playlist.cpp:1215
 #: tracktooltip.cpp:28
 msgid "Album"
 msgstr "Албом"
 
-#: playlist.cpp:104 playlist.cpp:1217 tracktooltip.cpp:28
+#: playlist.cpp:106 playlist.cpp:1219 tracktooltip.cpp:28
 msgid "Length"
 msgstr "Узунлиги"
 
-#: playlist.cpp:105 playlist.cpp:1218 tracktooltip.cpp:28
+#: playlist.cpp:107 playlist.cpp:1220 tracktooltip.cpp:28
 msgid "Bitrate"
 msgstr "Битрейт"
 
-#: playlist.cpp:1219 tracktooltip.cpp:28
+#: playlist.cpp:1221 tracktooltip.cpp:28
 msgid "Samplerate"
-msgstr ""
+msgstr "Самплрейт"
 
-#: playlistbrowser.cpp:109
+#: playlistbrowser.cpp:110
 msgid ""
 "_: eg. 3 Tracks - [67:43]\n"
 "%1 Tracks - [%2]"
 msgstr "%1 қўшиқ - [%2]"
 
-#: playlistloader.cpp:517
-msgid "The playlist, '%1', could not be downloaded."
+#: enginecontroller.cpp:204
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. It is likely that amaroK "
+"is installed under the wrong prefix, please fix your installation "
+"using:"
+"<pre>cd /path/to/amarok/source-code/"
+"<br>su -c \"make uninstall\""
+"<br>./configure --prefix=`kde-config --prefix` && su -c \"make "
+"install\"</pre>"
+"More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net."
 msgstr ""
+
+#: playlistloader.cpp:493
+msgid "The playlist, '%1', could not be downloaded."
+msgstr "'%1' қўшиқ рўйхатини олиб бўлмади."
 
 #: directorylist.cpp:34
 msgid "Folder List"
@@ -62,19 +75,19 @@ msgstr "Жилдни танлаш"
 
 #: playerwindow.cpp:314
 msgid "Welcome to amaroK"
-msgstr "amaroK'га марҳамат"
+msgstr "amaroK плейерига марҳамат"
 
 #: actionclasses.cpp:215 playerwindow.cpp:439
 msgid "Analyzer"
-msgstr ""
+msgstr "Аналайзер"
 
 #: playerwindow.cpp:687
 msgid "Click for more analyzers."
-msgstr ""
+msgstr "Бошқа аналайзер учун босинг."
 
 #: playerwindow.cpp:688
 msgid " Press 'd' to detach."
-msgstr ""
+msgstr " Ажратиш учун 'd' тугмасини босинг."
 
 #: socketserver.cpp:282
 msgid "Visualizations"
@@ -118,13 +131,13 @@ msgstr "Скэнни бошлаш"
 
 #: collectionbrowser.cpp:86 collectionbrowser.cpp:93 collectionbrowser.cpp:607
 #: collectionbrowser.cpp:623 collectionbrowser.cpp:637
-#: collectionbrowser.cpp:650 playlist.cpp:101 playlist.cpp:1214
+#: collectionbrowser.cpp:650 playlist.cpp:103 playlist.cpp:1216
 msgid "Genre"
 msgstr "Жанр"
 
 #: collectionbrowser.cpp:87 collectionbrowser.cpp:94 collectionbrowser.cpp:609
 #: collectionbrowser.cpp:624 collectionbrowser.cpp:638
-#: collectionbrowser.cpp:651 playlist.cpp:99 playlist.cpp:1215
+#: collectionbrowser.cpp:651 playlist.cpp:101 playlist.cpp:1217
 msgid "Year"
 msgstr "Йил"
 
@@ -144,9 +157,9 @@ msgstr "Қўшиқ рўйхатини &яратиш"
 msgid "&Add to Playlist"
 msgstr "Қўшиқ рўйхатига &қўшиш"
 
-#: app.cpp:567 collectionbrowser.cpp:443
+#: app.cpp:525 collectionbrowser.cpp:443
 msgid "&Queue After Current Track"
-msgstr ""
+msgstr "&Навбатда жорий қўшиқдан кейин"
 
 #: collectionbrowser.cpp:446
 msgid "Track Information"
@@ -180,7 +193,7 @@ msgstr "&Эффектларни мослаш"
 msgid "Configure &Decoder..."
 msgstr "&Декодерни мослаш"
 
-#: actionclasses.cpp:180 app.cpp:267
+#: actionclasses.cpp:180 app.cpp:224
 msgid "Play/Pause"
 msgstr "Ўйнаш/Вақтинча тўхтатиш"
 
@@ -216,7 +229,7 @@ msgstr ""
 msgid "Style"
 msgstr "Услуб"
 
-#: playlist.cpp:1220 streambrowser.cpp:55
+#: playlist.cpp:1222 streambrowser.cpp:55
 msgid "Location"
 msgstr "Манзил"
 
@@ -230,7 +243,7 @@ msgstr "Тури"
 
 #: streambrowser.cpp:82
 msgid "Share..."
-msgstr ""
+msgstr "Бўлишиш"
 
 #: streambrowser.cpp:101
 msgid "No serverList currently accept contributions. Try to update your server list."
@@ -238,7 +251,7 @@ msgstr ""
 
 #: streambrowser.cpp:103 streambrowser.cpp:851
 msgid "Share"
-msgstr ""
+msgstr "Бўлишиш"
 
 #: streambrowser.cpp:455
 #, c-format
@@ -259,15 +272,15 @@ msgstr "Хато"
 
 #: streambrowser.cpp:734
 msgid "Unknown type of audio stream."
-msgstr ""
+msgstr "Аудио оқимининг тури номаълум."
 
 #: streambrowser.cpp:857
 msgid "<b>Warning</b>: Streams may take up to a week to appear in the listing."
-msgstr ""
+msgstr "<b>Диққат</b>: Оқимларни кўрсатиш бир ҳафта олиши мумкин."
 
 #: streambrowser.cpp:858
 msgid "Stream title:"
-msgstr ""
+msgstr "Оқимнинг сарлавҳаси:"
 
 #: streambrowser.cpp:859
 msgid "Style:"
@@ -293,29 +306,29 @@ msgstr "URI:"
 msgid "Category:"
 msgstr "Туркум:"
 
-#: app.cpp:344 playlistwindow.cpp:170 streambrowser.cpp:874
+#: app.cpp:301 playlistwindow.cpp:171 streambrowser.cpp:874
 msgid "Playlist"
 msgstr "Қўшиқ рўйхати"
 
 #: streambrowser.cpp:875
 msgid "Direct Stream"
-msgstr ""
+msgstr "Тўғридан-тўғри оқим"
 
 #: musicbrainzquery.cpp:68
 msgid "Generating TRM signature..."
-msgstr ""
+msgstr "TRM имзоси яратилмоқда..."
 
 #: musicbrainzquery.cpp:90
 msgid "Querying MusicBrainz server..."
-msgstr ""
+msgstr "MusicBrainz сервери билан алоқа..."
 
 #: musicbrainzquery.cpp:302
 msgid "TRM generation failed"
-msgstr ""
+msgstr "TRM яратиши муваффақиятсиз тугади"
 
 #: musicbrainzquery.cpp:330
 msgid "No matches found."
-msgstr ""
+msgstr "Мос келадиган ҳеч нарса топилмади."
 
 #: musicbrainzquery.cpp:338
 msgid "Canceled."
@@ -339,7 +352,7 @@ msgstr "kmashrab@uni-bremen.de"
 
 #: playlistwindow.cpp:74
 msgid "&Add Media"
-msgstr ""
+msgstr "&Манбани қўшиш"
 
 #: playlistwindow.cpp:75
 msgid "&Save Playlist"
@@ -347,21 +360,21 @@ msgstr "Қўшиқ рўйхатини &сақлаш"
 
 #: playlistwindow.cpp:77
 msgid "Configure &Global Shortcuts..."
-msgstr ""
+msgstr "Умумий тугмалар &бирикмасини мослаш"
 
-#: app.cpp:273 playlistwindow.cpp:79
+#: app.cpp:230 playlistwindow.cpp:79
 msgid "Previous Track"
 msgstr "Олдинги қўшиқ"
 
-#: app.cpp:263 playlistwindow.cpp:80
+#: app.cpp:220 playlistwindow.cpp:80
 msgid "Play"
 msgstr "Ўйнаш"
 
-#: app.cpp:265 playlistwindow.cpp:82
+#: app.cpp:222 playlistwindow.cpp:82
 msgid "Pause"
 msgstr "Вақтинча тўхтатиш"
 
-#: app.cpp:271 playlistwindow.cpp:83
+#: app.cpp:228 playlistwindow.cpp:83
 msgid "Next Track"
 msgstr "Кейинги қўшиқ"
 
@@ -375,25 +388,25 @@ msgstr "Тўплам"
 
 #: playlistwindow.cpp:166
 msgid "Context"
-msgstr ""
+msgstr "Статистика"
 
 #: playlistwindow.cpp:167
 msgid "Search"
 msgstr "Қидириш"
 
-#: playlistwindow.cpp:175
+#: playlistwindow.cpp:176
 msgid "&Fetch Stream Information"
-msgstr ""
+msgstr "&Оқим ҳақида маълумотни олиш"
 
-#: playlistwindow.cpp:182
+#: playlistwindow.cpp:183
 msgid "Streams"
-msgstr ""
+msgstr "Оқимлар"
 
-#: playlistwindow.cpp:187
+#: playlistwindow.cpp:188
 msgid "Welcome"
 msgstr "Марҳамат"
 
-#: playlistwindow.cpp:439
+#: playlistwindow.cpp:440
 msgid "Enter File, URL or Directory"
 msgstr "Файл, URL ёки жилдни киритинг"
 
@@ -415,7 +428,7 @@ msgstr "Қ&идириш"
 msgid "File Name"
 msgstr "Файлнинг номи"
 
-#: playlist.cpp:103 searchbrowser.cpp:68
+#: playlist.cpp:105 searchbrowser.cpp:68
 msgid "Directory"
 msgstr "Жилд"
 
@@ -429,11 +442,11 @@ msgstr "Натижалар"
 
 #: searchbrowser.cpp:75
 msgid "Progress"
-msgstr ""
+msgstr "Бажарилмоқда"
 
 #: searchbrowser.cpp:76
 msgid "Base Folder"
-msgstr ""
+msgstr "Асосий жилд"
 
 #: searchbrowser.cpp:127
 msgid "Waiting for other thread"
@@ -447,15 +460,27 @@ msgstr "Бошланди"
 msgid "Done"
 msgstr "Тайёр"
 
+#: engine/gst/gstengine.cpp:525
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>"
+"Please make sure that you have installed all necessary GStreamer plugins, "
+"and run 'gst-register' afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer "
+"on irc.freenode.net.</p>"
+msgstr ""
+
 #: engine/arts/artsengine.cpp:132
 msgid ""
 "<p>artsd is not running with <b>realtime priority</b> which may cause audio "
-"playback to \"skip\" and stutter.<p><p>To use realtime priority, open the "
-"KDE Control Center and enable \"Run with highest possible priority\", under "
-"<i>Sound System</i> in the <i>Sound & Multimedia</i> branch. Some people may "
-"also have to check that \"$KDEDIR/bin/artswrapper\" is <b>set suid</b> "
-"(chmod +s).</p><p>You may find, however, that playback is fine without "
-"increasing the priority of artsd.</p>"
+"playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run "
+"with highest possible priority\", under <i>Sound System</i> in the <i>Sound "
+"& Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the "
+"priority of artsd.</p>"
 msgstr ""
 
 #: engine/arts/artsengine.cpp:136
@@ -464,7 +489,7 @@ msgstr "aRts муаммоси"
 
 #: engine/arts/artsengine.cpp:197
 msgid "Cannot start aRts. Exiting."
-msgstr "aRts'ни ишга тушириб бўлмади. Тўхтатилмоқда."
+msgstr "aRts товуш тизимини ишга тушириб бўлмади. Тўхтатилмоқда."
 
 #: engine/arts/artsengine.cpp:197 engine/arts/artsengine.cpp:218
 msgid "Fatal Error"
@@ -472,10 +497,12 @@ msgstr "Жуда жиддий хато"
 
 #: engine/arts/artsengine.cpp:213
 msgid ""
-"<p>There was an error loading libamarokarts. First try:<pre>killall -9 artsd "
-"&& amarok</pre>If that does not work then amaroK was probably installed with "
-"the wrong prefix; please re-configure amaroK using:<pre>./configure --"
-"prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK "
+"using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make "
+"install\"</pre>"
 msgstr ""
 
 #: configdialog.cpp:69
@@ -500,11 +527,11 @@ msgstr "Рангларни мослаш"
 
 #: configdialog.cpp:72
 msgid "Playback"
-msgstr ""
+msgstr "Ўйнаш"
 
 #: configdialog.cpp:72
 msgid "Configure Playback"
-msgstr ""
+msgstr "Ўйнашни мослаш"
 
 #: configdialog.cpp:73
 msgid "OSD"
@@ -516,11 +543,11 @@ msgstr ""
 
 #: statusbar.cpp:84
 msgid "RAND"
-msgstr ""
+msgstr "ТАСД"
 
 #: statusbar.cpp:85
 msgid "REP"
-msgstr ""
+msgstr "ҚАТР"
 
 #: statusbar.cpp:86
 msgid "Double-click to toggle Random Mode"
@@ -543,7 +570,7 @@ msgstr ""
 msgid ""
 "_: Bitrate\n"
 "%1 kbps"
-msgstr ""
+msgstr "%1 kbps"
 
 #: metabundle.h:71
 msgid ""
@@ -553,7 +580,7 @@ msgstr "%1 Гц"
 
 #: scriptmanager_selector.cpp:24
 msgid "Script List"
-msgstr ""
+msgstr "Скрипт рўйхати"
 
 #: rc.cpp:1 rc.cpp:20 rc.cpp:21
 msgid "Playlist Toolbar"
@@ -573,15 +600,15 @@ msgstr "Жилдни олиб ташлаш"
 
 #: rc.cpp:5
 msgid "These folders will be scanned for new files."
-msgstr ""
+msgstr "Бу жилдларда янги файллар қидирилади."
 
 #: rc.cpp:6
 msgid "Scan recursively"
-msgstr ""
+msgstr "Рекурсив скэн"
 
 #: rc.cpp:7
 msgid "Monitor changes"
-msgstr ""
+msgstr "Ўзгаришларни кузатиш"
 
 #: rc.cpp:8
 msgid "DirectoryListBase"
@@ -605,27 +632,27 @@ msgstr "Мослаш"
 
 #: rc.cpp:15
 msgid "These scripts are currently known to amaroK."
-msgstr ""
+msgstr "Бу скриптлар amaroK'га маълум."
 
 #: rc.cpp:16
-msgid "Form1"
-msgstr "Form1"
+msgid "amaroK Alarm"
+msgstr "amaroK огоҳномаси"
 
 #: rc.cpp:17
 msgid "Alarm Settings"
-msgstr ""
+msgstr "Огоҳномани мослаш"
 
 #: rc.cpp:18
 msgid "Alarm Time:"
-msgstr ""
+msgstr "Огоҳнома вақти:"
 
 #: rc.cpp:19
 msgid "activated"
-msgstr ""
+msgstr "актив"
 
 #: rc.cpp:22
 msgid "Check to enable splashscreen during amaroK startup."
-msgstr ""
+msgstr "amaroK ишга тушаётганда сплэш ойнасини кўрсатиш учун шу ерни белгиланг."
 
 #: rc.cpp:23
 msgid "General Options"
@@ -633,77 +660,77 @@ msgstr "Умумий параметрлар"
 
 #: rc.cpp:24
 msgid "Show splash-screen on start&up"
-msgstr ""
+msgstr "Ишга тушаётганда &сплэш ойнасини кўрсатиш"
 
 #: rc.cpp:25
 msgid "Enable/Disable splashscreen during amaroK startup."
-msgstr ""
+msgstr "amaroK ишга тушаётганда сплэш ойнасини кўрсатиш/кўрсатмаш."
 
 #: rc.cpp:26
 msgid "Show &tray icon"
-msgstr ""
+msgstr "Панелда &нишончани кўрсатиш"
 
 #: rc.cpp:27
 msgid "Check to enable the amaroK tray icon."
-msgstr ""
+msgstr "Панелда amaroK нишончасини кўрсатиш учун шу ерни белгиланг."
 
 #: rc.cpp:28
 msgid "Show player window (like XMMS)"
-msgstr ""
+msgstr "Плейернинг ойнасини кўрсатиш (XMMS'га ўхшаб)"
 
 #: rc.cpp:29
 msgid "Playlist Options"
-msgstr ""
+msgstr "Кўшиқ рўйхатининг параметрлари"
 
 #: rc.cpp:30
 msgid "&Remember current playlist on exit"
-msgstr ""
+msgstr "Жорий қўшиқ рўйхатини &эслаб қолиш"
 
 #: rc.cpp:31
 msgid ""
 "If checked, amaroK saves the current playlist on quit and restores it when "
 "restarted."
-msgstr ""
+msgstr "Агар белгиланса, amaroK чиқишда жорий қўшиқ рўйхатини эслаб қолади ва яна ишга тушганда уни тиклайди."
 
 #: rc.cpp:32
 msgid "Show &metadata in playlist"
-msgstr ""
+msgstr "&Мета-маълумотни қўшиқ рўйхатида кўрсатиш"
 
 #: rc.cpp:33
 msgid "Check to enable metadata display, like ID3 tags, in the playlist."
-msgstr ""
+msgstr "ID3 тэгларга ўхшган мета-маълумотни қўшиқ рўйхатида кўрсатиш учун шу ерни белгиланг."
 
 #: rc.cpp:34
 msgid "&Hide playlist with main window"
-msgstr ""
+msgstr "Қўшиқ рўйхатини асосий ойна билан &бекитиш"
 
 #: rc.cpp:35
 msgid ""
 "If checked, amaroK takes appropriate action to hide the playlist when the "
 "player window is hidden. If not checked, the player window and the playlist "
 "hide totally independent of each other."
-msgstr ""
+msgstr "Агар белгиланса, асосий ойна бекитилса қўшиқ рўйхати ҳам кўринмайди. Акс ҳолда, улар бир-бирига боғлиқ бўлмаган ҳолда бекитилади."
 
 #: rc.cpp:36
 msgid "Playlist scrolls with &active song"
-msgstr ""
+msgstr "Қўшиқ рўйхатини &актив қўшиқ билан варақлаш"
 
 #: rc.cpp:37
 msgid ""
 "If checked, the playlist scrolls on song change to make the currently "
 "playing item visible in the playlist. Measures are taken not to scroll if "
 "inappropriate."
-msgstr ""
+msgstr "Агар белгиланса, жорий ўйналаётган қўшиқни кўриш учун қўшиқ рўйхати ўзини мослайди."
 
 #: rc.cpp:38
 msgid "Add &directories recursively"
-msgstr ""
+msgstr "Жилдларни &рекурсив қўшиш"
 
 #: rc.cpp:39
 msgid ""
 "If checked, adding a directory to the playlist also adds sub directories, "
 "sub-sub directories etc."
-msgstr ""
+msgstr "Агар белгиланса, жилд кўшилганда ундаги қуйи, қуйи, қуйи... жилдлар ҳам қўшилади."
 
 #: rc.cpp:40
 msgid "Show statusbar"
@@ -711,7 +738,7 @@ msgstr "Ҳолат панелини кўрсатиш"
 
 #: rc.cpp:41
 msgid "Show Welcome-page tab (restart required)"
-msgstr ""
+msgstr "Марҳамат табини кўрсатиш (қайтадан ишга тушириш керак)"
 
 #: rc.cpp:42
 msgid "&Use custom fonts"
@@ -719,15 +746,15 @@ msgstr "&Бошқа шрифтларни ишлатиш"
 
 #: rc.cpp:43
 msgid "Check to enable custom fonts."
-msgstr ""
+msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
 #: rc.cpp:45
 msgid "Player font:"
-msgstr ""
+msgstr "Плейер учун шрифт:"
 
 #: rc.cpp:46 rc.cpp:48
 msgid "The font to use in the player window."
-msgstr ""
+msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #: rc.cpp:49
 msgid "Marquees font:"
@@ -739,35 +766,35 @@ msgstr ""
 
 #: rc.cpp:53
 msgid "Playlist-window font:"
-msgstr ""
+msgstr "Қўшиқ рўйхати учун шрифт:"
 
 #: rc.cpp:54 rc.cpp:56
 msgid "The font to use in the playlist window."
-msgstr ""
+msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #: rc.cpp:58
 msgid "&amaroK default color scheme"
-msgstr ""
+msgstr "&Андоза amaroK ранг қолипи"
 
 #: rc.cpp:59
 msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
-msgstr ""
+msgstr "Агар белгиланса, қўшиқ рўйхати учун amaroK ўзининг андоза рангларидан фойдаланади."
 
 #: rc.cpp:60
 msgid "Current &KDE color scheme"
-msgstr ""
+msgstr "&Жорий KDE ранг қолипи"
 
 #: rc.cpp:61
 msgid "If selected, amaroK uses the KDE standard colors in the playlist."
-msgstr ""
+msgstr "Агар белгиланса, қўшиқ рўйхати учун amaroK жорий KDE рангларидан фойдаланади."
 
 #: rc.cpp:62
 msgid "&Custom color scheme"
-msgstr ""
+msgstr "&Бошқа ранг қолипи"
 
 #: rc.cpp:63
 msgid "If selected, amaroK uses the user-defined colors in the playlist."
-msgstr ""
+msgstr "Агар белгиланса, қўшиқ рўйхати учун amaroK кўрсатилган ранглардан фойдаланади."
 
 #: rc.cpp:65
 msgid "&Foreground:"
@@ -779,15 +806,15 @@ msgstr "Орқа &фон:"
 
 #: rc.cpp:68 rc.cpp:72
 msgid "Selects the color to use as background color  in the playlist."
-msgstr ""
+msgstr "Қўшиқ рўйхати учун орқа фон рангини танлаш."
 
 #: rc.cpp:70
 msgid "Selects the color to use as foreground (text) color  in the playlist."
-msgstr ""
+msgstr "Қўшиқ рўйхати учун олдин фон (матн) рангини танлаш."
 
 #: rc.cpp:73 rc.cpp:88 rc.cpp:90 rc.cpp:91 rc.cpp:94
 msgid "Select the sound system to use for playback."
-msgstr ""
+msgstr "Ўйнаш учун товуш тизимини танлаш."
 
 #: rc.cpp:74
 msgid "Transition &Behavior"
@@ -821,7 +848,7 @@ msgstr ""
 
 #: rc.cpp:81 rc.cpp:83
 msgid "Silence between tracks, in milliseconds."
-msgstr ""
+msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
 #: rc.cpp:82
 msgid "Insert &gap:"
@@ -884,7 +911,7 @@ msgstr ""
 
 #: rc.cpp:101
 msgid "Remember &effects"
-msgstr ""
+msgstr "Эффектларни &эслаб қолиш"
 
 #: rc.cpp:102
 msgid ""
@@ -912,7 +939,7 @@ msgstr ""
 
 #: rc.cpp:109
 msgid "Draw shadow"
-msgstr ""
+msgstr "Соя билан"
 
 #: rc.cpp:110
 msgid "Use &custom colors"
@@ -964,25 +991,26 @@ msgid ""
 "key from amazon.com. You can get the license on this website:\n"
 "<br>\n"
 "<br>\n"
-"<a href=\"http://www.amazon.com/webservices\">http://www.amazon.com/"
-"webservices</a>"
+"<a "
+"href=\"http://www.amazon.com/webservices\">"
+"http://www.amazon.com/webservices</a>"
 msgstr ""
 
 #: rc.cpp:127
 msgid "Key:"
-msgstr ""
+msgstr "Калит:"
 
 #: contextbrowser.cpp:230
 msgid "Hello amaroK user!"
-msgstr ""
+msgstr "Салом amaroK фойдаланувчи!"
 
 #: contextbrowser.cpp:231
 msgid "To use the extended features of amaroK, you need to build a collection."
-msgstr ""
+msgstr "amaroK плейерининг кенг имкониятларидан фойдаланиш учун қўшиқ тўпламини яратинг."
 
 #: contextbrowser.cpp:232
 msgid "Click here to create one."
-msgstr ""
+msgstr "Яратиш"
 
 #: contextbrowser.cpp:255
 msgid "Your Favorite Tracks:"
@@ -1010,177 +1038,168 @@ msgstr "Шу санаткорнинг албомлари:"
 
 #: analyzers/blockanalyzer.cpp:174
 msgid "Framerate"
-msgstr ""
+msgstr "Фреймрейт"
 
 #: analyzers/blockanalyzer.cpp:180
 msgid "%1 fps"
-msgstr ""
+msgstr "%1 fps"
 
 #: analyzers/analyzerfactory.cpp:54
 msgid "Click for Analyzers"
-msgstr ""
+msgstr "Аналайзер учун босинг"
 
-#: playlist.cpp:95
+#: playlist.cpp:97
 msgid "Track Name"
 msgstr "Қўшиқнинг номи"
 
-#: playlist.cpp:100 playlist.cpp:1216
+#: playlist.cpp:102 playlist.cpp:1218
 msgid "Comment"
 msgstr "Изоҳ"
 
-#: playlist.cpp:102 playlist.cpp:660 playlist.cpp:668
+#: playlist.cpp:104 playlist.cpp:662 playlist.cpp:670
 msgid "Track"
 msgstr "Қўшиқ"
 
-#: playlist.cpp:141
+#: playlist.cpp:143
 msgid "S&huffle"
 msgstr "&Тартибсиз"
 
-#: playlist.cpp:142
+#: playlist.cpp:144
 msgid "&Goto Current"
 msgstr "&Жорийга ўтиш"
 
-#: playlist.cpp:1044
+#: playlist.cpp:1046
 #, c-format
 msgid "Copied: %1"
-msgstr ""
+msgstr "Нусха кўчирилди: %1"
 
-#: playlist.cpp:1094
+#: playlist.cpp:1096
 msgid "&Restart"
 msgstr "&Бошқадан"
 
-#: playlist.cpp:1094
+#: playlist.cpp:1096
 msgid "&Play"
 msgstr "Ўй&наш"
 
-#: playlist.cpp:1098
+#: playlist.cpp:1100
 msgid "Play as &Next"
 msgstr "&Навбатда ўйнаш"
 
-#: playlist.cpp:1105
+#: playlist.cpp:1107
 msgid "&Dequeue (%1)"
 msgstr ""
 
-#: playlist.cpp:1107
+#: playlist.cpp:1109
 msgid "&View Meta Information"
 msgstr "&Мета-маълумотни кўриш"
 
-#: playlist.cpp:1108
+#: playlist.cpp:1110
 msgid "&Edit Tag: '%1'"
 msgstr "&Таҳрирлаш: '%1'"
 
-#: playlist.cpp:1114 threadweaver.cpp:392
+#: playlist.cpp:1116 threadweaver.cpp:392
 msgid "Writing tag..."
 msgstr "Тэг ёзилмоқда..."
 
-#: playlist.cpp:1120
+#: playlist.cpp:1122
 msgid ""
 "_: Spreadsheet-style fill-down\n"
 "&Fill-Down Tag"
 msgstr ""
 
-#: playlist.cpp:1123
-msgid "&Copy Track Name"
-msgstr ""
-
 #: playlist.cpp:1125
-msgid "&Remove Selected"
-msgstr ""
+msgid "&Copy Track Name"
+msgstr "Номидан &нусха кўчириш"
 
-#: playlist.cpp:1223
+#: playlist.cpp:1127
+msgid "&Remove Selected"
+msgstr "Танланганни &олиб ташлаш"
+
+#: playlist.cpp:1225
 msgid "Meta Information"
 msgstr "Мета-маълумот"
 
-#: playlist.cpp:1464
+#: playlist.cpp:1466
 msgid "Available Columns"
-msgstr ""
+msgstr "Мавжуд устунлар"
 
-#: app.cpp:190
+#: app.cpp:191
 msgid "Files/URLs to Open"
-msgstr ""
+msgstr "Очиш учун файл/URL'лар"
 
-#: app.cpp:192
+#: app.cpp:193
 msgid "Skip backwards in playlist"
-msgstr ""
+msgstr "Қўшиқ рўйхатидаги олдинги қўшиқни ўйнаш"
 
-#: app.cpp:194
+#: app.cpp:195
 msgid "Start playing current playlist"
-msgstr ""
-
-#: app.cpp:196
-msgid "Stop playback"
-msgstr ""
+msgstr "Жорий қўшиқ рўйхатини ўйнаб бошлаш"
 
 #: app.cpp:197
-msgid "Pause playback"
-msgstr ""
+msgid "Stop playback"
+msgstr "Ўйнашни тўхтатиш"
 
-#: app.cpp:199
-msgid "Skip forwards in playlist"
-msgstr ""
+#: app.cpp:198
+msgid "Pause playback"
+msgstr "Ўйнашни вақтинча тўхтатиш"
 
 #: app.cpp:200
-msgid "Additional options:"
-msgstr ""
+msgid "Skip forwards in playlist"
+msgstr "Қўшиқ рўйхатидаги кейинги қўшиқни ўйнаш"
 
-#: app.cpp:202
+#: app.cpp:201
+msgid "Additional options:"
+msgstr "Қўшимча параметрлар:"
+
+#: app.cpp:203
 msgid "Enqueue Files/URLs"
 msgstr ""
 
-#: app.cpp:229
-msgid ""
-"<p>amaroK could not find any sound-engine plugins. It is likely that amaroK "
-"is installed under the wrong prefix, please fix your installation using:"
-"<pre>cd /path/to/amarok/source-code/<br>su -c \"make uninstall\"<br>./"
-"configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>More "
-"information can be found in the README file. For further assistance join us "
-"at #amarok on irc.freenode.net."
-msgstr ""
-
-#: app.cpp:275
+#: app.cpp:232
 msgid "Increase Volume"
-msgstr ""
+msgstr "Товушни кўпайтириш"
 
-#: app.cpp:277
+#: app.cpp:234
 msgid "Decrease Volume"
-msgstr ""
+msgstr "Товушни пасайтириш"
 
-#: app.cpp:279
+#: app.cpp:236
 msgid "Add Media"
-msgstr ""
+msgstr "Манбани қўшиш"
 
-#: app.cpp:281
+#: app.cpp:238
 msgid "Toggle Playlist Window"
-msgstr ""
+msgstr "Қўшиқ рўйхатини кўрсатиш/бекитиш"
 
-#: app.cpp:283
+#: app.cpp:240
 msgid "Show OSD"
 msgstr ""
 
-#: app.cpp:565 filebrowser.cpp:90
+#: app.cpp:523 filebrowser.cpp:90
 msgid "&Append to Playlist"
-msgstr ""
+msgstr "&Қўшиқ рўйхатига қўшиш"
 
-#: app.cpp:566
+#: app.cpp:524
 msgid "Append && &play"
-msgstr ""
+msgstr "Қўшиш &ва ўйнаш"
 
-#: app.cpp:621
+#: app.cpp:579
 msgid ""
-"<qt>Closing the main-window will keep amaroK running in the System Tray. Use "
-"<B>Quit</B> from the menu, or the amaroK tray-icon to exit the application.</"
-"qt>"
+"<qt>"
+"Closing the main-window will keep amaroK running in the System Tray. Use "
+"<B>Quit</B> from the menu, or the amaroK tray-icon to exit the "
+"application.</qt>"
 msgstr ""
 
-#: app.cpp:623
+#: app.cpp:581
 msgid "Docking in System Tray"
 msgstr ""
 
-#: app.cpp:640
+#: app.cpp:598
 msgid "amaroK - Audio Player"
 msgstr "amaroK - Аудио плейер"
 
-#: app.cpp:659
+#: app.cpp:617
 msgid "Volume: %1%"
 msgstr "Товуш: %1%"
 
@@ -1277,24 +1296,24 @@ msgstr ""
 msgid "tester, patches"
 msgstr ""
 
-#: welcomebrowser.cpp:76
+#: welcomebrowser.cpp:79
 msgid "Welcome to amaroK!"
-msgstr "amaroK'га марҳамат!"
+msgstr "amaroK плейерига марҳамат!"
 
-#: welcomebrowser.cpp:77
+#: welcomebrowser.cpp:80
 msgid ""
 "There are many media players around these days, this is true; but, what is "
 "missing from most players, is an interface that does not get in the way of "
 "the user. How many buttons do you have to press when simply adding media to "
-"the playlist? amaroK tries to be a little different, providing a simple drag-"
-"and-drop interface that makes playlist handling really easy."
+"the playlist? amaroK tries to be a little different, providing a simple "
+"drag-and-drop interface that makes playlist handling really easy."
 msgstr ""
 
-#: welcomebrowser.cpp:78
+#: welcomebrowser.cpp:81
 msgid "Customise your amaroK"
-msgstr ""
+msgstr "Плейерни сиз истагандек мосланг"
 
-#: welcomebrowser.cpp:79
+#: welcomebrowser.cpp:82
 msgid ""
 "amaroK has two main modes of operation. It can look and act a little like "
 "XMMS and other Winamp clones, or it can have a single window with a "
@@ -1302,19 +1321,19 @@ msgid ""
 "between them using the following links:"
 msgstr ""
 
-#: welcomebrowser.cpp:81
+#: welcomebrowser.cpp:84
 msgid "Switch to XMMS-mode"
-msgstr ""
-
-#: welcomebrowser.cpp:82
-msgid "Switch to Compact-mode"
-msgstr ""
+msgstr "XMMS усулига ўтиш"
 
 #: welcomebrowser.cpp:85
-msgid "Using amaroK"
-msgstr ""
+msgid "Switch to Compact-mode"
+msgstr "Ихчам усулига ўтиш"
 
-#: welcomebrowser.cpp:86
+#: welcomebrowser.cpp:88
+msgid "Using amaroK"
+msgstr "Плейердан фойдаланиш"
+
+#: welcomebrowser.cpp:89
 msgid ""
 "amaroK is all about easy playlist building. This welcome text is embedded in "
 "a tab in the BrowserBar; each tab in the bar is a route to your music and "
@@ -1322,55 +1341,56 @@ msgid ""
 "listings to the playlist. The different browsers are as follows:"
 msgstr ""
 
-#: welcomebrowser.cpp:88
+#: welcomebrowser.cpp:91
 msgid "File Browser"
 msgstr "Файл браузери"
 
-#: welcomebrowser.cpp:88
+#: welcomebrowser.cpp:91
 msgid ""
 "The FileBrowser will be the most useful browser to people at first; use it "
-"to navigate your filesystem to where you keep your music and then drag-and-"
-"drop to the playlist. Filtering by <EM>*.mp3 *.ogg</EM> may prove useful to "
-"you."
+"to navigate your filesystem to where you keep your music and then "
+"drag-and-drop to the playlist. Filtering by <EM>*.mp3 *.ogg</EM> may prove "
+"useful to you."
 msgstr ""
 
-#: welcomebrowser.cpp:89
+#: welcomebrowser.cpp:92
 msgid "Search Browser"
 msgstr "Қидириш браузери"
 
-#: welcomebrowser.cpp:89
+#: welcomebrowser.cpp:92
 msgid ""
 "Some people have too much music to remember where it all is. The Search "
 "Browser makes it easy to find lost tracks: specify a search term (e.g. "
-"'Chem' to find all your <EM>Chemical Brothers</EM> music), specify a path to "
-"start the search in, and click <STRONG>Search</STRONG>. You can even drag-"
-"and-drop the files to Konqueror afterwards if you want to move them all to a "
-"sensible location so you do not need to search again next time."
+"'Chem' to find all your <EM>Chemical Brothers</EM>"
+" music), specify a path to start the search in, and click "
+"<STRONG>Search</STRONG>. You can even drag-and-drop the files to Konqueror "
+"afterwards if you want to move them all to a sensible location so you do not "
+"need to search again next time."
 msgstr ""
 
-#: welcomebrowser.cpp:90
+#: welcomebrowser.cpp:93
 msgid "Collection Browser"
 msgstr "Тўплам браузери"
 
-#: welcomebrowser.cpp:90
+#: welcomebrowser.cpp:93
 msgid ""
 "This is amaroK's lightning-fast music database. Assemble the database and "
 "enjoy the benefits of fast, categorised music sorting."
 msgstr ""
 
-#: welcomebrowser.cpp:91
+#: welcomebrowser.cpp:94
 msgid "Context Browser"
-msgstr ""
+msgstr "Статистика браузери"
 
-#: welcomebrowser.cpp:91
+#: welcomebrowser.cpp:94
 msgid "Statistics, context, brilliance."
 msgstr ""
 
-#: welcomebrowser.cpp:92
+#: welcomebrowser.cpp:95
 msgid "Stream Browser"
-msgstr ""
+msgstr "Оқим браузери"
 
-#: welcomebrowser.cpp:92
+#: welcomebrowser.cpp:95
 msgid ""
 "Internet radio is a fabulous way to find out about new music without "
 "upsetting the various record industries of the world. Fetch the streams from "
@@ -1379,17 +1399,17 @@ msgid ""
 "the choice for everyone else."
 msgstr ""
 
-#: welcomebrowser.cpp:95
+#: welcomebrowser.cpp:98
 msgid "To remove this tab from the BrowserBar,"
-msgstr ""
+msgstr "Браузер панелидан ушбу табни олиб ташлаш учун "
 
-#: welcomebrowser.cpp:95
+#: welcomebrowser.cpp:98
 msgid "click here"
 msgstr "бу ерни босинг"
 
 #: filebrowser.cpp:214
 msgid "Apply last filter (\"%1\")"
-msgstr ""
+msgstr "Охирги филтерни (%1) қўллаш"
 
 #: effectwidget.cpp:44
 msgid "Effects"
