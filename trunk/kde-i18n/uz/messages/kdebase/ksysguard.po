@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
-"POT-Creation-Date: 2004-07-13 01:20+0200\n"
-"PO-Revision-Date: 2004-07-15 01:05+0200\n"
+"POT-Creation-Date: 2004-07-16 01:17+0200\n"
+"PO-Revision-Date: 2004-08-02 23:38+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr ""
 #: WorkSheet.cc:124
 msgid "The file %1 has an invalid worksheet size."
 msgstr ""
-"%1 файлида иш варағининг катталиги "
+"%1 файлида иш варағининг ўлчами "
 "нотўғри кўрсатилган."
 
 #: KSysGuardApplet.cc:448 WorkSheet.cc:221
@@ -70,13 +70,13 @@ msgstr "&Диаграмма"
 msgid "S&ensorLogger"
 msgstr "Сенсор &логгери"
 
-#: KSysGuardApplet.cc:243 WorkSheet.cc:452
+#: KSysGuardApplet.cc:243 WorkSheet.cc:457
 msgid "Do you really want to delete the display?"
 msgstr ""
 "Ростдан бу дисплейни олиб ташлашни "
 "истайсизми?"
 
-#: KSysGuardApplet.cc:243 WorkSheet.cc:453
+#: KSysGuardApplet.cc:243 WorkSheet.cc:458
 msgid "Delete Display"
 msgstr "Дисплейни олиб ташлаш"
 
@@ -101,7 +101,8 @@ msgid "Update interval:"
 msgstr "Янгилаш даври:"
 
 #: KSGAppletSettings.cc:67 WorkSheetSettings.cc:91 ksgrd/TimerSettings.cc:51
-#: rc.cpp:7
+#: rc.cpp:14
+#, no-c-format
 msgid " sec"
 msgstr " сония"
 
@@ -222,19 +223,21 @@ msgstr "Биринчи олдин фоннинг ранги:"
 msgid "Second foreground color:"
 msgstr "Иккинчи олдин фоннинг ранги:"
 
-#: ksgrd/StyleSettings.cc:61 rc.cpp:42
+#: ksgrd/StyleSettings.cc:61 rc.cpp:84
+#, no-c-format
 msgid "Alarm color:"
 msgstr "Хавф огоҳноманинг ранги:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:143 SensorDisplayLib/LogFile.cc:90
-#: ksgrd/StyleSettings.cc:68 rc.cpp:31 rc.cpp:37 rc.cpp:41
+#: ksgrd/StyleSettings.cc:68 rc.cpp:62 rc.cpp:74 rc.cpp:82
+#, no-c-format
 msgid "Background color:"
 msgstr "Орқа фоннинг ранги:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:150
 #: SensorDisplayLib/FancyPlotterSettings.cc:175 ksgrd/StyleSettings.cc:75
 msgid "Font size:"
-msgstr "Шрифт катталиги:"
+msgstr "Шрифтнинг ўлчами:"
 
 #: ksgrd/StyleSettings.cc:85
 msgid "Sensor Colors"
@@ -257,7 +260,7 @@ msgstr "Процессор юкланганлиги"
 msgid "Idle Load"
 msgstr ""
 
-#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:161
+#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:156
 msgid "System Load"
 msgstr "Тизим юкланганлиги"
 
@@ -573,7 +576,7 @@ msgid ""
 "worksheet (Menu File->New) before you can drag sensors here."
 msgstr ""
 
-#: Workspace.cc:101 ksysguard.cc:166
+#: Workspace.cc:101 ksysguard.cc:161
 msgid "Process Table"
 msgstr "Вазифалар жадвали"
 
@@ -817,12 +820,14 @@ msgid "Range"
 msgstr "Чегара"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:50 WorkSheetSettings.cc:48
-#: rc.cpp:16 rc.cpp:33 rc.cpp:38 rc.cpp:45
+#: rc.cpp:32 rc.cpp:66 rc.cpp:76 rc.cpp:90
+#, no-c-format
 msgid "Title"
 msgstr "Сарлавҳа"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:54
-#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:17
+#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:34
+#, no-c-format
 msgid "Enter the title of the display here."
 msgstr ""
 "Бу ерга дисплейнинг сарлавҳасини "
@@ -864,11 +869,13 @@ msgstr ""
 "катта қиймат автоматик равишда "
 "аниқланади."
 
-#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:20
+#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:40
+#, no-c-format
 msgid "Alarms"
 msgstr "Хавф огоҳномалари"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:8 rc.cpp:25
+#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:16 rc.cpp:50
+#, no-c-format
 msgid "Alarm for Minimum Value"
 msgstr "Огоҳнома учун пастки чегара"
 
@@ -877,27 +884,32 @@ msgstr "Огоҳнома учун пастки чегара"
 msgid "Enable alarm"
 msgstr "Хавф огоҳномасини ёқиш"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:10 rc.cpp:27
+#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:20 rc.cpp:54
+#, no-c-format
 msgid "Enable the minimum value alarm."
 msgstr ""
 "Пастки чегарага етганда огоҳнома беришни "
 "ёқиш."
 
-#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:11 rc.cpp:28
+#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:22 rc.cpp:56
+#, no-c-format
 msgid "Lower limit:"
 msgstr "Пастки чегара:"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:12 rc.cpp:21
+#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:24 rc.cpp:42
+#, no-c-format
 msgid "Alarm for Maximum Value"
 msgstr "Огоҳнома учун юқори чегара"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:14 rc.cpp:23
+#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:28 rc.cpp:46
+#, no-c-format
 msgid "Enable the maximum value alarm."
 msgstr ""
 "Юқори чегарага етганда огоҳнома беришни "
 "ёқиш."
 
-#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:15 rc.cpp:24
+#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:30 rc.cpp:48
+#, no-c-format
 msgid "Upper limit:"
 msgstr "Юқори чегара:"
 
@@ -1070,7 +1082,8 @@ msgstr "Миқдор:"
 msgid "Enter the number of horizontal lines here."
 msgstr "Горизонтал чизиқларнинг сонини киритинг."
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:44
+#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:88
+#, no-c-format
 msgid "Text"
 msgstr "Матн"
 
@@ -1094,8 +1107,9 @@ msgid ""
 "applet displays. The bar is only visible if the display is large enough."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:29 rc.cpp:34 rc.cpp:39
-#: rc.cpp:46
+#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:58 rc.cpp:68 rc.cpp:78
+#: rc.cpp:92
+#, no-c-format
 msgid "Colors"
 msgstr "Ранглар"
 
@@ -1170,7 +1184,8 @@ msgstr ""
 msgid "Logging"
 msgstr "Лог қилиш"
 
-#: SensorDisplayLib/SensorLogger.cc:139 rc.cpp:6
+#: SensorDisplayLib/SensorLogger.cc:139 rc.cpp:12
+#, no-c-format
 msgid "Timer Interval"
 msgstr "Вақт даври"
 
@@ -1378,57 +1393,70 @@ msgstr ""
 msgid "Invalid argument."
 msgstr "Нотўғри аргумент."
 
-#: rc.cpp:9 rc.cpp:26
+#: rc.cpp:18 rc.cpp:52
+#, no-c-format
 msgid "&Enable alarm"
 msgstr "&Хавф огоҳномасини ёқиш"
 
-#: rc.cpp:13 rc.cpp:22
+#: rc.cpp:26 rc.cpp:44
+#, no-c-format
 msgid "E&nable alarm"
 msgstr "Хавф &огоҳномасини ёқиш"
 
-#: rc.cpp:18
+#: rc.cpp:36
+#, no-c-format
 msgid "&Show unit"
 msgstr "Бирликни &кўрсатиш"
 
-#: rc.cpp:19
+#: rc.cpp:38
+#, no-c-format
 msgid "Enable this to append the unit to the title of the display."
 msgstr ""
 "Бирликни дисплейнинг сарлавҳасига қўшиш "
 "учун шуни белгиланг."
 
-#: rc.cpp:30
+#: rc.cpp:60
+#, no-c-format
 msgid "Normal digit color:"
 msgstr "Оддий сон учун ранг:"
 
-#: rc.cpp:32
+#: rc.cpp:64
+#, no-c-format
 msgid "Alarm digit color:"
 msgstr "Огоҳнома сони учун ранг:"
 
-#: rc.cpp:35 rc.cpp:40
+#: rc.cpp:70 rc.cpp:80
+#, no-c-format
 msgid "Text color:"
 msgstr "Матн учун ранг:"
 
-#: rc.cpp:36
+#: rc.cpp:72
+#, no-c-format
 msgid "Grid color:"
 msgstr "Тўрнинг ранги:"
 
-#: rc.cpp:43
+#: rc.cpp:86
+#, no-c-format
 msgid "Log File Settings"
 msgstr "Лог файлининг мосламалари"
 
-#: rc.cpp:48
+#: rc.cpp:96
+#, no-c-format
 msgid "Select Font..."
 msgstr "Шрифтни танлаш"
 
-#: rc.cpp:49
+#: rc.cpp:98
+#, no-c-format
 msgid "Filter"
 msgstr "Филтер"
 
-#: rc.cpp:50
+#: rc.cpp:100
+#, no-c-format
 msgid "&Add"
 msgstr "&Қўшиш"
 
-#: rc.cpp:52
+#: rc.cpp:104
+#, no-c-format
 msgid "&Change"
 msgstr "Ўз&гартириш"
 
@@ -1514,7 +1542,7 @@ msgstr ""
 msgid "KDE system guard"
 msgstr "KDE тизим назоратчиси"
 
-#: ksysguard.cc:71 ksysguard.cc:556
+#: ksysguard.cc:71 ksysguard.cc:538
 msgid "KDE System Guard"
 msgstr "KDE тизим назоратчиси"
 
@@ -1542,21 +1570,21 @@ msgstr "Компьютердан у&зилиш"
 msgid "&Worksheet Properties"
 msgstr "Иш варағи&нинг ҳоссалари"
 
-#: ksysguard.cc:132
+#: ksysguard.cc:127
 msgid "Configure &Style..."
 msgstr "Услубни &мослаш"
 
-#: ksysguard.cc:147
+#: ksysguard.cc:142
 msgid "Do you really want to restore the default worksheets?"
 msgstr ""
 "Андоза иш варақларини қайта тиклашни "
 "истайсизми?"
 
-#: ksysguard.cc:148
+#: ksysguard.cc:143
 msgid "Reset All Worksheets"
 msgstr ""
 
-#: ksysguard.cc:451
+#: ksysguard.cc:433
 #, c-format
 msgid ""
 "_n: 1 Process\n"
@@ -1565,29 +1593,29 @@ msgstr ""
 "1 вазифа\n"
 "%n вазифа"
 
-#: ksysguard.cc:461
+#: ksysguard.cc:443
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr "Хотира: %1 %2 ишлатилган, %3 %4 бўш"
 
-#: ksysguard.cc:469
+#: ksysguard.cc:451
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr "Своп: %1 %2 ишлатилган, %3 %4 бўш"
 
-#: ksysguard.cc:515
+#: ksysguard.cc:497
 msgid "Show only process list of local host"
 msgstr ""
 "Фақат локал компьютернинг вазифалар "
 "рўйхатини кўрсатиш."
 
-#: ksysguard.cc:516
+#: ksysguard.cc:498
 msgid "Optional worksheet files to load"
 msgstr ""
 
-#: ksysguard.cc:558
+#: ksysguard.cc:540
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(c) 1996-2002 KSysGuard тузувчилари"
 
-#: ksysguard.cc:566
+#: ksysguard.cc:548
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
