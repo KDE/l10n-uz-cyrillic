@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2004-07-25 01:25+0200\n"
-"PO-Revision-Date: 2004-07-25 18:08+0200\n"
+"POT-Creation-Date: 2004-07-30 01:29+0200\n"
+"PO-Revision-Date: 2004-07-31 03:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
@@ -12,40 +12,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: playlist.cpp:99 rc.cpp:80 tracktooltip.cpp:28
+#: playlist.cpp:99 rc.cpp:101 tracktooltip.cpp:28
 #, no-c-format
 msgid "Title"
 msgstr "Сарлавҳа"
 
-#: collectionbrowser.cpp:87 collectionbrowser.cpp:94 collectionbrowser.cpp:174
-#: collectionbrowser.cpp:633 collectionbrowser.cpp:650
-#: collectionbrowser.cpp:664 collectionbrowser.cpp:677 playlist.cpp:100
-#: rc.cpp:64 tracktooltip.cpp:28
+#: collectionbrowser.cpp:86 collectionbrowser.cpp:93 collectionbrowser.cpp:173
+#: collectionbrowser.cpp:632 collectionbrowser.cpp:649
+#: collectionbrowser.cpp:663 collectionbrowser.cpp:676 playlist.cpp:100
+#: rc.cpp:85 tracktooltip.cpp:28
 #, no-c-format
 msgid "Artist"
 msgstr "Санаткор"
 
-#: collectionbrowser.cpp:86 collectionbrowser.cpp:93 collectionbrowser.cpp:631
-#: collectionbrowser.cpp:649 collectionbrowser.cpp:663
-#: collectionbrowser.cpp:676 playlist.cpp:101 rc.cpp:82 tracktooltip.cpp:28
+#: collectionbrowser.cpp:85 collectionbrowser.cpp:92 collectionbrowser.cpp:630
+#: collectionbrowser.cpp:648 collectionbrowser.cpp:662
+#: collectionbrowser.cpp:675 playlist.cpp:101 rc.cpp:103 tracktooltip.cpp:28
 #, no-c-format
 msgid "Album"
 msgstr "Албом"
 
-#: playlist.cpp:107 rc.cpp:52 tracktooltip.cpp:28
+#: playlist.cpp:107 rc.cpp:73 tracktooltip.cpp:28
 #, no-c-format
 msgid "Length"
 msgstr "Узунлиги"
 
-#: playlist.cpp:108 rc.cpp:54 tracktooltip.cpp:28
+#: playlist.cpp:108 rc.cpp:75 tracktooltip.cpp:28
 #, no-c-format
 msgid "Bitrate"
 msgstr "Битрейт"
 
-#: rc.cpp:56 tracktooltip.cpp:28
+#: rc.cpp:77 tracktooltip.cpp:28
 #, no-c-format
 msgid "Samplerate"
 msgstr "Самплрейт"
+
+#: playlistbrowser.cpp:55
+msgid "Add playlist"
+msgstr "Қўшиқ рўйхатини қўшиш"
+
+#: playlistbrowser.cpp:196
+msgid "Add Playlists"
+msgstr "Қўшиқ рўйхатларини қўшиш"
 
 #: playlist.cpp:620 playlistbrowser.cpp:334
 msgid "<p>You have selected %1 to be <b>irreversibly</b> deleted."
@@ -57,6 +65,8 @@ msgid ""
 "_n: 1 playlist\n"
 "<u>%n playlists</u>"
 msgstr ""
+"Битта қўшиқ рўйхати\n"
+"<u>%n қўшиқ рўйхати</u>"
 
 #: playlistbrowser.cpp:467
 msgid "&Load"
@@ -78,15 +88,15 @@ msgstr "&Номини ўзгартириш"
 msgid "R&emove"
 msgstr "&Олиб ташлаш"
 
-#: collectionbrowser.cpp:449 filebrowser.cpp:89 playlistbrowser.cpp:515
+#: collectionbrowser.cpp:448 filebrowser.cpp:91 playlistbrowser.cpp:515
 msgid "&Make Playlist"
 msgstr "Қўшиқ рўйхатини &яратиш"
 
-#: collectionbrowser.cpp:450 playlistbrowser.cpp:516
+#: collectionbrowser.cpp:449 playlistbrowser.cpp:516
 msgid "&Add to Playlist"
 msgstr "Қўшиқ рўйхатига &қўшиш"
 
-#: app.cpp:530 collectionbrowser.cpp:451 playlistbrowser.cpp:517
+#: app.cpp:503 collectionbrowser.cpp:450 playlistbrowser.cpp:517
 msgid "&Queue After Current Track"
 msgstr "&Навбатда жорий қўшиқдан кейин"
 
@@ -94,9 +104,27 @@ msgstr "&Навбатда жорий қўшиқдан кейин"
 msgid "&Track Information"
 msgstr "Қў&шиқ ҳақида маълумот"
 
+#: playlistbrowser.cpp:554 playlistwindow.cpp:203
+msgid "Playlists"
+msgstr "Қўшиқ рўйхатлари"
+
 #: playlistbrowser.cpp:757
 msgid "&Restore"
 msgstr "&Тиклаш"
+
+#: playlistbrowser.cpp:1185 statusbar.cpp:160
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"1 қўшиқ\n"
+"%n қўшиқ"
+
+#: playlistbrowser.cpp:1242
+#, fuzzy
+msgid "Smart Playlists"
+msgstr "Қўшиқ рўйхатини &сақлаш"
 
 #: playlistbrowser.cpp:1247
 msgid "All Collection"
@@ -118,7 +146,7 @@ msgstr "Яқинда ўйналган"
 msgid "Never Played"
 msgstr "Ҳеч қачон ўйналмаган"
 
-#: enginecontroller.cpp:230
+#: enginecontroller.cpp:196
 msgid ""
 "<p>amaroK could not find any sound-engine plugins. It is likely that amaroK "
 "is installed under the wrong prefix, please fix your installation "
@@ -131,6 +159,11 @@ msgid ""
 "<br>$ amarok</pre>More information can be found in the README file. For "
 "further assistance join us at #amarok on irc.freenode.net."
 msgstr ""
+
+#: enginecontroller.cpp:215
+#, fuzzy
+msgid "The new engine could not be loaded."
+msgstr "'%1' қўшиқ рўйхатини олиб бўлмади."
 
 #: playlistloader.cpp:521
 msgid "The playlist, '%1', could not be downloaded."
@@ -149,7 +182,7 @@ msgstr "Жилдни танлаш"
 msgid "Welcome to amaroK"
 msgstr "amaroK плейерига марҳамат"
 
-#: actionclasses.cpp:215 playerwindow.cpp:412
+#: actionclasses.cpp:212 playerwindow.cpp:412
 msgid "Analyzer"
 msgstr "Аналайзер"
 
@@ -158,15 +191,15 @@ msgstr "Аналайзер"
 msgid "Click for more analyzers, press 'd' to detach."
 msgstr "Бошқа аналайзер учун босинг."
 
-#: socketserver.cpp:282
+#: socketserver.cpp:280
 msgid "Visualizations"
 msgstr "Визуаллаштириш"
 
-#: socketserver.cpp:284
+#: socketserver.cpp:282
 msgid "Right-click on item for context menu"
 msgstr ""
 
-#: socketserver.cpp:285
+#: socketserver.cpp:283
 msgid "Name"
 msgstr "Номи"
 
@@ -182,7 +215,7 @@ msgstr "Асосий"
 msgid "Secondary"
 msgstr "Иккиламчи"
 
-#: collectionbrowser.cpp:67 filebrowser.cpp:220 playlistwindow.cpp:170
+#: collectionbrowser.cpp:67 filebrowser.cpp:126 playlistwindow.cpp:170
 msgid "Clear filter"
 msgstr "Филтерни тозалаш"
 
@@ -197,46 +230,41 @@ msgstr ""
 msgid "Configure Collection Folders..."
 msgstr "Жилдларни мослаш"
 
-#: collectionbrowser.cpp:78
-#, fuzzy
-msgid "Configure Cover Download"
-msgstr "Рангларни мослаш"
-
-#: collectionbrowser.cpp:81
+#: collectionbrowser.cpp:80
 msgid "Start Scan"
 msgstr "Скэнни бошлаш"
 
-#: collectionbrowser.cpp:88 collectionbrowser.cpp:95 collectionbrowser.cpp:635
-#: collectionbrowser.cpp:651 collectionbrowser.cpp:665
-#: collectionbrowser.cpp:678 playlist.cpp:104 rc.cpp:60
+#: collectionbrowser.cpp:87 collectionbrowser.cpp:94 collectionbrowser.cpp:634
+#: collectionbrowser.cpp:650 collectionbrowser.cpp:664
+#: collectionbrowser.cpp:677 playlist.cpp:104 rc.cpp:81
 #, no-c-format
 msgid "Genre"
 msgstr "Жанр"
 
-#: collectionbrowser.cpp:89 collectionbrowser.cpp:96 collectionbrowser.cpp:637
-#: collectionbrowser.cpp:652 collectionbrowser.cpp:666
-#: collectionbrowser.cpp:679 playlist.cpp:102 rc.cpp:48
+#: collectionbrowser.cpp:88 collectionbrowser.cpp:95 collectionbrowser.cpp:636
+#: collectionbrowser.cpp:651 collectionbrowser.cpp:665
+#: collectionbrowser.cpp:678 playlist.cpp:102 rc.cpp:69
 #, no-c-format
 msgid "Year"
 msgstr "Йил"
 
-#: collectionbrowser.cpp:91 collectionbrowser.cpp:175
-#: collectionbrowser.cpp:360 collectionbrowser.cpp:363
-#: collectionbrowser.cpp:458 collectionbrowser.cpp:479
-#: collectionbrowser.cpp:505 collectionbrowser.cpp:590
-#: collectionbrowser.cpp:642
+#: collectionbrowser.cpp:90 collectionbrowser.cpp:174
+#: collectionbrowser.cpp:359 collectionbrowser.cpp:362
+#: collectionbrowser.cpp:457 collectionbrowser.cpp:478
+#: collectionbrowser.cpp:504 collectionbrowser.cpp:589
+#: collectionbrowser.cpp:641
 msgid "None"
 msgstr "Йўқ"
 
-#: collectionbrowser.cpp:211
+#: collectionbrowser.cpp:210
 msgid "Abort"
 msgstr "Тўхтатиш"
 
-#: collectionbrowser.cpp:455
+#: collectionbrowser.cpp:454
 msgid "&Fetch Cover Images"
 msgstr ""
 
-#: collectionbrowser.cpp:456
+#: collectionbrowser.cpp:455
 msgid "Track Information"
 msgstr "Қўшиқ ҳақида маълумот"
 
@@ -268,35 +296,39 @@ msgstr "&Эффектларни мослаш"
 msgid "Configure &Decoder..."
 msgstr "&Декодерни мослаш"
 
-#: actionclasses.cpp:180 app.cpp:224
+#: actionclasses.cpp:177 app.cpp:224
 msgid "Play/Pause"
 msgstr "Ўйнаш/Вақтинча тўхтатиш"
 
-#: actionclasses.cpp:253
+#: actionclasses.cpp:250
 msgid "Volume"
 msgstr "Товуш"
 
-#: actionclasses.cpp:276
+#: actionclasses.cpp:273
 msgid "Volume Control"
 msgstr "Товушни бошқариш"
 
-#: actionclasses.cpp:299
+#: actionclasses.cpp:296
 msgid "Random &Mode"
 msgstr "Тасодифий &усули"
 
-#: actionclasses.cpp:308
+#: actionclasses.cpp:305
 msgid "Repeat &Track"
 msgstr "&Қўшиқни қайтариш"
 
-#: actionclasses.cpp:317
+#: actionclasses.cpp:314
 msgid "Repeat &Playlist"
 msgstr "Қўшиқ &рўйхатини қайтариш"
 
-#: pluginmanager.cpp:87
+#: pluginmanager.cpp:99
 msgid ""
 "<p>KLibLoader could not load the plugin:"
 "<br/><i>%1</i></p><p>Error message:<br/><i>%2</i></p>"
 msgstr ""
+
+#: pluginmanager.cpp:184
+msgid "Plugin Information"
+msgstr "Плагин ҳақида маълумот"
 
 #: musicbrainzquery.cpp:64
 msgid "Generating TRM signature..."
@@ -386,15 +418,11 @@ msgstr "Статистика"
 msgid "Search"
 msgstr "Қидириш"
 
-#: playlistwindow.cpp:203
-msgid "Playlists"
-msgstr "Қўшиқ рўйхатлари"
-
 #: playlistwindow.cpp:207
 msgid "Welcome"
 msgstr "Марҳамат"
 
-#: playlistwindow.cpp:488
+#: playlistwindow.cpp:486
 msgid "Enter File, URL or Directory"
 msgstr "Файл, URL ёки жилдни киритинг"
 
@@ -468,7 +496,7 @@ msgid ""
 "on irc.freenode.net.</p>"
 msgstr ""
 
-#: engine/gst/gstengine.cpp:638
+#: engine/gst/gstengine.cpp:621
 msgid ""
 "<h3>GStreamer could not create the element: <i>%1</i></h3> "
 "<p>"
@@ -527,93 +555,102 @@ msgstr ""
 msgid "amaroK could not create a new xine-stream."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:475
+#: engine/xine/xine-engine.cpp:469
 msgid "The host is unknown for the url: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:476
+#: engine/xine/xine-engine.cpp:470
 msgid "The device name you specified seems invalid."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:477
+#: engine/xine/xine-engine.cpp:471
 msgid "The network appears unreachable."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:478
+#: engine/xine/xine-engine.cpp:472
 msgid "Audio output unavailable; the device is busy."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:479
+#: engine/xine/xine-engine.cpp:473
 msgid "The connection was refused for the url: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:480
+#: engine/xine/xine-engine.cpp:474
 msgid "xine could not find the url: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:481
+#: engine/xine/xine-engine.cpp:475
 msgid "Access was denied for the url: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:482
+#: engine/xine/xine-engine.cpp:476
 msgid "The source cannot be read for the url: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:483
+#: engine/xine/xine-engine.cpp:477
 msgid "A problem occured while loading a library or decoder."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:485
+#: engine/xine/xine-engine.cpp:479
 msgid "General Warning"
 msgstr "Умумий огоҳнома"
 
-#: engine/xine/xine-engine.cpp:486
+#: engine/xine/xine-engine.cpp:480
 msgid "Security Warning"
 msgstr "Хавфсизлик огоҳномаси"
 
-#: engine/xine/xine-engine.cpp:487
+#: engine/xine/xine-engine.cpp:481
 msgid "Unknown Error"
 msgstr "Номаълум хато"
 
-#: engine/xine/xine-engine.cpp:512
+#: engine/xine/xine-engine.cpp:506
 msgid "Sorry, no additional information is available."
 msgstr ""
 
-#: configdialog.cpp:69
+#: configdialog.cpp:65
 msgid "General"
 msgstr "Умумий"
 
-#: configdialog.cpp:69
+#: configdialog.cpp:65
 msgid "Configure General Options"
 msgstr "Умумий мосламаларни мослаш"
 
-#: configdialog.cpp:70
+#: configdialog.cpp:66
 msgid "Configure Fonts"
 msgstr "Шрифтларни мослаш"
 
-#: configdialog.cpp:71
+#: configdialog.cpp:67
 msgid "Colors"
 msgstr "Ранглар"
 
-#: configdialog.cpp:71
+#: configdialog.cpp:67
 msgid "Configure Colors"
 msgstr "Рангларни мослаш"
 
-#: configdialog.cpp:72
+#: configdialog.cpp:68
 msgid "Playback"
 msgstr "Ўйнаш"
 
-#: configdialog.cpp:72
+#: configdialog.cpp:68
 msgid "Configure Playback"
 msgstr "Ўйнашни мослаш"
 
-#: configdialog.cpp:73
+#: configdialog.cpp:69
 msgid "OSD"
 msgstr ""
 
-#: configdialog.cpp:73
+#: configdialog.cpp:69
 msgid "Configure On-Screen-Display"
 msgstr ""
+
+#: configdialog.cpp:189
+msgid "Engine"
+msgstr ""
+
+#: configdialog.cpp:190
+#, fuzzy
+msgid "Configure "
+msgstr "Мослаш"
 
 #: statusbar.cpp:86
 msgid "RAND"
@@ -635,15 +672,6 @@ msgstr ""
 "Қўшиқ рўйхатини қайтариш усулини "
 "ёқиш/ўчириш учун икки марта босинг"
 
-#: statusbar.cpp:159
-#, c-format
-msgid ""
-"_n: 1 Track\n"
-"%n Tracks"
-msgstr ""
-"1 қўшиқ\n"
-"%n қўшиқ"
-
 #: metabundle.cpp:236
 msgid ""
 "_: Bitrate\n"
@@ -660,7 +688,7 @@ msgstr "%1 Гц"
 msgid "Script List"
 msgstr "Скрипт рўйхати"
 
-#: rc.cpp:2 rc.cpp:42 rc.cpp:44
+#: rc.cpp:2 rc.cpp:42 rc.cpp:50
 #, no-c-format
 msgid "Playlist Toolbar"
 msgstr "Қўшиқ рўйхати асбоблар панели"
@@ -750,113 +778,143 @@ msgstr "Огоҳнома вақти:"
 msgid "activated"
 msgstr "актив"
 
+#: rc.cpp:44
+#, fuzzy, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "Мета-маълумот - amaroK"
+
 #: rc.cpp:46
+#, no-c-format
+msgid "Output plugin:"
+msgstr ""
+
+#: rc.cpp:48
+#, no-c-format
+msgid "Custom device:"
+msgstr "Бошқа ускуна:"
+
+#: amarokcore/main.cpp:23 rc.cpp:52
+#, no-c-format
+msgid "amaroK"
+msgstr "amaroK"
+
+#: rc.cpp:54
+#, no-c-format
+msgid "Cover size:"
+msgstr ""
+
+#: rc.cpp:60
+#, no-c-format
+msgid "Small"
+msgstr "Кичик"
+
+#: rc.cpp:62
+#, no-c-format
+msgid "Medium"
+msgstr "Ўртача"
+
+#: rc.cpp:64
+#, no-c-format
+msgid "Large"
+msgstr "Катта"
+
+#: rc.cpp:67
 #, no-c-format
 msgid "Meta Information - amaroK"
 msgstr "Мета-маълумот - amaroK"
 
-#: playlist.cpp:103 rc.cpp:50
+#: playlist.cpp:103 rc.cpp:71
 #, no-c-format
 msgid "Comment"
 msgstr "Изоҳ"
 
-#: rc.cpp:58
+#: rc.cpp:79
 #, no-c-format
 msgid "Location"
 msgstr "Манзил"
 
-#: playlist.cpp:105 playlist.cpp:691 playlist.cpp:699 rc.cpp:62
+#: playlist.cpp:105 playlist.cpp:691 playlist.cpp:699 rc.cpp:83
 #, no-c-format
 msgid "Track"
 msgstr "Қўшиқ"
 
-#: rc.cpp:66
+#: rc.cpp:87
 #, no-c-format
 msgid "&MusicBrainz TRM"
 msgstr "&MusicBrainz TRM"
 
-#: rc.cpp:68
+#: rc.cpp:89
 #, no-c-format
 msgid "Alt+M"
 msgstr "Alt+M"
 
-#: rc.cpp:70
+#: rc.cpp:91
 #, no-c-format
 msgid "Detect metadata from fingerprint. Requires the \"trm\" utility."
 msgstr ""
 
-#: rc.cpp:74
+#: rc.cpp:95
 #, no-c-format
 msgid "Alt+S"
 msgstr "Alt+S"
 
-#: rc.cpp:78
+#: rc.cpp:99 rc.cpp:211
 #, no-c-format
 msgid "Alt+C"
 msgstr "Alt+C"
 
-#: rc.cpp:84
-#, no-c-format
-msgid "Options1"
-msgstr "Параметрлар1"
-
-#: rc.cpp:86
+#: rc.cpp:105
 #, no-c-format
 msgid "Check to enable splashscreen during amaroK startup."
 msgstr ""
 "amaroK ишга тушаётганда сплэш ойнасини "
 "кўрсатиш учун шу ерни белгиланг."
 
-#: rc.cpp:88
+#: rc.cpp:107
 #, no-c-format
 msgid "General Options"
 msgstr "Умумий параметрлар"
 
-#: rc.cpp:90
+#: rc.cpp:109
 #, no-c-format
 msgid "Show splash-screen on start&up"
 msgstr "Ишга тушаётганда &сплэш ойнасини кўрсатиш"
 
-#: rc.cpp:92
+#: rc.cpp:111
 #, no-c-format
 msgid "Enable/Disable splashscreen during amaroK startup."
 msgstr ""
 "amaroK ишга тушаётганда сплэш ойнасини "
 "кўрсатиш/кўрсатмаш."
 
-#: rc.cpp:94
+#: rc.cpp:113
 #, no-c-format
 msgid "Show &tray icon"
 msgstr "Панелда &нишончани кўрсатиш"
 
-#: rc.cpp:96
+#: rc.cpp:115
 #, no-c-format
 msgid "Check to enable the amaroK tray icon."
 msgstr ""
 "Панелда amaroK нишончасини кўрсатиш учун шу "
 "ерни белгиланг."
 
-#: rc.cpp:98
+#: rc.cpp:117
 #, no-c-format
 msgid "Show player window (like XMMS)"
 msgstr "Плейернинг ойнасини кўрсатиш (XMMS'га ўхшаб)"
 
-#: rc.cpp:100
+#: rc.cpp:119
 #, no-c-format
 msgid "Playlist Options"
 msgstr "Кўшиқ рўйхатининг параметрлари"
 
-#: rc.cpp:102
+#: rc.cpp:121
 #, no-c-format
 msgid "&Remember current playlist on exit"
 msgstr "Жорий қўшиқ рўйхатини &эслаб қолиш"
 
-#: rc.cpp:104
-#, no-c-format
-msgid "Alt+R"
-msgstr "Alt+R"
-
-#: rc.cpp:106
+#: rc.cpp:123
 #, no-c-format
 msgid ""
 "If checked, amaroK saves the current playlist on quit and restores it when "
@@ -866,12 +924,12 @@ msgstr ""
 "рўйхатини эслаб қолади ва яна ишга "
 "тушганда уни тиклайди."
 
-#: rc.cpp:108
+#: rc.cpp:125
 #, no-c-format
 msgid "Show &metadata in playlist"
 msgstr "&Мета-маълумотни қўшиқ рўйхатида кўрсатиш"
 
-#: rc.cpp:110
+#: rc.cpp:127
 #, no-c-format
 msgid "Check to enable metadata display, like ID3 tags, in the playlist."
 msgstr ""
@@ -879,19 +937,14 @@ msgstr ""
 "рўйхатида кўрсатиш учун шу ерни "
 "белгиланг."
 
-#: rc.cpp:112
+#: rc.cpp:129
 #, no-c-format
 msgid "&Hide playlist with main window"
 msgstr ""
 "Қўшиқ рўйхатини асосий ойна билан "
 "&бекитиш"
 
-#: rc.cpp:114
-#, no-c-format
-msgid "Alt+H"
-msgstr "Alt+H"
-
-#: rc.cpp:116
+#: rc.cpp:131
 #, no-c-format
 msgid ""
 "If checked, amaroK takes appropriate action to hide the playlist when the "
@@ -903,14 +956,14 @@ msgstr ""
 "улар бир-бирига боғлиқ бўлмаган ҳолда "
 "бекитилади."
 
-#: rc.cpp:118
+#: rc.cpp:133
 #, no-c-format
 msgid "Playlist scrolls with &active song"
 msgstr ""
 "Қўшиқ рўйхатини &актив қўшиқ билан "
 "варақлаш"
 
-#: rc.cpp:120
+#: rc.cpp:135
 #, no-c-format
 msgid ""
 "If checked, the playlist scrolls on song change to make the currently "
@@ -921,12 +974,12 @@ msgstr ""
 "қўшиқни кўриш учун қўшиқ рўйхати ўзини "
 "мослайди."
 
-#: rc.cpp:122
+#: rc.cpp:137
 #, no-c-format
 msgid "Add &directories recursively"
 msgstr "Жилдларни &рекурсив қўшиш"
 
-#: rc.cpp:124
+#: rc.cpp:139
 #, no-c-format
 msgid ""
 "If checked, adding a directory to the playlist also adds sub directories, "
@@ -935,138 +988,143 @@ msgstr ""
 "Агар белгиланса, жилд кўшилганда ундаги "
 "қуйи, қуйи, қуйи... жилдлар ҳам қўшилади."
 
-#: rc.cpp:126
+#: rc.cpp:141
 #, no-c-format
 msgid "Show statusbar"
 msgstr "Ҳолат панелини кўрсатиш"
 
-#: rc.cpp:128
+#: rc.cpp:143
 #, no-c-format
 msgid "Show Welcome-page tab (restart required)"
 msgstr ""
 "Марҳамат табини кўрсатиш (қайтадан ишга "
 "тушириш керак)"
 
-#: rc.cpp:130
+#: rc.cpp:145
 #, fuzzy, no-c-format
 msgid "Auto show Context-Browser"
 msgstr "Статистика браузери"
 
-#: rc.cpp:132
+#: rc.cpp:147
 #, no-c-format
 msgid "&Use custom fonts"
 msgstr "&Бошқа шрифтларни ишлатиш"
 
-#: rc.cpp:134
+#: rc.cpp:149
 #, no-c-format
 msgid "Check to enable custom fonts."
 msgstr ""
 "Бошқа шрифтлардан фойдаланиш учун шу "
 "ерни белгиланг."
 
-#: rc.cpp:137
+#: rc.cpp:152
 #, no-c-format
 msgid "Player font:"
 msgstr "Плейер учун шрифт:"
 
-#: rc.cpp:139 rc.cpp:142
+#: rc.cpp:154 rc.cpp:157
 #, no-c-format
 msgid "The font to use in the player window."
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
-#: rc.cpp:144
+#: rc.cpp:159
 #, no-c-format
 msgid "Marquees font:"
 msgstr "Маркиз шрифти:"
 
-#: rc.cpp:146 rc.cpp:149
+#: rc.cpp:161 rc.cpp:164
 #, no-c-format
 msgid "The font to use in the player window title scroller."
 msgstr ""
 
-#: rc.cpp:151
+#: rc.cpp:166
 #, no-c-format
 msgid "Playlist-window font:"
 msgstr "Қўшиқ рўйхати учун шрифт:"
 
-#: rc.cpp:153 rc.cpp:156
+#: rc.cpp:168 rc.cpp:171
 #, no-c-format
 msgid "The font to use in the playlist window."
 msgstr ""
 "Бу шрифт қўшиқ рўйхатининг ойнасида "
 "ишлатилади."
 
-#: rc.cpp:159
+#: rc.cpp:174
 #, no-c-format
 msgid "&amaroK default color scheme"
 msgstr "&Андоза amaroK ранг қолипи"
 
-#: rc.cpp:161
+#: rc.cpp:176
 #, no-c-format
 msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK "
 "ўзининг андоза рангларидан фойдаланади."
 
-#: rc.cpp:163
+#: rc.cpp:178
 #, no-c-format
 msgid "Current &KDE color scheme"
 msgstr "&Жорий KDE ранг қолипи"
 
-#: rc.cpp:165
+#: rc.cpp:180
 #, no-c-format
 msgid "If selected, amaroK uses the KDE standard colors in the playlist."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK "
 "жорий KDE рангларидан фойдаланади."
 
-#: rc.cpp:167
+#: rc.cpp:182
 #, no-c-format
 msgid "&Custom color scheme"
 msgstr "&Бошқа ранг қолипи"
 
-#: rc.cpp:169
+#: rc.cpp:184
 #, no-c-format
 msgid "If selected, amaroK uses the user-defined colors in the playlist."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK "
 "кўрсатилган ранглардан фойдаланади."
 
-#: rc.cpp:172
+#: rc.cpp:187
 #, no-c-format
 msgid "&Foreground:"
 msgstr "&Олдин фон:"
 
-#: rc.cpp:175
+#: rc.cpp:190
 #, no-c-format
 msgid "&Background:"
 msgstr "Орқа &фон:"
 
-#: rc.cpp:177 rc.cpp:183
+#: rc.cpp:192 rc.cpp:198
 #, no-c-format
 msgid "Selects the color to use as background color  in the playlist."
 msgstr ""
 "Қўшиқ рўйхати учун орқа фон рангини "
 "танлаш."
 
-#: rc.cpp:180
+#: rc.cpp:195
 #, no-c-format
 msgid "Selects the color to use as foreground (text) color  in the playlist."
 msgstr ""
 "Қўшиқ рўйхати учун олдин фон (матн) "
 "рангини танлаш."
 
-#: rc.cpp:185 rc.cpp:216 rc.cpp:220 rc.cpp:222 rc.cpp:228
+#: rc.cpp:200
+#, no-c-format
+msgid "Options4"
+msgstr "Параметрлар4"
+
+#: rc.cpp:202 rc.cpp:237
 #, no-c-format
 msgid "Select the sound system to use for playback."
 msgstr "Ўйнаш учун товуш тизимини танлаш."
 
-#: rc.cpp:187
+#: rc.cpp:204
 #, no-c-format
 msgid "Transition &Behavior"
 msgstr ""
 
-#: rc.cpp:189
+#: rc.cpp:206
 #, no-c-format
 msgid ""
 "<b>Transition Behavior</b>\n"
@@ -1075,90 +1133,90 @@ msgid ""
 "(with configurable fade period).</p>"
 msgstr ""
 
-#: rc.cpp:192
+#: rc.cpp:209
 #, no-c-format
 msgid "&Crossfade"
 msgstr ""
 
-#: rc.cpp:194
+#: rc.cpp:213
 #, no-c-format
 msgid ""
 "Enable crossfading between tracks. This setting also enables fading to or "
 "from silence e.g when pressing stop."
 msgstr ""
 
-#: rc.cpp:196 rc.cpp:200 rc.cpp:277
+#: rc.cpp:215 rc.cpp:219 rc.cpp:292
 #, no-c-format
 msgid " ms"
 msgstr " мс"
 
-#: rc.cpp:198 rc.cpp:214
+#: rc.cpp:217 rc.cpp:233
 #, no-c-format
 msgid "The length of the crossfade between tracks in milliseconds."
 msgstr ""
 
-#: rc.cpp:202 rc.cpp:206
+#: rc.cpp:221 rc.cpp:225
 #, no-c-format
 msgid "Silence between tracks, in milliseconds."
 msgstr ""
 "Қўшиқлар орасидаги тўхтов, "
 "миллисонияларда."
 
-#: rc.cpp:204
+#: rc.cpp:223
 #, no-c-format
 msgid "Insert &gap:"
 msgstr ""
 
-#: rc.cpp:208
+#: rc.cpp:227
 #, no-c-format
 msgid "&Normal"
 msgstr "Од&дий"
 
-#: rc.cpp:210
+#: rc.cpp:229
 #, no-c-format
 msgid ""
 "Enable normal track transition. You may insert a gap of silence between "
 "tracks."
 msgstr ""
 
-#: rc.cpp:212
+#: rc.cpp:231
 #, no-c-format
 msgid "Crossover &period:"
 msgstr ""
 
-#: rc.cpp:218
+#: rc.cpp:235
 #, no-c-format
-msgid "Sound system:"
-msgstr "Товуш тизими:"
+msgid "Sound System"
+msgstr "Товуш тизими"
 
-#: rc.cpp:224
+#: rc.cpp:241
 #, no-c-format
-msgid "&Use custom device:"
-msgstr "&Бошқа ускунани ишлатиш:"
+msgid "Alt+A"
+msgstr "Alt+A"
 
-#: rc.cpp:226
-#, no-c-format
-msgid "Output to:"
-msgstr ""
-
-#: rc.cpp:230
+#: rc.cpp:243
 #, no-c-format
 msgid "&Resume playback on start"
 msgstr ""
 
-#: rc.cpp:232
+#: rc.cpp:245
 #, no-c-format
 msgid ""
 "If checked, amaroK will resume playback from where you left it the previous "
 "session -- just like a tape-player."
 msgstr ""
 
-#: rc.cpp:234
+#: rc.cpp:247
 #, no-c-format
 msgid "Use &hardware volume mixer"
 msgstr ""
 
-#: rc.cpp:236
+#: rc.cpp:249
+#, no-c-format
+msgid "Alt+H"
+msgstr "Alt+H"
+
+#: rc.cpp:251
 #, no-c-format
 msgid ""
 "If checked, the volume slider sets the master volume on the soundcard which "
@@ -1166,162 +1224,138 @@ msgid ""
 "amaroK output."
 msgstr ""
 
-#: rc.cpp:238
+#: rc.cpp:253
 #, no-c-format
 msgid "Display Shoutcast &metadata (title streaming)"
 msgstr ""
 
-#: rc.cpp:240
+#: rc.cpp:255
 #, no-c-format
 msgid "If checked, amaroK displays metadata also for shoutcast streams."
 msgstr ""
 
-#: rc.cpp:242
+#: rc.cpp:257
 #, no-c-format
 msgid "Remember &effects"
 msgstr "Эффектларни &эслаб қолиш"
 
-#: rc.cpp:244
+#: rc.cpp:259
 #, no-c-format
 msgid ""
 "If checked, amaroK remembers the audio effects set through the effects "
 "window between sessions."
 msgstr ""
 
-#: rc.cpp:246
+#: rc.cpp:261
 #, no-c-format
 msgid "&Use On-screen-display"
 msgstr ""
 
-#: rc.cpp:248
+#: rc.cpp:263
 #, no-c-format
 msgid ""
 "Check to enable the On-Screen-Display. The OSD briefly displays track data "
 "when a new track is played."
 msgstr ""
 
-#: rc.cpp:251
+#: rc.cpp:266
 #, no-c-format
 msgid "&Font"
 msgstr "&Шрифт"
 
-#: rc.cpp:254
+#: rc.cpp:269
 #, no-c-format
 msgid "The font to use for the On-Screen Display."
 msgstr ""
 
-#: rc.cpp:256
+#: rc.cpp:271
 #, no-c-format
 msgid "Draw shadow"
 msgstr "Соя билан"
 
-#: rc.cpp:258
+#: rc.cpp:273
 #, no-c-format
 msgid "Use &custom colors"
 msgstr "&Бошқа рангларни ишлатиш"
 
-#: rc.cpp:262 rc.cpp:273
+#: rc.cpp:277 rc.cpp:288
 #, no-c-format
 msgid "The color of the OSD text."
 msgstr ""
 
-#: rc.cpp:264
+#: rc.cpp:279
 #, no-c-format
 msgid "Background color:"
 msgstr "Орқа фон ранги:"
 
-#: rc.cpp:266 rc.cpp:269
+#: rc.cpp:281 rc.cpp:284
 #, no-c-format
 msgid "The color of the OSD background."
 msgstr ""
 
-#: rc.cpp:271
+#: rc.cpp:286
 #, no-c-format
 msgid "Text color:"
 msgstr "Матннинг ранги:"
 
-#: rc.cpp:275
+#: rc.cpp:290
 #, no-c-format
 msgid "&Duration"
 msgstr "&Давом этиши"
 
-#: rc.cpp:279
+#: rc.cpp:294
 #, no-c-format
 msgid ""
 "The time in milliseconds to show the OSD. The value must be between 500 ms "
 "and 10000 ms."
 msgstr ""
 
-#: rc.cpp:281
+#: rc.cpp:296
 #, no-c-format
 msgid "&Screen"
 msgstr "&Экран"
 
-#: rc.cpp:283
+#: rc.cpp:298
 #, no-c-format
 msgid "The screen that should display the OSD."
 msgstr ""
 
-#: amarokcore/main.cpp:23 rc.cpp:285
-#, no-c-format
-msgid "amaroK"
-msgstr "amaroK"
-
-#: rc.cpp:287
-#, no-c-format
-msgid ""
-"<h3>Enter License Key</h3>\n"
-"\n"
-"Before using the album cover downloader, you must provide a (free) license "
-"key from amazon.com. You can get the license on this website:\n"
-"<br>\n"
-"<br>\n"
-"<a "
-"href=\"http://www.amazon.com/webservices\">"
-"http://www.amazon.com/webservices</a>"
-msgstr ""
-
-#: rc.cpp:294
-#, no-c-format
-msgid "Key:"
-msgstr "Калит:"
-
-#: contextbrowser.cpp:207
+#: contextbrowser.cpp:226
 msgid "Your Favorite Tracks:"
 msgstr "Севимли қўшиқлар:"
 
-#: contextbrowser.cpp:235
+#: contextbrowser.cpp:254
 msgid "Newest Tracks:"
 msgstr "Янги қўшиқлар:"
 
-#: contextbrowser.cpp:286
+#: contextbrowser.cpp:305
 msgid "Currently playing:"
 msgstr "Ўйналётган:"
 
-#: contextbrowser.cpp:347
+#: contextbrowser.cpp:366
 msgid "Favorite tracks by this artist:"
 msgstr "Шу санаткорнинг севимли қўшиқлари:"
 
-#: contextbrowser.cpp:377
+#: contextbrowser.cpp:396
 msgid "Tracks on this album:"
 msgstr "Шу албомдаги қўшиқлар:"
 
-#: contextbrowser.cpp:407
+#: contextbrowser.cpp:426
 msgid "Albums by this artist:"
 msgstr "Шу санаткорнинг албомлари:"
 
-#: contextbrowser.cpp:482
+#: contextbrowser.cpp:501
 msgid "Hello amaroK user!"
 msgstr "Салом amaroK фойдаланувчи!"
 
-#: contextbrowser.cpp:484
+#: contextbrowser.cpp:503
 msgid ""
 "This is the Context Browser: it shows you contextual information about the "
 "currently playing track.In order to use this feature of amaroK, you need to "
 "build a collection."
 msgstr ""
 
-#: contextbrowser.cpp:486
+#: contextbrowser.cpp:505
 msgid "Click here to build one."
 msgstr "Яратиш"
 
@@ -1358,46 +1392,46 @@ msgstr ""
 "1 файл\n"
 "<u>n% файл</u>"
 
-#: playlist.cpp:1079
+#: playlist.cpp:1080
 #, c-format
 msgid "Copied: %1"
 msgstr "Нусха кўчирилди: %1"
 
-#: playlist.cpp:1132
+#: playlist.cpp:1133
 msgid "&Restart"
 msgstr "&Бошқадан"
 
-#: playlist.cpp:1132
+#: playlist.cpp:1133
 msgid "&Play"
 msgstr "Ўй&наш"
 
-#: playlist.cpp:1136
+#: playlist.cpp:1137
 msgid "Play as &Next"
 msgstr "&Навбатда ўйнаш"
 
-#: playlist.cpp:1143
+#: playlist.cpp:1144
 msgid "&Dequeue (%1)"
 msgstr ""
 
-#: playlist.cpp:1146
+#: playlist.cpp:1147
 msgid "&Edit Tag: '%1'"
 msgstr "&Таҳрирлаш: '%1'"
 
-#: playlist.cpp:1147
+#: playlist.cpp:1148
 msgid ""
 "_: Spreadsheet-like\n"
 "&Fill-down Tag: '%1'"
 msgstr ""
 
-#: playlist.cpp:1148
+#: playlist.cpp:1149
 msgid "&Copy Meta-string"
 msgstr ""
 
-#: playlist.cpp:1150
+#: playlist.cpp:1151
 msgid "&Remove From Playlist"
 msgstr "Қўшиқ рўйхат&идан олиб ташлаш"
 
-#: playlist.cpp:1151
+#: playlist.cpp:1152
 msgid ""
 "_n: &Delete File\n"
 "&Delete Selected Files"
@@ -1405,15 +1439,15 @@ msgstr ""
 "Ф&айлни ўчириш\n"
 "Т&анланган файлларни ўчириш"
 
-#: playlist.cpp:1153
+#: playlist.cpp:1154
 msgid "&View Meta Information..."
 msgstr "&Мета-маълумотни кўриш"
 
-#: playlist.cpp:1212 threadweaver.cpp:421
+#: playlist.cpp:1213 threadweaver.cpp:421
 msgid "Writing tag..."
 msgstr "Тэг ёзилмоқда..."
 
-#: playlist.cpp:1513
+#: playlist.cpp:1514
 msgid "Available Columns"
 msgstr "Мавжуд устунлар"
 
@@ -1469,19 +1503,19 @@ msgstr "Қўшиқ рўйхатини кўрсатиш/бекитиш"
 msgid "Show OSD"
 msgstr ""
 
-#: app.cpp:305
+#: app.cpp:298
 msgid "Playlist"
 msgstr "Қўшиқ рўйхати"
 
-#: app.cpp:528 filebrowser.cpp:90
+#: app.cpp:501 filebrowser.cpp:92
 msgid "&Append to Playlist"
 msgstr "&Қўшиқ рўйхатига қўшиш"
 
-#: app.cpp:529
-msgid "Append && &play"
+#: app.cpp:502
+msgid "Append && &Play"
 msgstr "Қўшиш &ва ўйнаш"
 
-#: app.cpp:594
+#: app.cpp:567
 msgid ""
 "<qt>"
 "Closing the main-window will keep amaroK running in the System Tray. Use "
@@ -1489,15 +1523,15 @@ msgid ""
 "application.</qt>"
 msgstr ""
 
-#: app.cpp:596
+#: app.cpp:569
 msgid "Docking in System Tray"
 msgstr ""
 
-#: app.cpp:613
+#: app.cpp:586
 msgid "amaroK - Audio Player"
 msgstr "amaroK - Аудио плейер"
 
-#: app.cpp:632
+#: app.cpp:605
 msgid "Volume: %1%"
 msgstr "Товуш: %1%"
 
@@ -1509,13 +1543,17 @@ msgstr "Устма-уст"
 msgid "OSD Preview - drag to reposition"
 msgstr ""
 
-#: coverfetcher.cpp:105
-msgid "CoverFetcher buffer overflow. Image is bigger than <i>%1</i> bytes. Aborting."
+#: coverfetcher.cpp:139
+#, c-format
+msgid ""
+"_n: CoverFetcher buffer overflow. Image is bigger than <i>1</i> byte. "
+"Aborting.\n"
+"CoverFetcher buffer overflow. Image is bigger than <i>%n</i> bytes. Aborting."
 msgstr ""
 
-#: coverfetcher.cpp:123
-msgid "<h3>No cover images available for album</h3><p><i>%1</i></p>"
-msgstr ""
+#: coverfetcher.cpp:179
+msgid "New search"
+msgstr "Янги қидирув"
 
 #: amarokcore/main.cpp:24
 msgid "The audio player for KDE"
@@ -1724,19 +1762,21 @@ msgstr ""
 msgid "click here"
 msgstr "бу ерни босинг"
 
-#: filebrowser.cpp:214
-msgid "Apply last filter (\"%1\")"
-msgstr "Охирги филтерни (%1) қўллаш"
+#: filebrowser.cpp:127
+msgid "Enter space-separated terms to filter files"
+msgstr ""
+"Қўшиқ ройхатини филтерлаш учун бўш жой "
+"билан ажратилган сўзларни киритинг"
 
 #: effectwidget.cpp:44
 msgid "Effects"
 msgstr "Эффектлар"
 
-#: effectwidget.cpp:61
+#: effectwidget.cpp:60
 msgid "Available Effects"
 msgstr "Мавжуд эффектлар"
 
-#: effectwidget.cpp:62
+#: effectwidget.cpp:61
 msgid "Active Effects"
 msgstr "Актив эффектлар"
 
