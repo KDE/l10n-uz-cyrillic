@@ -5,14 +5,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: noatun\n"
-"POT-Creation-Date: 2004-02-12 22:41+0100\n"
-"PO-Revision-Date: 2004-01-30 20:20+0000\n"
+"POT-Creation-Date: 2004-03-14 01:27+0100\n"
+"PO-Revision-Date: 2004-05-06 15:38+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"X-Generator: KBabel 1.3\n"
 
 #: library/equalizerview.cpp:111 rc.cpp:1
 msgid "Equalizer"
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Video - Noatun"
 msgstr "Видео - Noatun"
 
-#: library/ksaver.cpp:81 modules/splitplaylist/view.cpp:461
+#: library/ksaver.cpp:81 modules/splitplaylist/view.cpp:464
 #, c-format
 msgid "Could not write to %1."
 msgstr "%1'га ёзиб бўлмади"
@@ -308,8 +308,9 @@ msgid "&Return to start of playlist on finish"
 msgstr "&Тугагач қўшиқ рўйхатининг бошига қайтиш"
 
 #: library/cmodule.cpp:217
+#, fuzzy
 msgid ""
-"When the playlist is finished playing, return to the start, but don't start "
+"When the playlist is finished playing, return to the start, but do not start "
 "playing."
 msgstr ""
 "Қўшиқ рўйхатининг охирига етгач бошига "
@@ -490,7 +491,7 @@ msgid "There was an error communicating to the aRts daemon."
 msgstr ""
 
 #: library/engine.cpp:254
-msgid "Danger, Will Robinson!"
+msgid "aRts error"
 msgstr ""
 
 #: library/engine.cpp:550
@@ -499,8 +500,8 @@ msgid ""
 "configured properly."
 msgstr ""
 
-#: library/app.cpp:377 modules/kjofol-skin/kjbutton.cpp:217
-#: modules/splitplaylist/view.cpp:865
+#: library/app.cpp:376 modules/kjofol-skin/kjbutton.cpp:217
+#: modules/splitplaylist/view.cpp:868
 msgid "Select File to Play"
 msgstr ""
 
@@ -635,7 +636,7 @@ msgstr ""
 #: library/effectview.cpp:172
 msgid ""
 "This shows your effect chain. Noatun supports an unlimited amount of effects "
-"in any order. You can even have the same effect twice!\n"
+"in any order. You can even have the same effect twice.\n"
 "\n"
 "Drag the items to and from here to add and remove them, respectively. You "
 "may also reorder them with drag-and-drop. These actions can also be "
@@ -774,6 +775,12 @@ msgstr ""
 "<qt>Менюлар панелини кўрсатиш учун %1'ни "
 "босинг.</qt>"
 
+#: modules/marquis/marquis.cpp:161
+msgid ""
+"No playlist plugin was found. Please make sure that Noatun was installed "
+"correctly."
+msgstr ""
+
 #: modules/metatag/edit.cpp:27
 msgid "Tag Editor"
 msgstr "Тэг таҳрирчи"
@@ -826,52 +833,52 @@ msgstr "Доимий и&фода"
 msgid "Find &backwards"
 msgstr "О&рқага қидириш"
 
-#: modules/splitplaylist/view.cpp:346
+#: modules/splitplaylist/view.cpp:349
 msgid "Time"
 msgstr "Вақт"
 
-#: modules/splitplaylist/view.cpp:627
+#: modules/splitplaylist/view.cpp:630
 msgid "Add &Files..."
 msgstr "&Файлларни қўшиш"
 
-#: modules/splitplaylist/view.cpp:628
+#: modules/splitplaylist/view.cpp:631
 msgid "Add Fol&ders..."
 msgstr "&Жилдларни қўшиш"
 
-#: modules/splitplaylist/view.cpp:640
+#: modules/splitplaylist/view.cpp:643
 msgid "Shuffle"
 msgstr "Тартибсиз"
 
-#: modules/splitplaylist/view.cpp:731
+#: modules/splitplaylist/view.cpp:734
 msgid "End of playlist reached. Continue searching from beginning?"
 msgstr ""
 "Кўшиқ рўйхатининг охири. Қидиришни "
 "бошидан бошлайми?"
 
-#: modules/splitplaylist/view.cpp:736
+#: modules/splitplaylist/view.cpp:739
 msgid "Beginning of playlist reached. Continue searching from end?"
 msgstr ""
 "Кўшиқ рўйхатининг боши. Қидиришни "
 "охиридан бошлайми?"
 
-#: modules/splitplaylist/view.cpp:818
+#: modules/splitplaylist/view.cpp:821
 msgid "Save Playlist"
 msgstr "Қўшиқ рўйхатини сақлаш"
 
-#: modules/splitplaylist/view.cpp:827
+#: modules/splitplaylist/view.cpp:830
 msgid "Insert Playlist"
 msgstr "Қўшиқ рўйхатидан қўйиш"
 
-#: modules/splitplaylist/view.cpp:836
+#: modules/splitplaylist/view.cpp:839
 msgid "Open New Playlist"
 msgstr "Янги қўшиқ рўйхатини очиш"
 
-#: modules/splitplaylist/view.cpp:876
+#: modules/splitplaylist/view.cpp:879
 msgid "Select Folder"
 msgstr "Жилдни танлаш"
 
 #: modules/kjofol-skin/kjbutton.cpp:123 modules/noatunui/userinterface.cpp:67
-#: modules/simple/userinterface.cpp:221 modules/splitplaylist/view.cpp:904
+#: modules/simple/userinterface.cpp:221 modules/splitplaylist/view.cpp:907
 msgid "Playlist"
 msgstr "Қўшиқ рўйхати"
 
@@ -924,13 +931,13 @@ msgstr "Тўхтатилган"
 msgid "%1 - Paused"
 msgstr "%1 - вақтинча тўхтатилган"
 
-#: modules/kaiman/style.cpp:1380
+#: modules/kaiman/style.cpp:1377
 msgid "Cannot load style. Style not installed."
 msgstr ""
 "Услубни юклаб бўлмади. Услуб "
 "ўрнатилмаган."
 
-#: modules/kaiman/style.cpp:1384
+#: modules/kaiman/style.cpp:1381
 msgid "Cannot load style. Unsupported or faulty style description."
 msgstr ""
 
@@ -939,12 +946,12 @@ msgid "Kaiman"
 msgstr "Kaiman"
 
 #: modules/kaiman/userinterface.cpp:89
-msgid "Can't load skin %1. Switching to default skin."
+msgid "Cannot load skin %1. Switching to default skin."
 msgstr ""
 
 #: modules/kaiman/userinterface.cpp:92
 #, c-format
-msgid "Can't load default skin %1."
+msgid "Cannot load default skin %1."
 msgstr ""
 
 #: modules/kaiman/pref.cpp:35 modules/kaiman/pref.cpp:39
@@ -966,7 +973,7 @@ msgstr "номаълум"
 #: modules/simple/propertiesdialog.ui.h:49
 #, c-format
 msgid "Properties for %1"
-msgstr "%1 ҳоссалари"
+msgstr "%1 хоссалари"
 
 #: modules/simple/userinterface.cpp:202
 msgid "Play / Pause"
@@ -995,7 +1002,7 @@ msgid "O&ther Settings"
 msgstr "Бошқа &мосламалар"
 
 #: modules/kjofol-skin/kjprefs.cpp:382
-msgid "Non-Local files aren't supported yet"
+msgid "Non-Local files are not supported yet"
 msgstr ""
 
 #: modules/kjofol-skin/kjprefs.cpp:397
@@ -1142,15 +1149,13 @@ msgid "&Sweep color:"
 msgstr ""
 
 #: modules/infrared/lirc.cpp:22
-msgid ""
-"Could not create a socket to receive infrared signals. The error is:\n"
+msgid "Could not create a socket to receive infrared signals. The error is:\n"
 msgstr ""
 "Инфрақизил сигналларни қабул қилиш учун "
 "сокетни яратиб бўлмади. Хато:\n"
 
 #: modules/infrared/lirc.cpp:30
-msgid ""
-"Could not establish a connection to receive infrared signals. The error is:\n"
+msgid "Could not establish a connection to receive infrared signals. The error is:\n"
 msgstr ""
 "Инфрақизил сигналларни қабул қилиш учун "
 "алоқа ўрнатиб бўлмади. Хато:\n"
@@ -1180,7 +1185,7 @@ msgid "&Interval:"
 msgstr "Ора&лиқ:"
 
 #: modules/infrared/irprefs.cpp:132
-msgid "You don't have any remote control configured."
+msgid "You do not have any remote control configured."
 msgstr ""
 
 #: modules/infrared/irprefs.cpp:133
@@ -1351,3 +1356,4 @@ msgstr ""
 #: modules/noatunui/userinterface.cpp:218
 msgid "No File Loaded"
 msgstr "Ҳеч қандай файл юкланмаган"
+

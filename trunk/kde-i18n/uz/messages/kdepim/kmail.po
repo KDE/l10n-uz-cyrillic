@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2004-05-03 01:47+0200\n"
-"PO-Revision-Date: 2004-03-07 16:52-0500\n"
+"POT-Creation-Date: 2004-05-05 01:40+0200\n"
+"PO-Revision-Date: 2004-05-06 15:38+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2482,8 +2482,7 @@ msgid "Critical error: Unable to collect mail: "
 msgstr ""
 
 #: kmaccount.cpp:248
-msgid ""
-"Failed to add message:\n"
+msgid "Failed to add message:\n"
 msgstr ""
 
 #: kmacctexppop.cpp:295
@@ -3044,7 +3043,7 @@ msgstr "Иловани &сақлаш"
 
 #: kmcomposewin.cpp:1045
 msgid "Attachment Pr&operties..."
-msgstr "Илованинг &ҳоссалари"
+msgstr "Илованинг &хоссалари"
 
 #: kmcomposewin.cpp:1055
 msgid "&Spellchecker..."
@@ -4141,11 +4140,18 @@ msgstr ""
 msgid "%1: Checking folder validity"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1520
+#: kmfoldercachedimap.cpp:1355
+msgid ""
+"<qt>"
+"<p>It seems that the folder <b>%1</b> was deleted. Do you want to delete it "
+"from the server?</p></qt>"
+msgstr ""
+
+#: kmfoldercachedimap.cpp:1524
 msgid "Aborted"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1521
+#: kmfoldercachedimap.cpp:1525
 msgid "%1: Aborted"
 msgstr ""
 
@@ -4517,7 +4523,7 @@ msgstr ""
 #: kmfoldertree.cpp:227
 #, c-format
 msgid "Properties of Folder %1"
-msgstr "%1 жилднинг ҳоссалари"
+msgstr "%1 жилднинг хоссалари"
 
 #: kmfoldertree.cpp:257 kmheaders.cpp:564
 msgid "View Columns"
@@ -4612,7 +4618,7 @@ msgstr "&Янги хабар"
 
 #: kmfoldertree.cpp:967 kmmainwidget.cpp:2205
 msgid "&Properties"
-msgstr "&Ҳоссалари"
+msgstr "&Хоссалари"
 
 #: kmfoldertree.cpp:1035
 msgid "Create Subfolder"
@@ -5982,8 +5988,7 @@ msgid ""
 msgstr ""
 
 #: kmreaderwin.cpp:970 kmreaderwin.cpp:987
-msgid ""
-"<li>%1</li>\n"
+msgid "<li>%1</li>\n"
 msgstr ""
 
 #: kmreaderwin.cpp:975
@@ -6102,17 +6107,17 @@ msgid ""
 "(%2) and should be opened with '%3'.</p></qt>"
 msgstr ""
 
-#: kmsearchpattern.cpp:846
+#: kmsearchpattern.cpp:853
 msgid ""
 "_: name used for a virgin filter\n"
 "unknown"
 msgstr "номаълум"
 
-#: kmsearchpattern.cpp:852
+#: kmsearchpattern.cpp:859
 msgid "(match any of the following)"
 msgstr ""
 
-#: kmsearchpattern.cpp:854
+#: kmsearchpattern.cpp:861
 msgid "(match all of the following)"
 msgstr ""
 
@@ -7656,7 +7661,7 @@ msgid ""
 msgstr ""
 
 #: rc.cpp:93 rc.cpp:103 rc.cpp:109 rc.cpp:210 rc.cpp:219 rc.cpp:222
-#: rulewidgethandlermanager.cpp:1123 vacationdialog.cpp:74
+#: rulewidgethandlermanager.cpp:1446 vacationdialog.cpp:74
 msgid " days"
 msgstr " кун"
 
@@ -7790,7 +7795,7 @@ msgstr ""
 
 #: rc.cpp:118
 msgid "Folder Properties"
-msgstr "Жилднинг ҳоссалари"
+msgstr "Жилднинг хоссалари"
 
 #: rc.cpp:121
 msgid "Folder holds a &mailing list"
@@ -8265,86 +8270,96 @@ msgstr ""
 msgid "Edit..."
 msgstr "Таҳрирлаш"
 
-#: rulewidgethandlermanager.cpp:372
+#: rulewidgethandlermanager.cpp:409 rulewidgethandlermanager.cpp:744
 msgid "contains"
 msgstr ""
 
-#: rulewidgethandlermanager.cpp:373
+#: rulewidgethandlermanager.cpp:410 rulewidgethandlermanager.cpp:745
 msgid "does not contain"
 msgstr ""
 
-#: rulewidgethandlermanager.cpp:374
+#: rulewidgethandlermanager.cpp:411
 msgid "equals"
 msgstr "тенг"
 
-#: rulewidgethandlermanager.cpp:375
+#: rulewidgethandlermanager.cpp:412
 #, fuzzy
 msgid "does not equal"
 msgstr "тенг эмас"
 
-#: rulewidgethandlermanager.cpp:376
+#: rulewidgethandlermanager.cpp:413 rulewidgethandlermanager.cpp:746
 msgid "matches regular expr."
 msgstr ""
 
-#: rulewidgethandlermanager.cpp:377
+#: rulewidgethandlermanager.cpp:414 rulewidgethandlermanager.cpp:747
 msgid "does not match reg. expr."
 msgstr ""
 
-#: rulewidgethandlermanager.cpp:378 rulewidgethandlermanager.cpp:529
+#: rulewidgethandlermanager.cpp:415 rulewidgethandlermanager.cpp:565
 #, fuzzy
 msgid "is in address book"
 msgstr "Манзиллар дафтарида очиш"
 
-#: rulewidgethandlermanager.cpp:379 rulewidgethandlermanager.cpp:531
+#: rulewidgethandlermanager.cpp:416 rulewidgethandlermanager.cpp:567
 #, fuzzy
 msgid "is not in address book"
 msgstr "Манзиллар дафтарида очиш"
 
-#: rulewidgethandlermanager.cpp:380
+#: rulewidgethandlermanager.cpp:417
 msgid "is in category"
 msgstr ""
 
-#: rulewidgethandlermanager.cpp:381
+#: rulewidgethandlermanager.cpp:418
 msgid "is not in category"
 msgstr ""
 
-#: rulewidgethandlermanager.cpp:706
+#: rulewidgethandlermanager.cpp:748 rulewidgethandlermanager.cpp:877
+#, fuzzy
+msgid "has an attachment"
+msgstr "илова"
+
+#: rulewidgethandlermanager.cpp:749 rulewidgethandlermanager.cpp:879
+#, fuzzy
+msgid "has no attachment"
+msgstr "илова"
+
+#: rulewidgethandlermanager.cpp:1029
 #, fuzzy
 msgid "is"
 msgstr "Хар ҳил"
 
-#: rulewidgethandlermanager.cpp:707
+#: rulewidgethandlermanager.cpp:1030
 #, fuzzy
 msgid "is not"
 msgstr "жўнатилган"
 
-#: rulewidgethandlermanager.cpp:962
+#: rulewidgethandlermanager.cpp:1285
 #, fuzzy
 msgid "is equal to"
 msgstr "га тенг ё кичик"
 
-#: rulewidgethandlermanager.cpp:963
+#: rulewidgethandlermanager.cpp:1286
 #, fuzzy
 msgid "is not equal to"
 msgstr "га тенг ё кичик"
 
-#: rulewidgethandlermanager.cpp:964
+#: rulewidgethandlermanager.cpp:1287
 msgid "is greater than"
 msgstr "дан катта"
 
-#: rulewidgethandlermanager.cpp:965
+#: rulewidgethandlermanager.cpp:1288
 msgid "is less than or equal to"
 msgstr "га тенг ё кичик"
 
-#: rulewidgethandlermanager.cpp:966
+#: rulewidgethandlermanager.cpp:1289
 msgid "is less than"
 msgstr "дан кичик"
 
-#: rulewidgethandlermanager.cpp:967
+#: rulewidgethandlermanager.cpp:1290
 msgid "is greater than or equal to"
 msgstr "дан катта ё тенг"
 
-#: rulewidgethandlermanager.cpp:1119
+#: rulewidgethandlermanager.cpp:1442
 #, fuzzy
 msgid " bytes"
 msgstr " байт"
@@ -8739,7 +8754,7 @@ msgstr "&Кейинги хабар"
 msgid "&Previous Card"
 msgstr "&Олдинги хабар"
 
-#: vcardviewer.cpp:61
+#: vcardviewer.cpp:62
 #, fuzzy
 msgid "Failed to parse vCard."
 msgstr "Жилдни яратиб бўлмади"
@@ -8792,128 +8807,63 @@ msgstr ""
 msgid "Send message to 'address' resp. attach the file the 'URL' points to."
 msgstr ""
 
-#: kmsearchpattern.h:216
+#: kmsearchpattern.h:217
 msgid "new"
 msgstr "янги"
 
-#: kmsearchpattern.h:217
+#: kmsearchpattern.h:218
 msgid "unread"
 msgstr "ўқилмаган"
 
-#: kmsearchpattern.h:218
+#: kmsearchpattern.h:219
 msgid "read"
 msgstr "ўқилган"
 
-#: kmsearchpattern.h:219
+#: kmsearchpattern.h:220
 msgid "old"
 msgstr "эски"
 
-#: kmsearchpattern.h:220
+#: kmsearchpattern.h:221
 msgid "deleted"
 msgstr "ўчирилган"
 
-#: kmsearchpattern.h:221
+#: kmsearchpattern.h:222
 msgid "replied"
 msgstr "жавоб берилган"
 
-#: kmsearchpattern.h:222
+#: kmsearchpattern.h:223
 msgid "forwarded"
 msgstr "узатилган"
 
-#: kmsearchpattern.h:223
+#: kmsearchpattern.h:224
 msgid "queued"
 msgstr "навбатда"
 
-#: kmsearchpattern.h:224
+#: kmsearchpattern.h:225
 msgid "sent"
 msgstr "жўнатилган"
 
-#: kmsearchpattern.h:225
+#: kmsearchpattern.h:226
 msgid "important"
 msgstr "муҳим"
 
-#: kmsearchpattern.h:226
+#: kmsearchpattern.h:227
 msgid "watched"
 msgstr ""
 
-#: kmsearchpattern.h:227
+#: kmsearchpattern.h:228
 msgid "ignored"
 msgstr ""
 
-#: kmsearchpattern.h:228
+#: kmsearchpattern.h:229
 msgid "spam"
 msgstr ""
 
-#: kmsearchpattern.h:229
+#: kmsearchpattern.h:230
 msgid "ham"
 msgstr ""
 
-#: kmsearchpattern.h:230
+#: kmsearchpattern.h:231
 msgid "todo"
 msgstr ""
 
-#~ msgid "Account type: Imap Account"
-#~ msgstr "Ҳисобнинг тури: IMAP ҳисоб"
-
-#~ msgid "Identities"
-#~ msgstr "Шахсиятлар"
-
-#~ msgid "Manage Identities"
-#~ msgstr "Шахсиятларни бошқариш"
-
-#~ msgid "Network"
-#~ msgstr "Тармоқ"
-
-#~ msgid "Security"
-#~ msgstr "Хавфсизлик"
-
-#~ msgid "&New"
-#~ msgstr "&Янги"
-
-#~ msgid "Ac&tivate"
-#~ msgstr "&Активлаштириш"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "&Мослаш..."
-
-#~ msgid "Configure %1 Plugin"
-#~ msgstr "%1 плагин мосламаси"
-
-#~ msgid "Can't save to addressbook."
-#~ msgstr "Манзиллар дафтарига сақлаб бўлмади."
-
-#~ msgid "&CC:"
-#~ msgstr "&Нусха:"
-
-#~ msgid "&Attach file..."
-#~ msgstr "Файлни &илова қилиш"
-
-#~ msgid "Description:"
-#~ msgstr "Таьрифи:"
-
-#~ msgid "View..."
-#~ msgstr "Кўриш..."
-
-#~ msgid "Properties..."
-#~ msgstr "Ҳоссалари..."
-
-#~ msgid "&Open with..."
-#~ msgstr "...&билан очиш"
-
-#~ msgid "Good signature!"
-#~ msgstr "Ҳақиқий имзо!"
-
-#~ msgid "389"
-#~ msgstr "389"
-
-#~ msgid "&Server name:"
-#~ msgstr "&Сервернинг номи:"
-
-#~ msgid "Server Name"
-#~ msgstr "Сервер номи"
-
-#~ msgid "Port"
-#~ msgstr "Порт"
-
-#~ msgid "&Add Service..."
-#~ msgstr "Хизматни &қўшиш"
