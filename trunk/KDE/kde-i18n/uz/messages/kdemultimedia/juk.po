@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
-"POT-Creation-Date: 2005-03-18 01:24+0100\n"
+"POT-Creation-Date: 2005-05-08 01:24+0200\n"
 "PO-Revision-Date: 2004-08-04 01:39+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -243,7 +243,7 @@ msgstr "Жилдни олиб ташлаш"
 msgid "Time"
 msgstr "Вақт"
 
-#: juk.cpp:122 systemtray.cpp:149
+#: juk.cpp:122 systemtray.cpp:177
 msgid "&Random Play"
 msgstr "&Тасодифий ўйнаш"
 
@@ -375,7 +375,7 @@ msgstr "Олдинга"
 msgid "Show / Hide"
 msgstr "Кўрсатиш/Бекитиш"
 
-#: juk.cpp:238 playlistcollection.cpp:828
+#: juk.cpp:238 playlistcollection.cpp:846
 msgid "Play Next Album"
 msgstr ""
 
@@ -523,11 +523,11 @@ msgstr "Қўшиқ рўйхатлари"
 msgid "Querying MusicBrainz server..."
 msgstr ""
 
-#: musicbrainzquery.cpp:49
+#: musicbrainzquery.cpp:50
 msgid "No matches found."
 msgstr "Мос келадиган ҳеч нарса топилмади"
 
-#: musicbrainzquery.cpp:61
+#: musicbrainzquery.cpp:64
 msgid "Error connecting to MusicBrainz server."
 msgstr ""
 
@@ -536,154 +536,166 @@ msgstr ""
 msgid "back to playlist"
 msgstr "Қўшиқ рўйхатларини импорт қилиш"
 
-#: nowplaying.cpp:254 nowplaying.cpp:269 playlistcollection.cpp:511
+#: nowplaying.cpp:254 nowplaying.cpp:269 playlistcollection.cpp:529
 msgid "History"
 msgstr "Тарих"
 
-#: playermanager.cpp:218
+#: playermanager.cpp:232
 msgid "&Output To"
 msgstr ""
 
-#: playermanager.cpp:222 playermanager.cpp:516
+#: playermanager.cpp:236 playermanager.cpp:530
 #, fuzzy
 msgid "aRts"
 msgstr "Санаткор"
 
-#: playermanager.cpp:225 playermanager.cpp:518
+#: playermanager.cpp:239 playermanager.cpp:532
 msgid "GStreamer"
 msgstr ""
 
-#: playermanager.cpp:227 playermanager.cpp:520
+#: playermanager.cpp:241 playermanager.cpp:534
 msgid "aKode"
 msgstr ""
 
-#: playlist.cpp:537
+#: playlist.cpp:538
 #, c-format
 msgid "Could not save to file %1."
 msgstr ""
 
-#: playlist.cpp:795
+#: playlist.cpp:796
 #, fuzzy
 msgid "Are you sure you want to delete these covers?"
 msgstr "Ушбу бандларни олиб ташлашни истайсизми?"
 
-#: playlist.cpp:797
+#: playlist.cpp:798
 msgid "&Delete Covers"
 msgstr ""
 
-#: playlist.cpp:813
+#: playlist.cpp:830
+msgid ""
+"None of the items you have selected can be assigned a cover.  A track must "
+"have both the Artist and Album tags set to be assigned a cover."
+msgstr ""
+
+#: playlist.cpp:841
 #, fuzzy
 msgid "Select Cover Image File"
 msgstr "&Устунларни кўрсатиш"
 
-#: playlist.cpp:952
+#: playlist.cpp:980
 #, fuzzy
 msgid "Could not delete these files"
 msgstr "Кўрсатилган файлларни ўчириб бўлмади."
 
-#: playlist.cpp:953
+#: playlist.cpp:981
 #, fuzzy
 msgid "Could not move these files to the Trash"
 msgstr "Ушбу бандларни олиб ташлашни истайсизми?"
 
+#: playlist.cpp:1299
+msgid ""
+"The following songs were ignored because they don't have both their Artist "
+"and Album tags filled in."
+msgstr ""
+
 #. i18n: file trackpickerdialogbase.ui line 89
-#: playlist.cpp:1371 rc.cpp:259
+#: playlist.cpp:1418 rc.cpp:259
 #, no-c-format
 msgid "Track Name"
 msgstr "Қўшиқнинг номи"
 
 #. i18n: file exampleoptionsbase.ui line 93
-#: playlist.cpp:1372 rc.cpp:83 rc.cpp:262 tagrenameroptions.cpp:91
+#: playlist.cpp:1419 rc.cpp:83 rc.cpp:262 tagrenameroptions.cpp:91
 #, no-c-format
 msgid "Artist"
 msgstr "Санаткор"
 
 #. i18n: file exampleoptionsbase.ui line 109
-#: playlist.cpp:1373 rc.cpp:89 rc.cpp:265 tagrenameroptions.cpp:91
+#: playlist.cpp:1420 rc.cpp:89 rc.cpp:265 tagrenameroptions.cpp:91
 #, no-c-format
 msgid "Album"
 msgstr "Албом"
 
-#: playlist.cpp:1374
+#: playlist.cpp:1421
 msgid "Cover"
 msgstr ""
 
 #. i18n: file trackpickerdialogbase.ui line 122
-#: playlist.cpp:1375 rc.cpp:268 tagrenameroptions.cpp:92
+#: playlist.cpp:1422 rc.cpp:268 tagrenameroptions.cpp:92
 #, no-c-format
 msgid "Track"
 msgstr ""
 
 #. i18n: file exampleoptionsbase.ui line 179
-#: playlist.cpp:1376 rc.cpp:107 tagrenameroptions.cpp:92
+#: playlist.cpp:1423 rc.cpp:107 tagrenameroptions.cpp:92
 #, no-c-format
 msgid "Genre"
 msgstr "Жанр"
 
 #. i18n: file trackpickerdialogbase.ui line 133
-#: playlist.cpp:1377 rc.cpp:271 tagrenameroptions.cpp:92
+#: playlist.cpp:1424 rc.cpp:271 tagrenameroptions.cpp:92
 #, no-c-format
 msgid "Year"
 msgstr "Йил"
 
-#: playlist.cpp:1378
+#: playlist.cpp:1425
 msgid "Length"
 msgstr "Узунлиги"
 
-#: playlist.cpp:1379
+#: playlist.cpp:1426
 msgid "Bitrate"
 msgstr ""
 
-#: playlist.cpp:1380
+#: playlist.cpp:1427
 msgid "Comment"
 msgstr "Изоҳ"
 
 #. i18n: file trackpickerdialogbase.ui line 32
-#: playlist.cpp:1381 rc.cpp:252
+#: playlist.cpp:1428 rc.cpp:252
 #, no-c-format
 msgid "File Name"
 msgstr "Файлнинг номи"
 
-#: playlist.cpp:1382
+#: playlist.cpp:1429
 msgid "File Name (full path)"
 msgstr "Файлнинг номи (тўлиқ йўл)"
 
-#: playlist.cpp:1402
+#: playlist.cpp:1449
 msgid "&Show Columns"
 msgstr "&Устунларни кўрсатиш"
 
-#: playlist.cpp:1405
+#: playlist.cpp:1452
 msgid "Show"
 msgstr "Кўрсатиш"
 
-#: playlist.cpp:1924
+#: playlist.cpp:1973
 msgid "Add to Play Queue"
 msgstr ""
 
-#: playlist.cpp:1952
+#: playlist.cpp:2001
 #, fuzzy
 msgid "Create Playlist From Selected Items..."
 msgstr "Танланган кўшиқлардан рўйхат яратиш"
 
-#: playlist.cpp:1974
+#: playlist.cpp:2023
 msgid "Edit '%1'"
 msgstr "%1ни таҳрирлаш"
 
-#: playlist.cpp:2085
+#: playlist.cpp:2134
 msgid "This will edit multiple files. Are you sure?"
 msgstr ""
 
-#: playlist.cpp:2140 playlistcollection.h:161
+#: playlist.cpp:2189 playlistcollection.h:162
 msgid "Create New Playlist"
 msgstr "Янги қўшиқ рўйхатини яратиш"
 
-#: playlist.cpp:2153
+#: playlist.cpp:2202
 msgid ""
 "Manual column widths have been enabled.  You can switch back to automatic "
 "column sizes in the view menu."
 msgstr ""
 
-#: playlist.cpp:2156
+#: playlist.cpp:2205
 msgid "Manual Column Widths Enabled"
 msgstr ""
 
@@ -691,7 +703,7 @@ msgstr ""
 msgid "View Modes"
 msgstr "Кўриш усуллари"
 
-#: playlistbox.cpp:198 playlistcollection.cpp:360
+#: playlistbox.cpp:198 playlistcollection.cpp:378
 msgid "Duplicate"
 msgstr ""
 
@@ -717,144 +729,144 @@ msgstr "Бандларни олиб ташлаш"
 msgid "Hid&e"
 msgstr ""
 
-#: playlistbox.cpp:645 playlistcollection.cpp:836
+#: playlistbox.cpp:645 playlistcollection.cpp:854
 msgid "R&emove"
 msgstr "&Олиб ташлаш"
 
-#: playlistcollection.cpp:165
+#: playlistcollection.cpp:166
 msgid "Dynamic List"
 msgstr ""
 
-#: playlistcollection.cpp:205
+#: playlistcollection.cpp:206
 #, fuzzy
 msgid "Now Playing"
 msgstr "Ўйнашни тўхтатиш"
 
-#: playlistcollection.cpp:286
+#: playlistcollection.cpp:304
 msgid "Do you want to add these items to the current list or to the collection list?"
 msgstr ""
 
-#: playlistcollection.cpp:288
+#: playlistcollection.cpp:306
 msgid "Current"
 msgstr "Жорий"
 
-#: playlistcollection.cpp:289
+#: playlistcollection.cpp:307
 msgid "Collection"
 msgstr "Тўплам"
 
-#: playlistcollection.cpp:348
+#: playlistcollection.cpp:366
 msgid "Rename"
 msgstr "Номини ўзгартириш"
 
-#: playlistcollection.cpp:455
+#: playlistcollection.cpp:473
 msgid "Search Playlist"
 msgstr ""
 
-#: playlistcollection.cpp:472
+#: playlistcollection.cpp:490
 msgid "Create Folder Playlist"
 msgstr ""
 
-#: playlistcollection.cpp:689
+#: playlistcollection.cpp:707
 msgid "Please enter a name for this playlist:"
 msgstr ""
 "Илтимос кўшиқ рўйхатининг номини "
 "киритинг:"
 
-#: playlistcollection.cpp:802
+#: playlistcollection.cpp:820
 msgid "&New"
 msgstr "&Янги"
 
-#: playlistcollection.cpp:804
+#: playlistcollection.cpp:822
 msgid "&Empty Playlist..."
 msgstr "&Бўш қўшиқ рўйхати"
 
-#: playlistcollection.cpp:806
+#: playlistcollection.cpp:824
 msgid "&Search Playlist..."
 msgstr "Қўшиқ &рўйхатида қидириш"
 
-#: playlistcollection.cpp:808
+#: playlistcollection.cpp:826
 msgid "Playlist From &Folder..."
 msgstr "&Жилддан қўшиқ рўйхати"
 
-#: playlistcollection.cpp:814
+#: playlistcollection.cpp:832
 msgid "&Guess Tag Information"
 msgstr "&Тэгни таҳминлаш"
 
-#: playlistcollection.cpp:817
+#: playlistcollection.cpp:835
 msgid "From &File Name"
 msgstr "Файлнинг &номидан"
 
-#: playlistcollection.cpp:819
+#: playlistcollection.cpp:837
 msgid "From &Internet"
 msgstr "&Интернетдан"
 
-#: playlistcollection.cpp:822
+#: playlistcollection.cpp:840
 msgid "Guess Tag Information From &File Name"
 msgstr "Тэгни &файлнинг номидан таҳминлаш"
 
-#: playlistcollection.cpp:827
+#: playlistcollection.cpp:845
 msgid "Play First Track"
 msgstr "Биринчи қўшиқни ўйнаш"
 
-#: playlistcollection.cpp:831
+#: playlistcollection.cpp:849
 msgid "Add &Folder..."
 msgstr "&Жилдни қўшиш"
 
-#: playlistcollection.cpp:832
+#: playlistcollection.cpp:850
 msgid "&Rename..."
 msgstr "Но&мини ўзгартириш"
 
-#: playlistcollection.cpp:833
+#: playlistcollection.cpp:851
 msgid "D&uplicate..."
 msgstr ""
 
-#: playlistcollection.cpp:838
+#: playlistcollection.cpp:856
 msgid "Edit Search..."
 msgstr ""
 
-#: playlistcollection.cpp:841
+#: playlistcollection.cpp:859
 msgid "Refresh"
 msgstr "Янгилаш"
 
-#: playlistcollection.cpp:842
+#: playlistcollection.cpp:860
 msgid "&Rename File"
 msgstr "&Файлнинг номини ўзгартириш"
 
-#: playlistcollection.cpp:844
+#: playlistcollection.cpp:862
 msgid "Cover Manager"
 msgstr ""
 
-#: playlistcollection.cpp:846
+#: playlistcollection.cpp:864
 #, fuzzy
 msgid "&View Cover"
 msgstr "Кўриш усуллари"
 
-#: playlistcollection.cpp:848
+#: playlistcollection.cpp:866
 msgid "Get Cover From &File..."
 msgstr ""
 
-#: playlistcollection.cpp:850
+#: playlistcollection.cpp:868
 #, fuzzy
 msgid "Get Cover From &Internet..."
 msgstr "&Интернетдан"
 
-#: playlistcollection.cpp:852
+#: playlistcollection.cpp:870
 msgid "&Delete Cover"
 msgstr ""
 
-#: playlistcollection.cpp:856
+#: playlistcollection.cpp:874
 msgid "Show &History"
 msgstr "Тарихни &кўрсатиш"
 
-#: playlistcollection.cpp:857
+#: playlistcollection.cpp:875
 msgid "Hide &History"
 msgstr "Тарихни &бекитиш"
 
-#: playlistcollection.cpp:860
+#: playlistcollection.cpp:878
 msgid "Show &Play Queue"
 msgstr ""
 
-#: playlistcollection.cpp:861
+#: playlistcollection.cpp:879
 msgid "Hide &Play Queue"
 msgstr ""
 
@@ -1368,7 +1380,7 @@ msgstr ""
 "1 банд\n"
 "%n банд"
 
-#: systemtray.cpp:130
+#: systemtray.cpp:158
 msgid "Redisplay Popup"
 msgstr ""
 
@@ -1498,7 +1510,7 @@ msgstr "Албомлар"
 msgid "Genres"
 msgstr "Жанрлар"
 
-#: playlistcollection.h:164
+#: playlistcollection.h:165
 msgid "Playlist"
 msgstr "Қўшиқ рўйхати"
 
