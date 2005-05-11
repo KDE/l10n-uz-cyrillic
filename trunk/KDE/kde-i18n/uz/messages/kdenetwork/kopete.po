@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
-"POT-Creation-Date: 2005-05-10 01:18+0200\n"
+"POT-Creation-Date: 2005-05-11 11:29+0200\n"
 "PO-Revision-Date: 2004-05-06 15:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -187,22 +187,8 @@ msgstr "&Алоқа:"
 msgid "Un&block Contact"
 msgstr "Услубни ўчириш"
 
-#: libkopete/kopetemessagemanager.cpp:246
-msgid "Outgoing Message Sent"
-msgstr ""
-
-#: libkopete/kopetemessagemanager.cpp:432
-msgid ""
-"<qt>An error has occurred while creating a new chat window. The chat window "
-"has not been created.</qt>"
-msgstr ""
-
-#: libkopete/kopetemessagemanager.cpp:433
-msgid "Error While Creating Chat Window"
-msgstr ""
-
 #: libkopete/knotification.cpp:137 libkopete/knotification.cpp:158
-#: protocols/jabber/jabberaccount.cpp:1462
+#: protocols/jabber/jabberaccount.cpp:1269
 msgid "Notification"
 msgstr ""
 
@@ -339,6 +325,20 @@ msgstr ""
 msgid "Hopefully this popped up because you set the password to the empty string."
 msgstr ""
 
+#: libkopete/kopetechatsession.cpp:246
+msgid "Outgoing Message Sent"
+msgstr ""
+
+#: libkopete/kopetechatsession.cpp:432
+msgid ""
+"<qt>An error has occurred while creating a new chat window. The chat window "
+"has not been created.</qt>"
+msgstr ""
+
+#: libkopete/kopetechatsession.cpp:433
+msgid "Error While Creating Chat Window"
+msgstr ""
+
 #: libkopete/kopeteprotocol.cpp:61
 #, fuzzy
 msgid "Account Offline"
@@ -384,8 +384,7 @@ msgstr ""
 msgid "Error Creating Contact"
 msgstr ""
 
-#: libkopete/kopeteaccount.cpp:345 protocols/jabber/jabberaccount.cpp:208
-#: protocols/oscar/aim/aimaccount.cpp:157
+#: libkopete/kopeteaccount.cpp:345 protocols/oscar/aim/aimaccount.cpp:157
 #: protocols/oscar/icq/icqaccount.cpp:124
 msgid "%2 <%1>"
 msgstr ""
@@ -986,7 +985,6 @@ msgstr "&Алоқани қўшиш"
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 122
 #: kopete/kopetewindow.cpp:171 protocols/gadu/gaduprotocol.cpp:59
 #: protocols/groupwise/gwprotocol.cpp:48
-#: protocols/jabber/jabberaccount.cpp:238
 #: protocols/oscar/icq/icqaccount.cpp:134 rc.cpp:2703
 #, no-c-format
 msgid "O&ffline"
@@ -6379,8 +6377,8 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 71
-#: protocols/jabber/jabberaccount.cpp:210 protocols/msn/msnprotocol.cpp:49
-#: protocols/oscar/icq/icqaccount.cpp:127 rc.cpp:2676
+#: protocols/msn/msnprotocol.cpp:49 protocols/oscar/icq/icqaccount.cpp:127
+#: rc.cpp:2676
 #, no-c-format
 msgid "O&nline"
 msgstr "Он&лайн"
@@ -8779,9 +8777,8 @@ msgstr ""
 
 #: plugins/netmeeting/netmeetinginvitation.cpp:68
 #: protocols/msn/msnaccount.cpp:283 protocols/msn/msnaddcontactpage.cpp:76
+#: protocols/msn/msnchatsession.cpp:339 protocols/msn/msnchatsession.cpp:348
 #: protocols/msn/msncontact.cpp:161 protocols/msn/msncontact.cpp:226
-#: protocols/msn/msnmessagemanager.cpp:339
-#: protocols/msn/msnmessagemanager.cpp:348
 #: protocols/msn/msnnotifysocket.cpp:110 protocols/msn/msnnotifysocket.cpp:133
 #: protocols/msn/msnnotifysocket.cpp:157 protocols/msn/msnnotifysocket.cpp:171
 #: protocols/msn/msnnotifysocket.cpp:178 protocols/msn/msnnotifysocket.cpp:188
@@ -10070,7 +10067,7 @@ msgid "A network already exists with that name"
 msgstr ""
 
 #: protocols/msn/msnaccount.cpp:283 protocols/msn/msnaddcontactpage.cpp:76
-#: protocols/msn/msnmessagemanager.cpp:348
+#: protocols/msn/msnchatsession.cpp:348
 #: protocols/msn/ui/msneditaccountwidget.cpp:210
 msgid "<qt>You must enter a valid email address.</qt>"
 msgstr ""
@@ -10083,7 +10080,7 @@ msgstr ""
 msgid "Reverse List - MSN Plugin"
 msgstr ""
 
-#: protocols/msn/msnmessagemanager.cpp:91
+#: protocols/msn/msnchatsession.cpp:91
 #: protocols/msn/ui/msneditaccountwidget.cpp:267
 msgid "MSN Display Picture"
 msgstr ""
@@ -10176,56 +10173,6 @@ msgstr ""
 
 #: protocols/msn/msnprotocol.cpp:64
 msgid "Remote Client"
-msgstr ""
-
-#: protocols/groupwise/gwmessagemanager.cpp:65
-#: protocols/msn/msnmessagemanager.cpp:74
-msgid "&Invite"
-msgstr ""
-
-#: protocols/msn/msnaccount.cpp:234 protocols/msn/msnmessagemanager.cpp:78
-msgid "Send Raw C&ommand..."
-msgstr ""
-
-#: protocols/msn/msnmessagemanager.cpp:81
-#, fuzzy
-msgid "Send Nudge"
-msgstr "Хабар &жўнатиш"
-
-#: protocols/msn/msnmessagemanager.cpp:84
-msgid "Request Display Picture"
-msgstr ""
-
-#: protocols/msn/msnmessagemanager.cpp:206
-#, c-format
-msgid ""
-"The following message has not been sent correctly: \n"
-"%1"
-msgstr ""
-
-#: protocols/msn/msnmessagemanager.cpp:310
-msgid "Other..."
-msgstr ""
-
-#: protocols/msn/msnmessagemanager.cpp:340
-msgid "Please enter the email address of the person you want to invite:"
-msgstr ""
-
-#: protocols/msn/msnmessagemanager.cpp:394
-#, c-format
-msgid ""
-"The following message has not been sent correctly:\n"
-"%1"
-msgstr ""
-
-#: protocols/msn/msnmessagemanager.cpp:451
-msgid ""
-"%1 has sent an unimplemented invitation, the invitation was rejected.\n"
-"The invitation was: %2"
-msgstr ""
-
-#: protocols/msn/msnmessagemanager.cpp:629
-msgid "%1 has started a chat with you"
 msgstr ""
 
 #: protocols/msn/msnswitchboardsocket.cpp:104
@@ -10468,6 +10415,56 @@ msgstr ""
 
 #: protocols/groupwise/gwcontact.cpp:242 protocols/msn/msncontact.cpp:557
 msgid "%1|Blocked"
+msgstr ""
+
+#: protocols/groupwise/gwmessagemanager.cpp:65
+#: protocols/msn/msnchatsession.cpp:74
+msgid "&Invite"
+msgstr ""
+
+#: protocols/msn/msnaccount.cpp:234 protocols/msn/msnchatsession.cpp:78
+msgid "Send Raw C&ommand..."
+msgstr ""
+
+#: protocols/msn/msnchatsession.cpp:81
+#, fuzzy
+msgid "Send Nudge"
+msgstr "Хабар &жўнатиш"
+
+#: protocols/msn/msnchatsession.cpp:84
+msgid "Request Display Picture"
+msgstr ""
+
+#: protocols/msn/msnchatsession.cpp:206
+#, c-format
+msgid ""
+"The following message has not been sent correctly: \n"
+"%1"
+msgstr ""
+
+#: protocols/msn/msnchatsession.cpp:310
+msgid "Other..."
+msgstr ""
+
+#: protocols/msn/msnchatsession.cpp:340
+msgid "Please enter the email address of the person you want to invite:"
+msgstr ""
+
+#: protocols/msn/msnchatsession.cpp:394
+#, c-format
+msgid ""
+"The following message has not been sent correctly:\n"
+"%1"
+msgstr ""
+
+#: protocols/msn/msnchatsession.cpp:451
+msgid ""
+"%1 has sent an unimplemented invitation, the invitation was rejected.\n"
+"The invitation was: %2"
+msgstr ""
+
+#: protocols/msn/msnchatsession.cpp:629
+msgid "%1 has started a chat with you"
 msgstr ""
 
 #: protocols/msn/msndebugrawcmddlg.cpp:32
@@ -11089,7 +11086,7 @@ msgstr "&Қўшиш"
 msgid "Blocked"
 msgstr ""
 
-#: protocols/gadu/gaduprotocol.cpp:61 protocols/jabber/jabberaccount.cpp:218
+#: protocols/gadu/gaduprotocol.cpp:61
 msgid "A&way"
 msgstr ""
 
@@ -11649,7 +11646,6 @@ msgstr ""
 msgid "Not A&vailable"
 msgstr "&Кўринмайдиган"
 
-#: protocols/jabber/jabberaccount.cpp:228
 #: protocols/oscar/icq/icqaccount.cpp:131
 msgid "&Do Not Disturb"
 msgstr ""
@@ -11658,7 +11654,6 @@ msgstr ""
 msgid "O&ccupied"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:233
 #: protocols/oscar/icq/icqaccount.cpp:140
 #, fuzzy
 msgid "In&visible"
@@ -12107,14 +12102,14 @@ msgid "Connecting to server..."
 msgstr "Уланиш"
 
 #: protocols/groupwise/gwaccount.cpp:245
-#: protocols/jabber/jabberaccount.cpp:387
+#: protocols/jabber/jabberaccount.cpp:351
 #: protocols/jabber/ui/jabberregisteraccount.cpp:259
 msgid ""
 "SSL support could not be initialized for account %1. This is most likely "
 "because the QCA TLS plugin is not installed on your system."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:389
+#: protocols/jabber/jabberaccount.cpp:353
 #: protocols/jabber/ui/jabberregisteraccount.cpp:261
 msgid "Jabber SSL Error"
 msgstr ""
@@ -12203,8 +12198,8 @@ msgstr ""
 msgid "Unable to retrieve the list of services."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:310
-#: protocols/jabber/jabberaccount.cpp:321
+#: protocols/jabber/jabberaccount.cpp:274
+#: protocols/jabber/jabberaccount.cpp:285
 #: protocols/jabber/ui/dlgjabberbrowse.cpp:62
 #: protocols/jabber/ui/dlgjabberregister.cpp:52
 #: protocols/jabber/ui/dlgjabberservices.cpp:129
@@ -12346,445 +12341,438 @@ msgstr ""
 msgid "vCard Cache Timestamp"
 msgstr ""
 
+#: protocols/jabber/jabberchatsession.cpp:210
 #: protocols/jabber/jabbergroupchatmanager.cpp:97
-#: protocols/jabber/jabbermessagemanager.cpp:208
 msgid "This message is encrypted."
 msgstr ""
 
 #: protocols/jabber/jabberaccount.cpp:197
 msgid ""
-"Could not bind Jabber file transfer manager to local port, please check your "
-"settings."
+"Could not bind Jabber file transfer manager to local port. Please check if "
+"the file transfer port is already in use or choose another port in the "
+"account settings."
 msgstr ""
 
 #: protocols/jabber/jabberaccount.cpp:198
 msgid "Failed to start Jabber File Transfer Manager"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:214
-msgid "F&ree to Chat"
-msgstr ""
-
-#: protocols/jabber/jabberaccount.cpp:223
-msgid "E&xtended Away"
-msgstr ""
-
-#: protocols/jabber/jabberaccount.cpp:245
+#: protocols/jabber/jabberaccount.cpp:209
 msgid "Join Groupchat..."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:250
+#: protocols/jabber/jabberaccount.cpp:214
 msgid "Services..."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:253
+#: protocols/jabber/jabberaccount.cpp:217
 msgid "Send Raw Packet to Server..."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:256
+#: protocols/jabber/jabberaccount.cpp:220
 msgid "Edit User Info..."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:310
+#: protocols/jabber/jabberaccount.cpp:274
 msgid "Please connect first."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:319
+#: protocols/jabber/jabberaccount.cpp:283
 msgid ""
 "Your connection to the server has been lost in the meantime. This means that "
 "your last action could not complete successfully. Please reconnect and try "
 "again."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:330
+#: protocols/jabber/jabberaccount.cpp:294
 msgid ""
 "A connection attempt is already in progress. Please wait until the previous "
 "attempt finished or disconnect to start over."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:333
+#: protocols/jabber/jabberaccount.cpp:297
 msgid "Connection Attempt Already in Progress"
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:692
-#: protocols/jabber/jabberaccount.cpp:543
+#: protocols/jabber/jabberaccount.cpp:507
 msgid "No certificate was presented."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:696
-#: protocols/jabber/jabberaccount.cpp:547
+#: protocols/jabber/jabberaccount.cpp:511
 msgid "The host name does not match the one in the certificate."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:700
-#: protocols/jabber/jabberaccount.cpp:551
+#: protocols/jabber/jabberaccount.cpp:515
 msgid "The Certificate Authority rejected the certificate."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:705
-#: protocols/jabber/jabberaccount.cpp:556
+#: protocols/jabber/jabberaccount.cpp:520
 msgid "The certificate is untrusted."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:709
-#: protocols/jabber/jabberaccount.cpp:560
+#: protocols/jabber/jabberaccount.cpp:524
 msgid "The signature is invalid."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:713
-#: protocols/jabber/jabberaccount.cpp:564
+#: protocols/jabber/jabberaccount.cpp:528
 msgid "The Certificate Authority is invalid."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:718
-#: protocols/jabber/jabberaccount.cpp:569
+#: protocols/jabber/jabberaccount.cpp:533
 msgid "Invalid certificate purpose."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:722
-#: protocols/jabber/jabberaccount.cpp:573
+#: protocols/jabber/jabberaccount.cpp:537
 msgid "The certificate is self-signed."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:726
-#: protocols/jabber/jabberaccount.cpp:577
+#: protocols/jabber/jabberaccount.cpp:541
 msgid "The certificate has been revoked."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:730
-#: protocols/jabber/jabberaccount.cpp:581
+#: protocols/jabber/jabberaccount.cpp:545
 msgid "Maximum certificate chain length was exceeded."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:734
-#: protocols/jabber/jabberaccount.cpp:585
+#: protocols/jabber/jabberaccount.cpp:549
 msgid "The certificate has expired."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:739
-#: protocols/jabber/jabberaccount.cpp:590
+#: protocols/jabber/jabberaccount.cpp:554
 msgid "An unknown error occurred trying to validate the certificate."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:745
-#: protocols/jabber/jabberaccount.cpp:596
+#: protocols/jabber/jabberaccount.cpp:560
 msgid "The certificate of server %1 could not be validated for account %2: %3"
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:749
-#: protocols/jabber/jabberaccount.cpp:600
+#: protocols/jabber/jabberaccount.cpp:564
 msgid "Jabber Connection Certificate Problem"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:846
+#: protocols/jabber/jabberaccount.cpp:828
 msgid "Malformed packet received."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:850
+#: protocols/jabber/jabberaccount.cpp:832
 msgid "There was an unrecoverable error in the protocol."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:857
+#: protocols/jabber/jabberaccount.cpp:839
 msgid "Generic stream error (sorry, I do not have a more-detailed reason)"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:861
+#: protocols/jabber/jabberaccount.cpp:843
 msgid "There was a conflict in the information received."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:864
+#: protocols/jabber/jabberaccount.cpp:846
 msgid "The stream timed out."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:867
+#: protocols/jabber/jabberaccount.cpp:849
 msgid "Internal server error."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:870
+#: protocols/jabber/jabberaccount.cpp:852
 msgid "Stream packet received from an invalid address."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:873
+#: protocols/jabber/jabberaccount.cpp:855
 msgid "Malformed stream packet received."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:877
+#: protocols/jabber/jabberaccount.cpp:859
 msgid "Policy violation in the protocol stream."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:881
+#: protocols/jabber/jabberaccount.cpp:863
 msgid "Resource constraint."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:885
+#: protocols/jabber/jabberaccount.cpp:867
 msgid "System shutdown."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:888
+#: protocols/jabber/jabberaccount.cpp:870
 msgid "Unknown reason."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:892
+#: protocols/jabber/jabberaccount.cpp:874
 #, c-format
 msgid "There was an error in the protocol stream: %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:900
+#: protocols/jabber/jabberaccount.cpp:882
 msgid "Host not found."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:903
+#: protocols/jabber/jabberaccount.cpp:885
 msgid "Address is already in use."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:906
+#: protocols/jabber/jabberaccount.cpp:888
 msgid "Cannot recreate the socket."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:909
+#: protocols/jabber/jabberaccount.cpp:891
 msgid "Cannot bind the socket again."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:912
+#: protocols/jabber/jabberaccount.cpp:894
 msgid "Socket is already connected."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:915
+#: protocols/jabber/jabberaccount.cpp:897
 msgid "Socket is not connected."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:918
+#: protocols/jabber/jabberaccount.cpp:900
 msgid "Socket is not bound."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:921
+#: protocols/jabber/jabberaccount.cpp:903
 msgid "Socket has not been created."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:924
+#: protocols/jabber/jabberaccount.cpp:906
 msgid ""
 "Socket operation would block. You should not see this error, please use "
 "\"Report Bug\" from the Help menu."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:927
+#: protocols/jabber/jabberaccount.cpp:909
 #, fuzzy
 msgid "Connection refused."
 msgstr "Уланиш"
 
-#: protocols/jabber/jabberaccount.cpp:930
+#: protocols/jabber/jabberaccount.cpp:912
 #, fuzzy
 msgid "Connection timed out."
 msgstr "Уланиш"
 
-#: protocols/jabber/jabberaccount.cpp:933
+#: protocols/jabber/jabberaccount.cpp:915
 msgid "Connection attempt already in progress."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:936
+#: protocols/jabber/jabberaccount.cpp:918
 #, fuzzy
 msgid "Network failure."
 msgstr "&Қўшимча мосламалар"
 
-#: protocols/jabber/jabberaccount.cpp:939
+#: protocols/jabber/jabberaccount.cpp:921
 msgid "Operation is not supported."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:942
+#: protocols/jabber/jabberaccount.cpp:924
 msgid "Socket timed out."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:945
+#: protocols/jabber/jabberaccount.cpp:927
 msgid "Sorry, something unexpected happened that I do not know more about."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:949
+#: protocols/jabber/jabberaccount.cpp:931
 #, c-format
 msgid "There was a connection error: %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:957
+#: protocols/jabber/jabberaccount.cpp:939
 #, fuzzy
 msgid "Unknown host."
 msgstr "&Номаълум:"
 
-#: protocols/jabber/jabberaccount.cpp:961
+#: protocols/jabber/jabberaccount.cpp:943
 msgid "Could not connect to a required remote resource."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:964
+#: protocols/jabber/jabberaccount.cpp:946
 msgid ""
 "It appears we have been redirected to another server; I do not know how to "
 "handle this."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:967
+#: protocols/jabber/jabberaccount.cpp:949
 msgid "Unsupported protocol version."
 msgstr ""
 
+#: protocols/jabber/jabberaccount.cpp:952
 #: protocols/jabber/jabberaccount.cpp:970
-#: protocols/jabber/jabberaccount.cpp:988
+#: protocols/jabber/jabberaccount.cpp:1015
 #: protocols/jabber/jabberaccount.cpp:1033
 #: protocols/jabber/jabberaccount.cpp:1051
-#: protocols/jabber/jabberaccount.cpp:1069
-#: protocols/jabber/jabberaccount.cpp:1077
+#: protocols/jabber/jabberaccount.cpp:1059
 #, fuzzy
 msgid "Unknown error."
 msgstr "Номаълум хато рўй берди"
 
-#: protocols/jabber/jabberaccount.cpp:974
+#: protocols/jabber/jabberaccount.cpp:956
 #, c-format
 msgid "There was a negotiation error: %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:982
+#: protocols/jabber/jabberaccount.cpp:964
 msgid "Server rejected our request to start the TLS handshake."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:985
+#: protocols/jabber/jabberaccount.cpp:967
 msgid "Failed to establish a secure connection."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:992
+#: protocols/jabber/jabberaccount.cpp:974
 #, c-format
 msgid "There was a Transport Layer Security (TLS) error: %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1000
+#: protocols/jabber/jabberaccount.cpp:982
 msgid "Login failed with unknown reason."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1003
+#: protocols/jabber/jabberaccount.cpp:985
 msgid "No appropriate authentication mechanism available."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1006
+#: protocols/jabber/jabberaccount.cpp:988
 msgid "Bad SASL authentication protocol."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1009
+#: protocols/jabber/jabberaccount.cpp:991
 msgid "Server failed mutual authentication."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1012
+#: protocols/jabber/jabberaccount.cpp:994
 msgid "Encryption is required but not present."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1015
+#: protocols/jabber/jabberaccount.cpp:997
 msgid "Invalid user ID."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1018
+#: protocols/jabber/jabberaccount.cpp:1000
 msgid "Invalid mechanism."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1021
+#: protocols/jabber/jabberaccount.cpp:1003
 msgid "Invalid realm."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1024
+#: protocols/jabber/jabberaccount.cpp:1006
 msgid "Mechanism too weak."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1027
+#: protocols/jabber/jabberaccount.cpp:1009
 msgid "Wrong credentials supplied. (check your user ID and password)"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1030
+#: protocols/jabber/jabberaccount.cpp:1012
 msgid "Temporary failure, please try again later."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1037
+#: protocols/jabber/jabberaccount.cpp:1019
 #, c-format
 msgid "There was an error authenticating with the server: %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1045
+#: protocols/jabber/jabberaccount.cpp:1027
 msgid "Transport Layer Security (TLS) problem."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1048
+#: protocols/jabber/jabberaccount.cpp:1030
 msgid "Simple Authentication and Security Layer (SASL) problem."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1055
+#: protocols/jabber/jabberaccount.cpp:1037
 #, c-format
 msgid "There was an error in the security layer: %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1063
+#: protocols/jabber/jabberaccount.cpp:1045
 msgid "No permission to bind the resource."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1066
+#: protocols/jabber/jabberaccount.cpp:1048
 msgid "The resource is already in use."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1073
+#: protocols/jabber/jabberaccount.cpp:1055
 #, c-format
 msgid "Could not bind a resource: %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1088
+#: protocols/jabber/jabberaccount.cpp:1070
 #, c-format
 msgid "Connection problem with Jabber server %1"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1375
+#: protocols/jabber/jabberaccount.cpp:1182
 msgid ""
 "The Jabber user %1 wants to add you to their contact list; do you want to "
 "authorize them? Selecting Cancel will ignore the request."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1378
+#: protocols/jabber/jabberaccount.cpp:1185
 msgid "Authorize Jabber User?"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1378
+#: protocols/jabber/jabberaccount.cpp:1185
 msgid "Authorize"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1378
+#: protocols/jabber/jabberaccount.cpp:1185
 msgid "Deny"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1407
+#: protocols/jabber/jabberaccount.cpp:1214
 msgid "Do you want to add %1 to your contact list in return?"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1408
+#: protocols/jabber/jabberaccount.cpp:1215
 msgid "Add Jabber User?"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1459
+#: protocols/jabber/jabberaccount.cpp:1266
 msgid ""
 "The Jabber user %1 removed %2's subscription to them.This account will no "
 "longer be able to view their online/offline status.\n"
 "Do you want to delete the contact?"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1550
+#: protocols/jabber/jabberaccount.cpp:1357
 #, fuzzy
 msgid "Waiting for authorization"
 msgstr "Ҳисоб ҳақида маълумот"
 
-#: protocols/jabber/jabberaccount.cpp:1564
+#: protocols/jabber/jabberaccount.cpp:1371
 msgid "You cannot see each others' status."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1568
+#: protocols/jabber/jabberaccount.cpp:1375
 msgid "You can see this contact's status but they cannot see your status."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1572
+#: protocols/jabber/jabberaccount.cpp:1379
 msgid "This contact can see your status but you cannot see their status."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1576
+#: protocols/jabber/jabberaccount.cpp:1383
 msgid "You can see each others' status."
 msgstr ""
 
-#: protocols/jabber/jabbermessagemanager.cpp:70
+#: protocols/jabber/jabberchatsession.cpp:72
 msgid ""
 "_: a contact's online status in parenthesis.\n"
 " (%1)"
