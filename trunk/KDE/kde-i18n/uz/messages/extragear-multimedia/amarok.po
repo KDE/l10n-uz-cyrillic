@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2005-05-14 01:24+0200\n"
+"POT-Creation-Date: 2005-05-16 01:27+0200\n"
 "PO-Revision-Date: 2004-10-24 17:45+0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -16,8 +16,8 @@ msgstr ""
 #: collectionbrowser.cpp:373 collectionbrowser.cpp:383
 #: collectionbrowser.cpp:726 collectionbrowser.cpp:747
 #: collectionbrowser.cpp:748 collectiondb.cpp:981 collectiondb.cpp:998
-#: collectiondb.cpp:1015 collectiondb.cpp:1032 collectiondb.cpp:2675
-#: collectiondb.cpp:2697 collectiondb.cpp:2723 collectiondb.cpp:2779
+#: collectiondb.cpp:1015 collectiondb.cpp:1032 collectiondb.cpp:2686
+#: collectiondb.cpp:2708 collectiondb.cpp:2734 collectiondb.cpp:2790
 #: contextbrowser.cpp:743 contextbrowser.cpp:768 contextbrowser.cpp:1120
 #: contextbrowser.cpp:1131 contextbrowser.cpp:1142 contextbrowser.cpp:1728
 #: contextbrowser.cpp:1734 contextbrowser.cpp:1851 contextbrowser.cpp:1856
@@ -64,149 +64,181 @@ msgstr "Битрейт"
 msgid "Samplerate"
 msgstr "Самплрейт"
 
-#: playlistbrowser.cpp:61
+#: playlistbrowser.cpp:63
 #, fuzzy
-msgid "Add Playlist..."
-msgstr "Қўшиқ рўйхатларини қўшиш"
+msgid "Add Source"
+msgstr "Муқовани танлаш"
 
-#: playlistbrowser.cpp:62
+#: app.cpp:400 app.cpp:715 app.cpp:725 playlistbrowser.cpp:67
+msgid "Playlist"
+msgstr "Қўшиқ рўйхати"
+
+#: playlistbrowser.cpp:68 playlistbrowser.cpp:289
+#, fuzzy
+msgid "Stream"
+msgstr "Бошланди"
+
+#: playlistbrowser.cpp:69
+#, fuzzy
+msgid "Smart Playlist"
+msgstr "Қўшиқ рўйхатлари"
+
+#: playlistbrowser.cpp:72
+#, fuzzy
+msgid "Save Current"
+msgstr "&Жорийга ўтиш"
+
+#: playlistbrowser.cpp:74
 msgid "Rename"
 msgstr "Номини ўзгартириш"
 
-#: playlistbrowser.cpp:69
+#: playlistbrowser.cpp:84
 msgid "Detailed View"
 msgstr "Батафсил кўриш"
 
-#: playlistbrowser.cpp:70
+#: playlistbrowser.cpp:85
 msgid "List View"
 msgstr ""
 
-#: playlistbrowser.cpp:72
+#: playlistbrowser.cpp:87
 msgid "Unsorted"
 msgstr "Тартибсиз"
 
-#: playlistbrowser.cpp:73
+#: playlistbrowser.cpp:88
 msgid "Sort Ascending"
 msgstr "Кўпайиш бўйича"
 
-#: playlistbrowser.cpp:74
+#: playlistbrowser.cpp:89
 msgid "Sort Descending"
 msgstr "Камайиш бўйича"
 
-#: actionclasses.cpp:422 playlistbrowser.cpp:99 playlistbrowser.cpp:354
-msgid "Current Playlist"
-msgstr "Жорий қўшиқ рўйхати"
+#: playlistbrowser.cpp:138 playlistbrowser.cpp:970 playlistwindow.cpp:343
+msgid "Playlists"
+msgstr "Қўшиқ рўйхатлари"
 
-#: playlistbrowser.cpp:234
+#: playlistbrowser.cpp:139
+#, fuzzy
+msgid "Streams"
+msgstr "қўшиқ"
+
+#: playlistbrowser.cpp:140
+#, fuzzy
+msgid "Smart Playlists"
+msgstr "Қўшиқ рўйхатлари"
+
+#: playlistbrowser.cpp:141
+#, fuzzy
+msgid "Parties"
+msgstr "пачлар"
+
+#: playlistbrowser.cpp:242
+msgid "Cool-Streams"
+msgstr ""
+
+#: playlistbrowser.cpp:455
 #, fuzzy
 msgid "Playlist Files"
 msgstr "Қўшиқ рўйхатлари"
 
-#: playlistbrowser.cpp:234
+#: playlistbrowser.cpp:455
 msgid "Add Playlists"
 msgstr "Қўшиқ рўйхатларини қўшиш"
 
-#: playlistbrowser.cpp:363
+#: actionclasses.cpp:422 playlistbrowser.cpp:470
+msgid "Current Playlist"
+msgstr "Жорий қўшиқ рўйхати"
+
+#: playlistbrowser.cpp:484 playlistwindow.cpp:628
+msgid "Cannot write playlist (%1)."
+msgstr ""
+
+#: playlistbrowser.cpp:519
+msgid "No functionality for item double click implemented"
+msgstr ""
+
+#: playlistbrowser.cpp:589
 msgid "Error renaming the file."
 msgstr ""
 "Файлнинг номини ўзгартиришда хато рўй "
 "берди."
 
-#: playlistbrowser.cpp:391
+#: playlistbrowser.cpp:617
 #, c-format
 msgid ""
 "_n: <p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
 "<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
 msgstr ""
 
-#: playlistbrowser.cpp:570
-msgid "&Clear"
-msgstr "&Тозалаш"
+#: playlistbrowser.cpp:820 playlistbrowser.cpp:867 smartplaylist.cpp:387
+msgid "&Load"
+msgstr "&Юклаш"
+
+#: app.cpp:628 collectionbrowser.cpp:957 contextbrowser.cpp:529
+#: filebrowser.cpp:150 mediabrowser.cpp:327 playlistbrowser.cpp:821
+#: playlistbrowser.cpp:868 playlistbrowser.cpp:916 smartplaylist.cpp:388
+msgid "&Append to Playlist"
+msgstr "&Қўшиқ рўйхатига қўшиш"
+
+#: playlistbrowser.cpp:826
+msgid "Res&tore"
+msgstr "Ти&клаш"
+
+#: playlistbrowser.cpp:829
+msgid "&Rename"
+msgstr "&Номини ўзгартириш"
+
+#: playlistbrowser.cpp:830 playlistbrowser.cpp:871
+msgid "R&emove"
+msgstr "&Олиб ташлаш"
+
+#: playlistbrowser.cpp:870
+#, fuzzy
+msgid "E&dit"
+msgstr "Таҳрирлаш"
+
+#: playlistbrowser.cpp:897
+msgid "Collapse"
+msgstr ""
+
+#: playlistbrowser.cpp:898
+msgid "Expand"
+msgstr ""
+
+#: app.cpp:630 collectionbrowser.cpp:958 contextbrowser.cpp:530
+#: mediabrowser.cpp:328 playlistbrowser.cpp:917
+msgid "&Queue After Current Track"
+msgstr "&Навбатда жорий қўшиқдан кейин"
+
+#: collectionbrowser.cpp:959 contextbrowser.cpp:531 filebrowser.cpp:151
+#: mediabrowser.cpp:329 playlistbrowser.cpp:918
+msgid "&Make Playlist"
+msgstr "Қўшиқ рўйхатини &яратиш"
 
 #: collectionbrowser.cpp:975 filebrowser.cpp:153 mediabrowser.cpp:345
-#: playlistbrowser.cpp:575 playlistbrowser.cpp:656 smartplaylist.cpp:390
+#: playlistbrowser.cpp:923 smartplaylist.cpp:390
 #, fuzzy
 msgid "Burn to CD as Data"
 msgstr "CD'га файл сифатида ёзиш"
 
 #: collectionbrowser.cpp:977 filebrowser.cpp:154 mediabrowser.cpp:347
-#: playlistbrowser.cpp:577 playlistbrowser.cpp:658 smartplaylist.cpp:392
+#: playlistbrowser.cpp:925 smartplaylist.cpp:392
 #, fuzzy
 msgid "Burn to CD as Audio"
 msgstr "CD'га аудио сифатида ёзиш"
 
-#: playlistbrowser.cpp:600 smartplaylist.cpp:387
-msgid "&Load"
-msgstr "&Юклаш"
-
-#: app.cpp:628 collectionbrowser.cpp:957 contextbrowser.cpp:529
-#: filebrowser.cpp:150 mediabrowser.cpp:327 playlistbrowser.cpp:601
-#: playlistbrowser.cpp:649 smartplaylist.cpp:388
-msgid "&Append to Playlist"
-msgstr "&Қўшиқ рўйхатига қўшиш"
-
-#: playlistbrowser.cpp:605
-msgid "Res&tore"
-msgstr "Ти&клаш"
-
-#: playlistbrowser.cpp:608
-msgid "&Rename"
-msgstr "&Номини ўзгартириш"
-
-#: playlistbrowser.cpp:609
-msgid "R&emove"
-msgstr "&Олиб ташлаш"
-
-#: app.cpp:630 collectionbrowser.cpp:958 contextbrowser.cpp:530
-#: mediabrowser.cpp:328 playlistbrowser.cpp:650
-msgid "&Queue After Current Track"
-msgstr "&Навбатда жорий қўшиқдан кейин"
-
-#: collectionbrowser.cpp:959 contextbrowser.cpp:531 filebrowser.cpp:151
-#: mediabrowser.cpp:329 playlistbrowser.cpp:651
-msgid "&Make Playlist"
-msgstr "Қўшиқ рўйхатини &яратиш"
-
-#: playlistbrowser.cpp:664
+#: playlistbrowser.cpp:931
 #, fuzzy
 msgid "&View/Edit Meta Information"
 msgstr "&Мета-маълумотни кўриш/таҳрирлаш"
 
-#: playlistbrowser.cpp:689
+#: playlistbrowser.cpp:956
 #, fuzzy, c-format
 msgid "This file does not exist: %1"
 msgstr "Файл мавжуд эмас"
 
-#: playlistbrowser.cpp:707 playlistwindow.cpp:342
-msgid "Playlists"
-msgstr "Қўшиқ рўйхатлари"
-
-#: playlistbrowser.cpp:910
+#: playlistbrowser.cpp:1173
 msgid "&Restore"
 msgstr "&Тиклаш"
-
-#: covermanager.cpp:353 covermanager.cpp:782 covermanager.cpp:1019
-#: covermanager.cpp:1026 playlistbrowser.cpp:1362 playlistbrowser.cpp:1370
-#, fuzzy
-msgid "..."
-msgstr "Қўшиш"
-
-#: playlistbrowser.cpp:1385
-msgid "Loading..."
-msgstr "Юкланмоқда..."
-
-#: playlistbrowser.cpp:1389 statusbar/statusbar.cpp:199
-#, c-format
-msgid ""
-"_n: 1 Track\n"
-"%n Tracks"
-msgstr ""
-"1 қўшиқ\n"
-"%n қўшиқ"
-
-#: playlistbrowser.cpp:1391
-msgid " - [%2]"
-msgstr ""
 
 #: enginecontroller.cpp:113
 msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
@@ -359,29 +391,29 @@ msgstr ""
 "Бу шрифт қўшиқ рўйхатининг ойнасида "
 "ишлатилади."
 
-#: playlistloader.cpp:313
+#: playlistloader.cpp:316
 msgid ""
 "The XML in the playlist was invalid. Please report this as a bug to the "
 "amaroK developers. Thank you."
 msgstr ""
 
-#: playlistloader.cpp:346
+#: playlistloader.cpp:349
 msgid "amaroK could not open the file."
 msgstr ""
 
-#: playlistloader.cpp:356
+#: playlistloader.cpp:359
 msgid "This component of amaroK cannot translate XML playlists."
 msgstr ""
 
-#: playlistloader.cpp:361
+#: playlistloader.cpp:364
 msgid "amaroK does not support this playlist format."
 msgstr ""
 
-#: playlistloader.cpp:366
+#: playlistloader.cpp:369
 msgid "The playlist did not contain any references to files."
 msgstr ""
 
-#: playlistloader.cpp:590
+#: playlistloader.cpp:593
 #, fuzzy
 msgid "Retrieving Playlist"
 msgstr "Қўшиқ рўйхати олинмоқда..."
@@ -453,12 +485,12 @@ msgid "All Albums"
 msgstr "Ҳамма албомлар"
 
 #: collectionbrowser.cpp:66 covermanager.cpp:114 filebrowser.cpp:96
-#: mediabrowser.cpp:66 playlistwindow.cpp:188
+#: mediabrowser.cpp:66 playlistwindow.cpp:189
 msgid "Filter here..."
 msgstr "Филтер бу ерда..."
 
 #: collectionbrowser.cpp:72 covermanager.cpp:120 filebrowser.cpp:102
-#: mediabrowser.cpp:73 playlistwindow.cpp:200
+#: mediabrowser.cpp:73 playlistwindow.cpp:201
 msgid "Clear filter"
 msgstr "Филтерни тозалаш"
 
@@ -535,6 +567,14 @@ msgstr ""
 #, fuzzy
 msgid "Loading Thumbnails..."
 msgstr "Юкланмоқда..."
+
+#: covermanager.cpp:353 covermanager.cpp:782 covermanager.cpp:1019
+#: covermanager.cpp:1026 playlistbrowseritem.cpp:104
+#: playlistbrowseritem.cpp:112 playlistbrowseritem.cpp:457
+#: playlistbrowseritem.cpp:465
+#, fuzzy
+msgid "..."
+msgstr "Қўшиш"
 
 #: contextbrowser.cpp:507 covermanager.cpp:449
 msgid "Cover Image"
@@ -840,7 +880,7 @@ msgstr ""
 msgid "&Fetch Cover Images"
 msgstr "Муқова расмларни &олиш"
 
-#: collectionbrowser.cpp:987 contextbrowser.cpp:534 playlist.cpp:2287
+#: collectionbrowser.cpp:987 contextbrowser.cpp:534 playlist.cpp:2295
 msgid "&View/Edit Meta Information..."
 msgstr "&Мета-маълумотни кўриш/таҳрирлаш"
 
@@ -881,7 +921,7 @@ msgstr "Муқова бошқарувчиси"
 msgid "First-Run &Wizard"
 msgstr "Ёрда&мчи"
 
-#: actionclasses.cpp:101 playlistwindow.cpp:257
+#: actionclasses.cpp:101 playlistwindow.cpp:258
 #, fuzzy
 msgid "&Visualizations"
 msgstr "Визуаллаштириш"
@@ -891,7 +931,7 @@ msgstr "Визуаллаштириш"
 msgid "E&qualizer"
 msgstr "Э&квалайзер"
 
-#: actionclasses.cpp:107 playlistwindow.cpp:261
+#: actionclasses.cpp:107 playlistwindow.cpp:262
 #, fuzzy
 msgid "&Rescan Collection"
 msgstr "Тўплам"
@@ -901,11 +941,11 @@ msgid "Play/Pause"
 msgstr "Ўйнаш/Вақтинча тўхтатиш"
 
 #: actionclasses.cpp:210 actionclasses.cpp:215 app.cpp:298
-#: playlistwindow.cpp:135
+#: playlistwindow.cpp:136
 msgid "Pause"
 msgstr "Вақтинча тўхтатиш"
 
-#: actionclasses.cpp:220 app.cpp:296 playlistwindow.cpp:133
+#: actionclasses.cpp:220 app.cpp:296 playlistwindow.cpp:134
 msgid "Play"
 msgstr "Ўйнаш"
 
@@ -939,7 +979,7 @@ msgstr "Қўшиқ &рўйхатини қайтариш"
 msgid "&Party Mode"
 msgstr ""
 
-#: actionclasses.cpp:392 actionclasses.cpp:408 playlist.cpp:2276
+#: actionclasses.cpp:392 actionclasses.cpp:408 playlist.cpp:2284
 msgid "Burn"
 msgstr ""
 
@@ -1047,7 +1087,7 @@ msgstr ""
 msgid "Transfer"
 msgstr ""
 
-#: mediabrowser.cpp:647 playlist.cpp:2027
+#: mediabrowser.cpp:647 playlist.cpp:2035
 #, c-format
 msgid ""
 "_n: <p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
@@ -1076,116 +1116,116 @@ msgstr ""
 msgid "TagLib claims this file is not writable."
 msgstr "TagLib айтиши бўйича бу файлга ёзиб бўлмайди."
 
-#: playlistwindow.cpp:122
+#: playlistwindow.cpp:123
 #, fuzzy
 msgid "&Add Media..."
 msgstr "&Манбани қўшиш"
 
-#: playlistwindow.cpp:123
+#: playlistwindow.cpp:124
 #, fuzzy
 msgid "&Save Playlist As..."
 msgstr "Қўшиқ рўйхатини &сақлаш"
 
-#: playlistwindow.cpp:126
+#: playlistwindow.cpp:127
 msgid "Play Media..."
 msgstr ""
 
-#: playlistwindow.cpp:127
+#: playlistwindow.cpp:128
 msgid "Play Audio CD"
 msgstr "Аудио CD'ни ўйнаш"
 
 #. i18n: file ./scriptmanagerbase.ui line 33
-#: playlistwindow.cpp:128 rc.cpp:85
+#: playlistwindow.cpp:129 rc.cpp:85
 #, no-c-format
 msgid "Scripts"
 msgstr "Скриптлар"
 
-#: playlistwindow.cpp:130
+#: playlistwindow.cpp:131
 msgid "Configure &Global Shortcuts..."
 msgstr "Умумий тугмалар &бирикмасини мослаш"
 
-#: app.cpp:306 playlistwindow.cpp:132
+#: app.cpp:306 playlistwindow.cpp:133
 msgid "Previous Track"
 msgstr "Олдинги қўшиқ"
 
-#: app.cpp:304 playlistwindow.cpp:136
+#: app.cpp:304 playlistwindow.cpp:137
 msgid "Next Track"
 msgstr "Кейинги қўшиқ"
 
-#: playlistwindow.cpp:187
+#: playlistwindow.cpp:188
 #, fuzzy
 msgid "S&earch:"
 msgstr "Қидириш"
 
-#: playlistwindow.cpp:201 playlistwindow.cpp:202
+#: playlistwindow.cpp:202 playlistwindow.cpp:203
 msgid "Enter space-separated terms to filter playlist"
 msgstr ""
 "Қўшиқ ройхатини филтерлаш учун бўш жой "
 "билан ажратилган сўзларни киритинг"
 
-#: playlistwindow.cpp:203
+#: playlistwindow.cpp:204
 #, fuzzy
 msgid "Configure party"
 msgstr "%1 мосламаси"
 
-#: playlistwindow.cpp:255
+#: playlistwindow.cpp:256
 #, fuzzy
 msgid "&Cover Manager"
 msgstr "Муқова бошқарувчиси"
 
-#: playlistwindow.cpp:256
+#: playlistwindow.cpp:257
 #, fuzzy
 msgid "&First-Run Wizard"
 msgstr "Ёрда&мчи"
 
-#: playlistwindow.cpp:258
+#: playlistwindow.cpp:259
 #, fuzzy
 msgid "&Equalizer"
 msgstr "&Эквалайзер"
 
-#: playlistwindow.cpp:278 playlistwindow.cpp:696
+#: playlistwindow.cpp:279 playlistwindow.cpp:702
 msgid "Hide Toolbar"
 msgstr "Асбоблар панелини бекитиш"
 
-#: playlistwindow.cpp:278 playlistwindow.cpp:696
+#: playlistwindow.cpp:279 playlistwindow.cpp:702
 msgid "Show Toolbar"
 msgstr "Асбоблар панелини кўрсатиш"
 
-#: playlistwindow.cpp:279 playlistwindow.cpp:700
+#: playlistwindow.cpp:280 playlistwindow.cpp:706
 msgid "Hide Player &Window"
 msgstr "Плейернинг &ойнасини бекитиш"
 
-#: playlistwindow.cpp:279 playlistwindow.cpp:700
+#: playlistwindow.cpp:280 playlistwindow.cpp:706
 msgid "Show Player &Window"
 msgstr "Плейернинг &ойнасини кўрсатиш"
 
-#: playlistwindow.cpp:295
+#: playlistwindow.cpp:296
 msgid "&Actions"
 msgstr "&Амаллар"
 
-#: playlistwindow.cpp:296
+#: playlistwindow.cpp:297
 msgid "&Playlist"
 msgstr "Қўш&иқ рўйхати"
 
-#: playlistwindow.cpp:340
+#: playlistwindow.cpp:341
 msgid "Context"
 msgstr "Статистика"
 
-#: configdialog.cpp:128 playlistwindow.cpp:341
+#: configdialog.cpp:128 playlistwindow.cpp:342
 msgid "Collection"
 msgstr "Тўплам"
 
-#: playlistwindow.cpp:345
+#: playlistwindow.cpp:346
 #, fuzzy
 msgid "Media Device"
 msgstr "Ускуна:"
 
-#: playlistwindow.cpp:459
+#: playlistwindow.cpp:460
 #, fuzzy
 msgid "Configuring party"
 msgstr "Ўйнашни мослаш"
 
-#: playlistwindow.cpp:641
+#: playlistwindow.cpp:647
 msgid "Enter File, URL or Directory"
 msgstr "Файл, URL ёки жилдни киритинг"
 
@@ -1495,19 +1535,19 @@ msgstr "%1 мосламаси"
 msgid "'%1' by %2"
 msgstr ""
 
-#: metabundle.cpp:292
+#: metabundle.cpp:302
 msgid ""
 "_: Bitrate\n"
 "%1 kbps"
 msgstr "%1 kbps"
 
-#: metabundle.h:108
+#: metabundle.h:109
 msgid ""
 "_: SampleRate\n"
 "%1 kHz"
 msgstr "%1 КГц"
 
-#: metabundle.h:110
+#: metabundle.h:111
 #, fuzzy
 msgid ""
 "_: SampleRate\n"
@@ -4168,7 +4208,8 @@ msgid "Hostname:"
 msgstr "Номини ўзгартириш"
 
 #. i18n: file ./DbSetup.ui line 85
-#: rc.cpp:1383
+#: playlistbrowseritem.cpp:501 playlistbrowseritem.cpp:570
+#: playlistbrowseritem.cpp:589 rc.cpp:1383
 #, fuzzy, no-c-format
 msgid "Name:"
 msgstr "Номи"
@@ -4754,21 +4795,21 @@ msgstr "Мета-маълумотни таҳрирлаш"
 msgid "Wikipedia Other Languages"
 msgstr ""
 
-#: collectiondb.cpp:2177
+#: collectiondb.cpp:2188
 msgid "MySQL reported the following error:<br>"
 msgstr ""
 
-#: collectiondb.cpp:2178
+#: collectiondb.cpp:2189
 msgid ""
 "<p>You can configure MySQL in the Collection section under "
 "Settings->Configure amaroK</p>"
 msgstr ""
 
-#: collectiondb.cpp:2335
+#: collectiondb.cpp:2346
 msgid "Postgresql reported the following error:<br>"
 msgstr ""
 
-#: collectiondb.cpp:2336
+#: collectiondb.cpp:2347
 msgid ""
 "<p>You can configure Postgresql in the Collection section under "
 "Settings->Configure amaroK</p>"
@@ -4811,79 +4852,89 @@ msgstr ""
 msgid "Directory"
 msgstr "Жилд"
 
-#: playlist.cpp:264
+#: playlist.cpp:223
+#, fuzzy
+msgid "Extension"
+msgstr "Версия"
+
+#: playlist.cpp:224
+#, fuzzy
+msgid "Playcount"
+msgstr "Кўшиқ рўйхатининг устунлари"
+
+#: playlist.cpp:270
 msgid "S&huffle"
 msgstr "&Тартибсиз"
 
-#: playlist.cpp:265
+#: playlist.cpp:271
 #, fuzzy
 msgid "&Goto Current Track"
 msgstr "Жорий қўшиқ"
 
-#: playlist.cpp:266
+#: playlist.cpp:272
 msgid "&Remove Duplicate && Dead Entries"
 msgstr ""
 
-#: playlist.cpp:267 playlist.cpp:2214 playlist.cpp:2241
+#: playlist.cpp:273 playlist.cpp:2222 playlist.cpp:2249
 #, fuzzy
 msgid "&Queue Selected Tracks"
 msgstr "Танланган қўшиқлар"
 
-#: playlist.cpp:400
+#: playlist.cpp:406
 msgid "Attempted to insert nothing into playlist."
 msgstr ""
 
-#: playlist.cpp:426
+#: playlist.cpp:432
 #, fuzzy
 msgid "Adding random tracks."
 msgstr "Севимли қўшиқлар"
 
-#: playlist.cpp:427
+#: playlist.cpp:433
 #, fuzzy
 msgid "Adding random track."
 msgstr "Севимли қўшиқлар"
 
-#: playlist.cpp:436
+#: playlist.cpp:442
 msgid "Adding suggested tracks."
 msgstr ""
 
-#: playlist.cpp:437
+#: playlist.cpp:443
 msgid "Adding suggested track."
 msgstr ""
 
-#: playlist.cpp:442 playlist.cpp:454
+#: playlist.cpp:448 playlist.cpp:460
 msgid "Adding tracks from custom filter."
 msgstr ""
 
-#: playlist.cpp:444 playlist.cpp:455
+#: playlist.cpp:450 playlist.cpp:461
 msgid "Adding track from custom filter."
 msgstr ""
 
-#: playlist.cpp:449
+#: playlist.cpp:455
 msgid "No playlists to retrieve track from, bailing out."
 msgstr ""
 
-#: playlist.cpp:466
+#: playlist.cpp:472
 msgid "No tracks were returned to be inserted."
 msgstr ""
 
-#: playlist.cpp:499
+#: playlist.cpp:505
 msgid "Invalid smartplaylist requested (%1). Trying another source."
 msgstr ""
 
-#: playlist.cpp:546
+#: playlist.cpp:552
 msgid ""
 "<div align=\"center\"><b>Warning</b></div>The smart-playlist titled "
 "<i>%1</i> contains no tracks."
 "<br><br>Please modify your smart-playlist or choose a different source."
 msgstr ""
 
-#: playlist.cpp:899
+#: playlist.cpp:905
 #, fuzzy
 msgid "Playlist finished"
 msgstr "Қўшиқ рўйхатининг номи:"
 
-#: playlist.cpp:1523
+#: playlist.cpp:1529
 msgid ""
 "<div align=center>"
 "<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
@@ -4891,7 +4942,7 @@ msgid ""
 "<b>double-click</b> them to start playback.</div>"
 msgstr ""
 
-#: playlist.cpp:1531
+#: playlist.cpp:1537
 msgid ""
 "<div align=center>"
 "<h3>The Browsers</h3>The browsers are the source of all your music. The "
@@ -4900,132 +4951,132 @@ msgid ""
 "use to access any music on your computer. </div>"
 msgstr ""
 
-#: playlist.cpp:1696
+#: playlist.cpp:1702
 msgid "&Hide This Column"
 msgstr "Ушбу устунни &бекириш"
 
-#: playlist.cpp:1710
+#: playlist.cpp:1716
 msgid "Playlist Columns"
 msgstr "Кўшиқ рўйхатининг устунлари"
 
-#: playlist.cpp:2044
+#: playlist.cpp:2052
 #, fuzzy
 msgid "Deleting files"
 msgstr "&Расм файлини ўчириш"
 
-#: playlist.cpp:2107
+#: playlist.cpp:2115
 #, c-format
 msgid "Copied: %1"
 msgstr "Нусха кўчирилди: %1"
 
-#: playlist.cpp:2207
+#: playlist.cpp:2215
 msgid "&Restart"
 msgstr "&Бошқадан"
 
-#: playlist.cpp:2208
+#: playlist.cpp:2216
 msgid "&Play"
 msgstr "Ўй&наш"
 
-#: playlist.cpp:2212
+#: playlist.cpp:2220
 msgid "&Move to Front"
 msgstr ""
 
-#: playlist.cpp:2231
+#: playlist.cpp:2239
 #, fuzzy
 msgid "&Queue Track"
 msgstr "&Қўшиқни қайтариш"
 
-#: playlist.cpp:2233
+#: playlist.cpp:2241
 #, fuzzy
 msgid "&Dequeue Track"
 msgstr "&Қўшиқни қайтариш"
 
-#: playlist.cpp:2236
+#: playlist.cpp:2244
 #, c-format
 msgid ""
 "_n: Toggle &Queue Status (1 track)\n"
 "Toggle &Queue Status (%n tracks)"
 msgstr ""
 
-#: playlist.cpp:2243
+#: playlist.cpp:2251
 #, fuzzy
 msgid "&Dequeue Selected Tracks"
 msgstr "Танланган қўшиқлар"
 
-#: playlist.cpp:2250
+#: playlist.cpp:2258
 msgid "&Stop Playing After Track"
 msgstr ""
 
-#: playlist.cpp:2257
+#: playlist.cpp:2265
 msgid "&Edit Tag '%1'"
 msgstr ""
 
-#: playlist.cpp:2258
+#: playlist.cpp:2266
 #, fuzzy
 msgid "&Edit '%1' Tag for Selected Tracks"
 msgstr "Танланган қўшиқлар"
 
-#: playlist.cpp:2260
+#: playlist.cpp:2268
 msgid "&Iteratively Assign Track Numbers"
 msgstr ""
 
-#: playlist.cpp:2261
+#: playlist.cpp:2269
 #, fuzzy
 msgid "Write '%1' for Selected Tracks"
 msgstr "Танланган қўшиқлар"
 
-#: playlist.cpp:2262
+#: playlist.cpp:2270
 msgid "&Copy Meta-String"
 msgstr ""
 
-#: playlist.cpp:2267
+#: playlist.cpp:2275
 msgid "Selected Tracks as Data CD"
 msgstr ""
 
-#: playlist.cpp:2268
+#: playlist.cpp:2276
 msgid "Selected Tracks as Audio CD"
 msgstr ""
 
-#: playlist.cpp:2270
+#: playlist.cpp:2278
 msgid "This Album as Data CD"
 msgstr ""
 
-#: playlist.cpp:2271
+#: playlist.cpp:2279
 msgid "This Album as Audio CD"
 msgstr ""
 
-#: playlist.cpp:2273
+#: playlist.cpp:2281
 msgid "All Tracks by This Artist as Data CD"
 msgstr ""
 
-#: playlist.cpp:2274
+#: playlist.cpp:2282
 msgid "All Tracks by This Artist as Audio CD"
 msgstr ""
 
-#: playlist.cpp:2280
+#: playlist.cpp:2288
 msgid "&Remove From Playlist"
 msgstr "Қўшиқ рўйхат&идан олиб ташлаш"
 
-#: playlist.cpp:2282
+#: playlist.cpp:2290
 #, fuzzy
 msgid "&Delete File"
 msgstr "&Расм файлини ўчириш"
 
-#: playlist.cpp:2283
+#: playlist.cpp:2291
 #, fuzzy
 msgid "&Delete Selected Files"
 msgstr "&Расм файлини ўчириш"
 
-#: playlist.cpp:2371 playlist.cpp:2855
+#: playlist.cpp:2379 playlist.cpp:2863
 msgid "Writing tag..."
 msgstr "Тэг ёзилмоқда..."
 
-#: playlist.cpp:2706
+#: playlist.cpp:2714
 #, fuzzy
 msgid "This file does not exist:"
 msgstr "Файл мавжуд эмас"
 
-#: playlist.cpp:2744
+#: playlist.cpp:2752
 #, c-format
 msgid ""
 "<p>You can create a custom column that runs a shell command against each "
@@ -5036,20 +5087,20 @@ msgid ""
 "specify <b>%f</b> it is appended."
 msgstr ""
 
-#: playlist.cpp:2749
+#: playlist.cpp:2757
 msgid "Column &name:"
 msgstr ""
 
-#: playlist.cpp:2750
+#: playlist.cpp:2758
 #, fuzzy
 msgid "&Command:"
 msgstr "&Изоҳ:"
 
-#: playlist.cpp:2755
+#: playlist.cpp:2763
 msgid "Examples"
 msgstr ""
 
-#: playlist.cpp:2757
+#: playlist.cpp:2765
 #, c-format
 msgid ""
 "file --brief %f\n"
@@ -5058,12 +5109,12 @@ msgid ""
 "dirname %f"
 msgstr ""
 
-#: playlist.cpp:2783
+#: playlist.cpp:2791
 #, fuzzy
 msgid "Add Custom Column"
 msgstr "Бошқа муқова"
 
-#: playlist.cpp:2921
+#: playlist.cpp:2929
 msgid "Sorry, the tag for %1 could not be changed."
 msgstr ""
 
@@ -5156,10 +5207,6 @@ msgstr ""
 #, fuzzy
 msgid "Mute Volume"
 msgstr "Товушни кўпайтириш"
-
-#: app.cpp:400 app.cpp:715 app.cpp:725
-msgid "Playlist"
-msgstr "Қўшиқ рўйхати"
 
 #: app.cpp:629
 msgid "Append && &Play"
@@ -5279,6 +5326,15 @@ msgstr "Танланган қўшиқлар"
 #: statusbar/statusbar.cpp:196
 msgid " - [%1 / %2]"
 msgstr ""
+
+#: playlistbrowseritem.cpp:482 statusbar/statusbar.cpp:199
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"1 қўшиқ\n"
+"%n қўшиқ"
 
 #: statusbar/statusbar.cpp:201
 msgid " - [%1]"
@@ -5689,6 +5745,27 @@ msgid ""
 "Playlists\"</div>"
 msgstr ""
 
+#: playlistbrowseritem.cpp:478
+msgid "Loading..."
+msgstr "Юкланмоқда..."
+
+#: playlistbrowseritem.cpp:484
+msgid " - [%2]"
+msgstr ""
+
+#: playlistbrowseritem.cpp:495
+#, fuzzy
+msgid "Save Current Playlist"
+msgstr "Жорий қўшиқ рўйхати"
+
+#: playlistbrowseritem.cpp:564 playlistbrowseritem.cpp:583
+msgid "Stream Editor"
+msgstr ""
+
+#: playlistbrowseritem.cpp:575 playlistbrowseritem.cpp:594
+msgid "Url:"
+msgstr ""
+
 #: filebrowser.cpp:103
 #, fuzzy
 msgid "Enter space-separated terms to filter the directory-listing"
@@ -5739,6 +5816,13 @@ msgstr "Мавжуд эффектлар"
 msgid "Active Effects"
 msgstr "Актив эффектлар"
 
+#, fuzzy
+#~ msgid "Add Playlist..."
+#~ msgstr "Қўшиқ рўйхатларини қўшиш"
+
+#~ msgid "&Clear"
+#~ msgstr "&Тозалаш"
+
 #~ msgid ""
 #~ "_n: 1 playlist\n"
 #~ "<u>%n playlists</u>"
@@ -5783,9 +5867,6 @@ msgstr "Актив эффектлар"
 
 #~ msgid "&Abort"
 #~ msgstr "&Тўхтатиш"
-
-#~ msgid "Started"
-#~ msgstr "Бошланди"
 
 #~ msgid "[0] Introduction"
 #~ msgstr "[0] Кириш"
@@ -5952,9 +6033,6 @@ msgstr "Актив эффектлар"
 #~ msgid "Add Script"
 #~ msgstr "Скриптлар"
 
-#~ msgid "Edit..."
-#~ msgstr "Таҳрирлаш"
-
 #~ msgid "Configure..."
 #~ msgstr "Мослаш"
 
@@ -6111,10 +6189,6 @@ msgstr "Актив эффектлар"
 #, fuzzy
 #~ msgid "Show Fullsize"
 #~ msgstr "&Асл нусхасини кўрсатиш"
-
-#, fuzzy
-#~ msgid "Add Cover"
-#~ msgstr "Муқовани танлаш"
 
 #, fuzzy
 #~ msgid "Albums By <i>%1</i>"
