@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kformdesigner\n"
-"POT-Creation-Date: 2005-05-10 01:17+0200\n"
+"POT-Creation-Date: 2005-05-28 01:24+0200\n"
 "PO-Revision-Date: 2004-02-08 21:34+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -143,8 +143,8 @@ msgstr ""
 msgid "To Widest"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:109 factories/stdwidgetfactory.cpp:110
-#: form.cpp:116 kdevelop_plugin/kfd_kdev_part.cpp:222 test/kfd_part.cpp:264
+#: factories/stdwidgetfactory.cpp:109 form.cpp:116
+#: kdevelop_plugin/kfd_kdev_part.cpp:222 test/kfd_part.cpp:264
 msgid "Form"
 msgstr ""
 
@@ -169,11 +169,11 @@ msgid "Could not find the KFormDesigner part. Please check your installation."
 msgstr ""
 
 #: commands.cpp:106
-msgid "Change %1 of multiple widgets"
+msgid "Change \"%1\" property for multiple widgets"
 msgstr ""
 
 #: commands.cpp:108
-msgid "Change %1 of widget %2"
+msgid "Change \"%1\" property for widget \"%2\""
 msgstr ""
 
 #: commands.cpp:167
@@ -225,13 +225,11 @@ msgid "Resize Widgets to Tallest"
 msgstr ""
 
 #: commands.cpp:573
-#, c-format
-msgid "Change layout of %1"
+msgid "Change layout of widget \"%1\""
 msgstr ""
 
 #: commands.cpp:671
-#, c-format
-msgid "Insert %1"
+msgid "Insert widget \"%1\""
 msgstr ""
 
 #: commands.cpp:673
@@ -263,8 +261,7 @@ msgid "Create Layout"
 msgstr ""
 
 #: commands.cpp:850
-#, c-format
-msgid "Break Layout: %1"
+msgid "Break Layout: \"%1\""
 msgstr ""
 
 #: commands.cpp:1255
@@ -281,286 +278,405 @@ msgid "Contents of %1"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:111
+msgid ""
+"_: This string will be used to name widgets of this class. It must _not_ "
+"contain white spaces and non latin1 characters.\n"
+"form"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:112
 msgid "A simple form widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:117
+#: factories/stdwidgetfactory.cpp:118
 msgid "Custom Widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:119
+#: factories/stdwidgetfactory.cpp:120
 msgid ""
 "_: This string will be used to name widgets of this class. It must _not_ "
-"contain white spaces and non latin1 characters\n"
-"CustomWidget"
+"contain white spaces and non latin1 characters.\n"
+"customWidget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:120
+#: factories/stdwidgetfactory.cpp:121
 msgid "A custom or non-supported widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:126
+#: factories/stdwidgetfactory.cpp:127
 msgid "Text Label"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:127
+#: factories/stdwidgetfactory.cpp:129
 msgid ""
-"_: Widget name (see above)\n"
-"TextLabel"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"label"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:128
+#: factories/stdwidgetfactory.cpp:130
 msgid "A widget to display text"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:134
+#: factories/stdwidgetfactory.cpp:136
 msgid "Picture Label"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:138
+#: factories/stdwidgetfactory.cpp:141
 msgid ""
-"_: Widget name (see above)\n"
-"PictureLabel"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"picture"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:139
-msgid "A widget to display pixmaps"
+#: factories/stdwidgetfactory.cpp:142
+msgid "A widget to display pictures"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:147
+#: factories/stdwidgetfactory.cpp:150
 msgid "Line Edit"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:148
+#: factories/stdwidgetfactory.cpp:152
 msgid ""
-"_: Widget name (see above)\n"
-"LineEdit"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"lineEdit"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:149
+#: factories/stdwidgetfactory.cpp:153
 msgid "A widget to input text"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:155
+#: factories/stdwidgetfactory.cpp:159
 msgid "Spring"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:156
+#: factories/stdwidgetfactory.cpp:161
 msgid ""
-"_: Widget name (see above)\n"
-"Spring"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"spring"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:157
+#: factories/stdwidgetfactory.cpp:162
 msgid "A spring to place between widgets"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:165
+#: factories/stdwidgetfactory.cpp:170
 msgid "Push Button"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:166
+#: factories/stdwidgetfactory.cpp:172
 msgid ""
-"_: Widget name (see above)\n"
-"PushButton"
-msgstr ""
-
-#: factories/stdwidgetfactory.cpp:167
-msgid "A simple push button to execute actions"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"button"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:173
-msgid "Radio"
+msgid "A simple push button to execute actions"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:174
-msgid ""
-"_: Widget name (see above)\n"
-"Radio"
-msgstr ""
-
-#: factories/stdwidgetfactory.cpp:175
-msgid "A radio button with text or pixmap label"
+#: factories/stdwidgetfactory.cpp:179
+msgid "Option Button"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:181
-msgid "Check Box"
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"optionButton"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:182
-msgid ""
-"_: Widget name (see above)\n"
-"CheckBox"
+msgid "An option button with text or pixmap label"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:183
-msgid "A check box with text or pixmap label"
+#: factories/stdwidgetfactory.cpp:188
+msgid "Check Box"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:190
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"checkBox"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:191
+msgid "A check box with text or pixmap label"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:199
 msgid "Spin Box"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:192
-msgid ""
-"_: Widget name (see above)\n"
-"SpinBox"
-msgstr ""
-
-#: factories/stdwidgetfactory.cpp:193
-msgid "A spin box widget"
-msgstr ""
-
 #: factories/stdwidgetfactory.cpp:201
-msgid "Combo Box"
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"spinBox"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:202
-msgid ""
-"_: Widget name (see above)\n"
-"ComboBox"
+msgid "A spin box widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:203
-msgid "A combo box widget"
-msgstr ""
-
-#: factories/stdwidgetfactory.cpp:211
-msgid "List Box"
+#: factories/stdwidgetfactory.cpp:210
+msgid "Combo Box"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:212
 msgid ""
-"_: Widget name (see above)\n"
-"ListBox"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"comboBox"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:213
-msgid "A simple list widget"
+msgid "A combo box widget"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:221
-msgid "Text Editor"
-msgstr ""
-
-#: factories/stdwidgetfactory.cpp:222
-msgid ""
-"_: Widget name (see above)\n"
-"TextEditor"
+msgid "List Box"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:223
-msgid "A simple single-page rich text editor"
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"listBox"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:231
-msgid "List View"
+#: factories/stdwidgetfactory.cpp:224
+msgid "A simple list widget"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:232
-msgid ""
-"_: Widget name (see above)\n"
-"ListView"
+msgid "Text Editor"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:233
+#: factories/stdwidgetfactory.cpp:234
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"textEditor"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:235
+msgid "A simple single-page rich text editor"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:243
+msgid "List View"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:245
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"listView"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:246
 msgid "A list (or tree) widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:239
+#: factories/stdwidgetfactory.cpp:252
 msgid "Slider"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:240
+#: factories/stdwidgetfactory.cpp:254
 msgid ""
-"_: Widget name (see above)\n"
-"Slider"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"slider"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:241
+#: factories/stdwidgetfactory.cpp:255
 msgid "An horizontal slider"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:249
+#: factories/stdwidgetfactory.cpp:263
 msgid "Progress Bar"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:250
+#: factories/stdwidgetfactory.cpp:265
 msgid ""
-"_: Widget name (see above)\n"
-"ProgressBar"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"progressBar"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:251
+#: factories/stdwidgetfactory.cpp:266
 msgid "A progress indicator widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:257
+#: factories/stdwidgetfactory.cpp:272
 msgid "Line"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:258
+#: factories/stdwidgetfactory.cpp:274
 msgid ""
-"_: Widget name (see above)\n"
-"Line"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"line"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:259
+#: factories/stdwidgetfactory.cpp:275
 msgid "A line to be used as a separator"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:269
+#: factories/stdwidgetfactory.cpp:285
 msgid "Date Widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:270
+#: factories/stdwidgetfactory.cpp:287
 msgid ""
-"_: Widget name (see above)\n"
-"DateWidget"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"dateWidget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:271
-msgid "A widget to input or display a date"
+#: factories/stdwidgetfactory.cpp:288
+msgid "A widget to input and display a date"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:281
+#: factories/stdwidgetfactory.cpp:298
 msgid "Time Widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:282
+#: factories/stdwidgetfactory.cpp:300
 msgid ""
-"_: Widget name (see above)\n"
-"TimeWidget"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"timeWidget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:283
-msgid "A widget to input or display a time"
+#: factories/stdwidgetfactory.cpp:301
+msgid "A widget to input and display a time"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:293
+#: factories/stdwidgetfactory.cpp:311
 msgid "Date/Time Widget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:294
+#: factories/stdwidgetfactory.cpp:313
 msgid ""
-"_: Widget name (see above)\n"
-"DateTimeWidget"
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"dateTimeWidget"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:295
-msgid "A widget to input or display a time and a date"
+#: factories/stdwidgetfactory.cpp:314
+msgid "A widget to input and display a time and a date"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:317
+msgid "Toggle"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:318
+msgid "Auto Repeat"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:319
+msgid "Auto Default"
+msgstr ""
+
+#: factories/containerfactory.cpp:367 factories/stdwidgetfactory.cpp:321
+msgid "Flat"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:323
+msgid ""
+"_: Echo mode for Line Edit widget eg. Normal, NoEcho, Password\n"
+"Echo Mode"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:324
+msgid "Indent"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:328
+msgid ""
+"_: Checked checkbox\n"
+"Checked"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:329
+msgid ""
+"_: Tristate checkbox\n"
+"Tristate"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:332
+msgid ""
+"_: For Echo Mode\n"
+"Normal"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:333
+msgid ""
+"_: For Echo Mode\n"
+"No Echo"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:334
+msgid ""
+"_: For Echo Mode\n"
+"Password"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:337
+msgid "Size Type"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:340
+msgid "Text Format"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:341
+msgid ""
+"_: For Text Format\n"
+"Plain"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:342
+msgid ""
+"_: For Text Format\n"
+"Hypertext"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:343
+msgid ""
+"_: For Text Format\n"
+"Auto"
 msgstr ""
 
 #: factories/stdwidgetfactory.cpp:344
+msgid ""
+"_: For Text Format\n"
+"Log"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:392
 msgid "Column 1"
 msgstr ""
 
-#: factories/stdwidgetfactory.cpp:391 richtextdialog.cpp:37
+#: factories/stdwidgetfactory.cpp:439 richtextdialog.cpp:37
 msgid "Edit Rich Text"
 msgstr ""
 
-#: editlistviewdialog.cpp:42 factories/stdwidgetfactory.cpp:396
+#: editlistviewdialog.cpp:42 factories/stdwidgetfactory.cpp:444
 msgid "Edit Listview Contents"
+msgstr ""
+
+#: factories/stdwidgetfactory.cpp:920
+msgid ""
+"_: default indent value\n"
+"default"
 msgstr ""
 
 #: factories/containerfactory.cpp:161
@@ -568,8 +684,8 @@ msgstr ""
 msgid "Page %1"
 msgstr ""
 
-#: factories/containerfactory.cpp:214 factories/containerfactory.cpp:488
-#: factories/containerfactory.cpp:501
+#: factories/containerfactory.cpp:214 factories/containerfactory.cpp:514
+#: factories/containerfactory.cpp:527
 msgid "Add Page"
 msgstr ""
 
@@ -577,147 +693,217 @@ msgstr ""
 msgid "Button Group"
 msgstr ""
 
-#: factories/containerfactory.cpp:261
-msgid "ButtonGroup"
+#: factories/containerfactory.cpp:262
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"buttonGroup"
 msgstr ""
 
-#: factories/containerfactory.cpp:262
+#: factories/containerfactory.cpp:263
 msgid "A simple container to group buttons"
 msgstr ""
 
-#: factories/containerfactory.cpp:276
+#: factories/containerfactory.cpp:277
 msgid "Tab Widget"
 msgstr ""
 
-#: factories/containerfactory.cpp:277
-msgid "TabWidget"
+#: factories/containerfactory.cpp:279
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"tabWidget"
 msgstr ""
 
-#: factories/containerfactory.cpp:278
+#: factories/containerfactory.cpp:280
 msgid "A widget to display multiple pages using tabs"
 msgstr ""
 
-#: factories/containerfactory.cpp:284
+#: factories/containerfactory.cpp:286
 msgid "Basic container"
 msgstr ""
 
-#: factories/containerfactory.cpp:285
-msgid "BasicContainer"
+#: factories/containerfactory.cpp:288
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"container"
 msgstr ""
 
-#: factories/containerfactory.cpp:286
+#: factories/containerfactory.cpp:289
 msgid "An empty container with no frame"
 msgstr ""
 
-#: factories/containerfactory.cpp:292
+#: factories/containerfactory.cpp:295
 msgid "Group Box"
 msgstr ""
 
-#: factories/containerfactory.cpp:293
-msgid "GroupBox"
+#: factories/containerfactory.cpp:297
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"groupBox"
 msgstr ""
 
-#: factories/containerfactory.cpp:294
+#: factories/containerfactory.cpp:298
 msgid "A container to group some widgets"
 msgstr ""
 
-#: factories/containerfactory.cpp:300 factories/containerfactory.cpp:301
+#: factories/containerfactory.cpp:304 objpropbuffer.cpp:291
 msgid "Frame"
 msgstr ""
 
-#: factories/containerfactory.cpp:302
+#: factories/containerfactory.cpp:306
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"frame"
+msgstr ""
+
+#: factories/containerfactory.cpp:307
 msgid "A very simple container"
 msgstr ""
 
-#: factories/containerfactory.cpp:308
+#: factories/containerfactory.cpp:313
 msgid "Widget Stack"
 msgstr ""
 
-#: factories/containerfactory.cpp:309
-msgid "WidgetStack"
-msgstr ""
-
-#: factories/containerfactory.cpp:310
-msgid "A container with multiple pages"
+#: factories/containerfactory.cpp:315
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"widgetStack"
 msgstr ""
 
 #: factories/containerfactory.cpp:316
+msgid "A container with multiple pages"
+msgstr ""
+
+#: factories/containerfactory.cpp:322
 msgid "Horizontal Box"
 msgstr ""
 
-#: factories/containerfactory.cpp:317
-msgid "HorizontalBox"
-msgstr ""
-
-#: factories/containerfactory.cpp:318
-msgid "A simple container to group widgets horizontally"
-msgstr ""
-
 #: factories/containerfactory.cpp:324
-msgid "Vertical Box"
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"horizontalBox"
 msgstr ""
 
 #: factories/containerfactory.cpp:325
-msgid "VerticalBox"
+msgid "A simple container to group widgets horizontally"
 msgstr ""
 
-#: factories/containerfactory.cpp:326
-msgid "A simple container to group widgets vertically"
-msgstr ""
-
-#: factories/containerfactory.cpp:332
-msgid "Grid Box"
+#: factories/containerfactory.cpp:331
+msgid "Vertical Box"
 msgstr ""
 
 #: factories/containerfactory.cpp:333
-msgid "GridBox"
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"verticalBox"
 msgstr ""
 
 #: factories/containerfactory.cpp:334
-msgid "A simple container to group widgets in a grid"
+msgid "A simple container to group widgets vertically"
 msgstr ""
 
-#: factories/containerfactory.cpp:340 factories/containerfactory.cpp:341
-msgid "Splitter"
+#: factories/containerfactory.cpp:340
+msgid "Grid Box"
 msgstr ""
 
 #: factories/containerfactory.cpp:342
-msgid "A container that enables user to resize its children"
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"gridBox"
 msgstr ""
 
-#: factories/containerfactory.cpp:348
-msgid "Sub Form"
+#: factories/containerfactory.cpp:343
+msgid "A simple container to group widgets in a grid"
 msgstr ""
 
 #: factories/containerfactory.cpp:349
-msgid "SubForm"
+msgid "Splitter"
 msgstr ""
 
-#: factories/containerfactory.cpp:350
+#: factories/containerfactory.cpp:351
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"splitter"
+msgstr ""
+
+#: factories/containerfactory.cpp:352
+msgid "A container that enables user to resize its children"
+msgstr ""
+
+#: factories/containerfactory.cpp:358
+msgid "Sub Form"
+msgstr ""
+
+#: factories/containerfactory.cpp:360
+msgid ""
+"_: Widget name. This string will be used to name widgets of this class. It must "
+"_not_ contain white spaces and non latin1 characters.\n"
+"subForm"
+msgstr ""
+
+#: factories/containerfactory.cpp:361
 msgid "A form widget included in another Form"
 msgstr ""
 
-#: factories/containerfactory.cpp:489
+#: factories/containerfactory.cpp:366
+msgid "Title"
+msgstr ""
+
+#: factories/containerfactory.cpp:370 factories/containerfactory.cpp:374
+#: factories/containerfactory.cpp:375
+msgid "Tab Position"
+msgstr ""
+
+#: factories/containerfactory.cpp:371
+msgid "Current Page"
+msgstr ""
+
+#: factories/containerfactory.cpp:372
+msgid "Tab Shape"
+msgstr ""
+
+#: factories/containerfactory.cpp:377
+msgid ""
+"_: for Tab Shape\n"
+"Rounded"
+msgstr ""
+
+#: factories/containerfactory.cpp:378
+msgid ""
+"_: for Tab Shape\n"
+"Triangular"
+msgstr ""
+
+#: factories/containerfactory.cpp:515
 msgid "Rename Page"
 msgstr ""
 
-#: factories/containerfactory.cpp:490 factories/containerfactory.cpp:503
+#: factories/containerfactory.cpp:516 factories/containerfactory.cpp:529
 msgid "Remove Page"
 msgstr ""
 
-#: factories/containerfactory.cpp:507
+#: factories/containerfactory.cpp:533
 msgid "Jump to Next Page"
 msgstr ""
 
-#: factories/containerfactory.cpp:511
+#: factories/containerfactory.cpp:537
 msgid "Jump to Previous Page"
 msgstr ""
 
-#: factories/containerfactory.cpp:671
+#: factories/containerfactory.cpp:697
 msgid "New Page Title"
 msgstr ""
 
-#: factories/containerfactory.cpp:671
+#: factories/containerfactory.cpp:697
 msgid "Enter a new title for the current page:"
 msgstr ""
 
@@ -777,7 +963,7 @@ msgstr ""
 msgid "Move Item &Down"
 msgstr ""
 
-#: editlistviewdialog.cpp:109
+#: editlistviewdialog.cpp:109 objpropbuffer.cpp:275
 msgid "Caption"
 msgstr ""
 
@@ -818,9 +1004,7 @@ msgid "Lay Out Widgets in &Grid"
 msgstr ""
 
 #: form.cpp:324
-msgid ""
-"A widget with this name already exists. Please choose another name or rename "
-"existing widget."
+msgid "Renaming widget \"%1\" to \"%2\" failed."
 msgstr ""
 
 #: _translatorinfo.cpp:1
@@ -844,11 +1028,11 @@ msgid "Class"
 msgstr ""
 
 #: tabstopdialog.cpp:59
-msgid "Move Widget &Up"
+msgid "Move Widget Up"
 msgstr ""
 
 #: tabstopdialog.cpp:66
-msgid "Move Widget &Down"
+msgid "Move Widget Down"
 msgstr ""
 
 #: tabstopdialog.cpp:72
@@ -901,7 +1085,7 @@ msgid ""
 msgstr ""
 
 #: objpropbuffer.cpp:89 objpropbuffer.cpp:99
-msgid "Its name will be reverted to \"%1\""
+msgid "It's name will be reverted to \"%1\""
 msgstr ""
 
 #: objpropbuffer.cpp:98
@@ -909,121 +1093,363 @@ msgid ""
 "A widget with name \"%1\" already exists.\n"
 msgstr ""
 
-#: objpropbuffer.cpp:275
-msgid "Background Pixmap"
-msgstr ""
-
 #: objpropbuffer.cpp:276
-msgid "Enabled"
+msgid "Text"
 msgstr ""
 
 #: objpropbuffer.cpp:277
-msgid "Geometry"
+msgid "Background Pixmap"
+msgstr ""
+
+#: objpropbuffer.cpp:278
+msgid "Enabled"
 msgstr ""
 
 #: objpropbuffer.cpp:279
-msgid "Cursor"
+msgid "Geometry"
+msgstr ""
+
+#: objpropbuffer.cpp:280
+msgid "Size Policy"
 msgstr ""
 
 #: objpropbuffer.cpp:281
-msgid "No Background"
+msgid "Minimum Size"
 msgstr ""
 
 #: objpropbuffer.cpp:282
+msgid "Maximum Size"
+msgstr ""
+
+#: objpropbuffer.cpp:284
+msgid "Cursor"
+msgstr ""
+
+#: objpropbuffer.cpp:285
+msgid "Foreground Color"
+msgstr ""
+
+#: objpropbuffer.cpp:286
+msgid "Background Color"
+msgstr ""
+
+#: objpropbuffer.cpp:287
+msgid "Focus Policy"
+msgstr ""
+
+#: objpropbuffer.cpp:288
+msgid "Margin"
+msgstr ""
+
+#: objpropbuffer.cpp:289
+msgid "Read Only"
+msgstr ""
+
+#: objpropbuffer.cpp:292
+msgid "Frame Width"
+msgstr ""
+
+#: objpropbuffer.cpp:293
+msgid "Mid Frame Width"
+msgstr ""
+
+#: objpropbuffer.cpp:294
+msgid "Frame Shape"
+msgstr ""
+
+#: objpropbuffer.cpp:295
+msgid "Frame Shadow"
+msgstr ""
+
+#: objpropbuffer.cpp:297
+msgid "Vertical ScrollBar"
+msgstr ""
+
+#: objpropbuffer.cpp:298
+msgid "Horizontal ScrollBar"
+msgstr ""
+
+#: objpropbuffer.cpp:300
+msgid "No Background"
+msgstr ""
+
+#: objpropbuffer.cpp:301
 msgid "Palette Foreground"
 msgstr ""
 
-#: objpropbuffer.cpp:283
+#: objpropbuffer.cpp:302
+msgid ""
+"_: for AutoText\n"
+"Auto"
+msgstr ""
+
+#: objpropbuffer.cpp:304
+msgid ""
+"_: for Align\n"
+"Auto"
+msgstr ""
+
+#: objpropbuffer.cpp:305
+msgid ""
+"_: for Align\n"
+"Left"
+msgstr ""
+
+#: objpropbuffer.cpp:306
+msgid ""
+"_: for Align\n"
+"Right"
+msgstr ""
+
+#: objpropbuffer.cpp:307 objpropbuffer.cpp:309
+msgid ""
+"_: for Align\n"
+"Center"
+msgstr ""
+
+#: objpropbuffer.cpp:308
+msgid ""
+"_: for Align\n"
+"Justify"
+msgstr ""
+
+#: objpropbuffer.cpp:310
+msgid ""
+"_: for Align\n"
+"Top"
+msgstr ""
+
+#: objpropbuffer.cpp:311
+msgid ""
+"_: for Align\n"
+"Bottom"
+msgstr ""
+
+#: objpropbuffer.cpp:313
+msgid ""
+"_: for Frame Shape\n"
+"No Frame"
+msgstr ""
+
+#: objpropbuffer.cpp:314
+msgid ""
+"_: for Frame Shape\n"
+"Box"
+msgstr ""
+
+#: objpropbuffer.cpp:315
+msgid ""
+"_: for Frame Shape\n"
+"Panel"
+msgstr ""
+
+#: objpropbuffer.cpp:316
+msgid ""
+"_: for Frame Shape\n"
+"Windows Panel"
+msgstr ""
+
+#: objpropbuffer.cpp:317
+msgid ""
+"_: for Frame Shape\n"
+"Horiz. Line"
+msgstr ""
+
+#: objpropbuffer.cpp:318
+msgid ""
+"_: for Frame Shape\n"
+"Vertical Line"
+msgstr ""
+
+#: objpropbuffer.cpp:319
+msgid ""
+"_: for Frame Shape\n"
+"Styled"
+msgstr ""
+
+#: objpropbuffer.cpp:320
+msgid ""
+"_: for Frame Shape\n"
+"Popup"
+msgstr ""
+
+#: objpropbuffer.cpp:321
+msgid ""
+"_: for Frame Shape\n"
+"Menu Bar"
+msgstr ""
+
+#: objpropbuffer.cpp:322
+msgid ""
+"_: for Frame Shape\n"
+"Toolbar"
+msgstr ""
+
+#: objpropbuffer.cpp:323
+msgid ""
+"_: for Frame Shape\n"
+"Text Box"
+msgstr ""
+
+#: objpropbuffer.cpp:324
+msgid ""
+"_: for Frame Shape\n"
+"Tab Widget"
+msgstr ""
+
+#: objpropbuffer.cpp:325
+msgid ""
+"_: for Frame Shape\n"
+"Group Box"
+msgstr ""
+
+#: objpropbuffer.cpp:327
+msgid ""
+"_: for Frame Shadow\n"
+"Plain"
+msgstr ""
+
+#: objpropbuffer.cpp:328
+msgid ""
+"_: for Frame Shadow\n"
+"Raised"
+msgstr ""
+
+#: objpropbuffer.cpp:329
+msgid ""
+"_: for Frame Shadow\n"
+"Sunken"
+msgstr ""
+
+#: objpropbuffer.cpp:331
+msgid ""
+"_: for Focus\n"
+"No Focus"
+msgstr ""
+
+#: objpropbuffer.cpp:332
+msgid ""
+"_: for Focus\n"
+"Tab"
+msgstr ""
+
+#: objpropbuffer.cpp:333
+msgid ""
+"_: for Focus\n"
+"Click"
+msgstr ""
+
+#: objpropbuffer.cpp:334
+msgid ""
+"_: for Focus\n"
+"Tab/Click"
+msgstr ""
+
+#: objpropbuffer.cpp:335
+msgid ""
+"_: for Focus\n"
+"Tab/Click/MouseWheel"
+msgstr ""
+
+#: objpropbuffer.cpp:337
 msgid "Auto"
 msgstr ""
 
-#: formmanager.cpp:812 objpropbuffer.cpp:386
+#: objpropbuffer.cpp:338
+msgid "Always Off"
+msgstr ""
+
+#: objpropbuffer.cpp:339
+msgid "Always On"
+msgstr ""
+
+#: formmanager.cpp:814 objpropbuffer.cpp:446
 msgid "Events"
 msgstr ""
 
-#: objpropbuffer.cpp:617
+#: objpropbuffer.cpp:679
 msgid "Horizontal Alignment"
 msgstr ""
 
-#: objpropbuffer.cpp:634
+#: objpropbuffer.cpp:699
 msgid "Vertical Alignment"
 msgstr ""
 
-#: objpropbuffer.cpp:641
+#: objpropbuffer.cpp:709
 msgid "Word Break"
 msgstr ""
 
-#: objpropbuffer.cpp:697
+#: objpropbuffer.cpp:768
 msgid "Container's Layout"
 msgstr ""
 
-#: objpropbuffer.cpp:704
+#: objpropbuffer.cpp:775
 msgid "Layout Margin"
 msgstr ""
 
-#: objpropbuffer.cpp:709
+#: objpropbuffer.cpp:780
 msgid "Layout Spacing"
 msgstr ""
 
-#: formmanager.cpp:143
+#: formmanager.cpp:145
 msgid "Connect Signals/Slots"
 msgstr ""
 
-#: formmanager.cpp:152
+#: formmanager.cpp:154
 msgid "Pointer"
 msgstr ""
 
-#: formmanager.cpp:157
+#: formmanager.cpp:159
 msgid "Snap to Grid"
 msgstr ""
 
-#: formmanager.cpp:162
+#: formmanager.cpp:164
 msgid "Style"
 msgstr ""
 
-#: formmanager.cpp:181
+#: formmanager.cpp:183
 msgid "Set the current view style."
 msgstr ""
 
-#: formmanager.cpp:660
+#: formmanager.cpp:662
 msgid "Signals"
 msgstr ""
 
-#: formmanager.cpp:681
+#: formmanager.cpp:683
 msgid "Slots"
 msgstr ""
 
-#: formmanager.cpp:735
+#: formmanager.cpp:737
 msgid "Form: "
 msgstr ""
 
-#: formmanager.cpp:740
+#: formmanager.cpp:742
 msgid "Multiple Widgets"
 msgstr ""
 
-#: formmanager.cpp:777
+#: formmanager.cpp:779
 msgid "No Buddy"
 msgstr ""
 
-#: formmanager.cpp:791
+#: formmanager.cpp:793
 msgid "Choose Buddy..."
 msgstr ""
 
-#: formmanager.cpp:965
+#: formmanager.cpp:967
 msgid ""
 "<b>Cannot create the layout.</b>\n"
 "All selected widgets must have the same parent."
 msgstr ""
 
-#: formmanager.cpp:1243
+#: formmanager.cpp:1245
 msgid "Form's UI Code"
 msgstr ""
 
-#: formmanager.cpp:1250
+#: formmanager.cpp:1252
 msgid "Current"
 msgstr ""
 
-#: formmanager.cpp:1258
+#: formmanager.cpp:1260
 msgid "Original"
 msgstr ""
 
@@ -1060,7 +1486,7 @@ msgid "Slot"
 msgstr ""
 
 #: connectiondialog.cpp:337
-msgid "<qt>You have not selected a <b>%1</b>.</qt>"
+msgid "<qt>You have not selected item: <b>%1</b>.</qt>"
 msgstr ""
 
 #: connectiondialog.cpp:351
