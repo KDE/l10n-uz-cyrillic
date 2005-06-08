@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker\n"
-"POT-Creation-Date: 2005-05-31 01:24+0200\n"
+"POT-Creation-Date: 2005-06-08 01:24+0200\n"
 "PO-Revision-Date: 2004-08-02 23:46+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -23,7 +23,7 @@ msgstr "Кўриш: %1"
 msgid "Show desktop"
 msgstr "Иш столини кўрсатиш"
 
-#: buttons/desktopbutton.cpp:45 ui/addspecialbutton_mnu.cpp:54
+#: buttons/desktopbutton.cpp:45
 msgid "Desktop Access"
 msgstr ""
 
@@ -31,7 +31,7 @@ msgstr ""
 msgid "Applications, tasks and desktop sessions"
 msgstr ""
 
-#: buttons/kbutton.cpp:44 ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:71
+#: buttons/kbutton.cpp:44 ui/k_mnu.cpp:71
 msgid "K Menu"
 msgstr "К-меню"
 
@@ -51,7 +51,7 @@ msgstr "Дастурлар"
 msgid "The file %1 does not exist"
 msgstr "%1 файли мавжуд эмас"
 
-#: buttons/windowlistbutton.cpp:39 ui/addspecialbutton_mnu.cpp:49
+#: buttons/windowlistbutton.cpp:39
 msgid "Window List"
 msgstr "Ойналар рўйхати"
 
@@ -76,11 +76,11 @@ msgstr ""
 msgid "Applet Loading Error"
 msgstr "Апплетни юклаш хатоси"
 
-#: core/container_extension.cpp:1515 core/container_extension.cpp:1528
+#: core/container_extension.cpp:1521 core/container_extension.cpp:1534
 msgid "Show panel"
 msgstr "Панелни кўрсатиш"
 
-#: core/container_extension.cpp:1519 core/container_extension.cpp:1532
+#: core/container_extension.cpp:1525 core/container_extension.cpp:1538
 msgid "Hide panel"
 msgstr "Панелни бекитиш"
 
@@ -128,31 +128,31 @@ msgstr ""
 msgid "Kiosk mode"
 msgstr ""
 
-#: core/panelextension.cpp:270
+#: core/panelextension.cpp:269
 msgid "Add &Applet to Panel..."
 msgstr ""
 
-#: core/panelextension.cpp:271
+#: core/panelextension.cpp:270
 #, fuzzy
 msgid "Add Appli&cation to Panel"
 msgstr "Дастур тугмаси"
 
-#: core/panelextension.cpp:274
+#: core/panelextension.cpp:273
 #, fuzzy
 msgid "&Remove From Panel"
 msgstr "%1 менюни &олиб ташлаш"
 
-#: core/panelextension.cpp:277
+#: core/panelextension.cpp:276
 #, fuzzy
 msgid "Add New &Panel"
 msgstr "Панел"
 
-#: core/panelextension.cpp:278
+#: core/panelextension.cpp:277
 #, fuzzy
 msgid "Remove Pa&nel"
 msgstr "%1 менюни &олиб ташлаш"
 
-#: core/panelextension.cpp:283
+#: core/panelextension.cpp:282
 msgid "&Configure Panel..."
 msgstr "&Панелни мослаш"
 
@@ -160,34 +160,6 @@ msgstr "&Панелни мослаш"
 #, fuzzy
 msgid "Add Applet"
 msgstr "Апплет"
-
-#: ui/addcontainer_mnu.cpp:48 ui/addcontainer_mnu.cpp:49
-#, fuzzy
-msgid "&Applet"
-msgstr "Апплет"
-
-#: ui/addcontainer_mnu.cpp:51
-#, fuzzy
-msgid "Appli&cation"
-msgstr "Дастурлар"
-
-#: ui/addcontainer_mnu.cpp:56
-#, fuzzy
-msgid "&Panel"
-msgstr "Панел"
-
-#: ui/addcontainer_mnu.cpp:60
-#, fuzzy
-msgid "&Special Button"
-msgstr "Махсус тугма"
-
-#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:219 ui/k_mnu.cpp:224
-msgid "Quick Browser"
-msgstr "Тез кўриш"
-
-#: ui/addspecialbutton_mnu.cpp:58
-msgid "Non-KDE Application"
-msgstr "Но-KDE дастури"
 
 #: ui/appletop_mnu.cpp:51
 msgid "&Move %1 Menu"
@@ -325,6 +297,10 @@ msgstr "Ҳамма дастурлар"
 msgid "Actions"
 msgstr "Амаллар"
 
+#: ui/k_mnu.cpp:219 ui/k_mnu.cpp:224
+msgid "Quick Browser"
+msgstr "Тез кўриш"
+
 #: ui/k_mnu.cpp:287 ui/k_mnu.cpp:293
 msgid "Run Command..."
 msgstr "Буйруқни бажариш"
@@ -395,23 +371,21 @@ msgid "Most Used Applications"
 msgstr "Энг кўп ишлатилган дастурлар"
 
 #. i18n: file ui/appletview.ui line 71
-#: rc.cpp:15 ui/removeapplet_mnu.cpp:75 ui/removebutton_mnu.cpp:92
-#: ui/removeextension_mnu.cpp:93 ui/removespecialbutton_mnu.cpp:83
+#: rc.cpp:15 ui/removeapplet_mnu.cpp:82 ui/removebutton_mnu.cpp:92
+#: ui/removeextension_mnu.cpp:93
 #, no-c-format
 msgid "All"
 msgstr "Ҳаммаси"
 
-#: ui/removecontainer_mnu.cpp:43
-msgid "Applet"
+#: ui/removecontainer_mnu.cpp:42
+#, fuzzy
+msgid "&Applet"
 msgstr "Апплет"
 
-#: ui/removecontainer_mnu.cpp:45
-msgid "Application Button"
-msgstr "Дастур тугмаси"
-
-#: ui/removecontainer_mnu.cpp:47
-msgid "Special Button"
-msgstr "Махсус тугма"
+#: ui/removecontainer_mnu.cpp:44
+#, fuzzy
+msgid "Appli&cation"
+msgstr "Дастурлар"
 
 #: ui/removeextension_mnu.cpp:64
 msgid "%1 (Top)"
@@ -695,6 +669,26 @@ msgstr "Ўл&чами"
 #, fuzzy, no-c-format
 msgid "Custom size"
 msgstr "Бошқа"
+
+#, fuzzy
+#~ msgid "&Panel"
+#~ msgstr "Панел"
+
+#, fuzzy
+#~ msgid "&Special Button"
+#~ msgstr "Махсус тугма"
+
+#~ msgid "Non-KDE Application"
+#~ msgstr "Но-KDE дастури"
+
+#~ msgid "Applet"
+#~ msgstr "Апплет"
+
+#~ msgid "Application Button"
+#~ msgstr "Дастур тугмаси"
+
+#~ msgid "Special Button"
+#~ msgstr "Махсус тугма"
 
 #~ msgid "&Properties"
 #~ msgstr "&Хоссалари"
