@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2005-06-17 01:37+0200\n"
+"POT-Creation-Date: 2005-06-18 01:37+0200\n"
 "PO-Revision-Date: 2004-10-24 17:45+0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -37,9 +37,9 @@ msgstr "Сарлавҳа"
 
 #. i18n: file ./trackpickerdialogbase.ui line 103
 #: collectionbrowser.cpp:111 collectionbrowser.cpp:113
-#: collectionbrowser.cpp:1481 covermanager.cpp:909 mediabrowser.cpp:103
-#: playlist.cpp:222 playlistbrowseritem.cpp:1001 rc.cpp:46
-#: smartplaylisteditor.cpp:104 smartplaylisteditor.cpp:115 tracktooltip.cpp:31
+#: collectionbrowser.cpp:1481 mediabrowser.cpp:103 playlist.cpp:222
+#: playlistbrowseritem.cpp:1001 rc.cpp:46 smartplaylisteditor.cpp:104
+#: smartplaylisteditor.cpp:115 tracktooltip.cpp:31
 #, no-c-format
 msgid "Artist"
 msgstr "Санаткор"
@@ -47,9 +47,9 @@ msgstr "Санаткор"
 #. i18n: file ./trackpickerdialogbase.ui line 114
 #: collectionbrowser.cpp:113 collectionbrowser.cpp:114
 #: collectionbrowser.cpp:1475 collectionbrowser.cpp:1478
-#: contextbrowser.cpp:599 covermanager.cpp:911 playlist.cpp:223
-#: playlistbrowseritem.cpp:1009 rc.cpp:49 smartplaylisteditor.cpp:104
-#: smartplaylisteditor.cpp:115 tracktooltip.cpp:31
+#: contextbrowser.cpp:599 playlist.cpp:223 playlistbrowseritem.cpp:1009
+#: rc.cpp:49 smartplaylisteditor.cpp:104 smartplaylisteditor.cpp:115
+#: tracktooltip.cpp:31
 #, no-c-format
 msgid "Album"
 msgstr "Албом"
@@ -450,7 +450,7 @@ msgstr ""
 #: collectionbrowser.cpp:612 collectionbrowser.cpp:666
 #: collectionbrowser.cpp:1237 collectionbrowser.cpp:1291
 #: collectionbrowser.cpp:1366 collectiondb.cpp:1125 covermanager.cpp:100
-#: covermanager.cpp:398 database/collectiondb.cpp:1120
+#: covermanager.cpp:398 covermanager.cpp:897 database/collectiondb.cpp:1120
 msgid "Various Artists"
 msgstr "Бошқа санаткорлар"
 
@@ -633,8 +633,8 @@ msgstr ""
 msgid "Loading Thumbnails..."
 msgstr "Юкланмоқда..."
 
-#: covermanager.cpp:353 covermanager.cpp:782 covermanager.cpp:1019
-#: covermanager.cpp:1026 playlistbrowseritem.cpp:519
+#: covermanager.cpp:353 covermanager.cpp:782 covermanager.cpp:974
+#: covermanager.cpp:981 playlistbrowseritem.cpp:519
 #: playlistbrowseritem.cpp:527 playlistbrowseritem.cpp:747
 #: playlistbrowseritem.cpp:755
 #, fuzzy
@@ -770,21 +770,15 @@ msgstr ""
 msgid " - ( <b>%1</b> without cover )"
 msgstr " - ( <b>%1</b> муқовасиз )"
 
-#: covermanager.cpp:910
-#, fuzzy
-msgid "Various"
-msgstr "Бошқа санаткорлар"
+#: covermanager.cpp:897
+msgid "%1 - %2"
+msgstr ""
 
-#: covermanager.cpp:913
-#, fuzzy
-msgid "Tracks"
-msgstr "Қўшиқ"
-
-#: covermanager.cpp:1048
+#: covermanager.cpp:1003
 msgid "Are you sure you want to overwrite this cover?"
 msgstr "Ушбу муқова расмни алмаштиришга ишончингиз комилми?"
 
-#: covermanager.cpp:1050
+#: covermanager.cpp:1005
 msgid "&Overwrite Confirmation"
 msgstr "&Алмаштиришни тасдиқлаш"
 
@@ -5739,6 +5733,14 @@ msgstr "Мавжуд эффектлар"
 #: effectwidget.cpp:61
 msgid "Active Effects"
 msgstr "Актив эффектлар"
+
+#, fuzzy
+#~ msgid "Various"
+#~ msgstr "Бошқа санаткорлар"
+
+#, fuzzy
+#~ msgid "Tracks"
+#~ msgstr "Қўшиқ"
 
 #, fuzzy
 #~ msgid "&Play Next"
