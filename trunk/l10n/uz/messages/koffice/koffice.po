@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
-"POT-Creation-Date: 2005-06-23 01:31+0200\n"
+"POT-Creation-Date: 2005-06-25 01:30+0200\n"
 "PO-Revision-Date: 2005-01-22 01:12+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -286,7 +286,7 @@ msgid "Symbol Names"
 msgstr ""
 
 #: kformula/kformuladocument.cc:646 kotext/koSearchDia.cc:629
-#: kotext/kotextformat.cc:1560
+#: kotext/kotextformat.cc:1561
 msgid "Normal"
 msgstr "Оддий"
 
@@ -2764,7 +2764,7 @@ msgid "Autoinclude"
 msgstr ""
 
 #: kotext/koAutoFormatDia.cc:180 kotext/koAutoFormatDia.cc:1162
-#: kotext/koFontDia.cc:1157
+#: kotext/koFontDia.cc:53
 msgid "&Reset"
 msgstr "&Тиклаш"
 
@@ -3105,103 +3105,27 @@ msgstr "Илтимос янги услубнинг номини киритинг
 msgid "Name already exists! Please choose another name"
 msgstr "Бу ном аллақачон мавжуд! Илтимос бошқасини танланг"
 
-#: kotext/koFontDia.cc:56
-msgid ""
-"_: Test string for shadow dialog\n"
-"KOffice"
-msgstr ""
-
-#: kotext/koFontDia.cc:80
-msgid "Shadow"
-msgstr "Соя"
-
-#: kotext/koFontDia.cc:85 kotext/koParagDia.cc:1307
-msgid "Co&lor:"
-msgstr "&Ранги:"
-
-#: kotext/koFontDia.cc:94
-msgid "&Distance (pt):"
-msgstr ""
-
-#: kotext/koFontDia.cc:99
-msgid "pt"
-msgstr ""
-
-#: kotext/koFontDia.cc:104
-msgid "Di&rection:"
-msgstr "&Йўналиш:"
-
-#: kotext/koFontDia.cc:289
-msgid "S&hadow"
-msgstr "&Соя"
-
-#: kotext/koFontDia.cc:392
-msgid "Colors"
-msgstr "Ранглар"
-
-#: kotext/koFontDia.cc:395 kotext/koFontDia.cc:437
-msgid "Change Co&lor..."
-msgstr "&Рангни ўзгартириш"
-
-#: kotext/koFontDia.cc:398
-msgid "Change Bac&kground Color..."
-msgstr "Орқа фон &рангини ўзгартириш"
-
-#: kotext/koFontDia.cc:413
-msgid "Font &Effects"
-msgstr "Шрифт &эффектлари"
-
-#: kotext/koFontDia.cc:423
-msgid "&Underlining:"
-msgstr "Та&гини чизиш:"
-
-#: kotext/koFontDia.cc:441
-msgid "&Strikethrough:"
-msgstr ""
-
-#: kotext/koFontDia.cc:453
-msgid "&Word by word"
-msgstr "Сў&зма-сўз"
-
-#: kotext/koFontDia.cc:456 kotext/kovariable.cc:2295
-msgid "Position"
-msgstr "Жойлашиши"
-
-#: kotext/koFontDia.cc:464
-msgid "Su&perscript"
-msgstr ""
-
-#: kotext/koFontDia.cc:467
-msgid "Su&bscript"
-msgstr ""
-
-#: kotext/koFontDia.cc:470
-msgid "Relative &size:"
-msgstr "Нисбий ўл&чами:"
-
-#: kotext/koFontDia.cc:482
-msgid "Offse&t from baseline:"
-msgstr ""
-
-#: kotext/koFontDia.cc:503
-msgid "A&ttribute:"
-msgstr "&Атрибут:"
-
-#: kotext/koFontDia.cc:513
-msgid "Capitalization"
-msgstr ""
-
-#: kotext/koFontDia.cc:522
-msgid "La&nguage:"
-msgstr "&Тил:"
-
-#: kotext/koFontDia.cc:546
-msgid "Auto h&yphenation"
-msgstr ""
-
-#: kotext/koFontDia.cc:1133 kotext/koFontDia.cc:1146
+#: kotext/kfontdialog_local.cpp:752 kotext/koFontDia.cc:50
 msgid "Select Font"
 msgstr "Шрифтни танлаш"
+
+#: kotext/koFontDia.cc:71 kotext/koStylist.cc:683
+msgid "Highlighting"
+msgstr ""
+
+#: kotext/koFontDia.cc:83 kotext/koStylist.cc:682
+#, fuzzy
+msgid "Decoration"
+msgstr "Таърифи:"
+
+#: kotext/koFontDia.cc:93 kotext/koStylist.cc:684
+msgid "Layout"
+msgstr ""
+
+#: kotext/koFontDia.cc:101 kotext/koStylist.cc:685
+#, fuzzy
+msgid "Language"
+msgstr "Тил:"
 
 #: kotext/koParagDia.cc:56
 msgid "St&yle"
@@ -3420,6 +3344,10 @@ msgstr "Умумий"
 msgid "St&yle:"
 msgstr "&Услуб:"
 
+#: kotext/koParagDia.cc:1307
+msgid "Co&lor:"
+msgstr "&Ранги:"
+
 #: kotext/koParagDia.cc:1333
 msgid "Merge with next paragraph"
 msgstr ""
@@ -3529,7 +3457,7 @@ msgstr "Матнни алмаштириш"
 msgid "Family:"
 msgstr "Оиласи:"
 
-#: kotext/koSearchDia.cc:554
+#: kotext/kfontdialog_local.cpp:188 kotext/koSearchDia.cc:554
 msgid "Size:"
 msgstr "Ўлчами:"
 
@@ -3664,6 +3592,14 @@ msgstr ""
 msgid "Change Variable Format"
 msgstr "Ўзгарувчининг форматини ўзгартириш"
 
+#: kotext/kofontdiapreview.cc:40 kotext/kofontdiapreview.cc:41
+msgid "The quick brown dog jumps over the lazy cat."
+msgstr ""
+
+#: kotext/kofontdiapreview.cc:196
+msgid "Font too large for the preview pane"
+msgstr ""
+
 #: kotext/koimportstyledia.cc:34
 #, fuzzy
 msgid "Import Styles"
@@ -3689,43 +3625,43 @@ msgstr ""
 msgid "Numbering Style for %1"
 msgstr ""
 
-#: kotext/kotextformat.cc:1539
+#: kotext/kotextformat.cc:1540
 msgid ""
 "_: Underline Style\n"
 "None"
 msgstr ""
 
-#: kotext/kotextformat.cc:1540 kotext/kotextformat.cc:1551
+#: kotext/kotextformat.cc:1541 kotext/kotextformat.cc:1552
 msgid "Single"
 msgstr ""
-
-#: kotext/kotextformat.cc:1541 kotext/kotextformat.cc:1552
-msgid "Simple Bold"
-msgstr "Оддий қалин"
 
 #: kotext/kotextformat.cc:1542 kotext/kotextformat.cc:1553
 msgid "Double"
 msgstr ""
 
-#: kotext/kotextformat.cc:1543
+#: kotext/kotextformat.cc:1543 kotext/kotextformat.cc:1554
+msgid "Simple Bold"
+msgstr "Оддий қалин"
+
+#: kotext/kotextformat.cc:1544
 msgid "Wave"
 msgstr ""
 
-#: kotext/kotextformat.cc:1550
+#: kotext/kotextformat.cc:1551
 msgid ""
 "_: Strikeout Style\n"
 "None"
 msgstr ""
 
-#: kotext/kotextformat.cc:1561
+#: kotext/kotextformat.cc:1562
 msgid "Uppercase"
 msgstr "Катта ҳарф"
 
-#: kotext/kotextformat.cc:1562
+#: kotext/kotextformat.cc:1563
 msgid "Lowercase"
 msgstr "Кичик ҳарф"
 
-#: kotext/kotextformat.cc:1563
+#: kotext/kotextformat.cc:1564
 msgid "Small Caps"
 msgstr ""
 
@@ -4067,6 +4003,10 @@ msgstr ""
 #: kotext/kovariable.cc:2006
 msgid "Field"
 msgstr "Майдон"
+
+#: kotext/kovariable.cc:2295
+msgid "Position"
+msgstr "Жойлашиши"
 
 #: kotext/kovariable.cc:2296
 msgid "Company"
@@ -4521,6 +4461,121 @@ msgstr ""
 msgid "Name"
 msgstr "Номи:"
 
+#: kotext/kfontdialog_local.cpp:106
+msgid "Here you can choose the font to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:118
+#, fuzzy
+msgid "Requested Font"
+msgstr "Шрифтни танлаш"
+
+#: kotext/kfontdialog_local.cpp:141
+#, fuzzy
+msgid "Change font family?"
+msgstr "Шрифт оиласи"
+
+#: kotext/kfontdialog_local.cpp:143
+msgid "Enable this checkbox to change the font family settings."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:149
+#, fuzzy
+msgid "Font:"
+msgstr "Давлат:"
+
+#: kotext/kfontdialog_local.cpp:156
+#, fuzzy
+msgid "Font style"
+msgstr "Шрифтнинг услуби"
+
+#: kotext/kfontdialog_local.cpp:160
+#, fuzzy
+msgid "Change font style?"
+msgstr "Рўйхатнинг турини ўзгартириш"
+
+#: kotext/kfontdialog_local.cpp:162
+msgid "Enable this checkbox to change the font style settings."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:168
+#, fuzzy
+msgid "Font style:"
+msgstr "Шрифтнинг услуби"
+
+#: kotext/kfontdialog_local.cpp:176
+#, fuzzy
+msgid "Size"
+msgstr "Ўлчами:"
+
+#: kotext/kfontdialog_local.cpp:180
+#, fuzzy
+msgid "Change font size?"
+msgstr "Чегараларни ўзгартириш"
+
+#: kotext/kfontdialog_local.cpp:182
+msgid "Enable this checkbox to change the font size settings."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:204
+msgid "Here you can choose the font family to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:226
+msgid "Here you can choose the font style to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:229 kotext/kfontdialog_local.cpp:484
+#: kotext/kfontdialog_local.cpp:486 kotext/kfontdialog_local.cpp:495
+#: kotext/kfontdialog_local.cpp:496
+msgid "Regular"
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:231
+#, fuzzy
+msgid "Bold"
+msgstr "Қалин:"
+
+#: kotext/kfontdialog_local.cpp:232
+#, fuzzy
+msgid "Bold Italic"
+msgstr "Қия:"
+
+#: kotext/kfontdialog_local.cpp:249
+#, fuzzy
+msgid "Relative"
+msgstr "Нисбий ўл&чами:"
+
+#: kotext/kfontdialog_local.cpp:251
+msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:253
+msgid ""
+"Here you can switch between fixed font size and font size to be calculated "
+"dynamically and adjusted to changing environment (e.g. widget dimensions, paper "
+"size)."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:277
+msgid "Here you can choose the font size to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:300
+msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:305
+msgid ""
+"This sample text illustrates the current settings. You may edit it to test "
+"special characters."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:314 kotext/kfontdialog_local.cpp:324
+#, fuzzy
+msgid "Actual Font"
+msgstr "Шрифтни танлаш"
+
 #: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
@@ -4532,6 +4587,39 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr ""
+
+#~ msgid "Shadow"
+#~ msgstr "Соя"
+
+#~ msgid "Di&rection:"
+#~ msgstr "&Йўналиш:"
+
+#~ msgid "S&hadow"
+#~ msgstr "&Соя"
+
+#~ msgid "Colors"
+#~ msgstr "Ранглар"
+
+#~ msgid "Change Co&lor..."
+#~ msgstr "&Рангни ўзгартириш"
+
+#~ msgid "Change Bac&kground Color..."
+#~ msgstr "Орқа фон &рангини ўзгартириш"
+
+#~ msgid "Font &Effects"
+#~ msgstr "Шрифт &эффектлари"
+
+#~ msgid "&Underlining:"
+#~ msgstr "Та&гини чизиш:"
+
+#~ msgid "&Word by word"
+#~ msgstr "Сў&зма-сўз"
+
+#~ msgid "A&ttribute:"
+#~ msgstr "&Атрибут:"
+
+#~ msgid "La&nguage:"
+#~ msgstr "&Тил:"
 
 #~ msgid "Select Picture"
 #~ msgstr "Расмни танлаш"
