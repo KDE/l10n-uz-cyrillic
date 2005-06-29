@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2005-06-28 01:41+0200\n"
+"POT-Creation-Date: 2005-06-29 01:43+0200\n"
 "PO-Revision-Date: 2004-10-24 17:45+0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -31,7 +31,7 @@ msgid "Unknown"
 msgstr "Номаълум"
 
 #: collectionbrowser.cpp:1058 collectionbrowser.cpp:1126 playlist.cpp:221
-#: smartplaylisteditor.cpp:104 tracktooltip.cpp:30
+#: smartplaylisteditor.cpp:104 tracktooltip.cpp:36
 msgid "Title"
 msgstr "Сарлавҳа"
 
@@ -39,7 +39,7 @@ msgstr "Сарлавҳа"
 #: collectionbrowser.cpp:112 collectionbrowser.cpp:114
 #: collectionbrowser.cpp:1484 mediabrowser.cpp:103 playlist.cpp:222
 #: playlistbrowseritem.cpp:1016 rc.cpp:46 smartplaylisteditor.cpp:104
-#: smartplaylisteditor.cpp:115 tracktooltip.cpp:30
+#: smartplaylisteditor.cpp:115 tracktooltip.cpp:36
 #, no-c-format
 msgid "Artist"
 msgstr "Санаткор"
@@ -49,20 +49,20 @@ msgstr "Санаткор"
 #: collectionbrowser.cpp:1478 collectionbrowser.cpp:1481
 #: contextbrowser.cpp:603 playlist.cpp:223 playlistbrowseritem.cpp:1024
 #: rc.cpp:49 smartplaylisteditor.cpp:104 smartplaylisteditor.cpp:115
-#: tracktooltip.cpp:30
+#: tracktooltip.cpp:36
 #, no-c-format
 msgid "Album"
 msgstr "Албом"
 
-#: playlist.cpp:229 statusbar/timeLabel.h:48 tracktooltip.cpp:36
+#: playlist.cpp:229 statusbar/timeLabel.h:48 tracktooltip.cpp:42
 msgid "Length"
 msgstr "Узунлиги"
 
-#: playlist.cpp:230 tracktooltip.cpp:41
+#: playlist.cpp:230 tracktooltip.cpp:47
 msgid "Bitrate"
 msgstr "Битрейт"
 
-#: tracktooltip.cpp:46
+#: tracktooltip.cpp:52
 msgid "Samplerate"
 msgstr "Самплрейт"
 
@@ -131,7 +131,7 @@ msgid "Smart Playlists"
 msgstr "Қўшиқ рўйхатлари"
 
 #: configdialog.cpp:128 playlistbrowser.cpp:380 playlistbrowser.cpp:1421
-#: playlistbrowseritem.cpp:144 playlistwindow.cpp:351
+#: playlistbrowseritem.cpp:144 playlistwindow.cpp:342
 msgid "Collection"
 msgstr "Тўплам"
 
@@ -214,7 +214,7 @@ msgstr "Қўшиқ рўйхатларини қўшиш"
 msgid "Save Current Playlist"
 msgstr "Жорий қўшиқ рўйхати"
 
-#: playlistbrowser.cpp:908 playlistwindow.cpp:589
+#: playlistbrowser.cpp:908 playlistwindow.cpp:580
 msgid "Cannot write playlist (%1)."
 msgstr ""
 
@@ -337,7 +337,7 @@ msgstr "&Мета-маълумотни кўриш/таҳрирлаш"
 msgid "This file does not exist: %1"
 msgstr "Файл мавжуд эмас"
 
-#: playlistbrowser.cpp:1631 playlistwindow.cpp:352
+#: playlistbrowser.cpp:1631 playlistwindow.cpp:343
 msgid "Playlists"
 msgstr "Қўшиқ рўйхатлари"
 
@@ -1000,7 +1000,7 @@ msgstr "Муқова бошқарувчиси"
 msgid "First-Run &Wizard"
 msgstr "Ёрда&мчи"
 
-#: actionclasses.cpp:101 playlistwindow.cpp:267
+#: actionclasses.cpp:101 playlistwindow.cpp:258
 #, fuzzy
 msgid "&Visualizations"
 msgstr "Визуаллаштириш"
@@ -1010,7 +1010,7 @@ msgstr "Визуаллаштириш"
 msgid "E&qualizer"
 msgstr "Э&квалайзер"
 
-#: actionclasses.cpp:107 playlistwindow.cpp:271
+#: actionclasses.cpp:107 playlistwindow.cpp:262
 #, fuzzy
 msgid "&Rescan Collection"
 msgstr "Тўплам"
@@ -1258,81 +1258,65 @@ msgstr "Қидириш"
 #: playlistwindow.cpp:198
 msgid ""
 "Enter space-separated terms to filter the playlist.\n"
-"For example: one two three, will search for anything that contains one, two, "
-"and three.\n"
 "\n"
-"You can put OR between terms to search for items that match either.\n"
-"Like this: one OR two OR three\n"
-"\n"
-"Use quotes to match terms with spaces in them.\n"
-"For example: \"Mike Oldfield\"\n"
-"\n"
-"Use field:term to search in a specific field (even a hidden one).\n"
-"Like: title:amarok\n"
-"\n"
-"Put a minus sign (-) before things you do not want: -thing\n"
-"\n"
-"When specifying a field, you can search for items less than or greater than a "
-"term.\n"
-"For example: score:>50\n"
-"\n"
-"Combine all that: \"mike oldfield\" OR score:>50 -comment:bad"
+"(Advanced, Google-esque syntax is also available;\n"
+"see the handbook (in the \"The Playlist\" section of chapter 4) for more.)"
 msgstr ""
 
-#: playlistwindow.cpp:264
+#: playlistwindow.cpp:255
 #, fuzzy
 msgid "&Cover Manager"
 msgstr "Муқова бошқарувчиси"
 
-#: playlistwindow.cpp:266
+#: playlistwindow.cpp:257
 #, fuzzy
 msgid "&First-Run Wizard"
 msgstr "Ёрда&мчи"
 
-#: playlistwindow.cpp:268
+#: playlistwindow.cpp:259
 #, fuzzy
 msgid "&Equalizer"
 msgstr "&Эквалайзер"
 
-#: playlistwindow.cpp:288 playlistwindow.cpp:672
+#: playlistwindow.cpp:279 playlistwindow.cpp:663
 msgid "Hide Toolbar"
 msgstr "Асбоблар панелини бекитиш"
 
-#: playlistwindow.cpp:288 playlistwindow.cpp:672
+#: playlistwindow.cpp:279 playlistwindow.cpp:663
 msgid "Show Toolbar"
 msgstr "Асбоблар панелини кўрсатиш"
 
-#: playlistwindow.cpp:289 playlistwindow.cpp:676
+#: playlistwindow.cpp:280 playlistwindow.cpp:667
 msgid "Hide Player &Window"
 msgstr "Плейернинг &ойнасини бекитиш"
 
-#: playlistwindow.cpp:289 playlistwindow.cpp:676
+#: playlistwindow.cpp:280 playlistwindow.cpp:667
 msgid "Show Player &Window"
 msgstr "Плейернинг &ойнасини кўрсатиш"
 
-#: playlistwindow.cpp:305
+#: playlistwindow.cpp:296
 msgid "&Actions"
 msgstr "&Амаллар"
 
-#: playlistwindow.cpp:306
+#: playlistwindow.cpp:297
 msgid "&Playlist"
 msgstr "Қўш&иқ рўйхати"
 
-#: playlistwindow.cpp:350
+#: playlistwindow.cpp:341
 msgid "Context"
 msgstr "Статистика"
 
-#: playlistwindow.cpp:355
+#: playlistwindow.cpp:346
 #, fuzzy
 msgid "Media Device"
 msgstr "Ускуна:"
 
-#: playlistwindow.cpp:611
+#: playlistwindow.cpp:602
 #, fuzzy
 msgid "Play Media"
 msgstr "Манбани қўшиш"
 
-#: playlistwindow.cpp:611
+#: playlistwindow.cpp:602
 #, fuzzy
 msgid "Add Media"
 msgstr "Манбани қўшиш"
@@ -1657,13 +1641,13 @@ msgid ""
 "%1 kbps"
 msgstr "%1 kbps"
 
-#: metabundle.h:109
+#: metabundle.h:110
 msgid ""
 "_: SampleRate\n"
 "%1 kHz"
 msgstr "%1 КГц"
 
-#: metabundle.h:111
+#: metabundle.h:112
 #, fuzzy
 msgid ""
 "_: SampleRate\n"
@@ -1674,37 +1658,37 @@ msgstr "%1 КГц"
 msgid "MusicBrainz Results"
 msgstr ""
 
-#: scrobbler.cpp:940
+#: scrobbler.cpp:945
 #, fuzzy
 msgid "'%1' submitted to Audioscrobbler"
 msgstr "Жилдларни мослаш"
 
-#: scrobbler.cpp:943
+#: scrobbler.cpp:948
 msgid "Several tracks submitted to Audioscrobbler"
 msgstr ""
 
-#: scrobbler.cpp:947
+#: scrobbler.cpp:952
 msgid ""
 "_n: '%1' and one other track submitted\n"
 "'%1' and %n other tracks submitted"
 msgstr ""
 
-#: scrobbler.cpp:954
+#: scrobbler.cpp:959
 #, fuzzy
 msgid "Failed to submit '%1' to Audioscrobbler"
 msgstr "Жилдларни мослаш"
 
-#: scrobbler.cpp:957
+#: scrobbler.cpp:962
 msgid "Failed to submit several tracks to Audioscrobbler"
 msgstr ""
 
-#: scrobbler.cpp:960
+#: scrobbler.cpp:965
 msgid ""
 "_n: Failed to submit '%1' and one other track\n"
 "Failed to submit '%1' and %n other tracks"
 msgstr ""
 
-#: scrobbler.cpp:968
+#: scrobbler.cpp:973
 #, fuzzy, c-format
 msgid ""
 "_n: One track still in queue\n"
