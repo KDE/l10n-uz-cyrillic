@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2005-07-08 01:30+0200\n"
+"POT-Creation-Date: 2005-07-09 01:30+0200\n"
 "PO-Revision-Date: 2005-01-22 01:12+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -831,7 +831,7 @@ msgstr "Чиқиш"
 msgid "&Quit"
 msgstr "Чи&қиш"
 
-#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84
+#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84 kded/kbuildsycoca.cpp:781
 msgid "Reload"
 msgstr "Қайтадан юклаш"
 
@@ -968,8 +968,10 @@ msgstr "Локал уланган"
 msgid "Browse..."
 msgstr "Танлаш"
 
-#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127
-#: kdeui/kstdguiitem.cpp:257 khtml/ecma/kjs_debugwin.cpp:458
+#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127 kdeui/keditcl2.cpp:107
+#: kdeui/keditcl2.cpp:120 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:390
+#: kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469 kdeui/kstdguiitem.cpp:257
+#: khtml/ecma/kjs_debugwin.cpp:458 kutils/kreplace.cpp:319
 msgid "Stop"
 msgstr "Тўхтатиш"
 
@@ -1089,8 +1091,9 @@ msgstr ""
 msgid "&Previous"
 msgstr "О&лдинги"
 
-#: common_texts.cpp:170 kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:469 kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45
+#: common_texts.cpp:170 kcert/kcertpart.cc:730 kcert/kcertpart.cc:746
+#: kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469
+#: kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45 kutils/kreplace.cpp:49
 msgid "Replace"
 msgstr "Алмаштириш"
 
@@ -2437,6 +2440,11 @@ msgstr "Мослама"
 #, fuzzy
 msgid "Do you want to reload KDE configuration?"
 msgstr "Мослама файлини қайта юклаб бўлмади!"
+
+#: kded/kbuildsycoca.cpp:781
+#, fuzzy
+msgid "Do Not Reload"
+msgstr "С&ақламаш"
 
 #: kded/kbuildsycoca.cpp:964
 #, fuzzy
@@ -4374,8 +4382,17 @@ msgstr "Илтимос номини киритинг."
 msgid "Old upload information found, fill out fields?"
 msgstr ""
 
+#: knewstuff/uploaddialog.cpp:173
+msgid "Fill Out"
+msgstr ""
+
+#: knewstuff/uploaddialog.cpp:173
+msgid "Do Not Fill Out"
+msgstr ""
+
 #: knewstuff/knewstuffgeneric.cpp:133
-msgid "The file '%1' already exists. Do you want to override it?"
+#, fuzzy
+msgid "The file '%1' already exists. Do you want to overwrite it?"
 msgstr "'%1' номли файл аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
 #: khtml/khtml_ext.cpp:798 knewstuff/knewstuffgeneric.cpp:135
@@ -4837,6 +4854,11 @@ msgid ""
 msgstr ""
 "\"%1\" тугма бирикмаси аллақачон \"%2\" билан боғланган.\n"
 "Уни жорий амал билан боғлашни истайсизми?"
+
+#: kdeui/kkeydialog.cpp:975
+#, fuzzy
+msgid "Reassign"
+msgstr "Русча"
 
 #: kdeui/kkeydialog.cpp:1089 kdeui/kkeydialog.cpp:1101
 msgid "Configure Shortcuts"
@@ -6098,7 +6120,7 @@ msgstr ""
 "Агар \"Жўнатиш\" тугмасини боссангиз, хабар ушбу дастурнинг таъминловчисига "
 "жўнатилади.\n"
 
-#: kdeui/kbugreport.cpp:253
+#: kdeui/kbugreport.cpp:252
 #, fuzzy
 msgid ""
 "To submit a bug report, click on the button below.\n"
@@ -6111,23 +6133,23 @@ msgstr ""
 "тўлдириш учун шакилни топасиз.\n"
 "Юқоридаги маълумот ўша серверга узатилади."
 
-#: kdeui/kbugreport.cpp:261
+#: kdeui/kbugreport.cpp:260
 msgid "&Launch Bug Report Wizard"
 msgstr ""
 
-#: kdeui/kbugreport.cpp:299
+#: kdeui/kbugreport.cpp:298
 msgid ""
 "_: unknown program name\n"
 "unknown"
 msgstr "номаълум"
 
-#: kdeui/kbugreport.cpp:377
+#: kdeui/kbugreport.cpp:376
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr "Хабар юборишдан олдин мавзу ва таърифни киритишингиз шарт."
 
-#: kdeui/kbugreport.cpp:387
+#: kdeui/kbugreport.cpp:386
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6149,7 +6171,7 @@ msgstr ""
 "<p>Сиз хабар бермоқчи бўлган хато юқоридаги носозликларга сабабчими? Агар "
 "бундай бўлмаса, илтимос пасроқ жиддийлик даражасини танланг. Катта раҳмат!</p>"
 
-#: kdeui/kbugreport.cpp:398
+#: kdeui/kbugreport.cpp:397
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6172,7 +6194,7 @@ msgstr ""
 "<p>Сиз хабар бермоқчи бўлган хато юқоридаги носозликларга сабабчими? Агар "
 "бундай бўлмаса, илтимос пасроқ жиддийлик даражасини танланг. Катта раҳмат!</p>"
 
-#: kdeui/kbugreport.cpp:410
+#: kdeui/kbugreport.cpp:409
 msgid ""
 "Unable to send the bug report.\n"
 "Please submit a bug report manually...\n"
@@ -6182,11 +6204,11 @@ msgstr ""
 "Илтимос хабарни ўзингиз жўнатинг.\n"
 "Кўрсатма олиш учун http://bugs.kde.org/ саҳифасига қаранг."
 
-#: kdeui/kbugreport.cpp:419
+#: kdeui/kbugreport.cpp:417
 msgid "Bug report sent, thank you for your input."
 msgstr "Хато ҳақида хабар жўнатилди. Хабарингиз учун сизга катта раҳмат."
 
-#: kdeui/kbugreport.cpp:428
+#: kdeui/kbugreport.cpp:426
 msgid ""
 "Close and discard\n"
 "edited message?"
@@ -6194,7 +6216,7 @@ msgstr ""
 "Ёпиб хабардан\n"
 "воз кечайми?"
 
-#: kdeui/kbugreport.cpp:429
+#: kdeui/kbugreport.cpp:427
 msgid "Close Message"
 msgstr "Хабарни ёпиш"
 
@@ -7099,7 +7121,7 @@ msgstr ""
 "<qt>Маълумот локал файл тизимидаги<BR><B>%1</B>'га<BR>жўнатилади.<BR>"
 "Маълумотни жўнатишни истайсизми?"
 
-#: khtml/html/html_formimpl.cpp:1470 khtml/khtml_part.cpp:4777
+#: khtml/html/html_formimpl.cpp:1469 khtml/khtml_part.cpp:4777
 #: khtml/khtmlview.cpp:2408 khtml/khtmlview.cpp:2450
 #: khtml/rendering/render_form.cpp:296
 msgid "Submit"
@@ -7332,6 +7354,16 @@ msgstr ""
 "<qt>Бу сайт JavaScript ёрдамида браузернинг янги ойнасида "
 "<p>%1</p>'ни очишга уринаяпти.<br />Сиз рухсат берасизми?</qt>"
 
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Allow"
+msgstr "Ҳаммаси"
+
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Do Not Allow"
+msgstr "&Ҳаммасини импорт қилиш"
+
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Close window?"
 msgstr "Ойнани ёпайми?"
@@ -7339,6 +7371,11 @@ msgstr "Ойнани ёпайми?"
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Confirmation Required"
 msgstr "Тасдиқлаш талаб қилинади"
+
+#: khtml/ecma/kjs_window.cpp:1563
+#, fuzzy
+msgid "Do Not Close"
+msgstr "С&ақламаш"
 
 #: khtml/ecma/kjs_window.cpp:2326
 msgid ""
@@ -7443,8 +7480,18 @@ msgstr "Кириш маълумотини сақлаш"
 
 #: khtml/html/html_formimpl.cpp:610
 #, fuzzy
+msgid "Store"
+msgstr "Кўча"
+
+#: khtml/html/html_formimpl.cpp:610
+#, fuzzy
 msgid "Ne&ver for This Site"
 msgstr "Бу сайт учун ҳеч қачон"
+
+#: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Do Not Store"
+msgstr "С&ақламаш"
 
 #: khtml/html/html_formimpl.cpp:614
 msgid ""
@@ -7611,6 +7658,16 @@ msgstr ""
 #: khtml/rendering/render_frames.cpp:824
 msgid "Missing Plugin"
 msgstr "Плагин етишмаяпти"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Download"
+msgstr "Ёзиб олинган"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Do Not Download"
+msgstr "Энг кўп ёзиб олинган"
 
 #: kinit/kinit.cpp:440
 msgid ""
@@ -8153,6 +8210,11 @@ msgstr "Қидиришни охирдан бошлашни истайсизми?
 msgid "Do you want to restart search at the beginning?"
 msgstr "Қидиришни бошдан бошлашни истайсизми?"
 
+#: kutils/kreplace.cpp:319
+#, fuzzy
+msgid "Restart"
+msgstr "Тиклаш"
+
 #: kutils/kpluginselector.cpp:111
 msgid ""
 "<qt>"
@@ -8576,6 +8638,11 @@ msgstr "Файл (%1) топилмади. Уни яратайми?"
 msgid "No Such File"
 msgstr "Бундай файл йўқ."
 
+#: kab/addressbook.cc:625
+#, fuzzy
+msgid "Create"
+msgstr "Марказ"
+
 #: kab/addressbook.cc:629
 msgid "New file."
 msgstr "Янги файл."
@@ -8905,6 +8972,10 @@ msgstr "Сертификат учун махфий сўз"
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
 msgstr "Сертификат файли юкланмади. Бошқа махфий сўзни синаб кўрмоқчимисиз?"
+
+#: kcert/kcertpart.cc:496
+msgid "Try Different"
+msgstr ""
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
 msgid "This file cannot be opened."
