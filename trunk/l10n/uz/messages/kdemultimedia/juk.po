@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
-"POT-Creation-Date: 2005-07-11 01:35+0200\n"
+"POT-Creation-Date: 2005-07-12 01:35+0200\n"
 "PO-Revision-Date: 2004-08-04 01:39+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -64,7 +64,7 @@ msgid ""
 "properly."
 msgstr ""
 
-#: artsplayer.cpp:236 main.cpp:49
+#: artsplayer.cpp:236 main.cpp:49 systemtray.cpp:519 systemtray.cpp:535
 msgid "JuK"
 msgstr "JuK"
 
@@ -91,12 +91,12 @@ msgstr ""
 msgid "Show Playing"
 msgstr ""
 
-#: coverdialog.cpp:56
+#: coverdialog.cpp:38
 #, fuzzy
 msgid "<All Artists>"
 msgstr "Санаткорлар"
 
-#: coverdialog.cpp:145
+#: coverdialog.cpp:130
 #, fuzzy
 msgid "Remove cover"
 msgstr "Жилдни олиб ташлаш"
@@ -167,7 +167,7 @@ msgid "Hide Renamer Test Dialog"
 msgstr ""
 
 #. i18n: file filerenamerbase.ui line 183
-#: filerenamer.cpp:645 rc.cpp:146
+#: filerenamer.cpp:645 rc.cpp:155
 #, no-c-format
 msgid "Show Renamer Test Dialog"
 msgstr ""
@@ -542,29 +542,29 @@ msgstr "Мос келадиган ҳеч нарса топилмади"
 msgid "Error connecting to MusicBrainz server."
 msgstr ""
 
-#: nowplaying.cpp:230
+#: nowplaying.cpp:268
 #, fuzzy
 msgid "back to playlist"
 msgstr "Қўшиқ рўйхатларини импорт қилиш"
 
-#: nowplaying.cpp:254 nowplaying.cpp:269 playlistcollection.cpp:534
+#: nowplaying.cpp:292 nowplaying.cpp:307 playlistcollection.cpp:534
 msgid "History"
 msgstr "Тарих"
 
-#: playermanager.cpp:232
+#: playermanager.cpp:236
 msgid "&Output To"
 msgstr ""
 
-#: playermanager.cpp:236 playermanager.cpp:530
+#: playermanager.cpp:240 playermanager.cpp:534
 #, fuzzy
 msgid "aRts"
 msgstr "Санаткор"
 
-#: playermanager.cpp:239 playermanager.cpp:532
+#: playermanager.cpp:243 playermanager.cpp:536
 msgid "GStreamer"
 msgstr ""
 
-#: playermanager.cpp:241 playermanager.cpp:534
+#: playermanager.cpp:245 playermanager.cpp:538
 msgid "aKode"
 msgstr ""
 
@@ -573,140 +573,140 @@ msgstr ""
 msgid "Could not save to file %1."
 msgstr ""
 
-#: playlist.cpp:797
+#: playlist.cpp:793
 #, fuzzy
 msgid "Are you sure you want to delete these covers?"
 msgstr "Ушбу бандларни олиб ташлашни истайсизми?"
 
-#: playlist.cpp:799
+#: playlist.cpp:795
 msgid "&Delete Covers"
 msgstr ""
 
-#: playlist.cpp:841
+#: playlist.cpp:837
 msgid ""
 "None of the items you have selected can be assigned a cover.  A track must have "
 "both the Artist and Album tags set to be assigned a cover."
 msgstr ""
 
-#: playlist.cpp:852
+#: playlist.cpp:848
 #, fuzzy
 msgid "Select Cover Image File"
 msgstr "&Устунларни кўрсатиш"
 
-#: playlist.cpp:991
+#: playlist.cpp:982
 #, fuzzy
 msgid "Could not delete these files"
 msgstr "Кўрсатилган файлларни ўчириб бўлмади."
 
-#: playlist.cpp:992
+#: playlist.cpp:983
 #, fuzzy
 msgid "Could not move these files to the Trash"
 msgstr "Ушбу бандларни олиб ташлашни истайсизми?"
 
-#: playlist.cpp:1327
+#: playlist.cpp:1376
 msgid ""
 "The following songs were ignored because they don't have both their Artist and "
 "Album tags filled in."
 msgstr ""
 
 #. i18n: file trackpickerdialogbase.ui line 89
-#: playlist.cpp:1446 rc.cpp:268
+#: playlist.cpp:1495 rc.cpp:277
 #, no-c-format
 msgid "Track Name"
 msgstr "Қўшиқнинг номи"
 
 #. i18n: file coverdialogbase.ui line 25
-#: playlist.cpp:1447 rc.cpp:27 rc.cpp:92 rc.cpp:271 tagrenameroptions.cpp:91
+#: playlist.cpp:1496 rc.cpp:27 rc.cpp:101 rc.cpp:280 tagrenameroptions.cpp:91
 #, no-c-format
 msgid "Artist"
 msgstr "Санаткор"
 
 #. i18n: file exampleoptionsbase.ui line 109
-#: playlist.cpp:1448 rc.cpp:98 rc.cpp:274 tagrenameroptions.cpp:91
+#: playlist.cpp:1497 rc.cpp:107 rc.cpp:283 tagrenameroptions.cpp:91
 #, no-c-format
 msgid "Album"
 msgstr "Албом"
 
-#: playlist.cpp:1449
+#: playlist.cpp:1498
 msgid "Cover"
 msgstr ""
 
 #. i18n: file trackpickerdialogbase.ui line 122
-#: playlist.cpp:1450 rc.cpp:277 tagrenameroptions.cpp:92
+#: playlist.cpp:1499 rc.cpp:286 tagrenameroptions.cpp:92
 #, no-c-format
 msgid "Track"
 msgstr ""
 
 #. i18n: file exampleoptionsbase.ui line 179
-#: playlist.cpp:1451 rc.cpp:116 tagrenameroptions.cpp:92
+#: playlist.cpp:1500 rc.cpp:125 tagrenameroptions.cpp:92
 #, no-c-format
 msgid "Genre"
 msgstr "Жанр"
 
 #. i18n: file trackpickerdialogbase.ui line 133
-#: playlist.cpp:1452 rc.cpp:280 tagrenameroptions.cpp:92
+#: playlist.cpp:1501 rc.cpp:289 tagrenameroptions.cpp:92
 #, no-c-format
 msgid "Year"
 msgstr "Йил"
 
-#: playlist.cpp:1453
+#: playlist.cpp:1502
 msgid "Length"
 msgstr "Узунлиги"
 
-#: playlist.cpp:1454
+#: playlist.cpp:1503
 msgid "Bitrate"
 msgstr ""
 
-#: playlist.cpp:1455
+#: playlist.cpp:1504
 msgid "Comment"
 msgstr "Изоҳ"
 
 #. i18n: file trackpickerdialogbase.ui line 32
-#: playlist.cpp:1456 rc.cpp:261
+#: playlist.cpp:1505 rc.cpp:270
 #, no-c-format
 msgid "File Name"
 msgstr "Файлнинг номи"
 
-#: playlist.cpp:1457
+#: playlist.cpp:1506
 msgid "File Name (full path)"
 msgstr "Файлнинг номи (тўлиқ йўл)"
 
-#: playlist.cpp:1477
+#: playlist.cpp:1526
 msgid "&Show Columns"
 msgstr "&Устунларни кўрсатиш"
 
-#: playlist.cpp:1480
+#: playlist.cpp:1529
 msgid "Show"
 msgstr "Кўрсатиш"
 
-#: playlist.cpp:2001
+#: playlist.cpp:2050
 msgid "Add to Play Queue"
 msgstr ""
 
-#: playlist.cpp:2030
+#: playlist.cpp:2079
 #, fuzzy
 msgid "Create Playlist From Selected Items..."
 msgstr "Танланган кўшиқлардан рўйхат яратиш"
 
-#: playlist.cpp:2052
+#: playlist.cpp:2101
 msgid "Edit '%1'"
 msgstr "%1ни таҳрирлаш"
 
-#: playlist.cpp:2163
+#: playlist.cpp:2212
 msgid "This will edit multiple files. Are you sure?"
 msgstr ""
 
-#: playlist.cpp:2218 playlistcollection.h:163
+#: playlist.cpp:2267 playlistcollection.h:163
 msgid "Create New Playlist"
 msgstr "Янги қўшиқ рўйхатини яратиш"
 
-#: playlist.cpp:2231
+#: playlist.cpp:2280
 msgid ""
 "Manual column widths have been enabled.  You can switch back to automatic "
 "column sizes in the view menu."
 msgstr ""
 
-#: playlist.cpp:2234
+#: playlist.cpp:2283
 msgid "Manual Column Widths Enabled"
 msgstr ""
 
@@ -900,19 +900,19 @@ msgid "Edit Track Search"
 msgstr ""
 
 #. i18n: file jukui-rtl.rc line 38
-#: rc.cpp:9 rc.cpp:289
+#: rc.cpp:9 rc.cpp:298
 #, no-c-format
 msgid "&Player"
 msgstr "&Плейер"
 
 #. i18n: file jukui-rtl.rc line 55
-#: rc.cpp:12 rc.cpp:292
+#: rc.cpp:12 rc.cpp:301
 #, no-c-format
 msgid "&Tagger"
 msgstr "&Тэггер"
 
 #. i18n: file jukui-rtl.rc line 96
-#: rc.cpp:21 rc.cpp:301
+#: rc.cpp:21 rc.cpp:310
 #, no-c-format
 msgid "Play Toolbar"
 msgstr "Ўйнаш панели"
@@ -923,50 +923,62 @@ msgstr "Ўйнаш панели"
 msgid "<All>"
 msgstr ""
 
+#. i18n: file coverdialogbase.ui line 87
+#: rc.cpp:33 rc.cpp:36 searchwidget.cpp:267
+#, no-c-format
+msgid "Clear Search"
+msgstr "Қидирувни тозалаш"
+
+#. i18n: file coverdialogbase.ui line 93
+#: rc.cpp:39
+#, no-c-format
+msgid "Clear the current cover search."
+msgstr ""
+
 #. i18n: file deletedialogbase.ui line 46
-#: rc.cpp:33
+#: rc.cpp:42
 #, no-c-format
 msgid "Icon Placeholder, not in GUI"
 msgstr ""
 
 #. i18n: file deletedialogbase.ui line 62
-#: rc.cpp:36
+#: rc.cpp:45
 #, fuzzy, no-c-format
 msgid "Are you sure that you want to remove these items?"
 msgstr "Ушбу бандларни олиб ташлашни истайсизми?"
 
 #. i18n: file deletedialogbase.ui line 73
-#: rc.cpp:39
+#: rc.cpp:48
 #, no-c-format
 msgid "Deletion method placeholder, never shown to user."
 msgstr ""
 
 #. i18n: file deletedialogbase.ui line 91
-#: rc.cpp:42
+#: rc.cpp:51
 #, no-c-format
 msgid "List of files that are about to be deleted."
 msgstr ""
 
 #. i18n: file deletedialogbase.ui line 94
-#: rc.cpp:45
+#: rc.cpp:54
 #, no-c-format
 msgid "This is the list of items that are about to be deleted."
 msgstr ""
 
 #. i18n: file deletedialogbase.ui line 102
-#: rc.cpp:48
+#: rc.cpp:57
 #, no-c-format
 msgid "Placeholder for number of files, not in GUI"
 msgstr ""
 
 #. i18n: file deletedialogbase.ui line 113
-#: rc.cpp:51
+#: rc.cpp:60
 #, no-c-format
 msgid "&Delete files instead of moving them to the Trash Bin."
 msgstr ""
 
 #. i18n: file deletedialogbase.ui line 116
-#: rc.cpp:54
+#: rc.cpp:63
 #, no-c-format
 msgid ""
 "If checked, files will be permanently removed instead of being placed in the "
@@ -974,7 +986,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file deletedialogbase.ui line 121
-#: rc.cpp:57
+#: rc.cpp:66
 #, no-c-format
 msgid ""
 "<qt>"
@@ -986,163 +998,163 @@ msgid ""
 msgstr ""
 
 #. i18n: file directorylistbase.ui line 22
-#: rc.cpp:62
+#: rc.cpp:71
 #, no-c-format
 msgid "Folders"
 msgstr "Жилдлар"
 
 #. i18n: file directorylistbase.ui line 48
-#: rc.cpp:65
+#: rc.cpp:74
 #, no-c-format
 msgid "Add Folder..."
 msgstr "Жилдни қўшиш"
 
 #. i18n: file directorylistbase.ui line 56
-#: rc.cpp:68
+#: rc.cpp:77
 #, no-c-format
 msgid "Remove Folder"
 msgstr "Жилдни олиб ташлаш"
 
 #. i18n: file directorylistbase.ui line 64
-#: rc.cpp:71
+#: rc.cpp:80
 #, no-c-format
 msgid "These folders will be scanned on startup for new files."
 msgstr "Дастур ишга тушганида қуйидаги жилдларда янги файллар қидирилади."
 
 #. i18n: file directorylistbase.ui line 92
-#: rc.cpp:74
+#: rc.cpp:83
 #, no-c-format
 msgid "Import playlists"
 msgstr "Қўшиқ рўйхатларини импорт қилиш"
 
 #. i18n: file exampleoptionsbase.ui line 16
-#: rc.cpp:77 rc.cpp:143
+#: rc.cpp:86 rc.cpp:152
 #, fuzzy, no-c-format
 msgid "Example"
 msgstr "Ёқиш"
 
 #. i18n: file exampleoptionsbase.ui line 27
-#: rc.cpp:80
+#: rc.cpp:89
 #, no-c-format
 msgid "Example Tag Selection"
 msgstr ""
 
 #. i18n: file exampleoptionsbase.ui line 38
-#: rc.cpp:83
+#: rc.cpp:92
 #, no-c-format
 msgid "Get example tags from this file:"
 msgstr ""
 
 #. i18n: file exampleoptionsbase.ui line 68
-#: rc.cpp:86
+#: rc.cpp:95
 #, no-c-format
 msgid "Enter example tags manually:"
 msgstr ""
 
 #. i18n: file exampleoptionsbase.ui line 79
-#: rc.cpp:89
+#: rc.cpp:98
 #, no-c-format
 msgid "Example Tags"
 msgstr ""
 
 #. i18n: file exampleoptionsbase.ui line 101
-#: rc.cpp:95 tagrenameroptions.cpp:91
+#: rc.cpp:104 tagrenameroptions.cpp:91
 #, fuzzy, no-c-format
 msgid "Title"
 msgstr "Вақт"
 
 #. i18n: file exampleoptionsbase.ui line 117
-#: rc.cpp:101
+#: rc.cpp:110
 #, fuzzy, no-c-format
 msgid "Title:"
 msgstr "Вақт"
 
 #. i18n: file exampleoptionsbase.ui line 125
-#: rc.cpp:104
+#: rc.cpp:113
 #, fuzzy, no-c-format
 msgid "Artist:"
 msgstr "Санаткор"
 
 #. i18n: file exampleoptionsbase.ui line 147
-#: rc.cpp:107
+#: rc.cpp:116
 #, fuzzy, no-c-format
 msgid "Album:"
 msgstr "Албом"
 
 #. i18n: file exampleoptionsbase.ui line 155
-#: rc.cpp:110
+#: rc.cpp:119
 #, fuzzy, no-c-format
 msgid "Genre:"
 msgstr "&Жанр:"
 
 #. i18n: file exampleoptionsbase.ui line 163
-#: rc.cpp:113
+#: rc.cpp:122
 #, fuzzy, no-c-format
 msgid "Track number:"
 msgstr "Қўшиқнинг номи"
 
 #. i18n: file exampleoptionsbase.ui line 187
-#: rc.cpp:119
+#: rc.cpp:128
 #, fuzzy, no-c-format
 msgid "Year:"
 msgstr "&Йил:"
 
 #. i18n: file filerenamerbase.ui line 24
-#: rc.cpp:122
+#: rc.cpp:131
 #, no-c-format
 msgid "File Renamer Configuration"
 msgstr ""
 
 #. i18n: file filerenamerbase.ui line 43
-#: rc.cpp:125
+#: rc.cpp:134
 #, fuzzy, no-c-format
 msgid "Music folder:"
 msgstr "Жилдлар"
 
 #. i18n: file filerenamerbase.ui line 49
-#: rc.cpp:128
+#: rc.cpp:137
 #, no-c-format
 msgid " - "
 msgstr ""
 
 #. i18n: file filerenamerbase.ui line 54
-#: rc.cpp:131
+#: rc.cpp:140
 #, no-c-format
 msgid "_"
 msgstr ""
 
 #. i18n: file filerenamerbase.ui line 59
-#: rc.cpp:134
+#: rc.cpp:143
 #, no-c-format
 msgid "-"
 msgstr ""
 
 #. i18n: file filerenamerbase.ui line 74
-#: rc.cpp:137
+#: rc.cpp:146
 #, no-c-format
 msgid "Separator:"
 msgstr ""
 
 #. i18n: file filerenamerbase.ui line 82
-#: rc.cpp:140
+#: rc.cpp:149
 #, no-c-format
 msgid "/home/kde-cvs/music"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 16
-#: rc.cpp:149
+#: rc.cpp:158
 #, no-c-format
 msgid "%1 Options"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 27
-#: rc.cpp:152
+#: rc.cpp:161
 #, no-c-format
 msgid "%1 Format"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 38
-#: rc.cpp:155
+#: rc.cpp:164
 #, no-c-format
 msgid ""
 "When using the file renamer your files will be renamed to the values that you "
@@ -1150,55 +1162,55 @@ msgid ""
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 88
-#: rc.cpp:158
+#: rc.cpp:167
 #, no-c-format
 msgid "%1"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 128
-#: rc.cpp:161
+#: rc.cpp:170
 #, no-c-format
 msgid "Substitution Example"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 141
-#: rc.cpp:164
+#: rc.cpp:173
 #, no-c-format
 msgid "When the Track's %1 is Empty"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 152
-#: rc.cpp:167
+#: rc.cpp:176
 #, no-c-format
 msgid "Include in the &filename anyways"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 160
-#: rc.cpp:170
+#: rc.cpp:179
 #, no-c-format
 msgid "&Ignore this tag when renaming the file"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 182
-#: rc.cpp:173
+#: rc.cpp:182
 #, no-c-format
 msgid "Use &this value:"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 193
-#: rc.cpp:176
+#: rc.cpp:185
 #, no-c-format
 msgid "Empty"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 205
-#: rc.cpp:179
+#: rc.cpp:188
 #, no-c-format
 msgid "Track Width Options"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 216
-#: rc.cpp:182
+#: rc.cpp:191
 #, no-c-format
 msgid ""
 "JuK can force the track used in a file name to have a minimum number of digits. "
@@ -1206,55 +1218,55 @@ msgid ""
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 252
-#: rc.cpp:185
+#: rc.cpp:194
 #, no-c-format
 msgid "Minimum track &width:"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 263
-#: rc.cpp:188
+#: rc.cpp:197
 #, fuzzy, no-c-format
 msgid "None"
 msgstr "Тайёр."
 
 #. i18n: file filerenameroptionsbase.ui line 295
-#: rc.cpp:191
+#: rc.cpp:200
 #, no-c-format
 msgid "014"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 308
-#: rc.cpp:194
+#: rc.cpp:203
 #, no-c-format
 msgid "003"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 316
-#: rc.cpp:197
+#: rc.cpp:206
 #, no-c-format
 msgid "3 ->"
 msgstr ""
 
 #. i18n: file filerenameroptionsbase.ui line 327
-#: rc.cpp:200
+#: rc.cpp:209
 #, no-c-format
 msgid "14 ->"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 23
-#: rc.cpp:203
+#: rc.cpp:212
 #, no-c-format
 msgid "File Name Scheme"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 45
-#: rc.cpp:206
+#: rc.cpp:215
 #, no-c-format
 msgid "Currently used file name schemes"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 56
-#: rc.cpp:209
+#: rc.cpp:218
 #, no-c-format
 msgid ""
 "Here you can see the currently configured file name schemes which the "
@@ -1276,76 +1288,76 @@ msgid ""
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 64
-#: rc.cpp:220
+#: rc.cpp:229
 #, no-c-format
 msgid "&Add"
 msgstr "&Қўшиш"
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 67
-#: rc.cpp:223
+#: rc.cpp:232
 #, no-c-format
 msgid "Add a new scheme"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 70
-#: rc.cpp:226
+#: rc.cpp:235
 #, no-c-format
 msgid "Press this button to add a new file name scheme to the end of the list."
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 81
-#: rc.cpp:230
+#: rc.cpp:239
 #, no-c-format
 msgid "Move scheme up"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 84
-#: rc.cpp:233
+#: rc.cpp:242
 #, no-c-format
 msgid ""
 "Press this button to move the currently selected scheme one step upwards."
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 95
-#: rc.cpp:237
+#: rc.cpp:246
 #, no-c-format
 msgid "Move scheme down"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 98
-#: rc.cpp:240
+#: rc.cpp:249
 #, no-c-format
 msgid ""
 "Press this button to move the currently selected scheme one step downwards."
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 109
-#: rc.cpp:246
+#: rc.cpp:255
 #, no-c-format
 msgid "Modify scheme"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 112
-#: rc.cpp:249
+#: rc.cpp:258
 #, no-c-format
 msgid "Press this button to modify the currently selected scheme."
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 123
-#: rc.cpp:255
+#: rc.cpp:264
 #, no-c-format
 msgid "Remove scheme"
 msgstr ""
 
 #. i18n: file tagguesserconfigdlgwidget.ui line 126
-#: rc.cpp:258
+#: rc.cpp:267
 #, no-c-format
 msgid ""
 "Press this button to remove the currently selected scheme from the list."
 msgstr ""
 
 #. i18n: file trackpickerdialogbase.ui line 77
-#: rc.cpp:265
+#: rc.cpp:274
 #, no-c-format
 msgid "Select Best Possible Match"
 msgstr ""
@@ -1365,10 +1377,6 @@ msgstr ""
 #: searchwidget.cpp:166
 msgid "All Visible"
 msgstr ""
-
-#: searchwidget.cpp:267
-msgid "Clear Search"
-msgstr "Қидирувни тозалаш"
 
 #: searchwidget.cpp:270
 msgid "Search:"
@@ -1410,6 +1418,14 @@ msgstr ""
 
 #: systemtray.cpp:165
 msgid "Redisplay Popup"
+msgstr ""
+
+#: systemtray.cpp:532
+msgid ""
+"_: %1 is Cover Art, %2 is the playing track, %3 is the appname\n"
+"<center><table cellspacing=\"2\">"
+"<tr><td valign=\"middle\">%1</td><td valign=\"middle\">%2</td></tr></table><em>"
+"%3</em></center>"
 msgstr ""
 
 #: tageditor.cpp:472
