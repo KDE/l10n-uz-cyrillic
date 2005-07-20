@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2005-07-18 01:45+0200\n"
+"POT-Creation-Date: 2005-07-20 01:46+0200\n"
 "PO-Revision-Date: 2004-10-24 17:45+0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -1215,7 +1215,7 @@ msgstr "Қўшиқ MusicBrainz маълумот базасида топилма�
 msgid "Please install MusicBrainz to enable this functionality"
 msgstr "Бу қулайлик билан фойдаланиш учун MusicBrainz дастурини ўрнатинг"
 
-#: playlist.cpp:3412 tagdialog.cpp:503 tagdialog.cpp:556
+#: playlist.cpp:3428 tagdialog.cpp:503 tagdialog.cpp:556
 msgid "Sorry, the tag for %1 could not be changed."
 msgstr ""
 
@@ -1438,96 +1438,100 @@ msgstr "amaroK хатоси"
 msgid "Error: No engine loaded, cannot start playback."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:114
+#: engine/xine/xine-config.cpp:37
+msgid "Autodetect"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:122
 msgid "amaroK could not initialize xine."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:147
+#: engine/xine/xine-engine.cpp:156
 msgid "xine was unable to initialize any audio-drivers."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:153
+#: engine/xine/xine-engine.cpp:162
 msgid "amaroK could not create a new xine-stream."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:188
+#: engine/xine/xine-engine.cpp:194
 msgid "Sorry xine 1-rc6a cannot play remote streams, please upgrade to 1-rc7"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:238 playlistbrowseritem.cpp:804
+#: engine/xine/xine-engine.cpp:244 playlistbrowseritem.cpp:804
 #, fuzzy
 msgid "Radio Stream"
 msgstr "Бошланди"
 
-#: engine/xine/xine-engine.cpp:253
+#: engine/xine/xine-engine.cpp:259
 msgid "No input plugin available; check your installation."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:256
+#: engine/xine/xine-engine.cpp:262
 msgid "No demux plugin available; check your installation."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:259
+#: engine/xine/xine-engine.cpp:265
 msgid "Demuxing failed; check your installation."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:262
+#: engine/xine/xine-engine.cpp:268
 msgid "Internal error; check your installation."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:540
+#: engine/xine/xine-engine.cpp:553
 msgid "Redirecting to: "
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:635
+#: engine/xine/xine-engine.cpp:669
 msgid "The host is unknown for the URL: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:637
+#: engine/xine/xine-engine.cpp:671
 msgid "The device name you specified seems invalid."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:639
+#: engine/xine/xine-engine.cpp:673
 msgid "The network appears unreachable."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:641
+#: engine/xine/xine-engine.cpp:675
 msgid "Audio output unavailable; the device is busy."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:643
+#: engine/xine/xine-engine.cpp:677
 msgid "The connection was refused for the URL: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:645
+#: engine/xine/xine-engine.cpp:679
 msgid "xine could not find the URL: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:647
+#: engine/xine/xine-engine.cpp:681
 msgid "Access was denied for the URL: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:649
+#: engine/xine/xine-engine.cpp:683
 msgid "The source cannot be read for the URL: <i>%1</i>"
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:651
+#: engine/xine/xine-engine.cpp:685
 msgid "A problem occurred while loading a library or decoder."
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:654
+#: engine/xine/xine-engine.cpp:688
 msgid "General Warning"
 msgstr "Умумий огоҳнома"
 
-#: engine/xine/xine-engine.cpp:656
+#: engine/xine/xine-engine.cpp:690
 msgid "Security Warning"
 msgstr "Хавфсизлик огоҳномаси"
 
-#: engine/xine/xine-engine.cpp:658
+#: engine/xine/xine-engine.cpp:692
 msgid "Unknown Error"
 msgstr "Номаълум хато"
 
-#: engine/xine/xine-engine.cpp:704
+#: engine/xine/xine-engine.cpp:738
 msgid "Sorry, no additional information is available."
 msgstr ""
 
@@ -1556,37 +1560,37 @@ msgid "Main"
 msgstr ""
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 11
-#: engine/helix/helix-configdialog.cpp:137 rc.cpp:242
+#: engine/helix/helix-configdialog.cpp:137 rc.cpp:261
 #, no-c-format
 msgid "Helix/Realplay core directory"
 msgstr ""
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
-#: engine/helix/helix-configdialog.cpp:139 rc.cpp:245
+#: engine/helix/helix-configdialog.cpp:139 rc.cpp:264
 #, no-c-format
 msgid "This is the directory where clntcore.so is located"
 msgstr ""
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 16
-#: engine/helix/helix-configdialog.cpp:144 rc.cpp:248
+#: engine/helix/helix-configdialog.cpp:144 rc.cpp:267
 #, no-c-format
 msgid "Helix/Realplay plugins directory"
 msgstr ""
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
-#: engine/helix/helix-configdialog.cpp:146 rc.cpp:251
+#: engine/helix/helix-configdialog.cpp:146 rc.cpp:270
 #, no-c-format
 msgid "This is the directory where, for example, vorbisrend.so is located"
 msgstr ""
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 21
-#: engine/helix/helix-configdialog.cpp:151 rc.cpp:254
+#: engine/helix/helix-configdialog.cpp:151 rc.cpp:273
 #, no-c-format
 msgid "Helix/Realplay codecs directory"
 msgstr ""
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
-#: engine/helix/helix-configdialog.cpp:153 rc.cpp:257
+#: engine/helix/helix-configdialog.cpp:153 rc.cpp:276
 #, no-c-format
 msgid "This is the directory where, for example, cvt1.so is located"
 msgstr ""
@@ -1635,7 +1639,7 @@ msgid "Click to get the plugin information."
 msgstr ""
 
 #. i18n: file ./Options1.ui line 24
-#: configdialog.cpp:123 rc.cpp:325
+#: configdialog.cpp:123 rc.cpp:344
 #, no-c-format
 msgid "General"
 msgstr "Умумий"
@@ -1924,7 +1928,7 @@ msgid "<p align=\"center\">Pre-amp</p>"
 msgstr ""
 
 #. i18n: file ./amarokui_xmms.rc line 3
-#: rc.cpp:106 rc.cpp:260
+#: rc.cpp:106 rc.cpp:279
 #, no-c-format
 msgid "Playlist Toolbar"
 msgstr "Қўшиқ рўйхати асбоблар панели"
@@ -2039,7 +2043,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
-#: rc.cpp:164
+#: rc.cpp:164 rc.cpp:242
 #, no-c-format
 msgid "Sound output method to use"
 msgstr ""
@@ -2186,201 +2190,233 @@ msgstr "Параметрлар:"
 msgid "Use custom sink parameters"
 msgstr ""
 
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:245
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 16
+#: rc.cpp:248
+#, fuzzy, no-c-format
+msgid "Xine Configure"
+msgstr "Мослаш"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 51
+#: rc.cpp:251
+#, fuzzy, no-c-format
+msgid "Device"
+msgstr "Ускуна:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 83
+#: rc.cpp:255
+#, fuzzy, no-c-format
+msgid "Output Plugin"
+msgstr "Чиқариш плагини:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 99
+#: rc.cpp:258
+#, no-c-format
+msgid ""
+"You may select which audio device to use when the OSS or ALSA output plugins "
+"are selected."
+msgstr ""
+
 #. i18n: file ./tagdialogbase.ui line 16
-#: rc.cpp:263
+#: rc.cpp:282
 #, fuzzy, no-c-format
 msgid "Meta Information"
 msgstr "Мета-маълумотни таҳрирлаш"
 
 #. i18n: file ./tagdialogbase.ui line 43
-#: rc.cpp:266
+#: rc.cpp:285
 #, no-c-format
 msgid "&Comment:"
 msgstr "&Изоҳ:"
 
 #. i18n: file ./tagdialogbase.ui line 129
-#: rc.cpp:271
+#: rc.cpp:290
 #, no-c-format
 msgid "&Year:"
 msgstr "Й&ил:"
 
 #. i18n: file ./tagdialogbase.ui line 163
-#: rc.cpp:275
+#: rc.cpp:294
 #, fuzzy, no-c-format
 msgid "&Score:"
 msgstr "Баҳо"
 
 #. i18n: file ./tagdialogbase.ui line 200
-#: rc.cpp:279
+#: rc.cpp:298
 #, no-c-format
 msgid "&Title:"
 msgstr "С&арлавҳа:"
 
 #. i18n: file ./tagdialogbase.ui line 230
-#: rc.cpp:282
+#: rc.cpp:301
 #, no-c-format
 msgid "Al&bum:"
 msgstr "А&лбом:"
 
 #. i18n: file ./tagdialogbase.ui line 272
-#: rc.cpp:285
+#: rc.cpp:304
 #, no-c-format
 msgid "Fill-In Tags &Using MusicBrainz"
 msgstr ""
 
 #. i18n: file ./tagdialogbase.ui line 278
-#: rc.cpp:288
+#: rc.cpp:307
 #, no-c-format
 msgid "Detect metadata from fingerprint."
 msgstr ""
 
 #. i18n: file ./tagdialogbase.ui line 286
-#: rc.cpp:291
+#: rc.cpp:310
 #, no-c-format
 msgid "Location:"
 msgstr "Манзил:"
 
 #. i18n: file ./tagdialogbase.ui line 326
-#: rc.cpp:295
+#: rc.cpp:314
 #, no-c-format
 msgid "Length:"
 msgstr "Узунлиги:"
 
 #. i18n: file ./tagdialogbase.ui line 334
-#: rc.cpp:298
+#: rc.cpp:317
 #, no-c-format
 msgid "&Artist:"
 msgstr "&Санаткор:"
 
 #. i18n: file ./tagdialogbase.ui line 345
-#: rc.cpp:301
+#: rc.cpp:320
 #, no-c-format
 msgid "Trac&k:"
 msgstr "Қў&шиқ:"
 
 #. i18n: file ./tagdialogbase.ui line 380
-#: rc.cpp:304
+#: rc.cpp:323
 #, no-c-format
 msgid "Bitrate:"
 msgstr "Битрейт:"
 
 #. i18n: file ./tagdialogbase.ui line 407
-#: rc.cpp:307
+#: rc.cpp:326
 #, no-c-format
 msgid "Samplerate:"
 msgstr "Самплрейт:"
 
 #. i18n: file ./tagdialogbase.ui line 415
-#: rc.cpp:310
+#: rc.cpp:329
 #, no-c-format
 msgid "&Genre:"
 msgstr "&Жанр:"
 
 #. i18n: file ./tagdialogbase.ui line 466
-#: rc.cpp:316
+#: rc.cpp:335
 #, fuzzy, no-c-format
 msgid "&Next"
 msgstr "&Йўқ"
 
 #. i18n: file ./tagdialogbase.ui line 491
-#: rc.cpp:319
+#: rc.cpp:338
 #, fuzzy, no-c-format
 msgid "Sa&ve && Close"
 msgstr "&Сақлаш ва ёпиш"
 
 #. i18n: file ./Options1.ui line 38
-#: rc.cpp:328
+#: rc.cpp:347
 #, no-c-format
 msgid "General Options"
 msgstr "Умумий параметрлар"
 
 #. i18n: file ./Options1.ui line 49
-#: rc.cpp:331
+#: rc.cpp:350
 #, no-c-format
 msgid "Show splash-screen on start&up"
 msgstr "Ишга тушаётганда &сплэш ойнасини кўрсатиш"
 
 #. i18n: file ./Options1.ui line 52
-#: rc.cpp:334 rc.cpp:337
+#: rc.cpp:353 rc.cpp:356
 #, fuzzy, no-c-format
 msgid "Check to enable the splashscreen during amaroK startup."
 msgstr ""
 "amaroK ишга тушаётганда сплэш ойнасини кўрсатиш учун шу ерни белгиланг."
 
 #. i18n: file ./Options1.ui line 63
-#: rc.cpp:340
+#: rc.cpp:359
 #, fuzzy, no-c-format
 msgid "Show tra&y icon"
 msgstr "Панелда &нишончани кўрсатиш"
 
 #. i18n: file ./Options1.ui line 66
-#: rc.cpp:343 rc.cpp:346
+#: rc.cpp:362 rc.cpp:365
 #, fuzzy, no-c-format
 msgid "Check to enable the amaroK system tray icon."
 msgstr "Панелда amaroK нишончасини кўрсатиш учун шу ерни белгиланг."
 
 #. i18n: file ./Options1.ui line 105
-#: rc.cpp:349
+#: rc.cpp:368
 #, no-c-format
 msgid "&Flash tray icon when playing"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 108
-#: rc.cpp:352 rc.cpp:355
+#: rc.cpp:371 rc.cpp:374
 #, fuzzy, no-c-format
 msgid "Check to animate the amaroK system tray icon."
 msgstr "Панелда amaroK нишончасини кўрсатиш учун шу ерни белгиланг."
 
 #. i18n: file ./Options1.ui line 121
-#: rc.cpp:358
+#: rc.cpp:377
 #, fuzzy, no-c-format
 msgid "Show player window (like &XMMS)"
 msgstr "Плейернинг ойнасини кўрсатиш (XMMS'га ўхшаб)"
 
 #. i18n: file ./Options1.ui line 124
-#: rc.cpp:361 rc.cpp:364
+#: rc.cpp:380 rc.cpp:383
 #, fuzzy, no-c-format
 msgid "Check to enable a extra player window."
 msgstr "Панелда amaroK нишончасини кўрсатиш учун шу ерни белгиланг."
 
 #. i18n: file ./Options1.ui line 143
-#: rc.cpp:367
+#: rc.cpp:386
 #, no-c-format
 msgid "Default size for &cover previews:"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 149
-#: rc.cpp:370 rc.cpp:373
+#: rc.cpp:389 rc.cpp:392
 #, no-c-format
 msgid "Size of the cover image in the context viewer in pixels."
 msgstr ""
 
 #. i18n: file ./Options1.ui line 160
-#: rc.cpp:376
+#: rc.cpp:395
 #, no-c-format
 msgid "px"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 172
-#: rc.cpp:379 rc.cpp:382
+#: rc.cpp:398 rc.cpp:401
 #, no-c-format
 msgid "Size of the cover images in the context viewer in pixels."
 msgstr ""
 
 #. i18n: file ./Options1.ui line 204
-#: rc.cpp:385
+#: rc.cpp:404
 #, fuzzy, no-c-format
 msgid "Playlist-Window Options"
 msgstr "Кўшиқ рўйхатининг параметрлари"
 
 #. i18n: file ./Options1.ui line 215
-#: rc.cpp:388
+#: rc.cpp:407
 #, no-c-format
 msgid "&Remember current playlist on exit"
 msgstr "Жорий қўшиқ рўйхатини &эслаб қолиш"
 
 #. i18n: file ./Options1.ui line 218
-#: rc.cpp:391
+#: rc.cpp:410
 #, fuzzy, no-c-format
 msgid ""
 "If checked, amaroK saves the current playlist on quit and restores it when "
@@ -2391,7 +2427,7 @@ msgstr ""
 "тушганда уни тиклайди."
 
 #. i18n: file ./Options1.ui line 221
-#: rc.cpp:394
+#: rc.cpp:413
 #, fuzzy, no-c-format
 msgid ""
 "If checked, amaroK saves the current playlist\\non quit and restores it when "
@@ -2401,13 +2437,13 @@ msgstr ""
 "тушганда уни тиклайди."
 
 #. i18n: file ./Options1.ui line 229
-#: rc.cpp:397
+#: rc.cpp:416
 #, no-c-format
 msgid "&Manually saved playlists use relative path"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 232
-#: rc.cpp:400 rc.cpp:403
+#: rc.cpp:419 rc.cpp:422
 #, no-c-format
 msgid ""
 "If checked, amaroK uses a relative path for the tracks of manually saved "
@@ -2415,13 +2451,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options1.ui line 243
-#: rc.cpp:406
+#: rc.cpp:425
 #, no-c-format
 msgid "&Keep the active song visible on track change"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 246
-#: rc.cpp:409
+#: rc.cpp:428
 #, fuzzy, no-c-format
 msgid ""
 "If checked, the playlist scrolls on song change to make the currently playing "
@@ -2433,7 +2469,7 @@ msgstr ""
 "мослайди."
 
 #. i18n: file ./Options1.ui line 249
-#: rc.cpp:412
+#: rc.cpp:431
 #, no-c-format
 msgid ""
 "If checked, the playlist scrolls on song change to make the currently playing "
@@ -2444,85 +2480,85 @@ msgstr ""
 "мослайди."
 
 #. i18n: file ./Options1.ui line 257
-#: rc.cpp:415
+#: rc.cpp:434
 #, no-c-format
 msgid "Switch to Context Browser on track ch&ange"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 260
-#: rc.cpp:418
+#: rc.cpp:437
 #, no-c-format
 msgid "Switch to the context browser, when playing a track.<br>"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 263
-#: rc.cpp:421
+#: rc.cpp:440
 #, no-c-format
 msgid "Switch to the context browser, when playing a track."
 msgstr ""
 
 #. i18n: file ./Options1.ui line 271
-#: rc.cpp:424
+#: rc.cpp:443
 #, fuzzy, no-c-format
 msgid "Show s&tatusbar"
 msgstr "Ҳолат панелини кўрсатиш"
 
 #. i18n: file ./Options1.ui line 274
-#: rc.cpp:427
+#: rc.cpp:446
 #, fuzzy, no-c-format
 msgid "Check to enable the statusbar on the playlist window.<br>"
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./Options1.ui line 277
-#: rc.cpp:430
+#: rc.cpp:449
 #, fuzzy, no-c-format
 msgid "Check to enable the statusbar on the playlist window."
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./Options1.ui line 285
-#: rc.cpp:433
+#: rc.cpp:452
 #, fuzzy, no-c-format
 msgid "Show statistics by a&lbums"
 msgstr "Ҳолат панелини кўрсатиш"
 
 #. i18n: file ./Options1.ui line 288
-#: rc.cpp:436
+#: rc.cpp:455
 #, fuzzy, no-c-format
 msgid "Show statistics by albums in the context browser.<br>"
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./Options1.ui line 291
-#: rc.cpp:439
+#: rc.cpp:458
 #, fuzzy, no-c-format
 msgid "Show statistics by albums in the context browser."
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./Options1.ui line 301
-#: rc.cpp:442
+#: rc.cpp:461
 #, no-c-format
 msgid "Encodings"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 312
-#: rc.cpp:445
+#: rc.cpp:464
 #, no-c-format
 msgid "Do not decode the following as latin1:"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 353
-#: rc.cpp:448
+#: rc.cpp:467
 #, no-c-format
 msgid "ID&3v1 tags"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 356
-#: rc.cpp:451
+#: rc.cpp:470
 #, no-c-format
 msgid "Alt+3"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 362
-#: rc.cpp:455
+#: rc.cpp:474
 #, no-c-format
 msgid ""
 "Decode ID3v1 tags (used by some MP3 files) using the character set specified "
@@ -2530,13 +2566,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options1.ui line 370
-#: rc.cpp:458
+#: rc.cpp:477
 #, no-c-format
 msgid "&Shoutcast metadata"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 373
-#: rc.cpp:461
+#: rc.cpp:480
 #, no-c-format
 msgid ""
 "Decode the title and artist information of Shoutcast music streams using the "
@@ -2544,13 +2580,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options1.ui line 393
-#: rc.cpp:464
+#: rc.cpp:483
 #, no-c-format
 msgid "Instead &decode using this character set:"
 msgstr ""
 
 #. i18n: file ./Options1.ui line 421
-#: rc.cpp:468
+#: rc.cpp:487
 #, no-c-format
 msgid ""
 "If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
@@ -2558,135 +2594,135 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options2.ui line 49
-#: rc.cpp:474
+#: rc.cpp:493
 #, no-c-format
 msgid "&Use custom fonts"
 msgstr "&Бошқа шрифтларни ишлатиш"
 
 #. i18n: file ./Options2.ui line 55
-#: rc.cpp:477 rc.cpp:480
+#: rc.cpp:496 rc.cpp:499
 #, no-c-format
 msgid "Check to enable custom fonts."
 msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
 #. i18n: file ./Options2.ui line 103
-#: rc.cpp:484
+#: rc.cpp:503
 #, no-c-format
 msgid "Player-window font:"
 msgstr "Плейер ойнаси учун шрифт:"
 
 #. i18n: file ./Options2.ui line 109
-#: rc.cpp:487 rc.cpp:490 rc.cpp:494 rc.cpp:497 rc.cpp:1193
+#: rc.cpp:506 rc.cpp:509 rc.cpp:513 rc.cpp:516 rc.cpp:1209
 #, no-c-format
 msgid "The font to use in the player window."
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./Options2.ui line 148
-#: rc.cpp:500
+#: rc.cpp:519
 #, no-c-format
 msgid "Playlist-window font:"
 msgstr "Қўшиқ рўйхати учун шрифт:"
 
 #. i18n: file ./Options2.ui line 151
-#: rc.cpp:503 rc.cpp:506 rc.cpp:510 rc.cpp:513 rc.cpp:1187
+#: rc.cpp:522 rc.cpp:525 rc.cpp:529 rc.cpp:532 rc.cpp:1203
 #, no-c-format
 msgid "The font to use in the playlist window."
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./Options2.ui line 190
-#: rc.cpp:516
+#: rc.cpp:535
 #, no-c-format
 msgid "Context-browser font:"
 msgstr "Статистика браузери учун шрифт:"
 
 #. i18n: file ./Options2.ui line 193
-#: rc.cpp:519 rc.cpp:522 rc.cpp:526 rc.cpp:529 rc.cpp:1199
+#: rc.cpp:538 rc.cpp:541 rc.cpp:545 rc.cpp:548 rc.cpp:1215
 #, fuzzy, no-c-format
 msgid "The font to use in the context browser."
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./Options2.ui line 230
-#: rc.cpp:532
+#: rc.cpp:551
 #, fuzzy, no-c-format
 msgid "Color Scheme"
 msgstr "&Бошқа ранг қолипи"
 
 #. i18n: file ./Options2.ui line 269
-#: rc.cpp:536
+#: rc.cpp:555
 #, no-c-format
 msgid "&Custom color scheme"
 msgstr "&Бошқа ранг қолипи"
 
 #. i18n: file ./Options2.ui line 275
-#: rc.cpp:539 rc.cpp:542
+#: rc.cpp:558 rc.cpp:561
 #, no-c-format
 msgid "If selected, amaroK uses the user-defined colors in the playlist."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK кўрсатилган ранглардан фойдаланади."
 
 #. i18n: file ./Options2.ui line 329
-#: rc.cpp:546
+#: rc.cpp:565
 #, fuzzy, no-c-format
 msgid "Fo&reground:"
 msgstr "&Олдин фон:"
 
 #. i18n: file ./Options2.ui line 338
-#: rc.cpp:549
+#: rc.cpp:568
 #, fuzzy, no-c-format
 msgid "Selects the color to use as foreground color in the playlist."
 msgstr "Қўшиқ рўйхати учун олдин фон (матн) рангини танлаш."
 
 #. i18n: file ./Options2.ui line 367
-#: rc.cpp:553
+#: rc.cpp:572
 #, fuzzy, no-c-format
 msgid "Click to select the foreground text color in the playlist window."
 msgstr "Қўшиқ рўйхати учун олдин фон (матн) рангини танлаш."
 
 #. i18n: file ./Options2.ui line 370
-#: rc.cpp:556
+#: rc.cpp:575
 #, fuzzy, no-c-format
 msgid "Selects the color to use as foreground (text) color in the playlist."
 msgstr "Қўшиқ рўйхати учун олдин фон (матн) рангини танлаш."
 
 #. i18n: file ./Options2.ui line 389
-#: rc.cpp:559
+#: rc.cpp:578
 #, no-c-format
 msgid "&Background:"
 msgstr "Орқа &фон:"
 
 #. i18n: file ./Options2.ui line 398
-#: rc.cpp:562 rc.cpp:569
+#: rc.cpp:581 rc.cpp:588
 #, fuzzy, no-c-format
 msgid "Selects the color to use as background color in the playlist."
 msgstr "Қўшиқ рўйхати учун орқа фон рангини танлаш."
 
 #. i18n: file ./Options2.ui line 439
-#: rc.cpp:566
+#: rc.cpp:585
 #, fuzzy, no-c-format
 msgid "Click to select the background color in the playlist window."
 msgstr "Қўшиқ рўйхати учун орқа фон рангини танлаш."
 
 #. i18n: file ./Options2.ui line 454
-#: rc.cpp:572
+#: rc.cpp:591
 #, fuzzy, no-c-format
 msgid "The current &KDE color-scheme"
 msgstr "&Жорий KDE ранг қолипи"
 
 #. i18n: file ./Options2.ui line 460
-#: rc.cpp:575 rc.cpp:578
+#: rc.cpp:594 rc.cpp:597
 #, no-c-format
 msgid "If selected, amaroK uses the KDE standard colors in the playlist."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK жорий KDE рангларидан фойдаланади."
 
 #. i18n: file ./Options2.ui line 471
-#: rc.cpp:581
+#: rc.cpp:600
 #, no-c-format
 msgid "The classic &amaroK, \"funky-monkey\", theme"
 msgstr ""
 
 #. i18n: file ./Options2.ui line 477
-#: rc.cpp:584 rc.cpp:587
+#: rc.cpp:603 rc.cpp:606
 #, no-c-format
 msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
 msgstr ""
@@ -2694,31 +2730,31 @@ msgstr ""
 "фойдаланади."
 
 #. i18n: file ./Options2.ui line 492
-#: rc.cpp:590
+#: rc.cpp:609
 #, fuzzy, no-c-format
 msgid "Context Browser Style"
 msgstr "Статистика браузери учун шрифт:"
 
 #. i18n: file ./Options2.ui line 519
-#: rc.cpp:593
+#: rc.cpp:612
 #, fuzzy, no-c-format
 msgid "Select a style:"
 msgstr "Ҳам&ма файлларни танлаш"
 
 #. i18n: file ./Options2.ui line 530
-#: rc.cpp:597 rc.cpp:600
+#: rc.cpp:616 rc.cpp:619
 #, fuzzy, no-c-format
 msgid "Select the style of the Context Browser."
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./Options2.ui line 551
-#: rc.cpp:603
+#: rc.cpp:622
 #, fuzzy, no-c-format
 msgid "Install New Style..."
 msgstr "Скриптлар"
 
 #. i18n: file ./Options2.ui line 554
-#: rc.cpp:606
+#: rc.cpp:625
 #, no-c-format
 msgid ""
 "Click to install a new Context Browser style."
@@ -2727,37 +2763,37 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options2.ui line 557
-#: rc.cpp:609
+#: rc.cpp:628
 #, no-c-format
 msgid "Select and install a new Context Browser style."
 msgstr ""
 
 #. i18n: file ./Options2.ui line 565
-#: rc.cpp:612
+#: rc.cpp:631
 #, no-c-format
 msgid "Download Styles..."
 msgstr ""
 
 #. i18n: file ./Options2.ui line 568
-#: rc.cpp:615
+#: rc.cpp:634
 #, fuzzy, no-c-format
 msgid "Click to download new Context Browser styles."
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./Options2.ui line 571
-#: rc.cpp:618
+#: rc.cpp:637
 #, fuzzy, no-c-format
 msgid "Select and download new Context Browser styles."
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./Options4.ui line 44
-#: rc.cpp:621
+#: rc.cpp:640
 #, no-c-format
 msgid "Transition &Behavior"
 msgstr ""
 
 #. i18n: file ./Options4.ui line 48
-#: rc.cpp:624
+#: rc.cpp:643
 #, no-c-format
 msgid ""
 "<b>Transition Behavior</b>\n"
@@ -2767,44 +2803,44 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options4.ui line 70
-#: rc.cpp:628
+#: rc.cpp:647
 #, no-c-format
 msgid "&No crossfading"
 msgstr ""
 
 #. i18n: file ./Options4.ui line 76
-#: rc.cpp:631
+#: rc.cpp:650
 #, no-c-format
 msgid ""
 "Enable normal track transition. You may insert a gap of silence between tracks."
 msgstr ""
 
 #. i18n: file ./Options4.ui line 106
-#: rc.cpp:634
+#: rc.cpp:653
 #, no-c-format
 msgid "Insert &gap:"
 msgstr ""
 
 #. i18n: file ./Options4.ui line 134
-#: rc.cpp:637 rc.cpp:652 rc.cpp:748
+#: rc.cpp:656 rc.cpp:671 rc.cpp:764
 #, no-c-format
 msgid " ms"
 msgstr " мс"
 
 #. i18n: file ./Options4.ui line 146
-#: rc.cpp:640
+#: rc.cpp:659
 #, no-c-format
 msgid "Silence between tracks, in milliseconds."
 msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
 #. i18n: file ./Options4.ui line 169
-#: rc.cpp:643
+#: rc.cpp:662
 #, no-c-format
 msgid "&Crossfading"
 msgstr ""
 
 #. i18n: file ./Options4.ui line 175
-#: rc.cpp:646
+#: rc.cpp:665
 #, no-c-format
 msgid ""
 "Enable crossfading between tracks. This setting also enables fading to or from "
@@ -2812,25 +2848,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options4.ui line 208
-#: rc.cpp:649
+#: rc.cpp:668
 #, no-c-format
 msgid "Crossover &period:"
 msgstr ""
 
 #. i18n: file ./Options4.ui line 254
-#: rc.cpp:655
+#: rc.cpp:674
 #, fuzzy, no-c-format
 msgid "The length of the crossfade between tracks, in milliseconds."
 msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
 #. i18n: file ./Options4.ui line 276
-#: rc.cpp:658
+#: rc.cpp:677
 #, no-c-format
 msgid "&Resume playback on start"
 msgstr ""
 
 #. i18n: file ./Options4.ui line 279
-#: rc.cpp:661
+#: rc.cpp:680
 #, no-c-format
 msgid ""
 "If checked, amaroK will"
@@ -2839,13 +2875,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options4.ui line 287
-#: rc.cpp:664
+#: rc.cpp:683
 #, no-c-format
 msgid "&Use hardware volume mixer"
 msgstr ""
 
 #. i18n: file ./Options4.ui line 290
-#: rc.cpp:667
+#: rc.cpp:686
 #, no-c-format
 msgid ""
 "If checked, the volume slider"
@@ -2853,28 +2889,14 @@ msgid ""
 "not checked, the volume slider only affects the amaroK output."
 msgstr ""
 
-#. i18n: file ./Options4.ui line 298
-#: rc.cpp:670
-#, fuzzy, no-c-format
-msgid "Remem&ber effects"
-msgstr "Эффектларни &эслаб қолиш"
-
-#. i18n: file ./Options4.ui line 301
-#: rc.cpp:673
-#, no-c-format
-msgid ""
-"If checked, amaroK remembers"
-"<br>the audio effects set through the effects window between sessions."
-msgstr ""
-
 #. i18n: file ./Options5.ui line 27
-#: rc.cpp:676
+#: rc.cpp:689
 #, no-c-format
 msgid "&Use On-Screen-Display"
 msgstr ""
 
 #. i18n: file ./Options5.ui line 33
-#: rc.cpp:679
+#: rc.cpp:692
 #, no-c-format
 msgid ""
 "Check to enable the On-Screen-Display. "
@@ -2882,7 +2904,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options5.ui line 36
-#: rc.cpp:682
+#: rc.cpp:695
 #, no-c-format
 msgid ""
 "Check to enable the On-Screen-Display. The OSD briefly displays track data when "
@@ -2890,141 +2912,147 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options5.ui line 95
-#: rc.cpp:686
+#: rc.cpp:699
 #, no-c-format
 msgid "&Font"
 msgstr "&Шрифт"
 
 #. i18n: file ./Options5.ui line 116
-#: rc.cpp:690 rc.cpp:693 rc.cpp:1115
+#: rc.cpp:703 rc.cpp:706 rc.cpp:1131
 #, no-c-format
 msgid "The font to use for the On-Screen Display."
 msgstr ""
 
 #. i18n: file ./Options5.ui line 127
-#: rc.cpp:696
+#: rc.cpp:709
 #, fuzzy, no-c-format
 msgid "Draw &shadow"
 msgstr "Соя билан"
 
 #. i18n: file ./Options5.ui line 137
-#: rc.cpp:699
+#: rc.cpp:712
 #, fuzzy, no-c-format
 msgid "C&olors"
 msgstr "Ранглар"
 
 #. i18n: file ./Options5.ui line 159
-#: rc.cpp:702
+#: rc.cpp:715
 #, no-c-format
 msgid "Use &custom colors"
 msgstr "&Бошқа рангларни ишлатиш"
 
 #. i18n: file ./Options5.ui line 162
-#: rc.cpp:705 rc.cpp:708
+#: rc.cpp:718 rc.cpp:721
 #, fuzzy, no-c-format
 msgid "Check to enable custom colors for the On-Screen-Display."
 msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
 #. i18n: file ./Options5.ui line 232
-#: rc.cpp:712
+#: rc.cpp:725
 #, no-c-format
 msgid "Background color:"
 msgstr "Орқа фон ранги:"
 
 #. i18n: file ./Options5.ui line 235
-#: rc.cpp:715 rc.cpp:729
+#: rc.cpp:728 rc.cpp:742
 #, no-c-format
 msgid "The color of the OSD background."
 msgstr ""
 
 #. i18n: file ./Options5.ui line 261
-#: rc.cpp:719
+#: rc.cpp:732
 #, no-c-format
 msgid "Click to select the color of the OSD text."
 msgstr ""
 
 #. i18n: file ./Options5.ui line 264
-#: rc.cpp:722 rc.cpp:735
+#: rc.cpp:735 rc.cpp:748
 #, no-c-format
 msgid "The color of the OSD text."
 msgstr ""
 
 #. i18n: file ./Options5.ui line 290
-#: rc.cpp:726
+#: rc.cpp:739
 #, fuzzy, no-c-format
 msgid "Click to select the background color of the OSD."
 msgstr "Қўшиқ рўйхати учун орқа фон рангини танлаш."
 
 #. i18n: file ./Options5.ui line 309
-#: rc.cpp:732
+#: rc.cpp:745
 #, no-c-format
 msgid "Text color:"
 msgstr "Матннинг ранги:"
 
 #. i18n: file ./Options5.ui line 326
-#: rc.cpp:738
+#: rc.cpp:751
 #, no-c-format
 msgid "Make the &background translucent"
 msgstr ""
 
 #. i18n: file ./Options5.ui line 339
-#: rc.cpp:741
+#: rc.cpp:754
 #, fuzzy, no-c-format
 msgid "Display &Text"
 msgstr "&Навбатда ўйнаш"
 
-#. i18n: file ./Options5.ui line 388
-#: rc.cpp:745
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:757
+#, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr ""
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:761
 #, fuzzy, no-c-format
 msgid "&Duration:"
 msgstr "&Давом этиши"
 
-#. i18n: file ./Options5.ui line 410
-#: rc.cpp:751
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:767
 #, fuzzy, no-c-format
 msgid "Forever"
 msgstr "Муқовани олиш"
 
-#. i18n: file ./Options5.ui line 428
-#: rc.cpp:754 rc.cpp:757
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:770 rc.cpp:773
 #, no-c-format
 msgid ""
 "The time in milliseconds to show the OSD. The value must be between 500 ms and "
 "10000 ms."
 msgstr ""
 
-#. i18n: file ./Options5.ui line 447
-#: rc.cpp:760 rc.cpp:763
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:776 rc.cpp:779
 #, no-c-format
 msgid "The screen that should display the OSD."
 msgstr ""
 
-#. i18n: file ./Options5.ui line 458
-#: rc.cpp:766
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:782
 #, fuzzy, no-c-format
 msgid "Sc&reen:"
 msgstr "&Экран"
 
 #. i18n: file ./Options7.ui line 16
-#: rc.cpp:769
+#: rc.cpp:785
 #, no-c-format
 msgid "MySql"
 msgstr ""
 
 #. i18n: file ./Options7.ui line 30
-#: rc.cpp:772
+#: rc.cpp:788
 #, fuzzy, no-c-format
 msgid "Collection Folders"
 msgstr "Тўплам"
 
 #. i18n: file ./Options7.ui line 38
-#: rc.cpp:775
+#: rc.cpp:791
 #, fuzzy, no-c-format
 msgid "Collection Database"
 msgstr "Тўплам маълумот базаси яратилмоқда..."
 
 #. i18n: file ./Options8.ui line 80
-#: rc.cpp:779
+#: rc.cpp:795
 #, no-c-format
 msgid ""
 "amaroK can send the name of every song you play to Audioscrobbler. The system "
@@ -3034,13 +3062,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options8.ui line 90
-#: rc.cpp:782
+#: rc.cpp:798
 #, fuzzy, no-c-format
 msgid "Audioscrobbler Profile"
 msgstr "Жилдларни мослаш"
 
 #. i18n: file ./Options8.ui line 109
-#: rc.cpp:785
+#: rc.cpp:801
 #, no-c-format
 msgid ""
 "<P>To use Audioscrobbler with amaroK, you need an <A "
@@ -3048,25 +3076,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options8.ui line 146
-#: rc.cpp:788
+#: rc.cpp:804
 #, no-c-format
 msgid "&Password:"
 msgstr ""
 
 #. i18n: file ./Options8.ui line 165
-#: rc.cpp:791
+#: rc.cpp:807
 #, fuzzy, no-c-format
 msgid "&Username:"
 msgstr "Номини ўзгартириш"
 
 #. i18n: file ./Options8.ui line 196
-#: rc.cpp:794
+#: rc.cpp:810
 #, fuzzy, no-c-format
 msgid "Audioscrobbler Services"
 msgstr "Жилдларни мослаш"
 
 #. i18n: file ./Options8.ui line 207
-#: rc.cpp:797
+#: rc.cpp:813
 #, no-c-format
 msgid ""
 "Once registered, amaroK can tell Audioscrobbler about your listening habits; "
@@ -3075,19 +3103,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./Options8.ui line 229
-#: rc.cpp:800
+#: rc.cpp:816
 #, fuzzy, no-c-format
 msgid "&Improve my profile by submitting the tracks I play"
 msgstr "Ўйнашни тўхтатиш"
 
 #. i18n: file ./Options8.ui line 237
-#: rc.cpp:803
+#: rc.cpp:819
 #, fuzzy, no-c-format
 msgid "&Retrieve similar artists"
 msgstr "Қўшиқ рўйхати олинмоқда..."
 
 #. i18n: file ./Options8.ui line 255
-#: rc.cpp:806
+#: rc.cpp:822
 #, no-c-format
 msgid ""
 "Why not join the <A href='http://www.audioscrobbler.com:80/group/amaroK+users'>"
@@ -3096,61 +3124,61 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 13
-#: rc.cpp:809
+#: rc.cpp:825
 #, fuzzy, no-c-format
 msgid "Amarok Version"
 msgstr "Версия"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 14
-#: rc.cpp:812
+#: rc.cpp:828
 #, no-c-format
 msgid "Amarok version string, used to restart aRts in new installations."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 18
-#: rc.cpp:815
+#: rc.cpp:831
 #, fuzzy, no-c-format
 msgid "Position of player window"
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 19
-#: rc.cpp:818
+#: rc.cpp:834
 #, no-c-format
 msgid "The position of the amaroK main window when amaroK is started."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 22
-#: rc.cpp:821
+#: rc.cpp:837
 #, fuzzy, no-c-format
 msgid "Position of playlist window"
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 23
-#: rc.cpp:824
+#: rc.cpp:840
 #, no-c-format
 msgid "The position of the playlist window when amaroK is started."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 26
-#: rc.cpp:827
+#: rc.cpp:843
 #, fuzzy, no-c-format
 msgid "Size of playlist window"
 msgstr "Қўшиқ рўйхатини кўрсатиш/бекитиш"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 27
-#: rc.cpp:830
+#: rc.cpp:846
 #, no-c-format
 msgid "The size of the playlist window when amaroK is started."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 30
-#: rc.cpp:833
+#: rc.cpp:849
 #, fuzzy, no-c-format
 msgid "Whether to save playlist on quit"
 msgstr "Жорий қўшиқ рўйхатини &эслаб қолиш"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 31
-#: rc.cpp:836
+#: rc.cpp:852
 #, fuzzy, no-c-format
 msgid ""
 "If set, amaroK saves the current playlist on quit and restores it when "
@@ -3160,13 +3188,13 @@ msgstr ""
 "тушганда уни тиклайди."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 35
-#: rc.cpp:839
+#: rc.cpp:855
 #, no-c-format
 msgid "Whether to follow symlinks while adding items to playlist recursively"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 36
-#: rc.cpp:842
+#: rc.cpp:858
 #, fuzzy, no-c-format
 msgid ""
 "If set, amarok follows symlinks when adding files or directories to the "
@@ -3175,13 +3203,13 @@ msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK кўрсатилган ранглардан фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 40
-#: rc.cpp:845
+#: rc.cpp:861
 #, no-c-format
 msgid "Whether to display remaining track time"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 41
-#: rc.cpp:848
+#: rc.cpp:864
 #, no-c-format
 msgid ""
 "Set this to display remaining track time instead of past track time in the "
@@ -3189,26 +3217,26 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 45
-#: rc.cpp:851
+#: rc.cpp:867
 #, no-c-format
 msgid "Whether to play track repeatedly"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 46
-#: rc.cpp:854
+#: rc.cpp:870
 #, fuzzy, no-c-format
 msgid "If set, amaroK repeats the current track indefinitely."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK кўрсатилган ранглардан фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 50
-#: rc.cpp:857
+#: rc.cpp:873
 #, no-c-format
 msgid "Whether to play whole playlist repeatedly"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 51
-#: rc.cpp:860
+#: rc.cpp:876
 #, fuzzy, no-c-format
 msgid "If set, amaroK repeats the playlist indefinitely."
 msgstr ""
@@ -3216,26 +3244,26 @@ msgstr ""
 "фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 55
-#: rc.cpp:863
+#: rc.cpp:879
 #, no-c-format
 msgid "Whether to play tracks in random order"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 56
-#: rc.cpp:866
+#: rc.cpp:882
 #, fuzzy, no-c-format
 msgid "If set, amaroK plays the tracks in the playlist in random order."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK жорий KDE рангларидан фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 60
-#: rc.cpp:869
+#: rc.cpp:885
 #, fuzzy, no-c-format
 msgid "Plays a dynamic playlist"
 msgstr "Қўшиқ рўйхати олинмоқда..."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 61
-#: rc.cpp:872
+#: rc.cpp:888
 #, no-c-format
 msgid ""
 "Dynamic playlist which removes the played track from the playlist and appends "
@@ -3243,128 +3271,128 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 65
-#: rc.cpp:875
+#: rc.cpp:891
 #, no-c-format
 msgid "Shows help"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 66
-#: rc.cpp:878
+#: rc.cpp:894
 #, fuzzy, no-c-format
 msgid "Whether to show or hide the dynamic information dialog"
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 70
-#: rc.cpp:881
+#: rc.cpp:897
 #, no-c-format
 msgid "Adds this type of song"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 71
-#: rc.cpp:884
+#: rc.cpp:900
 #, no-c-format
 msgid "Dynamic mode will append this type of song to the end of the playlist."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 75
-#: rc.cpp:887 rc.cpp:890
+#: rc.cpp:903 rc.cpp:906
 #, no-c-format
 msgid "List of smart playlists to be appended for dynamic mode."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 80
-#: rc.cpp:893
+#: rc.cpp:909
 #, no-c-format
 msgid "Number of upcoming songs to show"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 81
-#: rc.cpp:896
+#: rc.cpp:912
 #, no-c-format
 msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 85
-#: rc.cpp:899
+#: rc.cpp:915
 #, no-c-format
 msgid "History of songs count"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 86
-#: rc.cpp:902
+#: rc.cpp:918
 #, no-c-format
 msgid ""
 "Number of previously played songs to show in the Playlist for dynamic mode."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 90
-#: rc.cpp:905
+#: rc.cpp:921
 #, no-c-format
 msgid "Number of tracks to append"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 91
-#: rc.cpp:908
+#: rc.cpp:924
 #, no-c-format
 msgid "Number of tracks to append to the Playlist for dynamic mode."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 95
-#: rc.cpp:911
+#: rc.cpp:927
 #, fuzzy, no-c-format
 msgid "Cycle Tracks"
 msgstr "Қўшиқ"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 96
-#: rc.cpp:914
+#: rc.cpp:930
 #, fuzzy, no-c-format
 msgid "Whether to remove first item in playlist."
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 100
-#: rc.cpp:917
+#: rc.cpp:933
 #, no-c-format
 msgid "Mark History"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 101
-#: rc.cpp:920
+#: rc.cpp:936
 #, fuzzy, no-c-format
 msgid "Whether to mark items in the playlist as history once played."
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 105
-#: rc.cpp:923
+#: rc.cpp:939
 #, no-c-format
 msgid "Whether to show icon in system tray"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 106
-#: rc.cpp:926
+#: rc.cpp:942
 #, fuzzy, no-c-format
 msgid "Enable/Disable tray icon for amaroK."
 msgstr "amaroK ишга тушаётганда сплэш ойнасини кўрсатиш/кўрсатмаш."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 110
-#: rc.cpp:929
+#: rc.cpp:945
 #, fuzzy, no-c-format
 msgid "Whether to animate the systray icon"
 msgstr "Панелда amaroK нишончасини кўрсатиш учун шу ерни белгиланг."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 111
-#: rc.cpp:932
+#: rc.cpp:948
 #, no-c-format
 msgid "Enable/Disable tray icon animation."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 115
-#: rc.cpp:935
+#: rc.cpp:951
 #, fuzzy, no-c-format
 msgid "Whether to show player window"
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 116
-#: rc.cpp:938
+#: rc.cpp:954
 #, no-c-format
 msgid ""
 "Makes amaroK more like XMMS and other Winamp clones with separate player and "
@@ -3372,61 +3400,61 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 120
-#: rc.cpp:941
+#: rc.cpp:957
 #, fuzzy, no-c-format
 msgid "Whether to show the toolbar in the playlist window."
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 125
-#: rc.cpp:944 rc.cpp:947
+#: rc.cpp:960 rc.cpp:963
 #, no-c-format
 msgid "Size of the cover previews in Contextbrowser and Covermanager"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 130
-#: rc.cpp:950
+#: rc.cpp:966
 #, no-c-format
 msgid "Whether to show the Playlist Statusbar"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 131
-#: rc.cpp:953
+#: rc.cpp:969
 #, no-c-format
 msgid "View some status information on the playlist."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 135
-#: rc.cpp:956
+#: rc.cpp:972
 #, fuzzy, no-c-format
 msgid "Whether to add directories to playlist recursively"
 msgstr "Жилдларни &рекурсив қўшиш"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 136
-#: rc.cpp:959
+#: rc.cpp:975
 #, no-c-format
 msgid "Enable/Disable recursive directory adding to the playlist."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 140
-#: rc.cpp:962
+#: rc.cpp:978
 #, fuzzy, no-c-format
 msgid "Delay between tracks, in milliseconds"
 msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 141
-#: rc.cpp:965
+#: rc.cpp:981
 #, fuzzy, no-c-format
 msgid "Delay between tracks, in milliseconds."
 msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 145
-#: rc.cpp:968
+#: rc.cpp:984
 #, fuzzy, no-c-format
 msgid "Whether the playlist window is visible"
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 146
-#: rc.cpp:971
+#: rc.cpp:987
 #, no-c-format
 msgid ""
 "Enable/Disable the playlist window. Equal to clicking the PL button in the "
@@ -3434,74 +3462,61 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 150
-#: rc.cpp:974
+#: rc.cpp:990
 #, no-c-format
 msgid "Number of undo levels in playlist"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 151
-#: rc.cpp:977
+#: rc.cpp:993
 #, fuzzy, no-c-format
 msgid "The number of undo levels in the playlist."
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 155
-#: rc.cpp:980
+#: rc.cpp:996
 #, no-c-format
 msgid "Index of current visual analyzer"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 156
-#: rc.cpp:983
+#: rc.cpp:999
 #, no-c-format
 msgid "The ID of the visual analyzer to display."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 160
-#: rc.cpp:986
+#: rc.cpp:1002
 #, fuzzy, no-c-format
 msgid "Index of analyzer displayed in playlist window"
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 161
-#: rc.cpp:989
+#: rc.cpp:1005
 #, fuzzy, no-c-format
 msgid "The ID of the visual analyzer to display in playlist window."
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 165
-#: rc.cpp:992
-#, no-c-format
-msgid "Persistent audio effects"
-msgstr ""
-
-#. i18n: file ./amarokcore/amarok.kcfg line 166
-#: rc.cpp:995
-#, no-c-format
-msgid ""
-"If set, amaroK remembers the audio effects set through the effects window."
-msgstr ""
-
-#. i18n: file ./amarokcore/amarok.kcfg line 170
-#: rc.cpp:998
+#: rc.cpp:1008
 #, fuzzy, no-c-format
 msgid "Playlist window splitter positions"
 msgstr "Қўшиқ рўйхати учун шрифт:"
 
-#. i18n: file ./amarokcore/amarok.kcfg line 171
-#: rc.cpp:1001
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1011
 #, fuzzy, no-c-format
 msgid "Currently unused"
 msgstr "Ўйналаётган"
 
-#. i18n: file ./amarokcore/amarok.kcfg line 175
-#: rc.cpp:1004
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1014
 #, no-c-format
 msgid "Whether the playlist should scroll with the active playlist item"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 176
-#: rc.cpp:1007
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1017
 #, fuzzy, no-c-format
 msgid ""
 "If set, the playlist scrolls on song change to make the currently playing item "
@@ -3510,101 +3525,101 @@ msgstr ""
 "Агар белгиланса, жорий ўйналаётган қўшиқни кўриш учун қўшиқ рўйхати ўзини "
 "мослайди."
 
-#. i18n: file ./amarokcore/amarok.kcfg line 180
-#: rc.cpp:1010
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1020
 #, fuzzy, no-c-format
 msgid "Whether a splash-screen should be displayed on startup"
 msgstr "Ишга тушаётганда &сплэш ойнасини кўрсатиш"
 
-#. i18n: file ./amarokcore/amarok.kcfg line 181
-#: rc.cpp:1013
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1023
 #, no-c-format
 msgid "Enable/Disable splashscreen during amaroK startup."
 msgstr "amaroK ишга тушаётганда сплэш ойнасини кўрсатиш/кўрсатмаш."
 
-#. i18n: file ./amarokcore/amarok.kcfg line 185
-#: rc.cpp:1016
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1026
 #, no-c-format
 msgid "Whether ContextBrowser should be activated when starting playback"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 186
-#: rc.cpp:1019
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1029
 #, no-c-format
 msgid "Automatically switches to ContextBrowser when playback is started."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 190
-#: rc.cpp:1022
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1032
 #, no-c-format
 msgid ""
 "Whether ContextBrowser should show statistics by albums when it is possible."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 191
-#: rc.cpp:1025
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1035
 #, no-c-format
 msgid "Show statistics by albums in ContextBrowser."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 195
-#: rc.cpp:1028
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1038
 #, no-c-format
 msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 196
-#: rc.cpp:1031
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1041
 #, no-c-format
 msgid "Set this to the style dir you want to use."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 200
-#: rc.cpp:1034
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1044
 #, no-c-format
 msgid "Whether Menubar is shown"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 201
-#: rc.cpp:1037
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1047
 #, no-c-format
 msgid "If set, amaroK displays a menubar on top of the application."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 205
-#: rc.cpp:1040
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1050
 #, fuzzy, no-c-format
 msgid "Whether playlists store relative path"
 msgstr "Жорий қўшиқ рўйхатини &эслаб қолиш"
 
-#. i18n: file ./amarokcore/amarok.kcfg line 206
-#: rc.cpp:1043
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1053
 #, no-c-format
 msgid ""
 "If set, amaroK manually saved playlists will contain a relative path to the "
 "tracks, not absolute."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 213
-#: rc.cpp:1046
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1056
 #, fuzzy, no-c-format
 msgid "Master volume"
 msgstr "Товушни кўпайтириш"
 
-#. i18n: file ./amarokcore/amarok.kcfg line 214
-#: rc.cpp:1049
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1059
 #, no-c-format
 msgid "The amaroK master volume, a value between 0 (muted) and 100."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 220
-#: rc.cpp:1052
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1062
 #, no-c-format
 msgid "Use soundcard hardware mixer for volume"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 221
-#: rc.cpp:1055
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1065
 #, no-c-format
 msgid ""
 "Enable/Disable soundcard hardware mixer. If set, the volume slider sets the "
@@ -3612,38 +3627,38 @@ msgid ""
 "volume slider only affects the amaroK output."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 225
-#: rc.cpp:1058
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1068
 #, fuzzy, no-c-format
 msgid "Whether to crossfade between tracks"
 msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
-#. i18n: file ./amarokcore/amarok.kcfg line 226
-#: rc.cpp:1061
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1071
 #, no-c-format
 msgid "Enable/Disable crossfading between track changes."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 230
-#: rc.cpp:1064
+#. i18n: file ./amarokcore/amarok.kcfg line 225
+#: rc.cpp:1074
 #, fuzzy, no-c-format
 msgid "Length of crossfade, in milliseconds"
 msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
-#. i18n: file ./amarokcore/amarok.kcfg line 231
-#: rc.cpp:1067
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1077
 #, no-c-format
 msgid "The length of the crossfade between tracks in milliseconds."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 235
-#: rc.cpp:1070
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1080
 #, fuzzy, no-c-format
 msgid "Sound system to use"
 msgstr "Товуш тизими"
 
-#. i18n: file ./amarokcore/amarok.kcfg line 236
-#: rc.cpp:1073
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1083
 #, no-c-format
 msgid ""
 "Select the sound system used to play media. amaroK currently support aRts, "
@@ -3651,129 +3666,143 @@ msgid ""
 "configuration used at compile time."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 239
-#: rc.cpp:1076
+#. i18n: file ./amarokcore/amarok.kcfg line 234
+#: rc.cpp:1086
 #, fuzzy, no-c-format
 msgid "Enables the equalizer plugin"
 msgstr "Эквалайзерни ёқиш"
 
-#. i18n: file ./amarokcore/amarok.kcfg line 240
-#: rc.cpp:1079
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1089
 #, no-c-format
 msgid "When enabled, an equalizer plugin filters the audio stream."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 244
-#: rc.cpp:1082
+#. i18n: file ./amarokcore/amarok.kcfg line 239
+#: rc.cpp:1092
 #, no-c-format
 msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 250
-#: rc.cpp:1085
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1095
 #, no-c-format
 msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 256
-#: rc.cpp:1088
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1098
 #, no-c-format
 msgid "Amazon locale for cover retrieval"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 257
-#: rc.cpp:1091
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1101
 #, no-c-format
 msgid "Determines which Amazon server cover images should be retrieved from."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 263
-#: rc.cpp:1094
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1104
 #, no-c-format
 msgid "Wikipedia locale for information retrieval"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 264
-#: rc.cpp:1097
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1107
 #, no-c-format
 msgid ""
 "Determines in which language the information is retrieved from Wikipedia."
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 271
-#: rc.cpp:1100
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1110
 #, no-c-format
 msgid "Use On-Screen Display"
 msgstr ""
 
-#. i18n: file ./amarokcore/amarok.kcfg line 272
-#: rc.cpp:1103
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1113
 #, fuzzy, no-c-format
 msgid "Enable/Disable the On-Screen Display."
 msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1116
+#, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1119
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr ""
+
 #. i18n: file ./amarokcore/amarok.kcfg line 276
-#: rc.cpp:1106
+#: rc.cpp:1122
 #, no-c-format
 msgid "The OSD text to show"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 277
-#: rc.cpp:1109
+#: rc.cpp:1125
 #, no-c-format
 msgid "Customise the OSD display text."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 281
-#: rc.cpp:1112
+#: rc.cpp:1128
 #, no-c-format
 msgid "Font for On-Screen Display"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 286
-#: rc.cpp:1118
+#: rc.cpp:1134
 #, no-c-format
 msgid "Draw a shadow around the text."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 287
-#: rc.cpp:1121
+#: rc.cpp:1137
 #, no-c-format
 msgid "Draws a shadow around the OSD-text."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 291
-#: rc.cpp:1124
+#: rc.cpp:1140
 #, no-c-format
 msgid "Fake-translucency Toggle"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 292
-#: rc.cpp:1127
+#: rc.cpp:1143
 #, no-c-format
 msgid "Make the background of the OSD use fake-translucency."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 296
-#: rc.cpp:1130
+#: rc.cpp:1146
 #, fuzzy, no-c-format
 msgid "Whether to use custom colors for the OSD"
 msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 297
-#: rc.cpp:1133
+#: rc.cpp:1149
 #, no-c-format
 msgid "You can use custom colors for the OSD if you set this true."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 301
-#: rc.cpp:1136
+#: rc.cpp:1152
 #, fuzzy, no-c-format
 msgid "Font Color for On-Screen Display"
 msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 302
-#: rc.cpp:1139
+#: rc.cpp:1155
 #, no-c-format
 msgid ""
 "The color of the OSD text. The color is specified in RGB, a comma-separated "
@@ -3781,13 +3810,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 306
-#: rc.cpp:1142
+#: rc.cpp:1158
 #, fuzzy, no-c-format
 msgid "Background Color for On-Screen Display"
 msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 307
-#: rc.cpp:1145
+#: rc.cpp:1161
 #, no-c-format
 msgid ""
 "The color of the OSD background. The color is specified in RGB, a "
@@ -3795,13 +3824,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 311
-#: rc.cpp:1148
+#: rc.cpp:1164
 #, no-c-format
 msgid "How many milliseconds the text should be displayed"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 312
-#: rc.cpp:1151
+#: rc.cpp:1167
 #, no-c-format
 msgid ""
 "The time in milliseconds to show the OSD. A value of 0 means never hide. The "
@@ -3809,13 +3838,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 317
-#: rc.cpp:1154
+#: rc.cpp:1170
 #, no-c-format
 msgid "Y position offset"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 318
-#: rc.cpp:1157
+#: rc.cpp:1173
 #, no-c-format
 msgid ""
 "The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
@@ -3825,13 +3854,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 324
-#: rc.cpp:1160
+#: rc.cpp:1176
 #, fuzzy, no-c-format
 msgid "OSD screen"
 msgstr "&Экран"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 325
-#: rc.cpp:1163
+#: rc.cpp:1179
 #, no-c-format
 msgid ""
 "The screen that should display the OSD. For single-headed environments this "
@@ -3839,25 +3868,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 329
-#: rc.cpp:1166
+#: rc.cpp:1182
 #, no-c-format
 msgid "Whether the album cover should be shown"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 330
-#: rc.cpp:1169
+#: rc.cpp:1185
 #, no-c-format
 msgid "If enabled, shows the album cover in the OSD."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 334
-#: rc.cpp:1172
+#: rc.cpp:1188
 #, no-c-format
 msgid "Align OSD to"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 335
-#: rc.cpp:1175
+#: rc.cpp:1191
 #, no-c-format
 msgid ""
 "The relative position of the OSD. Possible choices are Left, Middle, Right and "
@@ -3865,73 +3894,73 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 349
-#: rc.cpp:1178
+#: rc.cpp:1194
 #, no-c-format
 msgid "Whether to use user-defined fonts"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 350
-#: rc.cpp:1181
+#: rc.cpp:1197
 #, fuzzy, no-c-format
 msgid "Enabled/Disables custom fonts."
 msgstr "Бошқа шрифтлардан фойдаланиш учун шу ерни белгиланг."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 354
-#: rc.cpp:1184
+#: rc.cpp:1200
 #, fuzzy, no-c-format
 msgid "Font in playlist window"
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 358
-#: rc.cpp:1190
+#: rc.cpp:1206
 #, fuzzy, no-c-format
 msgid "Font in player window"
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 362
-#: rc.cpp:1196
+#: rc.cpp:1212
 #, fuzzy, no-c-format
 msgid "Font in context browser"
 msgstr "Бу шрифт плейернинг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 366
-#: rc.cpp:1202
+#: rc.cpp:1218
 #, no-c-format
 msgid "Recode ID3v1 tags"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 367
-#: rc.cpp:1205
+#: rc.cpp:1221
 #, no-c-format
 msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 371
-#: rc.cpp:1208
+#: rc.cpp:1224
 #, no-c-format
 msgid "Recode Shoutcast Metadata"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 372
-#: rc.cpp:1211
+#: rc.cpp:1227
 #, no-c-format
 msgid "If set, Shoutcast metadata will be recoded."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 376
-#: rc.cpp:1214
+#: rc.cpp:1230
 #, fuzzy, no-c-format
 msgid "Recode encoding"
 msgstr "Камайиш бўйича"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 377
-#: rc.cpp:1217
+#: rc.cpp:1233
 #, no-c-format
 msgid "The charset with which to decode the above string data."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 384
-#: rc.cpp:1220
+#: rc.cpp:1236
 #, fuzzy, no-c-format
 msgid "Whether to use amaroK standard colors in the playlist window"
 msgstr ""
@@ -3939,7 +3968,7 @@ msgstr ""
 "фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 385
-#: rc.cpp:1223
+#: rc.cpp:1239
 #, fuzzy, no-c-format
 msgid "If set, amaroK uses the amaroK standard colors in the playlist."
 msgstr ""
@@ -3947,40 +3976,40 @@ msgstr ""
 "фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 389
-#: rc.cpp:1226
+#: rc.cpp:1242
 #, fuzzy, no-c-format
 msgid "Whether to use global KDE colors in the playlist window"
 msgstr "Бу шрифт қўшиқ рўйхатининг ойнасида ишлатилади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 390
-#: rc.cpp:1229
+#: rc.cpp:1245
 #, fuzzy, no-c-format
 msgid "If set, amaroK uses the KDE standard colors in the playlist."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK жорий KDE рангларидан фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 394
-#: rc.cpp:1232
+#: rc.cpp:1248
 #, fuzzy, no-c-format
 msgid "Whether to use user-defined colors in the playlist window"
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK кўрсатилган ранглардан фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 395
-#: rc.cpp:1235
+#: rc.cpp:1251
 #, fuzzy, no-c-format
 msgid "If set, amaroK uses the user-defined colors in the playlist."
 msgstr ""
 "Агар белгиланса, қўшиқ рўйхати учун amaroK кўрсатилган ранглардан фойдаланади."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 399
-#: rc.cpp:1238
+#: rc.cpp:1254
 #, fuzzy, no-c-format
 msgid "Playlist window foreground color"
 msgstr "Қўшиқ рўйхати учун шрифт:"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 400
-#: rc.cpp:1241
+#: rc.cpp:1257
 #, no-c-format
 msgid ""
 "The color to use as foreground color in the playlist. The color is specified in "
@@ -3988,13 +4017,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 404
-#: rc.cpp:1244
+#: rc.cpp:1260
 #, fuzzy, no-c-format
 msgid "Playlist window background color"
 msgstr "Қўшиқ рўйхати учун шрифт:"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 405
-#: rc.cpp:1247
+#: rc.cpp:1263
 #, no-c-format
 msgid ""
 "The color to use as background color in the playlist. The color is specified in "
@@ -4002,199 +4031,199 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 412
-#: rc.cpp:1250
+#: rc.cpp:1266
 #, no-c-format
 msgid "Resume playback of last played track on startup"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 413
-#: rc.cpp:1253
+#: rc.cpp:1269
 #, no-c-format
 msgid "If set, amaroK resumes playback of the last played track on startup."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 417
-#: rc.cpp:1256
+#: rc.cpp:1272
 #, no-c-format
 msgid "Track URL to resume upon startup"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 418
-#: rc.cpp:1259
+#: rc.cpp:1275
 #, no-c-format
 msgid "Internal: URL of the track to resume on startup."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 421
-#: rc.cpp:1262
+#: rc.cpp:1278
 #, fuzzy, no-c-format
 msgid "Time to resume at, in milliseconds"
 msgstr "Қўшиқлар орасидаги тўхтов, миллисонияларда."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 422
-#: rc.cpp:1265
+#: rc.cpp:1281
 #, no-c-format
 msgid "Internal: Playback position in the track to resume on startup."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 428
-#: rc.cpp:1268
+#: rc.cpp:1284
 #, no-c-format
 msgid "Database Engine"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 429
-#: rc.cpp:1271
+#: rc.cpp:1287
 #, no-c-format
 msgid "The database engine used to store collection"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 433
-#: rc.cpp:1274
+#: rc.cpp:1290
 #, no-c-format
 msgid "Whether Collections folders are scanned recursively"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 437
-#: rc.cpp:1277
+#: rc.cpp:1293
 #, no-c-format
 msgid "Whether Collection folders are rescanned on change"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 441
-#: rc.cpp:1280
+#: rc.cpp:1296
 #, no-c-format
 msgid "Whether playlists should be added while scanning"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 445
-#: rc.cpp:1283
+#: rc.cpp:1299
 #, no-c-format
 msgid "List of folders in the Collection"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 451
-#: rc.cpp:1286
+#: rc.cpp:1302
 #, no-c-format
 msgid "Host"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 452
-#: rc.cpp:1289
+#: rc.cpp:1305
 #, no-c-format
 msgid "The host MySql server is running on"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 456
-#: rc.cpp:1292
+#: rc.cpp:1308
 #, fuzzy, no-c-format
 msgid "Port"
 msgstr "Тўхтатиш"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 457
-#: rc.cpp:1295
+#: rc.cpp:1311
 #, no-c-format
 msgid "The port MySql server is listening"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 461
-#: rc.cpp:1298
+#: rc.cpp:1314
 #, no-c-format
 msgid "Database name"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 462
-#: rc.cpp:1301
+#: rc.cpp:1317
 #, no-c-format
 msgid "The database's name"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 466
-#: rc.cpp:1304
+#: rc.cpp:1320
 #, fuzzy, no-c-format
 msgid "User"
 msgstr "Номини ўзгартириш"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 467
-#: rc.cpp:1307
+#: rc.cpp:1323
 #, no-c-format
 msgid "The user's name to use for connecting MySql"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 470
-#: rc.cpp:1310 rc.cpp:1334
+#: rc.cpp:1326 rc.cpp:1350
 #, no-c-format
 msgid "Password"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 471
-#: rc.cpp:1313
+#: rc.cpp:1329
 #, no-c-format
 msgid "The user's password"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 477
-#: rc.cpp:1316
+#: rc.cpp:1332
 #, no-c-format
 msgid "Conninfo"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 478
-#: rc.cpp:1319
+#: rc.cpp:1335
 #, no-c-format
 msgid "The connection info for the Postgresql server"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 485
-#: rc.cpp:1322
+#: rc.cpp:1338
 #, fuzzy, no-c-format
 msgid "SubmitPlayedSongs"
 msgstr "Таклиф қилинган қўшиқлар"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 486
-#: rc.cpp:1325
+#: rc.cpp:1341
 #, no-c-format
 msgid "Whether played songs are submitted to Audioscrobbler"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 490
-#: rc.cpp:1328
+#: rc.cpp:1344
 #, fuzzy, no-c-format
 msgid "Username"
 msgstr "Номини ўзгартириш"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 491
-#: rc.cpp:1331
+#: rc.cpp:1347
 #, no-c-format
 msgid "The username to use for connecting to Audioscrobbler"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 496
-#: rc.cpp:1337
+#: rc.cpp:1353
 #, no-c-format
 msgid "The password to use for connecting to Audioscrobbler"
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 500
-#: rc.cpp:1340
+#: rc.cpp:1356
 #, fuzzy, no-c-format
 msgid "RetrieveSimilarArtists"
 msgstr "Қўшиқ рўйхати олинмоқда..."
 
 #. i18n: file ./amarokcore/amarok.kcfg line 501
-#: rc.cpp:1343
+#: rc.cpp:1359
 #, no-c-format
 msgid "Whether similar songs are retrieved from Audioscrobbler"
 msgstr ""
 
 #. i18n: file ./partyinfobox.ui line 25
-#: rc.cpp:1346
+#: rc.cpp:1362
 #, no-c-format
 msgid "infoDialog"
 msgstr ""
 
 #. i18n: file ./partyinfobox.ui line 76
-#: rc.cpp:1350
+#: rc.cpp:1366
 #, no-c-format
 msgid ""
 "<p align=\"center\"><b>Dynamic Mode</b></p>\n"
@@ -4209,73 +4238,73 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./partyinfobox.ui line 126
-#: rc.cpp:1358
+#: rc.cpp:1374
 #, no-c-format
 msgid "&Do not show this message again"
 msgstr ""
 
 #. i18n: file ./DbSetup.ui line 16
-#: rc.cpp:1364
+#: rc.cpp:1380
 #, no-c-format
 msgid "Database Setup"
 msgstr ""
 
 #. i18n: file ./DbSetup.ui line 38
-#: rc.cpp:1367
+#: rc.cpp:1383
 #, fuzzy, no-c-format
 msgid "Engine:"
 msgstr "Товуш тизими"
 
 #. i18n: file ./DbSetup.ui line 44
-#: rc.cpp:1370
+#: rc.cpp:1386
 #, no-c-format
 msgid "SQLite"
 msgstr ""
 
 #. i18n: file ./DbSetup.ui line 66
-#: rc.cpp:1373
+#: rc.cpp:1389
 #, fuzzy, no-c-format
 msgid "MySQL Configuration"
 msgstr "Тўпламни мослаш"
 
 #. i18n: file ./DbSetup.ui line 77
-#: rc.cpp:1376
+#: rc.cpp:1392
 #, fuzzy, no-c-format
 msgid "Hostname:"
 msgstr "Номини ўзгартириш"
 
 #. i18n: file ./DbSetup.ui line 85
-#: rc.cpp:1379
+#: rc.cpp:1395
 #, fuzzy, no-c-format
 msgid "Name:"
 msgstr "Номи"
 
 #. i18n: file ./DbSetup.ui line 107
-#: rc.cpp:1382
+#: rc.cpp:1398
 #, fuzzy, no-c-format
 msgid "Port:"
 msgstr "Тўхтатиш"
 
 #. i18n: file ./DbSetup.ui line 147
-#: rc.cpp:1385
+#: rc.cpp:1401
 #, fuzzy, no-c-format
 msgid "Username:"
 msgstr "Номини ўзгартириш"
 
 #. i18n: file ./DbSetup.ui line 160
-#: rc.cpp:1388
+#: rc.cpp:1404
 #, no-c-format
 msgid "Password:"
 msgstr ""
 
 #. i18n: file ./DbSetup.ui line 180
-#: rc.cpp:1391
+#: rc.cpp:1407
 #, fuzzy, no-c-format
 msgid "Postgresql Configuration"
 msgstr "Тўпламни мослаш"
 
 #. i18n: file ./DbSetup.ui line 191
-#: rc.cpp:1394
+#: rc.cpp:1410
 #, no-c-format
 msgid "Conninfo:"
 msgstr ""
@@ -5156,16 +5185,16 @@ msgstr "&Расм файлини ўчириш"
 msgid "&Delete Selected Files"
 msgstr "&Расм файлини ўчириш"
 
-#: playlist.cpp:2857 playlist.cpp:3346
+#: playlist.cpp:2857 playlist.cpp:3362
 msgid "Writing tag..."
 msgstr "Тэг ёзилмоқда..."
 
-#: playlist.cpp:3197
+#: playlist.cpp:3213
 #, fuzzy
 msgid "This file does not exist:"
 msgstr "Файл мавжуд эмас"
 
-#: playlist.cpp:3235
+#: playlist.cpp:3251
 #, c-format
 msgid ""
 "<p>You can create a custom column that runs a shell command against each item "
@@ -5176,20 +5205,20 @@ msgid ""
 "specify <b>%f</b> it is appended."
 msgstr ""
 
-#: playlist.cpp:3240
+#: playlist.cpp:3256
 msgid "Column &name:"
 msgstr ""
 
-#: playlist.cpp:3241
+#: playlist.cpp:3257
 #, fuzzy
 msgid "&Command:"
 msgstr "&Изоҳ:"
 
-#: playlist.cpp:3246
+#: playlist.cpp:3262
 msgid "Examples"
 msgstr ""
 
-#: playlist.cpp:3248
+#: playlist.cpp:3264
 #, c-format
 msgid ""
 "file --brief %f\n"
@@ -5198,7 +5227,7 @@ msgid ""
 "dirname %f"
 msgstr ""
 
-#: playlist.cpp:3274
+#: playlist.cpp:3290
 #, fuzzy
 msgid "Add Custom Column"
 msgstr "Бошқа муқова"
@@ -5460,11 +5489,11 @@ msgstr ""
 msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
 msgstr ""
 
-#: osd.cpp:356
+#: osd.cpp:358
 msgid "OSD Preview - drag to reposition"
 msgstr ""
 
-#: osd.cpp:501
+#: osd.cpp:551
 msgid "No track playing"
 msgstr ""
 
@@ -5863,6 +5892,10 @@ msgstr "Мавжуд эффектлар"
 msgid "Active Effects"
 msgstr "Актив эффектлар"
 
+#, fuzzy
+#~ msgid "Remem&ber effects"
+#~ msgstr "Эффектларни &эслаб қолиш"
+
 #~ msgid "Track Name"
 #~ msgstr "Қўшиқнинг номи"
 
@@ -6201,9 +6234,6 @@ msgstr "Актив эффектлар"
 #, fuzzy
 #~ msgid "amaroK Scripts"
 #~ msgstr "Скриптлар"
-
-#~ msgid "Configure..."
-#~ msgstr "Мослаш"
 
 #~ msgid "&Hide playlist with main window"
 #~ msgstr "Қўшиқ рўйхатини асосий ойна билан &бекитиш"
