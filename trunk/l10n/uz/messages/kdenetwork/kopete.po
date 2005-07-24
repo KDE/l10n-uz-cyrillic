@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
-"POT-Creation-Date: 2005-07-23 01:36+0200\n"
+"POT-Creation-Date: 2005-07-24 01:36+0200\n"
 "PO-Revision-Date: 2004-05-06 15:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -371,6 +371,18 @@ msgstr ""
 msgid "Leave Offline Mode?"
 msgstr "Офлайн"
 
+#: libkopete/connectionmanager.cpp:149
+#: protocols/jabber/ui/dlgjabberchangepassword.cpp:81
+#, fuzzy
+msgid "Connect"
+msgstr "Уланиш"
+
+#: libkopete/connectionmanager.cpp:149
+#: protocols/jabber/ui/dlgjabberchangepassword.cpp:81
+#, fuzzy
+msgid "Stay Offline"
+msgstr "Офлайн"
+
 #: libkopete/kopeteutils.cpp:38
 msgid "You have been disconnected."
 msgstr ""
@@ -503,11 +515,14 @@ msgid "Import Address From Address Book"
 msgstr ""
 
 #: libkopete/kabcpersistence.cpp:342
-msgid "&Yes"
-msgstr ""
+#, fuzzy
+msgid "Use"
+msgstr "Фойдаланувчилар"
 
-#: libkopete/kabcpersistence.cpp:342
-msgid "&No"
+#. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 310
+#: libkopete/kabcpersistence.cpp:342 rc.cpp:2935
+#, no-c-format
+msgid "Do Not Use"
 msgstr ""
 
 #: libkopete/kabcpersistence.cpp:356
@@ -1607,6 +1622,14 @@ msgstr ""
 msgid "Allow Contact?"
 msgstr ""
 
+#: kopete/kopeteiface.cpp:154
+msgid "Allow"
+msgstr ""
+
+#: kopete/kopeteiface.cpp:154
+msgid "Reject"
+msgstr ""
+
 #: kopete/kopeteiface.cpp:167
 msgid ""
 "An external application has attempted to add a contact using  the %1 protocol, "
@@ -1729,6 +1752,16 @@ msgid ""
 "<qt>Would you like to add <b>%1</b> to your contact list as a member of <b>"
 "%2</b>?</qt>"
 msgstr ""
+
+#: kopete/contactlist/kopetecontactlistview.cpp:1001
+#: kopete/contactlist/kopetecontactlistview.cpp:1016
+#: kopete/contactlist/kopetecontactlistview.cpp:1483
+#: protocols/jabber/jabberaccount.cpp:1034
+#: protocols/oscar/aim/aimprotocol.cpp:108
+#: protocols/oscar/icq/icqprotocol.cpp:120
+#, fuzzy
+msgid "Do Not Add"
+msgstr "Сақлаб бўлмади"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1014
 msgid ""
@@ -1888,7 +1921,8 @@ msgid ""
 msgstr "Кўриш"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 605
-#: kopete/kopeteballoon.cpp:98 rc.cpp:1998 rc.cpp:2013 rc.cpp:2031 rc.cpp:2049
+#: kopete/kopeteballoon.cpp:98 protocols/yahoo/yahoocontact.cpp:364
+#: rc.cpp:1998 rc.cpp:2013 rc.cpp:2031 rc.cpp:2049
 #, no-c-format
 msgid "Ignore"
 msgstr "Эътибор бермаш"
@@ -6822,12 +6856,6 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 310
-#: rc.cpp:2935
-#, no-c-format
-msgid "Do Not Use"
-msgstr ""
-
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 357
 #: rc.cpp:2944
 #, fuzzy, no-c-format
@@ -9332,6 +9360,7 @@ msgid "MSN Plugin"
 msgstr ""
 
 #: plugins/netmeeting/netmeetinginvitation.cpp:68
+#: protocols/yahoo/yahoocontact.cpp:364
 msgid "Accept"
 msgstr ""
 
@@ -9652,6 +9681,15 @@ msgstr ""
 msgid "History Plugin"
 msgstr ""
 
+#: plugins/history/historyplugin.cpp:68
+#, fuzzy
+msgid "Import && Convert"
+msgstr "Алоқа рўйхатини &сақлаш"
+
+#: plugins/history/historyplugin.cpp:68
+msgid "Do Not Import"
+msgstr ""
+
 #: plugins/history/converter.cpp:40
 msgid "Would you like to remove old history files?"
 msgstr ""
@@ -9659,6 +9697,12 @@ msgstr ""
 #: plugins/history/converter.cpp:40
 msgid "History Converter"
 msgstr ""
+
+#: plugins/history/converter.cpp:40 protocols/jabber/jabberaccount.cpp:1088
+#: protocols/jabber/jabbercontact.cpp:929
+#, fuzzy
+msgid "Keep"
+msgstr "Kopete"
 
 #: plugins/history/converter.cpp:42
 msgid "History converter"
@@ -11150,6 +11194,15 @@ msgstr ""
 
 #: protocols/sms/smsaccount.cpp:64
 msgid "Message Too Long"
+msgstr ""
+
+#: protocols/sms/smsaccount.cpp:64
+#, fuzzy
+msgid "Divide"
+msgstr "Кўриб чиқиш:"
+
+#: protocols/sms/smsaccount.cpp:64
+msgid "Do Not Divide"
 msgstr ""
 
 #: protocols/sms/services/smssend.cpp:57
@@ -12710,6 +12763,16 @@ msgstr ""
 msgid "No Yahoo Addressbook Entry Found"
 msgstr ""
 
+#: protocols/yahoo/kyahoo.cpp:654
+#, fuzzy
+msgid "Create Entry"
+msgstr "Янги гуруҳи яратиш"
+
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:104
+#: protocols/yahoo/kyahoo.cpp:654
+msgid "Do Not Create"
+msgstr ""
+
 #: protocols/yahoo/kyahoo.cpp:708
 msgid ""
 "An unknown error occurred. A possible reason is a invalid email address."
@@ -13762,10 +13825,25 @@ msgid ""
 "Should the directory be created? (May need root password)"
 msgstr ""
 
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:104
+#, fuzzy
+msgid "Create Directory"
+msgstr "Тарихни &кўриш"
+
 #: protocols/winpopup/libwinpopup/libwinpopup.cpp:117
 msgid ""
 "Permissions of the working directory /var/lib/winpopup/ are wrong!\n"
 "Fix? (May need root password)"
+msgstr ""
+
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:119
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:274
+msgid "Fix"
+msgstr ""
+
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:119
+#: protocols/winpopup/libwinpopup/libwinpopup.cpp:274
+msgid "Do Not Fix"
 msgstr ""
 
 #: protocols/winpopup/libwinpopup/libwinpopup.cpp:272
