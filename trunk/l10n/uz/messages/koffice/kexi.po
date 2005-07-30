@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
-"POT-Creation-Date: 2005-07-29 01:36+0200\n"
+"POT-Creation-Date: 2005-07-30 01:41+0200\n"
 "PO-Revision-Date: 2004-05-23 18:14+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -2964,7 +2964,7 @@ msgstr ""
 msgid "Object '%1' has no function named '%2'."
 msgstr ""
 
-#: scripting/api/object.h:216
+#: scripting/api/object.h:197
 msgid "Object \"%1\" invalid."
 msgstr ""
 
@@ -3004,19 +3004,19 @@ msgstr ""
 msgid "TODO: Documentation"
 msgstr ""
 
-#: scripting/main/scriptcontainer.cpp:91
-msgid "Unknown interpreter on ScriptContainer::execute()."
-msgstr ""
-
-#: scripting/main/scriptcontainer.cpp:116
+#: scripting/main/scriptcontainer.cpp:124
 msgid "No functionname defined for ScriptContainer::callFunction()."
 msgstr ""
 
-#: scripting/test/test.cpp:55
+#: scripting/main/scriptcontainer.cpp:148
+msgid "Unknown interpreter on ScriptContainer::execute()."
+msgstr ""
+
+#: scripting/test/test.cpp:54
 msgid "Name of the used interpreter"
 msgstr ""
 
-#: scripting/test/test.cpp:56
+#: scripting/test/test.cpp:55
 msgid "Scriptfile to execute with the defined interpreter"
 msgstr ""
 
@@ -3781,7 +3781,7 @@ msgstr ""
 msgid "Failed to initialize PythonSecurity module: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:274
+#: scripting/python/pythonscript.cpp:302
 #: scripting/python/pythonsecurity.cpp:118
 msgid "No such function '%1'."
 msgstr ""
@@ -3802,7 +3802,7 @@ msgstr ""
 msgid "Enable RestrictedPython module."
 msgstr ""
 
-#: scripting/python/pythoninterpreter.cpp:106
+#: scripting/python/pythoninterpreter.cpp:104
 #, c-format
 msgid "Failed to prepare the __main__ module: %1"
 msgstr ""
@@ -3815,34 +3815,38 @@ msgstr ""
 msgid "Failed to call method '%1': %2"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:114
+#: scripting/python/pythonscript.cpp:100
+msgid "Failed to initialize local module context for script '%1'"
+msgstr ""
+
+#: scripting/python/pythonscript.cpp:142
 #, c-format
 msgid "Failed to compile python code: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:190
+#: scripting/python/pythonscript.cpp:218
 #, c-format
 msgid "Failed to execute python code: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:265 scripting/python/pythonscript.cpp:315
+#: scripting/python/pythonscript.cpp:293 scripting/python/pythonscript.cpp:343
 msgid "Script not initialized."
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:280
+#: scripting/python/pythonscript.cpp:308
 msgid "Function is not callable."
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:302 scripting/python/pythonscript.cpp:340
+#: scripting/python/pythonscript.cpp:330 scripting/python/pythonscript.cpp:368
 #, c-format
 msgid "Python Exception: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:323
+#: scripting/python/pythonscript.cpp:351
 msgid "No such class '%1'."
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:329
+#: scripting/python/pythonscript.cpp:357
 msgid "Failed to create instance of class '%1'."
 msgstr ""
 
