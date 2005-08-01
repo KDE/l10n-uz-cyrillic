@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
-"POT-Creation-Date: 2005-07-30 01:41+0200\n"
+"POT-Creation-Date: 2005-08-01 01:41+0200\n"
 "PO-Revision-Date: 2004-05-23 18:14+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -2936,7 +2936,7 @@ msgstr ""
 msgid "Object to handle QValueList collections."
 msgstr ""
 
-#: scripting/api/list.cpp:52
+#: scripting/api/list.cpp:61
 msgid "List-index %1 out of bounds."
 msgstr ""
 
@@ -2944,27 +2944,31 @@ msgstr ""
 msgid "Object to handle QMaps."
 msgstr ""
 
-#: scripting/api/variant.cpp:40
+#: scripting/api/variant.cpp:42
 msgid "Object to handle QVariant values."
 msgstr ""
 
-#: scripting/api/callable.cpp:83
+#: scripting/api/callable.cpp:88
 msgid "Too few parameters for callable object '%1'."
 msgstr ""
 
-#: scripting/api/callable.cpp:85
+#: scripting/api/callable.cpp:90
 msgid "Too many parameters for callable object '%1'."
 msgstr ""
 
-#: scripting/api/callable.cpp:104
-msgid "Callable object '%1' expected parameter of type '%1', but got '%2'."
+#: scripting/api/callable.cpp:109
+msgid "Callable object '%1' expected parameter of type '%2', but got '%3'"
 msgstr ""
 
-#: scripting/api/object.cpp:121
+#: scripting/api/callable.cpp:126
+msgid "The object '%1' has no child object '%2'"
+msgstr ""
+
+#: scripting/api/object.cpp:126
 msgid "Object '%1' has no function named '%2'."
 msgstr ""
 
-#: scripting/api/object.h:197
+#: scripting/api/object.h:204
 msgid "Object \"%1\" invalid."
 msgstr ""
 
@@ -2984,19 +2988,19 @@ msgstr ""
 msgid "TypeException"
 msgstr ""
 
-#: scripting/api/eventslot.cpp:66 scripting/api/qtobject.cpp:249
+#: scripting/api/eventslot.cpp:103 scripting/api/qtobject.cpp:252
 msgid "No such slot '%1'."
 msgstr ""
 
-#: scripting/api/qtobject.cpp:129
+#: scripting/api/qtobject.cpp:132
 msgid "Class to wrap QObject instances."
 msgstr ""
 
-#: scripting/api/qtobject.cpp:211
+#: scripting/api/qtobject.cpp:214
 msgid "No such QObject receiver in '%1'."
 msgstr ""
 
-#: scripting/api/qtobject.cpp:233
+#: scripting/api/qtobject.cpp:236
 msgid "No such signal '%1'."
 msgstr ""
 
@@ -3781,7 +3785,7 @@ msgstr ""
 msgid "Failed to initialize PythonSecurity module: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:302
+#: scripting/python/pythonscript.cpp:336
 #: scripting/python/pythonsecurity.cpp:118
 msgid "No such function '%1'."
 msgstr ""
@@ -3819,34 +3823,39 @@ msgstr ""
 msgid "Failed to initialize local module context for script '%1'"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:142
+#: scripting/python/pythonscript.cpp:140
+#, c-format
+msgid "Failed to prepare the ScriptContainer module: %1"
+msgstr ""
+
+#: scripting/python/pythonscript.cpp:176
 #, c-format
 msgid "Failed to compile python code: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:218
+#: scripting/python/pythonscript.cpp:252
 #, c-format
 msgid "Failed to execute python code: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:293 scripting/python/pythonscript.cpp:343
+#: scripting/python/pythonscript.cpp:327 scripting/python/pythonscript.cpp:377
 msgid "Script not initialized."
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:308
+#: scripting/python/pythonscript.cpp:342
 msgid "Function is not callable."
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:330 scripting/python/pythonscript.cpp:368
+#: scripting/python/pythonscript.cpp:364 scripting/python/pythonscript.cpp:402
 #, c-format
 msgid "Python Exception: %1"
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:351
+#: scripting/python/pythonscript.cpp:385
 msgid "No such class '%1'."
 msgstr ""
 
-#: scripting/python/pythonscript.cpp:357
+#: scripting/python/pythonscript.cpp:391
 msgid "Failed to create instance of class '%1'."
 msgstr ""
 
