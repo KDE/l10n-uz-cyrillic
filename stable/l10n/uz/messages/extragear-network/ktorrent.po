@@ -1,242 +1,601 @@
 #. i18n: file ./src/ktorrentui.rc line 4
-#: rc.cpp:36 src/ktorrent.cpp:86 src/pref.cpp:53
+#: rc.cpp:132 src/ktorrent.cpp:104 src/pref.cpp:57
 #, no-c-format
 msgid "Downloads"
 msgstr ""
 
-#. i18n: file ./src/searchbar.ui line 43
-#: rc.cpp:8 src/ktorrent.cpp:87
+#. i18n: file ./src/searchbar.ui line 53
+#: rc.cpp:61 src/ktorrent.cpp:105
 #, no-c-format
 msgid "Search"
 msgstr ""
 
-#: src/ktorrent.cpp:232 src/ktorrentview.cpp:63
-msgid "Start"
+#: src/ktorrent.cpp:170
+msgid "Info"
 msgstr ""
 
-#: src/ktorrent.cpp:310
+#: src/ktorrent.cpp:171
+msgid "Data transfered during the current session"
+msgstr ""
+
+#: src/ktorrent.cpp:172
+msgid "Current speed of all torrents combined"
+msgstr ""
+
+#: src/ktorrent.cpp:280 src/ktorrentview.cpp:69
+msgid ""
+"_: to start\n"
+"Start"
+msgstr ""
+
+#: src/ktorrent.cpp:284 src/ktorrentview.cpp:65
+msgid ""
+"_: to stop\n"
+"Stop"
+msgstr ""
+
+#: src/ktorrent.cpp:292
+msgid ""
+"_: to start all\n"
+"Start all"
+msgstr ""
+
+#: src/ktorrent.cpp:296
+msgid ""
+"_: to stop all\n"
+"Stop all"
+msgstr ""
+
+#: src/ktorrent.cpp:335
+msgid "Torrent Files"
+msgstr ""
+
+#: src/ktorrent.cpp:335
+msgid "All Files"
+msgstr ""
+
+#: src/ktorrent.cpp:336
 msgid "Open Location"
 msgstr ""
 
-#: src/ktorrent.cpp:329
-msgid "Select Directory to Save"
+#: src/ktorrent.cpp:351
+msgid "Select Folder to Save To"
 msgstr ""
 
-#: src/ktorrent.cpp:334
-msgid "Select File to Save"
+#: src/ktorrent.cpp:371
+msgid "The download %1 has finished. Do you want to save it now?"
 msgstr ""
 
-#: src/ktorrent.cpp:342
-msgid "Saving torrent ..."
-msgstr ""
-
-#: src/ktorrent.cpp:361
-msgid "The download %1 has finished. Do you want to save it now ?"
-msgstr ""
-
-#: src/ktorrent.cpp:363
+#: src/ktorrent.cpp:373
 msgid "Save Torrent?"
 msgstr ""
 
-#: src/ktorrentcore.cpp:78
+#: src/ktorrent.cpp:373
+msgid "Do Not Save"
+msgstr ""
+
+#: src/ktorrent.cpp:413 src/ktorrentview.cpp:133
+#, c-format
+msgid ""
+"_n: Cannot start more than 1 download. Go to Settings -> "
+"Configure KTorrent, if you want to change the limit.\n"
+"Cannot start more than %n downloads. Go to Settings -> "
+"Configure KTorrent, if you want to change the limit."
+msgstr ""
+
+#: src/ktorrent.cpp:450 src/ktorrentview.cpp:157
+msgid ""
+"You will lose all data downloaded for this torrent, if you do this. Are you "
+"sure you want to do this?"
+msgstr ""
+
+#: src/ktorrent.cpp:452 src/ktorrentview.cpp:159
+msgid "Remove Download"
+msgstr ""
+
+#: src/ktorrent.cpp:576
+msgid "Speed up: %1 / down: %2"
+msgstr ""
+
+#: src/ktorrent.cpp:582
+msgid "Transfered up: %1 / down: %2"
+msgstr ""
+
+#: src/functions.cpp:34
+msgid "%1 GB"
+msgstr ""
+
+#: src/functions.cpp:36
+msgid "%1 MB"
+msgstr ""
+
+#: src/functions.cpp:38
+msgid "%1 KB"
+msgstr ""
+
+#: src/functions.cpp:40
+msgid "%1 B"
+msgstr ""
+
+#: src/functions.cpp:46
+msgid "%1 KB/sec"
+msgstr ""
+
+#: src/ktorrentcore.cpp:83
+msgid ""
+"Specified port (%1) is unavailable or in use by another application. KTorrent "
+"is bound to port %2."
+msgstr ""
+
+#: src/ktorrentcore.cpp:92
+msgid "Cannot bind to port %1 or the 10 following ports."
+msgstr ""
+
+#: src/ktorrentcore.cpp:127
 msgid ""
 "An error occurred whilst loading the torrent file. The most likely cause is "
 "that the torrent file is corrupted, or it is not a torrent file at all."
 msgstr ""
 
-#: src/ktorrentviewitem.cpp:36
-msgid "%1 GB"
-msgstr ""
-
-#: src/ktorrentviewitem.cpp:39
-msgid "%1 MB"
-msgstr ""
-
-#: src/ktorrentviewitem.cpp:45
-msgid "%1 KB/sec"
-msgstr ""
-
-#: src/ktorrentviewitem.cpp:89
-msgid "finished"
-msgstr ""
-
-#: src/ktorrentviewitem.cpp:93
-msgid "infinity"
-msgstr ""
-
-#: src/ktorrentviewitem.cpp:97
-msgid "%1 %"
-msgstr ""
-
-#: src/main.cpp:37
-msgid "A BitTorrent program for KDE"
-msgstr ""
-
-#: src/main.cpp:43
-msgid "Debug mode"
-msgstr ""
-
-#: src/main.cpp:44
-msgid "Document to open"
-msgstr ""
-
-#: src/main.cpp:50
-msgid "KTorrent"
-msgstr ""
-
-#: src/searchwidget.cpp:72
-msgid "Searching for %1 ..."
-msgstr ""
-
-#: src/searchwidget.cpp:93
-msgid "Finished"
-msgstr ""
-
-#: src/peerview.cpp:27
-msgid "ID"
-msgstr ""
-
-#: src/chunkdownloadview.cpp:34 src/ktorrentview.cpp:44 src/peerview.cpp:28
-msgid "Down Speed"
-msgstr ""
-
-#: src/ktorrentview.cpp:45 src/peerview.cpp:29
-msgid "Up Speed"
-msgstr ""
-
-#: src/peerview.cpp:30
-msgid "Choked"
-msgstr ""
-
-#: src/peerview.cpp:31
-msgid "Snubbed"
-msgstr ""
-
-#: src/chunkdownloadview.cpp:73 src/peerview.cpp:45 src/peerview.cpp:46
-#: src/peerview.cpp:67 src/peerview.cpp:68
-msgid "%1 kB/sec"
-msgstr ""
-
-#: src/peerview.cpp:69 src/peerview.cpp:70
-msgid "yes"
-msgstr ""
-
-#: src/peerview.cpp:69 src/peerview.cpp:70
-msgid "no"
-msgstr ""
-
-#: src/pref.cpp:46
-msgid "Preferences"
-msgstr ""
-
-#: src/pref.cpp:53
-msgid "Download Options"
-msgstr ""
-
-#: src/ktorrentview.cpp:41
-msgid "Status"
-msgstr ""
-
-#: src/ktorrentview.cpp:42
-msgid "Dowloaded"
-msgstr ""
-
-#: src/ktorrentview.cpp:43
-msgid "Uploaded"
-msgstr ""
-
-#: src/ktorrentview.cpp:46
-msgid "Time Left"
-msgstr ""
-
-#: src/ktorrentview.cpp:47
-msgid "Peers"
-msgstr ""
-
-#: src/ktorrentview.cpp:48
-msgid "% Complete"
-msgstr ""
-
-#: src/chunkdownloadview.cpp:31
-msgid "Chunk"
-msgstr ""
-
-#: src/chunkdownloadview.cpp:32
-msgid "Progress"
-msgstr ""
-
-#: src/chunkdownloadview.cpp:33
-msgid "Peer"
-msgstr ""
-
-#: src/chunkdownloadview.cpp:35
-msgid "Assigned Peers"
-msgstr ""
-
-#: src/htmlpart.cpp:51
-msgid "Do you want to download the torrent ?"
-msgstr ""
-
-#: libtorrent/filereconstructor.cpp:64
-msgid "Cannot create directory %1: %2"
-msgstr ""
-
-#: libtorrent/filereconstructor.cpp:97 libtorrent/filereconstructor.cpp:102
-msgid "Cannot open file %1: %2"
-msgstr ""
-
-#: libtorrent/torrentcontrol.cpp:99
-msgid "Cannot create data directory %1: %2"
-msgstr ""
-
-#: libtorrent/torrentcontrol.cpp:172
+#: src/ktorrentcore.cpp:413
 #, c-format
-msgid "The tracker sent back the following error : %1"
+msgid "Cannot create torrent: %1"
 msgstr ""
 
-#: libtorrent/torrentcontrol.cpp:209
-msgid "The tracker %1 did not send a proper response, stopping download"
-msgstr ""
-
-#: libtorrent/torrentcontrol.cpp:241
-msgid "The tracker %1 is down, stopping download."
-msgstr ""
-
-#: libtorrent/torrentcontrol.cpp:258
-msgid "Doing tracker request"
-msgstr ""
-
-#: libtorrent/torrentcontrol.cpp:585
+#: src/ktorrentviewitem.cpp:36
 msgid "Not started"
 msgstr ""
 
-#: libtorrent/torrentcontrol.cpp:587
-msgid "Download complete"
+#: src/ktorrentviewitem.cpp:38
+msgid "Completed"
 msgstr ""
 
-#: libtorrent/torrentcontrol.cpp:589
-msgid "Download stopped"
+#: src/ktorrentviewitem.cpp:40
+msgid "Seeding"
 msgstr ""
 
-#: libtorrent/torrentcontrol.cpp:593
-#, c-format
-msgid "Download complete, seeding + %1"
-msgstr ""
-
-#: libtorrent/torrentcontrol.cpp:595
-msgid "Download complete, seeding"
-msgstr ""
-
-#: libtorrent/torrentcontrol.cpp:599
+#: src/ktorrentviewitem.cpp:42
 msgid "Downloading"
 msgstr ""
 
-#: libtorrent/torrentcontrol.cpp:599
+#: src/ktorrentviewitem.cpp:44
 msgid "Stalled"
 msgstr ""
 
-#: libtorrent/torrentcontrol.cpp:601
-msgid "%1 + %2"
+#: src/ktorrentviewitem.cpp:46
+msgid "Stopped"
+msgstr ""
+
+#: src/ktorrentviewitem.cpp:48
+msgid "Error: "
+msgstr ""
+
+#: src/ktorrentviewitem.cpp:119
+msgid "finished"
+msgstr ""
+
+#: src/ktorrentviewitem.cpp:130
+msgid "infinity"
+msgstr ""
+
+#: src/ktorrentviewitem.cpp:147
+msgid "%1 %"
+msgstr ""
+
+#: src/main.cpp:53
+msgid "A BitTorrent program for KDE"
+msgstr ""
+
+#: src/main.cpp:59
+msgid "Debug mode"
+msgstr ""
+
+#: src/main.cpp:60
+msgid "Document to open"
+msgstr ""
+
+#: src/main.cpp:67
+msgid "KTorrent"
+msgstr ""
+
+#: src/main.cpp:73
+msgid "The downloads icon"
+msgstr ""
+
+#: src/main.cpp:76
+msgid "1.0 application icon"
+msgstr ""
+
+#: src/main.cpp:80
+msgid "1.1 application icon"
+msgstr ""
+
+#: src/main.cpp:82
+msgid "ChunkBar's tooltip and IWFileTreeItem sorting"
+msgstr ""
+
+#: src/searchwidget.cpp:147
+msgid "Searching for %1 ..."
+msgstr ""
+
+#: src/searchwidget.cpp:230
+msgid "Search finished"
+msgstr ""
+
+#: src/torrentcreatordlg.cpp:54
+msgid "You must select a file or a folder."
+msgstr ""
+
+#: src/torrentcreatordlg.cpp:60
+msgid "You must fill in the name field."
+msgstr ""
+
+#: src/torrentcreatordlg.cpp:66
+msgid "You must add at least one tracker."
+msgstr ""
+
+#: src/torrentcreatordlg.cpp:76
+msgid "Torrent Files (*.torrent)"
+msgstr ""
+
+#: src/torrentcreatordlg.cpp:77
+msgid "Choose File to Save Torrent"
+msgstr ""
+
+#: src/torrentcreatordlg.cpp:83
+msgid "Creating %1..."
+msgstr ""
+
+#: src/peerview.cpp:39 src/peerview.cpp:40
+msgid "yes"
+msgstr ""
+
+#: src/peerview.cpp:39 src/peerview.cpp:40
+msgid "no"
+msgstr ""
+
+#: src/peerview.cpp:64
+msgid "IP"
+msgstr ""
+
+#: src/peerview.cpp:65
+msgid "Client"
+msgstr ""
+
+#: src/chunkdownloadview.cpp:71 src/ktorrentview.cpp:49 src/peerview.cpp:66
+msgid "Down Speed"
+msgstr ""
+
+#: src/ktorrentview.cpp:50 src/peerview.cpp:67
+msgid "Up Speed"
+msgstr ""
+
+#: src/peerview.cpp:68
+msgid "Choked"
+msgstr ""
+
+#: src/peerview.cpp:69
+msgid "Snubbed"
+msgstr ""
+
+#: src/availabilitychunkbar.cpp:29
+msgid ""
+"<img src=\"available_color\">&nbsp; - Available Chunks"
+"<br><img src=\"unavailable_color\">&nbsp; - Unavailable Chunks"
+"<br><img src=\"excluded_color\">&nbsp; - Excluded Chunks"
+msgstr ""
+
+#: src/pref.cpp:51
+msgid "Preferences"
+msgstr ""
+
+#: src/pref.cpp:57
+msgid "Download Options"
+msgstr ""
+
+#: src/pref.cpp:64
+msgid "General"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 16
+#: rc.cpp:67 src/pref.cpp:64
+#, no-c-format
+msgid "General Options"
+msgstr ""
+
+#: src/pref.cpp:70
+msgid ""
+"_: a noun\n"
+"Search"
+msgstr ""
+
+#: src/pref.cpp:70
+msgid "Search Engine Options"
+msgstr ""
+
+#: src/pref.cpp:210
+msgid ""
+"Use your web browser to search for the string %1 (capital letters) on the "
+"search engine you want to add. Then copy the URL in the addressbar after the "
+"search is finished, and paste it here."
+"<br>Searching for %2 on Google for example, will result in "
+"http://www.google.com/search?q=FOOBAR&ie=UTF-8&oe=UTF-8. If you add this URL "
+"here, ktorrent can search using Google."
+msgstr ""
+
+#: src/pref.cpp:283
+msgid "You must enter the search engine's name and URL"
+msgstr ""
+
+#: src/pref.cpp:287
+msgid "Malformed URL."
+msgstr ""
+
+#: src/pref.cpp:288
+msgid ""
+"A search engine with the same name already exists. Please use a different name."
+msgstr ""
+
+#: src/pref.cpp:296
+msgid ""
+"Bad URL. You should search for FOOBAR with your internet browser and copy/paste "
+"the exact URL here."
+msgstr ""
+
+#: src/ktorrentview.cpp:45
+msgid "Status"
+msgstr ""
+
+#: src/ktorrentview.cpp:46
+msgid "Downloaded"
+msgstr ""
+
+#. i18n: file ./src/fileselectdlgbase.ui line 36
+#: rc.cpp:9 rc.cpp:259 src/ktorrentview.cpp:47
+#, no-c-format
+msgid "Size"
+msgstr ""
+
+#: src/ktorrentview.cpp:48
+msgid "Uploaded"
+msgstr ""
+
+#: src/ktorrentview.cpp:51
+msgid "Time Left"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 92
+#: rc.cpp:194 src/infowidget.cpp:88 src/ktorrentview.cpp:52
+#, no-c-format
+msgid "Peers"
+msgstr ""
+
+#: src/ktorrentview.cpp:53
+msgid "% Complete"
+msgstr ""
+
+#: src/ktorrentview.cpp:77
+msgid "Manual Announce"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 666
+#: rc.cpp:265 src/infowidget.cpp:63 src/ktorrentview.cpp:78
+#, no-c-format
+msgid "Preview"
+msgstr ""
+
+#: src/chunkbar.cpp:92
+msgid ""
+"<img src=\"available_color\">&nbsp; - Downloaded Chunks"
+"<br><img src=\"unavailable_color\">&nbsp; - Chunks to Download"
+"<br><img src=\"excluded_color\">&nbsp; - Excluded Chunks"
+msgstr ""
+
+#: src/trayicon.cpp:66
+msgid "<b>%1</b> has completed downloading.<br>Average speed: %2 DL / %3 UL."
+msgstr ""
+
+#: src/trayicon.cpp:72
+msgid "Download completed"
+msgstr ""
+
+#: src/trayicon.cpp:78
+msgid "<b>%1</b> has been stopped by the following error: <br>%2"
+msgstr ""
+
+#: src/chunkdownloadview.cpp:68
+msgid "Chunk"
+msgstr ""
+
+#: src/chunkdownloadview.cpp:69
+msgid "Progress"
+msgstr ""
+
+#: src/chunkdownloadview.cpp:70
+msgid "Peer"
+msgstr ""
+
+#: src/chunkdownloadview.cpp:72
+msgid "Assigned Peers"
+msgstr ""
+
+#: src/infowidget.cpp:234 src/iwfiletreeitem.cpp:75
+msgid "Available"
+msgstr ""
+
+#: src/infowidget.cpp:236 src/iwfiletreeitem.cpp:79
+msgid "Pending"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 402
+#: rc.cpp:234 src/infowidget.cpp:123
+#, no-c-format
+msgid "Chunks"
+msgstr ""
+
+#: src/htmlpart.cpp:162
+msgid "Do you want to download the torrent?"
+msgstr ""
+
+#: src/htmlpart.cpp:163
+msgid "Download Torrent"
+msgstr ""
+
+#: src/htmlpart.cpp:164
+msgid ""
+"_: to download\n"
+"Download"
+msgstr ""
+
+#: libtorrent/bdecoder.cpp:62
+#, c-format
+msgid "Illegal token: %1"
+msgstr ""
+
+#: libtorrent/bdecoder.cpp:80
+msgid "Decode error"
+msgstr ""
+
+#: libtorrent/bdecoder.cpp:140 libtorrent/bdecoder.cpp:185
+msgid "Unexpected end of input"
+msgstr ""
+
+#: libtorrent/bdecoder.cpp:160 libtorrent/bdecoder.cpp:194
+msgid "Cannot convert %1 to an int"
+msgstr ""
+
+#: libtorrent/bdecoder.cpp:199
+msgid "Torrent is incomplete !"
+msgstr ""
+
+#: libtorrent/torrent.cpp:52
+msgid "Can't open torrent file %1 : %2"
+msgstr ""
+
+#: libtorrent/torrent.cpp:67 libtorrent/torrent.cpp:95
+#: libtorrent/torrent.cpp:112 libtorrent/torrent.cpp:119
+#: libtorrent/torrent.cpp:123 libtorrent/torrent.cpp:130
+#: libtorrent/torrent.cpp:139 libtorrent/torrent.cpp:153
+#: libtorrent/torrent.cpp:161 libtorrent/torrent.cpp:169
+#: libtorrent/torrent.cpp:176 libtorrent/torrent.cpp:182
+#: libtorrent/torrent.cpp:189 libtorrent/torrent.cpp:195
+#: libtorrent/torrent.cpp:211
+msgid "Corrupted torrent!"
+msgstr ""
+
+#: libtorrent/singlefilecache.cpp:53 libtorrent/singlefilecache.cpp:68
+#, c-format
+msgid "Cannot open cache file : %1"
+msgstr ""
+
+#: libtorrent/chunkmanager.cpp:114 libtorrent/chunkmanager.cpp:138
+#: libtorrent/chunkmanager.cpp:217
+msgid "Can't open index file"
+msgstr ""
+
+#: libtorrent/chunkmanager.cpp:377
+#, c-format
+msgid "Can't save chunk_info file : %1"
+msgstr ""
+
+#: libtorrent/torrentcontrol.cpp:325
+msgid "Invalid response"
+msgstr ""
+
+#: libtorrent/torrentcontrol.cpp:328
+msgid "The tracker %1 sent the following error : %2"
+msgstr ""
+
+#: libtorrent/torrentcontrol.cpp:331
+#, c-format
+msgid "Tracker error : %1"
+msgstr ""
+
+#: libtorrent/torrentcontrol.cpp:339 libtorrent/torrentcontrol.cpp:347
+msgid "Invalid response, trying backup"
+msgstr ""
+
+#: libtorrent/torrentcontrol.cpp:359 libtorrent/torrentcontrol.cpp:373
+#: libtorrent/torrentcontrol.cpp:382
+msgid "Unreachable"
+msgstr ""
+
+#: libtorrent/torrentcontrol.cpp:362
+msgid "The tracker %1 is down."
+msgstr ""
+
+#: libtorrent/torrentcontrol.cpp:364
+msgid "The tracker is down."
+msgstr ""
+
+#: libtorrent/peerid.cpp:141
+msgid "Unknown client"
+msgstr ""
+
+#: libtorrent/chunkdownload.cpp:265
+#, c-format
+msgid ""
+"_n: 1 peer\n"
+"%n peers"
+msgstr ""
+
+#: libtorrent/multifilecache.cpp:107 libtorrent/multifilecache.cpp:151
+#: libtorrent/torrentcreator.cpp:120 libtorrent/torrentcreator.cpp:208
+#: libtorrent/torrentcreator.cpp:244
+msgid "Cannot open file %1: %2"
+msgstr ""
+
+#: libtorrent/udptrackersocket.cpp:47
+msgid ""
+"Specified udp port (%1) is unavailable or in use by another application. "
+"KTorrent is bound to port %2."
+msgstr ""
+
+#: libtorrent/udptrackersocket.cpp:52
+msgid "Cannot bind to udp port %1 or the 10 following ports."
+msgstr ""
+
+#: libtorrent/announcelist.cpp:51 libtorrent/announcelist.cpp:57
+#: libtorrent/httptracker.cpp:52 libtorrent/httptracker.cpp:68
+msgid "Parse Error"
+msgstr ""
+
+#: libtorrent/httptracker.cpp:90
+msgid "Parse error"
+msgstr ""
+
+#: libtorrent/torrentcreator.cpp:312
+#, c-format
+msgid "Cannot create index file: %1"
+msgstr ""
+
+#: libutil/log.cpp:31
+#, c-format
+msgid "Cannot open log file %1"
+msgstr ""
+
+#: libutil/fileops.cpp:39
+msgid "Cannot create directory %1: %2"
+msgstr ""
+
+#: libutil/fileops.cpp:54
+msgid "Cannot symlink %1 to %2: %3"
+msgstr ""
+
+#: libutil/fileops.cpp:69
+msgid "Cannot move %1 to %2: %3"
+msgstr ""
+
+#: libutil/fileops.cpp:84
+msgid "Cannot copy %1 to %2: %3"
+msgstr ""
+
+#: libutil/fileops.cpp:104
+msgid "Cannot delete %1: %2"
+msgstr ""
+
+#: libutil/fileops.cpp:121
+msgid "Cannot create %1: %2"
 msgstr ""
 
 #: _translatorinfo.cpp:1
@@ -251,116 +610,509 @@ msgid ""
 "Your emails"
 msgstr ""
 
-#. i18n: file ./src/searchbar.ui line 16
+#. i18n: file ./src/fileselectdlgbase.ui line 16
 #: rc.cpp:3
 #, no-c-format
-msgid "Form1"
+msgid "Select Which Files You Want to Download"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 9
-#: rc.cpp:12
+#. i18n: file ./src/fileselectdlgbase.ui line 47
+#: rc.cpp:12 rc.cpp:262
+#, no-c-format
+msgid "Download"
+msgstr ""
+
+#. i18n: file ./src/fileselectdlgbase.ui line 73
+#: rc.cpp:15
+#, no-c-format
+msgid "O&K"
+msgstr ""
+
+#. i18n: file ./src/fileselectdlgbase.ui line 81
+#: rc.cpp:18
+#, no-c-format
+msgid "Select &All"
+msgstr ""
+
+#. i18n: file ./src/fileselectdlgbase.ui line 89
+#: rc.cpp:21
+#, no-c-format
+msgid "Select &None"
+msgstr ""
+
+#. i18n: file ./src/fileselectdlgbase.ui line 97
+#: rc.cpp:24
+#, no-c-format
+msgid "Invert Selection"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 30
+#: rc.cpp:27
+#, no-c-format
+msgid "Search Preferences"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 65
+#: rc.cpp:31
+#, no-c-format
+msgid "Search engine name:"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 88
+#: rc.cpp:34
+#, no-c-format
+msgid "URL:"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 109
+#: rc.cpp:37
+#, no-c-format
+msgid "&Add"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 127
+#: rc.cpp:40
+#, no-c-format
+msgid "Search Engines"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 136
+#: rc.cpp:43
+#, no-c-format
+msgid "Engines"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 147
+#: rc.cpp:46
+#, no-c-format
+msgid "URL"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 198
+#: rc.cpp:52
+#, no-c-format
+msgid "R&emove All"
+msgstr ""
+
+#. i18n: file ./src/searchpref.ui line 223
+#: rc.cpp:55
+#, no-c-format
+msgid "Add Defau&lt"
+msgstr ""
+
+#. i18n: file ./src/searchbar.ui line 78
+#: rc.cpp:64
+#, no-c-format
+msgid "Search engine:"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 27
+#: rc.cpp:70
+#, no-c-format
+msgid "Show s&ystem tray icon"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 30
+#: rc.cpp:73
+#, no-c-format
+msgid "Alt+Y"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 46
+#: rc.cpp:76
+#, no-c-format
+msgid "Folder to store temporary files:"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 69
+#: rc.cpp:79
+#, no-c-format
+msgid "&Automatically save downloads to:"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 72
+#: rc.cpp:82
+#, no-c-format
+msgid "Alt+A"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 112
+#: rc.cpp:85
+#, no-c-format
+msgid "Show list of peers"
+msgstr ""
+
+#. i18n: file ./src/generalpref.ui line 123
+#: rc.cpp:89
+#, no-c-format
+msgid "Show list of chunks currently downloading"
+msgstr ""
+
+#. i18n: file ./src/ktorrent.kcfg line 10
+#: rc.cpp:93
 #, no-c-format
 msgid "Maximum number of downloads (0 = no limit)"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 14
-#: rc.cpp:15
+#. i18n: file ./src/ktorrent.kcfg line 15
+#: rc.cpp:96
 #, no-c-format
 msgid "Maximum number of connections per download (0 = no limit)"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 19
-#: rc.cpp:18
+#. i18n: file ./src/ktorrent.kcfg line 20
+#: rc.cpp:99
 #, no-c-format
 msgid "Maximum upload speed in KB/sec (0 = no limit)"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 24
-#: rc.cpp:21
+#. i18n: file ./src/ktorrent.kcfg line 25
+#: rc.cpp:102
+#, no-c-format
+msgid "Maximum downloadload speed in KB/sec (0 = no limit)"
+msgstr ""
+
+#. i18n: file ./src/ktorrent.kcfg line 30
+#: rc.cpp:105 rc.cpp:108
 #, no-c-format
 msgid "Port"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 30
-#: rc.cpp:24
+#. i18n: file ./src/ktorrent.kcfg line 42
+#: rc.cpp:111
 #, no-c-format
 msgid "Show a system tray icon"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 34
-#: rc.cpp:27
+#. i18n: file ./src/ktorrent.kcfg line 46
+#: rc.cpp:114
 #, no-c-format
 msgid "Keep seeding after download has finished"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 38
-#: rc.cpp:30
+#. i18n: file ./src/ktorrent.kcfg line 50
+#: rc.cpp:117
 #, no-c-format
-msgid "Torrent search engine"
+msgid "Current search engine"
 msgstr ""
 
-#. i18n: file ./src/ktorrent.kcfg line 42
-#: rc.cpp:33 rc.cpp:72
+#. i18n: file ./src/ktorrent.kcfg line 54
+#: rc.cpp:120
 #, no-c-format
-msgid "Directory to store temporary files"
+msgid "Folder to store temporary files"
 msgstr ""
 
-#. i18n: file ./src/ktorrentui.rc line 11
-#: rc.cpp:39
+#. i18n: file ./src/ktorrent.kcfg line 58
+#: rc.cpp:123
+#, no-c-format
+msgid "Folder to store downloaded files"
+msgstr ""
+
+#. i18n: file ./src/ktorrent.kcfg line 64
+#: rc.cpp:126
+#, no-c-format
+msgid "Show peer view tab in main window"
+msgstr ""
+
+#. i18n: file ./src/ktorrent.kcfg line 68
+#: rc.cpp:129
+#, no-c-format
+msgid "Show chunk download view tab in main window"
+msgstr ""
+
+#. i18n: file ./src/ktorrentui.rc line 22
+#: rc.cpp:138
 #, no-c-format
 msgid "Download Toolbar"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 16
-#: rc.cpp:42
-#, no-c-format
-msgid "DownloadPref"
-msgstr ""
-
-#. i18n: file ./src/downloadpref.ui line 43
-#: rc.cpp:45
+#. i18n: file ./src/downloadpref.ui line 40
+#: rc.cpp:141
 #, no-c-format
 msgid "Maximum downloads:"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 51
-#: rc.cpp:48
+#. i18n: file ./src/downloadpref.ui line 48
+#: rc.cpp:144
 #, no-c-format
 msgid "Maximum connections per download:"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 59
-#: rc.cpp:51
+#. i18n: file ./src/downloadpref.ui line 56
+#: rc.cpp:147
 #, no-c-format
 msgid "Maximum upload rate:"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 67
-#: rc.cpp:54
+#. i18n: file ./src/downloadpref.ui line 64
+#: rc.cpp:150
+#, no-c-format
+msgid "Maximum download rate:"
+msgstr ""
+
+#. i18n: file ./src/downloadpref.ui line 72
+#: rc.cpp:153
 #, no-c-format
 msgid "Port:"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 142
-#: rc.cpp:57 rc.cpp:60
+#. i18n: file ./src/downloadpref.ui line 80
+#: rc.cpp:156
+#, no-c-format
+msgid "UDP tracker port:"
+msgstr ""
+
+#. i18n: file ./src/downloadpref.ui line 177
+#: rc.cpp:159 rc.cpp:162
 #, no-c-format
 msgid "(0 is no limit)"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 158
-#: rc.cpp:63
+#. i18n: file ./src/downloadpref.ui line 193
+#: rc.cpp:165 rc.cpp:168
 #, no-c-format
 msgid "KB/sec (0 is no limit)"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 187
-#: rc.cpp:66
+#. i18n: file ./src/downloadpref.ui line 247
+#: rc.cpp:171
 #, no-c-format
 msgid "&Keep seeding after download is finished"
 msgstr ""
 
-#. i18n: file ./src/downloadpref.ui line 198
-#: rc.cpp:69
+#. i18n: file ./src/downloadpref.ui line 258
+#: rc.cpp:174
 #, no-c-format
-msgid "Show s&ystem tray icon"
+msgid "Attention"
+msgstr ""
+
+#. i18n: file ./src/downloadpref.ui line 271
+#: rc.cpp:177
+#, no-c-format
+msgid ""
+"If you are behind a NAT-enabled router, it is important that you forward \n"
+"the above ports. You should consult your router's manual if you \n"
+"do not know how to do this."
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 16
+#: rc.cpp:182
+#, no-c-format
+msgid "InfoWidgetBase"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 31
+#: rc.cpp:185
+#, no-c-format
+msgid "St&atus"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 42
+#: rc.cpp:188
+#, no-c-format
+msgid "Parts of the file which have been downloaded:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 55
+#: rc.cpp:191
+#, no-c-format
+msgid "Parts of the file which are available:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 111
+#: rc.cpp:197
+#, no-c-format
+msgid "Leechers:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 159
+#: rc.cpp:202
+#, no-c-format
+msgid "Seeders:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 171
+#: rc.cpp:205
+#, no-c-format
+msgid "Tracker"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 198
+#: rc.cpp:208
+#, no-c-format
+msgid "Status:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 206
+#: rc.cpp:211
+#, no-c-format
+msgid "Next update in:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 270
+#: rc.cpp:216
+#, no-c-format
+msgid "Average Speed"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 289
+#: rc.cpp:219
+#, no-c-format
+msgid "Down:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 297
+#: rc.cpp:222
+#, no-c-format
+msgid "Up:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 349
+#: rc.cpp:227
+#, no-c-format
+msgid "Sharing"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 368
+#: rc.cpp:230
+#, no-c-format
+msgid "Share ratio:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 421
+#: rc.cpp:237
+#, no-c-format
+msgid "Total:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 459
+#: rc.cpp:241
+#, no-c-format
+msgid "Currently downloading:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 497
+#: rc.cpp:245
+#, no-c-format
+msgid "Downloaded:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 535
+#: rc.cpp:249
+#, no-c-format
+msgid "Excluded:"
+msgstr ""
+
+#. i18n: file ./src/infowidgetbase.ui line 624
+#: rc.cpp:253
+#, no-c-format
+msgid "Fi&les"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 16
+#: rc.cpp:268
+#, no-c-format
+msgid "Create Torrent"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 38
+#: rc.cpp:271
+#, no-c-format
+msgid "The file or folder of which you want to create a torrent:"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 53
+#: rc.cpp:274
+#, no-c-format
+msgid "File Options"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 72
+#: rc.cpp:277
+#, no-c-format
+msgid "Name:"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 112
+#: rc.cpp:280
+#, no-c-format
+msgid "Size of each chunk:"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 118
+#: rc.cpp:283
+#, no-c-format
+msgid "32"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 123
+#: rc.cpp:286
+#, no-c-format
+msgid "64"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 128
+#: rc.cpp:289
+#, no-c-format
+msgid "128"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 133
+#: rc.cpp:292
+#, no-c-format
+msgid "256"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 138
+#: rc.cpp:295
+#, no-c-format
+msgid "512"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 143
+#: rc.cpp:298
+#, no-c-format
+msgid "1024"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 155
+#: rc.cpp:301
+#, no-c-format
+msgid "KB"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 184
+#: rc.cpp:304
+#, no-c-format
+msgid "You must add a least one tracker."
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 192
+#: rc.cpp:307
+#, no-c-format
+msgid "Trackers"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 208
+#: rc.cpp:310
+#, no-c-format
+msgid "Comments:"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 223
+#: rc.cpp:313
+#, no-c-format
+msgid "Start seedin&g the torrent"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 265
+#: rc.cpp:316
+#, no-c-format
+msgid "Cre&ate"
+msgstr ""
+
+#. i18n: file ./src/torrentcreatordlgbase.ui line 279
+#: rc.cpp:319
+#, no-c-format
+msgid "Ca&ncel"
 msgstr ""
