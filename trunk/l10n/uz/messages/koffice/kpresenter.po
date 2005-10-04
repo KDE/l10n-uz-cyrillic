@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
-"POT-Creation-Date: 2005-10-03 02:45+0200\n"
+"POT-Creation-Date: 2005-10-04 02:45+0200\n"
 "PO-Revision-Date: 2004-08-04 00:42+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -143,13 +143,13 @@ msgid "Presentation"
 msgstr ""
 
 #. i18n: file brushpropertyui.ui line 16
-#: brushproperty.cc:43 rc.cpp:147
+#: rc.cpp:147
 #, no-c-format
 msgid "Brush"
 msgstr ""
 
 #. i18n: file brushpropertyui.ui line 30
-#: rc.cpp:150 rc.cpp:197
+#: rc.cpp:150
 #, fuzzy, no-c-format
 msgid "&Style:"
 msgstr "Файлнинг номи:"
@@ -220,29 +220,35 @@ msgstr "Узунлиги:"
 msgid "Gradient"
 msgstr ""
 
-#. i18n: file gradientpropertyui.ui line 38
-#: rc.cpp:187
+#. i18n: file gradientpropertyui.ui line 51
+#: rc.cpp:188
+#, fuzzy, no-c-format
+msgid "Gradient:"
+msgstr "Бўйига градиент"
+
+#. i18n: file gradientpropertyui.ui line 62
+#: rc.cpp:191
+#, fuzzy, no-c-format
+msgid "C&olors:"
+msgstr "Ранг:"
+
+#. i18n: file gradientpropertyui.ui line 91
+#: rc.cpp:195
 #, no-c-format
 msgid "X-fac&tor:"
 msgstr ""
 
-#. i18n: file gradientpropertyui.ui line 49
-#: rc.cpp:190
+#. i18n: file gradientpropertyui.ui line 102
+#: rc.cpp:198
 #, no-c-format
 msgid "Un&balanced:"
 msgstr ""
 
-#. i18n: file gradientpropertyui.ui line 57
-#: rc.cpp:193
+#. i18n: file gradientpropertyui.ui line 110
+#: rc.cpp:201
 #, no-c-format
 msgid "&Y-factor:"
 msgstr ""
-
-#. i18n: file gradientpropertyui.ui line 153
-#: rc.cpp:200
-#, fuzzy, no-c-format
-msgid "C&olors:"
-msgstr "Ранг:"
 
 #. i18n: file imageEffectBase.ui line 33
 #: rc.cpp:204 sidebar.cc:138 transeffectdia.cc:267
@@ -444,7 +450,7 @@ msgid "All"
 msgstr "Ҳаммаси"
 
 #. i18n: file imageEffectBase.ui line 372
-#: pgconfdia.cc:128 rc.cpp:307 rc.cpp:626
+#: pgconfdia.cc:126 rc.cpp:307 rc.cpp:626
 #, no-c-format
 msgid "Color:"
 msgstr "Ранг:"
@@ -672,9 +678,9 @@ msgid "St&yle:"
 msgstr "Файлнинг номи:"
 
 #. i18n: file penstyle.ui line 137
-#: rc.cpp:501 shadowdialogimpl.cc:19
+#: pgconfdia.cc:132 rc.cpp:501
 #, no-c-format
-msgid "pt"
+msgid " pt"
 msgstr ""
 
 #. i18n: file picturepropertyui.ui line 16
@@ -750,7 +756,7 @@ msgid "Pie"
 msgstr ""
 
 #. i18n: file piepropertyui.ui line 32
-#: brushproperty.cc:46 rc.cpp:541 rc.cpp:559
+#: brushproperty.cc:47 rc.cpp:541 rc.cpp:559
 #, fuzzy, no-c-format
 msgid "&Type:"
 msgstr "Тури:"
@@ -979,35 +985,35 @@ msgstr ""
 msgid "Plain"
 msgstr ""
 
-#: backdia.cc:130 brushproperty.cc:82
+#: backdia.cc:130
 msgid "Vertical Gradient"
 msgstr "Бўйига градиент"
 
-#: backdia.cc:131 brushproperty.cc:81
+#: backdia.cc:131
 msgid "Horizontal Gradient"
 msgstr "Энига градиент"
 
-#: backdia.cc:132 brushproperty.cc:83
+#: backdia.cc:132
 msgid "Diagonal Gradient 1"
 msgstr ""
 
-#: backdia.cc:133 brushproperty.cc:84
+#: backdia.cc:133
 msgid "Diagonal Gradient 2"
 msgstr ""
 
-#: backdia.cc:134 brushproperty.cc:85
+#: backdia.cc:134
 msgid "Circle Gradient"
 msgstr ""
 
-#: backdia.cc:135 brushproperty.cc:86
+#: backdia.cc:135
 msgid "Rectangle Gradient"
 msgstr ""
 
-#: backdia.cc:136 brushproperty.cc:87
+#: backdia.cc:136
 msgid "PipeCross Gradient"
 msgstr ""
 
-#: backdia.cc:137 brushproperty.cc:88
+#: backdia.cc:137
 msgid "Pyramid Gradient"
 msgstr ""
 
@@ -1051,8 +1057,13 @@ msgstr ""
 msgid "&Reset"
 msgstr "&Тиклаш"
 
-#: brushproperty.cc:57
-msgid "No Background Fill"
+#: brushproperty.cc:43
+#, fuzzy
+msgid "Single Color"
+msgstr "Ранг"
+
+#: brushproperty.cc:45
+msgid "Transparant"
 msgstr ""
 
 #: brushproperty.cc:58 brushproperty.cc:59 brushproperty.cc:60
@@ -1083,6 +1094,30 @@ msgstr ""
 
 #: brushproperty.cc:71
 msgid "Diagonal Crossing Lines"
+msgstr ""
+
+#: brushproperty.cc:87
+msgid "Diagonal 1"
+msgstr ""
+
+#: brushproperty.cc:88
+msgid "Diagonal 2"
+msgstr ""
+
+#: brushproperty.cc:89 penstylewidget.cc:67 penstylewidget.cc:79
+msgid "Circle"
+msgstr ""
+
+#: brushproperty.cc:90 kprectobject.h:49
+msgid "Rectangle"
+msgstr "Тўртбурчак"
+
+#: brushproperty.cc:91
+msgid "PipeCross"
+msgstr ""
+
+#: brushproperty.cc:92
+msgid "Pyramid"
 msgstr ""
 
 #: customslideshowdia.cc:40
@@ -3157,26 +3192,6 @@ msgstr ""
 msgid "No Outline"
 msgstr ""
 
-#: penstylewidget.cc:50
-msgid "Solid Line"
-msgstr ""
-
-#: penstylewidget.cc:51
-msgid "Dash Line ( ---- )"
-msgstr ""
-
-#: penstylewidget.cc:52
-msgid "Dot Line ( **** )"
-msgstr ""
-
-#: penstylewidget.cc:53
-msgid "Dash Dot Line ( -*-* )"
-msgstr ""
-
-#: penstylewidget.cc:54
-msgid "Dash Dot Dot Line ( -**- )"
-msgstr ""
-
 #: penstylewidget.cc:64 penstylewidget.cc:76
 msgid "Normal"
 msgstr "Оддий"
@@ -3187,10 +3202,6 @@ msgstr ""
 
 #: penstylewidget.cc:66 penstylewidget.cc:78
 msgid "Square"
-msgstr ""
-
-#: penstylewidget.cc:67 penstylewidget.cc:79
-msgid "Circle"
 msgstr ""
 
 #: penstylewidget.cc:68 penstylewidget.cc:80
@@ -3288,48 +3299,44 @@ msgid ""
 "<p>You can configure the color of the drawing pen and the width of the pen.</p>"
 msgstr ""
 
-#: pgconfdia.cc:131
+#: pgconfdia.cc:130
 msgid "Width:"
 msgstr ""
 
-#: pgconfdia.cc:133
-msgid " pt"
-msgstr ""
-
-#: pgconfdia.cc:143
+#: pgconfdia.cc:142
 msgid "&Slides"
 msgstr ""
 
-#: pgconfdia.cc:144
+#: pgconfdia.cc:143
 msgid ""
 "<p>This dialog allows you to configure which slides are used in the "
 "presentation. Slides that are not selected will not be displayed during the "
 "slide show.</p>"
 msgstr ""
 
-#: pgconfdia.cc:154
+#: pgconfdia.cc:153
 #, fuzzy
 msgid "Custom slide show"
 msgstr "Слайд шоу"
 
-#: pgconfdia.cc:160
+#: pgconfdia.cc:159
 #, fuzzy
 msgid "Custom slide:"
 msgstr "Слайд шоу"
 
-#: pgconfdia.cc:165
+#: pgconfdia.cc:164
 msgid "Selected pages:"
 msgstr ""
 
-#: pgconfdia.cc:171 sidebar.cc:752
+#: pgconfdia.cc:170 sidebar.cc:752
 msgid "Slide"
 msgstr ""
 
-#: pgconfdia.cc:187
+#: pgconfdia.cc:186
 msgid "Select &All"
 msgstr ""
 
-#: pgconfdia.cc:190
+#: pgconfdia.cc:189
 msgid "&Deselect All"
 msgstr ""
 
@@ -3413,6 +3420,10 @@ msgstr ""
 #, fuzzy
 msgid "Pict&ure"
 msgstr "Расм"
+
+#: shadowdialogimpl.cc:19
+msgid "pt"
+msgstr ""
 
 #: sidebar.cc:135
 msgid ""
@@ -3904,10 +3915,6 @@ msgstr ""
 #: kpquadricbeziercurveobject.h:44
 msgid "Quadric Bezier Curve"
 msgstr ""
-
-#: kprectobject.h:49
-msgid "Rectangle"
-msgstr "Тўртбурчак"
 
 #: kpresenter_aboutdata.h:27
 msgid "KOffice Presentation Tool"
