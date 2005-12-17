@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2005-12-16 08:28+0100\n"
+"POT-Creation-Date: 2005-12-17 08:36+0100\n"
 "PO-Revision-Date: 2005-10-20 22:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -41,8 +41,8 @@ msgstr ""
 #: mediabrowser.cpp:1745 mediadevice/ipod/ipodmediadevice.cpp:170
 #: mediadevice/ipod/ipodmediadevice.cpp:171
 #: mediadevice/ipod/ipodmediadevice.cpp:172
-#: mediadevice/ipod/ipodmediadevice.cpp:283 statistics.cpp:200
-#: tagdialog.cpp:481 tagdialog.cpp:508
+#: mediadevice/ipod/ipodmediadevice.cpp:283 statistics.cpp:232
+#: statistics.cpp:317 tagdialog.cpp:481 tagdialog.cpp:508
 msgid "Unknown"
 msgstr "Номаълум"
 
@@ -800,7 +800,7 @@ msgstr "Юкланмоқда..."
 #: playlistbrowseritem.cpp:641 playlistbrowseritem.cpp:864
 #: playlistbrowseritem.cpp:872 playlistbrowseritem.cpp:2019
 #: playlistbrowseritem.cpp:2027 playlistbrowseritem.cpp:2042
-#: playlistbrowseritem.cpp:2050 statistics.cpp:450 statistics.cpp:458
+#: playlistbrowseritem.cpp:2050 statistics.cpp:593 statistics.cpp:601
 #, fuzzy
 msgid "..."
 msgstr "Қўшиш"
@@ -2079,7 +2079,7 @@ msgstr ""
 msgid "Lyrics"
 msgstr "Қўшиқнинг сўзлари"
 
-#: playlistwindow.cpp:133 statistics.cpp:49 tagdialog.cpp:358
+#: playlistwindow.cpp:133 tagdialog.cpp:358
 msgid "Statistics"
 msgstr ""
 
@@ -2908,56 +2908,113 @@ msgstr ""
 "Навбатда битта қўшиқ\n"
 "Навбатда %n қўшиқ"
 
-#: statistics.cpp:98
+#: statistics.cpp:49
 #, fuzzy
-msgid "Your collection statistics"
+msgid "Collection Statistics"
 msgstr "Тўплам маълумот базаси"
 
-#: playlistbrowseritem.cpp:658 statistics.cpp:106
-#, c-format
+#: statistics.cpp:113
+#, fuzzy
 msgid ""
-"_n: 1 Track\n"
-"%n Tracks"
+"_n: Favorite Track\n"
+"Favorite Tracks"
 msgstr ""
 "1 қўшиқ\n"
 "%n қўшиқ"
 
-#: contextbrowser.cpp:835 statistics.cpp:113
-#, c-format
+#: statistics.cpp:114
+#, fuzzy, c-format
 msgid ""
-"_n: 1 Artist\n"
-"%n Artists"
+"_n: %n track\n"
+"%n tracks"
+msgstr ""
+"1 қўшиқ\n"
+"%n қўшиқ"
+
+#: statistics.cpp:121
+#, fuzzy
+msgid ""
+"_n: Favorite Artist\n"
+"Favorite Artist"
 msgstr ""
 "1 санаткор\n"
 "%n санаткор"
 
-#: contextbrowser.cpp:836 statistics.cpp:120
-#, c-format
+#: statistics.cpp:122
+#, fuzzy, c-format
 msgid ""
-"_n: 1 Album\n"
-"%n Albums"
+"_n: %n artist\n"
+"%n artists"
+msgstr ""
+"1 санаткор\n"
+"%n санаткор"
+
+#: statistics.cpp:129
+#, fuzzy
+msgid ""
+"_n: Favorite Album\n"
+"Favorite Albums"
 msgstr ""
 "1 албом\n"
 "%n албом"
 
-#: contextbrowser.cpp:837 statistics.cpp:127
-#, c-format
+#: statistics.cpp:130
+#, fuzzy, c-format
 msgid ""
-"_n: 1 Genre\n"
-"%n Genres"
+"_n: %n album\n"
+"%n albums"
+msgstr ""
+"1 албом\n"
+"%n албом"
+
+#: statistics.cpp:137
+#, fuzzy
+msgid ""
+"_n: Favorite Genre\n"
+"Favorite Genres"
 msgstr ""
 "1 жанр\n"
 "%n жанр"
 
-#: statistics.cpp:171 statistics.cpp:210
-msgid "%1. %2 - %3 (Score: %4)"
+#: statistics.cpp:138
+#, fuzzy, c-format
+msgid ""
+"_n: %n genre\n"
+"%n genres"
+msgstr ""
+"1 жанр\n"
+"%n жанр"
+
+#: statistics.cpp:197 statistics.cpp:242 statistics.cpp:301 statistics.cpp:326
+msgid "%1. %2 - %3"
 msgstr ""
 
-#: statistics.cpp:189 statistics.cpp:228
-msgid "%1. %2 (Score: %4)"
+#: statistics.cpp:201
+#, fuzzy
+msgid "More tracks..."
+msgstr "Севимли қўшиқлар"
+
+#: statistics.cpp:218 statistics.cpp:263 statistics.cpp:347 statistics.cpp:368
+#: statusbar/queueLabel.cpp:194
+msgid "%1. %2"
 msgstr ""
 
-#: statistics.cpp:272
+#: statistics.cpp:222
+#, fuzzy
+msgid "More artists..."
+msgstr "Севимли қўшиқлар"
+
+#: statistics.cpp:246
+#, fuzzy
+msgid "More albums..."
+msgstr "Севимли албомлар"
+
+#: statistics.cpp:267
+#, fuzzy
+msgid "More genres..."
+msgstr "Севимли албомлар"
+
+#: statistics.cpp:413
 msgid ""
 "<div align=center>"
 "<h3>Statistics</h3>You need a collection to use statistics!  Create a "
@@ -6501,6 +6558,33 @@ msgstr ""
 "1 жанр\n"
 "%n жанр"
 
+#: contextbrowser.cpp:835
+#, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr ""
+"1 санаткор\n"
+"%n санаткор"
+
+#: contextbrowser.cpp:836
+#, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr ""
+"1 албом\n"
+"%n албом"
+
+#: contextbrowser.cpp:837
+#, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr ""
+"1 жанр\n"
+"%n жанр"
+
 #: contextbrowser.cpp:841
 msgid "Detailed Statistics..."
 msgstr ""
@@ -7348,7 +7432,7 @@ msgstr ""
 msgid "Multiple background-tasks running"
 msgstr ""
 
-#: statusbar/statusBarBase.cpp:434
+#: statusbar/statusBarBase.cpp:435
 #, fuzzy
 msgid "Aborting all jobs..."
 msgstr "Ҳақида"
@@ -7397,7 +7481,7 @@ msgstr "Ўйналмоқда: %1"
 
 #: statusbar/statusbar.cpp:201
 #, fuzzy
-msgid "%1 selected of %2 visible of %3 tracks"
+msgid "%1 selected of %2 visible tracks"
 msgstr "Танланган қўшиқлар"
 
 #: statusbar/statusbar.cpp:203
@@ -7422,16 +7506,8 @@ msgstr ""
 "1 қўшиқ\n"
 "%n қўшиқ"
 
-#: statusbar/statusbar.cpp:208
-msgid " - [ %1 / %2 / %3 ]"
-msgstr ""
-
-#: statusbar/statusbar.cpp:212
-msgid " - [ %1 / %2 ]"
-msgstr ""
-
-#: statusbar/statusbar.cpp:216
-msgid " - [ %1 ]"
+#: statusbar/statusbar.cpp:221
+msgid " - [ %2 ]"
 msgstr ""
 
 #: statusbar/queueLabel.cpp:177
@@ -7460,10 +7536,6 @@ msgid ""
 msgstr ""
 "1 қўшиқ\n"
 "%n қўшиқ"
-
-#: statusbar/queueLabel.cpp:194
-msgid "%1. %2"
-msgstr ""
 
 #: statusbar/queueLabel.cpp:200
 #, fuzzy, c-format
@@ -7704,6 +7776,15 @@ msgstr "Манзил:"
 msgid "Loading..."
 msgstr "Юкланмоқда..."
 
+#: playlistbrowseritem.cpp:658
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"1 қўшиқ\n"
+"%n қўшиқ"
+
 #: playlistbrowseritem.cpp:660
 msgid " - [%2]"
 msgstr ""
@@ -7845,10 +7926,6 @@ msgstr "Актив эффектлар"
 #~ "%n албом"
 
 #, fuzzy
-#~ msgid "Favorite Albums"
-#~ msgstr "Севимли албомлар"
-
-#, fuzzy
 #~ msgid "Newest Albums"
 #~ msgstr "Янги албомлар"
 
@@ -7861,16 +7938,8 @@ msgstr "Актив эффектлар"
 #~ msgstr "Энг кўп ўйналган"
 
 #, fuzzy
-#~ msgid "Favorite Artists"
-#~ msgstr "Севимли қўшиқлар"
-
-#, fuzzy
 #~ msgid "Artist Count"
 #~ msgstr "Санаткор"
-
-#, fuzzy
-#~ msgid "Favorite Genres"
-#~ msgstr "Севимли албомлар"
 
 #, fuzzy
 #~ msgid "Genre Count"
@@ -8175,10 +8244,6 @@ msgstr "Актив эффектлар"
 #, fuzzy
 #~ msgid "Shuffle queue"
 #~ msgstr "&Тартибсиз"
-
-#, fuzzy
-#~ msgid "%1 More Tracks"
-#~ msgstr "Севимли қўшиқлар"
 
 #~ msgid "&View/Edit Meta Information..."
 #~ msgstr "&Мета-маълумотни кўриш/таҳрирлаш"
