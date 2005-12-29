@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
-"POT-Creation-Date: 2005-12-28 08:50+0100\n"
+"POT-Creation-Date: 2005-12-29 08:43+0100\n"
 "PO-Revision-Date: 2004-02-24 19:10-0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -963,7 +963,7 @@ msgid "Transformation Tools"
 msgstr "Айлантириш"
 
 #. i18n: file krita.rc line 157
-#: ui/kis_aboutdata.h:30 ui/kis_view.cc:337 rc.cpp:45 rc.cpp:1529
+#: ui/kis_aboutdata.h:30 ui/kis_view.cc:329 rc.cpp:45 rc.cpp:1529
 #, no-c-format
 msgid "Krita"
 msgstr ""
@@ -975,7 +975,7 @@ msgid "Brushes and stuff"
 msgstr ""
 
 #. i18n: file krita_readonly.rc line 18
-#: ui/kis_view.cc:375 rc.cpp:57 rc.cpp:639 rc.cpp:1478 rc.cpp:1562
+#: rc.cpp:57 rc.cpp:639 rc.cpp:1478 rc.cpp:1562
 #, no-c-format
 msgid "Layer"
 msgstr "Қатлам"
@@ -1384,7 +1384,7 @@ msgid "Sphere Dec."
 msgstr ""
 
 #. i18n: file ./ui/wdgautogradient.ui line 342
-#: ui/kis_view.cc:3046 rc.cpp:291
+#: ui/kis_view.cc:2992 rc.cpp:291
 #, no-c-format
 msgid "RGB"
 msgstr ""
@@ -1860,7 +1860,7 @@ msgid "Subtract"
 msgstr ""
 
 #. i18n: file ./ui/wdgbirdeye.ui line 24
-#: ui/kis_view.cc:3033 rc.cpp:564
+#: ui/kis_view.cc:2979 rc.cpp:564
 #, no-c-format
 msgid "Overview"
 msgstr ""
@@ -2351,7 +2351,7 @@ msgid "Shapes"
 msgstr "&Оқ-қора"
 
 #. i18n: file ./plugins/viewplugins/performancetest/wdg_perftest.ui line 104
-#: ui/kis_view.cc:225 ui/kis_view.cc:376 rc.cpp:867
+#: ui/kis_view.cc:220 ui/kis_view.cc:367 rc.cpp:867
 #, no-c-format
 msgid "Layers"
 msgstr ""
@@ -2684,7 +2684,8 @@ msgid "Out of Gamut"
 msgstr ""
 
 #. i18n: file ./plugins/viewplugins/colorrange/wdg_colorrange.ui line 101
-#: ui/kis_selection_manager.cc:143 ui/kis_selection_manager.cc:657 rc.cpp:1101
+#: plugins/filters/example/example.cc:71 ui/kis_selection_manager.cc:143
+#: ui/kis_selection_manager.cc:657 rc.cpp:1101
 #, no-c-format
 msgid "&Invert"
 msgstr ""
@@ -3298,62 +3299,58 @@ msgstr "&Оқ-қора"
 msgid "Rename Image"
 msgstr ""
 
-#: ui/kis_doc.cc:262
+#: ui/kis_doc.cc:263
 #, c-format
 msgid "Image %1"
 msgstr ""
 
-#: ui/kis_doc.cc:266
+#: ui/kis_doc.cc:267
 msgid "No colorspace modules loaded: cannot run Krita"
 msgstr ""
 
-#: ui/kis_layerbox.cc:68
-#, c-format
-msgid "Create new %1"
-msgstr ""
-
 #: ui/kis_layerbox.cc:70
-#, c-format
-msgid "Remove current %1"
-msgstr ""
-
-#: ui/kis_layerbox.cc:72
-#, c-format
-msgid "Upper current %1"
-msgstr ""
-
-#: ui/kis_layerbox.cc:76
-#, c-format
-msgid "Lower current %1"
-msgstr ""
-
-#: ui/kis_layerbox.cc:78
-#, fuzzy, c-format
-msgid "Properties for %1"
+#, fuzzy
+msgid "Create new layer"
 msgstr "&Расм"
 
-#: ui/kis_layerbox.cc:82
+#: ui/kis_layerbox.cc:72
+#, fuzzy
+msgid "Remove current layer"
+msgstr "&Расм"
+
+#: ui/kis_layerbox.cc:74
+#, fuzzy
+msgid "Upper current layer"
+msgstr "&Расм"
+
+#: ui/kis_layerbox.cc:78
+#, fuzzy
+msgid "Lower current layer"
+msgstr "&Расм"
+
+#: ui/kis_layerbox.cc:80
+#, fuzzy
+msgid "Properties for layer"
+msgstr "&Расм"
+
+#: ui/kis_layerbox.cc:86
 msgid "Visible"
 msgstr ""
 
-#: ui/kis_layerbox.cc:84
-msgid "Linked"
-msgstr ""
-
-#: ui/kis_layerbox.cc:86
+#: ui/kis_layerbox.cc:88
 msgid "Locked"
 msgstr ""
 
-#: ui/kis_layerbox.cc:308
+#: ui/kis_layerbox.cc:398
 #, c-format
 msgid "Can't find %1"
 msgstr ""
 
-#: ui/kis_layerbox.cc:309
+#: ui/kis_layerbox.cc:399
 msgid "Canvas"
 msgstr ""
 
-#: ui/kis_dlg_image_properties.cc:50 ui/kis_view.cc:558
+#: ui/kis_dlg_image_properties.cc:50 ui/kis_view.cc:544
 #, fuzzy
 msgid "Image Properties"
 msgstr "&Расм"
@@ -3416,7 +3413,7 @@ msgstr ""
 msgid "Blur"
 msgstr "&Бўёқ"
 
-#: ui/kis_filter_manager.cc:86 ui/kis_view.cc:223
+#: ui/kis_filter_manager.cc:86 ui/kis_view.cc:219
 #, fuzzy
 msgid "Colors"
 msgstr "Ран&г"
@@ -3452,7 +3449,7 @@ msgstr "Қатлам"
 msgid "Apply Filter Again"
 msgstr ""
 
-#: ui/kis_dlg_layer_properties.cc:48 ui/kis_view.cc:583
+#: ui/kis_dlg_layer_properties.cc:48 ui/kis_view.cc:569
 msgid "Layer Properties"
 msgstr ""
 
@@ -3571,221 +3568,221 @@ msgstr ""
 msgid "Color name (optional):"
 msgstr ""
 
-#: ui/kis_view.cc:222
+#: ui/kis_view.cc:218
 msgid "Control box"
 msgstr ""
 
-#: ui/kis_view.cc:444
+#: ui/kis_view.cc:430
 msgid "Zoom %1:1"
 msgstr ""
 
-#: ui/kis_view.cc:446
+#: ui/kis_view.cc:432
 #, c-format
 msgid "Zoom 1:%1"
 msgstr ""
 
-#: ui/kis_view.cc:465
+#: ui/kis_view.cc:451
 #, fuzzy
 msgid "Selection Active"
 msgstr "&Бўёқ"
 
-#: ui/kis_view.cc:471
+#: ui/kis_view.cc:457
 #, fuzzy
 msgid "No selection"
 msgstr "&Бўёқ"
 
-#: ui/kis_view.cc:484
+#: ui/kis_view.cc:470
 msgid "No profile"
 msgstr ""
 
-#: ui/kis_view.cc:560
+#: ui/kis_view.cc:546
 msgid "Resize Image to Size of Current Layer"
 msgstr ""
 
-#: ui/kis_view.cc:565
+#: ui/kis_view.cc:551
 msgid "Actual Pixels"
 msgstr ""
 
-#: ui/kis_view.cc:570
+#: ui/kis_view.cc:556
 msgid "&Add Layer..."
 msgstr ""
 
-#: ui/kis_view.cc:572
+#: ui/kis_view.cc:558
 #, fuzzy
 msgid "&Object Layer"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:576
+#: ui/kis_view.cc:562
 msgid "&Remove Layer"
 msgstr ""
 
-#: ui/kis_view.cc:577
+#: ui/kis_view.cc:563
 msgid "Duplicate Layer"
 msgstr ""
 
-#: ui/kis_view.cc:578
+#: ui/kis_view.cc:564
 msgid "&Hide/Show Layer"
 msgstr ""
 
-#: ui/kis_view.cc:579
+#: ui/kis_view.cc:565
 msgid "Raise Layer"
 msgstr ""
 
-#: ui/kis_view.cc:580
+#: ui/kis_view.cc:566
 msgid "Lower Layer"
 msgstr ""
 
-#: ui/kis_view.cc:581
+#: ui/kis_view.cc:567
 msgid "Layer to Top"
 msgstr ""
 
-#: ui/kis_view.cc:582
+#: ui/kis_view.cc:568
 msgid "Layer to Bottom"
 msgstr ""
 
-#: ui/kis_view.cc:584
+#: ui/kis_view.cc:570
 msgid "I&nsert Image as Layer..."
 msgstr ""
 
-#: ui/kis_view.cc:585
+#: ui/kis_view.cc:571
 msgid "Save Layer as Image..."
 msgstr ""
 
-#: ui/kis_view.cc:586
+#: ui/kis_view.cc:572
 msgid "Flip on &X Axis"
 msgstr ""
 
-#: ui/kis_view.cc:587
+#: ui/kis_view.cc:573
 msgid "Flip on &Y Axis"
 msgstr ""
 
-#: ui/kis_view.cc:590
+#: ui/kis_view.cc:576
 msgid "Merge &Visible Layers"
 msgstr ""
 
-#: ui/kis_view.cc:591
+#: ui/kis_view.cc:577
 #, fuzzy
 msgid "&Merge Layer"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:592
+#: ui/kis_view.cc:578
 #, fuzzy
 msgid "Merge &All Layers"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:597
+#: ui/kis_view.cc:583
 msgid "Show Rulers"
 msgstr ""
 
-#: ui/kis_view.cc:599
+#: ui/kis_view.cc:585
 #, fuzzy
 msgid "Hide Rulers"
 msgstr "&Қатлам"
 
-#: ui/kis_view.cc:600
+#: ui/kis_view.cc:586
 msgid "Shows or hides rulers."
 msgstr ""
 
-#: ui/kis_view.cc:601
+#: ui/kis_view.cc:587
 msgid ""
 "The rulers show the position and width of pages and of frames and can be used "
 "to position tabulators among others."
 "<p>Uncheck this to disable the rulers from being displayed."
 msgstr ""
 
-#: ui/kis_view.cc:608
+#: ui/kis_view.cc:594
 msgid "Add new palette"
 msgstr ""
 
-#: ui/kis_view.cc:1278
+#: ui/kis_view.cc:1257
 #, fuzzy
 msgid "Add palette"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:1287
+#: ui/kis_view.cc:1266
 msgid "Export Layer"
 msgstr ""
 
-#: ui/kis_view.cc:1328
+#: ui/kis_view.cc:1307
 msgid "Import Image"
 msgstr ""
 
-#: ui/kis_view.cc:1397
+#: ui/kis_view.cc:1374
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:1419
+#: ui/kis_view.cc:1396
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:1442
+#: ui/kis_view.cc:1419
 #, fuzzy
 msgid "Scale Layer"
 msgstr "&Бўёқ"
 
-#: ui/kis_view.cc:1467
+#: ui/kis_view.cc:1444
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:1493
+#: ui/kis_view.cc:1470
 #, fuzzy
 msgid "Shear layer"
 msgstr "&Расм"
 
-#: ui/kis_view.cc:1517
+#: ui/kis_view.cc:1494
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: core/kis_image.cc:1148 ui/kis_view.cc:1518 ui/kis_view.cc:1519
+#: core/kis_image.cc:1144 ui/kis_view.cc:1495 ui/kis_view.cc:1496
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Расмни қўшиш"
 
-#: ui/kis_view.cc:2104
+#: ui/kis_view.cc:2081
 msgid "Insert as New Layer"
 msgstr ""
 
-#: ui/kis_view.cc:2106
+#: ui/kis_view.cc:2083
 msgid "Open in New Document"
 msgstr ""
 
-#: ui/kis_view.cc:2110
+#: ui/kis_view.cc:2087
 msgid "Insert as New Layers"
 msgstr ""
 
-#: ui/kis_view.cc:2112
+#: ui/kis_view.cc:2089
 msgid "Open in New Documents"
 msgstr ""
 
-#: ui/kis_view.cc:2159
+#: ui/kis_view.cc:2136
 msgid "Property changes"
 msgstr ""
 
-#: ui/kis_view.cc:2201 ui/kis_view.cc:2287
+#: ui/kis_view.cc:2166 ui/kis_view.cc:2187 ui/kis_view.cc:2268
 msgid "Could not add layer to image."
 msgstr ""
 
-#: ui/kis_view.cc:2201 ui/kis_view.cc:2287
+#: ui/kis_view.cc:2166 ui/kis_view.cc:2187 ui/kis_view.cc:2268
 msgid "Layer Error"
 msgstr ""
 
-#: ui/kis_view.cc:2277
+#: ui/kis_view.cc:2260
 msgid "Duplicate of '%1'"
 msgstr ""
 
-#: ui/kis_view.cc:3037
+#: ui/kis_view.cc:2983
 msgid "HSV"
 msgstr ""
 
 #: colorspaces/gray_u16/kis_gray_u16_colorspace.cc:44
-#: colorspaces/gray_u8/kis_gray_colorspace.cc:48 ui/kis_view.cc:3054
+#: colorspaces/gray_u8/kis_gray_colorspace.cc:48 ui/kis_view.cc:3000
 msgid "Gray"
 msgstr ""
 
-#: ui/kis_view.cc:3062
+#: ui/kis_view.cc:3008
 msgid "Palettes"
 msgstr ""
 
@@ -5366,6 +5363,10 @@ msgstr "&Расм"
 msgid "Separating image..."
 msgstr "Расмни қўшиш"
 
+#: plugins/filters/cimg/kis_cimg_filter.cc:58
+msgid "&CImg Image Restoration..."
+msgstr ""
+
 #: plugins/filters/cimg/kis_cimg_filter.cc:549
 msgid "Applying image restoration filter..."
 msgstr ""
@@ -5473,8 +5474,16 @@ msgstr ""
 msgid "Refresh Preview"
 msgstr ""
 
+#: plugins/filters/convolutionfilters/kis_custom_convolution_filter.cc:32
+msgid "&Custom Convolution..."
+msgstr ""
+
 #: plugins/filters/roundcorners/kis_round_corners_filter.h:43
 msgid "Round Corners"
+msgstr ""
+
+#: plugins/filters/roundcorners/kis_round_corners_filter.cc:55
+msgid "&Round Corners..."
 msgstr ""
 
 #: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:95
@@ -5486,6 +5495,10 @@ msgstr ""
 #, fuzzy
 msgid "Radius"
 msgstr "Мосламалар"
+
+#: plugins/filters/raindropsfilter/kis_raindrops_filter.cc:55
+msgid "&Raindrops..."
+msgstr ""
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:91
 #: plugins/filters/raindropsfilter/kis_raindrops_filter.cc:95
@@ -5551,6 +5564,24 @@ msgstr ""
 msgid "Auto Contrast"
 msgstr ""
 
+#: plugins/filters/colorsfilters/colorsfilters.cc:85
+msgid "&Auto Contrast"
+msgstr ""
+
+#: plugins/filters/colorsfilters/colorsfilters.cc:216
+msgid "&Desaturate"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cc:51
+#, fuzzy
+msgid "&Color Adjustment..."
+msgstr "Ран&г"
+
+#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.cc:47
+#, fuzzy
+msgid "&Brightness/Contrast..."
+msgstr "Ран&г"
+
 #: plugins/filters/example/example.h:40
 msgid "Invert"
 msgstr ""
@@ -5563,6 +5594,10 @@ msgstr ""
 msgid "Simple Noise Reduceer"
 msgstr ""
 
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cc:58
+msgid "&Small Tiles..."
+msgstr ""
+
 #: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cc:113
 msgid "Number of Tiles"
 msgstr ""
@@ -5573,6 +5608,10 @@ msgstr ""
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.h:45
 msgid "Oilpaint"
+msgstr ""
+
+#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:53
+msgid "&Oilpaint..."
 msgstr ""
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:229
@@ -5610,6 +5649,10 @@ msgstr ""
 
 #: plugins/filters/bumpmap/bumpmap.cc:83
 msgid "&Bumpmap..."
+msgstr ""
+
+#: plugins/filters/threadtest/threadtest.cc:117
+msgid "Invert with &Threads"
 msgstr ""
 
 #: plugins/filters/threadtest/threadtest.h:40
