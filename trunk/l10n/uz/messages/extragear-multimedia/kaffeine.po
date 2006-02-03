@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-01 09:12+0100\n"
+"POT-Creation-Date: 2006-02-03 10:13+0100\n"
 "PO-Revision-Date: 2006-01-12 18:33+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -120,17 +120,14 @@ msgstr "Таймер таҳрирчи"
 msgid "You must give it a name!"
 msgstr "Бунга ном беришингиз лозим!"
 
-#: input/dvb/ktimereditor.cpp:199
-msgid "Name must not contain any slash( / )!"
-msgstr "Берилган ном слэшсиз (/) бўлиши керак!"
-
-#: input/dvb/ktimereditor.cpp:204
-msgid "Name must not start with ( > )!"
-msgstr "Ном (>) белгиси билан бошланмаслиги керак!"
-
-#: input/dvb/ktimereditor.cpp:209
+#: input/dvb/ktimereditor.cpp:215
 msgid "Duration must be at least 1 minute!"
 msgstr "Давомийлик камида 1 дақиқа бўлиши лозим!"
+
+#: input/dvb/ktimereditor.cpp:235
+#, fuzzy
+msgid "Name must not contain any of the following characters: > < \\ / : \" |"
+msgstr "Берилган ном слэшсиз (/) бўлиши керак!"
 
 #: input/dvb/channeleditor.cpp:61
 msgid "Initial Transponder Settings"
@@ -209,7 +206,7 @@ msgid "Time shifting"
 msgstr ""
 
 #: input/dvb/dvbconfig.cpp:566 input/dvb/dvbpanel.cpp:191
-#: player-parts/kaffeine-part/kxinewidget.cpp:2043
+#: player-parts/kaffeine-part/kxinewidget.cpp:2022
 msgid "Recording"
 msgstr "Ёзиб олиш"
 
@@ -1049,35 +1046,35 @@ msgstr "&Товушсиз"
 msgid "Kaffeine Player"
 msgstr "Kaffeine плейери"
 
-#: startwindow.cpp:63
+#: startwindow.cpp:61
 msgid "Play Playlist"
 msgstr "Ўйнаш рўйхатини ўйнаш"
 
-#: startwindow.cpp:65
+#: startwindow.cpp:63
 msgid "Open Files"
 msgstr "Файлларни очиш"
 
-#: kaffeine.cpp:1489 startwindow.cpp:67
+#: kaffeine.cpp:1489 startwindow.cpp:65
 msgid "Open URL"
 msgstr "Манзилни очиш"
 
-#: startwindow.cpp:69
+#: startwindow.cpp:67
 msgid "Open Directory"
 msgstr "Жилдни очиш"
 
-#: startwindow.cpp:71
+#: startwindow.cpp:69
 msgid "Open DVD"
 msgstr "DVD кўриш"
 
-#: startwindow.cpp:73
+#: startwindow.cpp:71
 msgid "Open VCD"
 msgstr "VCD кўриш"
 
-#: startwindow.cpp:75
+#: startwindow.cpp:73
 msgid "Open Audio-CD"
 msgstr "Аудио дискни тинглаш"
 
-#: startwindow.cpp:79
+#: startwindow.cpp:76
 msgid "DVB"
 msgstr "DVB"
 
@@ -2184,8 +2181,8 @@ msgstr "Тайёр"
 #: player-parts/gstreamer-part/gstreamer_part.cpp:541
 #: player-parts/kaffeine-part/kaffeine_part.cpp:999
 #: player-parts/kaffeine-part/kxinewidget.cpp:1444
-#: player-parts/kaffeine-part/kxinewidget.cpp:2045
-#: player-parts/kaffeine-part/kxinewidget.cpp:2889
+#: player-parts/kaffeine-part/kxinewidget.cpp:2024
+#: player-parts/kaffeine-part/kxinewidget.cpp:2868
 msgid "Playing"
 msgstr "Ўйнамоқда"
 
@@ -2257,7 +2254,7 @@ msgstr ""
 #: player-parts/gstreamer-part/gstreamer_part.cpp:528
 #: player-parts/gstreamer-part/gstreamer_part.cpp:793
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1240
-#: player-parts/kaffeine-part/kxinewidget.cpp:2879
+#: player-parts/kaffeine-part/kxinewidget.cpp:2858
 msgid "Pause"
 msgstr "Вақтинча тўхтатиш"
 
@@ -2430,15 +2427,15 @@ msgstr "Xine тизимини &мослаш"
 #: player-parts/gstreamer-part/gstreamer_part.cpp:825
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1310
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1317
-#: player-parts/kaffeine-part/kxinewidget.cpp:2554
+#: player-parts/kaffeine-part/kxinewidget.cpp:2533
 msgid "Volume"
 msgstr "Товуш"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:799
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1321
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1330
-#: player-parts/kaffeine-part/kxinewidget.cpp:3091
-#: player-parts/kaffeine-part/kxinewidget.cpp:3115
+#: player-parts/kaffeine-part/kxinewidget.cpp:3070
+#: player-parts/kaffeine-part/kxinewidget.cpp:3094
 msgid "Position"
 msgstr "Ҳолати"
 
@@ -2465,7 +2462,7 @@ msgstr "Видео мосламалар"
 # men bunga ishonchim komil emas
 #: player-parts/gstreamer-part/gstreamer_part.cpp:497
 #: player-parts/gstreamer-part/videosettings.cpp:41
-#: player-parts/kaffeine-part/kxinewidget.cpp:3379
+#: player-parts/kaffeine-part/kxinewidget.cpp:3358
 #: player-parts/kaffeine-part/videosettings.cpp:49
 msgid "Hue"
 msgstr ""
@@ -2473,31 +2470,31 @@ msgstr ""
 # men bunga ishonchim komil emas
 #: player-parts/gstreamer-part/gstreamer_part.cpp:491
 #: player-parts/gstreamer-part/videosettings.cpp:51
-#: player-parts/kaffeine-part/kxinewidget.cpp:3385
+#: player-parts/kaffeine-part/kxinewidget.cpp:3364
 #: player-parts/kaffeine-part/videosettings.cpp:59
 msgid "Saturation"
 msgstr ""
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:503
 #: player-parts/gstreamer-part/videosettings.cpp:61
-#: player-parts/kaffeine-part/kxinewidget.cpp:3391
+#: player-parts/kaffeine-part/kxinewidget.cpp:3370
 #: player-parts/kaffeine-part/videosettings.cpp:69
 msgid "Contrast"
 msgstr "Контраст"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:509
 #: player-parts/gstreamer-part/videosettings.cpp:71
-#: player-parts/kaffeine-part/kxinewidget.cpp:3397
+#: player-parts/kaffeine-part/kxinewidget.cpp:3376
 #: player-parts/kaffeine-part/videosettings.cpp:79
 msgid "Brightness"
 msgstr "Ёруғлилик"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3403
+#: player-parts/kaffeine-part/kxinewidget.cpp:3382
 #: player-parts/kaffeine-part/videosettings.cpp:89
 msgid "Audio/Video Offset"
 msgstr ""
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3409
+#: player-parts/kaffeine-part/kxinewidget.cpp:3388
 #: player-parts/kaffeine-part/videosettings.cpp:99
 msgid "Subtitle Offset"
 msgstr ""
@@ -2670,112 +2667,112 @@ msgstr ""
 msgid "Can't create a new xine Stream!"
 msgstr "Янги Xine Stream тузилмади!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1792
+#: player-parts/kaffeine-part/kxinewidget.cpp:1773
 msgid "DVB: opening..."
 msgstr "DVB: очилмоқда..."
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:262
-#: player-parts/kaffeine-part/kxinewidget.cpp:1847
+#: player-parts/kaffeine-part/kxinewidget.cpp:1827
 msgid "Opening..."
 msgstr "Очилмоқда..."
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2084
+#: player-parts/kaffeine-part/kxinewidget.cpp:2063
 msgid "Audio Codec"
 msgstr "Аудио кодек"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2086
+#: player-parts/kaffeine-part/kxinewidget.cpp:2065
 msgid "Video Codec"
 msgstr "Видео кодек"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2096
+#: player-parts/kaffeine-part/kxinewidget.cpp:2075
 msgid "No plugin found to handle this resource"
 msgstr ""
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2101
+#: player-parts/kaffeine-part/kxinewidget.cpp:2080
 msgid "Resource seems to be broken"
 msgstr "Манба ишдан чиққан кўринади"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2106
+#: player-parts/kaffeine-part/kxinewidget.cpp:2085
 msgid "Requested resource does not exist"
 msgstr "Сўралган манбаъ мавжуд эмас"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2111
+#: player-parts/kaffeine-part/kxinewidget.cpp:2090
 msgid "Resource can not be opened"
 msgstr "Манбани очиб бўлмади"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2116
+#: player-parts/kaffeine-part/kxinewidget.cpp:2095
 msgid "Generic error"
 msgstr "Generic хатолик"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:517
 #: player-parts/gstreamer-part/gstreamer_part.cpp:519
-#: player-parts/kaffeine-part/kxinewidget.cpp:2590
-#: player-parts/kaffeine-part/kxinewidget.cpp:2595
+#: player-parts/kaffeine-part/kxinewidget.cpp:2569
+#: player-parts/kaffeine-part/kxinewidget.cpp:2574
 msgid "Mute"
 msgstr "Товушсиз"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2900
-#: player-parts/kaffeine-part/kxinewidget.cpp:2924
-#: player-parts/kaffeine-part/kxinewidget.cpp:2955
+#: player-parts/kaffeine-part/kxinewidget.cpp:2879
+#: player-parts/kaffeine-part/kxinewidget.cpp:2903
+#: player-parts/kaffeine-part/kxinewidget.cpp:2934
 #, c-format
 msgid "Fast Forward %1"
 msgstr "Тезлаштириш %1"
 
+#: player-parts/kaffeine-part/kxinewidget.cpp:2896
 #: player-parts/kaffeine-part/kxinewidget.cpp:2917
-#: player-parts/kaffeine-part/kxinewidget.cpp:2938
-#: player-parts/kaffeine-part/kxinewidget.cpp:2962
+#: player-parts/kaffeine-part/kxinewidget.cpp:2941
 #, c-format
 msgid "Slow Motion %1"
 msgstr "Секинлаштириш %1"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3190
+#: player-parts/kaffeine-part/kxinewidget.cpp:3169
 msgid "Deinterlace: on"
 msgstr "Деинтерлейс: ёқилган"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3191
+#: player-parts/kaffeine-part/kxinewidget.cpp:3170
 msgid "Deinterlace: off"
 msgstr "Деинтерлейс: ўчирилган"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3214
-#: player-parts/kaffeine-part/kxinewidget.cpp:3220
-#: player-parts/kaffeine-part/kxinewidget.cpp:3226
-#: player-parts/kaffeine-part/kxinewidget.cpp:3232
-#: player-parts/kaffeine-part/kxinewidget.cpp:3238
+#: player-parts/kaffeine-part/kxinewidget.cpp:3193
+#: player-parts/kaffeine-part/kxinewidget.cpp:3199
+#: player-parts/kaffeine-part/kxinewidget.cpp:3205
+#: player-parts/kaffeine-part/kxinewidget.cpp:3211
+#: player-parts/kaffeine-part/kxinewidget.cpp:3217
 msgid "Aspect Ratio"
 msgstr ""
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3214
+#: player-parts/kaffeine-part/kxinewidget.cpp:3193
 msgid "Auto"
 msgstr "Авто"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3220
+#: player-parts/kaffeine-part/kxinewidget.cpp:3199
 msgid "4:3"
 msgstr "4:3"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3226
+#: player-parts/kaffeine-part/kxinewidget.cpp:3205
 msgid "16:9"
 msgstr "16:9"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3232
+#: player-parts/kaffeine-part/kxinewidget.cpp:3211
 msgid "1:1"
 msgstr "1:1"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3238
+#: player-parts/kaffeine-part/kxinewidget.cpp:3217
 msgid "2.11:1"
 msgstr "2.11:1"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3247
-#: player-parts/kaffeine-part/kxinewidget.cpp:3257
+#: player-parts/kaffeine-part/kxinewidget.cpp:3226
+#: player-parts/kaffeine-part/kxinewidget.cpp:3236
 msgid "Zoom X"
 msgstr ""
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3267
-#: player-parts/kaffeine-part/kxinewidget.cpp:3277
+#: player-parts/kaffeine-part/kxinewidget.cpp:3246
+#: player-parts/kaffeine-part/kxinewidget.cpp:3256
 msgid "Zoom Y"
 msgstr ""
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3403
-#: player-parts/kaffeine-part/kxinewidget.cpp:3409
+#: player-parts/kaffeine-part/kxinewidget.cpp:3382
+#: player-parts/kaffeine-part/kxinewidget.cpp:3388
 msgid "msec"
 msgstr "м.сония"
 
@@ -2882,6 +2879,9 @@ msgstr "CD, VCD, DVD ускуна"
 #: player-parts/dummy-part/dummy_part.cpp:75
 msgid "DummyPart"
 msgstr ""
+
+#~ msgid "Name must not start with ( > )!"
+#~ msgstr "Ном (>) белгиси билан бошланмаслиги керак!"
 
 #~ msgid "Audio:"
 #~ msgstr "Аудио:"
