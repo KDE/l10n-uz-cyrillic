@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kplato\n"
-"POT-Creation-Date: 2006-02-08 10:35+0100\n"
+"POT-Creation-Date: 2006-02-10 10:39+0100\n"
 "PO-Revision-Date: 2004-03-06 11:10-0500\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -63,7 +63,7 @@ msgid "Description"
 msgstr "Давом этиши"
 
 #. i18n: file kptaccountspanelbase.ui line 101
-#: rc.cpp:48 rc.cpp:656
+#: rc.cpp:48 rc.cpp:736
 #, no-c-format
 msgid "&New"
 msgstr ""
@@ -152,176 +152,313 @@ msgstr ""
 msgid "Allow overbooking of resources"
 msgstr ""
 
+#. i18n: file kptconfigtaskpanelbase.ui line 39
+#: rc.cpp:101 rc.cpp:399 rc.cpp:477
+#, no-c-format
+msgid "Responsible:"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 47
+#: rc.cpp:104 rc.cpp:109 rc.cpp:402 rc.cpp:417 rc.cpp:480 rc.cpp:495
+#, no-c-format
+msgid ""
+"The person responsible for this task.\n"
+"\n"
+"This is not limited to persons available in a resource group but can be anyone. "
+"You can even directly access your address book with the Choose button."
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 65
+#: rc.cpp:114 rc.cpp:422 rc.cpp:500 rc.cpp:690
+#, no-c-format
+msgid "Choose..."
+msgstr "Танлаш"
+
+#. i18n: file kptconfigtaskpanelbase.ui line 71
+#: rc.cpp:118 rc.cpp:121 rc.cpp:426 rc.cpp:504 rc.cpp:507
+#, no-c-format
+msgid "Insert a person from your address book."
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 84
+#: rc.cpp:124 rc.cpp:510
+#, no-c-format
+msgid "Timing"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 89
+#: rc.cpp:127 rc.cpp:513
+#, no-c-format
+msgid ""
+"Scheduling Configuration. These settings affect the actual scheduling of the "
+"task.\n"
+"\n"
+"The estimation can be either effort based or duration based. If it is effort "
+"based, the final duration will depend on the resources assigned to the task. "
+"For duration based estimation, the assigned resources don't affect the fixed "
+"duration of the task, but only the costs."
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 98
+#: rc.cpp:132 rc.cpp:518
+#, no-c-format
+msgid "Effort"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 103
+#: rc.cpp:135 rc.cpp:521
+#, no-c-format
+msgid "Duration"
+msgstr "Давом этиши"
+
+#. i18n: file kptconfigtaskpanelbase.ui line 119
+#: kptprojectdialog.cc:94 rc.cpp:138 rc.cpp:524
+#, fuzzy, no-c-format
+msgid "As Soon as Possible"
+msgstr "Имкони борича тез"
+
+#. i18n: file kptconfigtaskpanelbase.ui line 124
+#: kptprojectdialog.cc:98 rc.cpp:141 rc.cpp:527
+#, fuzzy, no-c-format
+msgid "As Late as Possible"
+msgstr "Имкони борича кеч"
+
+#. i18n: file kptconfigtaskpanelbase.ui line 129
+#: rc.cpp:144 rc.cpp:364 rc.cpp:530
+#, no-c-format
+msgid "Must Start On"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 134
+#: rc.cpp:147 rc.cpp:533
+#, no-c-format
+msgid "Must Finish On"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 139
+#: rc.cpp:150 rc.cpp:536
+#, no-c-format
+msgid "Start Not Earlier Than"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 144
+#: rc.cpp:153 rc.cpp:539
+#, no-c-format
+msgid "Finish Not Later Than"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 149
+#: rc.cpp:156 rc.cpp:542
+#, no-c-format
+msgid "Fixed Interval"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 169
+#: rc.cpp:159 rc.cpp:545
+#, fuzzy, no-c-format
+msgid "Schedule:"
+msgstr "Режалаштириш"
+
+#. i18n: file kptconfigtaskpanelbase.ui line 188
+#: rc.cpp:162 rc.cpp:548
+#, no-c-format
+msgid "Estimate:"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 245
+#: rc.cpp:165 rc.cpp:551
+#, no-c-format
+msgid "Optimistic:"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 256
+#: rc.cpp:168 rc.cpp:174 rc.cpp:554 rc.cpp:560 rc.cpp:714
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file kptconfigtaskpanelbase.ui line 270
+#: rc.cpp:171 rc.cpp:557
+#, no-c-format
+msgid "Pessimistic:"
+msgstr ""
+
+#. i18n: file kptconfigtaskpanelbase.ui line 293
+#: rc.cpp:177 rc.cpp:429 rc.cpp:563
+#, fuzzy, no-c-format
+msgid "Note:"
+msgstr "Йўқ"
+
 #. i18n: file kptdurationwidget.ui line 30
-#: rc.cpp:100
+#: rc.cpp:180
 #, fuzzy, no-c-format
 msgid "DurationWidget"
 msgstr "Давом этиши"
 
 #. i18n: file kptdurationwidget.ui line 77
-#: rc.cpp:103
+#: rc.cpp:183
 #, no-c-format
 msgid "Use whole numbers or decimal fractions"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 122
-#: rc.cpp:107
+#: rc.cpp:187
 #, no-c-format
 msgid "0"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 137
-#: rc.cpp:110
+#: rc.cpp:190
 #, no-c-format
 msgid "d"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 148
-#: rc.cpp:113 rc.cpp:128
+#: rc.cpp:193 rc.cpp:208
 #, no-c-format
 msgid ":"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 173
-#: rc.cpp:116 rc.cpp:122 rc.cpp:131
+#: rc.cpp:196 rc.cpp:202 rc.cpp:211
 #, no-c-format
 msgid "00"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 187
-#: rc.cpp:119
+#: rc.cpp:199
 #, no-c-format
 msgid "h"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 226
-#: rc.cpp:125
+#: rc.cpp:205
 #, no-c-format
 msgid "m"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 276
-#: rc.cpp:134
+#: rc.cpp:214
 #, no-c-format
 msgid "s"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 287
-#: rc.cpp:137
+#: rc.cpp:217
 #, no-c-format
 msgid "."
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 318
-#: rc.cpp:140
+#: rc.cpp:220
 #, no-c-format
 msgid "000"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 332
-#: rc.cpp:143
+#: rc.cpp:223
 #, no-c-format
 msgid "ms"
 msgstr ""
 
 #. i18n: file kptintervaleditbase.ui line 17
-#: kptcalendareditbase.cc:130 rc.cpp:146
+#: kptcalendareditbase.cc:130 rc.cpp:226
 #, no-c-format
 msgid "CalendarEditBase"
 msgstr ""
 
 #. i18n: file kptintervaleditbase.ui line 29
-#: kptcalendareditbase.cc:87 kptcalendareditbase.cc:135 rc.cpp:149
+#: kptcalendareditbase.cc:87 kptcalendareditbase.cc:135 rc.cpp:229
 #, no-c-format
 msgid "Work Interval"
 msgstr ""
 
 #. i18n: file kptintervaleditbase.ui line 69
-#: rc.cpp:152 rc.cpp:568
+#: rc.cpp:232 rc.cpp:648
 #, no-c-format
 msgid "From:"
 msgstr "Дан:"
 
 #. i18n: file kptintervaleditbase.ui line 92
-#: rc.cpp:155 rc.cpp:571
+#: rc.cpp:235 rc.cpp:651
 #, no-c-format
 msgid "To:"
 msgstr ""
 
 #. i18n: file kptintervaleditbase.ui line 142
-#: kptcalendareditbase.cc:137 rc.cpp:161
+#: kptcalendareditbase.cc:137 rc.cpp:241
 #, no-c-format
 msgid "Add Interval"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 17
-#: rc.cpp:164
+#: rc.cpp:244
 #, fuzzy, no-c-format
 msgid "ProjectPanelBase"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kptmainprojectpanelbase.ui line 39
-#: rc.cpp:167 rc.cpp:173
+#: rc.cpp:247 rc.cpp:253
 #, fuzzy, no-c-format
 msgid "The project leader."
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kptmainprojectpanelbase.ui line 47
-#: rc.cpp:170
+#: rc.cpp:250
 #, no-c-format
 msgid "&Leader:"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 64
-#: rc.cpp:176 rc.cpp:182
+#: rc.cpp:256 rc.cpp:262
 #, fuzzy, no-c-format
 msgid "The project name."
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kptmainprojectpanelbase.ui line 72
-#: rc.cpp:179
+#: rc.cpp:259
 #, fuzzy, no-c-format
 msgid "N&ame:"
 msgstr "Номи:"
 
 #. i18n: file kptmainprojectpanelbase.ui line 123
-#: rc.cpp:186
+#: rc.cpp:266
 #, no-c-format
 msgid "<p align=\"right\"></p>ID:"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 129
-#: rc.cpp:189 rc.cpp:198
+#: rc.cpp:269 rc.cpp:278
 #, no-c-format
 msgid "The unique project identification"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 137
-#: rc.cpp:192 rc.cpp:263
+#: rc.cpp:272 rc.cpp:343
 #, no-c-format
 msgid "&Choose..."
 msgstr "&Танлаш"
 
 #. i18n: file kptmainprojectpanelbase.ui line 140
-#: rc.cpp:195
+#: rc.cpp:275
 #, no-c-format
 msgid "Choose a project leader from your address book."
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 156
-#: rc.cpp:201 rc.cpp:302 rc.cpp:380
+#: rc.cpp:281 rc.cpp:382 rc.cpp:460
 #, no-c-format
 msgid "WBS:"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 169
-#: kptmainprojectpanel.cc:60 rc.cpp:204 rc.cpp:266
+#: kptmainprojectpanel.cc:60 rc.cpp:284 rc.cpp:346
 #, no-c-format
 msgid "Scheduling"
 msgstr "Режалаштириш"
 
 #. i18n: file kptmainprojectpanelbase.ui line 175
-#: rc.cpp:207
+#: rc.cpp:287
 #, no-c-format
 msgid ""
 "Here you define when the project shall start or end.\n"
@@ -335,49 +472,49 @@ msgid ""
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 186
-#: rc.cpp:213
+#: rc.cpp:293
 #, no-c-format
 msgid "Define when the project shall start."
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 204
-#: rc.cpp:216
+#: rc.cpp:296
 #, no-c-format
 msgid "Define when the project shall end."
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 212
-#: rc.cpp:219
+#: rc.cpp:299
 #, fuzzy, no-c-format
 msgid "End date:"
 msgstr "Сана"
 
 #. i18n: file kptmainprojectpanelbase.ui line 218
-#: rc.cpp:222
+#: rc.cpp:302
 #, no-c-format
 msgid "Select this to schedule the project backward from end time."
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 226
-#: rc.cpp:225
+#: rc.cpp:305
 #, no-c-format
 msgid "Start date:"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 232
-#: rc.cpp:228
+#: rc.cpp:308
 #, no-c-format
 msgid "Select this to schedule the project forward from start time."
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 242
-#: rc.cpp:231 rc.cpp:296 rc.cpp:486
+#: rc.cpp:311 rc.cpp:376 rc.cpp:566
 #, no-c-format
 msgid "&Project notes and summary:"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 250
-#: rc.cpp:234 rc.cpp:239
+#: rc.cpp:314 rc.cpp:319
 #, no-c-format
 msgid ""
 "Various notes associated with the project or a project summary.\n"
@@ -387,25 +524,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file kptmilestoneprogresspanelbase.ui line 17
-#: rc.cpp:244
+#: rc.cpp:324
 #, fuzzy, no-c-format
 msgid "MilestoneProgressPanelBase"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kptmilestoneprogresspanelbase.ui line 28
-#: rc.cpp:247
+#: rc.cpp:327
 #, no-c-format
 msgid "Finished"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 28
-#: kpttaskdialog.cc:41 rc.cpp:250
+#: kpttaskdialog.cc:41 rc.cpp:330
 #, no-c-format
 msgid "&General"
 msgstr "&Умумий"
 
 #. i18n: file kptprojectdialogbase.ui line 50
-#: rc.cpp:254
+#: rc.cpp:334
 #, no-c-format
 msgid ""
 "Give a name to the project to identify it. Example can be 'rewrite explorer' or "
@@ -413,85 +550,79 @@ msgid ""
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 58
-#: rc.cpp:257
+#: rc.cpp:337
 #, no-c-format
 msgid "Project &leader:"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 74
-#: rc.cpp:260
+#: rc.cpp:340
 #, no-c-format
 msgid "Project n&ame:"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kptprojectdialogbase.ui line 98
-#: rc.cpp:269
+#: rc.cpp:349
 #, no-c-format
 msgid "The scheduling type will influence how variable times events are placed"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 107
-#: rc.cpp:272
+#: rc.cpp:352
 #, no-c-format
 msgid "ASAP"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 112
-#: rc.cpp:275
+#: rc.cpp:355
 #, no-c-format
 msgid "ALAP"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 117
-#: rc.cpp:278
+#: rc.cpp:358
 #, no-c-format
 msgid "Start Not Earlier Then"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 122
-#: rc.cpp:281
+#: rc.cpp:361
 #, no-c-format
 msgid "Finish Not Later Then"
 msgstr ""
 
-#. i18n: file kptprojectdialogbase.ui line 127
-#: rc.cpp:284 rc.cpp:450
-#, no-c-format
-msgid "Must Start On"
-msgstr ""
-
 #. i18n: file kptprojectdialogbase.ui line 146
-#: rc.cpp:287
+#: rc.cpp:367
 #, no-c-format
 msgid "Starting Date"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 168
-#: rc.cpp:290
+#: rc.cpp:370
 #, no-c-format
 msgid "Specify time:"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 220
-#: rc.cpp:293
+#: rc.cpp:373
 #, no-c-format
 msgid "&Notes"
 msgstr ""
 
 #. i18n: file kptsummarytaskgeneralpanelbase.ui line 23
-#: rc.cpp:299
+#: rc.cpp:379
 #, fuzzy, no-c-format
 msgid "SummaryTaskGeneralPanelBase"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kptsummarytaskgeneralpanelbase.ui line 56
-#: rc.cpp:305 rc.cpp:383
+#: rc.cpp:385 rc.cpp:463
 #, no-c-format
 msgid "Work Breakdown Structure"
 msgstr ""
 
 #. i18n: file kptsummarytaskgeneralpanelbase.ui line 61
-#: rc.cpp:308 rc.cpp:386
+#: rc.cpp:388 rc.cpp:466
 #, no-c-format
 msgid ""
 "The Work Breakdown Structure introduces numbering for all tasks in the project, "
@@ -502,541 +633,410 @@ msgid ""
 msgstr ""
 
 #. i18n: file kptsummarytaskgeneralpanelbase.ui line 69
-#: rc.cpp:313 rc.cpp:391 rc.cpp:598
+#: rc.cpp:393 rc.cpp:471 rc.cpp:678
 #, no-c-format
 msgid "Name:"
 msgstr "Номи:"
 
 #. i18n: file kptsummarytaskgeneralpanelbase.ui line 75
-#: rc.cpp:316 rc.cpp:334 rc.cpp:394 rc.cpp:412
+#: rc.cpp:396 rc.cpp:414 rc.cpp:474 rc.cpp:492
 #, no-c-format
 msgid "The name of the Task."
 msgstr ""
 
-#. i18n: file kptsummarytaskgeneralpanelbase.ui line 83
-#: rc.cpp:319 rc.cpp:397
-#, no-c-format
-msgid "Responsible:"
-msgstr ""
-
-#. i18n: file kptsummarytaskgeneralpanelbase.ui line 91
-#: rc.cpp:322 rc.cpp:337 rc.cpp:400 rc.cpp:415
-#, no-c-format
-msgid ""
-"The person responsible for this task.\n"
-"\n"
-"This is not limited to persons available in a resource group but can be anyone. "
-"You can even directly access your address book with the Choose button."
-msgstr ""
-
 #. i18n: file kptsummarytaskgeneralpanelbase.ui line 142
-#: rc.cpp:328 rc.cpp:406
+#: rc.cpp:408 rc.cpp:486
 #, fuzzy, no-c-format
 msgid "Task id:"
 msgstr "Вазифанинг номи: "
 
 #. i18n: file kptsummarytaskgeneralpanelbase.ui line 148
-#: rc.cpp:331 rc.cpp:409
+#: rc.cpp:411 rc.cpp:489
 #, no-c-format
 msgid "This is the unique identifier for this task."
 msgstr ""
 
-#. i18n: file kptsummarytaskgeneralpanelbase.ui line 198
-#: rc.cpp:342 rc.cpp:420 rc.cpp:610
-#, no-c-format
-msgid "Choose..."
-msgstr "Танлаш"
-
-#. i18n: file kptsummarytaskgeneralpanelbase.ui line 204
-#: rc.cpp:346 rc.cpp:424 rc.cpp:427
-#, no-c-format
-msgid "Insert a person from your address book."
-msgstr ""
-
-#. i18n: file kptsummarytaskgeneralpanelbase.ui line 218
-#: rc.cpp:349 rc.cpp:483
-#, fuzzy, no-c-format
-msgid "Note:"
-msgstr "Йўқ"
-
 #. i18n: file kpttaskcostpanelbase.ui line 17
-#: rc.cpp:352
+#: rc.cpp:432
 #, fuzzy, no-c-format
 msgid "TaskCostPanelBase"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kpttaskcostpanelbase.ui line 31
-#: rc.cpp:355
+#: rc.cpp:435
 #, no-c-format
 msgid "Running"
 msgstr ""
 
 #. i18n: file kpttaskcostpanelbase.ui line 42
-#: rc.cpp:358 rc.cpp:367 rc.cpp:373
+#: rc.cpp:438 rc.cpp:447 rc.cpp:453
 #, no-c-format
 msgid "Account:"
 msgstr ""
 
 #. i18n: file kpttaskcostpanelbase.ui line 82
-#: rc.cpp:361
+#: rc.cpp:441
 #, no-c-format
 msgid "Startup"
 msgstr ""
 
 #. i18n: file kpttaskcostpanelbase.ui line 98
-#: rc.cpp:364 rc.cpp:376
+#: rc.cpp:444 rc.cpp:456
 #, fuzzy, no-c-format
 msgid "Cost:"
 msgstr "Йўқ"
 
 #. i18n: file kpttaskcostpanelbase.ui line 146
-#: rc.cpp:370
+#: rc.cpp:450
 #, no-c-format
 msgid "Shutdown"
 msgstr ""
 
-#. i18n: file kpttaskgeneralpanelbase.ui line 206
-#: rc.cpp:430
-#, no-c-format
-msgid "Timing"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 211
-#: rc.cpp:433
-#, no-c-format
-msgid ""
-"Scheduling Configuration. These settings affect the actual scheduling of the "
-"task.\n"
-"\n"
-"The estimation can be either effort based or duration based. If it is effort "
-"based, the final duration will depend on the resources assigned to the task. "
-"For duration based estimation, the assigned resources don't affect the fixed "
-"duration of the task, but only the costs."
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 220
-#: rc.cpp:438
-#, no-c-format
-msgid "Effort"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 225
-#: rc.cpp:441
-#, no-c-format
-msgid "Duration"
-msgstr "Давом этиши"
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 241
-#: kptprojectdialog.cc:94 rc.cpp:444
-#, fuzzy, no-c-format
-msgid "As Soon as Possible"
-msgstr "Имкони борича тез"
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 246
-#: kptprojectdialog.cc:98 rc.cpp:447
-#, fuzzy, no-c-format
-msgid "As Late as Possible"
-msgstr "Имкони борича кеч"
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 256
-#: rc.cpp:453
-#, no-c-format
-msgid "Must Finish On"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 261
-#: rc.cpp:456
-#, no-c-format
-msgid "Start Not Earlier Than"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 266
-#: rc.cpp:459
-#, no-c-format
-msgid "Finish Not Later Than"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 271
-#: rc.cpp:462
-#, no-c-format
-msgid "Fixed Interval"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 291
-#: rc.cpp:465
-#, fuzzy, no-c-format
-msgid "Schedule:"
-msgstr "Режалаштириш"
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 310
-#: rc.cpp:468
-#, no-c-format
-msgid "Estimate:"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 367
-#: rc.cpp:471
-#, no-c-format
-msgid "Optimistic:"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 378
-#: rc.cpp:474 rc.cpp:480 rc.cpp:634
-#, no-c-format
-msgid "%"
-msgstr "%"
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 392
-#: rc.cpp:477
-#, no-c-format
-msgid "Pessimistic:"
-msgstr ""
-
 #. i18n: file kpttaskprogresspanelbase.ui line 17
-#: rc.cpp:489
+#: rc.cpp:569
 #, fuzzy, no-c-format
 msgid "TaskProgressPanelBase"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kpttaskprogresspanelbase.ui line 61
-#: rc.cpp:492
+#: rc.cpp:572
 #, no-c-format
 msgid "Started:"
 msgstr ""
 
 #. i18n: file kpttaskprogresspanelbase.ui line 72
-#: rc.cpp:496
+#: rc.cpp:576
 #, no-c-format
 msgid "Finished:"
 msgstr ""
 
 #. i18n: file kpttaskprogresspanelbase.ui line 116
-#: rc.cpp:501
+#: rc.cpp:581
 #, no-c-format
 msgid "Percent completed:"
 msgstr ""
 
 #. i18n: file kpttaskprogresspanelbase.ui line 127
-#: rc.cpp:504
+#: rc.cpp:584
 #, no-c-format
 msgid "Remaining effort:"
 msgstr ""
 
 #. i18n: file kpttaskprogresspanelbase.ui line 138
-#: rc.cpp:507
+#: rc.cpp:587
 #, no-c-format
 msgid "Actual effort:"
 msgstr ""
 
 #. i18n: file kpttaskprogresspanelbase.ui line 221
-#: rc.cpp:510
+#: rc.cpp:590
 #, fuzzy, no-c-format
 msgid "Scheduled"
 msgstr "Режалаштириш"
 
 #. i18n: file kpttaskprogresspanelbase.ui line 337
-#: rc.cpp:513
+#: rc.cpp:593
 #, no-c-format
 msgid "Start:"
 msgstr ""
 
 #. i18n: file kpttaskprogresspanelbase.ui line 345
-#: rc.cpp:516
+#: rc.cpp:596
 #, no-c-format
 msgid "Finish:"
 msgstr ""
 
 #. i18n: file kpttaskprogresspanelbase.ui line 353
-#: rc.cpp:519
+#: rc.cpp:599
 #, no-c-format
 msgid "Effort:"
 msgstr ""
 
 #. i18n: file kpttaskresourcespanelbase.ui line 17
-#: rc.cpp:522
+#: rc.cpp:602
 #, fuzzy, no-c-format
 msgid "TaskResourcesPanelBase"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kpttaskresourcespanelbase.ui line 29
-#: rc.cpp:525
+#: rc.cpp:605
 #, no-c-format
 msgid "Group"
 msgstr "Гуруҳ"
 
 #. i18n: file kpttaskresourcespanelbase.ui line 40
-#: rc.cpp:528
+#: rc.cpp:608
 #, no-c-format
 msgid "Max. Units"
 msgstr ""
 
 #. i18n: file kpttaskresourcespanelbase.ui line 72
-#: rc.cpp:531
+#: rc.cpp:611
 #, no-c-format
 msgid "Assign resources:"
 msgstr ""
 
 #. i18n: file kpttaskresourcespanelbase.ui line 81
-#: kpttaskappointmentsview.cc:62 rc.cpp:534 rc.cpp:662
+#: kpttaskappointmentsview.cc:62 rc.cpp:614 rc.cpp:742
 #, no-c-format
 msgid "Resource"
 msgstr ""
 
 #. i18n: file kptwbsdefinitionpanelbase.ui line 17
-#: rc.cpp:537
+#: rc.cpp:617
 #, fuzzy, no-c-format
 msgid "WBSDefinitionPanelBase"
 msgstr "Лойиҳанинг &номи:"
 
 #. i18n: file kptwbsdefinitionpanelbase.ui line 53
-#: rc.cpp:543
+#: rc.cpp:623
 #, fuzzy, no-c-format
 msgid "Code:"
 msgstr "Йўқ"
 
 #. i18n: file kptwbsdefinitionpanelbase.ui line 66
-#: rc.cpp:546
+#: rc.cpp:626
 #, no-c-format
 msgid "Separator:"
 msgstr ""
 
 #. i18n: file kptwbsdefinitionpanelbase.ui line 86
-#: rc.cpp:549
+#: rc.cpp:629
 #, no-c-format
 msgid "Use Levels"
 msgstr ""
 
 #. i18n: file kptwbsdefinitionpanelbase.ui line 101
-#: rc.cpp:552
+#: rc.cpp:632
 #, no-c-format
 msgid "Code"
 msgstr ""
 
 #. i18n: file kptwbsdefinitionpanelbase.ui line 106
-#: rc.cpp:555
+#: rc.cpp:635
 #, no-c-format
 msgid "Separator"
 msgstr ""
 
 #. i18n: file kptwbsdefinitionpanelbase.ui line 168
-#: rc.cpp:561
+#: rc.cpp:641
 #, no-c-format
 msgid "Add Level"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 34
-#: rc.cpp:564
+#: rc.cpp:644
 #, no-c-format
 msgid "RelationPanel"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 152
-#: rc.cpp:574
+#: rc.cpp:654
 #, fuzzy, no-c-format
 msgid "Task 1"
 msgstr "Вазифанинг номи: "
 
 #. i18n: file relationpanel.ui line 163
-#: rc.cpp:577
+#: rc.cpp:657
 #, fuzzy, no-c-format
 msgid "Task 2"
 msgstr "Вазифанинг номи: "
 
 #. i18n: file relationpanel.ui line 176
-#: rc.cpp:580
+#: rc.cpp:660
 #, no-c-format
 msgid "Relationship Type"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 187
-#: rc.cpp:583
+#: rc.cpp:663
 #, no-c-format
 msgid "Finish-Start"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 195
-#: rc.cpp:586
+#: rc.cpp:666
 #, no-c-format
 msgid "Finish-Finish"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 203
-#: rc.cpp:589
+#: rc.cpp:669
 #, no-c-format
 msgid "Start-Start"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 221
-#: rc.cpp:592
+#: rc.cpp:672
 #, no-c-format
 msgid "Lag:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 17
-#: rc.cpp:595
+#: rc.cpp:675
 #, no-c-format
 msgid "ResourceDialogBase"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 56
-#: rc.cpp:601
+#: rc.cpp:681
 #, no-c-format
 msgid "Initials:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 97
-#: rc.cpp:605
+#: rc.cpp:685
 #, no-c-format
 msgid "<p align=\"right\">Email:</p>"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 140
-#: rc.cpp:613
+#: rc.cpp:693
 #, no-c-format
 msgid "Choose resource from addressbook"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 160
-#: rc.cpp:616
+#: rc.cpp:696
 #, no-c-format
 msgid "Resource type:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 169
-#: kptresourceview.cc:238 rc.cpp:619
+#: kptresourceview.cc:238 rc.cpp:699
 #, no-c-format
 msgid "Work"
 msgstr "Иш"
 
 #. i18n: file resourcedialogbase.ui line 174
-#: kptresourceview.cc:241 rc.cpp:622
+#: kptresourceview.cc:241 rc.cpp:702
 #, no-c-format
 msgid "Material"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 186
-#: rc.cpp:625
+#: rc.cpp:705
 #, no-c-format
 msgid "<p align=\"right\">Calendar:</p>"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 212
-#: rc.cpp:628
+#: rc.cpp:708
 #, no-c-format
 msgid "Available:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 231
-#: rc.cpp:631
+#: rc.cpp:711
 #, no-c-format
 msgid "<p align=\"right\">From:</p>"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 276
-#: rc.cpp:637
+#: rc.cpp:717
 #, no-c-format
 msgid "<p align=\"right\">Until:</p>"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 305
-#: rc.cpp:640
+#: rc.cpp:720
 #, no-c-format
 msgid "Cost"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 316
-#: rc.cpp:643
+#: rc.cpp:723
 #, no-c-format
 msgid "Hourly rate:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 327
-#: rc.cpp:646
+#: rc.cpp:726
 #, no-c-format
 msgid "Overtime rate:"
 msgstr ""
 
 #. i18n: file resourcespanelbase.ui line 23
-#: rc.cpp:650
+#: rc.cpp:730
 #, no-c-format
 msgid "ResourcesPanelBase"
 msgstr ""
 
 #. i18n: file resourcespanelbase.ui line 40
-#: rc.cpp:653
+#: rc.cpp:733
 #, fuzzy, no-c-format
 msgid "Resource Group"
 msgstr "Таҳрирлаш"
 
 #. i18n: file resourcespanelbase.ui line 141
-#: rc.cpp:665
+#: rc.cpp:745
 #, no-c-format
 msgid "New..."
 msgstr ""
 
 #. i18n: file resourcespanelbase.ui line 149
-#: kptview.cc:259 rc.cpp:668
+#: kptview.cc:259 rc.cpp:748
 #, no-c-format
 msgid "Edit..."
 msgstr "Таҳрирлаш"
 
 #. i18n: file standardworktimedialogbase.ui line 17
-#: rc.cpp:676
+#: rc.cpp:756
 #, no-c-format
 msgid "StandardWorktime"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 20
-#: rc.cpp:679
+#: rc.cpp:759
 #, no-c-format
 msgid ""
 "These values are used when you estimate the effort needed to complete a task."
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 34
-#: rc.cpp:682
+#: rc.cpp:762
 #, no-c-format
 msgid "Hours per year:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 45
-#: rc.cpp:685
+#: rc.cpp:765
 #, no-c-format
 msgid "Hours per month:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 56
-#: rc.cpp:688
+#: rc.cpp:768
 #, no-c-format
 msgid "Hours per day:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 67
-#: rc.cpp:691
+#: rc.cpp:771
 #, no-c-format
 msgid "Hours per week:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 87
-#: rc.cpp:694
+#: rc.cpp:774
 #, no-c-format
 msgid "Number of working hours in a normal year."
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 104
-#: rc.cpp:697
+#: rc.cpp:777
 #, no-c-format
 msgid "Number of working hours in a normal month."
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 121
-#: rc.cpp:700
+#: rc.cpp:780
 #, no-c-format
 msgid "Number of working hours in a normal week."
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 138
-#: rc.cpp:703
+#: rc.cpp:783
 #, no-c-format
 msgid "Number of working hours in a normal day."
 msgstr ""
@@ -1174,10 +1174,6 @@ msgstr ""
 #, fuzzy
 msgid "Configure KPlato"
 msgstr "Мослаш"
-
-#: kptconfigdialog.cc:55
-msgid "Behavior"
-msgstr ""
 
 #: kptconfigdialog.cc:58
 msgid "Task Defaults"
@@ -1365,21 +1361,21 @@ msgstr ""
 msgid "Add Relationship"
 msgstr ""
 
-#: kptrelationdialog.cc:57 kpttaskgeneralpanel.cc:87
+#: kptrelationdialog.cc:57 kpttaskdefaultpanel.cc:75 kpttaskgeneralpanel.cc:87
 #, fuzzy
 msgid ""
 "_: days\n"
 "d"
 msgstr " кун"
 
-#: kptrelationdialog.cc:58 kpttaskgeneralpanel.cc:88
+#: kptrelationdialog.cc:58 kpttaskdefaultpanel.cc:76 kpttaskgeneralpanel.cc:88
 #, fuzzy
 msgid ""
 "_: hours\n"
 "h"
 msgstr " соат"
 
-#: kptrelationdialog.cc:59 kpttaskgeneralpanel.cc:89
+#: kptrelationdialog.cc:59 kpttaskdefaultpanel.cc:77 kpttaskgeneralpanel.cc:89
 #, fuzzy
 msgid ""
 "_: minutes\n"
@@ -1533,6 +1529,11 @@ msgstr ""
 #: kpttaskcostpanel.cc:80
 #, fuzzy
 msgid "Modify Task Cost"
+msgstr "Таҳрирлаш"
+
+#: kpttaskdefaultpanel.cc:101
+#, fuzzy
+msgid "Modify Default Task"
 msgstr "Таҳрирлаш"
 
 #: kpttaskdialog.cc:36
