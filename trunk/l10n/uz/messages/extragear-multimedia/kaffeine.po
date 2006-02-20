@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-15 10:44+0100\n"
+"POT-Creation-Date: 2006-02-20 11:15+0100\n"
 "PO-Revision-Date: 2006-02-19 18:53+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -448,7 +448,8 @@ msgstr "Тўхтатиш/Ўчириш"
 msgid ""
 "This timer is repeated. Do you want to skip the current job or delete the "
 "timer?"
-msgstr "Ушбу таймер қайтарилди. Жорий вазифани ўтказиб юбориш ёки ўчиришни истайсизми?"
+msgstr ""
+"Ушбу таймер қайтарилди. Жорий вазифани ўтказиб юбориш ёки ўчиришни истайсизми?"
 
 #: input/dvb/krecord.cpp:225
 msgid "Skip Current"
@@ -498,7 +499,7 @@ msgstr "DVB-T"
 msgid "DVB-S"
 msgstr "DVB-S"
 
-#: input/disc/cddb.cpp:332 input/disc/disc.cpp:456 input/disc/disc.cpp:457
+#: input/disc/cddb.cpp:332 input/disc/disc.cpp:505 input/disc/disc.cpp:506
 #: input/dvb/dvbconfig.cpp:490
 msgid "Unknown"
 msgstr "Номаълум"
@@ -721,31 +722,44 @@ msgstr ""
 msgid "Can't init DVB broadcast socket."
 msgstr ""
 
-#: input/disc/paranoia.cpp:259
+#: input/disc/paranoia.cpp:263
+msgid "No audio encoders could be found."
+msgstr ""
+
+#: input/disc/paranoia.cpp:307 input/disc/paranoia.cpp:314
+#, fuzzy
+msgid "Loading of encoder '%1' failed."
+msgstr "Плейернинг '%1' қисмини юклаш муваффақиятсиз тугади."
+
+#: input/disc/paranoia.cpp:343
+msgid "Unable to create folder: "
+msgstr ""
+
+#: input/disc/paranoia.cpp:534
 msgid "MB"
 msgstr "Мб"
 
-#: input/disc/paranoia.cpp:260
+#: input/disc/paranoia.cpp:535
 msgid "KB"
 msgstr "Кб"
 
-#: input/disc/paranoia.cpp:261
+#: input/disc/paranoia.cpp:536
 msgid "Bytes"
 msgstr "Байт"
 
-#: input/disc/disc.cpp:87 input/disc/disc.cpp:325 kaffeine.cpp:173
+#: input/disc/disc.cpp:87 input/disc/disc.cpp:333 kaffeine.cpp:173
 msgid "AudioCD - DVD - VCD"
 msgstr ""
 
-#: input/disc/disc.cpp:102 input/disc/disc.cpp:106 input/disc/disc.cpp:398
+#: input/disc/disc.cpp:102 input/disc/disc.cpp:106 input/disc/disc.cpp:447
 msgid "Audio CD"
 msgstr "Аудио компакт-диск"
 
-#: input/disc/disc.cpp:108 input/disc/disc.cpp:112 input/disc/disc.cpp:500
+#: input/disc/disc.cpp:108 input/disc/disc.cpp:112 input/disc/disc.cpp:552
 msgid "DVD"
 msgstr "DVD"
 
-#: input/disc/disc.cpp:114 input/disc/disc.cpp:118 input/disc/disc.cpp:520
+#: input/disc/disc.cpp:114 input/disc/disc.cpp:118 input/disc/disc.cpp:574
 msgid "VCD"
 msgstr "VCD"
 
@@ -759,7 +773,7 @@ msgstr "Албом:"
 
 #: input/audiobrowser/playlist.cpp:342 input/audiobrowser/urllistview.cpp:68
 #: input/audiobrowser/urllistview.cpp:193 input/disc/disc.cpp:153
-#: input/disc/disc.cpp:459 input/disc/disc.cpp:462
+#: input/disc/disc.cpp:508 input/disc/disc.cpp:511
 #: player-parts/gstreamer-part/gstreamer_part.cpp:442
 #: player-parts/gstreamer-part/gstreamer_part.cpp:673
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1125
@@ -768,39 +782,43 @@ msgstr "Албом:"
 msgid "Track"
 msgstr "Қўшиқ"
 
+#: input/disc/disc.cpp:167
+msgid "Select the tracks you want to rip and click the <b>Encode</b> button."
+msgstr ""
+
 #: input/disc/disc.cpp:171
 msgid "Encode..."
 msgstr ""
 
-#: input/disc/disc.cpp:206
+#: input/disc/disc.cpp:212
 msgid "Play Audio CD"
 msgstr "Аудио дискни тинглаш"
 
-#: input/disc/disc.cpp:209
+#: input/disc/disc.cpp:215
 msgid "Play DVD"
 msgstr "DVD кўриш"
 
-#: input/disc/disc.cpp:212
+#: input/disc/disc.cpp:218
 msgid "Play VCD"
 msgstr "VCD кўриш"
 
-#: input/disc/disc.cpp:312
+#: input/disc/disc.cpp:318
 msgid "Open &DVD"
 msgstr "&DVD кўриш"
 
-#: input/disc/disc.cpp:313
+#: input/disc/disc.cpp:319
 msgid "Open &VCD"
 msgstr "&VCD кўриш"
 
-#: input/disc/disc.cpp:314
+#: input/disc/disc.cpp:320
 msgid "Open &Audio-CD"
 msgstr "Аудио дискни &тинглаш"
 
-#: input/disc/disc.cpp:345
+#: input/disc/disc.cpp:374
 msgid "You must select the tracks to rip."
 msgstr ""
 
-#: input/disc/disc.cpp:482
+#: input/disc/disc.cpp:531
 msgid "No audio CD found."
 msgstr ""
 
@@ -827,6 +845,27 @@ msgstr ""
 
 #: input/disc/cddb.cpp:535
 msgid "Found close cddb entry ..."
+msgstr ""
+
+#: input/disc/plugins/oggvorbis/koggenc.cpp:67
+#, fuzzy
+msgid "KaffeineOggVorbis"
+msgstr "Kaffeine"
+
+#: input/disc/plugins/oggvorbis/koggenc.cpp:68
+msgid "A Ogg Vorbis encoder plugin for Kaffeine."
+msgstr ""
+
+#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 16
+#: input/disc/plugins/oggvorbis/oggconfig.cpp:109 rc.cpp:324
+#, fuzzy, no-c-format
+msgid "Ogg Vorbis Options"
+msgstr "Ogg Vorbis файллари"
+
+#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 86
+#: input/disc/plugins/oggvorbis/oggconfig.cpp:111 rc.cpp:328
+#, no-c-format
+msgid "Quality :"
 msgstr ""
 
 #: input/dvbclient/cddump.cpp:191 input/dvbclient/cddump.cpp:202
@@ -1558,26 +1597,80 @@ msgstr ""
 msgid "Inversion:"
 msgstr "Инверсия:"
 
-#. i18n: file ./input/disc/kaffeinedisc.rc line 12
+#. i18n: file ./input/disc/paranoiasettings.ui line 16
 #: rc.cpp:285
+#, no-c-format
+msgid "Encoding Preferences"
+msgstr ""
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 38
+#: rc.cpp:288
+#, fuzzy, no-c-format
+msgid "Encoder:"
+msgstr "Охири:"
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 56
+#: rc.cpp:291
+#, fuzzy, no-c-format
+msgid "Base directory:"
+msgstr "Ёзиб олиш директорияси:"
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 73
+#: rc.cpp:294
+#, fuzzy, no-c-format
+msgid "..."
+msgstr "Янги..."
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 99
+#: rc.cpp:297
+#, no-c-format
+msgid "Paranoia:"
+msgstr ""
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 116
+#: rc.cpp:300
+#, no-c-format
+msgid "Disable all checking"
+msgstr ""
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 124
+#: rc.cpp:303
+#, no-c-format
+msgid "Normal mode"
+msgstr ""
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 132
+#: rc.cpp:306
+#, no-c-format
+msgid "Paranoia mode"
+msgstr ""
+
+#. i18n: file ./input/disc/paranoiasettings.ui line 153
+#: rc.cpp:310
+#, no-c-format
+msgid "Normalize"
+msgstr ""
+
+#. i18n: file ./input/disc/kaffeinedisc.rc line 12
+#: rc.cpp:321
 #, no-c-format
 msgid "CD Toolbar"
 msgstr "Компакт-диск асбоблар панели"
 
 #. i18n: file ./input/audiobrowser/kaffeineplaylist.rc line 4
-#: rc.cpp:288
+#: rc.cpp:339
 #, no-c-format
 msgid "Play&list"
 msgstr "Ўй&наш рўйхати"
 
 #. i18n: file ./kaffeineui.rc line 12
-#: rc.cpp:294
+#: rc.cpp:345
 #, no-c-format
 msgid "Quit Options"
 msgstr "Чиқиш йўли"
 
 #. i18n: file ./kaffeineui.rc line 19
-#: rc.cpp:297 rc.cpp:315 rc.cpp:360 rc.cpp:378
+#: rc.cpp:348 rc.cpp:366 rc.cpp:411 rc.cpp:429
 #, no-c-format
 msgid "&Player"
 msgstr "&Плейер"
@@ -1585,67 +1678,67 @@ msgstr "&Плейер"
 # bu erda gap oynaning o'lchami haqida gap
 # ketyapti
 #. i18n: file ./kaffeineui.rc line 27
-#: rc.cpp:303
+#: rc.cpp:354
 #, no-c-format
 msgid "Enable Auto &Resize"
 msgstr "&Автоматик ўлчамини ўзгартиришни қўллаш"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 5
-#: rc.cpp:312
+#: rc.cpp:363
 #, no-c-format
 msgid "&Network Broadcasting"
 msgstr "&Тармоқ орқали видео/аудио"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 24
-#: rc.cpp:318 rc.cpp:351
+#: rc.cpp:369 rc.cpp:402
 #, no-c-format
 msgid "&Navigation"
 msgstr "&Йўлчи"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 33
-#: rc.cpp:321 rc.cpp:354
+#: rc.cpp:372 rc.cpp:405
 #, no-c-format
 msgid "&DVD"
 msgstr "&DVD"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 34
-#: rc.cpp:324 rc.cpp:357
+#: rc.cpp:375 rc.cpp:408
 #, no-c-format
 msgid "&DVD Menus"
 msgstr "&DVD менюлари"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 49
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:327
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:378
 #, no-c-format
 msgid "&Audio"
 msgstr "&Аудио"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 57
-#: rc.cpp:330
+#: rc.cpp:381
 #, no-c-format
 msgid "&Video"
 msgstr "&Видео"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 59
-#: rc.cpp:333 rc.cpp:363 rc.cpp:375
+#: rc.cpp:384 rc.cpp:414 rc.cpp:426
 #, no-c-format
 msgid "&Aspect Ratio"
 msgstr "Ў&лчам"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 89
-#: rc.cpp:339
+#: rc.cpp:390
 #, no-c-format
 msgid "Screenshot Toolbar"
 msgstr "Скриншот асбоблар панели"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 92
-#: rc.cpp:342 rc.cpp:366
+#: rc.cpp:393 rc.cpp:417
 #, no-c-format
 msgid "Controls Toolbar"
 msgstr "Бошқарув асбоблар панели"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 101
-#: rc.cpp:345 rc.cpp:369
+#: rc.cpp:396 rc.cpp:420
 #, no-c-format
 msgid "Volume Toolbar"
 msgstr "Товуш асбоблар панели"
@@ -1653,7 +1746,7 @@ msgstr "Товуш асбоблар панели"
 # o'zimda hech qanday taklif yo'q bo'lsa ham
 # position holat emas.
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 105
-#: rc.cpp:348 rc.cpp:372
+#: rc.cpp:399 rc.cpp:423
 #, no-c-format
 msgid "Position Toolbar"
 msgstr ""
@@ -2010,7 +2103,8 @@ msgid "Use Kaffeine as helper application for mms:// (Microsoft Media) streams"
 msgstr ""
 
 #: wizarddialog.cpp:209
-msgid "Use Kaffeine as helper application for rtsp:// (Real Media and others) streams"
+msgid ""
+"Use Kaffeine as helper application for rtsp:// (Real Media and others) streams"
 msgstr ""
 
 # desktop = ish stoli
@@ -2079,7 +2173,8 @@ msgid "Configure tvtime Deinterlace Plugin..."
 msgstr ""
 
 #: player-parts/kaffeine-part/deinterlacequality.cpp:85
-msgid "* <i>May require a patched 2.4 kernel (like RedHat one) or 2.6 kernel.</i>"
+msgid ""
+"* <i>May require a patched 2.4 kernel (like RedHat one) or 2.6 kernel.</i>"
 msgstr ""
 
 #: player-parts/kaffeine-part/deinterlacequality.h:41
@@ -2559,16 +2654,20 @@ msgid "Ch "
 msgstr "Канал "
 
 #: player-parts/kaffeine-part/kxinewidget.cpp:572
-msgid "General Warning: \n"
-msgstr "Асосий огоҳлантириш: \n"
+msgid ""
+"General Warning: \n"
+msgstr ""
+"Асосий огоҳлантириш: \n"
 
 #: player-parts/kaffeine-part/kxinewidget.cpp:577
 msgid "No Informations available."
 msgstr "Ҳеч қанақа маълумот йўқ."
 
 #: player-parts/kaffeine-part/kxinewidget.cpp:583
-msgid "Security Warning: \n"
-msgstr "Хавфсизлик огоҳлантириши: \n"
+msgid ""
+"Security Warning: \n"
+msgstr ""
+"Хавфсизлик огоҳлантириши: \n"
 
 #: player-parts/kaffeine-part/kxinewidget.cpp:592
 msgid ""
@@ -2634,8 +2733,10 @@ msgid ""
 msgstr ""
 
 #: player-parts/kaffeine-part/kxinewidget.cpp:664
-msgid "Unknown error: \n"
-msgstr "Номаълум хато: \n"
+msgid ""
+"Unknown error: \n"
+msgstr ""
+"Номаълум хато: \n"
 
 #: player-parts/kaffeine-part/kxinewidget.cpp:859
 msgid "Error: Can't init new Video Driver %1 - using %2!"
@@ -3022,9 +3123,6 @@ msgstr ""
 #~ msgid "Select a subtitle file"
 #~ msgstr "Субтитр файлини танлаш"
 
-#~ msgid "Kaffeine"
-#~ msgstr "Kaffeine"
-
 #~ msgid "Select a subtitle"
 #~ msgstr "Субтитрни танлаш"
 
@@ -3042,4 +3140,3 @@ msgstr ""
 
 #~ msgid "Playback failed. Reason unknown."
 #~ msgstr "Ўйнаш тўхтади. Сабаби номаълум."
-
