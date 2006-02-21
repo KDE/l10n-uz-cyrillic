@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-20 11:15+0100\n"
+"POT-Creation-Date: 2006-02-21 11:05+0100\n"
 "PO-Revision-Date: 2006-02-19 18:53+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -735,15 +735,15 @@ msgstr "Плейернинг '%1' қисмини юклаш муваффақия
 msgid "Unable to create folder: "
 msgstr ""
 
-#: input/disc/paranoia.cpp:534
+#: input/disc/paranoia.cpp:540
 msgid "MB"
 msgstr "Мб"
 
-#: input/disc/paranoia.cpp:535
+#: input/disc/paranoia.cpp:541
 msgid "KB"
 msgstr "Кб"
 
-#: input/disc/paranoia.cpp:536
+#: input/disc/paranoia.cpp:542
 msgid "Bytes"
 msgstr "Байт"
 
@@ -847,25 +847,22 @@ msgstr ""
 msgid "Found close cddb entry ..."
 msgstr ""
 
-#: input/disc/plugins/oggvorbis/koggenc.cpp:67
+#: input/disc/plugins/mp3lame/klameenc.cpp:92
+#, fuzzy
+msgid "KaffeineMp3Lame"
+msgstr "Kaffeine плейери"
+
+#: input/disc/plugins/mp3lame/klameenc.cpp:93
+msgid "A Lame mp3 encoder plugin for Kaffeine."
+msgstr ""
+
+#: input/disc/plugins/oggvorbis/koggenc.cpp:72
 #, fuzzy
 msgid "KaffeineOggVorbis"
 msgstr "Kaffeine"
 
-#: input/disc/plugins/oggvorbis/koggenc.cpp:68
+#: input/disc/plugins/oggvorbis/koggenc.cpp:73
 msgid "A Ogg Vorbis encoder plugin for Kaffeine."
-msgstr ""
-
-#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 16
-#: input/disc/plugins/oggvorbis/oggconfig.cpp:109 rc.cpp:324
-#, fuzzy, no-c-format
-msgid "Ogg Vorbis Options"
-msgstr "Ogg Vorbis файллари"
-
-#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 86
-#: input/disc/plugins/oggvorbis/oggconfig.cpp:111 rc.cpp:328
-#, no-c-format
-msgid "Quality :"
 msgstr ""
 
 #: input/dvbclient/cddump.cpp:191 input/dvbclient/cddump.cpp:202
@@ -1657,20 +1654,56 @@ msgstr ""
 msgid "CD Toolbar"
 msgstr "Компакт-диск асбоблар панели"
 
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 16
+#: rc.cpp:324
+#, no-c-format
+msgid "Lame mp3 options"
+msgstr ""
+
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 49
+#: rc.cpp:328
+#, fuzzy, no-c-format
+msgid "VBR"
+msgstr "DVB"
+
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 73
+#: rc.cpp:331
+#, no-c-format
+msgid "Bitrate:"
+msgstr ""
+
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 94
+#: rc.cpp:334
+#, no-c-format
+msgid "Kb/s"
+msgstr ""
+
+#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 16
+#: rc.cpp:345
+#, fuzzy, no-c-format
+msgid "Ogg Vorbis Options"
+msgstr "Ogg Vorbis файллари"
+
+#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 86
+#: rc.cpp:349
+#, no-c-format
+msgid "Quality :"
+msgstr ""
+
 #. i18n: file ./input/audiobrowser/kaffeineplaylist.rc line 4
-#: rc.cpp:339
+#: rc.cpp:360
 #, no-c-format
 msgid "Play&list"
 msgstr "Ўй&наш рўйхати"
 
 #. i18n: file ./kaffeineui.rc line 12
-#: rc.cpp:345
+#: rc.cpp:366
 #, no-c-format
 msgid "Quit Options"
 msgstr "Чиқиш йўли"
 
 #. i18n: file ./kaffeineui.rc line 19
-#: rc.cpp:348 rc.cpp:366 rc.cpp:411 rc.cpp:429
+#: rc.cpp:369 rc.cpp:387 rc.cpp:432 rc.cpp:450
 #, no-c-format
 msgid "&Player"
 msgstr "&Плейер"
@@ -1678,67 +1711,67 @@ msgstr "&Плейер"
 # bu erda gap oynaning o'lchami haqida gap
 # ketyapti
 #. i18n: file ./kaffeineui.rc line 27
-#: rc.cpp:354
+#: rc.cpp:375
 #, no-c-format
 msgid "Enable Auto &Resize"
 msgstr "&Автоматик ўлчамини ўзгартиришни қўллаш"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 5
-#: rc.cpp:363
+#: rc.cpp:384
 #, no-c-format
 msgid "&Network Broadcasting"
 msgstr "&Тармоқ орқали видео/аудио"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 24
-#: rc.cpp:369 rc.cpp:402
+#: rc.cpp:390 rc.cpp:423
 #, no-c-format
 msgid "&Navigation"
 msgstr "&Йўлчи"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 33
-#: rc.cpp:372 rc.cpp:405
+#: rc.cpp:393 rc.cpp:426
 #, no-c-format
 msgid "&DVD"
 msgstr "&DVD"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 34
-#: rc.cpp:375 rc.cpp:408
+#: rc.cpp:396 rc.cpp:429
 #, no-c-format
 msgid "&DVD Menus"
 msgstr "&DVD менюлари"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 49
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:378
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:399
 #, no-c-format
 msgid "&Audio"
 msgstr "&Аудио"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 57
-#: rc.cpp:381
+#: rc.cpp:402
 #, no-c-format
 msgid "&Video"
 msgstr "&Видео"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 59
-#: rc.cpp:384 rc.cpp:414 rc.cpp:426
+#: rc.cpp:405 rc.cpp:435 rc.cpp:447
 #, no-c-format
 msgid "&Aspect Ratio"
 msgstr "Ў&лчам"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 89
-#: rc.cpp:390
+#: rc.cpp:411
 #, no-c-format
 msgid "Screenshot Toolbar"
 msgstr "Скриншот асбоблар панели"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 92
-#: rc.cpp:393 rc.cpp:417
+#: rc.cpp:414 rc.cpp:438
 #, no-c-format
 msgid "Controls Toolbar"
 msgstr "Бошқарув асбоблар панели"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 101
-#: rc.cpp:396 rc.cpp:420
+#: rc.cpp:417 rc.cpp:441
 #, no-c-format
 msgid "Volume Toolbar"
 msgstr "Товуш асбоблар панели"
@@ -1746,7 +1779,7 @@ msgstr "Товуш асбоблар панели"
 # o'zimda hech qanday taklif yo'q bo'lsa ham
 # position holat emas.
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 105
-#: rc.cpp:399 rc.cpp:423
+#: rc.cpp:420 rc.cpp:444
 #, no-c-format
 msgid "Position Toolbar"
 msgstr ""
@@ -3036,9 +3069,6 @@ msgstr ""
 
 #~ msgid "Open VCD"
 #~ msgstr "VCD кўриш"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "This player doesn't support DVD playback."
 #~ msgstr "Бу плейер DVD ўйнашни қўлламайди."
