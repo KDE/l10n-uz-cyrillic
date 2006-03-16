@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
-"POT-Creation-Date: 2006-03-15 04:04+0100\n"
+"POT-Creation-Date: 2006-03-16 04:02+0100\n"
 "PO-Revision-Date: 2004-08-04 00:44+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -441,8 +441,8 @@ msgstr ""
 msgid "Dash Pattern"
 msgstr ""
 
-#: commands/vtextcmd.cc:30 tools/vtexttool.cc:698 tools/vtexttool.cc:760
-#: tools/vtexttool.cc:849
+#: commands/vtextcmd.cc:30 tools/vtexttool.cc:697 tools/vtexttool.cc:759
+#: tools/vtexttool.cc:848 tools/vtexttool.cc:1124
 msgid "Insert Text"
 msgstr ""
 
@@ -1229,7 +1229,7 @@ msgstr ""
 msgid "Select in selected layers"
 msgstr ""
 
-#: tools/vselecttool.cc:100 tools/vselecttool.cc:600
+#: tools/vselecttool.cc:100 tools/vselecttool.cc:606
 msgid "Select"
 msgstr ""
 
@@ -1268,11 +1268,17 @@ msgid ""
 "corresponding arrow keys."
 msgstr ""
 
-#: tools/vselecttool.cc:429
+#: tools/vselecttool.cc:426
+msgid ""
+"_: [(left,bottom), (right,top)] (actual unit)\n"
+"Selection [(%1, %2), (%3, %4)] (%5)"
+msgstr ""
+
+#: tools/vselecttool.cc:435
 msgid "No selection"
 msgstr ""
 
-#: tools/vselecttool.cc:599 tools/vselecttool.h:52
+#: tools/vselecttool.cc:605 tools/vselecttool.h:52
 msgid "Select Tool"
 msgstr "Белгилаш воситаси"
 
@@ -1451,53 +1457,95 @@ msgstr "Эффектлар"
 msgid "New text"
 msgstr "матн"
 
+#: tools/vtexttool.cc:390
+msgid ""
+"_: Horizontal alignment\n"
+"Left"
+msgstr ""
+
+#: tools/vtexttool.cc:391
+msgid ""
+"_: Horizontal alignment\n"
+"Center"
+msgstr ""
+
+#: tools/vtexttool.cc:392
+msgid ""
+"_: Horizontal alignment\n"
+"Right"
+msgstr ""
+
+#: tools/vtexttool.cc:394
+msgid ""
+"_: Vertical alignment\n"
+"Above"
+msgstr ""
+
 #: tools/vtexttool.cc:395
-msgid "Above"
+msgid ""
+"_: Vertical alignment\n"
+"On"
 msgstr ""
 
-#: tools/vtexttool.cc:397
-msgid "Under"
+#: tools/vtexttool.cc:396
+msgid ""
+"_: Vertical alignment\n"
+"Under"
 msgstr ""
 
-#: tools/vtexttool.cc:606
+#: tools/vtexttool.cc:605
 #, fuzzy
 msgid "<qt><b>Text Tool</b><br>"
 msgstr "<qt><b>Расм воситаси:</b><br>"
 
-#: tools/vtexttool.cc:607
+#: tools/vtexttool.cc:606
 msgid "<i>Click</i> on document to place horizontal text.<br>"
 msgstr ""
 
-#: tools/vtexttool.cc:608
+#: tools/vtexttool.cc:607
 msgid "<i>Click and drag</i> in document to place directional text.<br>"
 msgstr ""
 
-#: tools/vtexttool.cc:609
+#: tools/vtexttool.cc:608
 msgid ""
 "<i>Click</i> on a selected path object to place text along its outline."
 "<br>"
 msgstr ""
 
-#: tools/vtexttool.cc:610
+#: tools/vtexttool.cc:609
 msgid "<i>Click</i> on a selected text object to change it.<br></qt>"
 msgstr ""
 
-#: tools/vtexttool.cc:619 tools/vtexttool.cc:1152 tools/vtexttool.cc:1153
+#: tools/vtexttool.cc:618 tools/vtexttool.cc:1151 tools/vtexttool.cc:1152
 #: tools/vtexttool.h:158
 msgid "Text Tool"
 msgstr "Матн воситаси"
 
-#: tools/vtexttool.cc:696 tools/vtexttool.cc:828
+#: tools/vtexttool.cc:695 tools/vtexttool.cc:827 tools/vtexttool.cc:1122
 msgid "Change Text"
 msgstr "Матнни ўзгартириш"
 
-#: tools/vtexttool.cc:896
+#: tools/vtexttool.cc:895
 msgid "Text Conversion"
+msgstr ""
+
+#: visitors/vselectiondesc.cc:35
+#, c-format
+msgid ""
+"_n: One object\n"
+"%n objects"
 msgstr ""
 
 #: visitors/vselectiondesc.cc:41
 msgid "path"
 msgstr "йўл"
+
+#: visitors/vselectiondesc.cc:47
+#, c-format
+msgid ""
+"_n: One group, containing one object\n"
+"One group, containing %n objects"
+msgstr ""
 
 #: visitors/vselectiondesc.cc:48
 msgid "group"
