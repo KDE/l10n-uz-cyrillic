@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
-"POT-Creation-Date: 2005-12-08 03:09+0100\n"
+"POT-Creation-Date: 2006-02-26 03:55+0100\n"
 "PO-Revision-Date: 2005-10-24 00:58+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -25,7 +25,7 @@ msgid ""
 "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: aboutdata.cpp:32 articleviewer.cpp:386
+#: aboutdata.cpp:32 akregator_part.cpp:925 articleviewer.cpp:386
 msgid "Akregator"
 msgstr "Akregator"
 
@@ -373,117 +373,160 @@ msgstr ""
 msgid "Feed found, downloading..."
 msgstr ""
 
-#: akregator_part.cpp:146
+#: akregator_part.cpp:166
 msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
 msgstr ""
 
-#: akregator_part.cpp:146
+#: akregator_part.cpp:166
 msgid "Plugin error"
 msgstr ""
 
-#: akregator_part.cpp:322 akregator_view.cpp:249 feedlistview.cpp:339
+#: akregator_part.cpp:342 akregator_view.cpp:249 feedlistview.cpp:391
 #: simplenodeselector.cpp:141
 msgid "Feeds"
 msgstr ""
 
-#: akregator_part.cpp:333
+#: akregator_part.cpp:353
 msgid "Akregator News"
 msgstr ""
 
-#: akregator_part.cpp:338
+#: akregator_part.cpp:358
 msgid "Akregator Blog"
 msgstr ""
 
-#: akregator_part.cpp:343
+#: akregator_part.cpp:363
 msgid "KDE Dot News"
 msgstr ""
 
-#: akregator_part.cpp:348
+#: akregator_part.cpp:368
 msgid "Planet KDE"
 msgstr ""
 
-#: akregator_part.cpp:353
+#: akregator_part.cpp:373
 msgid "KDE Apps"
 msgstr ""
 
-#: akregator_part.cpp:358
+#: akregator_part.cpp:378
 msgid "KDE Look"
 msgstr ""
 
-#: akregator_part.cpp:367
+#: akregator_part.cpp:387
 msgid "Opening Feed List..."
 msgstr ""
 
-#: akregator_part.cpp:400
+#: akregator_part.cpp:422
 msgid ""
 "<qt>The standard feed list is corrupted (invalid XML). A backup was created:"
 "<p><b>%2</b></p></qt>"
 msgstr ""
 
-#: akregator_part.cpp:400
+#: akregator_part.cpp:422
 msgid "XML Parsing Error"
 msgstr ""
 
-#: akregator_part.cpp:412
+#: akregator_part.cpp:437
 msgid ""
 "<qt>The standard feed list is corrupted (no valid OPML). A backup was created:"
 "<p><b>%2</b></p></qt>"
 msgstr ""
 
-#: akregator_part.cpp:412 akregator_part.cpp:589
+#: akregator_part.cpp:437 akregator_part.cpp:621
 msgid "OPML Parsing Error"
 msgstr ""
 
-#: akregator_part.cpp:451
+#: akregator_part.cpp:476
 msgid "Access denied: cannot save feed list (%1)"
 msgstr ""
 
-#: akregator_part.cpp:451
+#: akregator_part.cpp:476
 msgid "Write error"
 msgstr ""
 
-#: akregator_part.cpp:540
+#: akregator_part.cpp:572
 msgid "Interesting"
 msgstr ""
 
-#: akregator_part.cpp:589
+#: akregator_part.cpp:621
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr ""
 
-#: akregator_part.cpp:592
+#: akregator_part.cpp:624
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for the "
 "current user."
 msgstr ""
 
-#: akregator_part.cpp:592
+#: akregator_part.cpp:624
 msgid "Read Error"
 msgstr ""
 
-#: akregator_part.cpp:606
+#: akregator_part.cpp:638
 msgid "The file %1 already exists; do you want to overwrite it?"
 msgstr ""
 
-#: akregator_part.cpp:608
+#: akregator_part.cpp:640
 msgid "Overwrite"
 msgstr "Алмаштириш"
 
-#: akregator_part.cpp:614
+#: akregator_part.cpp:646
 #, c-format
 msgid "Access denied: cannot write to file %1"
 msgstr ""
 
-#: akregator_part.cpp:614
+#: akregator_part.cpp:646
 msgid "Write Error"
 msgstr ""
 
-#: akregator_part.cpp:643 akregator_part.cpp:653
+#: akregator_part.cpp:675 akregator_part.cpp:685
 msgid "OPML Outlines (*.opml, *.xml)"
 msgstr ""
 
-#: akregator_part.cpp:644 akregator_part.cpp:654
+#: akregator_part.cpp:676 akregator_part.cpp:686
 msgid "All Files"
 msgstr "Ҳамма файллар"
+
+#: akregator_part.cpp:954
+msgid ""
+"<qt>%1 already seems to be running on another display on this machine. <b>"
+"Running %2 more than once is not supported by the %3 backend and can cause the "
+"loss of archived articles and crashes at startup.</b> "
+"You should disable the archive for now unless you are sure that %2 is not "
+"already running.</qt>"
+msgstr ""
+
+#: akregator_part.cpp:966
+msgid ""
+"<qt>%1 seems to be running on another display on this machine. <b>"
+"Running %1 and %2 at the same time is not supported by the %3 backend and can "
+"cause the loss of archived articles and crashes at startup.</b> "
+"You should disable the archive for now unless you are sure that %2 is not "
+"already running.</qt>"
+msgstr ""
+
+#: akregator_part.cpp:977
+msgid ""
+"<qt>%1 already seems to be running on %2. <b>Running %1 more than once is not "
+"supported by the %3 backend and can cause the loss of archived articles and "
+"crashes at startup.</b> You should disable the archive for now unless you are "
+"sure that it is not already running on %2.</qt>"
+msgstr ""
+
+#: akregator_part.cpp:985
+msgid ""
+"<qt>%1 seems to be running on %3. <b>Running %1 and %2 at the same time is not "
+"supported by the %4 backend and can cause the loss of archived articles and "
+"crashes at startup.</b> You should disable the archive for now unless you are "
+"sure that %1 is not running on %3.</qt>"
+msgstr ""
+
+#: akregator_part.cpp:997
+msgid "Force Access"
+msgstr ""
+
+#: akregator_part.cpp:998
+#, fuzzy
+msgid "Disable Archive"
+msgstr "Архивлаш"
 
 #: akregator_view.cpp:147
 msgid ""
@@ -555,30 +598,30 @@ msgstr ""
 msgid "Imported folder name:"
 msgstr ""
 
-#: akregator_view.cpp:950
+#: akregator_view.cpp:958
 msgid "Add Folder"
 msgstr "Жилдни қўшиш"
 
-#: akregator_view.cpp:950
+#: akregator_view.cpp:958
 msgid "Folder name:"
 msgstr "Жилднинг номи:"
 
-#: akregator_view.cpp:1060
+#: akregator_view.cpp:1074
 msgid "Fetching Feeds..."
 msgstr ""
 
-#: akregator_view.cpp:1302
+#: akregator_view.cpp:1316
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr ""
 
-#: akregator_view.cpp:1306
+#: akregator_view.cpp:1320
 #, c-format
 msgid ""
 "_n: <qt>Are you sure you want to delete the selected article?</qt>\n"
 "<qt>Are you sure you want to delete the %n selected articles?</qt>"
 msgstr ""
 
-#: akregator_view.cpp:1310
+#: akregator_view.cpp:1324
 msgid "Delete Article"
 msgstr "Мақолани ўчириш"
 
@@ -604,14 +647,14 @@ msgid ""
 "external browser window."
 msgstr ""
 
-#: articlelistview.cpp:486
+#: articlelistview.cpp:533
 msgid ""
 "<div align=center>"
 "<h3>No matches</h3>Filter does not match any articles, please change your "
 "criteria and try again.</div>"
 msgstr ""
 
-#: articlelistview.cpp:498
+#: articlelistview.cpp:545
 msgid ""
 "<div align=center>"
 "<h3>No feed selected</h3>This area is article list. Select a feed from the feed "
@@ -677,19 +720,19 @@ msgstr "Изоҳлар"
 msgid "Complete Story"
 msgstr "Бутун мақола"
 
-#: articleviewer.cpp:723
+#: articleviewer.cpp:724
 msgid "Are you sure you want to disable this introduction page?"
 msgstr ""
 
-#: articleviewer.cpp:723
+#: articleviewer.cpp:724
 msgid "Disable Introduction Page"
 msgstr ""
 
-#: articleviewer.cpp:723
+#: articleviewer.cpp:724
 msgid "Disable"
 msgstr ""
 
-#: articleviewer.cpp:723
+#: articleviewer.cpp:724
 msgid "Keep Enabled"
 msgstr ""
 
@@ -717,7 +760,7 @@ msgstr "Қўшимча"
 msgid "All Feeds"
 msgstr ""
 
-#: feedlistview.cpp:362
+#: feedlistview.cpp:414
 msgid ""
 "<h2>Feeds tree</h2>Here you can browse tree of feeds. You can also add feeds or "
 "feed groups (folders) using right-click menu, or reorganize them using drag and "
@@ -771,23 +814,23 @@ msgstr ""
 msgid "Forward"
 msgstr ""
 
-#: pageviewer.cpp:415 viewer.cpp:183
+#: pageviewer.cpp:413 viewer.cpp:183
 msgid "Open Link in New &Tab"
 msgstr ""
 
-#: pageviewer.cpp:416
+#: pageviewer.cpp:414
 msgid "<b>Open Link in New Tab</b><p>Opens current link in a new tab."
 msgstr ""
 
-#: pageviewer.cpp:417 viewer.cpp:184
+#: pageviewer.cpp:415 viewer.cpp:184
 msgid "Open Link in External &Browser"
 msgstr ""
 
-#: pageviewer.cpp:449
+#: pageviewer.cpp:447
 msgid "Open Page in External Browser"
 msgstr ""
 
-#: pageviewer.cpp:457
+#: pageviewer.cpp:455
 msgid "Add to Konqueror Bookmarks"
 msgstr ""
 
