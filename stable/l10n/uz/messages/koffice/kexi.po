@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
-"POT-Creation-Date: 2006-03-17 04:00+0100\n"
+"POT-Creation-Date: 2006-03-21 04:04+0100\n"
 "PO-Revision-Date: 2004-05-23 18:14+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Opening object \"%1\" failed."
 msgstr ""
 
-#: core/kexiproject.cpp:763 main/keximainwindowimpl.cpp:3537
+#: core/kexiproject.cpp:763 main/keximainwindowimpl.cpp:3551
 msgid "Could not set empty name for this object."
 msgstr ""
 
@@ -425,7 +425,7 @@ msgstr ""
 msgid "\"%1\" function is not available for version %2 of %3 application."
 msgstr ""
 
-#: core/kexiprojectdata.cpp:155
+#: core/kexiprojectdata.cpp:157
 msgid ""
 "_: database connection\n"
 "(connection %1)"
@@ -498,7 +498,7 @@ msgid "Project Navigator"
 msgstr ""
 
 #: main/kexibrowser.cpp:141 main/startup/KexiProjectSelector.cpp:243
-#: main/startup/KexiStartup.cpp:357 widget/kexidbconnectionwidget.cpp:344
+#: main/startup/KexiStartup.cpp:172 widget/kexidbconnectionwidget.cpp:344
 #: widget/kexidbconnectionwidget.cpp:359
 msgid "&Open"
 msgstr "&Очиш"
@@ -769,7 +769,40 @@ msgstr ""
 msgid "Open &Recent Project"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:221
+#: main/startup/KexiStartup.cpp:146
+msgid "Opening database"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:147
+msgid "Please enter the password."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:154
+#, fuzzy
+msgid "local database server"
+msgstr "Бўш маълумот базаси"
+
+#: main/startup/KexiStartup.cpp:156
+#, fuzzy, c-format
+msgid "Database server: %1"
+msgstr "Бўш маълумот базаси"
+
+#: main/startup/KexiStartup.cpp:160
+msgid ""
+"_: unspecified user\n"
+"(unspecified)"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:164
+#, c-format
+msgid "Username: %1"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:170
+msgid "&Details"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:281
 msgid ""
 "Could not read connection information from connection shortcut file <nobr>"
 "\"%1\"</nobr>."
@@ -777,84 +810,51 @@ msgid ""
 "<br>Check whether the file has valid contents."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:234
+#: main/startup/KexiStartup.cpp:294
 msgid ""
 "You have specified invalid argument (\"%1\") for \"type\" command-line option."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:292
+#: main/startup/KexiStartup.cpp:352
 msgid "You have specified invalid port number \"%1\"."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:312
+#: main/startup/KexiStartup.cpp:372
 msgid "Could not start Kexi application this way."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:316
+#: main/startup/KexiStartup.cpp:376
 msgid "You have used both \"createdb\" and \"dropdb\" startup options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:322
+#: main/startup/KexiStartup.cpp:382
 msgid "No project name specified."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:331
-msgid "Opening database"
-msgstr ""
-
-#: main/startup/KexiStartup.cpp:332
-msgid "Please enter the password."
-msgstr ""
-
-#: main/startup/KexiStartup.cpp:339
-#, fuzzy
-msgid "local database server"
-msgstr "Бўш маълумот базаси"
-
-#: main/startup/KexiStartup.cpp:340
-#, fuzzy, c-format
-msgid "Database server: %1"
-msgstr "Бўш маълумот базаси"
-
-#: main/startup/KexiStartup.cpp:344
-msgid ""
-"_: unspecified user\n"
-"(unspecified)"
-msgstr ""
-
-#: main/startup/KexiStartup.cpp:347
-#, c-format
-msgid "Username: %1"
-msgstr ""
-
-#: main/startup/KexiStartup.cpp:356
-msgid "&Details"
-msgstr ""
-
-#: main/startup/KexiStartup.cpp:381
+#: main/startup/KexiStartup.cpp:417
 msgid "You have used both \"final-mode\" and \"design-mode\" startup options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:400
+#: main/startup/KexiStartup.cpp:436
 #, fuzzy
 msgid ""
 "Could not remove project.\n"
 "The file \"%1\" does not exist."
 msgstr "\"%1\" файли мавжуд эмас."
 
-#: main/startup/KexiStartup.cpp:442
+#: main/startup/KexiStartup.cpp:478
 msgid ""
 "Could not open shortcut file\n"
 "\"%1\"."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:475
+#: main/startup/KexiStartup.cpp:511
 msgid ""
 "Could not open connection data file\n"
 "\"%1\"."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:561
+#: main/startup/KexiStartup.cpp:597
 msgid ""
 "You have specified a few database objects to be opened automatically, using "
 "startup options.\n"
@@ -862,91 +862,91 @@ msgid ""
 "dropping projects."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:577
+#: main/startup/KexiStartup.cpp:613
 msgid "Project \"%1\" created successfully."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:587
+#: main/startup/KexiStartup.cpp:623
 msgid "Project \"%1\" dropped successfully."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:702 main/startup/KexiStartup.cpp:733
+#: main/startup/KexiStartup.cpp:738 main/startup/KexiStartup.cpp:769
 msgid "<p>Could not open project.</p>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:703
+#: main/startup/KexiStartup.cpp:739
 msgid "<p>The file <nobr>\"%1\"</nobr> does not exist or is not readable.</p>"
 msgstr ""
 
 #: kexidb/drivers/sqlite/sqliteconnection.cpp:218
 #: kexidb/drivers/sqlite/sqliteconnection.cpp:224
 #: kexidb/drivers/sqlite/sqliteconnection.cpp:244
-#: main/startup/KexiStartup.cpp:705 main/startup/KexiStartup.cpp:736
+#: main/startup/KexiStartup.cpp:741 main/startup/KexiStartup.cpp:772
 msgid ""
 "Check the file's permissions and whether it is already opened and locked by "
 "another application."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:734
+#: main/startup/KexiStartup.cpp:770
 msgid "<p>The file <nobr>\"%1\"</nobr> is not readable.</p>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:756
+#: main/startup/KexiStartup.cpp:792
 msgid ""
 "\"%1\" is an external file of type:\n"
 "\"%2\".\n"
 "Do you want to import the file as a Kexi project?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:759
+#: main/startup/KexiStartup.cpp:795
 msgid "Open External File"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:759
+#: main/startup/KexiStartup.cpp:795
 msgid "Import..."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:779
+#: main/startup/KexiStartup.cpp:815
 msgid ""
 "The project file \"%1\" is recognized as compatible with \"%2\" database "
 "driver, while you have asked for \"%3\" database driver to be used.\n"
 "Do you want to use \"%4\" database driver?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:801
+#: main/startup/KexiStartup.cpp:837
 msgid ""
 "Previous version of database file format (\"%1\") is detected in the \"%2\" "
 "project file.\n"
 "Do you want to convert the project to a new \"%3\" format (recommended)?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:812
+#: main/startup/KexiStartup.cpp:848
 msgid ""
 "Failed to convert project file \"%1\" to a new \"%2\" format.\n"
 "The file format remains unchanged."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:824
+#: main/startup/KexiStartup.cpp:860
 msgid "Possible problems:"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:828
+#: main/startup/KexiStartup.cpp:864
 msgid "The file \"%1\" is not recognized as being supported by Kexi."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:831
+#: main/startup/KexiStartup.cpp:867
 #, c-format
 msgid ""
 "Database driver for this file type not found.\n"
 "Detected MIME type: %1"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:856 main/startup/KexiStartup.cpp:860
+#: main/startup/KexiStartup.cpp:903 main/startup/KexiStartup.cpp:907
 msgid ""
 "Could not load list of available projects for <b>%1</b> database server."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:891
+#: main/startup/KexiStartup.cpp:938
 msgid ""
 "Failed saving connection data to\n"
 "\"%1\" file."
@@ -1118,7 +1118,7 @@ msgstr ""
 msgid "Save &As..."
 msgstr "...сифатида с&ақлаш"
 
-#: main/keximainwindowimpl.cpp:465 main/keximainwindowimpl.cpp:2447
+#: main/keximainwindowimpl.cpp:465 main/keximainwindowimpl.cpp:2461
 msgid "Save object as"
 msgstr ""
 
@@ -1503,7 +1503,7 @@ msgstr ""
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:767 main/keximainwindowimpl.cpp:3665
+#: main/keximainwindowimpl.cpp:767 main/keximainwindowimpl.cpp:3679
 msgid "Important Information"
 msgstr ""
 
@@ -1515,214 +1515,214 @@ msgstr ""
 msgid "reason:"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:957
+#: main/keximainwindowimpl.cpp:971
 msgid ""
 "<qt>Database project %1 does not appear to have been created using Kexi."
 "<br>"
 "<br>Do you want to import it as a new Kexi project?</qt>"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:959
+#: main/keximainwindowimpl.cpp:973
 #, fuzzy
 msgid ""
 "_: Import Database\n"
 "&Import..."
 msgstr "&Очиш"
 
-#: main/keximainwindowimpl.cpp:1020
+#: main/keximainwindowimpl.cpp:1034
 msgid "cannot create object - unknown object type \"%1\""
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1023
+#: main/keximainwindowimpl.cpp:1037
 msgid "unknown object type \"%1\""
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1031
+#: main/keximainwindowimpl.cpp:1045
 msgid "cannot create object of type \"%1\""
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1045
+#: main/keximainwindowimpl.cpp:1059
 msgid "making print preview for"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1047
+#: main/keximainwindowimpl.cpp:1061
 msgid "printing"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1049
+#: main/keximainwindowimpl.cpp:1063
 msgid "opening"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1053
+#: main/keximainwindowimpl.cpp:1067
 msgid "table not found"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1055
+#: main/keximainwindowimpl.cpp:1069
 msgid "query not found"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1057
+#: main/keximainwindowimpl.cpp:1071
 msgid "object not found"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1066
+#: main/keximainwindowimpl.cpp:1080
 msgid "cannot print object"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1075
+#: main/keximainwindowimpl.cpp:1089
 msgid "cannot make print preview of object"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1093
+#: main/keximainwindowimpl.cpp:1107
 msgid "cannot open object"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1104
+#: main/keximainwindowimpl.cpp:1118
 msgid ""
 "You have requested selected objects to be automatically opened or processed on "
 "startup. Several objects cannot be opened or processed."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2388
+#: main/keximainwindowimpl.cpp:2402
 #, fuzzy
 msgid "Recently Opened Databases"
 msgstr "&Очиш"
 
-#: main/keximainwindowimpl.cpp:2407
+#: main/keximainwindowimpl.cpp:2421
 #, fuzzy
 msgid "Recently Connected Database Servers"
 msgstr "Бўш маълумот базаси"
 
-#: main/keximainwindowimpl.cpp:2506
+#: main/keximainwindowimpl.cpp:2520
 msgid "From File..."
 msgstr "Файлдан"
 
-#: main/keximainwindowimpl.cpp:2511
+#: main/keximainwindowimpl.cpp:2525
 msgid "From Server..."
 msgstr "Сервердан"
 
-#: main/keximainwindowimpl.cpp:2572
+#: main/keximainwindowimpl.cpp:2586
 msgid "Selected view is not supported for \"%1\" object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2574
+#: main/keximainwindowimpl.cpp:2588
 msgid "Selected view (%1) is not supported by this object type (%2)."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2586
+#: main/keximainwindowimpl.cpp:2600
 msgid "Switching to other view failed (%1)."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2760
+#: main/keximainwindowimpl.cpp:2774
 msgid "Save Object As"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2780
+#: main/keximainwindowimpl.cpp:2794
 msgid "Do you want to replace it?"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2781 migration/importwizard.cpp:820
+#: main/keximainwindowimpl.cpp:2795 migration/importwizard.cpp:820
 msgid "&Replace"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2782
+#: main/keximainwindowimpl.cpp:2796
 msgid "&Choose Other Name..."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2797
+#: main/keximainwindowimpl.cpp:2811
 msgid "Please choose other name."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2821
+#: main/keximainwindowimpl.cpp:2835
 msgid "Saving \"%1\" object failed."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2838
+#: main/keximainwindowimpl.cpp:2852
 msgid "Saving new \"%1\" object failed."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2886 main/keximainwindowimpl.cpp:4001
+#: main/keximainwindowimpl.cpp:2900 main/keximainwindowimpl.cpp:4015
 msgid "Save changes"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2888 main/keximainwindowimpl.cpp:4003
+#: main/keximainwindowimpl.cpp:2902 main/keximainwindowimpl.cpp:4017
 msgid ""
 "Pressing this button will save all recent changes made in \"%1\" object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2892
+#: main/keximainwindowimpl.cpp:2906
 msgid ""
 "Pressing this button will discard all recent changes made in \"%1\" object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2908
+#: main/keximainwindowimpl.cpp:2922
 msgid "Do you want to save changes?"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3471
+#: main/keximainwindowimpl.cpp:3485
 msgid ""
 "Do you want to permanently delete:\n"
 "%1\n"
 "If you click Yes, you will not be able to undo the deletion."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3526
+#: main/keximainwindowimpl.cpp:3540
 msgid "Could not remove object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3545
+#: main/keximainwindowimpl.cpp:3559
 msgid "Renaming object \"%1\" failed."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3706
+#: main/keximainwindowimpl.cpp:3720
 msgid ""
 "Please note that forms are currently unstable functionality, provided <u>"
 "only for your preview</u>."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3709
+#: main/keximainwindowimpl.cpp:3723
 msgid "Forms will be available after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3713
+#: main/keximainwindowimpl.cpp:3727
 msgid "Forms will be hidden after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3743
+#: main/keximainwindowimpl.cpp:3757
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3748
+#: main/keximainwindowimpl.cpp:3762
 msgid "No Final Mode data found."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3756
+#: main/keximainwindowimpl.cpp:3770
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3786
+#: main/keximainwindowimpl.cpp:3800
 #, fuzzy
 msgid "Specified plugin does not exist."
 msgstr "\"%1\" файли мавжуд эмас."
 
-#: main/keximainwindowimpl.cpp:3795
+#: main/keximainwindowimpl.cpp:3809
 msgid "Specified object could not be opened."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:4007
+#: main/keximainwindowimpl.cpp:4021
 msgid ""
 "Pressing this button will ignore all unsaved changes made in \"%1\" object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:4012
+#: main/keximainwindowimpl.cpp:4026
 msgid "Do you want to save changes before printing?"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:4014
+#: main/keximainwindowimpl.cpp:4028
 msgid "Do you want to save changes before making print preview?"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:4016
+#: main/keximainwindowimpl.cpp:4030
 msgid "Do you want to save changes before showing page setup?"
 msgstr ""
 
@@ -2458,7 +2458,7 @@ msgstr ""
 msgid "Unknown table \"%1\""
 msgstr ""
 
-#: kexidb/connectiondata.cpp:99
+#: kexidb/connectiondata.cpp:97
 msgid "file"
 msgstr ""
 
