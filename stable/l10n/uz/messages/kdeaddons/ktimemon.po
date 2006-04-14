@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ktimemon\n"
-"POT-Creation-Date: 2005-11-30 03:25+0100\n"
+"POT-Creation-Date: 2006-04-14 03:57+0200\n"
 "PO-Revision-Date: 2006-04-08 10:20+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -50,7 +50,7 @@ msgstr ""
 msgid "C&olors"
 msgstr "&Ранглар"
 
-#: confdlg.cc:98 confdlg.cc:109
+#: confdlg.cc:98 confdlg.cc:104
 msgid "Kernel:"
 msgstr "Кернел:"
 
@@ -58,80 +58,82 @@ msgstr "Кернел:"
 msgid "User:"
 msgstr "Фойдаланувчи:"
 
-#: confdlg.cc:101
-msgid "Wait:"
-msgstr "Кутиш:"
-
-#: confdlg.cc:103
+#: confdlg.cc:100
 msgid "Nice:"
 msgstr ""
 
-#: confdlg.cc:106
+#: confdlg.cc:101
+#, fuzzy
+msgid "IOWait:"
+msgstr "Кутиш:"
+
+#: confdlg.cc:105
 msgid "Used:"
 msgstr "Ишлатилган:"
 
-#: confdlg.cc:107
+#: confdlg.cc:106
 msgid "Buffers:"
 msgstr "Буфферда:"
 
-#: confdlg.cc:111
+#: confdlg.cc:107
 msgid "Cached:"
 msgstr "Кэшда:"
 
-#: confdlg.cc:117
-msgid "Memory/Swapping"
+#: confdlg.cc:110
+msgid "CPU"
 msgstr ""
 
-#: confdlg.cc:118
-msgid "CPU/Paging"
+#: confdlg.cc:125
+msgid "Memory"
 msgstr ""
 
-#: confdlg.cc:133
-msgid "Swap/Background"
-msgstr ""
+#: confdlg.cc:139
+#, fuzzy
+msgid "Swap"
+msgstr "Своп:"
 
-#: confdlg.cc:136
+#: confdlg.cc:142
 msgid "Swap:"
 msgstr "Своп:"
 
-#: confdlg.cc:145
+#: confdlg.cc:151
 #, fuzzy
 msgid "Backgd:"
 msgstr "Фон:"
 
-#: confdlg.cc:158
+#: confdlg.cc:164
 msgid "&Interaction"
 msgstr ""
 
-#: confdlg.cc:162
+#: confdlg.cc:168
 msgid "Mouse Events"
 msgstr "Сичқонча ҳодисалари"
 
-#: confdlg.cc:177
+#: confdlg.cc:183
 msgid "Left button:"
 msgstr "Чап тугма:"
 
-#: confdlg.cc:178
+#: confdlg.cc:184
 msgid "Middle button:"
 msgstr "Ўрта тугма:"
 
-#: confdlg.cc:179
+#: confdlg.cc:185
 msgid "Right button:"
 msgstr "Ўнг тугма:"
 
-#: confdlg.cc:187
+#: confdlg.cc:193
 msgid "Is Ignored"
 msgstr "Эътибор берилмайди"
 
-#: confdlg.cc:190
+#: confdlg.cc:196
 msgid "Pops Up Menu"
 msgstr "Менюни кўрсатиш"
 
-#: confdlg.cc:191
+#: confdlg.cc:197
 msgid "Starts"
 msgstr "Ишга тушириш"
 
-#: sample.cc:102
+#: sample.cc:103
 msgid ""
 "Unable to open the file '%1'. The diagnostics are:\n"
 "%2.\n"
@@ -143,7 +145,7 @@ msgstr ""
 "Ушбу файл хотира ҳақида маълумотни аниқлаш учун ишлатилади.\n"
 "Мавжуд proc файл тизими Линукс андозаларига мос келмайдиганга ўхшайди."
 
-#: sample.cc:112
+#: sample.cc:113
 msgid ""
 "Unable to open the file '%1'. The diagnostics are:\n"
 "%2.\n"
@@ -155,7 +157,7 @@ msgstr ""
 "Ушбу файл тизим ҳақида маълумотни аниқлаш учун ишлатилади.\n"
 "Мавжуд proc файл тизими Линукс андозаларига мос келмайдиганга ўхшайди."
 
-#: sample.cc:122
+#: sample.cc:123
 msgid ""
 "Unable to initialize the 'kstat' library. This library is used for accessing "
 "kernel information. The diagnostics are:\n"
@@ -164,7 +166,7 @@ msgid ""
 "mueller@kde.org who will try to figure out what went wrong."
 msgstr ""
 
-#: sample.cc:211
+#: sample.cc:212
 msgid ""
 "Unable to read the memory usage file '%1'.\n"
 "The diagnostics are: %2"
@@ -172,7 +174,7 @@ msgstr ""
 "Хотира ҳақида маълумот файлини '%1' ўқиб бўлмади.\n"
 "Хато маълумоти: %2"
 
-#: sample.cc:221
+#: sample.cc:222
 #, fuzzy
 msgid ""
 "The memory usage file '%1' seems to use a different file format than expected.\n"
@@ -184,7 +186,7 @@ msgstr ""
 "Сизнинг proc файл тизимингиз қўлланиладиган версияга номутаносиб. Ушбу хатолик "
 "ҳақида http://bugs.kde.org/ саҳифасига хабар беринг."
 
-#: sample.cc:237
+#: sample.cc:239
 msgid ""
 "Unable to read the system usage file '%1'.\n"
 "The diagnostics are: %2"
@@ -192,7 +194,7 @@ msgstr ""
 "Тизим ҳақида маълумот файлини '%1' ўқиб бўлмади.\n"
 "Хато маълумоти: %2"
 
-#: sample.cc:264
+#: sample.cc:266
 #, fuzzy
 msgid ""
 "Unable to obtain system information.\n"
@@ -205,56 +207,59 @@ msgstr ""
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:306
+#: sample.cc:309
 #, fuzzy
 msgid ""
 "Unable to find any entries for CPU statistics in the 'kstat' library. Are you "
 "running a non-standard version of Solaris?\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer via http://bugs.kde.org/ who will try to sort "
+"this out."
 msgstr ""
 "'kstat' кутубхонасида процессор ҳақида ҳеч нарса топилмади. Сиз Solaris'нинг "
 "ностандарт версиясини қўлламоқдасиз?\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:322
+#: sample.cc:325
 #, fuzzy
 msgid ""
 "Unable to read the CPU statistics entry from the 'kstat' library. The "
 "diagnostics are '%1'.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer via http://bugs.kde.org/ who will try to sort "
+"this out."
 msgstr ""
 "'kstat' кутубхонасидан процессор ҳақидаги малумотларни ўқиб бўлмади. Сабаби: "
 "'%1'.\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:334
+#: sample.cc:338
 #, fuzzy
 msgid ""
 "The number of CPUs appears to have changed at very short notice, or the 'kstat' "
 "library returns inconsistent results (%1 vs. %2 CPUs).\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer via http://bugs.kde.org/ who will try to sort "
+"this out."
 msgstr ""
 "Процессорлар тез-тез ўзгармоқда ёки 'kstat' қарамақарши малумот бермоқда (%2 "
 "процессор(лар) ўрнига %1-та).\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:346
+#: sample.cc:350
 #, fuzzy
 msgid ""
 "Unable to read the memory statistics entry from the 'kstat' library. The "
 "diagnostics are '%1'\n"
-"You might want to contact the maintainer at mueller@kde.org who will try to "
-"sort this out."
+"You might want to contact the maintainer at http://bugs.kde.org/ who will try "
+"to sort this out."
 msgstr ""
 "'kstat' кутубхонасидан хотира ҳақидаги малумотларни ўқиб бўлмади. Хатолик "
 "хабари: '%1'\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:363
+#: sample.cc:367
 #, fuzzy
 msgid ""
 "There seems to be a problem with KTimeMon's handling of the 'kstat' library: 0 "
@@ -268,53 +273,57 @@ msgstr ""
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:375
+#: sample.cc:379
 #, fuzzy
 msgid ""
 "Unable to determine the number of swap spaces. The diagnostics are '%1'.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "Своп қисмлари сонини аниқлаб бўлмади. Хатолик хабари: '%1'.\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:384
+#: sample.cc:388
 #, fuzzy
 msgid ""
 "KTimeMon ran out of memory while trying to determine the swap usage.\n"
 "Attempted to allocate %1 bytes of memory (2 * %2 + %3 * %4).\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "KTimeMon учун свопдан фойдаланиш даражасини аниқлашда хотира етишмайди. %1 байт "
 "ҳотирадан жой ажратиш лозим (2 * %2 + %3 * %4).\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:396
+#: sample.cc:400
 #, fuzzy
 msgid ""
 "Unable to determine the swap usage.\n"
 "The diagnostics are '%1'.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "Своп қанча ишлатилаёганлигини аниқлаб бўлмади. Хатолик хабари: '%1'.\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: sample.cc:403
+#: sample.cc:407
 #, fuzzy
 msgid ""
 "Information was requested for %1 swap spaces, but only %2 swap entries were "
 "returned.\n"
 "KTimeMon will attempt to continue.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "Своп бўлимидаги %1 ҳақида сўралган эди, олинган малумотлар эса қўйидагича %2 \n"
 "Дастур ишни давом эттиришга уриниб кўради.\n"
 "Қуйидаги mueller@kde.org манзил бўйича тузувчига мурожаат қилинг ва у бу "
 "масалани ҳал қилишда ёрдам беради."
 
-#: timemon.cc:169
+#: timemon.cc:173
 #, fuzzy
 msgid ""
 "cpu: %1% idle\n"
@@ -325,7 +334,7 @@ msgstr ""
 "хотира: %2 MB %3% бўш\n"
 "своп: %4 MB %5% бўш"
 
-#: timemon.cc:231
+#: timemon.cc:237
 #, fuzzy
 msgid ""
 "KTimeMon for KDE\n"
@@ -338,19 +347,19 @@ msgstr ""
 "Муаллиф M. Maierhofer (m.maierhofer@tees.ac.uk)\n"
 "H. Maierhofer томонидан яратилган timemon дастурига асосланган"
 
-#: timemon.cc:239
+#: timemon.cc:245
 msgid "System Monitor"
 msgstr "Тизимни назорат қилиш воситаси"
 
-#: timemon.cc:240
+#: timemon.cc:246
 msgid "Horizontal Bars"
 msgstr "Энига диаграмма"
 
-#: timemon.cc:241
+#: timemon.cc:247
 msgid "Preferences..."
 msgstr "Мослаш..."
 
-#: timemon.cc:419
+#: timemon.cc:426
 msgid ""
 "Got diagnostic output from child command:\n"
 "\n"
