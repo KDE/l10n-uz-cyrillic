@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b\n"
-"POT-Creation-Date: 2006-04-28 11:11+0200\n"
+"POT-Creation-Date: 2006-04-30 11:07+0200\n"
 "PO-Revision-Date: 2006-04-07 18:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -1764,7 +1764,7 @@ msgid "Trying to write more than the official disk capacity"
 msgstr ""
 
 #: projects/k3bcdrdaowriter.cpp:895 projects/k3bcdrecordwriter.cpp:675
-#: projects/k3bgrowisofshandler.cpp:231 projects/mixedcd/k3bmixedjob.cpp:978
+#: projects/k3bgrowisofshandler.cpp:235 projects/mixedcd/k3bmixedjob.cpp:978
 msgid "Data does not fit on disk."
 msgstr ""
 
@@ -1832,109 +1832,121 @@ msgstr ""
 msgid "Please try again with writing mode DAO."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:117
+#: projects/k3bgrowisofshandler.cpp:121
 msgid "Flushing Cache"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:118
+#: projects/k3bgrowisofshandler.cpp:122
 msgid "Flushing the cache may take some time."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:127
+#: projects/k3bgrowisofshandler.cpp:131
 msgid "Closing Track"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:130
+#: projects/k3bgrowisofshandler.cpp:134
 msgid "Closing Disk"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:573 projects/k3bgrowisofshandler.cpp:133
-#: projects/k3bgrowisofshandler.cpp:140 projects/k3bgrowisofshandler.cpp:141
+#: projects/k3bcdrecordwriter.cpp:573 projects/k3bgrowisofshandler.cpp:137
+#: projects/k3bgrowisofshandler.cpp:144 projects/k3bgrowisofshandler.cpp:145
 msgid "Closing Session"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:136 projects/k3bgrowisofshandler.cpp:137
+#: projects/k3bgrowisofshandler.cpp:140 projects/k3bgrowisofshandler.cpp:141
 msgid "Updating RMA"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:144
+#: projects/k3bgrowisofshandler.cpp:148
 msgid "Writing Lead-out"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:145
+#: projects/k3bgrowisofshandler.cpp:149
 msgid "Writing the lead-out may take some time."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:148
+#: projects/k3bgrowisofshandler.cpp:152
 msgid "Removing reference to lead-out."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:151
+#: projects/k3bgrowisofshandler.cpp:155
 msgid "Modifying ISO9660 volume descriptor"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:158
+#: projects/k3bgrowisofshandler.cpp:162
 msgid "Writer does not support Incremental Streaming"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:159
+#: projects/k3bgrowisofshandler.cpp:163
 msgid "Engaging DAO"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:171
+#: projects/k3bgrowisofshandler.cpp:175
 msgid "Writing speed: %1 KB/s (%2x)"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:222
+#: projects/k3bgrowisofshandler.cpp:226
 msgid "K3b detected a problem with the media."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:223
+#: projects/k3bgrowisofshandler.cpp:227
 msgid ""
 "Please try another media brand, preferably one explicitly recommended by your "
 "writer's vendor."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:224
+#: projects/k3bgrowisofshandler.cpp:228
 msgid "Report the problem if it persists anyway."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:673 projects/k3bgrowisofshandler.cpp:229
+#: projects/k3bcdrecordwriter.cpp:673 projects/k3bgrowisofshandler.cpp:233
 msgid "Data did not fit on disk."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:235
+#: projects/k3bgrowisofshandler.cpp:239
 msgid "Unable to set writing speed."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:236
+#: projects/k3bgrowisofshandler.cpp:240
 msgid "Please try again with the 'ignore speed' setting."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:240
+#: projects/k3bgrowisofshandler.cpp:244
 msgid "Optimum Power Calibration failed."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:241
+#: projects/k3bgrowisofshandler.cpp:245
 msgid ""
 "Try adding '-use-the-force-luke=noopc' to the growisofs user parameters in the "
 "K3b settings."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:258
+#: projects/k3bgrowisofshandler.cpp:250
+msgid "Unable to allocate software buffer."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:251
+msgid "This error is caused by the low memorylocaked resource limit."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:252
+msgid "Please remove the suid root bit on the growisofs permissions for now."
+msgstr ""
+
+#: projects/k3bgrowisofshandler.cpp:268
 #, c-format
 msgid "Fatal error at startup: %1"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:266
+#: projects/k3bgrowisofshandler.cpp:276
 msgid "Warning at exit: (1)"
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:267
+#: projects/k3bgrowisofshandler.cpp:277
 msgid "Most likely mkisofs failed in some way."
 msgstr ""
 
-#: projects/k3bgrowisofshandler.cpp:270
+#: projects/k3bgrowisofshandler.cpp:280
 #, c-format
 msgid "Fatal error during recording: %1"
 msgstr ""
