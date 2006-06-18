@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-05-23 11:18+0200\n"
+"POT-Creation-Date: 2006-06-18 11:20+0200\n"
 "PO-Revision-Date: 2006-04-07 18:36+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -58,7 +58,7 @@ msgid "Add to Timers"
 msgstr "Таймерга қўшиш"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 105
-#: input/dvb/ktimereditor.cpp:35 rc.cpp:222
+#: input/dvb/ktimereditor.cpp:35 rc.cpp:225
 #, no-c-format
 msgid "Name:"
 msgstr "Номи:"
@@ -154,7 +154,7 @@ msgid "You have to choose some days."
 msgstr "Бирор кунни танлашингиз лозим."
 
 #. i18n: file ./input/dvb/scandialogui.ui line 16
-#: input/dvb/dvbpanel.cpp:129 input/dvb/scandialog.cpp:71 rc.cpp:146
+#: input/dvb/dvbpanel.cpp:129 input/dvb/scandialog.cpp:78 rc.cpp:146
 #: rc.cpp:149
 #, no-c-format
 msgid "Channels"
@@ -181,7 +181,7 @@ msgid "Number"
 msgstr "Рақам"
 
 #. i18n: file ./input/dvb/scandialogui.ui line 60
-#: input/dvb/dvbpanel.cpp:160 input/dvb/krecord.cpp:45 rc.cpp:155
+#: input/dvb/dvbpanel.cpp:160 input/dvb/krecord.cpp:45 rc.cpp:155 rc.cpp:210
 #, no-c-format
 msgid "Name"
 msgstr "Номи"
@@ -406,43 +406,43 @@ msgstr "Kaffeine ёзишни давом эттирмоқда. Ростдан ч
 msgid "Kaffeine has queued timers. Do you really want to quit?"
 msgstr "Kaffeine'да режалаштирилган таймер мавжуд. Ростдан чиқишни истайсизми?"
 
-#: input/dvb/scandialog.cpp:77
+#: input/dvb/scandialog.cpp:84
 msgid "Signal:"
 msgstr "Сигнал:"
 
-#: input/dvb/scandialog.cpp:81
+#: input/dvb/scandialog.cpp:88
 msgid "SNR:"
 msgstr "SNR:"
 
-#: input/dvb/scandialog.cpp:85
+#: input/dvb/scandialog.cpp:92
 msgid "Lock:"
 msgstr "Қулфлаш:"
 
-#: input/dvb/scandialog.cpp:228
+#: input/dvb/scandialog.cpp:236
 msgid "Edit..."
 msgstr "Таҳрирлаш"
 
-#: input/dvb/scandialog.cpp:334
+#: input/dvb/scandialog.cpp:342
 msgid "Do you really want to delete all channels?"
 msgstr "Ростдан ҳамма тўлқинни ўчиришни истайсизми?"
 
-#: input/dvb/scandialog.cpp:664 input/dvb/scandialog.cpp:765
+#: input/dvb/scandialog.cpp:672 input/dvb/scandialog.cpp:793
 msgid "These channels already exist and were not added:"
 msgstr "Ушбу тўлқин аллақачон мавжуд, шу сабабли қўшилмади:"
 
-#: input/dvb/scandialog.cpp:784 input/dvb/scandialog.cpp:830
+#: input/dvb/scandialog.cpp:812 input/dvb/scandialog.cpp:858
 msgid "START scan"
 msgstr "Қидиришни бошлаш"
 
-#: input/dvb/scandialog.cpp:811
+#: input/dvb/scandialog.cpp:839
 msgid "STOP scan"
 msgstr "Қидиришни тўхтатиш"
 
-#: input/dvb/scandialog.cpp:817
+#: input/dvb/scandialog.cpp:845
 msgid "Stopping..."
 msgstr "Тўхтатилмоқда..."
 
-#: input/dvb/scandialog.cpp:909
+#: input/dvb/scandialog.cpp:941
 msgid "Found: %1 TV - %2 radio"
 msgstr "%1-та ТВ ва %2-та радиостанция топилди"
 
@@ -553,7 +553,7 @@ msgid "LNB settings..."
 msgstr "LNB мосламалари"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 57
-#: input/dvb/dvbconfig.cpp:583 rc.cpp:219
+#: input/dvb/dvbconfig.cpp:583 rc.cpp:222
 #, no-c-format
 msgid "Source:"
 msgstr "Манба:"
@@ -1380,7 +1380,7 @@ msgid "Subtitle PIDs"
 msgstr ""
 
 #. i18n: file ./input/dvb/subeditorui.ui line 93
-#: rc.cpp:12 rc.cpp:94 rc.cpp:133 rc.cpp:141 rc.cpp:207
+#: rc.cpp:12 rc.cpp:94 rc.cpp:133 rc.cpp:141
 #, no-c-format
 msgid "New Item"
 msgstr "Янги нарса"
@@ -1571,118 +1571,124 @@ msgstr "<< Филтрланганни қўшиш"
 msgid "Found"
 msgstr "Топилди"
 
-#. i18n: file ./input/dvb/scandialogui.ui line 441
-#: rc.cpp:210
+#. i18n: file ./input/dvb/scandialogui.ui line 386
+#: rc.cpp:207
+#, fuzzy, no-c-format
+msgid "SNR"
+msgstr "SNR:"
+
+#. i18n: file ./input/dvb/scandialogui.ui line 458
+#: rc.cpp:213
 #, no-c-format
 msgid "Done"
 msgstr "Бажарилди"
 
 #. i18n: file ./input/dvb/kaffeinedvb.rc line 4
 #: player-parts/gstreamer-part/gstreamer_part.cpp:840
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1301 rc.cpp:213
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1301 rc.cpp:216
 #, no-c-format
 msgid "&DVB"
 msgstr "&DVB"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 16
-#: rc.cpp:216
+#: rc.cpp:219
 #, no-c-format
 msgid "Channel Editor"
 msgstr "Тўлқин таҳрирчи"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 126
-#: rc.cpp:225
+#: rc.cpp:228
 #, no-c-format
 msgid "Nr:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 163
-#: rc.cpp:229
+#: rc.cpp:232
 #, no-c-format
 msgid "Polarity"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 200
-#: rc.cpp:238
+#: rc.cpp:241
 #, no-c-format
 msgid "Frequency:"
 msgstr "Частотаси:"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 216
-#: rc.cpp:241
+#: rc.cpp:244
 #, no-c-format
 msgid "Symbol rate:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 246
-#: rc.cpp:244
+#: rc.cpp:247
 #, no-c-format
 msgid "Scrambled"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 283
-#: rc.cpp:248
+#: rc.cpp:251
 #, no-c-format
 msgid "Teletext PID:"
 msgstr "Телетекст PID:"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 313
-#: rc.cpp:251
+#: rc.cpp:254
 #, no-c-format
 msgid "Service ID:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 337
-#: rc.cpp:254
+#: rc.cpp:257
 #, no-c-format
 msgid "Video PID:"
 msgstr "Видео PID:"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 375
-#: rc.cpp:257
+#: rc.cpp:260
 #, no-c-format
 msgid "Transport stream ID:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 385
-#: rc.cpp:260
+#: rc.cpp:263
 #, no-c-format
 msgid "Subtitle PIDs..."
 msgstr "Субтитр PID'лари ..."
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 396
-#: rc.cpp:263
+#: rc.cpp:266
 #, no-c-format
 msgid "Audio PIDs..."
 msgstr "Аудио PID'лари ..."
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 432
-#: rc.cpp:267
+#: rc.cpp:270
 #, no-c-format
 msgid "Bandwidth:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 448
-#: rc.cpp:270
+#: rc.cpp:273
 #, no-c-format
 msgid "FEC high:"
 msgstr "FEC юқори:"
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 464
-#: rc.cpp:273
+#: rc.cpp:276
 #, no-c-format
 msgid "Transmission:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 495
-#: rc.cpp:276
+#: rc.cpp:279
 #, no-c-format
 msgid "FEC low:"
 msgstr "FEC паст:"
 
 # guard - bilmadim, interval - oraliq.
 #. i18n: file ./input/dvb/channeleditorui.ui line 516
-#: rc.cpp:279
+#: rc.cpp:282
 #, no-c-format
 msgid "Guard interval:"
 msgstr ""
@@ -1690,133 +1696,133 @@ msgstr ""
 # Hierarchy - ruschasi ierarxiya, bu erda nima
 # nazarda tutilgan men bilmadi. sizchi?
 #. i18n: file ./input/dvb/channeleditorui.ui line 537
-#: rc.cpp:282
+#: rc.cpp:285
 #, no-c-format
 msgid "Hierarchy:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 553
-#: rc.cpp:285
+#: rc.cpp:288
 #, no-c-format
 msgid "Modulation:"
 msgstr ""
 
 #. i18n: file ./input/dvb/channeleditorui.ui line 579
-#: rc.cpp:288
+#: rc.cpp:291
 #, no-c-format
 msgid "Inversion:"
 msgstr "Инверсия:"
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 16
-#: rc.cpp:297
+#: rc.cpp:300
 #, no-c-format
 msgid "Encoding Preferences"
 msgstr ""
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 38
-#: rc.cpp:300
+#: rc.cpp:303
 #, fuzzy, no-c-format
 msgid "Encoder:"
 msgstr "Охири:"
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 56
-#: rc.cpp:303
+#: rc.cpp:306
 #, fuzzy, no-c-format
 msgid "Base directory:"
 msgstr "Ёзиб олиш директорияси:"
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 73
-#: rc.cpp:306
+#: rc.cpp:309
 #, fuzzy, no-c-format
 msgid "..."
 msgstr "Янги..."
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 99
-#: rc.cpp:309
+#: rc.cpp:312
 #, no-c-format
 msgid "Paranoia:"
 msgstr ""
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 116
-#: rc.cpp:312
+#: rc.cpp:315
 #, no-c-format
 msgid "Disable all checking"
 msgstr ""
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 124
-#: rc.cpp:315
+#: rc.cpp:318
 #, no-c-format
 msgid "Normal mode"
 msgstr ""
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 132
-#: rc.cpp:318
+#: rc.cpp:321
 #, no-c-format
 msgid "Paranoia mode"
 msgstr ""
 
 #. i18n: file ./input/disc/paranoiasettings.ui line 153
-#: rc.cpp:322
+#: rc.cpp:325
 #, no-c-format
 msgid "Normalize"
 msgstr ""
 
 #. i18n: file ./input/disc/kaffeinedisc.rc line 12
-#: rc.cpp:333
+#: rc.cpp:336
 #, no-c-format
 msgid "CD Toolbar"
 msgstr "Компакт-диск асбоблар панели"
 
 #. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 16
-#: rc.cpp:336
+#: rc.cpp:339
 #, no-c-format
 msgid "Lame mp3 options"
 msgstr ""
 
 #. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 49
-#: rc.cpp:340
+#: rc.cpp:343
 #, fuzzy, no-c-format
 msgid "VBR"
 msgstr "DVB"
 
 #. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 73
-#: rc.cpp:343
+#: rc.cpp:346
 #, no-c-format
 msgid "Bitrate:"
 msgstr ""
 
 #. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 94
-#: rc.cpp:346
+#: rc.cpp:349
 #, no-c-format
 msgid "Kb/s"
 msgstr ""
 
 #. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 16
-#: rc.cpp:357
+#: rc.cpp:360
 #, fuzzy, no-c-format
 msgid "Ogg Vorbis Options"
 msgstr "Ogg Vorbis файллари"
 
 #. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 86
-#: rc.cpp:361
+#: rc.cpp:364
 #, no-c-format
 msgid "Quality :"
 msgstr ""
 
 #. i18n: file ./input/audiobrowser/kaffeineplaylist.rc line 4
-#: rc.cpp:372
+#: rc.cpp:375
 #, no-c-format
 msgid "Play&list"
 msgstr "Ўй&наш рўйхати"
 
 #. i18n: file ./kaffeineui.rc line 12
-#: rc.cpp:378
+#: rc.cpp:381
 #, no-c-format
 msgid "Quit Options"
 msgstr "Чиқиш йўли"
 
 #. i18n: file ./kaffeineui.rc line 19
-#: rc.cpp:381 rc.cpp:399 rc.cpp:447 rc.cpp:465
+#: rc.cpp:384 rc.cpp:402 rc.cpp:450 rc.cpp:468
 #, no-c-format
 msgid "&Player"
 msgstr "&Плейер"
@@ -1824,67 +1830,67 @@ msgstr "&Плейер"
 # bu erda gap oynaning o'lchami haqida gap
 # ketyapti
 #. i18n: file ./kaffeineui.rc line 27
-#: rc.cpp:387
+#: rc.cpp:390
 #, no-c-format
 msgid "Enable Auto &Resize"
 msgstr "&Автоматик ўлчамини ўзгартиришни қўллаш"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 5
-#: rc.cpp:396
+#: rc.cpp:399
 #, no-c-format
 msgid "&Network Broadcasting"
 msgstr "&Тармоқ орқали видео/аудио"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 24
-#: rc.cpp:402 rc.cpp:408 rc.cpp:438
+#: rc.cpp:405 rc.cpp:411 rc.cpp:441
 #, no-c-format
 msgid "&Navigation"
 msgstr "&Йўлчи"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 33
-#: rc.cpp:405 rc.cpp:441
+#: rc.cpp:408 rc.cpp:444
 #, no-c-format
 msgid "&DVD"
 msgstr "&DVD"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 41
-#: rc.cpp:411 rc.cpp:444
+#: rc.cpp:414 rc.cpp:447
 #, no-c-format
 msgid "&DVD Menus"
 msgstr "&DVD менюлари"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 56
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1322 rc.cpp:414
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1322 rc.cpp:417
 #, no-c-format
 msgid "&Audio"
 msgstr "&Аудио"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 64
-#: rc.cpp:417
+#: rc.cpp:420
 #, no-c-format
 msgid "&Video"
 msgstr "&Видео"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 66
-#: rc.cpp:420 rc.cpp:450 rc.cpp:462
+#: rc.cpp:423 rc.cpp:453 rc.cpp:465
 #, no-c-format
 msgid "&Aspect Ratio"
 msgstr "Ў&лчам"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 96
-#: rc.cpp:426
+#: rc.cpp:429
 #, no-c-format
 msgid "Screenshot Toolbar"
 msgstr "Скриншот асбоблар панели"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 99
-#: rc.cpp:429 rc.cpp:453
+#: rc.cpp:432 rc.cpp:456
 #, no-c-format
 msgid "Controls Toolbar"
 msgstr "Бошқарув асбоблар панели"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 108
-#: rc.cpp:432 rc.cpp:456
+#: rc.cpp:435 rc.cpp:459
 #, no-c-format
 msgid "Volume Toolbar"
 msgstr "Товуш асбоблар панели"
@@ -1892,7 +1898,7 @@ msgstr "Товуш асбоблар панели"
 # o'zimda hech qanday taklif yo'q bo'lsa ham
 # position holat emas.
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 112
-#: rc.cpp:435 rc.cpp:459
+#: rc.cpp:438 rc.cpp:462
 #, no-c-format
 msgid "Position Toolbar"
 msgstr ""
