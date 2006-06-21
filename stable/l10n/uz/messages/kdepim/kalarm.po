@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
-"POT-Creation-Date: 2006-06-20 04:03+0200\n"
+"POT-Creation-Date: 2006-06-21 04:05+0200\n"
 "PO-Revision-Date: 2006-04-07 18:05+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -30,20 +30,20 @@ msgid ""
 "Your emails"
 msgstr "mavnur@gmail.com"
 
-#: alarmcalendar.cpp:108
+#: alarmcalendar.cpp:110
 msgid "%1: file name not permitted: %2"
 msgstr ""
 
-#: alarmcalendar.cpp:129
+#: alarmcalendar.cpp:131
 msgid "%1, %2: file names must be different"
 msgstr ""
 
-#: alarmcalendar.cpp:136
+#: alarmcalendar.cpp:138
 #, c-format
 msgid "Invalid calendar file name: %1"
 msgstr "Календар файлнинг номи хато: %1"
 
-#: alarmcalendar.cpp:317
+#: alarmcalendar.cpp:319
 #, c-format
 msgid ""
 "Cannot open calendar:\n"
@@ -52,7 +52,7 @@ msgstr ""
 "Календарни очиб бўлмади:\n"
 "%1"
 
-#: alarmcalendar.cpp:334
+#: alarmcalendar.cpp:336
 msgid ""
 "Error loading calendar:\n"
 "%1\n"
@@ -64,7 +64,7 @@ msgstr ""
 "\n"
 "Илтимос файлни созланг ёки олиб ташланг."
 
-#: alarmcalendar.cpp:379
+#: alarmcalendar.cpp:381
 msgid ""
 "Failed to save calendar to\n"
 "'%1'"
@@ -72,13 +72,34 @@ msgstr ""
 "Календарни сақлаб бўлмади\n"
 "'%1'"
 
-#: alarmcalendar.cpp:388
+#: alarmcalendar.cpp:390
 msgid ""
 "Cannot upload calendar to\n"
 "'%1'"
 msgstr ""
 "Календарни ёзиб қўйиб бўлмади\n"
 "'%1'"
+
+#: alarmcalendar.cpp:444
+#, fuzzy
+msgid "Calendar Files"
+msgstr "Календар файлининг манзили"
+
+#: alarmcalendar.cpp:466 alarmcalendar.cpp:488
+#, fuzzy
+msgid "Could not load calendar '%1'."
+msgstr ""
+"Календарни ёзиб қўйиб бўлмади\n"
+"'%1'"
+
+#: alarmcalendar.cpp:475
+#, fuzzy, c-format
+msgid ""
+"Cannot download calendar:\n"
+"%1"
+msgstr ""
+"Календарни очиб бўлмади:\n"
+"%1"
 
 #: alarmevent.cpp:1981
 msgid ""
@@ -1619,41 +1640,46 @@ msgid "Hide From System &Tray"
 msgstr ""
 
 #: mainwindow.cpp:321
-msgid "Import &Birthdays..."
+#, fuzzy
+msgid "Import &Alarms..."
 msgstr "&Туғилган кунларни импорт қилиш..."
 
 #: mainwindow.cpp:322
+msgid "Import &Birthdays..."
+msgstr "&Туғилган кунларни импорт қилиш..."
+
+#: mainwindow.cpp:323
 msgid "&Refresh Alarms"
 msgstr "Огоҳлантиришларни &янгилаш"
 
-#: mainwindow.cpp:550
+#: mainwindow.cpp:551
 msgid "New Alarm"
 msgstr "Янги огоҳлантириш"
 
-#: mainwindow.cpp:620 messagewin.cpp:1426
+#: mainwindow.cpp:621 messagewin.cpp:1426
 msgid "Edit Alarm"
 msgstr "Огоҳлантиришни таҳрирлаш"
 
-#: mainwindow.cpp:654
+#: mainwindow.cpp:655
 msgid "Expired Alarm"
 msgstr "Муддати ўтган огоҳлантириш"
 
-#: mainwindow.cpp:654
+#: mainwindow.cpp:655
 msgid "read-only"
 msgstr "фақат ўқишга"
 
-#: mainwindow.cpp:655
+#: mainwindow.cpp:656
 msgid "View Alarm"
 msgstr "Огоҳлантириш кўриниши"
 
-#: mainwindow.cpp:672
+#: mainwindow.cpp:673
 #, c-format
 msgid ""
 "_n: Do you really want to delete the selected alarm?\n"
 "Do you really want to delete the %n selected alarms?"
 msgstr ""
 
-#: mainwindow.cpp:673
+#: mainwindow.cpp:674
 msgid ""
 "_n: Delete Alarm\n"
 "Delete Alarms"
@@ -1661,17 +1687,17 @@ msgstr ""
 "Огоҳлантиришни ўчириш\n"
 "Огоҳлантиришларни ўчириш"
 
-#: mainwindow.cpp:943
+#: mainwindow.cpp:954
 msgid ""
 "_: Undo [action]: message\n"
 "%1 %2: %3"
 msgstr ""
 
-#: mainwindow.cpp:1303
+#: mainwindow.cpp:1314
 msgid "Ena&ble"
 msgstr "Ёқ&иш"
 
-#: mainwindow.cpp:1303
+#: mainwindow.cpp:1314
 msgid "Disa&ble"
 msgstr "Ў&чириш"
 
@@ -2387,7 +2413,7 @@ msgid ""
 "Daemon is monitoring alarms."
 msgstr ""
 
-#. i18n: file kalarmui.rc line 31
+#. i18n: file kalarmui.rc line 32
 #: rc.cpp:9 rc.cpp:21
 #, no-c-format
 msgid "&Actions"
