@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
-"POT-Creation-Date: 2006-06-14 11:19+0200\n"
+"POT-Creation-Date: 2006-06-24 11:42+0200\n"
 "PO-Revision-Date: 2006-04-07 18:32+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -1573,11 +1573,11 @@ msgstr "%1'ни ўрнини алмаштиришни истайсизми?"
 msgid "File Exists"
 msgstr "Файл аллақачон мавжуд"
 
-#: misc/k3bcdcopydialog.cpp:409 misc/k3bdvdcopydialog.cpp:401
+#: misc/k3bcdcopydialog.cpp:460 misc/k3bdvdcopydialog.cpp:432
 msgid "Use the same device for burning"
 msgstr ""
 
-#: misc/k3bcdcopydialog.cpp:410 misc/k3bdvdcopydialog.cpp:402
+#: misc/k3bcdcopydialog.cpp:461 misc/k3bdvdcopydialog.cpp:433
 msgid "<qt>Use the same device for burning <i>(Or insert another medium)</i>"
 msgstr ""
 
@@ -1777,31 +1777,36 @@ msgstr "Йўлакча"
 msgid "Md5 Sum:"
 msgstr "MD5 сони:"
 
-#: misc/k3bcdimagewritingdialog.cpp:840 misc/k3bisoimagewritingdialog.cpp:435
+#: misc/k3bcdimagewritingdialog.cpp:841 misc/k3bisoimagewritingdialog.cpp:436
+#, fuzzy
+msgid "Calculation cancelled"
+msgstr "Ҳисоблаш муваффақиятсиз тугади"
+
+#: misc/k3bcdimagewritingdialog.cpp:843 misc/k3bisoimagewritingdialog.cpp:438
 msgid "Calculation failed"
 msgstr "Ҳисоблаш муваффақиятсиз тугади"
 
-#: misc/k3bcdimagewritingdialog.cpp:853 misc/k3bisoimagewritingdialog.cpp:448
+#: misc/k3bcdimagewritingdialog.cpp:856 misc/k3bisoimagewritingdialog.cpp:451
 msgid "MD5 Sum Check"
 msgstr "MD5 сонларини текшириш"
 
-#: misc/k3bcdimagewritingdialog.cpp:854 misc/k3bisoimagewritingdialog.cpp:449
+#: misc/k3bcdimagewritingdialog.cpp:857 misc/k3bisoimagewritingdialog.cpp:452
 msgid "Please insert the MD5 Sum to compare:"
 msgstr ""
 
-#: misc/k3bcdimagewritingdialog.cpp:860 misc/k3bisoimagewritingdialog.cpp:455
+#: misc/k3bcdimagewritingdialog.cpp:863 misc/k3bisoimagewritingdialog.cpp:458
 msgid "The MD5 Sum of %1 equals the specified."
 msgstr ""
 
-#: misc/k3bcdimagewritingdialog.cpp:861 misc/k3bisoimagewritingdialog.cpp:456
+#: misc/k3bcdimagewritingdialog.cpp:864 misc/k3bisoimagewritingdialog.cpp:459
 msgid "MD5 Sums Equal"
 msgstr ""
 
-#: misc/k3bcdimagewritingdialog.cpp:863 misc/k3bisoimagewritingdialog.cpp:458
+#: misc/k3bcdimagewritingdialog.cpp:866 misc/k3bisoimagewritingdialog.cpp:461
 msgid "The MD5 Sum of %1 differs from the specified."
 msgstr ""
 
-#: misc/k3bcdimagewritingdialog.cpp:864 misc/k3bisoimagewritingdialog.cpp:459
+#: misc/k3bcdimagewritingdialog.cpp:867 misc/k3bisoimagewritingdialog.cpp:462
 msgid "MD5 Sums Differ"
 msgstr "MD5 сонлари мос келмайди"
 
@@ -2019,8 +2024,8 @@ msgid "Setting the read speed failed."
 msgstr "Ўқиш тезлигини ўрнатиб бўлмади."
 
 #: k3bdatamodewidget.cpp:34 k3bwriterselectionwidget.cpp:235
-#: k3bwriterselectionwidget.cpp:414 k3bwritingmodewidget.cpp:95
-#: k3bwritingmodewidget.cpp:173 projects/k3bdatamultisessioncombobox.cpp:72
+#: k3bwriterselectionwidget.cpp:414 k3bwritingmodewidget.cpp:96
+#: k3bwritingmodewidget.cpp:175 projects/k3bdatamultisessioncombobox.cpp:72
 #: projects/k3bfillstatusdisplay.cpp:339
 msgid "Auto"
 msgstr "Авто"
@@ -7165,7 +7170,7 @@ msgid ""
 ". The laser is never turned off while writing the CD or DVD. This is the "
 "preferred mode to write audio CDs since it allows pregaps other than 2 seconds. "
 "Not all writers support DAO."
-"<br>DVDs written in DAO provide the best DVD-Video compatibility."
+"<br>DVD-R(W)s written in DAO provide the best DVD-Video compatibility."
 msgstr ""
 
 #: k3bwritingmodewidget.cpp:77
@@ -7193,38 +7198,39 @@ msgid ""
 "Restricted Overwrite allows to use a DVD-RW just like a DVD-RAM or a DVD+RW. "
 "The media may just be overwritten. It is not possible to write multisession "
 "DVD-RWs in this mode but K3b uses growisofs to grow an ISO9660 filesystem "
-"within the first session."
+"within the first session, thus allowing new files to be added to an already "
+"burned disk."
 msgstr ""
 
-#: k3bwritingmodewidget.cpp:94
+#: k3bwritingmodewidget.cpp:95
 msgid "Writing mode"
 msgstr "Ёзиш усули"
 
-#: k3bwritingmodewidget.cpp:96
+#: k3bwritingmodewidget.cpp:97
 msgid "Let K3b select the best-suited mode. This is the recommended selection."
 msgstr ""
 
-#: k3bwritingmodewidget.cpp:99 k3bwritingmodewidget.cpp:119
-#: k3bwritingmodewidget.cpp:139 k3bwritingmodewidget.cpp:175
+#: k3bwritingmodewidget.cpp:100 k3bwritingmodewidget.cpp:121
+#: k3bwritingmodewidget.cpp:141 k3bwritingmodewidget.cpp:177
 msgid "DAO"
 msgstr "DAO"
 
-#: k3bwritingmodewidget.cpp:101 k3bwritingmodewidget.cpp:121
-#: k3bwritingmodewidget.cpp:142 k3bwritingmodewidget.cpp:177
+#: k3bwritingmodewidget.cpp:102 k3bwritingmodewidget.cpp:123
+#: k3bwritingmodewidget.cpp:144 k3bwritingmodewidget.cpp:179
 msgid "TAO"
 msgstr "TAO"
 
-#: k3bwritingmodewidget.cpp:103 k3bwritingmodewidget.cpp:123
-#: k3bwritingmodewidget.cpp:145 k3bwritingmodewidget.cpp:179
+#: k3bwritingmodewidget.cpp:104 k3bwritingmodewidget.cpp:125
+#: k3bwritingmodewidget.cpp:147 k3bwritingmodewidget.cpp:181
 msgid "RAW"
 msgstr "RAW"
 
-#: k3bwritingmodewidget.cpp:105 k3bwritingmodewidget.cpp:125
-#: k3bwritingmodewidget.cpp:148 k3bwritingmodewidget.cpp:183
+#: k3bwritingmodewidget.cpp:106 k3bwritingmodewidget.cpp:127
+#: k3bwritingmodewidget.cpp:150 k3bwritingmodewidget.cpp:185
 msgid "Incremental"
 msgstr ""
 
-#: k3bwritingmodewidget.cpp:107
+#: k3bwritingmodewidget.cpp:108
 #, fuzzy
 msgid "Restricted Overwrite"
 msgstr "Чекланган ўринни алмаштириш"
@@ -7235,8 +7241,12 @@ msgid ""
 "only one way to write them."
 msgstr ""
 
-#: k3bwritingmodewidget.cpp:127 k3bwritingmodewidget.cpp:151
-#: k3bwritingmodewidget.cpp:181
+#: k3bwritingmodewidget.cpp:113
+msgid "The selection of writing modes depends on the inserted burning medium."
+msgstr ""
+
+#: k3bwritingmodewidget.cpp:129 k3bwritingmodewidget.cpp:153
+#: k3bwritingmodewidget.cpp:183
 msgid ""
 "_: Writing mode\n"
 "Overwrite"
