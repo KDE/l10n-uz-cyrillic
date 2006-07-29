@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b\n"
-"POT-Creation-Date: 2006-07-25 11:47+0200\n"
+"POT-Creation-Date: 2006-07-29 11:00+0200\n"
 "PO-Revision-Date: 2006-04-07 18:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -497,10 +497,9 @@ msgstr ""
 " - %n нусха"
 
 #: jobs/k3bcdcopyjob.cpp:1009 jobs/k3bisoimageverificationjob.cpp:106
-#: projects/datacd/k3bdataverifyingjob.cpp:100
 #: projects/mixedcd/k3bmixedjob.cpp:471
 #, fuzzy
-msgid "Reloading the media"
+msgid "Reloading the medium"
 msgstr "Дискни қайта юклаш"
 
 #: jobs/k3bcdcopyjob.cpp:1052 jobs/k3bisoimageverificationjob.cpp:116
@@ -1203,41 +1202,49 @@ msgstr ""
 msgid "K3b was unable to erase the disk."
 msgstr ""
 
-#: tools/k3binterferingsystemshandler.cpp:138
-msgid "Disabled KDED module mediamanager."
-msgstr ""
-
 #: tools/k3binterferingsystemshandler.cpp:140
-msgid "Failed to disable KDED module mediamanager."
+#: tools/k3binterferingsystemshandler.cpp:149
+#, c-format
+msgid "Disabled KDED module %1."
 msgstr ""
 
-#: tools/k3binterferingsystemshandler.cpp:147
+#: tools/k3binterferingsystemshandler.cpp:142
+#: tools/k3binterferingsystemshandler.cpp:151
+#, c-format
+msgid "Failed to disable KDED module %1."
+msgstr ""
+
+#: tools/k3binterferingsystemshandler.cpp:158
 msgid "Shut down SuSEPlugger."
 msgstr ""
 
-#: tools/k3binterferingsystemshandler.cpp:149
+#: tools/k3binterferingsystemshandler.cpp:160
 msgid "Failed to shut down SuSEPlugger."
 msgstr ""
 
-#: tools/k3binterferingsystemshandler.cpp:173
+#: tools/k3binterferingsystemshandler.cpp:184
 msgid ""
 "<p>The device <em>%1</em> is already in use by other applications (<b>%2</b>"
 ") It highly recommended to quit those."
 msgstr ""
 
-#: tools/k3binterferingsystemshandler.cpp:192
-msgid "Failed to enable KDED module mediamanager."
-msgstr ""
-
-#: tools/k3binterferingsystemshandler.cpp:196
-msgid "Enabled KDED module mediamanager."
-msgstr ""
-
 #: tools/k3binterferingsystemshandler.cpp:203
-msgid "Failed to start SuSEPlugger."
+#: tools/k3binterferingsystemshandler.cpp:214
+#, c-format
+msgid "Failed to enable KDED module %1."
 msgstr ""
 
 #: tools/k3binterferingsystemshandler.cpp:207
+#: tools/k3binterferingsystemshandler.cpp:218
+#, c-format
+msgid "Enabled KDED module %1."
+msgstr ""
+
+#: tools/k3binterferingsystemshandler.cpp:225
+msgid "Failed to start SuSEPlugger."
+msgstr ""
+
+#: tools/k3binterferingsystemshandler.cpp:229
 msgid "Restarted SuSEPlugger."
 msgstr ""
 
@@ -1249,17 +1256,17 @@ msgstr ""
 msgid "Please select a device:"
 msgstr ""
 
-#: tools/k3bmd5job.cpp:97
+#: tools/k3bmd5job.cpp:100
 #, c-format
 msgid "Could not find file %1"
 msgstr ""
 
-#: tools/k3bmd5job.cpp:104
+#: tools/k3bmd5job.cpp:107
 #, c-format
 msgid "Could not open file %1"
 msgstr ""
 
-#: tools/k3bmd5job.cpp:230
+#: tools/k3bmd5job.cpp:247
 #, c-format
 msgid "Error while reading from file %1"
 msgstr ""
@@ -1549,8 +1556,10 @@ msgid "Writing"
 msgstr ""
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:264
-msgid "Starting writing..."
-msgstr ""
+#: projects/k3bgrowisofswriter.cpp:363
+#, fuzzy
+msgid "Starting disc write..."
+msgstr "Ўқиш бошланди..."
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:284
 #: projects/k3bgrowisofswriter.cpp:447
@@ -1984,6 +1993,11 @@ msgstr ""
 msgid "Boot catalog"
 msgstr ""
 
+#: projects/datacd/k3bdataverifyingjob.cpp:100
+#, fuzzy
+msgid "Reloading the media"
+msgstr "Дискни қайта юклаш"
+
 #: projects/datacd/k3bdataverifyingjob.cpp:118
 msgid "Reading TOC"
 msgstr ""
@@ -2170,11 +2184,6 @@ msgstr ""
 #, c-format
 msgid "Could not open file %1."
 msgstr ""
-
-#: projects/k3bgrowisofswriter.cpp:363
-#, fuzzy
-msgid "Starting disc write..."
-msgstr "Ўқиш бошланди..."
 
 #: projects/movixcd/k3bmovixdocpreparer.cpp:135
 msgid "Could not find a valid eMovix installation."
@@ -2634,8 +2643,9 @@ msgid "Input/output error. Not necessarily serious."
 msgstr ""
 
 #: projects/k3bcdrecordwriter.cpp:480
-msgid "Reloading of media required"
-msgstr ""
+#, fuzzy
+msgid "Reloading of medium required"
+msgstr "Диск манбасини текшириш"
 
 #: projects/k3bcdrdaowriter.cpp:890 projects/k3bcdrecordwriter.cpp:496
 msgid "No valid %1 option: %2"
@@ -2665,8 +2675,9 @@ msgid "Switching burn speed down to %1x"
 msgstr ""
 
 #: projects/k3bcdrecordwriter.cpp:557
-msgid "Starting writing"
-msgstr ""
+#, fuzzy
+msgid "Starting disc write"
+msgstr "Ўқиш бошланди..."
 
 #: projects/k3bcdrecordwriter.cpp:577
 msgid "Writing Leadin"
