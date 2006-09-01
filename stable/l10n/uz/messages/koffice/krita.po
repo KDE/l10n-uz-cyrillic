@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
-"POT-Creation-Date: 2006-08-31 02:45+0200\n"
+"POT-Creation-Date: 2006-09-01 02:44+0200\n"
 "PO-Revision-Date: 2006-05-11 23:09+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -2149,7 +2149,7 @@ msgid "Pressure effects:"
 msgstr "Босим эффектлари:"
 
 #. i18n: file ./colorspaces/wet/wdgpressure.ui line 35
-#: rc.cpp:696
+#: plugins/paintops/defaultpaintops/kis_brushop.cc:65 rc.cpp:696
 #, no-c-format
 msgid "Size"
 msgstr "Ўлчами"
@@ -2334,7 +2334,7 @@ msgstr "Давомли тўлдириш"
 #. i18n: file ./plugins/tools/tool_siox/wdg_tool_siox.ui line 243
 #: rc.cpp:814
 #, no-c-format
-msgid "Interactive refinement (Ctrl)"
+msgid "Interactive Refinement (Ctrl)"
 msgstr ""
 
 #. i18n: file ./plugins/tools/tool_siox/wdg_tool_siox.ui line 254
@@ -2934,7 +2934,7 @@ msgstr ""
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 24
 #: rc.cpp:1176
 #, fuzzy, no-c-format
-msgid "Custom canvas definition"
+msgid "Custom Canvas Definition"
 msgstr "Бошқа градиент"
 
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 41
@@ -2946,7 +2946,7 @@ msgstr "&Бошқа:"
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 61
 #: rc.cpp:1183
 #, no-c-format
-msgid "Save Custom Substrate As:"
+msgid "Save custom substrate as:"
 msgstr ""
 
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 69
@@ -2958,7 +2958,7 @@ msgstr "Олдиндан аниқланган бўёқлар"
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 80
 #: rc.cpp:1189
 #, fuzzy, no-c-format
-msgid "&Basic Color:"
+msgid "&Basic color:"
 msgstr "Ран&г:"
 
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 122
@@ -2988,7 +2988,7 @@ msgstr "&Филтер:"
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 171
 #: rc.cpp:1204
 #, fuzzy, no-c-format
-msgid "fine &Fiber:"
+msgid "Fine &fiber:"
 msgstr "&Филтер:"
 
 #. i18n: file ./plugins/viewplugins/substrate/wdgsubstrate.ui line 182
@@ -3666,7 +3666,7 @@ msgstr "Ғилдирак:"
 #. i18n: file ./plugins/filters/wavefilter/wdgwaveoptions.ui line 61
 #: rc.cpp:1650
 #, fuzzy, no-c-format
-msgid "Horizontal wave:"
+msgid "Horizontal Wave"
 msgstr "Уфқ 1"
 
 #. i18n: file ./plugins/filters/wavefilter/wdgwaveoptions.ui line 72
@@ -3702,13 +3702,13 @@ msgstr "Бурчак"
 #. i18n: file ./plugins/filters/wavefilter/wdgwaveoptions.ui line 163
 #: rc.cpp:1671
 #, fuzzy, no-c-format
-msgid "Vertical wave:"
+msgid "Vertical Wave"
 msgstr "Ускуна:"
 
 #. i18n: file ./plugins/filters/lenscorrectionfilter/wdglenscorrectionoptions.ui line 61
 #: rc.cpp:1692
 #, fuzzy, no-c-format
-msgid "Distortion correction:"
+msgid "Distortion Correction"
 msgstr "Йўналиш:"
 
 #. i18n: file ./plugins/filters/lenscorrectionfilter/wdglenscorrectionoptions.ui line 150
@@ -4011,7 +4011,7 @@ msgstr "%1 топилмади"
 msgid "Canvas"
 msgstr "Кранлар"
 
-#: ui/kis_dlg_image_properties.cc:51
+#: ui/kis_dlg_image_properties.cc:51 ui/kis_view.cc:607
 msgid "Image Properties"
 msgstr "Расмнинг хоссалари"
 
@@ -4353,10 +4353,6 @@ msgstr "Ҳеч нарса танланмаган"
 msgid "No profile"
 msgstr "Профил йўқ"
 
-#: ui/kis_view.cc:607
-msgid "Image Properties..."
-msgstr "Расмнинг хоссалари..."
-
 #: ui/kis_view.cc:609 ui/kis_view.cc:1608
 msgid "Resize Image to Size of Current Layer"
 msgstr "Расм ўлчамини қатлам ўлчамига тенглаштириш"
@@ -4401,10 +4397,6 @@ msgstr ""
 msgid "To Bottom"
 msgstr "Ҳовуз туби"
 
-#: ui/kis_view.cc:639
-msgid "Properties..."
-msgstr "Хоссалари..."
-
 #: ui/kis_view.cc:640
 msgid "I&nsert Image as Layer..."
 msgstr "&Расмни қатлам сифатида қўйиш..."
@@ -4433,7 +4425,7 @@ msgstr "Ҳеч нарса танланмаган"
 
 #: core/kis_paint_layer.cc:489 ui/kis_view.cc:650
 #, fuzzy
-msgid "Mask To Selection"
+msgid "Mask to Selection"
 msgstr "Ҳеч нарса танланмаган"
 
 #: ui/kis_view.cc:652
@@ -5123,6 +5115,7 @@ msgid "No Composition"
 msgstr "Композициясиз"
 
 #: kritacolor/kis_composite_op.cc:121
+#: plugins/paintops/defaultpaintops/kis_brushop.cc:68
 #, fuzzy
 msgid "Darken"
 msgstr "Қорайиш"
@@ -5871,23 +5864,27 @@ msgid ""
 "to begin."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_duplicate.cc:161
+#: plugins/tools/defaulttools/kis_tool_duplicate.cc:162
 msgid ""
 "To start, shift-click on the place you want to duplicate from. Then you can "
 "start painting. An indication of where you are copying from will be displayed "
 "while drawing and moving the mouse."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_duplicate.cc:169
+#: plugins/tools/defaulttools/kis_tool_duplicate.cc:170
 #, fuzzy
 msgid "Healing"
 msgstr "Бўш жой:"
 
-#: plugins/tools/defaulttools/kis_tool_duplicate.cc:180
+#: plugins/tools/defaulttools/kis_tool_duplicate.cc:181
 msgid "Healing radius"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_duplicate.h:82
+#: plugins/tools/defaulttools/kis_tool_duplicate.cc:183
+msgid "Correct the perspective"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_duplicate.h:83
 #, fuzzy
 msgid "Duplicate Tool"
 msgstr "Асбоблар нусхасини кўпайтириш"
@@ -5964,12 +5961,14 @@ msgstr "Бошқа шаклга алмаштириш"
 
 #: plugins/tools/tool_perspectivetransform/kis_tool_perspectivetransform.cc:90
 #: plugins/tools/tool_perspectivetransform/kis_tool_perspectivetransform.cc:136
-msgid "Perspective transform"
-msgstr ""
+#, fuzzy
+msgid "Perspective Transform"
+msgstr "Бошқа шаклга алмаштириш"
 
 #: plugins/tools/tool_perspectivetransform/kis_tool_perspectivetransform.cc:505
-msgid "&Perspective transform"
-msgstr ""
+#, fuzzy
+msgid "&Perspective Transform"
+msgstr "Бошқа шаклга алмаштириш"
 
 #: plugins/tools/tool_perspectivetransform/kis_tool_perspectivetransform.cc:513
 msgid "Perspective transform a layer or a selection"
@@ -6076,7 +6075,7 @@ msgstr "Ўрнини алмаштиришмоқ"
 
 #: plugins/tools/tool_curves/kis_tool_moutline.cc:773
 #, fuzzy
-msgid "To selection"
+msgid "To Selection"
 msgstr "Ҳеч нарса танланмаган"
 
 #: plugins/tools/tool_curves/kis_tool_moutline.cc:794
@@ -6102,14 +6101,16 @@ msgstr ""
 msgid "This is a test tool for the Curve Framework."
 msgstr ""
 
+#: plugins/tools/tool_curves/kis_tool_bezier_paint.cc:58
 #: plugins/tools/tool_curves/kis_tool_bezier_paint.h:58
 #, fuzzy
-msgid "Bezier painting Tool"
+msgid "Bezier Painting Tool"
 msgstr "Филтер воситаси"
 
+#: plugins/tools/tool_curves/kis_tool_bezier_select.cc:58
 #: plugins/tools/tool_curves/kis_tool_bezier_select.h:58
 #, fuzzy
-msgid "Bezier selection Tool"
+msgid "Bezier Selection Tool"
 msgstr "Танланганни бекитиш"
 
 #: plugins/tools/tool_curves/kis_tool_bezier.cc:271
@@ -6122,11 +6123,6 @@ msgstr "Филтер воситаси"
 msgid "Magnetic Outline Selection Tool"
 msgstr "Танланганни бекитиш"
 
-#: plugins/tools/tool_curves/kis_tool_bezier_paint.cc:58
-#, fuzzy
-msgid "Bezier painting tool"
-msgstr "Филтер воситаси"
-
 #: plugins/tools/tool_curves/kis_tool_bezier_paint.cc:100
 #: plugins/tools/tool_curves/kis_tool_bezier_select.cc:89
 msgid "&Bezier"
@@ -6137,11 +6133,6 @@ msgid ""
 "Draw cubic beziers. Keep Alt, Control or Shift pressed for options. Return or "
 "double-click to finish."
 msgstr ""
-
-#: plugins/tools/tool_curves/kis_tool_bezier_select.cc:58
-#, fuzzy
-msgid "Bezier selection tool"
-msgstr "Танланганни бекитиш"
 
 #: plugins/tools/tool_curves/kis_tool_bezier_select.cc:98
 msgid "Select areas of the image with bezier paths."
@@ -6355,8 +6346,9 @@ msgid "Transform a layer or a selection"
 msgstr ""
 
 #: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.cc:50
-msgid "Perspective grid"
-msgstr ""
+#, fuzzy
+msgid "Perspective Grid"
+msgstr "Бошқа шаклга алмаштириш"
 
 #: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.cc:467
 msgid "&Perspective Grid"
@@ -6392,19 +6384,10 @@ msgstr "Нуқта бўёғи"
 msgid "Pressure variation: "
 msgstr "Босим:"
 
-#: plugins/paintops/defaultpaintops/kis_brushop.cc:65
-msgid "size"
-msgstr "ўлчам"
-
 #: plugins/paintops/defaultpaintops/kis_brushop.cc:67
 #, fuzzy
-msgid "opacity"
+msgid "Opacity"
 msgstr "Хиралик:"
-
-#: plugins/paintops/defaultpaintops/kis_brushop.cc:68
-#, fuzzy
-msgid "darken"
-msgstr "қорайиш"
 
 #: plugins/paintops/defaultpaintops/kis_penop.h:40
 #, fuzzy
@@ -6486,8 +6469,9 @@ msgid "No configuration options are available for this filter."
 msgstr "Ушбу филтр учун мосламалар мавжуд эмас"
 
 #: plugins/viewplugins/histogram/histogram.cc:64
-msgid "&Histogram..."
-msgstr "&Гистограмма..."
+#, fuzzy
+msgid "&Histogram"
+msgstr "Гистограмма"
 
 #: plugins/viewplugins/shearimage/shearimage.cc:62
 msgid "&Shear Image..."
@@ -6919,8 +6903,9 @@ msgid "Configuration of lens correction filter"
 msgstr "Ушбу филтр учун мосламалар мавжуд эмас"
 
 #: plugins/filters/lenscorrectionfilter/lenscorrectionfilter.h:43
-msgid "Lens correction"
-msgstr ""
+#, fuzzy
+msgid "Lens Correction"
+msgstr "Танланганни бекитиш"
 
 #: plugins/filters/colorsfilters/kis_brightness_contrast_filter.h:62
 msgid "Brightness / Contrast"
@@ -6958,16 +6943,18 @@ msgid "&Brightness/Contrast..."
 msgstr "Ёруғлик / контраст"
 
 #: plugins/filters/colors/kis_minmax_filters.h:36
-msgid "Maximize channel"
-msgstr ""
+#, fuzzy
+msgid "Maximize Channel"
+msgstr "&Канал:"
 
 #: plugins/filters/colors/kis_minmax_filters.h:49
-msgid "Minimize channel"
-msgstr ""
+#, fuzzy
+msgid "Minimize Channel"
+msgstr "&Канал:"
 
 #: plugins/filters/colors/kis_color_to_alpha.h:35
 #, fuzzy
-msgid "Color to alpha"
+msgid "Color to Alpha"
 msgstr "Рангни палитрага қўшиш"
 
 #: plugins/filters/colors/kis_minmax_filters.cc:71
@@ -7030,7 +7017,7 @@ msgstr "Альфа ниқоб"
 
 #: plugins/filters/unsharp/kis_unsharp_filter.h:36
 #, fuzzy
-msgid "Unsharp mask"
+msgid "Unsharp Mask"
 msgstr "Альфа ниқоб"
 
 #: plugins/filters/fastcolortransfer/fastcolortransfer.cc:61
@@ -7040,7 +7027,7 @@ msgstr "Ранг чегараси"
 
 #: plugins/filters/fastcolortransfer/fastcolortransfer.h:45
 #, fuzzy
-msgid "Color transfer"
+msgid "Color Transfer"
 msgstr "Ранг чегараси"
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.h:52
@@ -7115,6 +7102,34 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
+
+#~ msgid "Image Properties..."
+#~ msgstr "Расмнинг хоссалари..."
+
+#~ msgid "Properties..."
+#~ msgstr "Хоссалари..."
+
+#, fuzzy
+#~ msgid "Bezier painting tool"
+#~ msgstr "Филтер воситаси"
+
+#, fuzzy
+#~ msgid "Bezier selection tool"
+#~ msgstr "Танланганни бекитиш"
+
+#~ msgid "size"
+#~ msgstr "ўлчам"
+
+#, fuzzy
+#~ msgid "opacity"
+#~ msgstr "Хиралик:"
+
+#, fuzzy
+#~ msgid "darken"
+#~ msgstr "қорайиш"
+
+#~ msgid "&Histogram..."
+#~ msgstr "&Гистограмма..."
 
 #, fuzzy
 #~ msgid "Color :"
