@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b\n"
-"POT-Creation-Date: 2006-08-31 08:32+0200\n"
+"POT-Creation-Date: 2006-09-07 08:45+0200\n"
 "PO-Revision-Date: 2006-04-07 18:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -182,12 +182,12 @@ msgstr ""
 #: jobs/k3bcdda2wavreader.cpp:137 jobs/k3bdvdformattingjob.cpp:507
 #: jobs/k3bvideodvdtitledetectclippingjob.cpp:184
 #: jobs/k3bvideodvdtitletranscodingjob.cpp:333
-#: projects/datacd/k3bisoimager.cpp:306 projects/datacd/k3bisoimager.cpp:466
+#: projects/datacd/k3bisoimager.cpp:373 projects/datacd/k3bisoimager.cpp:533
 #: projects/datacd/k3bmsinfofetcher.cpp:129
 #: projects/datadvd/k3bdvdbooktypejob.cpp:342
 #: projects/datadvd/k3bgrowisofsimager.cpp:249
 #: projects/k3bcdrdaowriter.cpp:572 projects/k3bcdrecordwriter.cpp:330
-#: projects/k3bgrowisofswriter.cpp:352 projects/videocd/k3bvcdjob.cpp:248
+#: projects/k3bgrowisofswriter.cpp:357 projects/videocd/k3bvcdjob.cpp:248
 #, c-format
 msgid "Could not start %1."
 msgstr "%1'ни ишга тушириб бўлмади."
@@ -213,7 +213,7 @@ msgstr "Тасвир файлларини ўчириб ташлаш."
 #: jobs/k3bvideodvdtitledetectclippingjob.cpp:281
 #: jobs/k3bvideodvdtitletranscodingjob.cpp:433
 #: projects/audiocd/k3baudionormalizejob.cpp:188
-#: projects/datacd/k3bisoimager.cpp:192
+#: projects/datacd/k3bisoimager.cpp:188
 #: projects/datadvd/k3bdvdbooktypejob.cpp:192 projects/k3bcdrdaowriter.cpp:769
 #: projects/k3bcdrecordwriter.cpp:742 projects/videocd/k3bvcdjob.cpp:356
 #, fuzzy
@@ -275,7 +275,7 @@ msgstr ""
 msgid "No valid audio cue file: '%1'"
 msgstr ""
 
-#: jobs/k3bblankingjob.cpp:74 projects/datacd/k3bdatajob.cpp:206
+#: jobs/k3bblankingjob.cpp:74 projects/datacd/k3bdatajob.cpp:166
 msgid "Unmounting disk"
 msgstr "Диск узилмоқда"
 
@@ -345,7 +345,7 @@ msgstr "Ёзиш мобайнида форматлаш орқа фонда да�
 
 #: jobs/k3bdvdformattingjob.cpp:259
 #: projects/audiocd/k3baudionormalizejob.cpp:191
-#: projects/datacd/k3bisoimager.cpp:195
+#: projects/datacd/k3bisoimager.cpp:191
 #: projects/datadvd/k3bdvdbooktypejob.cpp:195
 #: projects/videocd/k3bvcdjob.cpp:359
 msgid "Please send me an email with the last output."
@@ -353,7 +353,7 @@ msgstr "Илтимос энг охирги натижани муаллифга �
 
 #: jobs/k3bcdda2wavreader.cpp:248 jobs/k3bdvdformattingjob.cpp:265
 #: projects/audiocd/k3baudionormalizejob.cpp:201
-#: projects/datacd/k3bisoimager.cpp:203
+#: projects/datacd/k3bisoimager.cpp:199
 #: projects/datadvd/k3bdvdbooktypejob.cpp:201 projects/k3bcdrdaowriter.cpp:781
 #: projects/k3bcdrecordwriter.cpp:763 projects/videocd/k3bvcdjob.cpp:365
 msgid "%1 did not exit cleanly."
@@ -364,7 +364,7 @@ msgid "Ejecting DVD..."
 msgstr "DVD диск чиқарилмоқда..."
 
 #: jobs/k3bdvdformattingjob.cpp:288 projects/datadvd/k3bdvdbooktypejob.cpp:235
-#: projects/k3babstractwriter.cpp:88 projects/k3bgrowisofswriter.cpp:563
+#: projects/k3babstractwriter.cpp:88 projects/k3bgrowisofswriter.cpp:568
 msgid "Unable to eject media."
 msgstr "Маълумот ташувчини чиқариб бўлмади."
 
@@ -444,8 +444,8 @@ msgstr "Форматлаш"
 msgid "Could not find image %1"
 msgstr "%1 тасвирини топиб бўлмади"
 
-#: jobs/k3biso9660imagewritingjob.cpp:116 projects/datacd/k3bdatajob.cpp:460
-#: projects/datacd/k3bdataverifyingjob.cpp:146
+#: jobs/k3biso9660imagewritingjob.cpp:116 projects/datacd/k3bdatajob.cpp:444
+#: projects/datacd/k3bdataverifyingjob.cpp:149
 #, fuzzy
 msgid "Verifying written data"
 msgstr "Ёзилган маълумотларни текшириш"
@@ -463,8 +463,8 @@ msgid "Writing copy %1 of %2"
 msgstr ""
 
 #: jobs/k3biso9660imagewritingjob.cpp:358 projects/audiocd/k3baudiojob.cpp:427
-#: projects/audiocd/k3baudiojob.cpp:476 projects/datacd/k3bdatajob.cpp:674
-#: projects/mixedcd/k3bmixedjob.cpp:585 projects/mixedcd/k3bmixedjob.cpp:626
+#: projects/audiocd/k3baudiojob.cpp:476 projects/datacd/k3bdatajob.cpp:657
+#: projects/mixedcd/k3bmixedjob.cpp:539 projects/mixedcd/k3bmixedjob.cpp:580
 msgid "IO Error"
 msgstr "Кириш/чиқиш хатоси"
 
@@ -497,15 +497,15 @@ msgstr ""
 " - %n нусха"
 
 #: jobs/k3bcdcopyjob.cpp:1009 jobs/k3bisoimageverificationjob.cpp:106
-#: projects/datacd/k3bdataverifyingjob.cpp:104
-#: projects/mixedcd/k3bmixedjob.cpp:471
+#: projects/datacd/k3bdataverifyingjob.cpp:106
+#: projects/mixedcd/k3bmixedjob.cpp:423
 #, fuzzy
 msgid "Reloading the medium"
 msgstr "Дискни қайта юклаш"
 
 #: jobs/k3bcdcopyjob.cpp:1052 jobs/k3bisoimageverificationjob.cpp:116
-#: projects/datacd/k3bdataverifyingjob.cpp:118
-#: projects/k3bcdrecordwriter.cpp:600 projects/mixedcd/k3bmixedjob.cpp:494
+#: projects/datacd/k3bdataverifyingjob.cpp:120
+#: projects/k3bcdrecordwriter.cpp:600 projects/mixedcd/k3bmixedjob.cpp:446
 msgid "Please reload the medium and press 'ok'"
 msgstr "Дискни қайтадан қўйинг ва 'ОК' тугмасини босинг"
 
@@ -519,12 +519,12 @@ msgid "Reading original data"
 msgstr "Ёзилган маълумотларни текшириш"
 
 #: jobs/k3bisoimageverificationjob.cpp:143
-#: projects/datacd/k3bdataverifyingjob.cpp:278
+#: projects/datacd/k3bdataverifyingjob.cpp:305
 msgid "Written data differs from original."
 msgstr ""
 
 #: jobs/k3bisoimageverificationjob.cpp:147
-#: projects/datacd/k3bdataverifyingjob.cpp:274
+#: projects/datacd/k3bdataverifyingjob.cpp:301
 msgid "Written data verified."
 msgstr ""
 
@@ -539,7 +539,7 @@ msgid "Unable to open device %1."
 msgstr "%1 ускунасини очиб бўлмади."
 
 #: jobs/k3bisoimageverificationjob.cpp:173
-#: projects/datacd/k3bdataverifyingjob.cpp:182
+#: projects/datacd/k3bdataverifyingjob.cpp:185
 #, fuzzy
 msgid "Reading written data"
 msgstr "Ёзилган маълумотларни текшириш"
@@ -573,7 +573,7 @@ msgstr "CD ёзувчида %1 клонлаштириш имконияти йў�
 msgid "Reading clone image"
 msgstr "Клон тасвирини ўқиш"
 
-#: jobs/k3bclonejob.cpp:224 projects/datacd/k3bdatajob.cpp:424
+#: jobs/k3bclonejob.cpp:224 projects/datacd/k3bdatajob.cpp:399
 #: projects/videocd/k3bvcdjob.cpp:465
 msgid "Writing Track %1 of %2"
 msgstr ""
@@ -748,7 +748,7 @@ msgstr ""
 
 #: jobs/k3bcdcopyjob.cpp:450 projects/datadvd/k3bgrowisofsimager.cpp:242
 #: projects/k3bcdrdaowriter.cpp:554 projects/k3bcdrecordwriter.cpp:321
-#: projects/k3bgrowisofswriter.cpp:343
+#: projects/k3bgrowisofswriter.cpp:348
 msgid "Preparing write process..."
 msgstr "Ёзиш жараёни тайёрланмоқда..."
 
@@ -808,16 +808,16 @@ msgid "Writing Copy (Session %2)"
 msgstr ""
 
 #: jobs/k3bcdcopyjob.cpp:680 projects/audiocd/k3baudiojob.cpp:578
-#: projects/datacd/k3bdatajob.cpp:384
+#: projects/datacd/k3bdatajob.cpp:359
 #: projects/datadvd/k3bgrowisofsimager.cpp:254
 #: projects/k3bcdrdaowriter.cpp:584 projects/k3bcdrdaowriter.cpp:600
-#: projects/k3bcdrecordwriter.cpp:335 projects/k3bgrowisofswriter.cpp:357
-#: projects/mixedcd/k3bmixedjob.cpp:959
+#: projects/k3bcdrecordwriter.cpp:335 projects/k3bgrowisofswriter.cpp:362
+#: projects/mixedcd/k3bmixedjob.cpp:913
 msgid "Simulating"
 msgstr ""
 
 #: jobs/k3bcdcopyjob.cpp:682 projects/audiocd/k3baudiojob.cpp:580
-#: projects/datacd/k3bdatajob.cpp:386 projects/mixedcd/k3bmixedjob.cpp:961
+#: projects/datacd/k3bdatajob.cpp:361 projects/mixedcd/k3bmixedjob.cpp:915
 #, c-format
 msgid "Writing Copy %1"
 msgstr ""
@@ -828,7 +828,7 @@ msgstr "Нусха ёзилмоқда"
 
 #: jobs/k3bcdcopyjob.cpp:687 projects/audiocd/k3baudiojob.cpp:585
 #: projects/datadvd/k3bdvdbooktypejob.cpp:116
-#: projects/datadvd/k3bdvdjob.cpp:193 projects/mixedcd/k3bmixedjob.cpp:968
+#: projects/datadvd/k3bdvdjob.cpp:193 projects/mixedcd/k3bmixedjob.cpp:922
 msgid "Waiting for media"
 msgstr "Маълумот ташувчи кутилмоқда"
 
@@ -854,8 +854,8 @@ msgstr ""
 msgid "Error while reading session %1."
 msgstr "%1 сеесиясини ўқишда хатолик юз берди."
 
-#: jobs/k3bcdcopyjob.cpp:1053 projects/datacd/k3bdataverifyingjob.cpp:119
-#: projects/k3bcdrecordwriter.cpp:601 projects/mixedcd/k3bmixedjob.cpp:495
+#: jobs/k3bcdcopyjob.cpp:1053 projects/datacd/k3bdataverifyingjob.cpp:121
+#: projects/k3bcdrecordwriter.cpp:601 projects/mixedcd/k3bmixedjob.cpp:447
 msgid "Unable to close the tray"
 msgstr ""
 
@@ -1170,7 +1170,7 @@ msgstr ""
 msgid "Writing %1 in incremental mode."
 msgstr ""
 
-#: jobs/k3bdvdcopyjob.cpp:765 projects/datacd/k3bdatajob.cpp:944
+#: jobs/k3bdvdcopyjob.cpp:765 projects/datacd/k3bdatajob.cpp:927
 #, c-format
 msgid "Removed image file %1"
 msgstr ""
@@ -1566,51 +1566,51 @@ msgid ""
 msgstr ""
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:255
-#: projects/k3bgrowisofswriter.cpp:358
+#: projects/k3bgrowisofswriter.cpp:363
 msgid "Starting simulation..."
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:582 projects/datacd/k3bdatajob.cpp:388
+#: projects/audiocd/k3baudiojob.cpp:582 projects/datacd/k3bdatajob.cpp:363
 #: projects/datadvd/k3bdvdjob.cpp:222
 #: projects/datadvd/k3bgrowisofsimager.cpp:263
 #: projects/k3bcdrdaowriter.cpp:589 projects/k3bcdrecordwriter.cpp:342
-#: projects/k3bgrowisofswriter.cpp:362
+#: projects/k3bgrowisofswriter.cpp:367
 msgid "Writing"
 msgstr ""
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:264
-#: projects/k3bgrowisofswriter.cpp:363
+#: projects/k3bgrowisofswriter.cpp:368
 #, fuzzy
 msgid "Starting disc write..."
 msgstr "Ўқиш бошланди..."
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:284
-#: projects/k3bgrowisofswriter.cpp:447
+#: projects/k3bgrowisofswriter.cpp:452
 msgid "Writing data"
 msgstr ""
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:334
 #: projects/k3bcdrdaowriter.cpp:761 projects/k3bcdrecordwriter.cpp:657
-#: projects/k3bgrowisofswriter.cpp:523
+#: projects/k3bgrowisofswriter.cpp:528
 msgid "Average overall write speed: %1 KB/s (%2x)"
 msgstr ""
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:338
 #: projects/k3bcdrdaowriter.cpp:741 projects/k3bcdrecordwriter.cpp:652
-#: projects/k3bgrowisofswriter.cpp:526
+#: projects/k3bgrowisofswriter.cpp:531
 #, fuzzy
 msgid "Simulation successfully completed"
 msgstr "Форматлаш муваффақиятли тугади"
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:340
 #: projects/k3bcdrdaowriter.cpp:749 projects/k3bcdrecordwriter.cpp:654
-#: projects/k3bgrowisofswriter.cpp:528
+#: projects/k3bgrowisofswriter.cpp:533
 #, fuzzy
 msgid "Writing successfully completed"
 msgstr "Форматлаш муваффақиятли тугади"
 
 #: projects/datadvd/k3bgrowisofsimager.cpp:353
-#: projects/k3bgrowisofswriter.cpp:541
+#: projects/k3bgrowisofswriter.cpp:546
 msgid "Ejecting DVD"
 msgstr ""
 
@@ -1639,7 +1639,7 @@ msgstr ""
 msgid "No Incremental Streaming"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:899 projects/datadvd/k3bdvdjob.cpp:314
+#: projects/datacd/k3bdatajob.cpp:882 projects/datadvd/k3bdvdjob.cpp:314
 msgid "Creating Data Image File"
 msgstr ""
 
@@ -1651,13 +1651,13 @@ msgstr ""
 msgid "Writing Multisession DVD"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:924 projects/datadvd/k3bdvdjob.cpp:339
+#: projects/datacd/k3bdatajob.cpp:907 projects/datadvd/k3bdvdjob.cpp:339
 msgid ""
 "_n: ISO9660 Filesystem (Size: %1) - %n copy\n"
 "ISO9660 Filesystem (Size: %1) - %n copies"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:928 projects/datadvd/k3bdvdjob.cpp:343
+#: projects/datacd/k3bdatajob.cpp:911 projects/datadvd/k3bdvdjob.cpp:343
 msgid "ISO9660 Filesystem (Size: %1)"
 msgstr ""
 
@@ -1682,166 +1682,147 @@ msgid "Ejecting CD"
 msgstr ""
 
 #: projects/audiocd/k3baudiojob.cpp:130 projects/datacd/k3bdatajob.cpp:140
-#: projects/mixedcd/k3bmixedjob.cpp:148
+#: projects/mixedcd/k3bmixedjob.cpp:149
 msgid "Preparing data"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:155 projects/mixedcd/k3bmixedjob.cpp:159
-msgid "<em>%1</em> renamed to <em>%2</em>"
-msgstr ""
-
-#: projects/datacd/k3bdatajob.cpp:163 projects/mixedcd/k3bmixedjob.cpp:167
-msgid ""
-"Some filenames need to be shortened due to the %1 char restriction of the "
-"Joliet extensions. If the Joliet extensions are disabled filenames do not have "
-"to be shortened but long filenames will not be available on Windows systems."
-msgstr ""
-
-#: projects/datacd/k3bdatajob.cpp:170 projects/mixedcd/k3bmixedjob.cpp:174
-msgid "Shorten Filenames"
-msgstr ""
-
-#: projects/datacd/k3bdatajob.cpp:171 projects/mixedcd/k3bmixedjob.cpp:175
-msgid "Disable Joliet extensions"
-msgstr ""
-
-#: projects/audiocd/k3baudiojob.cpp:241 projects/mixedcd/k3bmixedjob.cpp:219
+#: projects/audiocd/k3baudiojob.cpp:241 projects/mixedcd/k3bmixedjob.cpp:173
 msgid "Determining maximum writing speed"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:249
+#: projects/mixedcd/k3bmixedjob.cpp:204
 #, c-format
 msgid "Creating audio image files in %1"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:266 projects/mixedcd/k3bmixedjob.cpp:447
+#: projects/mixedcd/k3bmixedjob.cpp:221 projects/mixedcd/k3bmixedjob.cpp:399
 msgid "Creating audio image files"
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:293 projects/mixedcd/k3bmixedjob.cpp:278
+#: projects/audiocd/k3baudiojob.cpp:293 projects/mixedcd/k3bmixedjob.cpp:233
 msgid "Unable to determine maximum speed for some reason. Ignoring."
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:321 projects/datacd/k3bdatajob.cpp:302
-#: projects/mixedcd/k3bmixedjob.cpp:335
+#: projects/audiocd/k3baudiojob.cpp:321 projects/datacd/k3bdatajob.cpp:247
+#: projects/mixedcd/k3bmixedjob.cpp:291
 msgid "Writing canceled."
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:422
+#: projects/mixedcd/k3bmixedjob.cpp:374
 msgid "Error while creating ISO image."
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:436
+#: projects/mixedcd/k3bmixedjob.cpp:388
 msgid "ISO image successfully created."
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:377 projects/mixedcd/k3bmixedjob.cpp:529
+#: projects/audiocd/k3baudiojob.cpp:377 projects/mixedcd/k3bmixedjob.cpp:483
 msgid "Error while decoding audio tracks."
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:542
+#: projects/mixedcd/k3bmixedjob.cpp:496
 msgid "Audio images successfully created."
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:409 projects/mixedcd/k3bmixedjob.cpp:566
+#: projects/audiocd/k3baudiojob.cpp:409 projects/mixedcd/k3bmixedjob.cpp:520
 msgid "Decoding audio track %1 of %2%3"
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:517 projects/mixedcd/k3bmixedjob.cpp:830
+#: projects/audiocd/k3baudiojob.cpp:517 projects/mixedcd/k3bmixedjob.cpp:784
 msgid "Writing track %1 of %2%3"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:837
+#: projects/mixedcd/k3bmixedjob.cpp:791
 msgid "Writing track %1 of %2 (%3)"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:837
+#: projects/mixedcd/k3bmixedjob.cpp:791
 msgid "ISO9660 data"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:943
+#: projects/mixedcd/k3bmixedjob.cpp:897
 msgid "Simulating second session"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:945
+#: projects/mixedcd/k3bmixedjob.cpp:899
 #, c-format
 msgid "Writing second session of copy %1"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:947
+#: projects/mixedcd/k3bmixedjob.cpp:901
 msgid "Writing second session"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:951
+#: projects/mixedcd/k3bmixedjob.cpp:905
 msgid "Simulating first session"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:953
+#: projects/mixedcd/k3bmixedjob.cpp:907
 #, c-format
 msgid "Writing first session of copy %1"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:955
+#: projects/mixedcd/k3bmixedjob.cpp:909
 msgid "Writing first session"
 msgstr ""
 
 #: projects/k3bcdrecordwriter.cpp:488 projects/k3bgrowisofshandler.cpp:102
-#: projects/mixedcd/k3bmixedjob.cpp:984
+#: projects/mixedcd/k3bmixedjob.cpp:938
 msgid "Trying to write more than the official disk capacity"
 msgstr ""
 
 #: projects/k3bcdrdaowriter.cpp:895 projects/k3bcdrecordwriter.cpp:675
-#: projects/k3bgrowisofshandler.cpp:235 projects/mixedcd/k3bmixedjob.cpp:987
+#: projects/k3bgrowisofshandler.cpp:235 projects/mixedcd/k3bmixedjob.cpp:941
 msgid "Data does not fit on disk."
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1025
+#: projects/mixedcd/k3bmixedjob.cpp:979
 msgid "Creating ISO image file"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1026 projects/mixedcd/k3bmixedjob.cpp:1027
+#: projects/mixedcd/k3bmixedjob.cpp:980 projects/mixedcd/k3bmixedjob.cpp:981
 #, c-format
 msgid "Creating ISO image in %1"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1052
+#: projects/mixedcd/k3bmixedjob.cpp:1006
 msgid "Removing buffer files."
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1056
+#: projects/mixedcd/k3bmixedjob.cpp:1010
 #, c-format
 msgid "Could not delete file %1."
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:219 projects/mixedcd/k3bmixedjob.cpp:1161
+#: projects/audiocd/k3baudiojob.cpp:219 projects/mixedcd/k3bmixedjob.cpp:1115
 msgid "On-the-fly writing with cdrecord < 2.01a13 not supported."
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:226 projects/mixedcd/k3bmixedjob.cpp:1167
+#: projects/audiocd/k3baudiojob.cpp:226 projects/mixedcd/k3bmixedjob.cpp:1121
 msgid "Cdrecord %1 does not support CD-Text writing."
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1170
+#: projects/mixedcd/k3bmixedjob.cpp:1124
 msgid "It is not possible to write CD-Text in TAO mode. Try DAO or RAW."
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:654 projects/mixedcd/k3bmixedjob.cpp:1202
+#: projects/audiocd/k3baudiojob.cpp:654 projects/mixedcd/k3bmixedjob.cpp:1156
 msgid "Normalizing volume levels"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1267
+#: projects/mixedcd/k3bmixedjob.cpp:1221
 msgid "Writing Enhanced Audio CD"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1272
+#: projects/mixedcd/k3bmixedjob.cpp:1226
 msgid "Writing Mixed Mode CD"
 msgstr ""
 
-#: projects/mixedcd/k3bmixedjob.cpp:1281
+#: projects/mixedcd/k3bmixedjob.cpp:1235
 msgid "%1 tracks (%2 minutes audio data, %3 ISO9660 data)"
 msgstr ""
 
-#: projects/audiocd/k3baudiojob.cpp:784 projects/mixedcd/k3bmixedjob.cpp:1286
+#: projects/audiocd/k3baudiojob.cpp:784 projects/mixedcd/k3bmixedjob.cpp:1240
 #: projects/movixcd/k3bmovixjob.cpp:128
 #: projects/movixdvd/k3bmovixdvdjob.cpp:127 projects/videocd/k3bvcdjob.cpp:564
 #: projects/videodvd/k3bvideodvdjob.cpp:98
@@ -1996,42 +1977,41 @@ msgstr ""
 msgid "No Read Permission"
 msgstr ""
 
-#: projects/datacd/k3bdatadoc.cpp:1225 projects/datacd/k3bdatadoc.cpp:1238
+#: projects/datacd/k3bdatadoc.cpp:1230 projects/datacd/k3bdatadoc.cpp:1243
 msgid "From previous session"
 msgstr ""
 
-#: projects/datacd/k3bdatadoc.cpp:1320 projects/movixcd/k3bmovixdoc.cpp:95
+#: projects/datacd/k3bdatadoc.cpp:1325 projects/movixcd/k3bmovixdoc.cpp:95
 msgid "Enter New Filename"
 msgstr ""
 
-#: projects/datacd/k3bdatadoc.cpp:1321 projects/movixcd/k3bmovixdoc.cpp:96
+#: projects/datacd/k3bdatadoc.cpp:1326 projects/movixcd/k3bmovixdoc.cpp:96
 msgid "A file with that name already exists. Please enter a new name:"
 msgstr ""
 
-#: projects/datacd/k3bdatadoc.cpp:1356
+#: projects/datacd/k3bdatadoc.cpp:1361
 msgid "El Torito boot catalog file"
 msgstr ""
 
-#: projects/datacd/k3bdatadoc.cpp:1357
+#: projects/datacd/k3bdatadoc.cpp:1362
 msgid "Boot catalog"
 msgstr ""
 
-#: projects/datacd/k3bdataverifyingjob.cpp:101
+#: projects/datacd/k3bdataverifyingjob.cpp:103
 #, fuzzy
 msgid "Preparing Data"
 msgstr "Маълумотли дискдан нусха олиш."
 
-#: projects/datacd/k3bdataverifyingjob.cpp:121
+#: projects/datacd/k3bdataverifyingjob.cpp:123
 msgid "Reading TOC"
 msgstr ""
 
-#: projects/datacd/k3bdataverifyingjob.cpp:137
+#: projects/datacd/k3bdataverifyingjob.cpp:140
 msgid "Reading TOC failed."
 msgstr ""
 
-#: projects/datacd/k3bdataverifyingjob.cpp:142
-msgid ""
-"Sorry, no data verification if growing sessions on DVD+RW and DVD-RW media"
+#: projects/datacd/k3bdataverifyingjob.cpp:201
+msgid "Failed to read file system."
 msgstr ""
 
 #: projects/datacd/k3bmsinfofetcher.cpp:50
@@ -2081,62 +2061,97 @@ msgstr ""
 msgid "The boot image has an invalid size."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:183
+#: projects/datacd/k3bisoimager.cpp:179
 msgid ""
 "Due to a bug in mkisofs <= 1.15a40, K3b is unable to handle filenames that "
 "contain more than one backslash:"
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:361
+#: projects/datacd/k3bisoimager.cpp:246
+msgid "<em>%1</em> renamed to <em>%2</em>"
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:254
+msgid ""
+"Some filenames need to be shortened due to the %1 char restriction of the "
+"Joliet extensions. If the Joliet extensions are disabled filenames do not have "
+"to be shortened but long filenames will not be available on Windows systems."
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:261
+msgid "Shorten Filenames"
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:262
+msgid "Disable Joliet extensions"
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:279
+msgid ""
+"The Joliet extensions (which are needed for long filenames on Windows systems) "
+"restrict the length of the volume descriptior (the name of the filesystem) to "
+"%1 characters. The selected descriptor '%2' is longer than that. Do you want it "
+"to be cut or do you want to go back and change it manually?"
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:285
+msgid "Cut volume descriptor in the Joliet tree"
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:286
+msgid "Cancel and go back"
+msgstr ""
+
+#: projects/datacd/k3bisoimager.cpp:428
 msgid "Could not determine size of resulting image file."
 msgstr ""
 
-#: projects/audiocd/k3baudioimager.cpp:86 projects/datacd/k3bisoimager.cpp:439
+#: projects/audiocd/k3baudioimager.cpp:86 projects/datacd/k3bisoimager.cpp:506
 msgid "Could not open %1 for writing"
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:519
+#: projects/datacd/k3bisoimager.cpp:586
 msgid "No volume id specified. Using default."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:590
+#: projects/datacd/k3bisoimager.cpp:657
 msgid ""
 "Found files bigger than 2 GB. These files will only be fully accessible if "
 "mounted with UDF."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:595
+#: projects/datacd/k3bisoimager.cpp:662
 msgid "Enabling UDF extension."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:732
+#: projects/datacd/k3bisoimager.cpp:799
 msgid "Could not follow link %1 to non-existing file %2. Skipping..."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:738
+#: projects/datacd/k3bisoimager.cpp:805
 msgid ""
 "Ignoring link %1 to folder %2. K3b is unable to follow links to folders."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:748
+#: projects/datacd/k3bisoimager.cpp:815
 msgid "Could not find file %1. Skipping..."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:752
+#: projects/datacd/k3bisoimager.cpp:819
 msgid "Could not read file %1. Skipping..."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:800
+#: projects/datacd/k3bisoimager.cpp:867
 #, c-format
 msgid "Failed to backup boot image file %1"
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:967 projects/datacd/k3bisoimager.cpp:977
-#: projects/datacd/k3bisoimager.cpp:984 projects/datacd/k3bisoimager.cpp:990
+#: projects/datacd/k3bisoimager.cpp:1034 projects/datacd/k3bisoimager.cpp:1044
+#: projects/datacd/k3bisoimager.cpp:1051 projects/datacd/k3bisoimager.cpp:1057
 msgid "Could not write temporary file"
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:971
+#: projects/datacd/k3bisoimager.cpp:1038
 msgid "No files to be written."
 msgstr ""
 
@@ -2144,50 +2159,50 @@ msgstr ""
 msgid "El Torito Boot image"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:261
+#: projects/datacd/k3bdatajob.cpp:220
 msgid "Creating image file"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:262
+#: projects/datacd/k3bdatajob.cpp:221
 msgid "Track 1 of 1"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:263
+#: projects/datacd/k3bdatajob.cpp:222
 #, c-format
 msgid "Creating image file in %1"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:344
+#: projects/datacd/k3bdatajob.cpp:318
 #, c-format
 msgid "Image successfully created in %1"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:359
+#: projects/datacd/k3bdatajob.cpp:333
 msgid "Error while creating ISO image"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:602
+#: projects/datacd/k3bdatajob.cpp:585
 msgid "Most writers do not support writing multisession CDs in DAO mode."
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:710
+#: projects/datacd/k3bdatajob.cpp:693
 msgid "Unable to determine the last track's datamode. Using default."
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:773
+#: projects/datacd/k3bdatajob.cpp:756
 msgid "Searching for old session"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:882
+#: projects/datacd/k3bdatajob.cpp:865
 #, fuzzy
 msgid "Waiting for a medium"
 msgstr "Маълумот ташувчини кутилмоқда"
 
-#: projects/datacd/k3bdatajob.cpp:903
+#: projects/datacd/k3bdatajob.cpp:886
 msgid "Writing Data CD"
 msgstr ""
 
-#: projects/datacd/k3bdatajob.cpp:909
+#: projects/datacd/k3bdatajob.cpp:892
 msgid "Writing Multisession CD"
 msgstr ""
 
