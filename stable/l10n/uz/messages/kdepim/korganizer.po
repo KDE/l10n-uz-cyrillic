@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
-"POT-Creation-Date: 2006-09-05 02:40+0200\n"
+"POT-Creation-Date: 2006-09-13 02:40+0200\n"
 "PO-Revision-Date: 2006-04-07 18:04+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -68,9 +68,9 @@ msgstr ""
 msgid "Name"
 msgstr "Номи"
 
-#. i18n: file publishdialog_base.ui line 39
-#: koeditoralarms.cpp:86 koeditordetails.cpp:223 koeditorfreebusy.cpp:256
-#: koprefsdialog.cpp:859 rc.cpp:425 rc.cpp:1707
+#. i18n: file koeditoralarms_base.ui line 282
+#: koeditoralarms.cpp:89 koeditordetails.cpp:223 koeditorfreebusy.cpp:256
+#: koprefsdialog.cpp:859 rc.cpp:228 rc.cpp:425 rc.cpp:1707 rc.cpp:1784
 #, no-c-format
 msgid "Email"
 msgstr "Электрон почта"
@@ -351,8 +351,10 @@ msgstr ""
 msgid "&Recur every"
 msgstr ""
 
+#. i18n: file koeditoralarms_base.ui line 70
 #: koeditorgeneral.cpp:217 koeditorrecurrence.cpp:167
-#: korgac/alarmdialog.cpp:83
+#: korgac/alarmdialog.cpp:83 rc.cpp:182 rc.cpp:1738
+#, no-c-format
 msgid "day(s)"
 msgstr "кун"
 
@@ -821,47 +823,49 @@ msgstr "'%1' намунани топиб бўлмади."
 msgid "Error loading template file '%1'."
 msgstr "'%1' намунани юклашда хато рўй берди."
 
-#: koeditoralarms.cpp:80 koprefsdialog.cpp:174
-msgid "Unknown"
-msgstr "Номаълум"
-
-#: koeditoralarms.cpp:82
+#: koeditoralarms.cpp:83
 msgid "Reminder Dialog"
 msgstr "Эсга солиш ойнаси"
 
-#: koeditoralarms.cpp:84
-msgid "Application/Script"
-msgstr "Дастур/Скрипт"
+#. i18n: file koeditoralarms_base.ui line 271
+#: koeditoralarms.cpp:86 rc.cpp:225 rc.cpp:1781
+#, no-c-format
+msgid "Program"
+msgstr ""
 
-#: koeditoralarms.cpp:88
+#: koeditoralarms.cpp:92
 msgid "Audio"
 msgstr "Аудио"
 
-#: koeditoralarms.cpp:100
+#: koeditoralarms.cpp:95 koprefsdialog.cpp:174
+msgid "Unknown"
+msgstr "Номаълум"
+
+#: koeditoralarms.cpp:106
 msgid ""
 "_: N days/hours/minutes before/after the start/end\n"
 "%1 before the start"
 msgstr ""
 
-#: koeditoralarms.cpp:103
+#: koeditoralarms.cpp:109
 msgid ""
 "_: N days/hours/minutes before/after the start/end\n"
 "%1 after the start"
 msgstr ""
 
-#: koeditoralarms.cpp:108
+#: koeditoralarms.cpp:114
 msgid ""
 "_: N days/hours/minutes before/after the start/end\n"
 "%1 before the end"
 msgstr ""
 
-#: koeditoralarms.cpp:111
+#: koeditoralarms.cpp:117
 msgid ""
 "_: N days/hours/minutes before/after the start/end\n"
 "%1 after the end"
 msgstr ""
 
-#: koeditoralarms.cpp:120
+#: koeditoralarms.cpp:126
 #, c-format
 msgid ""
 "_n: 1 day\n"
@@ -870,7 +874,7 @@ msgstr ""
 "1 кун\n"
 "%n кун"
 
-#: koeditoralarms.cpp:123 koeditorgeneralevent.cpp:388
+#: koeditoralarms.cpp:129 koeditorgeneralevent.cpp:388
 #, c-format
 msgid ""
 "_n: 1 hour\n"
@@ -879,7 +883,7 @@ msgstr ""
 "1 соат\n"
 "%n соат"
 
-#: koeditoralarms.cpp:126 koeditorgeneralevent.cpp:395
+#: koeditoralarms.cpp:132 koeditorgeneralevent.cpp:395
 #, c-format
 msgid ""
 "_n: 1 minute\n"
@@ -888,7 +892,7 @@ msgstr ""
 "1 дақиқа\n"
 "%n дақиқа"
 
-#: koeditoralarms.cpp:140
+#: koeditoralarms.cpp:148
 msgid "Edit Reminders"
 msgstr "Эсга солишни таҳрирлаш"
 
@@ -1253,11 +1257,15 @@ msgstr "Ушбу ҳодиса ёки вазифа учун эсга солишн
 msgid "Sets how long before the event occurs the reminder will be triggered."
 msgstr ""
 
-#: koeditorgeneral.cpp:215 korgac/alarmdialog.cpp:81
+#. i18n: file koeditoralarms_base.ui line 60
+#: koeditorgeneral.cpp:215 korgac/alarmdialog.cpp:81 rc.cpp:176 rc.cpp:1732
+#, no-c-format
 msgid "minute(s)"
 msgstr "дақиқа"
 
-#: koeditorgeneral.cpp:216 korgac/alarmdialog.cpp:82
+#. i18n: file koeditoralarms_base.ui line 65
+#: koeditorgeneral.cpp:216 korgac/alarmdialog.cpp:82 rc.cpp:179 rc.cpp:1735
+#, no-c-format
 msgid "hour(s)"
 msgstr "соат"
 
@@ -1265,18 +1273,18 @@ msgstr "соат"
 msgid "Advanced"
 msgstr "Қўшимча"
 
-#: koeditorgeneral.cpp:263 koeditorgeneral.cpp:336
+#: koeditorgeneral.cpp:265 koeditorgeneral.cpp:341
 msgid "Owner: "
 msgstr "Эгаси: "
 
-#: koeditorgeneral.cpp:296
+#: koeditorgeneral.cpp:299
 #, c-format
 msgid ""
-"_n: 1 reminder configured\n"
-"%n reminders configured"
+"_n: 1 advanced reminder configured\n"
+"%n advanced reminders configured"
 msgstr ""
 
-#: koeditorgeneral.cpp:322
+#: koeditorgeneral.cpp:326
 msgid "1 advanced reminder configured"
 msgstr ""
 
@@ -1454,9 +1462,7 @@ msgstr ""
 msgid "Group Scheduling Email"
 msgstr ""
 
-#. i18n: file koeditoralarms_base.ui line 282
-#: kogroupware.cpp:233 rc.cpp:228 rc.cpp:1784
-#, no-c-format
+#: kogroupware.cpp:233
 msgid "Send Email"
 msgstr "Хат жўнатиш"
 
@@ -1714,53 +1720,53 @@ msgstr ""
 msgid "Accept"
 msgstr "Қабул қилиш"
 
-#: koprefs.cpp:84
+#: koprefs.cpp:85
 msgid ""
 "_: Default export file\n"
 "calendar.html"
 msgstr "calendar.html"
 
-#: koprefs.cpp:169
+#: koprefs.cpp:161
 msgid "Appointment"
 msgstr "Учрашув"
 
-#: koprefs.cpp:169
+#: koprefs.cpp:161
 msgid "Business"
 msgstr "Иш"
 
-#: koprefs.cpp:170
+#: koprefs.cpp:162
 msgid "Meeting"
 msgstr "Учрашув"
 
-#: koprefs.cpp:170
+#: koprefs.cpp:162
 msgid "Phone Call"
 msgstr "Қўнғироқ қилиш"
 
-#: koprefs.cpp:170
+#: koprefs.cpp:162
 msgid "Education"
 msgstr "Таълим"
 
-#: koprefs.cpp:171 printing/calprinthelper.cpp:332
+#: koprefs.cpp:163 printing/calprinthelper.cpp:332
 msgid "Holiday"
 msgstr "Дам олиш"
 
-#: koprefs.cpp:171
+#: koprefs.cpp:163
 msgid "Vacation"
 msgstr ""
 
-#: koprefs.cpp:171
+#: koprefs.cpp:163
 msgid "Special Occasion"
 msgstr ""
 
-#: koprefs.cpp:172
+#: koprefs.cpp:164
 msgid "Personal"
 msgstr "Шахсий"
 
-#: koprefs.cpp:172
+#: koprefs.cpp:164
 msgid "Travel"
 msgstr "Саёҳат"
 
-#: koprefs.cpp:173
+#: koprefs.cpp:165
 msgid "Birthday"
 msgstr "Туғилган кун"
 
@@ -2820,51 +2826,33 @@ msgid "Alarms"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 30
-#: rc.cpp:173 rc.cpp:1729
+#: rc.cpp:173 rc.cpp:267 rc.cpp:1729 rc.cpp:1823
 #, no-c-format
-msgid "Time"
-msgstr "Вақт"
-
-#. i18n: file koeditoralarms_base.ui line 60
-#: rc.cpp:176 rc.cpp:1732
-#, no-c-format
-msgid "Minutes"
-msgstr "Дақиқа"
-
-#. i18n: file koeditoralarms_base.ui line 65
-#: rc.cpp:179 rc.cpp:1735
-#, no-c-format
-msgid "Hours"
-msgstr "Соат"
-
-#. i18n: file koeditoralarms_base.ui line 70
-#: rc.cpp:182 rc.cpp:1738
-#, no-c-format
-msgid "Days"
-msgstr "Кун"
+msgid "Time Offset"
+msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 80
 #: rc.cpp:185 rc.cpp:1741
 #, no-c-format
-msgid "Before the Start"
+msgid "before the start"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 85
 #: rc.cpp:188 rc.cpp:1744
 #, no-c-format
-msgid "After the Start"
+msgid "after the start"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 90
 #: rc.cpp:191 rc.cpp:1747
 #, no-c-format
-msgid "Before the End"
+msgid "before the end"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 95
 #: rc.cpp:194 rc.cpp:1750
 #, no-c-format
-msgid "After the End"
+msgid "after the end"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 128
@@ -2887,9 +2875,9 @@ msgstr "Ора&лиқ:"
 
 #. i18n: file koeditoralarms_base.ui line 178
 #: rc.cpp:206 rc.cpp:1762
-#, no-c-format
-msgid "&Repeating:"
-msgstr "Қ&айтатиш:"
+#, fuzzy, no-c-format
+msgid "&Repeat:"
+msgstr "Қайтариш"
 
 #. i18n: file koeditoralarms_base.ui line 189
 #: rc.cpp:209 rc.cpp:1765
@@ -2899,9 +2887,9 @@ msgstr "ҳар "
 
 #. i18n: file koeditoralarms_base.ui line 192
 #: rc.cpp:212 rc.cpp:1768
-#, no-c-format
-msgid " Minute(s)"
-msgstr " Дақиқа"
+#, fuzzy, no-c-format
+msgid " minute(s)"
+msgstr "дақиқа"
 
 #. i18n: file koeditoralarms_base.ui line 210
 #: rc.cpp:215 rc.cpp:264 rc.cpp:1771 rc.cpp:1820
@@ -2911,33 +2899,27 @@ msgstr "Тури"
 
 #. i18n: file koeditoralarms_base.ui line 252
 #: rc.cpp:219 rc.cpp:1775
-#, no-c-format
-msgid "&Display reminder"
-msgstr ""
+#, fuzzy, no-c-format
+msgid "&Reminder Dialog"
+msgstr "Эсга солиш ойнаси"
 
 #. i18n: file koeditoralarms_base.ui line 263
 #: rc.cpp:222 rc.cpp:1778
-#, no-c-format
-msgid "&Sound"
-msgstr ""
-
-#. i18n: file koeditoralarms_base.ui line 271
-#: rc.cpp:225 rc.cpp:1781
-#, no-c-format
-msgid "Application / script"
-msgstr ""
+#, fuzzy, no-c-format
+msgid "A&udio"
+msgstr "Аудио"
 
 #. i18n: file koeditoralarms_base.ui line 341
 #: rc.cpp:231 rc.cpp:1787
-#, no-c-format
-msgid "Reminder &text:"
-msgstr "&Эсга солиш матни:"
+#, fuzzy, no-c-format
+msgid "Reminder Dialog &text:"
+msgstr "Эсга солиш ойнаси"
 
 #. i18n: file koeditoralarms_base.ui line 373
 #: rc.cpp:234 rc.cpp:1790
-#, no-c-format
-msgid "Sound &file:"
-msgstr ""
+#, fuzzy, no-c-format
+msgid "Audio &file:"
+msgstr "Ар&хив файли:"
 
 #. i18n: file koeditoralarms_base.ui line 384
 #: rc.cpp:237 rc.cpp:1793
@@ -2949,7 +2931,7 @@ msgstr ""
 #. i18n: file koeditoralarms_base.ui line 425
 #: rc.cpp:240 rc.cpp:1796
 #, no-c-format
-msgid "&Application / Script:"
+msgid "&Program file:"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 436
@@ -2960,21 +2942,21 @@ msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 444
 #: rc.cpp:246 rc.cpp:1802
-#, no-c-format
-msgid "Ar&guments:"
+#, fuzzy, no-c-format
+msgid "Program ar&guments:"
 msgstr "Ар&гументлар:"
 
 #. i18n: file koeditoralarms_base.ui line 493
 #: rc.cpp:249 rc.cpp:1805
 #, no-c-format
-msgid "&Text of the message:"
+msgid "Email &message text:"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 514
-#: rc.cpp:252 rc.cpp:1808 searchdialog.cpp:91
-#, no-c-format
-msgid "&To:"
-msgstr ""
+#: rc.cpp:252 rc.cpp:1808
+#, fuzzy, no-c-format
+msgid "Email &address(es):"
+msgstr "Электрон п&очта"
 
 #. i18n: file koeditoralarms_base.ui line 538
 #: rc.cpp:255 rc.cpp:1811
@@ -2986,12 +2968,6 @@ msgstr ""
 #: rc.cpp:261 rc.cpp:1817
 #, no-c-format
 msgid "D&uplicate"
-msgstr ""
-
-#. i18n: file koeditoralarms_base.ui line 588
-#: rc.cpp:267 rc.cpp:1823
-#, no-c-format
-msgid "Offset"
 msgstr ""
 
 #. i18n: file koeditoralarms_base.ui line 599
@@ -4657,6 +4633,10 @@ msgstr ""
 msgid "Fr&om:"
 msgstr ""
 
+#: searchdialog.cpp:91
+msgid "&To:"
+msgstr ""
+
 #: searchdialog.cpp:95
 msgid "E&vents have to be completely included"
 msgstr ""
@@ -6112,3 +6092,27 @@ msgstr ""
 #: koagenda.cpp:1111
 msgid "Unable to add the future items to the calendar. No change will be done."
 msgstr ""
+
+#~ msgid "Application/Script"
+#~ msgstr "Дастур/Скрипт"
+
+#~ msgid "Time"
+#~ msgstr "Вақт"
+
+#~ msgid "Minutes"
+#~ msgstr "Дақиқа"
+
+#~ msgid "Hours"
+#~ msgstr "Соат"
+
+#~ msgid "Days"
+#~ msgstr "Кун"
+
+#~ msgid "&Repeating:"
+#~ msgstr "Қ&айтатиш:"
+
+#~ msgid " Minute(s)"
+#~ msgstr " Дақиқа"
+
+#~ msgid "Reminder &text:"
+#~ msgstr "&Эсга солиш матни:"
