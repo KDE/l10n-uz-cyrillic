@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
-"POT-Creation-Date: 2006-09-09 02:43+0200\n"
+"POT-Creation-Date: 2006-09-15 02:45+0200\n"
 "PO-Revision-Date: 2006-05-23 19:08+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -2542,7 +2542,7 @@ msgstr "Эътибор берилмади"
 #: kexidb/driver_p.cpp:76 plugins/importexport/csv/kexicsvwidgets.cpp:137
 #: plugins/importexport/csv/kexicsvwidgets.cpp:152
 #: plugins/queries/kexiquerydesignerguieditor.cpp:1533
-#: plugins/tables/kexitabledesignerview.cpp:351
+#: plugins/tables/kexitabledesignerview.cpp:389
 msgid "None"
 msgstr "Йўқ"
 
@@ -2999,7 +2999,7 @@ msgid ""
 "key."
 msgstr ""
 
-#: kexidb/connection.cpp:3002 kexidb/connection.cpp:3236
+#: kexidb/connection.cpp:3002 kexidb/connection.cpp:3239
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr ""
 
@@ -3012,37 +3012,37 @@ msgstr "Қаторни олиб ташлаб бўлмади."
 msgid "Could not insert row because there is no master table defined."
 msgstr ""
 
-#: kexidb/connection.cpp:3082
+#: kexidb/connection.cpp:3085
 msgid "Could not insert row because master table has no primary key defined."
 msgstr ""
 
-#: kexidb/connection.cpp:3091
+#: kexidb/connection.cpp:3094
 msgid ""
 "Could not insert row because it does not contain entire master table's primary "
 "key."
 msgstr ""
 
-#: kexidb/connection.cpp:3128
+#: kexidb/connection.cpp:3131
 #, fuzzy
 msgid "Row inserting on the server failed."
 msgstr "Қатор қўшиб бўлмади."
 
-#: kexidb/connection.cpp:3202
+#: kexidb/connection.cpp:3205
 msgid "Could not delete row because there is no master table defined."
 msgstr ""
 
-#: kexidb/connection.cpp:3212
+#: kexidb/connection.cpp:3215
 msgid ""
 "Could not delete row because there is no primary key for master table defined."
 msgstr ""
 
-#: kexidb/connection.cpp:3227
+#: kexidb/connection.cpp:3230
 msgid ""
 "Could not delete row because it does not contain entire master table's primary "
 "key."
 msgstr ""
 
-#: kexidb/connection.cpp:3253 kexidb/connection.cpp:3276
+#: kexidb/connection.cpp:3256 kexidb/connection.cpp:3279
 #, fuzzy
 msgid "Row deletion on the server failed."
 msgstr "Қаторни олиб ташлаб бўлмади."
@@ -3186,7 +3186,7 @@ msgstr ""
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 33
 #: plugins/macros/kexiactions/objectnamevariable.h:46
-#: plugins/tables/kexitabledesignerview.cpp:280 rc.cpp:84 rc.cpp:265
+#: plugins/tables/kexitabledesignerview.cpp:318 rc.cpp:84 rc.cpp:265
 #: rc.cpp:285
 #, no-c-format
 msgid "Name"
@@ -3194,7 +3194,7 @@ msgstr "Номи"
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 44
 #: plugins/macros/kexiactions/datatableaction.cpp:60
-#: plugins/tables/kexitabledesignerview.cpp:285 rc.cpp:87 rc.cpp:130
+#: plugins/tables/kexitabledesignerview.cpp:323 rc.cpp:87 rc.cpp:130
 #: rc.cpp:268
 #, no-c-format
 msgid "Type"
@@ -3565,7 +3565,7 @@ msgstr "Маълумот базаси серверига уланиш"
 msgid "Field Name"
 msgstr "Майдон тури"
 
-#: plugins/tables/kexitabledesignerview.cpp:101
+#: plugins/tables/kexitabledesignerview.cpp:139
 #: widget/kexifieldlistview.cpp:62
 msgid "Data Type"
 msgstr "Маълумот тури"
@@ -3777,44 +3777,48 @@ msgid "Define Query..."
 msgstr ""
 
 #: plugins/queries/kexiquerydesignersqlhistory.cpp:339
-#: widget/tableview/kexidataawareobjectiface.cpp:893
+#: widget/tableview/kexidataawareobjectiface.cpp:924
 #, c-format
 msgid "Error: %1"
 msgstr "Хато: %1"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:910
+#: widget/tableview/kexidataawareobjectiface.cpp:941
 #: widget/tableview/kexitableviewdata.cpp:646
 #, fuzzy
 msgid "The column's constraint is declared as NOT NULL."
 msgstr "Устунлар таркиби БЎШ ЭМАС деб белгиланган."
 
-#: widget/tableview/kexidataawareobjectiface.cpp:932
+#: widget/tableview/kexidataawareobjectiface.cpp:963
 #: widget/tableview/kexitableviewdata.cpp:657
 #, fuzzy
 msgid "The column's constraint is declared as NOT EMPTY."
 msgstr "Устунлар таркиби БЎШ ЭМАС деб белгиланган."
 
-#: widget/tableview/kexidataawareobjectiface.cpp:950
+#: widget/tableview/kexidataawareobjectiface.cpp:981
 #, fuzzy
 msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
 msgstr "Устунлар таркиби БЎШ ЭМАС деб белгиланган."
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1153
+#: widget/tableview/kexidataawareobjectiface.cpp:1184
 msgid "Do you want to delete selected row?"
 msgstr "Танланган сатрни олиб ташлашни истайсизми?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1154
+#: widget/tableview/kexidataawareobjectiface.cpp:1185
 msgid "&Delete Row"
 msgstr "Сатрни &олиб ташлаш"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1275
+#: widget/tableview/kexidataawareobjectiface.cpp:1306
 msgid "Do you want to clear the contents of table %1?"
 msgstr "\"%1\" жадвал таркибини тозалашни истайсизми?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1276
+#: widget/tableview/kexidataawareobjectiface.cpp:1307
 #, fuzzy
 msgid "&Clear Contents"
 msgstr "Жадвал таркибини тозалаш"
+
+#: widget/tableview/kexidataawareobjectiface.cpp:1728
+msgid "Row: "
+msgstr "Сатр: "
 
 #: widget/tableview/kexitableviewdata.cpp:644
 #: widget/tableview/kexitableviewdata.cpp:655
@@ -3851,17 +3855,13 @@ msgstr "Жорий танланган ойнадан объект ўзгариш
 msgid "Row navigator"
 msgstr "Қатор навигатори"
 
-#: widget/tableview/kexitableview.cpp:277
+#: widget/tableview/kexitableview.cpp:278
 msgid "Add Record"
 msgstr "Ёзув қўшиш"
 
-#: widget/tableview/kexitableview.cpp:280
+#: widget/tableview/kexitableview.cpp:281
 msgid "Remove Record"
 msgstr "Ёзувни олиб ташлаш"
-
-#: widget/tableview/kexitableview.cpp:2607
-msgid "Row: "
-msgstr "Сатр: "
 
 #: plugins/reports/kexireportview.cpp:47
 msgid "Page:"
@@ -4669,7 +4669,7 @@ msgstr "Сўров устуни"
 
 #: plugins/macros/kexiactions/messageaction.cpp:34
 #: plugins/queries/kexiquerydesignerguieditor.cpp:1516
-#: plugins/tables/kexitabledesignerview.cpp:318
+#: plugins/tables/kexitabledesignerview.cpp:356
 #, fuzzy
 msgid "Caption"
 msgstr "Сарлавҳа:"
@@ -5248,7 +5248,7 @@ msgid ""
 "table"
 msgstr "hisobot"
 
-#: plugins/tables/kexitabledesignerview.cpp:355
+#: plugins/tables/kexitabledesignerview.cpp:393
 #: plugins/tables/kexitablepart.cpp:71
 msgid "Primary Key"
 msgstr "Биринчи даражали калит"
@@ -5281,94 +5281,94 @@ msgstr "\"%1\" ҳисоботи дизайни ўзгартирилди."
 msgid "Warning! Any data in this table will be removed upon design's saving!"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:87
+#: plugins/tables/kexitabledesignerview.cpp:125
 #, fuzzy
 msgid ""
 "_: Primary Key\n"
 "PK"
 msgstr "Биринчи даражали калит"
 
-#: plugins/tables/kexitabledesignerview.cpp:88
+#: plugins/tables/kexitabledesignerview.cpp:126
 #, fuzzy
 msgid "Describes primary key for the field."
 msgstr "Эски биринчи даражали калит олиб ташланди."
 
-#: plugins/tables/kexitabledesignerview.cpp:94
+#: plugins/tables/kexitabledesignerview.cpp:132
 #, fuzzy
 msgid "Field Caption"
 msgstr "Сарлавҳа:"
 
-#: plugins/tables/kexitabledesignerview.cpp:95
+#: plugins/tables/kexitabledesignerview.cpp:133
 msgid "Describes name for the field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:102
+#: plugins/tables/kexitabledesignerview.cpp:140
 msgid "Describes data type for the field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:119
+#: plugins/tables/kexitabledesignerview.cpp:157
 msgid "Comments"
 msgstr "Изоҳлар"
 
-#: plugins/tables/kexitabledesignerview.cpp:120
+#: plugins/tables/kexitabledesignerview.cpp:158
 msgid "Describes additional comments for the field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:273
+#: plugins/tables/kexitabledesignerview.cpp:311
 msgid "Table field"
 msgstr "Жадвал майдони"
 
-#: plugins/tables/kexitabledesignerview.cpp:304
-#: plugins/tables/kexitabledesignerview.cpp:315
+#: plugins/tables/kexitabledesignerview.cpp:342
+#: plugins/tables/kexitabledesignerview.cpp:353
 msgid "Subtype"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:310
+#: plugins/tables/kexitabledesignerview.cpp:348
 msgid ""
 "_: Image object type\n"
 "Image"
 msgstr "Расм"
 
-#: plugins/tables/kexitabledesignerview.cpp:326
+#: plugins/tables/kexitabledesignerview.cpp:364
 #, fuzzy
 msgid "Unsigned Number"
 msgstr "Имзоланмаган рақам"
 
-#: plugins/tables/kexitabledesignerview.cpp:329
+#: plugins/tables/kexitabledesignerview.cpp:367
 msgid "Length"
 msgstr "Узунлиги"
 
-#: plugins/tables/kexitabledesignerview.cpp:332
+#: plugins/tables/kexitabledesignerview.cpp:370
 msgid "Precision"
 msgstr "Аниқлик"
 
-#: plugins/tables/kexitabledesignerview.cpp:337
+#: plugins/tables/kexitabledesignerview.cpp:375
 msgid "Visible Decimal Places"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:339
+#: plugins/tables/kexitabledesignerview.cpp:377
 msgid ""
 "_: Auto Decimal Places\n"
 "Auto"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:343
+#: plugins/tables/kexitabledesignerview.cpp:381
 msgid "Column Width"
 msgstr "Устуннинг эни"
 
-#: plugins/tables/kexitabledesignerview.cpp:349
+#: plugins/tables/kexitabledesignerview.cpp:387
 msgid "Default Value"
 msgstr "Андоза қиймат"
 
-#: plugins/tables/kexitabledesignerview.cpp:359
+#: plugins/tables/kexitabledesignerview.cpp:397
 msgid "Unique"
 msgstr "Ягона"
 
-#: plugins/tables/kexitabledesignerview.cpp:362
+#: plugins/tables/kexitabledesignerview.cpp:400
 msgid "Required"
 msgstr "Талаб қилинади"
 
-#: plugins/tables/kexitabledesignerview.cpp:365
+#: plugins/tables/kexitabledesignerview.cpp:403
 msgid ""
 "Allow Zero\n"
 "Size"
@@ -5376,41 +5376,41 @@ msgstr ""
 "Нол ўлчамга\n"
 "рухсат бериш"
 
-#: plugins/tables/kexitabledesignerview.cpp:368
+#: plugins/tables/kexitabledesignerview.cpp:406
 msgid "Autonumber"
 msgstr "Авто-рақамлаш"
 
-#: plugins/tables/kexitabledesignerview.cpp:372
+#: plugins/tables/kexitabledesignerview.cpp:410
 msgid "Indexed"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:509
+#: plugins/tables/kexitabledesignerview.cpp:547
 msgid ""
 "Cannot switch to data view, because table design is empty.\n"
 "First, please create your design."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:520
+#: plugins/tables/kexitabledesignerview.cpp:558
 msgid "Saving changes for existing table design is now required."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:605
+#: plugins/tables/kexitabledesignerview.cpp:643
 msgid "Change \"%1\" field's name to \"%2\" and caption from \"%3\" to \"%4\""
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:677
+#: plugins/tables/kexitabledesignerview.cpp:715
 msgid "Change data type for field \"%1\" to \"%2\""
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:859
+#: plugins/tables/kexitabledesignerview.cpp:899
 msgid "Setting autonumber requires primary key to be set for current field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:861
+#: plugins/tables/kexitabledesignerview.cpp:901
 msgid "Previous primary key will be removed."
 msgstr "Эски биринчи даражали калит олиб ташланди."
 
-#: plugins/tables/kexitabledesignerview.cpp:863
+#: plugins/tables/kexitabledesignerview.cpp:903
 msgid ""
 "Do you want to create primary key for current field? Click \"Cancel\" to cancel "
 "setting autonumber."
@@ -5418,44 +5418,44 @@ msgstr ""
 "Жорий майдон учун биринчи даражали калит яратишни истайсизми? Авто-рақамлашни "
 "бекор қилиш учун \"Бекор қилиш\" тугмасини босинг."
 
-#: plugins/tables/kexitabledesignerview.cpp:867
+#: plugins/tables/kexitabledesignerview.cpp:907
 #, fuzzy
 msgid "Setting Autonumber Field"
 msgstr "Автоматик рақамлаш қатори мосламалари"
 
-#: plugins/tables/kexitabledesignerview.cpp:868
+#: plugins/tables/kexitabledesignerview.cpp:908
 msgid "Create &Primary Key"
 msgstr "Биринчи &даражали калит яратиш"
 
-#: plugins/tables/kexitabledesignerview.cpp:875
+#: plugins/tables/kexitabledesignerview.cpp:915
 #, fuzzy
 msgid "Assign autonumber for field \"%1\""
 msgstr "Автоматик рақамлаш қатори мосламалари"
 
-#: plugins/tables/kexitabledesignerview.cpp:881
+#: plugins/tables/kexitabledesignerview.cpp:921
 #, fuzzy
 msgid "Remove autonumber from field \"%1\""
 msgstr "Автоматик рақамлаш қатори мосламалари"
 
-#: plugins/tables/kexitabledesignerview.cpp:900
+#: plugins/tables/kexitabledesignerview.cpp:942
 msgid "Set \"%1\" property for field \"%1\""
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:945
+#: plugins/tables/kexitabledesignerview.cpp:987
 msgid "Change type for field \"%1\" to \"%2\""
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:980
+#: plugins/tables/kexitabledesignerview.cpp:1031
 #, fuzzy
 msgid "Set primary key for field \"%1\""
 msgstr "Эски биринчи даражали калит олиб ташланди."
 
-#: plugins/tables/kexitabledesignerview.cpp:1006
+#: plugins/tables/kexitabledesignerview.cpp:1057
 #, fuzzy
 msgid "Unset primary key for field \"%1\""
 msgstr "Эски биринчи даражали калит олиб ташланди."
 
-#: plugins/tables/kexitabledesignerview.cpp:1103
+#: plugins/tables/kexitabledesignerview.cpp:1154
 msgid ""
 "<p>Table \"%1\" has no <b>primary key</b> defined.</p>"
 "<p>Although a primary key is not required, it is needed for creating relations "
@@ -5464,45 +5464,45 @@ msgid ""
 "table design.</p>"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1109
+#: plugins/tables/kexitabledesignerview.cpp:1160
 msgid "&Add Primary Key"
 msgstr "Биринчи даражали калитни &қўшиш"
 
-#: plugins/tables/kexitabledesignerview.cpp:1119
+#: plugins/tables/kexitabledesignerview.cpp:1170
 msgid ""
 "_: Identifier%1\n"
 "Id%1"
 msgstr "Id%1"
 
-#: plugins/tables/kexitabledesignerview.cpp:1173
+#: plugins/tables/kexitabledesignerview.cpp:1224
 #, fuzzy
 msgid "You should enter field caption."
 msgstr "Илтимос сарлавҳани киритинг."
 
-#: plugins/tables/kexitabledesignerview.cpp:1191
+#: plugins/tables/kexitabledesignerview.cpp:1242
 msgid ""
 "You have added no fields.\n"
 "Every table should have at least one field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1206
+#: plugins/tables/kexitabledesignerview.cpp:1257
 msgid ""
 "You have added \"%1\" field name twice.\n"
 "Field names cannot be repeated. Correct name of the field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1344
+#: plugins/tables/kexitabledesignerview.cpp:1395
 msgid ""
 "You are about to change the design of table \"%1\" but following objects using "
 "this table are opened:"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1518
+#: plugins/tables/kexitabledesignerview.cpp:1569
 #, fuzzy
 msgid "Table field \"%1\""
 msgstr "Жадвал майдони"
 
-#: plugins/tables/kexitabledesignerview.cpp:1521
+#: plugins/tables/kexitabledesignerview.cpp:1572
 msgid ""
 "_: Empty table row\n"
 "Empty Row"
