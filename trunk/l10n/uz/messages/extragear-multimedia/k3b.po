@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
-"POT-Creation-Date: 2006-10-23 08:42+0200\n"
+"POT-Creation-Date: 2006-10-28 09:55+0200\n"
 "PO-Revision-Date: 2006-04-07 18:32+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -255,7 +255,7 @@ msgstr "Кетма-кетлик-%1"
 msgid "Segments"
 msgstr "Сегментлар"
 
-#: k3bdirview.cpp:245 k3bdirview.cpp:246 k3bmedium.cpp:238
+#: k3bdirview.cpp:247 k3bdirview.cpp:248 k3bmedium.cpp:238
 #: projects/k3bvcdburndialog.cpp:68 rip/k3bvideocdrippingoptions.h:28
 #: rip/k3bvideocdview.cpp:305
 msgid "Video CD"
@@ -424,7 +424,7 @@ msgstr ""
 msgid "Saved entry (%1) in category %2."
 msgstr "Ушбу ёзув (%1) қуйидаги туркумда сақланди: %2."
 
-#: k3bdirview.cpp:262 k3bdirview.cpp:263 k3bmedium.cpp:222 k3bmedium.cpp:225
+#: k3bdirview.cpp:260 k3bdirview.cpp:261 k3bmedium.cpp:222 k3bmedium.cpp:225
 #: rip/k3baudiocdview.cpp:587
 msgid "Audio CD"
 msgstr "Аудио CD"
@@ -1948,43 +1948,35 @@ msgstr "Ёзувчи ускуна: %1 %2"
 msgid "no info"
 msgstr "маълумот йўқ"
 
-#: k3bappdevicemanager.cpp:41
+#: k3bappdevicemanager.cpp:45
 msgid "Media &Info"
 msgstr "Диск ҳақида &маълумот"
 
-#: k3bappdevicemanager.cpp:43
+#: k3bappdevicemanager.cpp:47
 msgid "&Unmount"
 msgstr "&Узиш"
 
-#: k3bappdevicemanager.cpp:45
+#: k3bappdevicemanager.cpp:49
 msgid "&Mount"
 msgstr "У&лаш"
 
-#: k3bappdevicemanager.cpp:47
+#: k3bappdevicemanager.cpp:51
 msgid "&Eject"
 msgstr "&Чиқариш"
 
-#: k3bappdevicemanager.cpp:49
+#: k3bappdevicemanager.cpp:53
 msgid "L&oad"
 msgstr "&Юклаш"
 
-#: k3bappdevicemanager.cpp:51
-msgid "Un&lock"
-msgstr "&Очиш"
-
-#: k3bappdevicemanager.cpp:53
-msgid "Loc&k"
-msgstr "&Қулфлаш"
-
-#: k3bappdevicemanager.cpp:55
+#: k3bappdevicemanager.cpp:59
 msgid "Set Read Speed..."
 msgstr "Ўқиш тезлигини кўрсатиш"
 
-#: k3bappdevicemanager.cpp:235
+#: k3bappdevicemanager.cpp:202
 msgid "CD Read Speed"
 msgstr "CD'ни ўқиш тезлиги"
 
-#: k3bappdevicemanager.cpp:236
+#: k3bappdevicemanager.cpp:203
 #, fuzzy
 msgid ""
 "<p>Please enter the preferred read speed for <b>%1</b>"
@@ -2000,7 +1992,7 @@ msgstr ""
 "<p>Бу K3b мосламасига таъсир қилмайди ва ўқиш тезлиги CD ёки DVD нусхалаш "
 "мобайнида қайта тикланади."
 
-#: k3bappdevicemanager.cpp:254
+#: k3bappdevicemanager.cpp:221
 #, fuzzy
 msgid "Setting the read speed failed."
 msgstr "Ўқиш тезлигини ўрнатиб бўлмади."
@@ -2269,7 +2261,7 @@ msgstr "Қўлланиладиган ёзиш тезлигини аниқлаш"
 msgid "ISO9660 Filesystem Info"
 msgstr "ISO9660 файл тизими ҳақида маълумот"
 
-#: k3bdirview.cpp:198
+#: k3bdirview.cpp:201
 msgid ""
 "<p>You have selected the K3b Video DVD ripping tool."
 "<p>It is intended to <em>rip single titles</em> from a video DVD into a "
@@ -2282,39 +2274,58 @@ msgid ""
 "extras it is recommended to use the K3b DVD Copy tool."
 msgstr ""
 
-#: k3bdirview.cpp:207
+#: k3bdirview.cpp:210
 #, fuzzy
 msgid "Video DVD ripping"
 msgstr "Видео CD ўқиб олиш"
 
-#: k3bdirview.cpp:209
+#: k3bdirview.cpp:212
 #, fuzzy
 msgid "Open DVD Copy Dialog"
 msgstr "DVD'дан нусха олиш ойнасини очиш"
 
-#: k3bdirview.cpp:238
+#: k3bdirview.cpp:241
 msgid ""
 "K3b uses vcdxrip from the vcdimager package to rip Video CDs. Please make sure "
 "it is installed."
 msgstr ""
 
-#: k3bdirview.cpp:244 k3bdirview.cpp:261
+#: k3bdirview.cpp:246 k3bdirview.cpp:259
 msgid ""
 "Found %1. Do you want K3b to mount the data part or show all the tracks?"
 msgstr ""
 
-#: k3bdirview.cpp:247 k3bdirview.cpp:264
+#: k3bdirview.cpp:249 k3bdirview.cpp:262
 msgid "Mount CD"
 msgstr "CD'ни улаш"
 
-#: k3bdirview.cpp:248
+#: k3bdirview.cpp:250
 msgid "Show Video Tracks"
 msgstr "Видео йўлакчаларни кўрсатиш"
 
-#: k3bdirview.cpp:265
+#: k3bdirview.cpp:263
 #, fuzzy
 msgid "Show Audio Tracks"
 msgstr "Аудио йўлакчалар"
+
+#: k3bdirview.cpp:297
+msgid "<p>K3b was unable to mount medium <b>%1</b> in device <em>%2 - %3</em>"
+msgstr ""
+
+#: k3bdirview.cpp:301
+#, fuzzy
+msgid "Mount Failed"
+msgstr "Улаш муваффақиятсиз тугади."
+
+#: k3bdirview.cpp:313
+msgid ""
+"<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
+msgstr ""
+
+#: k3bdirview.cpp:317
+#, fuzzy
+msgid "Unmount Failed"
+msgstr "Улаш муваффақиятсиз тугади."
 
 #: k3bdiroperator.cpp:48
 msgid "K3b Bookmarks"
@@ -3691,29 +3702,31 @@ msgstr ""
 msgid "Initialization Problem"
 msgstr ""
 
-#: k3blsofwrapperdialog.cpp:42
+#: k3blsofwrapperdialog.cpp:44
 #, fuzzy
 msgid "Device in use"
 msgstr "Ускуналар"
 
-#: k3blsofwrapperdialog.cpp:49
+#: k3blsofwrapperdialog.cpp:51
 #, fuzzy
 msgid "Quit the other applications"
 msgstr "Дастурдан чиқиш"
 
-#: k3blsofwrapperdialog.cpp:50
+#: k3blsofwrapperdialog.cpp:52
 #, fuzzy
 msgid "Check again"
 msgstr "Файлларни текшириш"
 
-#: k3blsofwrapperdialog.cpp:71
+#: k3blsofwrapperdialog.cpp:73
 msgid ""
 "<p>Device <b>'%1'</b> is already in use by other applications (<em>%2</em>) "
 "<p>It is highly recommended to quit those before continuing. Otherwise K3b "
 "might not be able to fully access the device."
+"<p><em>Hint: Sometimes shutting down an application does not happen instantly. "
+"In that case you might have to use the '%3' button."
 msgstr ""
 
-#: k3blsofwrapperdialog.cpp:95
+#: k3blsofwrapperdialog.cpp:101
 #, fuzzy
 msgid "<p>Do you really want K3b to kill the following processes: <em>"
 msgstr "Ростдан ҳам жорий лойиҳани тозаламоқчимисиз?"
@@ -9089,16 +9102,16 @@ msgstr ""
 msgid "Parent Directory"
 msgstr "Юқори директория"
 
-#: k3bfiletreeview.cpp:430
+#: k3bfiletreeview.cpp:375
 msgid "Directories"
 msgstr "Директориялар"
 
-#: k3bfiletreeview.cpp:495
+#: k3bfiletreeview.cpp:440
 #, fuzzy
 msgid "Root"
 msgstr "Туб"
 
-#: k3bfiletreeview.cpp:496
+#: k3bfiletreeview.cpp:441
 msgid "Home"
 msgstr "Уй"
 
@@ -9752,6 +9765,12 @@ msgstr "Жорий аудио файл учн CDDB сўрови."
 msgid "Please select a non-empty audio project for a cddb query."
 msgstr ""
 
+#~ msgid "Un&lock"
+#~ msgstr "&Очиш"
+
+#~ msgid "Loc&k"
+#~ msgstr "&Қулфлаш"
+
 #, fuzzy
 #~ msgid "Replace the automounting entries in /etc/fstab with old-fashioned ones or use pmount or ivman."
 #~ msgstr "/etc/fstab файлидаги авто-улаш ёзувларни эски кўринишда ўрнини алмаштиринг."
@@ -9897,9 +9916,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "K3b could not mount <%1>. Please run K3bSetup."
 #~ msgstr "K3b <%1> ни улай олмади. Илтимос K3bSetup'ни ишга туширинг."
-
-#~ msgid "Mounting failed."
-#~ msgstr "Улаш муваффақиятсиз тугади."
 
 #, fuzzy
 #~ msgid "Successfully mounted media. Starting DVD Ripping."
