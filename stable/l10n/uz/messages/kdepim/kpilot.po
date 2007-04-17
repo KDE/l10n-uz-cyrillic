@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpilot\n"
-"POT-Creation-Date: 2006-12-16 02:43+0100\n"
+"POT-Creation-Date: 2007-04-17 02:17+0200\n"
 "PO-Revision-Date: 2006-12-17 13:34+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -14,47 +14,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: lib/pilotTodoEntry.cc:137
+#: lib/pilotTodoEntry.cc:133
 msgid "Completed"
 msgstr "Тугатилди"
 
-#: lib/pilotTodoEntry.cc:139
+#: lib/pilotTodoEntry.cc:135
 msgid "Not completed"
 msgstr "Тугатилмади"
 
-#: lib/pilotTodoEntry.cc:147
+#: lib/pilotTodoEntry.cc:143
 #, c-format
 msgid "Due date: %1"
 msgstr ""
 
-#: lib/pilotTodoEntry.cc:155
+#: lib/pilotTodoEntry.cc:151
 #, c-format
 msgid "Priority: %1"
 msgstr "Муҳимлик даражаси: %1"
 
-#: lib/pilotDateEntry.cc:258 lib/pilotTodoEntry.cc:162
+#: lib/pilotDateEntry.cc:277 lib/pilotTodoEntry.cc:158
 msgid "<b><em>Note:</em></b><br>"
 msgstr "<b><em>Изоҳ:</em></b><br>"
 
-#: lib/pilotDateEntry.cc:258 lib/pilotTodoEntry.cc:162
+#: lib/pilotDateEntry.cc:277 lib/pilotTodoEntry.cc:158
 msgid ""
 "Note:\n"
 msgstr ""
 "Изоҳ:\n"
 
-#: lib/pilotSerialDatabase.cc:354
-msgid "Cannot open database"
-msgstr "Маълумот базасини очиб бўлмади"
-
-#: lib/pilotSerialDatabase.cc:355
-msgid "Pilot database error"
-msgstr ""
-
-#: lib/pilotSerialDatabase.cc:375
-msgid "Cannot create database %1 on the handheld"
-msgstr ""
-
-#: lib/pilotMemo.cc:55
+#: lib/pilotMemo.cc:81
 msgid ""
 "<i>Title:</i> %1"
 "<br>\n"
@@ -62,23 +50,54 @@ msgid ""
 "<br>%2"
 msgstr ""
 
-#: lib/pilotMemo.cc:58
+#: lib/pilotMemo.cc:86
 msgid ""
 "Title: %1\n"
 "MemoText:\n"
 "%2"
 msgstr ""
 
-#: kpilot/addressWidget.cc:395 lib/pilotMemo.cc:103
+#: kpilot/addressWidget.cc:393 lib/pilotMemo.cc:132
 msgid "[unknown]"
 msgstr "[номаълум]"
+
+#: lib/actionQueue.cc:136
+msgid ""
+"The connection to the handheld was lost. Synchronization cannot continue."
+msgstr ""
+
+#: lib/actions.cc:54
+msgid ""
+"KPilot %1 HotSync starting...\n"
+msgstr ""
+
+#: lib/actions.cc:56
+msgid "Using encoding %1 on the handheld."
+msgstr ""
+
+#: lib/actions.cc:67
+msgid "KPilot is busy and cannot process the HotSync right now."
+msgstr ""
+
+#: lib/actions.cc:114
+msgid ""
+"Testing.\n"
+msgstr ""
+
+#: lib/actions.cc:130
+msgid "Syncing database %1..."
+msgstr ""
+
+#: kpilot/logFile.cc:97 lib/actions.cc:134
+msgid "HotSync finished."
+msgstr ""
 
 #: lib/syncAction.cc:103
 msgid "The conduit %1 could not be executed."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:399 kpilot/kpilot.cc:295 kpilot/kpilot.cc:297
-#: kpilot/kpilot.cc:567 kpilot/kpilotConfigDialog.cc:245 lib/syncAction.cc:204
+#: kpilot/conduitConfigDialog.cc:398 kpilot/kpilot.cc:261 kpilot/kpilot.cc:263
+#: kpilot/kpilot.cc:515 kpilot/kpilotConfigDialog.cc:242 lib/syncAction.cc:204
 msgid "HotSync"
 msgstr ""
 
@@ -87,24 +106,32 @@ msgid "Full Synchronization"
 msgstr ""
 
 #. i18n: file ./kpilot/kpilotConfigDialog_sync.ui line 54
-#: kpilot/kpilot.cc:618 lib/syncAction.cc:206 rc.cpp:1018
+#: kpilot/kpilot.cc:566 lib/syncAction.cc:206 rc.cpp:1018
 #, no-c-format
 msgid "Copy PC to Handheld"
 msgstr ""
 
 #. i18n: file ./kpilot/kpilotConfigDialog_sync.ui line 59
-#: kpilot/kpilot.cc:609 lib/syncAction.cc:207 rc.cpp:1021
+#: kpilot/kpilot.cc:557 lib/syncAction.cc:207 rc.cpp:1021
 #, no-c-format
 msgid "Copy Handheld to PC"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:398 kpilot/kpilotConfigDialog.cc:331
+#: kpilot/conduitConfigDialog.cc:397 kpilot/kpilotConfigDialog.cc:328
 #: lib/syncAction.cc:208
 msgid "Backup"
 msgstr ""
 
 #: lib/syncAction.cc:209
 msgid "Restore From Backup"
+msgstr ""
+
+#: lib/syncAction.cc:220
+msgid "Test Sync"
+msgstr ""
+
+#: lib/syncAction.cc:224
+msgid "Local Sync"
 msgstr ""
 
 #: lib/syncAction.cc:316 lib/syncAction.cc:428
@@ -119,100 +146,7 @@ msgstr "&Бошқа сўралмасин"
 msgid "Do not ask again"
 msgstr "Бошқа сўралмасин"
 
-#: lib/kpilotlink.cc:449
-msgid "Pilot device %1 is not read-write."
-msgstr ""
-
-#: lib/kpilotlink.cc:458
-msgid ""
-"Pilot device %1 does not exist. Probably it is a USB device and will appear "
-"during a HotSync."
-msgstr ""
-
-#: lib/kpilotlink.cc:483
-msgid "Trying to open device %1..."
-msgstr ""
-
-#: lib/kpilotlink.cc:488 lib/kpilotlink.cc:492
-msgid "Device link ready."
-msgstr ""
-
-#: lib/kpilotlink.cc:496
-msgid "Could not open device: %1 (will retry)"
-msgstr ""
-
-#: lib/kpilotlink.cc:529
-msgid "The Pilot device is not configured yet."
-msgstr ""
-
-#: lib/kpilotlink.cc:536
-msgid "Already listening on that device"
-msgstr ""
-
-#: lib/kpilotlink.cc:555
-msgid "Cannot create socket for communicating with the Pilot"
-msgstr ""
-
-#: lib/kpilotlink.cc:612
-msgid "Cannot open Pilot port \"%1\". "
-msgstr ""
-
-#: lib/kpilotlink.cc:634
-msgid "(empty)"
-msgstr "(бўш)"
-
-#: lib/kpilotlink.cc:649
-msgid " The port does not exist."
-msgstr ""
-
-#: lib/kpilotlink.cc:652
-msgid " These is no such device."
-msgstr ""
-
-#: lib/kpilotlink.cc:655
-msgid " You do not have permission to open the Pilot device."
-msgstr ""
-
-#: lib/kpilotlink.cc:659
-msgid " Check Pilot path and permissions."
-msgstr ""
-
-#: lib/kpilotlink.cc:723
-msgid "Cannot listen on Pilot socket (%1)"
-msgstr ""
-
-#: lib/kpilotlink.cc:741 lib/kpilotlink.cc:755
-msgid "Cannot accept Pilot (%1)"
-msgstr ""
-
-#: lib/kpilotlink.cc:756
-msgid "already connected"
-msgstr ""
-
-#: lib/kpilotlink.cc:767
-msgid "Unable to read system information from Pilot"
-msgstr ""
-
-#: lib/kpilotlink.cc:800
-msgid "Checking last PC..."
-msgstr ""
-
-#: lib/kpilotlink.cc:808
-msgid ""
-"Could not read user information from the Pilot. Perhaps you have a password set "
-"on the device?"
-msgstr ""
-
-#: lib/kpilotlink.cc:877 lib/kpilotlink.cc:887
-msgid "<qt>Cannot install the file &quot;%1&quot;.</qt>"
-msgstr ""
-
-#: lib/kpilotlink.cc:966
-msgid ""
-"End of HotSync\n"
-msgstr ""
-
-#: lib/recordConduit.cc:289
+#: lib/recordConduit.cc:69 lib/recordConduit.cc:289
 msgid "Unable to open the %1 database on the handheld."
 msgstr ""
 
@@ -221,117 +155,271 @@ msgstr ""
 msgid "Unable to open %1."
 msgstr ""
 
-#: lib/pilotDateEntry.cc:160
+#: lib/kpilotdevicelink.cc:292
+msgid " The port does not exist."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:295
+msgid " There is no such device."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:298
+msgid " You do not have permission to open the Pilot device."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:302
+msgid " Check Pilot path and permissions."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:332
+msgid "Trying to open device %1..."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:376
+msgid "Already listening on that device"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:398
+msgid "Cannot create socket for communicating with the Pilot (%1)"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:427
+msgid "Cannot open Pilot port \"%1\". "
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:462
+msgid "Cannot listen on Pilot socket (%1)"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:488 lib/kpilotdevicelink.cc:503
+msgid "Cannot accept Pilot (%1)"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:504
+msgid "already connected"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:518
+msgid "Unable to read system information from Pilot"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:546
+msgid "Checking last PC..."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:556
+msgid ""
+"Could not read user information from the Pilot. Perhaps you have a password set "
+"on the device?"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:615
+msgid "Could not open device: %1 (will retry)"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:812
+msgid "The Pilot device is not configured yet."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:853
+msgid "Pilot device %1 is not read-write."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:862
+msgid ""
+"Pilot device %1 does not exist. Probably it is a USB device and will appear "
+"during a HotSync."
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:909 lib/kpilotdevicelink.cc:918
+msgid "<qt>Cannot install the file &quot;%1&quot;.</qt>"
+msgstr ""
+
+#: lib/kpilotdevicelink.cc:990
+msgid ""
+"End of HotSync\n"
+msgstr ""
+
+#: lib/pilotDateEntry.cc:179
 #, c-format
 msgid "Start date: %1"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:166
+#: lib/pilotDateEntry.cc:185
 msgid "Whole-day event"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:174
+#: lib/pilotDateEntry.cc:193
 #, c-format
 msgid "End date: %1"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:181
+#: lib/pilotDateEntry.cc:200
 msgid ""
 "_: %1 is the duration, %2 is the time unit\n"
 "Alarm: %1 %2 before event starts"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:185
+#: lib/pilotDateEntry.cc:204
 msgid "minutes"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:186
+#: lib/pilotDateEntry.cc:205
 msgid "hours"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:187
+#: lib/pilotDateEntry.cc:206
 msgid "days"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:197
+#: lib/pilotDateEntry.cc:216
 msgid "Recurrence: every %1 %2"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:203
+#: lib/pilotDateEntry.cc:222
 msgid "day(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:204
+#: lib/pilotDateEntry.cc:223
 msgid "week(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:206
+#: lib/pilotDateEntry.cc:225
 msgid "month(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:207
+#: lib/pilotDateEntry.cc:226
 msgid "year(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:216
+#: lib/pilotDateEntry.cc:235
 msgid "Repeats indefinitely"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:221
+#: lib/pilotDateEntry.cc:240
 #, c-format
 msgid "Until %1"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:225
+#: lib/pilotDateEntry.cc:244
 msgid "Repeating on the i-th day of week j"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:226
+#: lib/pilotDateEntry.cc:245
 msgid "Repeating on the n-th day of the month"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:244
+#: lib/pilotDateEntry.cc:263
 msgid "Exceptions:"
 msgstr ""
 
-#: lib/uiDialog.cc:82
-msgid "Send questions and comments to kdepim-users@kde.org"
-msgstr ""
-
-#: lib/uiDialog.cc:132
-msgid "Send questions and comments to <a href=\"mailto:%1\">%2</a>."
-msgstr ""
-
-#: lib/uiDialog.cc:136
-msgid "Send bug reports to <a href=\"mailto:%1\">%2</a>."
-msgstr ""
-
-#: lib/uiDialog.cc:140
-msgid ""
-"For trademark information, see the <a href=\"help:/kpilot/trademarks.html\">"
-"KPilot User's Guide</a>."
-msgstr ""
-
-#: lib/uiDialog.cc:151
-msgid "<b>Authors:</b> "
-msgstr ""
-
-#: lib/uiDialog.cc:172
-msgid "<b>Credits:</b> "
-msgstr ""
-
-#: lib/plugin.cc:59
+#: lib/plugin.cc:73
 msgid "Unnamed"
 msgstr ""
 
-#: lib/plugin.cc:79
+#: lib/plugin.cc:93
 msgid ""
 "<qt>The <i>%1</i> conduit's settings have been changed. Do you want to save the "
 "changes before continuing?</qt>"
 msgstr ""
 
-#: lib/plugin.cc:91
+#: lib/plugin.cc:105
 msgid "%1 Conduit"
+msgstr ""
+
+#: lib/plugin.cc:144
+msgid "Send questions and comments to kdepim-users@kde.org"
+msgstr ""
+
+#: lib/plugin.cc:194
+msgid "Send questions and comments to <a href=\"mailto:%1\">%2</a>."
+msgstr ""
+
+#: lib/plugin.cc:198
+msgid "Send bug reports to <a href=\"mailto:%1\">%2</a>."
+msgstr ""
+
+#: lib/plugin.cc:202
+msgid ""
+"For trademark information, see the <a href=\"help:/kpilot/trademarks.html\">"
+"KPilot User's Guide</a>."
+msgstr ""
+
+#: lib/plugin.cc:213
+msgid "<b>Authors:</b> "
+msgstr ""
+
+#: lib/plugin.cc:234
+msgid "<b>Credits:</b> "
+msgstr ""
+
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1524
+#: conduits/vcalconduit/vcal-conduitbase.cc:438 lib/plugin.cc:308
+msgid "Handheld"
+msgstr ""
+
+#: conduits/vcalconduit/vcal-conduitbase.cc:438 lib/plugin.cc:309
+msgid "PC"
+msgstr ""
+
+#: lib/plugin.cc:480
+msgid "Large Changes Detected"
+msgstr ""
+
+#: lib/plugin.cc:482
+msgid ""
+"The %1 conduit has made a large number of changes to your %2.  Do you want to "
+"allow this change?\n"
+"Details:\n"
+"\t%3"
+msgstr ""
+
+#: lib/plugin.cc:536
+#, c-format
+msgid "Could not find conduit %1."
+msgstr ""
+
+#: lib/plugin.cc:559
+#, c-format
+msgid "Could not load conduit %1."
+msgstr ""
+
+#: lib/plugin.cc:571
+msgid "Conduit %1 has wrong version (%2)."
+msgstr ""
+
+#: lib/plugin.cc:581
+#, c-format
+msgid "Could not initialize conduit %1."
+msgstr ""
+
+#: lib/plugin.cc:594 lib/plugin.cc:603
+#, c-format
+msgid "Could not create conduit %1."
+msgstr ""
+
+#: lib/plugin.cc:607
+msgid "[Conduit %1]"
+msgstr ""
+
+#: lib/plugin.cc:749
+msgid "Start: %1. End: %2. "
+msgstr ""
+
+#: lib/plugin.cc:751
+msgid "%1 new. "
+msgstr ""
+
+#: lib/plugin.cc:752
+msgid "%1 changed. "
+msgstr ""
+
+#: lib/plugin.cc:753
+msgid "%1 deleted. "
+msgstr ""
+
+#: lib/plugin.cc:755
+msgid "No changes made. "
 msgstr ""
 
 #: _translatorinfo.cpp:1
@@ -346,26 +434,26 @@ msgid ""
 "Your emails"
 msgstr ""
 
-#: conduits/null/null-conduit.cc:63 conduits/null/null-factory.cc:64
+#: conduits/null/null-conduit.cc:63 conduits/null/null-factory.cc:63
 msgid "Null"
 msgstr ""
 
-#: conduits/null/null-factory.cc:66
+#: conduits/null/null-factory.cc:65
 msgid "Null Conduit for KPilot"
 msgstr ""
 
-#: conduits/null/null-factory.cc:68
+#: conduits/null/null-factory.cc:67
 msgid "Configures the Null Conduit for KPilot"
 msgstr ""
 
 #: Documentation/ConduitProgrammingTutorial/mal-factory.cc:56
-#: conduits/abbrowserconduit/abbrowser-setup.cc:55
-#: conduits/knotes/knotes-factory.cc:73 conduits/malconduit/mal-factory.cc:74
-#: conduits/memofileconduit/memofile-factory.cc:70
-#: conduits/notepadconduit/notepad-factory.cc:74
-#: conduits/null/null-factory.cc:72 conduits/recordconduit/factory.cc:73
-#: conduits/sysinfoconduit/sysinfo-setup.cc:102
-#: conduits/timeconduit/time-setup.cc:55
+#: conduits/abbrowserconduit/abbrowser-setup.cc:54
+#: conduits/knotes/knotes-factory.cc:73 conduits/malconduit/mal-factory.cc:76
+#: conduits/memofileconduit/memofile-factory.cc:69
+#: conduits/notepadconduit/notepad-factory.cc:73
+#: conduits/null/null-factory.cc:71 conduits/recordconduit/factory.cc:72
+#: conduits/sysinfoconduit/sysinfo-setup.cc:101
+#: conduits/timeconduit/time-setup.cc:54
 msgid "Primary Author"
 msgstr ""
 
@@ -373,170 +461,144 @@ msgstr ""
 msgid "NULL conduit is programmed to fail."
 msgstr ""
 
-#: conduits/memofileconduit/memofiles.cc:768
-msgid "%1 new to filesystem. "
-msgstr ""
-
-#: conduits/memofileconduit/memofiles.cc:771
-msgid "%1 changed to filesystem. "
-msgstr ""
-
-#: conduits/memofileconduit/memofiles.cc:774
-msgid "%1 deleted from filesystem. "
-msgstr ""
-
 #: conduits/memofileconduit/memofile-conduit.cc:70
-#: conduits/memofileconduit/memofile-factory.cc:62
+#: conduits/memofileconduit/memofile-factory.cc:61
 msgid "Memofile"
 msgstr ""
 
-#: conduits/memofileconduit/memofile-conduit.cc:87
+#: conduits/memofileconduit/memofile-conduit.cc:97
 msgid "Unable to open the memo databases on the handheld."
 msgstr ""
 
-#: conduits/memofileconduit/memofile-conduit.cc:94
+#: conduits/memofileconduit/memofile-conduit.cc:105
 msgid "Cannot initialize from pilot."
 msgstr ""
 
-#: conduits/memofileconduit/memofile-conduit.cc:105
+#: conduits/memofileconduit/memofile-conduit.cc:112
+msgid "Cannot initialize the memo files from disk."
+msgstr ""
+
+#: conduits/memofileconduit/memofile-conduit.cc:119
 #, c-format
 msgid " Syncing with %1."
 msgstr ""
 
-#: conduits/memofileconduit/memofile-conduit.cc:108
+#: conduits/memofileconduit/memofile-conduit.cc:122
 msgid " Copying Pilot to PC..."
 msgstr ""
 
-#: conduits/memofileconduit/memofile-conduit.cc:117
+#: conduits/memofileconduit/memofile-conduit.cc:127
 msgid " Copying PC to Pilot..."
 msgstr ""
 
-#: conduits/memofileconduit/memofile-conduit.cc:123
+#: conduits/memofileconduit/memofile-conduit.cc:131
 msgid " Doing regular sync..."
 msgstr ""
 
-#: conduits/memofileconduit/memofile-conduit.cc:619
-msgid "%1 new to Palm. "
-msgstr ""
-
-#: conduits/memofileconduit/memofile-conduit.cc:622
-msgid "%1 changed to Palm. "
-msgstr ""
-
-#: conduits/memofileconduit/memofile-conduit.cc:625
-msgid "%1 deleted from Palm. "
-msgstr ""
-
-#: conduits/memofileconduit/memofile-conduit.cc:630
-msgid " no changes made."
-msgstr ""
-
-#: conduits/memofileconduit/memofile-factory.cc:64
+#: conduits/memofileconduit/memofile-factory.cc:63
 msgid "Memofile Conduit for KPilot"
 msgstr ""
 
-#: conduits/memofileconduit/memofile-factory.cc:66
+#: conduits/memofileconduit/memofile-factory.cc:65
 msgid "Configures the Memofile Conduit for KPilot"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:53
+#: conduits/sysinfoconduit/sysinfo-setup.cc:52
 msgid "HardwareInfo"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:54
+#: conduits/sysinfoconduit/sysinfo-setup.cc:53
 msgid "UserInfo"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:55
+#: conduits/sysinfoconduit/sysinfo-setup.cc:54
 msgid "MemoryInfo"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:56
+#: conduits/sysinfoconduit/sysinfo-setup.cc:55
 msgid "StorageInfo"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:57
+#: conduits/sysinfoconduit/sysinfo-setup.cc:56
 msgid "DatabaseList"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:58
+#: conduits/sysinfoconduit/sysinfo-setup.cc:57
 msgid "RecordNumbers"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:59
+#: conduits/sysinfoconduit/sysinfo-setup.cc:58
 msgid "SyncInfo"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:60
+#: conduits/sysinfoconduit/sysinfo-setup.cc:59
 msgid "KDEVersion"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:61
+#: conduits/sysinfoconduit/sysinfo-setup.cc:60
 msgid "PalmOSVersion"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:62
+#: conduits/sysinfoconduit/sysinfo-setup.cc:61
 msgid "DebugInformation"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:96
+#: conduits/sysinfoconduit/sysinfo-setup.cc:95
 msgid "KPilot System Information conduit"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-setup.cc:98
+#: conduits/sysinfoconduit/sysinfo-setup.cc:97
 msgid ""
 "Retrieves System, Hardware, and User Info from the Handheld and stores them to "
 "a file."
 msgstr ""
 
 #: conduits/sysinfoconduit/sysinfo-conduit.cc:163
-#: conduits/sysinfoconduit/sysinfo-setup.cc:113
+#: conduits/sysinfoconduit/sysinfo-setup.cc:112
 msgid "System Information"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:162
+#: conduits/docconduit/doc-conflictdialog.cc:161
 #: conduits/sysinfoconduit/sysinfo-conduit.cc:207
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:395
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:396
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:397
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:398
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:404
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:405
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:406
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:407
 msgid "unknown"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:252
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:254
 msgid "Password set"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:254
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:258
 msgid "No password set"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:299
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:308
 msgid "No Cards available via pilot-link"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:454
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:463
 msgid "No debug data"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:575
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:576
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:587
 msgid "Unable to open output file, using %1 instead."
 msgstr ""
 
 #: conduits/notepadconduit/notepad-conduit.cc:79
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:579
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:580
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:591
 #, c-format
 msgid "Unable to open %1"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:591
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:602
 #, c-format
 msgid "Handheld system information written to the file %1"
 msgstr ""
 
-#: conduits/malconduit/mal-conduit.cc:121 conduits/malconduit/mal-setup.cc:63
+#: conduits/malconduit/mal-conduit.cc:121 conduits/malconduit/mal-setup.cc:62
 msgid "MAL"
 msgstr ""
 
@@ -568,27 +630,27 @@ msgid "Using SOCKS proxy: %1"
 msgstr ""
 
 #: Documentation/ConduitProgrammingTutorial/mal-factory.cc:50
-#: conduits/malconduit/mal-factory.cc:68
+#: conduits/malconduit/mal-factory.cc:70
 msgid "MAL Synchronization Conduit for KPilot"
 msgstr ""
 
 #: Documentation/ConduitProgrammingTutorial/mal-factory.cc:52
-#: conduits/malconduit/mal-factory.cc:70
+#: conduits/malconduit/mal-factory.cc:72
 msgid "Synchronizes the content from MAL Servers like AvantGo to the Handheld"
 msgstr ""
 
 #: Documentation/ConduitProgrammingTutorial/mal-factory.cc:58
-#: conduits/malconduit/mal-factory.cc:76
+#: conduits/malconduit/mal-factory.cc:78
 msgid "Author of libmal and the JPilot AvantGo conduit"
 msgstr ""
 
 #: Documentation/ConduitProgrammingTutorial/mal-factory.cc:60
-#: conduits/malconduit/mal-factory.cc:78
+#: conduits/malconduit/mal-factory.cc:80
 msgid "Author of syncmal"
 msgstr ""
 
 #: Documentation/ConduitProgrammingTutorial/mal-factory.cc:62
-#: conduits/malconduit/mal-factory.cc:80
+#: conduits/malconduit/mal-factory.cc:82
 msgid "Authors of the malsync library (c) 1997-1999"
 msgstr ""
 
@@ -600,34 +662,73 @@ msgstr ""
 msgid "Configures the KNotes Conduit for KPilot"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-setup.cc:62
+#: conduits/abbrowserconduit/abbrowser-setup.cc:61
 #: conduits/knotes/knotes-factory.cc:77
 msgid "UI"
 msgstr ""
 
-#: conduits/knotes/knotes-action.cc:261
-msgid ""
-"No DCOP connection could be made. The conduit cannot function without DCOP."
+#: conduits/knotes/knotes-action.cc:232
+#, fuzzy
+msgid "Could not open MemoDB on the handheld."
+msgstr "Маълумот базасини очиб бўлмади"
+
+#: conduits/knotes/knotes-action.cc:272
+#, c-format
+msgid "Could not load the resource at: %1"
 msgstr ""
 
-#: conduits/knotes/knotes-action.cc:276
+#: conduits/knotes/knotes-action.cc:808
+#, c-format
 msgid ""
-"KNotes is not running. The conduit must be able to make a DCOP connection to "
-"KNotes for synchronization to take place. Please start KNotes and try again."
+"_n: Added one new memo.\n"
+"Added %n new memos."
 msgstr ""
 
-#: conduits/knotes/knotes-action.cc:293
+#: conduits/knotes/knotes-action.cc:814
+#, c-format
 msgid ""
-"Could not retrieve list of notes from KNotes. The KNotes conduit will not be "
-"run."
+"_n: Modified one memo.\n"
+"Modified %n memos."
 msgstr ""
 
-#: conduits/knotes/knotes-setup.cc:60
+#: conduits/knotes/knotes-action.cc:821
+#, c-format
+msgid ""
+"_n: Deleted one memo.\n"
+"Deleted %n memos."
+msgstr ""
+
+#: conduits/knotes/knotes-action.cc:827
+#, c-format
+msgid ""
+"_n: Added one note to KNotes.\n"
+"Added %n notes to KNotes."
+msgstr ""
+
+#: conduits/knotes/knotes-action.cc:833
+#, c-format
+msgid ""
+"_n: Modified one note in KNotes.\n"
+"Modified %n notes in KNotes."
+msgstr ""
+
+#: conduits/knotes/knotes-action.cc:839
+#, c-format
+msgid ""
+"_n: Deleted one note from KNotes.\n"
+"Deleted %n notes from KNotes."
+msgstr ""
+
+#: conduits/knotes/knotes-action.cc:844
+msgid "No change to KNotes."
+msgstr ""
+
+#: conduits/knotes/knotes-setup.cc:59
 msgid "KNotes"
 msgstr ""
 
 #: conduits/timeconduit/time-conduit.cc:57
-#: conduits/timeconduit/time-setup.cc:69 kpilot/datebookWidget.cc:68
+#: conduits/timeconduit/time-setup.cc:68 kpilot/datebookWidget.cc:68
 msgid "Time"
 msgstr ""
 
@@ -641,183 +742,184 @@ msgid ""
 "conduit..."
 msgstr ""
 
-#: conduits/timeconduit/time-setup.cc:49
+#: conduits/timeconduit/time-setup.cc:48
 msgid "Time Synchronization Conduit for KPilot"
 msgstr ""
 
-#: conduits/timeconduit/time-setup.cc:51
+#: conduits/timeconduit/time-setup.cc:50
 msgid "Synchronizes the Time on the Handheld and the PC"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-setup.cc:49
+#: conduits/abbrowserconduit/abbrowser-setup.cc:48
 msgid "Abbrowser Conduit for KPilot"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-setup.cc:51
+#: conduits/abbrowserconduit/abbrowser-setup.cc:50
 msgid "Configures the Abbrowser Conduit for KPilot"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-setup.cc:57
-#: conduits/abbrowserconduit/abbrowser-setup.cc:60
-#: conduits/docconduit/doc-factory.cc:68 conduits/popmail/setupDialog.cc:75
-#: conduits/vcalconduit/todo-setup.cc:60 conduits/vcalconduit/todo-setup.cc:64
-#: conduits/vcalconduit/vcal-setup.cc:51 conduits/vcalconduit/vcal-setup.cc:55
-#: kpilot/kpilot.cc:1101 kpilot/pilotDaemon.cc:1329
+#: conduits/abbrowserconduit/abbrowser-setup.cc:56
+#: conduits/abbrowserconduit/abbrowser-setup.cc:59
+#: conduits/docconduit/doc-factory.cc:68 conduits/popmail/setupDialog.cc:74
+#: conduits/vcalconduit/todo-setup.cc:59 conduits/vcalconduit/todo-setup.cc:63
+#: conduits/vcalconduit/vcal-setup.cc:50 conduits/vcalconduit/vcal-setup.cc:54
+#: kpilot/kpilot.cc:1027 kpilot/pilotDaemon.cc:1323
 msgid "Maintainer"
 msgstr "Таъминловчи"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:98
-#: conduits/abbrowserconduit/abbrowser-setup.cc:72
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:129
+#: conduits/abbrowserconduit/abbrowser-setup.cc:71
 msgid "Addressbook"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:251
-#: conduits/vcalconduit/vcal-conduitbase.cc:300
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:296
+#: conduits/vcalconduit/vcal-conduitbase.cc:298
 msgid ""
 "You chose to sync with the file \"%1\", which cannot be opened. Please make "
 "sure to supply a valid file name in the conduit's configuration dialog. "
 "Aborting the conduit."
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:286
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:331
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:332
 msgid "Unable to initialize and load the addressbook for the sync."
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:356
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:344
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:345
+msgid "Unable to lock addressbook for writing.  Can't sync!"
+msgstr ""
+
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:400
 msgid ""
 "An error occurred while uploading \"%1\". You can try to upload the temporary "
 "local file \"%2\" manually"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:722
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:511
 msgid "Unable to open the addressbook databases on the handheld."
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:743
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:532
 msgid "Unable to open the addressbook."
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1970
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1523
 msgid "Item on PC"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1971
-#: conduits/vcalconduit/vcal-conduitbase.cc:442
-msgid "Handheld"
-msgstr ""
-
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1972
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1525
 msgid "Last sync"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1993
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1546
 msgid "Last name"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1994
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1547
 msgid "First name"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1995
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1548
 msgid "Organization"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1996
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1549
 msgid "Title"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1997
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1550
 msgid "Note"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1998
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1552
 msgid "Custom 1"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1999
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1553
 msgid "Custom 2"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2000
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1554
 msgid "Custom 3"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2001
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1555
 msgid "Custom 4"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2002
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1557
 msgid "Work Phone"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2003
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1558
 msgid "Home Phone"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2004
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1559
 msgid "Mobile Phone"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2005
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1560
 msgid "Fax"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2006
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1561
 msgid "Pager"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2007
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1562
 msgid "Other"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2008
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1563
 msgid "Email"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2011
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1566
 msgid "Address"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2012
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1567
 msgid "City"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2013
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1568
 msgid "Region"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2014
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1569
 msgid "Postal code"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2015
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1570
 msgid "Country"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2017 kpilot/listCat.cc:84
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1583 kpilot/listCat.cc:84
 msgid "Category"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2168
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1748
 msgid ""
 "The following address entry was changed, but does no longer exist on the "
 "handheld. Please resolve this conflict:"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2172
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1752
 msgid ""
 "The following address entry was changed, but does no longer exist on the PC. "
 "Please resolve this conflict:"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2176
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1756
 msgid ""
 "The following address entry was changed on the handheld as well as on the PC "
 "side. The changes could not be merged automatically, so please resolve the "
 "conflict yourself:"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:2178
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1758
 msgid "Address conflict"
 msgstr ""
 
@@ -1012,7 +1114,7 @@ msgid "<qt>The database file <em>%1</em> already exists. Overwrite it?</qt>"
 msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:457
-#: conduits/docconduit/kpalmdoc_dlg.cc:502 kpilot/addressWidget.cc:700
+#: conduits/docconduit/kpalmdoc_dlg.cc:502 kpilot/addressWidget.cc:698
 #: kpilot/logWidget.cc:356
 msgid "Overwrite"
 msgstr ""
@@ -1034,7 +1136,7 @@ msgstr ""
 msgid "Configures the DOC Conduit for KPilot"
 msgstr ""
 
-#: conduits/docconduit/doc-setup.cc:65
+#: conduits/docconduit/doc-setup.cc:64
 msgid "Palm DOC"
 msgstr ""
 
@@ -1092,52 +1194,52 @@ msgstr ""
 msgid "More Info..."
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:156
+#: conduits/docconduit/doc-conflictdialog.cc:155
 msgid "unchanged"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:157
+#: conduits/docconduit/doc-conflictdialog.cc:156
 msgid "new"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:158
+#: conduits/docconduit/doc-conflictdialog.cc:157
 msgid "changed"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:159
+#: conduits/docconduit/doc-conflictdialog.cc:158
 msgid "only bookmarks changed"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:160
+#: conduits/docconduit/doc-conflictdialog.cc:159
 msgid "deleted"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:161
+#: conduits/docconduit/doc-conflictdialog.cc:160
 msgid "does not exist"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:172
+#: conduits/docconduit/doc-conflictdialog.cc:171
 msgid ""
 "Status of the database %1:\n"
 "\n"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:173
+#: conduits/docconduit/doc-conflictdialog.cc:172
 msgid ""
 "Handheld: %1\n"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:174
+#: conduits/docconduit/doc-conflictdialog.cc:173
 msgid ""
 "Desktop: %1\n"
 msgstr ""
 
-#: conduits/docconduit/doc-conflictdialog.cc:176
+#: conduits/docconduit/doc-conflictdialog.cc:175
 msgid "Database information"
 msgstr ""
 
 #: conduits/notepadconduit/notepad-conduit.cc:59
-#: conduits/notepadconduit/notepad-factory.cc:90
+#: conduits/notepadconduit/notepad-factory.cc:89
 #, fuzzy
 msgid "Notepad"
 msgstr ""
@@ -1157,126 +1259,130 @@ msgid ""
 "%n notepads saved"
 msgstr ""
 
-#: conduits/notepadconduit/notepad-factory.cc:68
+#: conduits/notepadconduit/notepad-factory.cc:67
 msgid "Saves notepads to png files"
 msgstr ""
 
-#: conduits/notepadconduit/notepad-factory.cc:70
+#: conduits/notepadconduit/notepad-factory.cc:69
 msgid "Configures the Notepad Conduit for KPilot"
 msgstr ""
 
-#: conduits/notepadconduit/notepad-factory.cc:79
+#: conduits/notepadconduit/notepad-factory.cc:78
 msgid "Notepad conduit is based on Angus' read-notepad, part of pilot-link"
 msgstr ""
 
-#: conduits/recordconduit/factory.cc:67
+#: conduits/recordconduit/factory.cc:64
+msgid "Record Conduit"
+msgstr ""
+
+#: conduits/recordconduit/factory.cc:66
 msgid "Record Conduit for KPilot"
 msgstr ""
 
-#: conduits/recordconduit/factory.cc:69
+#: conduits/recordconduit/factory.cc:68
 msgid "Configures the Record Conduit for KPilot"
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:88 conduits/popmail/setupDialog.cc:67
+#: conduits/popmail/popmail-conduit.cc:89 conduits/popmail/setupDialog.cc:66
 msgid "KMail"
 msgstr ""
 
-#: conduits/popmail/setupDialog.cc:69
+#: conduits/popmail/setupDialog.cc:68
 msgid "Mail Conduit for KPilot"
 msgstr ""
 
-#: conduits/popmail/setupDialog.cc:71
+#: conduits/popmail/setupDialog.cc:70
 msgid "Configures the Mail Conduit for KPilot"
 msgstr ""
 
-#: conduits/popmail/setupDialog.cc:79 conduits/vcalconduit/todo-setup.cc:54
-#: conduits/vcalconduit/todo-setup.cc:56 conduits/vcalconduit/todo-setup.cc:58
-#: conduits/vcalconduit/vcal-setup.cc:59 conduits/vcalconduit/vcal-setup.cc:61
-#: conduits/vcalconduit/vcal-setup.cc:63
+#: conduits/popmail/setupDialog.cc:78 conduits/vcalconduit/todo-setup.cc:53
+#: conduits/vcalconduit/todo-setup.cc:55 conduits/vcalconduit/todo-setup.cc:57
+#: conduits/vcalconduit/vcal-setup.cc:58 conduits/vcalconduit/vcal-setup.cc:60
+#: conduits/vcalconduit/vcal-setup.cc:62
 msgid "Original Author"
 msgstr ""
 
-#: conduits/popmail/setupDialog.cc:81
+#: conduits/popmail/setupDialog.cc:80
 msgid "POP3 code"
 msgstr ""
 
-#: conduits/popmail/setupDialog.cc:83
+#: conduits/popmail/setupDialog.cc:82
 msgid "SMTP support and redesign"
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:117
+#: conduits/popmail/popmail-conduit.cc:118
 #, c-format
 msgid ""
 "_n: Sent one message\n"
 "Sent %n messages"
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:139
+#: conduits/popmail/popmail-conduit.cc:138
 msgid "No mail was sent."
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:146
+#: conduits/popmail/popmail-conduit.cc:145
 msgid "No mail could be sent."
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:197
+#: conduits/popmail/popmail-conduit.cc:195
 msgid "Could not connect to DCOP server for the KMail connection."
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:199
-#: conduits/popmail/popmail-conduit.cc:236
-#: conduits/popmail/popmail-conduit.cc:250
-#: conduits/popmail/popmail-conduit.cc:280
+#: conduits/popmail/popmail-conduit.cc:197
+#: conduits/popmail/popmail-conduit.cc:232
+#: conduits/popmail/popmail-conduit.cc:245
+#: conduits/popmail/popmail-conduit.cc:273
 msgid "Error Sending Mail"
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:234
-#: conduits/popmail/popmail-conduit.cc:248
+#: conduits/popmail/popmail-conduit.cc:230
+#: conduits/popmail/popmail-conduit.cc:243
 msgid "Cannot open temporary file to store mail from Pilot in."
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:279
+#: conduits/popmail/popmail-conduit.cc:272
 msgid "DCOP connection with KMail failed."
 msgstr ""
 
-#: conduits/popmail/popmail-conduit.cc:384
+#: conduits/popmail/popmail-conduit.cc:397
 #, fuzzy
 msgid "Cannot perform backup of mail database"
 msgstr "Маълумот базасини очиб бўлмади"
 
-#: conduits/popmail/popmail-conduit.cc:392
+#: conduits/popmail/popmail-conduit.cc:405
 msgid "Unable to open mail database on handheld"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduit.cc:173
-#: conduits/vcalconduit/vcal-setup.cc:71
+#: conduits/vcalconduit/vcal-conduit.cc:178
+#: conduits/vcalconduit/vcal-setup.cc:70
 msgid "Calendar"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduit.cc:235
+#: conduits/vcalconduit/vcal-conduit.cc:222
 msgid ""
 "Event \"%1\" has a yearly recurrence other than by month, will change this to "
 "recurrence by month on handheld."
 msgstr ""
 
-#: conduits/vcalconduit/vcal-setup.cc:45
+#: conduits/vcalconduit/vcal-setup.cc:44
 msgid "VCal Conduit for KPilot"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-setup.cc:47
+#: conduits/vcalconduit/vcal-setup.cc:46
 msgid "Configures the VCal Conduit for KPilot"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-setup.cc:65
+#: conduits/vcalconduit/vcal-setup.cc:64
 msgid "iCalendar port"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-setup.cc:67 kpilot/kpilot.cc:1112
-#: kpilot/kpilot.cc:1113
+#: conduits/vcalconduit/vcal-setup.cc:66 kpilot/kpilot.cc:1038
+#: kpilot/kpilot.cc:1039
 msgid "Bugfixer"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-setup.cc:70
+#: conduits/vcalconduit/vcal-setup.cc:69
 msgid "Calendar Destination"
 msgstr ""
 
@@ -1290,8 +1396,8 @@ msgid ""
 "local file \"%2\" manually."
 msgstr ""
 
-#: conduits/vcalconduit/todo-conduit.cc:180
-#: conduits/vcalconduit/todo-setup.cc:46
+#: conduits/vcalconduit/todo-conduit.cc:183
+#: conduits/vcalconduit/todo-setup.cc:45
 msgid "To-do"
 msgstr ""
 
@@ -1303,15 +1409,15 @@ msgstr ""
 msgid "Initializing conduit ..."
 msgstr ""
 
-#: conduits/vcalconduit/todo-setup.cc:48
+#: conduits/vcalconduit/todo-setup.cc:47
 msgid "To-do Conduit for KPilot"
 msgstr ""
 
-#: conduits/vcalconduit/todo-setup.cc:50
+#: conduits/vcalconduit/todo-setup.cc:49
 msgid "Configures the To-do Conduit for KPilot"
 msgstr ""
 
-#: conduits/vcalconduit/todo-setup.cc:70
+#: conduits/vcalconduit/todo-setup.cc:69
 msgid "To-do Destination"
 msgstr ""
 
@@ -1320,93 +1426,89 @@ msgstr ""
 msgid "Could not open the calendar databases."
 msgstr "Маълумот базасини очиб бўлмади"
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:271
+#: conduits/vcalconduit/vcal-conduitbase.cc:269
 msgid ""
 "You selected to sync with an iCalendar file, but did not give a filename. "
 "Please select a valid file name in the conduit's configuration dialog"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:293
-#: conduits/vcalconduit/vcal-conduitbase.cc:360
+#: conduits/vcalconduit/vcal-conduitbase.cc:291
+#: conduits/vcalconduit/vcal-conduitbase.cc:356
 #, c-format
 msgid "Using local time zone: %1"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:294
-#: conduits/vcalconduit/vcal-conduitbase.cc:361
+#: conduits/vcalconduit/vcal-conduitbase.cc:292
+#: conduits/vcalconduit/vcal-conduitbase.cc:357
 #, c-format
 msgid "Using non-local time zone: %1"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:323
+#: conduits/vcalconduit/vcal-conduitbase.cc:321
 msgid ""
 "You chose to sync with the file \"%1\", which cannot be opened or created. "
 "Please make sure to supply a valid file name in the conduit's configuration "
 "dialog. Aborting the conduit."
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:332
+#: conduits/vcalconduit/vcal-conduitbase.cc:330
 msgid "Syncing with file \"%1\""
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:358
+#: conduits/vcalconduit/vcal-conduitbase.cc:354
 msgid "Syncing with standard calendar resource."
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:371
+#: conduits/vcalconduit/vcal-conduitbase.cc:367
 msgid ""
 "Unable to initialize the calendar object. Please check the conduit's setup"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:429
+#: conduits/vcalconduit/vcal-conduitbase.cc:425
 msgid ""
 "The following item was modified both on the Handheld and on your PC:\n"
 "PC entry:\n"
 "\t"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:432
+#: conduits/vcalconduit/vcal-conduitbase.cc:428
 msgid ""
 "\n"
 "Handheld entry:\n"
 "\t"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:434
+#: conduits/vcalconduit/vcal-conduitbase.cc:430
 msgid ""
 "\n"
 "\n"
 "Which entry do you want to keep? It will overwrite the other entry."
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:439
+#: conduits/vcalconduit/vcal-conduitbase.cc:435
 msgid "Conflicting Entries"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-conduitbase.cc:442
-msgid "PC"
-msgstr ""
-
-#: kpilot/conduitConfigDialog.cc:253
+#: kpilot/conduitConfigDialog.cc:252
 msgid "<qt>This conduit appears to be broken and cannot be configured.</qt>"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:261
+#: kpilot/conduitConfigDialog.cc:260
 msgid "<qt>This is an old-style conduit.</qt>"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:265
+#: kpilot/conduitConfigDialog.cc:264
 msgid "Configure..."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:275
+#: kpilot/conduitConfigDialog.cc:274
 msgid ""
 "<qt><i>Conduits</i> are external (possibly third-party) programs that perform "
 "synchronization actions. They may have individual configurations. Select a "
 "conduit to configure it, and enable it by clicking on its checkbox. </qt>"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:283
+#: kpilot/conduitConfigDialog.cc:282
 msgid ""
 "<qt>"
 "<p>The <i>general</i> portion of KPilot's setup contains settings for your "
@@ -1420,86 +1522,86 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:296
+#: kpilot/conduitConfigDialog.cc:295
 msgid "Configuration Wizard"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:370
+#: kpilot/conduitConfigDialog.cc:369
 msgid "About KPilot. Credits."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:373
+#: kpilot/conduitConfigDialog.cc:372
 msgid "Conduits"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:375
+#: kpilot/conduitConfigDialog.cc:374
 msgid "General Setup"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:383
+#: kpilot/conduitConfigDialog.cc:382
 msgid "General setup of KPilot (User name, port, general sync settings)"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:385
+#: kpilot/conduitConfigDialog.cc:384
 msgid "Actions for HotSync with individual configuration."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:396 kpilot/kpilotConfigDialog.cc:473
+#: kpilot/conduitConfigDialog.cc:395 kpilot/kpilotConfigDialog.cc:470
 msgid "Startup and Exit"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:396
+#: kpilot/conduitConfigDialog.cc:395
 msgid "Behavior at startup and exit."
 msgstr ""
 
 #. i18n: file ./kpilot/kpilotConfigDialog_viewers.ui line 33
-#: kpilot/conduitConfigDialog.cc:397 kpilot/kpilotConfigDialog.cc:421
+#: kpilot/conduitConfigDialog.cc:396 kpilot/kpilotConfigDialog.cc:418
 #: rc.cpp:1225
 #, no-c-format
 msgid "Viewers"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:397
+#: kpilot/conduitConfigDialog.cc:396
 msgid "Viewer settings."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:398
+#: kpilot/conduitConfigDialog.cc:397
 msgid "Special settings for backup."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:399
+#: kpilot/conduitConfigDialog.cc:398
 msgid "Special behavior during HotSync."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:400 kpilot/kpilotConfigDialog.cc:102
+#: kpilot/conduitConfigDialog.cc:399 kpilot/kpilotConfigDialog.cc:102
 msgid "Device"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:400
+#: kpilot/conduitConfigDialog.cc:399
 msgid "Hardware settings and startup and exit options."
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:544
+#: kpilot/conduitConfigDialog.cc:542
 msgid ""
 "<qt>This is an internal action which has no configuration options. The action's "
 "description is: <i>%1</i> </qt>"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:724
+#: kpilot/conduitConfigDialog.cc:722
 msgid "KPilot Setup"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:737
+#: kpilot/conduitConfigDialog.cc:735
 msgid ""
 "<qt>No library could be found for the conduit %1. This means that the conduit "
 "was not installed properly.</qt>"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:747 kpilot/conduitConfigDialog.cc:764
+#: kpilot/conduitConfigDialog.cc:745 kpilot/conduitConfigDialog.cc:762
 msgid "Conduit Error"
 msgstr ""
 
-#: kpilot/conduitConfigDialog.cc:754
+#: kpilot/conduitConfigDialog.cc:752
 msgid ""
 "<qt>There was a problem loading the library for the conduit %1. This means that "
 "the conduit was not installed properly.</qt>"
@@ -1595,107 +1697,107 @@ msgstr ""
 msgid "Handheld Detection"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:164
+#: kpilot/kpilotConfig.cc:163
 msgid "The configuration file is outdated."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:166
+#: kpilot/kpilotConfig.cc:165
 msgid "The configuration file has version %1, while KPilot needs version %2."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:171
+#: kpilot/kpilotConfig.cc:170
 msgid ""
 "Please run KPilot and check the configuration carefully to update the file."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:175
+#: kpilot/kpilotConfig.cc:174
 msgid "Important changes to watch for are:"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:179
+#: kpilot/kpilotConfig.cc:178
 msgid ""
 "Renamed conduits, Kroupware and file installer have been made conduits as well."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:182
+#: kpilot/kpilotConfig.cc:181
 msgid "Conflict resolution is now a global setting."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:187
+#: kpilot/kpilotConfig.cc:186
 #, fuzzy
 msgid "Changed format of no-backup databases."
 msgstr "Маълумот базасини очиб бўлмади"
 
-#: kpilot/kpilotConfig.cc:200
+#: kpilot/kpilotConfig.cc:199
 msgid ""
 "The configuration file for KPilot is out-of date. Please run KPilot to update "
 "it."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:203 kpilot/kpilotConfig.cc:328
+#: kpilot/kpilotConfig.cc:202 kpilot/kpilotConfig.cc:327
 msgid "Configuration File Out-of Date"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:221
+#: kpilot/kpilotConfig.cc:220
 msgid ""
 "The settings for the file installer have been moved to the conduits "
 "configuration. Check the installed conduits list."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:224
+#: kpilot/kpilotConfig.cc:223
 msgid "Settings Updated"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:249
+#: kpilot/kpilotConfig.cc:248
 msgid ""
 "<qt>The following old conduits were found on your system. It is a good idea to "
 "remove them and the associated <tt>.la</tt> and <tt>.so.0</tt> files.</qt>"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:254
+#: kpilot/kpilotConfig.cc:253
 msgid "Old Conduits Found"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:286
+#: kpilot/kpilotConfig.cc:285
 msgid ""
 "<qt>The no backup databases listed in your configuration file have been "
 "adjusted to the new format. Database creator IDs have been changed to use "
 "square brackets []."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:290
+#: kpilot/kpilotConfig.cc:289
 msgid "No Backup Databases Updated"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:311
+#: kpilot/kpilotConfig.cc:310
 msgid ""
 "KPilot is not configured for use. You may use the configuration wizard or the "
 "normal configure dialog to configure KPilot."
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:314
+#: kpilot/kpilotConfig.cc:313
 msgid "Not Configured"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:315
+#: kpilot/kpilotConfig.cc:314
 msgid "Use &Wizard"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:316
+#: kpilot/kpilotConfig.cc:315
 msgid "Use &Dialog"
 msgstr ""
 
-#: kpilot/kpilotConfig.cc:324
+#: kpilot/kpilotConfig.cc:323
 msgid ""
 "The configuration file for KPilot is out-of date. KPilot can update some parts "
 "of the configuration automatically. Do you wish to continue?"
 msgstr ""
 
-#: kpilot/dbRecordEditor.cc:55
+#: kpilot/dbRecordEditor.cc:53
 msgid "Edit Record"
 msgstr ""
 
-#: kpilot/dbRecordEditor.cc:77
+#: kpilot/dbRecordEditor.cc:75
 msgid ""
 "Changing the record data and flags might corrupt the whole record, or even make "
 "the database unusable. Do not change the values unless you are absolutely sure "
@@ -1704,66 +1806,66 @@ msgid ""
 "Really assign these new flags?"
 msgstr ""
 
-#: kpilot/dbRecordEditor.cc:77
+#: kpilot/dbRecordEditor.cc:75
 msgid "Changing Record"
 msgstr ""
 
-#: kpilot/dbFlagsEditor.cc:60 kpilot/dbRecordEditor.cc:77
+#: kpilot/dbFlagsEditor.cc:60 kpilot/dbRecordEditor.cc:75
 msgid "Assign"
 msgstr ""
 
 #. i18n: file ./kpilot/dbRecordEditor_base.ui line 24
-#: kpilot/dbRecordEditor.cc:112 rc.cpp:1390
+#: kpilot/dbRecordEditor.cc:106 rc.cpp:1390
 #, no-c-format
 msgid "Record index:"
 msgstr ""
 
 #. i18n: file ./kpilot/dbRecordEditor_base.ui line 32
-#: kpilot/dbRecordEditor.cc:113 rc.cpp:1393
+#: kpilot/dbRecordEditor.cc:107 rc.cpp:1393
 #, no-c-format
 msgid "Record ID:"
 msgstr ""
 
 #. i18n: file ./kpilot/todoEditor_base.ui line 99
-#: kpilot/dbRecordEditor.cc:114 kpilot/dbRecordEditor.cc:115 rc.cpp:982
+#: kpilot/dbRecordEditor.cc:108 kpilot/dbRecordEditor.cc:109 rc.cpp:982
 #: rc.cpp:1396 rc.cpp:1399
 #, no-c-format
 msgid "1"
 msgstr ""
 
 #. i18n: file ./kpilot/dbRecordEditor_base.ui line 70
-#: kpilot/dbRecordEditor.cc:116 rc.cpp:1402
+#: kpilot/dbRecordEditor.cc:110 rc.cpp:1402
 #, no-c-format
 msgid "Flags"
 msgstr ""
 
 #. i18n: file ./kpilot/dbRecordEditor_base.ui line 81
-#: kpilot/dbRecordEditor.cc:117 rc.cpp:1405
+#: kpilot/dbRecordEditor.cc:111 rc.cpp:1405
 #, no-c-format
 msgid "&Dirty"
 msgstr ""
 
-#: kpilot/dbRecordEditor.cc:118
+#: kpilot/dbRecordEditor.cc:112
 msgid "De&leted"
 msgstr ""
 
-#: kpilot/dbRecordEditor.cc:119
+#: kpilot/dbRecordEditor.cc:113
 msgid "&Busy"
 msgstr ""
 
 #. i18n: file ./kpilot/dbRecordEditor_base.ui line 105
-#: kpilot/dbRecordEditor.cc:120 rc.cpp:1414
+#: kpilot/dbRecordEditor.cc:114 rc.cpp:1414
 #, no-c-format
 msgid "&Secret"
 msgstr ""
 
 #. i18n: file ./kpilot/dbRecordEditor_base.ui line 113
-#: kpilot/dbRecordEditor.cc:121 rc.cpp:1417
+#: kpilot/dbRecordEditor.cc:115 rc.cpp:1417
 #, no-c-format
 msgid "&Archived"
 msgstr ""
 
-#: kpilot/dbRecordEditor.cc:200
+#: kpilot/dbRecordEditor.cc:193
 msgid ""
 "To view and edit the record data, please install a hex editor (e.g. kbytesedit "
 "from kdeutils)."
@@ -1910,25 +2012,25 @@ msgstr ""
 msgid "Next &Sync"
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:675
+#: kpilot/pilotDaemon.cc:670
 msgid "Next HotSync will be: %1. "
 msgstr ""
 
-#: kpilot/kpilot.cc:401 kpilot/kpilot.cc:409 kpilot/kpilot.cc:417
-#: kpilot/kpilot.cc:425 kpilot/kpilot.cc:433 kpilot/kpilot.cc:441
-#: kpilot/pilotDaemon.cc:676
+#: kpilot/kpilot.cc:361 kpilot/kpilot.cc:369 kpilot/kpilot.cc:377
+#: kpilot/kpilot.cc:385 kpilot/kpilot.cc:393 kpilot/kpilot.cc:401
+#: kpilot/pilotDaemon.cc:671
 msgid "Please press the HotSync button."
 msgstr ""
 
-#: kpilot/kpilot.cc:312 kpilot/kpilot.cc:315 kpilot/pilotDaemon.cc:741
+#: kpilot/kpilot.cc:278 kpilot/kpilot.cc:281 kpilot/pilotDaemon.cc:736
 msgid "File Installer"
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:908
+#: kpilot/pilotDaemon.cc:902
 msgid "HotSync is disabled while the screen is locked."
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:913
+#: kpilot/pilotDaemon.cc:907
 msgid ""
 "HotSync is disabled because KPilot could not determine the state of the screen "
 "saver. You can disable this security feature by unchecking the 'do not sync "
@@ -1936,92 +2038,37 @@ msgid ""
 "dialog."
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:1169 kpilot/pilotDaemon.cc:1170
+#: kpilot/pilotDaemon.cc:1165 kpilot/pilotDaemon.cc:1166
 msgid "HotSync Completed.<br>"
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:1279
+#: kpilot/pilotDaemon.cc:1274
 #, c-format
 msgid "Next sync is %1."
 msgstr ""
 
-#: kpilot/kpilot.cc:1066 kpilot/pilotDaemon.cc:1301
+#: kpilot/kpilot.cc:993 kpilot/pilotDaemon.cc:1296
 msgid "Set debugging level"
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:1303
+#: kpilot/pilotDaemon.cc:1298
 msgid "Device to try first"
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:1317
+#: kpilot/pilotDaemon.cc:1299
+msgid "Exit instead of complaining about bad configuration files"
+msgstr ""
+
+#: kpilot/pilotDaemon.cc:1311
 msgid "KPilot Daemon"
 msgstr ""
 
-#: kpilot/kpilot.cc:1098 kpilot/pilotDaemon.cc:1326
+#: kpilot/kpilot.cc:1024 kpilot/pilotDaemon.cc:1320
 msgid "Project Leader"
 msgstr ""
 
-#: kpilot/pilotDaemon.cc:1332
+#: kpilot/pilotDaemon.cc:1326
 msgid "Developer"
-msgstr ""
-
-#: kpilot/syncStack.cc:65
-msgid ""
-"KPilot %1 HotSync starting...\n"
-msgstr ""
-
-#: kpilot/syncStack.cc:67
-msgid "Using encoding %1 on the handheld."
-msgstr ""
-
-#: kpilot/syncStack.cc:78
-msgid "KPilot is busy and cannot process the HotSync right now."
-msgstr ""
-
-#: kpilot/syncStack.cc:110
-msgid "Cannot create local backup."
-msgstr ""
-
-#: kpilot/syncStack.cc:114
-#, fuzzy, c-format
-msgid "Creating local backup of databases in %1."
-msgstr "Маълумот базасини очиб бўлмади"
-
-#: kpilot/syncStack.cc:115
-msgid "Creating local backup .."
-msgstr ""
-
-#: kpilot/syncStack.cc:154
-#, c-format
-msgid "Could not find conduit %1."
-msgstr ""
-
-#: kpilot/syncStack.cc:181
-#, c-format
-msgid "Could not load conduit %1."
-msgstr ""
-
-#: kpilot/syncStack.cc:195
-msgid "Conduit %1 has wrong version (%2)."
-msgstr ""
-
-#: kpilot/syncStack.cc:207
-#, c-format
-msgid "Could not initialize conduit %1."
-msgstr ""
-
-#: kpilot/syncStack.cc:225 kpilot/syncStack.cc:237
-#, c-format
-msgid "Could not create conduit %1."
-msgstr ""
-
-#: kpilot/syncStack.cc:242
-msgid "[Conduit %1]"
-msgstr ""
-
-#: kpilot/syncStack.cc:373
-msgid ""
-"The connection to the handheld was lost. Synchronization cannot continue."
 msgstr ""
 
 #: kpilot/kroupware.cc:126
@@ -2052,104 +2099,104 @@ msgstr ""
 msgid "Syncing KMail with Notes"
 msgstr ""
 
-#: kpilot/dbAppInfoEditor.cc:48
+#: kpilot/dbAppInfoEditor.cc:46
 msgid "Edit AppInfo Block"
 msgstr ""
 
-#: kpilot/dbAppInfoEditor.cc:71
+#: kpilot/dbAppInfoEditor.cc:68
 msgid ""
 "To view the Application info block data, please install a hex editor (e.g. "
 "khexedit from kdeutils)."
 msgstr ""
 
-#: kpilot/dbAppInfoEditor.cc:90
+#: kpilot/dbAppInfoEditor.cc:86
 msgid "Changing the AppInfo block isn't yet supported by KPilot!"
 msgstr ""
 
-#: kpilot/memoWidget.cc:235
+#: kpilot/memoWidget.cc:234
 msgid ""
 "Select the category of addresses\n"
 "to display here."
 msgstr ""
 
-#: kpilot/memoWidget.cc:238
+#: kpilot/memoWidget.cc:237
 msgid "Memos:"
 msgstr ""
 
-#: kpilot/addressWidget.cc:228 kpilot/memoWidget.cc:239
-#: kpilot/todoWidget.cc:222
+#: kpilot/addressWidget.cc:226 kpilot/memoWidget.cc:238
+#: kpilot/todoWidget.cc:220
 msgid "Category:"
 msgstr ""
 
-#: kpilot/memoWidget.cc:250
+#: kpilot/memoWidget.cc:249
 msgid ""
 "This list displays all the memos\n"
 "in the selected category. Click on\n"
 "one to display it to the right."
 msgstr ""
 
-#: kpilot/memoWidget.cc:254
+#: kpilot/memoWidget.cc:253
 msgid "Memo text:"
 msgstr ""
 
-#: kpilot/memoWidget.cc:262
+#: kpilot/memoWidget.cc:261
 msgid "The text of the selected memo appears here."
 msgstr ""
 
-#: kpilot/memoWidget.cc:265
+#: kpilot/memoWidget.cc:264
 msgid "Import Memo..."
 msgstr ""
 
-#: kpilot/memoWidget.cc:269
+#: kpilot/memoWidget.cc:268
 msgid "Read a text file and add it to the Pilot's memo database."
 msgstr ""
 
-#: kpilot/memoWidget.cc:270
+#: kpilot/memoWidget.cc:269
 msgid "<qt><i>Import is disabled by the 'internal editors' setting.</i></qt>"
 msgstr ""
 
-#: kpilot/memoWidget.cc:273
+#: kpilot/memoWidget.cc:272
 msgid "Export Memo..."
 msgstr ""
 
-#: kpilot/memoWidget.cc:278
+#: kpilot/memoWidget.cc:277
 msgid "Write the selected memo to a file."
 msgstr ""
 
-#: kpilot/memoWidget.cc:280
+#: kpilot/memoWidget.cc:279
 msgid "Delete Memo"
 msgstr ""
 
-#: kpilot/memoWidget.cc:285
+#: kpilot/memoWidget.cc:284
 msgid "Delete the selected memo."
 msgstr ""
 
-#: kpilot/addressWidget.cc:277 kpilot/memoWidget.cc:286
-#: kpilot/todoWidget.cc:283
+#: kpilot/addressWidget.cc:275 kpilot/memoWidget.cc:285
+#: kpilot/todoWidget.cc:281
 msgid "<qt><i>Deleting is disabled by the 'internal editors' setting.</i></qt>"
 msgstr ""
 
-#: kpilot/memoWidget.cc:289
+#: kpilot/memoWidget.cc:288
 msgid "Add Memo"
 msgstr ""
 
-#: kpilot/memoWidget.cc:292
+#: kpilot/memoWidget.cc:291
 msgid "Add a new memo to the database."
 msgstr ""
 
-#: kpilot/memoWidget.cc:344
+#: kpilot/memoWidget.cc:343
 msgid "Delete currently selected memo?"
 msgstr ""
 
-#: kpilot/memoWidget.cc:345
+#: kpilot/memoWidget.cc:344
 msgid "Delete Memo?"
 msgstr ""
 
-#: kpilot/memoWidget.cc:368
+#: kpilot/memoWidget.cc:367
 msgid "Cannot open MemoDB to delete record."
 msgstr ""
 
-#: kpilot/memoWidget.cc:369
+#: kpilot/memoWidget.cc:368
 msgid "Cannot Delete Memo"
 msgstr ""
 
@@ -2157,161 +2204,64 @@ msgstr ""
 msgid "Address Editor"
 msgstr ""
 
-#: kpilot/addressEditor.cc:107
+#: kpilot/addressEditor.cc:108
 msgid "Phone"
 msgstr ""
 
-#: kpilot/addressEditor.cc:191
+#: kpilot/addressEditor.cc:181
 msgid "Last name:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:192
+#: kpilot/addressEditor.cc:182
 msgid "First name:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:193
+#: kpilot/addressEditor.cc:183
 msgid "Title:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:194
+#: kpilot/addressEditor.cc:184
 msgid "Company:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:202
+#: kpilot/addressEditor.cc:193
 msgid "Address:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:203
+#: kpilot/addressEditor.cc:194
 msgid "City:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:204
+#: kpilot/addressEditor.cc:195
 msgid "State:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:205
+#: kpilot/addressEditor.cc:196
 msgid "Zip code:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:206
+#: kpilot/addressEditor.cc:197
 msgid "Country:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:207
+#: kpilot/addressEditor.cc:198
 msgid "Custom 1:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:208
+#: kpilot/addressEditor.cc:199
 msgid "Custom 2:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:209
+#: kpilot/addressEditor.cc:200
 msgid "Custom 3:"
 msgstr ""
 
-#: kpilot/addressEditor.cc:210
+#: kpilot/addressEditor.cc:201
 msgid "Custom 4:"
 msgstr ""
 
 #: kpilot/pilotComponent.cc:153
 msgid "All"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:98
-msgid ""
-"_: A common name\n"
-"John Doe"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:100
-msgid ""
-"<qt>Neither KPilot nor the handheld have a username set. They <i>should</i> "
-"be set. Should KPilot set them to a default value (<i>%1</i>)?</qt>"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:106 kpilot/interactiveSync.cc:123
-#: kpilot/interactiveSync.cc:140
-msgid "User Unknown"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:118
-msgid ""
-"<qt>The handheld has a username set (<i>%1</i>) but KPilot does not. Should "
-"KPilot use this username in future?"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:135
-msgid ""
-"<qt>KPilot has a username set (<i>%1</i>) but the handheld does not. Should "
-"KPilot's username be set in the handheld as well?"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:157
-msgid ""
-"<qt>The handheld thinks that the username is %1; however, KPilot says you are "
-"%2.Which of these is the correct name?\n"
-"If you click on Cancel, the sync will proceed, but the usernames will not be "
-"changed."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:167
-msgid "User Mismatch"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:170
-msgid "Use KPilot Name"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:171
-msgid "Use Handheld Name"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:278
-msgid "Restore directory does not exist."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:279 kpilot/interactiveSync.cc:294
-msgid "Restore not performed."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:284
-msgid ""
-"<qt>Are you sure you want to completely restore your Pilot from the backup "
-"directory (<i>%1</i>)? This will erase any information you currently have on "
-"your Pilot.</qt>"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:289
-msgid "Restore Pilot"
-msgstr ""
-
-#: kpilot/interactiveSync.cc:291
-msgid "Restore <i>not</i> performed."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:293
-msgid "Canceled by user."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:305 kpilot/interactiveSync.cc:377
-msgid "Restoring %1..."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:326
-msgid "File '%1' cannot be read."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:353
-msgid "OK."
-msgstr ""
-
-#: kpilot/interactiveSync.cc:368
-#, fuzzy
-msgid "Restore incomplete."
-msgstr "Тугатилмади"
-
-#: kpilot/interactiveSync.cc:384
-msgid "Cannot restore file `%1'."
 msgstr ""
 
 #: kpilot/kpilotConfigDialog.cc:68
@@ -2320,22 +2270,22 @@ msgid ""
 "want to save the changes before continuing?</qt>"
 msgstr ""
 
-#: kpilot/kpilotConfigDialog.cc:146
+#: kpilot/kpilotConfigDialog.cc:145
 msgid ""
 "<qt>The device name you entered (<i>%1</i>) is longer than 13 characters. This "
 "is probably unsupported and can cause problems. Are you sure you want to use "
 "this device name?</qt>"
 msgstr ""
 
-#: kpilot/kpilotConfigDialog.cc:151
+#: kpilot/kpilotConfigDialog.cc:150
 msgid "Device Name too Long"
 msgstr ""
 
-#: kpilot/kpilotConfigDialog.cc:151
+#: kpilot/kpilotConfigDialog.cc:150
 msgid "Use"
 msgstr ""
 
-#: kpilot/kpilotConfigDialog.cc:151
+#: kpilot/kpilotConfigDialog.cc:150
 msgid "Do Not Use"
 msgstr ""
 
@@ -2425,129 +2375,129 @@ msgstr ""
 msgid "Deleting Record"
 msgstr ""
 
-#: kpilot/todoWidget.cc:176
+#: kpilot/todoWidget.cc:174
 msgid "There are still %1 to-do editing windows open."
 msgstr ""
 
-#: kpilot/todoWidget.cc:180
+#: kpilot/todoWidget.cc:178
 #, c-format
 msgid ""
 "_n: There is still a to-do editing window open.\n"
 "There are still %n to-do editing windows open."
 msgstr ""
 
-#: kpilot/todoWidget.cc:220
+#: kpilot/todoWidget.cc:218
 msgid "<qt>Select the category of to-dos to display here.</qt>"
 msgstr ""
 
-#: kpilot/todoWidget.cc:227
+#: kpilot/todoWidget.cc:225
 msgid "To-do Item"
 msgstr ""
 
-#: kpilot/todoWidget.cc:245
+#: kpilot/todoWidget.cc:243
 msgid ""
 "<qt>This list displays all the to-dos in the selected category. Click on one to "
 "display it to the right.</qt>"
 msgstr ""
 
-#: kpilot/todoWidget.cc:249
+#: kpilot/todoWidget.cc:247
 msgid "To-do info:"
 msgstr ""
 
-#: kpilot/addressWidget.cc:253 kpilot/todoWidget.cc:259
+#: kpilot/addressWidget.cc:251 kpilot/todoWidget.cc:257
 msgid "Edit Record..."
 msgstr ""
 
-#: kpilot/todoWidget.cc:264
+#: kpilot/todoWidget.cc:262
 msgid "<qt>You can edit a to-do when it is selected.</qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:258 kpilot/todoWidget.cc:265
+#: kpilot/addressWidget.cc:256 kpilot/todoWidget.cc:263
 msgid "<qt><i>Editing is disabled by the 'internal editors' setting.</i></qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:261 kpilot/todoWidget.cc:268
+#: kpilot/addressWidget.cc:259 kpilot/todoWidget.cc:266
 msgid "New Record..."
 msgstr ""
 
-#: kpilot/todoWidget.cc:272
+#: kpilot/todoWidget.cc:270
 msgid "<qt>Add a new to-do to the to-do list.</qt>"
 msgstr ""
 
-#: kpilot/todoWidget.cc:273
+#: kpilot/todoWidget.cc:271
 msgid ""
 "<qt><i>Adding new to-dos is disabled by the 'internal editors' setting.</i></qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:271 kpilot/todoWidget.cc:277
+#: kpilot/addressWidget.cc:269 kpilot/todoWidget.cc:275
 msgid "Delete Record"
 msgstr ""
 
-#: kpilot/todoWidget.cc:282
+#: kpilot/todoWidget.cc:280
 msgid "<qt>Delete the selected to-do from the to-do list.</qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:437 kpilot/todoWidget.cc:365
+#: kpilot/addressWidget.cc:435 kpilot/todoWidget.cc:363
 msgid "Cannot edit new records until HotSynced with Pilot."
 msgstr ""
 
-#: kpilot/addressWidget.cc:439 kpilot/addressWidget.cc:576
-#: kpilot/todoWidget.cc:367 kpilot/todoWidget.cc:500
+#: kpilot/addressWidget.cc:437 kpilot/addressWidget.cc:574
+#: kpilot/todoWidget.cc:365 kpilot/todoWidget.cc:498
 msgid "HotSync Required"
 msgstr ""
 
-#: kpilot/todoWidget.cc:410
+#: kpilot/todoWidget.cc:408
 msgid ""
 "You cannot add to-dos to the to-do list until you have done a HotSync at least "
 "once to retrieve the database layout from your Pilot."
 msgstr ""
 
-#: kpilot/todoWidget.cc:413
+#: kpilot/todoWidget.cc:411
 msgid "Cannot Add New To-do"
 msgstr ""
 
-#: kpilot/addressWidget.cc:574 kpilot/todoWidget.cc:498
+#: kpilot/addressWidget.cc:572 kpilot/todoWidget.cc:496
 msgid "New records cannot be deleted until HotSynced with pilot."
 msgstr ""
 
-#: kpilot/addressWidget.cc:581 kpilot/todoWidget.cc:505
+#: kpilot/addressWidget.cc:579 kpilot/todoWidget.cc:503
 msgid "Delete currently selected record?"
 msgstr ""
 
-#: kpilot/addressWidget.cc:582 kpilot/todoWidget.cc:506
+#: kpilot/addressWidget.cc:580 kpilot/todoWidget.cc:504
 msgid "Delete Record?"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:64
+#: kpilot/internalEditorAction.cc:62
 msgid "[Internal Editors]"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:78
+#: kpilot/internalEditorAction.cc:76
 #, c-format
 msgid "Databases with changed records: %1"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:103
+#: kpilot/internalEditorAction.cc:101
 msgid "Unable to open the serial or local database for %1. Skipping it."
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:158
+#: kpilot/internalEditorAction.cc:156
 msgid "record"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:168
+#: kpilot/internalEditorAction.cc:166
 msgid "address"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:179
+#: kpilot/internalEditorAction.cc:177
 msgid "to-do entry"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:188
+#: kpilot/internalEditorAction.cc:186
 msgid "memo"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:199
+#: kpilot/internalEditorAction.cc:197
 msgid "calendar entry"
 msgstr ""
 
@@ -2579,30 +2529,30 @@ msgstr ""
 msgid "Use &Handheld"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:228 kpilot/internalEditorAction.cc:245
+#: kpilot/internalEditorAction.cc:228 kpilot/internalEditorAction.cc:244
 msgid "Entry in KPilot"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:235 kpilot/internalEditorAction.cc:273
+#: kpilot/internalEditorAction.cc:235 kpilot/internalEditorAction.cc:272
 msgid "Entry on Handheld"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:264 kpilot/internalEditorAction.cc:292
+#: kpilot/internalEditorAction.cc:263 kpilot/internalEditorAction.cc:291
 msgid ""
 "To view and edit the record data, please install a hex editor (e.g. khexedit "
 "from kdeutils)."
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:317
+#: kpilot/internalEditorAction.cc:315
 #, c-format
 msgid "Databases with changed flags: %1"
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:335
+#: kpilot/internalEditorAction.cc:333
 msgid "Setting the database flags on the handheld is not yet supported."
 msgstr ""
 
-#: kpilot/internalEditorAction.cc:358
+#: kpilot/internalEditorAction.cc:356
 #, c-format
 msgid "Databases with changed AppBlock: %1"
 msgstr ""
@@ -2615,49 +2565,49 @@ msgstr ""
 msgid "Restart Detection"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:95
+#: kpilot/kpilotProbeDialog.cc:97
 msgid ""
 "KPilot is now trying to automatically detect the device of your handheld. "
 "Please press the hotsync button if you have not done so already."
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:98
+#: kpilot/kpilotProbeDialog.cc:100
 msgid "Status"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:102
+#: kpilot/kpilotProbeDialog.cc:104
 msgid "Autodetection not yet started..."
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:111
+#: kpilot/kpilotProbeDialog.cc:113
 msgid "Detected Values"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:117
+#: kpilot/kpilotProbeDialog.cc:119
 msgid "Handheld user:"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:121
+#: kpilot/kpilotProbeDialog.cc:123
 msgid "Device:"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:124 kpilot/kpilotProbeDialog.cc:127
+#: kpilot/kpilotProbeDialog.cc:126 kpilot/kpilotProbeDialog.cc:129
 msgid "[Not yet known]"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:193
+#: kpilot/kpilotProbeDialog.cc:195
 msgid "Starting detection..."
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:227
+#: kpilot/kpilotProbeDialog.cc:233
 msgid "Waiting for handheld to connect..."
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:261
+#: kpilot/kpilotProbeDialog.cc:266
 msgid "Timeout reached, could not detect a handheld."
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:262
+#: kpilot/kpilotProbeDialog.cc:267
 msgid ""
 "<qt>A handheld could not be detected. Possible check the following things:</p>"
 "<ul>"
@@ -2669,16 +2619,16 @@ msgid ""
 "</ul>"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:268
+#: kpilot/kpilotProbeDialog.cc:273
 msgid "Automatic Detection Failed"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:284
+#: kpilot/kpilotProbeDialog.cc:288
 #, c-format
 msgid "Found a connected device on %1"
 msgstr ""
 
-#: kpilot/kpilotProbeDialog.cc:332
+#: kpilot/kpilotProbeDialog.cc:338
 msgid "Disconnected from all devices"
 msgstr ""
 
@@ -2713,374 +2663,478 @@ msgstr ""
 msgid "*.pdb *.prc|PalmOS Databases (*.pdb *.prc)"
 msgstr ""
 
-#: kpilot/hotSync.cc:82
+#: kpilot/fileInstallWidget.cc:291
 msgid ""
-"Testing.\n"
+"_: Delete a single file item\n"
+"Delete"
 msgstr ""
 
-#: kpilot/hotSync.cc:98
-msgid "Syncing database %1..."
+#: kpilot/fileInstallWidget.cc:294
+msgid "Delete selected files"
 msgstr ""
 
-#: kpilot/hotSync.cc:104 kpilot/logFile.cc:98
-msgid "HotSync finished."
-msgstr ""
-
-#: kpilot/hotSync.cc:264
+#: kpilot/hotSync.cc:339
 #, c-format
 msgid "Backup directory: %1."
 msgstr ""
 
-#: kpilot/hotSync.cc:278
+#: kpilot/hotSync.cc:353
 msgid "Full backup started."
 msgstr ""
 
-#: kpilot/hotSync.cc:283
+#: kpilot/hotSync.cc:358
 msgid "Fast backup started"
 msgstr ""
 
-#: kpilot/hotSync.cc:356
+#: kpilot/hotSync.cc:387
 msgid "Exiting on cancel."
 msgstr ""
 
-#: kpilot/hotSync.cc:367
+#: kpilot/hotSync.cc:399
 msgid "Full backup complete."
 msgstr ""
 
-#: kpilot/hotSync.cc:369
+#: kpilot/hotSync.cc:403
 msgid "Fast backup complete."
 msgstr ""
 
-#: kpilot/hotSync.cc:400
-#, c-format
-msgid "Skipping %1"
-msgstr ""
-
-#: kpilot/hotSync.cc:415
+#: kpilot/hotSync.cc:419
 #, c-format
 msgid "Backing up: %1"
 msgstr ""
 
-#: kpilot/hotSync.cc:424
+#: kpilot/hotSync.cc:447
+#, c-format
+msgid "Skipping %1"
+msgstr ""
+
+#: kpilot/hotSync.cc:482
 msgid ""
 "Backup of %1 failed.\n"
 msgstr ""
 
-#: kpilot/hotSync.cc:429
+#: kpilot/hotSync.cc:540
 msgid ""
-" .. OK\n"
+"... OK.\n"
 msgstr ""
 
-#: kpilot/hotSync.cc:585
+#: kpilot/hotSync.cc:548
+msgid "Backup failed."
+msgstr ""
+
+#: kpilot/hotSync.cc:607
 msgid "[File Installer]"
 msgstr ""
 
-#: kpilot/hotSync.cc:590
+#: kpilot/hotSync.cc:612
 msgid "No Files to install"
 msgstr ""
 
-#: kpilot/hotSync.cc:602
+#: kpilot/hotSync.cc:624
 #, c-format
 msgid ""
 "_n: Installing one file\n"
 "Installing %n Files"
 msgstr ""
 
-#: kpilot/hotSync.cc:627
+#: kpilot/hotSync.cc:649
 msgid "Done Installing Files"
 msgstr ""
 
-#: kpilot/hotSync.cc:641
+#: kpilot/hotSync.cc:663
 #, c-format
 msgid "Installing %1"
 msgstr ""
 
-#: kpilot/hotSync.cc:664
+#: kpilot/hotSync.cc:686
 msgid "Cannot install file &quot;%1&quot;."
 msgstr ""
 
-#: kpilot/hotSync.cc:691 kpilot/hotSync.cc:701
+#: kpilot/hotSync.cc:713 kpilot/hotSync.cc:723
 msgid "Unable to open file &quot;%1&quot;."
 msgstr ""
 
-#: kpilot/hotSync.cc:710
+#: kpilot/hotSync.cc:732
 msgid "Unable to read file &quot;%1&quot;."
 msgstr ""
 
-#: kpilot/hotSync.cc:726
+#: kpilot/hotSync.cc:748
 msgid ""
 "The database in &quot;%1&quot; has a resource name that is longer than 31 "
 "characters. This suggests a bug in the tool used to create the database. KPilot "
 "cannot install this database."
 msgstr ""
 
-#: kpilot/kpilot.cc:179
+#: kpilot/hotSync.cc:806
+msgid ""
+"_: A common name\n"
+"John Doe"
+msgstr ""
+
+#: kpilot/hotSync.cc:808
+msgid ""
+"<qt>Neither KPilot nor the handheld have a username set. They <i>should</i> "
+"be set. Should KPilot set them to a default value (<i>%1</i>)?</qt>"
+msgstr ""
+
+#: kpilot/hotSync.cc:814 kpilot/hotSync.cc:831 kpilot/hotSync.cc:855
+msgid "User Unknown"
+msgstr ""
+
+#: kpilot/hotSync.cc:826
+msgid ""
+"<qt>The handheld has a username set (<i>%1</i>) but KPilot does not. Should "
+"KPilot use this username in future?</qt>"
+msgstr ""
+
+#: kpilot/hotSync.cc:844
+msgid ""
+"KPilot has a username set (<i>%1</i>) but the handheld does not. Should "
+"KPilot's username be set in the handheld as well?"
+msgstr ""
+
+#: kpilot/hotSync.cc:848
+msgid ""
+"<br/>(<i>Note:</i> If your handheld has been reset to factory defaults, you "
+"should use <i>Restore</i> instead of a regular HotSync. Click on Cancel to stop "
+"this sync.)"
+msgstr ""
+
+#: kpilot/hotSync.cc:877
+msgid ""
+"<qt>The handheld thinks that the username is %1; however, KPilot says you are "
+"%2.Which of these is the correct name?\n"
+"If you click on Cancel, the sync will proceed, but the usernames will not be "
+"changed.</qt>"
+msgstr ""
+
+#: kpilot/hotSync.cc:887
+msgid "User Mismatch"
+msgstr ""
+
+#: kpilot/hotSync.cc:890
+msgid "Use KPilot Name"
+msgstr ""
+
+#: kpilot/hotSync.cc:891
+msgid "Use Handheld Name"
+msgstr ""
+
+#: kpilot/hotSync.cc:997
+msgid "Restore directory does not exist."
+msgstr ""
+
+#: kpilot/hotSync.cc:998 kpilot/hotSync.cc:1013
+msgid "Restore not performed."
+msgstr ""
+
+#: kpilot/hotSync.cc:1003
+msgid ""
+"<qt>Are you sure you want to completely restore your Pilot from the backup "
+"directory (<i>%1</i>)? This will erase any information you currently have on "
+"your Pilot.</qt>"
+msgstr ""
+
+#: kpilot/hotSync.cc:1008
+msgid "Restore Pilot"
+msgstr ""
+
+#: kpilot/hotSync.cc:1010
+msgid "Restore <i>not</i> performed."
+msgstr ""
+
+#: kpilot/hotSync.cc:1012
+msgid "Canceled by user."
+msgstr ""
+
+#: kpilot/hotSync.cc:1024 kpilot/hotSync.cc:1094
+msgid "Restoring %1..."
+msgstr ""
+
+#: kpilot/hotSync.cc:1044
+msgid "File '%1' cannot be read."
+msgstr ""
+
+#: kpilot/hotSync.cc:1071
+msgid "OK."
+msgstr ""
+
+#: kpilot/hotSync.cc:1085
+#, fuzzy
+msgid "Restore incomplete."
+msgstr "Тугатилмади"
+
+#: kpilot/hotSync.cc:1100
+msgid "Cannot restore file `%1'."
+msgstr ""
+
+#: kpilot/kpilot.cc:162
 msgid "Starting the KPilot daemon ..."
 msgstr ""
 
-#: kpilot/kpilot.cc:197
+#: kpilot/kpilot.cc:179
 msgid ""
 "Could not start the KPilot daemon. The system error message was: &quot;%1&quot;"
 msgstr ""
 
-#: kpilot/kpilot.cc:217
+#: kpilot/kpilot.cc:196
 msgid "Daemon status is `%1'"
 msgstr ""
 
-#: kpilot/kpilot.cc:218
+#: kpilot/kpilot.cc:197
 msgid "not running"
 msgstr ""
 
-#: kpilot/kpilot.cc:235
+#: kpilot/kpilot.cc:214
 msgid "Using character set %1 on the handheld."
 msgstr ""
 
-#: kpilot/kpilot.cc:300 kpilot/kpilot.cc:302
+#: kpilot/kpilot.cc:266 kpilot/kpilot.cc:268
 msgid "To-do Viewer"
 msgstr ""
 
 #. i18n: file ./kpilot/kpilotConfigDialog_viewers.ui line 74
-#: kpilot/kpilot.cc:304 kpilot/kpilot.cc:306 rc.cpp:1240
+#: kpilot/kpilot.cc:270 kpilot/kpilot.cc:272 rc.cpp:1240
 #, no-c-format
 msgid "Address Viewer"
 msgstr ""
 
-#: kpilot/kpilot.cc:308 kpilot/kpilot.cc:310
+#: kpilot/kpilot.cc:274 kpilot/kpilot.cc:276
 msgid "Memo Viewer"
 msgstr ""
 
-#: kpilot/kpilot.cc:317 kpilot/kpilot.cc:319
+#: kpilot/kpilot.cc:283 kpilot/kpilot.cc:285
 msgid "Generic DB Viewer"
 msgstr ""
 
-#: kpilot/kpilot.cc:400
+#: kpilot/kpilot.cc:360
 msgid "Next sync will be a backup. "
 msgstr ""
 
-#: kpilot/kpilot.cc:408
+#: kpilot/kpilot.cc:368
 msgid "Next sync will restore the Pilot from backup. "
 msgstr ""
 
-#: kpilot/kpilot.cc:416
+#: kpilot/kpilot.cc:376
 msgid "Next sync will be a regular HotSync. "
 msgstr ""
 
-#: kpilot/kpilot.cc:424
+#: kpilot/kpilot.cc:384
 msgid "Next sync will be a Full Sync. "
 msgstr ""
 
-#: kpilot/kpilot.cc:432
+#: kpilot/kpilot.cc:392
 msgid "Next sync will copy Handheld data to PC. "
 msgstr ""
 
-#: kpilot/kpilot.cc:440
+#: kpilot/kpilot.cc:400
 msgid "Next sync will copy PC data to Handheld. "
 msgstr ""
 
-#: kpilot/kpilot.cc:470
+#: kpilot/kpilot.cc:428
 msgid "The daemon has exited."
 msgstr ""
 
-#: kpilot/kpilot.cc:471
+#: kpilot/kpilot.cc:429
 msgid "No further HotSyncs are possible."
 msgstr ""
 
-#: kpilot/kpilot.cc:472
+#: kpilot/kpilot.cc:430
 msgid "Restart the daemon to HotSync again."
 msgstr ""
 
-#: kpilot/kpilot.cc:492
+#: kpilot/kpilot.cc:450
 #, c-format
 msgid "Cannot start a Sync now. %1"
 msgstr ""
 
-#: kpilot/kpilot.cc:510
+#: kpilot/kpilot.cc:463
 msgid "Cannot start Sync"
 msgstr ""
 
-#: kpilot/kpilot.cc:569
+#: kpilot/kpilot.cc:517
 msgid "Select the kind of HotSync to perform next."
 msgstr ""
 
-#: kpilot/kpilot.cc:570
+#: kpilot/kpilot.cc:518
 msgid ""
 "Select the kind of HotSync to perform next. This applies only to the next "
 "HotSync; to change the default, use the configuration dialog."
 msgstr ""
 
-#: kpilot/kpilot.cc:577
+#: kpilot/kpilot.cc:525
 msgid "&HotSync"
 msgstr ""
 
-#: kpilot/kpilot.cc:580
+#: kpilot/kpilot.cc:528
 msgid "Next HotSync will be normal HotSync."
 msgstr ""
 
-#: kpilot/kpilot.cc:581
+#: kpilot/kpilot.cc:529
 msgid "Tell the daemon that the next HotSync should be a normal HotSync."
 msgstr ""
 
-#: kpilot/kpilot.cc:585
+#: kpilot/kpilot.cc:533
 msgid "Full&Sync"
 msgstr ""
 
-#: kpilot/kpilot.cc:588
+#: kpilot/kpilot.cc:536
 msgid "Next HotSync will be a FullSync."
 msgstr ""
 
-#: kpilot/kpilot.cc:589
+#: kpilot/kpilot.cc:537
 msgid ""
 "Tell the daemon that the next HotSync should be a FullSync (check data on both "
 "sides)."
 msgstr ""
 
-#: kpilot/kpilot.cc:593
+#: kpilot/kpilot.cc:541
 msgid "&Backup"
 msgstr ""
 
-#: kpilot/kpilot.cc:596 kpilot/kpilot.cc:612
+#: kpilot/kpilot.cc:544 kpilot/kpilot.cc:560
 msgid "Next HotSync will be backup."
 msgstr ""
 
-#: kpilot/kpilot.cc:597
+#: kpilot/kpilot.cc:545
 msgid ""
 "Tell the daemon that the next HotSync should back up the Handheld to the PC."
 msgstr ""
 
-#: kpilot/kpilot.cc:601
+#: kpilot/kpilot.cc:549
 msgid "&Restore"
 msgstr ""
 
-#: kpilot/kpilot.cc:604
+#: kpilot/kpilot.cc:552
 msgid "Next HotSync will be restore."
 msgstr ""
 
-#: kpilot/kpilot.cc:605
+#: kpilot/kpilot.cc:553
 msgid ""
 "Tell the daemon that the next HotSync should restore the Handheld from data on "
 "the PC."
 msgstr ""
 
-#: kpilot/kpilot.cc:613
+#: kpilot/kpilot.cc:561
 msgid ""
 "Tell the daemon that the next HotSync should copy all data from the Handheld to "
 "the PC, overwriting entries on the PC."
 msgstr ""
 
-#: kpilot/kpilot.cc:621
+#: kpilot/kpilot.cc:569
 msgid "Next HotSync will copy PC to Handheld."
 msgstr ""
 
-#: kpilot/kpilot.cc:622
+#: kpilot/kpilot.cc:570
 msgid ""
 "Tell the daemon that the next HotSync should copy all data from the PC to the "
 "Handheld, overwriting entries on the Handheld."
 msgstr ""
 
-#: kpilot/kpilot.cc:629
+#: kpilot/kpilot.cc:577
 msgid "&List Only"
 msgstr ""
 
-#: kpilot/kpilot.cc:632
+#: kpilot/kpilot.cc:580
 msgid "Next HotSync will list databases."
 msgstr ""
 
-#: kpilot/kpilot.cc:633
+#: kpilot/kpilot.cc:581
 msgid ""
 "Tell the daemon that the next HotSync should just list the files on the "
 "Handheld and do nothing else."
 msgstr ""
 
-#: kpilot/kpilot.cc:640
+#: kpilot/kpilot.cc:588
 msgid "Rese&t Link"
 msgstr ""
 
-#: kpilot/kpilot.cc:643
+#: kpilot/kpilot.cc:591
 msgid "Reset the device connection."
 msgstr ""
 
-#: kpilot/kpilot.cc:644
+#: kpilot/kpilot.cc:592
 msgid "Try to reset the daemon and its connection to the Handheld."
 msgstr ""
 
-#: kpilot/kpilot.cc:649
+#: kpilot/kpilot.cc:597
 msgid "Quit KPilot, (and stop the daemon if configured that way)."
 msgstr ""
 
-#: kpilot/kpilot.cc:665
+#: kpilot/kpilot.cc:613
 msgid "Configuration &Wizard..."
 msgstr ""
 
-#: kpilot/kpilot.cc:668
+#: kpilot/kpilot.cc:616
 msgid "Configure KPilot using the configuration wizard."
 msgstr ""
 
-#: kpilot/kpilot.cc:923
+#: kpilot/kpilot.cc:851
 msgid ""
 "The library containing the configuration wizard for KPilot could not be loaded, "
 "and the wizard is not available. Please try to use the regular configuration "
 "dialog."
 msgstr ""
 
-#: kpilot/kpilot.cc:926
+#: kpilot/kpilot.cc:854
 msgid "Wizard Not Available"
 msgstr ""
 
-#: kpilot/kpilot.cc:970
+#: kpilot/kpilot.cc:898
 msgid "Changed username to `%1'."
 msgstr ""
 
-#: kpilot/kpilot.cc:999
+#: kpilot/kpilot.cc:927
 msgid ""
 "Cannot run KPilot's configuration wizard right now (KPilot's UI is already "
 "busy)."
 msgstr ""
 
-#: kpilot/kpilot.cc:1023
+#: kpilot/kpilot.cc:951
 msgid "Cannot configure KPilot right now (KPilot's UI is already busy)."
 msgstr ""
 
-#: kpilot/kpilot.cc:1063
+#: kpilot/kpilot.cc:991
 msgid "Setup the Pilot device, conduits and other parameters"
 msgstr ""
 
-#: kpilot/kpilot.cc:1089
+#: kpilot/kpilot.cc:1015
 msgid "KPilot"
 msgstr ""
 
-#: kpilot/kpilot.cc:1104 kpilot/kpilot.cc:1106
+#: kpilot/kpilot.cc:1030 kpilot/kpilot.cc:1032
 msgid "Core and conduits developer"
 msgstr ""
 
-#: kpilot/kpilot.cc:1108
+#: kpilot/kpilot.cc:1034
 msgid "VCal conduit"
 msgstr ""
 
-#: kpilot/kpilot.cc:1109
+#: kpilot/kpilot.cc:1035
 msgid "Abbrowser conduit"
 msgstr ""
 
-#: kpilot/kpilot.cc:1110
+#: kpilot/kpilot.cc:1036
 msgid "Expenses conduit"
 msgstr ""
 
-#: kpilot/kpilot.cc:1111
+#: kpilot/kpilot.cc:1037
 msgid "Notepad conduit, Bugfixer"
 msgstr ""
 
-#: kpilot/kpilot.cc:1115
+#: kpilot/kpilot.cc:1041
 msgid "XML GUI"
 msgstr ""
 
-#: kpilot/kpilot.cc:1118
+#: kpilot/kpilot.cc:1044
 msgid ".ui files"
 msgstr ""
 
-#: kpilot/kpilot.cc:1120
+#: kpilot/kpilot.cc:1046
 msgid "Bugfixer, coolness"
 msgstr ""
 
-#: kpilot/kpilot.cc:1122
+#: kpilot/kpilot.cc:1048
 msgid "VCalconduit state machine, CMake"
 msgstr ""
 
@@ -3095,147 +3149,157 @@ msgid ""
 "installer."
 msgstr ""
 
-#: kpilot/main-test.cc:64
+#: kpilot/main-test.cc:66
 msgid "Path to Pilot device node"
 msgstr ""
 
-#: kpilot/main-test.cc:67
+#: kpilot/main-test.cc:69
 msgid "List DBs"
 msgstr ""
 
-#: kpilot/main-test.cc:69
+#: kpilot/main-test.cc:71
 msgid "Backup Pilot to <dest dir>"
 msgstr ""
 
-#: kpilot/main-test.cc:71
+#: kpilot/main-test.cc:73
 msgid "Restore Pilot from backup"
 msgstr ""
 
-#: kpilot/main-test.cc:74
+#: kpilot/main-test.cc:76
 msgid "Run conduit from desktop file <filename>"
 msgstr ""
 
-#: kpilot/main-test.cc:78
+#: kpilot/main-test.cc:80
 msgid "Run a specific check (with the device)"
 msgstr ""
 
-#: kpilot/main-test.cc:81
+#: kpilot/main-test.cc:83
 msgid "Show KPilot configuration information"
 msgstr ""
 
-#: kpilot/main-test.cc:84
+#: kpilot/main-test.cc:86
 msgid "Set the debug level"
 msgstr ""
 
-#: kpilot/main-test.cc:92
+#: kpilot/main-test.cc:94
 msgid "*Really* run the conduit, not in test mode."
 msgstr ""
 
-#: kpilot/main-test.cc:96
+#: kpilot/main-test.cc:98
 msgid "Run the conduit in file-test mode."
 msgstr ""
 
-#: kpilot/main-test.cc:99
+#: kpilot/main-test.cc:101
 msgid "Copy Pilot to Desktop."
 msgstr ""
 
-#: kpilot/main-test.cc:102
+#: kpilot/main-test.cc:104
 msgid "Copy Desktop to Pilot."
 msgstr ""
 
-#: kpilot/main-test.cc:105
+#: kpilot/main-test.cc:107
 msgid "Repeated perform action - only useful for --list"
 msgstr ""
 
-#: kpilot/main-test.cc:343
+#: kpilot/main-test.cc:347
 msgid "KPilotTest"
 msgstr ""
 
-#: kpilot/main-test.cc:348
+#: kpilot/main-test.cc:352
 msgid "KPilot Maintainer"
 msgstr "KPilot  таъминловчиси"
 
 #. i18n: file ./conduits/null/setup_base.ui line 68
-#: kpilot/main-test.cc:353 rc.cpp:6 rc.cpp:21 rc.cpp:34 rc.cpp:79 rc.cpp:209
+#: kpilot/main-test.cc:357 rc.cpp:6 rc.cpp:21 rc.cpp:34 rc.cpp:79 rc.cpp:209
 #: rc.cpp:224 rc.cpp:306 rc.cpp:594 rc.cpp:747 rc.cpp:837 rc.cpp:846
 #: rc.cpp:912
 #, no-c-format
 msgid "General"
 msgstr ""
 
-#: kpilot/main-test.cc:355
+#: kpilot/main-test.cc:359
 msgid "Conduit Actions"
 msgstr ""
 
-#: kpilot/addressWidget.cc:189
+#: kpilot/addressWidget.cc:187
 msgid "There are still %1 address editing windows open."
 msgstr ""
 
-#: kpilot/addressWidget.cc:193
+#: kpilot/addressWidget.cc:191
 #, c-format
 msgid ""
 "_n: There is still an address editing window open.\n"
 "There are still %n address editing windows open."
 msgstr ""
 
-#: kpilot/addressWidget.cc:226
+#: kpilot/addressWidget.cc:224
 msgid "<qt>Select the category of addresses to display here.</qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:239
+#: kpilot/addressWidget.cc:237
 msgid ""
 "<qt>This list displays all the addresses in the selected category. Click on one "
 "to display it to the right.</qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:243
+#: kpilot/addressWidget.cc:241
 msgid "Address info:"
 msgstr ""
 
-#: kpilot/addressWidget.cc:257
+#: kpilot/addressWidget.cc:255
 msgid "<qt>You can edit an address when it is selected.</qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:265
+#: kpilot/addressWidget.cc:263
 msgid "<qt>Add a new address to the address book.</qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:266
+#: kpilot/addressWidget.cc:264
 msgid "<qt><i>Adding is disabled by the 'internal editors' setting.</i></qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:276
+#: kpilot/addressWidget.cc:274
 msgid "<qt>Delete the selected address from the address book.</qt>"
 msgstr ""
 
-#: kpilot/addressWidget.cc:482
+#: kpilot/addressWidget.cc:277
+msgid ""
+"_: Export addresses to file\n"
+"Export..."
+msgstr ""
+
+#: kpilot/addressWidget.cc:281
+msgid "<qt>Export all addresses in the selected category to CSV format.</qt>"
+msgstr ""
+
+#: kpilot/addressWidget.cc:480
 msgid ""
 "You cannot add addresses to the address book until you have done a HotSync at "
 "least once to retrieve the database layout from your Pilot."
 msgstr ""
 
-#: kpilot/addressWidget.cc:485
+#: kpilot/addressWidget.cc:483
 msgid "Cannot Add New Address"
 msgstr ""
 
-#: kpilot/addressWidget.cc:679
+#: kpilot/addressWidget.cc:677
 msgid "Export All Addresses"
 msgstr ""
 
-#: kpilot/addressWidget.cc:680
+#: kpilot/addressWidget.cc:678
 #, c-format
 msgid "Export Address Category %1"
 msgstr ""
 
-#: kpilot/addressWidget.cc:698
+#: kpilot/addressWidget.cc:696
 msgid "The file <i>%1</i> exists. Overwrite?"
 msgstr ""
 
-#: kpilot/addressWidget.cc:699
+#: kpilot/addressWidget.cc:697
 msgid "Overwrite File?"
 msgstr ""
 
-#: kpilot/addressWidget.cc:712
+#: kpilot/addressWidget.cc:710
 msgid "The file <i>%1</i> could not be opened for writing."
 msgstr ""
 
@@ -5751,3 +5815,13 @@ msgstr ""
 #, no-c-format
 msgid "Busy"
 msgstr ""
+
+#~ msgid "Cannot open database"
+#~ msgstr "Маълумот базасини очиб бўлмади"
+
+#~ msgid "(empty)"
+#~ msgstr "(бўш)"
+
+#, fuzzy
+#~ msgid "Creating local backup of databases in %1."
+#~ msgstr "Маълумот базасини очиб бўлмади"
