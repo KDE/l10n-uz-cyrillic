@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
-"POT-Creation-Date: 2007-04-17 07:36+0200\n"
+"POT-Creation-Date: 2007-04-18 08:03+0200\n"
 "PO-Revision-Date: 2006-04-07 18:32+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -47,7 +47,8 @@ msgstr "Файл ҳажми"
 #: misc/k3bcdcopydialog.cpp:121 misc/k3bcdimagewritingdialog.cpp:262
 #: misc/k3bcdimagewritingdialog.cpp:275 misc/k3bdvdcopydialog.cpp:104
 #: misc/k3bdvdformattingdialog.cpp:68 misc/k3bisoimagewritingdialog.cpp:205
-#: misc/k3bisoimagewritingdialog.cpp:218 option/k3boptiondialog.cpp:44
+#: misc/k3bisoimagewritingdialog.cpp:218 misc/k3bmediacopydialog.cpp:119
+#: misc/k3bmediaformattingdialog.cpp:74 option/k3boptiondialog.cpp:44
 #: projects/k3baudioburndialog.cpp:82 projects/k3bdatapropertiesdialog.cpp:177
 #: projects/k3bprojectburndialog.cpp:274 projects/k3bvcdburndialog.cpp:446
 #: projects/k3bvcdburndialog.cpp:476 projects/k3bvcdtrackdialog.cpp:452
@@ -79,9 +80,10 @@ msgstr "Ушбу файлларни алмаштиришни истайсизм�
 msgid "Files Exist"
 msgstr "Файл аллақачон мавжуд"
 
-#: k3b.cpp:944 k3bdebuggingoutputdialog.cpp:142 k3bemptydiscwaiter.cpp:346
-#: k3bemptydiscwaiter.cpp:416 misc/k3bcdcopydialog.cpp:299
-#: misc/k3bcdcopydialog.cpp:307 option/k3bthemeoptiontab.cpp:191
+#: k3b.cpp:952 k3bdebuggingoutputdialog.cpp:142 k3bemptydiscwaiter.cpp:346
+#: k3bemptydiscwaiter.cpp:416 misc/k3bcdcopydialog.cpp:295
+#: misc/k3bcdcopydialog.cpp:303 misc/k3bmediacopydialog.cpp:298
+#: misc/k3bmediacopydialog.cpp:306 option/k3bthemeoptiontab.cpp:191
 #: projects/k3bdataburndialog.cpp:183 projects/k3bdvdburndialog.cpp:286
 #: projects/k3bmovixburndialog.cpp:228 projects/k3bmovixdvdburndialog.cpp:195
 #: projects/k3bvcdburndialog.cpp:583 projects/k3bvideodvdburndialog.cpp:185
@@ -829,14 +831,15 @@ msgstr "Ўқиш хатоларига эътибор бермаш"
 msgid "Don't read pregaps"
 msgstr ""
 
-#: misc/k3bcdcopydialog.cpp:182 projects/k3baudioburndialog.cpp:91
-#: rip/k3baudiorippingdialog.cpp:161
+#: misc/k3bcdcopydialog.cpp:182 misc/k3bmediacopydialog.cpp:181
+#: projects/k3baudioburndialog.cpp:91 rip/k3baudiorippingdialog.cpp:161
 #, fuzzy
 msgid "Paranoia mode:"
 msgstr "Paranoia усули:"
 
 #: misc/k3bcdcopydialog.cpp:167 misc/k3bcdcopydialog.cpp:177
-#: misc/k3bdvdcopydialog.cpp:161 projects/k3baudioburndialog.cpp:95
+#: misc/k3bdvdcopydialog.cpp:161 misc/k3bmediacopydialog.cpp:166
+#: misc/k3bmediacopydialog.cpp:176 projects/k3baudioburndialog.cpp:95
 #: rip/k3baudiorippingdialog.cpp:163
 msgid "Read retries:"
 msgstr "Ўқишни уриниш сони:"
@@ -880,8 +883,8 @@ msgid "Album"
 msgstr "Албом"
 
 #: k3bdiskinfoview.cpp:258 misc/k3bcdcopydialog.cpp:172
-#: projects/k3bvcdtrackdialog.cpp:638 rip/k3baudiorippingdialog.cpp:338
-#: rip/k3baudiorippingdialog.cpp:396
+#: misc/k3bmediacopydialog.cpp:171 projects/k3bvcdtrackdialog.cpp:638
+#: rip/k3baudiorippingdialog.cpp:338 rip/k3baudiorippingdialog.cpp:396
 #: rip/videodvd/k3bvideodvdrippingtitlelistview.cpp:345
 msgid "Audio"
 msgstr "Аудио"
@@ -892,7 +895,7 @@ msgid "Track%1"
 msgstr "Йўлакча %1"
 
 #: k3bdiskinfoview.cpp:270 misc/k3bcdcopydialog.cpp:162
-#: rip/k3baudiorippingdialog.cpp:396
+#: misc/k3bmediacopydialog.cpp:161 rip/k3baudiorippingdialog.cpp:396
 msgid "Data"
 msgstr "Маълумот"
 
@@ -1046,7 +1049,7 @@ msgid ""
 msgstr ""
 
 #: k3bdatamodewidget.cpp:34 k3bwriterselectionwidget.cpp:262
-#: k3bwriterselectionwidget.cpp:507 k3bwritingmodewidget.cpp:153
+#: k3bwriterselectionwidget.cpp:526 k3bwritingmodewidget.cpp:153
 #: projects/k3bdatamultisessioncombobox.cpp:75
 #: projects/k3bfillstatusdisplay.cpp:389
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:350
@@ -1385,83 +1388,80 @@ msgstr "Охирги сессияни тозалаш"
 msgid "CD Copy"
 msgstr "CD'дан нусха олиш"
 
-#: misc/k3bcdcopydialog.cpp:67
+#: misc/k3bcdcopydialog.cpp:67 misc/k3bmediacopydialog.cpp:67
 msgid "and CD Cloning"
 msgstr "ва CD'ни клонлаштириш"
 
 #: misc/k3bcdcopydialog.cpp:79 misc/k3bdvdcopydialog.cpp:72
+#: misc/k3bmediacopydialog.cpp:79
 msgid "Source Medium"
 msgstr ""
 
-#: misc/k3bcdcopydialog.cpp:102
+#: misc/k3bcdcopydialog.cpp:102 misc/k3bmediacopydialog.cpp:100
 msgid "Copy Mode"
 msgstr "Нусха олиш усули"
 
-#: misc/k3bcdcopydialog.cpp:106 misc/k3bcdcopydialog.cpp:230
+#: misc/k3bcdcopydialog.cpp:106 misc/k3bcdcopydialog.cpp:226
+#: misc/k3bmediacopydialog.cpp:104 misc/k3bmediacopydialog.cpp:225
 msgid "Normal Copy"
 msgstr "Оддий нусха олиш"
 
-#: misc/k3bcdcopydialog.cpp:107 misc/k3bcdcopydialog.cpp:235
+#: misc/k3bcdcopydialog.cpp:107 misc/k3bcdcopydialog.cpp:231
+#: misc/k3bmediacopydialog.cpp:105 misc/k3bmediacopydialog.cpp:230
 msgid "Clone Copy"
 msgstr "Клонлаштириш"
 
 #: misc/k3bcdcopydialog.cpp:109 misc/k3bcdimagewritingdialog.cpp:245
 #: misc/k3bdvdcopydialog.cpp:100 misc/k3bdvdformattingdialog.cpp:61
-#: misc/k3bisoimagewritingdialog.cpp:188 projects/k3bprojectburndialog.cpp:270
+#: misc/k3bisoimagewritingdialog.cpp:188 misc/k3bmediacopydialog.cpp:107
+#: misc/k3bmediaformattingdialog.cpp:67 projects/k3bprojectburndialog.cpp:270
 msgid "Writing Mode"
 msgstr "Ёзиш усули"
 
 #: misc/k3bcdcopydialog.cpp:113 misc/k3bcdimagewritingdialog.cpp:251
 #: misc/k3bdvdcopydialog.cpp:113 misc/k3bisoimagewritingdialog.cpp:194
-#: projects/k3bprojectburndialog.cpp:291
+#: misc/k3bmediacopydialog.cpp:111 projects/k3bprojectburndialog.cpp:291
 msgid "Copies"
 msgstr "Нусхалар"
 
 #: misc/k3bcdcopydialog.cpp:151 misc/k3bcdimagewritingdialog.cpp:288
 #: misc/k3bcdimagewritingdialog.cpp:789 misc/k3bdvdcopydialog.cpp:145
+#: misc/k3bmediacopydialog.cpp:150
 msgid "&Image"
 msgstr "&Тасвир"
 
-#: misc/k3bcdcopydialog.cpp:170
+#: misc/k3bcdcopydialog.cpp:170 misc/k3bmediacopydialog.cpp:169
 msgid "No error correction"
 msgstr "Хатоларни тузатмаш"
 
-#: misc/k3bcdcopydialog.cpp:184
+#: misc/k3bcdcopydialog.cpp:184 misc/k3bmediacopydialog.cpp:183
 #, fuzzy
 msgid "Copy CD-Text"
 msgstr "CD-Text'дан нусха олиш"
 
-#: misc/k3bcdcopydialog.cpp:185
-msgid "Prefer CD-Text"
-msgstr ""
-
 #. i18n: file ./rip/videodvd/base_k3bvideodvdrippingwidget.ui line 577
-#: misc/k3bcdcopydialog.cpp:190 misc/k3bdvdcopydialog.cpp:167 rc.cpp:183
+#: misc/k3bcdcopydialog.cpp:189 misc/k3bdvdcopydialog.cpp:167
+#: misc/k3bmediacopydialog.cpp:188 rc.cpp:183
 #, no-c-format
 msgid "&Advanced"
 msgstr "Қўшимч&а"
 
-#: misc/k3bcdcopydialog.cpp:211
+#: misc/k3bcdcopydialog.cpp:210 misc/k3bmediacopydialog.cpp:209
 #, fuzzy
 msgid "Skip unreadable data sectors"
 msgstr "Ўқиб бўлмайдиган секторларга эътибор берилмасин"
 
-#: misc/k3bcdcopydialog.cpp:212
+#: misc/k3bcdcopydialog.cpp:211 misc/k3bmediacopydialog.cpp:210
 #, fuzzy
 msgid "Disable the source drive's error correction"
 msgstr "Манба ускунаси хатолигини тузатиш ёчирилган"
 
-#: misc/k3bcdcopydialog.cpp:213
-#, fuzzy
-msgid "Use CD-Text instead of cddb if available."
-msgstr "Агар мумкин бўлса, СD-Text сddb ўрнига СD-Text'ни қўллаш."
-
-#: misc/k3bcdcopydialog.cpp:214
+#: misc/k3bcdcopydialog.cpp:212 misc/k3bmediacopydialog.cpp:211
 #, fuzzy
 msgid "Copy CD-Text from the source CD if available."
 msgstr "Агар мумкин бўлса, CD-Text'ни CD манбаидан ишлатиш."
 
-#: misc/k3bcdcopydialog.cpp:216
+#: misc/k3bcdcopydialog.cpp:214 misc/k3bmediacopydialog.cpp:213
 #, fuzzy
 msgid ""
 "<p>If this option is checked K3b will disable the source drive's ECC/EDC error "
@@ -1470,7 +1470,7 @@ msgid ""
 "sectors."
 msgstr "<p> с<p>."
 
-#: misc/k3bcdcopydialog.cpp:221
+#: misc/k3bcdcopydialog.cpp:219 misc/k3bmediacopydialog.cpp:218
 #, fuzzy
 msgid ""
 "<p>If this option is checked K3b will search for CD-Text on the source CD. "
@@ -1478,14 +1478,7 @@ msgid ""
 "stick to Cddb info."
 msgstr "<p> Матн Ўчириш Матн ёки."
 
-#: misc/k3bcdcopydialog.cpp:224
-#, fuzzy
-msgid ""
-"<p>If this option is checked and K3b finds CD-Text on the source media it will "
-"be copied to the resulting CD ignoring any potentially existing Cddb entries."
-msgstr "<p> ва Матн."
-
-#: misc/k3bcdcopydialog.cpp:226
+#: misc/k3bcdcopydialog.cpp:222
 #, fuzzy
 msgid ""
 "<p>If this option is checked and K3b is not able to read a data sector from the "
@@ -1494,7 +1487,7 @@ msgstr ""
 "<p>Ушбу хосса қўлланилганда k3b манбадан ўқий олмаган маълумотларини, дискка "
 "ёзаётганда нолга алмаштириб ёзади."
 
-#: misc/k3bcdcopydialog.cpp:231
+#: misc/k3bcdcopydialog.cpp:227
 #, fuzzy
 msgid ""
 "<p>This is the normal copy mode recommended for most CD types. It allows "
@@ -1506,7 +1499,7 @@ msgstr ""
 "бир ва кўп сессияли дисклардан нусха олиш имконини беради."
 "<p>Видео CD учун эса клонлаштириш усулини қўлланг."
 
-#: misc/k3bcdcopydialog.cpp:236
+#: misc/k3bcdcopydialog.cpp:232 misc/k3bmediacopydialog.cpp:231
 #, fuzzy
 msgid ""
 "<p>In CD Cloning mode K3b performs a raw copy of the CD. That means it does not "
@@ -1519,8 +1512,8 @@ msgstr ""
 "дискдаги хато секторлар хам олинади."
 "<p><b>Диққат:</b> Фақат бир сессияли дисклар клонлаштирилиши мумкин."
 
-#: misc/k3bcdcopydialog.cpp:273 misc/k3bdvdcopydialog.cpp:238
-#: projects/k3bprojectburndialog.cpp:220
+#: misc/k3bcdcopydialog.cpp:269 misc/k3bdvdcopydialog.cpp:238
+#: misc/k3bmediacopydialog.cpp:268 projects/k3bprojectburndialog.cpp:220
 #, fuzzy
 msgid ""
 "There seems to be not enough free space in temporary directory. Write anyway?"
@@ -1528,8 +1521,9 @@ msgstr ""
 "Вақтинчали фаллар жилдида етарли жой йўқ. Шунга қарамасдан ёзишда давом "
 "этасизми?"
 
-#: k3b.cpp:943 k3bdebuggingoutputdialog.cpp:141 misc/k3bcdcopydialog.cpp:298
-#: misc/k3bcdcopydialog.cpp:306 projects/k3bdataburndialog.cpp:182
+#: k3b.cpp:951 k3bdebuggingoutputdialog.cpp:141 misc/k3bcdcopydialog.cpp:294
+#: misc/k3bcdcopydialog.cpp:302 misc/k3bmediacopydialog.cpp:297
+#: misc/k3bmediacopydialog.cpp:305 projects/k3bdataburndialog.cpp:182
 #: projects/k3bdvdburndialog.cpp:285 projects/k3bmovixburndialog.cpp:227
 #: projects/k3bmovixdvdburndialog.cpp:194
 #: projects/k3bvideodvdburndialog.cpp:184
@@ -1537,21 +1531,50 @@ msgstr ""
 msgid "Do you want to overwrite %1?"
 msgstr "%1'ни ўрнини алмаштиришни истайсизми?"
 
-#: k3b.cpp:944 k3bdebuggingoutputdialog.cpp:142 misc/k3bcdcopydialog.cpp:299
-#: misc/k3bcdcopydialog.cpp:307 projects/k3bdataburndialog.cpp:183
+#: k3b.cpp:952 k3bdebuggingoutputdialog.cpp:142 misc/k3bcdcopydialog.cpp:295
+#: misc/k3bcdcopydialog.cpp:303 misc/k3bmediacopydialog.cpp:298
+#: misc/k3bmediacopydialog.cpp:306 projects/k3bdataburndialog.cpp:183
 #: projects/k3bdvdburndialog.cpp:286 projects/k3bmovixburndialog.cpp:228
 #: projects/k3bmovixdvdburndialog.cpp:195 projects/k3bvcdburndialog.cpp:583
 #: projects/k3bvideodvdburndialog.cpp:185
 msgid "File Exists"
 msgstr "Файл аллақачон мавжуд"
 
-#: misc/k3bcdcopydialog.cpp:451 misc/k3bdvdcopydialog.cpp:436
+#: misc/k3bcdcopydialog.cpp:446 misc/k3bdvdcopydialog.cpp:436
+#: misc/k3bmediacopydialog.cpp:533
 msgid "Use the same device for burning"
 msgstr ""
 
-#: misc/k3bcdcopydialog.cpp:452 misc/k3bdvdcopydialog.cpp:437
+#: misc/k3bcdcopydialog.cpp:447 misc/k3bdvdcopydialog.cpp:437
+#: misc/k3bmediacopydialog.cpp:534
 msgid "<qt>Use the same device for burning <i>(Or insert another medium)</i>"
 msgstr ""
+
+#: misc/k3bmediacopydialog.cpp:67
+#, fuzzy
+msgid "Disk Copy"
+msgstr "CD'дан нусха олиш"
+
+#: misc/k3bmediacopydialog.cpp:221
+#, fuzzy
+msgid ""
+"<p>If this option is checked and K3b is not able to read a data sector from the "
+"source medium it will be replaced with zeros on the resulting copy."
+msgstr ""
+"<p>Ушбу хосса қўлланилганда k3b манбадан ўқий олмаган маълумотларини, дискка "
+"ёзаётганда нолга алмаштириб ёзади."
+
+#: misc/k3bmediacopydialog.cpp:226
+#, fuzzy
+msgid ""
+"<p>This is the normal copy mode for DVD, Blu-ray, and most CD media types. It "
+"allows copying Audio CDs, multi and single session Data Media, and Enhanced "
+"Audio CDs (an Audio CD containing an additional data session)."
+"<p>For VideoCDs please use the CD Cloning mode."
+msgstr ""
+"<p>Оддий нусха олиш усули деярли ҳамма CD турларига келади. Бу аудио дисклар, "
+"бир ва кўп сессияли дисклардан нусха олиш имконини беради."
+"<p>Видео CD учун эса клонлаштириш усулини қўлланг."
 
 #: misc/k3bdvdcopydialog.cpp:60
 #, fuzzy
@@ -1610,7 +1633,7 @@ msgstr "*.cue *.CUE|Cue файллари"
 msgid "*.toc *.TOC|Cdrdao TOC Files and Cdrecord Clone Images"
 msgstr ""
 
-#: k3b.cpp:1271 k3bfileview.cpp:104 misc/k3bcdimagewritingdialog.cpp:193
+#: k3b.cpp:1279 k3bfileview.cpp:104 misc/k3bcdimagewritingdialog.cpp:193
 #: misc/k3bisoimagewritingdialog.cpp:157
 msgid "*|All Files"
 msgstr "*|Ҳамма файллар"
@@ -1680,35 +1703,35 @@ msgstr "ISO9660 тасвири"
 msgid "Filesize:"
 msgstr "Файл ҳажми:"
 
-#: k3bdiskinfoview.cpp:447 misc/k3bcdimagewritingdialog.cpp:602
+#: k3bdiskinfoview.cpp:449 misc/k3bcdimagewritingdialog.cpp:602
 #: misc/k3bisoimagewritingdialog.cpp:331
 #, fuzzy
 msgid "System Id:"
 msgstr "Тизим:"
 
-#: k3bdiskinfoview.cpp:452 misc/k3bcdimagewritingdialog.cpp:610
+#: k3bdiskinfoview.cpp:454 misc/k3bcdimagewritingdialog.cpp:610
 #: misc/k3bisoimagewritingdialog.cpp:339
 #, fuzzy
 msgid "Volume Id:"
 msgstr "Товуш:"
 
-#: k3bdiskinfoview.cpp:457 misc/k3bcdimagewritingdialog.cpp:618
+#: k3bdiskinfoview.cpp:459 misc/k3bcdimagewritingdialog.cpp:618
 #: misc/k3bisoimagewritingdialog.cpp:347
 #, fuzzy
 msgid "Volume Set Id:"
 msgstr "Товуш:"
 
-#: k3bdiskinfoview.cpp:462 misc/k3bcdimagewritingdialog.cpp:626
+#: k3bdiskinfoview.cpp:464 misc/k3bcdimagewritingdialog.cpp:626
 #: misc/k3bisoimagewritingdialog.cpp:355
 msgid "Publisher Id:"
 msgstr ""
 
-#: k3bdiskinfoview.cpp:467 misc/k3bcdimagewritingdialog.cpp:634
+#: k3bdiskinfoview.cpp:469 misc/k3bcdimagewritingdialog.cpp:634
 #: misc/k3bisoimagewritingdialog.cpp:363
 msgid "Preparer Id:"
 msgstr ""
 
-#: k3bdiskinfoview.cpp:472 misc/k3bcdimagewritingdialog.cpp:641
+#: k3bdiskinfoview.cpp:474 misc/k3bcdimagewritingdialog.cpp:641
 #: misc/k3bisoimagewritingdialog.cpp:370
 #, fuzzy
 msgid "Application Id:"
@@ -1800,27 +1823,28 @@ msgstr "MD5 сонлари мос келмайди"
 msgid "DVD Formatting"
 msgstr "DVD форматлаш"
 
-#: misc/k3bdvdformattingdialog.cpp:44
+#: misc/k3bdvdformattingdialog.cpp:44 misc/k3bmediaformattingdialog.cpp:50
 #, fuzzy
 msgid "DVD%1RW"
 msgstr "DVD±R(W)"
 
 #: k3bemptydiscwaiter.cpp:90 misc/k3bdvdformattingdialog.cpp:71
+#: misc/k3bmediaformattingdialog.cpp:77
 #, fuzzy
 msgid "Force"
 msgstr "Тезлаштириш"
 
-#: misc/k3bdvdformattingdialog.cpp:72
+#: misc/k3bdvdformattingdialog.cpp:72 misc/k3bmediaformattingdialog.cpp:78
 #, fuzzy
 msgid "Quick format"
 msgstr "Қисқа форматлаш"
 
-#: misc/k3bdvdformattingdialog.cpp:84
+#: misc/k3bdvdformattingdialog.cpp:84 misc/k3bmediaformattingdialog.cpp:90
 #, fuzzy
 msgid "Force formatting of empty DVDs"
 msgstr "Бўш DVD дискни форматлашни тезлаштириш"
 
-#: misc/k3bdvdformattingdialog.cpp:85
+#: misc/k3bdvdformattingdialog.cpp:85 misc/k3bmediaformattingdialog.cpp:91
 #, fuzzy
 msgid ""
 "<p>If this option is checked K3b will format a DVD-RW even if it is empty. It "
@@ -1840,7 +1864,7 @@ msgstr ""
 "ўрнини алмаштириб фойдаланиш мумкин. Худди шу нарса қайта ёзишни чеклаш усулида "
 "DVD-RW'га ҳам тегишли."
 
-#: misc/k3bdvdformattingdialog.cpp:95
+#: misc/k3bdvdformattingdialog.cpp:95 misc/k3bmediaformattingdialog.cpp:101
 #, fuzzy
 msgid "Try to perform quick formatting"
 msgstr "Қисқа форматлашга уриниш"
@@ -1851,6 +1875,32 @@ msgid ""
 "<p>If this option is checked K3b will tell the writer to perform a quick "
 "format."
 "<p>Formatting a DVD-RW completely can take a very long time and some DVD "
+"writers perform a full format even if quick format is enabled."
+msgstr ""
+"<p>Ушбу хосса танланганда K3b ёзувчи ускунага қисқа форматлаш буйруғини беради."
+"<p>DVD-RW'ни тўлиқ форматлаш анча вақтни олиши мумкин ва баъзи DVD ускуналар "
+"қисқа форматлаш танланган бўлсада, тўлиқ форматлашни бажаради."
+
+#: misc/k3bmediaformattingdialog.cpp:49
+msgid "Format and Erase"
+msgstr ""
+
+#: misc/k3bmediaformattingdialog.cpp:50
+#, fuzzy
+msgid "CD-RW"
+msgstr "CD-R"
+
+#: misc/k3bmediaformattingdialog.cpp:50
+#, fuzzy
+msgid "BD-RW"
+msgstr "CD-R"
+
+#: misc/k3bmediaformattingdialog.cpp:102
+#, fuzzy
+msgid ""
+"<p>If this option is checked K3b will tell the writer to perform a quick "
+"format."
+"<p>Erasing a rewritable medium completely can take a very long time and some "
 "writers perform a full format even if quick format is enabled."
 msgstr ""
 "<p>Ушбу хосса танланганда K3b ёзувчи ускунага қисқа форматлаш буйруғини беради."
@@ -2296,7 +2346,7 @@ msgstr "Сессиялар:"
 msgid "Supported writing speeds:"
 msgstr "Қўлланиладиган ёзиш тезлигини аниқлаш"
 
-#: k3bdiskinfoview.cpp:443
+#: k3bdiskinfoview.cpp:445
 msgid "ISO9660 Filesystem Info"
 msgstr "ISO9660 файл тизими ҳақида маълумот"
 
@@ -2506,7 +2556,7 @@ msgstr "Ростдан ҳам жорий лойиҳани тозаламоқчи
 msgid "Open the CD copy dialog, optionally specify the source device"
 msgstr ""
 
-#: k3b.cpp:337 main.cpp:60
+#: k3b.cpp:344 main.cpp:60
 #, fuzzy
 msgid "Open the DVD copy dialog"
 msgstr "DVD'дан нусха олиш ойнасини очиш"
@@ -2653,388 +2703,408 @@ msgstr ""
 msgid "Keep Open"
 msgstr ""
 
-#: k3b.cpp:155
+#: k3b.cpp:156
 msgid "K3b - The CD and DVD Kreator"
 msgstr "K3b - CD ва DVD ёзиш дастури"
 
-#: k3b.cpp:218
+#: k3b.cpp:219
 msgid "Save All"
 msgstr "Ҳаммасини сақлаш"
 
-#: k3b.cpp:221
+#: k3b.cpp:222
 msgid "Close All"
 msgstr "Ҳаммасини ёпиш"
 
-#: k3b.cpp:235
+#: k3b.cpp:236
 msgid "&New Project"
 msgstr "&Янги лойиҳа"
 
-#: k3b.cpp:236
+#: k3b.cpp:237
 msgid "New &Audio CD Project"
 msgstr "Янги &аудио CD лойиҳаси"
 
-#: k3b.cpp:238
+#: k3b.cpp:239
 msgid "New Data &CD Project"
 msgstr "Янги маълу&мот CD лойиҳаси"
 
-#: k3b.cpp:240
+#: k3b.cpp:241
 msgid "New &Mixed Mode CD Project"
 msgstr ""
 
-#: k3b.cpp:242
+#: k3b.cpp:243
 msgid "New &Video CD Project"
 msgstr "Янги &видео CD лойиҳаси"
 
-#: k3b.cpp:244
+#: k3b.cpp:245
 msgid "New &eMovix CD Project"
 msgstr "Ян&ги eMovix CD лойиҳаси"
 
-#: k3b.cpp:246
+#: k3b.cpp:247
 msgid "New &eMovix DVD Project"
 msgstr "Янги eMovix DVD л&ойиҳаси"
 
-#: k3b.cpp:248
+#: k3b.cpp:249
 msgid "New Data &DVD Project"
 msgstr "Я&нги маълумот DVD лойиҳаси"
 
-#: k3b.cpp:250
+#: k3b.cpp:251
 msgid "New V&ideo DVD Project"
 msgstr "Янги вид&ео DVD лойиҳаси"
 
-#: k3b.cpp:252
+#: k3b.cpp:253
 #, fuzzy
 msgid "Continue Multisession Project"
 msgstr "Кўп сессияли ёзувни давом эттириш"
 
-#: k3b.cpp:274
+#: k3b.cpp:275
 msgid "&Add Files..."
 msgstr "Файлл&арни қўшиш..."
 
-#: k3b.cpp:277
+#: k3b.cpp:278
 msgid "&Clear Project"
 msgstr "Лойиҳани &тозалаш"
 
-#: k3b.cpp:280
+#: k3b.cpp:281
 msgid "Show Directories"
 msgstr "Жилдларни кўрсатиш"
 
-#: k3b.cpp:283
+#: k3b.cpp:284
 #, fuzzy
 msgid "Show Contents"
 msgstr "Таркибидагиларни кўрсатиш"
 
-#: k3b.cpp:286
+#: k3b.cpp:287
 msgid "Show Document Header"
 msgstr "Ҳужжат сарлавҳасини кўрсатиш"
 
-#: k3b.cpp:289
+#: k3b.cpp:290
 msgid "&Erase CD-RW..."
 msgstr "CDRW'ни &тозалаш..."
 
-#: k3b.cpp:291
+#: k3b.cpp:292
 #, fuzzy
 msgid "&Format DVD%1RW..."
 msgstr "DVD±RW'ни форматлаш"
 
-#: k3b.cpp:293
+#: k3b.cpp:294
+#, fuzzy
+msgid "&Format/Erase rewritable disk..."
+msgstr "DVD±RW'ни &форматлаш..."
+
+#: k3b.cpp:296
 msgid "&Burn CD Image..."
 msgstr "Диск тасвирини &ёзиш..."
 
-#: k3b.cpp:295
+#: k3b.cpp:298
 msgid "&Burn DVD ISO Image..."
 msgstr "DVD ISO тасвирини дис&кка ёзиш..."
 
-#: k3b.cpp:298
+#: k3b.cpp:301
 msgid "&Copy CD..."
 msgstr "CD'дан &нусха олиш..."
 
-#: k3b.cpp:301
+#: k3b.cpp:304
 msgid "Copy &DVD..."
 msgstr "DVD'дан н&усха олиш..."
 
-#: k3b.cpp:304
+#: k3b.cpp:307
+#, fuzzy
+msgid "Copy &Medium..."
+msgstr "Ускунадан..."
+
+#: k3b.cpp:310
 msgid "Rip Audio CD..."
 msgstr ""
 
-#: k3b.cpp:306
+#: k3b.cpp:312
 #, fuzzy
 msgid "Rip Video DVD..."
 msgstr "Видео DVD ўқиб олиш"
 
-#: k3b.cpp:308
+#: k3b.cpp:314
 #, fuzzy
 msgid "Rip Video CD..."
 msgstr "Видео DVD ўқиб олиш"
 
-#: k3b.cpp:311
+#: k3b.cpp:317
 msgid "System Check"
 msgstr "Тизимни текшириш"
 
-#: k3b.cpp:315
+#: k3b.cpp:321
 msgid "&Setup System Permissions..."
 msgstr ""
 
-#: k3b.cpp:325
+#: k3b.cpp:331
 msgid "Creates a new project"
 msgstr "Янги лойиҳа яратиш"
 
-#: k3b.cpp:326
+#: k3b.cpp:332
 #, fuzzy
 msgid "Creates a new data CD project"
 msgstr "Янги маълумотли диск лойиҳасияратиш"
 
-#: k3b.cpp:327
+#: k3b.cpp:333
 #, fuzzy
 msgid "Creates a new audio CD project"
 msgstr "Янги аудио CD яратиш"
 
-#: k3b.cpp:328
+#: k3b.cpp:334
 #, fuzzy
 msgid "Creates a new eMovix DVD project"
 msgstr "Янги eMovix DVD лойиҳаси яратиш"
 
-#: k3b.cpp:329
+#: k3b.cpp:335
 #, fuzzy
 msgid "Creates a new data DVD project"
 msgstr "Янги маълумотли DVD лойиҳаси яратиш"
 
-#: k3b.cpp:330
+#: k3b.cpp:336
 #, fuzzy
 msgid "Creates a new eMovix CD project"
 msgstr "Янги eMovix CD лойиҳаси яратиш"
 
-#: k3b.cpp:331
+#: k3b.cpp:337
 #, fuzzy
 msgid "Creates a new Video CD project"
 msgstr "Янги видео CD яратиш"
 
-#: k3b.cpp:332
+#: k3b.cpp:338
 #, fuzzy
 msgid "Open the CD-RW erasing dialog"
 msgstr "Ёзиш ойнасини очиш"
 
-#: k3b.cpp:333
+#: k3b.cpp:339
 #, fuzzy
 msgid "Open the DVD%1RW formatting dialog"
 msgstr "DVD'дан нусха олиш ойнасини очиш"
 
-#: k3b.cpp:334
+#: k3b.cpp:340
+#, fuzzy
+msgid "Open the rewritable disk formatting/erasing dialog"
+msgstr "DVD'дан нусха олиш ойнасини очиш"
+
+#: k3b.cpp:341
 #, fuzzy
 msgid "Open the CD copy dialog"
 msgstr "Дискдан нусха олиш ойнасини очиш"
 
-#: k3b.cpp:335
+#: k3b.cpp:342
 msgid "Write an Iso9660, cue/bin, or cdrecord clone image to CD"
 msgstr ""
 
-#: k3b.cpp:336
+#: k3b.cpp:343
 #, fuzzy
 msgid "Write an Iso9660 image to DVD"
 msgstr "DVD ISO9660 тасвирини DVD±R(W)'га ёзиш"
 
-#: k3b.cpp:338
+#: k3b.cpp:345
+#, fuzzy
+msgid "Open the media copy dialog"
+msgstr "Дискдан нусха олиш ойнасини очиш"
+
+#: k3b.cpp:346
 msgid "Opens an existing project"
 msgstr "Мавжуд лойиҳани очиш"
 
-#: k3b.cpp:339
+#: k3b.cpp:347
 msgid "Opens a recently used file"
 msgstr "Яқинда ишлатилган файлларни очиш"
 
-#: k3b.cpp:340
+#: k3b.cpp:348
 msgid "Saves the current project"
 msgstr "Жорий лойиҳани сақлаш"
 
-#: k3b.cpp:341
+#: k3b.cpp:349
 #, fuzzy
 msgid "Saves the current project to a new url"
 msgstr "Жорий лойиҳани сақлаш"
 
-#: k3b.cpp:342
+#: k3b.cpp:350
 #, fuzzy
 msgid "Saves all open projects"
 msgstr "Жорий лойиҳани сақлаш"
 
-#: k3b.cpp:343
+#: k3b.cpp:351
 msgid "Closes the current project"
 msgstr "Жорий лойиҳани ёпиш"
 
-#: k3b.cpp:344
+#: k3b.cpp:352
 #, fuzzy
 msgid "Closes all open projects"
 msgstr "Жорий лойиҳани ёпиш"
 
-#: k3b.cpp:345
+#: k3b.cpp:353
 msgid "Quits the application"
 msgstr "Дастурдан чиқиш"
 
-#: k3b.cpp:346
+#: k3b.cpp:354
 #, fuzzy
 msgid "Configure K3b settings"
 msgstr "Плагинни мослаш"
 
-#: k3b.cpp:348
+#: k3b.cpp:356
 msgid "Setup the system permissions (requires root privileges)"
 msgstr ""
 
-#: k3b.cpp:350
+#: k3b.cpp:358
 msgid "Digitally extract tracks from an audio CD"
 msgstr ""
 
-#: k3b.cpp:351
+#: k3b.cpp:359
 #, fuzzy
 msgid "Transcode Video DVD titles"
 msgstr "Видео DVD ўқиб олиш"
 
-#: k3b.cpp:352
+#: k3b.cpp:360
 #, fuzzy
 msgid "Extract tracks from a Video CD"
 msgstr "Файлни %1 дан %2 га ўқиб олиш."
 
-#: k3b.cpp:353
+#: k3b.cpp:361
 #, fuzzy
 msgid "Add files to the current project"
 msgstr "Жорий лойиҳани ёпиш"
 
-#: k3b.cpp:354
+#: k3b.cpp:362
 #, fuzzy
 msgid "Clear the current project"
 msgstr "Жорий лойиҳани ёпиш"
 
-#: k3b.cpp:383
+#: k3b.cpp:391
 #, fuzzy
 msgid "Project View"
 msgstr "Лойиҳани кўриб чиқиш"
 
-#: k3b.cpp:400
+#: k3b.cpp:408
 msgid "Current Projects"
 msgstr "Жорий лойиҳалар"
 
-#: k3b.cpp:414
+#: k3b.cpp:422
 #, fuzzy
 msgid "Quickstart"
 msgstr "Қисқа форматлаш"
 
-#: k3b.cpp:422
+#: k3b.cpp:430
 msgid "Sidepanel"
 msgstr "Ён панели"
 
-#: k3b.cpp:436
+#: k3b.cpp:444
 #, fuzzy
 msgid "Contents View"
 msgstr "Таркиби кўриниш"
 
-#: k3b.cpp:455
+#: k3b.cpp:463
 msgid "&Quick Dir Selector"
 msgstr "Директория танлаш &панели"
 
-#: k3b.cpp:459
+#: k3b.cpp:467
 msgid "Go"
 msgstr "Ўтиш"
 
-#: k3b.cpp:531 k3b.cpp:860 k3b.cpp:874
+#: k3b.cpp:539 k3b.cpp:868 k3b.cpp:882
 msgid "Opening file..."
 msgstr "Файл очилмоқда..."
 
-#: k3b.cpp:556
+#: k3b.cpp:564
 msgid "Could not open document!"
 msgstr "Ҳужжатни очиб бўлмади!"
 
-#: k3b.cpp:556
+#: k3b.cpp:564
 msgid "Error!"
 msgstr "Хато!"
 
-#: k3b.cpp:829
+#: k3b.cpp:837
 msgid "%1 has unsaved data."
 msgstr "%1 сақланмаган ўзгаришларга эга."
 
-#: k3b.cpp:830
+#: k3b.cpp:838
 msgid "Closing Project"
 msgstr "Лойиҳани ёпиш"
 
-#: k3b.cpp:863 k3b.cpp:930
+#: k3b.cpp:871 k3b.cpp:938
 msgid "*.k3b|K3b Projects"
 msgstr "*.k3b|K3b лойиҳалари"
 
-#: k3b.cpp:865
+#: k3b.cpp:873
 msgid "Open Files"
 msgstr "Файлларни очиш"
 
-#: k3b.cpp:898
+#: k3b.cpp:906
 msgid "Saving file..."
 msgstr "Файл сақланмоқда..."
 
-#: k3b.cpp:907 k3b.cpp:948
+#: k3b.cpp:915 k3b.cpp:956
 msgid "Could not save the current document!"
 msgstr "Жорий ҳужжатни сақлаб бўлмади!"
 
-#: k3b.cpp:907 k3b.cpp:948
+#: k3b.cpp:915 k3b.cpp:956
 #, fuzzy
 msgid "I/O Error"
 msgstr "I/O хатолиги"
 
-#: k3b.cpp:922
+#: k3b.cpp:930
 msgid "Saving file with a new filename..."
 msgstr "Файл бошқа ном остида сақланмоқда..."
 
-#: k3b.cpp:961
+#: k3b.cpp:969
 msgid "Closing file..."
 msgstr "Файл ёпилмоқда..."
 
-#: k3b.cpp:1072
+#: k3b.cpp:1080
 #, fuzzy
 msgid "Creating new Audio CD Project."
 msgstr "Янги аудио CD лойиҳа яратиш."
 
-#: k3b.cpp:1081
+#: k3b.cpp:1089
 #, fuzzy
 msgid "Creating new Data CD Project."
 msgstr "Янги маълумотли диск яратиш."
 
-#: k3b.cpp:1091
+#: k3b.cpp:1099
 #, fuzzy
 msgid "Creating new Data DVD Project."
 msgstr "Янги маълумотли DVD лойиҳа яратиш."
 
-#: k3b.cpp:1107
+#: k3b.cpp:1115
 #, fuzzy
 msgid "Creating new VideoDVD Project."
 msgstr "Янги видео DVD лойиҳа яратиш."
 
-#: k3b.cpp:1117
+#: k3b.cpp:1125
 #, fuzzy
 msgid "Creating new Mixed Mode CD Project."
 msgstr "Янги аралаш маълумотли CD лойиҳа яратиш."
 
-#: k3b.cpp:1126
+#: k3b.cpp:1134
 #, fuzzy
 msgid "Creating new Video CD Project."
 msgstr "Янги видео CD лойиҳа яратиш."
 
-#: k3b.cpp:1136
+#: k3b.cpp:1144
 #, fuzzy
 msgid "Creating new eMovix CD Project."
 msgstr "Янги eMovix CD лойиҳа яратиш."
 
-#: k3b.cpp:1146
+#: k3b.cpp:1154
 #, fuzzy
 msgid "Creating new eMovix DVD Project."
 msgstr "Янги eMovix DVD лойиҳа яратиш."
 
-#: k3b.cpp:1273
+#: k3b.cpp:1281
 #, fuzzy
 msgid "Select Files to Add to Project"
 msgstr "Лойиҳага қўшиш учун файлларни танланг"
 
-#: k3b.cpp:1287
+#: k3b.cpp:1295
 #, fuzzy
 msgid "Please create a project before adding files"
 msgstr "Файлни қўшишдан аввал лойиҳани танланг"
 
-#: k3b.cpp:1287
+#: k3b.cpp:1295
 msgid "No Active Project"
 msgstr "Актив лойиҳа мавжуд эмас"
 
-#: k3b.cpp:1296
+#: k3b.cpp:1304
 msgid ""
 "Could not find kdesu to run K3bSetup with root privileges. Please run it "
 "manually as root."
@@ -3042,30 +3112,30 @@ msgstr ""
 "Администратор сифатида K3bSetup дастурини ишга тушириш учун kdesu воситасини "
 "топиб бўлмади. Администратор сифатида қўлбола ишга тушириб кўринг."
 
-#: k3b.cpp:1532
+#: k3b.cpp:1568
 #, fuzzy
 msgid "Do you really want to clear the current project?"
 msgstr "Ростдан ҳам жорий лойиҳани тозаламоқчимисиз?"
 
-#: k3b.cpp:1533
+#: k3b.cpp:1569
 msgid "Clear Project"
 msgstr "Лойиҳани тозалаш"
 
-#: k3b.cpp:1575
+#: k3b.cpp:1611
 msgid "Audio CD Rip"
 msgstr ""
 
-#: k3b.cpp:1590
+#: k3b.cpp:1626
 #, fuzzy
 msgid "Video DVD Rip"
 msgstr "Видео CD ўқиб олиш"
 
-#: k3b.cpp:1611
+#: k3b.cpp:1647
 #, fuzzy
 msgid "Video CD Rip"
 msgstr "Видео CD ўқиб олиш"
 
-#: k3b.cpp:1626
+#: k3b.cpp:1662
 #, fuzzy
 msgid "Audio Output Problem"
 msgstr "Аудио йўлакчалар"
@@ -3112,8 +3182,8 @@ msgid ""
 "audio track extraction or audio transcoding or ISO9660 image creation."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:189 k3bsystemproblemdialog.cpp:242
-#: k3bsystemproblemdialog.cpp:265 k3bsystemproblemdialog.cpp:314
+#: k3bsystemproblemdialog.cpp:189 k3bsystemproblemdialog.cpp:244
+#: k3bsystemproblemdialog.cpp:269 k3bsystemproblemdialog.cpp:318
 msgid "Unable to find %1 executable"
 msgstr "%1 дастурини топиб бўлмади"
 
@@ -3125,9 +3195,9 @@ msgstr "K3b компакт-дискка ёзиш учун cdrecord восита�
 msgid "Install the cdrtools package which contains cdrecord."
 msgstr "Таркибида cdrecord мавжуд бўлган cdrtools пакетини ўрнатинг."
 
-#: k3bsystemproblemdialog.cpp:198 k3bsystemproblemdialog.cpp:275
-#: k3bsystemproblemdialog.cpp:283 k3bsystemproblemdialog.cpp:292
-#: k3bsystemproblemdialog.cpp:326 k3bsystemproblemdialog.cpp:434
+#: k3bsystemproblemdialog.cpp:198 k3bsystemproblemdialog.cpp:279
+#: k3bsystemproblemdialog.cpp:287 k3bsystemproblemdialog.cpp:296
+#: k3bsystemproblemdialog.cpp:330 k3bsystemproblemdialog.cpp:438
 msgid "Used %1 version %2 is outdated"
 msgstr ""
 
@@ -3153,11 +3223,11 @@ msgid ""
 "reasons anymore."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:227 k3bsystemproblemdialog.cpp:251
+#: k3bsystemproblemdialog.cpp:228 k3bsystemproblemdialog.cpp:254
 msgid "%1 will be run without root privileges"
 msgstr "%1 оддий фойдаланувчи сифатида ишга туширилади"
 
-#: k3bsystemproblemdialog.cpp:228
+#: k3bsystemproblemdialog.cpp:229
 msgid ""
 "It is highly recommended to configure cdrecord to run with root privileges. "
 "Only then cdrecord runs with high priority which increases the overall "
@@ -3166,76 +3236,76 @@ msgid ""
 "This is also true when using SuSE's resmgr."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:243
+#: k3bsystemproblemdialog.cpp:245
 msgid "K3b uses cdrdao to actually write CDs."
 msgstr "K3b компакт-дискка ёзиш учун cdrdao воситасидан фойдаланади."
 
-#: k3bsystemproblemdialog.cpp:244
+#: k3bsystemproblemdialog.cpp:246
 msgid "Install the cdrdao package."
 msgstr "cdrdao пакетини ўрнатинг."
 
-#: k3bsystemproblemdialog.cpp:252
+#: k3bsystemproblemdialog.cpp:255
 msgid ""
 "It is highly recommended to configure cdrdao to run with root privileges to "
 "increase the overall stability of the burning process."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:266
+#: k3bsystemproblemdialog.cpp:270
 msgid ""
 "K3b uses growisofs to actually write dvds. Without growisofs you will not be "
 "able to write dvds. Make sure to install at least version 5.10."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:269 k3bsystemproblemdialog.cpp:316
+#: k3bsystemproblemdialog.cpp:273 k3bsystemproblemdialog.cpp:320
 msgid "Install the dvd+rw-tools package."
 msgstr "dvd+rw-tools пакетини ўрнатинг."
 
-#: k3bsystemproblemdialog.cpp:276
+#: k3bsystemproblemdialog.cpp:280
 msgid ""
 "K3b needs at least growisofs version 5.10 to write dvds. All older versions "
 "will not work and K3b will refuse to use them."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:278 k3bsystemproblemdialog.cpp:287
-#: k3bsystemproblemdialog.cpp:296 k3bsystemproblemdialog.cpp:331
+#: k3bsystemproblemdialog.cpp:282 k3bsystemproblemdialog.cpp:291
+#: k3bsystemproblemdialog.cpp:300 k3bsystemproblemdialog.cpp:335
 #, c-format
 msgid "Install a more recent version of %1."
 msgstr "%1 воситасининг янгироқ версиясини ўрнатинг."
 
-#: k3bsystemproblemdialog.cpp:284
+#: k3bsystemproblemdialog.cpp:288
 msgid ""
 "K3b will not be able to copy DVDs on-the-fly or write a DVD+RW in multiple "
 "sessions using a growisofs version older than 5.12."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:293
+#: k3bsystemproblemdialog.cpp:297
 msgid ""
 "It is highly recommended to use growisofs 7.0 or higher. K3b won't be able to "
 "write a DVD+RW in multiple sessions using a growisofs version older than 7.0."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:315
+#: k3bsystemproblemdialog.cpp:319
 msgid "K3b uses dvd+rw-format to format DVD-RWs and DVD+RWs."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:329
+#: k3bsystemproblemdialog.cpp:333
 msgid ""
 "K3b needs at least mkisofs version 1.14. Older versions may introduce problems "
 "when creating data projects."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:353
+#: k3bsystemproblemdialog.cpp:357
 msgid "Device %1 - %2 is automounted."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:355
+#: k3bsystemproblemdialog.cpp:359
 msgid ""
 "K3b is not able to unmount automounted devices. Thus, especially DVD+RW "
 "rewriting might fail. There is no need to report this as a bug or feature wish; "
 "it is not possible to solve this problem from within K3b."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:359
+#: k3bsystemproblemdialog.cpp:363
 #, fuzzy
 msgid ""
 "Replace the automounting entries in /etc/fstab with old-fashioned ones or use a "
@@ -3243,35 +3313,35 @@ msgid ""
 msgstr ""
 "/etc/fstab файлидаги авто-улаш ёзувларни эски кўринишда ўрнини алмаштиринг."
 
-#: k3bsystemproblemdialog.cpp:369
+#: k3bsystemproblemdialog.cpp:373
 msgid "No ATAPI writing support in kernel"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:370
+#: k3bsystemproblemdialog.cpp:374
 msgid ""
 "Your kernel does not support writing without SCSI emulation but there is at "
 "least one writer in your system not configured to use SCSI emulation."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:374
+#: k3bsystemproblemdialog.cpp:378
 msgid ""
 "The best and recommended solution is to enable ide-scsi (SCSI emulation) for "
 "all devices. This way you won't have any problems.Be aware that you may still "
 "enable DMA on ide-scsi emulated drives."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:391 k3bsystemproblemdialog.cpp:411
+#: k3bsystemproblemdialog.cpp:395 k3bsystemproblemdialog.cpp:415
 msgid "%1 %2 does not support ATAPI"
 msgstr "%1 %2 ATAPI имконияти йўқ"
 
-#: k3bsystemproblemdialog.cpp:392 k3bsystemproblemdialog.cpp:413
+#: k3bsystemproblemdialog.cpp:396 k3bsystemproblemdialog.cpp:417
 msgid ""
 "The configured version of %1 does not support writing to ATAPI devices without "
 "SCSI emulation and there is at least one writer in your system not configured "
 "to use SCSI emulation."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:397
+#: k3bsystemproblemdialog.cpp:401
 #, c-format
 msgid ""
 "The best and recommended solution is to enable ide-scsi (SCSI emulation) for "
@@ -3279,12 +3349,12 @@ msgid ""
 "the default) a more recent version of %1."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:419
+#: k3bsystemproblemdialog.cpp:423
 msgid ""
 "Install cdrdao >= 1.1.8 which supports writing to ATAPI devices directly."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:421
+#: k3bsystemproblemdialog.cpp:425
 #, c-format
 msgid ""
 "The best, and recommended, solution is to use ide-scsi (SCSI emulation) for all "
@@ -3292,89 +3362,89 @@ msgid ""
 "(or select as the default) a more recent version of %1."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:435
+#: k3bsystemproblemdialog.cpp:439
 msgid ""
 "K3b won't be able to write DVD-R Dual Layer media using a growisofs version "
 "older than 6.0."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:437
+#: k3bsystemproblemdialog.cpp:441
 msgid "Install a more recent version of growisofs."
 msgstr "growisofs воситаларининг янгироқ версиясини ўрнатинг."
 
-#: k3bsystemproblemdialog.cpp:447
+#: k3bsystemproblemdialog.cpp:451
 #, c-format
 msgid "No write access to device %1"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:448
+#: k3bsystemproblemdialog.cpp:452
 msgid ""
 "K3b needs write access to all the devices to perform certain tasks. Without it "
 "you might encounter problems with %1 - %2"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:450 k3bsystemproblemdialog.cpp:461
+#: k3bsystemproblemdialog.cpp:454 k3bsystemproblemdialog.cpp:465
 msgid ""
 "Make sure you have write access to %1. In case you are not using devfs or udev "
 "K3bSetup is able to do this for you."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:458
+#: k3bsystemproblemdialog.cpp:462
 #, c-format
 msgid "No write access to generic SCSI device %1"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:459
+#: k3bsystemproblemdialog.cpp:463
 msgid ""
 "Without write access to the generic device you might encounter problems with "
 "Audio CD ripping from %1 - %2"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:467
+#: k3bsystemproblemdialog.cpp:471
 msgid "DMA disabled on device %1 - %2"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:468
+#: k3bsystemproblemdialog.cpp:472
 msgid ""
 "With most modern CD/DVD devices enabling DMA highly increases read/write "
 "performance. If you experience very low writing speeds this is probably the "
 "cause."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:471
+#: k3bsystemproblemdialog.cpp:475
 msgid "Enable DMA temporarily as root with 'hdparm -d 1 %1'."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:484
+#: k3bsystemproblemdialog.cpp:488
 #, c-format
 msgid "User parameters specified for external program %1"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:485
+#: k3bsystemproblemdialog.cpp:489
 msgid ""
 "Sometimes it may be nessessary to specify user parameters in addition to the "
 "parameters generated by K3b. This is simply a warning to make sure that these "
 "parameters are really wanted and won't be part of some bug report."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:488
+#: k3bsystemproblemdialog.cpp:492
 msgid ""
 "To remove the user parameters for the external program %1 open the K3b settings "
 "page 'Programs' and choose the tab 'User Parameters'."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:509
+#: k3bsystemproblemdialog.cpp:513
 msgid "Mp3 Audio Decoder plugin not found."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:510
+#: k3bsystemproblemdialog.cpp:514
 msgid ""
 "K3b could not load or find the Mp3 decoder plugin. This means that you will not "
 "be able to create Audio CDs from Mp3 files. Many Linux distributions do not "
 "include Mp3 support for legal reasons."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:513
+#: k3bsystemproblemdialog.cpp:517
 msgid ""
 "To enable Mp3 support, please install the MAD Mp3 decoding library as well as "
 "the K3b MAD Mp3 decoder plugin (the latter may already be installed but not "
@@ -3382,11 +3452,11 @@ msgid ""
 "Mp3 support via an online update tool (i.e. SuSE's YOU)."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:529
+#: k3bsystemproblemdialog.cpp:533
 msgid "System locale charset is ANSI_X3.4-1968"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:530
+#: k3bsystemproblemdialog.cpp:534
 msgid ""
 "Your system's locale charset (i.e. the charset used to encode filenames) is set "
 "to ANSI_X3.4-1968. It is highly unlikely that this has been done intentionally. "
@@ -3394,43 +3464,43 @@ msgid ""
 "problems when creating data projects."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:534
+#: k3bsystemproblemdialog.cpp:538
 msgid ""
 "To properly set the locale charset make sure the LC_* environment variables are "
 "set. Normally the distribution setup tools take care of this."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:547
+#: k3bsystemproblemdialog.cpp:551
 msgid "Running K3b as root user"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:548
+#: k3bsystemproblemdialog.cpp:552
 msgid ""
 "It is not recommended to run K3b under the root user account. This introduces "
 "unnecessary security risks."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:550
+#: k3bsystemproblemdialog.cpp:554
 msgid ""
 "Run K3b from a proper user account and setup the device and external tool "
 "permissions appropriately."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:553
+#: k3bsystemproblemdialog.cpp:557
 msgid "The latter can be done via K3bSetup."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:583
+#: k3bsystemproblemdialog.cpp:587
 #, fuzzy
 msgid "No problems found in system configuration."
 msgstr "Тизим мосламаларини текшириш"
 
-#: k3bsystemproblemdialog.cpp:583
+#: k3bsystemproblemdialog.cpp:587
 #, fuzzy
 msgid "System configured properly"
 msgstr "Тизимни мослаш муаммолари"
 
-#: k3bsystemproblemdialog.cpp:605
+#: k3bsystemproblemdialog.cpp:609
 msgid "Unable to start K3bSetup2."
 msgstr "K3bSetup2 дастурини ишга тушириб бўлмади."
 
@@ -3612,25 +3682,25 @@ msgstr ""
 msgid "Complete %1 medium"
 msgstr "%1 маълумот ташувчини тозалаш"
 
-#: k3bmedium.cpp:366
+#: k3bmedium.cpp:367
 msgid ""
 "_n: %1 in %n track\n"
 "%1 in %n tracks"
 msgstr ""
 
-#: k3bmedium.cpp:369
+#: k3bmedium.cpp:370
 #, c-format
 msgid ""
 "_n:  and %n session\n"
 " and %n sessions"
 msgstr ""
 
-#: k3bmedium.cpp:374
+#: k3bmedium.cpp:375
 #, c-format
 msgid "Free space: %1"
 msgstr ""
 
-#: k3bmedium.cpp:378
+#: k3bmedium.cpp:379
 #, c-format
 msgid "Capacity: %1"
 msgstr ""
@@ -3751,7 +3821,8 @@ msgid ""
 "<p><b>Ignore</b> (DVD only)"
 "<br>This will leave the speed selection to the writer device. Use this if K3b "
 "is unable to set the writing speed."
-"<p>1x refers to 1385 KB/s for DVD and 175 KB/s for CD.</p>"
+"<p>1x refers to 175 KB/s for CD, 1385 KB/s for DVD, and 4496 KB/s for "
+"Blu-ray.</p>"
 "<p><b>Caution:</b> Make sure your system is able to send the data fast enough "
 "to prevent buffer underruns."
 msgstr "<p> Танлаш<p><b> Авто</b><br> Аудио<p> Кб с<p><b></b> Ишлаб чиқарувчи."
@@ -3771,17 +3842,17 @@ msgstr ""
 msgid "Ignore"
 msgstr "Эътибор бермаш"
 
-#: k3bwriterselectionwidget.cpp:302 k3bwriterselectionwidget.cpp:631
+#: k3bwriterselectionwidget.cpp:309 k3bwriterselectionwidget.cpp:656
 #, fuzzy
 msgid "More..."
 msgstr "Мослаш..."
 
-#: k3bwriterselectionwidget.cpp:596
+#: k3bwriterselectionwidget.cpp:615
 #, fuzzy
 msgid "Please enter the speed that K3b should use for burning (Example: 16x)."
 msgstr "номи:"
 
-#: k3bwriterselectionwidget.cpp:599
+#: k3bwriterselectionwidget.cpp:618
 msgid ""
 "<p>K3b is not able to perfectly determine the maximum writing speed of an "
 "optical writer. Writing speed is always reported subject to the inserted "
@@ -3790,7 +3861,7 @@ msgid ""
 "sessions (Example: 16x)."
 msgstr ""
 
-#: k3bwriterselectionwidget.cpp:613
+#: k3bwriterselectionwidget.cpp:638
 #, fuzzy
 msgid "Set writing speed manually"
 msgstr "Қўлланиладиган ёзиш тезлигини аниқлаш"
@@ -4841,19 +4912,19 @@ msgstr ""
 msgid "&Project"
 msgstr "Л&ойиҳа"
 
-#. i18n: file ./k3bui.rc line 24
+#. i18n: file ./k3bui.rc line 26
 #: rc.cpp:233
 #, fuzzy, no-c-format
 msgid "&Device"
 msgstr "Ускуналар"
 
-#. i18n: file ./k3bui.rc line 56
+#. i18n: file ./k3bui.rc line 58
 #: rc.cpp:242
 #, fuzzy, no-c-format
 msgid "Tools"
 msgstr "Воситалар"
 
-#. i18n: file ./k3bui.rc line 63
+#. i18n: file ./k3bui.rc line 65
 #: rc.cpp:245
 #, fuzzy, no-c-format
 msgid "Quick Dir Selector"
@@ -9973,6 +10044,14 @@ msgid "Cddb error"
 msgstr "Cddb хатолиги"
 
 #, fuzzy
+#~ msgid "Use CD-Text instead of cddb if available."
+#~ msgstr "Агар мумкин бўлса, СD-Text сddb ўрнига СD-Text'ни қўллаш."
+
+#, fuzzy
+#~ msgid "<p>If this option is checked and K3b finds CD-Text on the source media it will be copied to the resulting CD ignoring any potentially existing Cddb entries."
+#~ msgstr "<p> ва Матн."
+
+#, fuzzy
 #~ msgid "System Problems"
 #~ msgstr "Тизим файллари"
 
@@ -10223,10 +10302,6 @@ msgstr "Cddb хатолиги"
 
 #~ msgid "DVD-RW and DVD+RW"
 #~ msgstr "DVD-RW ва DVD+RW"
-
-#, fuzzy
-#~ msgid "&Format rewritable DVD..."
-#~ msgstr "DVD±RW'ни &форматлаш..."
 
 #, fuzzy
 #~ msgid "Do not create symbolic links"
