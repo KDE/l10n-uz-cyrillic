@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
-"POT-Creation-Date: 2007-04-19 07:17+0200\n"
+"POT-Creation-Date: 2007-04-25 07:35+0200\n"
 "PO-Revision-Date: 2006-04-07 18:32+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -2160,6 +2160,7 @@ msgid "First-Last Sector"
 msgstr "Биринчи-охирги сектор"
 
 #: k3bdiskinfoview.cpp:234 k3bdiskinfoview.cpp:251
+#: projects/k3bdatamultisessionimportdialog.cpp:214
 #, fuzzy, c-format
 msgid "Session %1"
 msgstr "Сессия %1"
@@ -3449,7 +3450,7 @@ msgid ""
 "To enable Mp3 support, please install the MAD Mp3 decoding library as well as "
 "the K3b MAD Mp3 decoder plugin (the latter may already be installed but not "
 "functional due to the missing libmad). Some distributions allow installation of "
-"Mp3 support via an online update tool (i.e. SuSE's YOU)."
+"Mp3 support via an online update tool (e.g. SuSE's YOU)."
 msgstr ""
 
 #: k3bsystemproblemdialog.cpp:533
@@ -3837,8 +3838,8 @@ msgid ""
 "the application manually."
 msgstr ""
 
-#: k3bwriterselectionwidget.cpp:264 projects/k3bdataurladdingdialog.cpp:437
-#: projects/k3bdataurladdingdialog.cpp:673
+#: k3bwriterselectionwidget.cpp:264 projects/k3bdataurladdingdialog.cpp:440
+#: projects/k3bdataurladdingdialog.cpp:676
 msgid "Ignore"
 msgstr "Эътибор бермаш"
 
@@ -7169,18 +7170,18 @@ msgid "Adding files to project \"%1\"..."
 msgstr "\"%1\" лойиҳасига файллар қўшиш..."
 
 #: projects/k3baudiotrackaddingdialog.cpp:116
-#: projects/k3bdataurladdingdialog.cpp:171
+#: projects/k3bdataurladdingdialog.cpp:172
 msgid "Insufficient permissions to read the following files"
 msgstr ""
 
 #: projects/k3baudiotrackaddingdialog.cpp:120
-#: projects/k3bdataurladdingdialog.cpp:175
+#: projects/k3bdataurladdingdialog.cpp:176
 #, fuzzy
 msgid "Unable to find the following files"
 msgstr "Қуйидаги файлларни топиб бўлмади"
 
 #: projects/k3baudiotrackaddingdialog.cpp:124
-#: projects/k3bdataurladdingdialog.cpp:179
+#: projects/k3bdataurladdingdialog.cpp:180
 msgid "No non-local files supported"
 msgstr ""
 
@@ -7196,7 +7197,7 @@ msgid ""
 msgstr ""
 
 #: projects/k3baudiotrackaddingdialog.cpp:135
-#: projects/k3bdataurladdingdialog.cpp:160
+#: projects/k3bdataurladdingdialog.cpp:161
 #, fuzzy
 msgid "Problems while adding files to the project."
 msgstr "Илтимос аввал лойиҳага файлни қўшинг."
@@ -7434,8 +7435,8 @@ msgid "New Directory..."
 msgstr "Янги жилд..."
 
 #: projects/k3bdatadirtreeview.cpp:291 projects/k3bdatafileview.cpp:330
-#: projects/k3bdataurladdingdialog.cpp:443
-#: projects/k3bdataurladdingdialog.cpp:679
+#: projects/k3bdataurladdingdialog.cpp:446
+#: projects/k3bdataurladdingdialog.cpp:682
 #, fuzzy
 msgid "Rename"
 msgstr "Номини ўзгартириш"
@@ -8037,24 +8038,6 @@ msgstr ""
 msgid "Used part of the audio source"
 msgstr ""
 
-#: projects/k3bdatasessionimportdialog.cpp:37
-msgid "Session Import"
-msgstr ""
-
-#: projects/k3bdatasessionimportdialog.cpp:88
-msgid ""
-"<p>K3b found session containing Joliet information for long filenames but no "
-"Rock Ridge extensions."
-"<p>The filenames in the imported session will be converted to a restricted "
-"character set in the new session. This character set is based on the ISO9660 "
-"settings in the K3b project. K3b is not able to display these converted "
-"filenames yet."
-msgstr ""
-
-#: projects/k3bdatasessionimportdialog.cpp:93
-msgid "Session Import Warning"
-msgstr ""
-
 #: projects/k3bmixedview.cpp:125
 #, fuzzy
 msgid "Please add files and audio titles to your project first."
@@ -8219,6 +8202,43 @@ msgstr "<p> Ойналар<p> DVD Ойналар."
 msgid "Joliet Extensions Disabled"
 msgstr "Joliet кенгайтмалари ишлатилмайди"
 
+#: projects/k3bdatamultisessionimportdialog.cpp:97
+msgid ""
+"<p>K3b found session containing Joliet information for long filenames but no "
+"Rock Ridge extensions."
+"<p>The filenames in the imported session will be converted to a restricted "
+"character set in the new session. This character set is based on the ISO9660 "
+"settings in the K3b project. K3b is not able to display these converted "
+"filenames yet."
+msgstr ""
+
+#: projects/k3bdatamultisessionimportdialog.cpp:102
+msgid "Session Import Warning"
+msgstr ""
+
+#: projects/k3bdatamultisessionimportdialog.cpp:164
+#, fuzzy
+msgid "Please insert an appendable medium"
+msgstr "Илтимос аудио дискни қўйинг..."
+
+#: projects/k3bdatamultisessionimportdialog.cpp:209
+#, fuzzy, c-format
+msgid ""
+"_n: %n audio tracks\n"
+"1 audio track"
+msgstr ""
+"1 қўшиқ\n"
+"%n қўшиқ"
+
+#: projects/k3bdatamultisessionimportdialog.cpp:262
+msgid "Session Import"
+msgstr ""
+
+#: projects/k3bdatamultisessionimportdialog.cpp:275
+#, fuzzy
+msgid "Please select a session to import."
+msgstr "Ўқиб олинадиган йўлакчани кўрсатинг."
+
 #: projects/k3bdvdview.cpp:32
 #, fuzzy
 msgid ""
@@ -8339,108 +8359,107 @@ msgstr ""
 msgid "DVD multisession"
 msgstr "Кўп сессияли DVD"
 
-#: projects/k3bdataurladdingdialog.cpp:59
-#: projects/k3bdataurladdingdialog.cpp:85
+#: projects/k3bdataurladdingdialog.cpp:60
+#: projects/k3bdataurladdingdialog.cpp:86
 #, fuzzy
 msgid "Adding files to project '%1'"
 msgstr "\"%1\" лойиҳасига файллар қўшиш..."
 
-#: projects/k3bdataurladdingdialog.cpp:123
+#: projects/k3bdataurladdingdialog.cpp:124
 msgid ""
 "<p>The file you are about to add to the project is an ISO9660 image. As such it "
 "can be burned to a medium directly since it already contains a file system."
 "<br>Are you sure you want to add this file to the project?"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:127
+#: projects/k3bdataurladdingdialog.cpp:128
 #, fuzzy
 msgid "Adding image file to project"
 msgstr "\"%1\" лойиҳасига файллар қўшиш..."
 
-#: projects/k3bdataurladdingdialog.cpp:128
+#: projects/k3bdataurladdingdialog.cpp:129
 #, fuzzy
 msgid "Add the file to the project"
 msgstr "Жорий лойиҳани ёпиш"
 
-#: projects/k3bdataurladdingdialog.cpp:129
+#: projects/k3bdataurladdingdialog.cpp:130
 msgid "Burn the image directly"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:183
-#, c-format
-msgid "It is not possible to add files bigger than %1"
+#: projects/k3bdataurladdingdialog.cpp:184
+msgid "To burn files bigger than %1 please use %1"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:187
+#: projects/k3bdataurladdingdialog.cpp:188
 msgid "Some filenames had to be modified due to limitations in mkisofs"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:191
+#: projects/k3bdataurladdingdialog.cpp:192
 msgid ""
 "The following filenames have an invalid encoding. You may fix this with the "
 "convmv tool"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:224
+#: projects/k3bdataurladdingdialog.cpp:225
 #, fuzzy
 msgid "Moving files to project \"%1\"..."
 msgstr "\"%1\" лойиҳасига файллар қўшиш..."
 
-#: projects/k3bdataurladdingdialog.cpp:422
-#: projects/k3bdataurladdingdialog.cpp:658
+#: projects/k3bdataurladdingdialog.cpp:425
+#: projects/k3bdataurladdingdialog.cpp:661
 msgid "File already exists"
 msgstr "Файл аллақачон мавжуд"
 
-#: projects/k3bdataurladdingdialog.cpp:423
-#: projects/k3bdataurladdingdialog.cpp:659
+#: projects/k3bdataurladdingdialog.cpp:426
+#: projects/k3bdataurladdingdialog.cpp:662
 msgid "<p>File <em>%1</em> already exists in project folder <em>%2</em>."
 msgstr "<p><em>%1</em> файли <em>%2</em> лойиҳа жилдида аллақачон мавжуд."
 
-#: projects/k3bdataurladdingdialog.cpp:433
-#: projects/k3bdataurladdingdialog.cpp:669
+#: projects/k3bdataurladdingdialog.cpp:436
+#: projects/k3bdataurladdingdialog.cpp:672
 msgid "Replace the existing file"
 msgstr "Мавжуд файлни алмаштириш"
 
-#: projects/k3bdataurladdingdialog.cpp:434
-#: projects/k3bdataurladdingdialog.cpp:670
+#: projects/k3bdataurladdingdialog.cpp:437
+#: projects/k3bdataurladdingdialog.cpp:673
 msgid "Replace All"
 msgstr "Ҳаммасини алмаштириш"
 
-#: projects/k3bdataurladdingdialog.cpp:436
-#: projects/k3bdataurladdingdialog.cpp:672
-msgid "Always replace existing files"
-msgstr "Мавжуд файлларни ҳар доим алмаштириш"
-
 #: projects/k3bdataurladdingdialog.cpp:439
 #: projects/k3bdataurladdingdialog.cpp:675
-#, fuzzy
-msgid "Keep the existing file"
-msgstr "Мавжуд файл сақлаб қолинсин"
-
-#: projects/k3bdataurladdingdialog.cpp:440
-#: projects/k3bdataurladdingdialog.cpp:676
-#, fuzzy
-msgid "Ignore All"
-msgstr "Ҳеч бирига эътибор берилмасин"
+msgid "Always replace existing files"
+msgstr "Мавжуд файлларни ҳар доим алмаштириш"
 
 #: projects/k3bdataurladdingdialog.cpp:442
 #: projects/k3bdataurladdingdialog.cpp:678
 #, fuzzy
-msgid "Always keep the existing file"
-msgstr "Мавжуд файл доим сақлаб қолинсин"
+msgid "Keep the existing file"
+msgstr "Мавжуд файл сақлаб қолинсин"
+
+#: projects/k3bdataurladdingdialog.cpp:443
+#: projects/k3bdataurladdingdialog.cpp:679
+#, fuzzy
+msgid "Ignore All"
+msgstr "Ҳеч бирига эътибор берилмасин"
 
 #: projects/k3bdataurladdingdialog.cpp:445
 #: projects/k3bdataurladdingdialog.cpp:681
 #, fuzzy
+msgid "Always keep the existing file"
+msgstr "Мавжуд файл доим сақлаб қолинсин"
+
+#: projects/k3bdataurladdingdialog.cpp:448
+#: projects/k3bdataurladdingdialog.cpp:684
+#, fuzzy
 msgid "Rename the new file"
 msgstr "Янги файлни номини ўзгартириш"
 
-#: projects/k3bdataurladdingdialog.cpp:486
+#: projects/k3bdataurladdingdialog.cpp:489
 #, fuzzy
 msgid "Adding link to folder"
 msgstr "Жилдга боғ қўшиш"
 
-#: projects/k3bdataurladdingdialog.cpp:487
+#: projects/k3bdataurladdingdialog.cpp:490
 #, fuzzy
 msgid ""
 "<p>'%1' is a symbolic link to folder '%2'."
@@ -8452,56 +8471,56 @@ msgid ""
 "project.</b>"
 msgstr "<p> боғ<p> дарҳол<p><b><em></em> ва боғ</b>"
 
-#: projects/k3bdataurladdingdialog.cpp:499
+#: projects/k3bdataurladdingdialog.cpp:502
 #, fuzzy
 msgid "Follow link now"
 msgstr "Очиш боғ дарҳол"
 
-#: projects/k3bdataurladdingdialog.cpp:500
+#: projects/k3bdataurladdingdialog.cpp:503
 #, fuzzy
 msgid "Always follow links"
 msgstr "Очиш"
 
-#: projects/k3bdataurladdingdialog.cpp:501
+#: projects/k3bdataurladdingdialog.cpp:504
 #, fuzzy
 msgid "Add link to project"
 msgstr "Қўшиш боғ"
 
-#: projects/k3bdataurladdingdialog.cpp:502
+#: projects/k3bdataurladdingdialog.cpp:505
 msgid "Always add links"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:747
+#: projects/k3bdataurladdingdialog.cpp:750
 #, fuzzy
 msgid "Enter New Filename"
 msgstr "Янги файл номини киритинг"
 
-#: projects/k3bdataurladdingdialog.cpp:748
+#: projects/k3bdataurladdingdialog.cpp:751
 #, fuzzy
 msgid "A file with that name already exists. Please enter a new name:"
 msgstr "Шу ном билан аталувчи файл аллақачон мавжуд. Бошқа ном киритинг:"
 
-#: projects/k3bdataurladdingdialog.cpp:764
+#: projects/k3bdataurladdingdialog.cpp:767
 #, fuzzy
 msgid "Do you also want to add hidden files?"
 msgstr "Яширин файллар ҳам қўшилсинми?"
 
-#: projects/k3bdataurladdingdialog.cpp:765
+#: projects/k3bdataurladdingdialog.cpp:768
 msgid "Hidden Files"
 msgstr "Яширилган файллар"
 
-#: projects/k3bdataurladdingdialog.cpp:765
-#: projects/k3bdataurladdingdialog.cpp:781
+#: projects/k3bdataurladdingdialog.cpp:768
+#: projects/k3bdataurladdingdialog.cpp:784
 msgid "Do Not Add"
 msgstr "Қўшмаш"
 
-#: projects/k3bdataurladdingdialog.cpp:779
+#: projects/k3bdataurladdingdialog.cpp:782
 msgid ""
 "Do you also want to add system files (FIFOs, sockets, device files, and broken "
 "symlinks)?"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:781
+#: projects/k3bdataurladdingdialog.cpp:784
 msgid "System Files"
 msgstr "Тизим файллари"
 
@@ -10849,9 +10868,6 @@ msgstr "Cddb хатолиги"
 #~ msgstr ""
 #~ "<p> да ва\n"
 #~ "<p> Мисол"
-
-#~ msgid "Please insert an audio CD..."
-#~ msgstr "Илтимос аудио дискни қўйинг..."
 
 #, fuzzy
 #~ msgid "Please insert a data CD..."
