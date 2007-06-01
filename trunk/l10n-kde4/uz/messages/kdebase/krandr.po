@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-31 05:57+0200\n"
+"POT-Creation-Date: 2007-06-01 05:51+0200\n"
 "PO-Revision-Date: 2006-05-11 23:16+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,119 +17,61 @@ msgstr ""
 "X-Generator: KBabel 1.11.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: krandrmodule.cpp:69
+#: krandrmodule.cpp:51
 msgid ""
 "Your X server does not support resizing and rotating the display. Please "
 "update to version 4.3 or greater. You need the X Resize And Rotate extension "
 "(RANDR) version 1.1 or greater to use this feature."
 msgstr ""
 
-#: krandrmodule.cpp:84
-msgid "Settings for screen:"
-msgstr "Экран учун мосламалар:"
+#: krandrtray.cpp:53
+msgid "Screen resize & rotate"
+msgstr "Экраннинг ўлчамини ўзгартириш ва буриш"
 
-#: krandrmodule.cpp:90 krandrtray.cpp:85
+#: krandrtray.cpp:72
+msgid "Required X Extension Not Available"
+msgstr "Керак бўлган X кенгайтмаси мавжуд эмас"
+
+#: krandrtray.cpp:83 legacyrandrconfig.cpp:36
 #, qt-format
 msgid "Screen %1"
 msgstr "Экран %1"
 
-#: krandrmodule.cpp:95
-msgid ""
-"The screen whose settings you would like to change can be selected using "
-"this drop-down list."
-msgstr ""
-
-#: krandrmodule.cpp:106
-msgid "Screen size:"
-msgstr "Экраннинг ўлчами:"
-
-#: krandrmodule.cpp:110
-msgid ""
-"The size, otherwise known as the resolution, of your screen can be selected "
-"from this drop-down list."
-msgstr ""
-
-#: krandrmodule.cpp:118
-msgid "Refresh rate:"
-msgstr ""
-
-#: krandrmodule.cpp:122
-msgid ""
-"The refresh rate of your screen can be selected from this drop-down list."
-msgstr ""
-
-#: krandrmodule.cpp:126
-msgid "Orientation (degrees counterclockwise)"
-msgstr ""
-
-#: krandrmodule.cpp:129
-msgid ""
-"The options in this section allow you to change the rotation of your screen."
-msgstr ""
-
-#: krandrmodule.cpp:131
-msgid "Apply settings on KDE startup"
-msgstr "Мосламаларни KDE ишга тушганда қўллаш"
-
-#: krandrmodule.cpp:133
-msgid ""
-"If this option is enabled the size and orientation settings will be used "
-"when KDE starts."
-msgstr ""
-
-#: krandrmodule.cpp:140
-msgid "Allow tray application to change startup settings"
-msgstr ""
-
-#: krandrmodule.cpp:142
-msgid ""
-"If this option is enabled, options set by the system tray applet will be "
-"saved and loaded when KDE starts instead of being temporary."
-msgstr ""
-
-#: krandrmodule.cpp:190 krandrtray.cpp:188
-#, qt-format
-msgid "%1 x %2"
-msgstr "%1 x %2"
-
-#: krandrtray.cpp:51
-msgid "Screen resize & rotate"
-msgstr "Экраннинг ўлчамини ўзгартириш ва буриш"
-
-#: krandrtray.cpp:70
-msgid "Required X Extension Not Available"
-msgstr "Керак бўлган X кенгайтмаси мавжуд эмас"
-
-#: krandrtray.cpp:98
+#: krandrtray.cpp:100
 msgid "Configure Display..."
 msgstr "Дисплейни мослаш"
 
-#: krandrtray.cpp:130
+#: krandrtray.cpp:132
 msgid "Screen configuration has changed"
 msgstr "Экраннинг мосламалари ўзгарди"
 
-#: krandrtray.cpp:148
+#: krandrtray.cpp:154
 msgid "Outputs"
 msgstr ""
 
-#: krandrtray.cpp:164
+#: krandrtray.cpp:163 krandrtray.cpp:210
 msgid "Screen Size"
 msgstr "Экраннинг ўлчами"
 
-#: krandrtray.cpp:202
+#: krandrtray.cpp:178 krandrtray.cpp:250
 #, fuzzy
 msgid "Orientation"
 msgstr "Номаълум жойлашиш"
 
-#: krandrtray.cpp:221
+#: krandrtray.cpp:235 legacyrandrconfig.cpp:125
+#, qt-format
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: krandrtray.cpp:271
 msgid "Refresh Rate"
 msgstr ""
 
-#: krandrtray.cpp:324
+#: krandrtray.cpp:383
 msgid "Configure Display"
 msgstr "Дисплейни мослаш"
 
-#: ktimerdialog.cpp:170
+#: ktimerdialog.cpp:167
 #, fuzzy, qt-format
 msgid "1 second remaining:"
 msgid_plural "%1 seconds remaining:"
@@ -275,12 +217,123 @@ msgstr "номаълум жойлашиш"
 msgid "X Resize and Rotate extension version %1.%2"
 msgstr ""
 
-#: rc.cpp:1
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 13
+#: rc.cpp:3
+#, fuzzy
+#| msgid "Screen resize & rotate"
+msgid "Screen Resize and Rotate Settings"
+msgstr "Экраннинг ўлчамини ўзгартириш ва буриш"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 16
+#: rc.cpp:6
+msgid ""
+"If this option is enabled, options set by the system tray applet will be "
+"saved and loaded when KDE starts instead of being temporary."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 24
+#: rc.cpp:9
+#, fuzzy
+#| msgid "Settings for screen:"
+msgid "Settings for Screen:"
+msgstr "Экран учун мосламалар:"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 34
+#: rc.cpp:12
+msgid ""
+"The screen whose settings you would like to change can be selected using "
+"this drop-down list."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 45
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Screen Size"
+msgid "Screen SIze:"
+msgstr "Экраннинг ўлчами"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 55
+#: rc.cpp:18
+msgid ""
+"The size, otherwise known as the resolution, of your screen can be selected "
+"from this drop-down list."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 66
+#: rc.cpp:21
+msgid "Refresh Rate:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 73
+#: rc.cpp:24
+msgid ""
+"The refresh rate of your screen can be selected from this drop-down list."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 88
+#: rc.cpp:27
+msgid ""
+"The options in this section allow you to change the rotation of your screen."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 91
+#: rc.cpp:30
+msgid "Orientation (degrees counterclockwise)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 98
+#: rc.cpp:33
+msgid ""
+"If this option is enabled the size and orientation settings will be used "
+"when KDE starts."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 101
+#: rc.cpp:36
+msgid "Apply settings on KDE startup"
+msgstr "Мосламаларни KDE ишга тушганда қўллаш"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 108
+#: rc.cpp:39
+msgid "Allow tray application to change startup settings"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file randrconfigbase.ui line 13
+#: rc.cpp:42
+#, fuzzy
+#| msgid "Screen resize & rotate"
+msgid "Screen Resize and Rotate Configuration"
+msgstr "Экраннинг ўлчамини ўзгартириш ва буриш"
+
+#. i18n: tag string
+#. i18n: file randrconfigbase.ui line 19
+#: rc.cpp:45
+msgid "Nothing to change here yet"
+msgstr ""
+
+#: rc.cpp:46
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Машраб Қуватов"
 
-#: rc.cpp:2
+#: rc.cpp:47
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
+
+#~ msgid "Screen size:"
+#~ msgstr "Экраннинг ўлчами:"
