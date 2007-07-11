@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-03 05:05+0200\n"
+"POT-Creation-Date: 2007-07-11 04:48+0200\n"
 "PO-Revision-Date: 2006-12-17 12:18+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -26,13 +26,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: apps/Installer.cpp:50 kcmfontinst/KCmFontInst.cpp:910
+#: apps/Installer.cpp:50 kcmfontinst/KCmFontInst.cpp:1047
 msgid ""
 "Do you wish to install the font(s) for personal use (only usable by you), or "
 "system-wide (usable by all users)?"
 msgstr ""
 
-#: apps/Installer.cpp:53 kcmfontinst/KCmFontInst.cpp:913
+#: apps/Installer.cpp:53 kcmfontinst/KCmFontInst.cpp:1050
 msgid "Where to Install"
 msgstr "Қаерга ўрнатиш"
 
@@ -286,7 +286,7 @@ msgstr ""
 msgid "Delete..."
 msgstr "Шрифтни ўчириш"
 
-#: kcmfontinst/FontList.cpp:1520 kcmfontinst/GroupList.cpp:769
+#: kcmfontinst/FontList.cpp:1520 kcmfontinst/GroupList.cpp:780
 msgid "Print..."
 msgstr "Босиб чиқариш"
 
@@ -294,12 +294,12 @@ msgstr "Босиб чиқариш"
 msgid "Reload"
 msgstr ""
 
-#: kcmfontinst/FontList.cpp:1530 kcmfontinst/GroupList.cpp:762
+#: kcmfontinst/FontList.cpp:1530 kcmfontinst/GroupList.cpp:773
 #, fuzzy
 msgid "Enable..."
 msgstr "Ўрнатиш"
 
-#: kcmfontinst/FontList.cpp:1532 kcmfontinst/GroupList.cpp:764
+#: kcmfontinst/FontList.cpp:1532 kcmfontinst/GroupList.cpp:775
 #, fuzzy
 msgid "Disable..."
 msgstr "Ўрнатиш"
@@ -350,37 +350,37 @@ msgstr ""
 msgid "%1 (Partial)"
 msgstr "(Жами %1)"
 
-#: kcmfontinst/GroupList.cpp:370
+#: kcmfontinst/GroupList.cpp:381
 msgid "Group"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:574
+#: kcmfontinst/GroupList.cpp:585
 #, qt-format
 msgid ""
 "<p>Do you really want to remove '<b>%1</b>'?</p><p><i>This will only remove "
 "the group, and not the actual fonts.</i></p>"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:577
+#: kcmfontinst/GroupList.cpp:588
 msgid "Remove Group"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:577
+#: kcmfontinst/GroupList.cpp:588
 msgid "Remove"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:578 kcmfontinst/KCmFontInst.cpp:259
+#: kcmfontinst/GroupList.cpp:589 kcmfontinst/KCmFontInst.cpp:259
 msgid "Remove group"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:625
+#: kcmfontinst/GroupList.cpp:636
 msgid ""
 "<li><i>All Fonts</i> contains all the fonts installed on your system.</"
 "li><li><i>Unclassified</i> contains all fonts that have not yet been placed "
 "within a \"Custom\" group.</li>"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:628
+#: kcmfontinst/GroupList.cpp:639
 msgid ""
 "<li><i>All Fonts</i> contains all the fonts installed on your system - both  "
 "\"System\" and \"Personal\".</li><li><i>System</i> contains all fonts that "
@@ -390,7 +390,7 @@ msgid ""
 "within a \"Custom\" group.</li>"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:616
+#: kcmfontinst/GroupList.cpp:627
 #, qt-format
 msgid ""
 "<h3>Font Groups</h3><p>This list displays the font groups available on your "
@@ -402,27 +402,56 @@ msgid ""
 "li></ul></p>"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:734
+#: kcmfontinst/GroupList.cpp:745
 #, qt-format
 msgid "<qt>A group named <b>'%1'</b> already exists!</qt>"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:760
+#: kcmfontinst/GroupList.cpp:771
 msgid "Remove..."
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:767
+#: kcmfontinst/GroupList.cpp:778
 msgid "Rename..."
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:831
+#: kcmfontinst/GroupList.cpp:784
+msgid "Move Here"
+msgstr ""
+
+#: kcmfontinst/GroupList.cpp:785
+msgid "Copy Here"
+msgstr ""
+
+#: kcmfontinst/GroupList.cpp:787
+msgid "Cancel"
+msgstr ""
+
+#: kcmfontinst/GroupList.cpp:848
 msgid "Rename Group"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:832
+#: kcmfontinst/GroupList.cpp:849
 #, fuzzy
 msgid "Please enter a new name for group:"
 msgstr "Янги матнни киритинг:"
+
+#: kcmfontinst/GroupList.cpp:890
+#, fuzzy, qt-format
+msgid "Drop here to add the selected fonts to \"%1\"."
+msgstr "Танланган шрифтлар"
+
+#: kcmfontinst/GroupList.cpp:892
+msgid "Drop here to remove the selected fonts from the current group."
+msgstr ""
+
+#: kcmfontinst/GroupList.cpp:894
+msgid "Drop here to copy, or move, the selected fonts to your peronal folder."
+msgstr ""
+
+#: kcmfontinst/GroupList.cpp:896
+msgid "Drop here to copy, or move, the selected fonts to the system folder."
+msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:65 kio/KioFonts.cpp:2489
 msgid "Authorisation Required"
@@ -476,45 +505,63 @@ msgstr "Ўрнатиш"
 msgid "Enabling"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:230
+#: kcmfontinst/JobRunner.cpp:229
+msgid "Copying"
+msgstr ""
+
+#: kcmfontinst/JobRunner.cpp:232
+msgid "Moving"
+msgstr ""
+
+#: kcmfontinst/JobRunner.cpp:236
 msgid "Disabling"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:256
+#: kcmfontinst/JobRunner.cpp:262
 msgid "Updating font configuration. Please wait..."
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:290
+#: kcmfontinst/JobRunner.cpp:297
 #, fuzzy, qt-format
 msgid "Installing %1"
 msgstr "Ўрнатиш"
 
-#: kcmfontinst/JobRunner.cpp:295
+#: kcmfontinst/JobRunner.cpp:298
 #, qt-format
-msgid "Deleting %1"
-msgstr ""
-
-#: kcmfontinst/JobRunner.cpp:299
-#, qt-format
-msgid "Enabling %1"
+msgid "Copying %1"
 msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:303
 #, qt-format
+msgid "Deleting %1"
+msgstr ""
+
+#: kcmfontinst/JobRunner.cpp:307
+#, qt-format
+msgid "Enabling %1"
+msgstr ""
+
+#: kcmfontinst/JobRunner.cpp:311
+#, qt-format
 msgid "Disabling %1"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:325
+#: kcmfontinst/JobRunner.cpp:319
+#, qt-format
+msgid "Moving %1"
+msgstr ""
+
+#: kcmfontinst/JobRunner.cpp:343
 msgid "Are you sure you wish to cancel?"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:392
+#: kcmfontinst/JobRunner.cpp:410
 msgid ""
 "<p>Please note that any open applications will need to be restarted in order "
 "for any changes to be noticed.</p>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:394
+#: kcmfontinst/JobRunner.cpp:412
 msgid "Success"
 msgstr "Муваффақият"
 
@@ -595,8 +642,8 @@ msgstr "Ўрнатиш"
 msgid "Delete all selected fonts"
 msgstr "Танланган шрифтлар"
 
-#: kcmfontinst/KCmFontInst.cpp:291 kcmfontinst/KCmFontInst.cpp:1153
-#: kcmfontinst/KCmFontInst.cpp:1177
+#: kcmfontinst/KCmFontInst.cpp:291 kcmfontinst/KCmFontInst.cpp:1258
+#: kcmfontinst/KCmFontInst.cpp:1282
 msgid "Enable"
 msgstr ""
 
@@ -605,8 +652,8 @@ msgstr ""
 msgid "Enable all selected fonts"
 msgstr "Танланган шрифтлар"
 
-#: kcmfontinst/KCmFontInst.cpp:295 kcmfontinst/KCmFontInst.cpp:1154
-#: kcmfontinst/KCmFontInst.cpp:1178
+#: kcmfontinst/KCmFontInst.cpp:295 kcmfontinst/KCmFontInst.cpp:1259
+#: kcmfontinst/KCmFontInst.cpp:1283
 msgid "Disable"
 msgstr ""
 
@@ -615,7 +662,7 @@ msgstr ""
 msgid "Disable all selected fonts"
 msgstr "Танланган шрифтлар"
 
-#: kcmfontinst/KCmFontInst.cpp:415
+#: kcmfontinst/KCmFontInst.cpp:419
 msgid ""
 "<h1>Font Installer</h1><p> This module allows you to install TrueType, "
 "Type1, and Bitmap fonts.</p><p>You may also install fonts using Konqueror: "
@@ -628,7 +675,7 @@ msgstr ""
 "кўришингиз мумкин. Шрифтни ўрнатиш учун ундан керакли жилдга нусха олинг "
 "холос.</p>"
 
-#: kcmfontinst/KCmFontInst.cpp:421
+#: kcmfontinst/KCmFontInst.cpp:425
 #, fuzzy, qt-format
 msgid ""
 "<h1>Font Installer</h1><p> This module allows you to install TrueType, "
@@ -644,213 +691,303 @@ msgstr ""
 "кўришингиз мумкин. Шрифтни ўрнатиш учун ундан керакли жилдга нусха олинг "
 "холос.</p>"
 
-#: kcmfontinst/KCmFontInst.cpp:487
+#: kcmfontinst/KCmFontInst.cpp:491
 msgid "Add Fonts"
 msgstr "Шрифтларни қўшиш"
 
-#: kcmfontinst/KCmFontInst.cpp:657
+#: kcmfontinst/KCmFontInst.cpp:661
 msgid "Failed to save list of fonts to print."
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:681
+#: kcmfontinst/KCmFontInst.cpp:685
 msgid "Failed to start font printer."
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:687
+#: kcmfontinst/KCmFontInst.cpp:691
 msgid ""
 "There are no printable fonts.\n"
 "You can only print non-bitmap and enabled fonts."
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:689
+#: kcmfontinst/KCmFontInst.cpp:693
 msgid "Cannot Print"
 msgstr "Босиб чиқиб бўлмади"
 
-#: kcmfontinst/KCmFontInst.cpp:704
+#: kcmfontinst/KCmFontInst.cpp:710
 msgid "You did not select anything to delete."
 msgstr "Ўчириш учун ҳеч нарса танланмаган."
 
-#: kcmfontinst/KCmFontInst.cpp:705
+#: kcmfontinst/KCmFontInst.cpp:711
 msgid "Nothing to Delete"
 msgstr "Ўчириш учун ҳеч нарса йўқ"
 
-#: kcmfontinst/KCmFontInst.cpp:731
-msgid "Create New Group"
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:732
-#, fuzzy
-msgid "Please enter the name of the new group:"
-msgstr "Янги матнни киритинг:"
-
-#: kcmfontinst/KCmFontInst.cpp:733
-msgid "New Group"
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:762 viewpart/FontViewPart.cpp:404
-msgid "Preview String"
-msgstr "Кўриб чиқиш матни"
-
-#: kcmfontinst/KCmFontInst.cpp:763 viewpart/FontViewPart.cpp:405
-msgid "Please enter new string:"
-msgstr "Янги матнни киритинг:"
-
-#: kcmfontinst/KCmFontInst.cpp:862
-msgid "No fonts"
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:868
-#, fuzzy, qt-format
-msgid "1 Font"
-msgid_plural "%1 Fonts"
-msgstr[0] "Битта шрифт"
-msgstr[1] "%1 шрифт"
-
-#: kcmfontinst/KCmFontInst.cpp:871
-#, qt-format
-msgid " (%1 Enabled, %2 Disabled, %3 Partial)"
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:923 kcmfontinst/KCmFontInst.cpp:941
-msgid "Would you like to install the font(s) for personal use?"
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:924 kcmfontinst/KCmFontInst.cpp:942
-msgid "Authorization Failed"
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:958
-msgid "Looking for any associated files..."
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:962
-msgid "Scanning Files..."
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:963
-msgid "Looking for additional files to install..."
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:980
-#, qt-format
-msgid "Looking for files associated with %1"
-msgstr ""
-
-#: kcmfontinst/KCmFontInst.cpp:1007
-#, fuzzy
-msgid "Installing font(s)..."
-msgstr "Ўрнатиш"
-
-#: kcmfontinst/KCmFontInst.cpp:1075
+#: kcmfontinst/KCmFontInst.cpp:727
 #, fuzzy, qt-format
 msgid "<p>Do you really want to delete</p><p>'<b>%1</b>'?</p>"
 msgstr ""
 "<qt>\"<b>%1</b>\"ни\n"
 "ростдан ўчирмоқчимисиз?</qt>"
 
-#: kcmfontinst/KCmFontInst.cpp:1077
+#: kcmfontinst/KCmFontInst.cpp:729
 msgid "Delete Font"
 msgstr "Шрифтни ўчириш"
 
-#: kcmfontinst/KCmFontInst.cpp:1081
+#: kcmfontinst/KCmFontInst.cpp:733
 #, fuzzy, qt-format
 msgid "Do you really want to delete this font?"
 msgid_plural "Do you really want to delete these %1 fonts?"
 msgstr[0] "Ростдан бу шрифтни ўчирмоқчимисиз?"
 msgstr[1] "Ростдан бу %1 шрифтни ўчирмоқчимисиз?"
 
-#: kcmfontinst/KCmFontInst.cpp:1084
+#: kcmfontinst/KCmFontInst.cpp:736
 msgid "Delete Fonts"
 msgstr "Шрифтларни ўчириш"
 
-#: kcmfontinst/KCmFontInst.cpp:1089
+#: kcmfontinst/KCmFontInst.cpp:741
 #, fuzzy
 msgid "Deleting font(s)..."
 msgstr "Шрифтларни ўчириш"
 
-#: kcmfontinst/KCmFontInst.cpp:1120
+#: kcmfontinst/KCmFontInst.cpp:760
+#, fuzzy
+#| msgid "You did not select anything to delete."
+msgid "You did not select anything to copy."
+msgstr "Ўчириш учун ҳеч нарса танланмаган."
+
+#: kcmfontinst/KCmFontInst.cpp:761
+#, fuzzy
+#| msgid "Nothing to Delete"
+msgid "Nothing to Copy"
+msgstr "Ўчириш учун ҳеч нарса йўқ"
+
+#: kcmfontinst/KCmFontInst.cpp:772
+#, fuzzy, qt-format
+msgid "<p>Do you really want to copy</p><p>'<b>%1</b>'?</p>"
+msgstr ""
+"<qt>\"<b>%1</b>\"ни\n"
+"ростдан ўчирмоқчимисиз?</qt>"
+
+#: kcmfontinst/KCmFontInst.cpp:774
+#, fuzzy
+msgid "Copy Font"
+msgstr "Битта шрифт"
+
+#: kcmfontinst/KCmFontInst.cpp:774 kcmfontinst/KCmFontInst.cpp:781
+msgid "Copy"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:778
+#, fuzzy, qt-format
+msgid "Do you really want to copy this font?"
+msgid_plural "Do you really want to copy these %1 fonts?"
+msgstr[0] "Ростдан бу шрифтни ўчирмоқчимисиз?"
+msgstr[1] "Ростдан бу %1 шрифтни ўчирмоқчимисиз?"
+
+#: kcmfontinst/KCmFontInst.cpp:781
+#, fuzzy
+msgid "Copy Fonts"
+msgstr "Шрифтларни қўшиш"
+
+#: kcmfontinst/KCmFontInst.cpp:786
+#, fuzzy
+msgid "Copying font(s)..."
+msgstr "Шрифтларни ўчириш"
+
+#: kcmfontinst/KCmFontInst.cpp:804
+#, fuzzy
+#| msgid "You did not select anything to delete."
+msgid "You did not select anything to move."
+msgstr "Ўчириш учун ҳеч нарса танланмаган."
+
+#: kcmfontinst/KCmFontInst.cpp:805
+#, fuzzy
+#| msgid "Nothing to Delete"
+msgid "Nothing to Move"
+msgstr "Ўчириш учун ҳеч нарса йўқ"
+
+#: kcmfontinst/KCmFontInst.cpp:816
+#, fuzzy, qt-format
+msgid "<p>Do you really want to move</p><p>'<b>%1</b>'?</p>"
+msgstr ""
+"<qt>\"<b>%1</b>\"ни\n"
+"ростдан ўчирмоқчимисиз?</qt>"
+
+#: kcmfontinst/KCmFontInst.cpp:818
+#, fuzzy
+msgid "Move Font"
+msgstr "Битта шрифт"
+
+#: kcmfontinst/KCmFontInst.cpp:818 kcmfontinst/KCmFontInst.cpp:825
+msgid "Move"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:822
+#, fuzzy, qt-format
+msgid "Do you really want to move this font?"
+msgid_plural "Do you really want to move these %1 fonts?"
+msgstr[0] "Ростдан бу шрифтни ўчирмоқчимисиз?"
+msgstr[1] "Ростдан бу %1 шрифтни ўчирмоқчимисиз?"
+
+#: kcmfontinst/KCmFontInst.cpp:825
+#, fuzzy
+msgid "Move Fonts"
+msgstr "Шрифтларни қўшиш"
+
+#: kcmfontinst/KCmFontInst.cpp:830
+#, fuzzy
+msgid "Moving font(s)..."
+msgstr "Шрифтларни ўчириш"
+
+#: kcmfontinst/KCmFontInst.cpp:850
+msgid "Create New Group"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:851
+#, fuzzy
+msgid "Please enter the name of the new group:"
+msgstr "Янги матнни киритинг:"
+
+#: kcmfontinst/KCmFontInst.cpp:852
+msgid "New Group"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:881 viewpart/FontViewPart.cpp:404
+msgid "Preview String"
+msgstr "Кўриб чиқиш матни"
+
+#: kcmfontinst/KCmFontInst.cpp:882 viewpart/FontViewPart.cpp:405
+msgid "Please enter new string:"
+msgstr "Янги матнни киритинг:"
+
+#: kcmfontinst/KCmFontInst.cpp:999
+msgid "No fonts"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1005
+#, fuzzy, qt-format
+msgid "1 Font"
+msgid_plural "%1 Fonts"
+msgstr[0] "Битта шрифт"
+msgstr[1] "%1 шрифт"
+
+#: kcmfontinst/KCmFontInst.cpp:1008
+#, qt-format
+msgid " (%1 Enabled, %2 Disabled, %3 Partial)"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1060 kcmfontinst/KCmFontInst.cpp:1078
+msgid "Would you like to install the font(s) for personal use?"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1061 kcmfontinst/KCmFontInst.cpp:1079
+msgid "Authorization Failed"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1095
+msgid "Looking for any associated files..."
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1099
+msgid "Scanning Files..."
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1100
+msgid "Looking for additional files to install..."
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1117
+#, qt-format
+msgid "Looking for files associated with %1"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1144
+#, fuzzy
+msgid "Installing font(s)..."
+msgstr "Ўрнатиш"
+
+#: kcmfontinst/KCmFontInst.cpp:1225
 #, fuzzy
 msgid "You did not select anything to enable."
 msgstr "Ўчириш учун ҳеч нарса танланмаган."
 
-#: kcmfontinst/KCmFontInst.cpp:1121
+#: kcmfontinst/KCmFontInst.cpp:1226
 #, fuzzy
 msgid "You did not select anything to disable."
 msgstr "Ўчириш учун ҳеч нарса танланмаган."
 
-#: kcmfontinst/KCmFontInst.cpp:1122
+#: kcmfontinst/KCmFontInst.cpp:1227
 #, fuzzy
 msgid "Nothing to Enable"
 msgstr "Ўчириш учун ҳеч нарса йўқ"
 
-#: kcmfontinst/KCmFontInst.cpp:1122
+#: kcmfontinst/KCmFontInst.cpp:1227
 #, fuzzy
 msgid "Nothing to Disable"
 msgstr "Ўчириш учун ҳеч нарса йўқ"
 
-#: kcmfontinst/KCmFontInst.cpp:1140
+#: kcmfontinst/KCmFontInst.cpp:1245
 #, fuzzy, qt-format
 msgid "<p>Do you really want to enable</p><p>'<b>%1</b>'?</p>"
 msgstr ""
 "<qt>\"<b>%1</b>\"ни\n"
 "ростдан ўчирмоқчимисиз?</qt>"
 
-#: kcmfontinst/KCmFontInst.cpp:1142
+#: kcmfontinst/KCmFontInst.cpp:1247
 #, fuzzy, qt-format
 msgid "<p>Do you really want to disable</p><p>'<b>%1</b>'?</p>"
 msgstr ""
 "<qt>\"<b>%1</b>\"ни\n"
 "ростдан ўчирмоқчимисиз?</qt>"
 
-#: kcmfontinst/KCmFontInst.cpp:1144
+#: kcmfontinst/KCmFontInst.cpp:1249
 #, qt-format
 msgid ""
 "<p>Do you really want to enable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:1148
+#: kcmfontinst/KCmFontInst.cpp:1253
 #, qt-format
 msgid ""
 "<p>Do you really want to disable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:1152
+#: kcmfontinst/KCmFontInst.cpp:1257
 #, fuzzy
 msgid "Enable Font"
 msgstr "Битта шрифт"
 
-#: kcmfontinst/KCmFontInst.cpp:1152
+#: kcmfontinst/KCmFontInst.cpp:1257
 #, fuzzy
 msgid "Disable Font"
 msgstr "Шрифтни ўчириш"
 
-#: kcmfontinst/KCmFontInst.cpp:1153
+#: kcmfontinst/KCmFontInst.cpp:1258
 #, fuzzy
 msgid "Enable font"
 msgstr "Битта шрифт"
 
-#: kcmfontinst/KCmFontInst.cpp:1154
+#: kcmfontinst/KCmFontInst.cpp:1259
 #, fuzzy
 msgid "Disable font"
 msgstr "Шрифтни ўчириш"
 
-#: kcmfontinst/KCmFontInst.cpp:1159
+#: kcmfontinst/KCmFontInst.cpp:1264
 #, fuzzy, qt-format
 msgid "Do you really want to enable this font?"
 msgid_plural "Do you really want to enable these %1 fonts?"
 msgstr[0] "Ростдан бу шрифтни ўчирмоқчимисиз?"
 msgstr[1] "Ростдан бу %1 шрифтни ўчирмоқчимисиз?"
 
-#: kcmfontinst/KCmFontInst.cpp:1162
+#: kcmfontinst/KCmFontInst.cpp:1267
 #, fuzzy, qt-format
 msgid "Do you really want to disable this font?"
 msgid_plural "Do you really want to disable these %1 fonts?"
 msgstr[0] "Ростдан бу шрифтни ўчирмоқчимисиз?"
 msgstr[1] "Ростдан бу %1 шрифтни ўчирмоқчимисиз?"
 
-#: kcmfontinst/KCmFontInst.cpp:1165
+#: kcmfontinst/KCmFontInst.cpp:1270
 #, fuzzy, qt-format
 msgid ""
 "<p>Do you really want to enable this font contained within group '<b>%2</b>'?"
@@ -865,7 +1002,7 @@ msgstr[1] ""
 "<qt>\"<b>%1</b>\"ни\n"
 "ростдан ўчирмоқчимисиз?</qt>"
 
-#: kcmfontinst/KCmFontInst.cpp:1170
+#: kcmfontinst/KCmFontInst.cpp:1275
 #, fuzzy, qt-format
 msgid ""
 "<p>Do you really want to disable this font contained within group '<b>%2</"
@@ -880,35 +1017,35 @@ msgstr[1] ""
 "<qt>\"<b>%1</b>\"ни\n"
 "ростдан ўчирмоқчимисиз?</qt>"
 
-#: kcmfontinst/KCmFontInst.cpp:1176
+#: kcmfontinst/KCmFontInst.cpp:1281
 #, fuzzy
 msgid "Enable Fonts"
 msgstr "Битта шрифт"
 
-#: kcmfontinst/KCmFontInst.cpp:1176
+#: kcmfontinst/KCmFontInst.cpp:1281
 #, fuzzy
 msgid "Disable Fonts"
 msgstr "Шрифтларни ўчириш"
 
-#: kcmfontinst/KCmFontInst.cpp:1177
+#: kcmfontinst/KCmFontInst.cpp:1282
 #, fuzzy
 msgid "Enable fonts"
 msgstr "Битта шрифт"
 
-#: kcmfontinst/KCmFontInst.cpp:1178
+#: kcmfontinst/KCmFontInst.cpp:1283
 #, fuzzy
 msgid "Disable fonts"
 msgstr "Шрифтларни ўчириш"
 
-#: kcmfontinst/KCmFontInst.cpp:1184
+#: kcmfontinst/KCmFontInst.cpp:1289
 msgid "Enabling font(s)..."
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:1186
+#: kcmfontinst/KCmFontInst.cpp:1291
 msgid "Disabling font(s)..."
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:1198
+#: kcmfontinst/KCmFontInst.cpp:1303
 msgid ""
 "Sorry, the installer is currently busy. Please wait for the current "
 "operation to terminate."
