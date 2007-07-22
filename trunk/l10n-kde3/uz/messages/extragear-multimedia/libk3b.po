@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b\n"
-"POT-Creation-Date: 2007-07-21 07:18+0200\n"
+"POT-Creation-Date: 2007-07-22 07:59+0200\n"
 "PO-Revision-Date: 2006-04-07 18:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <kmashrab@uni-bremen.de>\n"
@@ -152,7 +152,7 @@ msgstr ""
 #: jobs/k3bvideodvdtitletranscodingjob.cpp:106
 #: projects/audiocd/k3baudionormalizejob.cpp:64
 #: projects/datacd/k3bmkisofshandler.cpp:63 projects/k3bcdrdaowriter.cpp:484
-#: projects/k3bcdrecordwriter.cpp:298 projects/k3bgrowisofswriter.cpp:175
+#: projects/k3bcdrecordwriter.cpp:304 projects/k3bgrowisofswriter.cpp:175
 #: projects/videocd/k3bvcdjob.cpp:209
 msgid "Using %1 %2 - Copyright (C) %3"
 msgstr "%1 %2 ишлатилмоқда - Copyright (C) %3"
@@ -190,7 +190,7 @@ msgstr ""
 #: jobs/k3bvideodvdtitletranscodingjob.cpp:342
 #: projects/datacd/k3bisoimager.cpp:359 projects/datacd/k3bisoimager.cpp:535
 #: projects/datacd/k3bmsinfofetcher.cpp:131 projects/k3bcdrdaowriter.cpp:583
-#: projects/k3bcdrecordwriter.cpp:340 projects/k3bgrowisofswriter.cpp:388
+#: projects/k3bcdrecordwriter.cpp:346 projects/k3bgrowisofswriter.cpp:388
 #: projects/videocd/k3bvcdjob.cpp:252
 #, c-format
 msgid "Could not start %1."
@@ -219,7 +219,7 @@ msgstr "Тасвир файлларини ўчириб ташлаш."
 #: jobs/k3bvideodvdtitletranscodingjob.cpp:442
 #: projects/audiocd/k3baudionormalizejob.cpp:188
 #: projects/datacd/k3bisoimager.cpp:213 projects/k3bcdrdaowriter.cpp:784
-#: projects/k3bcdrecordwriter.cpp:770 projects/videocd/k3bvcdjob.cpp:360
+#: projects/k3bcdrecordwriter.cpp:779 projects/videocd/k3bvcdjob.cpp:360
 #, fuzzy
 msgid "%1 returned an unknown error (code %2)."
 msgstr "%1 дастурида номалум хатолик рўй берди (код %2)."
@@ -463,7 +463,7 @@ msgstr "Ёзиш мобайнида форматлаш орқа фонда да�
 #: jobs/k3bdvdformattingjob.cpp:272
 #: projects/audiocd/k3baudionormalizejob.cpp:200
 #: projects/datacd/k3bisoimager.cpp:223 projects/k3bcdrdaowriter.cpp:795
-#: projects/k3bcdrecordwriter.cpp:790 projects/videocd/k3bvcdjob.cpp:368
+#: projects/k3bcdrecordwriter.cpp:799 projects/videocd/k3bvcdjob.cpp:368
 msgid "%1 did not exit cleanly."
 msgstr "%1 дастури хатосиз тугамади."
 
@@ -536,7 +536,7 @@ msgstr ""
 #: jobs/k3bdvdbooktypejob.cpp:288 jobs/k3bdvdformattingjob.cpp:469
 #: jobs/k3breadcdreader.cpp:107 projects/datacd/k3bmsinfofetcher.cpp:56
 #: projects/datacd/k3bmsinfofetcher.cpp:92 projects/k3bcdrdaowriter.cpp:476
-#: projects/k3bcdrecordwriter.cpp:290 projects/k3bgrowisofswriter.cpp:161
+#: projects/k3bcdrecordwriter.cpp:296 projects/k3bgrowisofswriter.cpp:161
 #: projects/videocd/k3bvcdjob.cpp:191
 msgid "Could not find %1 executable."
 msgstr "Бажариб бўладиган %1 файли топилмади."
@@ -881,7 +881,7 @@ msgid "Use Cddb entry"
 msgstr ""
 
 #: jobs/k3bcdcopyjob.cpp:464 projects/k3bcdrdaowriter.cpp:554
-#: projects/k3bcdrecordwriter.cpp:320 projects/k3bgrowisofswriter.cpp:368
+#: projects/k3bcdrecordwriter.cpp:326 projects/k3bgrowisofswriter.cpp:368
 msgid "Preparing write process..."
 msgstr "Ёзиш жараёни тайёрланмоқда..."
 
@@ -942,7 +942,7 @@ msgstr ""
 
 #: jobs/k3bcdcopyjob.cpp:695 projects/audiocd/k3baudiojob.cpp:658
 #: projects/datacd/k3bdatajob.cpp:351 projects/k3bcdrdaowriter.cpp:595
-#: projects/k3bcdrdaowriter.cpp:611 projects/k3bcdrecordwriter.cpp:346
+#: projects/k3bcdrdaowriter.cpp:611 projects/k3bcdrecordwriter.cpp:352
 #: projects/k3bgrowisofswriter.cpp:393 projects/mixedcd/k3bmixedjob.cpp:1005
 msgid "Simulating"
 msgstr ""
@@ -985,12 +985,12 @@ msgstr "%1 сеесиясини ўқишда хатолик юз берди."
 msgid "K3b was unable to eject the written disk. Please do so manually."
 msgstr ""
 
-#: jobs/k3bcdcopyjob.cpp:1077 projects/k3bcdrecordwriter.cpp:618
+#: jobs/k3bcdcopyjob.cpp:1077 projects/k3bcdrecordwriter.cpp:625
 #: projects/mixedcd/k3bmixedjob.cpp:537
 msgid "Please reload the medium and press 'ok'"
 msgstr "Дискни қайтадан қўйинг ва 'ОК' тугмасини босинг"
 
-#: jobs/k3bcdcopyjob.cpp:1078 projects/k3bcdrecordwriter.cpp:619
+#: jobs/k3bcdcopyjob.cpp:1078 projects/k3bcdrecordwriter.cpp:626
 #: projects/mixedcd/k3bmixedjob.cpp:538
 msgid "Unable to close the tray"
 msgstr ""
@@ -1685,7 +1685,7 @@ msgstr ""
 msgid "Writer does not support buffer underrun free recording (BURNPROOF)"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:254 projects/k3bdvdrecordwriter.cpp:106
+#: projects/k3bcdrecordwriter.cpp:258 projects/k3bdvdrecordwriter.cpp:106
 msgid "Cdrecord %1 does not support overburning."
 msgstr ""
 
@@ -1807,12 +1807,12 @@ msgstr ""
 msgid "Writing first session"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:500 projects/k3bgrowisofshandler.cpp:102
+#: projects/k3bcdrecordwriter.cpp:506 projects/k3bgrowisofshandler.cpp:102
 #: projects/mixedcd/k3bmixedjob.cpp:1030
 msgid "Trying to write more than the official disk capacity"
 msgstr ""
 
-#: projects/k3bcdrdaowriter.cpp:909 projects/k3bcdrecordwriter.cpp:697
+#: projects/k3bcdrdaowriter.cpp:909 projects/k3bcdrecordwriter.cpp:704
 #: projects/k3bgrowisofshandler.cpp:239 projects/mixedcd/k3bmixedjob.cpp:1033
 msgid "Data does not fit on disk."
 msgstr ""
@@ -1896,7 +1896,7 @@ msgstr ""
 msgid "Closing Disk"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:591 projects/k3bgrowisofshandler.cpp:141
+#: projects/k3bcdrecordwriter.cpp:598 projects/k3bgrowisofshandler.cpp:141
 #: projects/k3bgrowisofshandler.cpp:148 projects/k3bgrowisofshandler.cpp:149
 msgid "Closing Session"
 msgstr ""
@@ -1947,7 +1947,7 @@ msgstr ""
 msgid "Report the problem if it persists anyway."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:695 projects/k3bgrowisofshandler.cpp:237
+#: projects/k3bcdrecordwriter.cpp:702 projects/k3bgrowisofshandler.cpp:237
 msgid "Data did not fit on disk."
 msgstr ""
 
@@ -2249,7 +2249,7 @@ msgstr ""
 
 #: projects/audiocd/k3baudiojob.cpp:662 projects/datacd/k3bdatajob.cpp:355
 #: projects/datacd/k3bdatajob.cpp:758 projects/k3bcdrdaowriter.cpp:600
-#: projects/k3bcdrecordwriter.cpp:353 projects/k3bgrowisofswriter.cpp:398
+#: projects/k3bcdrecordwriter.cpp:359 projects/k3bgrowisofswriter.cpp:398
 msgid "Writing"
 msgstr ""
 
@@ -2341,7 +2341,7 @@ msgstr ""
 msgid "Could not open file %1."
 msgstr ""
 
-#: projects/k3bcdrdaowriter.cpp:566 projects/k3bcdrecordwriter.cpp:324
+#: projects/k3bcdrdaowriter.cpp:566 projects/k3bcdrecordwriter.cpp:330
 #: projects/k3bgrowisofswriter.cpp:372
 #, fuzzy
 msgid "Unmounting medium"
@@ -2360,18 +2360,18 @@ msgstr "Ўқиш бошланди..."
 msgid "Writing data"
 msgstr ""
 
-#: projects/k3bcdrdaowriter.cpp:776 projects/k3bcdrecordwriter.cpp:679
+#: projects/k3bcdrdaowriter.cpp:776 projects/k3bcdrecordwriter.cpp:686
 #: projects/k3bgrowisofswriter.cpp:564
 msgid "Average overall write speed: %1 KB/s (%2x)"
 msgstr ""
 
-#: projects/k3bcdrdaowriter.cpp:756 projects/k3bcdrecordwriter.cpp:674
+#: projects/k3bcdrdaowriter.cpp:756 projects/k3bcdrecordwriter.cpp:681
 #: projects/k3bgrowisofswriter.cpp:569
 #, fuzzy
 msgid "Simulation successfully completed"
 msgstr "Форматлаш муваффақиятли тугади"
 
-#: projects/k3bcdrdaowriter.cpp:764 projects/k3bcdrecordwriter.cpp:676
+#: projects/k3bcdrdaowriter.cpp:764 projects/k3bcdrecordwriter.cpp:683
 #: projects/k3bgrowisofswriter.cpp:571
 #, fuzzy
 msgid "Writing successfully completed"
@@ -2807,235 +2807,235 @@ msgstr ""
 msgid "'Force unsafe operations' enabled."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:347
+#: projects/k3bcdrecordwriter.cpp:353
 msgid "Starting %1 simulation at %2x speed..."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:354
+#: projects/k3bcdrecordwriter.cpp:360
 msgid "Starting %1 writing at %2x speed..."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:475
+#: projects/k3bcdrecordwriter.cpp:481
 msgid "DAO (Disk At Once) recording not supported with this writer"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:476
+#: projects/k3bcdrecordwriter.cpp:482
 msgid "Please choose TAO (Track At Once) and try again"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:479
+#: projects/k3bcdrecordwriter.cpp:485
 msgid "RAW recording not supported with this writer"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:482
+#: projects/k3bcdrecordwriter.cpp:488
 msgid "Input/output error. Not necessarily serious."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:491
+#: projects/k3bcdrecordwriter.cpp:497
 #, fuzzy
 msgid "Reloading of medium required"
 msgstr "Диск манбасини текшириш"
 
-#: projects/k3bcdrdaowriter.cpp:904 projects/k3bcdrecordwriter.cpp:508
+#: projects/k3bcdrdaowriter.cpp:904 projects/k3bcdrecordwriter.cpp:514
 msgid "No valid %1 option: %2"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:534
+#: projects/k3bcdrecordwriter.cpp:541
 msgid "Only session 1 will be cloned."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:537
+#: projects/k3bcdrecordwriter.cpp:544
 msgid "Unable to fixate the disk."
 msgstr ""
 
-#: projects/k3bcdrdaowriter.cpp:811 projects/k3bcdrecordwriter.cpp:559
+#: projects/k3bcdrdaowriter.cpp:811 projects/k3bcdrecordwriter.cpp:566
 #, c-format
 msgid "Medium or burner do not support writing at %1x speed"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:561
+#: projects/k3bcdrecordwriter.cpp:568
 #, c-format
 msgid "Switching burn speed up to %1x"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:563
+#: projects/k3bcdrecordwriter.cpp:570
 #, c-format
 msgid "Switching burn speed down to %1x"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:575
+#: projects/k3bcdrecordwriter.cpp:582
 #, fuzzy
 msgid "Starting disc write"
 msgstr "Ўқиш бошланди..."
 
-#: projects/k3bcdrecordwriter.cpp:595
+#: projects/k3bcdrecordwriter.cpp:602
 msgid "Writing Leadin"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:598
+#: projects/k3bcdrecordwriter.cpp:605
 msgid "Writing Leadout"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:601
+#: projects/k3bcdrecordwriter.cpp:608
 msgid "Writing pregap"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:604
+#: projects/k3bcdrecordwriter.cpp:611
 msgid "Performing Optimum Power Calibration"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:607
+#: projects/k3bcdrecordwriter.cpp:614
 msgid "Sending CUE sheet"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:610
+#: projects/k3bcdrecordwriter.cpp:617
 msgid "Enabled Burnfree"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:613
+#: projects/k3bcdrecordwriter.cpp:620
 msgid "Disabled Burnfree"
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:629
+#: projects/k3bcdrecordwriter.cpp:636
 #, c-format
 msgid ""
 "_n: Burnfree was used 1 time.\n"
 "Burnfree was used %n times."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:635
+#: projects/k3bcdrecordwriter.cpp:642
 #, c-format
 msgid ""
 "_n: Buffer was low 1 time.\n"
 "Buffer was low %n times."
 msgstr ""
 
-#: projects/k3bcdrdaowriter.cpp:911 projects/k3bcdrecordwriter.cpp:699
+#: projects/k3bcdrdaowriter.cpp:911 projects/k3bcdrecordwriter.cpp:706
 msgid "Enable overburning in the advanced K3b settings to burn anyway."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:706
+#: projects/k3bcdrecordwriter.cpp:713
 msgid "%1 could not reserve shared memory segment of requested size."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:707
+#: projects/k3bcdrecordwriter.cpp:714
 msgid "Probably you chose a too large buffer size."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:710
+#: projects/k3bcdrecordwriter.cpp:717
 msgid "OPC failed. Probably the writer does not like the medium."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:713
+#: projects/k3bcdrecordwriter.cpp:720
 #, c-format
 msgid "Unable to set write speed to %1."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:714
+#: projects/k3bcdrecordwriter.cpp:721
 msgid "Probably this is lower than your writer's lowest writing speed."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:717
+#: projects/k3bcdrecordwriter.cpp:724
 msgid "Unable to send CUE sheet."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:719 projects/k3bcdrecordwriter.cpp:758
-#: projects/k3bcdrecordwriter.cpp:775
+#: projects/k3bcdrecordwriter.cpp:726 projects/k3bcdrecordwriter.cpp:767
+#: projects/k3bcdrecordwriter.cpp:784
 msgid "Sometimes using TAO writing mode solves this issue."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:722
+#: projects/k3bcdrecordwriter.cpp:729
 msgid "Unable to open new session."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:723
+#: projects/k3bcdrecordwriter.cpp:730
 msgid "Probably a problem with the medium."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:726
+#: projects/k3bcdrecordwriter.cpp:733
 msgid "The disk might still be readable."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:728
+#: projects/k3bcdrecordwriter.cpp:735
 msgid "Try DAO writing mode."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:731
+#: projects/k3bcdrecordwriter.cpp:738
 msgid "%1 has no permission to open the device."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:732
+#: projects/k3bcdrecordwriter.cpp:740
 msgid "You may use K3bsetup2 to solve this problem."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:735
+#: projects/k3bcdrecordwriter.cpp:744
 msgid "Probably a buffer underrun occurred."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:737
+#: projects/k3bcdrecordwriter.cpp:746
 msgid "Please enable Burnfree or choose a lower burning speed."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:739
+#: projects/k3bcdrecordwriter.cpp:748
 msgid "Please choose a lower burning speed."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:742
+#: projects/k3bcdrecordwriter.cpp:751
 msgid "Found a high-speed medium not suitable for the writer being used."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:743 projects/k3bcdrecordwriter.cpp:747
+#: projects/k3bcdrecordwriter.cpp:752 projects/k3bcdrecordwriter.cpp:756
 msgid "Use the 'force unsafe operations' option to ignore this."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:746
+#: projects/k3bcdrecordwriter.cpp:755
 msgid "Found a low-speed medium not suitable for the writer being used."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:750
+#: projects/k3bcdrecordwriter.cpp:759
 msgid "Most likely the burning failed due to low-quality media."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:753
+#: projects/k3bcdrecordwriter.cpp:762
 msgid "Another application is blocking the device (most likely automounting)."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:756
+#: projects/k3bcdrecordwriter.cpp:765
 msgid "A write error occurred."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:761
+#: projects/k3bcdrecordwriter.cpp:770
 msgid "Some drives do not support all erase types."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:762
+#: projects/k3bcdrecordwriter.cpp:771
 msgid "Try again using 'Complete' erasing."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:766
+#: projects/k3bcdrecordwriter.cpp:775
 msgid ""
 "Since kernel version 2.6.8 cdrecord cannot use SCSI transport when running suid "
 "root anymore."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:767
+#: projects/k3bcdrecordwriter.cpp:776
 msgid ""
 "You may use K3bSetup to solve this problem or remove the suid bit manually."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:778
+#: projects/k3bcdrecordwriter.cpp:787
 msgid "If you are running an unpatched cdrecord version..."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:779
+#: projects/k3bcdrecordwriter.cpp:788
 msgid "...and this error also occurs with high quality media..."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:780
+#: projects/k3bcdrecordwriter.cpp:789
 msgid "...and the K3b FAQ does not help you..."
 msgstr ""
 
-#: projects/k3bcdrecordwriter.cpp:781
+#: projects/k3bcdrecordwriter.cpp:790
 msgid "...please include the debugging output in your problem report."
 msgstr ""
 
