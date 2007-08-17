@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-16 05:34+0200\n"
+"POT-Creation-Date: 2007-08-17 05:41+0200\n"
 "PO-Revision-Date: 2006-12-17 13:11+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -27,6 +27,9 @@ msgid "ERROR: Unknown protocol '%1'"
 msgstr "Хато: Номаълум протокол '%1'"
 
 #: kio/job.cpp:145
+#, fuzzy
+#| msgid "Moving"
+msgctxt "@title job"
 msgid "Moving"
 msgstr "Кўчирилмоқда"
 
@@ -41,11 +44,15 @@ msgid "Destination"
 msgstr "Манзил:"
 
 #: kio/job.cpp:152
+#, fuzzy
+#| msgid "Copying"
+msgctxt "@title job"
 msgid "Copying"
 msgstr "Нусха олинмоқда"
 
 #: kio/job.cpp:159
 #, fuzzy
+msgctxt "@title job"
 msgid "Creating directory"
 msgstr "Жилд яратиш"
 
@@ -55,6 +62,7 @@ msgstr ""
 
 #: kio/job.cpp:165
 #, fuzzy
+msgctxt "@title job"
 msgid "Deleting"
 msgstr " (Ўчирилмоқда)"
 
@@ -65,14 +73,19 @@ msgstr "&Филтер:"
 
 #: kio/job.cpp:171
 #, fuzzy
+msgctxt "@title job"
 msgid "Stating"
 msgstr "Саралаш"
 
 #: kio/job.cpp:177
+msgctxt "@title job"
 msgid "Transferring"
 msgstr ""
 
 #: kio/job.cpp:183
+#, fuzzy
+#| msgid "Mounting"
+msgctxt "@title job"
 msgid "Mounting"
 msgstr "Уланмоқда"
 
@@ -87,6 +100,9 @@ msgid "Mountpoint"
 msgstr "Улаш нуқтаси:"
 
 #: kio/job.cpp:190
+#, fuzzy
+#| msgid "Unmounting"
+msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Ажратилмоқда"
 
@@ -177,7 +193,9 @@ msgstr[0] "1 файл"
 msgstr[1] "%1 файл"
 
 #: kio/kfileitemdelegate.cpp:264 kio/kfileitemdelegate.cpp:267
-#: kssl/ksslcertificate.cpp:201
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "Номаълум"
 
@@ -957,7 +975,10 @@ msgstr "%1 протоколи билан жилдни яратиш қўллан�
 msgid "Protocol %1 does not support action %2."
 msgstr "%1 протоколи %2 амалини қўлламайди."
 
-#: kio/global.cpp:448 kio/global.cpp:530
+#: kio/global.cpp:448
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(номаълум)"
 
@@ -996,6 +1017,13 @@ msgstr "<p><b>Эхтимол сабаблар</b>:</p><ul><li>"
 #: kio/global.cpp:474
 msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 msgstr "<p><b>Эхтимол ечимлар</b>:</p><ul><li>"
+
+#: kio/global.cpp:530
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "@info protocol"
+msgid "(unknown)"
+msgstr "(номаълум)"
 
 #: kio/global.cpp:540
 msgid ""
@@ -2207,45 +2235,45 @@ msgstr ""
 "меню ёзуви (%2)\n"
 "нотўғри."
 
-#: kio/kfileitem.cpp:929
+#: kio/kfileitem.cpp:932
 #, fuzzy, qt-format
 #| msgid "Symbolic Link"
 msgid "(Symbolic Link to %1)"
 msgstr "Рамзий боғ"
 
-#: kio/kfileitem.cpp:931
+#: kio/kfileitem.cpp:934
 #, fuzzy, qt-format
 #| msgid "Link to %1 (%2)"
 msgid "(%1, Link to %2)"
 msgstr "%1 билан боғланган (%2)"
 
-#: kio/kfileitem.cpp:958 bookmarks/kbookmarkmenu.cc:632
+#: kio/kfileitem.cpp:961 bookmarks/kbookmarkmenu.cc:632
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:218
 msgid "Name:"
 msgstr "Номи:"
 
-#: kio/kfileitem.cpp:959 kfile/kpropertiesdialog.cpp:979
+#: kio/kfileitem.cpp:962 kfile/kpropertiesdialog.cpp:979
 msgid "Type:"
 msgstr "Тури:"
 
-#: kio/kfileitem.cpp:963
+#: kio/kfileitem.cpp:966
 #, qt-format
 msgid "Link to %1 (%2)"
 msgstr "%1 билан боғланган (%2)"
 
-#: kio/kfileitem.cpp:968 kfile/kpropertiesdialog.cpp:1027
+#: kio/kfileitem.cpp:971 kfile/kpropertiesdialog.cpp:1027
 msgid "Size:"
 msgstr "Ҳажми:"
 
-#: kio/kfileitem.cpp:973 kfile/kpropertiesdialog.cpp:1088
+#: kio/kfileitem.cpp:976 kfile/kpropertiesdialog.cpp:1088
 msgid "Modified:"
 msgstr "Ўзгарган:"
 
-#: kio/kfileitem.cpp:976
+#: kio/kfileitem.cpp:979
 msgid "Owner:"
 msgstr "Эгаси:"
 
-#: kio/kfileitem.cpp:977
+#: kio/kfileitem.cpp:980
 msgid "Permissions:"
 msgstr "Ҳуқуқлар:"
 
@@ -2469,6 +2497,10 @@ msgstr "Электрон почта:"
 #: kssl/ksslcertificate.cpp:200
 msgid "Signature Algorithm: "
 msgstr "Имзонинг алгоритми: "
+
+#: kssl/ksslcertificate.cpp:201
+msgid "Unknown"
+msgstr "Номаълум"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Contents:"
@@ -5182,7 +5214,7 @@ msgstr ""
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: ../kfile/kurlnavigator.cpp:563
+#: ../kfile/kurlnavigator.cpp:582
 msgid "Custom Path"
 msgstr ""
 
