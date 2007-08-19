@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-17 05:42+0200\n"
+"POT-Creation-Date: 2007-08-19 05:34+0200\n"
 "PO-Revision-Date: 2007-02-11 00:24+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -611,8 +611,8 @@ msgid "Click or drag to erase."
 msgstr ""
 
 #: tools/flow/kpToolFlowBase.cpp:302 tools/kpToolColorPicker.cpp:112
-#: tools/selection/kpToolSelection.cpp:168
-#: tools/selection/kpToolSelection.cpp:1047 tools/kpToolZoom.cpp:196
+#: tools/selection/kpAbstractSelectionTool.cpp:250
+#: tools/selection/kpAbstractSelectionTool.cpp:493 tools/kpToolZoom.cpp:196
 #: tools/rectangular/kpToolRectangularBase.cpp:333
 #: tools/kpToolFloodFill.cpp:131 tools/polygonal/kpToolPolygonalBase.cpp:433
 msgid "Let go of all the mouse buttons."
@@ -663,173 +663,172 @@ msgstr ""
 msgid "Click to select a color."
 msgstr "Рангни танлаш учун босинг."
 
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:113
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:180
-#: tools/selection/text/kpToolText.cpp:148
+#: tools/selection/text/kpToolText_Create.cpp:47
+msgid "Left drag to create text box."
+msgstr ""
+
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:118
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:185
+#: tools/selection/text/kpToolText_Commands.cpp:87
 msgid "Text: Delete"
 msgstr "Матн: Ўчириш"
 
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:133
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:202
-#: tools/selection/text/kpToolText_KeyboardEvents.cpp:391
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:138
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:207
+#: tools/selection/text/kpToolText_Commands.cpp:121
 msgid "Text: Write"
 msgstr "Матн: Ёзиш"
 
-#: tools/selection/text/kpToolText.cpp:57
+#: tools/selection/text/kpToolText_Commands.cpp:70
+msgid "Text: Backspace"
+msgstr ""
+
+#: tools/selection/text/kpToolText_Commands.cpp:104
+msgid "Text: New Line"
+msgstr "Матн: Янги сатр"
+
+#: tools/selection/text/kpToolText.cpp:62
 #: layers/selections/text/kpTextSelection.cpp:136
 msgid "Text"
 msgstr "Матн"
 
-#: tools/selection/text/kpToolText.cpp:57
+#: tools/selection/text/kpToolText.cpp:62
 msgid "Writes text"
 msgstr "Матн ёзиш"
 
-#: tools/selection/text/kpToolText.cpp:85
-msgid "Left drag to resize text box."
-msgstr ""
-
-#: tools/selection/text/kpToolText.cpp:92
-msgid "Left click to change cursor position."
-msgstr ""
-
-#: tools/selection/text/kpToolText.cpp:94
-msgid "Left drag to move text box."
-msgstr ""
-
-#: tools/selection/text/kpToolText.cpp:100
-msgid "Left drag to create text box."
-msgstr ""
-
-#: tools/selection/text/kpToolText.cpp:132
-msgid "Text: Backspace"
-msgstr ""
-
-#: tools/selection/text/kpToolText.cpp:441
-#: mainWindow/kpMainWindow_Edit.cpp:400
+#: tools/selection/text/kpToolText.cpp:99 mainWindow/kpMainWindow_Edit.cpp:400
 msgid "Text: Create Box"
 msgstr ""
 
-#: tools/selection/text/kpToolText.cpp:502
-msgid "Text: Move Box"
-msgstr ""
-
-#: tools/selection/text/kpToolText.cpp:587
+#: tools/selection/text/kpToolText_TextStyle.cpp:118
 msgid "Text: Opaque Background"
 msgstr ""
 
-#: tools/selection/text/kpToolText.cpp:588
+#: tools/selection/text/kpToolText_TextStyle.cpp:119
 msgid "Text: Transparent Background"
 msgstr ""
 
-#: tools/selection/text/kpToolText.cpp:610
+#: tools/selection/text/kpToolText_TextStyle.cpp:141
 msgid "Text: Swap Colors"
 msgstr ""
 
-#: tools/selection/text/kpToolText.cpp:630
+#: tools/selection/text/kpToolText_TextStyle.cpp:161
 msgid "Text: Foreground Color"
 msgstr "Матн: Олдин фон ранги"
 
-#: tools/selection/text/kpToolText.cpp:650
+#: tools/selection/text/kpToolText_TextStyle.cpp:181
 msgid "Text: Background Color"
 msgstr "Матн: Орқа фон ранги"
 
-#: tools/selection/text/kpToolText.cpp:686
+#: tools/selection/text/kpToolText_TextStyle.cpp:217
 msgid "Text: Font"
 msgstr "Матн: Шрифт"
 
-#: tools/selection/text/kpToolText.cpp:713
+#: tools/selection/text/kpToolText_TextStyle.cpp:244
 msgid "Text: Font Size"
 msgstr "Матн: Шрифтнинг ўлчами"
 
-#: tools/selection/text/kpToolText.cpp:735
+#: tools/selection/text/kpToolText_TextStyle.cpp:266
 msgid "Text: Bold"
 msgstr "Матн: Қалин"
 
-#: tools/selection/text/kpToolText.cpp:756
+#: tools/selection/text/kpToolText_TextStyle.cpp:287
 msgid "Text: Italic"
 msgstr "Матн: Қия"
 
-#: tools/selection/text/kpToolText.cpp:777
+#: tools/selection/text/kpToolText_TextStyle.cpp:308
 msgid "Text: Underline"
 msgstr "Матн: Тагини чизиш"
 
-#: tools/selection/text/kpToolText.cpp:798
+#: tools/selection/text/kpToolText_TextStyle.cpp:329
 msgid "Text: Strike Through"
 msgstr "Матн: Устини чизиш"
 
-#: tools/selection/text/kpToolText_KeyboardEvents.cpp:354
-msgid "Text: New Line"
-msgstr "Матн: Янги сатр"
+#: tools/selection/text/kpToolText_SelectText.cpp:56
+msgid "Left click to change cursor position."
+msgstr ""
 
-#: tools/selection/kpToolFreeFormSelection.cpp:46
+#: tools/selection/text/kpToolText_Move.cpp:42
+msgid "Left drag to move text box."
+msgstr ""
+
+#: tools/selection/text/kpToolText_Move.cpp:61
+msgid "Text: Move Box"
+msgstr ""
+
+#: tools/selection/text/kpToolText_ResizeScale.cpp:42
+msgid "Left drag to resize text box."
+msgstr ""
+
+#: tools/selection/image/kpToolFreeFormSelection.cpp:45
 msgid "Selection (Free-Form)"
 msgstr ""
 
-#: tools/selection/kpToolFreeFormSelection.cpp:47
+#: tools/selection/image/kpToolFreeFormSelection.cpp:46
 msgid "Makes a free-form selection"
 msgstr ""
 
-#: tools/selection/kpToolSelection.cpp:140
-msgid "Left drag to scale selection."
+#: tools/selection/image/kpToolRectSelection.cpp:41
+msgid "Selection (Rectangular)"
+msgstr "Танлаш (тўғри бурчак)"
+
+#: tools/selection/image/kpToolRectSelection.cpp:42
+msgid "Makes a rectangular selection"
 msgstr ""
 
-#: tools/selection/kpToolSelection.cpp:146
-msgid "Left drag to move selection."
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:118
+msgid "Selection: Transparency"
+msgstr "Танланган: Шаффофлик"
+
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:174
+msgid "Selection: Opaque"
 msgstr ""
 
-#: tools/selection/kpToolSelection.cpp:153
-msgid "Left drag to create selection."
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:175
+msgid "Selection: Transparent"
+msgstr "Танланган: Шаффоф"
+
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:223
+msgid "Selection: Transparency Color"
 msgstr ""
 
-#: tools/selection/kpToolSelection.cpp:1060
-msgid "Selection: Move"
-msgstr "Танланган: Кўчириш"
-
-#: tools/selection/kpToolSelection.cpp:1084
-#, qt-format
-msgid "%1: Smear"
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:267
+msgid "Selection: Transparency Color Similarity"
 msgstr ""
 
-#: tools/selection/kpToolSelection.cpp:1128
+#: tools/selection/image/kpToolEllipticalSelection.cpp:42
+msgid "Selection (Elliptical)"
+msgstr "Танлаш (эллептик)"
+
+#: tools/selection/image/kpToolEllipticalSelection.cpp:43
+msgid "Makes an elliptical or circular selection"
+msgstr ""
+
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
 #: imagelib/transforms/kpTransformCrop.cpp:371
 #: mainWindow/kpMainWindow_Edit.cpp:401 mainWindow/kpMainWindow_Image.cpp:289
 msgid "Selection: Create"
 msgstr "Танланган: Яратиш"
 
-#: tools/selection/kpToolSelection.cpp:1277
-msgid "Selection: Transparency"
-msgstr "Танланган: Шаффофлик"
-
-#: tools/selection/kpToolSelection.cpp:1333
-msgid "Selection: Opaque"
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:89
+msgid "Left drag to create selection."
 msgstr ""
 
-#: tools/selection/kpToolSelection.cpp:1334
-msgid "Selection: Transparent"
-msgstr "Танланган: Шаффоф"
-
-#: tools/selection/kpToolSelection.cpp:1382
-msgid "Selection: Transparency Color"
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:95
+msgid "Left drag to move selection."
 msgstr ""
 
-#: tools/selection/kpToolSelection.cpp:1426
-msgid "Selection: Transparency Color Similarity"
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:101
+msgid "Left drag to scale selection."
 msgstr ""
 
-#: tools/selection/kpToolRectSelection.cpp:42
-msgid "Selection (Rectangular)"
-msgstr "Танлаш (тўғри бурчак)"
+#: tools/selection/kpAbstractSelectionTool_Move.cpp:311
+msgid "Selection: Move"
+msgstr "Танланган: Кўчириш"
 
-#: tools/selection/kpToolRectSelection.cpp:43
-msgid "Makes a rectangular selection"
-msgstr ""
-
-#: tools/selection/kpToolEllipticalSelection.cpp:43
-msgid "Selection (Elliptical)"
-msgstr "Танлаш (эллептик)"
-
-#: tools/selection/kpToolEllipticalSelection.cpp:44
-msgid "Makes an elliptical or circular selection"
+#: tools/selection/kpAbstractSelectionTool_Move.cpp:331
+#, qt-format
+msgid "%1: Smear"
 msgstr ""
 
 #: tools/kpToolZoom.cpp:72
