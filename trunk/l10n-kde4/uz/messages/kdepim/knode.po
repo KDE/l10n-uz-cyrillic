@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knode\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-20 05:32+0200\n"
+"POT-Creation-Date: 2007-08-22 05:42+0200\n"
 "PO-Revision-Date: 2006-12-17 13:33+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -169,8 +169,8 @@ msgstr "Номаълум кодлаш усули. Ўрнига андоза ко
 
 #: articlewidget.cpp:509
 msgid ""
-"<br/><b>This article has the MIME type &quot;message/partial&quot;, which "
-"KNode cannot handle yet.<br>Meanwhile you can save the article as a text "
+"<br /><b>This article has the MIME type &quot;message/partial&quot;, which "
+"KNode cannot handle yet.<br />Meanwhile you can save the article as a text "
 "file and reassemble it by hand.</b>"
 msgstr ""
 
@@ -471,11 +471,11 @@ msgstr ""
 msgid "This article cannot be edited."
 msgstr "Мақолани таҳрирлаб бўлмайди."
 
-#: knarticlefactory.cpp:609 knarticlefactory.cpp:909
+#: knarticlefactory.cpp:609
 #, qt-format
 msgid ""
-"<qt>The signature generator program produced the following output:<br><br>%"
-"1</qt>"
+"<qt>The signature generator program produced the following output:<br /><br /"
+">%1</qt>"
 msgstr ""
 
 #: knarticlefactory.cpp:635
@@ -512,6 +512,13 @@ msgstr ""
 msgid ""
 "Please enter a valid email address at the identity section of the "
 "configuration dialog."
+msgstr ""
+
+#: knarticlefactory.cpp:909
+#, qt-format
+msgid ""
+"<qt>The signature generator program produced the following output:<br><br />%"
+"1</qt>"
 msgstr ""
 
 #: knarticlefactory.cpp:929
@@ -563,7 +570,9 @@ msgid "The unsent articles are stored in the \"Outbox\" folder."
 msgstr "Жўнатилмаган мақолалар \"Жўнатиш қутиси\"да сақланади."
 
 #: knarticlefactory.cpp:1122
-msgid "<b>Error message:</b><br>"
+#, fuzzy
+#| msgid "<b>Error message:</b><br>"
+msgid "<b>Error message:</b><br />"
 msgstr "<b>Хато хабари:</b><br>"
 
 #: knarticlefilter.cpp:33
@@ -634,8 +643,8 @@ msgstr "Мақолаларни ўчириш"
 #: knarticlemanager.cpp:922
 #, qt-format
 msgid ""
-"The article you requested is not available on your news server.<br>You could "
-"try to get it from <a href=\"http://groups.google.com/groups?selm=%1"
+"The article you requested is not available on your news server.<br />You "
+"could try to get it from <a href=\"http://groups.google.com/groups?selm=%1"
 "\">groups.google.com</a>."
 msgstr ""
 
@@ -671,7 +680,7 @@ msgstr ""
 
 #: kncleanup.cpp:192
 #, qt-format
-msgid "<b>%1</b><br>expired: %2<br>left: %3"
+msgid "<b>%1</b><br />expired: %2<br />left: %3"
 msgstr ""
 
 #: kncleanup.cpp:259
@@ -1220,7 +1229,7 @@ msgstr "Электрон п&очта:"
 #: knconfigwidgets.cpp:101
 msgid ""
 "<qt><p>Your email address as it will appear to others reading your articles</"
-"p><p>Ex: <b>nospam@please.com</b>.</qt>"
+"p><p>Ex: <b>nospam@please.com</b>.</p></qt>"
 msgstr ""
 
 #: knconfigwidgets.cpp:108
@@ -1557,11 +1566,11 @@ msgstr ""
 #: knconvert.cpp:83
 #, qt-format
 msgid ""
-"<b>Congratulations, you have upgraded to KNode version %1.</"
-"b><br>Unfortunately this version uses a different format for some data-"
-"files, so in order to keep your existing data it is necessary to convert it "
-"first. This is now done automatically by KNode. If you want to, a backup of "
-"your existing data will be created before the conversion starts."
+"<b>Congratulations, you have upgraded to KNode version %1.</b><br /"
+">Unfortunately this version uses a different format for some data-files, so "
+"in order to keep your existing data it is necessary to convert it first. "
+"This is now done automatically by KNode. If you want to, a backup of your "
+"existing data will be created before the conversion starts."
 msgstr ""
 
 #: knconvert.cpp:90
@@ -1587,13 +1596,13 @@ msgstr ""
 
 #: knconvert.cpp:148
 msgid ""
-"<b>Some errors occurred during the conversion.</b><br>You should now examine "
-"the log to find out what went wrong."
+"<b>Some errors occurred during the conversion.</b><br />You should now "
+"examine the log to find out what went wrong."
 msgstr ""
 
 #: knconvert.cpp:152
 msgid ""
-"<b>The conversion was successful.</b><br>Have a lot of fun with this new "
+"<b>The conversion was successful.</b><br />Have a lot of fun with this new "
 "version of KNode. ;-)"
 msgstr ""
 
@@ -2596,8 +2605,8 @@ msgstr ""
 #: knnntpclient.cpp:492
 #, qt-format
 msgid ""
-"<br><br>The article you requested is not available on your news server."
-"<br>You could try to get it from <a href=\"http://groups.google.com/groups?"
+"<br /><br />The article you requested is not available on your news server."
+"<br />You could try to get it from <a href=\"http://groups.google.com/groups?"
 "selm=%1\">groups.google.com</a>."
 msgstr ""
 
@@ -3870,9 +3879,13 @@ msgid "Quoted Text - Third level"
 msgstr ""
 
 #: utilities.cpp:72
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>A file named <b>%1</b> already exists.<br>Do you want to replace it?</"
+#| "qt>"
 msgid ""
-"<qt>A file named <b>%1</b> already exists.<br>Do you want to replace it?</qt>"
+"<qt>A file named <b>%1</b> already exists.<br />Do you want to replace it?</"
+"qt>"
 msgstr ""
 "<qt><b>%1</b> номли файл аллақачон мавжуд.<br>Уни алмаштиришни истайсизми?</"
 "qt>"
