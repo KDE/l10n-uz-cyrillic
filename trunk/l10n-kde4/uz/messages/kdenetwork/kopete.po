@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-07 05:34+0200\n"
+"POT-Creation-Date: 2007-09-10 05:33+0200\n"
 "PO-Revision-Date: 2007-01-01 23:26+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -232,7 +232,7 @@ msgid "Invisible"
 msgstr "Кўринмайдиган"
 
 #: libkopete/kopeteonlinestatus.cpp:122 libkopete/kopetemetacontact.cpp:473
-#: libkopete/kopeteidentity.cpp:128
+#: libkopete/kopeteidentity.cpp:128 kopete/kopetewindow.cpp:310
 #: kopete/identity/identitystatuswidget.cpp:151
 #: plugins/statistics/statisticscontact.cpp:262
 #: plugins/statistics/statisticsdialog.cpp:354 protocols/qq/qqprotocol.cpp:39
@@ -541,11 +541,11 @@ msgstr ""
 msgid "Command Error"
 msgstr "Буйруқ хатоси"
 
-#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1029
+#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1013
 msgid "No Message"
 msgstr "Хабарсиз"
 
-#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1023
+#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1007
 msgid "New Message..."
 msgstr "Янги хабар"
 
@@ -924,18 +924,22 @@ msgstr "Алоқани олиб ташлаш"
 msgid "Remove"
 msgstr "&Олиб ташлаш"
 
-#: libkopete/kopetecontact.cpp:555
-#, qt-format
-msgctxt "@label:textbox display name"
-msgid "<b>DISPLAY NAME</b><br /><img src=\"%2\">&nbsp;CONTACT STATUS"
-msgstr ""
+#: libkopete/kopetecontact.cpp:556
+#, fuzzy, qt-format
+#| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
+#| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
+msgctxt "@label:textbox %3 is contact-display-name, %1 is its status"
+msgid "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
+msgstr "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:562
-#, qt-format
-msgctxt "@label:textbox display name"
-msgid ""
-"<b>DISPLAY NAME</b> (CONTACT ID)<br /><img src=\"%2\">&nbsp;CONTACT STATUS"
-msgstr ""
+#: libkopete/kopetecontact.cpp:563
+#, fuzzy, qt-format
+#| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
+#| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
+msgctxt ""
+"@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
+msgid "<nobr><b>%4</b> (%3)</nobr><br /><img src=\"%2\">&nbsp;%1"
+msgstr "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
 
 #: libkopete/kopetecontact.cpp:581
 #, fuzzy, qt-format
@@ -967,10 +971,13 @@ msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
 msgstr "<br><b>Жойида&nbsp;йўқ&nbsp;хабари:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:645
-msgctxt "@label:textbox property label"
-msgid "<br /><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
-msgstr ""
+#: libkopete/kopetecontact.cpp:646
+#, fuzzy, qt-format
+#| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
+#| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
+msgctxt "@label:textbox property label %2 is name, %1 is value"
+msgid "<br /><nobr><b>%2:</b></nobr>&nbsp;%1"
+msgstr "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
 
 #: libkopete/kopetecontact.cpp:669
 #, qt-format
@@ -1053,7 +1060,7 @@ msgstr "Онлайн"
 msgid "Last Seen"
 msgstr "Охирги марта кўринган"
 
-#: libkopete/kopeteglobal.cpp:153 kopete/kopetewindow.cpp:1006
+#: libkopete/kopeteglobal.cpp:153 kopete/kopetewindow.cpp:990
 #: protocols/meanwhile/meanwhileprotocol.cpp:62
 msgid "Status Message"
 msgstr ""
@@ -1152,16 +1159,6 @@ msgstr ""
 #: kopete/contactlist/kopetecontactlistview.cpp:515 rc.cpp:2384
 msgid "&Add Contact"
 msgstr "Алоқани &қўшиш"
-
-#. i18n: tag string
-#. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 112
-#: kopete/kopetewindow.cpp:310 rc.cpp:3192 protocols/qq/qqprotocol.cpp:39
-#: protocols/gadu/gaduprotocol.cpp:60
-#: protocols/oscar/aim/aimstatusmanager.cpp:67
-#: protocols/oscar/icq/icqstatusmanager.cpp:74
-#: protocols/groupwise/gwprotocol.cpp:52
-msgid "O&ffline"
-msgstr "О&флайн"
 
 #: kopete/kopetewindow.cpp:315
 msgid "&Export Contacts..."
@@ -1263,17 +1260,17 @@ msgstr "Алоқалар рўйхатини кўрсатиш ёки бекити
 msgid "Set Away/Back"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:677
+#: kopete/kopetewindow.cpp:661
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:679
+#: kopete/kopetewindow.cpp:663
 msgid "Docking in System Tray"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:841
+#: kopete/kopetewindow.cpp:825
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1290,12 +1287,12 @@ msgid ""
 msgstr ""
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1012
+#: kopete/kopetewindow.cpp:996
 #, fuzzy
 msgid "Add "
 msgstr "Қўшиш >>"
 
-#: kopete/kopetewindow.cpp:1087
+#: kopete/kopetewindow.cpp:1071
 #: kopete/contactlist/kopetecontactlistview.cpp:1772
 msgid "Add Contact"
 msgstr "Алоқани қўшиш"
@@ -2445,135 +2442,142 @@ msgstr "Чат"
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> энди %2.</qt>"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:223
-#: kopete/chatwindow/kopeteemailwindow.cpp:501
-#: kopete/chatwindow/kopeteemailwindow.cpp:519
+#: kopete/chatwindow/kopetechatwindow.cpp:225
+#, fuzzy
+#| msgid "Send"
+msgctxt "@action:button"
 msgid "Send"
 msgstr "Жўнатиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:234
+#: kopete/chatwindow/kopetechatwindow.cpp:236
+#, fuzzy
+#| msgid "Ready."
+msgctxt "@info:status"
 msgid "Ready."
 msgstr "Тайёр."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:340
+#: kopete/chatwindow/kopetechatwindow.cpp:339
 #: kopete/chatwindow/kopeteemailwindow.cpp:225
 msgid "&Send Message"
 msgstr "Хабар &жўнатиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:350
+#: kopete/chatwindow/kopetechatwindow.cpp:349
 msgid "Close All Chats"
 msgstr "Ҳамма ойналарни ёпиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:355
+#: kopete/chatwindow/kopetechatwindow.cpp:354
 msgid "&Activate Next Tab"
 msgstr "&Кейинги таб"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:361
+#: kopete/chatwindow/kopetechatwindow.cpp:360
 msgid "&Activate Previous Tab"
 msgstr "&Олдинги таб"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:367
+#: kopete/chatwindow/kopetechatwindow.cpp:366
 msgid "Nic&k Completion"
 msgstr "Тахал&лусни авто-тўлдириш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:372
+#: kopete/chatwindow/kopetechatwindow.cpp:371
 msgid "&Detach Chat"
 msgstr "Ойнани &ажратиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:377
+#: kopete/chatwindow/kopetechatwindow.cpp:376
 msgid "&Move Tab to Window"
 msgstr "&Табни ойнага қўйиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:384
+#: kopete/chatwindow/kopetechatwindow.cpp:383
 msgid "&Tab Placement"
 msgstr "Таб &жойлашуви"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:396
+#: kopete/chatwindow/kopetechatwindow.cpp:395
 msgid "Set Default &Font..."
 msgstr "&Андоза шрифт"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:400
+#: kopete/chatwindow/kopetechatwindow.cpp:399
 msgid "Set Default Text &Color..."
 msgstr "Андоза &матн ранги"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:404
+#: kopete/chatwindow/kopetechatwindow.cpp:403
 #: kopete/chatwindow/kopeteemailwindow.cpp:246
 msgid "Set &Background Color..."
 msgstr "&Орқа фон ранги"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:408
+#: kopete/chatwindow/kopetechatwindow.cpp:407
 msgid "Previous History"
 msgstr "Олдинги тарих"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:413
+#: kopete/chatwindow/kopetechatwindow.cpp:412
 msgid "Next History"
 msgstr "Кейинги тарих"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:425
+#: kopete/chatwindow/kopetechatwindow.cpp:424
 msgid "Place to Left of Chat Area"
 msgstr "Чат майдонидан чапда"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:429
+#: kopete/chatwindow/kopetechatwindow.cpp:428
 msgid "Place to Right of Chat Area"
 msgstr "Чат майдонидан ўнгда"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:433
+#: kopete/chatwindow/kopetechatwindow.cpp:432
 msgid "Show"
 msgstr "Кўрсатиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:435
+#: kopete/chatwindow/kopetechatwindow.cpp:434
 msgid "Hide"
 msgstr "Бекитиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:438
+#: kopete/chatwindow/kopetechatwindow.cpp:437
 msgid "Automatic Spell Checking"
 msgstr "Имлони авто-текшириш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:448
+#: kopete/chatwindow/kopetechatwindow.cpp:447
 msgid "Co&ntacts"
 msgstr "Ал&оқалар"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:472
+#: kopete/chatwindow/kopetechatwindow.cpp:471
 #: kopete/chatwindow/kopeteemailwindow.cpp:274
 msgid "Toolbar Animation"
 msgstr "Асбоблар панели анимацияси"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:626
+#, fuzzy
+#| msgid "Close the current tab"
+msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "Жорий табни ёпиш"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1036
+#: kopete/chatwindow/kopetechatwindow.cpp:1033
 msgid "More..."
 msgstr "Кўпроқ"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1052
+#: kopete/chatwindow/kopetechatwindow.cpp:1049
 #, fuzzy
 msgid "Top"
 msgstr "Мавзу"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1055
+#: kopete/chatwindow/kopetechatwindow.cpp:1052
 msgid "Bottom"
 msgstr ""
 
-#: kopete/chatwindow/chatmessagepart.cpp:244
+#: kopete/chatwindow/chatmessagepart.cpp:243
 #: plugins/history/historydialog.cpp:186
 msgid "Copy Link Address"
 msgstr "Боғ манзилидан нусха олиш"
 
-#: kopete/chatwindow/chatmessagepart.cpp:271
+#: kopete/chatwindow/chatmessagepart.cpp:267
 msgid "Save Conversation"
 msgstr "Суҳбатни сақлаш"
 
-#: kopete/chatwindow/chatmessagepart.cpp:313
+#: kopete/chatwindow/chatmessagepart.cpp:309
 #, qt-format
 msgid "<qt>Could not open <b>%1</b> for writing.</qt>"
 msgstr "<qt>Ёзиш учун қуйидагини очиб бўлмади: <b>%1</b></qt>"
 
-#: kopete/chatwindow/chatmessagepart.cpp:314
+#: kopete/chatwindow/chatmessagepart.cpp:310
 msgid "Error While Saving"
 msgstr "Сақлашда хато"
 
-#: kopete/chatwindow/chatmessagepart.cpp:652
+#: kopete/chatwindow/chatmessagepart.cpp:648
 msgid "User Has Left"
 msgstr "Фойдаланувчи чиқиб кетди"
 
@@ -2614,8 +2618,6 @@ msgstr "Гуруҳ чатидан чиқиш"
 #: kopete/chatwindow/kopeteemailwindow.cpp:462
 #: kopete/chatwindow/kopeteemailwindow.cpp:469
 #: kopete/chatwindow/kopeteemailwindow.cpp:476
-#: kopete/chatwindow/chatview.cpp:347 kopete/chatwindow/chatview.cpp:354
-#: kopete/chatwindow/chatview.cpp:361
 msgid "Cl&ose Chat"
 msgstr "Ойн&ани ёпиш"
 
@@ -2647,6 +2649,11 @@ msgstr ""
 #: kopete/chatwindow/chatview.cpp:360
 msgid "Message in Transit"
 msgstr ""
+
+#: kopete/chatwindow/kopeteemailwindow.cpp:501
+#: kopete/chatwindow/kopeteemailwindow.cpp:519
+msgid "Send"
+msgstr "Жўнатиш"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:508
 msgid "Reply"
@@ -2725,6 +2732,14 @@ msgstr "&Энига"
 #, fuzzy
 msgid "Chat members list"
 msgstr "&Чат аъзолари рўйхати"
+
+#: kopete/chatwindow/chatview.cpp:347 kopete/chatwindow/chatview.cpp:354
+#: kopete/chatwindow/chatview.cpp:361
+#, fuzzy
+#| msgid "Cl&ose Chat"
+msgctxt "@action:button"
+msgid "Close Chat"
+msgstr "Ойн&ани ёпиш"
 
 #: kopete/chatwindow/chatview.cpp:396
 #, fuzzy, qt-format
@@ -9765,6 +9780,16 @@ msgid "Choose this status to disconnect with description entered below."
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 112
+#: rc.cpp:3192 protocols/qq/qqprotocol.cpp:39
+#: protocols/gadu/gaduprotocol.cpp:60
+#: protocols/oscar/aim/aimstatusmanager.cpp:67
+#: protocols/oscar/icq/icqstatusmanager.cpp:74
+#: protocols/groupwise/gwprotocol.cpp:52
+msgid "O&ffline"
+msgstr "О&флайн"
+
+#. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 132
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 151
@@ -14112,11 +14137,6 @@ msgstr ""
 msgid "Select public key for %1"
 msgstr ""
 
-#: plugins/cryptography/cryptographyselectuserkey.cpp:84
-#: plugins/cryptography/cryptographyguiclient.cpp:143
-msgid "Public Keys Found"
-msgstr ""
-
 #: plugins/cryptography/cryptographypreferences.cpp:48
 #: plugins/cryptography/cryptographypreferences.cpp:49
 msgid "Select the key you want to use to decrypt and sign messages"
@@ -14178,58 +14198,51 @@ msgstr "Расмни танлаш"
 msgid "Export checked keys to address book"
 msgstr "Манзиллар дафтарига экспорт қилиш"
 
-#: plugins/cryptography/exportkeys.cpp:71
+#: plugins/cryptography/exportkeys.cpp:69
 #, fuzzy
 #| msgid "No Contacts with Photo Support"
 msgid "<No meta-contacts with keys to export>"
 msgstr "Расмли алоқа мавжуд эмас"
 
-#: plugins/cryptography/cryptographyplugin.cpp:70
+#: plugins/cryptography/kabckeyselector.cpp:29
+msgid "Public Key Found"
+msgstr ""
+
+#: plugins/cryptography/kabckeyselector.cpp:40
+msgid "Public Keys Found"
+msgstr ""
+
+#: plugins/cryptography/cryptographyplugin.cpp:69
 #, fuzzy
 #| msgid "Select Picture..."
 msgid "&Select Public Key..."
 msgstr "Расмни танлаш"
 
-#: plugins/cryptography/cryptographyplugin.cpp:76
+#: plugins/cryptography/cryptographyplugin.cpp:75
 #, fuzzy
 #| msgid "Export to Address Book"
-msgid "&Export Public Key To Address Book..."
+msgid "&Export Public Keys To Address Book..."
 msgstr "Манзиллар дафтарига экспорт қилиш"
 
-#: plugins/cryptography/cryptographyplugin.cpp:153
-#: plugins/cryptography/cryptographyplugin.cpp:166
+#: plugins/cryptography/cryptographyplugin.cpp:154
+#: plugins/cryptography/cryptographyplugin.cpp:167
 msgid ""
 "Cryptography plugin refuses to show the most recent message because it "
 "contains an attempt to forge an encrypted or signed message"
 msgstr ""
 
-#: plugins/cryptography/cryptographyplugin.cpp:212
+#: plugins/cryptography/cryptographyplugin.cpp:211
 msgid "You have not chosen an encryption key for one or more recipients"
 msgstr ""
 
-#: plugins/cryptography/cryptographyplugin.cpp:267
-msgid "No key has been set for this meta-contact"
-msgstr ""
-
-#: plugins/cryptography/cryptographyplugin.cpp:267
-#, fuzzy
-msgid "No Key"
-msgstr "Йўқ"
-
-#: plugins/cryptography/cryptographyplugin.cpp:278
-#, fuzzy
-#| msgid "Select Picture..."
-msgid "Export Public Key"
-msgstr "Расмни танлаш"
-
-#: plugins/cryptography/cryptographyplugin.cpp:295
+#: plugins/cryptography/cryptographyplugin.cpp:272
 #, fuzzy
 #| msgid "Enter passphrase for <b>%1</b>:"
 msgid "Enter password for GPG encryption and signing key"
 msgstr "<b>%1</b> учун махфий сўзни киритинг:"
 
-#: plugins/cryptography/cryptographyplugin.cpp:309
-#: plugins/cryptography/cryptographyguiclient.cpp:164
+#: plugins/cryptography/cryptographyplugin.cpp:288
+#: plugins/cryptography/cryptographyguiclient.cpp:153
 msgid ""
 "This protocol may not work with messages that are encrypted. This is because "
 "encrypted messages are very long, and the server or peer may reject them due "
@@ -14237,8 +14250,8 @@ msgid ""
 "temporarily suspended, turn off encryption."
 msgstr ""
 
-#: plugins/cryptography/cryptographyplugin.cpp:309
-#: plugins/cryptography/cryptographyguiclient.cpp:164
+#: plugins/cryptography/cryptographyplugin.cpp:288
+#: plugins/cryptography/cryptographyguiclient.cpp:153
 #, fuzzy
 #| msgid "Unsupported protocol version."
 msgid "Cryptography Unsupported Protocol"
@@ -14252,27 +14265,29 @@ msgid ""
 "You have %2 tries left."
 msgstr "<b>%1</b> учун махфий сўзни киритинг:"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:78
+#: plugins/cryptography/cryptographyguiclient.cpp:56
+#, fuzzy
+#| msgid "Format Toolbar"
+msgid "Cryptography"
+msgstr "Формат асбоблар панели"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:80
 msgid "Encrypt Messages"
 msgstr "Хабарларни шифрлаш"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:80
+#: plugins/cryptography/cryptographyguiclient.cpp:82
 #, fuzzy
 #| msgid "&Send Message"
 msgid "Sign Messages"
 msgstr "Хабар &жўнатиш"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:82
+#: plugins/cryptography/cryptographyguiclient.cpp:84
 #, fuzzy
 #| msgid "Export Contacts to Address Book"
-msgid "Export Contact's Key to Address Book"
+msgid "Export Contacts' Keys to Address Book"
 msgstr "Алоқаларни манзиллар дафтарига экспорт қилиш"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:132
-msgid "Public Key Found"
-msgstr ""
-
-#: plugins/cryptography/cryptographyguiclient.cpp:174
+#: plugins/cryptography/cryptographyguiclient.cpp:164
 #, qt-format
 msgid ""
 "To send encrypted messages to %2, you still need to select a public key for "
@@ -14284,7 +14299,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugins/cryptography/cryptographyguiclient.cpp:174
+#: plugins/cryptography/cryptographyguiclient.cpp:164
 msgid "Missing public key"
 msgid_plural "Missing public keys"
 msgstr[0] ""
@@ -19896,28 +19911,13 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-#~| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
-#~| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
-#~ msgctxt ""
-#~ "@label:textbox <b>DISPLAY NAME</b><br><img src=\"%2\">&nbsp;CONTACT STATUS"
-#~ msgid "<b><nobr>%3</nobr></b><br><img src=\"%2\">&nbsp;%1"
-#~ msgstr "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
+#~ msgid "No Key"
+#~ msgstr "Йўқ"
 
 #, fuzzy
-#~| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
-#~| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
-#~ msgctxt ""
-#~ "@label:textbox <b>DISPLAY NAME</b> (CONTACT ID)<br><img src=\"%2\">&nbsp;"
-#~ "CONTACT STATUS"
-#~ msgid "<nobr><b>%4</b> (%3)</nobr><br><img src=\"%2\">&nbsp;%1"
-#~ msgstr "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
-
-#, fuzzy
-#~| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
-#~| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
-#~ msgctxt "@label:textbox <br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
-#~ msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
-#~ msgstr "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
+#~| msgid "Select Picture..."
+#~ msgid "Export Public Key"
+#~ msgstr "Расмни танлаш"
 
 #, fuzzy
 #~ msgid "The list of accounts"
@@ -20000,11 +20000,6 @@ msgstr ""
 
 #~ msgid "Unlimited"
 #~ msgstr "Чексиз"
-
-#, fuzzy
-#~| msgid "Format Toolbar"
-#~ msgid "Cryptography Plugin"
-#~ msgstr "Формат асбоблар панели"
 
 #~ msgid "&Video"
 #~ msgstr "&Видео"
