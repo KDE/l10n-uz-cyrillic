@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-09 05:47+0200\n"
+"POT-Creation-Date: 2007-09-18 05:45+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -932,7 +932,9 @@ msgstr "&Расм"
 #. i18n: file ./plugins/viewplugins/histogram/histogram.rc line 4
 #. i18n: tag text
 #. i18n: file ./plugins/viewplugins/bracketing2hdr/bracketing2hdr.rc line 4
-#: rc.cpp:18 rc.cpp:2550 rc.cpp:2598 rc.cpp:2604 rc.cpp:2649
+#. i18n: tag text
+#. i18n: file ./plugins/viewplugins/tonemapping/tonemapping.rc line 4
+#: rc.cpp:18 rc.cpp:2550 rc.cpp:2598 rc.cpp:2604 rc.cpp:2649 rc.cpp:2661
 msgid "&Layer"
 msgstr "&Қатлам"
 
@@ -6746,6 +6748,8 @@ msgstr ""
 
 #: colorspaces/ycbcr/kis_ycbcr_u8_colorspace.cc:36
 #: colorspaces/ycbcr/kis_ycbcr_u16_colorspace.cc:36
+#: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:35
+#: colorspaces/xyz_float_hdr/kis_xyz_hdr_colorspace.h:45
 msgid "Y"
 msgstr "Y"
 
@@ -6762,7 +6766,8 @@ msgstr "Курсор"
 
 #: colorspaces/ycbcr/kis_ycbcr_u8_colorspace.cc:39
 #: colorspaces/ycbcr/kis_ycbcr_u16_colorspace.cc:39
-#: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:38
+#: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:37
+#: colorspaces/xyz_float_hdr/kis_xyz_hdr_colorspace.h:57
 #: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:57
 #: colorspaces/rgb_float_hdr/kis_rgb_float_hdr_colorspace.h:86
 msgid "Alpha"
@@ -6819,22 +6824,24 @@ msgid "XYZ16 Histogram"
 msgstr "Гистограмма"
 
 #: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:34
-#, fuzzy
-msgid "Cyan"
-msgstr "Кранлар"
-
-#: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:35
-#, fuzzy
-msgid "Magenta"
-msgstr "Қизғиш-қўнғир"
+#: colorspaces/xyz_float_hdr/kis_xyz_hdr_colorspace.h:39
+msgid "X"
+msgstr "X"
 
 #: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:36
-msgid "Yellow"
-msgstr "Сариқ"
+#: colorspaces/xyz_float_hdr/kis_xyz_hdr_colorspace.h:51
+msgid "Z"
+msgstr "Z"
 
-#: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:37
-msgid "Black"
-msgstr "Қора"
+#: colorspaces/xyz_float_hdr/xyz_float_hdr.cc:54
+#: colorspaces/rgb_float_hdr/rgb_float_hdr.cc:88
+msgid "Float32 Half Histogram"
+msgstr ""
+
+#: colorspaces/xyz_float_hdr/kis_xyz_f32_hdr_colorspace.cc:23
+#: colorspaces/xyz_float_hdr/kis_xyz_f32_hdr_colorspace.h:53
+msgid "XYZ (32-bit float/channel) for High Dynamic Range imaging"
+msgstr ""
 
 #: colorspaces/lms_f32/lms_f32_plugin.cc:52
 #, fuzzy
@@ -6895,10 +6902,6 @@ msgstr ""
 #, fuzzy
 msgid "Float16 Half Histogram"
 msgstr "Float32 гистограммаси"
-
-#: colorspaces/rgb_float_hdr/rgb_float_hdr.cc:88
-msgid "Float32 Half Histogram"
-msgstr ""
 
 #: colorspaces/rgb_float_hdr/kis_rgb_f32_hdr_colorspace.h:52
 #: colorspaces/rgb_float_hdr/kis_rgb_f32_hdr_colorspace.cc:29
@@ -7848,6 +7851,10 @@ msgstr "Расмнинг номини ўзгартириш"
 msgid "Separating image..."
 msgstr "Қатламни расм сифатида сақлаш..."
 
+#: plugins/viewplugins/tonemapping/tonemapping.cc:50
+msgid "Tonemapping"
+msgstr ""
+
 #: plugins/filters/blur/kis_blur_filter.cc:35
 #, fuzzy
 msgid "&Blur..."
@@ -8256,6 +8263,20 @@ msgstr ""
 #: plugins/filters/threadtest/threadtest.h:40
 msgid "Invert with Threads"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Cyan"
+#~ msgstr "Кранлар"
+
+#, fuzzy
+#~ msgid "Magenta"
+#~ msgstr "Қизғиш-қўнғир"
+
+#~ msgid "Yellow"
+#~ msgstr "Сариқ"
+
+#~ msgid "Black"
+#~ msgstr "Қора"
 
 #, fuzzy
 #~| msgid "Leopard"
@@ -9157,12 +9178,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "XYZ/Alpha"
 #~ msgstr "XYZ/Aльфа"
-
-#~ msgid "X"
-#~ msgstr "X"
-
-#~ msgid "Z"
-#~ msgstr "Z"
 
 #, fuzzy
 #~ msgid "L"
