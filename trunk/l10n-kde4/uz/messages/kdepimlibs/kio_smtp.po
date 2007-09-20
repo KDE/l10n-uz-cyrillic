@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smtp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-19 05:34+0200\n"
+"POT-Creation-Date: 2007-09-20 05:35+0200\n"
 "PO-Revision-Date: 2005-09-25 19:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,14 +17,14 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: command.cc:139
+#: command.cpp:137
 msgid ""
 "The server rejected both EHLO and HELO commands as unknown or "
 "unimplemented.\n"
 "Please contact the server's system administrator."
 msgstr ""
 
-#: command.cc:153
+#: command.cpp:151
 #, qt-format
 msgid ""
 "Unexpected server response to %1 command.\n"
@@ -33,36 +33,36 @@ msgstr ""
 "%1 буйруғига сервердан кутилмаган жавоб олинди.\n"
 "%2"
 
-#: command.cc:173
+#: command.cpp:171
 msgid ""
 "Your SMTP server does not support TLS. Disable TLS, if you want to connect "
 "without encryption."
 msgstr ""
 
-#: command.cc:187
+#: command.cpp:185
 msgid ""
 "Your SMTP server claims to support TLS, but negotiation was unsuccessful.\n"
 "You can disable TLS in KDE using the crypto settings module."
 msgstr ""
 
-#: command.cc:192
+#: command.cpp:190
 msgid "Connection Failed"
 msgstr "Алоқа ўрнатиш муваффақиятсиз тугади."
 
-#: command.cc:198
+#: command.cpp:196
 #, qt-format
 msgid "An error occurred during authentication: %1"
 msgstr ""
 
-#: command.cc:243
+#: command.cpp:241
 msgid "Authentication support is not compiled into kio_smtp."
 msgstr ""
 
-#: command.cc:272
+#: command.cpp:270
 msgid "No authentication details supplied."
 msgstr "Тасдиқлаш учун маълумот кўрсатилмаган."
 
-#: command.cc:369
+#: command.cpp:367
 #, qt-format
 msgid ""
 "Your SMTP server does not support %1.\n"
@@ -73,7 +73,7 @@ msgstr ""
 "Бошқа тасдиқлаш усулини танланг.\n"
 "%2"
 
-#: command.cc:373
+#: command.cpp:371
 #, fuzzy, qt-format
 msgid ""
 "Your SMTP server does not support authentication.\n"
@@ -82,7 +82,7 @@ msgstr ""
 "SMTP сервери тасдиқлашни қўлламайди.\n"
 "  %2"
 
-#: command.cc:377
+#: command.cpp:375
 #, qt-format
 msgid ""
 "Authentication failed.\n"
@@ -93,18 +93,18 @@ msgstr ""
 "Эҳтимол, махфий сўз нотўғри.\n"
 "%1"
 
-#: command.cc:515
+#: command.cpp:513
 msgid "Could not read data from application."
 msgstr "Дастурдан маълумотни ўқиб бўлмади."
 
-#: command.cc:532
+#: command.cpp:530
 #, qt-format
 msgid ""
 "The message content was not accepted.\n"
 "%1"
 msgstr ""
 
-#: response.cc:105
+#: response.cpp:103
 #, qt-format
 msgid ""
 "The server responded:\n"
@@ -113,29 +113,29 @@ msgstr ""
 "Сервердан олинган жавоб:\n"
 "%1"
 
-#: response.cc:108
+#: response.cpp:106
 #, qt-format
 msgid "The server responded: \"%1\""
 msgstr "Сервердан олинган жавоб: \"%1\""
 
-#: response.cc:111
+#: response.cpp:109
 msgid "This is a temporary failure. You may try again later."
 msgstr "Вақтинчалик хато. Кейинроқ уриниб кўринг."
 
-#: smtp.cc:180
+#: smtp.cpp:179
 msgid "The application sent an invalid request."
 msgstr ""
 
-#: smtp.cc:242
+#: smtp.cpp:241
 msgid "The sender address is missing."
 msgstr "Жўнатувчининг манзили етишмайди."
 
-#: smtp.cc:250
+#: smtp.cpp:249
 #, qt-format
 msgid "SMTPProtocol::smtp_open failed (%1)"
 msgstr "SMTPProtocol::smtp_open муваффақиятсиз тугади (%1)"
 
-#: smtp.cc:258
+#: smtp.cpp:257
 msgid ""
 "Your server does not support sending of 8-bit messages.\n"
 "Please use base64 or quoted-printable encoding."
@@ -143,16 +143,16 @@ msgstr ""
 "Сервер 8-битли хабарларни қўлламайди.\n"
 "Илтимос base64 ёки quoted-printable кодлаш усулини танланг."
 
-#: smtp.cc:304
+#: smtp.cpp:303
 msgid "Writing to socket failed."
 msgstr ""
 
-#: smtp.cc:342
+#: smtp.cpp:341
 #, qt-format
 msgid "Invalid SMTP response (%1) received."
 msgstr "Хато SMTP жавоби (%1) олинди."
 
-#: smtp.cc:526
+#: smtp.cpp:525
 #, qt-format
 msgid ""
 "The server did not accept the connection.\n"
@@ -161,11 +161,11 @@ msgstr ""
 "Сервер алоқани қабул қилмади.\n"
 "%1"
 
-#: smtp.cc:605
+#: smtp.cpp:604
 msgid "Username and password for your SMTP account:"
 msgstr "SMTP ҳисоби учун фойдаланувчи ва махфий сўз:"
 
-#: transactionstate.cc:52
+#: transactionstate.cpp:50
 #, qt-format
 msgid ""
 "The server did not accept a blank sender address.\n"
@@ -174,7 +174,7 @@ msgstr ""
 "Сервер жўнатувчининг бўш манзилини қабул қилмади.\n"
 "%1"
 
-#: transactionstate.cc:55
+#: transactionstate.cpp:53
 #, qt-format
 msgid ""
 "The server did not accept the sender address \"%1\".\n"
@@ -183,7 +183,7 @@ msgstr ""
 "Сервер жўнатувчининг \"%1\" манзилини қабул қилмади.\n"
 "%2"
 
-#: transactionstate.cc:100
+#: transactionstate.cpp:98
 #, qt-format
 msgid ""
 "Message sending failed since the following recipients were rejected by the "
@@ -194,14 +194,14 @@ msgstr ""
 "қилувчиларни рад этди:\n"
 "%1"
 
-#: transactionstate.cc:105
+#: transactionstate.cpp:103
 #, qt-format
 msgid ""
 "The attempt to start sending the message content failed.\n"
 "%1"
 msgstr ""
 
-#: transactionstate.cc:109
+#: transactionstate.cpp:107
 msgid "Unhandled error condition. Please send a bug report."
 msgstr ""
 
