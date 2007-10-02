@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-30 05:38+0200\n"
+"POT-Creation-Date: 2007-10-02 05:32+0200\n"
 "PO-Revision-Date: 2007-02-11 00:24+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -511,7 +511,7 @@ msgid "Tone Enhance"
 msgstr ""
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
-#: mainWindow/kpMainWindow_File.cpp:644
+#: mainWindow/kpMainWindow_File.cpp:648
 msgid "Document Properties"
 msgstr ""
 
@@ -853,7 +853,7 @@ msgid "Makes an elliptical or circular selection"
 msgstr ""
 
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
-#: imagelib/transforms/kpTransformCrop.cpp:371
+#: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:242
 #: mainWindow/kpMainWindow_Edit.cpp:391 mainWindow/kpMainWindow_Image.cpp:293
 msgid "Selection: Create"
 msgstr "Танланган: Яратиш"
@@ -1283,43 +1283,43 @@ msgstr ""
 msgid "Resize Image: Right click to cancel."
 msgstr "Расмнинг ўлчамини ўзгартириш: Бекор қилиш учун ўнг сичқончани босинг."
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:383
+#: imagelib/transforms/kpTransformAutoCrop.cpp:384
 msgid "Remove Internal B&order"
 msgstr ""
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:385
+#: imagelib/transforms/kpTransformAutoCrop.cpp:386
 msgid "Remove Internal Border"
 msgstr ""
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:390
+#: imagelib/transforms/kpTransformAutoCrop.cpp:391
 msgid "Autocr&op"
 msgstr ""
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:392
+#: imagelib/transforms/kpTransformAutoCrop.cpp:393
 msgid "Autocrop"
 msgstr ""
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:639
+#: imagelib/transforms/kpTransformAutoCrop.cpp:622
 msgid ""
 "KolourPaint cannot remove the selection's internal border as it could not be "
 "located."
 msgstr ""
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:641
+#: imagelib/transforms/kpTransformAutoCrop.cpp:624
 msgid "Cannot Remove Internal Border"
 msgstr ""
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:647
+#: imagelib/transforms/kpTransformAutoCrop.cpp:630
 msgid ""
 "KolourPaint cannot automatically crop the image as its border could not be "
 "located."
 msgstr ""
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:649
+#: imagelib/transforms/kpTransformAutoCrop.cpp:632
 msgid "Cannot Autocrop"
 msgstr ""
 
-#: imagelib/transforms/kpTransformCrop.cpp:272
+#: imagelib/transforms/kpTransformCrop.cpp:45
 msgid "Set as Image"
 msgstr ""
 
@@ -1768,38 +1768,38 @@ msgstr "Иш столига қўйиш (&марказда)"
 msgid "Set as Wallpaper (&Tiled)"
 msgstr "Иш столига қўйиш (&кафель)"
 
-#: mainWindow/kpMainWindow_File.cpp:438
+#: mainWindow/kpMainWindow_File.cpp:442
 msgid "Open Image"
 msgstr "Расмни очиш"
 
-#: mainWindow/kpMainWindow_File.cpp:510
+#: mainWindow/kpMainWindow_File.cpp:514
 msgid "Scanning support is not installed."
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:511
+#: mainWindow/kpMainWindow_File.cpp:515
 msgid "No Scanning Support"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:614
+#: mainWindow/kpMainWindow_File.cpp:618
 msgid "Cannot scan - out of graphics memory."
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:615
+#: mainWindow/kpMainWindow_File.cpp:619
 #, fuzzy
 #| msgid "Cannot Paste"
 msgid "Cannot Scan"
 msgstr "Қўйиб бўлмайди"
 
-#: mainWindow/kpMainWindow_File.cpp:881
+#: mainWindow/kpMainWindow_File.cpp:885
 msgid "Save Image As"
 msgstr "Расмни сақлаш"
 
-#: mainWindow/kpMainWindow_File.cpp:931
+#: mainWindow/kpMainWindow_File.cpp:935
 #, fuzzy
 msgid "Export"
 msgstr "&Экспорт қилиш"
 
-#: mainWindow/kpMainWindow_File.cpp:995
+#: mainWindow/kpMainWindow_File.cpp:999
 #, qt-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1807,7 +1807,7 @@ msgid ""
 "Are you sure?"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:1000 mainWindow/kpMainWindow_File.cpp:1010
+#: mainWindow/kpMainWindow_File.cpp:1004 mainWindow/kpMainWindow_File.cpp:1014
 #: mainWindow/kpMainWindow_Colors.cpp:346
 #: mainWindow/kpMainWindow_Colors.cpp:359
 #: mainWindow/kpMainWindow_Colors.cpp:368
@@ -1815,7 +1815,7 @@ msgstr ""
 msgid "&Reload"
 msgstr "&Қайтадан юклаш"
 
-#: mainWindow/kpMainWindow_File.cpp:1005
+#: mainWindow/kpMainWindow_File.cpp:1009
 #, qt-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1823,7 +1823,7 @@ msgid ""
 "Are you sure?"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:1316
+#: mainWindow/kpMainWindow_File.cpp:1320
 msgid ""
 "You must save this image before sending it.\n"
 "Do you want to save it?"
@@ -1831,7 +1831,7 @@ msgstr ""
 "Расмни жўнатишдан олдин уни сақлаш керак.\n"
 "Уни сақлашни истайсизми?"
 
-#: mainWindow/kpMainWindow_File.cpp:1359
+#: mainWindow/kpMainWindow_File.cpp:1363
 msgid ""
 "Before this image can be set as the wallpaper, you must save it as a local "
 "file.\n"
@@ -1840,7 +1840,7 @@ msgstr ""
 "Расмни иш столига қўйишдан олдин уни сақлаш керак.\n"
 "Уни сақлашни истайсизми?"
 
-#: mainWindow/kpMainWindow_File.cpp:1365
+#: mainWindow/kpMainWindow_File.cpp:1369
 msgid ""
 "Before this image can be set as the wallpaper, you must save it.\n"
 "Do you want to save it?"
@@ -1848,11 +1848,11 @@ msgstr ""
 "Расмни иш столига қўйишдан олдин уни сақлаш керак.\n"
 "Уни сақлашни истайсизми?"
 
-#: mainWindow/kpMainWindow_File.cpp:1439
+#: mainWindow/kpMainWindow_File.cpp:1443
 msgid "Could not change wallpaper."
 msgstr "Расмни иш столига қўйиб бўлмади."
 
-#: mainWindow/kpMainWindow_File.cpp:1474
+#: mainWindow/kpMainWindow_File.cpp:1478
 #, qt-format
 msgid ""
 "The document \"%1\" has been modified.\n"
