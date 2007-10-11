@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klaptopdaemon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-06 05:13+0200\n"
+"POT-Creation-Date: 2007-10-11 05:41+0200\n"
 "PO-Revision-Date: 2006-12-17 13:38+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -121,12 +121,16 @@ msgstr ""
 
 #: acpi.cpp:150 apm.cpp:149 buttons.cpp:292 power.cpp:329 profile.cpp:219
 #: sony.cpp:105 warning.cpp:297
-#, qt-format
+#, kde-format
 msgid "Version: %1"
 msgstr "Версияси: %1"
 
 #: acpi.cpp:171 apm.cpp:196
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The %1 application does not seem to have the same size or checksum as "
+#| "when it was compiled we do NOT recommend you proceed with making it "
+#| "setuid-root without further investigation"
 msgid ""
 "The %1 application does not seem to have the same size or checksum as when "
 "it was compiled we do NOT recommend you proceed with making it setuid-root "
@@ -178,7 +182,13 @@ msgid ""
 msgstr ""
 
 #: apm.cpp:102
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "If the above boxes are disabled then there is no 'helper' application set "
+#| "up to help change APM states, there are two ways you can enable this "
+#| "application, either make the file /proc/apm writeable by anyone every "
+#| "time your system boots or use the button below to make the %1 application "
+#| "set-uid root"
 msgid ""
 "If the above boxes are disabled then there is no 'helper' application set up "
 "to help change APM states, there are two ways you can enable this "
@@ -227,14 +237,17 @@ msgid ""
 msgstr ""
 
 #: apm.cpp:165
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "You will need to supply a root password to allow the privileges of the %1 "
+#| "application to change."
 msgid ""
 "You will need to supply a root password to allow the privileges of the %1 "
 "application to change."
 msgstr ""
 
 #: apm.cpp:178
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "%1 cannot be enabled because kdesu cannot be found.  Please make sure that "
 "it is installed correctly."
@@ -607,12 +620,12 @@ msgid "Power Manager Not Found"
 msgstr "Қувват бошқарув тизими топилмади"
 
 #: daemondock.cpp:380
-#, qt-format
+#, kde-format
 msgid "%1:%2 hours left"
 msgstr "%1:%2 соат қолди"
 
 #: daemondock.cpp:383
-#, qt-format
+#, kde-format
 msgid "%1% charged"
 msgstr "%1% қувватланган"
 
@@ -629,7 +642,7 @@ msgid "Not Charging"
 msgstr "Қувват олмаяпти"
 
 #: daemondock.cpp:407
-#, qt-format
+#, kde-format
 msgid "CPU: %1"
 msgstr "Процессор: %1"
 
@@ -667,7 +680,7 @@ msgid "Actions"
 msgstr "Амаллар"
 
 #: daemondock.cpp:453
-#, qt-format
+#, kde-format
 msgid "Slot %1"
 msgstr "Слот %1"
 
@@ -696,12 +709,12 @@ msgid "Plugged in - fully charged"
 msgstr "Электр қувватига уланган - батарея тўлиқ қувватланган"
 
 #: daemondock.cpp:646
-#, qt-format
+#, kde-format
 msgid "Plugged in - %1% charged (%2:%3 hours left)"
 msgstr "Электр қувватига уланган - батарея %1% қувватланган (%2:%3 соат қолди)"
 
 #: daemondock.cpp:650
-#, qt-format
+#, kde-format
 msgid "Plugged in - %1% charged"
 msgstr "Электр қувватига уланган - батарея %1% қувватланган"
 
@@ -710,12 +723,12 @@ msgid "Plugged in - no battery"
 msgstr "Элктр манбаига уланган - батарея йўқ"
 
 #: daemondock.cpp:661
-#, qt-format
+#, kde-format
 msgid "Running on batteries - %1% charged (%2:%3 hours left)"
 msgstr "Батареядан ишламоқда - %1% қувватланган (%2:%3 соат қолди)"
 
 #: daemondock.cpp:664
-#, qt-format
+#, kde-format
 msgid "Running on batteries - %1% charged"
 msgstr "Батареядан ишламоқда - %1% қувватланган"
 
@@ -740,7 +753,7 @@ msgid "&Update"
 msgstr ""
 
 #: kpcmciainfo.cpp:142
-#, qt-format
+#, kde-format
 msgid "Card Slot %1"
 msgstr "Карта слоти %1"
 
@@ -773,12 +786,12 @@ msgid "Resuming card..."
 msgstr ""
 
 #: kpcmciainfo.cpp:239
-#, qt-format
+#, kde-format
 msgid "Card type: %1 "
 msgstr "Карта тури: %1 "
 
 #: kpcmciainfo.cpp:241
-#, qt-format
+#, kde-format
 msgid "Driver: %1"
 msgstr "Драйвер: %1"
 
@@ -802,12 +815,12 @@ msgid "none"
 msgstr "йўқ"
 
 #: kpcmciainfo.cpp:258
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "IRQ: %1"
 msgstr "IRQ: %1%2"
 
 #: kpcmciainfo.cpp:259
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "IRQ: %1 (%2)"
 msgstr "IRQ: %1%2"
 
@@ -817,7 +830,7 @@ msgid "I/O port(s): none"
 msgstr "Кириш-чиқиш порт(лар)и: %1"
 
 #: kpcmciainfo.cpp:263
-#, qt-format
+#, kde-format
 msgid "I/O port(s): %1"
 msgstr "Кириш-чиқиш порт(лар)и: %1"
 
@@ -835,22 +848,22 @@ msgid "Cardbus"
 msgstr "Cardbus"
 
 #: kpcmciainfo.cpp:267
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Bus: %1 bit %2"
 msgstr "Шина: %1 бит %2"
 
 #: kpcmciainfo.cpp:269
-#, qt-format
+#, kde-format
 msgid "Device: %1"
 msgstr "Ускуна: %1"
 
 #: kpcmciainfo.cpp:271
-#, qt-format
+#, kde-format
 msgid "Power: +%1V"
 msgstr "Қувват: +%1V"
 
 #: kpcmciainfo.cpp:273
-#, qt-format
+#, kde-format
 msgid "Programming power: +%1V, +%2V"
 msgstr "Дастурлаш қувват: +%1В, +%2В"
 
@@ -859,7 +872,8 @@ msgid "Configuration base: none"
 msgstr ""
 
 #: kpcmciainfo.cpp:277
-#, qt-format
+#, kde-format
+#| msgid "Configuration base: 0x%1"
 msgid "Configuration base: 0x%1"
 msgstr ""
 
@@ -898,19 +912,19 @@ msgid "Battery power is running out."
 msgstr "Батареянинг қуввати тугаяпти."
 
 #: laptop_daemon.cpp:547 laptop_daemon.cpp:553
-#, qt-format
+#, kde-format
 msgid "%1 % charge left."
 msgstr "%1 % қувват қолди."
 
 #: laptop_daemon.cpp:561
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "1 minute left."
 msgid_plural "%1 minutes left."
 msgstr[0] "1 дақиқа қолди."
 msgstr[1] "%1 дақиқа қолди."
 
 #: laptop_daemon.cpp:566
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "1% left."
 msgid_plural "%1 percent left."
 msgstr[0] "1% қолди."
@@ -1086,12 +1100,12 @@ msgid ""
 msgstr ""
 
 #: portable.cpp:1318
-#, qt-format
+#, kde-format
 msgid "%1 MHz (%2)"
 msgstr "%1 МГц (%2)"
 
 #: portable.cpp:1692
-#, qt-format
+#, kde-format
 msgid "%1 MHz"
 msgstr "%1 МГц"
 
