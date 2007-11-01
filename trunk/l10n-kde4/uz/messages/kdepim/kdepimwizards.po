@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepimwizards\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:33+0200\n"
+"POT-Creation-Date: 2007-11-01 05:57+0100\n"
 "PO-Revision-Date: 2006-02-12 01:11+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -22,7 +22,8 @@ msgstr ""
 msgid "eGroupware Server Configuration Wizard"
 msgstr "Novell GroupWise мослаш ёрдамчиси"
 
-#: egroupwaremain.cpp:40 groupwisemain.cpp:40 kolabmain.cpp:39 sloxmain.cpp:39
+#: egroupwaremain.cpp:40 groupwisemain.cpp:40 kolabmain.cpp:39
+#: scalixmain.cpp:38 sloxmain.cpp:39
 msgid "Verbose output"
 msgstr ""
 
@@ -83,7 +84,7 @@ msgid "Invalid path to xmlrpc.php entered."
 msgstr "xmlrpc.php учун кўрсатилган йўл нотўғри."
 
 #: egroupwarewizard.cpp:369 groupwisewizard.cpp:365 groupwisewizard.cpp:371
-#: kolabwizard.cpp:325 sloxwizard.cpp:273
+#: kolabwizard.cpp:325 scalixwizard.cpp:461 sloxwizard.cpp:273
 msgid "Please fill in all fields."
 msgstr "Илтимос ҳамма майдонларни тўлдиринг."
 
@@ -143,11 +144,13 @@ msgstr "Порт:"
 msgid "User name:"
 msgstr "Фойдаланувчи:"
 
-#: groupwisewizard.cpp:297 kolabwizard.cpp:280 sloxwizard.cpp:242
+#: groupwisewizard.cpp:297 kolabwizard.cpp:280 scalixwizard.cpp:404
+#: sloxwizard.cpp:242
 msgid "Password:"
 msgstr "Махфий сўз:"
 
-#: groupwisewizard.cpp:303 kolabwizard.cpp:286 sloxwizard.cpp:248
+#: groupwisewizard.cpp:303 kolabwizard.cpp:286 scalixwizard.cpp:412
+#: sloxwizard.cpp:248
 msgid "Save password"
 msgstr "Махфий сўзни сақлаш"
 
@@ -163,11 +166,11 @@ msgstr "Хат"
 msgid "Create Mail Account"
 msgstr ""
 
-#: groupwisewizard.cpp:330 kolabwizard.cpp:268
+#: groupwisewizard.cpp:330 kolabwizard.cpp:268 scalixwizard.cpp:380
 msgid "Email address:"
 msgstr "Электрон почта:"
 
-#: groupwisewizard.cpp:336
+#: groupwisewizard.cpp:336 scalixwizard.cpp:373
 msgid "Full name:"
 msgstr "Тўлиқ исми:"
 
@@ -195,11 +198,11 @@ msgstr ""
 msgid "Journal"
 msgstr ""
 
-#: kmailchanges.cpp:141
+#: kmailchanges.cpp:152
 msgid "Create Disconnected IMAP Account for KMail"
 msgstr ""
 
-#: kmailchanges.cpp:274
+#: kmailchanges.cpp:309
 msgid "Create Online IMAP Account for KMail"
 msgstr ""
 
@@ -217,15 +220,15 @@ msgstr "Kolab сервери"
 msgid "Kolab Configuration Wizard"
 msgstr "Kolab мослаш ёрдамчиси"
 
-#: kolabwizard.cpp:50
+#: kolabwizard.cpp:50 scalixwizard.cpp:57
 msgid "Setup LDAP Search Account"
 msgstr ""
 
-#: kolabwizard.cpp:101
+#: kolabwizard.cpp:101 scalixwizard.cpp:158
 msgid "Create Calendar IMAP Resource"
 msgstr ""
 
-#: kolabwizard.cpp:121
+#: kolabwizard.cpp:121 scalixwizard.cpp:178
 msgid "Create Contact IMAP Resource"
 msgstr ""
 
@@ -454,6 +457,128 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mavnur@gmail.com"
 
+#: scalixkmailchanges.cpp:117 scalixwizard.cpp:167 scalixwizard.cpp:187
+#: scalixwizard.cpp:233 scalixwizard.cpp:237 scalixwizard.cpp:368
+#, fuzzy
+#| msgid "Exchange Server"
+msgid "Scalix Server"
+msgstr "Exchange сервери"
+
+#: scalixmain.cpp:35
+#, fuzzy
+#| msgid "Kolab Configuration Wizard"
+msgid "Scalix Configuration Wizard"
+msgstr "Kolab мослаш ёрдамчиси"
+
+#: scalixwizard.cpp:95
+msgid "Setup ScalixAdmin Account"
+msgstr ""
+
+#: scalixwizard.cpp:199
+msgid "Synchronize Scalix Account"
+msgstr ""
+
+#: scalixwizard.cpp:219
+msgid ""
+"Unable to start KMail to trigger initial synchronization with Scalix server"
+msgstr ""
+
+#: scalixwizard.cpp:378
+msgid "Your full name. Example: <i>Joe User</i>"
+msgstr ""
+
+#: scalixwizard.cpp:385
+#, fuzzy
+#| msgid ""
+#| "Your email address on the Kolab Server. Format: <i>name@example.net</i>"
+msgid ""
+"Your email address on the Scalix Server. Example: <i>name@crossplatform.com</"
+"i>"
+msgstr ""
+"Kolab серверидаги электрон почтангиз. Масалан <i>ismingiz@masalan.uz</i>"
+
+#: scalixwizard.cpp:388
+#, fuzzy
+#| msgid "Server name:"
+msgid "Server:"
+msgstr "Сервернинг номи:"
+
+#: scalixwizard.cpp:393
+msgid "The name or IP of the Scalix Server. Example: <i>scalix.domain.com</i>"
+msgstr ""
+
+#: scalixwizard.cpp:396
+#, fuzzy
+#| msgid "&Username:"
+msgid "Username:"
+msgstr "Ф&ойдаланувчи:"
+
+#: scalixwizard.cpp:401
+msgid "The user respectively login name. Example: <i>joe</i>"
+msgstr ""
+
+#: scalixwizard.cpp:410
+msgid "The password to your login."
+msgstr ""
+
+#: scalixwizard.cpp:414
+msgid "Shall the password be saved in KWallet?."
+msgstr ""
+
+#: scalixwizard.cpp:416
+#, fuzzy
+#| msgid "Use SSL connection"
+msgid "Use Secure Connection:"
+msgstr "SSL уланишдан фойдаланиш"
+
+#: scalixwizard.cpp:419
+msgid "No encryption"
+msgstr ""
+
+#: scalixwizard.cpp:420
+msgid "TLS encryption"
+msgstr ""
+
+#: scalixwizard.cpp:421
+#, fuzzy
+#| msgid "Use SSL connection"
+msgid "SSL encryption"
+msgstr "SSL уланишдан фойдаланиш"
+
+#: scalixwizard.cpp:424
+msgid "Choose the encryption type that is supported by your server."
+msgstr ""
+
+#: scalixwizard.cpp:426
+msgid "Authentication Type:"
+msgstr ""
+
+#: scalixwizard.cpp:429
+#, fuzzy
+#| msgid "Password:"
+msgid "Password"
+msgstr "Махфий сўз:"
+
+#: scalixwizard.cpp:430
+msgid "NTLM / SPA"
+msgstr ""
+
+#: scalixwizard.cpp:431
+msgid "GSSAPI"
+msgstr ""
+
+#: scalixwizard.cpp:432
+msgid "DIGEST-MD5"
+msgstr ""
+
+#: scalixwizard.cpp:433
+msgid "CRAM-MD5"
+msgstr ""
+
+#: scalixwizard.cpp:436
+msgid "Choose the authentication type that is supported by your server."
+msgstr ""
+
 #: sloxmain.cpp:34
 msgid "SUSE LINUX Openexchange Server Configuration Wizard"
 msgstr ""
@@ -484,9 +609,6 @@ msgstr "SUSE LINUX OpenExchange сервери"
 
 #~ msgid "Please select folders for addressbook:"
 #~ msgstr "Илтимос манзиллар дафтари учун жилдларни танланг:"
-
-#~ msgid "Exchange Server"
-#~ msgstr "Exchange сервери"
 
 #~ msgid "Microsoft Exchange Server"
 #~ msgstr "Microsoft Exchange сервери"
