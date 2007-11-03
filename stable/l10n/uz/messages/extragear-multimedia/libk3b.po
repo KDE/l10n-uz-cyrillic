@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b\n"
-"POT-Creation-Date: 2007-08-07 01:16+0200\n"
+"POT-Creation-Date: 2007-11-03 01:18+0100\n"
 "PO-Revision-Date: 2007-04-08 14:30+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -380,46 +380,41 @@ msgstr "Тозалаш хатоси "
 msgid "Sorry, no error handling yet."
 msgstr ""
 
-#: jobs/k3bcdcopyjob.cpp:1017 jobs/k3bverificationjob.cpp:153
+#: jobs/k3bverificationjob.cpp:154 jobs/k3bverificationjob.cpp:174
+#, fuzzy
+msgid "Checking medium"
+msgstr "Маълумот ташувчини текшириш"
+
+#: jobs/k3bverificationjob.cpp:170
+#, fuzzy
+msgid "Unable to Close the Tray"
+msgstr "%1 ускунасини очиб бўлмади."
+
+#: jobs/k3bverificationjob.cpp:205
+msgid "Internal Error: Verification job improperly initialized (%1)"
+msgstr ""
+
+#: jobs/k3bcdcopyjob.cpp:1017 jobs/k3bverificationjob.cpp:212
 #: projects/mixedcd/k3bmixedjob.cpp:512
 #, fuzzy
 msgid "Reloading the medium"
 msgstr "Дискни қайта юклаш"
 
-#: jobs/k3bverificationjob.cpp:166
-#, fuzzy
-msgid "Unable to Close the Tray"
-msgstr "%1 ускунасини очиб бўлмади."
-
-#: jobs/k3bverificationjob.cpp:168
-#, fuzzy
-msgid "Checking medium"
-msgstr "Маълумот ташувчини текшириш"
-
-#: jobs/k3bverificationjob.cpp:189
-#, fuzzy
-msgid "No tracks to verify found."
-msgstr "cdrdao драйвери топилмади."
-
-#: jobs/k3bverificationjob.cpp:204
-msgid "Internal Error: Verification job improperly initialized"
-msgstr ""
-
-#: jobs/k3bverificationjob.cpp:227
+#: jobs/k3bverificationjob.cpp:239
 #, fuzzy, c-format
 msgid "Verifying track %1"
 msgstr "%2 дан %1'ни ўқиш"
 
-#: jobs/k3bdvdcopyjob.cpp:270 jobs/k3bverificationjob.cpp:257
-#: jobs/k3bverificationjob.cpp:343
+#: jobs/k3bdvdcopyjob.cpp:270 jobs/k3bverificationjob.cpp:269
+#: jobs/k3bverificationjob.cpp:355
 msgid "Unable to determine the ISO9660 filesystem size."
 msgstr ""
 
-#: jobs/k3bverificationjob.cpp:295
+#: jobs/k3bverificationjob.cpp:307
 msgid "Written data in track %1 differs from original."
 msgstr ""
 
-#: jobs/k3bverificationjob.cpp:299
+#: jobs/k3bverificationjob.cpp:311
 msgid "Written data verified."
 msgstr ""
 
@@ -483,7 +478,7 @@ msgid "Ejecting DVD..."
 msgstr "DVD диск чиқарилмоқда..."
 
 #: jobs/k3bdvdformattingjob.cpp:301 projects/datadvd/k3bdvdbooktypejob.cpp:234
-#: projects/k3babstractwriter.cpp:88 projects/k3bgrowisofswriter.cpp:593
+#: projects/k3babstractwriter.cpp:88 projects/k3bgrowisofswriter.cpp:594
 msgid "Unable to eject media."
 msgstr "Маълумот ташувчини чиқариб бўлмади."
 
@@ -2282,16 +2277,16 @@ msgid "Average overall write speed: %1 KB/s (%2x)"
 msgstr ""
 
 #: projects/k3bcdrdaowriter.cpp:758 projects/k3bcdrecordwriter.cpp:680
-#: projects/k3bgrowisofswriter.cpp:556
+#: projects/k3bgrowisofswriter.cpp:557
 msgid "Simulation successfully completed"
 msgstr ""
 
 #: projects/k3bcdrdaowriter.cpp:766 projects/k3bcdrecordwriter.cpp:682
-#: projects/k3bgrowisofswriter.cpp:558
+#: projects/k3bgrowisofswriter.cpp:559
 msgid "Writing successfully completed"
 msgstr "Ёзиш муваффаққиятли тугади"
 
-#: projects/k3bgrowisofswriter.cpp:571
+#: projects/k3bgrowisofswriter.cpp:572
 msgid "Ejecting DVD"
 msgstr ""
 
@@ -3253,6 +3248,10 @@ msgstr ""
 #: videodvd/k3bvideodvd.cpp:324
 msgid "unknown code extension"
 msgstr ""
+
+#, fuzzy
+#~ msgid "No tracks to verify found."
+#~ msgstr "cdrdao драйвери топилмади."
 
 #~ msgid "Unable to determine size of file %1."
 #~ msgstr "%1 файлининг ҳажмини аниқлаб бўлмади."
