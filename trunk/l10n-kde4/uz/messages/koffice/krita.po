@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-20 06:16+0100\n"
+"POT-Creation-Date: 2007-12-21 06:17+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1752,7 +1752,7 @@ msgstr "&Канал:"
 
 #. i18n: tag string
 #. i18n: file ./ui/wdgautogradient.ui line 25
-#: rc.cpp:383 ui/kis_gradient_chooser.cc:39 ui/kis_gradient_chooser.cc:44
+#: rc.cpp:383 ui/kis_gradient_chooser.cc:41 ui/kis_gradient_chooser.cc:46
 msgid "Custom Gradient"
 msgstr "Бошқа градиент"
 
@@ -2208,7 +2208,7 @@ msgstr "Анимацияли"
 
 #. i18n: tag string
 #. i18n: file ./ui/wdgcustombrush.ui line 98
-#: rc.cpp:614 ui/kis_brush_chooser.cc:40
+#: rc.cpp:614 ui/kis_brush_chooser.cc:42
 #, fuzzy
 msgid "Use color as mask"
 msgstr "Рангдан ниқоб сифатида фойдаланиш"
@@ -2606,7 +2606,7 @@ msgstr "Матрица"
 
 #. i18n: tag string
 #. i18n: file ./ui/wdgcustompalette.ui line 18
-#: rc.cpp:799 ui/kis_custom_palette.cc:109
+#: rc.cpp:799 ui/kis_custom_palette.cc:112
 msgid "Unnamed"
 msgstr "Номсиз"
 
@@ -5972,9 +5972,14 @@ msgstr "&Буриш"
 msgid "Image Properties"
 msgstr "Расмнинг хоссалари"
 
-#: ui/kis_gradient_chooser.cc:53
+#: ui/kis_gradient_chooser.cc:55
 msgid "Custom Gradient..."
 msgstr "Бошқа градиент..."
+
+#: ui/kis_gradient_chooser.cc:90
+#, fuzzy
+msgid "Choose Gradient to Add"
+msgstr "Палитра танлаш"
 
 #: ui/kis_image_manager.cc:53
 msgid "I&nsert Image as Layer..."
@@ -6057,6 +6062,11 @@ msgstr "Кўриб чиқиш (янгиланиш керак)"
 #, fuzzy
 msgid "New configuration"
 msgstr "Мослаш..."
+
+#: ui/kis_pattern_chooser.cc:69
+#, fuzzy
+msgid "Choose Pattern to Add"
+msgstr "Палитра танлаш"
 
 #: ui/kis_mask_manager.cc:78 ui/kis_mask_manager.cc:191
 #, fuzzy
@@ -6491,10 +6501,15 @@ msgstr "Қатламни экспорт қилиш"
 msgid "Apply Image Profile to Clipboard Data"
 msgstr ""
 
-#: ui/kis_brush_chooser.cc:34
+#: ui/kis_brush_chooser.cc:36
 #, fuzzy
 msgid "Spacing: "
 msgstr "Бўш жой:"
+
+#: ui/kis_brush_chooser.cc:112
+#, fuzzy
+msgid "Choose Brush to Add"
+msgstr "Нуқта бўёғи"
 
 #: ui/kis_dlg_adjustment_layer.cc:61
 #, fuzzy
@@ -6505,82 +6520,82 @@ msgstr "&Номи:"
 msgid "No configuration options are available for this filter"
 msgstr "Ушбу филтр учун мосламалар мавжуд эмас"
 
-#: ui/kis_controlframe.cc:89 ui/kis_controlframe.cc:90
+#: ui/kis_controlframe.cc:94 ui/kis_controlframe.cc:95
 msgid "Brush Shapes"
 msgstr "Бўёқнинг шакллари"
 
-#: ui/kis_controlframe.cc:92
+#: ui/kis_controlframe.cc:97
 msgid "&Brush"
 msgstr "&Бўёқ"
 
-#: ui/kis_controlframe.cc:98 ui/kis_controlframe.cc:99
+#: ui/kis_controlframe.cc:103 ui/kis_controlframe.cc:104
 #, fuzzy
 msgid "Fill Patterns"
 msgstr "Намуна билан тўлдириш"
 
-#: ui/kis_controlframe.cc:100
+#: ui/kis_controlframe.cc:105
 #, fuzzy
 msgid "&Patterns"
 msgstr "&Намуналар"
 
-#: ui/kis_controlframe.cc:105 ui/kis_controlframe.cc:106
-#: ui/kis_controlframe.cc:355
+#: ui/kis_controlframe.cc:110 ui/kis_controlframe.cc:111
+#: ui/kis_controlframe.cc:340
 msgid "Gradients"
 msgstr "Градиентлар"
 
-#: ui/kis_controlframe.cc:107
+#: ui/kis_controlframe.cc:112
 msgid "&Gradients"
 msgstr "&Градиентлар"
 
-#: ui/kis_controlframe.cc:112 ui/kis_controlframe.cc:118
+#: ui/kis_controlframe.cc:117 ui/kis_controlframe.cc:123
 #, fuzzy
 msgid "&Painter's Tools"
 msgstr "&Рассом асбоб-ускуналари"
 
-#: ui/kis_controlframe.cc:217 ui/kis_controlframe.cc:218
+#: ui/kis_controlframe.cc:222 ui/kis_controlframe.cc:223
 msgid "Autobrush"
 msgstr "Авто-бўёқ"
 
-#: ui/kis_controlframe.cc:226
+#: ui/kis_controlframe.cc:231
 msgid "Predefined Brushes"
 msgstr "Олдиндан аниқланган бўёқлар"
 
-#: ui/kis_controlframe.cc:229 ui/kis_controlframe.cc:230
+#: ui/kis_controlframe.cc:234 ui/kis_controlframe.cc:235
 msgid "Custom Brush"
 msgstr "Бошқа бўёқ"
 
-#: ui/kis_controlframe.cc:239 ui/kis_controlframe.cc:240
+#: ui/kis_controlframe.cc:244 ui/kis_controlframe.cc:245
 msgid "Text Brush"
 msgstr "Матн бўёғи"
 
-#: ui/kis_controlframe.cc:302
+#: ui/kis_controlframe.cc:291
 #, fuzzy
 msgid "Patterns"
 msgstr "Намуналар"
 
-#: ui/kis_controlframe.cc:305 ui/kis_controlframe.cc:307
+#: ui/kis_controlframe.cc:294 ui/kis_controlframe.cc:296
 #, fuzzy
 msgid "Custom Pattern"
 msgstr "Ноананавий намуна"
 
-#: ui/kis_custom_palette.cc:99 ui/kis_custom_palette.cc:137
+#: ui/kis_custom_palette.cc:102 ui/kis_custom_palette.cc:140
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:179
 #, fuzzy, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr "%1 паоитра файлиг ёзиб бўлмади. Файл фақат ўқиш учун бўлиши мумкин."
 
-#: ui/kis_custom_palette.cc:99 ui/kis_custom_palette.cc:137
+#: ui/kis_custom_palette.cc:102 ui/kis_custom_palette.cc:140
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:179
 #, fuzzy
 msgid "Palette"
 msgstr "Палитра"
 
-#: ui/kis_custom_palette.cc:107
+#: ui/kis_custom_palette.cc:110
 #, fuzzy
 msgid "Add New Palette"
 msgstr "Янги палитра қўшиш..."
 
-#: ui/kis_custom_palette.cc:108
+#: ui/kis_custom_palette.cc:111
 #, fuzzy
 msgid "Palette name:"
 msgstr "Палитра"
@@ -6601,7 +6616,7 @@ msgstr "Филтер маълумотларингиз қатламини ўзг�
 msgid "The %1 filter will convert your %2 data to 16-bit RGBA and vice versa. "
 msgstr ""
 
-#: ui/kis_palette_docker.cc:33
+#: ui/kis_palette_docker.cc:32
 #, fuzzy
 msgid "Palettes"
 msgstr "Палитралар"
