@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-29 06:18+0100\n"
+"POT-Creation-Date: 2007-12-30 06:23+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3451,7 +3451,7 @@ msgstr "Бурчак"
 
 #. i18n: tag string
 #. i18n: file ./plugins/paintops/dynamicbrush/programs/basicshape/BasicDynamicProgramEditor.ui line 244
-#: rc.cpp:1285 plugins/painterlyframework/kis_ks_colorspace.h:114
+#: rc.cpp:1285 plugins/painterlyframework/kis_ks_colorspace.h:86
 #, fuzzy
 msgid "Scattering"
 msgstr "Намуна"
@@ -6603,60 +6603,60 @@ msgstr "&Номи:"
 msgid "No configuration options are available for this filter"
 msgstr "Ушбу филтр учун мосламалар мавжуд эмас"
 
-#: ui/kis_controlframe.cc:93 ui/kis_controlframe.cc:94
+#: ui/kis_controlframe.cc:94 ui/kis_controlframe.cc:95
 msgid "Brush Shapes"
 msgstr "Бўёқнинг шакллари"
 
-#: ui/kis_controlframe.cc:96
+#: ui/kis_controlframe.cc:97
 msgid "&Brush"
 msgstr "&Бўёқ"
 
-#: ui/kis_controlframe.cc:102 ui/kis_controlframe.cc:103
+#: ui/kis_controlframe.cc:103 ui/kis_controlframe.cc:104
 #, fuzzy
 msgid "Fill Patterns"
 msgstr "Намуна билан тўлдириш"
 
-#: ui/kis_controlframe.cc:104
+#: ui/kis_controlframe.cc:105
 #, fuzzy
 msgid "&Patterns"
 msgstr "&Намуналар"
 
-#: ui/kis_controlframe.cc:109 ui/kis_controlframe.cc:110
-#: ui/kis_controlframe.cc:339
+#: ui/kis_controlframe.cc:110 ui/kis_controlframe.cc:111
+#: ui/kis_controlframe.cc:340
 msgid "Gradients"
 msgstr "Градиентлар"
 
-#: ui/kis_controlframe.cc:111
+#: ui/kis_controlframe.cc:112
 msgid "&Gradients"
 msgstr "&Градиентлар"
 
-#: ui/kis_controlframe.cc:116 ui/kis_controlframe.cc:122
+#: ui/kis_controlframe.cc:117 ui/kis_controlframe.cc:123
 #, fuzzy
 msgid "&Painter's Tools"
 msgstr "&Рассом асбоб-ускуналари"
 
-#: ui/kis_controlframe.cc:221 ui/kis_controlframe.cc:222
+#: ui/kis_controlframe.cc:222 ui/kis_controlframe.cc:223
 msgid "Autobrush"
 msgstr "Авто-бўёқ"
 
-#: ui/kis_controlframe.cc:230
+#: ui/kis_controlframe.cc:231
 msgid "Predefined Brushes"
 msgstr "Олдиндан аниқланган бўёқлар"
 
-#: ui/kis_controlframe.cc:233 ui/kis_controlframe.cc:234
+#: ui/kis_controlframe.cc:234 ui/kis_controlframe.cc:235
 msgid "Custom Brush"
 msgstr "Бошқа бўёқ"
 
-#: ui/kis_controlframe.cc:243 ui/kis_controlframe.cc:244
+#: ui/kis_controlframe.cc:244 ui/kis_controlframe.cc:245
 msgid "Text Brush"
 msgstr "Матн бўёғи"
 
-#: ui/kis_controlframe.cc:290
+#: ui/kis_controlframe.cc:291
 #, fuzzy
 msgid "Patterns"
 msgstr "Намуналар"
 
-#: ui/kis_controlframe.cc:293 ui/kis_controlframe.cc:295
+#: ui/kis_controlframe.cc:294 ui/kis_controlframe.cc:296
 #, fuzzy
 msgid "Custom Pattern"
 msgstr "Ноананавий намуна"
@@ -6883,11 +6883,6 @@ msgstr "%1%"
 msgid "Composite Mode"
 msgstr "Қа&ерни расмга олиш:"
 
-#: image/kis_node_commands.h:35
-#, fuzzy
-msgid "Change Filter"
-msgstr "Филтер"
-
 #: image/kis_paint_layer.cc:164
 #, fuzzy
 msgid "ColorSpace"
@@ -6944,30 +6939,45 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/kis_image_commands.cc:86 image/kis_image.cc:390
+#: image/commands/kis_node_commands.h:35
+#, fuzzy
+msgid "Change Filter"
+msgstr "Филтер"
+
+#: image/commands/kis_image_commands.cc:86 image/kis_image.cc:390
 msgid "Resize Image"
 msgstr "Расмнинг ўлчамини ўзгартириш"
 
-#: image/kis_image_commands.cc:109 image/kis_image.cc:577
+#: image/commands/kis_image_commands.cc:109 image/kis_image.cc:577
 msgid "Convert Image Type"
 msgstr "Расмнинг турини ўзгартириш"
 
-#: image/kis_image_commands.cc:134 image/kis_image_commands.cc:250
+#: image/commands/kis_image_commands.cc:134
+#: image/commands/kis_image_commands.cc:250
 #, fuzzy
 msgid "Property Changes"
 msgstr "Хоссалари..."
 
-#: image/kis_image_commands.cc:186
+#: image/commands/kis_image_commands.cc:186
 msgid "Add Layer"
 msgstr "Қатламни қўшиш"
 
-#: image/kis_image_commands.cc:206
+#: image/commands/kis_image_commands.cc:206
 msgid "Remove Layer"
 msgstr "Қатламни олиб ташлаш"
 
-#: image/kis_image_commands.cc:227 image/kis_layer_commands.cc:80
+#: image/commands/kis_image_commands.cc:227
+#: image/commands/kis_layer_commands.cc:80
 msgid "Move Layer"
 msgstr "Қатламни кўчириш"
+
+#: image/commands/kis_layer_commands.cc:37
+msgid "Layer Opacity"
+msgstr "Қатламнинг хиралиги"
+
+#: image/commands/kis_layer_commands.cc:59
+msgid "Layer Composite Mode"
+msgstr ""
 
 #: image/kis_image.cc:279
 msgid "background"
@@ -6994,14 +7004,6 @@ msgstr "Пастги қатлам билан бирлаштириш"
 
 #: image/kis_bookmarked_configuration_manager.cc:41
 msgid "Last used"
-msgstr ""
-
-#: image/kis_layer_commands.cc:37
-msgid "Layer Opacity"
-msgstr "Қатламнинг хиралиги"
-
-#: image/kis_layer_commands.cc:59
-msgid "Layer Composite Mode"
 msgstr ""
 
 #: image/kis_filter.cc:31
@@ -7074,7 +7076,7 @@ msgstr "Курсор"
 #: colorspaces/xyz_float_hdr/kis_xyz_hdr_colorspace.h:70
 #: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:57
 #: colorspaces/rgb_float_hdr/kis_rgb_float_hdr_colorspace.h:121
-#: plugins/painterlyframework/kis_ks_colorspace.h:122
+#: plugins/painterlyframework/kis_ks_colorspace.h:94
 msgid "Alpha"
 msgstr "Альфа"
 
@@ -7723,13 +7725,27 @@ msgstr ""
 msgid "Perspective grid"
 msgstr "Бошқа шаклга алмаштириш"
 
-#: plugins/painterlyframework/kis_ks_colorspace.h:107
+#: plugins/painterlyframework/kis_ks_colorspace.h:79
 #, fuzzy
 msgid "Absorption"
 msgstr "Альфа мосламалари"
 
-#: plugins/painterlyframework/kis_kslin_colorspace.h:42
+#: plugins/painterlyframework/kis_kslinear_colorspace.h:27
 msgid "3-pairs Absorption-Scattering Linear"
+msgstr ""
+
+#: plugins/painterlyframework/kis_kslinear_colorspace.h:36
+#: plugins/painterlyframework/kis_kslinear_colorspace.h:61
+msgid "3-pairs Absorption-Scattering Linear (32 Bits Float)"
+msgstr ""
+
+#: plugins/painterlyframework/kis_ksqp_colorspace.h:26
+msgid "9-pairs Absorption-Scattering QP"
+msgstr ""
+
+#: plugins/painterlyframework/kis_ksqp_colorspace.h:35
+#: plugins/painterlyframework/kis_ksqp_colorspace.h:59
+msgid "9-pairs Absorption-Scattering QP (32 Bits Float)"
 msgstr ""
 
 #: plugins/paintops/defaultpaintops/kis_eraseop.h:41
@@ -8406,7 +8422,7 @@ msgstr "Тўйинтириш"
 msgid "&Auto Contrast"
 msgstr "А&вто-контраст"
 
-#: plugins/filters/colorsfilters/colorsfilters.cc:246
+#: plugins/filters/colorsfilters/colorsfilters.cc:247
 #, fuzzy
 msgid "&Desaturate"
 msgstr "&Тўйинтириш"
