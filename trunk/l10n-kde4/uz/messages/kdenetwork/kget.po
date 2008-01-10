@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-09 07:18+0100\n"
+"POT-Creation-Date: 2008-01-10 10:26+0100\n"
 "PO-Revision-Date: 2007-02-03 14:08+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -111,8 +111,8 @@ msgstr ""
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:115 core/kget.cpp:450
-#: core/kget.cpp:736 ui/transferhistory.cpp:168 ui/transferhistory.cpp:214
+#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:117 core/kget.cpp:450
+#: core/kget.cpp:736 ui/transferhistory.cpp:177 ui/transferhistory.cpp:224
 msgid "Error"
 msgstr ""
 
@@ -147,8 +147,20 @@ msgctxt "speed of download"
 msgid "Speed"
 msgstr "Тезлик"
 
-#: core/transfergroup.cpp:115 ui/transferhistory.cpp:168
-#: ui/transferhistory.cpp:214
+#: core/transfergroup.cpp:112 ui/transferhistory.cpp:52
+#, fuzzy
+#| msgid "Finished"
+msgctxt "the transfer has been finished"
+msgid "Finished"
+msgstr "Тугади"
+
+#: core/transfergroup.cpp:114
+msgctxt "the transfer has been aborted"
+msgid "Aborted"
+msgstr ""
+
+#: core/transfergroup.cpp:117 ui/transferhistory.cpp:177
+#: ui/transferhistory.cpp:224
 msgid "History-File cannot be opened correctly!"
 msgstr ""
 
@@ -354,6 +366,10 @@ msgid "Aborted"
 msgstr ""
 
 #: transfer-plugins/kio/transferKio.cpp:153
+#, fuzzy
+msgid "Downloading..."
+msgstr "Ёзиб олиш давом эттрилди"
+
 #: transfer-plugins/kio/transferKio.cpp:167
 #: transfer-plugins/kio/transferKio.cpp:182
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:240
@@ -725,7 +741,7 @@ msgstr "Режалаштирилмоқда"
 msgid "Transfer details"
 msgstr " Вазифалар: %1 "
 
-#: ui/transferhistory.cpp:30
+#: ui/transferhistory.cpp:33
 #, fuzzy
 msgid "Transfer History"
 msgstr "Вазифани очиш:"
@@ -876,55 +892,55 @@ msgstr ""
 msgid "Show:"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:92
-#: extensions/konqueror/kget_linkview.cpp:249
+#: extensions/konqueror/kget_linkview.cpp:90
+#: extensions/konqueror/kget_linkview.cpp:247
 msgid "Select all"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:93
+#: extensions/konqueror/kget_linkview.cpp:91
 msgid "Show web content"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:94
+#: extensions/konqueror/kget_linkview.cpp:92
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download checked"
 msgstr "Ёзиб олиш бажарилди"
 
-#: extensions/konqueror/kget_linkview.cpp:96
+#: extensions/konqueror/kget_linkview.cpp:94
 msgid "Cancel"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:132
+#: extensions/konqueror/kget_linkview.cpp:130
 msgid "Auxiliar header"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:133
+#: extensions/konqueror/kget_linkview.cpp:131
 #, fuzzy
 #| msgid "Local File Name"
 msgid "File Name"
 msgstr "Локал файлнинг номи"
 
-#: extensions/konqueror/kget_linkview.cpp:134
+#: extensions/konqueror/kget_linkview.cpp:132
 msgid "Description"
 msgstr "Таърифи"
 
-#: extensions/konqueror/kget_linkview.cpp:135
+#: extensions/konqueror/kget_linkview.cpp:133
 #, fuzzy
 msgctxt "list header: type of file"
 msgid "File Type"
 msgstr "Файл тури"
 
-#: extensions/konqueror/kget_linkview.cpp:136
+#: extensions/konqueror/kget_linkview.cpp:134
 msgid "Location (URL)"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:197
+#: extensions/konqueror/kget_linkview.cpp:195
 #, kde-format
 msgid "Links in: %1 - KGet"
 msgstr "Боғламалар: %1 -KGet"
 
-#: extensions/konqueror/kget_linkview.cpp:249
+#: extensions/konqueror/kget_linkview.cpp:247
 msgid "Select all filtered"
 msgstr ""
 
@@ -1849,7 +1865,7 @@ msgstr "Тезлик"
 #: rc.cpp:375
 #, fuzzy
 #| msgid "Source:"
-msgid "Source"
+msgid "Source-File"
 msgstr "Манба:"
 
 #. i18n: tag string
@@ -1872,73 +1888,84 @@ msgstr "Таймер"
 #. i18n: file ui/transferhistory.ui line 62
 #: rc.cpp:384
 #, fuzzy
-msgid "State"
+msgid "File-Size"
+msgstr "&Файлни очиш"
+
+#. i18n: tag string
+#. i18n: file ui/transferhistory.ui line 67
+#: rc.cpp:387
+#, fuzzy
+msgid "Status"
 msgstr "Қайтадан бош&лаш"
 
 #. i18n: tag string
-#. i18n: file ui/transferhistory.ui line 78
-#: rc.cpp:387
+#. i18n: file ui/transferhistory.ui line 83
+#: rc.cpp:390
 msgid "Clear History"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ui/transferhistory.ui line 104
-#: rc.cpp:390
+#. i18n: file ui/transferhistory.ui line 109
+#: rc.cpp:393
 msgid "Filter history..."
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ui/transferhistory.ui line 113
-#: rc.cpp:393
+#. i18n: file ui/transferhistory.ui line 118
+#: rc.cpp:396
 #, fuzzy
 msgctxt "delete selected transfer"
 msgid "Delete Selected"
 msgstr "Файл танланмаган"
 
 #. i18n: tag string
-#. i18n: file ui/transferhistory.ui line 118
-#: rc.cpp:396
+#. i18n: file ui/transferhistory.ui line 123
+#: rc.cpp:399
 #, fuzzy
 msgid "Download"
 msgstr "Ёзиб олиш давом эттрилди"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 4
-#: rc.cpp:399
+#: rc.cpp:402
 #, fuzzy
 msgid "&File"
 msgstr "&Файлни очиш"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 14
-#: rc.cpp:402
+#: rc.cpp:405
 #, fuzzy
 msgid "&Downloads"
 msgstr "Ёзиб олиш давом эттрилди"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 23
-#: rc.cpp:405
+#: rc.cpp:408
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 35
-#: rc.cpp:408
+#: rc.cpp:411
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 38
-#: rc.cpp:411
+#: rc.cpp:414
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: tag Text
 #. i18n: file extensions/konqueror/kget_plug_in.rc line 4
-#: rc.cpp:414
+#: rc.cpp:417
 msgid "&Tools"
 msgstr ""
+
+#, fuzzy
+#~ msgid "State"
+#~ msgstr "Қайтадан бош&лаш"
 
 #, fuzzy
 #~ msgid "Form"
