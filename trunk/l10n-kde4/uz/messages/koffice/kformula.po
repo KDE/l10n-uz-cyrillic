@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kformula.diff\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-27 06:12+0100\n"
+"POT-Creation-Date: 2008-01-12 09:41+0100\n"
 "PO-Revision-Date: 2006-05-01 10:38+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18,6 +18,10 @@ msgstr ""
 "X-Generator: KBabel 1.11.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#. i18n: tag text
+#. i18n: file kformula.rc line 3
+#. i18n: tag text
+#. i18n: file kformula_readonly.rc line 3
 #. i18n: tag text
 #. i18n: file kformula.rc line 3
 #. i18n: tag text
@@ -36,10 +40,18 @@ msgstr "&Элемент"
 #. i18n: file kformula.rc line 17
 #. i18n: tag Text
 #. i18n: file kformula.rc line 73
+#. i18n: tag text
+#. i18n: file kformula.rc line 17
+#. i18n: tag Text
+#. i18n: file kformula.rc line 73
 #: rc.cpp:9 rc.cpp:21
 msgid "Add"
 msgstr ""
 
+#. i18n: tag text
+#. i18n: file kformula.rc line 40
+#. i18n: tag Text
+#. i18n: file kformula.rc line 111
 #. i18n: tag text
 #. i18n: file kformula.rc line 40
 #. i18n: tag Text
@@ -55,6 +67,10 @@ msgstr "Матрица"
 msgid "&Settings"
 msgstr "Формуланинг мосламалари"
 
+#. i18n: tag Text
+#. i18n: file kformula.rc line 65
+#. i18n: tag Text
+#. i18n: file kformula_readonly.rc line 10
 #. i18n: tag Text
 #. i18n: file kformula.rc line 65
 #. i18n: tag Text
@@ -147,56 +163,123 @@ msgid ""
 "</p>\n"
 msgstr ""
 
-#: formulastring.cc:45
-msgid "Formula String"
-msgstr "Формула ифодаси"
+#: KFormulaAboutData.h:29
+msgid "KOffice Formula Editor"
+msgstr "KOffice формула таҳрирчи"
 
-#: formulastring.cc:105
-msgid "Parser Error"
-msgstr "Ажратиш хатоси"
+#: KFormulaAboutData.h:34
+msgid "KFormula"
+msgstr "KFormula"
 
-#: fsparser.cc:450
-#, kde-format
-msgid "Aborted parsing at %1:%2"
+#: KFormulaAboutData.h:36
+msgid "(c) 1998-2006, The KFormula Team"
 msgstr ""
 
-#: fsparser.cc:559 fsparser.cc:574 fsparser.cc:585 fsparser.cc:597
-#: fsparser.cc:608 fsparser.cc:615
-#, kde-format
-msgid "'%3' expected at %1:%2"
+#: KFormulaAboutData.h:38
+msgid "Andrea Rizzi"
 msgstr ""
 
-#: fsparser.cc:618
-#, kde-format
-msgid "Null columns in Matrix at %1:%2"
+#: KFormulaAboutData.h:38
+msgid "original author"
+msgstr "Биринчи муаллиф"
+
+#: KFormulaAboutData.h:39
+msgid "Ulrich Kuettler"
 msgstr ""
 
-#: fsparser.cc:621
-#, kde-format
-msgid "Null rows in Matrix at %1:%2"
+#: KFormulaAboutData.h:39 KFormulaAboutData.h:40 KFormulaAboutData.h:42
+msgid "core developer"
+msgstr "Асосий тузувчи"
+
+#: KFormulaAboutData.h:40
+msgid "Heinrich Kuettler"
 msgstr ""
 
-#: fsparser.cc:631
-#, kde-format
-msgid "Unexpected token at %1:%2"
+#: KFormulaAboutData.h:41
+msgid "Claus O. Wilke"
 msgstr ""
 
-#: fsparser.cc:776
-#, kde-format
-msgid "A single '.' is not a number at %1:%2"
+#: KFormulaAboutData.h:41
+msgid "for your advice to look at TeX first"
 msgstr ""
 
-#: kfconfig.cc:38
+#: KFormulaAboutData.h:42
+msgid "Martin Pfeiffer"
+msgstr ""
+
+#: KFormulaAboutData.h:43
+msgid "Alfredo Beaumont"
+msgstr ""
+
+#: KFormulaAboutData.h:43
+msgid "current maintainer"
+msgstr "жорий таъминловчи"
+
+#: KFormulaConfigDialog.cpp:36
 msgid "Configure KFormula"
 msgstr "KFormula мосламаси"
 
-#: kfconfig.cc:43
-msgid "Formula"
-msgstr "Формула"
+#: KFormulaConfigDialog.cpp:41
+msgid "Test Page"
+msgstr ""
 
-#: kfconfig.cc:44
+#: KFormulaConfigDialog.cpp:42
 msgid "Formula Settings"
 msgstr "Формуланинг мосламалари"
+
+#: flake/KoFormulaToolFactory.cpp:27
+#, fuzzy
+#| msgid "Formula"
+msgid "Formula tool"
+msgstr "Формула"
+
+#: flake/KoFormulaToolFactory.cpp:29
+#, fuzzy
+#| msgid "Formula Settings"
+msgid "Formula editing tool"
+msgstr "Формуланинг мосламалари"
+
+#: flake/FormulaCommand.cpp:32
+#, fuzzy
+#| msgid "Element"
+msgid "Add Elements"
+msgstr "Элемент"
+
+#: flake/FormulaCommand.cpp:61
+#, fuzzy
+#| msgid "Element"
+msgid "Remove Elements"
+msgstr "Элемент"
+
+#: flake/FormulaCommand.cpp:91
+#, fuzzy
+#| msgid "Element"
+msgid "Replace Element"
+msgstr "Элемент"
+
+#: flake/FormulaCommand.cpp:139
+msgid "Attribute Changed"
+msgstr ""
+
+#: flake/KoFormulaShapeFactory.cpp:26
+msgid "A formula shape"
+msgstr ""
+
+#: flake/KoFormulaShapeFactory.cpp:28
+#, fuzzy
+#| msgid "Formula"
+msgid "A formula"
+msgstr "Формула"
+
+#: main.cpp:33
+msgid "File to open"
+msgstr "Очиш учун файл"
+
+#~ msgid "Formula String"
+#~ msgstr "Формула ифодаси"
+
+#~ msgid "Parser Error"
+#~ msgstr "Ажратиш хатоси"
 
 #~ msgid "Size"
 #~ msgstr "Ўлчами"
@@ -207,26 +290,5 @@ msgstr "Формуланинг мосламалари"
 #~ msgid "Read Formula String"
 #~ msgstr "Формула ифодасини ўқиш"
 
-#~ msgid "File to open"
-#~ msgstr "Очиш учун файл"
-
-#~ msgid "KOffice Formula Editor"
-#~ msgstr "KOffice формула таҳрирчи"
-
-#~ msgid "KFormula"
-#~ msgstr "KFormula"
-
-#~ msgid "original author"
-#~ msgstr "Биринчи муаллиф"
-
-#~ msgid "current maintainer"
-#~ msgstr "жорий таъминловчи"
-
-#~ msgid "core developer"
-#~ msgstr "Асосий тузувчи"
-
 #~ msgid "Increase/Decrease Options.."
 #~ msgstr "Ошиш/камайишни мослаш..."
-
-#~ msgid "Element"
-#~ msgstr "Элемент"
