@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-15 11:56+0100\n"
+"POT-Creation-Date: 2008-02-16 16:22+0100\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -335,7 +335,7 @@ msgstr "Файлни алмаштиришни истайсизми?"
 msgid "Serial"
 msgstr ""
 
-#: certmanager.cpp:274 mainwindow.cpp:354
+#: certmanager.cpp:274 mainwindow.cpp:361
 msgid "Stop Operation"
 msgstr "Жараённи тўхтатиш"
 
@@ -347,11 +347,11 @@ msgstr ""
 msgid "Hierarchical Key List"
 msgstr ""
 
-#: certmanager.cpp:289
+#: certmanager.cpp:289 tabwidget.cpp:459
 msgid "Expand All"
 msgstr ""
 
-#: certmanager.cpp:294
+#: certmanager.cpp:294 tabwidget.cpp:461
 msgid "Collapse All"
 msgstr ""
 
@@ -367,15 +367,15 @@ msgstr ""
 msgid "Extend"
 msgstr ""
 
-#: certmanager.cpp:316 certmanager.cpp:1118 mainwindow.cpp:361
+#: certmanager.cpp:316 certmanager.cpp:1118 mainwindow.cpp:368
 msgid "Delete"
 msgstr ""
 
-#: certmanager.cpp:323 mainwindow.cpp:359
+#: certmanager.cpp:323 mainwindow.cpp:366
 msgid "Validate"
 msgstr ""
 
-#: certmanager.cpp:329 mainwindow.cpp:347
+#: certmanager.cpp:329 mainwindow.cpp:354
 msgid "Import Certificates..."
 msgstr "Сертификатларни импорт қилиш..."
 
@@ -383,7 +383,7 @@ msgstr "Сертификатларни импорт қилиш..."
 msgid "Import CRLs..."
 msgstr ""
 
-#: certmanager.cpp:340 mainwindow.cpp:345
+#: certmanager.cpp:340 mainwindow.cpp:352
 msgid "Export Certificates..."
 msgstr "Сертификатларни экспорт қилиш..."
 
@@ -391,7 +391,7 @@ msgstr "Сертификатларни экспорт қилиш..."
 msgid "Export Secret Key..."
 msgstr ""
 
-#: certmanager.cpp:350 mainwindow.cpp:356
+#: certmanager.cpp:350 mainwindow.cpp:363
 msgid "Certificate Details..."
 msgstr "Сертификат тафсилотлари..."
 
@@ -399,11 +399,11 @@ msgstr "Сертификат тафсилотлари..."
 msgid "Download"
 msgstr "Ёзиб олиш"
 
-#: certmanager.cpp:359 mainwindow.cpp:366
+#: certmanager.cpp:359 mainwindow.cpp:373
 msgid "Dump CRL Cache..."
 msgstr ""
 
-#: certmanager.cpp:364 mainwindow.cpp:364
+#: certmanager.cpp:364 mainwindow.cpp:371
 msgid "Clear CRL Cache..."
 msgstr ""
 
@@ -882,39 +882,39 @@ msgstr ""
 msgid "Really quit?"
 msgstr ""
 
-#: mainwindow.cpp:234
+#: mainwindow.cpp:235
 msgid "Check GnuPG Configuration..."
 msgstr ""
 
-#: mainwindow.cpp:238
+#: mainwindow.cpp:239
 msgid "Configure GnuPG Backend..."
 msgstr ""
 
-#: mainwindow.cpp:343
+#: mainwindow.cpp:350
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "New Certificate..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: mainwindow.cpp:349
+#: mainwindow.cpp:356
 msgid "Sign/Encrypt Files..."
 msgstr ""
 
-#: mainwindow.cpp:368
+#: mainwindow.cpp:375
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Import CRL From File..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: mainwindow.cpp:452
+#: mainwindow.cpp:459
 msgid "This is the result of the GnuPG config check:"
 msgstr ""
 
-#: mainwindow.cpp:498
+#: mainwindow.cpp:505
 msgid "Could not configure the cryptography backend (gpgconf tool not found)"
 msgstr ""
 
-#: mainwindow.cpp:498
+#: mainwindow.cpp:505
 msgid "Configuration Error"
 msgstr ""
 
@@ -1127,7 +1127,7 @@ msgid "&View"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kleopatra_newui.rc line 25
+#. i18n: file kleopatra_newui.rc line 30
 #. i18n: tag text
 #. i18n: file kleopatraui.rc line 26
 #. i18n: tag text
@@ -1137,7 +1137,7 @@ msgid "&Certificates"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kleopatra_newui.rc line 31
+#. i18n: file kleopatra_newui.rc line 36
 #. i18n: tag text
 #. i18n: file kleopatraui.rc line 37
 #: rc.cpp:110 rc.cpp:131
@@ -1145,19 +1145,19 @@ msgid "C&RLs"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kleopatra_newui.rc line 38
+#. i18n: file kleopatra_newui.rc line 43
 #: rc.cpp:113
 msgid "&Window"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kleopatra_newui.rc line 49
+#. i18n: file kleopatra_newui.rc line 54
 #: rc.cpp:116
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kleopatra_newui.rc line 58
+#. i18n: file kleopatra_newui.rc line 63
 #. i18n: tag text
 #. i18n: file kleopatraui.rc line 51
 #: rc.cpp:119 rc.cpp:137
@@ -1269,75 +1269,87 @@ msgstr ""
 msgid "&Shutdown Kleopatra"
 msgstr "Kleopatra"
 
-#: tabwidget.cpp:346
+#: tabwidget.cpp:440
 msgid "New Tab"
 msgstr ""
 
-#: tabwidget.cpp:346
+#: tabwidget.cpp:440
 msgid "Open a new tab"
 msgstr ""
 
-#: tabwidget.cpp:347
+#: tabwidget.cpp:441
 msgid "CTRL+SHIFT+N"
 msgstr ""
 
-#: tabwidget.cpp:353
+#: tabwidget.cpp:447
 msgid "Rename Tab..."
 msgstr ""
 
-#: tabwidget.cpp:353
+#: tabwidget.cpp:447
 msgid "Rename this tab"
 msgstr ""
 
-#: tabwidget.cpp:354
+#: tabwidget.cpp:448
 msgid "CTRL+SHIFT+R"
 msgstr ""
 
-#: tabwidget.cpp:355
+#: tabwidget.cpp:449
 msgid "Duplicate Current Tab"
 msgstr ""
 
-#: tabwidget.cpp:355
+#: tabwidget.cpp:449
 msgid "Duplicate the current tab"
 msgstr ""
 
-#: tabwidget.cpp:356
+#: tabwidget.cpp:450
 msgid "CTRL+SHIFT+D"
 msgstr ""
 
-#: tabwidget.cpp:357
+#: tabwidget.cpp:451
 msgid "Close Current Tab"
 msgstr ""
 
-#: tabwidget.cpp:357
+#: tabwidget.cpp:451
 msgid "Close the current tab"
 msgstr ""
 
-#: tabwidget.cpp:358
+#: tabwidget.cpp:452
 msgid "CTRL+SHIFT+W"
 msgstr ""
 
-#: tabwidget.cpp:359
+#: tabwidget.cpp:453
 msgid "Move Tab Left"
 msgstr ""
 
-#: tabwidget.cpp:360
+#: tabwidget.cpp:454
 msgid "CTRL+SHIFT+LEFT"
 msgstr ""
 
-#: tabwidget.cpp:361
+#: tabwidget.cpp:455
 msgid "Move Tab Right"
 msgstr ""
 
-#: tabwidget.cpp:362
+#: tabwidget.cpp:456
 msgid "CTRL+SHIFT+RIGHT"
 msgstr ""
 
-#: tabwidget.cpp:470
+#: tabwidget.cpp:457
+msgid "Hierarchical Certificate List"
+msgstr ""
+
+#: tabwidget.cpp:460
+msgid "CTRL+."
+msgstr ""
+
+#: tabwidget.cpp:462
+msgid "CTRL+,"
+msgstr ""
+
+#: tabwidget.cpp:578
 msgid "Rename Tab"
 msgstr ""
 
-#: tabwidget.cpp:470
+#: tabwidget.cpp:578
 msgid "New tab title:"
 msgstr ""
 
