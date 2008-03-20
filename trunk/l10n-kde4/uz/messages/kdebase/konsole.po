@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-19 11:17+0100\n"
+"POT-Creation-Date: 2008-03-20 08:05+0100\n"
 "PO-Revision-Date: 2006-12-17 12:24+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -421,40 +421,66 @@ msgstr "Сўзларни боғловчилар"
 msgid "Connect"
 msgstr "Сўзларни боғловчилар"
 
-#: Session.cpp:435
+#: Session.cpp:287
+#, fuzzy
+#| msgid "Could not save history."
+msgid "Could not find binary: "
+msgstr "Тарихни сақлаб бўлмади."
+
+#: Session.cpp:296
+msgid "Warning: "
+msgstr ""
+
+#: Session.cpp:333
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+
+#: Session.cpp:338
+msgid "Could not find an interactive shell to start."
+msgstr ""
+
+#: Session.cpp:373
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr ""
+
+#: Session.cpp:483
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr ""
 
-#: Session.cpp:452
+#: Session.cpp:500
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr ""
 
-#: Session.cpp:463
+#: Session.cpp:511
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr ""
 
-#: Session.cpp:590
+#: Session.cpp:638
 #, fuzzy
 #| msgid "<Finished>"
 msgid "Finished"
 msgstr "<Тугади>"
 
-#: Session.cpp:600
+#: Session.cpp:647
 #, fuzzy, kde-format
 #| msgid "Session '%1' exited with status %2."
 msgid "Program '%1' exited with status %2."
 msgstr "'%1' сеанси %2 ҳолат билан тугади."
 
-#: Session.cpp:602
+#: Session.cpp:649
 #, fuzzy, kde-format
 #| msgid "Session '%1' exited unexpectedly."
-msgid "Program '%1' exited unexpectedly."
+msgid "Program '%1' crashed."
 msgstr "Сеанс \"%1\" кутилмаганда тугади."
 
-#: Session.cpp:813
+#: Session.cpp:863
 msgid "ZModem Progress"
 msgstr ""
 
@@ -2602,9 +2628,6 @@ msgstr "Терминални &тозалаш"
 
 #~ msgid "Unable to write to file."
 #~ msgstr "Файлга ёзиб бўлмади."
-
-#~ msgid "Could not save history."
-#~ msgstr "Тарихни сақлаб бўлмади."
 
 #~ msgid ""
 #~ "<p>The current session already has a ZModem file transfer in progress."
