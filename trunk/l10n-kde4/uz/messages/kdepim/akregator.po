@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-22 20:29+0100\n"
+"POT-Creation-Date: 2008-03-24 14:53+0100\n"
 "PO-Revision-Date: 2006-02-08 21:32+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: aboutdata.cpp:35 articleviewer.cpp:656
+#: aboutdata.cpp:35 articleviewer.cpp:657
 msgid "Akregator"
 msgstr "Akregator"
 
@@ -393,6 +393,14 @@ msgstr "Ўқи&лган"
 msgid "Stop"
 msgstr ""
 
+#: actions.cpp:35 pageviewer.cpp:411
+msgid "Open Link in New &Tab"
+msgstr "Боғни &янги табда очиш"
+
+#: actions.cpp:44 pageviewer.cpp:413
+msgid "Open Link in External &Browser"
+msgstr "Боғни &ташқи браузерда очиш"
+
 #. i18n: tag string
 #. i18n: file addfeedwidgetbase.ui line 13
 #. i18n: tag string
@@ -624,39 +632,31 @@ msgstr ""
 msgid "Content"
 msgstr "Изоҳлар"
 
-#: articleviewer.cpp:136
+#: articleviewer.cpp:137
 msgid "&Increase Font Sizes"
 msgstr "Шрифтни &катталаштириш"
 
-#: articleviewer.cpp:142
+#: articleviewer.cpp:143
 msgid "&Decrease Font Sizes"
 msgstr "Шрифтни к&ичиклаштириш"
 
-#: articleviewer.cpp:147
+#: articleviewer.cpp:148
 msgid "Copy &Link Address"
 msgstr "&Боғ манзилидан нусха олиш"
 
-#: articleviewer.cpp:151
+#: articleviewer.cpp:152
 msgid "&Save Link As..."
 msgstr "Боғни &сақлаш"
 
-#: articleviewer.cpp:155
+#: articleviewer.cpp:156
 msgid "&Scroll Up"
 msgstr "&Юқорига варақлаш"
 
-#: articleviewer.cpp:160
+#: articleviewer.cpp:161
 msgid "&Scroll Down"
 msgstr "&Пастга варақлаш"
 
-#: articleviewer.cpp:266 pageviewer.cpp:411
-msgid "Open Link in New &Tab"
-msgstr "Боғни &янги табда очиш"
-
-#: articleviewer.cpp:267 pageviewer.cpp:413
-msgid "Open Link in External &Browser"
-msgstr "Боғни &ташқи браузерда очиш"
-
-#: articleviewer.cpp:640
+#: articleviewer.cpp:641
 #, kde-format
 msgctxt "%1: Akregator version; %2: homepage URL; --- end of comment ---"
 msgid ""
@@ -673,9 +673,47 @@ msgid ""
 "<p style='margin-bottom: 0px'>&nbsp; &nbsp; The Akregator Team</p>\n"
 msgstr ""
 
-#: articleviewer.cpp:658
+#: articleviewer.cpp:659
 msgid "An RSS feed reader for the K Desktop Environment."
 msgstr "KDE учун RSS янгиликлар ўқувчиси."
+
+#: createfoldercommand.cpp:66
+msgid "Add Folder"
+msgstr "Жилдни қўшиш"
+
+#: createfoldercommand.cpp:67
+msgid "Folder name:"
+msgstr "Жилднинг номи:"
+
+#: deletesubscriptioncommand.cpp:52
+msgid ""
+"<qt>Are you sure you want to delete this folder and its feeds and subfolders?"
+"</qt>"
+msgstr ""
+
+#: deletesubscriptioncommand.cpp:53
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete folder <b>%1</b> and its feeds and "
+"subfolders?</qt>"
+msgstr ""
+
+#: deletesubscriptioncommand.cpp:57
+msgid "Delete Folder"
+msgstr "Жилдни ўчириш"
+
+#: deletesubscriptioncommand.cpp:72
+msgid "<qt>Are you sure you want to delete this feed?</qt>"
+msgstr ""
+
+#: deletesubscriptioncommand.cpp:74
+#, kde-format
+msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
+msgstr ""
+
+#: deletesubscriptioncommand.cpp:78
+msgid "Delete Feed"
+msgstr "Янгиликлар тасмасини олиб ташлаш"
 
 #: feedlist.cpp:160
 msgid "All Feeds"
@@ -711,91 +749,53 @@ msgstr "Юклаш бекор қилинди"
 msgid "Loading completed"
 msgstr "Юклаш тугади"
 
-#: main.cpp:67 mainwidget.cpp:466
+#: main.cpp:67 mainwidget.cpp:387
 msgid "Imported Folder"
 msgstr "Импорт қилинган жилд"
 
-#: mainwidget.cpp:120
-msgid ""
-"<qt>Are you sure you want to delete this folder and its feeds and subfolders?"
-"</qt>"
-msgstr ""
-
-#: mainwidget.cpp:122
-#, kde-format
-msgid ""
-"<qt>Are you sure you want to delete folder <b>%1</b> and its feeds and "
-"subfolders?</qt>"
-msgstr ""
-
-#: mainwidget.cpp:126
-msgid "Delete Folder"
-msgstr "Жилдни ўчириш"
-
-#: mainwidget.cpp:143
-msgid "<qt>Are you sure you want to delete this feed?</qt>"
-msgstr ""
-
-#: mainwidget.cpp:145
-#, kde-format
-msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
-msgstr ""
-
-#: mainwidget.cpp:149
-msgid "Delete Feed"
-msgstr "Янгиликлар тасмасини олиб ташлаш"
-
-#: mainwidget.cpp:244
+#: mainwidget.cpp:167
 msgid "You can view multiple articles in several open tabs."
 msgstr "Бир неча мақолани алоҳида табларда кўришингиз мумкин."
 
-#: mainwidget.cpp:248
+#: mainwidget.cpp:171
 msgid "Articles list."
 msgstr "Мақолалар рўйхати."
 
-#: mainwidget.cpp:306
+#: mainwidget.cpp:229
 msgid "Browsing area."
 msgstr ""
 
-#: mainwidget.cpp:310 mainwidget.cpp:694
+#: mainwidget.cpp:233 mainwidget.cpp:617
 msgid "Articles"
 msgstr "Мақолалар"
 
-#: mainwidget.cpp:327
+#: mainwidget.cpp:250
 msgid "About"
 msgstr ""
 
-#: mainwidget.cpp:469
+#: mainwidget.cpp:390
 msgid "Add Imported Folder"
 msgstr "Импорт қилинган жилдни қўшиш"
 
-#: mainwidget.cpp:470
+#: mainwidget.cpp:391
 msgid "Imported folder name:"
 msgstr "Импорт қилинган жилднинг номи:"
 
-#: mainwidget.cpp:785
-msgid "Add Folder"
-msgstr "Жилдни қўшиш"
-
-#: mainwidget.cpp:786
-msgid "Folder name:"
-msgstr "Жилднинг номи:"
-
-#: mainwidget.cpp:895
+#: mainwidget.cpp:779
 msgid "Fetching Feeds..."
 msgstr "Янгиликлар тасмалари олинмоқда..."
 
-#: mainwidget.cpp:1097
+#: mainwidget.cpp:978
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr "<qt><b>%1</b> мақолани ўчиришни истайсизми?</qt>"
 
-#: mainwidget.cpp:1100
+#: mainwidget.cpp:981
 #, fuzzy, kde-format
 msgid "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
 msgstr "<qt>Танланган мақолани ўчиришни истайсизми?</qt>"
 
-#: mainwidget.cpp:1104
+#: mainwidget.cpp:985
 msgid "Delete Article"
 msgstr "Мақолани ўчириш"
 
