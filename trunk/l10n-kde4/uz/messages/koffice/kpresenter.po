@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-16 00:03+0100\n"
+"POT-Creation-Date: 2008-03-25 14:31+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -710,9 +710,11 @@ msgstr "Энига чизиқлар"
 #: plugins/pageeffects/edgewipe/fourboxwipe/FourBoxWipeEffectFactory.cpp:53
 #: plugins/pageeffects/edgewipe/miscdiagonalwipe/MiscDiagonalWipeEffectFactory.cpp:49
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:52
+#: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:52
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:60
 #: plugins/pageeffects/edgewipe/diagonalwipe/DiagonalWipeEffectFactory.cpp:52
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:52
+#: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:52
 #: plugins/pageeffects/edgewipe/boxwipe/BoxWipeEffectFactory.cpp:60
 msgid "Unknown subtype"
 msgstr ""
@@ -981,6 +983,7 @@ msgstr "Расм &эффекти:"
 #: plugins/pageeffects/barwipe/KPrBarWipeEffectFactory.cpp:42
 #: plugins/pageeffects/slidewipe/KPrSlideWipeEffectFactory.cpp:53
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:44
+#: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:41
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:44
 #, fuzzy
 #| msgid "Come From Left"
@@ -991,6 +994,7 @@ msgstr "Чап томондан чиқиш"
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:49
 #: plugins/pageeffects/slidewipe/KPrSlideWipeEffectFactory.cpp:54
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:42
+#: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:43
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:42
 #, fuzzy
 #| msgid "Come From Right"
@@ -1002,6 +1006,7 @@ msgstr "Ўнг томондан чиқиш"
 #: plugins/pageeffects/barwipe/KPrBarWipeEffectFactory.cpp:43
 #: plugins/pageeffects/slidewipe/KPrSlideWipeEffectFactory.cpp:55
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:41
+#: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:42
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:41
 #, fuzzy
 #| msgid "Come From Top"
@@ -1012,6 +1017,7 @@ msgstr "Юқоридан чиқиш"
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:48
 #: plugins/pageeffects/slidewipe/KPrSlideWipeEffectFactory.cpp:56
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:43
+#: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:44
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:43
 #, fuzzy
 #| msgid "Come From Bottom"
@@ -1332,12 +1338,14 @@ msgstr ""
 
 #: plugins/pageeffects/clockwipe/windshieldwipe/KPrWindShieldWipeEffectFactory.cpp:48
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:45
+#: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:41
 #, fuzzy
 msgid "Vertical"
 msgstr "Умумий"
 
 #: plugins/pageeffects/clockwipe/windshieldwipe/KPrWindShieldWipeEffectFactory.cpp:49
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:47
+#: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:42
 #, fuzzy
 msgid "Horizontal"
 msgstr "Энига чизиқлар"
@@ -1552,6 +1560,12 @@ msgstr ""
 msgid "Barn Vee Wipe Effect"
 msgstr "Расм &эффекти:"
 
+#: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:28
+#, fuzzy
+#| msgid "Image &effect:"
+msgid "Zig Zag Wipe Effect"
+msgstr "Расм &эффекти:"
+
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:28
 #, fuzzy
 #| msgid "Image &effect:"
@@ -1589,6 +1603,24 @@ msgstr "Расм &эффекти:"
 #| msgid "Image &effect:"
 msgid "Vee Wipe Effect"
 msgstr "Расм &эффекти:"
+
+#: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:28
+#, fuzzy
+#| msgid "Image &effect:"
+msgid "Barn Zig Zag Wipe Effect"
+msgstr "Расм &эффекти:"
+
+#: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:43
+#, fuzzy
+#| msgid "Vertical Lines"
+msgid "Vertical Reversed"
+msgstr "Бўйига чизиқлар"
+
+#: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:44
+#, fuzzy
+#| msgid "Horizontal Lines"
+msgid "Horizontal Reversed"
+msgstr "Энига чизиқлар"
 
 #: plugins/pageeffects/edgewipe/boxwipe/BoxWipeEffectFactory.cpp:28
 #, fuzzy
