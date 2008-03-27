@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-25 14:21+0100\n"
+"POT-Creation-Date: 2008-03-27 15:22+0100\n"
 "PO-Revision-Date: 2007-02-03 14:08+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -210,7 +210,9 @@ msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:146 ui/transferdetails.cpp:89
+#: core/transferhandler.cpp:146
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1452
+#: ui/transferdetails.cpp:89
 msgid "Stalled"
 msgstr "Тўхтаб қолди"
 
@@ -783,6 +785,577 @@ msgstr "Андоза жилд"
 #| msgid "Default folder:"
 msgid "Select a default Temporary-Folder"
 msgstr "Андоза жилд:"
+
+#: transfer-plugins/bittorrent/libbtcore/peer/peerid.cpp:201
+msgid "Unknown client"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:258
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 GB"
+msgstr " %1/с "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:260
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 MB"
+msgstr " %1/с "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:262
+#, fuzzy, kde-format
+#| msgid " %1 KB/s "
+msgid "%1 KB"
+msgstr " %1 Кб/с "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:264
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 B"
+msgstr " %1/с "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:270
+#, fuzzy, kde-format
+#| msgid " %1 KB/s "
+msgid "%1 KB/s"
+msgstr " %1 Кб/с "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:281
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] ""
+msgstr[1] ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/log.cpp:116
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open log file %1 : %2"
+msgstr ""
+"Файлни очиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:83
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Cannot write to %1 : %2"
+msgstr ""
+"Файлга ёзиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:97
+#, fuzzy, kde-format
+msgid "Cannot read from %1"
+msgstr "Бу ердан файл нусхасини олиш: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:72
+#, kde-format
+msgid "Cannot create directory %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:86
+#, kde-format
+msgid "Cannot symlink %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:103
+#, kde-format
+msgid "Cannot move %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:119
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:135
+#, kde-format
+msgid "Cannot copy %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:218
+#, kde-format
+msgid "Cannot delete %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:237
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:256
+#, kde-format
+msgid "Cannot calculate the filesize of %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:272
+#, kde-format
+msgid "Cannot calculate the filesize : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:300
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:329
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:388
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:90
+#, kde-format
+msgid "Cannot open %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:350
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:356
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:359
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:374
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file : %1"
+msgstr ""
+"Файлни ўқиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:376
+#, fuzzy
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file"
+msgstr ""
+"Файлни ўқиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:409
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot seek in file : %1"
+msgstr ""
+"Файлни очиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:73
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:104
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:35
+#, fuzzy
+#| msgid "Stay Connected"
+msgid "Not connected"
+msgstr "Уланган ҳолатда қолиш"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:232
+msgid "Error, failed to connect"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:241
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:100
+#, fuzzy
+#| msgid "Connection Type"
+msgid "Connection closed"
+msgstr "Уланиш тури"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:108
+msgid "Error: request failed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:123
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:180
+#, fuzzy
+#| msgid "Stay Connected"
+msgid "Connected"
+msgstr "Уланган ҳолатда қолиш"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:129
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:196
+msgid "Failed to connect to webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:187
+#, fuzzy
+#| msgid "Connection"
+msgid "Connecting"
+msgstr "Уланиш"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:203
+msgid "Failed to resolve hostname of webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/chunkdownload.cpp:323
+#, kde-format
+msgid "%1 peers"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:119
+#: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:125
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:634
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:712
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file %1 : %2"
+msgstr ""
+"Файлни очиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/migrate/migrate.cpp:45
+#, fuzzy, kde-format
+#| msgid ""
+#| "The specified file does not exist:\n"
+#| "%1"
+msgid "The directory %1 does not exist"
+msgstr ""
+"Кўрсатилган файл мавжуд эмас:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:61
+#, kde-format
+msgid "Illegal token: %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:82
+msgid "Decode error"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:143
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:188
+msgid "Unexpected end of input"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:163
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:197
+#, kde-format
+msgid "Cannot convert %1 to an int"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:202
+msgid "Torrent is incomplete!"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:65
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:102
+#, kde-format
+msgid "Failed to open %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:75
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:86
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:119
+#, kde-format
+msgid "Failed to create %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:233
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:459
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open index file %1 : %2"
+msgstr ""
+"Файлни очиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:108
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot create file %1 : %2"
+msgstr ""
+"Файлни ўқиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:175
+#, kde-format
+msgid "Failed to write first chunk to DND file : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:233
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Failed to write last chunk to DND file : %1"
+msgstr ""
+"Файлга ёзиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:116
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:215
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:375
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:441
+#, kde-format
+msgid "Cannot open %1 for writing : readonly filesystem"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:235
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file %1 : %2"
+msgstr ""
+"Файлни ўқиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:237
+#, kde-format
+msgid "Cannot expand file %1 : incomplete write"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:247
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file %1"
+msgstr ""
+"Файлни ўқиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:344
+#, kde-format
+msgid "Error : Reading past the end of the file %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:354
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while reading file:\n"
+#| "%1"
+msgid "Error reading from %1"
+msgstr ""
+"Файлни ўқишда хато рўй берди:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:396
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while writing file:\n"
+#| "%1"
+msgid "Error writing to %1 : %2"
+msgstr ""
+"Файлга ёзишда хато рўй берди:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:400
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while writing file:\n"
+#| "%1"
+msgid "Error writing to %1"
+msgstr ""
+"Файлга ёзишда хато рўй берди:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:468
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:696
+#, kde-format
+msgid "Cannot preallocate diskspace : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:63
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:126
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:149
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:157
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:164
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:168
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:176
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:190
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:194
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:208
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:217
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:228
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:235
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:241
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:248
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:254
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:270
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:317
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:323
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:326
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:329
+msgid "Corrupted torrent!"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:80
+msgid "Torrent has no announce or nodes field"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:116
+#, kde-format
+msgid " Unable to open torrent file %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:294
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:300
+msgid "Parse Error"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:518
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent. The torrent is probably corrupt "
+"or is not a torrent file.\n"
+"%1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:547
+msgid ""
+"An error occurred while loading the torrent. The torrent is probably corrupt "
+"or is not a torrent file."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:556
+#, kde-format
+msgid "Unable to create %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:571
+#, kde-format
+msgid ""
+"You are already downloading this torrent %1, the list of trackers of both "
+"torrents has been merged."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:575
+#, kde-format
+msgid "You are already downloading the torrent %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:675
+#, kde-format
+msgid "Cannot migrate %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1349
+#, kde-format
+msgid ""
+"The torrent %1 was started with a previous version of KTorrent. To make sure "
+"this torrent still works with this version of KTorrent, we will migrate this "
+"torrent. You will be asked for a location to save the torrent to. If you "
+"press cancel, we will select your home directory."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1354
+msgid "Select Folder to Save To"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1442
+#, fuzzy
+msgid "Not started"
+msgstr "Олиб ташланмади"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1444
+#, fuzzy
+#| msgid "Download finished"
+msgid "Download completed"
+msgstr "Ёзиб олиш бажарилди"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1446
+msgid "Seeding completed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1448
+#, fuzzy
+#| msgid "Scheduling"
+msgid "Seeding"
+msgstr "Режалаштирилмоқда"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1450
+#, fuzzy
+msgid "Downloading"
+msgstr "Ёзиб олиш давом эттрилди"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1454
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:158
+#, fuzzy
+#| msgid "Stopped"
+msgid "Stopped"
+msgstr "Тўхтатилди"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1456
+msgid "Error: "
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1458
+msgid "Allocating diskspace"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1460
+msgid "Queued"
+msgstr "Навбатга қўйилган"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1462
+msgid "Checking data"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1464
+msgid "Stopped. No space left on device."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:463
+#, fuzzy
+#| msgctxt "OK as in 'finished'"
+#| msgid "OK"
+msgid "OK"
+msgstr "Ок"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:470
+msgid "Announcing"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:124
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:252
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:290
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file %1: %2"
+msgstr ""
+"Файлни очиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:352
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot create index file: %1"
+msgstr ""
+"Файлни ўқиб бўлмади:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/udptrackersocket.cpp:63
+#, kde-format
+msgid "Cannot bind to udp port %1 or the 10 following ports."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:263
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:283
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:323
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:426
+msgid "Invalid response from tracker"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:276
+msgid "Invalid data from tracker"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:442
+msgid "Invalid tracker URL"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/datachecker/singledatachecker.cpp:49
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file : %1 : %2"
+msgstr ""
+"Файлни очиб бўлмади:\n"
+"%1"
 
 #: ui/tray.cpp:60
 #, fuzzy
@@ -2345,13 +2918,6 @@ msgstr ""
 #~ msgstr "Йиғиш"
 
 #~ msgid ""
-#~ "The specified file does not exist:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Кўрсатилган файл мавжуд эмас:\n"
-#~ "%1"
-
-#~ msgid ""
 #~ "This is a folder and not a file:\n"
 #~ "%1"
 #~ msgstr ""
@@ -2363,27 +2929,6 @@ msgstr ""
 #~ "%1"
 #~ msgstr ""
 #~ "Сизда ушбу файлни ўқишга рухсат йўқ:\n"
-#~ "%1"
-
-#~ msgid ""
-#~ "Could not read file:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Файлни ўқиб бўлмади:\n"
-#~ "%1"
-
-#~ msgid ""
-#~ "Could not open file:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Файлни очиб бўлмади:\n"
-#~ "%1"
-
-#~ msgid ""
-#~ "Error while reading file:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Файлни ўқишда хато рўй берди:\n"
 #~ "%1"
 
 #~ msgid "Could only read %1 bytes of %2."
@@ -2404,24 +2949,10 @@ msgstr ""
 #~ "Шунга қарамасдан давом этишни истайсизми?"
 
 #~ msgid ""
-#~ "Could not write to file:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Файлга ёзиб бўлмади:\n"
-#~ "%1"
-
-#~ msgid ""
 #~ "Could not open file for writing:\n"
 #~ "%1"
 #~ msgstr ""
 #~ "Ёзиш учун файлни очиб бўлмади:\n"
-#~ "%1"
-
-#~ msgid ""
-#~ "Error while writing file:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Файлга ёзишда хато рўй берди:\n"
 #~ "%1"
 
 #~ msgid "Could only write %1 bytes of %2."
@@ -2492,9 +3023,6 @@ msgstr ""
 
 #~ msgid " Time: %1 "
 #~ msgstr " Вақти: %1 "
-
-#~ msgid " %1 KB/s "
-#~ msgstr " %1 Кб/с "
 
 #~ msgid ""
 #~ "*.kgt|*.kgt\n"
@@ -2580,9 +3108,6 @@ msgstr ""
 #~ msgid "Disconnect"
 #~ msgstr "Узилиш"
 
-#~ msgid "Stay Connected"
-#~ msgstr "Уланган ҳолатда қолиш"
-
 #~ msgid "Disconnecting..."
 #~ msgstr "Узилмоқда..."
 
@@ -2621,9 +3146,6 @@ msgstr ""
 #~ msgid "Show individual windows"
 #~ msgstr "Алоҳида ойналарни кўрсатиш"
 
-#~ msgid "Queued"
-#~ msgstr "Навбатга қўйилган"
-
 #~ msgid "Automation Options"
 #~ msgstr "Автоматлаштириш мосламалари"
 
@@ -2658,9 +3180,6 @@ msgstr ""
 #~ msgid "If server cannot resume:"
 #~ msgstr "Агар сервер давом этмаса:"
 
-#~ msgid "Connection Type"
-#~ msgstr "Уланиш тури"
-
 #~ msgid "Permanent"
 #~ msgstr "Доимий"
 
@@ -2694,10 +3213,6 @@ msgstr ""
 #~ msgid "Window style:"
 #~ msgstr "Ойна услуби:"
 
-#, fuzzy
-#~ msgid "Copy file from: %1"
-#~ msgstr "Бу ердан файл нусхасини олиш: %1"
-
 #~ msgid "To: %1"
 #~ msgstr "Бу ерга: %1"
 
@@ -2715,10 +3230,6 @@ msgstr ""
 
 #~ msgid "Queueing"
 #~ msgstr "Навбатга қўйилмоқда"
-
-#~ msgctxt "OK as in 'finished'"
-#~ msgid "OK"
-#~ msgstr "Ок"
 
 #~ msgid "Total size is %1 bytes"
 #~ msgstr "Умумий ҳажми %1 байт"
