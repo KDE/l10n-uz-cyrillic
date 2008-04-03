@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-31 20:18+0200\n"
+"POT-Creation-Date: 2008-04-02 16:30+0200\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -513,6 +513,7 @@ msgid "This certificate has been disabled locally."
 msgstr ""
 
 #: utils/formatting.cpp:297
+msgctxt "X.509/CMS encryption standard"
 msgid "X.509"
 msgstr ""
 
@@ -522,6 +523,7 @@ msgid "OpenPGP"
 msgstr ""
 
 #: utils/formatting.cpp:300
+msgctxt "Unknown encryption protocol"
 msgid "Unknown"
 msgstr ""
 
@@ -545,16 +547,18 @@ msgstr ""
 msgid "invalid"
 msgstr ""
 
-#: utils/formatting.cpp:320 utils/formatting.cpp:346
-#: models/useridlistmodel.cpp:289 models/useridlistmodel.cpp:324
+#: utils/formatting.cpp:320
+msgctxt "as in good/valid signature"
 msgid "good"
 msgstr ""
 
 #: utils/formatting.cpp:329
+msgctxt "unknown trust level"
 msgid "unknown"
 msgstr ""
 
 #: utils/formatting.cpp:330
+msgctxt "undefined trust"
 msgid "undefined"
 msgstr ""
 
@@ -565,20 +569,28 @@ msgstr ""
 #: utils/formatting.cpp:332
 #, fuzzy
 #| msgid "Email"
+msgctxt "marginal trust"
 msgid "marginal"
 msgstr "Электрон почта"
 
 #: utils/formatting.cpp:333
+msgctxt "full trust"
 msgid "full"
 msgstr ""
 
 #: utils/formatting.cpp:334
+msgctxt "ultimate trust"
 msgid "ultimate"
 msgstr ""
 
 #: utils/formatting.cpp:344
-#, c-format
-msgid "class %d"
+#, kde-format
+msgid "class %1"
+msgstr ""
+
+#: utils/formatting.cpp:346
+msgctxt "good/valid signature"
+msgid "good"
 msgstr ""
 
 #: utils/formatting.cpp:351
@@ -586,6 +598,7 @@ msgid "key expired"
 msgstr ""
 
 #: utils/formatting.cpp:352
+msgctxt "fake/invalid signature"
 msgid "bad"
 msgstr ""
 
@@ -1552,8 +1565,6 @@ msgstr ""
 
 #: crypto/gui/decryptverifyresultwidget.cpp:152
 #, kde-format
-#| msgid "One unknown recipient."
-#| msgid_plural "%n unknown recipients."
 msgid "One unknown recipient."
 msgid_plural "%1 unknown recipients."
 msgstr[0] ""
@@ -1567,8 +1578,6 @@ msgstr[1] ""
 
 #: crypto/gui/decryptverifyresultwidget.cpp:162
 #, kde-format
-#| msgid "One unknown recipient"
-#| msgid_plural "%n unknown recipients"
 msgid "One unknown recipient"
 msgid_plural "%1 unknown recipients"
 msgstr[0] ""
@@ -2597,6 +2606,10 @@ msgstr ""
 
 #: models/useridlistmodel.cpp:249
 msgid "Signer EMail"
+msgstr ""
+
+#: models/useridlistmodel.cpp:289 models/useridlistmodel.cpp:324
+msgid "good"
 msgstr ""
 
 #: models/subkeylistmodel.cpp:157
@@ -3642,6 +3655,7 @@ msgstr ""
 
 #: mainwindow.cpp:131
 #, kde-format
+msgctxt "Quit [ApplicationName]"
 msgid "&Quit %1"
 msgstr ""
 
