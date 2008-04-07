@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-04 16:48+0200\n"
+"POT-Creation-Date: 2008-04-06 20:09+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1244,7 +1244,9 @@ msgstr "Ранглар бўшлиғи"
 
 #. i18n: tag string
 #. i18n: file ./ui/forms/wdglayerproperties.ui line 62
-#: rc.cpp:128
+#. i18n: tag string
+#. i18n: file ./plugins/generators/example/wdgcoloroptions.ui line 45
+#: rc.cpp:128 rc.cpp:2686
 msgid "&Opacity:"
 msgstr "&Хиралик:"
 
@@ -1489,9 +1491,7 @@ msgstr "&Бошқа:"
 #. i18n: file ./plugins/filters/noisefilter/wdgnoiseoptions.ui line 22
 #. i18n: tag string
 #. i18n: file ./plugins/filters/randompickfilter/wdgrandompickoptions.ui line 48
-#. i18n: tag string
-#. i18n: file ./plugins/generators/example/wdgnoiseoptions.ui line 22
-#: rc.cpp:272 rc.cpp:347 rc.cpp:1746 rc.cpp:2491 rc.cpp:2605 rc.cpp:2683
+#: rc.cpp:272 rc.cpp:347 rc.cpp:1746 rc.cpp:2491 rc.cpp:2605
 msgid "Opacity:"
 msgstr "Хиралик:"
 
@@ -5623,9 +5623,7 @@ msgstr ""
 #. i18n: file ./plugins/filters/noisefilter/wdgnoiseoptions.ui line 32
 #. i18n: tag string
 #. i18n: file ./plugins/filters/randompickfilter/wdgrandompickoptions.ui line 22
-#. i18n: tag string
-#. i18n: file ./plugins/generators/example/wdgnoiseoptions.ui line 32
-#: rc.cpp:2494 rc.cpp:2602 rc.cpp:2686
+#: rc.cpp:2494 rc.cpp:2602
 #, fuzzy
 msgid "Level:"
 msgstr "Ғилдирак:"
@@ -5888,6 +5886,12 @@ msgstr "&Сув сатҳи:"
 msgid "&Ambient light:"
 msgstr "&Узунаси:"
 
+#. i18n: tag string
+#. i18n: file ./plugins/generators/example/wdgcoloroptions.ui line 16
+#: rc.cpp:2683
+msgid "&Color:"
+msgstr "Ран&г:"
+
 #. i18n: tag text
 #. i18n: file ./colorspaces/lms_f32/lms_f32_plugin.rc line 4
 #: rc.cpp:2746
@@ -6140,7 +6144,7 @@ msgstr "Танлаш"
 msgid "Mirror Mask X"
 msgstr "Қатламни кўчириш"
 
-#: ui/kis_mask_manager.cc:412 ui/kis_layer_manager.cc:768
+#: ui/kis_mask_manager.cc:412 ui/kis_layer_manager.cc:767
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Қатламни кўчириш"
@@ -6290,70 +6294,70 @@ msgstr "Расм ўлчамини қатлам ўлчамига тенглашт
 msgid "Filter Layer Properties"
 msgstr "Қатламнинг хоссалари"
 
-#: ui/kis_layer_manager.cc:390
+#: ui/kis_layer_manager.cc:391
 #, fuzzy
 #| msgid "Layer Properties"
 msgid "Generator Layer Properties"
 msgstr "Қатламнинг хоссалари"
 
-#: ui/kis_layer_manager.cc:466 ui/kis_layer_manager.cc:481
-#: ui/kis_layer_manager.cc:524 ui/kis_layer_manager.cc:557
-#: ui/kis_layer_manager.cc:689
+#: ui/kis_layer_manager.cc:465 ui/kis_layer_manager.cc:480
+#: ui/kis_layer_manager.cc:523 ui/kis_layer_manager.cc:556
+#: ui/kis_layer_manager.cc:688
 msgid "Could not add layer to image."
 msgstr "Қатламни расмга қўшиб бўлмади."
 
-#: ui/kis_layer_manager.cc:466 ui/kis_layer_manager.cc:481
-#: ui/kis_layer_manager.cc:524 ui/kis_layer_manager.cc:557
-#: ui/kis_layer_manager.cc:689
+#: ui/kis_layer_manager.cc:465 ui/kis_layer_manager.cc:480
+#: ui/kis_layer_manager.cc:523 ui/kis_layer_manager.cc:556
+#: ui/kis_layer_manager.cc:688
 msgid "Layer Error"
 msgstr "Қатлам хатоси."
 
-#: ui/kis_layer_manager.cc:580
+#: ui/kis_layer_manager.cc:579
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Layer"
 msgstr "Филтерлар"
 
-#: ui/kis_layer_manager.cc:682
+#: ui/kis_layer_manager.cc:681
 #, kde-format
 msgid "Duplicate of '%1'"
 msgstr "'%1'нинг нусхаси"
 
-#: ui/kis_layer_manager.cc:789
+#: ui/kis_layer_manager.cc:788
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "Қатламни кўчириш"
 
-#: ui/kis_layer_manager.cc:811
+#: ui/kis_layer_manager.cc:810
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Янги қатлам"
 
-#: ui/kis_layer_manager.cc:834
+#: ui/kis_layer_manager.cc:833
 #: plugins/viewplugins/rotateimage/rotateimage.cc:149
 msgid "Rotate Layer"
 msgstr "Қатламни буриш"
 
-#: ui/kis_layer_manager.cc:868
+#: ui/kis_layer_manager.cc:867
 #, fuzzy
 msgid "Shear layer"
 msgstr "Янги қатлам"
 
-#: ui/kis_layer_manager.cc:891
+#: ui/kis_layer_manager.cc:890
 msgid "The image contains hidden layers that will be lost."
 msgstr "Расмда яширин қатламлар мавжуд. Улар йўқолади."
 
-#: ui/kis_layer_manager.cc:892 image/kis_image.cc:796
+#: ui/kis_layer_manager.cc:891 image/kis_image.cc:796
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Силлиқланган расм"
 
-#: ui/kis_layer_manager.cc:893
+#: ui/kis_layer_manager.cc:892
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "&Силлиқланган расм"
 
-#: ui/kis_layer_manager.cc:940
+#: ui/kis_layer_manager.cc:939
 #: plugins/viewplugins/separate_channels/kis_channel_separator.cc:258
 msgid "Export Layer"
 msgstr "Қатламни экспорт қилиш"
@@ -6818,7 +6822,7 @@ msgstr "Курсор"
 #: colorspaces/ycbcr/kis_ycbcr_u16_colorspace.cc:41
 #: colorspaces/xyz_u16/kis_xyz_u16_colorspace.cc:38
 #: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:54
-#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:215
+#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:200
 msgid "Alpha"
 msgstr "Альфа"
 
@@ -6850,7 +6854,7 @@ msgstr ""
 msgid "Gray"
 msgstr "Кул"
 
-#: colorspaces/xyz_u16/xyz_u16_plugin.cc:49
+#: colorspaces/xyz_u16/xyz_u16_plugin.cc:50
 #, fuzzy
 msgid "XYZ16 Histogram"
 msgstr "Гистограмма"
@@ -6868,6 +6872,7 @@ msgid "Z"
 msgstr "Z"
 
 #: colorspaces/xyz_float_hdr/xyz_float_hdr.cc:53
+#: colorspaces/rgb_float_hdr.ctl/rgb_float_hdr.cc:65
 #: colorspaces/rgb_float_hdr/rgb_float_hdr.cc:93
 #: colorspaces/xyz_float_hdr.ctl/xyz_float_hdr.cc:51
 msgid "Float32 Half Histogram"
@@ -6909,21 +6914,37 @@ msgstr ""
 msgid "Long Middle Short Cone Space (32-bit float/channel)"
 msgstr ""
 
-#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:208
+#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:193
 msgid "LMS (32-bit float/channel)"
 msgstr ""
 
-#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:212
+#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:197
 msgid "Long"
 msgstr "Узун"
 
-#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:213
+#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:198
 msgid "Middle"
 msgstr "Ўртача"
 
-#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:214
+#: colorspaces/lms_f32/kis_lms_f32_colorspace.cc:199
 msgid "Short"
 msgstr "Қисқа"
+
+#: colorspaces/rgb_float_hdr.ctl/kis_rgb_f16_hdr_colorspace.cc:28
+#: colorspaces/rgb_float_hdr/kis_rgb_f16_hdr_colorspace.cc:29
+msgid "RGB (16-bit float/channel) for High Dynamic Range imaging"
+msgstr ""
+
+#: colorspaces/rgb_float_hdr.ctl/rgb_float_hdr.cc:51
+#: colorspaces/rgb_float_hdr/rgb_float_hdr.cc:82
+#, fuzzy
+msgid "Float16 Half Histogram"
+msgstr "Float32 гистограммаси"
+
+#: colorspaces/rgb_float_hdr.ctl/kis_rgb_f32_hdr_colorspace.cc:28
+#: colorspaces/rgb_float_hdr/kis_rgb_f32_hdr_colorspace.cc:29
+msgid "RGB (32-bit float/channel) for High Dynamic Range imaging"
+msgstr ""
 
 #: colorspaces/gray_u8_no_alpha/kis_gray_colorspace.cc:34
 msgid "Grayscale without alpha (8-bit integer/channel)"
@@ -6933,19 +6954,6 @@ msgstr ""
 #, fuzzy
 msgid "GRAY/Alpha8 Histogram"
 msgstr "XYZ/Aльфа"
-
-#: colorspaces/rgb_float_hdr/kis_rgb_f16_hdr_colorspace.cc:29
-msgid "RGB (16-bit float/channel) for High Dynamic Range imaging"
-msgstr ""
-
-#: colorspaces/rgb_float_hdr/rgb_float_hdr.cc:82
-#, fuzzy
-msgid "Float16 Half Histogram"
-msgstr "Float32 гистограммаси"
-
-#: colorspaces/rgb_float_hdr/kis_rgb_f32_hdr_colorspace.cc:29
-msgid "RGB (32-bit float/channel) for High Dynamic Range imaging"
-msgstr ""
 
 #: colorspaces/extensions/kis_hsv_adjustment.cc:117
 #, fuzzy
@@ -8806,9 +8814,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Absorbency:"
 #~ msgstr "Сўриш"
-
-#~ msgid "&Color:"
-#~ msgstr "Ран&г:"
 
 #, fuzzy
 #~ msgid "Watercolors"
