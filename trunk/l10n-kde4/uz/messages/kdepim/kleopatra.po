@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-06 20:03+0200\n"
+"POT-Creation-Date: 2008-04-08 21:42+0200\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 155
-#: conf/smimevalidationconfigurationwidget.cpp:241 rc.cpp:211
+#: conf/smimevalidationconfigurationwidget.cpp:241 rc.cpp:214
 msgid "no proxy"
 msgstr ""
 
@@ -275,7 +275,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 98
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 98
-#: kgpgconf/configuration.cpp:353 rc.cpp:15 rc.cpp:469
+#: kgpgconf/configuration.cpp:353 rc.cpp:15 rc.cpp:475
 msgid "Path"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 #. i18n: file ./kwatchgnupg/kwatchgnupgui.rc line 4
 #. i18n: tag text
 #. i18n: file ./kleopatra_newui.rc line 5
-#: kgpgconf/mainwindow.cpp:67 rc.cpp:101 rc.cpp:356 rc.cpp:362
+#: kgpgconf/mainwindow.cpp:67 rc.cpp:101 rc.cpp:359 rc.cpp:365
 msgid "&File"
 msgstr ""
 
@@ -494,7 +494,7 @@ msgid "Certificate usage"
 msgstr "Сертификат тафсилотлари..."
 
 #: utils/formatting.cpp:198 certificateinfowidgetimpl.cpp:146
-#: models/keylistmodel.cpp:179
+#: models/keylistmodel.cpp:184
 msgid "Fingerprint"
 msgstr ""
 
@@ -811,7 +811,7 @@ msgstr ""
 msgid "Serial"
 msgstr ""
 
-#: certmanager.cpp:274 mainwindow.cpp:365
+#: certmanager.cpp:274 mainwindow.cpp:400
 msgid "Stop Operation"
 msgstr "Жараённи тўхтатиш"
 
@@ -835,7 +835,7 @@ msgstr ""
 msgid "Extend"
 msgstr ""
 
-#: certmanager.cpp:316 certmanager.cpp:1118 mainwindow.cpp:370
+#: certmanager.cpp:316 certmanager.cpp:1118 mainwindow.cpp:405
 msgid "Delete"
 msgstr ""
 
@@ -843,7 +843,7 @@ msgstr ""
 msgid "Validate"
 msgstr ""
 
-#: certmanager.cpp:329 mainwindow.cpp:358
+#: certmanager.cpp:329 mainwindow.cpp:393
 msgid "Import Certificates..."
 msgstr "Сертификатларни импорт қилиш..."
 
@@ -851,7 +851,7 @@ msgstr "Сертификатларни импорт қилиш..."
 msgid "Import CRLs..."
 msgstr ""
 
-#: certmanager.cpp:340 mainwindow.cpp:356
+#: certmanager.cpp:340 mainwindow.cpp:391
 msgid "Export Certificates..."
 msgstr "Сертификатларни экспорт қилиш..."
 
@@ -859,7 +859,7 @@ msgstr "Сертификатларни экспорт қилиш..."
 msgid "Export Secret Key..."
 msgstr ""
 
-#: certmanager.cpp:350 mainwindow.cpp:367
+#: certmanager.cpp:350 mainwindow.cpp:402
 #, fuzzy
 #| msgid "Certificate Details..."
 msgid "Certificate Details"
@@ -869,11 +869,11 @@ msgstr "Сертификат тафсилотлари..."
 msgid "Download"
 msgstr "Ёзиб олиш"
 
-#: certmanager.cpp:359 mainwindow.cpp:377
+#: certmanager.cpp:359 mainwindow.cpp:412
 msgid "Dump CRL Cache"
 msgstr ""
 
-#: certmanager.cpp:364 mainwindow.cpp:375
+#: certmanager.cpp:364 mainwindow.cpp:410
 msgid "Clear CRL Cache"
 msgstr ""
 
@@ -960,7 +960,7 @@ msgid ""
 "your search."
 msgstr ""
 
-#: certmanager.cpp:697 commands/importcertificatecommand.cpp:165
+#: certmanager.cpp:697 commands/importcertificatefromfilecommand.cpp:165
 msgid "Select Certificate File"
 msgstr ""
 
@@ -979,16 +979,16 @@ msgstr ""
 msgid "Fetching certificate from server..."
 msgstr ""
 
-#: certmanager.cpp:798 commands/importcertificatecommand.cpp:242
+#: certmanager.cpp:798 commands/importcertificatefromfilecommand.cpp:242
 #, kde-format
 msgid ""
 "<qt><p>An error occurred while trying to import the certificate %1:</p><p><b>"
 "%2</b></p></qt>"
 msgstr ""
 
-#: certmanager.cpp:803 commands/importcertificatecommand.cpp:149
-#: commands/importcertificatecommand.cpp:247
-#: commands/importcertificatecommand.cpp:268
+#: certmanager.cpp:803 commands/importcertificatefromfilecommand.cpp:149
+#: commands/importcertificatefromfilecommand.cpp:247
+#: commands/importcertificatefromfilecommand.cpp:268
 msgid "Certificate Import Failed"
 msgstr ""
 
@@ -996,74 +996,74 @@ msgstr ""
 msgid "Importing certificates..."
 msgstr ""
 
-#: certmanager.cpp:834 commands/importcertificatecommand.cpp:187
+#: certmanager.cpp:834 commands/importcertificatefromfilecommand.cpp:187
 #, kde-format
 msgid "<tr><td align=\"right\">%1</td><td>%2</td></tr>"
 msgstr ""
 
-#: certmanager.cpp:835 commands/importcertificatecommand.cpp:188
+#: certmanager.cpp:835 commands/importcertificatefromfilecommand.cpp:188
 #, kde-format
 msgid "<tr><td align=\"right\"><b>%1</b></td><td>%2</td></tr>"
 msgstr ""
 
-#: certmanager.cpp:838 commands/importcertificatecommand.cpp:191
+#: certmanager.cpp:838 commands/importcertificatefromfilecommand.cpp:191
 msgid "Total number processed:"
 msgstr ""
 
-#: certmanager.cpp:840 commands/importcertificatecommand.cpp:193
+#: certmanager.cpp:840 commands/importcertificatefromfilecommand.cpp:193
 msgid "Imported:"
 msgstr ""
 
-#: certmanager.cpp:843 commands/importcertificatecommand.cpp:196
+#: certmanager.cpp:843 commands/importcertificatefromfilecommand.cpp:196
 msgid "New signatures:"
 msgstr ""
 
-#: certmanager.cpp:846 commands/importcertificatecommand.cpp:199
+#: certmanager.cpp:846 commands/importcertificatefromfilecommand.cpp:199
 msgid "New user IDs:"
 msgstr ""
 
-#: certmanager.cpp:849 commands/importcertificatecommand.cpp:202
+#: certmanager.cpp:849 commands/importcertificatefromfilecommand.cpp:202
 msgid "Keys without user IDs:"
 msgstr ""
 
-#: certmanager.cpp:852 commands/importcertificatecommand.cpp:205
+#: certmanager.cpp:852 commands/importcertificatefromfilecommand.cpp:205
 msgid "New subkeys:"
 msgstr ""
 
-#: certmanager.cpp:855 commands/importcertificatecommand.cpp:208
+#: certmanager.cpp:855 commands/importcertificatefromfilecommand.cpp:208
 msgid "Newly revoked:"
 msgstr ""
 
-#: certmanager.cpp:858 commands/importcertificatecommand.cpp:211
+#: certmanager.cpp:858 commands/importcertificatefromfilecommand.cpp:211
 msgid "Not imported:"
 msgstr ""
 
-#: certmanager.cpp:861 commands/importcertificatecommand.cpp:214
+#: certmanager.cpp:861 commands/importcertificatefromfilecommand.cpp:214
 msgid "Unchanged:"
 msgstr ""
 
-#: certmanager.cpp:864 commands/importcertificatecommand.cpp:217
+#: certmanager.cpp:864 commands/importcertificatefromfilecommand.cpp:217
 msgid "Secret keys processed:"
 msgstr ""
 
-#: certmanager.cpp:867 commands/importcertificatecommand.cpp:220
+#: certmanager.cpp:867 commands/importcertificatefromfilecommand.cpp:220
 msgid "Secret keys imported:"
 msgstr ""
 
-#: certmanager.cpp:870 commands/importcertificatecommand.cpp:223
+#: certmanager.cpp:870 commands/importcertificatefromfilecommand.cpp:223
 msgid "Secret keys <em>not</em> imported:"
 msgstr ""
 
-#: certmanager.cpp:875 commands/importcertificatecommand.cpp:228
+#: certmanager.cpp:875 commands/importcertificatefromfilecommand.cpp:228
 msgid "Secret keys unchanged:"
 msgstr ""
 
-#: certmanager.cpp:879 commands/importcertificatecommand.cpp:232
+#: certmanager.cpp:879 commands/importcertificatefromfilecommand.cpp:232
 #, kde-format
 msgid "<qt><p>Detailed results of importing %1:</p><table>%2</table></qt>"
 msgstr ""
 
-#: certmanager.cpp:882 commands/importcertificatecommand.cpp:235
+#: certmanager.cpp:882 commands/importcertificatefromfilecommand.cpp:235
 msgid "Certificate Import Result"
 msgstr ""
 
@@ -1827,6 +1827,38 @@ msgstr ""
 msgid "Expiry Date Change Succeeded"
 msgstr ""
 
+#: commands/importcertificatefromfilecommand.cpp:139
+msgid "Importing more than one file at a time is not yet implemented."
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:140
+msgid "Too many files"
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:149
+#, kde-format
+msgid "Could not open file %1 for reading"
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:154
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Importing certificate..."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/importcertificatefromfilecommand.cpp:158
+msgid "Certificates (*.asc *.pem *.der *.p7c *.p12)"
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:159
+msgid "Any files (*)"
+msgstr ""
+
+#: commands/importcertificatefromfilecommand.cpp:268
+#, kde-format
+msgid "Could not determine certificate type of %1."
+msgstr ""
+
 #: commands/exportcertificatecommand.cpp:160
 #, fuzzy
 #| msgid "Export Certificates..."
@@ -1882,38 +1914,6 @@ msgstr ""
 
 #: commands/clearcrlcachecommand.cpp:153
 msgid "Clear CRL Cache Finished"
-msgstr ""
-
-#: commands/importcertificatecommand.cpp:139
-msgid "Importing more than one file at a time is not yet implemented."
-msgstr ""
-
-#: commands/importcertificatecommand.cpp:140
-msgid "Too many files"
-msgstr ""
-
-#: commands/importcertificatecommand.cpp:149
-#, kde-format
-msgid "Could not open file %1 for reading"
-msgstr ""
-
-#: commands/importcertificatecommand.cpp:154
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Importing certificate..."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/importcertificatecommand.cpp:158
-msgid "Certificates (*.asc *.pem *.der *.p7c *.p12)"
-msgstr ""
-
-#: commands/importcertificatecommand.cpp:159
-msgid "Any files (*)"
-msgstr ""
-
-#: commands/importcertificatecommand.cpp:268
-#, kde-format
-msgid "Could not determine certificate type of %1."
 msgstr ""
 
 #: commands/importcrlcommand.cpp:67
@@ -2119,7 +2119,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 60
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 60
-#: certificateinfowidgetimpl.cpp:80 rc.cpp:9 rc.cpp:463
+#: certificateinfowidgetimpl.cpp:80 rc.cpp:9 rc.cpp:469
 #, fuzzy
 msgid "Information"
 msgstr "Манзили"
@@ -2572,27 +2572,27 @@ msgid ""
 "present)"
 msgstr ""
 
-#: models/keylistmodel.cpp:174
+#: models/keylistmodel.cpp:179
 msgid "Name"
 msgstr ""
 
-#: models/keylistmodel.cpp:175
+#: models/keylistmodel.cpp:180
 #, fuzzy
 #| msgid "Email"
 msgid "E-Mail"
 msgstr "Электрон почта"
 
-#: models/keylistmodel.cpp:176 models/useridlistmodel.cpp:250
+#: models/keylistmodel.cpp:181 models/useridlistmodel.cpp:250
 #: models/subkeylistmodel.cpp:158
 msgid "Valid From"
 msgstr ""
 
-#: models/keylistmodel.cpp:177 models/useridlistmodel.cpp:251
+#: models/keylistmodel.cpp:182 models/useridlistmodel.cpp:251
 #: models/subkeylistmodel.cpp:159
 msgid "Valid Until"
 msgstr ""
 
-#: models/keylistmodel.cpp:178
+#: models/keylistmodel.cpp:183
 msgid "Details"
 msgstr ""
 
@@ -2624,7 +2624,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 36
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 36
-#: rc.cpp:3 rc.cpp:457
+#: rc.cpp:3 rc.cpp:463
 msgid "&Details"
 msgstr ""
 
@@ -2632,7 +2632,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 49
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 49
-#: rc.cpp:6 rc.cpp:460
+#: rc.cpp:6 rc.cpp:466
 msgid "Description"
 msgstr ""
 
@@ -2640,7 +2640,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 85
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 85
-#: rc.cpp:12 rc.cpp:466
+#: rc.cpp:12 rc.cpp:472
 msgid "&Chain"
 msgstr ""
 
@@ -2648,7 +2648,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 113
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 113
-#: rc.cpp:18 rc.cpp:472
+#: rc.cpp:18 rc.cpp:478
 msgid "Du&mp"
 msgstr ""
 
@@ -2656,7 +2656,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 136
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 136
-#: rc.cpp:21 rc.cpp:475
+#: rc.cpp:21 rc.cpp:481
 msgid "&Import to Local"
 msgstr ""
 
@@ -2664,7 +2664,7 @@ msgstr ""
 #. i18n: file certificateinfowidget.ui line 173
 #. i18n: tag string
 #. i18n: file ./certificateinfowidget.ui line 173
-#: rc.cpp:24 rc.cpp:478
+#: rc.cpp:24 rc.cpp:484
 msgid "Certificate Information"
 msgstr ""
 
@@ -2672,7 +2672,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 13
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 13
-#: rc.cpp:27 rc.cpp:383
+#: rc.cpp:27 rc.cpp:389
 msgid "Key Generation Wizard"
 msgstr ""
 
@@ -2680,7 +2680,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 40
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 40
-#: rc.cpp:30 rc.cpp:386
+#: rc.cpp:30 rc.cpp:392
 msgid ""
 "<b>Welcome to the Key Generation Wizard.</b>\n"
 "<br>\n"
@@ -2699,7 +2699,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 78
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 78
-#: rc.cpp:38 rc.cpp:394
+#: rc.cpp:38 rc.cpp:400
 msgid ""
 "On this page, you will configure the cryptographic key length and the type "
 "of certificate to create."
@@ -2709,7 +2709,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 107
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 107
-#: rc.cpp:41 rc.cpp:397
+#: rc.cpp:41 rc.cpp:403
 msgid "Cryptographic Key Length"
 msgstr ""
 
@@ -2717,7 +2717,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 113
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 113
-#: rc.cpp:44 rc.cpp:400
+#: rc.cpp:44 rc.cpp:406
 msgid "Choose &key length:"
 msgstr ""
 
@@ -2725,7 +2725,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 148
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 148
-#: rc.cpp:47 rc.cpp:403
+#: rc.cpp:47 rc.cpp:409
 msgid "Certificate Usage"
 msgstr ""
 
@@ -2733,7 +2733,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 154
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 154
-#: rc.cpp:50 rc.cpp:406
+#: rc.cpp:50 rc.cpp:412
 msgid "For &signing only"
 msgstr ""
 
@@ -2741,7 +2741,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 161
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 161
-#: rc.cpp:53 rc.cpp:409
+#: rc.cpp:53 rc.cpp:415
 msgid "For &encrypting only"
 msgstr ""
 
@@ -2749,7 +2749,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 168
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 168
-#: rc.cpp:56 rc.cpp:412
+#: rc.cpp:56 rc.cpp:418
 msgid "For signing &and encrypting"
 msgstr ""
 
@@ -2757,7 +2757,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 209
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 209
-#: rc.cpp:59 rc.cpp:415
+#: rc.cpp:59 rc.cpp:421
 msgid ""
 "On this page, you will enter some personal data that will be stored in your "
 "certificate and that will help other people to determine that it is actually "
@@ -2768,7 +2768,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 238
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 238
-#: rc.cpp:62 rc.cpp:418
+#: rc.cpp:62 rc.cpp:424
 msgid ""
 "This will insert your address if you have set the \"Who am I\" information "
 "in the address book"
@@ -2778,7 +2778,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 241
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 241
-#: rc.cpp:65 rc.cpp:421
+#: rc.cpp:65 rc.cpp:427
 msgid "&Insert My Address"
 msgstr ""
 
@@ -2786,7 +2786,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 292
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 292
-#: rc.cpp:68 rc.cpp:424
+#: rc.cpp:68 rc.cpp:430
 msgid ""
 "<qt><p>On this page, you will create a key pair in a decentralized way.\n"
 "</p><p>You can either store the certificate request in a file for later "
@@ -2806,7 +2806,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 324
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 324
-#: rc.cpp:79 rc.cpp:435
+#: rc.cpp:79 rc.cpp:441
 msgid "Certificate Request Options"
 msgstr ""
 
@@ -2814,7 +2814,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 330
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 330
-#: rc.cpp:82 rc.cpp:438
+#: rc.cpp:82 rc.cpp:444
 msgid "&Store in a file:"
 msgstr ""
 
@@ -2822,7 +2822,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 347
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 347
-#: rc.cpp:85 rc.cpp:441
+#: rc.cpp:85 rc.cpp:447
 msgid "Send to CA as an &email message:"
 msgstr ""
 
@@ -2830,7 +2830,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 360
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 360
-#: rc.cpp:88 rc.cpp:444
+#: rc.cpp:88 rc.cpp:450
 msgid "Add email to DN in request for broken CAs"
 msgstr ""
 
@@ -2838,7 +2838,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 392
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 392
-#: rc.cpp:91 rc.cpp:447
+#: rc.cpp:91 rc.cpp:453
 msgid "&Generate Key Pair && Certificate Request"
 msgstr ""
 
@@ -2846,7 +2846,7 @@ msgstr ""
 #. i18n: file certificatewizard.ui line 443
 #. i18n: tag string
 #. i18n: file ./certificatewizard.ui line 443
-#: rc.cpp:94 rc.cpp:450
+#: rc.cpp:94 rc.cpp:456
 msgid ""
 "<qt>\n"
 "Your key pair has now been created and stored locally. The corresponding "
@@ -2864,12 +2864,14 @@ msgstr ""
 #. i18n: file kleopatra_newui.rc line 18
 #. i18n: tag text
 #. i18n: file ./kleopatra_newui.rc line 18
-#: rc.cpp:104 rc.cpp:365
+#: rc.cpp:104 rc.cpp:368
 msgid "&View"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file kleopatra_newui.rc line 30
+#. i18n: tag text
+#. i18n: file kleopatra_newui.rc line 67
 #. i18n: tag text
 #. i18n: file kleopatraui.rc line 26
 #. i18n: tag text
@@ -2880,7 +2882,10 @@ msgstr ""
 #. i18n: file ./kleopatraui.rc line 59
 #. i18n: tag text
 #. i18n: file ./kleopatra_newui.rc line 30
-#: rc.cpp:107 rc.cpp:128 rc.cpp:140 rc.cpp:341 rc.cpp:353 rc.cpp:368
+#. i18n: tag text
+#. i18n: file ./kleopatra_newui.rc line 67
+#: rc.cpp:107 rc.cpp:122 rc.cpp:131 rc.cpp:143 rc.cpp:344 rc.cpp:356
+#: rc.cpp:371 rc.cpp:386
 msgid "&Certificates"
 msgstr ""
 
@@ -2892,7 +2897,7 @@ msgstr ""
 #. i18n: file ./kleopatraui.rc line 37
 #. i18n: tag text
 #. i18n: file ./kleopatra_newui.rc line 35
-#: rc.cpp:110 rc.cpp:131 rc.cpp:344 rc.cpp:371
+#: rc.cpp:110 rc.cpp:134 rc.cpp:347 rc.cpp:374
 msgid "C&RLs"
 msgstr ""
 
@@ -2900,7 +2905,7 @@ msgstr ""
 #. i18n: file kleopatra_newui.rc line 42
 #. i18n: tag text
 #. i18n: file ./kleopatra_newui.rc line 42
-#: rc.cpp:113 rc.cpp:374
+#: rc.cpp:113 rc.cpp:377
 msgid "&Window"
 msgstr ""
 
@@ -2908,7 +2913,7 @@ msgstr ""
 #. i18n: file kleopatra_newui.rc line 53
 #. i18n: tag text
 #. i18n: file ./kleopatra_newui.rc line 53
-#: rc.cpp:116 rc.cpp:377
+#: rc.cpp:116 rc.cpp:380
 msgid "&Settings"
 msgstr ""
 
@@ -2920,7 +2925,7 @@ msgstr ""
 #. i18n: file ./kleopatraui.rc line 51
 #. i18n: tag text
 #. i18n: file ./kleopatra_newui.rc line 62
-#: rc.cpp:119 rc.cpp:137 rc.cpp:350 rc.cpp:380
+#: rc.cpp:119 rc.cpp:140 rc.cpp:353 rc.cpp:383
 msgid "Search Toolbar"
 msgstr ""
 
@@ -2928,7 +2933,7 @@ msgstr ""
 #. i18n: file kleopatraui.rc line 4
 #. i18n: tag text
 #. i18n: file ./kleopatraui.rc line 4
-#: rc.cpp:122 rc.cpp:335
+#: rc.cpp:125 rc.cpp:338
 msgid "File"
 msgstr ""
 
@@ -2936,7 +2941,7 @@ msgstr ""
 #. i18n: file kleopatraui.rc line 16
 #. i18n: tag text
 #. i18n: file ./kleopatraui.rc line 16
-#: rc.cpp:125 rc.cpp:338
+#: rc.cpp:128 rc.cpp:341
 msgid "View"
 msgstr ""
 
@@ -2944,23 +2949,23 @@ msgstr ""
 #. i18n: file kleopatraui.rc line 42
 #. i18n: tag text
 #. i18n: file ./kleopatraui.rc line 42
-#: rc.cpp:134 rc.cpp:347
+#: rc.cpp:137 rc.cpp:350
 msgid "&Tools"
 msgstr ""
 
-#: rc.cpp:141
+#: rc.cpp:144
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Нурали Абдураҳмонов"
 
-#: rc.cpp:142
+#: rc.cpp:145
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mavnur@gmail.com"
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 16
-#: rc.cpp:145
+#: rc.cpp:148
 msgid ""
 "If this option is selected, S/MIME certificates are validated using "
 "Certificate Revocation Lists (CRLs)."
@@ -2968,13 +2973,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 19
-#: rc.cpp:148
+#: rc.cpp:151
 msgid "Validate certificates using CRLs"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 29
-#: rc.cpp:151
+#: rc.cpp:154
 msgid ""
 "If this option is selected, S/MIME certificates are validated online using "
 "the Online Certificates Status Protocol (OCSP). Fill in the URL of the OCSP "
@@ -2983,25 +2988,25 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 32
-#: rc.cpp:154
+#: rc.cpp:157
 msgid "Validate certificates online (OCSP)"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 42
-#: rc.cpp:157
+#: rc.cpp:160
 msgid "Online Certificate Validation"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 48
-#: rc.cpp:160
+#: rc.cpp:163
 msgid "OCSP responder URL:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 58
-#: rc.cpp:163
+#: rc.cpp:166
 msgid ""
 "Enter here the address of the server for online validation of certificates "
 "(OCSP responder). The URL is usually starting with http://."
@@ -3009,19 +3014,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 65
-#: rc.cpp:166
+#: rc.cpp:169
 msgid "OCSP responder signature:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 78
-#: rc.cpp:169
+#: rc.cpp:172
 msgid "Ignore service URL of certificates"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 88
-#: rc.cpp:172
+#: rc.cpp:175
 msgid ""
 "By default GnuPG uses the file ~/.gnupg/policies.txt to check if a "
 "certificate policy is allowed. If this option is selected, policies are not "
@@ -3030,13 +3035,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 91
-#: rc.cpp:175
+#: rc.cpp:178
 msgid "Do not check certificate policies"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 98
-#: rc.cpp:178
+#: rc.cpp:181
 msgid ""
 "If this option is checked, Certificate Revocation Lists are never used to "
 "validate S/MIME certificates."
@@ -3044,13 +3049,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 101
-#: rc.cpp:181
+#: rc.cpp:184
 msgid "Never consult a CRL"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 108
-#: rc.cpp:184
+#: rc.cpp:187
 msgid ""
 "If this option is checked, missing issuer certificates are fetched when "
 "necessary (this applies to both validation methods, CRLs and OCSP)"
@@ -3058,31 +3063,31 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 111
-#: rc.cpp:187
+#: rc.cpp:190
 msgid "Fetch missing issuer certificates"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 119
-#: rc.cpp:190
+#: rc.cpp:193
 msgid "&HTTP Requests"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 125
-#: rc.cpp:193
+#: rc.cpp:196
 msgid "Entirely disables the use of HTTP for S/MIME."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 128
-#: rc.cpp:196
+#: rc.cpp:199
 msgid "Do not perform any HTTP requests"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 135
-#: rc.cpp:199
+#: rc.cpp:202
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
 "contains what are known as \"CRL Distribution Point\" (DP) entries, which "
@@ -3093,13 +3098,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 138
-#: rc.cpp:202
+#: rc.cpp:205
 msgid "Ignore HTTP CRL distribution point of certificates"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 145
-#: rc.cpp:205
+#: rc.cpp:208
 msgid ""
 "If this option is selected, the value of the HTTP proxy shown on the right "
 "(which comes from the environment variable http_proxy) will be used for any "
@@ -3108,19 +3113,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 148
-#: rc.cpp:208
+#: rc.cpp:211
 msgid "Use system HTTP proxy:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 165
-#: rc.cpp:214
+#: rc.cpp:217
 msgid "Use this proxy for HTTP requests: "
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 172
-#: rc.cpp:217
+#: rc.cpp:220
 msgid ""
 "Enter here the location of your HTTP Proxy, which will be used for all HTTP "
 "requests relating to S/MIME. The syntax is host:port, for instance myproxy."
@@ -3129,25 +3134,25 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 193
-#: rc.cpp:220
+#: rc.cpp:223
 msgid "&LDAP Requests"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 199
-#: rc.cpp:223
+#: rc.cpp:226
 msgid "Entirely disables the use of LDAP for S/MIME."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 202
-#: rc.cpp:226
+#: rc.cpp:229
 msgid "Do not perform any LDAP requests"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 209
-#: rc.cpp:229
+#: rc.cpp:232
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
 "contains what are known as \"CRL Distribution Point\" (DP) entries, which "
@@ -3158,19 +3163,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 212
-#: rc.cpp:232
+#: rc.cpp:235
 msgid "Ignore LDAP CRL distribution point of certificates"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 219
-#: rc.cpp:235
+#: rc.cpp:238
 msgid "Primary host for LDAP requests:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/smimevalidationconfigurationwidget.ui line 230
-#: rc.cpp:238
+#: rc.cpp:241
 msgid ""
 "Entering a LDAP server here will make all LDAP requests go to that server "
 "first. More precisely, this setting overrides any specified host and port "
@@ -3183,121 +3188,121 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 16
-#: rc.cpp:242
+#: rc.cpp:245
 msgid "Color & Font Configuration"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 23
-#: rc.cpp:245
+#: rc.cpp:248
 msgid "Key Categories"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 42
-#: rc.cpp:248
+#: rc.cpp:251
 msgid "Set &Icon..."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 52
-#: rc.cpp:251
+#: rc.cpp:254
 msgid "Set &Text Color..."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 62
-#: rc.cpp:254
+#: rc.cpp:257
 msgid "Set &Background Color..."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 72
-#: rc.cpp:257
+#: rc.cpp:260
 msgid "Set F&ont..."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 82
-#: rc.cpp:260
+#: rc.cpp:263
 msgid "Italic"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 92
-#: rc.cpp:263
+#: rc.cpp:266
 msgid "Bold"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 102
-#: rc.cpp:266
+#: rc.cpp:269
 msgid "Strikeout"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./conf/appearanceconfigwidget.ui line 128
-#: rc.cpp:269
+#: rc.cpp:272
 msgid "Default Appearance"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 13
-#: rc.cpp:272
+#: rc.cpp:275
 msgid "Change Certificate Date of Expiry"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 19
-#: rc.cpp:275
+#: rc.cpp:278
 msgid "Please select when to expire this certificate:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 26
-#: rc.cpp:278
+#: rc.cpp:281
 msgid "Never"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 38
-#: rc.cpp:281
+#: rc.cpp:284
 msgid "In"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 62
-#: rc.cpp:284
+#: rc.cpp:287
 msgid "Days"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 67
-#: rc.cpp:287
+#: rc.cpp:290
 msgid "Weeks"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 72
-#: rc.cpp:290
+#: rc.cpp:293
 msgid "Months"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 77
-#: rc.cpp:293
+#: rc.cpp:296
 msgid "Years"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./dialogs/expirydialog.ui line 100
-#: rc.cpp:296
+#: rc.cpp:299
 msgid "On this day:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 17
-#: rc.cpp:299
+#: rc.cpp:302
 #, fuzzy
 #| msgid "Stop Operation"
 msgid "Option"
@@ -3305,73 +3310,73 @@ msgstr "Жараённи тўхтатиш"
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 22
-#: rc.cpp:302
+#: rc.cpp:305
 msgid "Impose"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 38
-#: rc.cpp:305
+#: rc.cpp:308
 msgid "Component:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 62
-#: rc.cpp:308
+#: rc.cpp:311
 msgid "Option:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 89
-#: rc.cpp:311
+#: rc.cpp:314
 msgid "Description:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 122
-#: rc.cpp:314
+#: rc.cpp:317
 msgid "Type:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 147
-#: rc.cpp:317
+#: rc.cpp:320
 msgid "Reset user settings to built-in default"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 157
-#: rc.cpp:320
+#: rc.cpp:323
 msgid "Custom value:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kgpgconf/mainwidget.ui line 177
-#: rc.cpp:323
+#: rc.cpp:326
 msgid "Impose setting on all users"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./crypto/gui/signingcertificateselectionwidget.ui line 16
-#: rc.cpp:326
+#: rc.cpp:329
 msgid "OpenPGP Signing Certificate"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./crypto/gui/signingcertificateselectionwidget.ui line 26
-#: rc.cpp:329
+#: rc.cpp:332
 msgid "S/MIME Signing Certificate"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./crypto/gui/signingcertificateselectionwidget.ui line 36
-#: rc.cpp:332
+#: rc.cpp:335
 msgid "Remember these as default for future operations"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ./kwatchgnupg/kwatchgnupgui.rc line 13
-#: rc.cpp:359
+#: rc.cpp:362
 msgid "Main Toolbar"
 msgstr ""
 
@@ -3653,68 +3658,68 @@ msgstr ""
 msgid "(c) 2004 Klarälvdalens Datakonsult AB\n"
 msgstr ""
 
-#: mainwindow.cpp:131
+#: mainwindow.cpp:150
 #, kde-format
 msgctxt "Quit [ApplicationName]"
 msgid "&Quit %1"
 msgstr ""
 
-#: mainwindow.cpp:137
+#: mainwindow.cpp:156
 msgid "Only &Close Window"
 msgstr ""
 
-#: mainwindow.cpp:161
+#: mainwindow.cpp:180
 #, kde-format
 msgid ""
 "%1 may be used by other applications as a service.\n"
 "You may instead want to close this window without exiting %1."
 msgstr ""
 
-#: mainwindow.cpp:163
+#: mainwindow.cpp:182
 msgid "Really Quit?"
 msgstr ""
 
-#: mainwindow.cpp:244
+#: mainwindow.cpp:271
 msgid "GnuPG Configuration Self-Check"
 msgstr ""
 
-#: mainwindow.cpp:248
+#: mainwindow.cpp:275
 msgid "Configure GnuPG Backend..."
 msgstr ""
 
-#: mainwindow.cpp:354
+#: mainwindow.cpp:389
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "New Certificate..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: mainwindow.cpp:360
+#: mainwindow.cpp:395
 msgid "Sign/Encrypt Files..."
 msgstr ""
 
-#: mainwindow.cpp:372
+#: mainwindow.cpp:407
 msgid "Change Expiry Date..."
 msgstr ""
 
-#: mainwindow.cpp:379
+#: mainwindow.cpp:414
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Import CRL From File..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: mainwindow.cpp:417
+#: mainwindow.cpp:466
 msgid "GnuPG Configuration Self-Check Results"
 msgstr ""
 
-#: mainwindow.cpp:419
+#: mainwindow.cpp:468
 msgid "This is the result of the GnuPG configuration self-check:"
 msgstr ""
 
-#: mainwindow.cpp:453
+#: mainwindow.cpp:502
 msgid "The process terminated prematurely"
 msgstr ""
 
-#: mainwindow.cpp:458
+#: mainwindow.cpp:507
 #, kde-format
 msgid ""
 "There was an error executing the GnuPG configuration self-check:\n"
@@ -3724,7 +3729,7 @@ msgid ""
 "Diagnostics:"
 msgstr ""
 
-#: mainwindow.cpp:463
+#: mainwindow.cpp:512
 #, kde-format
 msgid ""
 "There was an error executing \"gpgconf --check-config\":\n"
@@ -3732,7 +3737,7 @@ msgid ""
 "You might want to execute \"gpgconf --check-config\" on the command line."
 msgstr ""
 
-#: mainwindow.cpp:468
+#: mainwindow.cpp:517
 #, kde-format
 msgid ""
 "The GnuPG configuration self-check failed.\n"
@@ -3741,47 +3746,47 @@ msgid ""
 "Diagnostics:"
 msgstr ""
 
-#: mainwindow.cpp:472
+#: mainwindow.cpp:521
 #, kde-format
 msgid ""
 "The GnuPG configuration self-check failed with error code %1.\n"
 "No output was received."
 msgstr ""
 
-#: mainwindow.cpp:476
+#: mainwindow.cpp:525
 msgid ""
 "The GnuPG configuration self-check succeeded.\n"
 "\n"
 "Diagnostics:"
 msgstr ""
 
-#: mainwindow.cpp:479
+#: mainwindow.cpp:528
 msgid "The GnuPG configuration self-check succeeded."
 msgstr ""
 
-#: mainwindow.cpp:489
+#: mainwindow.cpp:538
 msgid "Could not configure the cryptography backend (gpgconf tool not found)"
 msgstr ""
 
-#: mainwindow.cpp:489
+#: mainwindow.cpp:538
 msgid "Configuration Error"
 msgstr ""
 
-#: mainwindow.cpp:586
+#: mainwindow.cpp:635
 msgid "Sign/Encrypt..."
 msgstr ""
 
-#: mainwindow.cpp:588
+#: mainwindow.cpp:637
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Import Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: mainwindow.cpp:589
+#: mainwindow.cpp:638
 msgid "Import CRLs"
 msgstr ""
 
-#: mainwindow.cpp:591
+#: mainwindow.cpp:640
 #, fuzzy
 #| msgid "Canceled."
 msgid "Cancel"
