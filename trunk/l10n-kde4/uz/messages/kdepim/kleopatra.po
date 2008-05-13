@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-11 10:13+0200\n"
+"POT-Creation-Date: 2008-05-13 19:40+0200\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1423,6 +1423,7 @@ msgid "Performing Self-Check..."
 msgstr ""
 
 #: main.cpp:133
+msgctxt "didn't pass"
 msgid "Self-Check Failed"
 msgstr ""
 
@@ -4304,9 +4305,10 @@ msgstr ""
 msgid "The process terminated prematurely"
 msgstr ""
 
-#: selftest/gpgconfcheck.cpp:77 selftest/gpgconfcheck.cpp:90
+#: selftest/gpgconfcheck.cpp:77
 #, fuzzy
 #| msgid "Find"
+msgctxt "self-test didn't pass"
 msgid "Failed"
 msgstr "Қидириш"
 
@@ -4328,8 +4330,16 @@ msgid ""
 "You might want to execute \"gpgconf --check-config\" on the command line."
 msgstr ""
 
-#: selftest/gpgconfcheck.cpp:92
+#: selftest/gpgconfcheck.cpp:90
+#, fuzzy
+#| msgid "Find"
+msgctxt "self-check didn't pass"
+msgid "Failed"
+msgstr "Қидириш"
+
+#: selftest/gpgconfcheck.cpp:93
 #, kde-format
+msgctxt "Self-test didn't pass"
 msgid ""
 "The GnuPG configuration self-check failed.\n"
 "\n"
@@ -4337,8 +4347,9 @@ msgid ""
 "Diagnostics:"
 msgstr ""
 
-#: selftest/gpgconfcheck.cpp:96
+#: selftest/gpgconfcheck.cpp:98
 #, kde-format
+msgctxt "self-check didn't pass"
 msgid ""
 "The GnuPG configuration self-check failed with error code %1.\n"
 "No output was received."

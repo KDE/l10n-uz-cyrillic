@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-12 11:10+0200\n"
+"POT-Creation-Date: 2008-05-13 19:54+0200\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1926,70 +1926,6 @@ msgctxt "Style name"
 msgid "Gray Top and Bottom"
 msgstr "Тепаси ва пасти кул"
 
-#: part/KWOpenDocumentLoader.cpp:336
-msgid "Invalid OASIS OpenDocument file. No office:body tag found."
-msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
-
-#: part/KWOpenDocumentLoader.cpp:348
-msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
-msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
-
-#: part/KWOpenDocumentLoader.cpp:350
-#, kde-format
-msgid ""
-"This is not a word processing document, but %1. Please try opening it with "
-"the appropriate application."
-msgstr "Бу KWord ҳужжати эмас, лекин %1. Уни мос дастур билан очиб кўринг."
-
-#: part/KWOpenDocumentLoader.cpp:441 part/KWOpenDocumentLoader.cpp:481
-msgid "Main Text Frameset"
-msgstr "Асосий матн фрейм тўплами"
-
-#: part/KWOpenDocumentLoader.cpp:654
-msgid ""
-"Invalid document. 'fo' has the wrong namespace. The application which "
-"produced this document is not OASIS-compliant."
-msgstr ""
-
-#: part/KWOpenDocumentLoader.cpp:656 part/KWDLoader.cpp:101
-#, kde-format
-msgid "Invalid document. Paper size: %1x%2"
-msgstr "Ҳужжат ҳақиқий эмас. Бетнинг ўлчами: %1x%2"
-
-#: part/KWOpenDocumentLoader.cpp:694
-#, fuzzy
-msgid "Header"
-msgstr "Сарлавҳа 4"
-
-#: part/KWOpenDocumentLoader.cpp:694 part/frames/KWTextFrameSet.cpp:78
-msgid "Odd Pages Header"
-msgstr ""
-
-#: part/KWOpenDocumentLoader.cpp:698 part/frames/KWTextFrameSet.cpp:81
-msgid "Even Pages Header"
-msgstr ""
-
-#: part/KWOpenDocumentLoader.cpp:702
-#, fuzzy
-msgid "Footer"
-msgstr "Сатр"
-
-#: part/KWOpenDocumentLoader.cpp:702 part/frames/KWTextFrameSet.cpp:87
-msgid "Odd Pages Footer"
-msgstr ""
-
-#: part/KWOpenDocumentLoader.cpp:706 part/frames/KWTextFrameSet.cpp:90
-msgid "Even Pages Footer"
-msgstr ""
-
-#: part/KWOpenDocumentLoader.cpp:710 part/frames/KWTextFrameSet.cpp:75
-msgid "First Page Header"
-msgstr ""
-
-#: part/KWOpenDocumentLoader.cpp:714 part/frames/KWTextFrameSet.cpp:84
-msgid "First Page Footer"
-msgstr ""
-
 #: part/dialogs/KWShapeConfigFactory.cpp:38 part/dialogs/KWFrameDialog.cpp:47
 msgid "Connect Text Frames"
 msgstr "Матн фреймларини боғлаш"
@@ -2151,6 +2087,11 @@ msgstr ""
 "Нотўғри ҳужжат тури. MIME-тури application/x-kword ёки application/vnd.kde."
 "kword кутилган эди, ўрнига %1 олинди."
 
+#: part/KWDLoader.cpp:101 part/KWOdfLoader.cpp:420
+#, kde-format
+msgid "Invalid document. Paper size: %1x%2"
+msgstr "Ҳужжат ҳақиқий эмас. Бетнинг ўлчами: %1x%2"
+
 #: part/commands/KWPageRemoveCommand.cpp:29
 #, fuzzy
 #| msgid "Remove entry"
@@ -2181,6 +2122,30 @@ msgstr "Бетни қўйиш"
 #: part/commands/KWFrameDeleteCommand.cpp:29 part/KWView.cpp:153
 msgid "Delete Frame"
 msgstr "Фреймни ўчириш"
+
+#: part/frames/KWTextFrameSet.cpp:75 part/KWOdfLoader.cpp:474
+msgid "First Page Header"
+msgstr ""
+
+#: part/frames/KWTextFrameSet.cpp:78 part/KWOdfLoader.cpp:458
+msgid "Odd Pages Header"
+msgstr ""
+
+#: part/frames/KWTextFrameSet.cpp:81 part/KWOdfLoader.cpp:462
+msgid "Even Pages Header"
+msgstr ""
+
+#: part/frames/KWTextFrameSet.cpp:84 part/KWOdfLoader.cpp:478
+msgid "First Page Footer"
+msgstr ""
+
+#: part/frames/KWTextFrameSet.cpp:87 part/KWOdfLoader.cpp:466
+msgid "Odd Pages Footer"
+msgstr ""
+
+#: part/frames/KWTextFrameSet.cpp:90 part/KWOdfLoader.cpp:470
+msgid "Even Pages Footer"
+msgstr ""
 
 #: part/frames/KWTextFrameSet.cpp:93
 #, fuzzy
@@ -2520,6 +2485,41 @@ msgstr ""
 msgid "Zoom Controller"
 msgstr ""
 
+#: part/KWOdfLoader.cpp:100
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
+
+#: part/KWOdfLoader.cpp:112
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
+
+#: part/KWOdfLoader.cpp:114
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr "Бу KWord ҳужжати эмас, лекин %1. Уни мос дастур билан очиб кўринг."
+
+#: part/KWOdfLoader.cpp:205 part/KWOdfLoader.cpp:245
+msgid "Main Text Frameset"
+msgstr "Асосий матн фрейм тўплами"
+
+#: part/KWOdfLoader.cpp:418
+msgid ""
+"Invalid document. 'fo' has the wrong namespace. The application which "
+"produced this document is not OASIS-compliant."
+msgstr ""
+
+#: part/KWOdfLoader.cpp:458
+#, fuzzy
+msgid "Header"
+msgstr "Сарлавҳа 4"
+
+#: part/KWOdfLoader.cpp:466
+#, fuzzy
+msgid "Footer"
+msgstr "Сатр"
+
 #: part/KWAboutData.h:27
 msgid "KOffice Word Processor"
 msgstr "KOffice матн процессори"
@@ -2624,11 +2624,11 @@ msgstr ""
 msgid "Copy"
 msgstr "Нусха%1-%2"
 
-#: part/KWDocument.cpp:696
+#: part/KWDocument.cpp:695
 msgid "Can not find needed text component, KWord will quit now"
 msgstr ""
 
-#: part/KWDocument.cpp:697
+#: part/KWDocument.cpp:696
 msgid "Installation Error"
 msgstr ""
 
