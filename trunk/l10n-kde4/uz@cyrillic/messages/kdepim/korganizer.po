@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-12 11:06+0200\n"
+"POT-Creation-Date: 2008-05-18 07:32+0200\n"
 "PO-Revision-Date: 2006-12-17 13:34+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: koeventpopupmenu.cpp:53 views/todoview/kotodoview.cpp:129
+#: koeventpopupmenu.cpp:53 views/todoview/kotodoview.cpp:143
 #: actionmanager.cpp:519 actionmanager.cpp:1602 actionmanager.cpp:1635
 msgid "&Show"
 msgstr "&Кўрсатиш"
 
-#: koeventpopupmenu.cpp:54 views/todoview/kotodoview.cpp:132
+#: koeventpopupmenu.cpp:54 views/todoview/kotodoview.cpp:146
 #: actionmanager.cpp:524 actionmanager.cpp:1605 actionmanager.cpp:1636
 #: resourceview.cpp:555
 msgid "&Edit..."
 msgstr "&Таҳрирлаш"
 
-#: koeventpopupmenu.cpp:56 views/todoview/kotodoview.cpp:137
+#: koeventpopupmenu.cpp:56 views/todoview/kotodoview.cpp:151
 #, fuzzy
 msgid "&Print..."
 msgstr "&Таҳрирлаш"
@@ -1399,105 +1399,118 @@ msgctxt "'Month day' for month view cells"
 msgid "%1 %2"
 msgstr ""
 
-#: views/todoview/kotodoview.cpp:113
+#: views/todoview/kotodoview.cpp:117
 msgid "Click to add a new to-do"
 msgstr "Янги вазифа қўшиш учун босинг"
+
+#: views/todoview/kotodoview.cpp:124
+#, fuzzy
+#| msgid "Month View"
+msgctxt "Checkbox to display todos not hirarchical"
+msgid "Flat View"
+msgstr "Ой кўриниши"
+
+#: views/todoview/kotodoview.cpp:125
+msgid ""
+"Display to-dos as list rather than as tree\n"
+"(i.e. without parental relationship displayed)"
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file filteredit_base.ui line 35
 #. i18n: tag string
 #. i18n: file ./filteredit_base.ui line 35
-#: views/todoview/kotodoview.cpp:142 calendarview.cpp:798
+#: views/todoview/kotodoview.cpp:156 calendarview.cpp:798
 #: actionmanager.cpp:328 actionmanager.cpp:529 actionmanager.cpp:1608
 #: actionmanager.cpp:1637 rc.cpp:6 rc.cpp:2443 journalview.cpp:188
 #, fuzzy
 msgid "&Delete"
 msgstr "%1'ни ўчириш"
 
-#: views/todoview/kotodoview.cpp:149 actionmanager.cpp:497
+#: views/todoview/kotodoview.cpp:163 actionmanager.cpp:497
 msgid "New &To-do..."
 msgstr "Янги &вазифа..."
 
-#: views/todoview/kotodoview.cpp:152 actionmanager.cpp:504
+#: views/todoview/kotodoview.cpp:166 actionmanager.cpp:504
 msgid "New Su&b-to-do..."
 msgstr "Янги туб &вазифа..."
 
-#: views/todoview/kotodoview.cpp:155
+#: views/todoview/kotodoview.cpp:169
 msgid "&Make this To-do Independent"
 msgstr ""
 
-#: views/todoview/kotodoview.cpp:158
+#: views/todoview/kotodoview.cpp:172
 msgid "Make all Sub-to-dos &Independent"
 msgstr ""
 
-#: views/todoview/kotodoview.cpp:166
+#: views/todoview/kotodoview.cpp:180
 msgid "&Copy To"
 msgstr "&Нусха олиш"
 
-#: views/todoview/kotodoview.cpp:178
+#: views/todoview/kotodoview.cpp:192
 msgctxt "delete completed to-dos"
 msgid "Pur&ge Completed"
 msgstr ""
 
-#: views/todoview/kotodoviewquicksearch.cpp:59
+#: views/todoview/kotodoviewquicksearch.cpp:58
 #, fuzzy
 msgctxt "@label in QuickSearchLine"
 msgid "Search"
 msgstr "&Боши:"
 
-#: views/todoview/kotodoviewquicksearch.cpp:67
+#: views/todoview/kotodoviewquicksearch.cpp:66
 #, fuzzy
 #| msgid "Select Cate&gories..."
 msgctxt "@item:inlistbox"
 msgid "Select Categories"
 msgstr "Туркумларни &танлаш"
 
-#: views/todoview/kotodoviewquicksearch.cpp:68
+#: views/todoview/kotodoviewquicksearch.cpp:67
 #, fuzzy
 msgctxt "@info delimiter for joining category names"
 msgid ","
 msgstr ", "
 
-#: views/todoview/kotodomodel.cpp:536
+#: views/todoview/kotodomodel.cpp:598
 msgctxt "yes, recurring to-do"
 msgid "Yes"
 msgstr ""
 
-#: views/todoview/kotodomodel.cpp:537
+#: views/todoview/kotodomodel.cpp:599
 msgctxt "no, not a recurring to-do"
 msgid "No"
 msgstr ""
 
-#: views/todoview/kotodomodel.cpp:554
+#: views/todoview/kotodomodel.cpp:616
 #, fuzzy
 msgctxt "delimiter for joining category names"
 msgid ","
 msgstr ", "
 
-#: views/todoview/kotodomodel.cpp:646 kolistview.cpp:211
+#: views/todoview/kotodomodel.cpp:715 kolistview.cpp:211
 #: printing/calprintdefaultplugins.cpp:1055
 #: printing/calprintdefaultplugins.cpp:1141
 #: plugins/timespanview/timespanwidget.cpp:53
 msgid "Summary"
 msgstr "Ҳисобот"
 
-#: views/todoview/kotodomodel.cpp:648 kolistview.cpp:213
+#: views/todoview/kotodomodel.cpp:717 kolistview.cpp:213
 msgid "Recurs"
 msgstr ""
 
-#: views/todoview/kotodomodel.cpp:650 printing/calprintdefaultplugins.cpp:1058
+#: views/todoview/kotodomodel.cpp:719 printing/calprintdefaultplugins.cpp:1058
 #: printing/calprintdefaultplugins.cpp:1133
 msgid "Priority"
 msgstr "Муҳимлик даражаси"
 
-#: views/todoview/kotodomodel.cpp:652
+#: views/todoview/kotodomodel.cpp:721
 #, fuzzy
 #| msgid "Complete"
 msgctxt "@title:column percent complete"
 msgid "Complete"
 msgstr "Бажарилган"
 
-#: views/todoview/kotodomodel.cpp:654
+#: views/todoview/kotodomodel.cpp:723
 #, fuzzy
 msgid "Due Date/Time"
 msgstr "Сана ва вақт"
@@ -1506,79 +1519,79 @@ msgstr "Сана ва вақт"
 #. i18n: file filteredit_base.ui line 172
 #. i18n: tag string
 #. i18n: file ./filteredit_base.ui line 172
-#: views/todoview/kotodomodel.cpp:656 kolistview.cpp:222 rc.cpp:42 rc.cpp:2479
+#: views/todoview/kotodomodel.cpp:725 kolistview.cpp:222 rc.cpp:42 rc.cpp:2479
 msgid "Categories"
 msgstr "Туркумлар"
 
-#: views/todoview/kotodomodel.cpp:658
+#: views/todoview/kotodomodel.cpp:727
 #, fuzzy
 #| msgid "&Description"
 msgid "Description"
 msgstr "&Таърифи"
 
-#: views/todoview/kotodomodel.cpp:811
+#: views/todoview/kotodomodel.cpp:881
 msgid "Cannot move to-do to itself or a child of itself."
 msgstr ""
 
-#: views/todoview/kotodomodel.cpp:812
+#: views/todoview/kotodomodel.cpp:882
 msgid "Drop To-do"
 msgstr ""
 
-#: views/todoview/kotododelegates.cpp:209
+#: views/todoview/kotododelegates.cpp:227
 #, fuzzy
 msgctxt "@action:inmenu Unspecified priority"
 msgid "unspecified"
 msgstr "Таъри&флар"
 
-#: views/todoview/kotododelegates.cpp:210
+#: views/todoview/kotododelegates.cpp:228
 #, fuzzy
 #| msgid "1 (highest)"
 msgctxt "@action:inmenu highest priority"
 msgid "1 (highest)"
 msgstr "1 (энг юқори)"
 
-#: views/todoview/kotododelegates.cpp:211
+#: views/todoview/kotododelegates.cpp:229
 #, fuzzy
 #| msgid "2"
 msgctxt "@action:inmenu"
 msgid "2"
 msgstr "2"
 
-#: views/todoview/kotododelegates.cpp:212
+#: views/todoview/kotododelegates.cpp:230
 #, fuzzy
 #| msgid "3"
 msgctxt "@action:inmenu"
 msgid "3"
 msgstr "3"
 
-#: views/todoview/kotododelegates.cpp:213
+#: views/todoview/kotododelegates.cpp:231
 #, fuzzy
 #| msgid "4"
 msgctxt "@action:inmenu"
 msgid "4"
 msgstr "4"
 
-#: views/todoview/kotododelegates.cpp:214
+#: views/todoview/kotododelegates.cpp:232
 msgctxt "@action:inmenu medium priority"
 msgid "5 (medium)"
 msgstr ""
 
-#: views/todoview/kotododelegates.cpp:215
+#: views/todoview/kotododelegates.cpp:233
 msgctxt "@action:inmenu"
 msgid "6"
 msgstr ""
 
-#: views/todoview/kotododelegates.cpp:216
+#: views/todoview/kotododelegates.cpp:234
 msgctxt "@action:inmenu"
 msgid "7"
 msgstr ""
 
-#: views/todoview/kotododelegates.cpp:217
+#: views/todoview/kotododelegates.cpp:235
 msgctxt "@action:inmenu"
 msgid "8"
 msgstr ""
 
-#: views/todoview/kotododelegates.cpp:218
+#: views/todoview/kotododelegates.cpp:236
 #, fuzzy
 #| msgid "9 (lowest)"
 msgctxt "@action:inmenu lowest priority"
@@ -2177,48 +2190,48 @@ msgid ""
 "contact your system administrator.</p></qt>"
 msgstr ""
 
-#: koeditorgeneral.cpp:102
+#: koeditorgeneral.cpp:104
 msgid "Sets the Title of this event or to-do."
 msgstr "Ушбу ҳодиса ёки вазифа сарлавҳасини мослаш."
 
-#: koeditorgeneral.cpp:103
+#: koeditorgeneral.cpp:105
 #, fuzzy
 #| msgid "T&itle:"
 msgctxt "event or to-do title"
 msgid "T&itle:"
 msgstr "С&арлавҳа:"
 
-#: koeditorgeneral.cpp:121
+#: koeditorgeneral.cpp:123
 msgid "Sets where the event or to-do will take place."
 msgstr ""
 
-#: koeditorgeneral.cpp:122
+#: koeditorgeneral.cpp:124
 msgid "&Location:"
 msgstr "&Манзил:"
 
-#: koeditorgeneral.cpp:139
+#: koeditorgeneral.cpp:141
 msgctxt "@info:whatsthis"
 msgid ""
 "Allows you to select the categories that this event or to-do belongs to."
 msgstr ""
 
-#: koeditorgeneral.cpp:140
+#: koeditorgeneral.cpp:142
 #, fuzzy
 msgid "Categories:"
 msgstr "Туркумлар"
 
-#: koeditorgeneral.cpp:149
+#: koeditorgeneral.cpp:151
 #, fuzzy
 #| msgid "Select Addressee..."
 msgctxt "@action:button select a category"
 msgid "&Select..."
 msgstr "Олувчини танлаш"
 
-#: koeditorgeneral.cpp:161
+#: koeditorgeneral.cpp:163
 msgid "Acc&ess:"
 msgstr ""
 
-#: koeditorgeneral.cpp:162
+#: koeditorgeneral.cpp:164
 msgid ""
 "Sets whether the access to this event or to-do is restricted. Please note "
 "that KOrganizer currently does not use this setting, so the implementation "
@@ -2226,122 +2239,83 @@ msgid ""
 "events or to-dos marked as private or confidential may be visible to others."
 msgstr ""
 
-#: koeditorgeneral.cpp:183
+#: koeditorgeneral.cpp:185
 #, fuzzy
 #| msgid "&Toggle Reminder"
 msgid "Rich text"
 msgstr "&Эсга солишни ўчириш/ёқиш"
 
-#: koeditorgeneral.cpp:184
+#: koeditorgeneral.cpp:186
 #, fuzzy
 #| msgid "&Toggle Reminder"
 msgid "Toggle Rich Text"
 msgstr "&Эсга солишни ўчириш/ёқиш"
 
-#: koeditorgeneral.cpp:189
-msgid "Bold text"
-msgstr ""
-
-#: koeditorgeneral.cpp:195
-msgid "Italicize text"
-msgstr ""
-
-#: koeditorgeneral.cpp:201
-#, fuzzy
-msgid "Underline text"
-msgstr "Эсга солиш ойнаси"
-
-#: koeditorgeneral.cpp:207
-msgid "Strike-through text"
-msgstr ""
-
-#: koeditorgeneral.cpp:213
-msgid "Left-justify text"
-msgstr ""
-
-#: koeditorgeneral.cpp:219
-#, fuzzy
-#| msgid "Event text"
-msgid "Center text"
-msgstr "Ҳодиса матни"
-
-#: koeditorgeneral.cpp:225
-msgid "Right-justify text"
-msgstr ""
-
-#: koeditorgeneral.cpp:231
-msgid "Unordered-list item"
-msgstr ""
-
-#: koeditorgeneral.cpp:237
-msgid "Ordered-list item"
-msgstr ""
-
-#: koeditorgeneral.cpp:255
+#: koeditorgeneral.cpp:239
 msgid ""
 "Sets the description for this event, to-do or journal. This will be "
 "displayed in a reminder if one is set, as well as in a tooltip when you "
 "hover over the event."
 msgstr ""
 
-#: koeditorgeneral.cpp:289
+#: koeditorgeneral.cpp:273
 msgid "&Reminder:"
 msgstr "&Эсга солиш:"
 
-#: koeditorgeneral.cpp:290
+#: koeditorgeneral.cpp:274
 msgid "Activates a reminder for this event or to-do."
 msgstr "Ушбу ҳодиса ёки вазифа учун эсга солишни қўллаш."
 
-#: koeditorgeneral.cpp:294
+#: koeditorgeneral.cpp:278
 msgid "Sets how long before the event occurs the reminder will be triggered."
 msgstr ""
 
-#: koeditorgeneral.cpp:304
+#: koeditorgeneral.cpp:288
 #, fuzzy
 #| msgid "minute(s)"
 msgctxt "@item:inlistbox alarm expressed in minutes"
 msgid "minute(s)"
 msgstr "дақиқа"
 
-#: koeditorgeneral.cpp:305
+#: koeditorgeneral.cpp:289
 #, fuzzy
 #| msgid "hour(s)"
 msgctxt "@item:inlistbox alarm expressed in hours"
 msgid "hour(s)"
 msgstr "соат"
 
-#: koeditorgeneral.cpp:306
+#: koeditorgeneral.cpp:290
 #, fuzzy
 #| msgid "day(s)"
 msgctxt "@item:inlistbox alarm expressed in days"
 msgid "day(s)"
 msgstr "кун"
 
-#: koeditorgeneral.cpp:315
+#: koeditorgeneral.cpp:299
 #, fuzzy
 #| msgid "Advanced"
 msgctxt "advanced alarm settings"
 msgid "Advanced..."
 msgstr "Қўшимча"
 
-#: koeditorgeneral.cpp:428
+#: koeditorgeneral.cpp:411
 #, fuzzy, kde-format
 msgid "1 reminder configured"
 msgid_plural "%1 reminders configured"
 msgstr[0] "Эсга солиш"
 msgstr[1] "Эсга солиш"
 
-#: koeditorgeneral.cpp:455
+#: koeditorgeneral.cpp:438
 msgid "1 advanced reminder configured"
 msgstr ""
 
-#: koeditorgeneral.cpp:496
+#: koeditorgeneral.cpp:479
 #, fuzzy, kde-format
 #| msgid "Calendar"
 msgid "Calendar: %1"
 msgstr "Календар"
 
-#: koeditorgeneral.cpp:709
+#: koeditorgeneral.cpp:594
 #, fuzzy, kde-format
 msgid "One attendee"
 msgid_plural "%1 attendees"
@@ -2378,75 +2352,75 @@ msgctxt "percent of hours spent"
 msgid " (%1%)"
 msgstr "Қайтариш (%1)"
 
-#: koeditorgeneraltodo.cpp:99 koeditorgeneralevent.cpp:102
+#: koeditorgeneraltodo.cpp:100 koeditorgeneralevent.cpp:103
 msgid "Date && Time"
 msgstr "Сана ва вақт"
 
-#: koeditorgeneraltodo.cpp:101
+#: koeditorgeneraltodo.cpp:102
 msgid "Sets options for due and start dates and times for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:108 koeditorgeneralevent.cpp:122
+#: koeditorgeneraltodo.cpp:109 koeditorgeneralevent.cpp:123
 msgid "Select the timezone for this event. It will also affect recurrences"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:116
+#: koeditorgeneraltodo.cpp:117
 msgid "Sets the start date for this to-do"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:118
+#: koeditorgeneraltodo.cpp:119
 #, fuzzy
 #| msgid "Sta&rt:"
 msgctxt "@option:check to-do start datetime"
 msgid "Sta&rt:"
 msgstr "&Боши:"
 
-#: koeditorgeneraltodo.cpp:130
+#: koeditorgeneraltodo.cpp:131
 msgid "Sets the start time for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:134
+#: koeditorgeneraltodo.cpp:135
 msgid "Sets the due date for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:135
+#: koeditorgeneraltodo.cpp:136
 #, fuzzy
 #| msgid "&Date:"
 msgctxt "to-do due datetime"
 msgid "&Due:"
 msgstr "Са&на:"
 
-#: koeditorgeneraltodo.cpp:149
+#: koeditorgeneraltodo.cpp:150
 msgid "Sets the due time for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:153
+#: koeditorgeneraltodo.cpp:154
 msgid "Ti&me associated"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:155
+#: koeditorgeneraltodo.cpp:156
 msgid ""
 "Set if this to-do's start and due dates have times associated with them."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:176
+#: koeditorgeneraltodo.cpp:177
 msgid "Sets the current completion status of this to-do as a percentage."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:181
+#: koeditorgeneraltodo.cpp:182
 #, no-c-format, kde-format
 msgctxt "Percent complete"
 msgid "%1 %"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:187
+#: koeditorgeneraltodo.cpp:188
 #, fuzzy
 #| msgid "co&mpleted"
 msgctxt "percent completed"
 msgid "co&mpleted"
 msgstr "&бажарилган"
 
-#: koeditorgeneraltodo.cpp:198
+#: koeditorgeneraltodo.cpp:199
 msgid ""
 "Sets the priority of this to-do on a scale from one to nine, with one being "
 "the highest priority, five being a medium priority, and nine being the "
@@ -2454,100 +2428,100 @@ msgid ""
 "adjusted to match the appropriate scale."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:204
+#: koeditorgeneraltodo.cpp:205
 msgid "&Priority:"
 msgstr "&Муҳимлик даражаси:"
 
-#: koeditorgeneraltodo.cpp:208
+#: koeditorgeneraltodo.cpp:209
 #, fuzzy
 msgctxt "unspecified priority"
 msgid "unspecified"
 msgstr "Таъри&флар"
 
-#: koeditorgeneraltodo.cpp:209
+#: koeditorgeneraltodo.cpp:210
 #, fuzzy
 #| msgid "1 (highest)"
 msgctxt "highest priority"
 msgid "1 (highest)"
 msgstr "1 (энг юқори)"
 
-#: koeditorgeneraltodo.cpp:210
+#: koeditorgeneraltodo.cpp:211
 msgid "2"
 msgstr "2"
 
-#: koeditorgeneraltodo.cpp:211
+#: koeditorgeneraltodo.cpp:212
 msgid "3"
 msgstr "3"
 
-#: koeditorgeneraltodo.cpp:212
+#: koeditorgeneraltodo.cpp:213
 msgid "4"
 msgstr "4"
 
-#: koeditorgeneraltodo.cpp:213
+#: koeditorgeneraltodo.cpp:214
 msgctxt "medium priority"
 msgid "5 (medium)"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:214
+#: koeditorgeneraltodo.cpp:215
 msgid "6"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:215
+#: koeditorgeneraltodo.cpp:216
 msgid "7"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:216
+#: koeditorgeneraltodo.cpp:217
 msgid "8"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:217
+#: koeditorgeneraltodo.cpp:218
 #, fuzzy
 #| msgid "9 (lowest)"
 msgctxt "lowest priority"
 msgid "9 (lowest)"
 msgstr "9 (энг паст)"
 
-#: koeditorgeneraltodo.cpp:469
+#: koeditorgeneraltodo.cpp:470
 msgid "Please specify a valid due date."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:474
+#: koeditorgeneraltodo.cpp:475
 msgid "Please specify a valid due time."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:482
+#: koeditorgeneraltodo.cpp:483
 msgid "Please specify a valid start date."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:487
+#: koeditorgeneraltodo.cpp:488
 msgid "Please specify a valid start time."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:503
+#: koeditorgeneraltodo.cpp:504
 msgid "The start date cannot be after the due date."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:526
+#: koeditorgeneraltodo.cpp:527
 #, fuzzy, kde-format
 #| msgid "Start: %1"
 msgctxt "to-do start datetime"
 msgid "Start: %1"
 msgstr "Боши: %1"
 
-#: koeditorgeneraltodo.cpp:535
+#: koeditorgeneraltodo.cpp:536
 #, fuzzy, kde-format
 msgctxt "to-do due datetime"
 msgid "   Due: %1"
 msgstr "Тугаш куни: %1"
 
-#: koeditorgeneraltodo.cpp:561
+#: koeditorgeneraltodo.cpp:562
 #, fuzzy
 #| msgid "co&mpleted on"
 msgctxt "to-do completed on datetime"
 msgid "co&mpleted on"
 msgstr "&якунланди"
 
-#: koeditorgeneraltodo.cpp:568
+#: koeditorgeneraltodo.cpp:569
 #, fuzzy
 #| msgid "co&mpleted"
 msgctxt "to-do completed"
@@ -2773,11 +2747,11 @@ msgstr "Тугаш куни: %1"
 msgid "Counter-Event Viewer"
 msgstr ""
 
-#: kocounterdialog.cpp:43 koeditorgeneralevent.cpp:231
+#: kocounterdialog.cpp:43 koeditorgeneralevent.cpp:232
 msgid "Decline"
 msgstr ""
 
-#: kocounterdialog.cpp:44 koeditorgeneralevent.cpp:227
+#: kocounterdialog.cpp:44 koeditorgeneralevent.cpp:228
 msgid "Accept"
 msgstr "Қабул қилиш"
 
@@ -8115,8 +8089,8 @@ msgstr "Бошлаш куни:"
 msgid "End date: "
 msgstr "Тугаш куни:"
 
-#: printing/calprintdefaultplugins.cpp:152 koeditorgeneralevent.cpp:471
-#: koeditorgeneralevent.cpp:483
+#: printing/calprintdefaultplugins.cpp:152 koeditorgeneralevent.cpp:472
+#: koeditorgeneralevent.cpp:484
 msgid "Duration: "
 msgstr "Давом этиши: "
 
@@ -8197,14 +8171,14 @@ msgid_plural "%1 days"
 msgstr[0] "1 кун"
 msgstr[1] "%1 кун"
 
-#: printing/calprintdefaultplugins.cpp:355 koeditorgeneralevent.cpp:485
+#: printing/calprintdefaultplugins.cpp:355 koeditorgeneralevent.cpp:486
 #, fuzzy, kde-format
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] "1 соат"
 msgstr[1] "%1 соат"
 
-#: printing/calprintdefaultplugins.cpp:358 koeditorgeneralevent.cpp:492
+#: printing/calprintdefaultplugins.cpp:358 koeditorgeneralevent.cpp:493
 #, fuzzy, kde-format
 msgid "1 minute"
 msgid_plural "%1 minutes"
@@ -8621,106 +8595,106 @@ msgid ""
 "user will be asked whether to import, merge or open in a separate window."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:104
+#: koeditorgeneralevent.cpp:105
 msgid "Sets options related to the date and time of the event or to-do."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:110
+#: koeditorgeneralevent.cpp:111
 #, fuzzy
 #| msgid "&Start:"
 msgctxt "@label event start time"
 msgid "&Start:"
 msgstr "&Боши:"
 
-#: koeditorgeneralevent.cpp:135
+#: koeditorgeneralevent.cpp:136
 msgid "&End:"
 msgstr "&Охири:"
 
-#: koeditorgeneralevent.cpp:145
+#: koeditorgeneralevent.cpp:146
 msgid "T&ime associated"
 msgstr ""
 
-#: koeditorgeneralevent.cpp:173 koeventviewerdialog.cpp:36
+#: koeditorgeneralevent.cpp:174 koeventviewerdialog.cpp:36
 #, fuzzy
 #| msgid "Edit..."
 msgid "Edit..."
 msgstr "Таҳрирлаш"
 
-#: koeditorgeneralevent.cpp:178
+#: koeditorgeneralevent.cpp:179
 #, fuzzy
 #| msgid "&Reminder:"
 msgid "Reminder:"
 msgstr "&Эсга солиш:"
 
-#: koeditorgeneralevent.cpp:200
+#: koeditorgeneralevent.cpp:201
 msgid "S&how time as:"
 msgstr ""
 
-#: koeditorgeneralevent.cpp:201
+#: koeditorgeneralevent.cpp:202
 msgid "Sets how this time will appear on your Free/Busy information."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:208
+#: koeditorgeneralevent.cpp:209
 #, fuzzy
 #| msgid "Busy"
 msgctxt "show event as busy time"
 msgid "Busy"
 msgstr "Банд"
 
-#: koeditorgeneralevent.cpp:209
+#: koeditorgeneralevent.cpp:210
 #, fuzzy
 #| msgid "Free"
 msgctxt "show event as free time"
 msgid "Free"
 msgstr "Бўш"
 
-#: koeditorgeneralevent.cpp:223
+#: koeditorgeneralevent.cpp:224
 msgid "You have not yet definitely responded to this invitation."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:472
+#: koeditorgeneralevent.cpp:473
 #, fuzzy, kde-format
 msgid "1 Day"
 msgid_plural "%1 Days"
 msgstr[0] "1 кун"
 msgstr[1] "%1 кун"
 
-#: koeditorgeneralevent.cpp:489
+#: koeditorgeneralevent.cpp:490
 msgid ", "
 msgstr ", "
 
-#: koeditorgeneralevent.cpp:502
+#: koeditorgeneralevent.cpp:503
 msgid ""
 "Shows the duration of the event or to-do with the current start and end "
 "dates and times."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:518
+#: koeditorgeneralevent.cpp:519
 #, kde-format
 msgid "From: %1   To: %2   %3"
 msgstr "%1 дан %2 гача   %3"
 
-#: koeditorgeneralevent.cpp:528
+#: koeditorgeneralevent.cpp:529
 #, kde-format
 msgid "Please specify a valid start time, for example '%1'."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:535
+#: koeditorgeneralevent.cpp:536
 #, kde-format
 msgid "Please specify a valid end time, for example '%1'."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:543
+#: koeditorgeneralevent.cpp:544
 #, kde-format
 msgid "Please specify a valid start date, for example '%1'."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:550
+#: koeditorgeneralevent.cpp:551
 #, kde-format
 msgid "Please specify a valid end date, for example '%1'."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:566
+#: koeditorgeneralevent.cpp:567
 msgid ""
 "The event ends before it starts.\n"
 "Please correct dates and times."
@@ -8925,34 +8899,34 @@ msgstr "Олдин&га ўтиш"
 msgid "Go forward one month"
 msgstr ""
 
-#: koeditorgeneraljournal.cpp:68
+#: koeditorgeneraljournal.cpp:69
 msgid "Sets the title of this journal."
 msgstr "Ушбу кундаликнинг номини кўрсатиш."
 
-#: koeditorgeneraljournal.cpp:69
+#: koeditorgeneraljournal.cpp:70
 #, fuzzy
 #| msgid "T&itle:"
 msgctxt "journal title"
 msgid "T&itle:"
 msgstr "С&арлавҳа:"
 
-#: koeditorgeneraljournal.cpp:87
+#: koeditorgeneraljournal.cpp:88
 msgid "&Date:"
 msgstr "Са&на:"
 
-#: koeditorgeneraljournal.cpp:96
+#: koeditorgeneraljournal.cpp:97
 msgid "&Time: "
 msgstr "&Вақт: "
 
-#: koeditorgeneraljournal.cpp:128
+#: koeditorgeneraljournal.cpp:129
 msgid "Allows you to select the categories that this journal belongs to."
 msgstr ""
 
-#: koeditorgeneraljournal.cpp:131
+#: koeditorgeneraljournal.cpp:132
 msgid "Select Cate&gories..."
 msgstr "Туркумларни &танлаш"
 
-#: koeditorgeneraljournal.cpp:216
+#: koeditorgeneraljournal.cpp:217
 #, kde-format
 msgid "Please specify a valid date, for example '%1'."
 msgstr ""
@@ -9828,6 +9802,15 @@ msgstr ""
 #: koagenda.cpp:1148
 msgid "Unable to add the future items to the calendar. No change will be done."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Underline text"
+#~ msgstr "Эсга солиш ойнаси"
+
+#, fuzzy
+#~| msgid "Event text"
+#~ msgid "Center text"
+#~ msgstr "Ҳодиса матни"
 
 #, fuzzy
 #~| msgid "Enter the default reminder time here."
