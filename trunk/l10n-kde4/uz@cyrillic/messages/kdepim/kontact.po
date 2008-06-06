@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-04 22:53+0200\n"
+"POT-Creation-Date: 2008-06-06 16:43+0200\n"
 "PO-Revision-Date: 2005-10-25 20:31+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -75,53 +75,47 @@ msgstr "<p><b>Таржимонлар:</b></p>"
 msgid "%1 License"
 msgstr "%1 лицензияси"
 
-#: src/iconsidepane.cpp:464
-#, fuzzy
-#| msgid "Icon Size"
-msgctxt "@title:menu"
-msgid "Icon Size"
-msgstr "Нишончанинг ўлчами"
-
-#: src/iconsidepane.cpp:467
-#, fuzzy
-#| msgid "Large"
-msgctxt "@action:inmenu change to large icons"
-msgid "Large"
-msgstr "Катта"
-
-#: src/iconsidepane.cpp:472
-#, fuzzy
-#| msgid "Normal"
-msgctxt "@action:inmenu change to normal size icons"
-msgid "Normal"
-msgstr "Оддий"
-
-#: src/iconsidepane.cpp:477
-#, fuzzy
-#| msgid "Small"
-msgctxt "@action:inmenu change to small icons"
-msgid "Small"
-msgstr "Кичик"
-
-#: src/iconsidepane.cpp:485
+#: src/iconsidepane.cpp:181
 #, fuzzy
 #| msgid "Show Icons"
-msgctxt "@action:inmenu show icons in sidepane"
-msgid "Show Icons"
+msgid "Show Icons Only"
 msgstr "Нишончаларни кўрсатиш"
 
-#: src/iconsidepane.cpp:490
+#: src/iconsidepane.cpp:187
 #, fuzzy
 #| msgid "Show Text"
-msgctxt "@action:inmenu show text under icons in sidepane"
-msgid "Show Text"
+msgid "Show Text Only"
 msgstr "Матнни кўрсатиш"
+
+#: src/iconsidepane.cpp:193
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Show Icons and Text"
+msgstr "Нишончаларни кўрсатиш"
+
+#: src/iconsidepane.cpp:204
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Big Icons"
+msgstr "Нишончаларни кўрсатиш"
+
+#: src/iconsidepane.cpp:210
+#, fuzzy
+#| msgid "Normal"
+msgid "Normal Icons"
+msgstr "Оддий"
+
+#: src/iconsidepane.cpp:216
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Small Icons"
+msgstr "Нишончаларни кўрсатиш"
 
 #: src/kcmkontact.cpp:97
 msgid "kontactconfig"
 msgstr "kontactconfig"
 
-#: src/kcmkontact.cpp:98 src/mainwindow.cpp:337
+#: src/kcmkontact.cpp:98 src/mainwindow.cpp:334
 msgid "KDE Kontact"
 msgstr "KDE Kontact"
 
@@ -129,7 +123,7 @@ msgstr "KDE Kontact"
 msgid "(c), 2003 Cornelius Schumacher"
 msgstr "(C), 2003 Корнелиус Шумаҳер (Cornelius Schumacher)"
 
-#: src/kcmkontact.cpp:102 src/main.cpp:160
+#: src/kcmkontact.cpp:102 src/main.cpp:162
 #: plugins/summary/summaryview_plugin.cpp:126
 #, fuzzy
 #| msgid "(c), 2003 Cornelius Schumacher"
@@ -178,106 +172,118 @@ msgstr "Kontact"
 msgid "(C) 2001-2008 The Kontact developers"
 msgstr "(C) 2001-2004, Kontact тузувчилари"
 
-#: src/main.cpp:158
-msgid "Daniel Molkentin"
+#: src/main.cpp:158 plugins/korganizer/kcmapptsummary.cpp:139
+#: plugins/korganizer/kcmtodosummary.cpp:167 plugins/planner/kcmplanner.cpp:77
+#: plugins/planner/plannerplugin.cpp:63
+#: plugins/specialdates/kcmsdsummary.cpp:202
+#: plugins/specialdates/specialdates_plugin.cpp:62
+msgid "Allen Winter"
 msgstr ""
 
 #: src/main.cpp:159
-msgid "Don Sanders"
+msgid "Rafael Fernández López"
+msgstr ""
+
+#: src/main.cpp:160
+msgid "Daniel Molkentin"
 msgstr ""
 
 #: src/main.cpp:161
+msgid "Don Sanders"
+msgstr ""
+
+#: src/main.cpp:163
 #, fuzzy
 #| msgid "(c) 2004 Tobias Koenig"
 msgid "Tobias König"
 msgstr "(C) 2004, Тобиас Кёник (Tobias Koenig)"
 
-#: src/main.cpp:162
+#: src/main.cpp:164
 msgid "David Faure"
 msgstr ""
 
-#: src/main.cpp:163
+#: src/main.cpp:165
 msgid "Ingo Klöcker"
 msgstr ""
 
-#: src/main.cpp:164
+#: src/main.cpp:166
 msgid "Sven Lüppken"
 msgstr ""
 
-#: src/main.cpp:165
+#: src/main.cpp:167
 msgid "Zack Rusin"
 msgstr ""
 
-#: src/main.cpp:166
+#: src/main.cpp:168
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr ""
 
-#: src/main.cpp:167
+#: src/main.cpp:169
 msgid "Original Author"
 msgstr "Биринчи муаллиф"
 
-#: src/mainwindow.cpp:304
+#: src/mainwindow.cpp:301
 msgid "Loading Kontact..."
 msgstr "Kontact юкланмоқда..."
 
-#: src/mainwindow.cpp:303
+#: src/mainwindow.cpp:300
 #, kde-format
 msgid ""
 "<h2 style='text-align:center; margin-top: 0px; margin-bottom: 0px'>%1</h2>"
 msgstr ""
 
-#: src/mainwindow.cpp:314
+#: src/mainwindow.cpp:311
 msgid " Initializing..."
 msgstr " Ишга тайёрланмоқда..."
 
-#: src/mainwindow.cpp:338
+#: src/mainwindow.cpp:335
 msgid "Get Organized!"
 msgstr ""
 
-#: src/mainwindow.cpp:339
+#: src/mainwindow.cpp:336
 msgid "The KDE Personal Information Management Suite"
 msgstr "KDE учун шахсий маълумот бошқарувчиси"
 
-#: src/mainwindow.cpp:377
+#: src/mainwindow.cpp:374
 #, fuzzy
 #| msgid "New"
 msgctxt "@title:menu create new pim items (message,calendar,to-do,etc.)"
 msgid "New"
 msgstr "Янги"
 
-#: src/mainwindow.cpp:392
+#: src/mainwindow.cpp:389
 msgctxt "@title:menu synchronize pim items (message,calendar,to-do,etc.)"
 msgid "Sync"
 msgstr ""
 
-#: src/mainwindow.cpp:398
+#: src/mainwindow.cpp:395
 msgid "Configure Kontact..."
 msgstr "Kontact мосламаси"
 
-#: src/mainwindow.cpp:402
+#: src/mainwindow.cpp:399
 msgid "&Kontact Introduction"
 msgstr ""
 
-#: src/mainwindow.cpp:405
+#: src/mainwindow.cpp:402
 msgid "&Tip of the Day"
 msgstr "&Кун маслаҳати"
 
-#: src/mainwindow.cpp:659
+#: src/mainwindow.cpp:656
 msgid "Application is running standalone. Foregrounding..."
 msgstr ""
 
-#: src/mainwindow.cpp:671
+#: src/mainwindow.cpp:667
 #, kde-format
 msgid "Cannot load part for %1."
 msgstr ""
 
-#: src/mainwindow.cpp:735
+#: src/mainwindow.cpp:731
 #, kde-format
 msgctxt "Plugin dependent window title"
 msgid "%1 - Kontact"
 msgstr "%1 - Kontact"
 
-#: src/mainwindow.cpp:1030
+#: src/mainwindow.cpp:1025
 #, kde-format
 msgid ""
 "<h2 style='text-align:center; margin-top: 0px;'>Welcome to Kontact %1</h2><p>"
@@ -292,32 +298,32 @@ msgid ""
 "introduction</a></p>"
 msgstr ""
 
-#: src/mainwindow.cpp:1042
+#: src/mainwindow.cpp:1037
 msgid ""
 "Kontact handles your e-mail, addressbook, calendar, to-do list and more."
 msgstr ""
 
-#: src/mainwindow.cpp:1048
+#: src/mainwindow.cpp:1043
 msgid "Read Manual"
 msgstr ""
 
-#: src/mainwindow.cpp:1049
+#: src/mainwindow.cpp:1044
 msgid "Learn more about Kontact and its components"
 msgstr ""
 
-#: src/mainwindow.cpp:1055
+#: src/mainwindow.cpp:1050
 msgid "Visit Kontact Website"
 msgstr ""
 
-#: src/mainwindow.cpp:1056
+#: src/mainwindow.cpp:1051
 msgid "Access online resources and tutorials"
 msgstr ""
 
-#: src/mainwindow.cpp:1062
+#: src/mainwindow.cpp:1057
 msgid "Configure Kontact as Groupware Client"
 msgstr ""
 
-#: src/mainwindow.cpp:1063
+#: src/mainwindow.cpp:1058
 msgid "Prepare Kontact for use in corporate networks"
 msgstr ""
 
@@ -342,13 +348,13 @@ msgstr "&Алоқани кўриш"
 
 #: plugins/kaddressbook/kaddressbook_plugin.cpp:176
 #: plugins/korganizer/korganizerplugin.cpp:202
-#: plugins/korganizer/todoplugin.cpp:218
+#: plugins/korganizer/todoplugin.cpp:220
 msgid "Drops of multiple mails are not supported."
 msgstr ""
 
 #: plugins/kaddressbook/kaddressbook_plugin.cpp:189
 #: plugins/korganizer/korganizerplugin.cpp:221
-#: plugins/korganizer/todoplugin.cpp:236
+#: plugins/korganizer/todoplugin.cpp:238
 #, kde-format
 msgid "Cannot handle drop events of type '%1'."
 msgstr ""
@@ -599,14 +605,6 @@ msgstr ""
 msgid "(c) 2003 - 2004 Tobias Koenig"
 msgstr "(C) 2003 - 2004, Тобиас Кёник (Tobias Koenig)"
 
-#: plugins/korganizer/kcmapptsummary.cpp:139
-#: plugins/korganizer/kcmtodosummary.cpp:167 plugins/planner/kcmplanner.cpp:77
-#: plugins/planner/plannerplugin.cpp:63
-#: plugins/specialdates/kcmsdsummary.cpp:202
-#: plugins/specialdates/specialdates_plugin.cpp:62
-msgid "Allen Winter"
-msgstr ""
-
 #: plugins/korganizer/kcmtodosummary.cpp:160
 #, fuzzy
 msgid "kcmtodosummary"
@@ -626,12 +624,12 @@ msgid "Synchronize Calendar"
 msgstr "Календар"
 
 #: plugins/korganizer/korganizerplugin.cpp:186
-#: plugins/korganizer/todoplugin.cpp:188
+#: plugins/korganizer/todoplugin.cpp:189
 msgid "Meeting"
 msgstr "Учрашув"
 
 #: plugins/korganizer/korganizerplugin.cpp:205
-#: plugins/korganizer/todoplugin.cpp:221
+#: plugins/korganizer/todoplugin.cpp:223
 #, kde-format
 msgid ""
 "From: %1\n"
@@ -643,7 +641,7 @@ msgstr ""
 "Мавзу: %3"
 
 #: plugins/korganizer/korganizerplugin.cpp:213
-#: plugins/korganizer/todoplugin.cpp:229
+#: plugins/korganizer/todoplugin.cpp:231
 #, kde-format
 msgid "Mail: %1"
 msgstr "Хат: %1"
@@ -658,7 +656,7 @@ msgstr "Янги вазифа"
 msgid "Sync To-do List"
 msgstr "Дам олиш кунларни кўрсатиш"
 
-#: plugins/korganizer/todoplugin.cpp:200
+#: plugins/korganizer/todoplugin.cpp:202
 #, fuzzy, kde-format
 #| msgid "Notes"
 msgid "Note: %1"
@@ -1258,6 +1256,24 @@ msgstr ""
 #: plugins/newsticker/newsfeeds.h:46
 msgid "Unknown"
 msgstr "Номаълум"
+
+#, fuzzy
+#~| msgid "Icon Size"
+#~ msgctxt "@title:menu"
+#~ msgid "Icon Size"
+#~ msgstr "Нишончанинг ўлчами"
+
+#, fuzzy
+#~| msgid "Large"
+#~ msgctxt "@action:inmenu change to large icons"
+#~ msgid "Large"
+#~ msgstr "Катта"
+
+#, fuzzy
+#~| msgid "Small"
+#~ msgctxt "@action:inmenu change to small icons"
+#~ msgid "Small"
+#~ msgstr "Кичик"
 
 #, fuzzy
 #~| msgid "Icon Size"
