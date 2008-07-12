@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-09 18:25+0200\n"
+"POT-Creation-Date: 2008-07-12 06:47+0200\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2614,7 +2614,7 @@ msgstr ""
 msgid "Parameters"
 msgstr "&Параметрлар"
 
-#: Functions.cpp:521 ui/Canvas.cpp:1038
+#: Functions.cpp:521 ui/Canvas.cpp:1039
 msgid "Comment:"
 msgstr "Изоҳ:"
 
@@ -2761,10 +2761,17 @@ msgstr ""
 #: dialogs/StyleManagerDialog.cpp:101 dialogs/StyleManagerDialog.cpp:146
 #: dialogs/StyleManagerDialog.cpp:184 dialogs/StyleManagerDialog.cpp:210
 #: dialogs/StyleManagerDialog.cpp:253 dialogs/StyleManagerDialog.cpp:278
-#: dialogs/StyleManagerDialog.cpp:299 ui/CellToolBase.cpp:167
+#: dialogs/StyleManagerDialog.cpp:299 ui/CellToolBase.cpp:172
 #, fuzzy
 msgid "Default"
 msgstr "Натижа"
+
+#: ToolRegistry.cpp:51 ui/DefaultToolFactory.cpp:32
+#, fuzzy
+#| msgctxt "Spreadsheet cell"
+#| msgid "Cell "
+msgid "Cell Tool"
+msgstr "Катак "
 
 #: Validity.cpp:916
 #, kde-format
@@ -2953,7 +2960,7 @@ msgstr "&Формат"
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 206
 #: rc.cpp:115 rc.cpp:501 commands/MergeCommand.cpp:155 commands/Undo.cpp:2035
-#: ui/CellToolBase.cpp:409
+#: ui/CellToolBase.cpp:414
 msgid "Merge Cells"
 msgstr "Катакларни бирлаштириш"
 
@@ -2982,47 +2989,47 @@ msgid "&Print Range"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 133
+#. i18n: file kspread.rc line 135
 #: rc.cpp:130
 msgid "&Data"
 msgstr "&Маълумот"
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 135
+#. i18n: file kspread.rc line 137
 #: rc.cpp:133
 #, fuzzy
 msgid "Filter"
 msgstr "файл"
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 149
+#. i18n: file kspread.rc line 151
 #: rc.cpp:136
 #, fuzzy
 msgid "&Tools"
 msgstr "Того"
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 161
+#. i18n: file kspread.rc line 163
 #: rc.cpp:139
 #, fuzzy
 msgid "&Settings"
 msgstr "Мосламалар"
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 185
+#. i18n: file kspread.rc line 187
 #: rc.cpp:142
 #, fuzzy
 msgid "Edit"
 msgstr "&Таҳрирлаш..."
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 193
+#. i18n: file kspread.rc line 195
 #: rc.cpp:145
 msgid "Navigation"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 199
+#. i18n: file kspread.rc line 201
 #. i18n: tag string
 #. i18n: file dialogs/DataFormatWidget.ui line 34
 #. i18n: tag string
@@ -3030,12 +3037,12 @@ msgstr ""
 #. i18n: tag Comment
 #. i18n: file functions/conversion.xml line 251
 #: rc.cpp:148 rc.cpp:162 rc.cpp:712 xml_doc.cpp:297
-#: dialogs/LayoutDialog.cpp:921 ui/CellToolBase.cpp:161
+#: dialogs/LayoutDialog.cpp:921 ui/CellToolBase.cpp:166
 msgid "Format"
 msgstr "Формат"
 
 #. i18n: tag text
-#. i18n: file kspread.rc line 224
+#. i18n: file kspread.rc line 226
 #: rc.cpp:151
 msgid "Color/Border"
 msgstr "Ранг/Чегара"
@@ -3101,13 +3108,13 @@ msgstr "Пул"
 
 #. i18n: tag string
 #. i18n: file dialogs/DataFormatWidget.ui line 94
-#: rc.cpp:186 dialogs/LayoutDialog.cpp:941 ui/CellToolBase.cpp:367
+#: rc.cpp:186 dialogs/LayoutDialog.cpp:941 ui/CellToolBase.cpp:372
 msgid "Money"
 msgstr "Пул"
 
 #. i18n: tag string
 #. i18n: file dialogs/DataFormatWidget.ui line 101
-#: rc.cpp:189 dialogs/LayoutDialog.cpp:937 ui/CellToolBase.cpp:361
+#: rc.cpp:189 dialogs/LayoutDialog.cpp:937 ui/CellToolBase.cpp:366
 msgid "Percent"
 msgstr "Фоиз"
 
@@ -3312,7 +3319,7 @@ msgstr "Руминия"
 
 #. i18n: tag string
 #. i18n: file dialogs/FontWidget.ui line 57
-#: rc.cpp:253 dialogs/LayoutDialog.cpp:1936 ui/CellToolBase.cpp:195
+#: rc.cpp:253 dialogs/LayoutDialog.cpp:1936 ui/CellToolBase.cpp:200
 #, fuzzy
 msgid "Italic"
 msgstr "Италия"
@@ -3336,7 +3343,7 @@ msgstr "Оддий"
 
 #. i18n: tag string
 #. i18n: file dialogs/FontWidget.ui line 82
-#: rc.cpp:265 dialogs/LayoutDialog.cpp:1925 ui/CellToolBase.cpp:190
+#: rc.cpp:265 dialogs/LayoutDialog.cpp:1925 ui/CellToolBase.cpp:195
 msgid "Bold"
 msgstr "Қалин"
 
@@ -3354,7 +3361,7 @@ msgstr "Агар белгиланса, жорий катакдаги матнн�
 
 #. i18n: tag string
 #. i18n: file dialogs/FontWidget.ui line 100
-#: rc.cpp:274 ui/CellToolBase.cpp:200
+#: rc.cpp:274 ui/CellToolBase.cpp:205
 msgid "Underline"
 msgstr "Таги чизилган"
 
@@ -3695,7 +3702,7 @@ msgstr "Форинт"
 #. i18n: file dialogs/PageLayoutSheetPage.ui line 334
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 90
-#: rc.cpp:425 rc.cpp:456 dialogs/SeriesDialog.cpp:70 ui/CellToolBase.cpp:337
+#: rc.cpp:425 rc.cpp:456 dialogs/SeriesDialog.cpp:70 ui/CellToolBase.cpp:342
 #, fuzzy
 msgid "Vertical"
 msgstr "Метикал"
@@ -3721,23 +3728,23 @@ msgstr "Андоза"
 
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 60
-#: rc.cpp:441 dialogs/PreferenceDialog.cpp:339 ui/CellToolBase.cpp:235
-#: ui/CellToolBase.cpp:282
+#: rc.cpp:441 dialogs/PreferenceDialog.cpp:329 ui/CellToolBase.cpp:240
+#: ui/CellToolBase.cpp:287
 #, fuzzy
 msgid "Left"
 msgstr "Lt"
 
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 67
-#: rc.cpp:444 ui/CellToolBase.cpp:242
+#: rc.cpp:444 ui/CellToolBase.cpp:247
 #, fuzzy
 msgid "Center"
 msgstr "Марказда"
 
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 74
-#: rc.cpp:447 dialogs/PreferenceDialog.cpp:338 ui/CellToolBase.cpp:249
-#: ui/CellToolBase.cpp:288
+#: rc.cpp:447 dialogs/PreferenceDialog.cpp:328 ui/CellToolBase.cpp:254
+#: ui/CellToolBase.cpp:293
 #, fuzzy
 msgid "Right"
 msgstr "Узунаси:"
@@ -3756,19 +3763,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 96
-#: rc.cpp:459 ui/CellToolBase.cpp:259 ui/CellToolBase.cpp:294
+#: rc.cpp:459 ui/CellToolBase.cpp:264 ui/CellToolBase.cpp:299
 msgid "Top"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 103
-#: rc.cpp:462 ui/CellToolBase.cpp:266
+#: rc.cpp:462 ui/CellToolBase.cpp:271
 msgid "Middle"
 msgstr "Ўртача"
 
 #. i18n: tag string
 #. i18n: file dialogs/PositionWidget.ui line 110
-#: rc.cpp:465 ui/CellToolBase.cpp:273 ui/CellToolBase.cpp:300
+#: rc.cpp:465 ui/CellToolBase.cpp:278 ui/CellToolBase.cpp:305
 #, fuzzy
 msgid "Bottom"
 msgstr "Пастда текислаш"
@@ -4334,7 +4341,7 @@ msgstr "Ҳаммаси"
 
 #. i18n: tag string
 #. i18n: file dialogs/SpecialPasteWidget.ui line 77
-#: rc.cpp:715 ui/CellToolBase.cpp:545
+#: rc.cpp:715 ui/CellToolBase.cpp:550
 msgid "Comment"
 msgstr "Изоҳ"
 
@@ -4416,8 +4423,8 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file dialogs/SubtotalWidget.ui line 81
-#: rc.cpp:757 dialogs/DatabaseDialog.cpp:203 ui/CellToolBase.cpp:436
-#: ui/CellToolBase.cpp:442
+#: rc.cpp:757 dialogs/DatabaseDialog.cpp:203 ui/CellToolBase.cpp:441
+#: ui/CellToolBase.cpp:447
 msgid "Columns"
 msgstr "Устунлар"
 
@@ -5176,7 +5183,7 @@ msgstr ""
 #. i18n: tag GroupName
 #. i18n: file functions/database.xml line 5
 #: xml_doc.cpp:327 chart/ChartDatabaseSelectorFactory.cpp:40
-#: dialogs/DatabaseDialog.cpp:137 ui/CellToolBase.cpp:648
+#: dialogs/DatabaseDialog.cpp:137 ui/CellToolBase.cpp:653
 msgid "Database"
 msgstr "Маълумот базаси"
 
@@ -18102,13 +18109,13 @@ msgstr "Катакнинг формати"
 msgid "Change Border Color"
 msgstr "Чегара рангини ўзгартириш"
 
-#: commands/CommentCommand.cpp:64 ui/CellToolBase.cpp:546
-#: ui/CellToolBase.cpp:2141
+#: commands/CommentCommand.cpp:64 ui/CellToolBase.cpp:551
+#: ui/CellToolBase.cpp:2224
 msgid "Remove Comment"
 msgstr "Изоҳни олиб ташлаш"
 
 #: commands/CommentCommand.cpp:66 dialogs/CommentDialog.cpp:83
-#: ui/View.cpp:1853
+#: ui/View.cpp:1845
 msgid "Add Comment"
 msgstr "Изоҳни қўшиш"
 
@@ -18182,7 +18189,7 @@ msgstr "Аниқликни ошириш"
 msgid "Decrease Indentation"
 msgstr "Аниқликни камайтириш"
 
-#: commands/LinkCommand.cpp:40 ui/CellToolBase.cpp:568
+#: commands/LinkCommand.cpp:40 ui/CellToolBase.cpp:573
 msgid "Remove Link"
 msgstr "Боғни олиб ташлаш"
 
@@ -18190,15 +18197,15 @@ msgstr "Боғни олиб ташлаш"
 msgid "Set Link"
 msgstr "Боғни кўрсатиш"
 
-#: commands/MergeCommand.cpp:147 ui/CellToolBase.cpp:414
+#: commands/MergeCommand.cpp:147 ui/CellToolBase.cpp:419
 msgid "Merge Cells Horizontally"
 msgstr "Катакларни энига бирлаштириш"
 
-#: commands/MergeCommand.cpp:151 ui/CellToolBase.cpp:419
+#: commands/MergeCommand.cpp:151 ui/CellToolBase.cpp:424
 msgid "Merge Cells Vertically"
 msgstr "Катакларни бўйига бирлаштириш"
 
-#: commands/MergeCommand.cpp:158 ui/CellToolBase.cpp:424
+#: commands/MergeCommand.cpp:158 ui/CellToolBase.cpp:429
 msgid "Dissociate Cells"
 msgstr "Катакларни ажратиш"
 
@@ -18220,11 +18227,11 @@ msgid "Remove Named Area"
 msgstr "Майдонни олиб ташлаш"
 
 #: commands/PrecisionCommand.cpp:36 commands/PrecisionCommand.cpp:65
-#: ui/CellToolBase.cpp:372
+#: ui/CellToolBase.cpp:377
 msgid "Increase Precision"
 msgstr "Аниқликни ошириш"
 
-#: commands/PrecisionCommand.cpp:67 ui/CellToolBase.cpp:377
+#: commands/PrecisionCommand.cpp:67 ui/CellToolBase.cpp:382
 msgid "Decrease Precision"
 msgstr "Аниқликни камайтириш"
 
@@ -18253,27 +18260,27 @@ msgstr "Қаторни созлаш"
 
 #: commands/RowColumnManipulators.cpp:646
 #: commands/RowColumnManipulators.cpp:659 commands/Undo.cpp:285
-#: ui/CellToolBase.cpp:437 ui/CellToolBase_p.cpp:1298
+#: ui/CellToolBase.cpp:442 ui/CellToolBase_p.cpp:1287
 msgid "Insert Columns"
 msgstr "Устунлар қўшиш"
 
 #: commands/RowColumnManipulators.cpp:661 commands/Undo.cpp:222
-#: ui/CellToolBase.cpp:443
+#: ui/CellToolBase.cpp:448
 msgid "Remove Columns"
 msgstr "Устунларни олиб ташлаш"
 
 #: commands/RowColumnManipulators.cpp:713
 #: commands/RowColumnManipulators.cpp:726 commands/Undo.cpp:399
-#: ui/CellToolBase.cpp:475 ui/CellToolBase_p.cpp:1310
+#: ui/CellToolBase.cpp:480 ui/CellToolBase_p.cpp:1299
 msgid "Insert Rows"
 msgstr "Сатрларни қўйиш"
 
 #: commands/RowColumnManipulators.cpp:728 commands/Undo.cpp:328
-#: ui/CellToolBase.cpp:481
+#: ui/CellToolBase.cpp:486
 msgid "Remove Rows"
 msgstr "Сатрларни олиб ташлаш"
 
-#: commands/SheetCommands.cpp:38 ui/View.cpp:2119
+#: commands/SheetCommands.cpp:38 ui/View.cpp:2111
 msgid "Rename Sheet"
 msgstr "Варақнинг номини ўзгартириш"
 
@@ -18306,8 +18313,8 @@ msgstr "Варақни қўшиш"
 msgid "Duplicate Sheet"
 msgstr "Варақни қайтадан ҳисоблаш"
 
-#: commands/SheetCommands.cpp:183 ui/View.cpp:314 ui/View.cpp:2082
-#: ui/View.cpp:2086 ui/View.cpp:2405
+#: commands/SheetCommands.cpp:183 ui/View.cpp:314 ui/View.cpp:2074
+#: ui/View.cpp:2078 ui/View.cpp:2397
 msgid "Remove Sheet"
 msgstr "Варақни олиб ташлаш"
 
@@ -18340,21 +18347,21 @@ msgstr "Варақнинг услуби"
 msgid "Change Style"
 msgstr "Бурчакни ўзгартириш"
 
-#: commands/Undo.cpp:443 ui/CellToolBase.cpp:486
+#: commands/Undo.cpp:443 ui/CellToolBase.cpp:491
 msgid "Hide Rows"
 msgstr "Сатрларни бекитиш"
 
-#: commands/Undo.cpp:499 ui/CellToolBase.cpp:448
+#: commands/Undo.cpp:499 ui/CellToolBase.cpp:453
 msgid "Hide Columns"
 msgstr "Устунларни бекитиш"
 
 #: commands/Undo.cpp:556 dialogs/ShowColRowDialog.cpp:67
-#: ui/CellToolBase.cpp:501
+#: ui/CellToolBase.cpp:506
 msgid "Show Rows"
 msgstr "Сатрларни кўрсатиш"
 
 #: commands/Undo.cpp:613 dialogs/ShowColRowDialog.cpp:63
-#: ui/CellToolBase.cpp:463
+#: ui/CellToolBase.cpp:468
 msgid "Show Columns"
 msgstr "Устунларни кўрсатиш"
 
@@ -18392,7 +18399,7 @@ msgid "Remove Cell"
 msgstr "Катакни олиб ташлаш"
 
 #: commands/Undo.cpp:2336 dialogs/ConditionalDialog.cpp:278
-#: ui/CellToolBase.cpp:556
+#: ui/CellToolBase.cpp:561
 #, fuzzy
 msgid "Conditional Styles"
 msgstr "Катакнинг шартли атрибутлари..."
@@ -18427,8 +18434,8 @@ msgstr "Текшириш"
 
 #: database/FilterPopup.cpp:69 dialogs/FormulaDialog.cpp:101
 #: dialogs/FormulaDialog.cpp:203 dialogs/FormulaDialog.cpp:766
-#: dialogs/ValidityDialog.cpp:78 ui/CellToolBase.cpp:306
-#: ui/CellToolBase.cpp:528
+#: dialogs/ValidityDialog.cpp:78 ui/CellToolBase.cpp:311
+#: ui/CellToolBase.cpp:533
 msgid "All"
 msgstr "Ҳаммаси"
 
@@ -18615,28 +18622,28 @@ msgstr "Муғилистон"
 msgid "&Function:"
 msgstr "&Функция:"
 
-#: dialogs/ConsolidateDialog.cpp:88 dialogs/PreferenceDialog.cpp:342
+#: dialogs/ConsolidateDialog.cpp:88 dialogs/PreferenceDialog.cpp:332
 #: dialogs/SubtotalDialog.cpp:286 ui/View.cpp:474
 msgid "Sum"
 msgstr "Йиғинди"
 
-#: dialogs/ConsolidateDialog.cpp:89 dialogs/PreferenceDialog.cpp:345
+#: dialogs/ConsolidateDialog.cpp:89 dialogs/PreferenceDialog.cpp:335
 #: dialogs/SubtotalDialog.cpp:278 ui/View.cpp:495
 msgid "Average"
 msgstr "Ўртача"
 
-#: dialogs/ConsolidateDialog.cpp:90 dialogs/PreferenceDialog.cpp:346
+#: dialogs/ConsolidateDialog.cpp:90 dialogs/PreferenceDialog.cpp:336
 #: dialogs/SubtotalDialog.cpp:279 ui/View.cpp:502
 #, fuzzy
 msgid "Count"
 msgstr "Сони: "
 
-#: dialogs/ConsolidateDialog.cpp:91 dialogs/PreferenceDialog.cpp:344
+#: dialogs/ConsolidateDialog.cpp:91 dialogs/PreferenceDialog.cpp:334
 #: dialogs/SubtotalDialog.cpp:281 ui/View.cpp:488
 msgid "Max"
 msgstr "Макс"
 
-#: dialogs/ConsolidateDialog.cpp:92 dialogs/PreferenceDialog.cpp:343
+#: dialogs/ConsolidateDialog.cpp:92 dialogs/PreferenceDialog.cpp:333
 #: dialogs/SubtotalDialog.cpp:282 ui/View.cpp:481
 msgid "Min"
 msgstr "Мин"
@@ -18931,11 +18938,11 @@ msgid "You have to select at least one column."
 msgstr "Камида битта устунни танлаш лозим."
 
 #: dialogs/DatabaseDialog.cpp:784 dialogs/DatabaseDialog.cpp:785
-#: dialogs/PreferenceDialog.cpp:348 dialogs/PreferenceDialog.cpp:535
+#: dialogs/PreferenceDialog.cpp:338 dialogs/PreferenceDialog.cpp:473
 #: dialogs/SortDialog.cpp:145 dialogs/SortDialog.cpp:164
 #: dialogs/SortDialog.cpp:470 dialogs/SortDialog.cpp:472
 #: dialogs/SortDialog.cpp:482 dialogs/SortDialog.cpp:484
-#: ui/CellToolBase.cpp:312 ui/View.cpp:467
+#: ui/CellToolBase.cpp:317 ui/View.cpp:467
 msgid "None"
 msgstr "Йўқ"
 
@@ -18946,6 +18953,56 @@ msgid ""
 "'*' or '?' are not valid wildcards in SQL. The proper replacements are '%' "
 "or '_'. Do you want to replace them?"
 msgstr ""
+
+#: dialogs/DocumentSettingsDialog.cpp:77
+#, fuzzy
+msgid "Document Settings"
+msgstr "Мосламалар"
+
+#: dialogs/DocumentSettingsDialog.cpp:87
+#, fuzzy
+msgid "Locale Settings"
+msgstr "Мосламалар"
+
+#: dialogs/DocumentSettingsDialog.cpp:88
+#, fuzzy
+msgid "Document's Locale Settings"
+msgstr "Мосламалар"
+
+#: dialogs/DocumentSettingsDialog.cpp:131
+#, fuzzy
+msgid "&Use System's Locale Settings"
+msgstr "Мосламалар"
+
+#: dialogs/DocumentSettingsDialog.cpp:157
+#, kde-format
+msgid "Language: %1"
+msgstr "Тил: %1"
+
+#: dialogs/DocumentSettingsDialog.cpp:158
+#, kde-format
+msgid "Default number format: %1"
+msgstr "Андоза рақам кўриниши: %1"
+
+#: dialogs/DocumentSettingsDialog.cpp:159
+#, kde-format
+msgid "Long date format: %1"
+msgstr "Сананинг тўлиқ кўриниши: %1"
+
+#: dialogs/DocumentSettingsDialog.cpp:160
+#, kde-format
+msgid "Short date format: %1"
+msgstr "Сананинг қисқа кўриниши: %1"
+
+#: dialogs/DocumentSettingsDialog.cpp:161
+#, kde-format
+msgid "Time format: %1"
+msgstr "Вақтнинг кўриниши: %1"
+
+#: dialogs/DocumentSettingsDialog.cpp:162
+#, kde-format
+msgid "Currency format: %1"
+msgstr "Пулнинг кўриниши: %1"
 
 #: dialogs/FindDialog.cpp:36 dialogs/FindDialog.cpp:110
 msgid "More Options"
@@ -19131,7 +19188,7 @@ msgid "Remove columns"
 msgstr "Устунларни олиб ташлаш"
 
 #: dialogs/LayoutDialog.cpp:170 dialogs/StyleManagerDialog.cpp:61
-#: ui/CellToolBase.cpp:177
+#: ui/CellToolBase.cpp:182
 msgid "Style"
 msgstr "Услуб"
 
@@ -19144,7 +19201,7 @@ msgstr "Номи:"
 msgid "Inherit style:"
 msgstr "Варақнинг услуби"
 
-#: dialogs/LayoutDialog.cpp:240 ui/CellToolBase.cpp:1423
+#: dialogs/LayoutDialog.cpp:240 ui/CellToolBase.cpp:1506
 msgid "A style with this name already exists."
 msgstr "Ушбу номли услуб аллақачон мавжуд."
 
@@ -19338,7 +19395,7 @@ msgid ""
 msgstr ""
 
 #: dialogs/LayoutDialog.cpp:1052 dialogs/LayoutDialog.cpp:1608
-#: dialogs/LayoutDialog.cpp:1677 dialogs/PreferenceDialog.cpp:538
+#: dialogs/LayoutDialog.cpp:1677 dialogs/PreferenceDialog.cpp:476
 #: functions/information.cpp:201
 msgid "Automatic"
 msgstr "Автоматик"
@@ -19436,7 +19493,7 @@ msgstr "Орқа фон ранги:"
 msgid "No Color"
 msgstr "Рангсиз"
 
-#: dialogs/LinkDialog.cpp:74 ui/CellToolBase.cpp:2174
+#: dialogs/LinkDialog.cpp:74 ui/CellToolBase.cpp:2257
 msgid "Insert Link"
 msgstr "Боғни қўйиш"
 
@@ -19498,8 +19555,8 @@ msgstr "Яқинда очилган файл:"
 msgid "No Entries"
 msgstr "Бўш"
 
-#: dialogs/LinkDialog.cpp:154 ui/View.cpp:383 ui/View.cpp:1081
-#: ui/View.cpp:1645
+#: dialogs/LinkDialog.cpp:154 ui/View.cpp:383 ui/View.cpp:1073
+#: ui/View.cpp:1637
 msgid "Cell"
 msgstr "Катак"
 
@@ -19604,7 +19661,7 @@ msgstr "&Таҳрирлаш..."
 msgid "&New..."
 msgstr "Я&нги..."
 
-#: dialogs/NamedAreaDialog.cpp:68 ui/CellToolBase.cpp:698
+#: dialogs/NamedAreaDialog.cpp:68 ui/CellToolBase.cpp:703
 #, fuzzy
 #| msgid "Remove Area"
 msgid "Named Areas"
@@ -19749,125 +19806,85 @@ msgstr ""
 msgid "Paste Inserting Cells"
 msgstr "Катакни қўйиш"
 
-#: dialogs/PreferenceDialog.cpp:308
+#: dialogs/PreferenceDialog.cpp:304
 msgid "Configure KSpread"
 msgstr "KSpread мосламаси"
 
-#: dialogs/PreferenceDialog.cpp:320
-#, fuzzy
-msgid "Locale Settings"
-msgstr "Мосламалар"
-
 #: dialogs/PreferenceDialog.cpp:321
-#, fuzzy
-msgid "Document's Locale Settings"
-msgstr "Мосламалар"
-
-#: dialogs/PreferenceDialog.cpp:331
 msgid "Interface"
 msgstr "Интерфейс"
 
-#: dialogs/PreferenceDialog.cpp:336
+#: dialogs/PreferenceDialog.cpp:326
 msgid "Down"
 msgstr "Пастга"
 
-#: dialogs/PreferenceDialog.cpp:337
+#: dialogs/PreferenceDialog.cpp:327
 msgid "Up"
 msgstr "Юқорига"
 
-#: dialogs/PreferenceDialog.cpp:340
+#: dialogs/PreferenceDialog.cpp:330
 #, fuzzy
 msgid "Down, First Column"
 msgstr "&Устунларни саралаш"
 
-#: dialogs/PreferenceDialog.cpp:347 dialogs/SubtotalDialog.cpp:280
+#: dialogs/PreferenceDialog.cpp:337 dialogs/SubtotalDialog.cpp:280
 #: ui/View.cpp:509
 #, fuzzy
 msgid "CountA"
 msgstr "CountA: "
 
-#: dialogs/PreferenceDialog.cpp:370
+#: dialogs/PreferenceDialog.cpp:360
 msgid "Open/Save"
 msgstr ""
 
-#: dialogs/PreferenceDialog.cpp:384
+#: dialogs/PreferenceDialog.cpp:374
 #, fuzzy
 #| msgid "Function"
 msgid "Function Modules"
 msgstr "Функция"
 
-#: dialogs/PreferenceDialog.cpp:386
+#: dialogs/PreferenceDialog.cpp:376 ui/View.cpp:752
+#, fuzzy
+msgid "Tools"
+msgstr "Того"
+
+#: dialogs/PreferenceDialog.cpp:378
 msgid "Plugins"
 msgstr ""
 
-#: dialogs/PreferenceDialog.cpp:394
+#: dialogs/PreferenceDialog.cpp:386
 msgid "Spelling"
 msgstr "Имло"
 
-#: dialogs/PreferenceDialog.cpp:396
+#: dialogs/PreferenceDialog.cpp:388
 msgid "Spell Checker Behavior"
 msgstr "Имлони текширувчининг хусусиятлари"
 
-#: dialogs/PreferenceDialog.cpp:488
-#, fuzzy
-msgid "&Use System's Locale Settings"
-msgstr "Мосламалар"
-
-#: dialogs/PreferenceDialog.cpp:512
-#, kde-format
-msgid "Language: %1"
-msgstr "Тил: %1"
-
-#: dialogs/PreferenceDialog.cpp:513
-#, kde-format
-msgid "Default number format: %1"
-msgstr "Андоза рақам кўриниши: %1"
-
-#: dialogs/PreferenceDialog.cpp:514
-#, kde-format
-msgid "Long date format: %1"
-msgstr "Сананинг тўлиқ кўриниши: %1"
-
-#: dialogs/PreferenceDialog.cpp:515
-#, kde-format
-msgid "Short date format: %1"
-msgstr "Сананинг қисқа кўриниши: %1"
-
-#: dialogs/PreferenceDialog.cpp:516
-#, kde-format
-msgid "Time format: %1"
-msgstr "Вақтнинг кўриниши: %1"
-
-#: dialogs/PreferenceDialog.cpp:517
-#, kde-format
-msgid "Currency format: %1"
-msgstr "Пулнинг кўриниши: %1"
-
-#: dialogs/PreferenceDialog.cpp:524
+#: dialogs/PreferenceDialog.cpp:462
 msgid "Undo/redo limit:"
 msgstr ""
 
-#: dialogs/PreferenceDialog.cpp:529
+#: dialogs/PreferenceDialog.cpp:467
 #, fuzzy
 msgid "&Completion mode:"
 msgstr "Ҳисоблаш усули"
 
-#: dialogs/PreferenceDialog.cpp:533
+#: dialogs/PreferenceDialog.cpp:471
 msgid ""
 "Lets you choose the (auto) text completion mode from a range of options in "
 "the drop down selection box."
 msgstr ""
 
-#: dialogs/PreferenceDialog.cpp:536
+#: dialogs/PreferenceDialog.cpp:474
 msgid "Manual"
 msgstr "Қўлбола"
 
-#: dialogs/PreferenceDialog.cpp:537
+#: dialogs/PreferenceDialog.cpp:475
 #, fuzzy
 msgid "Popup"
 msgstr "Фунт"
 
-#: dialogs/PreferenceDialog.cpp:539
+#: dialogs/PreferenceDialog.cpp:477
 msgid "Semi-Automatic"
 msgstr "Ярим-автоматик"
 
@@ -20089,7 +20106,7 @@ msgstr "Ўзгар&тириш..."
 msgid "&Delete..."
 msgstr "Варақни кўрсатиш..."
 
-#: dialogs/StyleManagerDialog.cpp:53 ui/CellToolBase.cpp:172
+#: dialogs/StyleManagerDialog.cpp:53 ui/CellToolBase.cpp:177
 msgid "Style Manager"
 msgstr "Услуб бошқарувчиси"
 
@@ -20150,7 +20167,7 @@ msgstr "Мар"
 msgid "VarP"
 msgstr ""
 
-#: dialogs/ValidityDialog.cpp:57 ui/CellToolBase.cpp:578
+#: dialogs/ValidityDialog.cpp:57 ui/CellToolBase.cpp:583
 msgid "Validity"
 msgstr "Текшириш"
 
@@ -20510,989 +20527,998 @@ msgstr ""
 msgid "Implemented, reviewed and tested various functions"
 msgstr ""
 
-#: ui/CellToolBase.cpp:160
+#: ui/CellToolBase.cpp:165
 msgid "Cell Format..."
 msgstr "Катакнинг формати"
 
-#: ui/CellToolBase.cpp:165
+#: ui/CellToolBase.cpp:170
 #, fuzzy
 msgid "Set the cell formatting"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:170
+#: ui/CellToolBase.cpp:175
 #, fuzzy
 msgid "Resets to the default format"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:175
+#: ui/CellToolBase.cpp:180
 #, fuzzy
 msgid "Edit and organize cell styles"
 msgstr "Катак услубларини ўзгартириш ва бошқариш."
 
-#: ui/CellToolBase.cpp:179
+#: ui/CellToolBase.cpp:184
 #, fuzzy
 msgid "Apply a predefined style to the selected cells"
 msgstr "Танланган катак учун олдиндан аниқланган услубни қўллаш."
 
-#: ui/CellToolBase.cpp:182
+#: ui/CellToolBase.cpp:187
 msgid "Create Style From Cell..."
 msgstr "Услубни катакдан яратиш..."
 
-#: ui/CellToolBase.cpp:183
+#: ui/CellToolBase.cpp:188
 #, fuzzy
 #| msgid "Style of Cell"
 msgid "Style From Cell"
 msgstr "Катакнинг услуби"
 
-#: ui/CellToolBase.cpp:186
+#: ui/CellToolBase.cpp:191
 #, fuzzy
 msgid "Create a new style based on the currently selected cell"
 msgstr "Жорий танланган катак асосида янги услуб яратиш."
 
-#: ui/CellToolBase.cpp:205
+#: ui/CellToolBase.cpp:210
 msgid "Strike Out"
 msgstr "Усти чизилган"
 
-#: ui/CellToolBase.cpp:209
+#: ui/CellToolBase.cpp:214
 msgid "Select Font..."
 msgstr "Шрифтни танлаш"
 
-#: ui/CellToolBase.cpp:210
+#: ui/CellToolBase.cpp:215
 #, fuzzy
 #| msgid "&Font"
 msgid "Font"
 msgstr "&Шрифт"
 
-#: ui/CellToolBase.cpp:214
+#: ui/CellToolBase.cpp:219
 msgid "Select Font Size"
 msgstr "Шрифт ўлчамини танлаш"
 
-#: ui/CellToolBase.cpp:215
+#: ui/CellToolBase.cpp:220
 #, fuzzy
 #| msgid "Select Font Size"
 msgid "Font Size"
 msgstr "Шрифт ўлчамини танлаш"
 
-#: ui/CellToolBase.cpp:219
+#: ui/CellToolBase.cpp:224
 msgid "Increase Font Size"
 msgstr "Шрифтни катталаштириш"
 
-#: ui/CellToolBase.cpp:223
+#: ui/CellToolBase.cpp:228
 msgid "Decrease Font Size"
 msgstr "Шрифтни кичиклаштириш"
 
-#: ui/CellToolBase.cpp:227
+#: ui/CellToolBase.cpp:232
 msgid "Text Color"
 msgstr "Матннинг ранги"
 
-#: ui/CellToolBase.cpp:234
+#: ui/CellToolBase.cpp:239
 msgid "Align Left"
 msgstr "Чапга текислаш"
 
-#: ui/CellToolBase.cpp:238
+#: ui/CellToolBase.cpp:243
 #, fuzzy
 msgid "Left justify the cell contents"
 msgstr "Катак таркибини чап томонга текислаш."
 
-#: ui/CellToolBase.cpp:241
+#: ui/CellToolBase.cpp:246
 msgid "Align Center"
 msgstr "Марказда"
 
-#: ui/CellToolBase.cpp:245
+#: ui/CellToolBase.cpp:250
 #, fuzzy
 msgid "Center the cell contents"
 msgstr "Катак таркибини марказда текислаш."
 
-#: ui/CellToolBase.cpp:248
+#: ui/CellToolBase.cpp:253
 msgid "Align Right"
 msgstr "Ўнгга текислаш"
 
-#: ui/CellToolBase.cpp:252
+#: ui/CellToolBase.cpp:257
 #, fuzzy
 msgid "Right justify the cell contents"
 msgstr "Катак таркибини ўнг томонга текислаш."
 
-#: ui/CellToolBase.cpp:258
+#: ui/CellToolBase.cpp:263
 msgid "Align Top"
 msgstr "Юқорида текислаш"
 
-#: ui/CellToolBase.cpp:262
+#: ui/CellToolBase.cpp:267
 #, fuzzy
 msgid "Align cell contents along the top of the cell"
 msgstr "Катак таркибини юқорига текислаш."
 
-#: ui/CellToolBase.cpp:265
+#: ui/CellToolBase.cpp:270
 msgid "Align Middle"
 msgstr "Ўртада текислаш"
 
-#: ui/CellToolBase.cpp:269
+#: ui/CellToolBase.cpp:274
 #, fuzzy
 msgid "Align cell contents centered in the cell"
 msgstr "Катак таркибини катак ўртасида текислаш."
 
-#: ui/CellToolBase.cpp:272
+#: ui/CellToolBase.cpp:277
 msgid "Align Bottom"
 msgstr "Пастда текислаш"
 
-#: ui/CellToolBase.cpp:276
+#: ui/CellToolBase.cpp:281
 #, fuzzy
 msgid "Align cell contents along the bottom of the cell"
 msgstr "Катак таркибини катак пастида текислаш."
 
-#: ui/CellToolBase.cpp:281
+#: ui/CellToolBase.cpp:286
 msgid "Border Left"
 msgstr "Чап чегара"
 
-#: ui/CellToolBase.cpp:285
+#: ui/CellToolBase.cpp:290
 #, fuzzy
 msgid "Set a left border to the selected area"
 msgstr "Танланган майдоннинг чап чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:287
+#: ui/CellToolBase.cpp:292
 msgid "Border Right"
 msgstr "Ўнг чегара"
 
-#: ui/CellToolBase.cpp:291
+#: ui/CellToolBase.cpp:296
 #, fuzzy
 msgid "Set a right border to the selected area"
 msgstr "Танланган майдоннинг ўнг чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:293
+#: ui/CellToolBase.cpp:298
 msgid "Border Top"
 msgstr "Юқори чегара"
 
-#: ui/CellToolBase.cpp:297
+#: ui/CellToolBase.cpp:302
 #, fuzzy
 msgid "Set a top border to the selected area"
 msgstr "Танланган майдоннинг юқори чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:299
+#: ui/CellToolBase.cpp:304
 msgid "Border Bottom"
 msgstr "Пастги чегара"
 
-#: ui/CellToolBase.cpp:303
+#: ui/CellToolBase.cpp:308
 #, fuzzy
 msgid "Set a bottom border to the selected area"
 msgstr "Танланган майдоннинг пастги чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:305
+#: ui/CellToolBase.cpp:310
 msgid "All Borders"
 msgstr "Ҳамма чегаралар"
 
-#: ui/CellToolBase.cpp:309
+#: ui/CellToolBase.cpp:314
 #, fuzzy
 msgid "Set a border around all cells in the selected area"
 msgstr "Танланган майдоннинг ҳамма чегараларини кўрсатиш."
 
-#: ui/CellToolBase.cpp:311
+#: ui/CellToolBase.cpp:316
 #, fuzzy
 #| msgid "All Borders"
 msgid "No Borders"
 msgstr "Ҳамма чегаралар"
 
-#: ui/CellToolBase.cpp:315
+#: ui/CellToolBase.cpp:320
 #, fuzzy
 msgid "Remove all borders in the selected area"
 msgstr "Танланган майдоннинг ҳамма чегараларини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:317
+#: ui/CellToolBase.cpp:322
 #, fuzzy
 msgid "Border Outline"
 msgstr "Чап чегара"
 
-#: ui/CellToolBase.cpp:318
+#: ui/CellToolBase.cpp:323
 #, fuzzy
 msgid "Outline"
 msgstr "Чап чегара"
 
-#: ui/CellToolBase.cpp:321
+#: ui/CellToolBase.cpp:326
 #, fuzzy
 msgid "Set a border to the outline of the selected area"
 msgstr "Танланган майдоннинг юқори чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:323
+#: ui/CellToolBase.cpp:328
 msgid "Border Color"
 msgstr "Чегара ранги"
 
-#: ui/CellToolBase.cpp:326
+#: ui/CellToolBase.cpp:331
 #, fuzzy
 msgid "Select a new border color"
 msgstr "Янги чегара рангини танлаш."
 
-#: ui/CellToolBase.cpp:330 ui/CellToolBase.cpp:1731
+#: ui/CellToolBase.cpp:335 ui/CellToolBase.cpp:1814
 #, fuzzy
 msgid "Wrap Text"
 msgstr "Матн"
 
-#: ui/CellToolBase.cpp:331
+#: ui/CellToolBase.cpp:336
 #, fuzzy
 msgid "Wrap"
 msgstr "Матн"
 
-#: ui/CellToolBase.cpp:334
+#: ui/CellToolBase.cpp:339
 msgid "Make the cell text wrap onto multiple lines"
 msgstr ""
 
-#: ui/CellToolBase.cpp:336 ui/CellToolBase.cpp:1743
+#: ui/CellToolBase.cpp:341 ui/CellToolBase.cpp:1826
 #, fuzzy
 msgid "Vertical Text"
 msgstr "Метикал"
 
-#: ui/CellToolBase.cpp:340
+#: ui/CellToolBase.cpp:345
 #, fuzzy
 msgid "Print cell contents vertically"
 msgstr "Катак таркибини катак ўртасида текислаш."
 
-#: ui/CellToolBase.cpp:342
+#: ui/CellToolBase.cpp:347
 #, fuzzy
 msgid "Increase Indent"
 msgstr "Аниқликни ошириш"
 
-#: ui/CellToolBase.cpp:345
+#: ui/CellToolBase.cpp:350
 #, fuzzy
 msgid "Increase the indentation"
 msgstr "Аниқликни ошириш"
 
-#: ui/CellToolBase.cpp:347
+#: ui/CellToolBase.cpp:352
 #, fuzzy
 msgid "Decrease Indent"
 msgstr "Аниқликни камайтириш"
 
-#: ui/CellToolBase.cpp:350
+#: ui/CellToolBase.cpp:355
 #, fuzzy
 msgid "Decrease the indentation"
 msgstr "Аниқликни камайтириш"
 
-#: ui/CellToolBase.cpp:352
+#: ui/CellToolBase.cpp:357
 msgid "Change Angle..."
 msgstr "Бурчакни ўзгартириш..."
 
-#: ui/CellToolBase.cpp:353
+#: ui/CellToolBase.cpp:358
 #, fuzzy
 #| msgid "Angle:"
 msgid "Angle"
 msgstr "Бурчак:"
 
-#: ui/CellToolBase.cpp:356
+#: ui/CellToolBase.cpp:361
 #, fuzzy
 msgid "Change the angle that cell contents are printed"
 msgstr "Катак таркибини марказда текислаш."
 
-#: ui/CellToolBase.cpp:360
+#: ui/CellToolBase.cpp:365
 #, fuzzy
 msgid "Percent Format"
 msgstr "Фоиз"
 
-#: ui/CellToolBase.cpp:364
+#: ui/CellToolBase.cpp:369
 #, fuzzy
 msgid "Set the cell formatting to look like a percentage"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:366
+#: ui/CellToolBase.cpp:371
 msgid "Money Format"
 msgstr "Пул кўриниши"
 
-#: ui/CellToolBase.cpp:370
+#: ui/CellToolBase.cpp:375
 #, fuzzy
 msgid "Set the cell formatting to look like your local currency"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:375
+#: ui/CellToolBase.cpp:380
 msgid "Increase the decimal precision shown onscreen"
 msgstr ""
 
-#: ui/CellToolBase.cpp:380
+#: ui/CellToolBase.cpp:385
 msgid "Decrease the decimal precision shown onscreen"
 msgstr ""
 
-#: ui/CellToolBase.cpp:384
+#: ui/CellToolBase.cpp:389
 msgid "Upper Case"
 msgstr "Бош ҳарф"
 
-#: ui/CellToolBase.cpp:385
+#: ui/CellToolBase.cpp:390
 #, fuzzy
 #| msgid "Upper Case"
 msgid "Upper"
 msgstr "Бош ҳарф"
 
-#: ui/CellToolBase.cpp:388
+#: ui/CellToolBase.cpp:393
 #, fuzzy
 msgid "Convert all letters to upper case"
 msgstr "Ҳамма ҳарфларни бош ҳарфга айлантириш"
 
-#: ui/CellToolBase.cpp:390
+#: ui/CellToolBase.cpp:395
 msgid "Lower Case"
 msgstr "Кичик ҳарф"
 
-#: ui/CellToolBase.cpp:391
+#: ui/CellToolBase.cpp:396
 #, fuzzy
 msgid "Lower"
 msgstr "Перу"
 
-#: ui/CellToolBase.cpp:394
+#: ui/CellToolBase.cpp:399
 #, fuzzy
 msgid "Convert all letters to lower case"
 msgstr "Ҳамма ҳарфларни кичик ҳарфга айлантириш."
 
-#: ui/CellToolBase.cpp:396
+#: ui/CellToolBase.cpp:401
 msgid "Convert First Letter to Upper Case"
 msgstr "Биринчи ҳарфни бош ҳарфга айлантириш"
 
-#: ui/CellToolBase.cpp:397
+#: ui/CellToolBase.cpp:402
 #, fuzzy
 msgid "First Letter Upper"
 msgstr "Биринчи ҳарфни бош ҳарфга &алмаштириш"
 
-#: ui/CellToolBase.cpp:400
+#: ui/CellToolBase.cpp:405
 #, fuzzy
 msgid "Capitalize the first letter"
 msgstr "Биринчи ҳарфни бош ҳарф қилиш."
 
-#: ui/CellToolBase.cpp:402
+#: ui/CellToolBase.cpp:407
 msgid "Background Color"
 msgstr "Орқа фон ранги"
 
-#: ui/CellToolBase.cpp:405
+#: ui/CellToolBase.cpp:410
 #, fuzzy
 msgid "Set the background color"
 msgstr "Орқа фон рангини кўрсатиш."
 
-#: ui/CellToolBase.cpp:412
+#: ui/CellToolBase.cpp:417
 #, fuzzy
 msgid "Merge the selected region"
 msgstr "Танланган майдонни бирлаштириш."
 
-#: ui/CellToolBase.cpp:415
+#: ui/CellToolBase.cpp:420
 #, fuzzy
 msgid "Merge the selected Region.horizontally"
 msgstr "Танланган катакларни энига бирлаштириш."
 
-#: ui/CellToolBase.cpp:420
+#: ui/CellToolBase.cpp:425
 #, fuzzy
 msgid "Merge the selected region vertically"
 msgstr "Танланган катакларни бўйига бирлаштириш."
 
-#: ui/CellToolBase.cpp:425
+#: ui/CellToolBase.cpp:430
 #, fuzzy
 msgid "Unmerge the selected region"
 msgstr "Танланган катакларни бирлаштиришни бекор қилиш."
 
-#: ui/CellToolBase.cpp:431
+#: ui/CellToolBase.cpp:436
 msgid "Resize Column..."
 msgstr "Устуннинг ўлчамини ўзгартириш..."
 
-#: ui/CellToolBase.cpp:434
+#: ui/CellToolBase.cpp:439
 #, fuzzy
 msgid "Change the width of a column"
 msgstr "Устуннинг энини ўзгартириш."
 
-#: ui/CellToolBase.cpp:438
+#: ui/CellToolBase.cpp:443
 #, fuzzy
 msgid "Inserts a new column into the spreadsheet"
 msgstr "Электрон жадвалга янги устун қўшиш."
 
-#: ui/CellToolBase.cpp:444
+#: ui/CellToolBase.cpp:449
 #, fuzzy
 msgid "Removes a column from the spreadsheet"
 msgstr "Электрон жадвалдан устунни олиб ташлаш."
 
-#: ui/CellToolBase.cpp:451
+#: ui/CellToolBase.cpp:456
 #, fuzzy
 msgid "Hide the column from this"
 msgstr "Устунни жорий кўринишдан бекитиш."
 
-#: ui/CellToolBase.cpp:453
+#: ui/CellToolBase.cpp:458
 msgid "Show Columns..."
 msgstr "Устунларни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:456
+#: ui/CellToolBase.cpp:461
 #, fuzzy
 msgid "Show hidden columns"
 msgstr "Бекитилган устунларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:458
+#: ui/CellToolBase.cpp:463
 msgid "Equalize Column"
 msgstr "Устун энини тенглаштириш"
 
-#: ui/CellToolBase.cpp:461
+#: ui/CellToolBase.cpp:466
 #, fuzzy
 msgid "Resizes selected columns to be the same size"
 msgstr "Танланган устунларнинг энини тенглаштириш."
 
-#: ui/CellToolBase.cpp:466
+#: ui/CellToolBase.cpp:471
 #, fuzzy
 msgid "Show hidden columns in the selection"
 msgstr "Танланган майдонда бекитилган устунларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:469
+#: ui/CellToolBase.cpp:474
 msgid "Resize Row..."
 msgstr "Сарт ўлчамини ўзгартириш..."
 
-#: ui/CellToolBase.cpp:472
+#: ui/CellToolBase.cpp:477
 #, fuzzy
 msgid "Change the height of a row"
 msgstr "Сатрнинг узунасини ўзгартириш."
 
-#: ui/CellToolBase.cpp:474 ui/CellToolBase.cpp:480
+#: ui/CellToolBase.cpp:479 ui/CellToolBase.cpp:485
 #, fuzzy
 #| msgid "Row"
 msgid "Rows"
 msgstr "Сатр"
 
-#: ui/CellToolBase.cpp:476
+#: ui/CellToolBase.cpp:481
 #, fuzzy
 msgid "Inserts a new row into the spreadsheet"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:482
+#: ui/CellToolBase.cpp:487
 #, fuzzy
 msgid "Removes a row from the spreadsheet"
 msgstr "Электрон жадвалдан сатрни олиб ташлаш."
 
-#: ui/CellToolBase.cpp:489
+#: ui/CellToolBase.cpp:494
 #, fuzzy
 msgid "Hide a row from this"
 msgstr "Сатрни жорий кўринишдан бекитиш."
 
-#: ui/CellToolBase.cpp:491
+#: ui/CellToolBase.cpp:496
 msgid "Show Rows..."
 msgstr "Сатрларни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:494
+#: ui/CellToolBase.cpp:499
 #, fuzzy
 msgid "Show hidden rows"
 msgstr "Бекитилган сатрларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:496
+#: ui/CellToolBase.cpp:501
 #, fuzzy
 msgid "Equalize Row"
 msgstr "Устун энини тенглаштириш"
 
-#: ui/CellToolBase.cpp:499
+#: ui/CellToolBase.cpp:504
 #, fuzzy
 msgid "Resizes selected rows to be the same size"
 msgstr "Танланган устунларнинг энини тенглаштириш."
 
-#: ui/CellToolBase.cpp:505
+#: ui/CellToolBase.cpp:510
 #, fuzzy
 msgid "Show hidden rows in the selection"
 msgstr "Танланган майдонда бекитилган устунларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:507
+#: ui/CellToolBase.cpp:512
 msgid "Adjust Row && Column"
 msgstr "Сатр ва устунни созлаш"
 
-#: ui/CellToolBase.cpp:510
+#: ui/CellToolBase.cpp:515
 msgid "Adjusts row/column size so that the contents will fit"
 msgstr ""
 
-#: ui/CellToolBase.cpp:514 ui/CellToolBase.cpp:520 ui/CellToolBase_p.cpp:1290
+#: ui/CellToolBase.cpp:519 ui/CellToolBase.cpp:525 ui/CellToolBase_p.cpp:1279
 #, fuzzy
 #| msgid "Cells:"
 msgid "Cells..."
 msgstr "Катаклар:"
 
-#: ui/CellToolBase.cpp:515 ui/CellToolBase_p.cpp:1286
+#: ui/CellToolBase.cpp:520 ui/CellToolBase_p.cpp:1275
 msgid "Insert Cells..."
 msgstr "Катакларни қўйиш"
 
-#: ui/CellToolBase.cpp:516
+#: ui/CellToolBase.cpp:521
 #, fuzzy
 msgid "Insert a blank cell into the spreadsheet"
 msgstr "Электрон жадвалга бўш катак қўшиш."
 
-#: ui/CellToolBase.cpp:521
+#: ui/CellToolBase.cpp:526
 msgid "Remove Cells..."
 msgstr "Катакларни олиб ташлаш"
 
-#: ui/CellToolBase.cpp:522
+#: ui/CellToolBase.cpp:527
 #, fuzzy
 msgid "Removes the cells from the spreadsheet"
 msgstr "Жорий катакни электрон жадвалдан олиб ташлаш."
 
-#: ui/CellToolBase.cpp:529
+#: ui/CellToolBase.cpp:534
 #, fuzzy
 #| msgid "Clear &All"
 msgid "Clear All"
 msgstr "&Ҳаммасини тозалаш"
 
-#: ui/CellToolBase.cpp:530
+#: ui/CellToolBase.cpp:535
 #, fuzzy
 msgid "Clear all contents and formatting of the current cell"
 msgstr "Жорий катакнинг формати ва таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:534
+#: ui/CellToolBase.cpp:539
 #, fuzzy
 msgid "Contents"
 msgstr "Изоҳлар"
 
-#: ui/CellToolBase.cpp:535
+#: ui/CellToolBase.cpp:540
 #, fuzzy
 msgid "Clear Contents"
 msgstr "Изоҳлар"
 
-#: ui/CellToolBase.cpp:536
+#: ui/CellToolBase.cpp:541
 #, fuzzy
 msgid "Remove the contents of the current cell"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:540
+#: ui/CellToolBase.cpp:545
 #, fuzzy
 #| msgid "Comment"
 msgid "Comment..."
 msgstr "Изоҳ"
 
-#: ui/CellToolBase.cpp:541
+#: ui/CellToolBase.cpp:546
 #, fuzzy
 msgid "Edit a comment for this cell"
 msgstr "Катак учун изоҳни таҳрирлаш."
 
-#: ui/CellToolBase.cpp:547
+#: ui/CellToolBase.cpp:552
 #, fuzzy
 msgid "Remove this cell's comment"
 msgstr "Катак изоҳини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:551
+#: ui/CellToolBase.cpp:556
 #, fuzzy
 #| msgid "Conditional Cell Attributes..."
 msgid "Conditional Styles..."
 msgstr "Катакнинг шартли атрибутлари..."
 
-#: ui/CellToolBase.cpp:552
+#: ui/CellToolBase.cpp:557
 msgid "Set cell style based on certain conditions"
 msgstr ""
 
-#: ui/CellToolBase.cpp:557
+#: ui/CellToolBase.cpp:562
 #, fuzzy
 msgid "Remove Conditional Styles"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:558
+#: ui/CellToolBase.cpp:563
 #, fuzzy
 msgid "Remove the conditional cell styles"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:562
+#: ui/CellToolBase.cpp:567
 msgid "&Link..."
 msgstr "&Боғ..."
 
-#: ui/CellToolBase.cpp:565
+#: ui/CellToolBase.cpp:570
 #, fuzzy
 msgid "Insert an Internet hyperlink"
 msgstr "Янги варақ қўшиш."
 
-#: ui/CellToolBase.cpp:567
+#: ui/CellToolBase.cpp:572
 #, fuzzy
 #| msgid "Set Link"
 msgid "Link"
 msgstr "Боғни кўрсатиш"
 
-#: ui/CellToolBase.cpp:569
+#: ui/CellToolBase.cpp:574
 #, fuzzy
 msgid "Remove a link"
 msgstr "Боғни олиб ташлаш."
 
-#: ui/CellToolBase.cpp:573
+#: ui/CellToolBase.cpp:578
 msgid "Validity..."
 msgstr "Текшириш..."
 
-#: ui/CellToolBase.cpp:574
+#: ui/CellToolBase.cpp:579
 msgid "Set tests to confirm cell data is valid"
 msgstr ""
 
-#: ui/CellToolBase.cpp:579
+#: ui/CellToolBase.cpp:584
 #, fuzzy
 msgid "Remove Validity"
 msgstr "Боғни олиб ташлаш."
 
-#: ui/CellToolBase.cpp:580
+#: ui/CellToolBase.cpp:585
 #, fuzzy
 msgid "Remove the validity tests on this cell"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:586
+#: ui/CellToolBase.cpp:591
 msgid "&Sort..."
 msgstr "С&аралаш..."
 
-#: ui/CellToolBase.cpp:589
+#: ui/CellToolBase.cpp:594
 #, fuzzy
 msgid "Sort a group of cells"
 msgstr "Катаклар гуруҳини саралаш."
 
-#: ui/CellToolBase.cpp:591
+#: ui/CellToolBase.cpp:596
 msgid "Sort &Decreasing"
 msgstr "&Камайиши бўйича саралаш"
 
-#: ui/CellToolBase.cpp:594
+#: ui/CellToolBase.cpp:599
 msgid "Sort a group of cells in decreasing(last to first) order"
 msgstr ""
 
-#: ui/CellToolBase.cpp:596
+#: ui/CellToolBase.cpp:601
 msgid "Sort &Increasing"
 msgstr "&Кўпайиши бўйича саралаш"
 
-#: ui/CellToolBase.cpp:599
+#: ui/CellToolBase.cpp:604
 msgid "Sort a group of cells in ascending(first to last) order"
 msgstr ""
 
-#: ui/CellToolBase.cpp:601
+#: ui/CellToolBase.cpp:606
 #, fuzzy
 #| msgid "Autofill"
 msgid "&Auto-Filter"
 msgstr "Авто-тўлдириш"
 
-#: ui/CellToolBase.cpp:604
+#: ui/CellToolBase.cpp:609
 msgid "Add an automatic filter to a cell range"
 msgstr ""
 
-#: ui/CellToolBase.cpp:608
+#: ui/CellToolBase.cpp:613
 msgid "&Left"
 msgstr ""
 
-#: ui/CellToolBase.cpp:612
+#: ui/CellToolBase.cpp:617
 #, fuzzy
 msgid "&Right"
 msgstr "Узунаси:"
 
-#: ui/CellToolBase.cpp:616
+#: ui/CellToolBase.cpp:621
 #, fuzzy
 msgid "&Up"
 msgstr "Юқорига"
 
-#: ui/CellToolBase.cpp:620
+#: ui/CellToolBase.cpp:625
 #, fuzzy
 msgid "&Down"
 msgstr "Пастга"
 
-#: ui/CellToolBase.cpp:624
+#: ui/CellToolBase.cpp:629
 #, fuzzy
 msgid "Autosum"
 msgstr "Автоматик"
 
-#: ui/CellToolBase.cpp:627
+#: ui/CellToolBase.cpp:632
 #, fuzzy
 msgid "Insert the 'sum' function"
 msgstr "Функцияни қўйиш"
 
-#: ui/CellToolBase.cpp:631
+#: ui/CellToolBase.cpp:636
 #, fuzzy
 msgid "&Series..."
 msgstr "С&аралаш..."
 
-#: ui/CellToolBase.cpp:634
+#: ui/CellToolBase.cpp:639
 #, fuzzy
 msgid "Insert a series"
 msgstr "Янги варақ қўшиш."
 
-#: ui/CellToolBase.cpp:636
+#: ui/CellToolBase.cpp:641
 msgid "&Function..."
 msgstr "&Функция..."
 
-#: ui/CellToolBase.cpp:639
+#: ui/CellToolBase.cpp:644
 #, fuzzy
 msgid "Insert math expression"
 msgstr "Математик ифода қўшиш."
 
-#: ui/CellToolBase.cpp:641
+#: ui/CellToolBase.cpp:646
 msgid "S&pecial Character..."
 msgstr "Ма&хсус белги..."
 
-#: ui/CellToolBase.cpp:643
+#: ui/CellToolBase.cpp:648
 msgid "Insert one or more symbols or letters not found on the keyboard"
 msgstr ""
 
-#: ui/CellToolBase.cpp:647
+#: ui/CellToolBase.cpp:652
 msgid "From &Database..."
 msgstr "&Маълумот базасидан..."
 
-#: ui/CellToolBase.cpp:651
+#: ui/CellToolBase.cpp:656
 #, fuzzy
 msgid "Insert data from a SQL database"
 msgstr "Маълумотни SQL маълумотлар базасидан қўйиш."
 
-#: ui/CellToolBase.cpp:654
+#: ui/CellToolBase.cpp:659
 msgid "From &Text File..."
 msgstr "&Матн файлидан..."
 
-#: ui/CellToolBase.cpp:655
+#: ui/CellToolBase.cpp:660
 #, fuzzy
 #| msgid "From &Text File..."
 msgid "Text File"
 msgstr "&Матн файлидан..."
 
-#: ui/CellToolBase.cpp:658
+#: ui/CellToolBase.cpp:663
 msgid "Insert data from a text file to the current cursor position/selection"
 msgstr ""
 
-#: ui/CellToolBase.cpp:660
+#: ui/CellToolBase.cpp:665
 msgid "From &Clipboard..."
 msgstr "&Хотирадан..."
 
-#: ui/CellToolBase.cpp:661
+#: ui/CellToolBase.cpp:666
 #, fuzzy
 #| msgid "From &Clipboard..."
 msgid "Clipboard"
 msgstr "&Хотирадан..."
 
-#: ui/CellToolBase.cpp:664
+#: ui/CellToolBase.cpp:669
 #, fuzzy
 msgid ""
 "Insert CSV data from the clipboard to the current cursor position/selection"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:666
+#: ui/CellToolBase.cpp:671
 #, fuzzy
 msgid "&Text to Columns..."
 msgstr "Устунларни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:669
+#: ui/CellToolBase.cpp:674
 msgid "Expand the content of cells to multiple columns"
 msgstr ""
 
-#: ui/CellToolBase.cpp:671
+#: ui/CellToolBase.cpp:676
 msgid "Custom Lists..."
 msgstr "Бошқа рўйхатлар..."
 
-#: ui/CellToolBase.cpp:674
+#: ui/CellToolBase.cpp:679
 msgid "Create custom lists for sorting or autofill"
 msgstr ""
 
-#: ui/CellToolBase.cpp:676
+#: ui/CellToolBase.cpp:681
 msgid "&Consolidate..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:679
-msgid "Create a region of summary data from a group of similar regions"
-msgstr ""
-
-#: ui/CellToolBase.cpp:681
-#, fuzzy
-msgid "&Goal Seek..."
-msgstr "Варақни кўрсатиш..."
-
 #: ui/CellToolBase.cpp:684
-msgid "Repeating calculation to find a specific value"
+msgid "Create a region of summary data from a group of similar regions"
 msgstr ""
 
 #: ui/CellToolBase.cpp:686
 #, fuzzy
-msgid "&Subtotals..."
-msgstr "С&аралаш..."
+msgid "&Goal Seek..."
+msgstr "Варақни кўрсатиш..."
 
 #: ui/CellToolBase.cpp:689
-msgid "Create different kind of subtotals to a list or database"
+msgid "Repeating calculation to find a specific value"
 msgstr ""
 
 #: ui/CellToolBase.cpp:691
+#, fuzzy
+msgid "&Subtotals..."
+msgstr "С&аралаш..."
+
+#: ui/CellToolBase.cpp:694
+msgid "Create different kind of subtotals to a list or database"
+msgstr ""
+
+#: ui/CellToolBase.cpp:696
 msgid "Area Name..."
 msgstr "Майдоннинг номи"
 
-#: ui/CellToolBase.cpp:694
+#: ui/CellToolBase.cpp:699
 #, fuzzy
 msgid "Set a name for a region of the spreadsheet"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:696
+#: ui/CellToolBase.cpp:701
 #, fuzzy
 #| msgid "Show Area..."
 msgid "Named Areas..."
 msgstr "Майдонни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:700
+#: ui/CellToolBase.cpp:705
 msgid "Edit or select named areas"
 msgstr ""
 
-#: ui/CellToolBase.cpp:704
+#: ui/CellToolBase.cpp:709
 msgid "Formula Selection"
 msgstr "Формула танлаш"
 
-#: ui/CellToolBase.cpp:706
+#: ui/CellToolBase.cpp:711
 #, fuzzy
 msgid "Insert a function"
 msgstr "Функцияни қўйиш"
 
-#: ui/CellToolBase.cpp:714 ui/CellToolBase.cpp:2565
+#: ui/CellToolBase.cpp:719 ui/CellToolBase.cpp:2648
 msgid "Others..."
 msgstr "Бошқалар..."
 
-#: ui/CellToolBase.cpp:722
+#: ui/CellToolBase.cpp:727
 msgid "Modify Cell"
 msgstr "Катакни ўзгартириш"
 
-#: ui/CellToolBase.cpp:726
+#: ui/CellToolBase.cpp:731
 #, fuzzy
 msgid "Edit the highlighted cell"
 msgstr "Танланган катакни таҳрирлаш."
 
-#: ui/CellToolBase.cpp:729
+#: ui/CellToolBase.cpp:734
 #, fuzzy
 msgid "Move the cell object to the clipboard"
 msgstr "Танланган варақни энг пастга кўчириш."
 
-#: ui/CellToolBase.cpp:733
+#: ui/CellToolBase.cpp:738
 #, fuzzy
 msgid "Copy the cell object to the clipboard"
 msgstr "Танланган варақни энг пастга кўчириш."
 
-#: ui/CellToolBase.cpp:737
+#: ui/CellToolBase.cpp:742
 #, fuzzy
 msgid "Paste the contents of the clipboard at the cursor"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:740
+#: ui/CellToolBase.cpp:745
 msgid "Special Paste..."
 msgstr "Махсус қўйиш"
 
-#: ui/CellToolBase.cpp:743
+#: ui/CellToolBase.cpp:748
 #, fuzzy
 msgid "Paste the contents of the clipboard with special options"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:745
+#: ui/CellToolBase.cpp:750
 msgid "Paste with Insertion"
 msgstr ""
 
-#: ui/CellToolBase.cpp:748
+#: ui/CellToolBase.cpp:753
 #, fuzzy
 msgid "Inserts a cell from the clipboard into the spreadsheet"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:751
+#: ui/CellToolBase.cpp:756
 #, fuzzy
 msgid "Selects all cells in the current sheet"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:768
+#: ui/CellToolBase.cpp:773
 msgid "Goto Cell..."
 msgstr "Катакга ўтиш"
 
-#: ui/CellToolBase.cpp:769
+#: ui/CellToolBase.cpp:774
 #, fuzzy
 #| msgid "Goto Cell"
 msgid "Goto"
 msgstr "Катакка ўтиш"
 
-#: ui/CellToolBase.cpp:773
+#: ui/CellToolBase.cpp:778
 #, fuzzy
 msgid "Move to a particular cell"
 msgstr "Олдинги вараққа ўтиш."
 
-#: ui/CellToolBase.cpp:776
+#: ui/CellToolBase.cpp:781
 #, fuzzy
 msgid "Check the spelling"
 msgstr "Имлони текшириш."
 
-#: ui/CellToolBase.cpp:779
+#: ui/CellToolBase.cpp:784
 msgid "Run Inspector..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:784
+#: ui/CellToolBase.cpp:789
 #, fuzzy
 msgid "Auto-Format..."
 msgstr "Катакнинг формати"
 
-#: ui/CellToolBase.cpp:787
+#: ui/CellToolBase.cpp:792
 #, fuzzy
 msgid "Set the worksheet formatting"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:1409
+#: ui/CellToolBase.cpp:794
+#, fuzzy
+msgid "Document Settings..."
+msgstr "Мосламалар"
+
+#: ui/CellToolBase.cpp:797
+msgid "Show document settings dialog"
+msgstr ""
+
+#: ui/CellToolBase.cpp:1492
 msgid "Create Style From Cell"
 msgstr "Услубни катакдан яратиш"
 
-#: ui/CellToolBase.cpp:1410 ui/View.cpp:2119
+#: ui/CellToolBase.cpp:1493 ui/View.cpp:2111
 msgid "Enter name:"
 msgstr "Номини киритинг:"
 
-#: ui/CellToolBase.cpp:1418
+#: ui/CellToolBase.cpp:1501
 msgid "The style name cannot be empty."
 msgstr "Услубнинг номи бўш бўлиши мумкин эмас."
 
-#: ui/CellToolBase.cpp:1444 ui/CellToolBase.cpp:1458 ui/CellToolBase.cpp:1472
-#: ui/CellToolBase.cpp:1487 ui/CellToolBase.cpp:1501 ui/CellToolBase.cpp:1519
-#: ui/CellToolBase.cpp:1540 ui/CellToolBase.cpp:1553
+#: ui/CellToolBase.cpp:1527 ui/CellToolBase.cpp:1541 ui/CellToolBase.cpp:1555
+#: ui/CellToolBase.cpp:1570 ui/CellToolBase.cpp:1584 ui/CellToolBase.cpp:1602
+#: ui/CellToolBase.cpp:1623 ui/CellToolBase.cpp:1636
 #, fuzzy
 msgid "Change Font"
 msgstr "Форматни ўзгартириш"
 
-#: ui/CellToolBase.cpp:1563 ui/View.cpp:1229
+#: ui/CellToolBase.cpp:1646 ui/View.cpp:1221
 #, fuzzy
 msgid "Change Text Color"
 msgstr "Матнни ўзгартириш"
 
-#: ui/CellToolBase.cpp:1573 ui/CellToolBase.cpp:1583 ui/CellToolBase.cpp:1593
+#: ui/CellToolBase.cpp:1656 ui/CellToolBase.cpp:1666 ui/CellToolBase.cpp:1676
 msgid "Change Horizontal Alignment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1603 ui/CellToolBase.cpp:1613 ui/CellToolBase.cpp:1623
+#: ui/CellToolBase.cpp:1686 ui/CellToolBase.cpp:1696 ui/CellToolBase.cpp:1706
 msgid "Change Vertical Alignment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1633 ui/CellToolBase.cpp:1646 ui/CellToolBase.cpp:1659
-#: ui/CellToolBase.cpp:1669 ui/CellToolBase.cpp:1679 ui/CellToolBase.cpp:1694
-#: ui/CellToolBase.cpp:1709 ui/CellToolBase_p.cpp:835 ui/View.cpp:1263
-#: ui/View.cpp:1273 ui/View.cpp:1286 ui/View.cpp:1301 ui/View.cpp:1311
-#: ui/View.cpp:1324
+#: ui/CellToolBase.cpp:1716 ui/CellToolBase.cpp:1729 ui/CellToolBase.cpp:1742
+#: ui/CellToolBase.cpp:1752 ui/CellToolBase.cpp:1762 ui/CellToolBase.cpp:1777
+#: ui/CellToolBase.cpp:1792 ui/CellToolBase_p.cpp:835 ui/View.cpp:1255
+#: ui/View.cpp:1265 ui/View.cpp:1278 ui/View.cpp:1293 ui/View.cpp:1303
+#: ui/View.cpp:1316
 #, fuzzy
 msgid "Change Border"
 msgstr "Чегара рангини ўзгартириш"
 
-#: ui/CellToolBase.cpp:1780
+#: ui/CellToolBase.cpp:1863
 #, fuzzy
 msgid "Format Percent"
 msgstr "Фоиз"
 
-#: ui/CellToolBase.cpp:1790
+#: ui/CellToolBase.cpp:1873
 msgid "Format Money"
 msgstr "Пулни кўриниши"
 
-#: ui/CellToolBase.cpp:1820
+#: ui/CellToolBase.cpp:1903
 msgid "Switch to uppercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1830
+#: ui/CellToolBase.cpp:1913
 msgid "Switch to lowercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1840
+#: ui/CellToolBase.cpp:1923
 #, fuzzy
 msgid "First letter uppercase"
 msgstr "Биринчи ҳарфни бош ҳарфга &алмаштириш"
 
-#: ui/CellToolBase.cpp:1850 ui/View.cpp:1239
+#: ui/CellToolBase.cpp:1933 ui/View.cpp:1231
 #, fuzzy
 msgid "Change Background Color"
 msgstr "Орқа фон ранги"
 
-#: ui/CellToolBase.cpp:1879 ui/CellToolBase.cpp:1906 ui/CellToolBase.cpp:1920
-#: ui/CellToolBase.cpp:1941 ui/CellToolBase.cpp:1981 ui/CellToolBase.cpp:2008
-#: ui/CellToolBase.cpp:2022 ui/CellToolBase.cpp:2043 ui/Headers.cpp:310
+#: ui/CellToolBase.cpp:1962 ui/CellToolBase.cpp:1989 ui/CellToolBase.cpp:2003
+#: ui/CellToolBase.cpp:2024 ui/CellToolBase.cpp:2064 ui/CellToolBase.cpp:2091
+#: ui/CellToolBase.cpp:2105 ui/CellToolBase.cpp:2126 ui/Headers.cpp:310
 #: ui/Headers.cpp:970
 #, fuzzy
 msgid "Area is too large."
 msgstr "Майдон жуда катта."
 
-#: ui/CellToolBase.cpp:2118 ui/CellToolBase_p.cpp:462
+#: ui/CellToolBase.cpp:2201 ui/CellToolBase_p.cpp:462
 #, fuzzy
 msgid "Clear Text"
 msgstr "Матнни ўзгартириш"
 
-#: ui/CellToolBase.cpp:2178
+#: ui/CellToolBase.cpp:2261
 msgid "Edit Link"
 msgstr "Боғни таҳрирлаш"
 
-#: ui/CellToolBase.cpp:2232 ui/CellToolBase.cpp:2243 ui/CellToolBase.cpp:2265
-#: ui/CellToolBase.cpp:2540
+#: ui/CellToolBase.cpp:2315 ui/CellToolBase.cpp:2326 ui/CellToolBase.cpp:2348
+#: ui/CellToolBase.cpp:2623
 msgid "You must select multiple cells."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2466
+#: ui/CellToolBase.cpp:2549
 msgid ""
 "No database drivers available.  To use this feature you need to install the "
 "necessary Qt 3 database drivers."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2951
+#: ui/CellToolBase.cpp:3034
 #, fuzzy
 msgid "Replace"
 msgstr "Сентябрь"
@@ -21517,43 +21543,43 @@ msgstr "Фоиз"
 msgid "Scientific Format"
 msgstr "Илмий"
 
-#: ui/CellToolBase_p.cpp:1294
+#: ui/CellToolBase_p.cpp:1283
 #, fuzzy
 msgid "Adjust Column"
 msgstr "Устунни созлаш"
 
-#: ui/CellToolBase_p.cpp:1302
+#: ui/CellToolBase_p.cpp:1291
 msgid "Delete Columns"
 msgstr "Устунларни олиб ташлаш"
 
-#: ui/CellToolBase_p.cpp:1306
+#: ui/CellToolBase_p.cpp:1295
 #, fuzzy
 msgid "Adjust Row"
 msgstr "Қаторни созлаш"
 
-#: ui/CellToolBase_p.cpp:1314
+#: ui/CellToolBase_p.cpp:1303
 msgid "Delete Rows"
 msgstr "Сатрларни олиб ташлаш"
 
-#: ui/CellToolBase_p.cpp:1318
+#: ui/CellToolBase_p.cpp:1307
 msgid "Selection List..."
 msgstr "Танланганнинг рўйхати"
 
-#: ui/DefaultTool.cpp:134
+#: ui/DefaultTool.cpp:137
 msgid "Define Print Range"
 msgstr ""
 
-#: ui/DefaultTool.cpp:137
+#: ui/DefaultTool.cpp:140
 #, fuzzy
 msgid "Define the print range in the current sheet"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/DefaultTool.cpp:595
+#: ui/DefaultTool.cpp:616 ui/HyperlinkStrategy.cpp:80
 #, kde-format
 msgid "Link <i>%1</i> activated"
 msgstr ""
 
-#: ui/DefaultTool.cpp:619
+#: ui/DefaultTool.cpp:640 ui/HyperlinkStrategy.cpp:104
 #, kde-format
 msgid ""
 "This link points to the program or script '%1'.\n"
@@ -21561,16 +21587,9 @@ msgid ""
 "this program?"
 msgstr ""
 
-#: ui/DefaultTool.cpp:624
+#: ui/DefaultTool.cpp:645 ui/HyperlinkStrategy.cpp:110
 msgid "Open Link?"
 msgstr "Боғни очишни истайсизми?"
-
-#: ui/DefaultToolFactory.cpp:32 ui/View.cpp:749
-#, fuzzy
-#| msgctxt "Spreadsheet cell"
-#| msgid "Cell "
-msgid "Cell Tool"
-msgstr "Катак "
 
 #: ui/Editors.cpp:1817
 #, fuzzy
@@ -21615,7 +21634,7 @@ msgstr "Босиб чиқариш учун '%1' варағида ҳеч нарс
 msgid "Modify current sheet's properties"
 msgstr ""
 
-#: ui/View.cpp:303 ui/View.cpp:2400
+#: ui/View.cpp:303 ui/View.cpp:2392
 msgid "Insert Sheet"
 msgstr "Варақ қўшиш"
 
@@ -21629,7 +21648,7 @@ msgstr "Янги варақ қўшиш."
 msgid "Duplicate the selected sheet"
 msgstr "Актив варақни бекитиш."
 
-#: ui/View.cpp:315 ui/View.cpp:2401 ui/View.cpp:2406
+#: ui/View.cpp:315 ui/View.cpp:2393 ui/View.cpp:2398
 #, fuzzy
 msgid "Remove the active sheet"
 msgstr "Актив варақни олиб ташлаш."
@@ -21734,7 +21753,7 @@ msgstr "Ҳужжатдан намуна &яратиш..."
 msgid "Anchor"
 msgstr "Андорра"
 
-#: ui/View.cpp:384 ui/View.cpp:1081
+#: ui/View.cpp:384 ui/View.cpp:1073
 #, fuzzy
 #| msgid "page"
 msgid "Page"
@@ -21903,55 +21922,50 @@ msgstr "Ҳисоблаш усули"
 msgid "Calculate using the countA"
 msgstr "Ҳисоблаш усули"
 
-#: ui/View.cpp:752
-#, fuzzy
-msgid "Tools"
-msgstr "Того"
-
-#: ui/View.cpp:1560 ui/View.cpp:1581 ui/View.cpp:2113
+#: ui/View.cpp:1552 ui/View.cpp:1573 ui/View.cpp:2105
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "Ягона варақни олиб ташлаб бўлмайди."
 
-#: ui/View.cpp:1603
+#: ui/View.cpp:1595
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "Ягона варақни олиб ташлаб бўлмайди."
 
-#: ui/View.cpp:1657 ui/View.cpp:1714
+#: ui/View.cpp:1649 ui/View.cpp:1706
 msgid "Enter a password."
 msgstr ""
 
-#: ui/View.cpp:1658
+#: ui/View.cpp:1650
 msgid "Protect Document"
 msgstr "Ҳужжатни ҳимоялаш"
 
-#: ui/View.cpp:1676 ui/View.cpp:1733
+#: ui/View.cpp:1668 ui/View.cpp:1725
 #, fuzzy
 msgid "Enter the password."
 msgstr "Майдон номини киритинг:"
 
-#: ui/View.cpp:1677
+#: ui/View.cpp:1669
 msgid "Unprotect Document"
 msgstr "Ҳужжатни ҳимоялашни бекор қилиш"
 
-#: ui/View.cpp:1692 ui/View.cpp:1751
+#: ui/View.cpp:1684 ui/View.cpp:1743
 msgid "Password is incorrect."
 msgstr "Махфий сўз нотўғри."
 
-#: ui/View.cpp:1715
+#: ui/View.cpp:1707
 msgid "Protect Sheet"
 msgstr "Варақни ҳимоялаш"
 
-#: ui/View.cpp:1734
+#: ui/View.cpp:1726
 msgid "Unprotect Sheet"
 msgstr "Варақни ҳимоялашни бекор қилиш"
 
-#: ui/View.cpp:2082
+#: ui/View.cpp:2074
 msgid "You cannot delete the only sheet."
 msgstr "Ягона варақни олиб ташлаб бўлмайди."
 
-#: ui/View.cpp:2085
+#: ui/View.cpp:2077
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -21959,45 +21973,45 @@ msgstr ""
 "Актив варақни олиб ташламоқчисиз.\n"
 "Давом этишни истайсизми?"
 
-#: ui/View.cpp:2086
+#: ui/View.cpp:2078
 #, fuzzy
 msgid "&Delete"
 msgstr "Сатрларни олиб ташлаш"
 
-#: ui/View.cpp:2125
+#: ui/View.cpp:2117
 msgid "Sheet name cannot be empty."
 msgstr "Варақнинг номи бўш бўлиши мумкин эмас."
 
-#: ui/View.cpp:2125 ui/View.cpp:2134
+#: ui/View.cpp:2117 ui/View.cpp:2126
 msgid "Change Sheet Name"
 msgstr "Варақнинг номини ўзгартириш"
 
-#: ui/View.cpp:2134
+#: ui/View.cpp:2126
 msgid "This name is already used."
 msgstr "Бу ном аллақачон мавжуд."
 
-#: ui/View.cpp:2290
+#: ui/View.cpp:2282
 msgid "Sum: "
 msgstr "Йиғинди: "
 
-#: ui/View.cpp:2293
+#: ui/View.cpp:2285
 msgid "Average: "
 msgstr "Ўртача: "
 
-#: ui/View.cpp:2296
+#: ui/View.cpp:2288
 msgid "Min: "
 msgstr "Мин: "
 
-#: ui/View.cpp:2299
+#: ui/View.cpp:2291
 msgid "Max: "
 msgstr "Макс: "
 
-#: ui/View.cpp:2302
+#: ui/View.cpp:2294
 #, fuzzy
 msgid "Count: "
 msgstr "Сони: "
 
-#: ui/View.cpp:2305
+#: ui/View.cpp:2297
 #, fuzzy
 msgid "CountA: "
 msgstr "CountA: "
