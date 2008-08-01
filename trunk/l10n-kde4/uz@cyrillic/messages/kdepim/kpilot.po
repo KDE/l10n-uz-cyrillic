@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpilot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-30 09:02+0200\n"
+"POT-Creation-Date: 2008-08-01 08:31+0200\n"
 "PO-Revision-Date: 2006-12-17 13:34+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -610,7 +610,8 @@ msgstr ""
 msgid "(C) 2001, 2007, Adriaan de Groot"
 msgstr ""
 
-#: conduits/null/null-factory.cc:77 conduits/docconduit/kpalmdoc.cpp:47
+#: conduits/null/null-factory.cc:77 conduits/todo/todoconfig.cc:54
+#: conduits/docconduit/kpalmdoc.cpp:47
 #: conduits/notepadconduit/notepad-factory.cc:90
 #: conduits/popmail/setupDialog.cc:71 conduits/vcalconduit/vcal-setup.cc:50
 #: conduits/vcalconduit/todo-setup.cc:59 kpilot/kpilotConfig.h:124
@@ -632,6 +633,71 @@ msgstr ""
 
 #: conduits/null/null-conduit.cc:79
 msgid "NULL conduit is programmed to fail."
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:38 conduits/vcalconduit/todo-setup.cc:48
+msgid "To-do Conduit for KPilot"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:40 conduits/vcalconduit/todo-setup.cc:50
+msgid "Configures the To-do Conduit for KPilot"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:42 conduits/contacts/contacts-setup.cc:51
+#: Documentation/base-conduit-template/contacts-setup.cc:48
+msgid "(C) 2008, Bertjan Broeksema"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:45 conduits/keyringconduit/keyringsetup.cc:54
+#: conduits/contacts/contacts-setup.cc:54 kpilot/kpilotConfig.h:149
+#: Documentation/base-conduit-template/contacts-setup.cc:51
+msgid "Bertjan Broeksema"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:46
+msgid "Rewrite and port to Akonadi and Base libraries"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:51 conduits/popmail/setupDialog.cc:75
+#: conduits/vcalconduit/vcal-setup.cc:58 conduits/vcalconduit/todo-setup.cc:53
+#: kpilot/kpilotConfig.h:133
+msgid "Dan Pilone"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:51 conduits/todo/todoconfig.cc:52
+#: conduits/todo/todoconfig.cc:53
+msgid "Original author of the old conduit"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:52 conduits/vcalconduit/vcal-setup.cc:60
+#: conduits/vcalconduit/todo-setup.cc:55 kpilot/kpilotConfig.h:136
+msgid "Preston Brown"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:53
+msgid "Herwin-Jan Steenhouwer"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:54 conduits/todo/todoconfig.cc:55
+#: conduits/docconduit/doc-setup.cc:65 conduits/popmail/setupDialog.cc:72
+#: conduits/vcalconduit/vcal-setup.cc:51 conduits/vcalconduit/vcal-setup.cc:55
+#: conduits/vcalconduit/todo-setup.cc:60 conduits/vcalconduit/todo-setup.cc:64
+#: kpilot/kpilotConfig.h:125
+msgid "Maintainer"
+msgstr "Таъминловчи"
+
+#: conduits/todo/todoconfig.cc:55 conduits/sysinfoconduit/sysinfo-setup.cc:99
+#: conduits/malconduit/mal-setup.cc:69 conduits/timeconduit/time-setup.cc:51
+#: conduits/docconduit/doc-setup.cc:64 conduits/docconduit/kpalmdoc.cpp:45
+#: conduits/vcalconduit/vcal-setup.cc:54 conduits/vcalconduit/todo-setup.cc:63
+#: kpilot/kpilotConfig.h:130
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:54
+msgid "Reinhold Kainhofer"
+msgstr ""
+
+#: conduits/todo/todoconfig.cc:64 conduits/vcalconduit/todo-conduit.cc:179
+#: conduits/vcalconduit/todo-setup.cc:46
+msgid "To-do"
 msgstr ""
 
 #: conduits/memofileconduit/memofile-conduit.cc:64
@@ -736,15 +802,6 @@ msgstr ""
 
 #: conduits/sysinfoconduit/sysinfo-setup.cc:98
 msgid "(C) 2003, Reinhold Kainhofer"
-msgstr ""
-
-#: conduits/sysinfoconduit/sysinfo-setup.cc:99
-#: conduits/malconduit/mal-setup.cc:69 conduits/timeconduit/time-setup.cc:51
-#: conduits/docconduit/doc-setup.cc:64 conduits/docconduit/kpalmdoc.cpp:45
-#: conduits/vcalconduit/vcal-setup.cc:54 conduits/vcalconduit/todo-setup.cc:63
-#: kpilot/kpilotConfig.h:130
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:54
-msgid "Reinhold Kainhofer"
 msgstr ""
 
 #: conduits/sysinfoconduit/sysinfo-setup.cc:111
@@ -882,12 +939,6 @@ msgstr ""
 msgid "(C) 2007, Bertjan Broeksema"
 msgstr ""
 
-#: conduits/keyringconduit/keyringsetup.cc:54
-#: conduits/contacts/contacts-setup.cc:54 kpilot/kpilotConfig.h:149
-#: Documentation/base-conduit-template/contacts-setup.cc:51
-msgid "Bertjan Broeksema"
-msgstr ""
-
 #: conduits/keyringconduit/keyringsetup.cc:83
 msgid "Keyring Conduit"
 msgstr ""
@@ -929,11 +980,6 @@ msgstr ""
 #: conduits/contacts/contacts-setup.cc:49
 #: Documentation/base-conduit-template/contacts-setup.cc:46
 msgid "Configures the Contacts Conduit for KPilot"
-msgstr ""
-
-#: conduits/contacts/contacts-setup.cc:51
-#: Documentation/base-conduit-template/contacts-setup.cc:48
-msgid "(C) 2008, Bertjan Broeksema"
 msgstr ""
 
 #: conduits/contacts/contacts-setup.cc:73
@@ -1189,13 +1235,6 @@ msgstr ""
 msgid "Configures the DOC Conduit for KPilot"
 msgstr ""
 
-#: conduits/docconduit/doc-setup.cc:65 conduits/popmail/setupDialog.cc:72
-#: conduits/vcalconduit/vcal-setup.cc:51 conduits/vcalconduit/vcal-setup.cc:55
-#: conduits/vcalconduit/todo-setup.cc:60 conduits/vcalconduit/todo-setup.cc:64
-#: kpilot/kpilotConfig.h:125
-msgid "Maintainer"
-msgstr "Таъминловчи"
-
 #: conduits/docconduit/doc-setup.cc:72
 msgid "Palm DOC"
 msgstr ""
@@ -1367,11 +1406,6 @@ msgstr ""
 msgid "(C) 2001, Dan Pilone, Michael Kropfberger, Adriaan de Groot"
 msgstr ""
 
-#: conduits/popmail/setupDialog.cc:75 conduits/vcalconduit/vcal-setup.cc:58
-#: conduits/vcalconduit/todo-setup.cc:53 kpilot/kpilotConfig.h:133
-msgid "Dan Pilone"
-msgstr ""
-
 #: conduits/popmail/setupDialog.cc:76 conduits/vcalconduit/vcal-setup.cc:59
 #: conduits/vcalconduit/vcal-setup.cc:61 conduits/vcalconduit/vcal-setup.cc:63
 #: conduits/vcalconduit/todo-setup.cc:54 conduits/vcalconduit/todo-setup.cc:56
@@ -1464,11 +1498,6 @@ msgid ""
 "(C) 2002-2003, Reinhold Kainhofer"
 msgstr ""
 
-#: conduits/vcalconduit/vcal-setup.cc:60 conduits/vcalconduit/todo-setup.cc:55
-#: kpilot/kpilotConfig.h:136
-msgid "Preston Brown"
-msgstr ""
-
 #: conduits/vcalconduit/vcal-setup.cc:62 conduits/vcalconduit/todo-setup.cc:57
 msgid "Herwin-Jan Steehouwer"
 msgstr ""
@@ -1505,25 +1534,12 @@ msgid ""
 "temporary local file \"%2\" manually."
 msgstr ""
 
-#: conduits/vcalconduit/todo-conduit.cc:179
-#: conduits/vcalconduit/todo-setup.cc:46
-msgid "To-do"
-msgstr ""
-
 #: conduits/vcalconduit/pctohhstate.cc:71
 msgid "Copying records to Pilot ..."
 msgstr ""
 
 #: conduits/vcalconduit/initstate.cc:59
 msgid "Initializing conduit ..."
-msgstr ""
-
-#: conduits/vcalconduit/todo-setup.cc:48
-msgid "To-do Conduit for KPilot"
-msgstr ""
-
-#: conduits/vcalconduit/todo-setup.cc:50
-msgid "Configures the To-do Conduit for KPilot"
 msgstr ""
 
 #: conduits/vcalconduit/todo-setup.cc:70
