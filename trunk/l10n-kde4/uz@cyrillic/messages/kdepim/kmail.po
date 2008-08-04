@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-03 08:21+0200\n"
+"POT-Creation-Date: 2008-08-04 08:29+0200\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -628,7 +628,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file customtemplates_base.ui line 86
-#: attachmentlistview.cpp:47 configuredialog.cpp:3609
+#: attachmentlistview.cpp:47 configuredialog.cpp:3627
 #: distributionlistdialog.cpp:125 rc.cpp:59 recipientspicker.cpp:367
 msgid "Name"
 msgstr "Номи"
@@ -778,7 +778,7 @@ msgstr "&Профилни юклаш"
 msgid "&Add..."
 msgstr "&Қўшиш..."
 
-#: configuredialog.cpp:345 configuredialog.cpp:857 configuredialog.cpp:3478
+#: configuredialog.cpp:345 configuredialog.cpp:857 configuredialog.cpp:3496
 #: simplestringlisteditor.cpp:99
 msgid "&Modify..."
 msgstr "Ўзгар&тириш"
@@ -787,7 +787,7 @@ msgstr "Ўзгар&тириш"
 msgid "&Rename"
 msgstr "&Номини ўзгартириш"
 
-#: configuredialog.cpp:347 configuredialog.cpp:3423 configuredialog.cpp:3477
+#: configuredialog.cpp:347 configuredialog.cpp:3441 configuredialog.cpp:3495
 msgid "Remo&ve"
 msgstr "&Олиб ташлаш"
 
@@ -809,11 +809,11 @@ msgstr "Шахсиятни олиб ташлаш"
 msgid "&Remove"
 msgstr "&Олиб ташлаш"
 
-#: configuredialog.cpp:560 configuredialog.cpp:3422
+#: configuredialog.cpp:560 configuredialog.cpp:3440
 msgid "Add..."
 msgstr "Қўшиш..."
 
-#: configuredialog.cpp:562 configuredialog.cpp:3424
+#: configuredialog.cpp:562 configuredialog.cpp:3442
 msgid "Modify..."
 msgstr "Ўзгартириш"
 
@@ -909,8 +909,8 @@ msgstr ""
 msgid "Incoming accounts (add at least one):"
 msgstr ""
 
-#: configuredialog.cpp:850 configuredialog.cpp:3126 configuredialog.cpp:3389
-#: configuredialog.cpp:3477 configuredialog.cpp:3830
+#: configuredialog.cpp:850 configuredialog.cpp:3144 configuredialog.cpp:3407
+#: configuredialog.cpp:3495 configuredialog.cpp:3848
 msgid "A&dd..."
 msgstr "Қў&шиш"
 
@@ -1214,77 +1214,83 @@ msgstr "&Қисқа жилдлар рўйхати"
 msgid "Show folder quick search field"
 msgstr "Қидириш панелини кўрсатиш"
 
-#: configuredialog.cpp:1748
+#: configuredialog.cpp:1749
 #, kde-format
 msgid "Sta&ndard format (%1)"
 msgstr "&Андоза формат (%1)"
 
-#: configuredialog.cpp:1749
+#: configuredialog.cpp:1750
 #, kde-format
 msgid "Locali&zed format (%1)"
 msgstr ""
 
-#: configuredialog.cpp:1750
+#: configuredialog.cpp:1751
 #, kde-format
 msgid "Fancy for&mat (%1)"
 msgstr "&Чиройли формат (%1)"
 
-#: configuredialog.cpp:1751
-msgid "C&ustom format (Shift+F1 for help):"
-msgstr "&Бошқа формат:"
+#: configuredialog.cpp:1752
+#, fuzzy
+#| msgid "&Use custom fonts"
+msgid "C&ustom format:"
+msgstr "&Бошқа шрифтларни ишлатиш"
 
-#: configuredialog.cpp:1770
+#: configuredialog.cpp:1771
 msgid "General Options"
 msgstr "Умумий параметрлар"
 
-#: configuredialog.cpp:1775
+#: configuredialog.cpp:1776
 msgid "Show Quick Search"
 msgstr "Қидириш панелини кўрсатиш"
 
-#: configuredialog.cpp:1778
+#: configuredialog.cpp:1779
 msgid "Display messa&ge sizes"
 msgstr "Хабарнинг &ҳажмини кўрсатиш"
 
-#: configuredialog.cpp:1781
+#: configuredialog.cpp:1782
 msgid "Show crypto &icons"
 msgstr ""
 
-#: configuredialog.cpp:1784
+#: configuredialog.cpp:1785
 msgid "Show attachment icon"
 msgstr "Илованинг нишончасини кўрсатиш"
 
-#: configuredialog.cpp:1787
+#: configuredialog.cpp:1788
 #, fuzzy
 msgid "&Threaded message list"
 msgstr "Хабарнинг асл нусхаси:"
 
-#: configuredialog.cpp:1805
+#: configuredialog.cpp:1806
 msgid "Threaded Message List Options"
 msgstr ""
 
-#: configuredialog.cpp:1810
+#: configuredialog.cpp:1811
 msgid "Always &keep threads open"
 msgstr ""
 
-#: configuredialog.cpp:1811
+#: configuredialog.cpp:1812
 msgid "Threads default to o&pen"
 msgstr ""
 
-#: configuredialog.cpp:1812
+#: configuredialog.cpp:1813
 msgid "Threads default to closed"
 msgstr ""
 
-#: configuredialog.cpp:1813
+#: configuredialog.cpp:1814
 msgid ""
 "Open threads that contain ne&w, unread or important messages and open "
 "watched threads."
 msgstr ""
 
-#: configuredialog.cpp:1823
+#: configuredialog.cpp:1824
 msgid "Date Display"
 msgstr "Санани кўрсатиш"
 
-#: configuredialog.cpp:1847
+#: configuredialog.cpp:1851
+msgid "<qt><a href=\"whatsthis1\">Custom format information...</a>"
+msgstr ""
+
+#: configuredialog.cpp:1859
 msgid ""
 "<qt><p><strong>These expressions may be used for the date:</strong></"
 "p><ul><li>d - the day as a number without a leading zero (1-31)</li><li>dd - "
@@ -1309,163 +1315,163 @@ msgid ""
 "characters will be ignored.</strong></p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:1962
+#: configuredialog.cpp:1980
 msgid ""
 "Changing the global threading setting will override all folder specific "
 "values."
 msgstr ""
 
-#: configuredialog.cpp:1999
+#: configuredialog.cpp:2017
 msgid "Show HTML stat&us bar"
 msgstr ""
 
-#: configuredialog.cpp:2003
+#: configuredialog.cpp:2021
 msgid "Show s&pam status in fancy headers"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 524
-#: configuredialog.cpp:2007 rc.cpp:500
+#: configuredialog.cpp:2025 rc.cpp:500
 msgid "Replace smileys by emoticons"
 msgstr ""
 
-#: configuredialog.cpp:2011
+#: configuredialog.cpp:2029
 msgid "Use smaller font for quoted text"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 529
-#: configuredialog.cpp:2015 rc.cpp:506
+#: configuredialog.cpp:2033 rc.cpp:506
 msgid "Show expand/collapse quote marks"
 msgstr ""
 
-#: configuredialog.cpp:2094
+#: configuredialog.cpp:2112
 #, fuzzy
 msgid "Fallback ch&aracter encoding:"
 msgstr "Кодлаш усули"
 
-#: configuredialog.cpp:2105 configuredialog.cpp:2160 kmreaderwin.cpp:624
+#: configuredialog.cpp:2123 configuredialog.cpp:2178 kmreaderwin.cpp:624
 msgid "Auto"
 msgstr "Авто"
 
-#: configuredialog.cpp:2116
+#: configuredialog.cpp:2134
 #, fuzzy
 msgid "&Override character encoding:"
 msgstr "Кодлаш усули"
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 105
-#: configuredialog.cpp:2240 rc.cpp:299
+#: configuredialog.cpp:2258 rc.cpp:299
 msgid "Enable system tray icon"
 msgstr ""
 
-#: configuredialog.cpp:2247
+#: configuredialog.cpp:2265
 msgid "System Tray Mode"
 msgstr ""
 
-#: configuredialog.cpp:2256
+#: configuredialog.cpp:2274
 msgid "Always show KMail in system tray"
 msgstr ""
 
-#: configuredialog.cpp:2257
+#: configuredialog.cpp:2275
 msgid "Only show KMail in system tray if there are unread messages"
 msgstr ""
 
-#: configuredialog.cpp:2306
+#: configuredialog.cpp:2324
 #, fuzzy
 #| msgid "Available Filters"
 msgid "A&vailable Tags"
 msgstr "Мавжуд филтерлар"
 
-#: configuredialog.cpp:2321
+#: configuredialog.cpp:2339
 msgid "Add new tag"
 msgstr ""
 
-#: configuredialog.cpp:2326
+#: configuredialog.cpp:2344
 #, fuzzy
 #| msgid "Remove Duplicate Messages"
 msgid "Remove selected tag"
 msgstr "Бир ҳил хабарларни ўчириш"
 
-#: configuredialog.cpp:2335
+#: configuredialog.cpp:2353
 msgid "Increase tag priority"
 msgstr ""
 
-#: configuredialog.cpp:2341
+#: configuredialog.cpp:2359
 msgid "Decrease tag priority"
 msgstr ""
 
-#: configuredialog.cpp:2361
+#: configuredialog.cpp:2379
 #, fuzzy
 msgid "Ta&g Settings"
 msgstr "&Жўнатиш"
 
-#: configuredialog.cpp:2377 favoritefolderview.cpp:466
+#: configuredialog.cpp:2395 favoritefolderview.cpp:466
 msgid "Name:"
 msgstr "Номи:"
 
-#: configuredialog.cpp:2385
+#: configuredialog.cpp:2403
 #, fuzzy
 #| msgid "Text Color..."
 msgid "Change te&xt color:"
 msgstr "Матннинг ранги"
 
-#: configuredialog.cpp:2400
+#: configuredialog.cpp:2418
 #, fuzzy
 msgid "Change fo&nt:"
 msgstr "Кодлашни ўзгартириш"
 
-#: configuredialog.cpp:2419
+#: configuredialog.cpp:2437
 #, fuzzy
 msgid "Message tag &icon:"
 msgstr "Хабарлар рўйхати"
 
 #. i18n: tag string
 #. i18n: file customtemplates_base.ui line 168
-#: configuredialog.cpp:2432 rc.cpp:74
+#: configuredialog.cpp:2450 rc.cpp:74
 #, fuzzy
 msgid "Shortc&ut:"
 msgstr "Тугмалар бирикмаси:"
 
-#: configuredialog.cpp:2442
+#: configuredialog.cpp:2460
 msgid "Enable &toolbar button"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file imapsettings.ui line 50
-#: configuredialog.cpp:2772 identitydialog.cpp:121 kmfilterdlg.cpp:164
+#: configuredialog.cpp:2790 identitydialog.cpp:121 kmfilterdlg.cpp:164
 #: rc.cpp:95
 msgid "&General"
 msgstr "&Умумий"
 
-#: configuredialog.cpp:2785
+#: configuredialog.cpp:2803
 #, fuzzy
 msgid "Standard &Templates"
 msgstr "&Алмаштириш"
 
-#: configuredialog.cpp:2791
+#: configuredialog.cpp:2809
 #, fuzzy
 msgid "&Custom Templates"
 msgstr "&Алмаштириш"
 
-#: configuredialog.cpp:2797
+#: configuredialog.cpp:2815
 msgid "&Subject"
 msgstr "&Мавзу"
 
-#: configuredialog.cpp:2804
+#: configuredialog.cpp:2822
 msgid "Cha&rset"
 msgstr "&Кодлаш усули"
 
-#: configuredialog.cpp:2810
+#: configuredialog.cpp:2828
 msgid "H&eaders"
 msgstr "&Сарлавҳалар"
 
-#: configuredialog.cpp:2816
+#: configuredialog.cpp:2834
 msgctxt "Config->Composer->Attachments"
 msgid "A&ttachments"
 msgstr "&Иловалар"
 
-#: configuredialog.cpp:2917
+#: configuredialog.cpp:2935
 msgid "No autosave"
 msgstr "Авто сақлаш йўқ"
 
@@ -1477,30 +1483,30 @@ msgstr "Авто сақлаш йўқ"
 #. i18n: file maildirsettings.ui line 93
 #. i18n: tag string
 #. i18n: file popsettings.ui line 169
-#: configuredialog.cpp:2918 rc.cpp:136 rc.cpp:752 rc.cpp:782 rc.cpp:827
+#: configuredialog.cpp:2936 rc.cpp:136 rc.cpp:752 rc.cpp:782 rc.cpp:827
 msgid " min"
 msgstr " дақ"
 
-#: configuredialog.cpp:2925
+#: configuredialog.cpp:2943
 #, fuzzy
 #| msgid "Configure &Filters..."
 msgid "Configure Completion Order..."
 msgstr "&Филтерларни мослаш"
 
-#: configuredialog.cpp:2934 kmlineeditspell.cpp:169
+#: configuredialog.cpp:2952 kmlineeditspell.cpp:169
 msgid "Edit Recent Addresses..."
 msgstr "Яқинда қўлланган манзилларни таҳрирлаш..."
 
-#: configuredialog.cpp:2941
+#: configuredialog.cpp:2959
 msgid "External Editor"
 msgstr "Ташқи таҳрирчи"
 
-#: configuredialog.cpp:2975
+#: configuredialog.cpp:2993
 #, c-format
 msgid "<b>%f</b> will be replaced with the filename to edit."
 msgstr ""
 
-#: configuredialog.cpp:3094
+#: configuredialog.cpp:3112
 msgid ""
 "<qt>The following placeholders are supported in the reply phrases:<br /"
 "><table><tr><td><b>%D</b>: date</td><td><b>%S</b>: subject</td><td></td></"
@@ -1512,160 +1518,160 @@ msgid ""
 "_</b>: space</td><td><b>%L</b>: linebreak</td></tr></table></qt>"
 msgstr ""
 
-#: configuredialog.cpp:3118
+#: configuredialog.cpp:3136
 msgid "Lang&uage:"
 msgstr "&Тил:"
 
-#: configuredialog.cpp:3129 configuredialog.cpp:3389 configuredialog.cpp:3620
-#: configuredialog.cpp:3830
+#: configuredialog.cpp:3147 configuredialog.cpp:3407 configuredialog.cpp:3638
+#: configuredialog.cpp:3848
 msgid "Re&move"
 msgstr "&Олиб ташлаш"
 
-#: configuredialog.cpp:3142
+#: configuredialog.cpp:3160
 msgid "Reply to se&nder:"
 msgstr "&Жўнатувчига жавоб бериш:"
 
-#: configuredialog.cpp:3151
+#: configuredialog.cpp:3169
 msgid "Repl&y to all:"
 msgstr "Ҳаммага ж&авоб бериш:"
 
-#: configuredialog.cpp:3160
+#: configuredialog.cpp:3178
 msgid "&Forward:"
 msgstr "&Узатиш:"
 
 #. i18n: tag string
 #. i18n: file templatesconfiguration_base.ui line 297
-#: configuredialog.cpp:3169 rc.cpp:1063
+#: configuredialog.cpp:3187 rc.cpp:1063
 msgid "&Quote indicator:"
 msgstr ""
 
-#: configuredialog.cpp:3216 kmmessage.cpp:3901
+#: configuredialog.cpp:3234 kmmessage.cpp:3901
 msgid "On %D, you wrote:"
 msgstr "%D, Сиз ёзгансиз:"
 
-#: configuredialog.cpp:3217 kmmessage.cpp:3903
+#: configuredialog.cpp:3235 kmmessage.cpp:3903
 msgid "On %D, %F wrote:"
 msgstr "%D, %F ёзган:"
 
-#: configuredialog.cpp:3218 kmmessage.cpp:3905
+#: configuredialog.cpp:3236 kmmessage.cpp:3905
 msgid "Forwarded Message"
 msgstr "Узатилган хабар"
 
-#: configuredialog.cpp:3219
+#: configuredialog.cpp:3237
 msgid ">%_"
 msgstr ">%_"
 
-#: configuredialog.cpp:3374
+#: configuredialog.cpp:3392
 msgid "Repl&y Subject Prefixes"
 msgstr ""
 
-#: configuredialog.cpp:3379 configuredialog.cpp:3414
+#: configuredialog.cpp:3397 configuredialog.cpp:3432
 msgid ""
 "Recognize any sequence of the following prefixes\n"
 "(entries are case-insensitive regular expressions):"
 msgstr ""
 
-#: configuredialog.cpp:3390 configuredialog.cpp:3831
+#: configuredialog.cpp:3408 configuredialog.cpp:3849
 msgid "Mod&ify..."
 msgstr "Ў&згартириш"
 
-#: configuredialog.cpp:3391
+#: configuredialog.cpp:3409
 msgid "Enter new reply prefix:"
 msgstr ""
 
-#: configuredialog.cpp:3409
+#: configuredialog.cpp:3427
 msgid "For&ward Subject Prefixes"
 msgstr ""
 
-#: configuredialog.cpp:3425
+#: configuredialog.cpp:3443
 msgid "Enter new forward prefix:"
 msgstr ""
 
-#: configuredialog.cpp:3469
+#: configuredialog.cpp:3487
 msgid ""
 "This list is checked for every outgoing message from the top to the bottom "
 "for a charset that contains all required characters."
 msgstr ""
 
-#: configuredialog.cpp:3478
+#: configuredialog.cpp:3496
 msgid "Enter charset:"
 msgstr "Кодлаш усулини киритинг:"
 
-#: configuredialog.cpp:3484
+#: configuredialog.cpp:3502
 msgid "&Keep original charset when replying or forwarding (if possible)"
 msgstr ""
 
-#: configuredialog.cpp:3518
+#: configuredialog.cpp:3536
 msgid "This charset is not supported."
 msgstr "Ушбу кодлаш усули қўлланилмайди."
 
-#: configuredialog.cpp:3572
+#: configuredialog.cpp:3590
 msgid "&Use custom message-id suffix"
 msgstr ""
 
-#: configuredialog.cpp:3585
+#: configuredialog.cpp:3603
 msgid "Custom message-&id suffix:"
 msgstr ""
 
-#: configuredialog.cpp:3600
+#: configuredialog.cpp:3618
 msgid "Define custom mime header fields:"
 msgstr ""
 
-#: configuredialog.cpp:3609
+#: configuredialog.cpp:3627
 msgid "Value"
 msgstr "Қиймати"
 
-#: configuredialog.cpp:3616
+#: configuredialog.cpp:3634
 msgid "Ne&w"
 msgstr "&Янги"
 
 #. i18n: tag string
 #. i18n: file snippetdlgbase.ui line 19
-#: configuredialog.cpp:3629 distributionlistdialog.cpp:115
+#: configuredialog.cpp:3647 distributionlistdialog.cpp:115
 #: kmfolderdialog.cpp:289 kmmsgpartdlg.cpp:119 newfolderdialog.cpp:85
 #: rc.cpp:1030
 msgid "&Name:"
 msgstr "&Номи:"
 
-#: configuredialog.cpp:3639
+#: configuredialog.cpp:3657
 msgid "&Value:"
 msgstr "&Қиймати:"
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 344
-#: configuredialog.cpp:3798 rc.cpp:435
+#: configuredialog.cpp:3816 rc.cpp:435
 msgid "Outlook-compatible attachment naming"
 msgstr ""
 
-#: configuredialog.cpp:3801
+#: configuredialog.cpp:3819
 msgid ""
 "Turn this option on to make Outlook(tm) understand attachment names "
 "containing non-English characters"
 msgstr ""
 
-#: configuredialog.cpp:3812
+#: configuredialog.cpp:3830
 msgid "E&nable detection of missing attachments"
 msgstr ""
 
-#: configuredialog.cpp:3819
+#: configuredialog.cpp:3837
 msgid "Recognize any of the following key words as intention to attach a file:"
 msgstr ""
 
-#: configuredialog.cpp:3832
+#: configuredialog.cpp:3850
 msgid "Enter new key word:"
 msgstr "Янги калит сўзни киритинг:"
 
-#: configuredialog.cpp:3853 configuredialog.cpp:3854 kmcomposewin.cpp:1891
+#: configuredialog.cpp:3871 configuredialog.cpp:3872 kmcomposewin.cpp:1891
 #: kmcomposewin.cpp:1892
 msgid "attachment"
 msgstr "илова"
 
-#: configuredialog.cpp:3855 configuredialog.cpp:3856 kmcomposewin.cpp:1893
+#: configuredialog.cpp:3873 configuredialog.cpp:3874 kmcomposewin.cpp:1893
 #: kmcomposewin.cpp:1894
 msgid "attached"
 msgstr "илова қилинган"
 
-#: configuredialog.cpp:3874
+#: configuredialog.cpp:3892
 msgid ""
 "You have chosen to encode attachment names containing non-English characters "
 "in a way that is understood by Outlook(tm) and other mail clients that do "
@@ -1676,27 +1682,27 @@ msgid ""
 "enable this option."
 msgstr ""
 
-#: configuredialog.cpp:3901
+#: configuredialog.cpp:3919
 msgid "&Reading"
 msgstr "Ўқ&иш"
 
-#: configuredialog.cpp:3907
+#: configuredialog.cpp:3925
 msgid "Composing"
 msgstr "Яратиш"
 
-#: configuredialog.cpp:3913
+#: configuredialog.cpp:3931
 msgid "Warnings"
 msgstr "Огоҳномалар"
 
-#: configuredialog.cpp:3919
+#: configuredialog.cpp:3937
 msgid "S/MIME &Validation"
 msgstr ""
 
-#: configuredialog.cpp:3925
+#: configuredialog.cpp:3943
 msgid "Crypto Backe&nds"
 msgstr ""
 
-#: configuredialog.cpp:3956
+#: configuredialog.cpp:3974
 msgid ""
 "<qt><p>Messages sometimes come in both formats. This option controls whether "
 "you want the HTML part or the plain text part to be displayed.</"
@@ -1712,7 +1718,7 @@ msgid ""
 "main window.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:3972
+#: configuredialog.cpp:3990
 msgid ""
 "<qt><p>Some mail advertisements are in HTML and contain references to, for "
 "example, images that the advertisers employ to find out that you have read "
@@ -1725,7 +1731,7 @@ msgid ""
 "should be aware of the possible problem.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:3984
+#: configuredialog.cpp:4002
 msgid ""
 "<qt><h3>Message Disposition Notification Policy</h3><p>MDNs are a "
 "generalization of what is commonly called <b>read receipt</b>. The message "
@@ -1750,19 +1756,19 @@ msgid ""
 "</li></ul></qt>"
 msgstr ""
 
-#: configuredialog.cpp:4015
+#: configuredialog.cpp:4033
 msgid "HTML Messages"
 msgstr "HTML хабарлар"
 
-#: configuredialog.cpp:4018
+#: configuredialog.cpp:4036
 msgid "Prefer HTML to plain text"
 msgstr ""
 
-#: configuredialog.cpp:4024
+#: configuredialog.cpp:4042
 msgid "Allow messages to load external references from the Internet"
 msgstr ""
 
-#: configuredialog.cpp:4032
+#: configuredialog.cpp:4050
 msgid ""
 "<b>WARNING:</b> Allowing HTML in email may increase the risk that your "
 "system will be compromised by present and anticipated security exploits. <a "
@@ -1770,198 +1776,198 @@ msgid ""
 "about external references...</a>"
 msgstr ""
 
-#: configuredialog.cpp:4049
+#: configuredialog.cpp:4067
 #, fuzzy
 #| msgid "Unread Message"
 msgid "Encrypted Messages"
 msgstr "Ўқилмаган хабар"
 
-#: configuredialog.cpp:4051
+#: configuredialog.cpp:4069
 msgid "Attempt decryption of encrypted messages when viewing"
 msgstr ""
 
-#: configuredialog.cpp:4058
+#: configuredialog.cpp:4076
 msgid "Message Disposition Notifications"
 msgstr ""
 
-#: configuredialog.cpp:4068
+#: configuredialog.cpp:4086
 msgid "Send policy:"
 msgstr "Жўнатиш қоидаси:"
 
-#: configuredialog.cpp:4070 vacation.cpp:660
+#: configuredialog.cpp:4088 vacation.cpp:660
 #, fuzzy
 #| msgctxt "MDN type"
 #| msgid "Ignore"
 msgid "Ignore"
 msgstr "Эътибор берилмасин"
 
-#: configuredialog.cpp:4075
+#: configuredialog.cpp:4093
 #, fuzzy
 #| msgid "As&k"
 msgid "Ask"
 msgstr "&Сўраш"
 
-#: configuredialog.cpp:4080
+#: configuredialog.cpp:4098
 #, fuzzy
 #| msgid "&Deny"
 msgid "Deny"
 msgstr "&Рухсат берилмасин"
 
-#: configuredialog.cpp:4085
+#: configuredialog.cpp:4103
 #, fuzzy
 #| msgid "Al&ways send"
 msgid "Always send"
 msgstr "&Ҳамиша жўнатиш"
 
-#: configuredialog.cpp:4095
+#: configuredialog.cpp:4113
 msgid "Quote original message:"
 msgstr ""
 
-#: configuredialog.cpp:4097
+#: configuredialog.cpp:4115
 #, fuzzy
 #| msgid "Nothin&g"
 msgid "Nothing"
 msgstr "Ҳеч &нарса"
 
-#: configuredialog.cpp:4102
+#: configuredialog.cpp:4120
 #, fuzzy
 #| msgid "&Full message"
 msgid "Full message"
 msgstr "&Бутун хабар"
 
-#: configuredialog.cpp:4107
+#: configuredialog.cpp:4125
 #, fuzzy
 #| msgid "Onl&y headers"
 msgid "Only headers"
 msgstr "&Фақат сарлавҳалар"
 
-#: configuredialog.cpp:4113
+#: configuredialog.cpp:4131
 msgid "Do not send MDNs in response to encrypted messages"
 msgstr ""
 
-#: configuredialog.cpp:4118
+#: configuredialog.cpp:4136
 msgid ""
 "<b>WARNING:</b> Unconditionally returning confirmations undermines your "
 "privacy. <a href=\"whatsthis3\">More about MDNs...</a>"
 msgstr ""
 
-#: configuredialog.cpp:4132
+#: configuredialog.cpp:4150
 msgid "Certificate && Key Bundle Attachments"
 msgstr ""
 
-#: configuredialog.cpp:4135
+#: configuredialog.cpp:4153
 msgid "Automatically import keys and certificates"
 msgstr "Калит ва сертификатларни автоматик импорт қилиш"
 
-#: configuredialog.cpp:4211
+#: configuredialog.cpp:4229
 msgid ""
 "Changing the global HTML setting will override all folder specific values."
 msgstr ""
 
-#: configuredialog.cpp:4532
+#: configuredialog.cpp:4550
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file smimeconfiguration.ui line 182
-#: configuredialog.cpp:4641 rc.cpp:999
+#: configuredialog.cpp:4659 rc.cpp:999
 msgid "no proxy"
 msgstr "проксисиз"
 
-#: configuredialog.cpp:4642
+#: configuredialog.cpp:4660
 #, kde-format
 msgid "(Current system setting: %1)"
 msgstr "(Жорий тизим мосламаси: %1)"
 
-#: configuredialog.cpp:4801
+#: configuredialog.cpp:4819
 msgid "&Folders"
 msgstr "&Жилдлар"
 
-#: configuredialog.cpp:4804
+#: configuredialog.cpp:4822
 msgid "&Groupware"
 msgstr ""
 
-#: configuredialog.cpp:4826
+#: configuredialog.cpp:4844
 msgctxt "Corresponds to Folder->Move All Messages to Trash"
 msgid "Ask for co&nfirmation before moving all messages to trash"
 msgstr ""
 
-#: configuredialog.cpp:4833
+#: configuredialog.cpp:4851
 msgid "E&xclude important messages from expiry"
 msgstr ""
 
-#: configuredialog.cpp:4848
+#: configuredialog.cpp:4866
 msgctxt ""
 "to be continued with \"do not loop\", \"loop in current folder\", and \"loop "
 "in all folders\"."
 msgid "When trying to find unread messages:"
 msgstr ""
 
-#: configuredialog.cpp:4852
+#: configuredialog.cpp:4870
 msgctxt "continuation of \"When trying to find unread messages:\""
 msgid "Do not Loop"
 msgstr ""
 
-#: configuredialog.cpp:4854
+#: configuredialog.cpp:4872
 msgctxt "continuation of \"When trying to find unread messages:\""
 msgid "Loop in Current Folder"
 msgstr ""
 
-#: configuredialog.cpp:4856
+#: configuredialog.cpp:4874
 msgctxt "continuation of \"When trying to find unread messages:\""
 msgid "Loop in All Folders"
 msgstr ""
 
-#: configuredialog.cpp:4871
+#: configuredialog.cpp:4889
 msgctxt ""
 "to be continued with \"jump to first new message\", \"jump to first unread "
 "or new message\",and \"jump to last selected message\"."
 msgid "When entering a folder:"
 msgstr ""
 
-#: configuredialog.cpp:4875
+#: configuredialog.cpp:4893
 msgctxt "continuation of \"When entering a folder:\""
 msgid "Jump to First New Message"
 msgstr ""
 
-#: configuredialog.cpp:4877
+#: configuredialog.cpp:4895
 msgctxt "continuation of \"When entering a folder:\""
 msgid "Jump to First Unread or New Message"
 msgstr ""
 
-#: configuredialog.cpp:4879
+#: configuredialog.cpp:4897
 msgctxt "continuation of \"When entering a folder:\""
 msgid "Jump to Last Selected Message"
 msgstr ""
 
-#: configuredialog.cpp:4887
+#: configuredialog.cpp:4905
 msgid "Mar&k selected message as read after"
 msgstr ""
 
-#: configuredialog.cpp:4891
+#: configuredialog.cpp:4909
 msgid " sec"
 msgstr " сония"
 
-#: configuredialog.cpp:4904
+#: configuredialog.cpp:4922
 msgid "Ask for action after &dragging messages to another folder"
 msgstr ""
 
-#: configuredialog.cpp:4916
+#: configuredialog.cpp:4934
 msgctxt "to be continued with \"flat files\" and \"directories\", resp."
 msgid "By default, &message folders on disk are:"
 msgstr ""
 
-#: configuredialog.cpp:4920
+#: configuredialog.cpp:4938
 msgctxt "continuation of \"By default, &message folders on disk are\""
 msgid "Flat Files (\"mbox\" format)"
 msgstr ""
 
-#: configuredialog.cpp:4922
+#: configuredialog.cpp:4940
 msgctxt "continuation of \"By default, &message folders on disk are\""
 msgid "Directories (\"maildir\" format)"
 msgstr ""
 
-#: configuredialog.cpp:4925
+#: configuredialog.cpp:4943
 msgctxt "what's this help"
 msgid ""
 "<qt><p>This selects which mailbox format will be the default for local "
@@ -1974,32 +1980,32 @@ msgid ""
 "robust, e.g. when moving messages between folders.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:4950
+#: configuredialog.cpp:4968
 msgid "Open this folder on startup:"
 msgstr "Дастур ишга тушганда очиладиган жилд:"
 
-#: configuredialog.cpp:4960
+#: configuredialog.cpp:4978
 msgid "Empty local &trash folder on program exit"
 msgstr "Дастурдан чиқишда локал &чиқиндилар қутисини бўшатиш"
 
-#: configuredialog.cpp:4971
+#: configuredialog.cpp:4989
 msgid "Quota units: "
 msgstr ""
 
-#: configuredialog.cpp:4974 folderdialogquotatab_p.cpp:96 quotajobs.h:90
+#: configuredialog.cpp:4992 folderdialogquotatab_p.cpp:96 quotajobs.h:90
 msgid "KB"
 msgstr ""
 
-#: configuredialog.cpp:4975 folderdialogquotatab_p.cpp:101 quotajobs.h:95
+#: configuredialog.cpp:4993 folderdialogquotatab_p.cpp:101 quotajobs.h:95
 #, fuzzy
 msgid "MB"
 msgstr " Мб"
 
-#: configuredialog.cpp:4976 folderdialogquotatab_p.cpp:106 quotajobs.h:100
+#: configuredialog.cpp:4994 folderdialogquotatab_p.cpp:106 quotajobs.h:100
 msgid "GB"
 msgstr ""
 
-#: configuredialog.cpp:4985
+#: configuredialog.cpp:5003
 msgctxt "what's this help"
 msgid ""
 "<qt><p>When jumping to the next unread message, it may occur that no more "
@@ -2014,126 +2020,126 @@ msgid ""
 "which option is selected.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:5057
+#: configuredialog.cpp:5075
 msgid "&IMAP Resource Folder Options"
 msgstr ""
 
-#: configuredialog.cpp:5061
+#: configuredialog.cpp:5079
 msgid "&Enable IMAP resource functionality"
 msgstr ""
 
-#: configuredialog.cpp:5062
+#: configuredialog.cpp:5080
 msgid "This enables the IMAP storage for the Kontact applications"
 msgstr ""
 
-#: configuredialog.cpp:5077
+#: configuredialog.cpp:5095
 msgid "&Format used for the groupware folders:"
 msgstr ""
 
-#: configuredialog.cpp:5079
+#: configuredialog.cpp:5097
 msgid ""
 "Choose the format to use to store the contents of the groupware folders."
 msgstr ""
 
-#: configuredialog.cpp:5089
+#: configuredialog.cpp:5107
 msgid "Standard (Ical / Vcard)"
 msgstr ""
 
-#: configuredialog.cpp:5089
+#: configuredialog.cpp:5107
 msgid "Kolab (XML)"
 msgstr ""
 
-#: configuredialog.cpp:5097
+#: configuredialog.cpp:5115
 msgid "&Language of the groupware folders:"
 msgstr ""
 
-#: configuredialog.cpp:5100
+#: configuredialog.cpp:5118
 msgid "Set the language of the folder names"
 msgstr "Жилд номлари учун тилни кўрсатиш"
 
-#: configuredialog.cpp:5110
+#: configuredialog.cpp:5128
 msgid "English"
 msgstr "Инглизча"
 
-#: configuredialog.cpp:5110
+#: configuredialog.cpp:5128
 msgid "German"
 msgstr "Олмонча"
 
-#: configuredialog.cpp:5110
+#: configuredialog.cpp:5128
 msgid "French"
 msgstr "Французча"
 
-#: configuredialog.cpp:5110
+#: configuredialog.cpp:5128
 msgid "Dutch"
 msgstr "Голландча"
 
-#: configuredialog.cpp:5119
+#: configuredialog.cpp:5137
 msgid "Set the parent of the resource folders"
 msgstr ""
 
-#: configuredialog.cpp:5148
+#: configuredialog.cpp:5166
 msgid "&Hide groupware folders"
 msgstr ""
 
-#: configuredialog.cpp:5152
+#: configuredialog.cpp:5170
 msgid ""
 "When this is checked, you will not see the IMAP resource folders in the "
 "folder tree."
 msgstr ""
 
-#: configuredialog.cpp:5162
+#: configuredialog.cpp:5180
 msgid "&Only show groupware folders for this account"
 msgstr ""
 
-#: configuredialog.cpp:5166
+#: configuredialog.cpp:5184
 msgid ""
 "When this is checked, you will not see normal  mail folders in the folder "
 "tree for the account configured for groupware."
 msgstr ""
 
-#: configuredialog.cpp:5174
+#: configuredialog.cpp:5192
 msgid "Synchronize groupware changes immediately"
 msgstr ""
 
-#: configuredialog.cpp:5175
+#: configuredialog.cpp:5193
 msgid ""
 "Synchronize groupware changes in disconnected IMAP folders immediately when "
 "being online."
 msgstr ""
 
-#: configuredialog.cpp:5188
+#: configuredialog.cpp:5206
 msgid "Groupware Compatibility && Legacy Options"
 msgstr ""
 
-#: configuredialog.cpp:5194
+#: configuredialog.cpp:5212
 msgid "&Enable groupware functionality"
 msgstr ""
 
-#: configuredialog.cpp:5202
+#: configuredialog.cpp:5220
 msgid "Mangle From:/To: headers in replies to invitations"
 msgstr ""
 
-#: configuredialog.cpp:5203
+#: configuredialog.cpp:5221
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitation replies"
 msgstr ""
 
-#: configuredialog.cpp:5208
+#: configuredialog.cpp:5226
 msgid "Send invitations in the mail body"
 msgstr ""
 
-#: configuredialog.cpp:5209
+#: configuredialog.cpp:5227
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitations"
 msgstr ""
 
-#: configuredialog.cpp:5217
+#: configuredialog.cpp:5235
 msgid "Exchange compatible invitation naming"
 msgstr ""
 
-#: configuredialog.cpp:5219
+#: configuredialog.cpp:5237
 msgid ""
 "Microsoft Outlook, when used in combination with a Microsoft Exchange server,"
 "<br>has a problem understanding standards-compliant groupware e-mail."
@@ -2143,17 +2149,17 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 187
-#: configuredialog.cpp:5227 rc.cpp:347
+#: configuredialog.cpp:5245 rc.cpp:347
 msgid "Automatic invitation sending"
 msgstr ""
 
-#: configuredialog.cpp:5228
+#: configuredialog.cpp:5246
 msgid ""
 "When this is on, the user will not see the mail composer window. Invitation "
 "mails are sent automatically"
 msgstr ""
 
-#: configuredialog.cpp:5241
+#: configuredialog.cpp:5259
 msgid ""
 "<qt>Invitations are normally sent as attachments to a mail. This switch "
 "changes the invitation mails to be sent in the text of the mail instead; "
@@ -2165,15 +2171,15 @@ msgid ""
 "be able to work with this.</qt>"
 msgstr ""
 
-#: configuredialog.cpp:5294
+#: configuredialog.cpp:5312
 msgid "<Choose a Folder>"
 msgstr "<Жилдни танланг>"
 
-#: configuredialog.cpp:5412
+#: configuredialog.cpp:5430
 msgid "&Resource folders are subfolders of:"
 msgstr ""
 
-#: configuredialog.cpp:5415
+#: configuredialog.cpp:5433
 msgid "&Resource folders are in account:"
 msgstr ""
 
@@ -6078,7 +6084,7 @@ msgstr "Таърифи"
 msgid "Refresh Folder List"
 msgstr "Жилдлар рўйхатини янгилаш"
 
-#: kmfoldertree.cpp:1144 kmmainwidget.cpp:3999
+#: kmfoldertree.cpp:1144 kmmainwidget.cpp:4003
 msgid "&Troubleshoot IMAP Cache..."
 msgstr ""
 
@@ -6271,12 +6277,12 @@ msgstr "Хатларни ўчириш бекор қилинди."
 msgid "Moving messages canceled."
 msgstr "Хатларни кўчириш бекор қилинди."
 
-#: kmheaders.cpp:2491 kmmainwidget.cpp:3087 kmreadermainwin.cpp:327
+#: kmheaders.cpp:2491 kmmainwidget.cpp:3088 kmreadermainwin.cpp:327
 #: searchwindow.cpp:811
 msgid "&Copy To"
 msgstr "&Нусха олиш"
 
-#: kmheaders.cpp:2495 kmheaders.cpp:2501 kmmainwidget.cpp:3084
+#: kmheaders.cpp:2495 kmheaders.cpp:2501 kmmainwidget.cpp:3085
 #: searchwindow.cpp:813
 msgid "&Move To"
 msgstr "&Кўчириш"
@@ -6931,366 +6937,366 @@ msgstr "Серверда янги хабар йўқ"
 msgid "New Message t&o Mailing-List..."
 msgstr ""
 
-#: kmmainwidget.cpp:2971 kmreadermainwin.cpp:293 searchwindow.cpp:317
+#: kmmainwidget.cpp:2972 kmreadermainwin.cpp:293 searchwindow.cpp:317
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Узатиш"
 
-#: kmmainwidget.cpp:2976 kmreadermainwin.cpp:298 searchwindow.cpp:325
+#: kmmainwidget.cpp:2977 kmreadermainwin.cpp:298 searchwindow.cpp:325
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "&Илова сифатида"
 
-#: kmmainwidget.cpp:2981 kmreadermainwin.cpp:304 searchwindow.cpp:321
+#: kmmainwidget.cpp:2982 kmreadermainwin.cpp:304 searchwindow.cpp:321
 msgid "&Inline..."
 msgstr ""
 
-#: kmmainwidget.cpp:2988
+#: kmmainwidget.cpp:2989
 msgid "Send A&gain..."
 msgstr "&Қайтадан жўнатиш"
 
-#: kmmainwidget.cpp:2992 kmreadermainwin.cpp:310
+#: kmmainwidget.cpp:2993 kmreadermainwin.cpp:310
 msgctxt "Message->Forward->"
 msgid "&Redirect..."
 msgstr ""
 
-#: kmmainwidget.cpp:2999
+#: kmmainwidget.cpp:3000
 msgid "&Create Filter"
 msgstr "Ф&илтер яратиш"
 
-#: kmmainwidget.cpp:3003
+#: kmmainwidget.cpp:3004
 msgid "Filter on &Subject..."
 msgstr ""
 
-#: kmmainwidget.cpp:3008
+#: kmmainwidget.cpp:3009
 msgid "Filter on &From..."
 msgstr ""
 
-#: kmmainwidget.cpp:3013
+#: kmmainwidget.cpp:3014
 msgid "Filter on &To..."
 msgstr ""
 
-#: kmmainwidget.cpp:3018
+#: kmmainwidget.cpp:3019
 msgid "Filter on Mailing-&List..."
 msgstr ""
 
-#: kmmainwidget.cpp:3025
+#: kmmainwidget.cpp:3026
 #, fuzzy
 msgid "New Message From &Template"
 msgstr "Серверда янги хабар йўқ"
 
-#: kmmainwidget.cpp:3031
+#: kmmainwidget.cpp:3032
 msgid "Mark &Thread"
 msgstr "Кетма-ке&тликни белгилаш"
 
-#: kmmainwidget.cpp:3034
+#: kmmainwidget.cpp:3035
 msgid "Mark Thread as &Read"
 msgstr "Ўқил&ган"
 
-#: kmmainwidget.cpp:3037
+#: kmmainwidget.cpp:3038
 msgid "Mark all messages in the selected thread as read"
 msgstr "Танланган кетма-кетликдаги ҳамма хабарларни ўқилган деб белгилаш"
 
-#: kmmainwidget.cpp:3040
+#: kmmainwidget.cpp:3041
 msgid "Mark Thread as &New"
 msgstr "&Янги"
 
-#: kmmainwidget.cpp:3043
+#: kmmainwidget.cpp:3044
 msgid "Mark all messages in the selected thread as new"
 msgstr "Танланган кетма-кетликдаги ҳамма хабарларни янги деб белгилаш"
 
-#: kmmainwidget.cpp:3046
+#: kmmainwidget.cpp:3047
 msgid "Mark Thread as &Unread"
 msgstr "&Ўқилмаган"
 
-#: kmmainwidget.cpp:3049
+#: kmmainwidget.cpp:3050
 msgid "Mark all messages in the selected thread as unread"
 msgstr "Танланган кетма-кетликдаги ҳамма хабарларни ўқилмаган деб белгилаш"
 
-#: kmmainwidget.cpp:3055
+#: kmmainwidget.cpp:3056
 msgid "Mark Thread as &Important"
 msgstr "&Муҳим"
 
-#: kmmainwidget.cpp:3058
+#: kmmainwidget.cpp:3059
 #, fuzzy
 msgid "Remove &Important Thread Mark"
 msgstr "Муҳим хабар"
 
-#: kmmainwidget.cpp:3061
+#: kmmainwidget.cpp:3062
 #, fuzzy
 #| msgid "Mark Thread as &New"
 msgid "Mark Thread as &Action Item"
 msgstr "&Янги"
 
-#: kmmainwidget.cpp:3064
+#: kmmainwidget.cpp:3065
 #, fuzzy
 msgid "Remove &Action Item Thread Mark"
 msgstr "Муҳим хабар"
 
-#: kmmainwidget.cpp:3068
+#: kmmainwidget.cpp:3069
 msgid "&Watch Thread"
 msgstr "Кетма-кетликни на&зорат қилиш"
 
-#: kmmainwidget.cpp:3072
+#: kmmainwidget.cpp:3073
 msgid "&Ignore Thread"
 msgstr "Кетма-кетликка &эътибор берилмасин"
 
-#: kmmainwidget.cpp:3080 kmreadermainwin.cpp:271
+#: kmmainwidget.cpp:3081 kmreadermainwin.cpp:271
 msgid "Save A&ttachments..."
 msgstr "Иловаларни &сақлаш"
 
-#: kmmainwidget.cpp:3090
+#: kmmainwidget.cpp:3091
 msgid "Appl&y All Filters"
 msgstr "Ҳам&ма филтерларни қўллаш"
 
 #. i18n: tag text
-#. i18n: file kmail_part.rc line 147
+#. i18n: file kmail_part.rc line 148
 #. i18n: tag text
-#. i18n: file kmmainwin.rc line 150
-#: kmmainwidget.cpp:3095 rc.cpp:611 rc.cpp:677
+#. i18n: file kmmainwin.rc line 151
+#: kmmainwidget.cpp:3096 rc.cpp:611 rc.cpp:677
 msgid "A&pply Filter"
 msgstr "Фил&терни қўллаш"
 
-#: kmmainwidget.cpp:3100
+#: kmmainwidget.cpp:3101
 msgctxt "View->"
 msgid "&Unread Count"
 msgstr "Ўқилма&ган устуни"
 
-#: kmmainwidget.cpp:3102
+#: kmmainwidget.cpp:3103
 msgid "Choose how to display the count of unread messages"
 msgstr ""
 
-#: kmmainwidget.cpp:3105
+#: kmmainwidget.cpp:3106
 msgctxt "View->Unread Count"
 msgid "View in &Separate Column"
 msgstr "&Алоҳида устунда кўрсатиш"
 
-#: kmmainwidget.cpp:3113
+#: kmmainwidget.cpp:3114
 msgctxt "View->Unread Count"
 msgid "View After &Folder Name"
 msgstr "&Жилд номининг ёнида кўрсатиш"
 
-#: kmmainwidget.cpp:3121
+#: kmmainwidget.cpp:3122
 msgctxt "View->"
 msgid "&Total Column"
 msgstr "&Жами устуни"
 
-#: kmmainwidget.cpp:3125
+#: kmmainwidget.cpp:3126
 msgid ""
 "Toggle display of column showing the total number of messages in folders."
 msgstr ""
 
-#: kmmainwidget.cpp:3127
+#: kmmainwidget.cpp:3128
 #, fuzzy
 #| msgid "View Columns"
 msgctxt "View->"
 msgid "&Size Column"
 msgstr "Кўринадиган устунлар"
 
-#: kmmainwidget.cpp:3132
+#: kmmainwidget.cpp:3133
 msgid "Toggle display of column showing the total size of messages in folders."
 msgstr ""
 
-#: kmmainwidget.cpp:3136
+#: kmmainwidget.cpp:3137
 msgctxt "View->"
 msgid "&Expand Thread"
 msgstr ""
 
-#: kmmainwidget.cpp:3139
+#: kmmainwidget.cpp:3140
 msgid "Expand the current thread"
 msgstr ""
 
-#: kmmainwidget.cpp:3143
+#: kmmainwidget.cpp:3144
 msgctxt "View->"
 msgid "&Collapse Thread"
 msgstr ""
 
-#: kmmainwidget.cpp:3146
+#: kmmainwidget.cpp:3147
 msgid "Collapse the current thread"
 msgstr ""
 
-#: kmmainwidget.cpp:3150
+#: kmmainwidget.cpp:3151
 msgctxt "View->"
 msgid "Ex&pand All Threads"
 msgstr ""
 
-#: kmmainwidget.cpp:3153
+#: kmmainwidget.cpp:3154
 msgid "Expand all threads in the current folder"
 msgstr ""
 
-#: kmmainwidget.cpp:3157
+#: kmmainwidget.cpp:3158
 msgctxt "View->"
 msgid "C&ollapse All Threads"
 msgstr ""
 
-#: kmmainwidget.cpp:3160
+#: kmmainwidget.cpp:3161
 msgid "Collapse all threads in the current folder"
 msgstr ""
 
-#: kmmainwidget.cpp:3164 kmreadermainwin.cpp:287
+#: kmmainwidget.cpp:3165 kmreadermainwin.cpp:287
 msgid "&View Source"
 msgstr "Манбани &кўриш"
 
-#: kmmainwidget.cpp:3169
+#: kmmainwidget.cpp:3170
 msgid "&Display Message"
 msgstr "Ха&барни кўрсатиш"
 
-#: kmmainwidget.cpp:3176
+#: kmmainwidget.cpp:3177
 msgid "&Next Message"
 msgstr "&Кейинги хабар"
 
-#: kmmainwidget.cpp:3179
+#: kmmainwidget.cpp:3180
 msgid "Go to the next message"
 msgstr "Кейинги хабарга ўтиш"
 
-#: kmmainwidget.cpp:3183
+#: kmmainwidget.cpp:3184
 msgid "Next &Unread Message"
 msgstr "Кейинги ўқи&лмаган хабар"
 
-#: kmmainwidget.cpp:3191
+#: kmmainwidget.cpp:3192
 msgid "Next"
 msgstr ""
 
-#: kmmainwidget.cpp:3192
+#: kmmainwidget.cpp:3193
 msgid "Go to the next unread message"
 msgstr "Кейинги ўқилмаган хабарга ўтиш"
 
-#: kmmainwidget.cpp:3196
+#: kmmainwidget.cpp:3197
 msgid "&Previous Message"
 msgstr "&Олдинги хабар"
 
-#: kmmainwidget.cpp:3198
+#: kmmainwidget.cpp:3199
 msgid "Go to the previous message"
 msgstr "Олдинги хабарга ўтиш"
 
-#: kmmainwidget.cpp:3203
+#: kmmainwidget.cpp:3204
 msgid "Previous Unread &Message"
 msgstr "&Олдинги ўқилмаган хабар"
 
-#: kmmainwidget.cpp:3211
+#: kmmainwidget.cpp:3212
 #, fuzzy
 msgid "Previous"
 msgstr "&Олдинги хабар"
 
-#: kmmainwidget.cpp:3212
+#: kmmainwidget.cpp:3213
 msgid "Go to the previous unread message"
 msgstr "Олдинги ўқилмаган хабарга ўтиш"
 
-#: kmmainwidget.cpp:3216
+#: kmmainwidget.cpp:3217
 msgid "Next Unread &Folder"
 msgstr "Кейинги ўқилмаган &жилд"
 
-#: kmmainwidget.cpp:3220
+#: kmmainwidget.cpp:3221
 msgid "Go to the next folder with unread messages"
 msgstr "Ўқилмаган хабар бор кейинги жилдга ўтиш"
 
-#: kmmainwidget.cpp:3226
+#: kmmainwidget.cpp:3227
 msgid "Previous Unread F&older"
 msgstr "Олди&нги ўқилмаган жилд"
 
-#: kmmainwidget.cpp:3229
+#: kmmainwidget.cpp:3230
 msgid "Go to the previous folder with unread messages"
 msgstr ""
 
-#: kmmainwidget.cpp:3236
+#: kmmainwidget.cpp:3237
 msgctxt "Go->"
 msgid "Next Unread &Text"
 msgstr "&Кейинги ўқилмаган матн"
 
-#: kmmainwidget.cpp:3239
+#: kmmainwidget.cpp:3240
 msgid "Go to the next unread text"
 msgstr "Кейинги ўқилмаган матнга ўтиш"
 
-#: kmmainwidget.cpp:3240
+#: kmmainwidget.cpp:3241
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
 "message."
 msgstr ""
 
-#: kmmainwidget.cpp:3248
+#: kmmainwidget.cpp:3249
 msgid "Configure &Filters..."
 msgstr "&Филтерларни мослаш"
 
-#: kmmainwidget.cpp:3254
+#: kmmainwidget.cpp:3255
 msgid "Configure &POP Filters..."
 msgstr "POP филте&рларни мослаш"
 
-#: kmmainwidget.cpp:3260
+#: kmmainwidget.cpp:3261
 msgid "Manage &Sieve Scripts..."
 msgstr ""
 
-#: kmmainwidget.cpp:3265
+#: kmmainwidget.cpp:3266
 msgid "KMail &Introduction"
 msgstr "KMail'га &кириш"
 
-#: kmmainwidget.cpp:3267
+#: kmmainwidget.cpp:3268
 msgid "Display KMail's Welcome Page"
 msgstr "KMail қутлов ойнасини кўрсатиш"
 
-#: kmmainwidget.cpp:3276
+#: kmmainwidget.cpp:3277
 msgid "Configure &Notifications..."
 msgstr "&Хабар беришни мослаш"
 
-#: kmmainwidget.cpp:3284
+#: kmmainwidget.cpp:3285
 msgid "&Configure KMail..."
 msgstr "KMail мослама&си"
 
-#: kmmainwidget.cpp:3579
+#: kmmainwidget.cpp:3583
 msgid "E&mpty Trash"
 msgstr "&Чиқиндилар қутисини бўшатиш"
 
-#: kmmainwidget.cpp:3579
+#: kmmainwidget.cpp:3583
 msgid "&Move All Messages to Trash"
 msgstr "Ҳамма ха&барларни чиқиндилар қутисига кўчириш"
 
-#: kmmainwidget.cpp:3581
+#: kmmainwidget.cpp:3585
 msgid "&Delete Search"
 msgstr "Қидирувни &олиб ташлаш"
 
-#: kmmainwidget.cpp:3581
+#: kmmainwidget.cpp:3585
 msgid "&Delete Folder"
 msgstr "Жилдни ўч&ириш"
 
-#: kmmainwidget.cpp:3693
+#: kmmainwidget.cpp:3697
 #, kde-format
 msgid "Toggle Message Tag %1"
 msgstr ""
 
-#: kmmainwidget.cpp:3764
+#: kmmainwidget.cpp:3768
 #, fuzzy, kde-format
 msgid "Message Tag %1"
 msgstr "Хабарлар рўйхати"
 
-#: kmmainwidget.cpp:3868
+#: kmmainwidget.cpp:3872
 #, kde-format
 msgid "Removed %1 duplicate message."
 msgid_plural "Removed %1 duplicate messages."
 msgstr[0] ""
 
-#: kmmainwidget.cpp:3871
+#: kmmainwidget.cpp:3875
 msgid "No duplicate messages found."
 msgstr "Бир хил хабарлар топилмади."
 
-#: kmmainwidget.cpp:3938
+#: kmmainwidget.cpp:3942
 #, kde-format
 msgid "Filter %1"
 msgstr "Филтер %1"
 
-#: kmmainwidget.cpp:4029 kmmainwidget.cpp:4030
+#: kmmainwidget.cpp:4033 kmmainwidget.cpp:4034
 #, kde-format
 msgid "Folder Shortcut %1"
 msgstr ""
 
-#: kmmainwidget.cpp:4089
+#: kmmainwidget.cpp:4093
 msgid "Subscription"
 msgstr ""
 
-#: kmmainwidget.cpp:4108
+#: kmmainwidget.cpp:4112
 #, fuzzy
 msgid "Local Subscription"
 msgstr "Таърифи"
 
-#: kmmainwidget.cpp:4230
+#: kmmainwidget.cpp:4234
 msgid "Out of office reply active"
 msgstr ""
 
@@ -10539,9 +10545,9 @@ msgid "&Message"
 msgstr "&Хабар"
 
 #. i18n: tag text
-#. i18n: file kmail_part.rc line 120
+#. i18n: file kmail_part.rc line 121
 #. i18n: tag text
-#. i18n: file kmmainwin.rc line 123
+#. i18n: file kmmainwin.rc line 124
 #. i18n: tag text
 #. i18n: file kmreadermainwin.rc line 32
 #: rc.cpp:605 rc.cpp:671 rc.cpp:701
@@ -10549,9 +10555,9 @@ msgid "Reply Special"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kmail_part.rc line 129
+#. i18n: file kmail_part.rc line 130
 #. i18n: tag text
-#. i18n: file kmmainwin.rc line 132
+#. i18n: file kmmainwin.rc line 133
 #. i18n: tag text
 #. i18n: file kmreadermainwin.rc line 41
 #: rc.cpp:608 rc.cpp:674 rc.cpp:704
@@ -10559,20 +10565,20 @@ msgid "&Forward"
 msgstr "&Узатиш"
 
 #. i18n: tag text
-#. i18n: file kmail_part.rc line 155
+#. i18n: file kmail_part.rc line 156
 #. i18n: tag text
-#. i18n: file kmmainwin.rc line 158
+#. i18n: file kmmainwin.rc line 159
 #: rc.cpp:614 rc.cpp:680
 #, fuzzy
 msgid "&Tools"
 msgstr "К&имга"
 
 #. i18n: tag text
-#. i18n: file kmail_part.rc line 168
+#. i18n: file kmail_part.rc line 169
 #. i18n: tag text
 #. i18n: file kmcomposerui.rc line 85
 #. i18n: tag text
-#. i18n: file kmmainwin.rc line 174
+#. i18n: file kmmainwin.rc line 175
 #. i18n: tag text
 #. i18n: file kmreadermainwin.rc line 61
 #: rc.cpp:617 rc.cpp:641 rc.cpp:683 rc.cpp:707
@@ -10581,20 +10587,20 @@ msgid "&Settings"
 msgstr "&Жўнатиш"
 
 #. i18n: tag text
-#. i18n: file kmail_part.rc line 181
+#. i18n: file kmail_part.rc line 182
 #. i18n: tag text
-#. i18n: file kmmainwin.rc line 187
+#. i18n: file kmmainwin.rc line 188
 #: rc.cpp:620 rc.cpp:686
 #, fuzzy
 msgid "&Help"
 msgstr "&Бип"
 
 #. i18n: tag text
-#. i18n: file kmail_part.rc line 186
+#. i18n: file kmail_part.rc line 187
 #. i18n: tag text
 #. i18n: file kmcomposerui.rc line 89
 #. i18n: tag text
-#. i18n: file kmmainwin.rc line 192
+#. i18n: file kmmainwin.rc line 193
 #. i18n: tag text
 #. i18n: file kmreadermainwin.rc line 70
 #: rc.cpp:623 rc.cpp:644 rc.cpp:689 rc.cpp:710
@@ -12765,6 +12771,9 @@ msgstr "Хэм"
 msgctxt "message status"
 msgid "Has Attachment"
 msgstr "Иловали"
+
+#~ msgid "C&ustom format (Shift+F1 for help):"
+#~ msgstr "&Бошқа формат:"
 
 #, fuzzy
 #~ msgid "Remove &To-do Thread Mark"
