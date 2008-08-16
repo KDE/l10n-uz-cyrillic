@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-14 08:47+0200\n"
+"POT-Creation-Date: 2008-08-16 09:58+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -56,65 +56,73 @@ msgstr "Жорий слайдни олиб ташлашни истайсизми
 msgid "Confirm action"
 msgstr "Мосламаларни сақлаш..."
 
-#: part/ui/KPrConfigureSlideShowDialog.cpp:42
+#: part/ui/KPrConfigurePresenterViewDialog.cpp:42
 #, kde-format
 msgid "Monitor %1 (primary)"
 msgstr ""
 
-#: part/ui/KPrConfigureSlideShowDialog.cpp:45
+#: part/ui/KPrConfigurePresenterViewDialog.cpp:45
 #, kde-format
 msgid "Monitor %1"
 msgstr ""
 
-#: part/ui/KPrConfigureSlideShowDialog.cpp:54
-msgid "Configure Slide Show"
-msgstr "Намойиш мосламалари"
-
-#: part/KPrView.cpp:100
+#: part/ui/KPrConfigurePresenterViewDialog.cpp:54
 #, fuzzy
-#| msgid "Presentation"
-msgid "Start Presentation"
-msgstr "Намойиш"
+#| msgid "Configure KPresenter"
+msgid "Configure Presenter View"
+msgstr "KPresenter мосламаси"
 
-#: part/KPrView.cpp:103
-#, fuzzy
-#| msgid "After Current Slide"
-msgid "From Current Page"
-msgstr "Жорий слайддан кейин"
-
-#: part/KPrView.cpp:106
-#, fuzzy
-#| msgid "Start From &First Slide"
-msgid "From First Page"
-msgstr "&Биринчи слайддан бошлаш"
-
-#: part/KPrView.cpp:110
+#: part/KPrView.cpp:101
 msgid "Normal"
 msgstr "Оддий"
 
-#: part/KPrView.cpp:116
+#: part/KPrView.cpp:107
 #, fuzzy
 #| msgid "Note"
 msgid "Notes"
 msgstr "Изоҳ"
 
-#: part/KPrView.cpp:125
+#: part/KPrView.cpp:116
 #, fuzzy
 #| msgid "Create HTML Presentation"
 msgid "Create Appear Animation"
 msgstr "HTML намойишни яратиш"
 
-#: part/KPrView.cpp:129
+#: part/KPrView.cpp:120
 #, fuzzy
 #| msgid "Custom Slide Show..."
 msgid "Edit Custom Slide Shows..."
 msgstr "Бошқа намойиш..."
 
-#: part/KPrView.cpp:133
+#: part/KPrView.cpp:124
+#, fuzzy
+#| msgid "Presentation"
+msgid "Start Presentation"
+msgstr "Намойиш"
+
+#: part/KPrView.cpp:127
+#, fuzzy
+#| msgid "After Current Slide"
+msgid "From Current Page"
+msgstr "Жорий слайддан кейин"
+
+#: part/KPrView.cpp:130
+#, fuzzy
+#| msgid "Start From &First Slide"
+msgid "From First Page"
+msgstr "&Биринчи слайддан бошлаш"
+
+#: part/KPrView.cpp:134
 #, fuzzy
 #| msgid "&Configure Slide Show..."
 msgid "Configure Slide Show..."
 msgstr "Намойиш &мосламалари..."
+
+#: part/KPrView.cpp:138
+#, fuzzy
+#| msgid "Configure KPresenter..."
+msgid "Configure Presenter View..."
+msgstr "KPresenter мосламаси..."
 
 #: part/tools/animationtool/KPrAnimationToolFactory.cpp:30
 msgid "Animation Tool"
@@ -384,7 +392,7 @@ msgstr "&Бет"
 #. i18n: tag text
 #. i18n: file kpresenter.rc line 52
 #. i18n: tag text
-#. i18n: file ./part/kpresenter.rc line 50
+#. i18n: file ./part/kpresenter.rc line 48
 #. i18n: tag text
 #. i18n: file ./kpresenter.rc line 52
 #: rc.cpp:12 rc.cpp:233 rc.cpp:254
@@ -411,7 +419,7 @@ msgstr "Шакл"
 #. i18n: tag text
 #. i18n: file kpresenter.rc line 89
 #. i18n: tag text
-#. i18n: file ./part/kpresenter.rc line 53
+#. i18n: file ./part/kpresenter.rc line 51
 #. i18n: tag text
 #. i18n: file ./kpresenter.rc line 89
 #: rc.cpp:21 rc.cpp:236 rc.cpp:263
@@ -522,20 +530,20 @@ msgstr "Авто-тўғрилаш"
 #. i18n: tag text
 #. i18n: file kpresenter_readonly.rc line 12
 #. i18n: tag text
+#. i18n: file ./part/kpresenter.rc line 66
+#. i18n: tag text
 #. i18n: file ./kpresenter.rc line 163
 #. i18n: tag text
 #. i18n: file ./kpresenter_readonly.rc line 12
-#: rc.cpp:45 rc.cpp:138 rc.cpp:287 rc.cpp:380
+#: rc.cpp:45 rc.cpp:138 rc.cpp:242 rc.cpp:287 rc.cpp:380
 msgid "Sli&de Show"
 msgstr "&Намойиш"
 
 #. i18n: tag text
 #. i18n: file kpresenter.rc line 178
 #. i18n: tag text
-#. i18n: file ./part/kpresenter.rc line 56
-#. i18n: tag text
 #. i18n: file ./kpresenter.rc line 178
-#: rc.cpp:48 rc.cpp:239 rc.cpp:290
+#: rc.cpp:48 rc.cpp:290
 #, fuzzy
 msgid "&Settings"
 msgstr "Йўл мосламалари"
@@ -768,20 +776,20 @@ msgid "Close"
 msgstr "Р&англар:"
 
 #. i18n: tag string
-#. i18n: file ./part/ui/KPrConfigureSlideShow.ui line 16
+#. i18n: file ./part/ui/KPrConfigurePresenterView.ui line 16
 #: rc.cpp:182
 msgid "Multiple monitors"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./part/ui/KPrConfigureSlideShow.ui line 24
+#. i18n: file ./part/ui/KPrConfigurePresenterView.ui line 24
 #: rc.cpp:185
 #, fuzzy
 msgid "Presentation monitor:"
 msgstr "Намойиш"
 
 #. i18n: tag string
-#. i18n: file ./part/ui/KPrConfigureSlideShow.ui line 39
+#. i18n: file ./part/ui/KPrConfigurePresenterView.ui line 39
 #: rc.cpp:188
 msgid "Enable presenter view"
 msgstr ""
@@ -871,8 +879,8 @@ msgid "&Crop"
 msgstr "Юқ&ори:"
 
 #. i18n: tag Text
-#. i18n: file ./part/kpresenter.rc line 61
-#: rc.cpp:242
+#. i18n: file ./part/kpresenter.rc line 55
+#: rc.cpp:239
 msgid "&Page"
 msgstr "&Бет"
 
@@ -897,7 +905,7 @@ msgstr "Услубларни импорт қилиш..."
 #: plugins/pageeffects/matrixwipe/boxsnakes/KPrBoxSnakesWipeEffectFactory.cpp:29
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Box Snakes Wipe Effect"
+msgid "Box Snakes"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/matrixwipe/boxsnakes/KPrBoxSnakesWipeEffectFactory.cpp:50
@@ -1001,7 +1009,7 @@ msgstr ""
 #: plugins/pageeffects/matrixwipe/waterfallwipe/KPrWaterfallWipeEffectFactory.cpp:32
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Waterfall Wipe Effect"
+msgid "Waterfall"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/matrixwipe/waterfallwipe/KPrWaterfallWipeEffectFactory.cpp:49
@@ -1048,7 +1056,7 @@ msgstr "Энига чизиқлар"
 #: plugins/pageeffects/matrixwipe/parallelsnakes/KPrParallelSnakesWipeEffectFactory.cpp:31
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Parallel Snakes Wipe Effect"
+msgid "Parallel Snakes"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/matrixwipe/parallelsnakes/KPrParallelSnakesWipeEffectFactory.cpp:60
@@ -1151,9 +1159,9 @@ msgstr ""
 
 #: plugins/pageeffects/matrixwipe/spiralwipe/KPrSpiralWipeEffectFactory.cpp:29
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Spiral Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "Spread"
+msgid "Spiral"
+msgstr "Сочилиш"
 
 #: plugins/pageeffects/matrixwipe/spiralwipe/KPrSpiralWipeEffectFactory.cpp:54
 #, fuzzy
@@ -1253,9 +1261,9 @@ msgstr "Пастдан чиқиш"
 
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:36
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Snake Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "Shape"
+msgid "Snake"
+msgstr "Шакл"
 
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:53
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:47
@@ -1337,9 +1345,9 @@ msgstr "Пастдан чиқиш"
 
 #: plugins/pageeffects/iriswipe/pentagonWipe/KPrPentagonWipeEffectFactory.cpp:31
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Pentagon Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "Presentation"
+msgid "Pentagon"
+msgstr "Намойиш"
 
 #: plugins/pageeffects/iriswipe/pentagonWipe/KPrPentagonWipeEffectFactory.cpp:66
 #: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:84
@@ -1375,9 +1383,9 @@ msgstr "Бўйига чизиқлар"
 
 #: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:31
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "RoundRect Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "Sound effect"
+msgid "RoundRect"
+msgstr "Товуш эффекти"
 
 #: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:64
 #: plugins/pageeffects/iriswipe/ellipseWipe/KPrEllipseWipeEffectFactory.cpp:65
@@ -1424,10 +1432,8 @@ msgid "Vertical Reverse"
 msgstr "Бўйига чизиқлар"
 
 #: plugins/pageeffects/iriswipe/miscShapeWipe/KPrMiscShapeWipeEffectFactory.cpp:29
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Misc Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Misc"
+msgstr "Хар ҳил"
 
 #: plugins/pageeffects/iriswipe/miscShapeWipe/KPrMiscShapeWipeEffectFactory.cpp:61
 #, fuzzy
@@ -1451,10 +1457,8 @@ msgid "Keyhole Reverse"
 msgstr "Бўйига чизиқлар"
 
 #: plugins/pageeffects/iriswipe/ellipseWipe/KPrEllipseWipeEffectFactory.cpp:30
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Ellipse Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Ellipse"
+msgstr "Эллипс"
 
 #: plugins/pageeffects/iriswipe/ellipseWipe/KPrEllipseWipeEffectFactory.cpp:63
 msgid "Circle"
@@ -1467,10 +1471,8 @@ msgid "Circle Reverse"
 msgstr "Бўйига чизиқлар"
 
 #: plugins/pageeffects/iriswipe/irisWipe/KPrIrisWipeEffectFactory.cpp:9
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Iris Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Iris"
+msgstr ""
 
 #: plugins/pageeffects/iriswipe/irisWipe/KPrIrisWipeEffectFactory.cpp:39
 #, fuzzy
@@ -1495,22 +1497,17 @@ msgid "Diamond Reverse"
 msgstr "Энига чизиқлар"
 
 #: plugins/pageeffects/iriswipe/eyeWipe/KPrEyeWipeEffectFactory.cpp:31
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Eye Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Eye"
+msgstr ""
 
 #: plugins/pageeffects/iriswipe/hexagonWipe/KPrHexagonWipeEffectFactory.cpp:37
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Hexagon Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Hexagon"
+msgstr ""
 
 #: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:30
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Triangle Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Triangle"
+msgstr "Ўчирилган"
 
 #: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:86
 #: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:90
@@ -1545,14 +1542,13 @@ msgstr "Бўйига чизиқлар"
 #: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:31
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "ArrowHead Wipe Effect"
+msgid "ArrowHead"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/iriswipe/starWipe/KPrStarWipeEffectFactory.cpp:38
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Star Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Star"
+msgstr "&Диаграмма"
 
 #: plugins/pageeffects/iriswipe/starWipe/KPrStarWipeEffectFactory.cpp:102
 msgid "Four Point Star"
@@ -1587,7 +1583,7 @@ msgstr "Энига чизиқлар"
 #: plugins/pageeffects/clockwipe/doublesweepwipe/KPrDoubleSweepWipeEffectFactory.cpp:28
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Double Sweep Wipe Effect"
+msgid "Double Sweep"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/clockwipe/doublesweepwipe/KPrDoubleSweepWipeEffectFactory.cpp:49
@@ -1658,10 +1654,8 @@ msgid "Parallel Diagonal Bottom Left Reverse"
 msgstr "Пастдан чиқиш"
 
 #: plugins/pageeffects/clockwipe/fanwipe/KPrFanWipeEffectFactory.cpp:29
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Fan Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Fan"
+msgstr ""
 
 #: plugins/pageeffects/clockwipe/fanwipe/KPrFanWipeEffectFactory.cpp:51
 #: plugins/pageeffects/edgewipe/boxwipe/BoxWipeEffectFactory.cpp:50
@@ -1736,7 +1730,7 @@ msgstr "Чап томондан чиқиш"
 #: plugins/pageeffects/clockwipe/pinwheelwipe/KPrPinWheelWipeEffectFactory.cpp:28
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Pin Wheel Wipe Effect"
+msgid "Pin Wheel"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/clockwipe/pinwheelwipe/KPrPinWheelWipeEffectFactory.cpp:43
@@ -1767,9 +1761,9 @@ msgstr ""
 
 #: plugins/pageeffects/clockwipe/clockwipe/KPrClockWipeEffectFactory.cpp:28
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Clock Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "C&olors:"
+msgid "Clock"
+msgstr "Р&англар:"
 
 #: plugins/pageeffects/clockwipe/clockwipe/KPrClockWipeEffectFactory.cpp:45
 msgid "From Twelve Clockwise"
@@ -1806,7 +1800,7 @@ msgstr ""
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:28
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Saloon Door Wipe Effect"
+msgid "Saloon Door"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:50
@@ -1835,13 +1829,13 @@ msgstr "Ўнг томондан чиқиш"
 #: plugins/pageeffects/clockwipe/windshieldwipe/KPrWindShieldWipeEffectFactory.cpp:28
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Windshield Wipe Effect"
+msgid "Windshield"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/clockwipe/doublefanwipe/KPrDoubleFanWipeEffectFactory.cpp:29
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Double Fan Wipe Effect"
+msgid "Double Fan"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/clockwipe/doublefanwipe/KPrDoubleFanWipeEffectFactory.cpp:44
@@ -1879,7 +1873,7 @@ msgstr "Энига чизиқлар"
 #: plugins/pageeffects/clockwipe/singlesweepwipe/KPrSingleSweepWipeEffectFactory.cpp:28
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Single Sweep Wipe Effect"
+msgid "Single Sweep"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/clockwipe/singlesweepwipe/KPrSingleSweepWipeEffectFactory.cpp:69
@@ -1965,22 +1959,18 @@ msgid "Clockwise Top Right"
 msgstr "Ўнг томондан чиқиш"
 
 #: plugins/pageeffects/barwipe/KPrBarWipeEffectFactory.cpp:31
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Bar Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Bar"
+msgstr ""
 
 #: plugins/pageeffects/slidewipe/KPrSlideWipeEffectFactory.cpp:36
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Slide Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "&Slides"
+msgid "Slide"
+msgstr "&Слайдлар"
 
 #: plugins/pageeffects/edgewipe/fourboxwipe/FourBoxWipeEffectFactory.cpp:29
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Four Box Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Four Box"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/fourboxwipe/FourBoxWipeEffectFactory.cpp:42
 #, fuzzy
@@ -2004,9 +1994,9 @@ msgstr ""
 
 #: plugins/pageeffects/edgewipe/miscdiagonalwipe/MiscDiagonalWipeEffectFactory.cpp:29
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Misc Diagonal Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "Diagonal 1"
+msgid "Misc Diagonal"
+msgstr "Диагонал 1"
 
 #: plugins/pageeffects/edgewipe/miscdiagonalwipe/MiscDiagonalWipeEffectFactory.cpp:40
 msgid "Double Barn Door"
@@ -2017,22 +2007,18 @@ msgid "Double Diamond"
 msgstr ""
 
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:28
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Barn Vee Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Barn Vee"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:28
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Zig Zag Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Zig Zag"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:28
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Barn Door Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "Background color:"
+msgid "Barn Door"
+msgstr "Орқа фон ранги:"
 
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:49
 #, fuzzy
@@ -2056,20 +2042,18 @@ msgstr ""
 
 #: plugins/pageeffects/edgewipe/diagonalwipe/DiagonalWipeEffectFactory.cpp:28
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Diagonal Wipe Effect"
-msgstr "Расм &эффекти:"
+#| msgid "Diagonal 1"
+msgid "Diagonal"
+msgstr "Диагонал 1"
 
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:28
-#, fuzzy
-#| msgid "Image &effect:"
-msgid "Vee Wipe Effect"
-msgstr "Расм &эффекти:"
+msgid "Vee"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:28
 #, fuzzy
 #| msgid "Image &effect:"
-msgid "Barn Zig Zag Wipe Effect"
+msgid "Barn Zig Zag"
 msgstr "Расм &эффекти:"
 
 #: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:43
@@ -2085,10 +2069,126 @@ msgid "Horizontal Reversed"
 msgstr "Энига чизиқлар"
 
 #: plugins/pageeffects/edgewipe/boxwipe/BoxWipeEffectFactory.cpp:28
+msgid "Box"
+msgstr ""
+
+#~ msgid "Configure Slide Show"
+#~ msgstr "Намойиш мосламалари"
+
 #, fuzzy
-#| msgid "Image &effect:"
-msgid "Box Wipe Effect"
-msgstr "Расм &эффекти:"
+#~| msgid "Image &effect:"
+#~ msgid "Spiral Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Snake Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Pentagon Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "RoundRect Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Misc Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Ellipse Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Iris Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Eye Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Hexagon Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Triangle Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Star Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Fan Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Clock Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Bar Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Slide Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Four Box Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Misc Diagonal Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Barn Vee Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Zig Zag Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Barn Door Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Diagonal Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Vee Wipe Effect"
+#~ msgstr "Расм &эффекти:"
+
+#, fuzzy
+#~| msgid "Image &effect:"
+#~ msgid "Box Wipe Effect"
+#~ msgstr "Расм &эффекти:"
 
 #, fuzzy
 #~| msgid "Format"
@@ -2207,9 +2307,6 @@ msgstr "Расм &эффекти:"
 
 #~ msgid "Sharpen"
 #~ msgstr "Ўткирлаш"
-
-#~ msgid "Spread"
-#~ msgstr "Сочилиш"
 
 #~ msgid "Shade"
 #~ msgstr "Соялаш"
@@ -2518,10 +2615,6 @@ msgstr "Расм &эффекти:"
 #~ msgid "View mode:"
 #~ msgstr "Кўриш усули:"
 
-#, fuzzy
-#~ msgid "Tiled"
-#~ msgstr "Ўчирилган"
-
 #~ msgid "Apply &Global"
 #~ msgstr "&Ҳаммасига қўллаш"
 
@@ -2545,9 +2638,6 @@ msgstr "Расм &эффекти:"
 
 #~ msgid "Diagonal Crossing Lines"
 #~ msgstr "Диагонал кесишган чизиқлар"
-
-#~ msgid "Diagonal 1"
-#~ msgstr "Диагонал 1"
 
 #~ msgid "Diagonal 2"
 #~ msgstr "Диагонал 2"
@@ -2689,9 +2779,6 @@ msgstr "Расм &эффекти:"
 #~ msgid "Closed Polyline"
 #~ msgstr "&Ёпиқ чизиқ"
 
-#~ msgid "Configure KPresenter"
-#~ msgstr "KPresenter мосламаси"
-
 #~ msgid "Interface"
 #~ msgstr "Интерфейс"
 
@@ -2700,9 +2787,6 @@ msgstr "Расм &эффекти:"
 
 #~ msgid "Spelling"
 #~ msgstr "Имло"
-
-#~ msgid "Misc"
-#~ msgstr "Хар ҳил"
 
 #~ msgid "Document"
 #~ msgstr "Ҳужжат"
@@ -2958,9 +3042,6 @@ msgstr "Расм &эффекти:"
 #~ msgid "Effect (object specific):"
 #~ msgstr "Эффект (объект учун):"
 
-#~ msgid "Sound effect"
-#~ msgstr "Товуш эффекти"
-
 #~ msgid "File name:"
 #~ msgstr "Файлнинг номи:"
 
@@ -3059,9 +3140,6 @@ msgstr "Расм &эффекти:"
 
 #~ msgid "Text color:"
 #~ msgstr "Матннинг ранги:"
-
-#~ msgid "Background color:"
-#~ msgstr "Орқа фон ранги:"
 
 #, fuzzy
 #~ msgid "Create Memory Stick Slideshow"
@@ -3225,9 +3303,6 @@ msgstr "Расм &эффекти:"
 #, fuzzy
 #~ msgid "Measure presentation &duration"
 #~ msgstr "Намойиш давомийлиги: "
-
-#~ msgid "&Slides"
-#~ msgstr "&Слайдлар"
 
 #~ msgid "Custom slide:"
 #~ msgstr "Бошқа слайд:"
@@ -3598,9 +3673,6 @@ msgstr "Расм &эффекти:"
 #~ msgid "Slide Bac&kground..."
 #~ msgstr "Слайд &орқа фони..."
 
-#~ msgid "Configure KPresenter..."
-#~ msgstr "KPresenter мосламаси..."
-
 #~ msgid "Create &HTML Slideshow..."
 #~ msgstr "HTML н&амойишни яратиш..."
 
@@ -3629,10 +3701,6 @@ msgstr "Расм &эффекти:"
 
 #~ msgid "Edit &Object Effect..."
 #~ msgstr "&Объект эффектларини таҳрирлаш..."
-
-#, fuzzy
-#~ msgid "&Start"
-#~ msgstr "&Диаграмма"
 
 #~ msgid "&Go to Start"
 #~ msgstr "&Бошига ўтиш"
@@ -4026,9 +4094,6 @@ msgstr "Расм &эффекти:"
 
 #~ msgid "Group"
 #~ msgstr "Гуруҳ"
-
-#~ msgid "Ellipse"
-#~ msgstr "Эллипс"
 
 #~ msgid "Polyline"
 #~ msgstr "Синиқ чизиқ"
