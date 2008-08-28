@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-27 09:44+0200\n"
+"POT-Creation-Date: 2008-08-28 09:42+0200\n"
 "PO-Revision-Date: 2006-02-08 21:32+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/old/feedlistview.cpp:280 src/akregator_part.cpp:306
+#: src/old/feedlistview.cpp:280 src/akregator_part.cpp:315
 #: src/subscriptionlistmodel.cpp:218
 #: plugins/onlinesync/ui/configurationwidget.cpp:21
 msgid "Feeds"
@@ -386,109 +386,121 @@ msgstr "Изоҳлар"
 msgid "Complete Story"
 msgstr "Бутун мақола"
 
-#: src/akregator_part.cpp:130
+#: src/akregator_part.cpp:131
 #, kde-format
 msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
 msgstr ""
 
-#: src/akregator_part.cpp:130
+#: src/akregator_part.cpp:131
 msgid "Plugin error"
 msgstr "Плагин хатоси"
 
-#: src/akregator_part.cpp:317
+#: src/akregator_part.cpp:326
 msgid "Akregator News"
 msgstr "Akregator янгиликлари"
 
-#: src/akregator_part.cpp:322
+#: src/akregator_part.cpp:331
 msgid "Akregator Blog"
 msgstr ""
 
-#: src/akregator_part.cpp:327
+#: src/akregator_part.cpp:336
 msgid "KDE Dot News"
 msgstr "KDE янгиликлари"
 
-#: src/akregator_part.cpp:332
+#: src/akregator_part.cpp:341
 msgid "Planet KDE"
 msgstr "KDE олами"
 
-#: src/akregator_part.cpp:337
+#: src/akregator_part.cpp:346
 msgid "KDE Apps"
 msgstr "KDE учун дастурлар"
 
-#: src/akregator_part.cpp:342
+#: src/akregator_part.cpp:351
 msgid "KDE Look"
 msgstr ""
 
-#: src/akregator_part.cpp:351
+#: src/akregator_part.cpp:360
 msgid "Opening Feed List..."
 msgstr ""
 
-#: src/akregator_part.cpp:386
+#: src/akregator_part.cpp:394
 #, kde-format
 msgid ""
 "<qt>The standard feed list is corrupted (invalid XML). A backup was created:"
 "<p><b>%1</b></p></qt>"
 msgstr ""
 
-#: src/akregator_part.cpp:386
+#: src/akregator_part.cpp:394 src/akregator_part.cpp:396
 msgid "XML Parsing Error"
 msgstr ""
 
-#: src/akregator_part.cpp:401
-#, kde-format
+#: src/akregator_part.cpp:396
 msgid ""
-"<qt>The standard feed list is corrupted (no valid OPML). A backup was "
-"created:<p><b>%1</b></p></qt>"
+"<qt>The standard feed list is corrupted (invalid XML). Could not create a "
+"backup!</p></qt>"
 msgstr ""
 
-#: src/akregator_part.cpp:401 src/akregator_part.cpp:511
+#: src/akregator_part.cpp:410
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (no valid OPML). A backup of the "
+"previous list was created:<p><b>%1</b></p></qt>"
+msgstr ""
+
+#: src/akregator_part.cpp:410 src/akregator_part.cpp:412
+#: src/akregator_part.cpp:518
 msgid "OPML Parsing Error"
 msgstr ""
 
-#: src/akregator_part.cpp:440
-#, kde-format
-msgid "Access denied: cannot save feed list (%1)"
+#: src/akregator_part.cpp:412
+msgid ""
+"<qt>The standard feed list is corrupted (no valid OPML). Could not create a "
+"backup!></p></qt>"
 msgstr ""
 
-#: src/akregator_part.cpp:440
+#: src/akregator_part.cpp:459
+#, kde-format
+msgid ""
+"Access denied: Cannot save feed list to <b>%1</b>. Please check your "
+"permissions."
+msgstr ""
+
+#: src/akregator_part.cpp:460
 msgid "Write error"
 msgstr "Ёзиш хатоси"
 
-#: src/akregator_part.cpp:511
+#: src/akregator_part.cpp:518
 #, kde-format
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr ""
 
-#: src/akregator_part.cpp:514
+#: src/akregator_part.cpp:521
 #, kde-format
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for "
 "the current user."
 msgstr ""
 
-#: src/akregator_part.cpp:514
+#: src/akregator_part.cpp:521
 msgid "Read Error"
 msgstr "Ўқиш хатоси"
 
-#: src/akregator_part.cpp:528
+#: src/akregator_part.cpp:535
 #, kde-format
 msgid "The file %1 already exists; do you want to overwrite it?"
 msgstr "%1 файли аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: src/akregator_part.cpp:529
+#: src/akregator_part.cpp:536
 msgid "Export"
 msgstr ""
 
-#: src/akregator_part.cpp:530
-msgid "Overwrite"
-msgstr "Алмаштириш"
-
-#: src/akregator_part.cpp:536
-#, kde-format
-msgid "Access denied: cannot write to file %1"
+#: src/akregator_part.cpp:542
+#, fuzzy, kde-format
+#| msgid "Access denied: cannot write to file %1"
+msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr "Мурожаат рад этилди. %1 файлига ёзиб бўлмади."
 
-#: src/akregator_part.cpp:536
+#: src/akregator_part.cpp:542
 msgid "Write Error"
 msgstr "Ёзиш хатоси"
 
@@ -1622,9 +1634,7 @@ msgstr "Табларда веб-сайт нишонча ўрнига ёпиш т
 
 #. i18n: file: interfaces/akregator.kcfg:150
 #. i18n: ectx: label, entry, group (Browser)
-#. i18n: file: configuration/settings_browser.ui:174
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseKdeDefault)
-#: rc.cpp:276 rc.cpp:449
+#: rc.cpp:276
 msgid "Use default KDE web browser"
 msgstr "Андоза веб-браузеридан фойдаланиш"
 
@@ -1958,6 +1968,14 @@ msgstr "Ташқи браузер учун"
 msgid "firefox %u"
 msgstr "firefox %u"
 
+#. i18n: file: configuration/settings_browser.ui:174
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseKdeDefault)
+#: rc.cpp:449
+#, fuzzy
+#| msgid "Use default KDE web browser"
+msgid "Use default web browser"
+msgstr "Андоза веб-браузеридан фойдаланиш"
+
 #. i18n: file: configuration/settings_archive.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:455
@@ -2170,6 +2188,9 @@ msgstr "Юкланмоқда..."
 #: plugins/mk4storage/storagefactorymk4impl.cpp:48
 msgid "Metakit"
 msgstr ""
+
+#~ msgid "Overwrite"
+#~ msgstr "Алмаштириш"
 
 #~ msgid "Configure &Akregator..."
 #~ msgstr "Akregator &мосламаси"
