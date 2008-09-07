@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-06 10:28+0200\n"
+"POT-Creation-Date: 2008-09-07 09:40+0200\n"
 "PO-Revision-Date: 2005-10-25 20:31+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -217,7 +217,7 @@ msgstr ""
 
 #. i18n: file: plugins/planner/planner.ui:61
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:102 plugins/planner/kcmplanner.cpp:162
+#: rc.cpp:102 plugins/planner/kcmplanner.cpp:151
 #, fuzzy
 #| msgid "Show holidays"
 msgid "Show To-dos"
@@ -233,7 +233,7 @@ msgstr ""
 
 #. i18n: file: plugins/planner/planner.ui:90
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:108
+#: rc.cpp:108 plugins/planner/kcmplanner.cpp:174
 #, fuzzy
 msgid "Show Special Dates"
 msgstr "Махсус кунлар"
@@ -308,7 +308,7 @@ msgstr ""
 
 #. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, mDaysButtonGroup)
-#: rc.cpp:156 plugins/planner/kcmplanner.cpp:134
+#: rc.cpp:156 plugins/planner/kcmplanner.cpp:123
 #, fuzzy
 msgid "Show Upcoming Events Starting"
 msgstr "Махсус кунлар"
@@ -462,7 +462,7 @@ msgstr "(C), 2003 Корнелиус Шумаҳер (Cornelius Schumacher)"
 #: plugins/knotes/knotes_plugin.cpp:99
 #: plugins/korganizer/kcmapptsummary.cpp:159
 #: plugins/korganizer/kcmtodosummary.cpp:165
-#: plugins/newsticker/kcmkontactknt.cpp:485 plugins/planner/kcmplanner.cpp:73
+#: plugins/newsticker/kcmkontactknt.cpp:485 plugins/planner/kcmplanner.cpp:69
 #: plugins/planner/plannerplugin.cpp:65
 #: plugins/specialdates/kcmsdsummary.cpp:203
 #: plugins/specialdates/specialdates_plugin.cpp:64
@@ -501,7 +501,7 @@ msgid "(C) 2001-2008 The Kontact developers"
 msgstr "(C) 2001-2004, Kontact тузувчилари"
 
 #: src/main.cpp:167 plugins/korganizer/kcmapptsummary.cpp:160
-#: plugins/korganizer/kcmtodosummary.cpp:167 plugins/planner/kcmplanner.cpp:74
+#: plugins/korganizer/kcmtodosummary.cpp:167 plugins/planner/kcmplanner.cpp:70
 #: plugins/planner/plannerplugin.cpp:63
 #: plugins/specialdates/kcmsdsummary.cpp:202
 #: plugins/specialdates/specialdates_plugin.cpp:62
@@ -964,7 +964,7 @@ msgid "Synchronize Journal"
 msgstr ""
 
 #: plugins/korganizer/kcmapptsummary.cpp:83
-#: plugins/korganizer/kcmtodosummary.cpp:87 plugins/planner/kcmplanner.cpp:149
+#: plugins/korganizer/kcmtodosummary.cpp:87 plugins/planner/kcmplanner.cpp:138
 #: plugins/specialdates/kcmsdsummary.cpp:106
 msgid " day"
 msgid_plural " days"
@@ -1193,64 +1193,95 @@ msgstr ""
 msgid "Copy URL to Clipboard"
 msgstr ""
 
-#: plugins/planner/kcmplanner.cpp:68
+#: plugins/planner/kcmplanner.cpp:64
 msgid "kcmplanner"
 msgstr ""
 
-#: plugins/planner/kcmplanner.cpp:69
+#: plugins/planner/kcmplanner.cpp:65
 #, fuzzy
 msgid "Planner Summary Configuration Dialog"
 msgstr "Kontact ҳисоботи"
 
-#: plugins/planner/kcmplanner.cpp:71
+#: plugins/planner/kcmplanner.cpp:67
 msgid "(c) 2007-2008 Oral Timocin"
 msgstr ""
 
-#: plugins/planner/kcmplanner.cpp:75 plugins/planner/plannerplugin.cpp:67
+#: plugins/planner/kcmplanner.cpp:71 plugins/planner/plannerplugin.cpp:67
 msgid "Oral Timocin"
 msgstr ""
 
-#: plugins/planner/kcmplanner.cpp:119
+#: plugins/planner/kcmplanner.cpp:108
 #, fuzzy
 #| msgid "Show holidays"
 msgid "Show recurrences"
 msgstr "Дам олиш кунларни кўрсатиш"
 
-#: plugins/planner/kcmplanner.cpp:120
+#: plugins/planner/kcmplanner.cpp:109
 #, fuzzy
 #| msgid "Show holidays"
 msgid "Show reminders"
 msgstr "Дам олиш кунларни кўрсатиш"
 
-#: plugins/planner/kcmplanner.cpp:121
+#: plugins/planner/kcmplanner.cpp:110
 #, fuzzy
 msgid "Underline Links"
 msgstr "Вазифалар"
 
-#: plugins/planner/kcmplanner.cpp:137
+#: plugins/planner/kcmplanner.cpp:126
 #, fuzzy
 #| msgid "Today"
 msgid "Today only"
 msgstr "Бугун"
 
-#: plugins/planner/kcmplanner.cpp:166
+#: plugins/planner/kcmplanner.cpp:155
 msgid "Overdue (not completetd and beyond due-date)"
 msgstr ""
 
-#: plugins/planner/kcmplanner.cpp:168
+#: plugins/planner/kcmplanner.cpp:157
 #, fuzzy
 msgid "To-dos starting today"
 msgstr "Вазифалар"
 
-#: plugins/planner/kcmplanner.cpp:170
+#: plugins/planner/kcmplanner.cpp:159
 #, fuzzy
 #| msgid "No to-dos pending"
 msgid "To-dos ending today"
 msgstr "Ҳеч қандай вазифа режалаштирилмаган"
 
-#: plugins/planner/kcmplanner.cpp:172
+#: plugins/planner/kcmplanner.cpp:161
 msgid "In-progress(started but not completetd)"
 msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:179
+#, fuzzy
+#| msgid "Show birthdays"
+msgid "Show Birthdays from Calendar"
+msgstr "Туғилган кунларни кўрсатиш"
+
+#: plugins/planner/kcmplanner.cpp:181
+msgid "Show Birthdays from Contact List"
+msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:187
+#, fuzzy
+#| msgid "Show anniversaries"
+msgid "Show Anniversaries from Calendar"
+msgstr "Йилликларни кўрсатиш"
+
+#: plugins/planner/kcmplanner.cpp:190
+#, fuzzy
+#| msgid "Show anniversaries"
+msgid "Show Anniversaries from Contact List"
+msgstr "Йилликларни кўрсатиш"
+
+#: plugins/planner/kcmplanner.cpp:195
+msgid "Show Holidays from Calendar"
+msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:197
+#, fuzzy
+msgid "Show Special Occasions from Calendar"
+msgstr "Махсус кунлар"
 
 #: plugins/planner/planner.cpp:70
 msgid "Planner"
