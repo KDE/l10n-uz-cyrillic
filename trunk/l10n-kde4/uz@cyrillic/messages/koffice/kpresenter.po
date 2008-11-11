@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-10 10:15+0100\n"
+"POT-Creation-Date: 2008-11-11 09:59+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -85,53 +85,121 @@ msgstr "Ҳамма файллар"
 msgid "Configure Slide Show"
 msgstr "Намойиш мосламалари"
 
-#: part/KPrView.cpp:97
+#: part/KPrView.cpp:62
+#, fuzzy
+#| msgid "Paste Slide"
+msgid "Show Master Slides"
+msgstr "Слайдни қўйиш"
+
+#: part/KPrView.cpp:63
+msgid "Insert Slide"
+msgstr "Слайд қўйиш"
+
+#: part/KPrView.cpp:64 part/KPrView.cpp:65
+msgid "Insert a new slide after the current one"
+msgstr ""
+
+#: part/KPrView.cpp:66
+msgid "Copy Slide"
+msgstr "Слайддан нусха олиш"
+
+#: part/KPrView.cpp:67 part/KPrView.cpp:68
+#, fuzzy
+#| msgid "Before Current Slide"
+msgid "Copy the current slide"
+msgstr "Жорий слайддан олдин"
+
+#. i18n: file: part/ui/KPrCustomSlideShowsDialog.ui:136
+#. i18n: ectx: property (text), widget (QPushButton, deleteSlideButton)
+#: part/KPrView.cpp:69 rc.cpp:170
+#, fuzzy
+#| msgid "Delete Slide"
+msgid "Delete Slide"
+msgstr "Слайдни олиб ташлаш"
+
+#: part/KPrView.cpp:70 part/KPrView.cpp:71
+#, fuzzy
+#| msgid "Before Current Slide"
+msgid "Delete the current slide"
+msgstr "Жорий слайддан олдин"
+
+#: part/KPrView.cpp:72
+#, fuzzy
+#| msgid "Insert &Slide..."
+msgid "Master Slide..."
+msgstr "&Слайд қўйиш..."
+
+#: part/KPrView.cpp:73
+#, fuzzy
+#| msgid "&Previous Slide"
+msgid "Previous Slide"
+msgstr "&Олдинги слайд"
+
+#: part/KPrView.cpp:74 part/KPrPresenterViewInterface.cpp:67
+#, fuzzy
+#| msgid "&Next Slide"
+msgid "Next Slide"
+msgstr "&Кейинги слайд"
+
+#: part/KPrView.cpp:75
+#, fuzzy
+#| msgid "Paste Slide"
+msgid "First Slide"
+msgstr "Слайдни қўйиш"
+
+#: part/KPrView.cpp:76
+#, fuzzy
+#| msgid "Paste Slide"
+msgid "Last Slide"
+msgstr "Слайдни қўйиш"
+
+#: part/KPrView.cpp:114
 msgid "Normal"
 msgstr "Оддий"
 
-#: part/KPrView.cpp:103
+#: part/KPrView.cpp:120
 #, fuzzy
 #| msgid "Note"
 msgid "Notes"
 msgstr "Изоҳ"
 
-#: part/KPrView.cpp:112
+#: part/KPrView.cpp:129
 #, fuzzy
 #| msgid "Create HTML Presentation"
 msgid "Create Appear Animation"
 msgstr "HTML намойишни яратиш"
 
-#: part/KPrView.cpp:116
+#: part/KPrView.cpp:133
 #, fuzzy
 #| msgid "Custom Slide Show..."
 msgid "Edit Custom Slide Shows..."
 msgstr "Бошқа намойиш..."
 
-#: part/KPrView.cpp:120
+#: part/KPrView.cpp:137
 #, fuzzy
 #| msgid "Presentation"
 msgid "Start Presentation"
 msgstr "Намойиш"
 
-#: part/KPrView.cpp:123
+#: part/KPrView.cpp:140
 #, fuzzy
 #| msgid "After Current Slide"
-msgid "From Current Page"
+msgid "From Current Slide"
 msgstr "Жорий слайддан кейин"
 
-#: part/KPrView.cpp:126
+#: part/KPrView.cpp:144
 #, fuzzy
 #| msgid "Start From &First Slide"
-msgid "From First Page"
+msgid "From First Slide"
 msgstr "&Биринчи слайддан бошлаш"
 
-#: part/KPrView.cpp:130
+#: part/KPrView.cpp:148
 #, fuzzy
 #| msgid "&Configure Slide Show..."
 msgid "Configure Slide Show..."
 msgstr "Намойиш &мосламалари..."
 
-#: part/KPrView.cpp:134
+#: part/KPrView.cpp:152
 #, fuzzy
 #| msgid "Configure KPresenter..."
 msgid "Configure Presenter View..."
@@ -186,8 +254,9 @@ msgid "Edit Shape"
 msgstr "Шакл"
 
 #: part/dockers/KPrPageLayoutDocker.cpp:45
-msgid "Page Layouts"
-msgstr ""
+#, fuzzy
+msgid "Slide Layouts"
+msgstr "&Мастер слайд"
 
 #: part/KPrPlaceholderShapeFactory.cpp:30
 msgid "Placeholder shape"
@@ -371,12 +440,6 @@ msgstr ""
 #: part/KPrAboutData.h:55
 msgid "Timothée Lacroix "
 msgstr ""
-
-#: part/KPrPresenterViewInterface.cpp:67
-#, fuzzy
-#| msgid "&Next Slide"
-msgid "Next Slide"
-msgstr "&Кейинги слайд"
 
 #: part/KPrPresenterViewInterface.cpp:77
 msgid "Speaker Notes"
@@ -764,14 +827,6 @@ msgstr "HTML намойиш яратиш"
 msgid "Add Slide"
 msgstr "Слайд"
 
-#. i18n: file: part/ui/KPrCustomSlideShowsDialog.ui:136
-#. i18n: ectx: property (text), widget (QPushButton, deleteSlideButton)
-#: rc.cpp:170
-#, fuzzy
-#| msgid "Delete Slide"
-msgid "Delete Slide"
-msgstr "Слайдни олиб ташлаш"
-
 #. i18n: file: part/ui/KPrCustomSlideShowsDialog.ui:182
 #. i18n: ectx: property (text), widget (QPushButton, undoButton)
 #: rc.cpp:173
@@ -922,8 +977,10 @@ msgstr "Юқ&ори:"
 #. i18n: file: part/kpresenter.rc:55
 #. i18n: ectx: Menu (page)
 #: rc.cpp:251
-msgid "&Page"
-msgstr "&Бет"
+#, fuzzy
+#| msgid "&Slides"
+msgid "&Slide"
+msgstr "&Слайдлар"
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:102
 #, fuzzy
@@ -2113,6 +2170,9 @@ msgstr "Энига чизиқлар"
 msgid "Box"
 msgstr ""
 
+#~ msgid "&Page"
+#~ msgstr "&Бет"
+
 #, fuzzy
 #~| msgid "Image &effect:"
 #~ msgid "Page effects"
@@ -2260,12 +2320,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Cover down effect"
 #~ msgstr "Чап томондан чиқиш"
-
-#~ msgid "Insert Slide"
-#~ msgstr "Слайд қўйиш"
-
-#~ msgid "Before Current Slide"
-#~ msgstr "Жорий слайддан олдин"
 
 #~ msgid "Insert &new slide:"
 #~ msgstr "&Янги слайд қўйиш:"
@@ -3015,9 +3069,6 @@ msgstr ""
 #~ msgid "Move Slide"
 #~ msgstr "Слайдни кўчириш"
 
-#~ msgid "Paste Slide"
-#~ msgstr "Слайдни қўйиш"
-
 #~ msgid "Insert File"
 #~ msgstr "Файлни қўйиш"
 
@@ -3313,10 +3364,6 @@ msgstr ""
 #~ msgid "Insert Picture"
 #~ msgstr "Расмни қўйиш"
 
-#, fuzzy
-#~ msgid "Slide Master"
-#~ msgstr "&Мастер слайд"
-
 #~ msgid "Move Objects"
 #~ msgstr "Объектларни кўчириш"
 
@@ -3542,9 +3589,6 @@ msgstr ""
 #~ msgid "Change Outline Width"
 #~ msgstr "Изоҳ матнини ўзгартириш"
 
-#~ msgid "Copy Slide"
-#~ msgstr "Слайддан нусха олиш"
-
 #~ msgid "Show Sidebar"
 #~ msgstr "Ён панелни кўрсатиш"
 
@@ -3576,9 +3620,6 @@ msgstr ""
 
 #~ msgid "&Slide..."
 #~ msgstr "&Слайд..."
-
-#~ msgid "Insert &Slide..."
-#~ msgstr "&Слайд қўйиш..."
 
 #~ msgid "P&icture..."
 #~ msgstr "Р&асм..."
@@ -3750,9 +3791,6 @@ msgstr ""
 
 #~ msgid "&Go to Start"
 #~ msgstr "&Бошига ўтиш"
-
-#~ msgid "&Previous Slide"
-#~ msgstr "&Олдинги слайд"
 
 #~ msgid "Go to &End"
 #~ msgstr "&Охирига ўтиш"
