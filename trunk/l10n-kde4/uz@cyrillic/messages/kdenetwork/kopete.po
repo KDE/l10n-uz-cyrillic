@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-19 10:57+0100\n"
+"POT-Creation-Date: 2008-11-21 10:06+0100\n"
 "PO-Revision-Date: 2007-01-01 23:26+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -62,6 +62,7 @@ msgstr "Алоқалар"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libkopete/ui/kopeteinfodialog.cpp:50 libkopete/ui/kopeteinfodialog.cpp:64
 #: rc.cpp:2824 rc.cpp:5320 rc.cpp:5350 rc.cpp:5842
+#: protocols/wlm/wlmchatsession.cpp:622
 #, fuzzy
 msgid "Information"
 msgstr "Фойдаланувчи ҳақида маълумот"
@@ -249,6 +250,7 @@ msgstr ""
 #: protocols/oscar/icq/icqstatusmanager.cpp:37
 #: protocols/oscar/icq/icqprotocol.cpp:448
 #: protocols/oscar/icq/icqprotocol.cpp:530
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:38
 #: protocols/groupwise/gwprotocol.cpp:66
 msgid "Unknown"
 msgstr "Номаълум"
@@ -315,6 +317,7 @@ msgstr ""
 
 #: libkopete/kopetetransfermanager.cpp:513
 #: libkopete/kopetetransfermanager.cpp:562
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:35
 msgid "File Transfer"
 msgstr "Файл узатиш"
 
@@ -1035,7 +1038,7 @@ msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr "<br><b>Жойида&nbsp;йўқ&nbsp;хабари:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:629 kopete/kopetewindow.cpp:1208
+#: libkopete/kopetecontact.cpp:629 kopete/kopetewindow.cpp:1209
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1120,7 +1123,7 @@ msgstr "Охирги марта кўринган"
 msgid "Status Title"
 msgstr "Ҳолати"
 
-#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1218
+#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1219
 msgid "Status Message"
 msgstr ""
 
@@ -1392,17 +1395,17 @@ msgstr "Алоқалар рўйхатини кўрсатиш ёки бекити
 msgid "Set Away/Back"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:782
+#: kopete/kopetewindow.cpp:783
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:784
+#: kopete/kopetewindow.cpp:785
 msgid "Docking in System Tray"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:990
+#: kopete/kopetewindow.cpp:991
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1419,13 +1422,13 @@ msgid ""
 msgstr ""
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1205
+#: kopete/kopetewindow.cpp:1206
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr "<br><b>Жойида&nbsp;йўқ&nbsp;хабари:</b>&nbsp;%1"
 
-#: kopete/kopetewindow.cpp:1253
+#: kopete/kopetewindow.cpp:1254
 #: kopete/contactlist/kopetecontactlistview.cpp:1791
 msgid "Add Contact"
 msgstr "Алоқани қўшиш"
@@ -3435,7 +3438,7 @@ msgstr "Уяли телефон:"
 
 #. i18n: file: kopete/config/avdevice/avdeviceconfig_videodevice.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, AVDeviceConfig_VideoDevice)
-#: rc.cpp:178
+#: rc.cpp:178 protocols/jabber/jingle/jinglecontentdialog.cpp:32
 msgid "Video"
 msgstr "Видео"
 
@@ -16666,11 +16669,11 @@ msgstr ""
 msgid "%1 has started a chat with you"
 msgstr ""
 
-#: protocols/msn/msnchatsession.cpp:674 protocols/wlm/wlmchatsession.cpp:299
+#: protocols/msn/msnchatsession.cpp:674 protocols/wlm/wlmchatsession.cpp:316
 msgid "has sent a nudge"
 msgstr ""
 
-#: protocols/msn/msnchatsession.cpp:690 protocols/wlm/wlmchatsession.cpp:675
+#: protocols/msn/msnchatsession.cpp:690 protocols/wlm/wlmchatsession.cpp:692
 msgid "has sent you a nudge"
 msgstr ""
 
@@ -16906,6 +16909,12 @@ msgstr ""
 #: protocols/oscar/oscaraccount.cpp:797
 msgid "Buddies"
 msgstr "Ўртоқлар"
+
+#: protocols/wlm/wlmchatsession.cpp:621
+#, fuzzy
+#| msgid "Send"
+msgid "Send OIM"
+msgstr "Жўнатиш"
 
 #: protocols/gadu/gadusession.cpp:220 protocols/gadu/gadusession.cpp:233
 #: protocols/gadu/gadusession.cpp:245 protocols/gadu/gadusession.cpp:278
@@ -21267,6 +21276,20 @@ msgstr "Расмни сақлашда хато рўй берди."
 msgid "Jabber Account Unregistration"
 msgstr ""
 
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:29
+msgid "Audio"
+msgstr ""
+
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:74
+msgid "Check the contents you wanna accept : "
+msgstr ""
+
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:81
+#, fuzzy, kde-format
+#| msgid "Show Offline &Users"
+msgid "New Jingle session from %1"
+msgstr "Офлайн фойдаланувчиларни &кўрсатиш"
+
 #: protocols/jabber/jabberchatsession.cpp:73
 msgid "Show audio calls"
 msgstr ""
@@ -22014,11 +22037,6 @@ msgstr ""
 #~| msgid "Please enter the name of the chat room you wish to join."
 #~ msgid "Please enter name of the channel you want to join:"
 #~ msgstr "Қўшилмоқчи бўлган чат хонасининг номини киритинг."
-
-#, fuzzy
-#~| msgid "Show Offline &Users"
-#~ msgid "Show Jingle sessions"
-#~ msgstr "Офлайн фойдаланувчиларни &кўрсатиш"
 
 #, fuzzy
 #~ msgid "Contact display-name"
