@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:26+0100\n"
+"POT-Creation-Date: 2009-01-29 07:21+0100\n"
 "PO-Revision-Date: 2006-02-08 21:32+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,8 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/old/feedlistview.cpp:280 src/akregator_part.cpp:308
-#: src/subscriptionlistmodel.cpp:218
-#: plugins/onlinesync/ui/configurationwidget.cpp:21
+#: plugins/onlinesync/ui/configurationwidget.cpp:45
 msgid "Feeds"
 msgstr "Янгиликлар тасмалари"
 
@@ -45,13 +44,13 @@ msgstr "Юклаш бекор қилинди"
 msgid "Loading completed"
 msgstr "Юклаш тугади"
 
-#: src/articlelistview.cpp:198 src/subscriptionlistview.cpp:167
+#: src/articlelistview.cpp:178 src/subscriptionlistview.cpp:181
 #, fuzzy
 #| msgid "Comments"
 msgid "Columns"
 msgstr "Изоҳлар"
 
-#: src/articlelistview.cpp:323
+#: src/articlelistview.cpp:287
 msgid ""
 "<h2>Article list</h2>Here you can browse articles from the currently "
 "selected feed. You can also manage articles, as marking them as persistent "
@@ -60,13 +59,13 @@ msgid ""
 "in an external browser window."
 msgstr ""
 
-#: src/articlelistview.cpp:385
+#: src/articlelistview.cpp:354
 msgid ""
 "<div align=center><h3>No matches</h3>Filter does not match any articles, "
 "please change your criteria and try again.</div>"
 msgstr ""
 
-#: src/articlelistview.cpp:396
+#: src/articlelistview.cpp:365
 msgid ""
 "<div align=center><h3>No feed selected</h3>This area is article list. Select "
 "a feed from the feed list and you will see its articles here.</div>"
@@ -80,22 +79,23 @@ msgstr "Жилдни қўшиш"
 msgid "Folder name:"
 msgstr "Жилднинг номи:"
 
-#: src/pageviewer.cpp:101 src/actionmanagerimpl.cpp:539
+#: src/pageviewer.cpp:101 src/actionmanagerimpl.cpp:543
 msgctxt "Go back in browser history"
 msgid "Back"
 msgstr ""
 
-#: src/pageviewer.cpp:109 src/actionmanagerimpl.cpp:532
+#: src/pageviewer.cpp:109 src/actionmanagerimpl.cpp:536
 msgctxt "Go forward in browser history"
 msgid "Forward"
 msgstr ""
 
-#: src/pageviewer.cpp:116 src/actionmanagerimpl.cpp:548
+#: src/pageviewer.cpp:116 src/actionmanagerimpl.cpp:552
 #, fuzzy
+msgctxt "Reload current page"
 msgid "Reload"
 msgstr "Ўқи&лган"
 
-#: src/pageviewer.cpp:119 src/actionmanagerimpl.cpp:553
+#: src/pageviewer.cpp:119 src/actionmanagerimpl.cpp:557
 msgid "Stop"
 msgstr ""
 
@@ -161,34 +161,40 @@ msgstr ""
 #: src/pluginmanager.cpp:171
 #, fuzzy
 #| msgid "Name"
+msgctxt "Name of the plugin"
 msgid "Name"
 msgstr "Номи"
 
 #: src/pluginmanager.cpp:172
 #, fuzzy
 #| msgid "Library"
+msgctxt "Library name"
 msgid "Library"
 msgstr "Кутубхона"
 
 #: src/pluginmanager.cpp:173
 #, fuzzy
 #| msgid "Authors"
+msgctxt "Plugin authors"
 msgid "Authors"
 msgstr "Муаллифлар"
 
 #: src/pluginmanager.cpp:174
 #, fuzzy
 #| msgid "Email"
+msgctxt "Plugin authors' emaila addresses"
 msgid "Email"
 msgstr "Электрон почта"
 
 #: src/pluginmanager.cpp:175
 #, fuzzy
 #| msgid "Version"
+msgctxt "Plugin version"
 msgid "Version"
 msgstr "Версия"
 
 #: src/pluginmanager.cpp:176
+msgctxt "Framework version plugin requires"
 msgid "Framework Version"
 msgstr ""
 
@@ -204,45 +210,45 @@ msgstr "Бир неча мақолани алоҳида табларда кўр�
 msgid "Articles list."
 msgstr "Мақолалар рўйхати."
 
-#: src/mainwidget.cpp:237
+#: src/mainwidget.cpp:239
 msgid "Browsing area."
 msgstr ""
 
-#: src/mainwidget.cpp:241 src/mainwidget.cpp:657
+#: src/mainwidget.cpp:243 src/mainwidget.cpp:643
 msgid "Articles"
 msgstr "Мақолалар"
 
-#: src/mainwidget.cpp:258
+#: src/mainwidget.cpp:260
 msgid "About"
 msgstr ""
 
-#: src/mainwidget.cpp:413 src/main.cpp:67
+#: src/mainwidget.cpp:404 src/main.cpp:67
 msgid "Imported Folder"
 msgstr "Импорт қилинган жилд"
 
-#: src/mainwidget.cpp:416
+#: src/mainwidget.cpp:407
 msgid "Add Imported Folder"
 msgstr "Импорт қилинган жилдни қўшиш"
 
-#: src/mainwidget.cpp:417
+#: src/mainwidget.cpp:408
 msgid "Imported folder name:"
 msgstr "Импорт қилинган жилднинг номи:"
 
-#: src/mainwidget.cpp:822
+#: src/mainwidget.cpp:813
 msgid "Fetching Feeds..."
 msgstr "Янгиликлар тасмалари олинмоқда..."
 
-#: src/mainwidget.cpp:1021
+#: src/mainwidget.cpp:1012
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr "<qt><b>%1</b> мақолани ўчиришни истайсизми?</qt>"
 
-#: src/mainwidget.cpp:1024
+#: src/mainwidget.cpp:1015
 #, fuzzy, kde-format
 msgid "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
 msgstr "<qt>Танланган мақолани ўчиришни истайсизми?</qt>"
 
-#: src/mainwidget.cpp:1028
+#: src/mainwidget.cpp:1019
 msgid "Delete Article"
 msgstr "Мақолани ўчириш"
 
@@ -286,7 +292,7 @@ msgstr "&Юқорига варақлаш"
 msgid "&Scroll Down"
 msgstr "&Пастга варақлаш"
 
-#: src/articleviewer.cpp:645
+#: src/articleviewer.cpp:653
 #, kde-format
 msgctxt "%1: Akregator version; %2: homepage URL; --- end of comment ---"
 msgid ""
@@ -303,32 +309,32 @@ msgid ""
 "<p style='margin-bottom: 0px'>&nbsp; &nbsp; The Akregator Team</p>\n"
 msgstr ""
 
-#: src/articleviewer.cpp:661 src/aboutdata.cpp:35
+#: src/articleviewer.cpp:669 src/aboutdata.cpp:35
 msgid "Akregator"
 msgstr "Akregator"
 
-#: src/articleviewer.cpp:663
+#: src/articleviewer.cpp:671
 msgid "An RSS feed reader for the K Desktop Environment."
 msgstr "KDE учун RSS янгиликлар ўқувчиси."
 
-#: src/articleviewer.cpp:699
+#: src/articleviewer.cpp:708
+msgid "Keep Enabled"
+msgstr ""
+
+#: src/articleviewer.cpp:710
+msgid "Disable"
+msgstr "Ўчириш"
+
+#: src/articleviewer.cpp:711
 #, fuzzy
 msgid "Are you sure you want to disable this introduction page?"
 msgstr "<qt>Танланган мақолани ўчиришни истайсизми?</qt>"
 
-#: src/articleviewer.cpp:699
+#: src/articleviewer.cpp:711
 #, fuzzy
 #| msgid "Disable Archiving"
 msgid "Disable Introduction Page"
 msgstr "Архивлашни ўчириш"
-
-#: src/articleviewer.cpp:699
-msgid "Disable"
-msgstr "Ўчириш"
-
-#: src/articleviewer.cpp:699
-msgid "Keep Enabled"
-msgstr ""
 
 #. i18n: file: src/addfeedwidgetbase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
@@ -350,58 +356,76 @@ msgstr "Қуйидаги жойда янгиликлар тасмаси топи
 msgid "Feed found, downloading..."
 msgstr "Янгиликлар тасмаси топилди. Ёзиб олинмоқда..."
 
-#: src/tabwidget.cpp:111
+#: src/tabwidget.cpp:112
 msgid "Close the current tab"
 msgstr "Жорий табни ёпиш"
 
-#: src/articleformatter.cpp:86 src/articleformatter.cpp:128
+#: src/articleformatter.cpp:57
+#, kde-format
+msgid "(%1, %2)"
+msgstr ""
+
+#: src/articleformatter.cpp:62
+#, fuzzy, kde-format
+#| msgid "<b>Homepage:</b> <a href=\"%1\">%2</a>"
+msgid "<a href=\"%1\">%2</a> %3"
+msgstr "<b>Веб-саҳифа:</b> <a href=\"%1\">%2</a>"
+
+#: src/articleformatter.cpp:108 src/articleformatter.cpp:150
 msgid " (no unread articles)"
 msgstr " (ўқилмаган мақола йўқ)"
 
-#: src/articleformatter.cpp:88 src/articleformatter.cpp:130
+#: src/articleformatter.cpp:110 src/articleformatter.cpp:152
 #, fuzzy, kde-format
 msgid " (1 unread article)"
 msgid_plural " (%1 unread articles)"
 msgstr[0] " (1 ўқилмаган мақола)"
 
-#: src/articleformatter.cpp:106
+#: src/articleformatter.cpp:128
 #, fuzzy, kde-format
 #| msgid "<b>Description:</b> %1<br><br>"
 msgid "<b>Description:</b> %1<br /><br />"
 msgstr "<b>Таъриф:</b> %1<br><br>"
 
-#: src/articleformatter.cpp:113
+#: src/articleformatter.cpp:135
 #, kde-format
 msgid "<b>Homepage:</b> <a href=\"%1\">%2</a>"
 msgstr "<b>Веб-саҳифа:</b> <a href=\"%1\">%2</a>"
 
-#: src/articleformatter.cpp:165 src/articleformatter.cpp:166
-#: src/articleformatter.cpp:355 src/articleformatter.cpp:356
-#: src/articlemodel.cpp:110
+#: src/articleformatter.cpp:188 src/articleformatter.cpp:189
+#: src/articleformatter.cpp:381 src/articleformatter.cpp:382
 msgid "Date"
 msgstr "Сана"
 
-#: src/articleformatter.cpp:173 src/articleformatter.cpp:174
-#: src/articleformatter.cpp:364 src/articleformatter.cpp:365
-#: src/articlemodel.cpp:112
+#: src/articleformatter.cpp:196 src/articleformatter.cpp:197
+#: src/articleformatter.cpp:390 src/articleformatter.cpp:391
 #, fuzzy
 msgid "Author"
 msgstr "Муаллифлар"
 
-#: src/articleformatter.cpp:204 src/articleformatter.cpp:396
+#: src/articleformatter.cpp:204 src/articleformatter.cpp:205
+#: src/articleformatter.cpp:398 src/articleformatter.cpp:399
+msgid "Enclosure"
+msgstr ""
+
+#: src/articleformatter.cpp:236 src/articleformatter.cpp:430
 msgid "Comments"
 msgstr "Изоҳлар"
 
-#: src/articleformatter.cpp:224 src/articleformatter.cpp:416
+#: src/articleformatter.cpp:245 src/articleformatter.cpp:440
+msgid "Enclosure:"
+msgstr ""
+
+#: src/articleformatter.cpp:259 src/articleformatter.cpp:454
 msgid "Complete Story"
 msgstr "Бутун мақола"
 
-#: src/akregator_part.cpp:132
+#: src/akregator_part.cpp:135
 #, kde-format
 msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
 msgstr ""
 
-#: src/akregator_part.cpp:132
+#: src/akregator_part.cpp:135
 msgid "Plugin error"
 msgstr "Плагин хатоси"
 
@@ -433,81 +457,92 @@ msgstr ""
 msgid "Opening Feed List..."
 msgstr ""
 
-#: src/akregator_part.cpp:388
+#: src/akregator_part.cpp:387
 #, kde-format
 msgid ""
 "<qt>The standard feed list is corrupted (invalid XML). A backup was created:"
 "<p><b>%1</b></p></qt>"
 msgstr ""
 
-#: src/akregator_part.cpp:388
+#: src/akregator_part.cpp:387 src/akregator_part.cpp:389
 msgid "XML Parsing Error"
+msgstr ""
+
+#: src/akregator_part.cpp:389
+msgid ""
+"<qt>The standard feed list is corrupted (invalid XML). Could not create a "
+"backup!</p></qt>"
 msgstr ""
 
 #: src/akregator_part.cpp:403
 #, kde-format
 msgid ""
-"<qt>The standard feed list is corrupted (no valid OPML). A backup was "
-"created:<p><b>%1</b></p></qt>"
+"<qt>The standard feed list is corrupted (no valid OPML). A backup of the "
+"previous list was created:<p><b>%1</b></p></qt>"
 msgstr ""
 
-#: src/akregator_part.cpp:403 src/akregator_part.cpp:532
+#: src/akregator_part.cpp:403 src/akregator_part.cpp:405
+#: src/akregator_part.cpp:511
 msgid "OPML Parsing Error"
 msgstr ""
 
-#: src/akregator_part.cpp:442
-#, kde-format
-msgid "Access denied: cannot save feed list (%1)"
+#: src/akregator_part.cpp:405
+msgid ""
+"<qt>The standard feed list is corrupted (no valid OPML). Could not create a "
+"backup!></p></qt>"
 msgstr ""
 
-#: src/akregator_part.cpp:442
+#: src/akregator_part.cpp:452
+#, kde-format
+msgid ""
+"Access denied: Cannot save feed list to <b>%1</b>. Please check your "
+"permissions."
+msgstr ""
+
+#: src/akregator_part.cpp:453
 msgid "Write error"
 msgstr "Ёзиш хатоси"
 
-#: src/akregator_part.cpp:532
+#: src/akregator_part.cpp:511
 #, kde-format
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr ""
 
-#: src/akregator_part.cpp:535
+#: src/akregator_part.cpp:514
 #, kde-format
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for "
 "the current user."
 msgstr ""
 
-#: src/akregator_part.cpp:535
+#: src/akregator_part.cpp:514
 msgid "Read Error"
 msgstr "Ўқиш хатоси"
 
-#: src/akregator_part.cpp:549
+#: src/akregator_part.cpp:528
 #, kde-format
 msgid "The file %1 already exists; do you want to overwrite it?"
 msgstr "%1 файли аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: src/akregator_part.cpp:550
+#: src/akregator_part.cpp:529
 msgid "Export"
 msgstr ""
 
-#: src/akregator_part.cpp:551
-msgid "Overwrite"
-msgstr "Алмаштириш"
-
-#: src/akregator_part.cpp:557
+#: src/akregator_part.cpp:535
 #, fuzzy, kde-format
 #| msgid "Access denied: cannot write to file %1"
-msgid "Access denied: cannot write to file %1"
+msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr "Мурожаат рад этилди. %1 файлига ёзиб бўлмади."
 
-#: src/akregator_part.cpp:557
+#: src/akregator_part.cpp:535
 msgid "Write Error"
 msgstr "Ёзиш хатоси"
 
-#: src/akregator_part.cpp:586 src/akregator_part.cpp:596
+#: src/akregator_part.cpp:558 src/akregator_part.cpp:568
 msgid "OPML Outlines (*.opml, *.xml)"
 msgstr ""
 
-#: src/akregator_part.cpp:587 src/akregator_part.cpp:597
+#: src/akregator_part.cpp:559 src/akregator_part.cpp:569
 msgid "All Files"
 msgstr "Ҳамма файллар"
 
@@ -529,45 +564,54 @@ msgstr ""
 "Янгиликлар тасмалари қўшилди:\n"
 " %1"
 
-#: src/subscriptionlistmodel.cpp:60
+#: src/subscriptionlistmodel.cpp:61
 msgid "Timeout on remote server"
 msgstr ""
 
-#: src/subscriptionlistmodel.cpp:62
+#: src/subscriptionlistmodel.cpp:63
 msgid "Unknown host"
 msgstr ""
 
-#: src/subscriptionlistmodel.cpp:64
+#: src/subscriptionlistmodel.cpp:65
 #, fuzzy
 #| msgid "Feed not found from %1."
 msgid "Feed file not found on remote server"
 msgstr "Қуйидаги жойда янгиликлар тасмаси топилмади: %1"
 
-#: src/subscriptionlistmodel.cpp:66
+#: src/subscriptionlistmodel.cpp:67
 msgid "Could not read feed (invalid XML)"
 msgstr ""
 
-#: src/subscriptionlistmodel.cpp:68
+#: src/subscriptionlistmodel.cpp:69
 msgid "Could not read feed (unknown format)"
 msgstr ""
 
-#: src/subscriptionlistmodel.cpp:70
+#: src/subscriptionlistmodel.cpp:71
 msgid "Could not read feed (invalid feed)"
 msgstr ""
 
-#: src/subscriptionlistmodel.cpp:165
+#: src/subscriptionlistmodel.cpp:167
 #, kde-format
 msgid "Could not fetch feed: %1"
 msgstr ""
 
-#: src/subscriptionlistmodel.cpp:220 src/searchbar.cpp:98
+#: src/subscriptionlistmodel.cpp:219
+#, fuzzy
+#| msgid "Feeds"
+msgctxt "Feedlist's column header"
+msgid "Feeds"
+msgstr "Янгиликлар тасмалари"
+
+#: src/subscriptionlistmodel.cpp:221
 #, fuzzy
 #| msgid "Unread"
+msgctxt "Feedlist's column header"
 msgid "Unread"
 msgstr "Ўқилмаган"
 
-#: src/subscriptionlistmodel.cpp:222
+#: src/subscriptionlistmodel.cpp:223
 #, fuzzy
+msgctxt "Feedlist's column header"
 msgid "Total"
 msgstr "&Мақола"
 
@@ -580,7 +624,7 @@ msgstr "KDE учун янгиликлар тасмасини ўқувчи"
 #: src/aboutdata.cpp:36
 #, fuzzy
 #| msgid "(C) 2004, 2005 Akregator developers"
-msgid "(C) 2004, 2005 Akregator developers"
+msgid "(C) 2004-2008 Akregator developers"
 msgstr "(C) 2004-2005, Akregator тузувчилари"
 
 #: src/aboutdata.cpp:40 configuration/akregator_config_advanced.cpp:53
@@ -705,19 +749,19 @@ msgstr ""
 msgid "Cannot move folder %1 to its own subfolder %2"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:76 src/actionmanagerimpl.cpp:260
+#: src/actionmanagerimpl.cpp:76 src/actionmanagerimpl.cpp:264
 msgid "&Fetch Feed"
 msgstr "Янгиликлар тасмасини &олиш"
 
-#: src/actionmanagerimpl.cpp:77 src/actionmanagerimpl.cpp:215
+#: src/actionmanagerimpl.cpp:77 src/actionmanagerimpl.cpp:219
 msgid "&Delete Feed"
 msgstr "Янги&ликлар тасмасини олиб ташлаш"
 
-#: src/actionmanagerimpl.cpp:78 src/actionmanagerimpl.cpp:221
+#: src/actionmanagerimpl.cpp:78 src/actionmanagerimpl.cpp:225
 msgid "&Edit Feed..."
 msgstr "Янгиликлар тасмасини &таҳрирлаш..."
 
-#: src/actionmanagerimpl.cpp:79 src/actionmanagerimpl.cpp:279
+#: src/actionmanagerimpl.cpp:79 src/actionmanagerimpl.cpp:283
 msgid "&Mark Feed as Read"
 msgstr "Янгиликлар та&смасини ўқилган деб белгилаш"
 
@@ -745,55 +789,55 @@ msgstr "Янгиликлар тасмасини &импорт қилиш"
 msgid "&Export Feeds..."
 msgstr "Янгиликлар тасмасини &экспорт қилиш"
 
-#: src/actionmanagerimpl.cpp:182
+#: src/actionmanagerimpl.cpp:180
 #, fuzzy
 #| msgid "Configure &Akregator..."
-msgid "Configure &Akregator..."
+msgid "&Configure Akregator..."
 msgstr "Akregator &мосламаси"
 
-#: src/actionmanagerimpl.cpp:197
+#: src/actionmanagerimpl.cpp:201
 msgid "&Open Homepage"
 msgstr "&Веб-саҳифани очиш"
 
-#: src/actionmanagerimpl.cpp:203
+#: src/actionmanagerimpl.cpp:207
 msgid "&Add Feed..."
 msgstr "Янгиликлар тасмасини қў&шиш"
 
-#: src/actionmanagerimpl.cpp:209
+#: src/actionmanagerimpl.cpp:213
 msgid "Ne&w Folder..."
 msgstr "Янги &жилд"
 
-#: src/actionmanagerimpl.cpp:226
+#: src/actionmanagerimpl.cpp:230
 msgid "&View Mode"
 msgstr "Кўриш &усули"
 
-#: src/actionmanagerimpl.cpp:232
+#: src/actionmanagerimpl.cpp:236
 msgid "&Normal View"
 msgstr "&Андоза кўриниш"
 
-#: src/actionmanagerimpl.cpp:241
+#: src/actionmanagerimpl.cpp:245
 msgid "&Widescreen View"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:250
+#: src/actionmanagerimpl.cpp:254
 msgid "C&ombined View"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:266
+#: src/actionmanagerimpl.cpp:270
 msgid "Fe&tch All Feeds"
 msgstr "Ҳамма &янгиликлар тасмасини олиш"
 
-#: src/actionmanagerimpl.cpp:272
+#: src/actionmanagerimpl.cpp:276
 msgid "&Abort Fetches"
 msgstr "Олишни тў&хтатиш"
 
-#: src/actionmanagerimpl.cpp:285
+#: src/actionmanagerimpl.cpp:289
 msgid "Ma&rk All Feeds as Read"
 msgstr "Ҳамма янгили&клар тасмасини ўқилган деб белгилаш"
 
 #. i18n: file: interfaces/akregator.kcfg:9
 #. i18n: ectx: label, entry, group (View)
-#: src/actionmanagerimpl.cpp:291 rc.cpp:146
+#: src/actionmanagerimpl.cpp:295 rc.cpp:149
 msgid "Show Quick Filter"
 msgstr "Қидириш панелини кўрсатиш"
 
@@ -801,7 +845,7 @@ msgstr "Қидириш панелини кўрсатиш"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LMBBehaviour)
 #. i18n: file: configuration/settings_browser.ui:125
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
-#: src/actionmanagerimpl.cpp:297 rc.cpp:427 rc.cpp:442
+#: src/actionmanagerimpl.cpp:301 rc.cpp:433 rc.cpp:448
 msgid "Open in Tab"
 msgstr "Табда очиш"
 
@@ -809,153 +853,155 @@ msgstr "Табда очиш"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LMBBehaviour)
 #. i18n: file: configuration/settings_browser.ui:135
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
-#: src/actionmanagerimpl.cpp:303 rc.cpp:433 rc.cpp:448
+#: src/actionmanagerimpl.cpp:307 rc.cpp:439 rc.cpp:454
 msgid "Open in External Browser"
 msgstr "Ташқи браузерда очиш"
 
-#: src/actionmanagerimpl.cpp:308 src/actionmanagerimpl.cpp:515
+#: src/actionmanagerimpl.cpp:312 src/actionmanagerimpl.cpp:519
 msgid "Copy Link Address"
 msgstr "Боғ манзилидан нусха олиш"
 
-#: src/actionmanagerimpl.cpp:312
+#: src/actionmanagerimpl.cpp:316
 msgid "Pre&vious Unread Article"
 msgstr "&Олдинги ўқилмаган мақола"
 
-#: src/actionmanagerimpl.cpp:317
+#: src/actionmanagerimpl.cpp:321
 msgid "Ne&xt Unread Article"
 msgstr "Кейинги ўқи&лмаган мақола"
 
-#: src/actionmanagerimpl.cpp:323
+#: src/actionmanagerimpl.cpp:327
 #, fuzzy
 msgid "&Delete"
 msgstr "Янги&ликлар тасмасини олиб ташлаш"
 
-#: src/actionmanagerimpl.cpp:328
+#: src/actionmanagerimpl.cpp:332
 msgid "&Mark As"
 msgstr "&Белгилаш"
 
-#: src/actionmanagerimpl.cpp:342
+#: src/actionmanagerimpl.cpp:346
 msgctxt "as in: mark as read"
 msgid "&Read"
 msgstr "Ўқи&лган"
 
-#: src/actionmanagerimpl.cpp:344
+#: src/actionmanagerimpl.cpp:348
 msgid "Mark selected article as read"
 msgstr "Танланган мақолани ўқилган деб белгилаш"
 
-#: src/actionmanagerimpl.cpp:350
+#: src/actionmanagerimpl.cpp:354
 #, fuzzy
 #| msgid "&New"
+msgctxt "as in: mark as new"
 msgid "&New"
 msgstr "&Янги"
 
-#: src/actionmanagerimpl.cpp:353
+#: src/actionmanagerimpl.cpp:357
 msgid "Mark selected article as new"
 msgstr "Танланган мақолани янги деб белгилаш"
 
-#: src/actionmanagerimpl.cpp:359
+#: src/actionmanagerimpl.cpp:363
 #, fuzzy
 #| msgid "&Unread"
+msgctxt "as in: mark as unread"
 msgid "&Unread"
 msgstr "&Ўқилмаган"
 
-#: src/actionmanagerimpl.cpp:361
+#: src/actionmanagerimpl.cpp:365
 msgid "Mark selected article as unread"
 msgstr "Танланган мақолани ўқилмаган деб белгилаш"
 
-#: src/actionmanagerimpl.cpp:367
+#: src/actionmanagerimpl.cpp:371
 msgid "&Mark as Important"
 msgstr "Муҳим деб &белгилаш"
 
-#: src/actionmanagerimpl.cpp:370
+#: src/actionmanagerimpl.cpp:374
 msgid "Remove &Important Mark"
 msgstr "&Муҳимлик белгисини олиб ташлаш"
 
-#: src/actionmanagerimpl.cpp:374
+#: src/actionmanagerimpl.cpp:378
 msgid "Move Node Up"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:379
+#: src/actionmanagerimpl.cpp:383
 msgid "Move Node Down"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:383 src/actionmanagerimpl.cpp:384
+#: src/actionmanagerimpl.cpp:387 src/actionmanagerimpl.cpp:388
 msgid "Move Node Left"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:389
+#: src/actionmanagerimpl.cpp:393
 msgid "Move Node Right"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:395
+#: src/actionmanagerimpl.cpp:399
 msgid "Send &Link Address..."
 msgstr "&Боғ манзилини жўнатиш"
 
-#: src/actionmanagerimpl.cpp:400
+#: src/actionmanagerimpl.cpp:404
 msgid "Send &File..."
 msgstr "&Файл жўнатиш"
 
-#: src/actionmanagerimpl.cpp:420
+#: src/actionmanagerimpl.cpp:424
 msgid "&Previous Article"
 msgstr "Олд&инги мақола"
 
-#: src/actionmanagerimpl.cpp:424
+#: src/actionmanagerimpl.cpp:428
 msgid "&Next Article"
 msgstr "&Кейинги мақола"
 
-#: src/actionmanagerimpl.cpp:439
+#: src/actionmanagerimpl.cpp:443
 msgid "&Previous Feed"
 msgstr "&Олдинги янгиликлар тасмаси"
 
-#: src/actionmanagerimpl.cpp:444
+#: src/actionmanagerimpl.cpp:448
 msgid "&Next Feed"
 msgstr "&Кейинги янгиликлар тасмаси"
 
-#: src/actionmanagerimpl.cpp:449
+#: src/actionmanagerimpl.cpp:453
 msgid "N&ext Unread Feed"
 msgstr "Кейинги ўқил&маган янгиликлар тасмаси"
 
-#: src/actionmanagerimpl.cpp:454
+#: src/actionmanagerimpl.cpp:458
 msgid "Prev&ious Unread Feed"
 msgstr "Олдин&ги ўқилмаган янгиликлар тасмаси"
 
-#: src/actionmanagerimpl.cpp:459
+#: src/actionmanagerimpl.cpp:463
 msgid "Go to Top of Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:464
+#: src/actionmanagerimpl.cpp:468
 msgid "Go to Bottom of Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:469
+#: src/actionmanagerimpl.cpp:473
 msgid "Go Left in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:474
+#: src/actionmanagerimpl.cpp:478
 msgid "Go Right in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:479
+#: src/actionmanagerimpl.cpp:483
 msgid "Go Up in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:484
+#: src/actionmanagerimpl.cpp:488
 msgid "Go Down in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:499
+#: src/actionmanagerimpl.cpp:503
 msgid "Select Next Tab"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:504
+#: src/actionmanagerimpl.cpp:508
 msgid "Select Previous Tab"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:510
+#: src/actionmanagerimpl.cpp:514
 msgid "Detach Tab"
 msgstr "Табни ажратиш"
 
-#: src/actionmanagerimpl.cpp:520
+#: src/actionmanagerimpl.cpp:524
 msgid "&Close Tab"
 msgstr "Табни &ёпиш"
 
@@ -990,30 +1036,46 @@ msgstr "Архивлаш"
 
 #: src/articlemodel.cpp:106
 #, fuzzy
+msgctxt "Articlelist's column header"
 msgid "Title"
 msgstr "&Мақола"
 
 #: src/articlemodel.cpp:108
 #, fuzzy
 #| msgid "Feed"
+msgctxt "Articlelist's column header"
 msgid "Feed"
 msgstr "Янгиликлар тасмаси"
 
-#. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:41
-#. i18n: ectx: property (text), widget (QTreeWidget, list_readerList)
-#: src/articlemodel.cpp:114 rc.cpp:515
+#: src/articlemodel.cpp:110
+#, fuzzy
+#| msgid "Date"
+msgctxt "Articlelist's column header"
+msgid "Date"
+msgstr "Сана"
+
+#: src/articlemodel.cpp:112
+#, fuzzy
+msgctxt "Articlelist's column header"
+msgid "Author"
+msgstr "Муаллифлар"
+
+#: src/articlemodel.cpp:114
+msgctxt "Articlelist's column header"
 msgid "Description"
 msgstr ""
 
 #: src/articlemodel.cpp:116
 #, fuzzy
 #| msgid "Comments"
+msgctxt "Articlelist's column header"
 msgid "Content"
 msgstr "Изоҳлар"
 
 #: src/searchbar.cpp:77
 #, fuzzy
 #| msgid "S&earch:"
+msgctxt "Title of article searchbar"
 msgid "S&earch:"
 msgstr "Қид&ириш:"
 
@@ -1025,15 +1087,24 @@ msgstr "Ҳолати:"
 msgid "All Articles"
 msgstr "Ҳамма мақолалар"
 
+#: src/searchbar.cpp:98
+#, fuzzy
+#| msgid "Unread"
+msgctxt "Unread articles filter"
+msgid "Unread"
+msgstr "Ўқилмаган"
+
 #: src/searchbar.cpp:99
 #, fuzzy
 #| msgid "New"
+msgctxt "New articles filter"
 msgid "New"
 msgstr "Янги"
 
 #: src/searchbar.cpp:100
 #, fuzzy
 #| msgid "Important"
+msgctxt "Important articles filter"
 msgid "Important"
 msgstr "Муҳим"
 
@@ -1045,19 +1116,25 @@ msgstr ""
 msgid "Choose what kind of articles to show in article list"
 msgstr ""
 
-#: src/mainwindow.cpp:130
+#: src/mainwindow.cpp:99
 msgid "Could not find the Akregator part; please check your installation."
 msgstr ""
 
-#: src/mainwindow.cpp:262
+#: src/mainwindow.cpp:222
 msgid ""
 "<qt><p>Closing the main window will keep Akregator running in the system "
 "tray. Use 'Quit' from the 'File' menu to quit the application.</"
 "p><p><center><img source=\"systray_shot\" /></center></p></qt>"
 msgstr ""
 
-#: src/mainwindow.cpp:262
+#: src/mainwindow.cpp:222 src/mainwindow.cpp:224
 msgid "Docking in System Tray"
+msgstr ""
+
+#: src/mainwindow.cpp:224
+msgid ""
+"<qt><p>Closing the main window will keep Akregator running in the system "
+"tray. Use 'Quit' from the 'File' menu to quit the application.</p></qt>"
 msgstr ""
 
 #: src/feedlist.cpp:166
@@ -1138,7 +1215,7 @@ msgstr "Ў&тиш"
 #. i18n: ectx: Menu (file)
 #. i18n: file: plugins/onlinesync/akregator_onlinesync_plugin.rc:4
 #. i18n: ectx: Menu (file)
-#: rc.cpp:8 rc.cpp:536
+#: rc.cpp:8 rc.cpp:542
 #, fuzzy
 msgid "&File"
 msgstr "&Мақола"
@@ -1174,35 +1251,37 @@ msgstr "Ян&гиликлар тасмаси"
 msgid "&Article"
 msgstr "&Мақола"
 
-#. i18n: file: src/akregator_shell.rc:35
+#. i18n: file: src/akregator_shell.rc:36
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:26
+#. i18n: file: src/akregator_part.rc:73
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:26 rc.cpp:137
 msgid "&Settings"
 msgstr ""
 
-#. i18n: file: src/akregator_shell.rc:48
+#. i18n: file: src/akregator_shell.rc:47
 #. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: src/akregator_part.rc:82
+#. i18n: file: src/akregator_part.rc:83
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:29 rc.cpp:137
+#: rc.cpp:29 rc.cpp:140
 msgid "Main Toolbar"
 msgstr ""
 
-#. i18n: file: src/akregator_shell.rc:52
+#. i18n: file: src/akregator_shell.rc:51
 #. i18n: ectx: ToolBar (browserToolBar)
-#. i18n: file: src/akregator_part.rc:92
+#. i18n: file: src/akregator_part.rc:93
 #. i18n: ectx: ToolBar (browserToolBar)
-#: rc.cpp:32 rc.cpp:140
+#: rc.cpp:32 rc.cpp:143
 #, fuzzy
 #| msgid "Browser"
 msgid "Browser Toolbar"
 msgstr "Браузер"
 
-#. i18n: file: src/akregator_shell.rc:55
+#. i18n: file: src/akregator_shell.rc:54
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
-#. i18n: file: src/akregator_part.rc:100
+#. i18n: file: src/akregator_part.rc:101
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
-#: rc.cpp:35 rc.cpp:143
+#: rc.cpp:35 rc.cpp:146
 msgid "Speech Toolbar"
 msgstr ""
 
@@ -1312,7 +1391,7 @@ msgstr ""
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, sb_maxArticleNumber)
 #. i18n: file: configuration/settings_archive.ui:70
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_MaxArticleNumber)
-#: rc.cpp:95 rc.cpp:479
+#: rc.cpp:95 rc.cpp:485
 msgid "1 article"
 msgstr "1 мақола"
 
@@ -1320,7 +1399,7 @@ msgstr "1 мақола"
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, sb_maxArticleNumber)
 #. i18n: file: configuration/settings_archive.ui:73
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_MaxArticleNumber)
-#: rc.cpp:98 rc.cpp:482
+#: rc.cpp:98 rc.cpp:488
 msgid " articles"
 msgstr " мақола"
 
@@ -1334,7 +1413,7 @@ msgstr ""
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, sb_maxArticleAge)
 #. i18n: file: configuration/settings_archive.ui:106
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_MaxArticleAge)
-#: rc.cpp:104 rc.cpp:488
+#: rc.cpp:104 rc.cpp:494
 msgid "1 day"
 msgstr "1 кун"
 
@@ -1342,7 +1421,7 @@ msgstr "1 кун"
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, sb_maxArticleAge)
 #. i18n: file: configuration/settings_archive.ui:109
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_MaxArticleAge)
-#: rc.cpp:107 rc.cpp:491
+#: rc.cpp:107 rc.cpp:497
 msgid " days"
 msgstr " кун"
 
@@ -1378,13 +1457,13 @@ msgstr "Янгиликлар &тасмаси"
 
 #. i18n: file: interfaces/akregator.kcfg:10
 #. i18n: ectx: whatsthis, entry, group (View)
-#: rc.cpp:149
+#: rc.cpp:152
 msgid "Show Quick Filter Bar"
 msgstr "Қидириш панелини кўрсатиш"
 
 #. i18n: file: interfaces/akregator.kcfg:14
 #. i18n: ectx: label, entry, group (View)
-#: rc.cpp:152
+#: rc.cpp:155
 #, fuzzy
 #| msgid "Show Quick Filter"
 msgid "Status Filter"
@@ -1392,13 +1471,13 @@ msgstr "Қидириш панелини кўрсатиш"
 
 #. i18n: file: interfaces/akregator.kcfg:15
 #. i18n: ectx: whatsthis, entry, group (View)
-#: rc.cpp:155
+#: rc.cpp:158
 msgid "Stores the last status filter setting"
 msgstr ""
 
 #. i18n: file: interfaces/akregator.kcfg:19
 #. i18n: ectx: label, entry, group (View)
-#: rc.cpp:158
+#: rc.cpp:161
 #, fuzzy
 #| msgid "Clear filter"
 msgid "Text Filter"
@@ -1406,19 +1485,19 @@ msgstr "Филтерни тозалаш"
 
 #. i18n: file: interfaces/akregator.kcfg:20
 #. i18n: ectx: whatsthis, entry, group (View)
-#: rc.cpp:161
+#: rc.cpp:164
 msgid "Stores the last search line text"
 msgstr ""
 
 #. i18n: file: interfaces/akregator.kcfg:23
 #. i18n: ectx: label, entry, group (View)
-#: rc.cpp:164
+#: rc.cpp:167
 msgid "View Mode"
 msgstr "Кўриш усули"
 
 #. i18n: file: interfaces/akregator.kcfg:24
 #. i18n: ectx: whatsthis, entry, group (View)
-#: rc.cpp:167
+#: rc.cpp:170
 #, fuzzy
 #| msgid "Article List"
 msgid "Article display mode."
@@ -1426,331 +1505,329 @@ msgstr "Мақолалар рўйхати"
 
 #. i18n: file: interfaces/akregator.kcfg:28
 #. i18n: ectx: label, entry, group (View)
-#: rc.cpp:170
+#: rc.cpp:173
 msgid "Sizes for first splitter"
 msgstr ""
 
 #. i18n: file: interfaces/akregator.kcfg:29
 #. i18n: ectx: whatsthis, entry, group (View)
-#: rc.cpp:173
+#: rc.cpp:176
 msgid "First (usually vertical) splitter widget sizes."
 msgstr ""
 
 #. i18n: file: interfaces/akregator.kcfg:33
 #. i18n: ectx: label, entry, group (View)
-#: rc.cpp:176
+#: rc.cpp:179
 msgid "Sizes for second splitter"
 msgstr ""
 
 #. i18n: file: interfaces/akregator.kcfg:34
 #. i18n: ectx: whatsthis, entry, group (View)
-#: rc.cpp:179
+#: rc.cpp:182
 msgid "Second (usually horizontal) splitter widget sizes."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:66
+#. i18n: file: interfaces/akregator.kcfg:64
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:182
+#: rc.cpp:185
 #, fuzzy
 #| msgid "Archive"
 msgid "Archive Mode"
 msgstr "Архивлаш"
 
-#. i18n: file: interfaces/akregator.kcfg:70
+#. i18n: file: interfaces/akregator.kcfg:68
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:185
+#: rc.cpp:188
 #, fuzzy
 #| msgid "All Articles"
 msgid "Keep All Articles"
 msgstr "Ҳамма мақолалар"
 
-#. i18n: file: interfaces/akregator.kcfg:71
+#. i18n: file: interfaces/akregator.kcfg:69
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: rc.cpp:188
+#: rc.cpp:191
 msgid "Save an unlimited number of articles."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:74
+#. i18n: file: interfaces/akregator.kcfg:72
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:191
+#: rc.cpp:194
 msgid "Limit Number of Articles"
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:75
+#. i18n: file: interfaces/akregator.kcfg:73
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: rc.cpp:194
+#: rc.cpp:197
 msgid "Limit the number of articles in a feed"
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:78
+#. i18n: file: interfaces/akregator.kcfg:76
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:197
+#: rc.cpp:200
 msgid "Delete Expired Articles"
 msgstr "Муддати ўтган мақолаларни ўчириш"
 
-#. i18n: file: interfaces/akregator.kcfg:79
+#. i18n: file: interfaces/akregator.kcfg:77
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: rc.cpp:200
+#: rc.cpp:203
 msgid "Delete expired articles"
 msgstr "Муддати ўтган мақолаларни ўчириш"
 
-#. i18n: file: interfaces/akregator.kcfg:82
+#. i18n: file: interfaces/akregator.kcfg:80
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:203
+#: rc.cpp:206
 msgid "Disable Archiving"
 msgstr "Архивлашни ўчириш"
 
-#. i18n: file: interfaces/akregator.kcfg:83
+#. i18n: file: interfaces/akregator.kcfg:81
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: rc.cpp:206
+#: rc.cpp:209
 #, fuzzy
 #| msgid " (no unread articles)"
 msgid "Do not save any articles"
 msgstr " (ўқилмаган мақола йўқ)"
 
-#. i18n: file: interfaces/akregator.kcfg:88
+#. i18n: file: interfaces/akregator.kcfg:86
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:209
+#: rc.cpp:212
 msgid "Expiry Age"
 msgstr "Муддати ўтиш вақт"
 
-#. i18n: file: interfaces/akregator.kcfg:89
+#. i18n: file: interfaces/akregator.kcfg:87
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: rc.cpp:212
+#: rc.cpp:215
 #, fuzzy
 #| msgid "Delete expired articles"
 msgid "Default expiry age for articles in days."
 msgstr "Муддати ўтган мақолаларни ўчириш"
 
-#. i18n: file: interfaces/akregator.kcfg:93
+#. i18n: file: interfaces/akregator.kcfg:91
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:215
+#: rc.cpp:218
 #, fuzzy
 #| msgid "Article List"
 msgid "Article Limit"
 msgstr "Мақолалар рўйхати"
 
-#. i18n: file: interfaces/akregator.kcfg:94
+#. i18n: file: interfaces/akregator.kcfg:92
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: rc.cpp:218
+#: rc.cpp:221
 msgid "Number of articles to keep per feed."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:98
+#. i18n: file: interfaces/akregator.kcfg:96
 #. i18n: ectx: label, entry, group (Archive)
-#: rc.cpp:221
+#: rc.cpp:224
 #, fuzzy
 #| msgid "Delete Expired Articles"
 msgid "Do Not Expire Important Articles"
 msgstr "Муддати ўтган мақолаларни ўчириш"
 
-#. i18n: file: interfaces/akregator.kcfg:99
+#. i18n: file: interfaces/akregator.kcfg:97
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: rc.cpp:224
+#: rc.cpp:227
 msgid ""
 "When this option is enabled, articles you marked as important will not be "
 "removed when limit the archive size by either age or number of the articles."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:105
+#. i18n: file: interfaces/akregator.kcfg:103
 #. i18n: ectx: label, entry, group (Network)
-#: rc.cpp:227
+#: rc.cpp:230
 #, fuzzy
 #| msgid "&Abort Fetches"
 msgid "Concurrent Fetches"
 msgstr "Олишни тў&хтатиш"
 
-#. i18n: file: interfaces/akregator.kcfg:106
+#. i18n: file: interfaces/akregator.kcfg:104
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: rc.cpp:230
+#: rc.cpp:233
 msgid "Number of concurrent fetches"
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:110
+#. i18n: file: interfaces/akregator.kcfg:108
 #. i18n: ectx: label, entry, group (Network)
-#: rc.cpp:233
+#: rc.cpp:236
 msgid "Use HTML Cache"
 msgstr "HTML кэшидан фойдаланиш"
 
-#. i18n: file: interfaces/akregator.kcfg:111
+#. i18n: file: interfaces/akregator.kcfg:109
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: rc.cpp:236
+#: rc.cpp:239
 msgid ""
 "Use the KDE-wide HTML cache settings when downloading feeds, to avoid "
 "unnecessary traffic. Disable only when necessary."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:115
+#. i18n: file: interfaces/akregator.kcfg:113
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: rc.cpp:239
+#: rc.cpp:242
 msgid ""
 "This option allows user to specify custom user-agent string instead of using "
 "the default one. This is here because some proxies may interrupt the "
 "connection because of having \"gator\" in the name."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:121
+#. i18n: file: interfaces/akregator.kcfg:119
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:242
+#: rc.cpp:245
 msgid "Fetch on startup"
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:122
+#. i18n: file: interfaces/akregator.kcfg:120
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:245
+#: rc.cpp:248
 msgid "Fetch feedlist on startup."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:126
+#. i18n: file: interfaces/akregator.kcfg:124
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:248
+#: rc.cpp:251
 #, fuzzy
 #| msgid "Ma&rk All Feeds as Read"
 msgid "Mark all feeds as read on startup"
 msgstr "Ҳамма янгили&клар тасмасини ўқилган деб белгилаш"
 
-#. i18n: file: interfaces/akregator.kcfg:127
+#. i18n: file: interfaces/akregator.kcfg:125
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:251
+#: rc.cpp:254
 #, fuzzy
 #| msgid "Ma&rk All Feeds as Read"
 msgid "Mark all feeds as read on startup."
 msgstr "Ҳамма янгили&клар тасмасини ўқилган деб белгилаш"
 
-#. i18n: file: interfaces/akregator.kcfg:131
+#. i18n: file: interfaces/akregator.kcfg:129
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:254
+#: rc.cpp:257
 #, fuzzy
 #| msgid "&Use default settings"
 msgid "Use interval fetching"
 msgstr "&Андоза мосламалардан фойдаланиш"
 
-#. i18n: file: interfaces/akregator.kcfg:132
+#. i18n: file: interfaces/akregator.kcfg:130
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:258
+#: rc.cpp:261
 #, no-c-format, kde-format
 msgid "Fetch all feeds every %1 minutes."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:136
+#. i18n: file: interfaces/akregator.kcfg:134
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:261
+#: rc.cpp:264
 msgid "Interval for autofetching"
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:137
+#. i18n: file: interfaces/akregator.kcfg:135
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:264
+#: rc.cpp:267
 msgid "Interval for autofetching in minutes."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:141
+#. i18n: file: interfaces/akregator.kcfg:139
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:267
+#: rc.cpp:270
 msgid "Use notifications"
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:142
+#. i18n: file: interfaces/akregator.kcfg:140
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:270
+#: rc.cpp:273
 msgid "Specifies if the balloon notifications are used or not."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:146
+#. i18n: file: interfaces/akregator.kcfg:144
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:273
+#: rc.cpp:276
 msgid "Show tray icon"
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:147
+#. i18n: file: interfaces/akregator.kcfg:145
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:276
+#: rc.cpp:279
 msgid "Specifies if the tray icon is shown or not."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:153
+#. i18n: file: interfaces/akregator.kcfg:151
 #. i18n: ectx: label, entry, group (Browser)
-#: rc.cpp:279
+#: rc.cpp:282
 msgid "Show close buttons on tabs"
 msgstr "Табларда ёпиш тугмасини кўрсатиш"
 
-#. i18n: file: interfaces/akregator.kcfg:154
+#. i18n: file: interfaces/akregator.kcfg:152
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: rc.cpp:282
+#: rc.cpp:285
 msgid "Show close buttons on tabs instead of icons"
 msgstr "Табларда веб-сайт нишонча ўрнига ёпиш тугмасини кўрсатиш"
 
-#. i18n: file: interfaces/akregator.kcfg:159
+#. i18n: file: interfaces/akregator.kcfg:157
 #. i18n: ectx: label, entry, group (Browser)
-#. i18n: file: configuration/settings_browser.ui:174
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseKdeDefault)
-#: rc.cpp:285 rc.cpp:461
+#: rc.cpp:288
 msgid "Use default KDE web browser"
 msgstr "Андоза веб-браузеридан фойдаланиш"
 
-#. i18n: file: interfaces/akregator.kcfg:160
+#. i18n: file: interfaces/akregator.kcfg:158
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: rc.cpp:288
+#: rc.cpp:291
 msgid "Use KDE web browser when opening in external browser."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:164
+#. i18n: file: interfaces/akregator.kcfg:162
 #. i18n: ectx: label, entry, group (Browser)
 #. i18n: file: configuration/settings_browser.ui:167
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseCustomCommand)
-#: rc.cpp:291 rc.cpp:458
+#: rc.cpp:294 rc.cpp:464
 msgid "Use this command:"
 msgstr "Қуйидаги дастурни ишлатиш:"
 
-#. i18n: file: interfaces/akregator.kcfg:165
+#. i18n: file: interfaces/akregator.kcfg:163
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: rc.cpp:294
+#: rc.cpp:297
 msgid "Use the specified command when opening in external browser."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:169
+#. i18n: file: interfaces/akregator.kcfg:167
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: rc.cpp:298
+#: rc.cpp:301
 #, no-c-format
 msgid "Command to launch external browser.  URL will substitute for %u."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:173
+#. i18n: file: interfaces/akregator.kcfg:171
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: rc.cpp:301
+#: rc.cpp:304
 msgid "What the click with left mouse button should do."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:182
+#. i18n: file: interfaces/akregator.kcfg:180
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: rc.cpp:304
+#: rc.cpp:307
 msgid "What the click with middle mouse button should do."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:207
+#. i18n: file: interfaces/akregator.kcfg:205
 #. i18n: ectx: label, entry, group (Advanced)
-#: rc.cpp:307
+#: rc.cpp:310
 #, fuzzy
 #| msgid "Archive"
 msgid "Archive Backend"
 msgstr "Архивлаш"
 
-#. i18n: file: interfaces/akregator.kcfg:211
+#. i18n: file: interfaces/akregator.kcfg:209
 #. i18n: ectx: whatsthis, entry (UseMarkReadDelay), group (Advanced)
-#: rc.cpp:310
+#: rc.cpp:313
 msgid "Whether to delay before marking an article as read upon selecting it."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:215
+#. i18n: file: interfaces/akregator.kcfg:213
 #. i18n: ectx: whatsthis, entry (MarkReadDelay), group (Advanced)
-#: rc.cpp:313
+#: rc.cpp:316
 msgid ""
 "Configurable delay between selecting an article and it being marked as read."
 msgstr ""
 
-#. i18n: file: interfaces/akregator.kcfg:219
+#. i18n: file: interfaces/akregator.kcfg:217
 #. i18n: ectx: whatsthis, entry, group (Advanced)
-#: rc.cpp:316
+#: rc.cpp:319
 msgid "Resets the quick filter when changing feeds."
 msgstr ""
 
@@ -1758,25 +1835,25 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::SettingsGeneral)
 #. i18n: file: configuration/settings_appearance.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::SettingsAppearance)
-#: rc.cpp:319 rc.cpp:361
+#: rc.cpp:322 rc.cpp:364
 msgid "General"
 msgstr "Умумий"
 
 #. i18n: file: configuration/settings_general.ui:54
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:322
+#: rc.cpp:325
 msgid "Global"
 msgstr "Умумий"
 
 #. i18n: file: configuration/settings_general.ui:78
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTrayIcon)
-#: rc.cpp:325
+#: rc.cpp:328
 msgid "Show tra&y icon"
 msgstr ""
 
 #. i18n: file: configuration/settings_general.ui:101
 #. i18n: ectx: property (text), widget (QLabel, autoFetchIntervalLabel)
-#: rc.cpp:328
+#: rc.cpp:331
 #, fuzzy
 #| msgid "&Fetch Feed"
 msgid "Fetch feeds every:"
@@ -1784,19 +1861,19 @@ msgstr "Янгиликлар тасмасини &олиш"
 
 #. i18n: file: configuration/settings_general.ui:111
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseNotifications)
-#: rc.cpp:331
+#: rc.cpp:334
 msgid "Select this if you want to get notified when there are new articles."
 msgstr ""
 
 #. i18n: file: configuration/settings_general.ui:114
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseNotifications)
-#: rc.cpp:334
+#: rc.cpp:337
 msgid "Use &notifications for all feeds"
 msgstr ""
 
 #. i18n: file: configuration/settings_general.ui:121
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseIntervalFetch)
-#: rc.cpp:337
+#: rc.cpp:340
 #, fuzzy
 #| msgid "&Use default settings"
 msgid "&Use interval fetching"
@@ -1804,19 +1881,19 @@ msgstr "&Андоза мосламалардан фойдаланиш"
 
 #. i18n: file: configuration/settings_general.ui:131
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_AutoFetchInterval)
-#: rc.cpp:340
+#: rc.cpp:343
 msgid "1 minute"
 msgstr "1 дақиқа"
 
 #. i18n: file: configuration/settings_general.ui:134
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_AutoFetchInterval)
-#: rc.cpp:343
+#: rc.cpp:346
 msgid " minutes"
 msgstr " дақиқа"
 
 #. i18n: file: configuration/settings_general.ui:153
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:346
+#: rc.cpp:349
 #, fuzzy
 #| msgid "Status"
 msgid "Startup"
@@ -1824,7 +1901,7 @@ msgstr "Ҳолати"
 
 #. i18n: file: configuration/settings_general.ui:177
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FetchOnStartup)
-#: rc.cpp:349
+#: rc.cpp:352
 #, fuzzy
 #| msgid "Fe&tch All Feeds"
 msgid "Fetch all fee&ds on startup"
@@ -1832,7 +1909,7 @@ msgstr "Ҳамма &янгиликлар тасмасини олиш"
 
 #. i18n: file: configuration/settings_general.ui:184
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MarkAllFeedsReadOnStartup)
-#: rc.cpp:352
+#: rc.cpp:355
 #, fuzzy
 #| msgid "Ma&rk All Feeds as Read"
 msgid "Mark &all feeds as read on startup"
@@ -1840,144 +1917,150 @@ msgstr "Ҳамма янгили&клар тасмасини ўқилган де�
 
 #. i18n: file: configuration/settings_general.ui:194
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:355
+#: rc.cpp:358
 msgid "Network"
 msgstr "Тармоқ"
 
 #. i18n: file: configuration/settings_general.ui:218
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseHTMLCache)
-#: rc.cpp:358
+#: rc.cpp:361
 msgid "Use the &browser cache (less network traffic)"
 msgstr ""
 
 #. i18n: file: configuration/settings_appearance.ui:38
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:364
+#: rc.cpp:367
 #, fuzzy
 msgid "Article List Colors"
 msgstr "Мақолалар рўйхати"
 
 #. i18n: file: configuration/settings_appearance.ui:98
 #. i18n: ectx: property (text), widget (QLabel, lbl_newArticles)
-#: rc.cpp:367
+#: rc.cpp:370
 #, fuzzy
 msgid "New articles:"
 msgstr " мақола"
 
 #. i18n: file: configuration/settings_appearance.ui:122
 #. i18n: ectx: property (text), widget (QLabel, lbl_unreadArticles)
-#: rc.cpp:370
+#: rc.cpp:373
 #, fuzzy
 msgid "Unread articles:"
 msgstr " (ўқилмаган мақола йўқ)"
 
 #. i18n: file: configuration/settings_appearance.ui:131
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseCustomColors)
-#: rc.cpp:373
+#: rc.cpp:376
 msgid "Use custom colors"
 msgstr ""
 
 #. i18n: file: configuration/settings_appearance.ui:141
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:376
+#: rc.cpp:379
 #, fuzzy
 msgid "Font Size"
 msgstr "Шрифтни &катталаштириш"
 
 #. i18n: file: configuration/settings_appearance.ui:255
 #. i18n: ectx: property (text), widget (QLabel, lbl_MinimumFontSize)
-#: rc.cpp:379
+#: rc.cpp:382
 msgid "Minimum font size:"
 msgstr "Шрифтнинг энг кичик ўлчами:"
 
 #. i18n: file: configuration/settings_appearance.ui:262
 #. i18n: ectx: property (text), widget (QLabel, lbl_MediumFontSize)
-#: rc.cpp:382
+#: rc.cpp:385
 msgid "Medium font size:"
 msgstr "Шрифтнинг ўртача ўлчами:"
 
 #. i18n: file: configuration/settings_appearance.ui:272
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:385
+#: rc.cpp:388
 #, fuzzy
 msgid "Fonts"
 msgstr "Изоҳлар"
 
 #. i18n: file: configuration/settings_appearance.ui:313
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:388
+#: rc.cpp:391
 msgid "Standard font:"
 msgstr "Андоза шрифт:"
 
 #. i18n: file: configuration/settings_appearance.ui:320
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:391
+#: rc.cpp:394
 msgid "Fixed font:"
 msgstr "Эни ўзгармайдиган шрифт:"
 
 #. i18n: file: configuration/settings_appearance.ui:327
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:394
+#: rc.cpp:397
 msgid "Serif font:"
 msgstr "Serif шрифт:"
 
 #. i18n: file: configuration/settings_appearance.ui:334
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:397
+#: rc.cpp:400
 msgid "Sans serif font:"
 msgstr "Sans serif шрифт:"
 
 #. i18n: file: configuration/settings_appearance.ui:393
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UnderlineLinks)
-#: rc.cpp:400
+#: rc.cpp:403
 msgid "&Underline links"
 msgstr "Боғларни т&агини чизиш"
 
-#. i18n: file: configuration/settings_advancedbase.ui:25
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:403
-msgid "Article List"
-msgstr "Мақолалар рўйхати"
-
-#. i18n: file: configuration/settings_advancedbase.ui:45
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMarkReadDelay)
-#: rc.cpp:406
-#, fuzzy
-#| msgid "Mark selected article as read"
-msgid "Mar&k selected article read after"
-msgstr "Танланган мақолани ўқилган деб белгилаш"
-
-#. i18n: file: configuration/settings_advancedbase.ui:58
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MarkReadDelay)
-#: rc.cpp:409
-msgid " sec"
-msgstr " сония"
-
-#. i18n: file: configuration/settings_advancedbase.ui:89
+#. i18n: file: configuration/settings_advancedbase.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: file: configuration/settings_archive.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::SettingsArchive)
-#: rc.cpp:412 rc.cpp:464
+#: rc.cpp:406 rc.cpp:470
 msgid "Archive"
 msgstr "Архивлаш"
 
-#. i18n: file: configuration/settings_advancedbase.ui:109
+#. i18n: file: configuration/settings_advancedbase.ui:28
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:415
+#: rc.cpp:409
 #, fuzzy
 #| msgid "Archive"
 msgid "Archive backend:"
 msgstr "Архивлаш"
 
-#. i18n: file: configuration/settings_advancedbase.ui:119
+#. i18n: file: configuration/settings_advancedbase.ui:38
 #. i18n: ectx: property (text), widget (QPushButton, pbBackendConfigure)
-#: rc.cpp:418
+#: rc.cpp:412
 msgid "&Configure..."
 msgstr "&Мослаш..."
 
+#. i18n: file: configuration/settings_advancedbase.ui:50
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:415
+msgid "Article List"
+msgstr "Мақолалар рўйхати"
+
+#. i18n: file: configuration/settings_advancedbase.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMarkReadDelay)
+#: rc.cpp:418
+#, fuzzy
+#| msgid "Mark selected article as read"
+msgid "Mar&k selected article read after"
+msgstr "Танланган мақолани ўқилган деб белгилаш"
+
+#. i18n: file: configuration/settings_advancedbase.ui:71
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MarkReadDelay)
+#: rc.cpp:421
+msgid " sec"
+msgstr " сония"
+
+#. i18n: file: configuration/settings_advancedbase.ui:99
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetQuickFilterOnNodeChange)
+#: rc.cpp:424
+msgid "Reset search bar when changing feeds"
+msgstr ""
+
 #. i18n: file: configuration/settings_browser.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::SettingsBrowser)
-#: rc.cpp:421
+#: rc.cpp:427
 #, fuzzy
 #| msgid "Open in External Browser"
 msgid "ExternalBrowser"
@@ -1985,7 +2068,7 @@ msgstr "Ташқи браузерда очиш"
 
 #. i18n: file: configuration/settings_browser.ui:28
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CloseButtonOnTabs)
-#: rc.cpp:424
+#: rc.cpp:430
 #, fuzzy
 #| msgid "Show close buttons on tabs"
 msgid "Show tab close button on hover"
@@ -1995,38 +2078,46 @@ msgstr "Табларда ёпиш тугмасини кўрсатиш"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LMBBehaviour)
 #. i18n: file: configuration/settings_browser.ui:130
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
-#: rc.cpp:430 rc.cpp:445
+#: rc.cpp:436 rc.cpp:451
 msgid "Open in Background Tab"
 msgstr "Орқа фон табда очиш"
 
 #. i18n: file: configuration/settings_browser.ui:94
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:436
+#: rc.cpp:442
 msgid "Middle mouse click:"
 msgstr "Сичқончани ўрта тугмаси:"
 
 #. i18n: file: configuration/settings_browser.ui:109
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:439
+#: rc.cpp:445
 msgid "Left mouse click:"
 msgstr "Сичқончанинг чап тугмаси:"
 
 #. i18n: file: configuration/settings_browser.ui:145
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:451
+#: rc.cpp:457
 msgid "For External Browsing"
 msgstr "Ташқи браузер учун"
 
 #. i18n: file: configuration/settings_browser.ui:160
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_ExternalBrowserCustomCommand)
-#: rc.cpp:455
+#: rc.cpp:461
 #, no-c-format
 msgid "firefox %u"
 msgstr "firefox %u"
 
+#. i18n: file: configuration/settings_browser.ui:174
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseKdeDefault)
+#: rc.cpp:467
+#, fuzzy
+#| msgid "Use default KDE web browser"
+msgid "Use default web browser"
+msgstr "Андоза веб-браузеридан фойдаланиш"
+
 #. i18n: file: configuration/settings_archive.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:467
+#: rc.cpp:473
 #, fuzzy
 #| msgid "Disable Archiving"
 msgid "Default Archive Settings"
@@ -2034,13 +2125,13 @@ msgstr "Архивлашни ўчириш"
 
 #. i18n: file: configuration/settings_archive.ui:38
 #. i18n: ectx: property (text), widget (QRadioButton, rb_DisableArchiving)
-#: rc.cpp:470
+#: rc.cpp:476
 msgid "Disable archiving"
 msgstr "Архивлашни ўчириш"
 
 #. i18n: file: configuration/settings_archive.ui:45
 #. i18n: ectx: property (text), widget (QRadioButton, rb_KeepAllArticles)
-#: rc.cpp:473
+#: rc.cpp:479
 #, fuzzy
 #| msgid " articles"
 msgid "Keep all articles"
@@ -2048,13 +2139,13 @@ msgstr " мақола"
 
 #. i18n: file: configuration/settings_archive.ui:60
 #. i18n: ectx: property (text), widget (QRadioButton, rb_LimitArticleNumber)
-#: rc.cpp:476
+#: rc.cpp:482
 msgid "Limit feed archive size to:"
 msgstr ""
 
 #. i18n: file: configuration/settings_archive.ui:96
 #. i18n: ectx: property (text), widget (QRadioButton, rb_LimitArticleAge)
-#: rc.cpp:485
+#: rc.cpp:491
 #, fuzzy
 #| msgid "Delete Article"
 msgid "Delete articles older than: "
@@ -2062,7 +2153,7 @@ msgstr "Мақолани ўчириш"
 
 #. i18n: file: configuration/settings_archive.ui:127
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DoNotExpireImportantArticles)
-#: rc.cpp:494
+#: rc.cpp:500
 #, fuzzy
 #| msgid "Delete expired articles"
 msgid "Do not expire important articles"
@@ -2070,44 +2161,50 @@ msgstr "Муддати ўтган мақолаларни ўчириш"
 
 #. i18n: file: plugins/onlinesync/ui/configurationdialogadd.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:497
+#: rc.cpp:503
 msgid "Type:"
 msgstr ""
 
 #. i18n: file: plugins/onlinesync/ui/configurationdialogadd.ui:52
 #. i18n: ectx: property (text), widget (QLabel, lAccountGoogleReader)
-#: rc.cpp:500
+#: rc.cpp:506
 msgid "Login:"
 msgstr ""
 
 #. i18n: file: plugins/onlinesync/ui/configurationdialogadd.ui:69
 #. i18n: ectx: property (text), widget (QLabel, lPasswordGoogleReader)
-#: rc.cpp:503
+#: rc.cpp:509
 msgid "Password:"
 msgstr ""
 
 #. i18n: file: plugins/onlinesync/ui/configurationdialogadd.ui:87
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:506
+#: rc.cpp:512
 #, fuzzy
 msgid "File:"
 msgstr "&Мақола"
 
 #. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:18
 #. i18n: ectx: property (text), widget (QLabel, lConfigName)
-#: rc.cpp:509
+#: rc.cpp:515
 msgid "Online reader accounts:"
 msgstr ""
 
 #. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:36
 #. i18n: ectx: property (text), widget (QTreeWidget, list_readerList)
-#: rc.cpp:512
+#: rc.cpp:518
 msgid "Type"
+msgstr ""
+
+#. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, list_readerList)
+#: rc.cpp:521
+msgid "Description"
 msgstr ""
 
 #. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:51
 #. i18n: ectx: property (text), widget (QPushButton, b_add)
-#: rc.cpp:518
+#: rc.cpp:524
 #, fuzzy
 #| msgid "&Add Feed..."
 msgid "Add..."
@@ -2115,7 +2212,7 @@ msgstr "Янгиликлар тасмасини қў&шиш"
 
 #. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:58
 #. i18n: ectx: property (text), widget (QPushButton, b_update)
-#: rc.cpp:521
+#: rc.cpp:527
 #, fuzzy
 #| msgid "Loading..."
 msgid "Modify..."
@@ -2123,13 +2220,13 @@ msgstr "Юкланмоқда..."
 
 #. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:65
 #. i18n: ectx: property (text), widget (QPushButton, b_remove)
-#: rc.cpp:524
+#: rc.cpp:530
 msgid "Remove"
 msgstr ""
 
 #. i18n: file: plugins/onlinesync/ui/configurationwidget.ui:94
 #. i18n: ectx: property (text), widget (QLabel, lDeletePolicy)
-#: rc.cpp:527
+#: rc.cpp:533
 #, fuzzy
 #| msgid "Delete Feed"
 msgid "Delete feeds"
@@ -2137,63 +2234,63 @@ msgstr "Янгиликлар тасмасини олиб ташлаш"
 
 #. i18n: file: plugins/onlinesync/onlinesyncsettings.kcfg:9
 #. i18n: ectx: label, entry, group (Foo)
-#: rc.cpp:530
+#: rc.cpp:536
 msgid "Bar Settings"
 msgstr ""
 
 #. i18n: file: plugins/onlinesync/onlinesyncsettings.kcfg:10
 #. i18n: ectx: whatsthis, entry, group (Foo)
-#: rc.cpp:533
+#: rc.cpp:539
 msgid "Bar!"
 msgstr ""
 
-#: plugins/onlinesync/ui/configurationwidget.cpp:19
+#: plugins/onlinesync/ui/configurationwidget.cpp:43
 msgid "Nothing"
 msgstr ""
 
-#: plugins/onlinesync/ui/configurationwidget.cpp:20
+#: plugins/onlinesync/ui/configurationwidget.cpp:44
 msgid "Categories"
 msgstr ""
 
-#: plugins/onlinesync/ui/configurationwidget.cpp:22
+#: plugins/onlinesync/ui/configurationwidget.cpp:46
 msgid "Ask"
 msgstr ""
 
-#: plugins/onlinesync/ui/configurationdialog.cpp:13
+#: plugins/onlinesync/ui/configurationdialog.cpp:37
 msgid "Online Reader Configuration"
 msgstr ""
 
-#: plugins/onlinesync/ui/configurationdialogadd.cpp:19
+#: plugins/onlinesync/ui/configurationdialogadd.cpp:43
 msgid "Modify Online Reader Account"
 msgstr ""
 
-#: plugins/onlinesync/ui/configurationdialogadd.cpp:20
+#: plugins/onlinesync/ui/configurationdialogadd.cpp:44
 msgid "Google Reader"
 msgstr ""
 
-#: plugins/onlinesync/sync/googlereader.cpp:265
+#: plugins/onlinesync/sync/googlereader.cpp:275
 msgid "Authentication failed, synchronization aborted."
 msgstr ""
 
-#: plugins/onlinesync/sync/feedsync.cpp:137
+#: plugins/onlinesync/sync/feedsync.cpp:161
 msgid ""
 "Some categories and feeds have been marked for removal. Do you want to "
 "delete them?"
 msgstr ""
 
-#: plugins/onlinesync/sync/feedsync.cpp:139
+#: plugins/onlinesync/sync/feedsync.cpp:163
 msgid "Remove nothing"
 msgstr ""
 
-#: plugins/onlinesync/sync/feedsync.cpp:140
+#: plugins/onlinesync/sync/feedsync.cpp:164
 msgid "Remove only categories"
 msgstr ""
 
-#: plugins/onlinesync/sync/feedsync.cpp:141
+#: plugins/onlinesync/sync/feedsync.cpp:165
 msgid "Remove feeds"
 msgstr ""
 
-#: plugins/onlinesync/sync/feedsync.cpp:193
+#: plugins/onlinesync/sync/feedsync.cpp:217
 msgid "An error occurred, synchronization aborted."
 msgstr ""
 
@@ -2237,38 +2334,8 @@ msgstr "Юкланмоқда..."
 msgid "Metakit"
 msgstr ""
 
-#, fuzzy
-#~| msgid "<b>Homepage:</b> <a href=\"%1\">%2</a>"
-#~ msgid "<a href=\"%1\">%2</a> %3"
-#~ msgstr "<b>Веб-саҳифа:</b> <a href=\"%1\">%2</a>"
-
-#, fuzzy
-#~| msgid "Feeds"
-#~ msgctxt "Feedlist's column header"
-#~ msgid "Feeds"
-#~ msgstr "Янгиликлар тасмалари"
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgctxt "Articlelist's column header"
-#~ msgid "Date"
-#~ msgstr "Сана"
-
-#, fuzzy
-#~ msgctxt "Articlelist's column header"
-#~ msgid "Author"
-#~ msgstr "Муаллифлар"
-
-#, fuzzy
-#~| msgid "Unread"
-#~ msgctxt "Unread articles filter"
-#~ msgid "Unread"
-#~ msgstr "Ўқилмаган"
-
-#, fuzzy
-#~| msgid "Use default KDE web browser"
-#~ msgid "Use default web browser"
-#~ msgstr "Андоза веб-браузеридан фойдаланиш"
+#~ msgid "Overwrite"
+#~ msgstr "Алмаштириш"
 
 #~ msgid "Article"
 #~ msgstr "Мақола"
