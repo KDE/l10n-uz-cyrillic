@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-04 12:05+0100\n"
+"POT-Creation-Date: 2009-02-06 11:01+0100\n"
 "PO-Revision-Date: 2007-01-01 23:26+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1088,8 +1088,8 @@ msgid "View"
 msgstr "Кўриш"
 
 #: libkopete/private/kopeteviewmanager.cpp:335
-#: protocols/yahoo/yahooaccount.cpp:1111 protocols/yahoo/yahooaccount.cpp:1563
-#: protocols/yahoo/yahooaccount.cpp:1774
+#: protocols/yahoo/yahooaccount.cpp:1164 protocols/yahoo/yahooaccount.cpp:1616
+#: protocols/yahoo/yahooaccount.cpp:1827
 #, fuzzy
 #| msgid "Ignore"
 msgctxt "@action"
@@ -14884,7 +14884,7 @@ msgstr ""
 #: plugins/otr/authenticationwizard.cpp:88
 #, fuzzy
 #| msgid "Enter Invitation Message"
-msgctxt "@info"
+msgctxt "@title"
 msgid "Select authentication method"
 msgstr "Таклиф хабарини киритинг"
 
@@ -14903,7 +14903,7 @@ msgid "Manual fingerprint verification"
 msgstr "Рўйхатдан ўтиш муваффақиятсиз тугади: %1"
 
 #: plugins/otr/authenticationwizard.cpp:121
-msgctxt "@info"
+msgctxt "@title"
 msgid "Question and Answer"
 msgstr ""
 
@@ -14921,7 +14921,6 @@ msgid "Enter the answer to your question:"
 msgstr "Янги гуруҳнинг номини киритинг:"
 
 #: plugins/otr/authenticationwizard.cpp:131
-#: plugins/otr/authenticationwizard.cpp:156
 #, fuzzy, kde-format
 #| msgid "Registration failed: %1"
 msgctxt "@info"
@@ -14937,7 +14936,7 @@ msgid ""
 msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:152
-msgctxt "@info"
+msgctxt "@title"
 msgid "Shared Secret"
 msgstr ""
 
@@ -14947,6 +14946,13 @@ msgstr ""
 msgctxt "@info"
 msgid "Enter a secret passphrase known only to you and %1:"
 msgstr "Филтр учун янги ном киритинг:"
+
+#: plugins/otr/authenticationwizard.cpp:156
+#, fuzzy, kde-format
+#| msgid "Registration failed: %1"
+msgctxt "@title"
+msgid "Authentication with %1"
+msgstr "Рўйхатдан ўтиш муваффақиятсиз тугади: %1"
 
 #: plugins/otr/authenticationwizard.cpp:157
 #, fuzzy, kde-format
@@ -14958,7 +14964,7 @@ msgstr "Филтр учун янги ном киритинг:"
 #: plugins/otr/authenticationwizard.cpp:168
 #, fuzzy
 #| msgid "Registration failed: %1"
-msgctxt "@info"
+msgctxt "@title"
 msgid "Manual Verification"
 msgstr "Рўйхатдан ўтиш муваффақиятсиз тугади: %1"
 
@@ -14971,17 +14977,20 @@ msgid ""
 msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:178
+#, fuzzy
+msgctxt "@item:inlistbox ...verified that"
 msgid "I have not"
-msgstr ""
+msgstr "&Олиб ташлаш"
 
 #: plugins/otr/authenticationwizard.cpp:179
 #, fuzzy
+msgctxt "@item:inlistbox ...verified that"
 msgid "I have"
 msgstr "&Олиб ташлаш"
 
 #: plugins/otr/authenticationwizard.cpp:188
 #, kde-format
-msgctxt "@info"
+msgctxt "@info:label I have..."
 msgid "verified that this is in fact the correct fingerprint for %1"
 msgstr ""
 
@@ -15039,6 +15048,7 @@ msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:327
 #, fuzzy
+msgctxt "@title"
 msgid "Authenticating contact..."
 msgstr "Алоқани кўчириш"
 
@@ -19685,25 +19695,25 @@ msgstr ""
 msgid "&Join chat room..."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:714
+#: protocols/yahoo/yahooaccount.cpp:733
 #, kde-format
 msgid ""
 "Could not log into the Yahoo service: your account has been locked.\n"
 "Visit %1 to reactivate it."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:723
+#: protocols/yahoo/yahooaccount.cpp:742
 msgid ""
 "Could not log into the Yahoo service: the username specified was invalid."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:732
+#: protocols/yahoo/yahooaccount.cpp:751
 msgid ""
 "You have been logged out of the Yahoo service, possibly due to a duplicate "
 "login."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:764
+#: protocols/yahoo/yahooaccount.cpp:783
 #, kde-format
 msgid ""
 "%1 has been disconnected.\n"
@@ -19711,7 +19721,7 @@ msgid ""
 "%2 - %3"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:777
+#: protocols/yahoo/yahooaccount.cpp:796
 #, kde-format
 msgid ""
 "There was an error while connecting %1 to the Yahoo server.\n"
@@ -19719,7 +19729,7 @@ msgid ""
 "%2 - %3"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:788 protocols/yahoo/yahooaccount.cpp:791
+#: protocols/yahoo/yahooaccount.cpp:807 protocols/yahoo/yahooaccount.cpp:810
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -19727,31 +19737,31 @@ msgid ""
 "Reason: %2"
 msgstr "Сабаб:"
 
-#: protocols/yahoo/yahooaccount.cpp:789 protocols/yahoo/yahooaccount.cpp:792
-#: protocols/yahoo/yahooaccount.cpp:1377 protocols/yahoo/yahooaccount.cpp:1571
-#: protocols/yahoo/yahooaccount.cpp:1669 protocols/yahoo/yahooaccount.cpp:1684
+#: protocols/yahoo/yahooaccount.cpp:808 protocols/yahoo/yahooaccount.cpp:811
+#: protocols/yahoo/yahooaccount.cpp:1430 protocols/yahoo/yahooaccount.cpp:1624
+#: protocols/yahoo/yahooaccount.cpp:1722 protocols/yahoo/yahooaccount.cpp:1737
 #: protocols/yahoo/yahooeditaccount.cpp:171
 msgid "Yahoo Plugin"
 msgstr "Yahoo плагин"
 
-#: protocols/yahoo/yahooaccount.cpp:813
+#: protocols/yahoo/yahooaccount.cpp:866
 #, kde-format
 msgid "User %1 has granted your authorization request."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:825
+#: protocols/yahoo/yahooaccount.cpp:878
 #, kde-format
 msgid ""
 "User %1 has rejected your authorization request.\n"
 "%2"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1069
+#: protocols/yahoo/yahooaccount.cpp:1122
 msgctxt "This string is shown when the user is buzzed by a contact"
 msgid "Buzz"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1110
+#: protocols/yahoo/yahooaccount.cpp:1163
 #, kde-format
 msgid ""
 "%1 has invited you to join a conference with %2.\n"
@@ -19761,58 +19771,58 @@ msgid ""
 "Accept?"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1111 protocols/yahoo/yahooaccount.cpp:1563
-#: protocols/yahoo/yahooaccount.cpp:1774
+#: protocols/yahoo/yahooaccount.cpp:1164 protocols/yahoo/yahooaccount.cpp:1616
+#: protocols/yahoo/yahooaccount.cpp:1827
 #, fuzzy
 #| msgid "Accept"
 msgctxt "@action"
 msgid "Accept"
 msgstr "Қабул қилиш"
 
-#: protocols/yahoo/yahooaccount.cpp:1204
+#: protocols/yahoo/yahooaccount.cpp:1257
 #, fuzzy, kde-format
 #| msgid "%1 has been invited to join this conversation."
 msgid "%1 has declined to join the conference: \"%2\""
 msgstr "%1 суҳбатга қўшилиш учун таклиф қилинди."
 
-#: protocols/yahoo/yahooaccount.cpp:1520
+#: protocols/yahoo/yahooaccount.cpp:1573
 #, kde-format
 msgid "You have one unread message in your Yahoo inbox."
 msgid_plural "You have %1 unread messages in your Yahoo inbox."
 msgstr[0] ""
 
-#: protocols/yahoo/yahooaccount.cpp:1532
+#: protocols/yahoo/yahooaccount.cpp:1585
 #, kde-format
 msgid "You have a message from %1 in your Yahoo inbox."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1562
+#: protocols/yahoo/yahooaccount.cpp:1615
 #, kde-format
 msgid "%1 has invited you to view his/her webcam. Accept?"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1571
+#: protocols/yahoo/yahooaccount.cpp:1624
 #, kde-format
 msgid "Webcam for %1 is not available."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1669
+#: protocols/yahoo/yahooaccount.cpp:1722
 #: protocols/yahoo/yahooeditaccount.cpp:171
 msgid ""
 "<qt>The selected buddy icon could not be opened. <br />Please set a new "
 "buddy icon.</qt>"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1684
+#: protocols/yahoo/yahooaccount.cpp:1737
 msgid "An error occurred when trying to change the display picture."
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1773
+#: protocols/yahoo/yahooaccount.cpp:1826
 #, kde-format
 msgid "%1 wants to view your webcam. Grant access?"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:1911
+#: protocols/yahoo/yahooaccount.cpp:1964
 #, fuzzy, kde-format
 msgid "You are now in %1 (%2)"
 msgstr "Энди сиз %1 деб белгилангансиз."
