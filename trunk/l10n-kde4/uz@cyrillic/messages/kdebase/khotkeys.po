@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-12 10:23+0100\n"
+"POT-Creation-Date: 2009-02-16 09:04+0100\n"
 "PO-Revision-Date: 2006-03-29 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -125,7 +125,13 @@ msgstr "Ойна"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/gesture_widget.ui:28
 #. i18n: ectx: property (text), widget (QPushButton, edit_button)
-#: rc.cpp:35
+#. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:32
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#. i18n: file: kcm_hotkeys/helper_widgets/gesture_widget.ui:28
+#. i18n: ectx: property (text), widget (QPushButton, edit_button)
+#. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:32
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: rc.cpp:35 rc.cpp:227
 #, fuzzy
 #| msgid "Edit..."
 msgid "Edit"
@@ -147,9 +153,9 @@ msgstr "Ойнанинг тафсилотлари"
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
 #. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
 #. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: rc.cpp:44 rc.cpp:230 kcm_hotkeys/hotkeys_tree_view.cpp:215
-#: kcm_hotkeys/hotkeys_tree_view.cpp:243 kcm_hotkeys/hotkeys_tree_view.cpp:271
-#: kcm_hotkeys/hotkeys_model.cpp:91
+#: rc.cpp:44 rc.cpp:233 kcm_hotkeys/hotkeys_context_menu.cpp:244
+#: kcm_hotkeys/hotkeys_context_menu.cpp:272
+#: kcm_hotkeys/hotkeys_context_menu.cpp:300 kcm_hotkeys/hotkeys_model.cpp:91
 #, fuzzy
 #| msgid "Comment:"
 msgid "Comment"
@@ -390,7 +396,7 @@ msgstr "Таҳрирлаш"
 
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:50
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
-#: rc.cpp:167 kcm_hotkeys/hotkeys_tree_view.cpp:69
+#: rc.cpp:167 kcm_hotkeys/hotkeys_context_menu.cpp:137
 #, fuzzy
 msgid "Delete"
 msgstr "Амални ўчириш"
@@ -511,69 +517,13 @@ msgstr "Амални ўчириш"
 msgid "Command/URL:"
 msgstr "Буйруқ/URL : "
 
-#. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:30
-#. i18n: ectx: property (text), widget (QPushButton, menu_button)
-#: rc.cpp:227
+#. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:39
+#. i18n: ectx: property (text), widget (QPushButton, settings_button)
+#: rc.cpp:230
 #, fuzzy
-#| msgid "K Menu - "
-msgid "Menu"
-msgstr "K-меню - "
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:40
-#, fuzzy
-#| msgid "&Reset"
-msgid "Test"
-msgstr "&Тиклаш"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:59 kcm_hotkeys/hotkeys_tree_view.cpp:75
-#: kcm_hotkeys/hotkeys_tree_view.cpp:215 kcm_hotkeys/hotkeys_tree_view.cpp:271
-#: kcm_hotkeys/hotkeys_model.cpp:91
-#, fuzzy
-#| msgid "New &Group"
-msgid "New Group"
-msgstr "Янги &гуруҳ"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:127
-#, fuzzy
-#| msgid "Keyboard Shortcut"
-msgid "New Global Shortcut"
-msgstr "Тугмалар бирикмаси"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:140
-#, fuzzy
-#| msgid "New Action"
-msgid "New Window Action"
-msgstr "Янги амал"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:153
-msgid "New Mouse Gesture Action"
-msgstr ""
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:172
-#, fuzzy
-#| msgid "Command/URL : "
-msgid "Command/URL"
-msgstr "Буйруқ/URL : "
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:179
-msgid "D-Bus Command"
-msgstr ""
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:186
-#, fuzzy
-#| msgid "K-Menu Entry..."
-msgid "K-Menu Entry"
-msgstr "К-меню банди"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:193
-#, fuzzy
-#| msgid "Keyboard Shortcut"
-msgid "Send Keyboard Input"
-msgstr "Тугмалар бирикмаси"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:243
-msgid "New Action"
-msgstr "Янги амал"
+#| msgid "Voices Settings"
+msgid "Settings"
+msgstr "Товуш мосламалари"
 
 #: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:33
 msgid "Edit Gesture"
@@ -625,53 +575,111 @@ msgstr ""
 msgid "Conditions"
 msgstr "Шартлар"
 
+#: kcm_hotkeys/hotkeys_context_menu.cpp:41
+#: kcm_hotkeys/hotkeys_context_menu.cpp:53
+#, fuzzy
+#| msgid "&Reset"
+msgid "Test"
+msgstr "&Тиклаш"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:127
+#: kcm_hotkeys/hotkeys_context_menu.cpp:143
+#: kcm_hotkeys/hotkeys_context_menu.cpp:244
+#: kcm_hotkeys/hotkeys_context_menu.cpp:300 kcm_hotkeys/hotkeys_model.cpp:91
+#, fuzzy
+#| msgid "New &Group"
+msgid "New Group"
+msgstr "Янги &гуруҳ"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:156
+#, fuzzy
+#| msgid "Keyboard Shortcut"
+msgid "New Global Shortcut"
+msgstr "Тугмалар бирикмаси"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:169
+#, fuzzy
+#| msgid "New Action"
+msgid "New Window Action"
+msgstr "Янги амал"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:182
+msgid "New Mouse Gesture Action"
+msgstr ""
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:201
+#, fuzzy
+#| msgid "Command/URL : "
+msgid "Command/URL"
+msgstr "Буйруқ/URL : "
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:208
+msgid "D-Bus Command"
+msgstr ""
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:215
+#, fuzzy
+#| msgid "K-Menu Entry..."
+msgid "K-Menu Entry"
+msgstr "К-меню банди"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:222
+#, fuzzy
+#| msgid "Keyboard Shortcut"
+msgid "Send Keyboard Input"
+msgstr "Тугмалар бирикмаси"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:272
+msgid "New Action"
+msgstr "Янги амал"
+
 #: kcm_hotkeys/actions/dbus_action_widget.cpp:122
 #, fuzzy
 #| msgid "Failed to run KDCOP"
 msgid "Failed to run qdbusviewer"
 msgstr "KDCOP'ни ишга тушириш муваффақиятсиз тугади"
 
-#: kcm_hotkeys/hotkeys_model.cpp:365
+#: kcm_hotkeys/hotkeys_model.cpp:381
 msgid "Name"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_model.cpp:369
+#: kcm_hotkeys/hotkeys_model.cpp:385
 #, fuzzy
 #| msgid "&Disable"
 msgid "Enabled"
 msgstr "Ўч&ириш"
 
-#: kcm_hotkeys/hotkeys_model.cpp:372
+#: kcm_hotkeys/hotkeys_model.cpp:388
 msgid "Type"
 msgstr ""
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:100
+#: kcm_hotkeys/kcm_hotkeys.cpp:101
 msgid "KDE Hotkeys Configuration Module"
 msgstr ""
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:104
+#: kcm_hotkeys/kcm_hotkeys.cpp:105
 msgid "Copyright 2008 (c) Michael Jansen"
 msgstr ""
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:107
+#: kcm_hotkeys/kcm_hotkeys.cpp:108
 msgid "Michael Jansen"
 msgstr ""
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:108
+#: kcm_hotkeys/kcm_hotkeys.cpp:109
 msgid "Maintainer"
 msgstr "Таъминловчи"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:296
+#: kcm_hotkeys/kcm_hotkeys.cpp:309
 msgid ""
 "The current action has unsaved changes. If you continue those changes will "
 "be lost!"
 msgstr ""
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:297
+#: kcm_hotkeys/kcm_hotkeys.cpp:310
 msgid "Save changes"
 msgstr ""
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:322 kcm_hotkeys/kcm_hotkeys.cpp:344
+#: kcm_hotkeys/kcm_hotkeys.cpp:335 kcm_hotkeys/kcm_hotkeys.cpp:357
 msgid ""
 "Unable to contact khotkeys. Your changes are saved but i failed to activate "
 "them"
@@ -801,6 +809,11 @@ msgstr "Бу бандлар меню таҳрирчи ёрдамида ярат�
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
 msgstr "Меню таҳрирчининг бандлари"
+
+#, fuzzy
+#~| msgid "K Menu - "
+#~ msgid "Menu"
+#~ msgstr "K-меню - "
 
 #, fuzzy
 #~| msgid "&Disable"
@@ -938,9 +951,6 @@ msgstr "Меню таҳрирчининг бандлари"
 #~| msgid "Global &Settings"
 #~ msgid "D-Bus Call Settings"
 #~ msgstr "&Умумий мосламалар"
-
-#~ msgid "Voices Settings"
-#~ msgstr "Товуш мосламалари"
 
 #~ msgid ""
 #~ "A group is selected.\n"
