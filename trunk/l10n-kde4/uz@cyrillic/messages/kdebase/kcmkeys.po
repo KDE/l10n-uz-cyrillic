@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-22 09:47+0100\n"
+"POT-Creation-Date: 2009-02-24 11:00+0100\n"
 "PO-Revision-Date: 2005-10-16 16:59+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -19,17 +19,17 @@ msgstr ""
 #: kglobalshortcutseditor.cpp:114
 #, fuzzy
 #| msgid "Current Scheme"
-msgid "Import Scheme ..."
+msgid "Import Scheme..."
 msgstr "Жорий қолип"
 
 #: kglobalshortcutseditor.cpp:115
 #, fuzzy
 #| msgid "Current Scheme"
-msgid "Export Scheme ..."
+msgid "Export Scheme..."
 msgstr "Жорий қолип"
 
 #: kglobalshortcutseditor.cpp:116
-msgid "Revise Component"
+msgid "Remove Component"
 msgstr ""
 
 #: kglobalshortcutseditor.cpp:234
@@ -64,17 +64,26 @@ msgstr ""
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:385
+#: kglobalshortcutseditor.cpp:387
 #, kde-format
 msgid ""
-"This will remove all currently not active global shortcuts for %1 from this "
-"list. %1 is removed too if no shortcut is left.\n"
-"All global shortcuts will reregister themselves whenever they are activated "
-"the next time!"
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their default when they "
+"are started the next time!"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:387
-msgid "Clean component"
+#: kglobalshortcutseditor.cpp:389 kglobalshortcutseditor.cpp:399
+#, fuzzy
+msgid "Remove component"
+msgstr "Тугмалар қолипини сақлаш"
+
+#: kglobalshortcutseditor.cpp:395
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'?."
+"The component and shortcuts will reregister themselves with their default "
+"setting when they are started the next time."
 msgstr ""
 
 #. i18n: file: kglobalshortcutseditor.ui:19
@@ -128,11 +137,6 @@ msgstr ""
 #, fuzzy
 #~ msgctxt "@label"
 #~ msgid "&Key Scheme"
-#~ msgstr "Тугмалар қолипини сақлаш"
-
-#, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "&Remove Scheme"
 #~ msgstr "Тугмалар қолипини сақлаш"
 
 #~ msgid "New scheme"
