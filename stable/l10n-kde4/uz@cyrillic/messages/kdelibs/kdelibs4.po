@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-23 06:10+0100\n"
+"POT-Creation-Date: 2009-03-24 06:20+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3360,6 +3360,14 @@ msgstr "Илтимос тизим бошқарувчисига мурожаат 
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Мослама файлига (%1) ёзиб бўлмайди.\n"
 
+#: kdecore/network/klocalsocket_win.cpp:31
+#: kdecore/network/klocalsocket_win.cpp:36
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation not supported"
+msgstr "амал қўлланмаган"
+
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
@@ -3493,6 +3501,87 @@ msgstr "\"ai_socktype\" қўлланмаган"
 #: kdecore/network/netsupp.cpp:902
 msgid "system error"
 msgstr "тизимнинг хатоси"
+
+#: kdecore/network/klocalsocket_unix.cpp:178
+#: kdecore/network/klocalsocket_unix.cpp:246
+msgid "Specified socket path is invalid"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:187
+#: kdecore/network/klocalsocket_unix.cpp:234
+#: kdecore/network/klocalsocket_unix.cpp:255
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "The socket operation is not supported"
+msgstr "амал қўлланмаган"
+
+#: kdecore/network/klocalsocket_unix.cpp:200
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection refused"
+msgstr "алоқада таймаут"
+
+#: kdecore/network/klocalsocket_unix.cpp:205
+#: kdecore/network/klocalsocket_unix.cpp:268
+#, fuzzy
+#| msgid "Permission denied."
+msgid "Permission denied"
+msgstr "Рухсат йўқ."
+
+#: kdecore/network/klocalsocket_unix.cpp:209
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection timed out"
+msgstr "алоқада таймаут"
+
+#: kdecore/network/klocalsocket_unix.cpp:213
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:425
+#, fuzzy
+msgid "Unknown error"
+msgstr "Номаълум хато"
+
+#: kdecore/network/klocalsocket_unix.cpp:221
+#: kdecore/network/klocalsocket_unix.cpp:301
+msgid "Could not set non-blocking mode"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:272
+#, fuzzy
+#| msgctxt "Socket error code AddressInUse"
+#| msgid "address already in use"
+msgid "Address is already in use"
+msgstr "манзил аллақачон ишлатилмоқда"
+
+#: kdecore/network/klocalsocket_unix.cpp:277
+#, fuzzy
+#| msgid "This file cannot be opened."
+msgid "Path cannot be used"
+msgstr "Бу файлни очиш иложи йўқ."
+
+#: kdecore/network/klocalsocket_unix.cpp:281
+#, fuzzy
+#| msgid "No such file."
+msgid "No such file or directory"
+msgstr "Бундай файл йўқ."
+
+#: kdecore/network/klocalsocket_unix.cpp:285
+msgid "Not a directory"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:289
+#, fuzzy
+#| msgid "Read-only"
+msgid "Read-only filesystem"
+msgstr "Фақат ўқишга"
+
+#: kdecore/network/klocalsocket_unix.cpp:354
+#: kdecore/network/klocalsocket_unix.cpp:386
+#, fuzzy
+msgid "Unknown socket error"
+msgstr "Номаълум хато"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -11801,11 +11890,6 @@ msgstr "Мослама"
 msgid "Invalid type in Database"
 msgstr "Сертификат ҳақиқий эмас!"
 
-#: nepomuk/core/resource.cpp:425
-#, fuzzy
-msgid "Unknown error"
-msgstr "Номаълум хато"
-
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:214
 msgid "Create New Tag..."
 msgstr ""
@@ -13755,11 +13839,6 @@ msgstr "Менюнинг банди (%1) мавжуд эмас."
 #~ msgstr "Учрашувлар"
 
 #, fuzzy
-#~| msgid "Permission denied."
-#~ msgid "Permissions"
-#~ msgstr "Рухсат йўқ."
-
-#, fuzzy
 #~| msgid "Other"
 #~ msgid "Owner"
 #~ msgstr "Бошқа"
@@ -13946,9 +14025,6 @@ msgstr "Менюнинг банди (%1) мавжуд эмас."
 
 #~ msgid "The certificate file could not be loaded. Try a different password?"
 #~ msgstr "Сертификат файли юкланмади. Бошқа махфий сўзни синаб кўрмоқчимисиз?"
-
-#~ msgid "This file cannot be opened."
-#~ msgstr "Бу файлни очиш иложи йўқ."
 
 #~ msgid "I do not know how to handle this type of file."
 #~ msgstr "Файлнинг бу тури билан нима қилишни билмайман."
@@ -15509,9 +15585,6 @@ msgstr "Менюнинг банди (%1) мавжуд эмас."
 #~ msgid "Resource Configuration"
 #~ msgstr "Манбани мослаш"
 
-#~ msgid "Read-only"
-#~ msgstr "Фақат ўқишга"
-
 #~ msgid "Please enter a resource name."
 #~ msgstr "Илтимос манбанинг номини киритинг."
 
@@ -15655,9 +15728,6 @@ msgstr "Менюнинг банди (%1) мавжуд эмас."
 
 #~ msgid "File opened."
 #~ msgstr "Файл очилди."
-
-#~ msgid "No such file."
-#~ msgstr "Бундай файл йўқ."
 
 #~ msgid "The file \"%1\" cannot be found. Create a new one?"
 #~ msgstr "Файл (%1) топилмади. Уни яратайми?"
