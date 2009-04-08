@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:07+0200\n"
+"POT-Creation-Date: 2009-04-08 11:57+0200\n"
 "PO-Revision-Date: 2008-06-02 22:57+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ui/flipscrollview.cpp:138 simpleapplet/simpleapplet.cpp:543
+#: ui/flipscrollview.cpp:138 core/applicationmodel.cpp:377
 msgid "All Applications"
 msgstr "Ҳамма дастурлар"
 
@@ -49,11 +49,12 @@ msgstr "Чиқариш"
 msgid "Safely Remove"
 msgstr ""
 
-#: ui/launcher.cpp:161 simpleapplet/simpleapplet.cpp:189
+#: ui/launcher.cpp:161 core/leavemodel.cpp:106
+#: simpleapplet/simpleapplet.cpp:189
 msgid "Leave"
 msgstr "Чиқиш"
 
-#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44
+#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44 core/favoritesmodel.cpp:265
 #: simpleapplet/simpleapplet.cpp:171
 msgid "Favorites"
 msgstr "Севимли"
@@ -71,7 +72,8 @@ msgstr ""
 msgid "Applications"
 msgstr "Дастурлар"
 
-#: ui/launcher.cpp:213 simpleapplet/simpleapplet.cpp:175
+#: ui/launcher.cpp:213 core/recentlyusedmodel.cpp:176
+#: simpleapplet/simpleapplet.cpp:175
 msgid "Recently Used"
 msgstr "Яқинда ишлатилган"
 
@@ -83,7 +85,8 @@ msgstr "Яқинда ишлатилган дастурларни тозалаш"
 msgid "Clear Recent Documents"
 msgstr "Яқинда ишлатилган ҳужжатларни тозалаш"
 
-#: ui/launcher.cpp:233 simpleapplet/simpleapplet.cpp:174
+#: ui/launcher.cpp:233 core/systemmodel.cpp:369
+#: simpleapplet/simpleapplet.cpp:174
 msgid "Computer"
 msgstr "Компьютер"
 
@@ -180,17 +183,13 @@ msgstr ""
 msgid "Suspend to RAM"
 msgstr ""
 
-#: core/leavemodel.cpp:103
+#: core/leavemodel.cpp:118
 msgid "Session"
 msgstr "Сеанс"
 
-#: core/leavemodel.cpp:125
+#: core/leavemodel.cpp:140
 msgid "System"
 msgstr "Тизим"
-
-#: core/applicationmodel.cpp:377
-msgid "Known Applications"
-msgstr "Маълум бўлган дастурлар"
 
 #: core/models.cpp:117
 msgid "Home Folder"
@@ -203,6 +202,18 @@ msgstr "Тармоқ жилдлари"
 #: core/recentlyusedmodel.cpp:107 core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "Ҳужжатлар"
+
+#: core/recentlyusedmodel.cpp:178 simpleapplet/simpleapplet.cpp:177
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Яқинда ишлатилган"
+
+#: core/recentlyusedmodel.cpp:180 simpleapplet/simpleapplet.cpp:176
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Яқинда ишлатилган дастурларни тозалаш"
 
 #: core/systemmodel.cpp:89
 msgid "Places"
@@ -299,18 +310,6 @@ msgstr "kmashrab@uni-bremen.de"
 msgid "Bookmarks"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:176 simpleapplet/simpleapplet.cpp:559
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Яқинда ишлатилган дастурларни тозалаш"
-
-#: simpleapplet/simpleapplet.cpp:177 simpleapplet/simpleapplet.cpp:566
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Яқинда ишлатилган"
-
 #: simpleapplet/simpleapplet.cpp:178
 msgid "System Settings"
 msgstr ""
@@ -382,11 +381,14 @@ msgstr ""
 msgid "Options"
 msgstr "Дастурлар"
 
-#: simpleapplet/simpleapplet.cpp:545
+#: simpleapplet/simpleapplet.cpp:546
 #, fuzzy
 #| msgid "Applications"
 msgid "Actions"
 msgstr "Дастурлар"
+
+#~ msgid "Known Applications"
+#~ msgstr "Маълум бўлган дастурлар"
 
 #, fuzzy
 #~| msgid "Lock the screen"
