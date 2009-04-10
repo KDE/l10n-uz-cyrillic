@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-03 11:07+0200\n"
+"POT-Creation-Date: 2009-04-10 11:06+0200\n"
 "PO-Revision-Date: 2008-06-08 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -443,7 +443,9 @@ msgstr "Интернетни кўриш"
 msgid "Home Folder"
 msgstr "Уй жилди"
 
-#: src/konqmainwindow.cpp:2039
+#. i18n: file: src/konqueror.kcfg:11
+#. i18n: ectx: label, entry, group (UserSettings)
+#: src/konqmainwindow.cpp:2039 rc.cpp:104
 #, fuzzy
 #| msgid "Home"
 msgid "Home Page"
@@ -2176,7 +2178,9 @@ msgstr "Ўчириш"
 
 #. i18n: file: src/konqsessiondlg_base.ui:72
 #. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
-#: rc.cpp:59
+#. i18n: file: src/konqueror.kcfg:537
+#. i18n: ectx: label, entry, group (Trash)
+#: rc.cpp:59 rc.cpp:308
 #, fuzzy
 #| msgid "Open the document in current window"
 msgid "Open tabs inside current window"
@@ -2259,6 +2263,174 @@ msgstr "Батафсил эслатмалар"
 #: rc.cpp:101
 msgid "Clear History"
 msgstr "Тарихни бўшатиш"
+
+#. i18n: file: src/konqueror.kcfg:12
+#. i18n: ectx: whatsthis, entry, group (UserSettings)
+#: rc.cpp:107
+#, fuzzy
+#| msgid ""
+#| "This is the URL (e.g. a folder or a web page) where Konqueror will jump "
+#| "to when the \\\"Home\\\" button is pressed. This is usually your home "
+#| "folder, symbolized by a 'tilde' (~)."
+msgid ""
+"This is the URL of the web page where Konqueror (as web browser) will jump "
+"to when the \\\"Home\\\" button is pressed. When Konqueror is started as a "
+"file manager, that button makes it jump to your local home folder instead."
+msgstr ""
+"Уй тугмаси босилганида пайдо бўладиган манзил (м-н жилд ёки веб-саҳифа). "
+"Одатда, бунинг қиймати уй жилдига (~) ўрнатилган бўлади."
+
+#. i18n: file: src/konqueror.kcfg:22
+#. i18n: ectx: label, entry, group (UndoManagerSettings)
+#: rc.cpp:110
+#, fuzzy
+#| msgid "Maximum &number of URLs:"
+msgid "Maximum number of Closed Items"
+msgstr "URL с&они:"
+
+#. i18n: file: src/konqueror.kcfg:23
+#. i18n: ectx: whatsthis, entry, group (UndoManagerSettings)
+#: rc.cpp:113
+msgid ""
+"This sets the maximum number of closed items that will be stored in memory. "
+"This limit will not be surpassed."
+msgstr ""
+
+#. i18n: file: src/konqueror.kcfg:32
+#. i18n: ectx: label, entry, group (FMSettings)
+#: rc.cpp:116
+msgid "Open folders in separate windows"
+msgstr "Жилдларни алоҳида ойнада очиш"
+
+#. i18n: file: src/konqueror.kcfg:33
+#. i18n: ectx: whatsthis, entry, group (FMSettings)
+#: rc.cpp:119
+msgid ""
+"If this option is checked, Konqueror will open a new window when you open a "
+"folder, rather than showing that folder's contents in the current window."
+msgstr "Агар белгиланса, жилд жорий ойнада эмас янги ойнада очилади."
+
+#. i18n: file: src/konqueror.kcfg:38
+#. i18n: ectx: label, entry, group (FMSettings)
+#: rc.cpp:122
+msgid "Show file tips"
+msgstr "Файл эслатмаларини кўрсатиш"
+
+#. i18n: file: src/konqueror.kcfg:39
+#. i18n: ectx: whatsthis, entry, group (FMSettings)
+#: rc.cpp:125
+msgid ""
+"Here you can control if, when moving the mouse over a file, you want to see "
+"a small popup window with additional information about that file"
+msgstr ""
+"Агар белгиланса, сичқонча файл нишончасининг устида бўлганда файл ҳақида "
+"қўшимча маълумот кўрсатилади."
+
+#. i18n: file: src/konqueror.kcfg:50
+#. i18n: ectx: label, entry, group (FMSettings)
+#: rc.cpp:130
+#, fuzzy
+msgid "Show previews in file tips"
+msgstr "Файл эслатмаларини кўрсатиш"
+
+#. i18n: file: src/konqueror.kcfg:51
+#. i18n: ectx: whatsthis, entry, group (FMSettings)
+#: rc.cpp:133
+msgid ""
+"Here you can control if you want the popup window to contain a larger "
+"preview for the file, when moving the mouse over it"
+msgstr ""
+
+#. i18n: file: src/konqueror.kcfg:56
+#. i18n: ectx: label, entry, group (FMSettings)
+#: rc.cpp:136
+msgid "Show 'Delete' menu entries which bypass the trashcan"
+msgstr "Менюда ўчириш бандини кўрсатиш"
+
+#. i18n: file: src/konqueror.kcfg:57
+#. i18n: ectx: whatsthis, entry, group (FMSettings)
+#: rc.cpp:139
+msgid ""
+"Uncheck this if you do not want 'Delete' menu commands to be displayed on "
+"the desktop and in the file manager's menus and context menus. You can still "
+"delete files when hidden by holding the Shift key while calling 'Move to "
+"Trash'."
+msgstr ""
+"Агар белгиланса, иш столини ва файл браузерининг контекст менюсида \"Ўчириш"
+"\" банди кўрсатилади. Ўчириш банди мавжуд бўлмаса ҳам Shift тугмасини босиб "
+"\"Чиқиндилар қутисига олиб ташлаш\" бандини танлаш файлни ўчиради. "
+
+#. i18n: file: src/konqueror.kcfg:155
+#. i18n: ectx: label, entry, group (FMSettings)
+#. i18n: file: src/konqueror.kcfg:156
+#. i18n: ectx: whatsthis, entry, group (FMSettings)
+#: rc.cpp:172 rc.cpp:175
+msgid "Number of Open With items in the File menu"
+msgstr ""
+
+#. i18n: file: src/konqueror.kcfg:165
+#. i18n: ectx: label, entry, group (HTML Settings)
+#: rc.cpp:178
+msgid "Standard font"
+msgstr "Андоза шрифт"
+
+#. i18n: file: src/konqueror.kcfg:166
+#. i18n: ectx: whatsthis, entry, group (HTML Settings)
+#: rc.cpp:181
+msgid "This is the font used to display text in Konqueror windows."
+msgstr "Konqueror ойнасида матнни кўрсатиш учун ишлатиладиган шрифт."
+
+#. i18n: file: src/konqueror.kcfg:323
+#. i18n: ectx: label, entry, group (HistorySettings)
+#: rc.cpp:226
+msgid "Maximum number of history items per view"
+msgstr ""
+
+#. i18n: file: src/konqueror.kcfg:524
+#. i18n: ectx: label, entry, group (Trash)
+#: rc.cpp:296
+msgid "Ask confirmation for deleting a file."
+msgstr "Ўчиришда тасдиқлашни сўраш"
+
+#. i18n: file: src/konqueror.kcfg:525
+#. i18n: ectx: whatsthis, entry, group (Trash)
+#: rc.cpp:299
+#, fuzzy
+#| msgid ""
+#| "This option tells Konqueror whether to ask for a confirmation when you "
+#| "move the file to your trash folder, from where it can be recovered very "
+#| "easily."
+msgid ""
+"This option tells Konqueror whether to ask for a confirmation when you "
+"delete a file without using the trash folder. Warning, deleted files can not "
+"be recovered, so it is recommended to leave this confirmation enabled."
+msgstr ""
+"Агар белгиланса, файлни чиқиндилар қутисига жўнатиш учун тасдиқлаш керак "
+"бўлади."
+
+#. i18n: file: src/konqueror.kcfg:530
+#. i18n: ectx: label, entry, group (Trash)
+#: rc.cpp:302
+msgid "Ask confirmation for move to trash"
+msgstr "Чиқиндилар қутисига жўнатишда тасдиқлашни сўраш"
+
+#. i18n: file: src/konqueror.kcfg:531
+#. i18n: ectx: whatsthis, entry, group (Trash)
+#: rc.cpp:305
+msgid ""
+"This option tells Konqueror whether to ask for a confirmation when you move "
+"the file to your trash folder, from where it can be recovered very easily."
+msgstr ""
+"Агар белгиланса, файлни чиқиндилар қутисига жўнатиш учун тасдиқлаш керак "
+"бўлади."
+
+#. i18n: file: src/konqueror.kcfg:538
+#. i18n: ectx: whatsthis, entry, group (Trash)
+#: rc.cpp:311
+msgid ""
+"If true, when opening a session from within the sessions dialog the tabs "
+"will be opened inside current window."
+msgstr ""
 
 #~ msgid "Your sidebar is not functional or unavailable."
 #~ msgstr "Ён панели тўғри ишламаяпти."
@@ -2437,25 +2609,8 @@ msgstr "Тарихни бўшатиш"
 #~ msgid "Open folders in separate &windows"
 #~ msgstr "Жилдларни алоҳида ойнада очиш"
 
-#~ msgid ""
-#~ "If this option is checked, Konqueror will open a new window when you open "
-#~ "a folder, rather than showing that folder's contents in the current "
-#~ "window."
-#~ msgstr "Агар белгиланса, жилд жорий ойнада эмас янги ойнада очилади."
-
 #, fuzzy
 #~ msgid "Show file &tips"
-#~ msgstr "Файл эслатмаларини кўрсатиш"
-
-#~ msgid ""
-#~ "Here you can control if, when moving the mouse over a file, you want to "
-#~ "see a small popup window with additional information about that file"
-#~ msgstr ""
-#~ "Агар белгиланса, сичқонча файл нишончасининг устида бўлганда файл ҳақида "
-#~ "қўшимча маълумот кўрсатилади."
-
-#, fuzzy
-#~ msgid "Show &previews in file tips"
 #~ msgstr "Файл эслатмаларини кўрсатиш"
 
 #, fuzzy
@@ -2843,9 +2998,6 @@ msgstr "Тарихни бўшатиш"
 #~ msgid "&Standard font:"
 #~ msgstr "Андоза шрифт"
 
-#~ msgid "This is the font used to display text in Konqueror windows."
-#~ msgstr "Konqueror ойнасида матнни кўрсатиш учун ишлатиладиган шрифт."
-
 #, fuzzy
 #~ msgid "Font si&ze:"
 #~ msgstr "Нишончанинг ўлчами"
@@ -3080,20 +3232,6 @@ msgstr "Тарихни бўшатиш"
 #~ msgid "S&ort"
 #~ msgstr "С&аралаш"
 
-#~ msgid "Open folders in separate windows"
-#~ msgstr "Жилдларни алоҳида ойнада очиш"
-
-#~ msgid ""
-#~ "This is the URL (e.g. a folder or a web page) where Konqueror will jump "
-#~ "to when the \\\"Home\\\" button is pressed. This is usually your home "
-#~ "folder, symbolized by a 'tilde' (~)."
-#~ msgstr ""
-#~ "Уй тугмаси босилганида пайдо бўладиган манзил (м-н жилд ёки веб-саҳифа). "
-#~ "Одатда, бунинг қиймати уй жилдига (~) ўрнатилган бўлади."
-
-#~ msgid "Show file tips"
-#~ msgstr "Файл эслатмаларини кўрсатиш"
-
 #~ msgid "Rename icons inline"
 #~ msgstr "Нишончаларнинг номини жойида ўзгартириш"
 
@@ -3103,37 +3241,6 @@ msgstr "Тарихни бўшатиш"
 #~ msgstr ""
 #~ "Агар белгиланса, нишончанинг номини бир марта босиб файлнинг номини "
 #~ "ўзгартирса бўлади."
-
-#~ msgid "Show 'Delete' menu entries which bypass the trashcan"
-#~ msgstr "Менюда ўчириш бандини кўрсатиш"
-
-#~ msgid ""
-#~ "Uncheck this if you do not want 'Delete' menu commands to be displayed on "
-#~ "the desktop and in the file manager's menus and context menus. You can "
-#~ "still delete files when hidden by holding the Shift key while calling "
-#~ "'Move to Trash'."
-#~ msgstr ""
-#~ "Агар белгиланса, иш столини ва файл браузерининг контекст менюсида "
-#~ "\"Ўчириш\" банди кўрсатилади. Ўчириш банди мавжуд бўлмаса ҳам Shift "
-#~ "тугмасини босиб \"Чиқиндилар қутисига олиб ташлаш\" бандини танлаш файлни "
-#~ "ўчиради. "
-
-#~ msgid "Standard font"
-#~ msgstr "Андоза шрифт"
-
-#~ msgid "Ask confirmation for deleting a file."
-#~ msgstr "Ўчиришда тасдиқлашни сўраш"
-
-#~ msgid "Ask confirmation for move to trash"
-#~ msgstr "Чиқиндилар қутисига жўнатишда тасдиқлашни сўраш"
-
-#~ msgid ""
-#~ "This option tells Konqueror whether to ask for a confirmation when you "
-#~ "move the file to your trash folder, from where it can be recovered very "
-#~ "easily."
-#~ msgstr ""
-#~ "Агар белгиланса, файлни чиқиндилар қутисига жўнатиш учун тасдиқлаш керак "
-#~ "бўлади."
 
 #~ msgid ""
 #~ "This option tells Konqueror whether to ask for a confirmation when you "
