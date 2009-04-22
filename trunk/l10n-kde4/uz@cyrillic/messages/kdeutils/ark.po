@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-21 11:27+0200\n"
+"POT-Creation-Date: 2009-04-22 11:30+0200\n"
 "PO-Revision-Date: 2006-12-17 13:36+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -194,6 +194,12 @@ msgstr ""
 #| msgid "Open 'archive'"
 msgid "Open an archive"
 msgstr "Архивни очиш"
+
+#: kerfuffle/adddialog.cpp:54
+#, fuzzy
+#| msgid "Simple Compressed Archive"
+msgid "Compress to archive"
+msgstr "Оддий сиқилган архив"
 
 #: kerfuffle/addtoarchive.cpp:91
 msgid "No input files were given."
@@ -691,27 +697,27 @@ msgid ""
 msgstr ""
 
 #: plugins/libarchive/libarchivehandler.cpp:439
-#: plugins/libarchive/libarchivehandler.cpp:626
+#: plugins/libarchive/libarchivehandler.cpp:629
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "%1 архиви мавжуд эмас."
 
 #: plugins/libarchive/libarchivehandler.cpp:448
-#: plugins/libarchive/libarchivehandler.cpp:635
+#: plugins/libarchive/libarchivehandler.cpp:638
 msgid "The source file could not be read."
 msgstr ""
 
 #: plugins/libarchive/libarchivehandler.cpp:457
-#: plugins/libarchive/libarchivehandler.cpp:643
+#: plugins/libarchive/libarchivehandler.cpp:646
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "%1 архиви мавжуд эмас."
 
 #: plugins/libarchive/libarchivehandler.cpp:477
-#: plugins/libarchive/libarchivehandler.cpp:499
-#: plugins/libarchive/libarchivehandler.cpp:662
+#: plugins/libarchive/libarchivehandler.cpp:502
+#: plugins/libarchive/libarchivehandler.cpp:668
 #, kde-format
 msgid "Setting compression failed with the error '%1'"
 msgstr ""
@@ -721,17 +727,29 @@ msgstr ""
 msgid "Setting format failed with the error '%1'"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:495
-#: plugins/libarchive/libarchivehandler.cpp:658
+#: plugins/libarchive/libarchivehandler.cpp:498
+#: plugins/libarchive/libarchivehandler.cpp:664
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:506
-#: plugins/libarchive/libarchivehandler.cpp:668
+#: plugins/libarchive/libarchivehandler.cpp:509
+#: plugins/libarchive/libarchivehandler.cpp:674
 #, kde-format
 msgid "Opening the archive for writing failed with error message '%1'"
 msgstr ""
+
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:69
+#, fuzzy, kde-format
+#| msgid "Folder to extract to"
+msgid "Ark could not extract %1."
+msgstr "Ажратиш учун жилд"
+
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:78
+#, fuzzy, kde-format
+#| msgid "Last folders used for extraction"
+msgid "Ark could not open %1 for extraction."
+msgstr "Ажратишда ишлатилган охирги жилдлар"
 
 #: plugins/libzipplugin/zipplugin.cpp:75
 #, fuzzy, kde-format
@@ -1274,9 +1292,6 @@ msgstr "Ажратишдан сўнг мўлжал жилдини очиш"
 #~ msgid "General Settings"
 #~ msgstr "Умумий мосламалар"
 
-#~ msgid "Simple Compressed Archive"
-#~ msgstr "Оддий сиқилган архив"
-
 #~ msgid "Trouble writing to the archive..."
 #~ msgstr "Архивга ёзишда муаммо..."
 
@@ -1313,9 +1328,6 @@ msgstr "Ажратишдан сўнг мўлжал жилдини очиш"
 #~ "Архивга файл қўшиш. Якунланганда ёпиш.\n"
 #~ "Агар архив мавжуд бўлмаса, у яратилади."
 
-#~ msgid "Folder to extract to"
-#~ msgstr "Ажратиш учун жилд"
-
 #~ msgid "Files to be added"
 #~ msgstr "Қўшиш учун файллар"
 
@@ -1342,9 +1354,6 @@ msgstr "Ажратишдан сўнг мўлжал жилдини очиш"
 
 #~ msgid "Replace old files only &with newer files"
 #~ msgstr "Фақат эски файлларни янги файллар билан &алмаштириш"
-
-#~ msgid "Last folders used for extraction"
-#~ msgstr "Ажратишда ишлатилган охирги жилдлар"
 
 #~ msgid "Replace old files only with newer files"
 #~ msgstr "Фақат эски файлларни янги файллар билан алмаштириш"
