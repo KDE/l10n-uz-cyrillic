@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-18 13:04+0200\n"
+"POT-Creation-Date: 2009-07-23 07:17+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid "Unknown error"
 msgstr "Номаълум хато"
 
-#: core/kexiguimsghandler.cpp:149 plugins/reportspgz/kexireportview.cpp:175
-#: plugins/reportspgz/kexireportview.cpp:194
+#: core/kexiguimsghandler.cpp:149 plugins/reportspgz/kexireportview.cpp:176
+#: plugins/reportspgz/kexireportview.cpp:195
 #, fuzzy
 msgid "Warning"
 msgstr "босиб чиқарилмоқда"
@@ -884,8 +884,8 @@ msgstr ""
 "Уни алмаштиришни истайсизми?"
 
 #: main/startup/KexiStartupFileWidget.cpp:377
-#: plugins/reportspgz/kexireportview.cpp:175
-#: plugins/reportspgz/kexireportview.cpp:194
+#: plugins/reportspgz/kexireportview.cpp:176
+#: plugins/reportspgz/kexireportview.cpp:195
 msgid "Overwrite"
 msgstr "Алмаштириш"
 
@@ -908,7 +908,7 @@ msgstr "Танланган маълумотлар манбасига ўтиш"
 msgid "Remove selected database connections"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:241
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:241
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #: main/startup/KexiConnSelector.cpp:384 rc.cpp:366
 msgid "&Add"
@@ -2065,11 +2065,11 @@ msgstr ""
 
 #. i18n: file: plugins/queries/kexiparameterlisteditor.ui:75
 #. i18n: ectx: property (text), widget (KPushButton)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:255
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:255
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #: main/KexiMainWindow.cpp:4217 rc.cpp:315 rc.cpp:372
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1102
 #: plugins/reportspgz/kexireportdesignview.cpp:45
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1105
 #, fuzzy
 msgid "Delete"
 msgstr "Сатрни олиб ташлаш"
@@ -2270,13 +2270,13 @@ msgid "Changes page size and margins."
 msgstr "Бетнинг ўлчами ва бўш жойларини ўзгартириш."
 
 #: main/printing/kexisimpleprintingpagesetup.cpp:449
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:877
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:874
 #, fuzzy
 msgid "Portrait"
 msgstr "Порт:"
 
 #: main/printing/kexisimpleprintingpagesetup.cpp:449
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:877
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:874
 msgid "Landscape"
 msgstr ""
 
@@ -2297,9 +2297,9 @@ msgstr "Катталаштириш"
 msgid "Zoom Out"
 msgstr "Кичиклаштириш"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:98
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:98
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootFirst)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:174
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:174
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadFirst)
 #: main/printing/kexisimpleprintpreviewwindow.cpp:223 rc.cpp:330 rc.cpp:354
 msgid "First Page"
@@ -2313,9 +2313,9 @@ msgstr "Олдинги бет"
 msgid "Next Page"
 msgstr "Кейинги бет"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:105
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:105
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootLast)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:160
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:160
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadLast)
 #: main/printing/kexisimpleprintpreviewwindow.cpp:238 rc.cpp:333 rc.cpp:348
 msgid "Last Page"
@@ -4147,7 +4147,7 @@ msgstr "&Экспорт қилиш"
 
 #. i18n: file: data/kexiui.rc:44
 #. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:248
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:248
 #. i18n: ectx: property (text), widget (QPushButton, btnEdit)
 #: rc.cpp:17 rc.cpp:369
 #, fuzzy
@@ -4694,94 +4694,94 @@ msgstr "Параметрлар:"
 msgid "Add"
 msgstr "&Қўшиш"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:31
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:31
 #. i18n: ectx: property (windowTitle), widget (QDialog, SectionEditor)
 #: rc.cpp:318 plugins/reportspgz/kexireportdesignview.cpp:48
 #, fuzzy
 msgid "Section Editor"
 msgstr "hisobot"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:60
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:60
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportHeader)
-#: rc.cpp:321 plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:585
+#: rc.cpp:321 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:582
 #, fuzzy
 #| msgid "Report"
 msgid "Report Header"
 msgstr "Ҳисобот"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:67
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageFooter)
 #: rc.cpp:324
 #, fuzzy
 msgid "Page Footer"
 msgstr "Саҳифа сарлавҳаси:"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:91
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:91
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootEven)
 #: rc.cpp:327
 msgid "Even Page(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:112
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:112
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootOdd)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:167
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:167
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadOdd)
 #: rc.cpp:336 rc.cpp:351
 msgid "Odd Page(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:119
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:119
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootAny)
 #: rc.cpp:339
 msgid "Any Page(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:129
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportFooter)
-#: rc.cpp:342 plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:589
+#: rc.cpp:342 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:586
 #, fuzzy
 #| msgid "Report"
 msgid "Report Footer"
 msgstr "Ҳисобот"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:136
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:136
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageHeader)
 #: rc.cpp:345
 msgid "Page Header"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:181
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadEven)
 #: rc.cpp:357
 msgid "Even Pages(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:188
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:188
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadAny)
 #: rc.cpp:360
 msgid "Any Pages(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:200
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:200
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: rc.cpp:363
 #, fuzzy
 msgid "Group Sections"
 msgstr "Амалсиз"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:262
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:262
 #. i18n: ectx: property (text), widget (QPushButton, btnMoveUp)
 #: rc.cpp:375
 msgid "Move &Up"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:269
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:269
 #. i18n: ectx: property (text), widget (QPushButton, brnMoveDown)
 #: rc.cpp:378
 msgid "Move &Down"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:330
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:330
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
 #: rc.cpp:381
 #, fuzzy
@@ -4789,14 +4789,14 @@ msgstr ""
 msgid "&Close"
 msgstr "&Тозалаш"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:31
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:31
 #. i18n: ectx: property (windowTitle), widget (QDialog, DetailGroupSectionDialog)
 #: rc.cpp:384
 #, fuzzy
 msgid "Group Section Editor"
 msgstr "Лойиҳа навигатори"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:39
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:39
 #. i18n: ectx: property (text), widget (QLabel, lblColumn)
 #: rc.cpp:387
 #, fuzzy
@@ -4804,31 +4804,31 @@ msgstr "Лойиҳа навигатори"
 msgid "Column:"
 msgstr "Устун"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:58
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:58
 #. i18n: ectx: property (text), widget (QCheckBox, cbHead)
 #: rc.cpp:390
 msgid "Show Group Header"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:65
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, cbFoot)
 #: rc.cpp:393
 msgid "Show Group Footer"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:72
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:72
 #. i18n: ectx: property (text), widget (QCheckBox, breakAfterFooter)
 #: rc.cpp:396
 msgid "Insert Page Break After this Footer"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:128
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:128
 #. i18n: ectx: property (text), widget (QPushButton, btnOk)
 #: rc.cpp:399
 msgid "&OK"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:141
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:141
 #. i18n: ectx: property (text), widget (QPushButton, bntCancel)
 #: rc.cpp:402
 msgid "&Cancel"
@@ -6400,86 +6400,86 @@ msgstr "\"%1\" ҳисоботи дизайни ўзгартирилди."
 msgid "Query \"%1\" already exists."
 msgstr "\"%1\" сўрови аллақачон мавжуд."
 
-#: plugins/reportspgz/kexireportview.cpp:63
+#: plugins/reportspgz/kexireportview.cpp:64
 #, fuzzy
 #| msgid "Page:"
 msgid "Page"
 msgstr "Бет:"
 
-#: plugins/reportspgz/kexireportview.cpp:69
+#: plugins/reportspgz/kexireportview.cpp:70
 #, fuzzy
 msgid "Print"
 msgstr "Босиб чиқариш"
 
-#: plugins/reportspgz/kexireportview.cpp:71
+#: plugins/reportspgz/kexireportview.cpp:72
 #, fuzzy
 #| msgid "Report"
 msgid "Print Report"
 msgstr "Ҳисобот"
 
-#: plugins/reportspgz/kexireportview.cpp:72
+#: plugins/reportspgz/kexireportview.cpp:73
 #, fuzzy
 msgid "Prints the current report."
 msgstr "Жорий лойиҳани ёпиш"
 
-#: plugins/reportspgz/kexireportview.cpp:75
+#: plugins/reportspgz/kexireportview.cpp:76
 msgid "Open in KWord"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:77
+#: plugins/reportspgz/kexireportview.cpp:78
 msgid "Open the report in KWord"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:78
+#: plugins/reportspgz/kexireportview.cpp:79
 #, fuzzy
 msgid "Opens the current report in KWord."
 msgstr "Жорий лойиҳани ёпиш"
 
-#: plugins/reportspgz/kexireportview.cpp:83
+#: plugins/reportspgz/kexireportview.cpp:84
 msgid "Open in KSpread"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:85
+#: plugins/reportspgz/kexireportview.cpp:86
 msgid "Open the report in KSpread"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:86
+#: plugins/reportspgz/kexireportview.cpp:87
 #, fuzzy
 msgid "Opens the current report in KSpread."
 msgstr "Жорий лойиҳани ёпиш"
 
-#: plugins/reportspgz/kexireportview.cpp:91
+#: plugins/reportspgz/kexireportview.cpp:92
 #, fuzzy
 msgid "Export to HTML"
 msgstr "&Экспорт қилиш"
 
-#: plugins/reportspgz/kexireportview.cpp:93
+#: plugins/reportspgz/kexireportview.cpp:94
 msgid "Export the report to HTML"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:94
+#: plugins/reportspgz/kexireportview.cpp:95
 #, fuzzy
 #| msgid "Exporting data from table:"
 msgid "Exports the report to a HTML file."
 msgstr "Маълумотлар жадвалдан экспорт қилинмоқда:"
 
-#: plugins/reportspgz/kexireportview.cpp:168
-#: plugins/reportspgz/kexireportview.cpp:188
+#: plugins/reportspgz/kexireportview.cpp:169
+#: plugins/reportspgz/kexireportview.cpp:189
 #, fuzzy
 msgid "Save Report to.."
 msgstr "Ҳисобот"
 
-#: plugins/reportspgz/kexireportview.cpp:170
+#: plugins/reportspgz/kexireportview.cpp:171
 msgid "Report not exported.The URL was invalid"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:170
-#: plugins/reportspgz/kexireportview.cpp:190
+#: plugins/reportspgz/kexireportview.cpp:171
+#: plugins/reportspgz/kexireportview.cpp:191
 msgid "Not Saved"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:175
-#: plugins/reportspgz/kexireportview.cpp:194
+#: plugins/reportspgz/kexireportview.cpp:176
+#: plugins/reportspgz/kexireportview.cpp:195
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file \"%1\" already exists.\n"
@@ -6491,50 +6491,50 @@ msgstr ""
 "\"%1\" файли аллақачон мавжуд.\n"
 "Уни алмаштиришни истайсизми?"
 
-#: plugins/reportspgz/kexireportview.cpp:181
+#: plugins/reportspgz/kexireportview.cpp:182
 #, kde-format
 msgid "Failed to open %1 in KSpread"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:181
+#: plugins/reportspgz/kexireportview.cpp:182
 #, fuzzy
 msgid "Opening in KSpread failed"
 msgstr "\"%1\" объектини очиб бўлмади."
 
-#: plugins/reportspgz/kexireportview.cpp:190
+#: plugins/reportspgz/kexireportview.cpp:191
 msgid "Report not exported, no file selected for writing to"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:200
+#: plugins/reportspgz/kexireportview.cpp:201
 msgid ""
 "Would you like to export using a Cascading Style Sheet which will give "
 "output closer to the original, or export using a Table which outputs a much "
 "simpler format."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:200
+#: plugins/reportspgz/kexireportview.cpp:201
 #, fuzzy
 msgid "Export Style"
 msgstr "&Экспорт қилиш"
 
-#: plugins/reportspgz/kexireportview.cpp:204
+#: plugins/reportspgz/kexireportview.cpp:205
 #, fuzzy, kde-format
 #| msgid "Exporting data from table:"
 msgid "Exporting report to %1 failed"
 msgstr "Маълумотлар жадвалдан экспорт қилинмоқда:"
 
-#: plugins/reportspgz/kexireportview.cpp:204
+#: plugins/reportspgz/kexireportview.cpp:205
 #, fuzzy
 msgid "Saving failed"
 msgstr "\"%1\" объектини сақлаб бўлмади."
 
-#: plugins/reportspgz/kexireportview.cpp:206
+#: plugins/reportspgz/kexireportview.cpp:207
 #, fuzzy, kde-format
 #| msgid "Report"
 msgid "Report saved to %1"
 msgstr "Ҳисобот"
 
-#: plugins/reportspgz/kexireportview.cpp:206
+#: plugins/reportspgz/kexireportview.cpp:207
 #, fuzzy
 msgid "Saved OK"
 msgstr "Сатрни &олиб ташлаш"
@@ -6557,24 +6557,249 @@ msgstr "Яратиш"
 msgid "External"
 msgstr "Ташқи файлни очиш"
 
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+#, fuzzy
+#| msgid "Report"
+msgid "Report Writer"
+msgstr "Ҳисобот"
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+#, kde-format
+msgid ""
+"The document '%1' contains unsaved changes.\n"
+"Do you want to save the changes before closing?"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+#, fuzzy
+msgid "Save"
+msgstr "Сатрни &олиб ташлаш"
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+#, fuzzy
+msgid "Discard"
+msgstr "Ўзгаришларни сақлаш"
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+msgid "Cancel"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:542
+msgid "Page Header (Any)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:546
+msgid "Page Header (Even)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:550
+msgid "Page Header (Odd)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:554
+msgid "Page Header (First)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:558
+msgid "Page Header (Last)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:562
+msgid "Page Footer (Any)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:566
+msgid "Page Footer (Even)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:570
+msgid "Page Footer (Odd)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:574
+msgid "Page Footer (First)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:578
+msgid "Page Footer (Last)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1094
 #: plugins/reportspgz/kexireportdesignview.cpp:39
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1097
 msgid "Cut"
 msgstr ""
 
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1095
 #: plugins/reportspgz/kexireportdesignview.cpp:41
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1098
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:66
 #, fuzzy
 msgid "Copy"
 msgstr "Нусха олинмоқда"
 
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1098
 #: plugins/reportspgz/kexireportdesignview.cpp:43
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1101
 #, fuzzy
 #| msgid "Date"
 msgid "Paste"
 msgstr "Сана"
+
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:286
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:322
+msgid "Error Encountered"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:287
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:322
+msgid "Unable to add a new group because its name would not be unique"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportsection.cpp:78
+#, fuzzy
+#| msgid "Details"
+msgid "Detail"
+msgstr "Тафсилотлар"
+
+#: plugins/reportspgz/koreport/common/krimagedata.cpp:151
+msgid "Clip"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krimagedata.cpp:151
+msgid "Stretch"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krbarcodedata.cpp:150
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:117
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:106
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:136
+#, fuzzy
+#| msgctxt "Label Position"
+#| msgid "Left"
+msgid "Left"
+msgstr "Чапда"
+
+#: plugins/reportspgz/koreport/common/krbarcodedata.cpp:150
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:117
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:123
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:106
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:112
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:136
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:142
+#, fuzzy
+#| msgid "Create"
+msgid "Center"
+msgstr "Яратиш"
+
+#: plugins/reportspgz/koreport/common/krbarcodedata.cpp:150
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:117
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:106
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:136
+#, fuzzy
+#| msgid "To Right"
+msgid "Right"
+msgstr "Ўнгга"
+
+#: plugins/reportspgz/koreport/common/krcheckdata.cpp:58
+#, fuzzy
+#| msgid "Comments"
+msgid "Cross"
+msgstr "Изоҳлар"
+
+#: plugins/reportspgz/koreport/common/krcheckdata.cpp:58
+msgid "Tick"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krcheckdata.cpp:58
+msgid "Dot"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+msgid "Bar"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+#: plugins/reportspgz/reportentityselector.cpp:32
+msgid "Line"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+msgid "Pie"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+#, fuzzy
+#| msgid "To Right"
+msgid "Ring"
+msgstr "Ўнгга"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+#, fuzzy
+#| msgid "Port:"
+msgid "Polar"
+msgstr "Порт:"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+#, fuzzy
+msgid "Normal"
+msgstr "&Форматлаш"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+msgid "Stacked"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+#, fuzzy
+msgid "Percent"
+msgstr "Босиб чиқариш"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+#, fuzzy
+msgid "Rows"
+msgstr "Сатр:"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:161
+#, fuzzy
+msgid "Default"
+msgstr "Андоза: %1"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:161
+#, fuzzy
+msgid "Rainbow"
+msgstr "Сатр:"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:161
+msgid "Subdued"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:162
+msgid "Color Scheme"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:174
+#, fuzzy
+msgid "Fields from master data source"
+msgstr "Танланган маълумотлар манбасига ўтиш"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:175
+#, fuzzy
+msgid "Fields from child data source"
+msgstr "Танланган маълумотлар манбасига ўтиш"
+
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:123
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:112
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:142
+#, fuzzy
+#| msgctxt "Label Position"
+#| msgid "Top"
+msgid "Top"
+msgstr "Юқорида"
+
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:123
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:112
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:142
+#, fuzzy
+#| msgid "To Bottom"
+msgid "Bottom"
+msgstr "Пастга"
 
 #: plugins/reportspgz/kexireportdesignview.cpp:51
 msgid "Raise"
@@ -6631,11 +6856,6 @@ msgstr "Ёрлиқ"
 msgid "Field"
 msgstr "Авто-ёрлиқ"
 
-#: plugins/reportspgz/reportentityselector.cpp:32
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Line"
-msgstr ""
-
 #: plugins/reportspgz/reportentityselector.cpp:33
 msgid "Barcode"
 msgstr ""
@@ -6653,226 +6873,6 @@ msgstr "Сатрни &олиб ташлаш"
 #, fuzzy
 msgid "Check"
 msgstr "Сўров"
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-#, fuzzy
-#| msgid "Report"
-msgid "Report Writer"
-msgstr "Ҳисобот"
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-#, kde-format
-msgid ""
-"The document '%1' contains unsaved changes.\n"
-"Do you want to save the changes before closing?"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-#, fuzzy
-msgid "Save"
-msgstr "Сатрни &олиб ташлаш"
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-#, fuzzy
-msgid "Discard"
-msgstr "Ўзгаришларни сақлаш"
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-msgid "Cancel"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:545
-msgid "Page Header (Any)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:549
-msgid "Page Header (Even)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:553
-msgid "Page Header (Odd)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:557
-msgid "Page Header (First)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:561
-msgid "Page Header (Last)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:565
-msgid "Page Footer (Any)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:569
-msgid "Page Footer (Even)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:573
-msgid "Page Footer (Odd)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:577
-msgid "Page Footer (First)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:581
-msgid "Page Footer (Last)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:286
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:322
-msgid "Error Encountered"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:287
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:322
-msgid "Unable to add a new group because its name would not be unique"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportsection.cpp:78
-#, fuzzy
-#| msgid "Details"
-msgid "Detail"
-msgstr "Тафсилотлар"
-
-#: plugins/reportspgz/backend/common/krimagedata.cpp:151
-msgid "Clip"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krimagedata.cpp:151
-msgid "Stretch"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krbarcodedata.cpp:150
-#: plugins/reportspgz/backend/common/krfielddata.cpp:117
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:106
-#: plugins/reportspgz/backend/common/krtextdata.cpp:136
-#, fuzzy
-#| msgctxt "Label Position"
-#| msgid "Left"
-msgid "Left"
-msgstr "Чапда"
-
-#: plugins/reportspgz/backend/common/krbarcodedata.cpp:150
-#: plugins/reportspgz/backend/common/krfielddata.cpp:117
-#: plugins/reportspgz/backend/common/krfielddata.cpp:123
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:106
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:112
-#: plugins/reportspgz/backend/common/krtextdata.cpp:136
-#: plugins/reportspgz/backend/common/krtextdata.cpp:142
-#, fuzzy
-#| msgid "Create"
-msgid "Center"
-msgstr "Яратиш"
-
-#: plugins/reportspgz/backend/common/krbarcodedata.cpp:150
-#: plugins/reportspgz/backend/common/krfielddata.cpp:117
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:106
-#: plugins/reportspgz/backend/common/krtextdata.cpp:136
-#, fuzzy
-#| msgid "To Right"
-msgid "Right"
-msgstr "Ўнгга"
-
-#: plugins/reportspgz/backend/common/krcheckdata.cpp:58
-#, fuzzy
-#| msgid "Comments"
-msgid "Cross"
-msgstr "Изоҳлар"
-
-#: plugins/reportspgz/backend/common/krcheckdata.cpp:58
-msgid "Tick"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krcheckdata.cpp:58
-msgid "Dot"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Bar"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Pie"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-#, fuzzy
-#| msgid "To Right"
-msgid "Ring"
-msgstr "Ўнгга"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-#, fuzzy
-#| msgid "Port:"
-msgid "Polar"
-msgstr "Порт:"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-#, fuzzy
-msgid "Normal"
-msgstr "&Форматлаш"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-msgid "Stacked"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-#, fuzzy
-msgid "Percent"
-msgstr "Босиб чиқариш"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-#, fuzzy
-msgid "Rows"
-msgstr "Сатр:"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:161
-#, fuzzy
-msgid "Default"
-msgstr "Андоза: %1"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:161
-#, fuzzy
-msgid "Rainbow"
-msgstr "Сатр:"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:161
-msgid "Subdued"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:162
-msgid "Color Scheme"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:174
-#, fuzzy
-msgid "Fields from master data source"
-msgstr "Танланган маълумотлар манбасига ўтиш"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:175
-#, fuzzy
-msgid "Fields from child data source"
-msgstr "Танланган маълумотлар манбасига ўтиш"
-
-#: plugins/reportspgz/backend/common/krfielddata.cpp:123
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:112
-#: plugins/reportspgz/backend/common/krtextdata.cpp:142
-#, fuzzy
-#| msgctxt "Label Position"
-#| msgid "Top"
-msgid "Top"
-msgstr "Юқорида"
-
-#: plugins/reportspgz/backend/common/krfielddata.cpp:123
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:112
-#: plugins/reportspgz/backend/common/krtextdata.cpp:142
-#, fuzzy
-#| msgid "To Bottom"
-msgid "Bottom"
-msgstr "Пастга"
 
 #: plugins/importexport/csv/kexicsvwidgets.cpp:68
 msgid "Comma \",\""
