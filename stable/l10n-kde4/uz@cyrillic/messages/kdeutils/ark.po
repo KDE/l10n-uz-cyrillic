@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-30 01:29+0200\n"
+"POT-Creation-Date: 2009-07-31 01:30+0200\n"
 "PO-Revision-Date: 2006-12-17 13:36+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/extractHereDndPlugin.cpp:69 kerfuffle/extractiondialog.cpp:107
+#: app/extractHereDndPlugin.cpp:69 kerfuffle/extractiondialog.cpp:120
 #, fuzzy
 #| msgid "Extract"
 msgid "Extract here"
@@ -176,10 +176,6 @@ msgid ""
 "archive, a subfolder by the name of the archive will be created."
 msgstr ""
 
-#: app/main.cpp:103
-msgid "Create a subfolder under the destination directory and extract here."
-msgstr ""
-
 #: app/mainwindow.cpp:125
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
@@ -221,25 +217,25 @@ msgstr ""
 msgid "Failed to create the new archive. Permissions might not be sufficient."
 msgstr ""
 
-#: kerfuffle/batchextract.cpp:139 kerfuffle/batchextract.cpp:179
+#: kerfuffle/batchextract.cpp:126 kerfuffle/batchextract.cpp:172
 #, fuzzy
 #| msgid "Extracting..."
 msgid "Extracting file..."
 msgstr "Ажратилмоқда..."
 
-#: kerfuffle/batchextract.cpp:140 kerfuffle/batchextract.cpp:180
+#: kerfuffle/batchextract.cpp:127 kerfuffle/batchextract.cpp:173
 #, fuzzy
 #| msgid "Save Archive?"
 msgid "Source archive"
 msgstr "Архивни сақлайми?"
 
-#: kerfuffle/batchextract.cpp:141 kerfuffle/batchextract.cpp:181
+#: kerfuffle/batchextract.cpp:128 kerfuffle/batchextract.cpp:174
 #, fuzzy
 #| msgid "Destination folder: "
 msgid "Destination"
 msgstr "Мўлжал жилди: "
 
-#: kerfuffle/batchextract.cpp:163
+#: kerfuffle/batchextract.cpp:150
 msgid "There was an error during extraction."
 msgstr ""
 
@@ -263,56 +259,62 @@ msgstr ""
 
 #. i18n: file: kerfuffle/extractiondialog.ui:161
 #. i18n: ectx: property (title), widget (QGroupBox, filesToExtractGroupBox)
-#: kerfuffle/extractiondialog.cpp:54 rc.cpp:63
+#: kerfuffle/extractiondialog.cpp:56 rc.cpp:63
 msgid "Extract"
 msgstr "Ажратиш"
 
-#: kerfuffle/extractiondialog.cpp:80
+#: kerfuffle/extractiondialog.cpp:92
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extract multiple archives"
 msgstr "Ҳамма файлларни ажратиш"
 
-#: kerfuffle/extractiondialog.cpp:86
+#: kerfuffle/extractiondialog.cpp:98
 msgid "The subfolder name may not contain the character '/'."
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:92
+#: kerfuffle/extractiondialog.cpp:104
 #, kde-format
 msgid "Create folder %1?"
 msgstr "%1 жилдини яратайми?"
 
-#: kerfuffle/extractiondialog.cpp:93
+#: kerfuffle/extractiondialog.cpp:105
 msgid "Missing Folder"
 msgstr "Жилд етишмаяпти"
 
-#: kerfuffle/extractiondialog.cpp:93
+#: kerfuffle/extractiondialog.cpp:105
 msgid "Create Folder"
 msgstr "Жилдни яратиш"
 
-#: kerfuffle/extractiondialog.cpp:93
+#: kerfuffle/extractiondialog.cpp:105
 msgid "Do Not Create"
 msgstr "Яратилмасин"
 
-#: kerfuffle/extractiondialog.cpp:99
+#: kerfuffle/extractiondialog.cpp:111
 msgid "The folder could not be created. Please check permissions."
 msgstr "Жилдни яратиб бўлмади. Илтимос ҳуқуқларни текширинг."
 
-#: kerfuffle/extractiondialog.cpp:107
+#: kerfuffle/extractiondialog.cpp:120
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid "The folder '%1' already exists. Are you sure you want to extract here?"
 msgstr "Архив аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: kerfuffle/extractiondialog.cpp:107
+#: kerfuffle/extractiondialog.cpp:120
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgid "Folder exists"
 msgstr "Архив аллақачон мавжуд"
 
-#: kerfuffle/extractiondialog.cpp:107 part/part.cpp:317 part/part.cpp:714
+#: kerfuffle/extractiondialog.cpp:120 part/part.cpp:317 part/part.cpp:687
 msgid "Cancel"
 msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:128
+#, fuzzy, kde-format
+#| msgid "The folder could not be created. Please check permissions."
+msgid "The folder '%1' could not be created. Please check permissions."
+msgstr "Жилдни яратиб бўлмади. Илтимос ҳуқуқларни текширинг."
 
 #: kerfuffle/jobs.cpp:111
 #, fuzzy
@@ -629,29 +631,23 @@ msgstr ""
 msgid "Reading the archive '%1' failed with the error '%2'"
 msgstr ""
 
-#: part/part.cpp:537
-#, fuzzy, kde-format
-#| msgid "The folder could not be created. Please check permissions."
-msgid "The folder '%1' could not be created. Please check permissions."
-msgstr "Жилдни яратиб бўлмади. Илтимос ҳуқуқларни текширинг."
-
-#: part/part.cpp:679
+#: part/part.cpp:652
 #, fuzzy
 #| msgid "All Files"
 msgid "Add Files"
 msgstr "Ҳамма файллар"
 
-#: part/part.cpp:687
+#: part/part.cpp:660
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Folder"
 msgstr "&Жилдни қўшиш"
 
-#: part/part.cpp:714
+#: part/part.cpp:687
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:714
+#: part/part.cpp:687
 #, fuzzy
 #| msgid "Selected files only"
 msgid "Delete files"
@@ -929,13 +925,19 @@ msgstr "Фақат танланган файллар"
 msgid "All &files"
 msgstr "Ҳамма файллар"
 
-#. i18n: file: part/ark.kcfg:9
+#. i18n: file: kerfuffle/ark.kcfg:9
 #. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
 #: rc.cpp:72
 #, fuzzy
 #| msgid "Open destination folder after extraction"
 msgid "Open destination folder after extraction"
 msgstr "Ажратишдан сўнг мўлжал жилдини очиш"
+
+#. i18n: file: kerfuffle/ark.kcfg:13
+#. i18n: ectx: label, entry (preservePaths), group (Extraction)
+#: rc.cpp:75
+msgid "Preserve paths when extracting"
+msgstr ""
 
 #, fuzzy
 #~| msgid "&Action"
