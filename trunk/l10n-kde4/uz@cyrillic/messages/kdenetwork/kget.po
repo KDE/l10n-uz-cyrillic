@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-25 06:21+0200\n"
+"POT-Creation-Date: 2009-09-27 06:15+0200\n"
 "PO-Revision-Date: 2007-02-03 14:08+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -246,8 +246,8 @@ msgctxt "A mirror is removed when the file has the wrong download size"
 msgid "%1 removed as it did report a wrong file size."
 msgstr ""
 
-#: core/datasourcefactory.cpp:638 core/kget.cpp:554 core/kget.cpp:903
-#: core/kget.cpp:912 transfer-plugins/metalink/metalink.cpp:193
+#: core/datasourcefactory.cpp:638 core/kget.cpp:554 core/kget.cpp:908
+#: core/kget.cpp:917 transfer-plugins/metalink/metalink.cpp:193
 #: transfer-plugins/bittorrent/bttransfer.cpp:494
 #: transfer-plugins/bittorrent/bttransfer.cpp:505
 #: ui/metalinkcreator/metalinkcreator.cpp:289
@@ -391,22 +391,32 @@ msgstr ""
 msgid "My Downloads"
 msgstr "Ёзиб олиш давом эттрилди"
 
+#: core/kget.cpp:815
+msgid "We are sorry. KGet is unable to download from this protocol"
+msgstr ""
+
+#: core/kget.cpp:816
+#, fuzzy
+#| msgid "We are online."
+msgid "We are sorry"
+msgstr "Биз онлайнмиз."
+
 #. i18n: file: ui/newtransferwidget.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:842 ui/newtransferdialog.cpp:254 rc.cpp:520
+#: core/kget.cpp:847 ui/newtransferdialog.cpp:254 rc.cpp:520
 #, fuzzy
 msgid "New Download"
 msgstr "Қайтадан ёзиб олиш"
 
-#: core/kget.cpp:842
+#: core/kget.cpp:847
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:875
+#: core/kget.cpp:880
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:902
+#: core/kget.cpp:907
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -415,7 +425,7 @@ msgstr ""
 "Нотўғри URL:\n"
 "%1"
 
-#: core/kget.cpp:911
+#: core/kget.cpp:916
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -427,7 +437,7 @@ msgstr ""
 "Нотўғри URL:\n"
 "%1"
 
-#: core/kget.cpp:923
+#: core/kget.cpp:928
 #, kde-format
 msgid ""
 "You have already completed a download from the location: \n"
@@ -437,12 +447,12 @@ msgid ""
 "Download it again?"
 msgstr ""
 
-#: core/kget.cpp:924
+#: core/kget.cpp:929
 #, fuzzy
 msgid "Download it again?"
 msgstr "Қайтадан ёзиб олиш"
 
-#: core/kget.cpp:936
+#: core/kget.cpp:941
 #, kde-format
 msgid ""
 "You have a download in progress from the location: \n"
@@ -452,16 +462,16 @@ msgid ""
 "Delete it and download again?"
 msgstr ""
 
-#: core/kget.cpp:937
+#: core/kget.cpp:942
 #, fuzzy
 msgid "Delete it and download again?"
 msgstr "Қайтадан ёзиб олиш"
 
-#: core/kget.cpp:960 core/kget.cpp:967
+#: core/kget.cpp:965 core/kget.cpp:972
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:977
+#: core/kget.cpp:982
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -473,18 +483,18 @@ msgstr ""
 "%1\n"
 "Уни алмаштиришни истайсизми?"
 
-#: core/kget.cpp:978
+#: core/kget.cpp:983
 #, fuzzy
 msgid "Overwrite destination"
 msgstr "М&анзилни очиш"
 
-#: core/kget.cpp:1109
+#: core/kget.cpp:1114
 #, kde-format
 msgid ""
 "<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1127
+#: core/kget.cpp:1132
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -495,7 +505,7 @@ msgstr ""
 "%1\n"
 "чунки у жилд."
 
-#: core/kget.cpp:1137
+#: core/kget.cpp:1142
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -508,19 +518,19 @@ msgstr ""
 
 #. i18n: file: conf/dlgadvanced.ui:40
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: core/kget.cpp:1328 core/kget.cpp:1338 ui/droptarget.cpp:94 rc.cpp:65
+#: core/kget.cpp:1333 core/kget.cpp:1343 ui/droptarget.cpp:94 rc.cpp:65
 #, fuzzy
 #| msgid "KGet"
 msgid "Quit KGet"
 msgstr "KGet"
 
-#: core/kget.cpp:1329
+#: core/kget.cpp:1334
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet is now closing, as all downloads have completed."
 msgstr "Ҳамма ёзиб олиш вазифалари бажарилди."
 
-#: core/kget.cpp:1339
+#: core/kget.cpp:1344
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now turn off, as all downloads have completed."
@@ -5104,9 +5114,6 @@ msgstr ""
 
 #~ msgid "Disconnecting..."
 #~ msgstr "Узилмоқда..."
-
-#~ msgid "We are online."
-#~ msgstr "Биз онлайнмиз."
 
 #~ msgid "We are offline."
 #~ msgstr "Биз офлайнмиз."
