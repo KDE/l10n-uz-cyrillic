@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-30 06:57+0200\n"
+"POT-Creation-Date: 2009-10-06 06:05+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -219,18 +219,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
 
-#: core/kexipartmanager.cpp:67
+#: core/kexipartmanager.cpp:66
 #, kde-format
 msgid ""
 "No \"%1\" service type installed. Check your Kexi installation. Aborting."
 msgstr ""
 
-#: core/kexipartmanager.cpp:144
+#: core/kexipartmanager.cpp:145 core/kexiinternalpart.cpp:53
+#, kde-format
+msgid ""
+"Incompatible plugin \"%1\" version: found version %2, expected version %3."
+msgstr ""
+
+#: core/kexipartmanager.cpp:158
 #, kde-format
 msgid "Error while loading plugin \"%1\""
 msgstr "\"%1\" плагинини юклашда хато рўй берди"
 
-#: core/kexipartmanager.cpp:177 core/kexipartmanager.cpp:187
+#: core/kexipartmanager.cpp:191 core/kexipartmanager.cpp:201
 #, kde-format
 msgid "No plugin for class \"%1\""
 msgstr ""
@@ -376,7 +382,7 @@ msgstr "\"%1\" объектини очиб бўлмади."
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:872 main/KexiMainWindow.cpp:4312
+#: core/kexiproject.cpp:872 main/KexiMainWindow.cpp:4311
 #, fuzzy
 msgid "Could not set empty name for this object."
 msgstr "Ушбу лойиҳа учун бўш ном ўрнатиб бўлмади."
@@ -420,7 +426,7 @@ msgid ""
 "opened as read only."
 msgstr ""
 
-#: core/kexiinternalpart.cpp:51
+#: core/kexiinternalpart.cpp:68
 #, kde-format
 msgid "Could not load \"%1\" plugin."
 msgstr "\"%1\" плагинини юклаб бўлмади."
@@ -432,7 +438,7 @@ msgid ""
 msgstr ""
 "Дизайн ўзгартирилди. Бошқа кўринишга ўтишдан олдин уни сақлашингиз лозим."
 
-#: core/KexiWindow.cpp:673 main/KexiMainWindow.cpp:3411
+#: core/KexiWindow.cpp:673 main/KexiMainWindow.cpp:3410
 #, kde-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
@@ -1349,7 +1355,7 @@ msgstr ""
 "\"%1\" лойиҳаси аллақачон мавжуд.\n"
 "Ушбу лойиҳани янги бўш лойиҳа билан алмаштиришни истайсизми?"
 
-#: main/KexiMainWindow.cpp:189
+#: main/KexiMainWindow.cpp:188
 #, fuzzy
 #| msgid "Close the current project"
 msgid "Close the current tab"
@@ -1357,24 +1363,24 @@ msgstr "Жорий лойиҳани ёпиш"
 
 #. i18n: file: data/kexiui.rc:88
 #. i18n: ectx: Menu (insert)
-#: main/KexiMainWindow.cpp:402 rc.cpp:29
+#: main/KexiMainWindow.cpp:401 rc.cpp:29
 #, fuzzy
 msgid "&Insert"
 msgstr "Қўйиш"
 
 #. i18n: file: data/kexiui.rc:21
 #. i18n: ectx: Menu (project_import)
-#: main/KexiMainWindow.cpp:408 rc.cpp:11
+#: main/KexiMainWindow.cpp:407 rc.cpp:11
 msgid "&Import"
 msgstr "&Импорт қилиш"
 
 #. i18n: file: data/kexiui.rc:57
 #. i18n: ectx: Menu (edit_paste_special)
-#: main/KexiMainWindow.cpp:409 rc.cpp:23
+#: main/KexiMainWindow.cpp:408 rc.cpp:23
 msgid "Paste &Special"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:439
+#: main/KexiMainWindow.cpp:438
 #, fuzzy
 #| msgid "Close the current project"
 msgctxt "Close the current tab page in Kexi tab interface"
@@ -1383,689 +1389,689 @@ msgstr "Жорий лойиҳани ёпиш"
 
 #. i18n: file: data/kexiui.rc:125
 #. i18n: ectx: Menu (window)
-#: main/KexiMainWindow.cpp:481 rc.cpp:47
+#: main/KexiMainWindow.cpp:480 rc.cpp:47
 msgid "&Window"
 msgstr "&Ойна"
 
-#: main/KexiMainWindow.cpp:551
+#: main/KexiMainWindow.cpp:550
 #, kde-format
 msgid ""
 "User interface mode will be switched to IDEAl at next %1 application startup."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:576
+#: main/KexiMainWindow.cpp:575
 #, kde-format
 msgid ""
 "User interface mode will be switched to Childframe at next %1 application "
 "startup."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:628
+#: main/KexiMainWindow.cpp:627
 msgid "&New..."
 msgstr "Я&нги"
 
-#: main/KexiMainWindow.cpp:630
+#: main/KexiMainWindow.cpp:629
 msgid "Create a new project"
 msgstr "Янги лойиҳани яратиш"
 
-#: main/KexiMainWindow.cpp:632
+#: main/KexiMainWindow.cpp:631
 msgid "Creates a new project. Currently opened project is not affected."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:637
+#: main/KexiMainWindow.cpp:636
 msgid "Open an existing project"
 msgstr "Мавжуд лойиҳани очиш"
 
-#: main/KexiMainWindow.cpp:639
+#: main/KexiMainWindow.cpp:638
 msgid "Opens an existing project. Currently opened project is not affected."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:643
+#: main/KexiMainWindow.cpp:642
 msgid "&Download Example Databases..."
 msgstr "Маълумот база намунасини &ёзиб олиш..."
 
-#: main/KexiMainWindow.cpp:644
+#: main/KexiMainWindow.cpp:643
 msgid "Download example databases from the Internet"
 msgstr "Маълумот база намунасини Интернетдан ёзиб олиш"
 
-#: main/KexiMainWindow.cpp:645
+#: main/KexiMainWindow.cpp:644
 #, fuzzy
 msgid "Downloads example databases from the Internet."
 msgstr "Маълумот база намунасини Интернетдан ёзиб олиш"
 
 #. i18n: file: data/kexiui.rc:11
 #. i18n: ectx: Menu (file)
-#: main/KexiMainWindow.cpp:654 main/KexiMainWindow.cpp:3211 rc.cpp:8
+#: main/KexiMainWindow.cpp:653 main/KexiMainWindow.cpp:3210 rc.cpp:8
 #, fuzzy
 msgid "Open Recent"
 msgstr "Яқинда очилган лойиҳани очиш"
 
-#: main/KexiMainWindow.cpp:674
+#: main/KexiMainWindow.cpp:673
 msgid "Save object changes"
 msgstr "Объект ўзгаришларини сақлаш"
 
-#: main/KexiMainWindow.cpp:675
+#: main/KexiMainWindow.cpp:674
 msgid "Saves object changes from currently selected window."
 msgstr "Жорий танланган ойнадан объект ўзгаришларини сақлаш."
 
-#: main/KexiMainWindow.cpp:680
+#: main/KexiMainWindow.cpp:679
 msgid "Save &As..."
 msgstr "...сифатида с&ақлаш"
 
-#: main/KexiMainWindow.cpp:681 main/KexiMainWindow.cpp:3227
+#: main/KexiMainWindow.cpp:680 main/KexiMainWindow.cpp:3226
 #, fuzzy
 msgid "Save object as"
 msgstr "Объектни қуйидагича сақлаш"
 
-#: main/KexiMainWindow.cpp:683
+#: main/KexiMainWindow.cpp:682
 #, fuzzy
 msgid ""
 "Saves object changes from currently selected window under a new name (within "
 "the same project)."
 msgstr "Жорий танланган ойнадан объект ўзгаришларини сақлаш."
 
-#: main/KexiMainWindow.cpp:689
+#: main/KexiMainWindow.cpp:688
 msgid "Project Properties"
 msgstr "Лойиҳа хоссалари"
 
-#: main/KexiMainWindow.cpp:698
+#: main/KexiMainWindow.cpp:697
 msgid "&Close Project"
 msgstr "Лойиҳани &ёпиш"
 
-#: main/KexiMainWindow.cpp:699
+#: main/KexiMainWindow.cpp:698
 msgid "Close the current project"
 msgstr "Жорий лойиҳани ёпиш"
 
-#: main/KexiMainWindow.cpp:700
+#: main/KexiMainWindow.cpp:699
 #, fuzzy
 msgid "Closes the current project."
 msgstr "Жорий лойиҳани ёпиш"
 
-#: main/KexiMainWindow.cpp:706
+#: main/KexiMainWindow.cpp:705
 msgid "Quits Kexi application. Kexi prompts you to save changes."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:711
+#: main/KexiMainWindow.cpp:710
 msgid "&Relationships..."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:713
+#: main/KexiMainWindow.cpp:712
 #, fuzzy
 msgid "Project relationships"
 msgstr "Лойиҳа сарлавҳаси"
 
-#: main/KexiMainWindow.cpp:714
+#: main/KexiMainWindow.cpp:713
 msgid "Shows project relationships."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:723
+#: main/KexiMainWindow.cpp:722
 msgid "&Import Database..."
 msgstr "Маълумотлар базасини &импорт қилиш..."
 
-#: main/KexiMainWindow.cpp:724
+#: main/KexiMainWindow.cpp:723
 #, fuzzy
 msgid "Import entire database as a Kexi project"
 msgstr "Бутун маълумотлар базасини Kexi лойиҳаси сифатида импорт қилиш"
 
-#: main/KexiMainWindow.cpp:726
+#: main/KexiMainWindow.cpp:725
 #, fuzzy
 msgid "Imports entire database as a Kexi project."
 msgstr "Бутун маълумотлар базасини Kexi лойиҳаси сифатида импорт қилиш"
 
-#: main/KexiMainWindow.cpp:731
+#: main/KexiMainWindow.cpp:730
 #, fuzzy
 #| msgid "Import Database"
 msgid "Import Tables"
 msgstr "Маълумотлар базасини импорт қилиш"
 
-#: main/KexiMainWindow.cpp:732 main/KexiMainWindow.cpp:733
+#: main/KexiMainWindow.cpp:731 main/KexiMainWindow.cpp:732
 msgid "Import data from an external source into this database"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:741
+#: main/KexiMainWindow.cpp:740
 #, fuzzy
 msgid "&Compact Database..."
 msgstr "Маълумотлар базасини &импорт қилиш..."
 
-#: main/KexiMainWindow.cpp:742
+#: main/KexiMainWindow.cpp:741
 #, fuzzy
 msgid "Compact the current database project"
 msgstr "Жорий лойиҳани ёпиш"
 
-#: main/KexiMainWindow.cpp:744
+#: main/KexiMainWindow.cpp:743
 msgid ""
 "Compacts the current database project, so it will take less space and work "
 "faster."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:754
+#: main/KexiMainWindow.cpp:753
 #, fuzzy
 msgctxt "Import->Table Data From File..."
 msgid "Table Data From &File..."
 msgstr "Маълумотлар &жадвали..."
 
-#: main/KexiMainWindow.cpp:755
+#: main/KexiMainWindow.cpp:754
 msgid "Import table data from a file"
 msgstr "Маълумотлар жадвалини файлдан импорт қилиш"
 
-#: main/KexiMainWindow.cpp:756
+#: main/KexiMainWindow.cpp:755
 #, fuzzy
 msgid "Imports table data from a file."
 msgstr "Маълумотлар жадвалини файлдан импорт қилиш"
 
-#: main/KexiMainWindow.cpp:764
+#: main/KexiMainWindow.cpp:763
 #, fuzzy
 msgctxt "Export->Table or Query Data to File..."
 msgid "Table or Query Data to &File..."
 msgstr "Маълумотлар &жадвали..."
 
-#: main/KexiMainWindow.cpp:766
+#: main/KexiMainWindow.cpp:765
 msgid "Export data from the active table or query data to a file"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:768
+#: main/KexiMainWindow.cpp:767
 msgid "Exports data from the active table or query data to a file."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:779
+#: main/KexiMainWindow.cpp:778
 msgid "Print data from the active table or query"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:780
+#: main/KexiMainWindow.cpp:779
 msgid "Prints data from the active table or query."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:786
+#: main/KexiMainWindow.cpp:785
 msgid "Show print preview for the active table or query"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:788
+#: main/KexiMainWindow.cpp:787
 msgid "Shows print preview for the active table or query."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:793
+#: main/KexiMainWindow.cpp:792
 #: main/printing/kexisimpleprintpreviewwindow.cpp:183
 #, fuzzy
 msgid "Page Set&up..."
 msgstr "Саҳифа мос&ламаси..."
 
-#: main/KexiMainWindow.cpp:795
+#: main/KexiMainWindow.cpp:794
 msgid "Show page setup for printing the active table or query"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:797 widget/KexiProjectListView.cpp:216
+#: main/KexiMainWindow.cpp:796 widget/KexiProjectListView.cpp:216
 msgid "Shows page setup for printing the active table or query."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:812
+#: main/KexiMainWindow.cpp:811
 #, fuzzy
 msgctxt "Paste Special->As Data &Table..."
 msgid "As Data &Table..."
 msgstr "Маълумот тури"
 
-#: main/KexiMainWindow.cpp:814
+#: main/KexiMainWindow.cpp:813
 msgid "Paste clipboard data as a table"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:816
+#: main/KexiMainWindow.cpp:815
 msgid "Pastes clipboard data to a table."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:824
+#: main/KexiMainWindow.cpp:823
 #, fuzzy
 msgctxt "Copy Special->Table or Query Data..."
 msgid "Table or Query as Data Table..."
 msgstr "Маълумотлар &жадвали..."
 
-#: main/KexiMainWindow.cpp:827
+#: main/KexiMainWindow.cpp:826
 msgid "Copy selected table or query data to clipboard"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:829
+#: main/KexiMainWindow.cpp:828
 msgid "Copies selected table or query data to clipboard."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:834
+#: main/KexiMainWindow.cpp:833
 msgid "Reverts the most recent editing action."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:836
+#: main/KexiMainWindow.cpp:835
 msgid "Reverts the most recent undo action."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:865 widget/KexiProjectListView.cpp:149
+#: main/KexiMainWindow.cpp:864 widget/KexiProjectListView.cpp:149
 #, fuzzy
 msgid "&Delete"
 msgstr "Сатрни &олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:867
+#: main/KexiMainWindow.cpp:866
 #, fuzzy
 msgid "Delete selected object"
 msgstr "Жорий танланган сатрни жадвалдан олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:868
+#: main/KexiMainWindow.cpp:867
 #, fuzzy
 msgid "Deletes currently selected object."
 msgstr "Жорий танланган сатрни жадвалдан олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:870
+#: main/KexiMainWindow.cpp:869
 msgid "Delete Row"
 msgstr "Сатрни олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:872
+#: main/KexiMainWindow.cpp:871
 #, fuzzy
 msgid "Delete currently selected row"
 msgstr "Жорий танланган сатрни жадвалдан олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:873
+#: main/KexiMainWindow.cpp:872
 #, fuzzy
 msgid "Deletes currently selected row."
 msgstr "Жорий танланган сатрни жадвалдан олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:875
+#: main/KexiMainWindow.cpp:874
 msgid "Clear Table Contents"
 msgstr "Жадвал таркибини тозалаш"
 
-#: main/KexiMainWindow.cpp:877
+#: main/KexiMainWindow.cpp:876
 msgid "Clear table contents"
 msgstr "Жадвал таркибини тозалаш"
 
-#: main/KexiMainWindow.cpp:878
+#: main/KexiMainWindow.cpp:877
 #, fuzzy
 msgid "Clears table contents."
 msgstr "Жадвал таркибини тозалаш"
 
-#: main/KexiMainWindow.cpp:881
+#: main/KexiMainWindow.cpp:880
 #, fuzzy
 msgid "Edit Item"
 msgstr "Элементни ўзгартириш"
 
-#: main/KexiMainWindow.cpp:884
+#: main/KexiMainWindow.cpp:883
 #, fuzzy
 msgid "Edit currently selected item"
 msgstr "Жорий танланган элементни ўзгартириш"
 
-#: main/KexiMainWindow.cpp:885
+#: main/KexiMainWindow.cpp:884
 #, fuzzy
 msgid "Edits currently selected item."
 msgstr "Жорий танланган элементни ўзгартириш"
 
-#: main/KexiMainWindow.cpp:887
+#: main/KexiMainWindow.cpp:886
 #, fuzzy
 msgid "&Insert Empty Row"
 msgstr "Бўш ҳатор &қўшиш"
 
-#: main/KexiMainWindow.cpp:891
+#: main/KexiMainWindow.cpp:890
 #, fuzzy
 msgid "Insert one empty row above"
 msgstr "Пастга янги бўш қатор қўшиш"
 
-#: main/KexiMainWindow.cpp:893
+#: main/KexiMainWindow.cpp:892
 #, fuzzy
 msgid "Inserts one empty row above currently selected table row."
 msgstr "Пастга янги бўш қатор қўшиш"
 
-#: main/KexiMainWindow.cpp:950 widget/KexiProjectListView.cpp:86
+#: main/KexiMainWindow.cpp:949 widget/KexiProjectListView.cpp:86
 #, fuzzy
 msgid "Project Navigator"
 msgstr "Лойиҳа навигатори"
 
-#: main/KexiMainWindow.cpp:952
+#: main/KexiMainWindow.cpp:951
 #, fuzzy
 msgid "Go to project navigator panel"
 msgstr "Лойиҳа навигатори"
 
-#: main/KexiMainWindow.cpp:953
+#: main/KexiMainWindow.cpp:952
 #, fuzzy
 msgid "Goes to project navigator panel."
 msgstr "Лойиҳа навигатори"
 
-#: main/KexiMainWindow.cpp:960
+#: main/KexiMainWindow.cpp:959
 msgid "Main Area"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:962
+#: main/KexiMainWindow.cpp:961
 msgid "Go to main area"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:963
+#: main/KexiMainWindow.cpp:962
 msgid "Goes to main area."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:969 main/KexiMainWindow.cpp:2112
+#: main/KexiMainWindow.cpp:968 main/KexiMainWindow.cpp:2111
 #, fuzzy
 msgid "Property Editor"
 msgstr "Лойиҳа навигатори"
 
-#: main/KexiMainWindow.cpp:971
+#: main/KexiMainWindow.cpp:970
 msgid "Go to property editor panel"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:972
+#: main/KexiMainWindow.cpp:971
 msgid "Goes to property editor panel."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:979
+#: main/KexiMainWindow.cpp:978
 #, fuzzy
 msgid "&Save Row"
 msgstr "Сатрни &олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:981
+#: main/KexiMainWindow.cpp:980
 #, fuzzy
 msgid "Save changes made to the current row"
 msgstr "Жорий танланган ойнадан объект ўзгаришларини сақлаш."
 
-#: main/KexiMainWindow.cpp:982
+#: main/KexiMainWindow.cpp:981
 #, fuzzy
 msgid "Saves changes made to the current row."
 msgstr "Жорий танланган ойнадан объект ўзгаришларини сақлаш."
 
-#: main/KexiMainWindow.cpp:985
+#: main/KexiMainWindow.cpp:984
 #, fuzzy
 msgid "&Cancel Row Changes"
 msgstr "Ўзгаришларни сақлаш"
 
-#: main/KexiMainWindow.cpp:988
+#: main/KexiMainWindow.cpp:987
 #, fuzzy
 msgid "Cancel changes made to the current row"
 msgstr "Жорий танланган ойнадан объект ўзгаришларини сақлаш."
 
-#: main/KexiMainWindow.cpp:990
+#: main/KexiMainWindow.cpp:989
 #, fuzzy
 msgid "Cancels changes made to the current row."
 msgstr "Жорий танланган ойнадан объект ўзгаришларини сақлаш."
 
-#: main/KexiMainWindow.cpp:994
+#: main/KexiMainWindow.cpp:993
 #, fuzzy
 msgid "&Execute"
 msgstr "Скриптни ишга тушириш"
 
-#: main/KexiMainWindow.cpp:999
+#: main/KexiMainWindow.cpp:998
 msgid "&Filter"
 msgstr "&Филтр"
 
-#: main/KexiMainWindow.cpp:1025
+#: main/KexiMainWindow.cpp:1024
 msgid "&Font..."
 msgstr "&Шрифт..."
 
-#: main/KexiMainWindow.cpp:1027
+#: main/KexiMainWindow.cpp:1026
 msgid "Change font for selected object"
 msgstr "Танланган объект шрифтини ўзгартириш"
 
-#: main/KexiMainWindow.cpp:1028
+#: main/KexiMainWindow.cpp:1027
 #, fuzzy
 msgid "Changes font for selected object."
 msgstr "Танланган объект шрифтини ўзгартириш"
 
-#: main/KexiMainWindow.cpp:1052
+#: main/KexiMainWindow.cpp:1051
 msgid "&Next Window"
 msgstr "&Кейинги ойна"
 
-#: main/KexiMainWindow.cpp:1060
+#: main/KexiMainWindow.cpp:1059
 msgid "Next window"
 msgstr "Кейинги ойна"
 
-#: main/KexiMainWindow.cpp:1061
+#: main/KexiMainWindow.cpp:1060
 msgid "Switches to the next window."
 msgstr "Кейинги ойнага ўтиш."
 
-#: main/KexiMainWindow.cpp:1066
+#: main/KexiMainWindow.cpp:1065
 msgid "&Previous Window"
 msgstr "&Олдинги ойна"
 
-#: main/KexiMainWindow.cpp:1074
+#: main/KexiMainWindow.cpp:1073
 msgid "Previous window"
 msgstr "Олдинги ойна"
 
-#: main/KexiMainWindow.cpp:1075
+#: main/KexiMainWindow.cpp:1074
 msgid "Switches to the previous window."
 msgstr "Олдинги ойнага ўтиш."
 
-#: main/KexiMainWindow.cpp:1086
+#: main/KexiMainWindow.cpp:1085
 msgid "Lets you configure shortcut keys."
 msgstr "Тугмалар бирикмасини ўзгартириш имконини беради."
 
-#: main/KexiMainWindow.cpp:1128
+#: main/KexiMainWindow.cpp:1127
 msgid "Lets you configure Kexi."
 msgstr "Kexi мосламаларини ўзгартириш имконини беради."
 
-#: main/KexiMainWindow.cpp:1137
+#: main/KexiMainWindow.cpp:1136
 msgid "Shows bug reporting tool for Kexi application."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1139
+#: main/KexiMainWindow.cpp:1138
 msgid "Shows \"What's This\" tool."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1141 migration/importwizard.cpp:959
+#: main/KexiMainWindow.cpp:1140 migration/importwizard.cpp:959
 #: migration/importwizard.cpp:966 migration/importwizard.cpp:968
 #: migration/importwizard.cpp:970 migration/importwizard.cpp:972
 #: migration/importwizard.cpp:974
 msgid "Help"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1142
+#: main/KexiMainWindow.cpp:1141
 msgid "Shows Kexi Handbook."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1144
+#: main/KexiMainWindow.cpp:1143
 #, fuzzy
 #| msgid "Could not start Kexi application this way."
 msgid "Shows information about Kexi application."
 msgstr "Kexi дастурини ушбу йўл билан ишга тушириб бўлмайди."
 
-#: main/KexiMainWindow.cpp:1146
+#: main/KexiMainWindow.cpp:1145
 msgid "Shows information about K Desktop Environment."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1150
+#: main/KexiMainWindow.cpp:1149
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1153 main/KexiMainWindow.cpp:4469
+#: main/KexiMainWindow.cpp:1152 main/KexiMainWindow.cpp:4468
 msgid "Important Information"
 msgstr "Муҳим маълумот"
 
-#: main/KexiMainWindow.cpp:1160
+#: main/KexiMainWindow.cpp:1159
 msgid "Give Feedback..."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1523
+#: main/KexiMainWindow.cpp:1522
 msgid "reason:"
 msgstr "сабаб:"
 
-#: main/KexiMainWindow.cpp:1558
+#: main/KexiMainWindow.cpp:1557
 #, kde-format
 msgid ""
 "<qt>Database project %1 does not appear to have been created using Kexi."
 "<br><br>Do you want to import it as a new Kexi project?</qt>"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1560
+#: main/KexiMainWindow.cpp:1559
 msgctxt "Import Database"
 msgid "&Import..."
 msgstr "&Импорт қилиш..."
 
-#: main/KexiMainWindow.cpp:1594
+#: main/KexiMainWindow.cpp:1593
 #, fuzzy
 #| msgid "Select Project's Location"
 msgid "Select New Project's Location"
 msgstr "Лойиҳа манзилини танланг"
 
-#: main/KexiMainWindow.cpp:1685
+#: main/KexiMainWindow.cpp:1684
 #, fuzzy, kde-format
 msgid "cannot create object - unknown object type \"%1\""
 msgstr "номаълум объект тури \"%1\""
 
-#: main/KexiMainWindow.cpp:1687
+#: main/KexiMainWindow.cpp:1686
 #, kde-format
 msgid "unknown object type \"%1\""
 msgstr "номаълум объект тури \"%1\""
 
-#: main/KexiMainWindow.cpp:1695
+#: main/KexiMainWindow.cpp:1694
 #, fuzzy, kde-format
 msgid "cannot create object of type \"%1\""
 msgstr "номаълум объект тури \"%1\""
 
-#: main/KexiMainWindow.cpp:1707
+#: main/KexiMainWindow.cpp:1706
 msgid "making print preview for"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1709
+#: main/KexiMainWindow.cpp:1708
 msgid "printing"
 msgstr "босиб чиқарилмоқда"
 
-#: main/KexiMainWindow.cpp:1711
+#: main/KexiMainWindow.cpp:1710
 #, fuzzy
 msgctxt "\"executing object\" action"
 msgid "executing"
 msgstr "Скриптни ишга тушириш"
 
-#: main/KexiMainWindow.cpp:1713
+#: main/KexiMainWindow.cpp:1712
 msgid "opening"
 msgstr "очилмоқда"
 
-#: main/KexiMainWindow.cpp:1717
+#: main/KexiMainWindow.cpp:1716
 msgid "table not found"
 msgstr "жадвал топилмади"
 
-#: main/KexiMainWindow.cpp:1719
+#: main/KexiMainWindow.cpp:1718
 #, fuzzy
 msgid "query not found"
 msgstr "Жадвал топилмади"
 
-#: main/KexiMainWindow.cpp:1721
+#: main/KexiMainWindow.cpp:1720
 #, fuzzy
 msgid "macro not found"
 msgstr "Жадвал топилмади"
 
-#: main/KexiMainWindow.cpp:1723
+#: main/KexiMainWindow.cpp:1722
 #, fuzzy
 msgid "script not found"
 msgstr "объект топилмади"
 
-#: main/KexiMainWindow.cpp:1725
+#: main/KexiMainWindow.cpp:1724
 msgid "object not found"
 msgstr "объект топилмади"
 
-#: main/KexiMainWindow.cpp:1733
+#: main/KexiMainWindow.cpp:1732
 #, fuzzy
 msgid "cannot execute object"
 msgstr "объектни очиб бўлмади"
 
-#: main/KexiMainWindow.cpp:1740
+#: main/KexiMainWindow.cpp:1739
 msgid "cannot print object"
 msgstr "объектни босиб чиқариб бўлмади"
 
-#: main/KexiMainWindow.cpp:1747
+#: main/KexiMainWindow.cpp:1746
 #, fuzzy
 msgid "cannot make print preview of object"
 msgstr "объектни босиб чиқариб бўлмади"
 
-#: main/KexiMainWindow.cpp:1768
+#: main/KexiMainWindow.cpp:1767
 msgid "cannot open object"
 msgstr "объектни очиб бўлмади"
 
-#: main/KexiMainWindow.cpp:1782
+#: main/KexiMainWindow.cpp:1781
 msgid ""
 "You have requested selected objects to be automatically opened or processed "
 "on startup. Several objects cannot be opened or processed."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2137 widget/utils/kexicontextmenuutils.cpp:98
+#: main/KexiMainWindow.cpp:2136 widget/utils/kexicontextmenuutils.cpp:98
 #: widget/KexiPropertyEditorView.cpp:46
 #, fuzzy
 msgid "Properties"
 msgstr "Лойиҳа хоссалари"
 
-#: main/KexiMainWindow.cpp:3168
+#: main/KexiMainWindow.cpp:3167
 msgid "Recently Opened Databases"
 msgstr "Яқинда очилган маълумотлар базаси"
 
-#: main/KexiMainWindow.cpp:3187
+#: main/KexiMainWindow.cpp:3186
 #, fuzzy
 msgid "Recently Connected Database Servers"
 msgstr "Яқинда очилган маълумотлар базаси"
 
-#: main/KexiMainWindow.cpp:3281
+#: main/KexiMainWindow.cpp:3280
 msgid "From File..."
 msgstr "Файлдан"
 
-#: main/KexiMainWindow.cpp:3286
+#: main/KexiMainWindow.cpp:3285
 msgid "From Server..."
 msgstr "Сервердан"
 
-#: main/KexiMainWindow.cpp:3397
+#: main/KexiMainWindow.cpp:3396
 #, kde-format
 msgid "Selected view is not supported for \"%1\" object."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3399
+#: main/KexiMainWindow.cpp:3398
 #, kde-format
 msgid "Selected view (%1) is not supported by this object type (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3496
+#: main/KexiMainWindow.cpp:3495
 #, fuzzy
 msgid "Save Object As"
 msgstr "Объектни қуйидагича сақлаш"
 
-#: main/KexiMainWindow.cpp:3517
+#: main/KexiMainWindow.cpp:3516
 msgid "Do you want to replace it?"
 msgstr "Уни алмаштиришни истайсизми?"
 
 #. i18n: file: main/kexifinddialog.ui:103
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
-#: main/KexiMainWindow.cpp:3519 migration/importwizard.cpp:801 rc.cpp:186
+#: main/KexiMainWindow.cpp:3518 migration/importwizard.cpp:801 rc.cpp:186
 #: widget/utils/kexicontextmenuutils.cpp:230
 msgid "&Replace"
 msgstr "&Алмаштириш"
 
-#: main/KexiMainWindow.cpp:3520
+#: main/KexiMainWindow.cpp:3519
 msgid "&Choose Other Name..."
 msgstr "Бошқа ном &танлаш..."
 
-#: main/KexiMainWindow.cpp:3537
+#: main/KexiMainWindow.cpp:3536
 msgid "Please choose other name."
 msgstr "Илтимос бошқа ном танланг."
 
-#: main/KexiMainWindow.cpp:3560
+#: main/KexiMainWindow.cpp:3559
 #, fuzzy, kde-format
 msgid "Saving \"%1\" object failed."
 msgstr "\"%1\" объектини сақлаб бўлмади."
 
-#: main/KexiMainWindow.cpp:3577
+#: main/KexiMainWindow.cpp:3576
 #, fuzzy, kde-format
 msgid "Saving new \"%1\" object failed."
 msgstr "Янги \"%1\" объектини сақлаб бўлмади."
 
-#: main/KexiMainWindow.cpp:3629 main/KexiMainWindow.cpp:4926
+#: main/KexiMainWindow.cpp:3628 main/KexiMainWindow.cpp:4925
 msgid "Save changes"
 msgstr "Ўзгаришларни сақлаш"
 
-#: main/KexiMainWindow.cpp:3631 main/KexiMainWindow.cpp:4928
+#: main/KexiMainWindow.cpp:3630 main/KexiMainWindow.cpp:4927
 #, kde-format
 msgid ""
 "Pressing this button will save all recent changes made in \"%1\" object."
 msgstr "Ушбу тугмани босиш \"%1\" объектидаги охирги ўзгаришларни сақлайди."
 
-#: main/KexiMainWindow.cpp:3635
+#: main/KexiMainWindow.cpp:3634
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will discard all recent changes made in \"%1\" object."
 msgstr "Ушбу тугмани босиш \"%1\" объектидаги охирги ўзгаришларни сақлайди."
 
-#: main/KexiMainWindow.cpp:3657
+#: main/KexiMainWindow.cpp:3656
 msgid "Do you want to save changes?"
 msgstr "Ўзгаришларни сақлашни истайсизми?"
 
-#: main/KexiMainWindow.cpp:4027
+#: main/KexiMainWindow.cpp:4026
 #, kde-format
 msgctxt "opening is not allowed in \"data view/design view/text view\" mode"
 msgid "opening is not allowed in \"%1\" mode"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4244
+#: main/KexiMainWindow.cpp:4243
 #, kde-format
 msgid ""
 "Do you want to permanently delete:\n"
@@ -2075,50 +2081,50 @@ msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:255
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: main/KexiMainWindow.cpp:4248 rc.cpp:342
+#: main/KexiMainWindow.cpp:4247 rc.cpp:342
 #: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1075
 #: plugins/reportspgz/kexireportdesignview.cpp:43
 #, fuzzy
 msgid "Delete"
 msgstr "Сатрни олиб ташлаш"
 
-#: main/KexiMainWindow.cpp:4298
+#: main/KexiMainWindow.cpp:4297
 msgid "Could not remove object."
 msgstr "Объектни олиб ташлаб бўлмади."
 
-#: main/KexiMainWindow.cpp:4320
+#: main/KexiMainWindow.cpp:4319
 #, fuzzy, kde-format
 msgid "Renaming object \"%1\" failed."
 msgstr "\"%1\" объектини номини ўзгартириб бўлмади."
 
-#: main/KexiMainWindow.cpp:4530
+#: main/KexiMainWindow.cpp:4529
 #, fuzzy, kde-format
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr "\"%1\" лойиҳасини яратиб бўлмади."
 
-#: main/KexiMainWindow.cpp:4534
+#: main/KexiMainWindow.cpp:4533
 #, fuzzy
 msgid "No Final Mode data found."
 msgstr "Майдон топилмади"
 
-#: main/KexiMainWindow.cpp:4541
+#: main/KexiMainWindow.cpp:4540
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4570
+#: main/KexiMainWindow.cpp:4569
 msgid "Specified plugin does not exist."
 msgstr "Кўрсатилган плагин мавжуд эмас."
 
-#: main/KexiMainWindow.cpp:4579
+#: main/KexiMainWindow.cpp:4578
 msgid "Specified object could not be opened."
 msgstr "Кўрсатилган объектни очиб бўлмади."
 
-#: main/KexiMainWindow.cpp:4663
+#: main/KexiMainWindow.cpp:4662
 #, fuzzy, kde-format
 msgid "Compacting database file <nobr>\"%1\"</nobr> is not supported."
 msgstr "<p><nobr>\"%1\"</nobr> файлини ўқиб бўлмайди.</p>"
 
-#: main/KexiMainWindow.cpp:4675
+#: main/KexiMainWindow.cpp:4674
 msgid ""
 "The current project has to be closed before compacting the database. It will "
 "be open again after compacting.\n"
@@ -2126,22 +2132,22 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4932
+#: main/KexiMainWindow.cpp:4931
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will ignore all unsaved changes made in \"%1\" object."
 msgstr "Ушбу тугмани босиш \"%1\" объектидаги охирги ўзгаришларни сақлайди."
 
-#: main/KexiMainWindow.cpp:4937
+#: main/KexiMainWindow.cpp:4936
 msgid "Do you want to save changes before printing?"
 msgstr "Босиб чиқаришдан олдин ўзгаришларни сақлашни истайсизми?"
 
-#: main/KexiMainWindow.cpp:4939
+#: main/KexiMainWindow.cpp:4938
 #, fuzzy
 msgid "Do you want to save changes before making print preview?"
 msgstr "Босиб чиқаришдан олдин ўзгаришларни сақлашни истайсизми?"
 
-#: main/KexiMainWindow.cpp:4941
+#: main/KexiMainWindow.cpp:4940
 #, fuzzy
 msgid "Do you want to save changes before showing page setup?"
 msgstr "Босиб чиқаришдан олдин ўзгаришларни сақлашни истайсизми?"
@@ -2415,24 +2421,24 @@ msgstr "Маълумот базасини очиш"
 msgid "Kexi Migrate Test"
 msgstr ""
 
-#: migration/migratemanager.cpp:166
+#: migration/migratemanager.cpp:165
 #, fuzzy
 msgid "Could not find any import/export database drivers."
 msgstr "Ҳеча қандай маълумот база драйвери топилмади."
 
-#: migration/migratemanager.cpp:186
+#: migration/migratemanager.cpp:185
 #, fuzzy, kde-format
 msgid "Could not find import/export database driver \"%1\"."
 msgstr "Маълумотлар база драйвери \"%1\" топилмади."
 
-#: migration/migratemanager.cpp:201
+#: migration/migratemanager.cpp:200
 #, kde-format
 msgid ""
 "Incompatible migration driver's \"%1\" version: found version %2, expected "
 "version %3."
 msgstr ""
 
-#: migration/migratemanager.cpp:215
+#: migration/migratemanager.cpp:214
 #, fuzzy, kde-format
 msgid "Could not load import/export database driver \"%1\"."
 msgstr "Маълумотлар база драйверини \"%1\" юклаб бўлмади."
@@ -2571,7 +2577,7 @@ msgid ""
 "Depending on size of the database this may take some time."
 msgstr ""
 
-#: migration/importwizard.cpp:701 migration/importtablewizard.cpp:375
+#: migration/importwizard.cpp:701 migration/importtablewizard.cpp:391
 msgid "No appropriate migration driver found."
 msgstr ""
 
@@ -2662,7 +2668,7 @@ msgid ""
 msgstr ""
 
 #: migration/importoptionsdlg.cpp:69
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:182
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:181
 msgid "Text encoding:"
 msgstr "Матнни кодлаш усули:"
 
@@ -2671,12 +2677,19 @@ msgid "Always use this encoding in similar situations"
 msgstr ""
 
 #: migration/AlterSchemaWidget.cpp:37
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:935
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:948
+#, kde-format
+msgid "Column %1"
+msgstr "Устун %1"
+
+#: migration/AlterSchemaWidget.cpp:38
 #, fuzzy
 #| msgid "Column %1"
 msgid "Column Type"
 msgstr "Устун %1"
 
-#: migration/AlterSchemaWidget.cpp:38
+#: migration/AlterSchemaWidget.cpp:39
 #: plugins/tables/kexitabledesignerview.cpp:193
 #: plugins/tables/kexitabledesignerview.cpp:430
 msgid "Primary Key"
@@ -2704,7 +2717,7 @@ msgstr "Импорт қилиш усулини танланг"
 msgid "Alter the Detected Design"
 msgstr ""
 
-#: migration/importtablewizard.cpp:323
+#: migration/importtablewizard.cpp:339
 msgid ""
 "All required information has now been gathered. Click \"Next\" button to "
 "start importing.\n"
@@ -3012,8 +3025,8 @@ msgid "Ignored"
 msgstr "Эътибор берилмади"
 
 #: kexidb/driver_p.cpp:63 plugins/queries/kexiquerydesignerguieditor.cpp:1706
-#: plugins/importexport/csv/kexicsvwidgets.cpp:163
-#: plugins/importexport/csv/kexicsvwidgets.cpp:178
+#: plugins/importexport/csv/kexicsvwidgets.cpp:167
+#: plugins/importexport/csv/kexicsvwidgets.cpp:182
 #: plugins/tables/kexitabledesignerview.cpp:426
 msgid "None"
 msgstr "Йўқ"
@@ -3070,7 +3083,7 @@ msgstr "Ҳеча қандай маълумот база драйвери топ�
 msgid "Could not find database driver \"%1\"."
 msgstr "Маълумотлар база драйвери \"%1\" топилмади."
 
-#: kexidb/drivermanager.cpp:225
+#: kexidb/drivermanager.cpp:225 formeditor/widgetlibrary.cpp:243
 #, kde-format
 msgid ""
 "Incompatible database driver's \"%1\" version: found version %2, expected "
@@ -3810,7 +3823,7 @@ msgid "Edit Rich Text"
 msgstr ""
 
 #: formeditor/factories/stdwidgetfactory.cpp:184 formeditor/form.cpp:721
-#: plugins/forms/kexidbfactory.cpp:77 plugins/forms/kexiformpart.cpp:92
+#: plugins/forms/kexidbfactory.cpp:77 plugins/forms/kexiformpart.cpp:91
 msgid "Form"
 msgstr "Шакл"
 
@@ -5517,26 +5530,26 @@ msgstr ""
 msgid "Handle tab order automatically"
 msgstr ""
 
-#: formeditor/widgetlibrary.cpp:743
+#: formeditor/widgetlibrary.cpp:761
 #, fuzzy
 #| msgid "&Horizontally"
 msgctxt "Insert Horizontal Widget"
 msgid "Insert Horizontal"
 msgstr "&Энига"
 
-#: formeditor/widgetlibrary.cpp:749
+#: formeditor/widgetlibrary.cpp:767
 #, fuzzy
 #| msgid "&Vertically"
 msgctxt "Insert Vertical Widget"
 msgid "Insert Vertical"
 msgstr "&Бўйига"
 
-#: formeditor/widgetlibrary.cpp:753
+#: formeditor/widgetlibrary.cpp:771
 #, fuzzy, kde-format
 msgid "Insert Widget: %1"
 msgstr "Хато жадвал номи \"%1\""
 
-#: formeditor/widgetlibrary.cpp:757
+#: formeditor/widgetlibrary.cpp:775
 #: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
 msgid "Cancel"
 msgstr ""
@@ -6551,7 +6564,7 @@ msgid "Opens selected object in the list in text view."
 msgstr "Рўйхатдан танланган объектни матн кўринишида очиш"
 
 #: widget/KexiProjectListView.cpp:201
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:69
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:68
 #, fuzzy
 msgid "Export"
 msgstr "&Экспорт қилиш"
@@ -7066,7 +7079,7 @@ msgstr "Буйруқ тугмаси"
 msgid "A command button to execute actions"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:278 plugins/forms/kexiformpart.cpp:489
+#: plugins/forms/kexidbfactory.cpp:278 plugins/forms/kexiformpart.cpp:488
 msgid "Data Source"
 msgstr "Маълумот манбаси"
 
@@ -7301,7 +7314,7 @@ msgstr "Белгиланган майдонларни шаклга қўйиш"
 msgid "Inserts selected fields into form"
 msgstr "Белгиланган майдонларни шаклга қўйиш"
 
-#: plugins/forms/kexiformpart.cpp:91
+#: plugins/forms/kexiformpart.cpp:90
 #, fuzzy
 msgctxt ""
 "Translate this word using only lowercase alphanumeric characters (a..z, "
@@ -7311,140 +7324,140 @@ msgctxt ""
 msgid "form"
 msgstr "hisobot"
 
-#: plugins/forms/kexiformpart.cpp:93
+#: plugins/forms/kexiformpart.cpp:92
 #, fuzzy
 #| msgid "Create a new project"
 msgctxt "tooltip"
 msgid "Create new form"
 msgstr "Янги лойиҳани яратиш"
 
-#: plugins/forms/kexiformpart.cpp:94
+#: plugins/forms/kexiformpart.cpp:93
 #, fuzzy
 #| msgid "Creates a new object"
 msgctxt "what's this"
 msgid "Creates new form."
 msgstr "Янги объект яратиш"
 
-#: plugins/forms/kexiformpart.cpp:147 plugins/forms/kexiformpart.cpp:172
+#: plugins/forms/kexiformpart.cpp:146 plugins/forms/kexiformpart.cpp:171
 msgid "Edit Tab Order..."
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:148
+#: plugins/forms/kexiformpart.cpp:147
 msgid "Adjust Size"
 msgstr "Ўлчамини мослаш"
 
-#: plugins/forms/kexiformpart.cpp:170
+#: plugins/forms/kexiformpart.cpp:169
 #, fuzzy
 msgid "Clear Widget Contents"
 msgstr "Жадвал таркибини тозалаш"
 
-#: plugins/forms/kexiformpart.cpp:179
+#: plugins/forms/kexiformpart.cpp:178
 msgid "Layout Widgets"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:183
+#: plugins/forms/kexiformpart.cpp:182
 msgid "&Horizontally"
 msgstr "&Энига"
 
-#: plugins/forms/kexiformpart.cpp:185
+#: plugins/forms/kexiformpart.cpp:184
 msgid "&Vertically"
 msgstr "&Бўйига"
 
-#: plugins/forms/kexiformpart.cpp:187
+#: plugins/forms/kexiformpart.cpp:186
 #, fuzzy
 msgid "In &Grid"
 msgstr "Тўрга"
 
-#: plugins/forms/kexiformpart.cpp:190
+#: plugins/forms/kexiformpart.cpp:189
 #, fuzzy
 msgid "Horizontally in &Splitter"
 msgstr "&Энига"
 
-#: plugins/forms/kexiformpart.cpp:192
+#: plugins/forms/kexiformpart.cpp:191
 msgid "Verti&cally in Splitter"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:196
+#: plugins/forms/kexiformpart.cpp:195
 msgid "&Break Layout"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:203
+#: plugins/forms/kexiformpart.cpp:202
 msgid "Bring Widget to Front"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:205
+#: plugins/forms/kexiformpart.cpp:204
 msgid "Send Widget to Back"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:209
+#: plugins/forms/kexiformpart.cpp:208
 msgid "Other Widgets"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:213
+#: plugins/forms/kexiformpart.cpp:212
 msgid "Align Widgets Position"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:216
+#: plugins/forms/kexiformpart.cpp:215
 msgid "To Left"
 msgstr "Чапга"
 
-#: plugins/forms/kexiformpart.cpp:218
+#: plugins/forms/kexiformpart.cpp:217
 msgid "To Right"
 msgstr "Ўнгга"
 
-#: plugins/forms/kexiformpart.cpp:220
+#: plugins/forms/kexiformpart.cpp:219
 msgid "To Top"
 msgstr "Юқорига"
 
-#: plugins/forms/kexiformpart.cpp:222
+#: plugins/forms/kexiformpart.cpp:221
 msgid "To Bottom"
 msgstr "Пастга"
 
-#: plugins/forms/kexiformpart.cpp:224 plugins/forms/kexiformpart.cpp:232
+#: plugins/forms/kexiformpart.cpp:223 plugins/forms/kexiformpart.cpp:231
 msgid "To Grid"
 msgstr "Тўрга"
 
-#: plugins/forms/kexiformpart.cpp:227
+#: plugins/forms/kexiformpart.cpp:226
 #, fuzzy
 msgid "Adjust Widgets Size"
 msgstr "Ўлчамини мослаш"
 
-#: plugins/forms/kexiformpart.cpp:230
+#: plugins/forms/kexiformpart.cpp:229
 #, fuzzy
 msgid "To Fit"
 msgstr "Ўнгга"
 
-#: plugins/forms/kexiformpart.cpp:234
+#: plugins/forms/kexiformpart.cpp:233
 #, fuzzy
 msgid "To Shortest"
 msgstr "Калталашиши бўйича"
 
-#: plugins/forms/kexiformpart.cpp:236
+#: plugins/forms/kexiformpart.cpp:235
 #, fuzzy
 msgid "To Tallest"
 msgstr "Узунлашиши бўйича"
 
-#: plugins/forms/kexiformpart.cpp:238
+#: plugins/forms/kexiformpart.cpp:237
 #, fuzzy
 msgid "To Narrowest"
 msgstr "Торайиши бўйича"
 
-#: plugins/forms/kexiformpart.cpp:240
+#: plugins/forms/kexiformpart.cpp:239
 #, fuzzy
 msgid "To Widest"
 msgstr "Узунлашиши бўйича"
 
-#: plugins/forms/kexiformpart.cpp:423
+#: plugins/forms/kexiformpart.cpp:422
 #, kde-format
 msgid "Design of form \"%1\" has been modified."
 msgstr "\"%1\" шакли учун дизайн ўзгартирилди."
 
-#: plugins/forms/kexiformpart.cpp:425
+#: plugins/forms/kexiformpart.cpp:424
 #, kde-format
 msgid "Form \"%1\" already exists."
 msgstr "\"%1\" шакли аллақачон мавжуд."
 
-#: plugins/forms/kexiformpart.cpp:492
+#: plugins/forms/kexiformpart.cpp:491
 msgid "Widgets"
 msgstr ""
 
@@ -7478,7 +7491,7 @@ msgid "Query Columns"
 msgstr "Сўров устуни"
 
 #: plugins/queries/kexiquerydesignerguieditor.cpp:225
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1198
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1203
 msgid "Column"
 msgstr "Устун"
 
@@ -7966,7 +7979,7 @@ msgstr ""
 
 #: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1068
 #: plugins/reportspgz/kexireportdesignview.cpp:39
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:66
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:65
 #, fuzzy
 msgid "Copy"
 msgstr "Нусха олинмоқда"
@@ -8186,164 +8199,173 @@ msgstr "Янги лойиҳани яратиш"
 msgid "Source"
 msgstr "Маълумот манбаси"
 
-#: plugins/importexport/csv/kexicsvwidgets.cpp:67
+#: plugins/importexport/csv/kexicsvwidgets.cpp:71
 msgid "Comma \",\""
 msgstr "Вергул \",\""
 
-#: plugins/importexport/csv/kexicsvwidgets.cpp:68
+#: plugins/importexport/csv/kexicsvwidgets.cpp:72
 msgid "Semicolon \";\""
 msgstr "Нуқта вергул \";\""
 
-#: plugins/importexport/csv/kexicsvwidgets.cpp:69
+#: plugins/importexport/csv/kexicsvwidgets.cpp:73
 #, fuzzy
 msgid "Tabulator"
 msgstr "Табуляция"
 
-#: plugins/importexport/csv/kexicsvwidgets.cpp:70
+#: plugins/importexport/csv/kexicsvwidgets.cpp:74
 msgid "Space \" \""
 msgstr "Бўш жой \" \""
 
-#: plugins/importexport/csv/kexicsvwidgets.cpp:71
+#: plugins/importexport/csv/kexicsvwidgets.cpp:75
 msgid "Other"
 msgstr "Бошқа"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:79
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:78
 msgid "Copy Data From Table to Clipboard"
 msgstr "Жадвалдаги маълумотлардан хотирага нусха олиш"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:80
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:88
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:79
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:87
 msgid "Copying data from table:"
 msgstr "Жадвалдаги маълумотлардан нусха олинмоқда:"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:82
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:81
 #, fuzzy
 msgid "Export Data From Table to CSV File"
 msgstr "Жадвалдаги маълумотлардан хотирага нусха олиш"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:83
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:82
 msgid "Exporting data from table:"
 msgstr "Маълумотлар жадвалдан экспорт қилинмоқда:"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:87
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:86
 #, fuzzy
 msgid "Copy Data From Query to Clipboard"
 msgstr "Жадвалдаги маълумотлардан хотирага нусха олиш"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:90
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:89
 #, fuzzy
 msgid "Export Data From Query to CSV File"
 msgstr "Маълумотлар жадвалдан экспорт қилинмоқда:"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:91
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:90
 #, fuzzy
 msgid "Exporting data from query:"
 msgstr "Маълумотлар жадвалдан экспорт қилинмоқда:"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:95
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:94
 msgid "Could not open data for exporting."
 msgstr "Экспорт қилиш учун маълумотларни очиб бўлмади."
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:116
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:115
 msgid "Enter Name of File You Want to Save Data To"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:133
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:132
 msgid "To CSV file:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:133
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:132
 msgid "To clipboard:"
 msgstr "Хотирага олиш:"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:140
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:341
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:139
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:340
 msgid "Show Options >>"
 msgstr "Мосламаларни кўрсатиш >>"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:147
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:146
 #, fuzzy
 msgid "Options"
 msgstr "Сарлавҳа:"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:162
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:221
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:161
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:224
 msgid "Delimiter:"
 msgstr "Ажратувчи:"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:174
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:261
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:173
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:264
 msgid "Text quote:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:187
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:186
 #, fuzzy
 msgid "Add column names as the first row"
 msgstr "Биринчи қаторга устун номини қўшиш"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:192
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:191
 msgid "Always use above options for exporting"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:206
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:205
 msgid "Copying"
 msgstr "Нусха олинмоқда"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:206
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:205
 msgid "Exporting"
 msgstr "Экспорт қилинмоқда"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:265
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:264
 #, kde-format
 msgid "(rows: %1, columns: %2)"
 msgstr "(сатр: %1, устун: %2)"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:267
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:266
 #, kde-format
 msgid "(columns: %1)"
 msgstr "(устун: %1)"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:347
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:346
 msgid "Hide Options <<"
 msgstr "Мосламаларни бекитиш <<"
 
-#: plugins/importexport/csv/kexicsvexportwizard.cpp:363
+#: plugins/importexport/csv/kexicsvexportwizard.cpp:362
 msgid "Defaults"
 msgstr "Андозалар"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:167
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:168
 msgid "no"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:169
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:170
 #, fuzzy
 #| msgid "file"
 msgid "false"
 msgstr "файл"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:172
-msgid "Import CSV Data File"
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:174
+#, fuzzy
+#| msgid "Import CSV Data File"
+msgid "Import CSV Data From File"
 msgstr "CSV маълумот файлини импорт қилиш"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:180
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:174
+#, fuzzy
+#| msgid "Copy Data From Table to Clipboard"
+msgid "Paste CSV Data From Clipboard"
+msgstr "Жадвалдаги маълумотлардан хотирага нусха олиш"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:182
 #, fuzzy
 msgid "&Options"
 msgstr "Сарлавҳа:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:183
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:185
 msgid "&Import..."
 msgstr "&Импорт қилиш..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:206
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:209
 #, fuzzy
 msgid "Preview of data from file:"
 msgstr "Маълумотлар жадвалини файлдан импорт қилиш"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:207
-msgid "Preview of data from clipboard:"
-msgstr ""
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:210
+#, fuzzy
+msgid "Preview of data from clipboard"
+msgstr "Маълумотлар жадвалини файлдан импорт қилиш"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:253
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:256
 msgid "Primary key"
 msgstr "Биринчи даражали калит"
 
@@ -8355,63 +8377,57 @@ msgstr ""
 msgid "First row contains column names"
 msgstr "Биринчи сатрда устун номлари мавжуд"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:336
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:340
 msgid "Open CSV Data File"
 msgstr "CSV маълумот файлини очиш"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:388
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:392
 msgid "Loading CSV Data"
 msgstr "CSV маълумотларини юклаш"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:389
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:393
 #, kde-format
 msgid "Loading CSV Data from \"%1\"..."
 msgstr "CSV маълумотлари \"%1\"дан юкланмоқда..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:477
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:481
 #, kde-format
 msgid "Cannot open input file <nobr>\"%1\"</nobr>."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:567
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:571
 #, kde-format
 msgid "Start at line (1-%1):"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:568
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:572
 #, fuzzy
 msgid "Start at line:"
 msgstr "yorliq"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:930
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:943
-#, kde-format
-msgid "Column %1"
-msgstr "Устун %1"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1223
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1228
 msgid "Column name"
 msgstr "Устун номи"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1328
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1333
 #, kde-format
 msgid "Format for column %1:"
 msgstr "%1 устуни кўриниши:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1355
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1381
 msgid "Data set contains no rows. Do you want to import empty table?"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1361
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1387
 msgid "No project available."
 msgstr "Лойиҳа мавжуд эмас."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1366
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1392
 #, fuzzy
 msgid "No database connection available."
 msgstr "Лойиҳа мавжуд эмас."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1428
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1448
 msgid ""
 "No Primary Key (autonumber) has been defined.\n"
 "Should it be automatically defined on import (recommended)?\n"
@@ -8420,62 +8436,62 @@ msgid ""
 "on database type)."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1431
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1452
 msgctxt "Add Database Primary Key to a Table"
 msgid "Add Primary Key"
 msgstr "Биринчи даражали калит қўшиш"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1432
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1453
 msgctxt "Do Not Add Database Primary Key to a Table"
 msgid "Do Not Add"
 msgstr "Қўшилмасин"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1553
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1569
 msgid "Importing CSV Data"
 msgstr "CSV маълумотларини импорт қилиш"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1558
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1574
 #, kde-format
 msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
 msgstr ""
 "CSV маълумотлари <nobr>\"%1\"дан</nobr> \"%2\" жадвалига импорт қилинмоқда..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1605
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1625
 #, kde-format
 msgid "Data has been successfully imported to table \"%1\"."
 msgstr "Маълумотлар \"%1\" жадвалига муваффақиятли импорт қилинди."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1615
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1635
 msgctxt "Text type for column"
 msgid "Text"
 msgstr "Матн"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1617
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1637
 #, fuzzy
 msgctxt "Numeric type for column"
 msgid "Number"
 msgstr "Матн"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1619
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1639
 #, fuzzy
 msgctxt "Currency type for column"
 msgid "Currency"
 msgstr "Матн"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1688
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1708
 #, fuzzy, kde-format
 #| msgid "(columns: %1)"
 msgctxt "row count"
 msgid "(rows: %1)"
 msgstr "(устун: %1)"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1692
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1712
 #, kde-format
 msgctxt "row count"
 msgid "(rows: more than %1)"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1693
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1713
 #, fuzzy
 msgid "Not all rows are visible on this preview"
 msgstr "Ушбу ойна учун ёрдам мавжуд эмас."
