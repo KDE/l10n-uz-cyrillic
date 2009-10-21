@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-20 06:07+0200\n"
+"POT-Creation-Date: 2009-10-21 07:08+0200\n"
 "PO-Revision-Date: 2008-06-08 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1313,20 +1313,33 @@ msgstr ""
 msgid "Location to open"
 msgstr "Кўриш учун манзил"
 
-#: sidebar/test/modulemanagertest.cpp:87
-#: sidebar/test/modulemanagertest.cpp:114
+#: sidebar/test/modulemanagertest.cpp:89
+#: sidebar/test/modulemanagertest.cpp:115
 #, fuzzy
 #| msgid "Web SideBar Plugin"
 msgid "SideBar Test Plugin"
 msgstr "Веб ён панели учун плагин"
 
-#: sidebar/trees/konqsidebar_tree.cpp:161
-msgid "Select Type"
-msgstr "Белгилаш тури"
+#: sidebar/trees/konqsidebar_tree.cpp:192
+#: sidebar/web_module/web_module.cpp:251
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Номи:"
 
-#: sidebar/trees/konqsidebar_tree.cpp:162
-msgid "Select type:"
-msgstr "Турини танланг:"
+#: sidebar/trees/konqsidebar_tree.cpp:192
+#: sidebar/web_module/web_module.cpp:251
+#, fuzzy
+#| msgid "Show URL"
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "URL'ни кўрсатиш"
+
+#: sidebar/trees/konqsidebar_tree.cpp:193
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
 
 #: sidebar/trees/history_module/kcmhistory.cpp:69
 msgid " day"
@@ -1353,7 +1366,7 @@ msgstr[0] "Кун"
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
 msgstr "<h1>Тарих панели</h1> Тарих панелини бу ерда мослашингиз мумкин."
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:423
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:414
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr ""
@@ -1469,39 +1482,39 @@ msgstr "Жилднинг номини киритинг:"
 msgid "Extended Sidebar"
 msgstr "Кенгайтирилган ён панели"
 
-#: sidebar/sidebar_widget.cpp:84
+#: sidebar/sidebar_widget.cpp:94
 msgid "Rollback to System Default"
 msgstr "Тизимнинг андозаларига қайтиш"
 
-#: sidebar/sidebar_widget.cpp:171
+#: sidebar/sidebar_widget.cpp:152
 msgid "Configure Navigation Panel"
 msgstr "Йўлчи панелини мослаш"
 
-#: sidebar/sidebar_widget.cpp:173
+#: sidebar/sidebar_widget.cpp:154
 msgid "Add New"
 msgstr "Янгини қўшиш"
 
-#: sidebar/sidebar_widget.cpp:177
+#: sidebar/sidebar_widget.cpp:158
 msgid "Multiple Views"
 msgstr "Бир нечта кўриниш"
 
-#: sidebar/sidebar_widget.cpp:179 sidebar/sidebar_widget.cpp:276
+#: sidebar/sidebar_widget.cpp:160 sidebar/sidebar_widget.cpp:258
 msgid "Show Tabs Left"
 msgstr "Табларни чапда кўрсатиш"
 
-#: sidebar/sidebar_widget.cpp:180
+#: sidebar/sidebar_widget.cpp:161
 msgid "Show Configuration Button"
 msgstr "Мослаш тугмасини кўрсатиш"
 
-#: sidebar/sidebar_widget.cpp:183
+#: sidebar/sidebar_widget.cpp:164
 msgid "Close Navigation Panel"
 msgstr "Йўлчи панелини ёпиш"
 
-#: sidebar/sidebar_widget.cpp:211
+#: sidebar/sidebar_widget.cpp:192
 msgid "This entry already exists."
 msgstr "Бу элемент аллақачон мавжуд."
 
-#: sidebar/sidebar_widget.cpp:234
+#: sidebar/sidebar_widget.cpp:216
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
@@ -1511,28 +1524,28 @@ msgstr ""
 "тизимнинг андоза бандларини қўшади.<br /><b>Бундан кейин орқага қайтиб "
 "бўлмайди.</b><br />Давом этишни истайсизми?</qt>"
 
-#: sidebar/sidebar_widget.cpp:276
+#: sidebar/sidebar_widget.cpp:258
 msgid "Show Tabs Right"
 msgstr "Табларни ўнгда кўрсатиш"
 
-#: sidebar/sidebar_widget.cpp:286
+#: sidebar/sidebar_widget.cpp:268
 msgid "Set Name"
 msgstr "Номини кўрсатиш"
 
-#: sidebar/sidebar_widget.cpp:286
+#: sidebar/sidebar_widget.cpp:268
 msgid "Enter the name:"
 msgstr "Номини киритинг:"
 
-#: sidebar/sidebar_widget.cpp:301
+#: sidebar/sidebar_widget.cpp:285
 msgid "Enter a URL:"
 msgstr "URL'ни киритинг:"
 
-#: sidebar/sidebar_widget.cpp:324
+#: sidebar/sidebar_widget.cpp:308
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt><b>%1</b> табини ростдан олиб ташлашни истайсизми?</qt>"
 
-#: sidebar/sidebar_widget.cpp:370
+#: sidebar/sidebar_widget.cpp:353
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1542,41 +1555,49 @@ msgstr ""
 "йўлчи панелининг истаган тугмасини ўнг сичқонча билан босиб \"Мослаш "
 "тугмасини кўрсатиш\" бандини танланг."
 
-#: sidebar/sidebar_widget.cpp:438
+#: sidebar/sidebar_widget.cpp:421
 msgid "Configure Sidebar"
 msgstr "Ён панелини мослаш"
 
-#: sidebar/sidebar_widget.cpp:551
+#: sidebar/sidebar_widget.cpp:539
 msgid "Set Name..."
 msgstr "Номини кўрсатиш"
 
-#: sidebar/sidebar_widget.cpp:552
+#: sidebar/sidebar_widget.cpp:540
 msgid "Set URL..."
 msgstr "URL'ни мослаш"
 
-#: sidebar/sidebar_widget.cpp:553
+#: sidebar/sidebar_widget.cpp:541
 msgid "Set Icon..."
 msgstr "Нишончани мослаш"
 
-#: sidebar/sidebar_widget.cpp:555
+#: sidebar/sidebar_widget.cpp:543
 msgid "Remove"
 msgstr "Олиб ташлаш"
 
-#: sidebar/web_module/web_module.cpp:86
+#: sidebar/web_module/web_module.cpp:89
 msgid "Set Refresh Timeout (0 disables)"
 msgstr ""
 
-#: sidebar/web_module/web_module.cpp:94
+#: sidebar/web_module/web_module.cpp:97
 msgid " min"
 msgstr " дақиқа"
 
-#: sidebar/web_module/web_module.cpp:96
+#: sidebar/web_module/web_module.cpp:99
 msgid " sec"
 msgstr " сония"
 
-#: sidebar/web_module/web_module.cpp:210
-msgid "Web SideBar Plugin"
-msgstr "Веб ён панели учун плагин"
+#: sidebar/web_module/web_module.cpp:231
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Веб ён панели"
+
+#: sidebar/web_module/web_module.cpp:252
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
@@ -2450,6 +2471,15 @@ msgid ""
 "will be opened inside current window."
 msgstr ""
 
+#~ msgid "Select Type"
+#~ msgstr "Белгилаш тури"
+
+#~ msgid "Select type:"
+#~ msgstr "Турини танланг:"
+
+#~ msgid "Web SideBar Plugin"
+#~ msgstr "Веб ён панели учун плагин"
+
 #~ msgid "<qt><b>%1</b> does not exist</qt>"
 #~ msgstr "<qt><b>%1</b> мавжуд эмас</qt>"
 
@@ -3172,9 +3202,6 @@ msgstr ""
 
 #~ msgid "Hide Permissions"
 #~ msgstr "Ҳуқуқларни бекитиш"
-
-#~ msgid "Show URL"
-#~ msgstr "URL'ни кўрсатиш"
 
 #~ msgid "Se&lect..."
 #~ msgstr "&Белгилаш"
