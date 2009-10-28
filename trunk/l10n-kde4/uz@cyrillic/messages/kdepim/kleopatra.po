@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-14 07:10+0200\n"
+"POT-Creation-Date: 2009-10-28 07:20+0100\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1262,53 +1262,68 @@ msgstr ""
 msgid "Log Error: Could not open log file \"%1\" for writing."
 msgstr ""
 
-#: utils/input.cpp:155
+#: utils/input.cpp:154
 #, kde-format
 msgid "Could not open FD %1 for reading"
 msgstr ""
 
-#: utils/input.cpp:184 utils/input.cpp:200
-#: uiserver/assuanserverconnection.cpp:542
+#: utils/input.cpp:183 utils/input.cpp:199
 #, kde-format
 msgid "Could not open file \"%1\" for reading"
 msgstr ""
 
-#: utils/input.cpp:197
+#: utils/input.cpp:196
 #, kde-format
 msgid "File \"%1\" is already open, but not for reading"
 msgstr ""
 
-#: utils/input.cpp:219
+#: utils/input.cpp:230
 #, kde-format
-msgid "\"%1\" is not a valid directory"
+msgid "Could not start %1 process: %2"
 msgstr ""
 
-#: utils/input.cpp:225
+#: utils/input.cpp:239
 #, kde-format
-msgid "Could not determine parent directory of \"%1\""
+msgctxt "e.g. \"Output of tar xf - file1 ...\""
+msgid "Output of %1 ..."
 msgstr ""
 
-#: utils/input.cpp:231
-msgid "Could not start zip process"
+#: utils/input.cpp:241
+#, kde-format
+msgctxt "e.g. \"Output of tar xf - file\""
+msgid "Output of %1"
 msgstr ""
 
-#: utils/input.cpp:258
+#: utils/input.cpp:263
 msgid "Could not open clipboard for reading"
 msgstr ""
 
-#: utils/input.cpp:268
+#: utils/input.cpp:273
 msgid "Clipboard contents"
 msgstr ""
 
-#: utils/input.cpp:270
+#: utils/input.cpp:275
 msgid "FindBuffer contents"
 msgstr ""
 
-#: utils/input.cpp:272
+#: utils/input.cpp:277
 #, fuzzy
 #| msgid "Current Maintainer"
 msgid "Current selection"
 msgstr "Жорий таъминловчи"
+
+#: utils/archivedefinition.cpp:69
+#, kde-format
+msgid "Error in archive definition %1: %2"
+msgstr ""
+
+#: utils/archivedefinition.cpp:87
+msgid "'extensions' entry is empty/missing"
+msgstr ""
+
+#: utils/archivedefinition.cpp:91
+msgid "'command' entry is empty/missing"
+msgstr ""
 
 #: utils/hex.cpp:55
 #, kde-format
@@ -1417,17 +1432,17 @@ msgid ""
 msgstr ""
 
 #: crypto/gui/signencryptfileswizard.cpp:131
-#: crypto/signencryptfilescontroller.cpp:129
+#: crypto/signencryptfilescontroller.cpp:155
 msgid "Sign/Encrypt Files"
 msgstr ""
 
 #: crypto/gui/signencryptfileswizard.cpp:132
-#: crypto/signencryptfilescontroller.cpp:124
+#: crypto/signencryptfilescontroller.cpp:144
 msgid "Sign Files"
 msgstr ""
 
 #: crypto/gui/signencryptfileswizard.cpp:133
-#: crypto/signencryptfilescontroller.cpp:127
+#: crypto/signencryptfilescontroller.cpp:150
 msgid "Encrypt Files"
 msgstr ""
 
@@ -1460,12 +1475,12 @@ msgid "Encryption Options"
 msgstr ""
 
 #: crypto/gui/signerresolvepage.cpp:301
-#: crypto/gui/newsignencryptfileswizard.cpp:305
+#: crypto/gui/newsignencryptfileswizard.cpp:315
 msgid "Text output (ASCII armor)"
 msgstr ""
 
 #: crypto/gui/signerresolvepage.cpp:304
-#: crypto/gui/newsignencryptfileswizard.cpp:306
+#: crypto/gui/newsignencryptfileswizard.cpp:316
 msgid "Remove unencrypted original file when done"
 msgstr ""
 
@@ -1605,88 +1620,92 @@ msgstr ""
 msgid "&Output folder:"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:143
+#: crypto/gui/newsignencryptfileswizard.cpp:147
 #, fuzzy
 #| msgid "Export Certificates..."
 msgctxt "@title:window"
 msgid "Selected Files"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: crypto/gui/newsignencryptfileswizard.cpp:222
+#: crypto/gui/newsignencryptfileswizard.cpp:226
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "No files selected."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: crypto/gui/newsignencryptfileswizard.cpp:223
+#: crypto/gui/newsignencryptfileswizard.cpp:227
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Selected file:"
 msgid_plural "Selected files:"
 msgstr[0] "Сертификатларни импорт қилиш..."
 
-#: crypto/gui/newsignencryptfileswizard.cpp:226
+#: crypto/gui/newsignencryptfileswizard.cpp:230
 msgctxt "@action"
 msgid "More..."
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:302
+#: crypto/gui/newsignencryptfileswizard.cpp:310
+msgid "Archive files with:"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:312
 msgid "Sign and Encrypt (OpenPGP only)"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:303
+#: crypto/gui/newsignencryptfileswizard.cpp:313
 #: newcertificatewizard/newcertificatewizard.cpp:1195
 #: newcertificatewizard/newcertificatewizard.cpp:1219
 msgid "Encrypt"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:304
+#: crypto/gui/newsignencryptfileswizard.cpp:314
 #: newcertificatewizard/newcertificatewizard.cpp:1193
 msgid "Sign"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:308
+#: crypto/gui/newsignencryptfileswizard.cpp:319
 msgctxt "@title"
 msgid "What do you want to do?"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:310
+#: crypto/gui/newsignencryptfileswizard.cpp:321
 msgctxt "@title"
 msgid "Please select here whether you want to sign or encrypt files."
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:356
+#: crypto/gui/newsignencryptfileswizard.cpp:383
 msgid "This operation is not available for S/MIME"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:376
+#: crypto/gui/newsignencryptfileswizard.cpp:421
 msgid "Add"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:377
+#: crypto/gui/newsignencryptfileswizard.cpp:422
 msgid "Remove"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:380
+#: crypto/gui/newsignencryptfileswizard.cpp:425
 msgctxt "@title"
 msgid "For whom do you want to encrypt?"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:382
+#: crypto/gui/newsignencryptfileswizard.cpp:427
 msgctxt "@title"
 msgid ""
 "Please select for whom you want the files to be encrypted. Do not forget to "
 "pick one of your own certificates."
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:385
+#: crypto/gui/newsignencryptfileswizard.cpp:430
 #, fuzzy
 #| msgid "Certificate Details..."
 msgctxt "@action"
 msgid "Encrypt"
 msgstr "Сертификат тафсилотлари..."
 
-#: crypto/gui/newsignencryptfileswizard.cpp:479
+#: crypto/gui/newsignencryptfileswizard.cpp:524
 msgctxt "@info"
 msgid ""
 "<para>None of the recipients you are encrypting to seems to be your own.</"
@@ -1695,13 +1714,13 @@ msgid ""
 "recipient selection?</para>"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:482
-#: crypto/gui/newsignencryptfileswizard.cpp:493
+#: crypto/gui/newsignencryptfileswizard.cpp:527
+#: crypto/gui/newsignencryptfileswizard.cpp:538
 msgctxt "@title:window"
 msgid "Encrypt-To-Self Warning"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:491
+#: crypto/gui/newsignencryptfileswizard.cpp:536
 msgctxt "@info"
 msgid ""
 "<para>You have requested the unencrypted data to be removed after encryption."
@@ -1709,42 +1728,42 @@ msgid ""
 "in decrypted form?</para>"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:541
+#: crypto/gui/newsignencryptfileswizard.cpp:586
 msgid "Sign with OpenPGP"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:542
+#: crypto/gui/newsignencryptfileswizard.cpp:587
 msgid "Sign with S/MIME"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:545
+#: crypto/gui/newsignencryptfileswizard.cpp:590
 msgctxt "@title"
 msgid "Who do you want to sign as?"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:547
+#: crypto/gui/newsignencryptfileswizard.cpp:592
 msgctxt "@title"
 msgid "Please choose an identity with which to sign the data."
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:622
+#: crypto/gui/newsignencryptfileswizard.cpp:667
 #, fuzzy
 #| msgid "Canceled."
 msgctxt "@action"
 msgid "Sign"
 msgstr "Бекор қилинди."
 
-#: crypto/gui/newsignencryptfileswizard.cpp:641
+#: crypto/gui/newsignencryptfileswizard.cpp:686
 msgctxt "@action"
 msgid "Sign && Encrypt"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:688
+#: crypto/gui/newsignencryptfileswizard.cpp:733
 msgctxt "@title"
 msgid "Results"
 msgstr ""
 
-#: crypto/gui/newsignencryptfileswizard.cpp:690
+#: crypto/gui/newsignencryptfileswizard.cpp:735
 msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
@@ -1808,19 +1827,40 @@ msgid "&Signed data:"
 msgstr ""
 
 #: crypto/signemailcontroller.cpp:179
-#: crypto/signencryptfilescontroller.cpp:227
+#: crypto/signencryptfilescontroller.cpp:274
 #: crypto/encryptemailcontroller.cpp:168
 msgid "User cancel"
 msgstr ""
 
-#: crypto/signencryptfilescontroller.cpp:358
+#: crypto/signencryptfilescontroller.cpp:142
+msgid "Archive and Sign Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:148
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Archive and Encrypt Files"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/signencryptfilescontroller.cpp:153
+msgid "Archive and Sign/Encrypt Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:345
+#, fuzzy
+#| msgid "Search:"
+msgctxt "basename of an archive file, such as 'archive' in archive.zip'"
+msgid "archive"
+msgstr "Қидириш:"
+
+#: crypto/signencryptfilescontroller.cpp:473
 #, kde-format
 msgid ""
 "Caught unexpected exception in SignEncryptFilesController::Private::"
 "slotWizardOperationPrepared: %1"
 msgstr ""
 
-#: crypto/signencryptfilescontroller.cpp:362
+#: crypto/signencryptfilescontroller.cpp:477
 msgid ""
 "Caught unknown exception in SignEncryptFilesController::Private::"
 "slotWizardOperationPrepared"
@@ -1867,7 +1907,7 @@ msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
 #: crypto/decryptverifyemailcontroller.cpp:162
-#: crypto/decryptverifyfilescontroller.cpp:182
+#: crypto/decryptverifyfilescontroller.cpp:181
 #, fuzzy
 #| msgid "Canceled."
 msgid "User canceled"
@@ -1953,7 +1993,7 @@ msgctxt "label: result. Example: foo -> foo.gpg: Encryption failed."
 msgid "%1: <b>%2</b>"
 msgstr ""
 
-#: crypto/signencryptfilestask.cpp:326
+#: crypto/signencryptfilestask.cpp:339
 msgid "Cannot determine protocol for task"
 msgstr ""
 
@@ -2223,24 +2263,24 @@ msgstr ""
 msgid "Verifying signature: %1..."
 msgstr ""
 
-#: crypto/decryptverifyfilescontroller.cpp:171
+#: crypto/decryptverifyfilescontroller.cpp:170
 #, kde-format
 msgid ""
 "Caught unexpected exception in DecryptVerifyFilesController::Private::"
 "slotWizardOperationPrepared: %1"
 msgstr ""
 
-#: crypto/decryptverifyfilescontroller.cpp:175
+#: crypto/decryptverifyfilescontroller.cpp:174
 msgid ""
 "Caught unknown exception in DecryptVerifyFilesController::Private::"
 "slotWizardOperationPrepared"
 msgstr ""
 
-#: crypto/decryptverifyfilescontroller.cpp:226
+#: crypto/decryptverifyfilescontroller.cpp:225
 msgid "Decrypt/Verify Files"
 msgstr ""
 
-#: crypto/decryptverifyfilescontroller.cpp:311
+#: crypto/decryptverifyfilescontroller.cpp:306
 msgid "No usable inputs found"
 msgstr ""
 
@@ -2383,7 +2423,7 @@ msgstr ""
 
 #: commands/decryptverifyclipboardcommand.cpp:159
 #: commands/signclipboardcommand.cpp:147 commands/signclipboardcommand.cpp:161
-#: commands/decryptverifyfilescommand.cpp:166
+#: commands/decryptverifyfilescommand.cpp:162
 #: commands/encryptclipboardcommand.cpp:144
 #: commands/encryptclipboardcommand.cpp:158
 #: commands/signencryptfilescommand.cpp:232
@@ -2520,11 +2560,11 @@ msgctxt "@info"
 msgid "OpenPGP certificates exported successfully."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: commands/decryptverifyfilescommand.cpp:168
+#: commands/decryptverifyfilescommand.cpp:164
 msgid "Decrypt/Verify Files Error"
 msgstr ""
 
-#: commands/decryptverifyfilescommand.cpp:184
+#: commands/decryptverifyfilescommand.cpp:180
 msgid "Select One or More Files to Decrypt and/or Verify"
 msgstr ""
 
@@ -3270,29 +3310,33 @@ msgid ""
 "Caught unknown exception in EncryptCommand::Private::slotRecipientsResolved"
 msgstr ""
 
-#: uiserver/decryptverifycommandfilesbase.cpp:132
+#: uiserver/decryptverifycommandfilesbase.cpp:145
 msgid "Can not use SENDER"
 msgstr ""
 
-#: uiserver/decryptverifycommandfilesbase.cpp:136
+#: uiserver/decryptverifycommandfilesbase.cpp:149
 msgid "Can not use RECIPIENT"
 msgstr ""
 
-#: uiserver/decryptverifycommandfilesbase.cpp:143
+#: uiserver/decryptverifycommandfilesbase.cpp:156
 msgid "INPUT present"
 msgstr ""
 
-#: uiserver/decryptverifycommandfilesbase.cpp:145
+#: uiserver/decryptverifycommandfilesbase.cpp:158
 msgid "MESSAGE present"
 msgstr ""
 
-#: uiserver/decryptverifycommandfilesbase.cpp:147
+#: uiserver/decryptverifycommandfilesbase.cpp:160
 msgid "OUTPUT present"
 msgstr ""
 
-#: uiserver/decryptverifycommandfilesbase.cpp:150
+#: uiserver/decryptverifycommandfilesbase.cpp:164
 #: uiserver/signencryptfilescommand.cpp:83
 msgid "At least one FILE must be present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:167
+msgid "DECRYPT/VERIFY_FILES cannot use directories as input"
 msgstr ""
 
 #: uiserver/decryptverifycommandemailbase.cpp:145
@@ -3357,71 +3401,70 @@ msgstr ""
 msgid "Detected another running gnupg UI server listening at %1."
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:189
+#: uiserver/assuanserverconnection.cpp:177
 msgid "No option name given"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:338
+#: uiserver/assuanserverconnection.cpp:328
 msgid "Parse error"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:346
+#: uiserver/assuanserverconnection.cpp:337
 msgid "Parse error: numeric session id too large"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:359
+#: uiserver/assuanserverconnection.cpp:350
 msgid "CAPABILITIES does not take arguments"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:393
+#: uiserver/assuanserverconnection.cpp:384
 msgid "Unknown value for WHAT"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:404
+#: uiserver/assuanserverconnection.cpp:395
 msgid "START_KEYMANAGER does not take arguments"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:418
+#: uiserver/assuanserverconnection.cpp:409
 msgid "START_CONFDIALOG does not take arguments"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:463
+#: uiserver/assuanserverconnection.cpp:454
 #, kde-format
 msgid "Message #%1"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:474
+#: uiserver/assuanserverconnection.cpp:465
 msgid "Empty file path"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:477
-#: uiserver/assuanserverconnection.cpp:530
+#: uiserver/assuanserverconnection.cpp:468
+#: uiserver/assuanserverconnection.cpp:521
 msgid "Only absolute file paths are allowed"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:535
-#, kde-format
-msgid "Could not access directory \"%1\" for reading"
+#: uiserver/assuanserverconnection.cpp:470
+msgid "Only files are allowed in INPUT/OUTPUT FILE"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:552
+#: uiserver/assuanserverconnection.cpp:535
 msgid "unknown exception caught"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:605
+#: uiserver/assuanserverconnection.cpp:588
 msgid "Cannot mix --info with non-info SENDER or RECIPIENT"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:609
+#: uiserver/assuanserverconnection.cpp:592
 msgid "Argument is not a valid RFC-2822 mailbox"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:612
+#: uiserver/assuanserverconnection.cpp:595
 msgid "Garbage after valid RFC-2822 mailbox detected"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:641
-#: uiserver/assuanserverconnection.cpp:652
+#: uiserver/assuanserverconnection.cpp:624
+#: uiserver/assuanserverconnection.cpp:635
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3429,69 +3472,69 @@ msgid ""
 "cryptographic format.</para><para>Which format do you want to use?</para>"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:643
-#: uiserver/assuanserverconnection.cpp:654
+#: uiserver/assuanserverconnection.cpp:626
+#: uiserver/assuanserverconnection.cpp:637
 msgctxt "@title"
 msgid "Format Choice"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:644
-#: uiserver/assuanserverconnection.cpp:655
+#: uiserver/assuanserverconnection.cpp:627
+#: uiserver/assuanserverconnection.cpp:638
 msgctxt "@action:button"
 msgid "Send OpenPGP-Signed"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:645
-#: uiserver/assuanserverconnection.cpp:656
+#: uiserver/assuanserverconnection.cpp:628
+#: uiserver/assuanserverconnection.cpp:639
 msgctxt "@action:button"
 msgid "Send S/MIME-Signed"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1031
+#: uiserver/assuanserverconnection.cpp:1009
 #, kde-format
 msgid "Caught unexpected exception: %1"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1035
+#: uiserver/assuanserverconnection.cpp:1013
 msgid "Caught unknown exception - please report this error to the developers."
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1200
+#: uiserver/assuanserverconnection.cpp:1139
 #, kde-format
 msgid "Can not send \"%1\" status"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1207
+#: uiserver/assuanserverconnection.cpp:1146
 msgid "Can not send data"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1210
+#: uiserver/assuanserverconnection.cpp:1149
 msgid "Can not flush data"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1380
-#: uiserver/assuanserverconnection.cpp:1425
+#: uiserver/assuanserverconnection.cpp:1318
+#: uiserver/assuanserverconnection.cpp:1363
 msgid "Caught unknown exception"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1446
+#: uiserver/assuanserverconnection.cpp:1384
 msgid "Required --mode option missing"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1453
+#: uiserver/assuanserverconnection.cpp:1391
 #, kde-format
 msgid "invalid mode: \"%1\""
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1474
+#: uiserver/assuanserverconnection.cpp:1412
 msgid "Required --protocol option missing"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1479
+#: uiserver/assuanserverconnection.cpp:1417
 msgid "--protocol is not allowed here"
 msgstr ""
 
-#: uiserver/assuanserverconnection.cpp:1486
+#: uiserver/assuanserverconnection.cpp:1424
 #, kde-format
 msgid "invalid protocol \"%1\""
 msgstr ""
