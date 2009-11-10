@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-09 06:06+0100\n"
+"POT-Creation-Date: 2009-11-10 06:16+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2453,7 +2453,7 @@ msgstr "Янги қатлам яратиш"
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
 #. i18n: file: plugins/extensions/tonemapping/wdgtonemappingdialog.ui:93
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:581 rc.cpp:2650 rc.cpp:3392 rc.cpp:3545 ui/kis_view2.cpp:338
+#: rc.cpp:581 rc.cpp:2650 rc.cpp:3392 rc.cpp:3545 ui/kis_view2.cpp:337
 #, fuzzy
 msgid "Cancel"
 msgstr "Канал"
@@ -8796,7 +8796,19 @@ msgstr ""
 msgid "YCbCr (8-bit integer/channel)"
 msgstr ""
 
-#: ui/tool/kis_tool.cc:350
+#: ui/tool/kis_tool.cc:98
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Swap Foreground and Background Color"
+msgstr "Олдин фон ранги"
+
+#: ui/tool/kis_tool.cc:103
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Reset Foreground and Background Color"
+msgstr "Олдин фон ранги"
+
+#: ui/tool/kis_tool.cc:367
 #, fuzzy
 msgid "No options"
 msgstr "Альфа мосламалари"
@@ -9385,6 +9397,21 @@ msgstr "&Веб сифатида"
 msgid "As on &Monitor"
 msgstr ""
 
+#: ui/kis_node_model.cpp:295 image/kis_base_node.cpp:120
+msgid "Visible"
+msgstr "Кўринадиган"
+
+#: ui/kis_node_model.cpp:296 image/kis_base_node.cpp:121
+msgid "Locked"
+msgstr "Қулфланган"
+
+#: ui/kis_node_model.cpp:297 image/kis_paint_layer.cc:144
+#: image/kis_paint_layer.cc:151
+#, fuzzy
+#| msgid "Locked"
+msgid "Alpha Locked"
+msgstr "Қулфланган"
+
 #: ui/kis_zoom_manager.cc:84
 msgid "Show Rulers"
 msgstr "Линейкаларни кўрсатиш"
@@ -9446,33 +9473,33 @@ msgstr ""
 msgid "Show Dockers"
 msgstr "Қулфланган"
 
-#: ui/kis_view2.cpp:227
+#: ui/kis_view2.cpp:226
 #, fuzzy
 msgid "Tools"
 msgstr "Юлдуз воситаси"
 
-#: ui/kis_view2.cpp:332
+#: ui/kis_view2.cpp:331
 msgid "Insert as New Layer"
 msgstr "Янги қатлам сифатида қўйиш"
 
-#: ui/kis_view2.cpp:333
+#: ui/kis_view2.cpp:332
 msgid "Insert as New Layers"
 msgstr "Янги қатламлар сифатида қўйиш"
 
-#: ui/kis_view2.cpp:335
+#: ui/kis_view2.cpp:334
 msgid "Open in New Document"
 msgstr "Янги ҳужжатда очиш"
 
-#: ui/kis_view2.cpp:336
+#: ui/kis_view2.cpp:335
 msgid "Open in New Documents"
 msgstr "Янги ҳужжатларда очиш"
 
-#: ui/kis_view2.cpp:538
+#: ui/kis_view2.cpp:537
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "Палитрани таҳрирлаш..."
 
-#: ui/kis_view2.cpp:678 ui/kis_view2.cpp:681
+#: ui/kis_view2.cpp:677 ui/kis_view2.cpp:680
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Палитрани таҳрирлаш..."
@@ -9697,12 +9724,6 @@ msgid ""
 "information that are identical..."
 msgstr ""
 
-#: image/kis_paint_layer.cc:144 image/kis_paint_layer.cc:151
-#, fuzzy
-#| msgid "Locked"
-msgid "Alpha Locked"
-msgstr "Қулфланган"
-
 #: image/tests/kis_random_generator_demo.cpp:141
 msgid "kis_random_generator_demo"
 msgstr ""
@@ -9918,14 +9939,6 @@ msgstr "Силлиқланган расм"
 #: image/kis_bookmarked_configuration_manager.cc:35
 msgid "Last used"
 msgstr ""
-
-#: image/kis_base_node.cpp:120
-msgid "Visible"
-msgstr "Кўринадиган"
-
-#: image/kis_base_node.cpp:121
-msgid "Locked"
-msgstr "Қулфланган"
 
 #: image/recorder/kis_macro.cc:93
 #, fuzzy
@@ -11291,7 +11304,7 @@ msgstr "Филтер бўёғи"
 msgid "Float"
 msgstr "&Филтер:"
 
-#: plugins/colorspaces/ctlcs/ctl_cs_plugin.cpp:127
+#: plugins/colorspaces/ctlcs/ctl_cs_plugin.cpp:115
 #: plugins/colorspaces/lms_f32/lms_f32_plugin.cc:54
 #, fuzzy
 msgid "Float32 Histogram"
