@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-19 06:47+0100\n"
+"POT-Creation-Date: 2010-02-19 06:48+0100\n"
 "PO-Revision-Date: 2006-10-01 21:18+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16,81 +16,178 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: behaviour.cpp:44
+#: globalpaths.cpp:75
 msgid ""
-"<h1>Konqueror Behavior</h1> You can configure how Konqueror behaves as a "
-"file manager here."
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
 msgstr ""
 
-#: behaviour.cpp:48
-msgid "Misc Options"
-msgstr "Ҳар хил параметрлар"
-
-#: behaviour.cpp:57
-msgid "Open folders in separate &windows"
-msgstr "Жилдларни &алоҳида ойнада очиш"
-
-#: behaviour.cpp:58
-msgid ""
-"If this option is checked, Konqueror will open a new window when you open a "
-"folder, rather than showing that folder's contents in the current window."
-msgstr "Агар белгиланса, жилд очилганда Konqueror уни янги ойнада кўрсатади."
-
-#: behaviour.cpp:81
-msgid "Show 'Delete' context me&nu entries which bypass the trashcan"
-msgstr "&Контекст менюда ўчириш бандини кўрсатиш"
-
-#: behaviour.cpp:85
-msgid ""
-"Check this if you want 'Delete' menu commands to be displayed on the desktop "
-"and in the file manager's context menus. You can always delete files by "
-"holding the Shift key while calling 'Move to Trash'."
-msgstr ""
-"Агар белгиланса, иш столи ёки файл-браузернинг контекст менюсида ўчириш "
-"банди кўринади."
-
-#: kcustommenueditor.cpp:96
-msgid "Menu Editor"
-msgstr ""
-
-#: kcustommenueditor.cpp:103
-msgid "Menu"
-msgstr ""
-
-#: kcustommenueditor.cpp:107
-msgid "New..."
-msgstr ""
-
-#: kcustommenueditor.cpp:108
-msgid "Remove"
-msgstr ""
-
-#: kcustommenueditor.cpp:109
-msgid "Move Up"
-msgstr ""
-
-#: kcustommenueditor.cpp:110
-msgid "Move Down"
-msgstr ""
-
+#: globalpaths.cpp:80
 #, fuzzy
-#~| msgid "Desktop %1:"
-#~ msgid "Desktop path:"
-#~ msgstr "Иш столи %1:"
+#| msgid "Desktop %1:"
+msgid "Desktop path:"
+msgstr "Иш столи %1:"
 
+#: globalpaths.cpp:81
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+
+#: globalpaths.cpp:86
 #, fuzzy
-#~| msgid "Autostart"
-#~ msgid "Autostart path:"
-#~ msgstr "Авто-бошлаш"
+#| msgid "Autostart"
+msgid "Autostart path:"
+msgstr "Авто-бошлаш"
 
-#~ msgid "Autostart"
-#~ msgstr "Авто-бошлаш"
+#: globalpaths.cpp:87
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever KDE starts. You can change "
+"the location of this folder if you want to, and the contents will move "
+"automatically to the new location as well."
+msgstr ""
 
-#~ msgid "Desktop"
-#~ msgstr "Иш столи"
+#: globalpaths.cpp:93
+#, fuzzy
+#| msgid "Desktop %1:"
+msgid "Documents path:"
+msgstr "Иш столи %1:"
 
-#~ msgid "Confirmation Required"
-#~ msgstr "Тасдиқлаш талаб қилинади"
+#: globalpaths.cpp:94
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr ""
+
+#: globalpaths.cpp:97
+msgid "Downloads path:"
+msgstr ""
+
+#: globalpaths.cpp:98
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+
+#: globalpaths.cpp:101
+#, fuzzy
+#| msgid "Desktop %1:"
+msgid "Movies path:"
+msgstr "Иш столи %1:"
+
+#: globalpaths.cpp:102
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr ""
+
+#: globalpaths.cpp:105
+msgid "Pictures path:"
+msgstr ""
+
+#: globalpaths.cpp:106
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr ""
+
+#: globalpaths.cpp:109
+#, fuzzy
+#| msgid "Autostart"
+msgid "Music path:"
+msgstr "Авто-бошлаш"
+
+#: globalpaths.cpp:110
+msgid "This folder will be used by default to load or save music from or to."
+msgstr ""
+
+#: globalpaths.cpp:240 globalpaths.cpp:258
+msgid "Autostart"
+msgstr "Авто-бошлаш"
+
+#: globalpaths.cpp:244
+msgid "Desktop"
+msgstr "Иш столи"
+
+#: globalpaths.cpp:268
+msgid "Documents"
+msgstr ""
+
+#: globalpaths.cpp:271
+msgid "Downloads"
+msgstr ""
+
+#: globalpaths.cpp:274
+msgid "Movies"
+msgstr ""
+
+#: globalpaths.cpp:277
+msgid "Pictures"
+msgstr ""
+
+#: globalpaths.cpp:280
+msgid "Music"
+msgstr ""
+
+#: globalpaths.cpp:335
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+
+#: globalpaths.cpp:338
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr ""
+
+#: globalpaths.cpp:339
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr ""
+
+#: globalpaths.cpp:341
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+
+#: globalpaths.cpp:344
+msgctxt "Move the directory"
+msgid "Move"
+msgstr ""
+
+#: globalpaths.cpp:345
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr ""
+
+#: globalpaths.cpp:349
+msgid "Confirmation Required"
+msgstr "Тасдиқлаш талаб қилинади"
+
+#~ msgid "Misc Options"
+#~ msgstr "Ҳар хил параметрлар"
+
+#~ msgid "Open folders in separate &windows"
+#~ msgstr "Жилдларни &алоҳида ойнада очиш"
+
+#~ msgid ""
+#~ "If this option is checked, Konqueror will open a new window when you open "
+#~ "a folder, rather than showing that folder's contents in the current "
+#~ "window."
+#~ msgstr ""
+#~ "Агар белгиланса, жилд очилганда Konqueror уни янги ойнада кўрсатади."
+
+#~ msgid "Show 'Delete' context me&nu entries which bypass the trashcan"
+#~ msgstr "&Контекст менюда ўчириш бандини кўрсатиш"
+
+#~ msgid ""
+#~ "Check this if you want 'Delete' menu commands to be displayed on the "
+#~ "desktop and in the file manager's context menus. You can always delete "
+#~ "files by holding the Shift key while calling 'Move to Trash'."
+#~ msgstr ""
+#~ "Агар белгиланса, иш столи ёки файл-браузернинг контекст менюсида ўчириш "
+#~ "банди кўринади."
 
 #, fuzzy
 #~| msgid "Ask Confirmation For"
