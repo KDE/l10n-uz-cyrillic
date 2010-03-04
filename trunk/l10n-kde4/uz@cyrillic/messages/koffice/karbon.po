@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-21 06:52+0100\n"
+"POT-Creation-Date: 2010-02-28 14:15+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -159,91 +159,405 @@ msgstr "Эффектлар"
 msgid "View"
 msgstr ""
 
-#: ui/KarbonZoomController.cpp:59
+#: plugins/roundcorners/RoundCornersCommand.cpp:41
+#: plugins/roundcorners/RoundCornersPlugin.cpp:86
+#: plugins/roundcorners/RoundCornersPlugin.cpp:103
+msgid "Round Corners"
+msgstr "Бурчакларни қиррасизлантириш"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:57
+msgid "&Round Corners..."
+msgstr "&Бурчакларни қиррасизлантириш"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:107
+#: plugins/refinepath/RefinePathPlugin.cpp:96
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:118
+#: plugins/flattenpath/FlattenPathPlugin.cpp:99
 #, fuzzy
-msgid "Zoom"
-msgstr "Катталаштириш воситаси"
+msgid "Properties"
+msgstr "Чизиқ хоссалари"
 
-#: ui/KarbonAboutData.h:26
-msgid "A Vector Graphics Drawing Application."
+#: plugins/roundcorners/RoundCornersPlugin.cpp:111
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:132
+msgid "Radius:"
+msgstr "Радиус:"
+
+#: plugins/filtereffects/FloodEffect.cpp:30
+#: plugins/filtereffects/FloodEffectFactory.cpp:27
+msgid "Flood fill"
 msgstr ""
 
-#: ui/KarbonAboutData.h:35
-msgid "Karbon14"
+#: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
+msgid "Color matrix"
 msgstr ""
 
-#: ui/KarbonAboutData.h:39
-msgid "(c) 2001-2009, The Karbon Developers"
+#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
+#, fuzzy
+#| msgid "Stroke: Color"
+msgid "Flood color"
+msgstr "Чизиш: Ранг"
+
+#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
+#: plugins/filtereffects/ComponentTransferEffect.cpp:30
+msgid "Component transfer"
 msgstr ""
 
-#: ui/KarbonAboutData.h:40
-msgid "You are invited to participate in any way."
+#: plugins/filtereffects/ImageEffect.cpp:35
+#: plugins/filtereffects/ImageEffectFactory.cpp:26
+msgid "Image"
+msgstr "Расм"
+
+#: plugins/filtereffects/BlendEffect.cpp:30
+#: plugins/filtereffects/BlendEffectFactory.cpp:27
+#, fuzzy
+#| msgid "Bold"
+msgid "Blend"
+msgstr "Қалин"
+
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
+msgid "Select image..."
 msgstr ""
 
-#: ui/KarbonAboutData.h:44
-msgid "Rob Buis"
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:70
+#, fuzzy
+#| msgid "Select Nodes"
+msgid "Select image"
+msgstr "Тугунларни танлаш"
+
+#: plugins/filtereffects/OffsetEffect.cpp:31
+#: plugins/filtereffects/OffsetEffectFactory.cpp:26
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
+#, fuzzy
+#| msgid "Effects"
+msgid "Offset"
+msgstr "Эффектлар"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
+msgid "Blend mode"
 msgstr ""
 
-#: ui/KarbonAboutData.h:48
-msgid "Tomislav Lukman"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
+msgid "Normal"
+msgstr "Оддий"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
+msgid "Multiply"
 msgstr ""
 
-#: ui/KarbonAboutData.h:52
-msgid "Benoît Vautrin"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
+msgid "Screen"
 msgstr ""
 
-#: ui/KarbonAboutData.h:56
-msgid "Jan Hambrecht"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
+msgid "Darken"
 msgstr ""
 
-#: ui/KarbonAboutData.h:57 ui/KarbonAboutData.h:61 ui/KarbonAboutData.h:65
-#: ui/KarbonAboutData.h:69 ui/KarbonAboutData.h:73
-msgid "Bug fixes and improvements"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Lighten"
+msgstr "Ўнг"
+
+#: plugins/filtereffects/CompositeEffectFactory.cpp:27
+#: plugins/filtereffects/CompositeEffect.cpp:32
+#, fuzzy
+#| msgid "Components"
+msgid "Composite"
+msgstr "Компонентлар"
+
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
+msgid "dx"
 msgstr ""
 
-#: ui/KarbonAboutData.h:60
-msgid "Peter Simonsson"
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
+msgid "dy"
 msgstr ""
 
-#: ui/KarbonAboutData.h:64
-msgid "Tim Beaulen"
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
+msgid "Erode"
 msgstr ""
 
-#: ui/KarbonAboutData.h:68
-msgid "Boudewijn Rempt"
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:39
+#, fuzzy
+msgid "Dilate"
+msgstr "Ў&чириш"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:42
+#, fuzzy
+#| msgid "Boolean Operation"
+msgid "Operator:"
+msgstr "Мантиқий операция"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:46
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius x:"
+msgstr "Радиус:"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:51
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius y:"
+msgstr "Радиус:"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:41
+msgid "Apply color matrix"
 msgstr ""
 
-#: ui/KarbonAboutData.h:72
-msgid "Pierre Stirnweiss"
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:42
+#, fuzzy
+#| msgid "Stroke: Color"
+msgid "Saturate colors"
+msgstr "Чизиш: Ранг"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:43
+#, fuzzy
+#| msgid "Rotate"
+msgid "Rotate hue"
+msgstr "Буриш"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:44
+msgid "Luminance to alpha"
 msgstr ""
 
-#: ui/KarbonAboutData.h:76
-msgid "Inge Wallin"
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:63
+msgid "Saturate value"
 msgstr ""
 
-#: ui/KarbonAboutData.h:77
-msgid "Bug fixes"
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:73
+#, fuzzy
+#| msgid "Angle:"
+msgid "Angle"
+msgstr "Бурчак:"
+
+#: plugins/filtereffects/BlurEffectFactory.cpp:27
+#: plugins/filtereffects/BlurEffect.cpp:276
+msgid "Gaussian blur"
 msgstr ""
 
-#: ui/KarbonAboutData.h:80
-msgid "Alan Horkan"
+#: plugins/filtereffects/MorphologyEffect.cpp:32
+#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
+msgid "Morphology"
 msgstr ""
 
-#: ui/KarbonAboutData.h:81
-msgid "Helpful patches and advice"
+#: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
+#, fuzzy
+#| msgid "Boolean Operation"
+msgid "Operation"
+msgstr "Мантиқий операция"
+
+#: plugins/filtereffects/MergeEffect.cpp:30
+#: plugins/filtereffects/MergeEffectFactory.cpp:27
+msgid "Merge"
 msgstr ""
 
-#: ui/KarbonPart.cpp:213
-msgid "Invalid OASIS document. No office:body tag found."
-msgstr "Бузуқ OASIS ҳужжати. office:body тэги топилмади."
+#: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius"
+msgstr "Радиус:"
 
-#: ui/KarbonPart.cpp:220
-msgid "Invalid OASIS document. No office:drawing tag found."
-msgstr "Бузуқ OASIS ҳужжати. office:drawing тэги топилмади."
+#: plugins/filtereffects/ColorMatrixEffect.cpp:34
+msgid "Color Matrix"
+msgstr ""
 
-#: ui/KarbonPart.cpp:227
-msgid "Invalid OASIS document. No draw:page tag found."
-msgstr "Бузуқ OASIS ҳужжати. office:page тэги топилмади."
+#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
+#: plugins/filtereffects/ConvolveMatrixEffect.cpp:32
+msgid "Convolve Matrix"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
+#, fuzzy
+#| msgid "&Duplicate"
+msgid "Duplicate"
+msgstr "&Нусхасини яратиш"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
+msgid "Wrap"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
+#, fuzzy
+#| msgid "None"
+msgid "None"
+msgstr "Йўқ"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
+#, fuzzy
+#| msgid "Edges:"
+msgid "Edge mode:"
+msgstr "Қирралар:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
+msgid "Kernel size:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
+#, fuzzy
+#| msgid "Target:"
+msgid "Target point:"
+msgstr "Мўлжал:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
+msgid "Divisor:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
+msgid "Bias:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
+msgid "Preserve alpha"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
+#, fuzzy
+#| msgid "Pattern"
+msgid "Edit kernel"
+msgstr "Намуна"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
+#, fuzzy
+#| msgid "Section"
+msgid "Function"
+msgstr "Бўлим"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
+msgid "Identity"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
+#, fuzzy
+msgid "Table"
+msgstr "Тўлдириш"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
+#, fuzzy
+msgid "Discrete"
+msgstr "&Тарқатиш"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
+#, fuzzy
+#| msgid "Linear"
+msgid "Linear"
+msgstr "Чизиқли"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
+msgid "Gamma"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
+msgid "Values"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
+#, fuzzy
+#| msgid "Shear"
+msgid "Slope"
+msgstr "Эгиш"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
+#, fuzzy
+#| msgid "Interface"
+msgid "Intercept"
+msgstr "Интерфейс"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
+msgid "Amplitude"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
+msgid "Exponent"
+msgstr ""
+
+#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
+#, fuzzy
+msgid "Refine path"
+msgstr "Йўлни ёпиш"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:56
+#, fuzzy
+msgid "&Refine Path..."
+msgstr "Бурчакни силлиқлаш"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:92
+#, fuzzy
+msgid "Refine Path"
+msgstr "Йўлни ёпиш"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:100
+msgid "Subdivisions:"
+msgstr ""
+
+#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
+#, fuzzy
+msgid "Whirl & pinch"
+msgstr "Айлантириш ва сиқиш"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:61
+#, fuzzy
+msgid "&Whirl/Pinch..."
+msgstr "&Айлантириш/Сиқиш..."
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:103
+#, fuzzy
+msgid "Whirl Pinch"
+msgstr "Айлантириш ва сиқиш"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:110
+msgid "Info"
+msgstr ""
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:112
+msgid ""
+"The result of the Whirlpinch effect can be improved by refining the path "
+"shape beforehand."
+msgstr ""
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:122
+msgid "Angle:"
+msgstr "Бурчак:"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:126
+#, fuzzy
+msgid "Pinch:"
+msgstr "Сиқиш:"
+
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
+#, fuzzy
+msgid "Flatten path"
+msgstr "Бурчакни силлиқлаш"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:57
+#, fuzzy
+msgid "&Flatten Path..."
+msgstr "Бурчакни силлиқлаш"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:95
+#, fuzzy
+msgid "Flatten Path"
+msgstr "Бурчакни силлиқлаш"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:103
+#, fuzzy
+msgid "Flatness:"
+msgstr "Аниқлик:"
+
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:698
+msgid "Boolean Operation"
+msgstr "Мантиқий операция"
+
+#: common/commands/KarbonLayerReorderCommand.cpp:37
+#: common/commands/KarbonLayerReorderCommand.cpp:46
+msgid "Raise Layer"
+msgstr "Қатламни кўтариш"
+
+#: common/commands/KarbonLayerReorderCommand.cpp:39
+#: common/commands/KarbonLayerReorderCommand.cpp:48
+msgid "Lower Layer"
+msgstr "Қатламни тушириш"
 
 #: ui/dialogs/KarbonConfigureDialog.cpp:54
 #, fuzzy
@@ -296,51 +610,6 @@ msgstr "Асбоб ойнасидаги шрифтнинг ўлчами:"
 
 #: ui/dialogs/KarbonConfigureDialog.cpp:159
 msgid "Canvas color:"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:171
-#, fuzzy
-#| msgid "Layers"
-msgid "Layer"
-msgstr "Қатламлар"
-
-#: ui/dockers/KarbonLayerModel.cpp:173
-#, fuzzy
-#| msgid "group"
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr "гуруҳ"
-
-#: ui/dockers/KarbonLayerModel.cpp:175
-#, fuzzy
-#| msgid "Shear"
-msgid "Shape"
-msgstr "Эгиш"
-
-#: ui/dockers/KarbonLayerModel.cpp:265
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:266
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:267
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, fuzzy
-#| msgid "Opacity"
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr "Хиралик"
-
-#: ui/dockers/KarbonLayerModel.cpp:434 ui/dockers/KarbonLayerModel.cpp:454
-msgid "Reparent shapes"
 msgstr ""
 
 #: ui/dockers/KarbonLayerDocker.cpp:84
@@ -418,6 +687,313 @@ msgstr ""
 msgid "Error deleting layers"
 msgstr ""
 
+#: ui/dockers/KarbonLayerModel.cpp:171
+#, fuzzy
+#| msgid "Layers"
+msgid "Layer"
+msgstr "Қатламлар"
+
+#: ui/dockers/KarbonLayerModel.cpp:173
+#, fuzzy
+#| msgid "group"
+msgctxt "A group of shapes"
+msgid "Group"
+msgstr "гуруҳ"
+
+#: ui/dockers/KarbonLayerModel.cpp:175
+#, fuzzy
+#| msgid "Shear"
+msgid "Shape"
+msgstr "Эгиш"
+
+#: ui/dockers/KarbonLayerModel.cpp:265
+msgctxt "Visibility state of the shape"
+msgid "Visible"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:266
+msgctxt "Lock state of the shape"
+msgid "Locked"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:267
+msgctxt "The z-index of the shape"
+msgid "zIndex"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:268
+#, fuzzy
+#| msgid "Opacity"
+msgctxt "The opacity of the shape"
+msgid "Opacity"
+msgstr "Хиралик"
+
+#: ui/dockers/KarbonLayerModel.cpp:434 ui/dockers/KarbonLayerModel.cpp:454
+msgid "Reparent shapes"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:167
+msgid "Type:"
+msgstr "Тури:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:169
+#, fuzzy
+#| msgid "Linear"
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr "Чизиқли"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:170
+#, fuzzy
+#| msgid "Radial"
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr "Радиал"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:171
+#, fuzzy
+#| msgid "Conical"
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr "Конуссимон"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:174
+msgid "Repeat:"
+msgstr "Қайтариш:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:176
+#, fuzzy
+#| msgid "None"
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "Йўқ"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:177
+msgid "Reflect"
+msgstr "Акс этиши"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:178
+msgid "Repeat"
+msgstr "Қайтариш"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:181
+msgid "Target:"
+msgstr "Мўлжал:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:183
+msgid "Stroke"
+msgstr "Чизиш"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:184
+msgid "Fill"
+msgstr "Тўлдириш"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:192
+msgid "Overall opacity:"
+msgstr "Умумий хиралик:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:197
+#, fuzzy
+#| msgid "Stroke: Color"
+msgid "Stop color:"
+msgstr "Чизиш: Ранг"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:201
+#, fuzzy
+#| msgid "Stroke: Color"
+msgid "Stop color."
+msgstr "Чизиш: Ранг"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:204
+msgid "&Add to Predefined Gradients"
+msgstr "Олдиндан &аниқланган градиентларга қўшиш"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:56
+msgid "Press to apply fill to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:103
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no fill"
+msgid "None"
+msgstr "Йўқ"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:121
+msgid "Press to apply stroke to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:166
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:172
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr "Йўқ"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:192
+#, fuzzy
+#| msgid "Stroke"
+msgid "Stroke:"
+msgstr "Чизиш"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:197
+#, fuzzy
+#| msgid "Fill"
+msgid "Fill:"
+msgstr "Тўлдириш"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
+msgid "Original"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
+#, fuzzy
+msgid "Tiled"
+msgstr "Тўлдириш"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
+msgid "Stretched"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Left"
+msgid "Top Left"
+msgstr "Чап"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
+msgid "Top"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Top Right"
+msgstr "Ўнг"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Left"
+msgid "Left"
+msgstr "Чап"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Center"
+msgid "Center"
+msgstr "Марказ"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Right"
+msgstr "Ўнг"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
+msgid "Bottom Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
+#, fuzzy
+#| msgid "Align Bottom"
+msgid "Bottom"
+msgstr "Пастга"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
+msgid "Bottom Right"
+msgstr ""
+
+#: ui/KarbonPart.cpp:213
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr "Бузуқ OASIS ҳужжати. office:body тэги топилмади."
+
+#: ui/KarbonPart.cpp:220
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr "Бузуқ OASIS ҳужжати. office:drawing тэги топилмади."
+
+#: ui/KarbonPart.cpp:227
+msgid "Invalid OASIS document. No draw:page tag found."
+msgstr "Бузуқ OASIS ҳужжати. office:page тэги топилмади."
+
+#: ui/KarbonAboutData.h:26
+msgid "A Vector Graphics Drawing Application."
+msgstr ""
+
+#: ui/KarbonAboutData.h:35
+msgid "Karbon14"
+msgstr ""
+
+#: ui/KarbonAboutData.h:39
+msgid "(c) 2001-2009, The Karbon Developers"
+msgstr ""
+
+#: ui/KarbonAboutData.h:40
+msgid "You are invited to participate in any way."
+msgstr ""
+
+#: ui/KarbonAboutData.h:44
+msgid "Rob Buis"
+msgstr ""
+
+#: ui/KarbonAboutData.h:48
+msgid "Tomislav Lukman"
+msgstr ""
+
+#: ui/KarbonAboutData.h:52
+msgid "Benoît Vautrin"
+msgstr ""
+
+#: ui/KarbonAboutData.h:56
+msgid "Jan Hambrecht"
+msgstr ""
+
+#: ui/KarbonAboutData.h:57 ui/KarbonAboutData.h:61 ui/KarbonAboutData.h:65
+#: ui/KarbonAboutData.h:69 ui/KarbonAboutData.h:73
+msgid "Bug fixes and improvements"
+msgstr ""
+
+#: ui/KarbonAboutData.h:60
+msgid "Peter Simonsson"
+msgstr ""
+
+#: ui/KarbonAboutData.h:64
+msgid "Tim Beaulen"
+msgstr ""
+
+#: ui/KarbonAboutData.h:68
+msgid "Boudewijn Rempt"
+msgstr ""
+
+#: ui/KarbonAboutData.h:72
+msgid "Pierre Stirnweiss"
+msgstr ""
+
+#: ui/KarbonAboutData.h:76
+msgid "Inge Wallin"
+msgstr ""
+
+#: ui/KarbonAboutData.h:77
+msgid "Bug fixes"
+msgstr ""
+
+#: ui/KarbonAboutData.h:80
+msgid "Alan Horkan"
+msgstr ""
+
+#: ui/KarbonAboutData.h:81
+msgid "Helpful patches and advice"
+msgstr ""
+
 #: ui/KarbonView.cpp:292
 #, fuzzy
 #| msgid "Toolbox"
@@ -449,10 +1025,6 @@ msgstr ""
 #| msgid "Insert Sinus"
 msgid "Insert graphics"
 msgstr "Синус қўйиш"
-
-#: ui/KarbonView.cpp:698 common/commands/KarbonBooleanCommand.cpp:68
-msgid "Boolean Operation"
-msgstr "Мантиқий операция"
 
 #: ui/KarbonView.cpp:809
 #, fuzzy
@@ -610,586 +1182,14 @@ msgstr "Танлаш"
 msgid "Zoom to Drawing"
 msgstr "Танлаш"
 
-#: ui/widgets/KarbonSmallStylePreview.cpp:56
-msgid "Press to apply fill to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:103
+#: ui/KarbonZoomController.cpp:59
 #, fuzzy
-#| msgid "None"
-msgctxt "The style has no fill"
-msgid "None"
-msgstr "Йўқ"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:121
-msgid "Press to apply stroke to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:166
-msgctxt "The style has a custom stroking"
-msgid "Custom"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:172
-#, fuzzy
-#| msgid "None"
-msgctxt "The style has no stroking"
-msgid "None"
-msgstr "Йўқ"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:192
-#, fuzzy
-#| msgid "Stroke"
-msgid "Stroke:"
-msgstr "Чизиш"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:197
-#, fuzzy
-#| msgid "Fill"
-msgid "Fill:"
-msgstr "Тўлдириш"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:167
-msgid "Type:"
-msgstr "Тури:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:169
-#, fuzzy
-#| msgid "Linear"
-msgctxt "Linear gradient type"
-msgid "Linear"
-msgstr "Чизиқли"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:170
-#, fuzzy
-#| msgid "Radial"
-msgctxt "Radial gradient type"
-msgid "Radial"
-msgstr "Радиал"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:171
-#, fuzzy
-#| msgid "Conical"
-msgctxt "Conical gradient type"
-msgid "Conical"
-msgstr "Конуссимон"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:174
-msgid "Repeat:"
-msgstr "Қайтариш:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:176
-#, fuzzy
-#| msgid "None"
-msgctxt "No gradient spread"
-msgid "None"
-msgstr "Йўқ"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:177
-msgid "Reflect"
-msgstr "Акс этиши"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:178
-msgid "Repeat"
-msgstr "Қайтариш"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:181
-msgid "Target:"
-msgstr "Мўлжал:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:183
-msgid "Stroke"
-msgstr "Чизиш"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:184
-msgid "Fill"
-msgstr "Тўлдириш"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:192
-msgid "Overall opacity:"
-msgstr "Умумий хиралик:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:197
-#, fuzzy
-#| msgid "Stroke: Color"
-msgid "Stop color:"
-msgstr "Чизиш: Ранг"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:201
-#, fuzzy
-#| msgid "Stroke: Color"
-msgid "Stop color."
-msgstr "Чизиш: Ранг"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:204
-msgid "&Add to Predefined Gradients"
-msgstr "Олдиндан &аниқланган градиентларга қўшиш"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
-msgid "Original"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
-#, fuzzy
-msgid "Tiled"
-msgstr "Тўлдириш"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
-msgid "Stretched"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Top Left"
-msgstr "Чап"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Top Right"
-msgstr "Ўнг"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Left"
-msgstr "Чап"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Center"
-msgid "Center"
-msgstr "Марказ"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Right"
-msgstr "Ўнг"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
-#, fuzzy
-#| msgid "Align Bottom"
-msgid "Bottom"
-msgstr "Пастга"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
-msgstr ""
+msgid "Zoom"
+msgstr "Катталаштириш воситаси"
 
 #: main.cc:43
 msgid "File to open"
 msgstr "Очиш учун файл"
-
-#: common/commands/KarbonLayerReorderCommand.cpp:37
-#: common/commands/KarbonLayerReorderCommand.cpp:46
-msgid "Raise Layer"
-msgstr "Қатламни кўтариш"
-
-#: common/commands/KarbonLayerReorderCommand.cpp:39
-#: common/commands/KarbonLayerReorderCommand.cpp:48
-msgid "Lower Layer"
-msgstr "Қатламни тушириш"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:57
-msgid "&Round Corners..."
-msgstr "&Бурчакларни қиррасизлантириш"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:86
-#: plugins/roundcorners/RoundCornersPlugin.cpp:103
-#: plugins/roundcorners/RoundCornersCommand.cpp:41
-msgid "Round Corners"
-msgstr "Бурчакларни қиррасизлантириш"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:107
-#: plugins/refinepath/RefinePathPlugin.cpp:96
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:118
-#: plugins/flattenpath/FlattenPathPlugin.cpp:99
-#, fuzzy
-msgid "Properties"
-msgstr "Чизиқ хоссалари"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:111
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:132
-msgid "Radius:"
-msgstr "Радиус:"
-
-#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
-#, fuzzy
-msgid "Refine path"
-msgstr "Йўлни ёпиш"
-
-#: plugins/refinepath/RefinePathPlugin.cpp:56
-#, fuzzy
-msgid "&Refine Path..."
-msgstr "Бурчакни силлиқлаш"
-
-#: plugins/refinepath/RefinePathPlugin.cpp:92
-#, fuzzy
-msgid "Refine Path"
-msgstr "Йўлни ёпиш"
-
-#: plugins/refinepath/RefinePathPlugin.cpp:100
-msgid "Subdivisions:"
-msgstr ""
-
-#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
-#, fuzzy
-msgid "Whirl & pinch"
-msgstr "Айлантириш ва сиқиш"
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:61
-#, fuzzy
-msgid "&Whirl/Pinch..."
-msgstr "&Айлантириш/Сиқиш..."
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:103
-#, fuzzy
-msgid "Whirl Pinch"
-msgstr "Айлантириш ва сиқиш"
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:110
-msgid "Info"
-msgstr ""
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:112
-msgid ""
-"The result of the Whirlpinch effect can be improved by refining the path "
-"shape beforehand."
-msgstr ""
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:122
-msgid "Angle:"
-msgstr "Бурчак:"
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:126
-#, fuzzy
-msgid "Pinch:"
-msgstr "Сиқиш:"
-
-#: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
-msgid "Select image..."
-msgstr ""
-
-#: plugins/filtereffects/ImageEffectConfigWidget.cpp:70
-#, fuzzy
-#| msgid "Select Nodes"
-msgid "Select image"
-msgstr "Тугунларни танлаш"
-
-#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
-#, fuzzy
-#| msgid "Stroke: Color"
-msgid "Flood color"
-msgstr "Чизиш: Ранг"
-
-#: plugins/filtereffects/ComponentTransferEffect.cpp:29
-#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
-msgid "Component transfer"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
-#, fuzzy
-#| msgid "&Duplicate"
-msgid "Duplicate"
-msgstr "&Нусхасини яратиш"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
-msgid "Wrap"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
-#, fuzzy
-#| msgid "None"
-msgid "None"
-msgstr "Йўқ"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
-#, fuzzy
-#| msgid "Edges:"
-msgid "Edge mode:"
-msgstr "Қирралар:"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
-msgid "Kernel size:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
-#, fuzzy
-#| msgid "Target:"
-msgid "Target point:"
-msgstr "Мўлжал:"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
-msgid "Divisor:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
-msgid "Bias:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
-msgid "Preserve alpha"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
-#, fuzzy
-#| msgid "Pattern"
-msgid "Edit kernel"
-msgstr "Намуна"
-
-#: plugins/filtereffects/CompositeEffectFactory.cpp:27
-#: plugins/filtereffects/CompositeEffect.cpp:31
-#, fuzzy
-#| msgid "Components"
-msgid "Composite"
-msgstr "Компонентлар"
-
-#: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius"
-msgstr "Радиус:"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
-#, fuzzy
-#| msgid "Section"
-msgid "Function"
-msgstr "Бўлим"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
-msgid "Identity"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
-#, fuzzy
-msgid "Table"
-msgstr "Тўлдириш"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
-#, fuzzy
-msgid "Discrete"
-msgstr "&Тарқатиш"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
-#, fuzzy
-#| msgid "Linear"
-msgid "Linear"
-msgstr "Чизиқли"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
-msgid "Gamma"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
-msgid "Values"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
-#, fuzzy
-#| msgid "Shear"
-msgid "Slope"
-msgstr "Эгиш"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
-#, fuzzy
-#| msgid "Interface"
-msgid "Intercept"
-msgstr "Интерфейс"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
-msgid "Amplitude"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
-msgid "Exponent"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
-#: plugins/filtereffects/OffsetEffect.cpp:31
-#: plugins/filtereffects/OffsetEffectFactory.cpp:26
-#, fuzzy
-#| msgid "Effects"
-msgid "Offset"
-msgstr "Эффектлар"
-
-#: plugins/filtereffects/ColorMatrixEffect.cpp:33
-msgid "Color Matrix"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
-msgid "Blend mode"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
-msgid "Normal"
-msgstr "Оддий"
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
-msgid "Multiply"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
-msgid "Screen"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
-msgid "Darken"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Lighten"
-msgstr "Ўнг"
-
-#: plugins/filtereffects/ImageEffectFactory.cpp:26
-#: plugins/filtereffects/ImageEffect.cpp:35
-msgid "Image"
-msgstr "Расм"
-
-#: plugins/filtereffects/MergeEffect.cpp:30
-#: plugins/filtereffects/MergeEffectFactory.cpp:27
-msgid "Merge"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:41
-msgid "Apply color matrix"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:42
-#, fuzzy
-#| msgid "Stroke: Color"
-msgid "Saturate colors"
-msgstr "Чизиш: Ранг"
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:43
-#, fuzzy
-#| msgid "Rotate"
-msgid "Rotate hue"
-msgstr "Буриш"
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:44
-msgid "Luminance to alpha"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:63
-msgid "Saturate value"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:73
-#, fuzzy
-#| msgid "Angle:"
-msgid "Angle"
-msgstr "Бурчак:"
-
-#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
-#: plugins/filtereffects/MorphologyEffect.cpp:32
-msgid "Morphology"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
-#: plugins/filtereffects/ConvolveMatrixEffect.cpp:32
-msgid "Convolve Matrix"
-msgstr ""
-
-#: plugins/filtereffects/BlurEffect.cpp:276
-#: plugins/filtereffects/BlurEffectFactory.cpp:27
-msgid "Gaussian blur"
-msgstr ""
-
-#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
-msgid "dx"
-msgstr ""
-
-#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
-msgid "dy"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectFactory.cpp:27
-#: plugins/filtereffects/BlendEffect.cpp:29
-#, fuzzy
-#| msgid "Bold"
-msgid "Blend"
-msgstr "Қалин"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
-msgid "Erode"
-msgstr ""
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:39
-#, fuzzy
-msgid "Dilate"
-msgstr "Ў&чириш"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:42
-#, fuzzy
-#| msgid "Boolean Operation"
-msgid "Operator:"
-msgstr "Мантиқий операция"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:46
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius x:"
-msgstr "Радиус:"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:51
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius y:"
-msgstr "Радиус:"
-
-#: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
-#, fuzzy
-#| msgid "Boolean Operation"
-msgid "Operation"
-msgstr "Мантиқий операция"
-
-#: plugins/filtereffects/FloodEffectFactory.cpp:27
-#: plugins/filtereffects/FloodEffect.cpp:30
-msgid "Flood fill"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
-msgid "Color matrix"
-msgstr ""
-
-#: plugins/flattenpath/FlattenPathPlugin.cpp:57
-#, fuzzy
-msgid "&Flatten Path..."
-msgstr "Бурчакни силлиқлаш"
-
-#: plugins/flattenpath/FlattenPathPlugin.cpp:95
-#, fuzzy
-msgid "Flatten Path"
-msgstr "Бурчакни силлиқлаш"
-
-#: plugins/flattenpath/FlattenPathPlugin.cpp:103
-#, fuzzy
-msgid "Flatness:"
-msgstr "Аниқлик:"
-
-#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
-#, fuzzy
-msgid "Flatten path"
-msgstr "Бурчакни силлиқлаш"
 
 #, fuzzy
 #~| msgid "Show Grid"
