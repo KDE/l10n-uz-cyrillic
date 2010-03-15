@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-14 04:25+0100\n"
+"POT-Creation-Date: 2010-03-15 04:29+0100\n"
 "PO-Revision-Date: 2006-12-17 13:34+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1731,8 +1731,8 @@ msgstr "&Таҳрирлаш"
 #. i18n: file: filteredit_base.ui:44
 #. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
 #: views/todoview/kotodoview.cpp:167 views/journalview/journalview.cpp:181
-#: rc.cpp:18 rc.cpp:2169 actionmanager.cpp:404 actionmanager.cpp:624
-#: actionmanager.cpp:1674 actionmanager.cpp:1705
+#: actionmanager.cpp:404 actionmanager.cpp:624 actionmanager.cpp:1674
+#: actionmanager.cpp:1705 rc.cpp:18 rc.cpp:2169
 #, fuzzy
 msgid "&Delete"
 msgstr "%1'ни ўчириш"
@@ -5851,6 +5851,859 @@ msgstr ""
 msgid ""
 "Calendar files or urls. Unless -i, -o or -m is explicitly specified, the "
 "user will be asked whether to import, merge or open in a separate window."
+msgstr ""
+
+#. i18n: file: tips:2
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:3
+msgid ""
+"<p>...that you can select whether the week starts on Monday or on Sunday in "
+"the System Settings? KOrganizer uses this setting. Look at \n"
+"Regional & Language->Country/Region & Languages in the System Settings, or "
+"select <b>Settings</b>,\n"
+"<b>Configure Date & Time...</b> from the menu bar. Select the Time & Dates "
+"tab.\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:11
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:11
+msgid ""
+"<p>...that you can edit to-dos quickly by right clicking on the property you "
+"wish to change; like the priority, the category or the date?\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:18
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:17
+msgid ""
+"<p>...that your calendar can display birthdays from your address book? It is "
+"even possible to set up reminders for them. To activate this, add the "
+"corresponding 'birthdays' calendar from the Calendar Manager.\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:25
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:23
+msgid ""
+"<p>...that you can store your calendar on an FTP server? Use the standard "
+"file dialog to save the calendar to a URL like <b>ftp://username@ftpserver/"
+"filename</b>. You can make your calendar active and load and save it as if "
+"it were local, or add it permanently to your calendar list, by adding a "
+"remote file from the Calendar Manager. Just make sure that no two KOrganizer "
+"applications are working on the same file, at the same time.\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:32
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:29
+msgid ""
+"<p>...that you can create hierarchical to-dos by clicking with the right "
+"mouse button on an existing to-do and selecting <b>New Sub-to-do</b> from "
+"the context menu?\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:39
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:35
+msgid ""
+"<p>...that a color can be assigned to each category? Events with a certain "
+"category will be shown in that color. You can assign these in the section "
+"<b>Colors</b> within the dialog which appears after selecting <b>Settings</"
+"b>, <b>Configure KOrganizer...</b> from the menu bar.\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:46
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:41
+msgid ""
+"<p>...that you can view and edit a calendar with Konqueror? Just click on "
+"the calendar file to make Konqueror open it.\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:53
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:47
+msgid ""
+"<p>...that it is possible to add an attachment to an event or to-do? To do "
+"so, add a link to the <b>Attachments</b> tab within the <b>Edit Event</b> or "
+"<b>Edit To-do</b> dialog.\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:60
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:53
+msgid ""
+"<p>...that you can export your calendar to HTML? Select <b>File</b>, "
+"<b>Export</b>, <b>Export Web Page...</b> from the menu bar to open the "
+"<b>Export calendar as web page</b> dialog.\n"
+"</p>\n"
+msgstr ""
+
+#. i18n: file: tips:67
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:59
+msgid ""
+"<p>...that you can purge completed to-dos in one step? Go to the <b>File</b> "
+"menu and choose <b>Purge Completed</b>.\n"
+msgstr ""
+
+#. i18n: file: tips:74
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:64
+msgid ""
+"<p>...that you can create a new sub-to-do by pasting a to-do while another "
+"one is selected?\n"
+"</p>\n"
+msgstr ""
+
+#: htmlexport.cpp:189
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "@title month and year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: htmlexport.cpp:269
+#, fuzzy
+#| msgid "Start Time"
+msgctxt "@title:column event start time"
+msgid "Start Time"
+msgstr "Бошлаш вақти"
+
+#: htmlexport.cpp:271
+#, fuzzy
+#| msgid "End Time"
+msgctxt "@title:column event end time"
+msgid "End Time"
+msgstr "Тугаш вақти"
+
+#: htmlexport.cpp:273
+#, fuzzy
+#| msgid "Events"
+msgctxt "@title:column event description"
+msgid "Event"
+msgstr "Ҳодисалар"
+
+#: htmlexport.cpp:276
+#, fuzzy
+msgctxt "@title:column event locatin"
+msgid "Location"
+msgstr "&Манзил:"
+
+#: htmlexport.cpp:281
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@title:column event categories"
+msgid "Categories"
+msgstr "Туркумлар"
+
+#: htmlexport.cpp:286
+#, fuzzy
+msgctxt "@title:column event attendees"
+msgid "Attendees"
+msgstr "&Қатнашувчилар"
+
+#: htmlexport.cpp:408
+#, fuzzy
+#| msgid "To-do:"
+msgctxt "@title:column"
+msgid "To-do"
+msgstr "Вазифа:"
+
+#: htmlexport.cpp:409
+#, fuzzy
+#| msgid "Priority"
+msgctxt "@title:column to-do priority"
+msgid "Priority"
+msgstr "Муҳимлик даражаси"
+
+#: htmlexport.cpp:411
+#, fuzzy
+#| msgid "Complete"
+msgctxt "@title:column to-do percent completed"
+msgid "Completed"
+msgstr "Бажарилган"
+
+#: htmlexport.cpp:413
+#, fuzzy
+msgctxt "@title:column to-do due date"
+msgid "Due Date"
+msgstr "Сана ва вақт"
+
+#: htmlexport.cpp:417
+#, fuzzy
+msgctxt "@title:column to-do location"
+msgid "Location"
+msgstr "&Манзил:"
+
+#: htmlexport.cpp:421
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@title:column to-do categories"
+msgid "Categories"
+msgstr "Туркумлар"
+
+#: htmlexport.cpp:425
+#, fuzzy
+msgctxt "@title:column to-do attendees"
+msgid "Attendees"
+msgstr "&Қатнашувчилар"
+
+#: htmlexport.cpp:449
+#, fuzzy
+#| msgid "To-dos:"
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos of: "
+msgstr "Вазифалар:"
+
+#: htmlexport.cpp:504
+#, fuzzy
+#| msgid "To-dos"
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos"
+msgstr "Вазифалар"
+
+#: htmlexport.cpp:522
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "@info/plain to-do percent complete"
+msgid "%1 %"
+msgstr "%1 %2"
+
+#: htmlexport.cpp:686
+msgctxt "@info/plain"
+msgid "This page was created "
+msgstr ""
+
+#: htmlexport.cpp:695
+#, kde-format
+msgctxt "@info/plain page creator email link with name"
+msgid "by <link url='mailto:%1'>%2</link>"
+msgstr ""
+
+#: htmlexport.cpp:699
+#, kde-format
+msgctxt "@info/plain page creator email link"
+msgid "by <link url='mailto:%1'>%2</link>"
+msgstr ""
+
+#: htmlexport.cpp:705
+#, kde-format
+msgctxt "@info/plain page creator name only"
+msgid "by %1 "
+msgstr ""
+
+#: htmlexport.cpp:711
+#, kde-format
+msgctxt "@info/plain page credit with name and link"
+msgid "with <link url='%1'>%2</link>"
+msgstr ""
+
+#: htmlexport.cpp:715
+#, fuzzy, kde-format
+#| msgid "Edit %1"
+msgctxt "@info/plain page credit name only"
+msgid "with %1"
+msgstr "%1'ни таҳрирлаш"
+
+#: htmlexport.cpp:782
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "@info/plain holiday by date and name"
+msgid "%1, %2"
+msgstr "%1 %2"
+
+#: koprefs.cpp:78
+msgctxt "Default export file"
+msgid "calendar.html"
+msgstr "calendar.html"
+
+#: eventarchiver.cpp:118
+#, kde-format
+msgid "There are no items before %1"
+msgstr "%1'дан олдин ҳеч нарса йўқ"
+
+#: eventarchiver.cpp:147
+#, kde-format
+msgid ""
+"Delete all items before %1 without saving?\n"
+"The following items will be deleted:"
+msgstr ""
+
+#: eventarchiver.cpp:151
+msgid "Delete Old Items"
+msgstr "Эски нарсаларни олиб ташлаш"
+
+#: eventarchiver.cpp:232
+#, fuzzy, kde-format
+#| msgid "Cannot write archive file %1."
+msgid "Cannot write archive file %1. %2"
+msgstr "%1 архив файлини ёзиб бўлмади."
+
+#: eventarchiver.cpp:242
+#, fuzzy, kde-format
+#| msgid "Cannot write archive file %1."
+msgid "Cannot write archive. %1"
+msgstr "%1 архив файлини ёзиб бўлмади."
+
+#: actionmanager.cpp:159
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing %"
+"1.</qt>"
+msgstr ""
+
+#: actionmanager.cpp:334
+msgid "Import &Calendar..."
+msgstr "Календарни &импорт қилиш..."
+
+#: actionmanager.cpp:336
+#, fuzzy
+msgid "Merge the contents of another iCalendar"
+msgstr "Иловани қўшиш"
+
+#: actionmanager.cpp:338
+msgid ""
+"Select this menu entry if you would like to merge the contents of another "
+"iCalendar into your current calendar."
+msgstr ""
+
+#: actionmanager.cpp:343
+msgid "&Import From UNIX Ical Tool"
+msgstr ""
+
+#: actionmanager.cpp:345
+msgid "Import a calendar in another format"
+msgstr ""
+
+#: actionmanager.cpp:347
+msgid ""
+"Select this menu entry if you would like to import the contents of a non-"
+"iCalendar formatted file into your current calendar."
+msgstr ""
+
+#: actionmanager.cpp:352
+msgid "Get &Hot New Stuff..."
+msgstr ""
+
+#: actionmanager.cpp:356
+msgid "Export &Web Page..."
+msgstr ""
+
+#: actionmanager.cpp:360
+#, fuzzy
+#| msgid "Import &Calendar..."
+msgid "Export as &iCalendar..."
+msgstr "Календарни &импорт қилиш..."
+
+#: actionmanager.cpp:364
+#, fuzzy
+#| msgid "Import &Calendar..."
+msgid "Export as &vCalendar..."
+msgstr "Календарни &импорт қилиш..."
+
+#: actionmanager.cpp:373
+msgid "Archive O&ld Entries..."
+msgstr ""
+
+#: actionmanager.cpp:377
+#, fuzzy
+#| msgid "Hide co&mpleted to-dos"
+msgid "Pur&ge Completed To-dos"
+msgstr "Ба&жарилган вазифаларни бекитиш"
+
+#: actionmanager.cpp:426
+msgid "What's &Next"
+msgstr "Навбатда &нима"
+
+#: actionmanager.cpp:431
+#, fuzzy
+#| msgid "Month View"
+msgid "&Month View"
+msgstr "Ой кўриниши"
+
+#: actionmanager.cpp:436
+#, fuzzy
+msgid "&Agenda"
+msgstr "Ҳодисани кўрувчи"
+
+#: actionmanager.cpp:441
+#, fuzzy
+#| msgid "&Events"
+msgid "&Event List"
+msgstr "&Ҳодисалар"
+
+#: actionmanager.cpp:446
+msgid "&To-do List"
+msgstr "Вазифалар &рўйхати"
+
+#: actionmanager.cpp:451
+msgid "&Journal"
+msgstr ""
+
+#: actionmanager.cpp:456
+#, fuzzy
+msgid "Time&line"
+msgstr "Вақт зонаси:"
+
+#: actionmanager.cpp:461
+#, fuzzy
+msgid "Time&spent"
+msgstr "Вақт зонаси:"
+
+#: actionmanager.cpp:467
+msgid "&Refresh"
+msgstr "&Янгилаш"
+
+#: actionmanager.cpp:473
+msgid "F&ilter"
+msgstr "&Филтер"
+
+#: actionmanager.cpp:488
+msgid "In Horizontally"
+msgstr ""
+
+#: actionmanager.cpp:494
+msgid "Out Horizontally"
+msgstr ""
+
+#: actionmanager.cpp:500
+msgid "In Vertically"
+msgstr ""
+
+#: actionmanager.cpp:506
+msgid "Out Vertically"
+msgstr ""
+
+#: actionmanager.cpp:517
+#, fuzzy
+#| msgid "day"
+msgctxt "@action Jump to today"
+msgid "To &Today"
+msgstr "кун"
+
+#: actionmanager.cpp:518
+#, fuzzy
+#| msgid "day"
+msgid "Today"
+msgstr "кун"
+
+#: actionmanager.cpp:519
+#, fuzzy
+#| msgid "Go to &Today"
+msgid "Scroll to Today"
+msgstr "&Бугунга ўтиш"
+
+#: actionmanager.cpp:524
+#, fuzzy
+#| msgid "Go &Backward"
+msgctxt "scroll backward"
+msgid "&Backward"
+msgstr "&Орқага ўтиш"
+
+#: actionmanager.cpp:525
+#, fuzzy
+#| msgid "Go &Backward"
+msgctxt "scroll backward"
+msgid "Back"
+msgstr "&Орқага ўтиш"
+
+#: actionmanager.cpp:526
+#, fuzzy
+#| msgid "Go &Backward"
+msgid "Scroll Backward"
+msgstr "&Орқага ўтиш"
+
+#: actionmanager.cpp:539
+#, fuzzy
+#| msgid "Go &Forward"
+msgctxt "scroll forward"
+msgid "&Forward"
+msgstr "Олдин&га ўтиш"
+
+#: actionmanager.cpp:540
+#, fuzzy
+#| msgid "Go &Forward"
+msgctxt "scoll forward"
+msgid "Forward"
+msgstr "Олдин&га ўтиш"
+
+#: actionmanager.cpp:541
+#, fuzzy
+#| msgid "Go &Forward"
+msgid "Scroll Forward"
+msgstr "Олдин&га ўтиш"
+
+#: actionmanager.cpp:549
+msgid "&Day"
+msgstr "&Кун"
+
+#: actionmanager.cpp:562
+msgid "W&ork Week"
+msgstr "Иш &ҳафта"
+
+#: actionmanager.cpp:568
+msgid "&Week"
+msgstr "Ҳа&фта"
+
+#: actionmanager.cpp:577
+msgid "Create a new Event"
+msgstr ""
+
+#: actionmanager.cpp:585
+#, fuzzy
+#| msgid "Click to add a new to-do"
+msgid "Create a new To-do"
+msgstr "Янги вазифа қўшиш учун босинг"
+
+#: actionmanager.cpp:600
+msgid "Create a new Journal"
+msgstr ""
+
+#: actionmanager.cpp:605
+#, fuzzy
+#| msgid "&Configure..."
+msgid "Configure View..."
+msgstr "&Мослаш..."
+
+#: actionmanager.cpp:606
+#, fuzzy
+#| msgid "&Configure..."
+msgid "Configure"
+msgstr "&Мослаш..."
+
+#: actionmanager.cpp:607
+#, fuzzy
+#| msgid "Configure &Date && Time..."
+msgid "Configure the view"
+msgstr "Сана ва вақтни &мослаш"
+
+#: actionmanager.cpp:630
+msgid "&Make Sub-to-do Independent"
+msgstr ""
+
+#: actionmanager.cpp:644
+msgid "&Publish Item Information..."
+msgstr ""
+
+#: actionmanager.cpp:649
+msgid "Send &Invitation to Attendees"
+msgstr ""
+
+#: actionmanager.cpp:656
+msgid "Re&quest Update"
+msgstr "Янгилашни сў&раш"
+
+#: actionmanager.cpp:663
+msgid "Send &Cancellation to Attendees"
+msgstr ""
+
+#: actionmanager.cpp:670
+msgid "Send Status &Update"
+msgstr ""
+
+#: actionmanager.cpp:677
+msgctxt "counter proposal"
+msgid "Request Chan&ge"
+msgstr ""
+
+#: actionmanager.cpp:684
+msgid "&Mail Free Busy Information..."
+msgstr ""
+
+#: actionmanager.cpp:689
+#, fuzzy
+#| msgid "&iCalendar..."
+msgid "&Send as iCalendar..."
+msgstr "&iCalendar..."
+
+#: actionmanager.cpp:694
+msgid "&Upload Free Busy Information"
+msgstr ""
+
+#: actionmanager.cpp:700
+#, fuzzy
+#| msgid "&Addressbook"
+msgid "&Address Book"
+msgstr "&Манзиллар дафтари"
+
+#: actionmanager.cpp:708
+msgid "Show Date Navigator"
+msgstr ""
+
+#: actionmanager.cpp:712
+msgid "Show To-do View"
+msgstr "Вазифалар кўринишини кўрсатиш"
+
+#: actionmanager.cpp:716
+msgid "Show Item Viewer"
+msgstr ""
+
+#: actionmanager.cpp:731
+#, fuzzy
+#| msgid "New Calendar"
+msgid "Show Calendar Manager"
+msgstr "Янги календар"
+
+#: actionmanager.cpp:744
+msgid "Configure &Date && Time..."
+msgstr "Сана ва вақтни &мослаш"
+
+#: actionmanager.cpp:753
+msgid "Manage View &Filters..."
+msgstr "&Кўриниш филтерларини бошқариш"
+
+#: actionmanager.cpp:758
+msgid "Manage C&ategories..."
+msgstr "Турку&мларни бошқариш..."
+
+#: actionmanager.cpp:764
+msgid "&Configure Calendar..."
+msgstr "Календар &мосламаси..."
+
+#: actionmanager.cpp:872 actionmanager.cpp:958
+msgid "*.vcs *.ics|Calendar Files"
+msgstr "*.vcs *.ics|Календар файллар"
+
+#: actionmanager.cpp:911
+msgid ""
+"You have no ical file in your home directory.\n"
+"Import cannot proceed.\n"
+msgstr ""
+
+#: actionmanager.cpp:932
+msgid ""
+"KOrganizer successfully imported and merged your .calendar file from ical "
+"into the currently opened calendar."
+msgstr ""
+
+#: actionmanager.cpp:938
+msgid ""
+"KOrganizer encountered some unknown fields while parsing your .calendar ical "
+"file, and had to discard them; please check to see that all your relevant "
+"data was correctly imported."
+msgstr ""
+
+#: actionmanager.cpp:942
+msgid "ICal Import Successful with Warning"
+msgstr ""
+
+#: actionmanager.cpp:946
+msgid ""
+"KOrganizer encountered an error parsing your .calendar file from ical; "
+"import has failed."
+msgstr ""
+
+#: actionmanager.cpp:950
+msgid ""
+"KOrganizer does not think that your .calendar file is a valid ical calendar; "
+"import has failed."
+msgstr ""
+
+#: actionmanager.cpp:1037
+#, kde-format
+msgid "New calendar '%1'."
+msgstr "Янги календар '%1'."
+
+#: actionmanager.cpp:1071
+#, kde-format
+msgid "Cannot download calendar from '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1103
+msgid "Failed to obtain D-Bus interface for remote configuration."
+msgstr ""
+
+#: actionmanager.cpp:1115
+#, kde-format
+msgid "Merged calendar '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1118
+#, kde-format
+msgid "Opened calendar '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1143
+msgid ""
+"Your calendar will be saved in iCalendar format. Use 'Export vCalendar' to "
+"save in vCalendar format."
+msgstr ""
+
+#: actionmanager.cpp:1145
+msgid "Format Conversion"
+msgstr ""
+
+#: actionmanager.cpp:1171
+#, kde-format
+msgid "Cannot upload calendar to '%1'"
+msgstr ""
+
+#: actionmanager.cpp:1178
+#, kde-format
+msgid "Saved calendar '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1213
+#, kde-format
+msgid "Do you want to overwrite file \"%1\"?"
+msgstr ""
+
+#: actionmanager.cpp:1246
+#, fuzzy
+msgid "Unable to write the output file."
+msgstr "'%1' намунани топиб бўлмади."
+
+#: actionmanager.cpp:1252
+msgid "Unable to write the temporary file for uploading."
+msgstr ""
+
+#: actionmanager.cpp:1255
+#, fuzzy
+msgid "Unable to upload the export file."
+msgstr "'%1' намунани топиб бўлмади."
+
+#: actionmanager.cpp:1263
+#, kde-format
+msgid "Web page successfully written to \"%1\""
+msgstr ""
+
+#: actionmanager.cpp:1265
+#, kde-format
+msgid "Export failed. %1"
+msgstr ""
+
+#: actionmanager.cpp:1268
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:window"
+msgid "Export Status"
+msgstr "Ҳолати"
+
+#: actionmanager.cpp:1309
+#, kde-format
+msgid "Unable to save calendar to the file %1."
+msgstr ""
+
+#: actionmanager.cpp:1310
+msgid "Error"
+msgstr ""
+
+#: actionmanager.cpp:1337
+msgid ""
+"The calendar has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Календарга ўзгариш киритилди.\n"
+"Уни сақлашни истайсизми?"
+
+#: actionmanager.cpp:1365
+#, fuzzy
+#| msgid "*.vcs *.ics|Calendar Files"
+msgid "*.ics *.vcs|Calendar Files"
+msgstr "*.vcs *.ics|Календар файллар"
+
+#: actionmanager.cpp:1447
+msgid "Could not start control module for date and time format."
+msgstr ""
+
+#: actionmanager.cpp:1588
+#, fuzzy, kde-format
+#| msgid "Could not load calendar '%1'."
+msgid "Could not load calendar %1."
+msgstr "'%1' календарини юклаб бўлмади."
+
+#: actionmanager.cpp:1596
+msgid "The downloaded events will be merged into your current calendar."
+msgstr ""
+
+#: actionmanager.cpp:1632
+msgid "&Show Event"
+msgstr "Ҳодисани &кўрсатиш"
+
+#: actionmanager.cpp:1635
+msgid "&Edit Event..."
+msgstr "Ҳодисани &таҳрирлаш"
+
+#: actionmanager.cpp:1638
+msgid "&Delete Event"
+msgstr "Ҳодисани &ўчириш"
+
+#: actionmanager.cpp:1645
+msgid "&Show To-do"
+msgstr "Вазифани &кўрсатиш"
+
+#: actionmanager.cpp:1648
+msgid "&Edit To-do..."
+msgstr "Вазифани &таҳрирлаш..."
+
+#: actionmanager.cpp:1651
+msgid "&Delete To-do"
+msgstr "Вазифани &олиб ташлаш"
+
+#: actionmanager.cpp:1785 actionmanager.cpp:1892
+msgid "Attach as &link"
+msgstr ""
+
+#: actionmanager.cpp:1786 actionmanager.cpp:1893
+#, fuzzy
+msgid "Attach &inline"
+msgstr "Иловани қўшиш"
+
+#: actionmanager.cpp:1787
+msgid "Attach inline &without attachments"
+msgstr ""
+
+#: actionmanager.cpp:1789 actionmanager.cpp:1895
+msgid "C&ancel"
+msgstr ""
+
+#: actionmanager.cpp:1829
+msgid "Removing attachments from an email might invalidate its signature."
+msgstr ""
+
+#: actionmanager.cpp:1830
+#, fuzzy
+#| msgid "Attach&ments"
+msgid "Remove Attachments"
+msgstr "&Иловалар"
+
+#: actionmanager.cpp:1973 actionmanager.cpp:1982
+#, fuzzy
+msgid "Undo"
+msgstr "Бекор қилиш (%1)"
+
+#: actionmanager.cpp:1979
+#, fuzzy, kde-format
+#| msgid "Undo (%1)"
+msgid "Undo: %1"
+msgstr "Бекор қилиш (%1)"
+
+#: actionmanager.cpp:1989 actionmanager.cpp:1993
+#, fuzzy
+msgid "Redo"
+msgstr "Қайтариш (%1)"
+
+#: actionmanager.cpp:1995
+#, kde-format
+msgid "Redo (%1)"
+msgstr "Қайтариш (%1)"
+
+#: actionmanager.cpp:2009
+#, kde-format
+msgid "URL '%1' is invalid."
 msgstr ""
 
 #. i18n: file: accountscalendarwidget.ui:29
@@ -10270,859 +11123,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonApply)
 #: rc.cpp:2160
 msgid "Apply"
-msgstr ""
-
-#: htmlexport.cpp:189
-#, fuzzy, kde-format
-#| msgctxt "short_weekday date (e.g. Mon 13)"
-#| msgid "%1 %2"
-msgctxt "@title month and year"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: htmlexport.cpp:269
-#, fuzzy
-#| msgid "Start Time"
-msgctxt "@title:column event start time"
-msgid "Start Time"
-msgstr "Бошлаш вақти"
-
-#: htmlexport.cpp:271
-#, fuzzy
-#| msgid "End Time"
-msgctxt "@title:column event end time"
-msgid "End Time"
-msgstr "Тугаш вақти"
-
-#: htmlexport.cpp:273
-#, fuzzy
-#| msgid "Events"
-msgctxt "@title:column event description"
-msgid "Event"
-msgstr "Ҳодисалар"
-
-#: htmlexport.cpp:276
-#, fuzzy
-msgctxt "@title:column event locatin"
-msgid "Location"
-msgstr "&Манзил:"
-
-#: htmlexport.cpp:281
-#, fuzzy
-#| msgid "Categories"
-msgctxt "@title:column event categories"
-msgid "Categories"
-msgstr "Туркумлар"
-
-#: htmlexport.cpp:286
-#, fuzzy
-msgctxt "@title:column event attendees"
-msgid "Attendees"
-msgstr "&Қатнашувчилар"
-
-#: htmlexport.cpp:408
-#, fuzzy
-#| msgid "To-do:"
-msgctxt "@title:column"
-msgid "To-do"
-msgstr "Вазифа:"
-
-#: htmlexport.cpp:409
-#, fuzzy
-#| msgid "Priority"
-msgctxt "@title:column to-do priority"
-msgid "Priority"
-msgstr "Муҳимлик даражаси"
-
-#: htmlexport.cpp:411
-#, fuzzy
-#| msgid "Complete"
-msgctxt "@title:column to-do percent completed"
-msgid "Completed"
-msgstr "Бажарилган"
-
-#: htmlexport.cpp:413
-#, fuzzy
-msgctxt "@title:column to-do due date"
-msgid "Due Date"
-msgstr "Сана ва вақт"
-
-#: htmlexport.cpp:417
-#, fuzzy
-msgctxt "@title:column to-do location"
-msgid "Location"
-msgstr "&Манзил:"
-
-#: htmlexport.cpp:421
-#, fuzzy
-#| msgid "Categories"
-msgctxt "@title:column to-do categories"
-msgid "Categories"
-msgstr "Туркумлар"
-
-#: htmlexport.cpp:425
-#, fuzzy
-msgctxt "@title:column to-do attendees"
-msgid "Attendees"
-msgstr "&Қатнашувчилар"
-
-#: htmlexport.cpp:449
-#, fuzzy
-#| msgid "To-dos:"
-msgctxt "@title:column sub-to-dos of the parent to-do"
-msgid "Sub-To-dos of: "
-msgstr "Вазифалар:"
-
-#: htmlexport.cpp:504
-#, fuzzy
-#| msgid "To-dos"
-msgctxt "@title:column sub-to-dos of the parent to-do"
-msgid "Sub-To-dos"
-msgstr "Вазифалар"
-
-#: htmlexport.cpp:522
-#, fuzzy, kde-format
-#| msgctxt "short_weekday date (e.g. Mon 13)"
-#| msgid "%1 %2"
-msgctxt "@info/plain to-do percent complete"
-msgid "%1 %"
-msgstr "%1 %2"
-
-#: htmlexport.cpp:686
-msgctxt "@info/plain"
-msgid "This page was created "
-msgstr ""
-
-#: htmlexport.cpp:695
-#, kde-format
-msgctxt "@info/plain page creator email link with name"
-msgid "by <link url='mailto:%1'>%2</link>"
-msgstr ""
-
-#: htmlexport.cpp:699
-#, kde-format
-msgctxt "@info/plain page creator email link"
-msgid "by <link url='mailto:%1'>%2</link>"
-msgstr ""
-
-#: htmlexport.cpp:705
-#, kde-format
-msgctxt "@info/plain page creator name only"
-msgid "by %1 "
-msgstr ""
-
-#: htmlexport.cpp:711
-#, kde-format
-msgctxt "@info/plain page credit with name and link"
-msgid "with <link url='%1'>%2</link>"
-msgstr ""
-
-#: htmlexport.cpp:715
-#, fuzzy, kde-format
-#| msgid "Edit %1"
-msgctxt "@info/plain page credit name only"
-msgid "with %1"
-msgstr "%1'ни таҳрирлаш"
-
-#: htmlexport.cpp:782
-#, fuzzy, kde-format
-#| msgctxt "short_weekday date (e.g. Mon 13)"
-#| msgid "%1 %2"
-msgctxt "@info/plain holiday by date and name"
-msgid "%1, %2"
-msgstr "%1 %2"
-
-#: koprefs.cpp:78
-msgctxt "Default export file"
-msgid "calendar.html"
-msgstr "calendar.html"
-
-#: eventarchiver.cpp:118
-#, kde-format
-msgid "There are no items before %1"
-msgstr "%1'дан олдин ҳеч нарса йўқ"
-
-#: eventarchiver.cpp:147
-#, kde-format
-msgid ""
-"Delete all items before %1 without saving?\n"
-"The following items will be deleted:"
-msgstr ""
-
-#: eventarchiver.cpp:151
-msgid "Delete Old Items"
-msgstr "Эски нарсаларни олиб ташлаш"
-
-#: eventarchiver.cpp:232
-#, fuzzy, kde-format
-#| msgid "Cannot write archive file %1."
-msgid "Cannot write archive file %1. %2"
-msgstr "%1 архив файлини ёзиб бўлмади."
-
-#: eventarchiver.cpp:242
-#, fuzzy, kde-format
-#| msgid "Cannot write archive file %1."
-msgid "Cannot write archive. %1"
-msgstr "%1 архив файлини ёзиб бўлмади."
-
-#: actionmanager.cpp:159
-#, kde-format
-msgid ""
-"<qt>This will hide the menu bar completely. You can show it again by typing %"
-"1.</qt>"
-msgstr ""
-
-#: actionmanager.cpp:334
-msgid "Import &Calendar..."
-msgstr "Календарни &импорт қилиш..."
-
-#: actionmanager.cpp:336
-#, fuzzy
-msgid "Merge the contents of another iCalendar"
-msgstr "Иловани қўшиш"
-
-#: actionmanager.cpp:338
-msgid ""
-"Select this menu entry if you would like to merge the contents of another "
-"iCalendar into your current calendar."
-msgstr ""
-
-#: actionmanager.cpp:343
-msgid "&Import From UNIX Ical Tool"
-msgstr ""
-
-#: actionmanager.cpp:345
-msgid "Import a calendar in another format"
-msgstr ""
-
-#: actionmanager.cpp:347
-msgid ""
-"Select this menu entry if you would like to import the contents of a non-"
-"iCalendar formatted file into your current calendar."
-msgstr ""
-
-#: actionmanager.cpp:352
-msgid "Get &Hot New Stuff..."
-msgstr ""
-
-#: actionmanager.cpp:356
-msgid "Export &Web Page..."
-msgstr ""
-
-#: actionmanager.cpp:360
-#, fuzzy
-#| msgid "Import &Calendar..."
-msgid "Export as &iCalendar..."
-msgstr "Календарни &импорт қилиш..."
-
-#: actionmanager.cpp:364
-#, fuzzy
-#| msgid "Import &Calendar..."
-msgid "Export as &vCalendar..."
-msgstr "Календарни &импорт қилиш..."
-
-#: actionmanager.cpp:373
-msgid "Archive O&ld Entries..."
-msgstr ""
-
-#: actionmanager.cpp:377
-#, fuzzy
-#| msgid "Hide co&mpleted to-dos"
-msgid "Pur&ge Completed To-dos"
-msgstr "Ба&жарилган вазифаларни бекитиш"
-
-#: actionmanager.cpp:426
-msgid "What's &Next"
-msgstr "Навбатда &нима"
-
-#: actionmanager.cpp:431
-#, fuzzy
-#| msgid "Month View"
-msgid "&Month View"
-msgstr "Ой кўриниши"
-
-#: actionmanager.cpp:436
-#, fuzzy
-msgid "&Agenda"
-msgstr "Ҳодисани кўрувчи"
-
-#: actionmanager.cpp:441
-#, fuzzy
-#| msgid "&Events"
-msgid "&Event List"
-msgstr "&Ҳодисалар"
-
-#: actionmanager.cpp:446
-msgid "&To-do List"
-msgstr "Вазифалар &рўйхати"
-
-#: actionmanager.cpp:451
-msgid "&Journal"
-msgstr ""
-
-#: actionmanager.cpp:456
-#, fuzzy
-msgid "Time&line"
-msgstr "Вақт зонаси:"
-
-#: actionmanager.cpp:461
-#, fuzzy
-msgid "Time&spent"
-msgstr "Вақт зонаси:"
-
-#: actionmanager.cpp:467
-msgid "&Refresh"
-msgstr "&Янгилаш"
-
-#: actionmanager.cpp:473
-msgid "F&ilter"
-msgstr "&Филтер"
-
-#: actionmanager.cpp:488
-msgid "In Horizontally"
-msgstr ""
-
-#: actionmanager.cpp:494
-msgid "Out Horizontally"
-msgstr ""
-
-#: actionmanager.cpp:500
-msgid "In Vertically"
-msgstr ""
-
-#: actionmanager.cpp:506
-msgid "Out Vertically"
-msgstr ""
-
-#: actionmanager.cpp:517
-#, fuzzy
-#| msgid "day"
-msgctxt "@action Jump to today"
-msgid "To &Today"
-msgstr "кун"
-
-#: actionmanager.cpp:518
-#, fuzzy
-#| msgid "day"
-msgid "Today"
-msgstr "кун"
-
-#: actionmanager.cpp:519
-#, fuzzy
-#| msgid "Go to &Today"
-msgid "Scroll to Today"
-msgstr "&Бугунга ўтиш"
-
-#: actionmanager.cpp:524
-#, fuzzy
-#| msgid "Go &Backward"
-msgctxt "scroll backward"
-msgid "&Backward"
-msgstr "&Орқага ўтиш"
-
-#: actionmanager.cpp:525
-#, fuzzy
-#| msgid "Go &Backward"
-msgctxt "scroll backward"
-msgid "Back"
-msgstr "&Орқага ўтиш"
-
-#: actionmanager.cpp:526
-#, fuzzy
-#| msgid "Go &Backward"
-msgid "Scroll Backward"
-msgstr "&Орқага ўтиш"
-
-#: actionmanager.cpp:539
-#, fuzzy
-#| msgid "Go &Forward"
-msgctxt "scroll forward"
-msgid "&Forward"
-msgstr "Олдин&га ўтиш"
-
-#: actionmanager.cpp:540
-#, fuzzy
-#| msgid "Go &Forward"
-msgctxt "scoll forward"
-msgid "Forward"
-msgstr "Олдин&га ўтиш"
-
-#: actionmanager.cpp:541
-#, fuzzy
-#| msgid "Go &Forward"
-msgid "Scroll Forward"
-msgstr "Олдин&га ўтиш"
-
-#: actionmanager.cpp:549
-msgid "&Day"
-msgstr "&Кун"
-
-#: actionmanager.cpp:562
-msgid "W&ork Week"
-msgstr "Иш &ҳафта"
-
-#: actionmanager.cpp:568
-msgid "&Week"
-msgstr "Ҳа&фта"
-
-#: actionmanager.cpp:577
-msgid "Create a new Event"
-msgstr ""
-
-#: actionmanager.cpp:585
-#, fuzzy
-#| msgid "Click to add a new to-do"
-msgid "Create a new To-do"
-msgstr "Янги вазифа қўшиш учун босинг"
-
-#: actionmanager.cpp:600
-msgid "Create a new Journal"
-msgstr ""
-
-#: actionmanager.cpp:605
-#, fuzzy
-#| msgid "&Configure..."
-msgid "Configure View..."
-msgstr "&Мослаш..."
-
-#: actionmanager.cpp:606
-#, fuzzy
-#| msgid "&Configure..."
-msgid "Configure"
-msgstr "&Мослаш..."
-
-#: actionmanager.cpp:607
-#, fuzzy
-#| msgid "Configure &Date && Time..."
-msgid "Configure the view"
-msgstr "Сана ва вақтни &мослаш"
-
-#: actionmanager.cpp:630
-msgid "&Make Sub-to-do Independent"
-msgstr ""
-
-#: actionmanager.cpp:644
-msgid "&Publish Item Information..."
-msgstr ""
-
-#: actionmanager.cpp:649
-msgid "Send &Invitation to Attendees"
-msgstr ""
-
-#: actionmanager.cpp:656
-msgid "Re&quest Update"
-msgstr "Янгилашни сў&раш"
-
-#: actionmanager.cpp:663
-msgid "Send &Cancellation to Attendees"
-msgstr ""
-
-#: actionmanager.cpp:670
-msgid "Send Status &Update"
-msgstr ""
-
-#: actionmanager.cpp:677
-msgctxt "counter proposal"
-msgid "Request Chan&ge"
-msgstr ""
-
-#: actionmanager.cpp:684
-msgid "&Mail Free Busy Information..."
-msgstr ""
-
-#: actionmanager.cpp:689
-#, fuzzy
-#| msgid "&iCalendar..."
-msgid "&Send as iCalendar..."
-msgstr "&iCalendar..."
-
-#: actionmanager.cpp:694
-msgid "&Upload Free Busy Information"
-msgstr ""
-
-#: actionmanager.cpp:700
-#, fuzzy
-#| msgid "&Addressbook"
-msgid "&Address Book"
-msgstr "&Манзиллар дафтари"
-
-#: actionmanager.cpp:708
-msgid "Show Date Navigator"
-msgstr ""
-
-#: actionmanager.cpp:712
-msgid "Show To-do View"
-msgstr "Вазифалар кўринишини кўрсатиш"
-
-#: actionmanager.cpp:716
-msgid "Show Item Viewer"
-msgstr ""
-
-#: actionmanager.cpp:731
-#, fuzzy
-#| msgid "New Calendar"
-msgid "Show Calendar Manager"
-msgstr "Янги календар"
-
-#: actionmanager.cpp:744
-msgid "Configure &Date && Time..."
-msgstr "Сана ва вақтни &мослаш"
-
-#: actionmanager.cpp:753
-msgid "Manage View &Filters..."
-msgstr "&Кўриниш филтерларини бошқариш"
-
-#: actionmanager.cpp:758
-msgid "Manage C&ategories..."
-msgstr "Турку&мларни бошқариш..."
-
-#: actionmanager.cpp:764
-msgid "&Configure Calendar..."
-msgstr "Календар &мосламаси..."
-
-#: actionmanager.cpp:872 actionmanager.cpp:958
-msgid "*.vcs *.ics|Calendar Files"
-msgstr "*.vcs *.ics|Календар файллар"
-
-#: actionmanager.cpp:911
-msgid ""
-"You have no ical file in your home directory.\n"
-"Import cannot proceed.\n"
-msgstr ""
-
-#: actionmanager.cpp:932
-msgid ""
-"KOrganizer successfully imported and merged your .calendar file from ical "
-"into the currently opened calendar."
-msgstr ""
-
-#: actionmanager.cpp:938
-msgid ""
-"KOrganizer encountered some unknown fields while parsing your .calendar ical "
-"file, and had to discard them; please check to see that all your relevant "
-"data was correctly imported."
-msgstr ""
-
-#: actionmanager.cpp:942
-msgid "ICal Import Successful with Warning"
-msgstr ""
-
-#: actionmanager.cpp:946
-msgid ""
-"KOrganizer encountered an error parsing your .calendar file from ical; "
-"import has failed."
-msgstr ""
-
-#: actionmanager.cpp:950
-msgid ""
-"KOrganizer does not think that your .calendar file is a valid ical calendar; "
-"import has failed."
-msgstr ""
-
-#: actionmanager.cpp:1037
-#, kde-format
-msgid "New calendar '%1'."
-msgstr "Янги календар '%1'."
-
-#: actionmanager.cpp:1071
-#, kde-format
-msgid "Cannot download calendar from '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1103
-msgid "Failed to obtain D-Bus interface for remote configuration."
-msgstr ""
-
-#: actionmanager.cpp:1115
-#, kde-format
-msgid "Merged calendar '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1118
-#, kde-format
-msgid "Opened calendar '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1143
-msgid ""
-"Your calendar will be saved in iCalendar format. Use 'Export vCalendar' to "
-"save in vCalendar format."
-msgstr ""
-
-#: actionmanager.cpp:1145
-msgid "Format Conversion"
-msgstr ""
-
-#: actionmanager.cpp:1171
-#, kde-format
-msgid "Cannot upload calendar to '%1'"
-msgstr ""
-
-#: actionmanager.cpp:1178
-#, kde-format
-msgid "Saved calendar '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1213
-#, kde-format
-msgid "Do you want to overwrite file \"%1\"?"
-msgstr ""
-
-#: actionmanager.cpp:1246
-#, fuzzy
-msgid "Unable to write the output file."
-msgstr "'%1' намунани топиб бўлмади."
-
-#: actionmanager.cpp:1252
-msgid "Unable to write the temporary file for uploading."
-msgstr ""
-
-#: actionmanager.cpp:1255
-#, fuzzy
-msgid "Unable to upload the export file."
-msgstr "'%1' намунани топиб бўлмади."
-
-#: actionmanager.cpp:1263
-#, kde-format
-msgid "Web page successfully written to \"%1\""
-msgstr ""
-
-#: actionmanager.cpp:1265
-#, kde-format
-msgid "Export failed. %1"
-msgstr ""
-
-#: actionmanager.cpp:1268
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:window"
-msgid "Export Status"
-msgstr "Ҳолати"
-
-#: actionmanager.cpp:1309
-#, kde-format
-msgid "Unable to save calendar to the file %1."
-msgstr ""
-
-#: actionmanager.cpp:1310
-msgid "Error"
-msgstr ""
-
-#: actionmanager.cpp:1337
-msgid ""
-"The calendar has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"Календарга ўзгариш киритилди.\n"
-"Уни сақлашни истайсизми?"
-
-#: actionmanager.cpp:1365
-#, fuzzy
-#| msgid "*.vcs *.ics|Calendar Files"
-msgid "*.ics *.vcs|Calendar Files"
-msgstr "*.vcs *.ics|Календар файллар"
-
-#: actionmanager.cpp:1447
-msgid "Could not start control module for date and time format."
-msgstr ""
-
-#: actionmanager.cpp:1588
-#, fuzzy, kde-format
-#| msgid "Could not load calendar '%1'."
-msgid "Could not load calendar %1."
-msgstr "'%1' календарини юклаб бўлмади."
-
-#: actionmanager.cpp:1596
-msgid "The downloaded events will be merged into your current calendar."
-msgstr ""
-
-#: actionmanager.cpp:1632
-msgid "&Show Event"
-msgstr "Ҳодисани &кўрсатиш"
-
-#: actionmanager.cpp:1635
-msgid "&Edit Event..."
-msgstr "Ҳодисани &таҳрирлаш"
-
-#: actionmanager.cpp:1638
-msgid "&Delete Event"
-msgstr "Ҳодисани &ўчириш"
-
-#: actionmanager.cpp:1645
-msgid "&Show To-do"
-msgstr "Вазифани &кўрсатиш"
-
-#: actionmanager.cpp:1648
-msgid "&Edit To-do..."
-msgstr "Вазифани &таҳрирлаш..."
-
-#: actionmanager.cpp:1651
-msgid "&Delete To-do"
-msgstr "Вазифани &олиб ташлаш"
-
-#: actionmanager.cpp:1785 actionmanager.cpp:1892
-msgid "Attach as &link"
-msgstr ""
-
-#: actionmanager.cpp:1786 actionmanager.cpp:1893
-#, fuzzy
-msgid "Attach &inline"
-msgstr "Иловани қўшиш"
-
-#: actionmanager.cpp:1787
-msgid "Attach inline &without attachments"
-msgstr ""
-
-#: actionmanager.cpp:1789 actionmanager.cpp:1895
-msgid "C&ancel"
-msgstr ""
-
-#: actionmanager.cpp:1829
-msgid "Removing attachments from an email might invalidate its signature."
-msgstr ""
-
-#: actionmanager.cpp:1830
-#, fuzzy
-#| msgid "Attach&ments"
-msgid "Remove Attachments"
-msgstr "&Иловалар"
-
-#: actionmanager.cpp:1973 actionmanager.cpp:1982
-#, fuzzy
-msgid "Undo"
-msgstr "Бекор қилиш (%1)"
-
-#: actionmanager.cpp:1979
-#, fuzzy, kde-format
-#| msgid "Undo (%1)"
-msgid "Undo: %1"
-msgstr "Бекор қилиш (%1)"
-
-#: actionmanager.cpp:1989 actionmanager.cpp:1993
-#, fuzzy
-msgid "Redo"
-msgstr "Қайтариш (%1)"
-
-#: actionmanager.cpp:1995
-#, kde-format
-msgid "Redo (%1)"
-msgstr "Қайтариш (%1)"
-
-#: actionmanager.cpp:2009
-#, kde-format
-msgid "URL '%1' is invalid."
-msgstr ""
-
-#. i18n: file: tips:2
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:3
-msgid ""
-"<p>...that you can select whether the week starts on Monday or on Sunday in "
-"the System Settings? KOrganizer uses this setting. Look at \n"
-"Regional & Language->Country/Region & Languages in the System Settings, or "
-"select <b>Settings</b>,\n"
-"<b>Configure Date & Time...</b> from the menu bar. Select the Time & Dates "
-"tab.\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:11
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:11
-msgid ""
-"<p>...that you can edit to-dos quickly by right clicking on the property you "
-"wish to change; like the priority, the category or the date?\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:18
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:17
-msgid ""
-"<p>...that your calendar can display birthdays from your address book? It is "
-"even possible to set up reminders for them. To activate this, add the "
-"corresponding 'birthdays' calendar from the Calendar Manager.\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:25
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:23
-msgid ""
-"<p>...that you can store your calendar on an FTP server? Use the standard "
-"file dialog to save the calendar to a URL like <b>ftp://username@ftpserver/"
-"filename</b>. You can make your calendar active and load and save it as if "
-"it were local, or add it permanently to your calendar list, by adding a "
-"remote file from the Calendar Manager. Just make sure that no two KOrganizer "
-"applications are working on the same file, at the same time.\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:32
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:29
-msgid ""
-"<p>...that you can create hierarchical to-dos by clicking with the right "
-"mouse button on an existing to-do and selecting <b>New Sub-to-do</b> from "
-"the context menu?\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:39
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:35
-msgid ""
-"<p>...that a color can be assigned to each category? Events with a certain "
-"category will be shown in that color. You can assign these in the section "
-"<b>Colors</b> within the dialog which appears after selecting <b>Settings</"
-"b>, <b>Configure KOrganizer...</b> from the menu bar.\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:46
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:41
-msgid ""
-"<p>...that you can view and edit a calendar with Konqueror? Just click on "
-"the calendar file to make Konqueror open it.\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:53
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:47
-msgid ""
-"<p>...that it is possible to add an attachment to an event or to-do? To do "
-"so, add a link to the <b>Attachments</b> tab within the <b>Edit Event</b> or "
-"<b>Edit To-do</b> dialog.\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:60
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:53
-msgid ""
-"<p>...that you can export your calendar to HTML? Select <b>File</b>, "
-"<b>Export</b>, <b>Export Web Page...</b> from the menu bar to open the "
-"<b>Export calendar as web page</b> dialog.\n"
-"</p>\n"
-msgstr ""
-
-#. i18n: file: tips:67
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:59
-msgid ""
-"<p>...that you can purge completed to-dos in one step? Go to the <b>File</b> "
-"menu and choose <b>Purge Completed</b>.\n"
-msgstr ""
-
-#. i18n: file: tips:74
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:64
-msgid ""
-"<p>...that you can create a new sub-to-do by pasting a to-do while another "
-"one is selected?\n"
-"</p>\n"
 msgstr ""
 
 #: datenavigatorcontainer.cpp:47
