@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-08 07:02+0100\n"
+"POT-Creation-Date: 2010-04-17 04:31+0200\n"
 "PO-Revision-Date: 2005-10-20 21:45+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -15,14 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: auroraepreview.cpp:317 preview.cpp:383
-msgid "Active Window"
-msgstr "Актив ойна"
-
-#: auroraepreview.cpp:320 preview.cpp:383
-msgid "Inactive Window"
-msgstr "Актив бўлмаган ойна"
 
 #: buttonsconfigdialog.cpp:44
 msgid "Buttons"
@@ -120,6 +112,14 @@ msgstr "Жуда баҳайбат"
 msgid "Decoration Options"
 msgstr "Безакнинг параметрлари"
 
+#: decorationmodel.cpp:271 preview.cpp:383
+msgid "Inactive Window"
+msgstr "Актив бўлмаган ойна"
+
+#: decorationmodel.cpp:278 preview.cpp:383
+msgid "Active Window"
+msgstr "Актив ойна"
+
 #: kwindecoration.cpp:98
 msgid "kcmkwindecoration"
 msgstr "kcmkwindecoration"
@@ -167,7 +167,7 @@ msgstr ""
 
 #. i18n: file: buttons.ui:17
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showToolTipsCheckBox)
-#: rc.cpp:3
+#: rc.cpp:3 rc.cpp:53
 msgid ""
 "Enabling this checkbox will show window button tooltips. If this checkbox is "
 "off, no window button tooltips will be shown."
@@ -175,13 +175,13 @@ msgstr ""
 
 #. i18n: file: buttons.ui:20
 #. i18n: ectx: property (text), widget (QCheckBox, showToolTipsCheckBox)
-#: rc.cpp:6
+#: rc.cpp:6 rc.cpp:56
 msgid "&Show window button tooltips"
 msgstr "Ойна &тугмасининг эслатмаларини кўрсатиш"
 
 #. i18n: file: buttons.ui:27
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, useCustomButtonPositionsCheckBox)
-#: rc.cpp:9
+#: rc.cpp:9 rc.cpp:59
 msgid ""
 "The appropriate settings can be found in the \"Buttons\" Tab; please note "
 "that this option is not available on all styles yet."
@@ -189,31 +189,31 @@ msgstr ""
 
 #. i18n: file: buttons.ui:30
 #. i18n: ectx: property (text), widget (QCheckBox, useCustomButtonPositionsCheckBox)
-#: rc.cpp:12
+#: rc.cpp:12 rc.cpp:62
 msgid "Use custom titlebar button &positions"
 msgstr "Сарлавҳа тугмаларининг &жойини кўрсатиш"
 
 #. i18n: file: config.ui:19
 #. i18n: ectx: property (text), widget (QLabel, borderLabel)
-#: rc.cpp:15
+#: rc.cpp:15 rc.cpp:35
 msgid "B&order size:"
 msgstr "Че&гаранинг ўлчами:"
 
 #. i18n: file: config.ui:29
 #. i18n: ectx: property (whatsThis), widget (KComboBox, bordersCombo)
-#: rc.cpp:18
+#: rc.cpp:18 rc.cpp:38
 msgid "Use this combobox to change the border size of the decoration."
 msgstr ""
 
 #. i18n: file: decoration.ui:17
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchEdit)
-#: rc.cpp:21
+#: rc.cpp:21 rc.cpp:41
 msgid "Search"
 msgstr ""
 
 #. i18n: file: decoration.ui:27
 #. i18n: ectx: property (whatsThis), widget (QListView, decorationList)
-#: rc.cpp:24
+#: rc.cpp:24 rc.cpp:44
 msgid ""
 "Select the window decoration. This is the look and feel of both the window "
 "borders and the window handle."
@@ -221,13 +221,13 @@ msgstr ""
 
 #. i18n: file: decoration.ui:52
 #. i18n: ectx: property (text), widget (KPushButton, configureButtonsButton)
-#: rc.cpp:27
+#: rc.cpp:27 rc.cpp:47
 msgid "Configure Buttons..."
 msgstr ""
 
 #. i18n: file: decoration.ui:59
 #. i18n: ectx: property (text), widget (KPushButton, ghnsButton)
-#: rc.cpp:30
+#: rc.cpp:30 rc.cpp:50
 #, fuzzy
 #| msgid "&Window Decoration"
 msgid "Get New Decorations..."
