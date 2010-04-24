@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-07 01:32+0100\n"
+"POT-Creation-Date: 2010-02-24 07:21+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3 ../../ui/widgets/KarbonGradientEditWidget.cpp:188
+#: rc.cpp:3 ../../ui/widgets/KarbonGradientEditWidget.cpp:174
 msgid "Repeat:"
 msgstr "Қайтариш:"
 
@@ -53,7 +53,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:12 rc.cpp:21
+#: rc.cpp:12 rc.cpp:21 filterEffectTool/KarbonFilterEffectsTool.cpp:461
 msgid "X:"
 msgstr "X:"
 
@@ -61,7 +61,7 @@ msgstr "X:"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:15 rc.cpp:24
+#: rc.cpp:15 rc.cpp:24 filterEffectTool/KarbonFilterEffectsTool.cpp:467
 msgid "Y:"
 msgstr "Y:"
 
@@ -81,21 +81,21 @@ msgstr "Намуна"
 
 #. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:100
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:30
+#: rc.cpp:30 filterEffectTool/KarbonFilterEffectsTool.cpp:473
 #, fuzzy
 msgid "W:"
 msgstr "W:"
 
 #. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:110
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:33
+#: rc.cpp:33 filterEffectTool/KarbonFilterEffectsTool.cpp:479
 #, fuzzy
 msgid "H:"
 msgstr "H:"
 
 #. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:32
 #. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
-#: rc.cpp:36 filterEffectTool/KarbonFilterEffectsTool.cpp:219
+#: rc.cpp:36 filterEffectTool/KarbonFilterEffectsTool.cpp:319
 msgid "Filter Effect Editor"
 msgstr ""
 
@@ -129,41 +129,35 @@ msgstr ""
 
 #. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:116
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:63 filterEffectTool/KarbonFilterEffectsTool.cpp:307
+#: rc.cpp:63 filterEffectTool/KarbonFilterEffectsTool.cpp:450
 #, fuzzy
 #| msgid "Object Properties"
 msgid "Effect Properties"
 msgstr "Объектнинг хоссалари"
 
-#: KarbonGradientTool.cpp:226
+#: KarbonGradientTool.cpp:207
 msgid "Drag to move gradient position."
 msgstr ""
 
-#: KarbonGradientTool.cpp:236
+#: KarbonGradientTool.cpp:216
 msgid "Drag to move color stop. Double click to remove color stop."
 msgstr ""
 
-#: KarbonGradientTool.cpp:238
+#: KarbonGradientTool.cpp:218
 msgid "Drag to move color stop."
 msgstr ""
 
-#: KarbonGradientTool.cpp:246
+#: KarbonGradientTool.cpp:225
 msgid "Drag to move gradient position. Double click to insert color stop."
 msgstr ""
 
-#: KarbonGradientTool.cpp:554
+#: KarbonGradientTool.cpp:503
 msgid "Edit Gradient"
 msgstr "Градиентни таҳрирлаш"
 
-#: KarbonGradientTool.cpp:555
+#: KarbonGradientTool.cpp:504
 msgid "Predefined Gradients"
 msgstr "Олдиндан аниқланган градиентлар"
-
-#: KarbonGradientToolFactory.cpp:29
-#, fuzzy
-#| msgid "Gradient Tool"
-msgid "Gradient tool"
-msgstr "Градиент воситаси"
 
 #: KarbonGradientToolFactory.cpp:31
 #, fuzzy
@@ -171,21 +165,15 @@ msgstr "Градиент воситаси"
 msgid "Gradient Editing Tool"
 msgstr "Градиент воситаси"
 
-#: KarbonPatternTool.cpp:306
+#: KarbonPatternTool.cpp:285
 #, fuzzy
 #| msgid "Pattern Tool"
 msgid "Pattern Options"
 msgstr "Намуна мосламаси"
 
-#: KarbonPatternTool.cpp:307
+#: KarbonPatternTool.cpp:286
 msgid "Patterns"
 msgstr "Намуналар"
-
-#: KarbonPatternToolFactory.cpp:29
-#, fuzzy
-#| msgid "Pattern Tool"
-msgid "Pattern tool"
-msgstr "Намуна мосламаси"
 
 #: KarbonPatternToolFactory.cpp:31
 #, fuzzy
@@ -193,46 +181,40 @@ msgstr "Намуна мосламаси"
 msgid "Pattern Editing Tool"
 msgstr "Намуна мосламаси"
 
-#: KarbonPencilTool.cpp:333
+#: KarbonPencilTool.cpp:321
 #, fuzzy
 #| msgid "Position:"
 msgid "Precision:"
 msgstr "Жойлашиши:"
 
-#: KarbonPencilTool.cpp:335
+#: KarbonPencilTool.cpp:323
 #, fuzzy
 msgctxt "The raw line data"
 msgid "Raw"
 msgstr "Қатор"
 
-#: KarbonPencilTool.cpp:336
+#: KarbonPencilTool.cpp:324
 msgid "Curve"
 msgstr "Эгри чизиқ"
 
-#: KarbonPencilTool.cpp:337
+#: KarbonPencilTool.cpp:325
 #, fuzzy
 msgid "Straight"
 msgstr "Тўғри чизиқ"
 
-#: KarbonPencilTool.cpp:346 KarbonPencilTool.cpp:352
+#: KarbonPencilTool.cpp:334 KarbonPencilTool.cpp:340
 #, fuzzy
 msgid "Optimize"
 msgstr "Оптималлаштириш"
 
-#: KarbonPencilTool.cpp:354
+#: KarbonPencilTool.cpp:342
 msgid "Exactness:"
 msgstr "Аниқлик:"
 
-#: KarbonPencilTool.cpp:363
+#: KarbonPencilTool.cpp:351
 #, fuzzy
 msgid "Combine angle:"
 msgstr "Ички бурчак:"
-
-#: KarbonPencilToolFactory.cpp:29
-#, fuzzy
-#| msgid "Pencil Tool"
-msgid "Pencil tool"
-msgstr "Қалам воситаси"
 
 #: KarbonPencilToolFactory.cpp:31
 msgid "Freehand Path Drawing Tool"
@@ -317,50 +299,46 @@ msgstr ""
 msgid "Please insert the name by which you want to save this profile:"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:227
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:226
 msgid "Sorry, the name you entered is invalid."
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:228
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:227
 msgctxt "invalid profile name"
 msgid "Invalid name."
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:237
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:235
 msgid ""
 "A profile with that name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:375
-#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:400
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:371
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:396
 msgid "Mouse"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:388
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:384
 #, fuzzy
 #| msgid "Gradient"
 msgid "Graphics Pen"
 msgstr "Градиент"
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:407
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:382
 msgid "Calligraphy: increase width"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:412
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:387
 msgid "Calligraphy: decrease width"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:417
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:392
 msgid "Calligraphy: increase angle"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:422
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:397
 msgid "Calligraphy: decrease angle"
-msgstr ""
-
-#: CalligraphyTool/KarbonCalligraphyToolFactory.cpp:29
-msgid "Calligraphy tool"
 msgstr ""
 
 #: CalligraphyTool/KarbonCalligraphyToolFactory.cpp:31
@@ -387,13 +365,13 @@ msgstr "Олдиндан &аниқланган градиентларга қўш
 msgid "Remove filter preset"
 msgstr ""
 
-#: filterEffectTool/FilterEffectEditWidget.cpp:336
+#: filterEffectTool/FilterEffectEditWidget.cpp:341
 #, fuzzy
 #| msgid "Effects"
 msgid "Effect name"
 msgstr "Эффектлар"
 
-#: filterEffectTool/FilterEffectEditWidget.cpp:337
+#: filterEffectTool/FilterEffectEditWidget.cpp:342
 msgid "Please enter a name for the filter effect"
 msgstr ""
 
@@ -406,19 +384,27 @@ msgstr ""
 msgid "Set filter stack"
 msgstr "Чизиқ қалинлигини кўрсатиш"
 
-#: filterEffectTool/KarbonFilterEffectsTool.cpp:288
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:420
+#, fuzzy
+#| msgid "Effe&cts"
+msgid "Effects"
+msgstr "&Эффектлар"
+
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:430
 msgid "View and edit filter"
 msgstr ""
 
-#: filterEffectTool/KarbonFilterEffectsTool.cpp:292
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:434
 #, fuzzy
 #| msgid "Add Layer"
 msgid "Add Filter"
 msgstr "Қатламни қўшиш"
 
-#: filterEffectTool/KarbonFilterEffectsToolFactory.cpp:28
-msgid "Filter effects tool"
-msgstr ""
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:485
+#, fuzzy
+#| msgid "Effects"
+msgid "Effect Region"
+msgstr "Эффектлар"
 
 #: filterEffectTool/KarbonFilterEffectsToolFactory.cpp:30
 #, fuzzy
@@ -426,172 +412,175 @@ msgstr ""
 msgid "Filter Effects Editing Tool"
 msgstr "Намуна мосламаси"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:34
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:33
 msgid "Original"
 msgstr ""
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:35
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:34
 #, fuzzy
 msgid "Tiled"
 msgstr "Тўлдириш"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:36
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:35
 msgid "Stretched"
 msgstr ""
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:38
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:37
 #, fuzzy
 #| msgctxt "Horizontal alignment"
 #| msgid "Left"
 msgid "Top Left"
 msgstr "Чап"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:39
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:38
 msgid "Top"
 msgstr ""
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:40
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:39
 #, fuzzy
 #| msgctxt "Horizontal alignment"
 #| msgid "Right"
 msgid "Top Right"
 msgstr "Ўнг"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:41
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:40
 #, fuzzy
 #| msgctxt "Horizontal alignment"
 #| msgid "Left"
 msgid "Left"
 msgstr "Чап"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:42
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:41
 #, fuzzy
 #| msgctxt "Horizontal alignment"
 #| msgid "Center"
 msgid "Center"
 msgstr "Марказ"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:43
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:42
 #, fuzzy
 #| msgctxt "Horizontal alignment"
 #| msgid "Right"
 msgid "Right"
 msgstr "Ўнг"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:44
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:43
 msgid "Bottom Left"
 msgstr ""
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:45
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:44
 #, fuzzy
 #| msgid "Align Bottom"
 msgid "Bottom"
 msgstr "Пастга"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:46
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:45
 msgid "Bottom Right"
 msgstr ""
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:181
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:167
 msgid "Type:"
 msgstr "Тури:"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:183
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:169
 #, fuzzy
 #| msgid "Linear"
 msgctxt "Linear gradient type"
 msgid "Linear"
 msgstr "Чизиқли"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:184
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:170
 #, fuzzy
 #| msgid "Radial"
 msgctxt "Radial gradient type"
 msgid "Radial"
 msgstr "Радиал"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:185
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:171
 #, fuzzy
 #| msgid "Conical"
 msgctxt "Conical gradient type"
 msgid "Conical"
 msgstr "Конуссимон"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:190
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:176
 #, fuzzy
 #| msgid "None"
 msgctxt "No gradient spread"
 msgid "None"
 msgstr "Йўқ"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:191
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:177
 msgid "Reflect"
 msgstr "Акс этиши"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:192
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:178
 msgid "Repeat"
 msgstr "Қайтариш"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:195
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:181
 msgid "Target:"
 msgstr "Мўлжал:"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:197
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:183
 msgid "Stroke"
 msgstr "Чизиш"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:198
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:184
 msgid "Fill"
 msgstr "Тўлдириш"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:206
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:192
 msgid "Overall opacity:"
 msgstr "Умумий хиралик:"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:211
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:197
 #, fuzzy
 #| msgid "Stroke: Color"
 msgid "Stop color:"
 msgstr "Чизиш: Ранг"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:215
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:201
 #, fuzzy
 #| msgid "Stroke: Color"
 msgid "Stop color."
 msgstr "Чизиш: Ранг"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:218
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:204
 msgid "&Add to Predefined Gradients"
 msgstr "Олдиндан &аниқланган градиентларга қўшиш"
 
-#: ../../ui/widgets/KarbonStyleButtonBox.cpp:287
 #, fuzzy
-#| msgid "None"
-msgctxt "No stroke or fill"
-msgid "None"
-msgstr "Йўқ"
+#~| msgid "Gradient Tool"
+#~ msgid "Gradient tool"
+#~ msgstr "Градиент воситаси"
 
-#: ../../ui/widgets/KarbonStyleButtonBox.cpp:293
 #, fuzzy
-msgctxt "Solid color stroke or fill"
-msgid "Solid"
-msgstr "Яхлит"
+#~| msgid "Pattern Tool"
+#~ msgid "Pattern tool"
+#~ msgstr "Намуна мосламаси"
 
-#: ../../ui/widgets/KarbonStyleButtonBox.cpp:299
-msgid "Gradient"
-msgstr "Градиент"
+#, fuzzy
+#~| msgid "Pencil Tool"
+#~ msgid "Pencil tool"
+#~ msgstr "Қалам воситаси"
 
-#: ../../ui/widgets/KarbonStyleButtonBox.cpp:305
-msgid "Pattern"
-msgstr "Намуна"
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "No stroke or fill"
+#~ msgid "None"
+#~ msgstr "Йўқ"
 
-#: ../../ui/widgets/KarbonStyleButtonBox.cpp:311
-msgid "Even-Odd Fill"
-msgstr ""
+#, fuzzy
+#~ msgctxt "Solid color stroke or fill"
+#~ msgid "Solid"
+#~ msgstr "Яхлит"
 
-#: ../../ui/widgets/KarbonStyleButtonBox.cpp:317
-msgid "Winding Fill"
-msgstr ""
+#~ msgid "Gradient"
+#~ msgstr "Градиент"
+
+#~ msgid "Pattern"
+#~ msgstr "Намуна"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
@@ -621,9 +610,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Path"
 #~ msgstr "йўл"
-
-#~ msgid "Effe&cts"
-#~ msgstr "&Эффектлар"
 
 #, fuzzy
 #~ msgid "&Settings"
