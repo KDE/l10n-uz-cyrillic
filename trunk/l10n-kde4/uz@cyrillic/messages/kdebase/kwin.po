@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-29 04:26+0200\n"
+"POT-Creation-Date: 2010-04-26 04:38+0200\n"
 "PO-Revision-Date: 2006-12-17 12:27+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: activation.cpp:747
+#: activation.cpp:750
 #, kde-format
 msgid "Window '%1' demands attention."
 msgstr "'%1' ойнаси эътиборни талаб қилади."
@@ -642,6 +642,90 @@ msgstr "Умумий тугмалар бирикмасига рухсат бер
 msgid "Suspend Compositing"
 msgstr ""
 
+#: kwinbindings.cpp:223
+msgid "Tiling"
+msgstr ""
+
+#: kwinbindings.cpp:224
+#, fuzzy
+#| msgid "Toggle Window Raise/Lower"
+msgid "Toggle Tiling"
+msgstr "Ойна олдинга/орқага"
+
+#: kwinbindings.cpp:225
+msgid "Toggle Orientation"
+msgstr ""
+
+#: kwinbindings.cpp:226
+msgid "Increase Ratio"
+msgstr ""
+
+#: kwinbindings.cpp:227
+msgid "Decrease Ratio"
+msgstr ""
+
+#: kwinbindings.cpp:228
+msgid "Toggle Floating"
+msgstr ""
+
+#: kwinbindings.cpp:230
+#, fuzzy
+#| msgid "Switch to Desktop 1"
+msgid "Switch Focus Left"
+msgstr "1 Иш столига ўтиш"
+
+#: kwinbindings.cpp:231
+msgid "Switch Focus Right"
+msgstr ""
+
+#: kwinbindings.cpp:232
+#, fuzzy
+#| msgid "Switch One Desktop Up"
+msgid "Switch Focus Up"
+msgstr "Юқоридаги иш столига ўтиш"
+
+#: kwinbindings.cpp:233
+#, fuzzy
+#| msgid "Switch One Desktop Down"
+msgid "Switch Focus Down"
+msgstr "Пастдаги иш столига ўтиш"
+
+#: kwinbindings.cpp:234
+msgid "Move Left"
+msgstr ""
+
+#: kwinbindings.cpp:235
+msgid "Move Right"
+msgstr ""
+
+#: kwinbindings.cpp:236
+#, fuzzy
+#| msgid "&Move"
+msgid "Move Up"
+msgstr "Кўчи&риш"
+
+#: kwinbindings.cpp:237
+#, fuzzy
+#| msgid "Move Window"
+msgid "Move Down"
+msgstr "Ойнани жойидан кўчириш"
+
+#: kwinbindings.cpp:238
+msgid "Next Layout"
+msgstr ""
+
+#: kwinbindings.cpp:239
+msgid "Previous Layout"
+msgstr ""
+
+#: kwinbindings.cpp:241
+msgid "Test Dump tiles"
+msgstr ""
+
+#: kwinbindings.cpp:242
+msgid "Test Below Cursor"
+msgstr ""
+
 #: main.cpp:178
 msgid ""
 "kwin: it looks like there's already a window manager running. kwin not "
@@ -741,6 +825,19 @@ msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "1 Иш столига ўтиш"
+
+#: tiling.cpp:72
+msgid "Tiling Disabled"
+msgstr ""
+
+#: tiling.cpp:78
+msgid "Tiling Enabled"
+msgstr ""
+
+#: tilinglayoutfactory.cpp:43
+#, kde-format
+msgid "Layout changed to %1"
+msgstr ""
 
 #: useractions.cpp:73
 msgid "Keep &Above Others"
@@ -847,12 +944,12 @@ msgstr "&Ҳамма иш столлари"
 msgid "Activate Window (%1)"
 msgstr ""
 
-#: workspace.cpp:1190 workspace.cpp:1210
+#: workspace.cpp:1210 workspace.cpp:1230
 #, kde-format
 msgid "Desktop %1"
 msgstr "Иш столи %1"
 
-#: workspace.cpp:2603
+#: workspace.cpp:2636
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -865,7 +962,7 @@ msgstr ""
 "ойнанинг амаллар менюси ёрдамида олдинги ҳолатига қайтаришингиз мумкин. "
 "Бунинг учун %1 тугмаларидан фойдаланинг."
 
-#: workspace.cpp:2617
+#: workspace.cpp:2650
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -1063,11 +1160,6 @@ msgstr "*** Ҳеч қандай ойна йўқ ***"
 #~| msgid "Window to Next Desktop"
 #~ msgid "Toggle Snow on Desktop"
 #~ msgstr "Ойнани кейинги иш столига"
-
-#, fuzzy
-#~| msgid "Toggle Window Raise/Lower"
-#~ msgid "Toggle Video Recording"
-#~ msgstr "Ойна олдинга/орқага"
 
 #, fuzzy
 #~| msgid "Keep Window on All Desktops"
