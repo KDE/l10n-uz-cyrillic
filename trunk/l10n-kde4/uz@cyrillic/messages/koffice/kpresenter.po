@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:58+0200\n"
+"POT-Creation-Date: 2010-05-07 04:46+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -86,6 +86,7 @@ msgstr "Умумий"
 #: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:57
 #: plugins/pageeffects/iriswipe/eyeWipe/KPrEyeWipeEffectFactory.cpp:63
 #: plugins/pageeffects/iriswipe/hexagonWipe/KPrHexagonWipeEffectFactory.cpp:78
+#: plugins/pageeffects/swapeffect/KPrSwapEffectFactory.cpp:39
 #, fuzzy
 msgid "Horizontal"
 msgstr "Энига чизиқлар"
@@ -163,6 +164,8 @@ msgstr "Энига чизиқлар"
 #: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:103
 #: plugins/pageeffects/iriswipe/eyeWipe/KPrEyeWipeEffectFactory.cpp:72
 #: plugins/pageeffects/iriswipe/hexagonWipe/KPrHexagonWipeEffectFactory.cpp:89
+#: plugins/pageeffects/swapeffect/KPrSwapEffectFactory.cpp:48
+#: plugins/pageeffects/spacerotation/KPrSpaceRotationEffectFactory.cpp:56
 msgid "Unknown subtype"
 msgstr ""
 
@@ -434,6 +437,7 @@ msgstr "Расм &эффекти:"
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:41
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:41
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:55
+#: plugins/pageeffects/spacerotation/KPrSpaceRotationEffectFactory.cpp:46
 #, fuzzy
 #| msgid "Come From Top"
 msgid "From Top"
@@ -446,6 +450,7 @@ msgstr "Юқоридан чиқиш"
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:44
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:44
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:53
+#: plugins/pageeffects/spacerotation/KPrSpaceRotationEffectFactory.cpp:47
 #, fuzzy
 #| msgid "Come From Left"
 msgid "From Left"
@@ -458,6 +463,7 @@ msgstr "Чап томондан чиқиш"
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:43
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:43
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:56
+#: plugins/pageeffects/spacerotation/KPrSpaceRotationEffectFactory.cpp:45
 #, fuzzy
 #| msgid "Come From Bottom"
 msgid "From Bottom"
@@ -470,6 +476,7 @@ msgstr "Пастдан чиқиш"
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:42
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:42
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:54
+#: plugins/pageeffects/spacerotation/KPrSpaceRotationEffectFactory.cpp:48
 #, fuzzy
 #| msgid "Come From Right"
 msgid "From Right"
@@ -1218,6 +1225,18 @@ msgstr ""
 #: plugins/pageeffects/iriswipe/hexagonWipe/KPrHexagonWipeEffectFactory.cpp:38
 msgid "Hexagon"
 msgstr ""
+
+#: plugins/pageeffects/swapeffect/KPrSwapEffectFactory.cpp:29
+#, fuzzy
+#| msgid "Image &effect:"
+msgid "Swap effect"
+msgstr "Расм &эффекти:"
+
+#: plugins/pageeffects/spacerotation/KPrSpaceRotationEffectFactory.cpp:32
+#, fuzzy
+#| msgid "Rotation"
+msgid "Space Rotation"
+msgstr "Буриш"
 
 #: part/tools/animationtool/KPrPageEffectDocker.cpp:56
 msgid "No Effect"
@@ -2222,11 +2241,6 @@ msgstr "&Слайдлар"
 #~ msgstr "&Бет"
 
 #, fuzzy
-#~| msgid "Image &effect:"
-#~ msgid "Page effects"
-#~ msgstr "Расм &эффекти:"
-
-#, fuzzy
 #~| msgid "Change Image Effect"
 #~ msgid "Click to preview the page effect."
 #~ msgstr "Расм эффектини ўзгартириш"
@@ -2380,9 +2394,6 @@ msgstr "&Слайдлар"
 
 #~ msgid "Choose di&fferent template"
 #~ msgstr "&Бошқа намуна танлаш"
-
-#~ msgid "Rotation"
-#~ msgstr "Буриш"
 
 #~ msgid "A&ngle:"
 #~ msgstr "&Бурчак:"
