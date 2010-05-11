@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 04:40+0200\n"
+"POT-Creation-Date: 2010-05-11 05:53+0200\n"
 "PO-Revision-Date: 2009-10-14 00:15+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1693,11 +1693,11 @@ msgstr "Манзил файлининг номини ўзгартиринг."
 msgid "Undocumented Error"
 msgstr "Бу хато учун кўлланма йўқ."
 
-#: kio/renamedialog.cpp:114
+#: kio/renamedialog.cpp:122
 msgid "Appl&y to All"
 msgstr ""
 
-#: kio/renamedialog.cpp:115
+#: kio/renamedialog.cpp:123
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "folder conflicts for the remainder of the current job.\n"
@@ -1705,44 +1705,44 @@ msgid ""
 "an existing file in the directory."
 msgstr ""
 
-#: kio/renamedialog.cpp:116
+#: kio/renamedialog.cpp:124
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "conflicts for the remainder of the current job."
 msgstr ""
 
-#: kio/renamedialog.cpp:121
+#: kio/renamedialog.cpp:129
 msgid "&Rename"
 msgstr "&Номини ўзгартириш"
 
-#: kio/renamedialog.cpp:123
+#: kio/renamedialog.cpp:131
 msgid "Suggest New &Name"
 msgstr "Бошқа номни &таклиф қилиш"
 
-#: kio/renamedialog.cpp:129
+#: kio/renamedialog.cpp:137
 msgid "&Skip"
 msgstr "Ў&тказиб юбориш"
 
-#: kio/renamedialog.cpp:130
+#: kio/renamedialog.cpp:138
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 
-#: kio/renamedialog.cpp:131
+#: kio/renamedialog.cpp:139
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 
-#: kio/renamedialog.cpp:136
+#: kio/renamedialog.cpp:144
 #, fuzzy
 #| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr "Ёзиш"
 
-#: kio/renamedialog.cpp:136
+#: kio/renamedialog.cpp:144
 msgid "&Overwrite"
 msgstr "&Алмаштириш"
 
-#: kio/renamedialog.cpp:138
+#: kio/renamedialog.cpp:146
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
 "existing contents.\n"
@@ -1750,58 +1750,64 @@ msgid ""
 "the directory."
 msgstr ""
 
-#: kio/renamedialog.cpp:143
+#: kio/renamedialog.cpp:151
 msgid "&Resume"
 msgstr "&Давом этиш"
 
-#: kio/renamedialog.cpp:152
+#: kio/renamedialog.cpp:160
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
 "Please enter a new file name:"
 msgstr ""
 
-#: kio/renamedialog.cpp:154
+#: kio/renamedialog.cpp:162
 msgid "C&ontinue"
 msgstr "&Давом этиш"
 
-#: kio/renamedialog.cpp:199 kio/renamedialog.cpp:281
+#: kio/renamedialog.cpp:234
+#, kde-format
+msgid "This action will overwrite '%1' with a newer file '%2'."
+msgstr ""
+
+#: kio/renamedialog.cpp:236
+#, kde-format
+msgid "This action will overwrite '%1' with a file of the same age '%2'."
+msgstr ""
+
+#: kio/renamedialog.cpp:238
+#, kde-format
+msgid "This action will overwrite '%1' with an older file '%2'."
+msgstr ""
+
+#: kio/renamedialog.cpp:242
+#, fuzzy
+#| msgid "Source"
+msgid "Source"
+msgstr "Манба"
+
+#: kio/renamedialog.cpp:243
+#, fuzzy
+#| msgid "Destination"
+msgid "Destination"
+msgstr "Манзил"
+
+#: kio/renamedialog.cpp:261
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr "\"%1\" номли эски элемент аллақачон мавжуд."
 
-#: kio/renamedialog.cpp:201 kio/renamedialog.cpp:283
+#: kio/renamedialog.cpp:263
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr "\"%1\" номли ўхшаш файл аллақачон мавжуд."
 
-#: kio/renamedialog.cpp:203 kio/renamedialog.cpp:285
+#: kio/renamedialog.cpp:265
 #, kde-format
 msgid "A newer item named '%1' already exists."
 msgstr "\"%1\" номли янги элемент аллақачон мавжуд."
 
-#: kio/renamedialog.cpp:216 kio/renamedialog.cpp:253
-#, fuzzy, kde-format
-#| msgid "%1 (%2)"
-msgid "size %1 (%2)"
-msgstr "%1 (%2)"
-
-#: kio/renamedialog.cpp:225 kio/renamedialog.cpp:261
-#, kde-format
-msgid "created on %1"
-msgstr "%1 да яратилган"
-
-#: kio/renamedialog.cpp:232 kio/renamedialog.cpp:268
-#, kde-format
-msgid "modified on %1"
-msgstr "%1 да ўзгарган"
-
-#: kio/renamedialog.cpp:241
-#, kde-format
-msgid "The source file is '%1'"
-msgstr "Манба файлнинг номи \"%1\""
-
-#: kio/renamedialog.cpp:407 kio/paste.cpp:228 kio/krun.cpp:1095
+#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1095
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -5313,110 +5319,110 @@ msgstr "Ҳамма кукиларни ўчириш"
 msgid "Reload configuration file"
 msgstr "Мослама файлини қайтадан юклаш"
 
-#: ../kioslave/http/http.cpp:561
+#: ../kioslave/http/http.cpp:566
 msgid "No host specified."
 msgstr "Хост кўрсатилмаган."
 
-#: ../kioslave/http/http.cpp:1428
+#: ../kioslave/http/http.cpp:1441
 #, fuzzy
 #| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
 msgstr "Кўрсатилган манба балки мавжуд эмас."
 
-#: ../kioslave/http/http.cpp:1549
+#: ../kioslave/http/http.cpp:1562
 msgid "Otherwise, the request would have succeeded."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1553
+#: ../kioslave/http/http.cpp:1566
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1556
+#: ../kioslave/http/http.cpp:1569
 msgctxt "request type"
 msgid "set property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1559
+#: ../kioslave/http/http.cpp:1572
 #, fuzzy
 #| msgid "create the requested folder"
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "талаб қилинган жилдни яратиш"
 
-#: ../kioslave/http/http.cpp:1562
+#: ../kioslave/http/http.cpp:1575
 #, fuzzy
 #| msgid "copy the specified file or folder"
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "кўрсатилган файл ёки жилддан нусха олиш"
 
-#: ../kioslave/http/http.cpp:1565
+#: ../kioslave/http/http.cpp:1578
 #, fuzzy
 #| msgid "move the specified file or folder"
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни кўчириш"
 
-#: ../kioslave/http/http.cpp:1568
+#: ../kioslave/http/http.cpp:1581
 #, fuzzy
 #| msgid "search in the specified folder"
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "кўрсатилган жилдда қидириш"
 
-#: ../kioslave/http/http.cpp:1571
+#: ../kioslave/http/http.cpp:1584
 #, fuzzy
 #| msgid "lock the specified file or folder"
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни қулфлаш"
 
-#: ../kioslave/http/http.cpp:1574
+#: ../kioslave/http/http.cpp:1587
 #, fuzzy
 #| msgid "lock the specified file or folder"
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни қулфлаш"
 
-#: ../kioslave/http/http.cpp:1577
+#: ../kioslave/http/http.cpp:1590
 #, fuzzy
 #| msgid "delete the specified file or folder"
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни ўчириш"
 
-#: ../kioslave/http/http.cpp:1580
+#: ../kioslave/http/http.cpp:1593
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1583
+#: ../kioslave/http/http.cpp:1596
 #, fuzzy
 #| msgid "retrieve the contents of the specified file or folder"
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "кўрсатилган файл ёки жилднинг таркибини аниқлаш"
 
-#: ../kioslave/http/http.cpp:1586
+#: ../kioslave/http/http.cpp:1599
 #, fuzzy
 #| msgid "search in the specified folder"
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "кўрсатилган жилдда қидириш"
 
-#: ../kioslave/http/http.cpp:1598
+#: ../kioslave/http/http.cpp:1611
 #, fuzzy, kde-format
 #| msgid "Access was denied while attempting to %1."
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "%1га рухсат этилмади."
 
-#: ../kioslave/http/http.cpp:1606
+#: ../kioslave/http/http.cpp:1619
 msgid "The server does not support the WebDAV protocol."
 msgstr "Сервер WebDAV протоколини қўлламайди."
 
-#: ../kioslave/http/http.cpp:1648
+#: ../kioslave/http/http.cpp:1661
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -5424,24 +5430,24 @@ msgid ""
 "below."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1662 ../kioslave/http/http.cpp:1767
+#: ../kioslave/http/http.cpp:1675 ../kioslave/http/http.cpp:1780
 #, fuzzy, kde-format
 #| msgid "Access was denied while attempting to %1."
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "%1га рухсат этилмади."
 
-#: ../kioslave/http/http.cpp:1669
+#: ../kioslave/http/http.cpp:1682
 msgid "The specified folder already exists."
 msgstr "Кўрсатилган жилд аллақачон мавжуд."
 
-#: ../kioslave/http/http.cpp:1675 ../kioslave/http/http.cpp:1772
+#: ../kioslave/http/http.cpp:1688 ../kioslave/http/http.cpp:1785
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1684
+#: ../kioslave/http/http.cpp:1697
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -5449,26 +5455,26 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1694
+#: ../kioslave/http/http.cpp:1707
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1700
+#: ../kioslave/http/http.cpp:1713
 msgid "The server does not support the request type of the body."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1705 ../kioslave/http/http.cpp:1779
+#: ../kioslave/http/http.cpp:1718 ../kioslave/http/http.cpp:1792
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1709
+#: ../kioslave/http/http.cpp:1722
 msgid "This action was prevented by another error."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1716 ../kioslave/http/http.cpp:1784
+#: ../kioslave/http/http.cpp:1729 ../kioslave/http/http.cpp:1797
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -5476,89 +5482,44 @@ msgid ""
 "folder."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1723 ../kioslave/http/http.cpp:1790
+#: ../kioslave/http/http.cpp:1736 ../kioslave/http/http.cpp:1803
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1745
+#: ../kioslave/http/http.cpp:1758
 #, fuzzy, kde-format
 #| msgid "upload %1"
 msgctxt "request type"
 msgid "upload %1"
 msgstr "%1'ни ёзиб қўйиш"
 
-#: ../kioslave/http/http.cpp:1756
+#: ../kioslave/http/http.cpp:1769
 #, fuzzy, kde-format
 #| msgid "Access was denied while attempting to %1."
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "%1га рухсат этилмади."
 
-#: ../kioslave/http/http.cpp:2507
+#: ../kioslave/http/http.cpp:2527
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 билан алоқа ўрнатилди. Жавоб кутилмоқда..."
 
-#: ../kioslave/http/http.cpp:2869
+#: ../kioslave/http/http.cpp:2885
 msgid "Server processing request, please wait..."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3253
-msgid "Authentication Failed."
-msgstr "Тасдиқлаш муваффақиятсиз тугади."
-
-#: ../kioslave/http/http.cpp:3254 ../kioslave/http/http.cpp:4937
-msgid "Proxy Authentication Failed."
-msgstr "Прокси ёрдамида тасдиқлаш муваффақиятсиз тугади."
-
-#: ../kioslave/http/http.cpp:3289
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Authorization failed."
-msgstr "Тасдиқлаш диалоги"
-
-#: ../kioslave/http/http.cpp:3305
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Unknown Authorization method."
-msgstr "Тасдиқлаш диалоги"
-
-#: ../kioslave/http/http.cpp:3690
-msgid "Requesting data to send"
-msgstr ""
-
-#: ../kioslave/http/http.cpp:3722
-#, kde-format
-msgid "Sending data to %1"
-msgstr "%1'га маълумот жўнатилмоқда"
-
-#: ../kioslave/http/http.cpp:4139
-#, kde-format
-msgid "Retrieving %1 from %2..."
-msgstr "%1 %2'дан аниқланмоқда..."
-
-#: ../kioslave/http/http.cpp:4145
-#, kde-format
-msgid "Retrieving from %1..."
-msgstr "%1'дан аниқланмоқда..."
-
-#: ../kioslave/http/http.cpp:4862 ../kioslave/ftp/ftp.cpp:477
+#: ../kioslave/http/http.cpp:3230 ../kioslave/ftp/ftp.cpp:477
 msgid "You need to supply a username and a password to access this site."
 msgstr "Бу сайтга кириш учун фойдаланувчи ва махфий сўзни кўрсатиш керак."
 
-#: ../kioslave/http/http.cpp:4869 ../kioslave/ftp/ftp.cpp:479
+#: ../kioslave/http/http.cpp:3232 ../kioslave/ftp/ftp.cpp:479
 msgid "Site:"
 msgstr "Сайт:"
 
-#: ../kioslave/http/http.cpp:4870 ../kioslave/http/http.cpp:4886
-#: ../kioslave/http/http.cpp:4936
-#, kde-format
-msgid "<b>%1</b> at <b>%2</b>"
-msgstr ""
-
-#: ../kioslave/http/http.cpp:4877 ../kioslave/http/http.cpp:4931
+#: ../kioslave/http/http.cpp:3242 ../kioslave/http/http.cpp:4996
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5566,9 +5527,53 @@ msgstr ""
 "Қуйида кўрсатилган прокси серверга кириш учун фойдаланувчи ва махфий сўзни "
 "кўрсатиш керак."
 
-#: ../kioslave/http/http.cpp:4885 ../kioslave/http/http.cpp:4935
+#: ../kioslave/http/http.cpp:3245 ../kioslave/http/http.cpp:5000
 msgid "Proxy:"
 msgstr "Прокси:"
+
+#: ../kioslave/http/http.cpp:3301 ../kioslave/http/http.cpp:5001
+#, kde-format
+msgid "<b>%1</b> at <b>%2</b>"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3314
+msgid "Authentication Failed."
+msgstr "Тасдиқлаш муваффақиятсиз тугади."
+
+#: ../kioslave/http/http.cpp:3316 ../kioslave/http/http.cpp:5002
+msgid "Proxy Authentication Failed."
+msgstr "Прокси ёрдамида тасдиқлаш муваффақиятсиз тугади."
+
+#: ../kioslave/http/http.cpp:3353
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Authorization failed."
+msgstr "Тасдиқлаш диалоги"
+
+#: ../kioslave/http/http.cpp:3370
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Unknown Authorization method."
+msgstr "Тасдиқлаш диалоги"
+
+#: ../kioslave/http/http.cpp:3750
+msgid "Requesting data to send"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3782
+#, kde-format
+msgid "Sending data to %1"
+msgstr "%1'га маълумот жўнатилмоқда"
+
+#: ../kioslave/http/http.cpp:4199
+#, kde-format
+msgid "Retrieving %1 from %2..."
+msgstr "%1 %2'дан аниқланмоқда..."
+
+#: ../kioslave/http/http.cpp:4205
+#, kde-format
+msgid "Retrieving from %1..."
+msgstr "%1'дан аниқланмоқда..."
 
 #: ../kioslave/http/http_cache_cleaner.cpp:728
 #: ../kioslave/http/http_cache_cleaner.cpp:729
@@ -6428,6 +6433,20 @@ msgstr ""
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr "Яширилган жилдларни кўрсатиш"
+
+#, fuzzy
+#~| msgid "%1 (%2)"
+#~ msgid "size %1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "created on %1"
+#~ msgstr "%1 да яратилган"
+
+#~ msgid "modified on %1"
+#~ msgstr "%1 да ўзгарган"
+
+#~ msgid "The source file is '%1'"
+#~ msgstr "Манба файлнинг номи \"%1\""
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Move to trash"
