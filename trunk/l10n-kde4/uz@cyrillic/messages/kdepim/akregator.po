@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:55+0200\n"
+"POT-Creation-Date: 2010-05-22 04:50+0200\n"
 "PO-Revision-Date: 2006-02-08 21:32+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -116,50 +116,6 @@ msgstr ""
 msgid "No Archive"
 msgstr "Архивлаш"
 
-#: src/pluginmanager.cpp:165
-#, fuzzy
-#| msgid "Name"
-msgctxt "Name of the plugin"
-msgid "Name"
-msgstr "Номи"
-
-#: src/pluginmanager.cpp:166
-#, fuzzy
-#| msgid "Library"
-msgctxt "Library name"
-msgid "Library"
-msgstr "Кутубхона"
-
-#: src/pluginmanager.cpp:167
-#, fuzzy
-#| msgid "Authors"
-msgctxt "Plugin authors"
-msgid "Authors"
-msgstr "Муаллифлар"
-
-#: src/pluginmanager.cpp:168
-#, fuzzy
-#| msgid "Email"
-msgctxt "Plugin authors' emaila addresses"
-msgid "Email"
-msgstr "Электрон почта"
-
-#: src/pluginmanager.cpp:169
-#, fuzzy
-#| msgid "Version"
-msgctxt "Plugin version"
-msgid "Version"
-msgstr "Версия"
-
-#: src/pluginmanager.cpp:170
-msgctxt "Framework version plugin requires"
-msgid "Framework Version"
-msgstr ""
-
-#: src/pluginmanager.cpp:174
-msgid "Plugin Information"
-msgstr "Плагин ҳақида маълумот"
-
 #: src/pageviewer.cpp:101 src/actionmanagerimpl.cpp:569
 msgctxt "Go back in browser history"
 msgid "Back"
@@ -200,9 +156,31 @@ msgstr "Саҳифани ташқи браузерда очиш"
 msgid "Add to Konqueror Bookmarks"
 msgstr "Konqueror хатчўпларига қўшиш"
 
-#: src/feedlist.cpp:177
-msgid "All Feeds"
-msgstr "Ҳамма янгиликлар тасмалари"
+#: src/importfeedlistcommand.cpp:64
+#, fuzzy
+#| msgid "&Import Feeds..."
+msgid "Imported Feeds"
+msgstr "Янгиликлар тасмасини &импорт қилиш"
+
+#: src/importfeedlistcommand.cpp:96
+msgid "Add Imported Folder"
+msgstr "Импорт қилинган жилдни қўшиш"
+
+#: src/importfeedlistcommand.cpp:97
+msgid "Imported folder name:"
+msgstr "Импорт қилинган жилднинг номи:"
+
+#: src/progressmanager.cpp:178
+msgid "Fetch completed"
+msgstr ""
+
+#: src/progressmanager.cpp:188
+msgid "Fetch error"
+msgstr ""
+
+#: src/progressmanager.cpp:198
+msgid "Fetch aborted"
+msgstr ""
 
 #: src/akregator_options.h:37 src/akregator_options.h:41
 msgid "Add a feed with the given URL"
@@ -216,17 +194,9 @@ msgstr ""
 msgid "Hide main window on startup"
 msgstr ""
 
-#: src/progressmanager.cpp:178
-msgid "Fetch completed"
-msgstr ""
-
-#: src/progressmanager.cpp:188
-msgid "Fetch error"
-msgstr ""
-
-#: src/progressmanager.cpp:198
-msgid "Fetch aborted"
-msgstr ""
+#: src/feedlist.cpp:177
+msgid "All Feeds"
+msgstr "Ҳамма янгиликлар тасмалари"
 
 #: src/akregator_part.cpp:107
 msgid "Akregator News"
@@ -520,6 +490,18 @@ msgstr ""
 msgid "Gentoo Ebuild"
 msgstr ""
 
+#: src/trayicon.cpp:63
+#, fuzzy
+#| msgid "Akregator - RSS Feed Reader"
+msgid "Akregator - Feed Reader"
+msgstr "Akregator - RSS янгиликларни ўқувчи"
+
+#: src/trayicon.cpp:120
+#, fuzzy, kde-format
+msgid "Akregator - 1 unread article"
+msgid_plural "Akregator - %1 unread articles"
+msgstr[0] "Akregator - 1 ўқилмаган мақола"
+
 #: src/articleviewer.cpp:135
 msgid "Copy &Link Address"
 msgstr "&Боғ манзилидан нусха олиш"
@@ -799,19 +781,43 @@ msgstr ""
 msgid "Docking in System Tray"
 msgstr ""
 
-#: src/importfeedlistcommand.cpp:64
+#: src/articlemodel.cpp:106
 #, fuzzy
-#| msgid "&Import Feeds..."
-msgid "Imported Feeds"
-msgstr "Янгиликлар тасмасини &импорт қилиш"
+msgctxt "Articlelist's column header"
+msgid "Title"
+msgstr "&Мақола"
 
-#: src/importfeedlistcommand.cpp:96
-msgid "Add Imported Folder"
-msgstr "Импорт қилинган жилдни қўшиш"
+#: src/articlemodel.cpp:108
+#, fuzzy
+#| msgid "Feed"
+msgctxt "Articlelist's column header"
+msgid "Feed"
+msgstr "Янгиликлар тасмаси"
 
-#: src/importfeedlistcommand.cpp:97
-msgid "Imported folder name:"
-msgstr "Импорт қилинган жилднинг номи:"
+#: src/articlemodel.cpp:110
+#, fuzzy
+#| msgid "Date"
+msgctxt "Articlelist's column header"
+msgid "Date"
+msgstr "Сана"
+
+#: src/articlemodel.cpp:112
+#, fuzzy
+msgctxt "Articlelist's column header"
+msgid "Author"
+msgstr "Муаллифлар"
+
+#: src/articlemodel.cpp:114
+msgctxt "Articlelist's column header"
+msgid "Description"
+msgstr ""
+
+#: src/articlemodel.cpp:116
+#, fuzzy
+#| msgid "Comments"
+msgctxt "Articlelist's column header"
+msgid "Content"
+msgstr "Изоҳлар"
 
 #: src/actionmanagerimpl.cpp:76 src/actionmanagerimpl.cpp:253
 msgid "&Fetch Feed"
@@ -1129,55 +1135,49 @@ msgstr[0] "<qt>Танланган мақолани ўчиришни истайс
 msgid "Delete Article"
 msgstr "Мақолани ўчириш"
 
-#: src/articlemodel.cpp:106
+#: src/pluginmanager.cpp:165
 #, fuzzy
-msgctxt "Articlelist's column header"
-msgid "Title"
-msgstr "&Мақола"
+#| msgid "Name"
+msgctxt "Name of the plugin"
+msgid "Name"
+msgstr "Номи"
 
-#: src/articlemodel.cpp:108
+#: src/pluginmanager.cpp:166
 #, fuzzy
-#| msgid "Feed"
-msgctxt "Articlelist's column header"
-msgid "Feed"
-msgstr "Янгиликлар тасмаси"
+#| msgid "Library"
+msgctxt "Library name"
+msgid "Library"
+msgstr "Кутубхона"
 
-#: src/articlemodel.cpp:110
+#: src/pluginmanager.cpp:167
 #, fuzzy
-#| msgid "Date"
-msgctxt "Articlelist's column header"
-msgid "Date"
-msgstr "Сана"
-
-#: src/articlemodel.cpp:112
-#, fuzzy
-msgctxt "Articlelist's column header"
-msgid "Author"
+#| msgid "Authors"
+msgctxt "Plugin authors"
+msgid "Authors"
 msgstr "Муаллифлар"
 
-#: src/articlemodel.cpp:114
-msgctxt "Articlelist's column header"
-msgid "Description"
+#: src/pluginmanager.cpp:168
+#, fuzzy
+#| msgid "Email"
+msgctxt "Plugin authors' emaila addresses"
+msgid "Email"
+msgstr "Электрон почта"
+
+#: src/pluginmanager.cpp:169
+#, fuzzy
+#| msgid "Version"
+msgctxt "Plugin version"
+msgid "Version"
+msgstr "Версия"
+
+#: src/pluginmanager.cpp:170
+msgctxt "Framework version plugin requires"
+msgid "Framework Version"
 msgstr ""
 
-#: src/articlemodel.cpp:116
-#, fuzzy
-#| msgid "Comments"
-msgctxt "Articlelist's column header"
-msgid "Content"
-msgstr "Изоҳлар"
-
-#: src/trayicon.cpp:63
-#, fuzzy
-#| msgid "Akregator - RSS Feed Reader"
-msgid "Akregator - Feed Reader"
-msgstr "Akregator - RSS янгиликларни ўқувчи"
-
-#: src/trayicon.cpp:120
-#, fuzzy, kde-format
-msgid "Akregator - 1 unread article"
-msgid_plural "Akregator - %1 unread articles"
-msgstr[0] "Akregator - 1 ўқилмаган мақола"
+#: src/pluginmanager.cpp:174
+msgid "Plugin Information"
+msgstr "Плагин ҳақида маълумот"
 
 #: src/loadfeedlistcommand.cpp:72
 #, kde-format
@@ -1903,7 +1903,7 @@ msgstr ""
 #. i18n: ectx: Menu (edit)
 #. i18n: file: src/akregator_part.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:235 rc.cpp:325
+#: rc.cpp:235 rc.cpp:322
 msgid "&Edit"
 msgstr ""
 
@@ -1911,18 +1911,18 @@ msgstr ""
 #. i18n: ectx: Menu (view)
 #. i18n: file: src/akregator_part.rc:21
 #. i18n: ectx: Menu (view)
-#: rc.cpp:238 rc.cpp:328
+#: rc.cpp:238 rc.cpp:325
 #, fuzzy
 msgid "&View"
 msgstr "Кўриш &усули"
 
 #. i18n: file: src/akregator_shell.rc:21
 #. i18n: ectx: Menu (go)
-#. i18n: file: src/pageviewer.rc:34
-#. i18n: ectx: Menu (go)
 #. i18n: file: src/akregator_part.rc:31
 #. i18n: ectx: Menu (go)
-#: rc.cpp:241 rc.cpp:322 rc.cpp:331
+#. i18n: file: src/pageviewer.rc:34
+#. i18n: ectx: Menu (go)
+#: rc.cpp:241 rc.cpp:328 rc.cpp:349
 msgid "&Go"
 msgstr "Ў&тиш"
 
@@ -1930,7 +1930,7 @@ msgstr "Ў&тиш"
 #. i18n: ectx: Menu (feed)
 #. i18n: file: src/akregator_part.rc:44
 #. i18n: ectx: Menu (feed)
-#: rc.cpp:244 rc.cpp:334
+#: rc.cpp:244 rc.cpp:331
 #, fuzzy
 #| msgid "Feed"
 msgid "Fee&d"
@@ -1940,7 +1940,7 @@ msgstr "Янгиликлар тасмаси"
 #. i18n: ectx: Menu (article)
 #. i18n: file: src/akregator_part.rc:57
 #. i18n: ectx: Menu (article)
-#: rc.cpp:247 rc.cpp:337
+#: rc.cpp:247 rc.cpp:334
 msgid "&Article"
 msgstr "&Мақола"
 
@@ -1948,7 +1948,7 @@ msgstr "&Мақола"
 #. i18n: ectx: Menu (settings)
 #. i18n: file: src/akregator_part.rc:73
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:250 rc.cpp:340
+#: rc.cpp:250 rc.cpp:337
 msgid "&Settings"
 msgstr ""
 
@@ -1956,7 +1956,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: src/akregator_part.rc:84
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:253 rc.cpp:343
+#: rc.cpp:253 rc.cpp:340
 msgid "Main Toolbar"
 msgstr ""
 
@@ -1964,7 +1964,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (browserToolBar)
 #. i18n: file: src/akregator_part.rc:94
 #. i18n: ectx: ToolBar (browserToolBar)
-#: rc.cpp:256 rc.cpp:346
+#: rc.cpp:256 rc.cpp:343
 #, fuzzy
 #| msgid "Browser"
 msgid "Browser Toolbar"
@@ -1974,7 +1974,7 @@ msgstr "Браузер"
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
 #. i18n: file: src/akregator_part.rc:102
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
-#: rc.cpp:259 rc.cpp:349
+#: rc.cpp:259 rc.cpp:346
 msgid "Speech Toolbar"
 msgstr ""
 
