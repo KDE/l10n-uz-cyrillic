@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 02:33+0200\n"
+"POT-Creation-Date: 2010-09-08 06:57+0200\n"
 "PO-Revision-Date: 2007-02-03 14:08+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -200,7 +200,27 @@ msgstr "Ростдан ҳам ушбу вазифаларни олиб ташл�
 msgid "Remove groups"
 msgstr "Андоза жилд"
 
-#: core/kget.cpp:526
+#: core/kget.cpp:255
+#, kde-format
+msgid ""
+"<p>The following transfer has been added to the download list:</p><p style="
+"\"font-size: small;\">\\%1</p>"
+msgstr ""
+
+#: core/kget.cpp:256 core/kget.cpp:351
+#, fuzzy
+msgid "Download added"
+msgstr "Ёзиб олиш давом эттрилди"
+
+#: core/kget.cpp:346
+msgid "<p>The following transfer has been added to the download list:</p>"
+msgstr ""
+
+#: core/kget.cpp:348
+msgid "<p>The following transfers have been added to the download list:</p>"
+msgstr ""
+
+#: core/kget.cpp:551
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -210,56 +230,52 @@ msgstr ""
 "%1\n"
 "Уни алмаштиришни истайсизми?"
 
-#: core/kget.cpp:527
+#: core/kget.cpp:552
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:540 ui/metalinkcreator/metalinkcreator.cpp:173
+#: core/kget.cpp:565 ui/metalinkcreator/metalinkcreator.cpp:173
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:765 ui/contextmenu.cpp:135
+#: core/kget.cpp:790 ui/contextmenu.cpp:135
 #, fuzzy
 msgid "My Downloads"
 msgstr "Ёзиб олиш давом эттрилди"
 
-#: core/kget.cpp:815
-#, kde-format
+#: core/kget.cpp:852
 msgid ""
-"<p>The following transfer has been added to the download list:</p><p style="
-"\"font-size: small;\">\\%1</p>"
+"<p>The following url cannot be downloaded, its protocols is not supported by "
+"KGet:</p>"
 msgstr ""
 
-#: core/kget.cpp:816
-#, fuzzy
-msgid "Download added"
-msgstr "Ёзиб олиш давом эттрилди"
-
-#: core/kget.cpp:822
-msgid "Unable to continue: KGet cannot download using this protocol."
+#: core/kget.cpp:854
+msgid ""
+"<p>The following urls cannot be downloaded, their protocols are not "
+"supported by KGet:</p>"
 msgstr ""
 
-#: core/kget.cpp:822
+#: core/kget.cpp:863
 msgid "Protocol unsupported"
 msgstr ""
 
 #. i18n: file: ui/newtransferwidget.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:879 ui/newtransferdialog.cpp:256 rc.cpp:935
+#: core/kget.cpp:917 ui/newtransferdialog.cpp:256 rc.cpp:935
 #, fuzzy
 msgid "New Download"
 msgstr "Қайтадан ёзиб олиш"
 
-#: core/kget.cpp:879
+#: core/kget.cpp:917
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:916
+#: core/kget.cpp:954
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:929
+#: core/kget.cpp:967
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -268,7 +284,7 @@ msgstr ""
 "Нотўғри URL:\n"
 "%1"
 
-#: core/kget.cpp:936
+#: core/kget.cpp:974
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -280,7 +296,7 @@ msgstr ""
 "Нотўғри URL:\n"
 "%1"
 
-#: core/kget.cpp:947
+#: core/kget.cpp:985
 #, kde-format
 msgid ""
 "You have already completed a download from the location: \n"
@@ -290,12 +306,12 @@ msgid ""
 "Download it again?"
 msgstr ""
 
-#: core/kget.cpp:948
+#: core/kget.cpp:986
 #, fuzzy
 msgid "Download it again?"
 msgstr "Қайтадан ёзиб олиш"
 
-#: core/kget.cpp:960
+#: core/kget.cpp:998
 #, kde-format
 msgid ""
 "You have a download in progress from the location: \n"
@@ -305,23 +321,23 @@ msgid ""
 "Delete it and download again?"
 msgstr ""
 
-#: core/kget.cpp:961
+#: core/kget.cpp:999
 #, fuzzy
 msgid "Delete it and download again?"
 msgstr "Қайтадан ёзиб олиш"
 
-#: core/kget.cpp:984 core/kget.cpp:991
+#: core/kget.cpp:1022 core/kget.cpp:1029
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:1019
+#: core/kget.cpp:1057
 msgid ""
 "You have already downloaded that file from another location.\n"
 "\n"
 "Download and delete the previous one?"
 msgstr ""
 
-#: core/kget.cpp:1020
+#: core/kget.cpp:1058
 #, fuzzy
 msgid "File already downloaded. Download anyway?"
 msgstr ""
@@ -329,23 +345,23 @@ msgstr ""
 "%1\n"
 "Уни қайтадан ёзиб олишни истайсизми?"
 
-#: core/kget.cpp:1029
+#: core/kget.cpp:1067
 msgid "You are already downloading the same file"
 msgstr ""
 
-#: core/kget.cpp:1033 core/kget.cpp:1036
+#: core/kget.cpp:1071 core/kget.cpp:1074
 #: transfer-plugins/metalink/metalink.cpp:734
 #, fuzzy
 #| msgid "File Already exists"
 msgid "File already exists"
 msgstr "Файл аллақачон мавжуд"
 
-#: core/kget.cpp:1137
+#: core/kget.cpp:1175
 #, kde-format
 msgid "Plugin loader could not load the plugin: %1."
 msgstr ""
 
-#: core/kget.cpp:1155
+#: core/kget.cpp:1193
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -356,7 +372,7 @@ msgstr ""
 "%1\n"
 "чунки у жилд."
 
-#: core/kget.cpp:1165
+#: core/kget.cpp:1203
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -367,85 +383,85 @@ msgstr ""
 "%1\n"
 "чунки у локал файл."
 
-#: core/kget.cpp:1268
+#: core/kget.cpp:1306
 #, kde-format
 msgid ""
 "<p>The following file has finished downloading:</p><p style=\"font-size: "
 "small;\">\\%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1269
+#: core/kget.cpp:1307
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download completed"
 msgstr "Ёзиб олиш бажарилди"
 
-#: core/kget.cpp:1272
+#: core/kget.cpp:1310
 #, kde-format
 msgid ""
 "<p>The following transfer has been started:</p><p style=\"font-size: small;"
 "\">\\%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1273
+#: core/kget.cpp:1311
 #, fuzzy
 msgid "Download started"
 msgstr "Ёзиб олиш давом эттрилди"
 
-#: core/kget.cpp:1318
+#: core/kget.cpp:1356
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet is now closing, as all downloads have completed."
 msgstr "Ҳамма ёзиб олиш вазифалари бажарилди."
 
-#: core/kget.cpp:1322
+#: core/kget.cpp:1360
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now turn off, as all downloads have completed."
 msgstr "Ҳамма ёзиб олиш вазифалари бажарилди."
 
-#: core/kget.cpp:1322
+#: core/kget.cpp:1360
 #, fuzzy
 msgctxt "Shutting down computer"
 msgid "Shutdown"
 msgstr "Авто-чиқиш усули ёқилди."
 
-#: core/kget.cpp:1325
+#: core/kget.cpp:1363
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to disk, as all downloads have completed."
 msgstr "Ҳамма ёзиб олиш вазифалари бажарилди."
 
-#: core/kget.cpp:1325
+#: core/kget.cpp:1363
 msgctxt "Hibernating computer"
 msgid "Hibernating"
 msgstr ""
 
-#: core/kget.cpp:1328
+#: core/kget.cpp:1366
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to RAM, as all downloads have completed."
 msgstr "Ҳамма ёзиб олиш вазифалари бажарилди."
 
-#: core/kget.cpp:1328
+#: core/kget.cpp:1366
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Suspending computer"
 msgid "Suspending"
 msgstr "Режалаштирилмоқда"
 
-#: core/kget.cpp:1336
+#: core/kget.cpp:1374
 #, fuzzy
 #| msgid "Font:"
 msgctxt "abort the proposed action"
 msgid "Abort"
 msgstr "Шрифт:"
 
-#: core/kget.cpp:1346
+#: core/kget.cpp:1384
 msgid "<p>All transfers have been finished.</p>"
 msgstr ""
 
-#: core/kget.cpp:1347
+#: core/kget.cpp:1385
 #, fuzzy
 #| msgid "Download finished"
 msgid "Downloads completed"
@@ -588,7 +604,7 @@ msgctxt "transfer state: delayed"
 msgid "Delayed"
 msgstr "К&ечикиш"
 
-#: core/transfer.cpp:39 core/transfer.cpp:255 core/transfer.cpp:274
+#: core/transfer.cpp:39 core/transfer.cpp:257 core/transfer.cpp:276
 #: transfer-plugins/contentfetch/contentfetch.cpp:69
 #: transfer-plugins/mmsclient/mmsTransfer.cpp:48
 #: transfer-plugins/bittorrent/bttransfer.cpp:322
