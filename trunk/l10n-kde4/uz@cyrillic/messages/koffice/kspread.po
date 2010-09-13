@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-10 06:16+0200\n"
+"POT-Creation-Date: 2010-09-13 05:55+0200\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2498,15 +2498,15 @@ msgstr "Зимбабве доллари"
 msgid "ZWD"
 msgstr "ZWD"
 
-#: DocBase.cpp:221
+#: DocBase.cpp:220
 msgid "Invalid OASIS OpenDocument file. No office:body tag found."
 msgstr ""
 
-#: DocBase.cpp:235
+#: DocBase.cpp:234
 msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
 msgstr ""
 
-#: DocBase.cpp:237
+#: DocBase.cpp:236
 #, kde-format
 msgid ""
 "This document is not a spreadsheet, but %1. Please try opening it with the "
@@ -3299,8 +3299,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
 #. i18n: file: kspread.rc:102
 #. i18n: ectx: Menu (MergeCellMenu)
-#: rc.cpp:249 rc.cpp:773 commands/MergeCommand.cpp:134 commands/Undo.cpp:1878
-#: ui/CellToolBase.cpp:440
+#: rc.cpp:249 rc.cpp:773 commands/MergeCommand.cpp:134 ui/CellToolBase.cpp:440
 msgid "Merge Cells"
 msgstr "Катакларни бирлаштириш"
 
@@ -4431,8 +4430,7 @@ msgstr "Йил"
 
 #. i18n: file: kspread.rc:41
 #. i18n: ectx: Menu (Delete)
-#: rc.cpp:755 commands/DeleteCommand.cpp:36 commands/Undo.cpp:1292
-#: part/View.cpp:504
+#: rc.cpp:755 commands/DeleteCommand.cpp:36 part/View.cpp:503
 #, fuzzy
 msgid "Delete"
 msgstr "Сатрларни олиб ташлаш"
@@ -4454,7 +4452,8 @@ msgstr ""
 
 #. i18n: file: kspread.rc:74
 #. i18n: ectx: Menu (Insert)
-#: rc.cpp:764 ui/CharSelectDia.cpp:57 ui/CharSelectDia.cpp:74
+#: rc.cpp:764 dialogs/CharacterSelectDialog.cpp:59
+#: dialogs/CharacterSelectDialog.cpp:76
 #, fuzzy
 msgid "&Insert"
 msgstr "Сатрларни қўйиш"
@@ -4558,11 +4557,11 @@ msgstr "Варақни бекитиш"
 msgid "Color/Border"
 msgstr "Ранг/Чегара"
 
-#: Sheet.cpp:915
+#: Sheet.cpp:914
 msgid "Dependency"
 msgstr "Боғлиқлик"
 
-#: Sheet.cpp:2878
+#: Sheet.cpp:2880
 msgid "Invalid document. Sheet name is empty."
 msgstr "Хато ҳужжат. Варақнинг номи кўрсатилмаган."
 
@@ -8987,7 +8986,7 @@ msgstr ""
 
 #. i18n: file: functions/financial.xml:907
 #. i18n: file: functions/financial.xml:950
-#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/View.cpp:401
+#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/View.cpp:400
 #, fuzzy
 #| msgid "List"
 msgid "Last"
@@ -16230,7 +16229,7 @@ msgstr "Шан"
 msgid "Sun"
 msgstr "Якш"
 
-#: commands/AutoFillCommand.cpp:692 commands/Undo.cpp:1931
+#: commands/AutoFillCommand.cpp:692
 msgid "Autofill"
 msgstr "Авто-тўлдириш"
 
@@ -16378,28 +16377,26 @@ msgid "Adjust Rows"
 msgstr "Қаторни созлаш"
 
 #: commands/RowColumnManipulators.cpp:562
-#: commands/RowColumnManipulators.cpp:581 commands/Undo.cpp:278
-#: ui/CellToolBase.cpp:468 ui/CellToolBase_p.cpp:1279
+#: commands/RowColumnManipulators.cpp:581 ui/CellToolBase.cpp:468
+#: ui/CellToolBase_p.cpp:1279
 msgid "Insert Columns"
 msgstr "Устунлар қўшиш"
 
-#: commands/RowColumnManipulators.cpp:583 commands/Undo.cpp:215
-#: ui/CellToolBase.cpp:474
+#: commands/RowColumnManipulators.cpp:583 ui/CellToolBase.cpp:474
 msgid "Remove Columns"
 msgstr "Устунларни олиб ташлаш"
 
 #: commands/RowColumnManipulators.cpp:685
-#: commands/RowColumnManipulators.cpp:704 commands/Undo.cpp:392
-#: ui/CellToolBase.cpp:506 ui/CellToolBase_p.cpp:1291
+#: commands/RowColumnManipulators.cpp:704 ui/CellToolBase.cpp:506
+#: ui/CellToolBase_p.cpp:1291
 msgid "Insert Rows"
 msgstr "Сатрларни қўйиш"
 
-#: commands/RowColumnManipulators.cpp:706 commands/Undo.cpp:321
-#: ui/CellToolBase.cpp:512
+#: commands/RowColumnManipulators.cpp:706 ui/CellToolBase.cpp:512
 msgid "Remove Rows"
 msgstr "Сатрларни олиб ташлаш"
 
-#: commands/SheetCommands.cpp:38 part/View.cpp:1740
+#: commands/SheetCommands.cpp:38 part/View.cpp:1739
 msgid "Rename Sheet"
 msgstr "Варақнинг номини ўзгартириш"
 
@@ -16408,7 +16405,7 @@ msgstr "Варақнинг номини ўзгартириш"
 msgid "Hide Sheet %1"
 msgstr "%1 варақни бекитиш"
 
-#: commands/SheetCommands.cpp:60 part/View.cpp:316
+#: commands/SheetCommands.cpp:60 part/View.cpp:315
 msgid "Hide Sheet"
 msgstr "Варақни бекитиш"
 
@@ -16426,14 +16423,14 @@ msgstr "Варақни кўрсатиш"
 msgid "Add Sheet"
 msgstr "Варақни қўшиш"
 
-#: commands/SheetCommands.cpp:139 part/View.cpp:295
+#: commands/SheetCommands.cpp:139 part/View.cpp:294
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Duplicate Sheet"
 msgstr "Варақни қайтадан ҳисоблаш"
 
-#: commands/SheetCommands.cpp:177 part/View.cpp:301 part/View.cpp:1712
-#: part/View.cpp:1716 part/View.cpp:1935
+#: commands/SheetCommands.cpp:177 part/View.cpp:300 part/View.cpp:1711
+#: part/View.cpp:1715 part/View.cpp:1934
 msgid "Remove Sheet"
 msgstr "Варақни олиб ташлаш"
 
@@ -16465,86 +16462,6 @@ msgstr "Варақнинг услуби"
 #, fuzzy
 msgid "Change Style"
 msgstr "Бурчакни ўзгартириш"
-
-#: commands/Undo.cpp:436 ui/CellToolBase.cpp:517
-msgid "Hide Rows"
-msgstr "Сатрларни бекитиш"
-
-#: commands/Undo.cpp:491 ui/CellToolBase.cpp:479
-msgid "Hide Columns"
-msgstr "Устунларни бекитиш"
-
-#: commands/Undo.cpp:547 dialogs/ShowColRowDialog.cpp:66
-#: ui/CellToolBase.cpp:532
-msgid "Show Rows"
-msgstr "Сатрларни кўрсатиш"
-
-#: commands/Undo.cpp:603 dialogs/ShowColRowDialog.cpp:63
-#: ui/CellToolBase.cpp:494
-msgid "Show Columns"
-msgstr "Устунларни кўрсатиш"
-
-#: commands/Undo.cpp:661 part/commands/PageLayoutCommand.cpp:35
-#: part/dialogs/PageLayoutDialog.cpp:223
-msgid "Set Page Layout"
-msgstr ""
-
-#: commands/Undo.cpp:781
-msgid "Change Format"
-msgstr "Форматни ўзгартириш"
-
-#: commands/Undo.cpp:1045 dialogs/AngleDialog.cpp:48
-#: dialogs/AngleDialog.cpp:80
-msgid "Change Angle"
-msgstr "Бурчакни ўзгартириш"
-
-#: commands/Undo.cpp:1077 dialogs/SortDialog.cpp:319
-msgid "Sort"
-msgstr "Саралаш"
-
-#: commands/Undo.cpp:1435
-msgid "Drag & Drop"
-msgstr ""
-
-#: commands/Undo.cpp:1516
-msgid "Resize"
-msgstr "Ўлчамини ўзгартириш"
-
-#: commands/Undo.cpp:1681
-msgid "Change Text"
-msgstr "Матнни ўзгартириш"
-
-#: commands/Undo.cpp:1994 commands/Undo.cpp:2038
-msgid "Insert Cell"
-msgstr "Катакни қўйиш"
-
-#: commands/Undo.cpp:2081 commands/Undo.cpp:2130
-msgid "Remove Cell"
-msgstr "Катакни олиб ташлаш"
-
-#: commands/Undo.cpp:2179 dialogs/ConditionalDialog.cpp:261
-#: ui/CellToolBase.cpp:587
-#, fuzzy
-msgid "Conditional Styles"
-msgstr "Катакнинг шартли атрибутлари..."
-
-#: commands/Undo.cpp:2241
-#, fuzzy
-msgid "Paste"
-msgstr "Ёлғон"
-
-#: commands/Undo.cpp:2243
-msgid "Paste & Insert"
-msgstr ""
-
-#: commands/Undo.cpp:2506
-msgid "Style of Cell"
-msgstr "Катакнинг услуби"
-
-#: commands/Undo.cpp:2606 dialogs/DatabaseDialog.cpp:76
-#: dialogs/DatabaseDialog.cpp:561
-msgid "Insert Data From Database"
-msgstr "Маълумот базасидан маълумот қўйиш"
 
 #: commands/ValidityCommand.cpp:62
 #, fuzzy
@@ -16593,6 +16510,10 @@ msgstr ""
 msgid "Replace Named Area"
 msgstr "Майдонни олиб ташлаш"
 
+#: dialogs/AngleDialog.cpp:48 dialogs/AngleDialog.cpp:80
+msgid "Change Angle"
+msgstr "Бурчакни ўзгартириш"
+
 #: dialogs/AngleDialog.cpp:62
 msgid "Angle:"
 msgstr "Бурчак:"
@@ -16624,6 +16545,17 @@ msgstr ""
 #, kde-format
 msgid "Parsing error in sheet-style XML file %1."
 msgstr ""
+
+#: dialogs/CharacterSelectDialog.cpp:50 dialogs/CharacterSelectDialog.cpp:68
+#, fuzzy
+#| msgid "S&pecial Character..."
+msgid "Select Character"
+msgstr "Ма&хсус белги..."
+
+#: dialogs/CharacterSelectDialog.cpp:60 dialogs/CharacterSelectDialog.cpp:77
+#, fuzzy
+msgid "Insert the selected character in the text"
+msgstr "Танланган катакларни бирлаштиришни бекор қилиш."
 
 #: dialogs/CommentDialog.cpp:45
 msgid "Cell Comment"
@@ -16700,6 +16632,11 @@ msgstr "Катак услуби"
 msgid "different from"
 msgstr ""
 
+#: dialogs/ConditionalDialog.cpp:261 ui/CellToolBase.cpp:587
+#, fuzzy
+msgid "Conditional Styles"
+msgstr "Катакнинг шартли атрибутлари..."
+
 #: dialogs/ConditionalDialog.cpp:476
 msgid ""
 "If the first value is a number, the second value also has to be a number."
@@ -16716,28 +16653,28 @@ msgid "Consolidate"
 msgstr "Муғилистон"
 
 #: dialogs/ConsolidateDialog.cpp:104 dialogs/SubtotalDialog.cpp:284
-#: part/View.cpp:461 part/dialogs/PreferenceDialog.cpp:326
+#: part/View.cpp:460 part/dialogs/PreferenceDialog.cpp:326
 msgid "Sum"
 msgstr "Йиғинди"
 
 #: dialogs/ConsolidateDialog.cpp:105 dialogs/SubtotalDialog.cpp:276
-#: part/View.cpp:482 part/dialogs/PreferenceDialog.cpp:329
+#: part/View.cpp:481 part/dialogs/PreferenceDialog.cpp:329
 msgid "Average"
 msgstr "Ўртача"
 
 #: dialogs/ConsolidateDialog.cpp:106 dialogs/SubtotalDialog.cpp:277
-#: part/View.cpp:489 part/dialogs/PreferenceDialog.cpp:330
+#: part/View.cpp:488 part/dialogs/PreferenceDialog.cpp:330
 #, fuzzy
 msgid "Count"
 msgstr "Сони: "
 
 #: dialogs/ConsolidateDialog.cpp:107 dialogs/SubtotalDialog.cpp:279
-#: part/View.cpp:475 part/dialogs/PreferenceDialog.cpp:328
+#: part/View.cpp:474 part/dialogs/PreferenceDialog.cpp:328
 msgid "Max"
 msgstr "Макс"
 
 #: dialogs/ConsolidateDialog.cpp:108 dialogs/SubtotalDialog.cpp:280
-#: part/View.cpp:468 part/dialogs/PreferenceDialog.cpp:327
+#: part/View.cpp:467 part/dialogs/PreferenceDialog.cpp:327
 msgid "Min"
 msgstr "Мин"
 
@@ -16832,6 +16769,10 @@ msgstr "Устунлар қўшиш"
 #: dialogs/CSVDialog.cpp:114
 msgid "Cannot open input file."
 msgstr ""
+
+#: dialogs/DatabaseDialog.cpp:76 dialogs/DatabaseDialog.cpp:561
+msgid "Insert Data From Database"
+msgstr "Маълумот базасидан маълумот қўйиш"
 
 #: dialogs/DatabaseDialog.cpp:84
 msgid "Type:"
@@ -17040,7 +16981,7 @@ msgid "You have to select at least one column."
 msgstr "Камида битта устунни танлаш лозим."
 
 #: dialogs/DatabaseDialog.cpp:737 dialogs/DatabaseDialog.cpp:738
-#: part/View.cpp:454 part/dialogs/PreferenceDialog.cpp:324
+#: part/View.cpp:453 part/dialogs/PreferenceDialog.cpp:324
 #: part/dialogs/PreferenceDialog.cpp:332 part/dialogs/PreferenceDialog.cpp:460
 #: ui/CellToolBase.cpp:338
 msgid "None"
@@ -17625,8 +17566,8 @@ msgstr "Яқинда очилган файл:"
 msgid "No Entries"
 msgstr "Бўш"
 
-#: dialogs/LinkDialog.cpp:152 part/View.cpp:370 part/View.cpp:1024
-#: part/View.cpp:1454
+#: dialogs/LinkDialog.cpp:152 part/View.cpp:369 part/View.cpp:1023
+#: part/View.cpp:1453
 msgid "Cell"
 msgstr "Катак"
 
@@ -17871,10 +17812,18 @@ msgid ""
 "If the step is negative, the start value must be greater then the end value."
 msgstr ""
 
+#: dialogs/ShowColRowDialog.cpp:63 ui/CellToolBase.cpp:494
+msgid "Show Columns"
+msgstr "Устунларни кўрсатиш"
+
 #: dialogs/ShowColRowDialog.cpp:64
 #, fuzzy
 msgid "Select hidden columns to show:"
 msgstr "Кўрсатиш учун бекитилган сатрни танланг:"
+
+#: dialogs/ShowColRowDialog.cpp:66 ui/CellToolBase.cpp:532
+msgid "Show Rows"
+msgstr "Сатрларни кўрсатиш"
 
 #: dialogs/ShowColRowDialog.cpp:67
 msgid "Select hidden rows to show:"
@@ -17914,6 +17863,10 @@ msgstr "Биринчи варақ"
 #, fuzzy
 msgid "&First row contains column headers"
 msgstr "&Сатр номини кўрсатиш"
+
+#: dialogs/SortDialog.cpp:319
+msgid "Sort"
+msgstr "Саралаш"
 
 #: dialogs/SortDialog.cpp:547
 msgid "Case Insensitive"
@@ -17979,7 +17932,7 @@ msgstr "Умумий натижа"
 msgid "Column '%1' "
 msgstr "Устун '%1' "
 
-#: dialogs/SubtotalDialog.cpp:278 part/View.cpp:496
+#: dialogs/SubtotalDialog.cpp:278 part/View.cpp:495
 #: part/dialogs/PreferenceDialog.cpp:331
 #, fuzzy
 msgid "CountA"
@@ -18301,7 +18254,7 @@ msgstr ""
 msgid "Implemented, reviewed and tested various functions"
 msgstr ""
 
-#: part/CanvasBase.cpp:799
+#: part/CanvasBase.cpp:798
 msgid "Comment:"
 msgstr "Изоҳ:"
 
@@ -18349,25 +18302,25 @@ msgstr "Услубларни юклаб бўлмади."
 msgid "Invalid document. No map tag."
 msgstr "Хато ҳужжат. Варақнинг номи кўрсатилмаган."
 
-#: part/HeaderItems.cpp:187 part/HeaderWidgets.cpp:180
+#: part/HeaderItems.cpp:189 part/HeaderWidgets.cpp:182
 #, kde-format
 msgid "Height: %1 %2"
 msgstr "Узунаси: %1 %2"
 
-#: part/HeaderItems.cpp:189 part/HeaderWidgets.cpp:182
+#: part/HeaderItems.cpp:191 part/HeaderWidgets.cpp:184
 msgid "Hide Row"
 msgstr "Сатрни бекитиш"
 
-#: part/HeaderItems.cpp:360 part/HeaderWidgets.cpp:352
+#: part/HeaderItems.cpp:362 part/HeaderWidgets.cpp:354
 #, kde-format
 msgid "Width: %1 %2"
 msgstr "Эни: %1 %2"
 
-#: part/HeaderItems.cpp:362 part/HeaderWidgets.cpp:354
+#: part/HeaderItems.cpp:364 part/HeaderWidgets.cpp:356
 msgid "Hide Column"
 msgstr "Устунни бекитиш"
 
-#: part/Headers.cpp:264 part/Headers.cpp:783 ui/CellToolBase.cpp:2125
+#: part/Headers.cpp:266 part/Headers.cpp:785 ui/CellToolBase.cpp:2125
 #: ui/CellToolBase.cpp:2153 ui/CellToolBase.cpp:2167 ui/CellToolBase.cpp:2189
 #: ui/CellToolBase.cpp:2229 ui/CellToolBase.cpp:2257 ui/CellToolBase.cpp:2271
 #: ui/CellToolBase.cpp:2293
@@ -18394,344 +18347,344 @@ msgstr "Босиб чиқариш учун '%1' варағи топилмади"
 msgid "Nothing to print for sheet(s) %1."
 msgstr "Босиб чиқариш учун '%1' варағида ҳеч нарса йўқ."
 
-#: part/View.cpp:284
+#: part/View.cpp:283
 #, fuzzy
 #| msgid "Sheet Properties"
 msgid "Sheet Properties..."
 msgstr "Варақ хоссалари"
 
-#: part/View.cpp:287
+#: part/View.cpp:286
 msgid "Modify current sheet's properties"
 msgstr ""
 
-#: part/View.cpp:289 part/View.cpp:300 part/dialogs/PageLayoutDialog.cpp:145
+#: part/View.cpp:288 part/View.cpp:299 part/dialogs/PageLayoutDialog.cpp:145
 msgid "Sheet"
 msgstr "Варақ"
 
-#: part/View.cpp:290 part/View.cpp:1930
+#: part/View.cpp:289 part/View.cpp:1929
 msgid "Insert Sheet"
 msgstr "Варақ қўшиш"
 
-#: part/View.cpp:291
+#: part/View.cpp:290
 #, fuzzy
 msgid "Insert a new sheet"
 msgstr "Янги варақ қўшиш."
 
-#: part/View.cpp:296
+#: part/View.cpp:295
 #, fuzzy
 msgid "Duplicate the selected sheet"
 msgstr "Актив варақни бекитиш."
 
-#: part/View.cpp:302 part/View.cpp:1931 part/View.cpp:1936
+#: part/View.cpp:301 part/View.cpp:1930 part/View.cpp:1935
 #, fuzzy
 msgid "Remove the active sheet"
 msgstr "Актив варақни олиб ташлаш."
 
-#: part/View.cpp:306
+#: part/View.cpp:305
 msgid "Rename Sheet..."
 msgstr "Варақнинг номини ўзгартириш..."
 
-#: part/View.cpp:309
+#: part/View.cpp:308
 #, fuzzy
 msgid "Rename the active sheet"
 msgstr "Актив варақнинг номини ўзгартириш."
 
-#: part/View.cpp:311
+#: part/View.cpp:310
 msgid "Show Sheet..."
 msgstr "Варақни кўрсатиш..."
 
-#: part/View.cpp:314
+#: part/View.cpp:313
 #, fuzzy
 msgid "Show a hidden sheet"
 msgstr "Бекитилган варақни кўрсатиш."
 
-#: part/View.cpp:319
+#: part/View.cpp:318
 #, fuzzy
 msgid "Hide the active sheet"
 msgstr "Актив варақни бекитиш."
 
-#: part/View.cpp:321
+#: part/View.cpp:320
 msgid "Page Layout..."
 msgstr ""
 
-#: part/View.cpp:324
+#: part/View.cpp:323
 msgid "Specify the layout of the spreadsheet for a printout"
 msgstr ""
 
-#: part/View.cpp:326 part/View.cpp:1703
+#: part/View.cpp:325 part/View.cpp:1702
 msgid "Reset Print Range"
 msgstr ""
 
-#: part/View.cpp:329
+#: part/View.cpp:328
 #, fuzzy
 msgid "Reset the print range in the current sheet"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: part/View.cpp:331
+#: part/View.cpp:330
 #, fuzzy
 #| msgid "&Page borders:"
 msgid "Page Borders"
 msgstr "&Бетнинг чегаралари:"
 
-#: part/View.cpp:332
+#: part/View.cpp:331
 msgid "Show on the spreadsheet where the page borders will be"
 msgstr ""
 
-#: part/View.cpp:336
+#: part/View.cpp:335
 msgid "Recalculate Sheet"
 msgstr "Варақни қайтадан ҳисоблаш"
 
-#: part/View.cpp:338 part/View.cpp:346
+#: part/View.cpp:337 part/View.cpp:345
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Recalculate"
 msgstr "Варақни қайтадан ҳисоблаш"
 
-#: part/View.cpp:342
+#: part/View.cpp:341
 msgid "Recalculate the value of every cell in the current worksheet"
 msgstr ""
 
-#: part/View.cpp:344
+#: part/View.cpp:343
 msgid "Recalculate Document"
 msgstr "Ҳужжатни қайтадан ҳисоблаш"
 
-#: part/View.cpp:350
+#: part/View.cpp:349
 msgid "Recalculate the value of every cell in all worksheets"
 msgstr ""
 
-#: part/View.cpp:352
+#: part/View.cpp:351
 msgid "Protect &Sheet..."
 msgstr "&Варақни ҳимоялаш..."
 
-#: part/View.cpp:354
+#: part/View.cpp:353
 #, fuzzy
 msgid "Protect the sheet from being modified"
 msgstr "Варақни ўзгаришлардан ҳимоялаш."
 
-#: part/View.cpp:358
+#: part/View.cpp:357
 msgid "Protect &Document..."
 msgstr "Ҳуж&жатни ҳимоялаш..."
 
-#: part/View.cpp:360
+#: part/View.cpp:359
 #, fuzzy
 msgid "Protect the document from being modified"
 msgstr "Ҳужжатни ўзгаришлардан ҳимоялаш."
 
-#: part/View.cpp:365
+#: part/View.cpp:364
 msgid "&Create Template From Document..."
 msgstr "Ҳужжатдан намуна &яратиш..."
 
-#: part/View.cpp:369
+#: part/View.cpp:368
 #, fuzzy
 #| msgid "Andorra"
 msgid "Anchor"
 msgstr "Андорра"
 
-#: part/View.cpp:371 part/View.cpp:1024
+#: part/View.cpp:370 part/View.cpp:1023
 #, fuzzy
 #| msgid "page"
 msgid "Page"
 msgstr "бет"
 
-#: part/View.cpp:373
+#: part/View.cpp:372
 msgid "Switch shape anchoring"
 msgstr ""
 
-#: part/View.cpp:380
+#: part/View.cpp:379
 msgid "Next Sheet"
 msgstr "Кейинги варақ"
 
-#: part/View.cpp:381
+#: part/View.cpp:380
 #, fuzzy
 #| msgid "Text"
 msgid "Next"
 msgstr "Матн"
 
-#: part/View.cpp:382
+#: part/View.cpp:381
 #, fuzzy
 msgid "Move to the next sheet"
 msgstr "Кейинги вараққа ўтиш."
 
-#: part/View.cpp:387
+#: part/View.cpp:386
 msgid "Previous Sheet"
 msgstr "Олдинги варақ"
 
-#: part/View.cpp:388
+#: part/View.cpp:387
 #, fuzzy
 #| msgid "Previous Sheet"
 msgid "Previous"
 msgstr "Олдинги варақ"
 
-#: part/View.cpp:389
+#: part/View.cpp:388
 #, fuzzy
 msgid "Move to the previous sheet"
 msgstr "Олдинги вараққа ўтиш."
 
-#: part/View.cpp:394
+#: part/View.cpp:393
 msgid "First Sheet"
 msgstr "Биринчи варақ"
 
-#: part/View.cpp:395
+#: part/View.cpp:394
 #, fuzzy
 msgid "First"
 msgstr "Биринчи варақ"
 
-#: part/View.cpp:396
+#: part/View.cpp:395
 #, fuzzy
 msgid "Move to the first sheet"
 msgstr "Биринчи вараққа ўтиш."
 
-#: part/View.cpp:400
+#: part/View.cpp:399
 msgid "Last Sheet"
 msgstr "Охирги варақ"
 
-#: part/View.cpp:402
+#: part/View.cpp:401
 #, fuzzy
 msgid "Move to the last sheet"
 msgstr "Охирги вараққа ўтиш."
 
-#: part/View.cpp:408
+#: part/View.cpp:407
 #, fuzzy
 msgid "Column Header"
 msgstr "Устунларни &рақам сифатида кўрсатиш"
 
-#: part/View.cpp:409
+#: part/View.cpp:408
 #, fuzzy
 msgid "Show the column header"
 msgstr "&Сатр номини кўрсатиш"
 
-#: part/View.cpp:414
+#: part/View.cpp:413
 #, fuzzy
 msgid "Row Header"
 msgstr "кўпроқ"
 
-#: part/View.cpp:415
+#: part/View.cpp:414
 #, fuzzy
 #| msgid "Show &row header"
 msgid "Show the row header"
 msgstr "&Сатр номини кўрсатиш"
 
-#: part/View.cpp:420
+#: part/View.cpp:419
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Horizontal Scrollbar"
 msgstr "&Горизонтал варақлаш панелини кўрсатиш"
 
-#: part/View.cpp:421
+#: part/View.cpp:420
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Show the horizontal scrollbar"
 msgstr "&Горизонтал варақлаш панелини кўрсатиш"
 
-#: part/View.cpp:426
+#: part/View.cpp:425
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Vertical Scrollbar"
 msgstr "&Вертикал варақлаш панелини кўрсатиш"
 
-#: part/View.cpp:427
+#: part/View.cpp:426
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Show the vertical scrollbar"
 msgstr "&Вертикал варақлаш панелини кўрсатиш"
 
-#: part/View.cpp:432
+#: part/View.cpp:431
 #, fuzzy
 #| msgid "Show Status Bar"
 msgid "Status Bar"
 msgstr "Ҳолат панелини кўрсатиш"
 
-#: part/View.cpp:433
+#: part/View.cpp:432
 #, fuzzy
 msgid "Show the status bar"
 msgstr "Ҳолат панелини кўрсатиш."
 
-#: part/View.cpp:438
+#: part/View.cpp:437
 #, fuzzy
 msgid "Tab Bar"
 msgstr "Ҳолат панелини кўрсатиш"
 
-#: part/View.cpp:439
+#: part/View.cpp:438
 #, fuzzy
 msgid "Show the tab bar"
 msgstr "Таб панелини кўрсатиш."
 
-#: part/View.cpp:445
+#: part/View.cpp:444
 #, fuzzy
 msgid "Set various KSpread options"
 msgstr "KSpread дастурининг ҳар хил мосламаларини ўзгартириш."
 
-#: part/View.cpp:458
+#: part/View.cpp:457
 #, fuzzy
 msgid "No calculation"
 msgstr "&Автоматик қайта ҳисоблаш"
 
-#: part/View.cpp:465
+#: part/View.cpp:464
 #, fuzzy
 msgid "Calculate using sum"
 msgstr "Ҳисоблаш усули"
 
-#: part/View.cpp:472
+#: part/View.cpp:471
 #, fuzzy
 msgid "Calculate using minimum"
 msgstr "Ҳисоблаш усули"
 
-#: part/View.cpp:479
+#: part/View.cpp:478
 #, fuzzy
 msgid "Calculate using maximum"
 msgstr "Ҳисоблаш усули"
 
-#: part/View.cpp:486
+#: part/View.cpp:485
 #, fuzzy
 msgid "Calculate using average"
 msgstr "Ҳисоблаш усули"
 
-#: part/View.cpp:493
+#: part/View.cpp:492
 #, fuzzy
 msgid "Calculate using the count"
 msgstr "Ҳисоблаш усули"
 
-#: part/View.cpp:500
+#: part/View.cpp:499
 #, fuzzy
 msgid "Calculate using the countA"
 msgstr "Ҳисоблаш усули"
 
-#: part/View.cpp:722 part/dialogs/PreferenceDialog.cpp:370
+#: part/View.cpp:721 part/dialogs/PreferenceDialog.cpp:370
 #, fuzzy
 msgid "Tools"
 msgstr "Того"
 
-#: part/View.cpp:1371 part/View.cpp:1390 part/View.cpp:1734
+#: part/View.cpp:1370 part/View.cpp:1389 part/View.cpp:1733
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "Ягона варақни олиб ташлаб бўлмайди."
 
-#: part/View.cpp:1410
+#: part/View.cpp:1409
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "Ягона варақни олиб ташлаб бўлмайди."
 
-#: part/View.cpp:1466
+#: part/View.cpp:1465
 msgid "Protect Document"
 msgstr "Ҳужжатни ҳимоялаш"
 
-#: part/View.cpp:1469
+#: part/View.cpp:1468
 msgid "Unprotect Document"
 msgstr "Ҳужжатни ҳимоялашни бекор қилиш"
 
-#: part/View.cpp:1489
+#: part/View.cpp:1488
 msgid "Protect Sheet"
 msgstr "Варақни ҳимоялаш"
 
-#: part/View.cpp:1492
+#: part/View.cpp:1491
 msgid "Unprotect Sheet"
 msgstr "Варақни ҳимоялашни бекор қилиш"
 
-#: part/View.cpp:1712
+#: part/View.cpp:1711
 msgid "You cannot delete the only sheet."
 msgstr "Ягона варақни олиб ташлаб бўлмайди."
 
-#: part/View.cpp:1715
+#: part/View.cpp:1714
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -18739,52 +18692,57 @@ msgstr ""
 "Актив варақни олиб ташламоқчисиз.\n"
 "Давом этишни истайсизми?"
 
-#: part/View.cpp:1716
+#: part/View.cpp:1715
 #, fuzzy
 msgid "&Delete"
 msgstr "Сатрларни олиб ташлаш"
 
-#: part/View.cpp:1740 ui/CellToolBase.cpp:1598
+#: part/View.cpp:1739 ui/CellToolBase.cpp:1598
 msgid "Enter name:"
 msgstr "Номини киритинг:"
 
-#: part/View.cpp:1745
+#: part/View.cpp:1744
 msgid "Sheet name cannot be empty."
 msgstr "Варақнинг номи бўш бўлиши мумкин эмас."
 
-#: part/View.cpp:1745 part/View.cpp:1751
+#: part/View.cpp:1744 part/View.cpp:1750
 msgid "Change Sheet Name"
 msgstr "Варақнинг номини ўзгартириш"
 
-#: part/View.cpp:1751
+#: part/View.cpp:1750
 msgid "This name is already used."
 msgstr "Бу ном аллақачон мавжуд."
 
-#: part/View.cpp:1844
+#: part/View.cpp:1843
 msgid "Sum: "
 msgstr "Йиғинди: "
 
-#: part/View.cpp:1847
+#: part/View.cpp:1846
 msgid "Average: "
 msgstr "Ўртача: "
 
-#: part/View.cpp:1850
+#: part/View.cpp:1849
 msgid "Min: "
 msgstr "Мин: "
 
-#: part/View.cpp:1853
+#: part/View.cpp:1852
 msgid "Max: "
 msgstr "Макс: "
 
-#: part/View.cpp:1856
+#: part/View.cpp:1855
 #, fuzzy
 msgid "Count: "
 msgstr "Сони: "
 
-#: part/View.cpp:1859
+#: part/View.cpp:1858
 #, fuzzy
 msgid "CountA: "
 msgstr "CountA: "
+
+#: part/commands/PageLayoutCommand.cpp:35
+#: part/dialogs/PageLayoutDialog.cpp:223
+msgid "Set Page Layout"
+msgstr ""
 
 #: part/dialogs/PageLayoutDialog.cpp:103 part/dialogs/PageLayoutDialog.cpp:106
 #: part/dialogs/PageLayoutDialog.cpp:110
@@ -19264,6 +19222,10 @@ msgstr "Электрон жадвалга янги устун қўшиш."
 msgid "Removes a column from the spreadsheet"
 msgstr "Электрон жадвалдан устунни олиб ташлаш."
 
+#: ui/CellToolBase.cpp:479
+msgid "Hide Columns"
+msgstr "Устунларни бекитиш"
+
 #: ui/CellToolBase.cpp:482
 #, fuzzy
 msgid "Hide the column from this"
@@ -19316,6 +19278,10 @@ msgstr "Электрон жадвалга янги сатр қўшиш."
 #, fuzzy
 msgid "Removes a row from the spreadsheet"
 msgstr "Электрон жадвалдан сатрни олиб ташлаш."
+
+#: ui/CellToolBase.cpp:517
+msgid "Hide Rows"
+msgstr "Сатрларни бекитиш"
 
 #: ui/CellToolBase.cpp:520
 #, fuzzy
@@ -19994,17 +19960,6 @@ msgstr "Услубни қўллаш"
 msgid "Discard changes"
 msgstr ""
 
-#: ui/CharSelectDia.cpp:48 ui/CharSelectDia.cpp:66
-#, fuzzy
-#| msgid "S&pecial Character..."
-msgid "Select Character"
-msgstr "Ма&хсус белги..."
-
-#: ui/CharSelectDia.cpp:58 ui/CharSelectDia.cpp:75
-#, fuzzy
-msgid "Insert the selected character in the text"
-msgstr "Танланган катакларни бирлаштиришни бекор қилиш."
-
 #: ui/HyperlinkStrategy.cpp:78
 #, kde-format
 msgid "Link %1 activated"
@@ -20038,6 +19993,28 @@ msgstr "Танланган варақлар"
 #, fuzzy
 msgid "Select Multiple Cells"
 msgstr "Жадвалларни танланг:"
+
+#~ msgid "Change Format"
+#~ msgstr "Форматни ўзгартириш"
+
+#~ msgid "Resize"
+#~ msgstr "Ўлчамини ўзгартириш"
+
+#~ msgid "Change Text"
+#~ msgstr "Матнни ўзгартириш"
+
+#~ msgid "Insert Cell"
+#~ msgstr "Катакни қўйиш"
+
+#~ msgid "Remove Cell"
+#~ msgstr "Катакни олиб ташлаш"
+
+#, fuzzy
+#~ msgid "Paste"
+#~ msgstr "Ёлғон"
+
+#~ msgid "Style of Cell"
+#~ msgstr "Катакнинг услуби"
 
 #, fuzzy
 #~ msgid "Options"
