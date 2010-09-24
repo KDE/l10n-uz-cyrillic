@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-16 06:21+0200\n"
+"POT-Creation-Date: 2010-09-24 06:05+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -59,7 +59,7 @@ msgid "(unbound)"
 msgstr ""
 
 #: plugins/forms/kexidbfactory.cpp:81 plugins/forms/kexiformpart.cpp:90
-#: formeditor/factories/stdwidgetfactory.cpp:186 formeditor/form.cpp:726
+#: formeditor/factories/stdwidgetfactory.cpp:186 formeditor/form.cpp:729
 msgid "Form"
 msgstr "Шакл"
 
@@ -76,13 +76,13 @@ msgid "A data-aware form widget"
 msgstr ""
 
 #: plugins/forms/kexidbfactory.cpp:95
-#: formeditor/factories/containerfactory.cpp:682
+#: formeditor/factories/containerfactory.cpp:602
 #, fuzzy
 msgid "Sub Form"
 msgstr "Шакл"
 
 #: plugins/forms/kexidbfactory.cpp:98
-#: formeditor/factories/containerfactory.cpp:684
+#: formeditor/factories/containerfactory.cpp:604
 #, fuzzy
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
@@ -91,7 +91,7 @@ msgid "subForm"
 msgstr "tugma"
 
 #: plugins/forms/kexidbfactory.cpp:99
-#: formeditor/factories/containerfactory.cpp:685
+#: formeditor/factories/containerfactory.cpp:605
 msgid "A form widget included in another Form"
 msgstr ""
 
@@ -131,12 +131,12 @@ msgid "A multiline text editor"
 msgstr ""
 
 #: plugins/forms/kexidbfactory.cpp:151
-#: formeditor/factories/containerfactory.cpp:602 formeditor/form.cpp:439
+#: formeditor/factories/containerfactory.cpp:522 formeditor/form.cpp:442
 msgid "Frame"
 msgstr "Фрейм"
 
 #: plugins/forms/kexidbfactory.cpp:154
-#: formeditor/factories/containerfactory.cpp:604
+#: formeditor/factories/containerfactory.cpp:524
 #, fuzzy
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
@@ -857,8 +857,8 @@ msgstr "Жадвал майдони"
 
 #. i18n: file: main/startup/KexiConnSelector.ui:78
 #. i18n: ectx: property (text), widget (Q3ListView, list)
-#: plugins/tables/kexitabledesignerview.cpp:351 formeditor/form.cpp:414
-#: formeditor/form.cpp:415 rc.cpp:107
+#: plugins/tables/kexitabledesignerview.cpp:351 formeditor/form.cpp:417
+#: formeditor/form.cpp:418 rc.cpp:107
 msgid "Name"
 msgstr "Номи"
 
@@ -882,7 +882,7 @@ msgid "Image"
 msgstr "Расм"
 
 #: plugins/tables/kexitabledesignerview.cpp:390
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1689 formeditor/form.cpp:416
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1689 formeditor/form.cpp:419
 #: formeditor/editlistviewdialog.cpp:120
 #, fuzzy
 msgid "Caption"
@@ -2551,8 +2551,8 @@ msgstr ""
 msgid "Could not load data from table or query."
 msgstr "Маълумотлар база драйверини \"%1\" юклаб бўлмади."
 
-#: main/printing/kexisimpleprintingengine.cpp:326
-#: formeditor/factories/containerfactory.cpp:281
+#: main/printing/kexisimpleprintingengine.cpp:326 formeditor/commands.cpp:2218
+#: formeditor/WidgetTreeWidget.cpp:96
 #, kde-format
 msgid "Page %1"
 msgstr "Бет %1"
@@ -5759,7 +5759,7 @@ msgstr ""
 msgid "Double Precision Number"
 msgstr ""
 
-#: kexidb/field.cpp:716 kexidb/field.cpp:737 formeditor/form.cpp:418
+#: kexidb/field.cpp:716 kexidb/field.cpp:737 formeditor/form.cpp:421
 msgid "Text"
 msgstr "Матн"
 
@@ -6358,7 +6358,7 @@ msgid "Default"
 msgstr "Андоза: %1"
 
 #: formeditor/factories/stdwidgetfactory.cpp:421
-#: formeditor/factories/containerfactory.cpp:692
+#: formeditor/factories/containerfactory.cpp:612
 #, fuzzy
 msgid "Flat"
 msgstr "&Форматлаш"
@@ -6585,72 +6585,67 @@ msgctxt "default indent value"
 msgid "default"
 msgstr "Андоза: %1"
 
-#: formeditor/factories/containerfactory.cpp:258
-#, fuzzy
-msgid "Add Page"
-msgstr "Қўшиш мосламалари"
-
-#: formeditor/factories/containerfactory.cpp:372
+#: formeditor/factories/containerfactory.cpp:297
 #, fuzzy
 msgctxt "Add page to tab widget"
 msgid "Add Page"
 msgstr "Қўшиш мосламалари"
 
-#: formeditor/factories/containerfactory.cpp:396
+#: formeditor/factories/containerfactory.cpp:321
 #, fuzzy
 msgctxt "Remove tab widget's page"
 msgid "Remove Page"
 msgstr "Элементни олиб ташлаш"
 
-#: formeditor/factories/containerfactory.cpp:422
+#: formeditor/factories/containerfactory.cpp:342
 #, fuzzy
 msgctxt "Rename tab widget's page"
 msgid "Rename Page..."
 msgstr "Элементни қайта номлаш"
 
-#: formeditor/factories/containerfactory.cpp:436
-#: formeditor/factories/containerfactory.cpp:1065
+#: formeditor/factories/containerfactory.cpp:356
+#: formeditor/factories/containerfactory.cpp:985
 #, fuzzy
 msgid "New Page Title"
 msgstr "Саҳифа сарлавҳаси:"
 
-#: formeditor/factories/containerfactory.cpp:437
-#: formeditor/factories/containerfactory.cpp:1066
+#: formeditor/factories/containerfactory.cpp:357
+#: formeditor/factories/containerfactory.cpp:986
 msgid "Enter a new title for the current page:"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:445
+#: formeditor/factories/containerfactory.cpp:365
 #, fuzzy
 #| msgid "&Add..."
 msgctxt "Add page to a stacked widget"
 msgid "Add Page..."
 msgstr "&Қўшиш..."
 
-#: formeditor/factories/containerfactory.cpp:472
+#: formeditor/factories/containerfactory.cpp:392
 #, fuzzy
 msgctxt "Remove page from a stacked widget"
 msgid "Remove Page"
 msgstr "Элементни олиб ташлаш"
 
-#: formeditor/factories/containerfactory.cpp:519
+#: formeditor/factories/containerfactory.cpp:439
 #, fuzzy
 #| msgid "Previous Page"
 msgctxt "Go to Previous Page of a Stacked Widget"
 msgid "Go to Previous Page"
 msgstr "Олдинги бет"
 
-#: formeditor/factories/containerfactory.cpp:520
+#: formeditor/factories/containerfactory.cpp:440
 #, fuzzy
 #| msgid "Next Page"
 msgctxt "Go to Next Page of a Stacked Widget"
 msgid "Go to Next Page"
 msgstr "Кейинги бет"
 
-#: formeditor/factories/containerfactory.cpp:558
+#: formeditor/factories/containerfactory.cpp:478
 msgid "Button Group"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:560
+#: formeditor/factories/containerfactory.cpp:480
 #, fuzzy
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
@@ -6658,31 +6653,31 @@ msgctxt ""
 msgid "buttonGroup"
 msgstr "tugma"
 
-#: formeditor/factories/containerfactory.cpp:561
+#: formeditor/factories/containerfactory.cpp:481
 msgid "A simple container to group buttons"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:573
+#: formeditor/factories/containerfactory.cpp:493
 #, fuzzy
 msgid "Tab Widget"
 msgstr "Узунлашиши бўйича"
 
-#: formeditor/factories/containerfactory.cpp:575
+#: formeditor/factories/containerfactory.cpp:495
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "tabWidget"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:576
+#: formeditor/factories/containerfactory.cpp:496
 msgid "A widget to display multiple pages using tabs"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:583
+#: formeditor/factories/containerfactory.cpp:503
 msgid "Basic container"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:585
+#: formeditor/factories/containerfactory.cpp:505
 #, fuzzy
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
@@ -6690,54 +6685,54 @@ msgctxt ""
 msgid "container"
 msgstr "Босиб чиқариш"
 
-#: formeditor/factories/containerfactory.cpp:586
+#: formeditor/factories/containerfactory.cpp:506
 msgid "An empty container with no frame"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:593
+#: formeditor/factories/containerfactory.cpp:513
 #, fuzzy
 #| msgid "Group by"
 msgid "Group Box"
 msgstr "Гуруҳлаш"
 
-#: formeditor/factories/containerfactory.cpp:595
+#: formeditor/factories/containerfactory.cpp:515
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "groupBox"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:596
+#: formeditor/factories/containerfactory.cpp:516
 msgid "A container to group some widgets"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:605
+#: formeditor/factories/containerfactory.cpp:525
 msgid "A simple frame container"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:612
+#: formeditor/factories/containerfactory.cpp:532
 #, fuzzy
 msgid "Widget Stack"
 msgstr "Манба майдони:"
 
-#: formeditor/factories/containerfactory.cpp:614
+#: formeditor/factories/containerfactory.cpp:534
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "widgetStack"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:615
+#: formeditor/factories/containerfactory.cpp:535
 msgid "A container with multiple pages"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:621
+#: formeditor/factories/containerfactory.cpp:541
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Horizontal Box"
 msgstr "&Энига"
 
-#: formeditor/factories/containerfactory.cpp:623
+#: formeditor/factories/containerfactory.cpp:543
 #, fuzzy
 #| msgid "&Horizontally"
 msgctxt ""
@@ -6746,17 +6741,17 @@ msgctxt ""
 msgid "horizontalBox"
 msgstr "&Энига"
 
-#: formeditor/factories/containerfactory.cpp:624
+#: formeditor/factories/containerfactory.cpp:544
 msgid "A simple container to group widgets horizontally"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:630
+#: formeditor/factories/containerfactory.cpp:550
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Vertical Box"
 msgstr "&Бўйига"
 
-#: formeditor/factories/containerfactory.cpp:632
+#: formeditor/factories/containerfactory.cpp:552
 #, fuzzy
 #| msgid "&Vertically"
 msgctxt ""
@@ -6765,114 +6760,114 @@ msgctxt ""
 msgid "verticalBox"
 msgstr "&Бўйига"
 
-#: formeditor/factories/containerfactory.cpp:633
+#: formeditor/factories/containerfactory.cpp:553
 msgid "A simple container to group widgets vertically"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:639
+#: formeditor/factories/containerfactory.cpp:559
 msgid "Grid Box"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:641
+#: formeditor/factories/containerfactory.cpp:561
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "gridBox"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:642
+#: formeditor/factories/containerfactory.cpp:562
 msgid "A simple container to group widgets in a grid"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:650
+#: formeditor/factories/containerfactory.cpp:570
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Splitter"
 msgstr "&Бўйига"
 
-#: formeditor/factories/containerfactory.cpp:652
+#: formeditor/factories/containerfactory.cpp:572
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "splitter"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:653
+#: formeditor/factories/containerfactory.cpp:573
 msgid "A container that enables user to resize its children"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:661
+#: formeditor/factories/containerfactory.cpp:581
 #, fuzzy
 msgid "Row Layout"
 msgstr "Маълумот манбаси"
 
-#: formeditor/factories/containerfactory.cpp:663
+#: formeditor/factories/containerfactory.cpp:583
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "rowLayout"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:664
+#: formeditor/factories/containerfactory.cpp:584
 msgid "A simple container to group widgets by rows"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:671
+#: formeditor/factories/containerfactory.cpp:591
 #, fuzzy
 #| msgid "Column name"
 msgid "Column Layout"
 msgstr "Устун номи"
 
-#: formeditor/factories/containerfactory.cpp:673
+#: formeditor/factories/containerfactory.cpp:593
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "columnLayout"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:674
+#: formeditor/factories/containerfactory.cpp:594
 msgid "A simple container to group widgets by columns"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:691
+#: formeditor/factories/containerfactory.cpp:611
 #, fuzzy
 msgid "Title"
 msgstr "файл"
 
-#: formeditor/factories/containerfactory.cpp:695
-#: formeditor/factories/containerfactory.cpp:701
-#: formeditor/factories/containerfactory.cpp:702
+#: formeditor/factories/containerfactory.cpp:615
+#: formeditor/factories/containerfactory.cpp:621
+#: formeditor/factories/containerfactory.cpp:622
 #, fuzzy
 #| msgid "Label Position"
 msgid "Tab Position"
 msgstr "Ёрлиқ жойлашиши"
 
-#: formeditor/factories/containerfactory.cpp:696
+#: formeditor/factories/containerfactory.cpp:616
 #, fuzzy
 msgid "Current Page"
 msgstr "Матн"
 
-#: formeditor/factories/containerfactory.cpp:697
+#: formeditor/factories/containerfactory.cpp:617
 #, fuzzy
 msgid "Tab Shape"
 msgstr "Сатрни &олиб ташлаш"
 
-#: formeditor/factories/containerfactory.cpp:698
+#: formeditor/factories/containerfactory.cpp:618
 msgctxt "Tab Widget's Elide Mode"
 msgid "Elide Mode"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:699
+#: formeditor/factories/containerfactory.cpp:619
 msgctxt "Tab Widget uses scroll buttons"
 msgid "Scroll Buttons"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:704
+#: formeditor/factories/containerfactory.cpp:624
 msgctxt "for Tab Shape"
 msgid "Rounded"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:705
+#: formeditor/factories/containerfactory.cpp:625
 #, fuzzy
 msgctxt "for Tab Shape"
 msgid "Triangular"
@@ -6911,7 +6906,7 @@ msgstr "Элементни ўзгартириш"
 msgid "Contents of %1"
 msgstr ""
 
-#: formeditor/container.cpp:1485 formeditor/commands.cpp:327
+#: formeditor/container.cpp:1485 formeditor/commands.cpp:328
 msgid "Move multiple widgets"
 msgstr ""
 
@@ -6919,287 +6914,297 @@ msgstr ""
 msgid "*.ui|Qt Designer UI Files"
 msgstr ""
 
-#: formeditor/commands.cpp:155
+#: formeditor/commands.cpp:156
 #, fuzzy, kde-format
 msgid "Change \"%1\" property for multiple widgets"
 msgstr "Эски биринчи даражали калит олиб ташланди."
 
-#: formeditor/commands.cpp:158
+#: formeditor/commands.cpp:159
 #, fuzzy, kde-format
 msgid "Change \"%1\" property for widget \"%2\""
 msgstr "Эски биринчи даражали калит олиб ташланди."
 
-#: formeditor/commands.cpp:421
+#: formeditor/commands.cpp:422
 msgid "Align Widgets to Grid"
 msgstr ""
 
-#: formeditor/commands.cpp:424
+#: formeditor/commands.cpp:425
 msgid "Align Widgets to Left"
 msgstr ""
 
-#: formeditor/commands.cpp:427
+#: formeditor/commands.cpp:428
 msgid "Align Widgets to Right"
 msgstr ""
 
-#: formeditor/commands.cpp:430
+#: formeditor/commands.cpp:431
 msgid "Align Widgets to Top"
 msgstr ""
 
-#: formeditor/commands.cpp:433
+#: formeditor/commands.cpp:434
 msgid "Align Widgets to Bottom"
 msgstr ""
 
-#: formeditor/commands.cpp:584
+#: formeditor/commands.cpp:585
 msgid "Resize Widgets to Grid"
 msgstr ""
 
-#: formeditor/commands.cpp:587
+#: formeditor/commands.cpp:588
 #, fuzzy
 msgid "Resize Widgets to Fit Contents"
 msgstr "Жадвал таркибини тозалаш"
 
-#: formeditor/commands.cpp:590
+#: formeditor/commands.cpp:591
 msgid "Resize Widgets to Narrowest"
 msgstr ""
 
-#: formeditor/commands.cpp:593
+#: formeditor/commands.cpp:594
 msgid "Resize Widgets to Widest"
 msgstr ""
 
-#: formeditor/commands.cpp:596
+#: formeditor/commands.cpp:597
 msgid "Resize Widgets to Shortest"
 msgstr ""
 
-#: formeditor/commands.cpp:599
+#: formeditor/commands.cpp:600
 msgid "Resize Widgets to Tallest"
 msgstr ""
 
-#: formeditor/commands.cpp:814
+#: formeditor/commands.cpp:815
 #, kde-format
 msgid "Change layout of widget \"%1\""
 msgstr ""
 
-#: formeditor/commands.cpp:920
+#: formeditor/commands.cpp:921
 #, fuzzy, kde-format
 msgid "Insert widget \"%1\""
 msgstr "Хато жадвал номи \"%1\""
 
-#: formeditor/commands.cpp:923
+#: formeditor/commands.cpp:924
 #, fuzzy
 msgid "Insert widget"
 msgstr "Қўйиш"
 
-#: formeditor/commands.cpp:964
+#: formeditor/commands.cpp:965
 #, kde-format
 msgid ""
 "Could not insert widget of type \"%1\". A problem with widget's creation "
 "encountered."
 msgstr ""
 
-#: formeditor/commands.cpp:1152
+#: formeditor/commands.cpp:1153
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Group Widgets Horizontally"
 msgstr "&Энига"
 
-#: formeditor/commands.cpp:1155
+#: formeditor/commands.cpp:1156
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Group Widgets Vertically"
 msgstr "&Бўйига"
 
-#: formeditor/commands.cpp:1158
+#: formeditor/commands.cpp:1159
 msgid "Group Widgets in a Grid"
 msgstr ""
 
-#: formeditor/commands.cpp:1161
+#: formeditor/commands.cpp:1162
 #, fuzzy
 msgid "Group Widgets Horizontally in a Splitter"
 msgstr "&Энига"
 
-#: formeditor/commands.cpp:1164
+#: formeditor/commands.cpp:1165
 #, fuzzy
 msgid "Group Widgets Vertically in a Splitter"
 msgstr "&Энига"
 
-#: formeditor/commands.cpp:1167
+#: formeditor/commands.cpp:1168
 msgid "Group Widgets By Rows"
 msgstr ""
 
-#: formeditor/commands.cpp:1170
+#: formeditor/commands.cpp:1171
 msgid "Group Widgets Vertically By Columns"
 msgstr ""
 
-#: formeditor/commands.cpp:1173
+#: formeditor/commands.cpp:1174
 #, fuzzy
 msgid "Group widgets"
 msgstr "Амалсиз"
 
-#: formeditor/commands.cpp:1303
+#: formeditor/commands.cpp:1304
 #, kde-format
 msgid "Break Layout: \"%1\""
 msgstr ""
 
-#: formeditor/commands.cpp:1385
+#: formeditor/commands.cpp:1386
 #, fuzzy
 #| msgid "Date"
 msgid "Paste"
 msgstr "Сана"
 
-#: formeditor/commands.cpp:1712
+#: formeditor/commands.cpp:1713
 #, fuzzy
 #| msgid "Delete Row"
 msgid "Delete widget"
 msgstr "Сатрни олиб ташлаш"
 
-#: formeditor/commands.cpp:1843
+#: formeditor/commands.cpp:1844
 msgid "Duplicate widget"
 msgstr ""
 
-#: formeditor/commands.cpp:1892
+#: formeditor/commands.cpp:1893
 msgid "Cut"
 msgstr ""
 
-#: formeditor/form.cpp:417
+#: formeditor/commands.cpp:2180
+#, fuzzy
+msgid "Add Page"
+msgstr "Қўшиш мосламалари"
+
+#: formeditor/commands.cpp:2304
+#, fuzzy
+msgid "Remove Page"
+msgstr "Элементни олиб ташлаш"
+
+#: formeditor/form.cpp:420
 #, fuzzy
 #| msgid "&Window"
 msgid "Window title"
 msgstr "&Ойна"
 
-#: formeditor/form.cpp:419
+#: formeditor/form.cpp:422
 msgid "Background Pixmap"
 msgstr ""
 
-#: formeditor/form.cpp:420
+#: formeditor/form.cpp:423
 #, fuzzy
 #| msgid "Table"
 msgid "Enabled"
 msgstr "Жадвал"
 
-#: formeditor/form.cpp:421
+#: formeditor/form.cpp:424
 msgid "Geometry"
 msgstr ""
 
-#: formeditor/form.cpp:422
+#: formeditor/form.cpp:425
 msgid "Size Policy"
 msgstr ""
 
-#: formeditor/form.cpp:423
+#: formeditor/form.cpp:426
 #, fuzzy
 #| msgid "Medium"
 msgid "Minimum Size"
 msgstr "Ўртача"
 
-#: formeditor/form.cpp:424
+#: formeditor/form.cpp:427
 #, fuzzy
 #| msgid "Medium"
 msgid "Maximum Size"
 msgstr "Ўртача"
 
-#: formeditor/form.cpp:425
+#: formeditor/form.cpp:428
 #, fuzzy
 #| msgid "&Font..."
 msgid "Font"
 msgstr "&Шрифт..."
 
-#: formeditor/form.cpp:426
+#: formeditor/form.cpp:429
 #, fuzzy
 msgid "Cursor"
 msgstr "Матн"
 
-#: formeditor/form.cpp:427
+#: formeditor/form.cpp:430
 #, fuzzy
 msgid "Foreground Color"
 msgstr "Фрейм"
 
-#: formeditor/form.cpp:428
+#: formeditor/form.cpp:431
 #, fuzzy
 msgid "Background Color"
 msgstr "Устун"
 
-#: formeditor/form.cpp:429
+#: formeditor/form.cpp:432
 msgid "Focus Policy"
 msgstr ""
 
-#: formeditor/form.cpp:430
+#: formeditor/form.cpp:433
 #, fuzzy
 #| msgid "Min"
 msgid "Margin"
 msgstr "Минимум"
 
-#: formeditor/form.cpp:431
+#: formeditor/form.cpp:434
 msgid "Read Only"
 msgstr ""
 
-#: formeditor/form.cpp:432
+#: formeditor/form.cpp:435
 msgid "Style Sheet"
 msgstr ""
 
-#: formeditor/form.cpp:433
+#: formeditor/form.cpp:436
 #, fuzzy
 msgctxt "Widget's Tooltip"
 msgid "Tooltip"
 msgstr "Жами"
 
-#: formeditor/form.cpp:434
+#: formeditor/form.cpp:437
 msgctxt "Widget's Whats This"
 msgid "What's This"
 msgstr ""
 
-#: formeditor/form.cpp:435
+#: formeditor/form.cpp:438
 #, fuzzy
 msgid "Layout direction"
 msgstr "Амалсиз"
 
-#: formeditor/form.cpp:436
+#: formeditor/form.cpp:439
 #, fuzzy
 #| msgid "Size"
 msgid "Icon Size"
 msgstr "Ўлчами"
 
-#: formeditor/form.cpp:440
+#: formeditor/form.cpp:443
 #, fuzzy
 #| msgid "Frame"
 msgid "Frame Width"
 msgstr "Фрейм"
 
-#: formeditor/form.cpp:441
+#: formeditor/form.cpp:444
 msgid "Mid Frame Width"
 msgstr ""
 
-#: formeditor/form.cpp:442
+#: formeditor/form.cpp:445
 #, fuzzy
 #| msgid "Frame"
 msgid "Frame Shape"
 msgstr "Фрейм"
 
-#: formeditor/form.cpp:443
+#: formeditor/form.cpp:446
 #, fuzzy
 msgid "Frame Shadow"
 msgstr "Фрейм"
 
-#: formeditor/form.cpp:445
+#: formeditor/form.cpp:448
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Vertical Scrollbar"
 msgstr "&Бўйига"
 
-#: formeditor/form.cpp:446
+#: formeditor/form.cpp:449
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Horizontal Scrollbar"
 msgstr "&Энига"
 
-#: formeditor/form.cpp:448
+#: formeditor/form.cpp:451
 #, fuzzy
 msgid "No Background"
 msgstr "Амалсиз"
 
-#: formeditor/form.cpp:449
+#: formeditor/form.cpp:452
 msgid "Palette Foreground"
 msgstr ""
 
-#: formeditor/form.cpp:450
+#: formeditor/form.cpp:453
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
@@ -7207,7 +7212,7 @@ msgctxt "Auto (HINT: for AutoText)"
 msgid "Auto"
 msgstr "Авто"
 
-#: formeditor/form.cpp:452
+#: formeditor/form.cpp:455
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
@@ -7215,7 +7220,7 @@ msgctxt "Auto (HINT: for Align)"
 msgid "Auto"
 msgstr "Авто"
 
-#: formeditor/form.cpp:453
+#: formeditor/form.cpp:456
 #, fuzzy
 #| msgctxt "Label Position"
 #| msgid "Left"
@@ -7223,26 +7228,26 @@ msgctxt "Left (HINT: for Align)"
 msgid "Left"
 msgstr "Чапда"
 
-#: formeditor/form.cpp:454
+#: formeditor/form.cpp:457
 #, fuzzy
 #| msgid "To Right"
 msgctxt "Right (HINT: for Align)"
 msgid "Right"
 msgstr "Ўнгга"
 
-#: formeditor/form.cpp:455 formeditor/form.cpp:457
+#: formeditor/form.cpp:458 formeditor/form.cpp:460
 #, fuzzy
 #| msgid "Create"
 msgctxt "Center (HINT: for Align)"
 msgid "Center"
 msgstr "Яратиш"
 
-#: formeditor/form.cpp:456
+#: formeditor/form.cpp:459
 msgctxt "Justify (HINT: for Align)"
 msgid "Justify"
 msgstr ""
 
-#: formeditor/form.cpp:458
+#: formeditor/form.cpp:461
 #, fuzzy
 #| msgctxt "Label Position"
 #| msgid "Top"
@@ -7250,261 +7255,261 @@ msgctxt "Top (HINT: for Align)"
 msgid "Top"
 msgstr "Юқорида"
 
-#: formeditor/form.cpp:459
+#: formeditor/form.cpp:462
 #, fuzzy
 #| msgid "To Bottom"
 msgctxt "Bottom (HINT: for Align)"
 msgid "Bottom"
 msgstr "Пастга"
 
-#: formeditor/form.cpp:461
+#: formeditor/form.cpp:464
 #, fuzzy
 #| msgid "Frame"
 msgctxt "No Frame (HINT: for Frame Shape)"
 msgid "No Frame"
 msgstr "Фрейм"
 
-#: formeditor/form.cpp:462
+#: formeditor/form.cpp:465
 msgctxt "Box (HINT: for Frame Shape)"
 msgid "Box"
 msgstr ""
 
-#: formeditor/form.cpp:463
+#: formeditor/form.cpp:466
 #, fuzzy
 #| msgid "Page:"
 msgctxt "Panel (HINT: for Frame Shape)"
 msgid "Panel"
 msgstr "Бет:"
 
-#: formeditor/form.cpp:464
+#: formeditor/form.cpp:467
 #, fuzzy
 #| msgid "&Window"
 msgctxt "Windows Panel (HINT: for Frame Shape)"
 msgid "Windows Panel"
 msgstr "&Ойна"
 
-#: formeditor/form.cpp:465
+#: formeditor/form.cpp:468
 #, fuzzy
 #| msgid "&Horizontally"
 msgctxt "Horiz. Line (HINT: for Frame Shape)"
 msgid "Horiz. Line"
 msgstr "&Энига"
 
-#: formeditor/form.cpp:466
+#: formeditor/form.cpp:469
 #, fuzzy
 #| msgid "&Vertically"
 msgctxt "Vertical Line (HINT: for Frame Shape)"
 msgid "Vertical Line"
 msgstr "&Бўйига"
 
-#: formeditor/form.cpp:467
+#: formeditor/form.cpp:470
 msgctxt "Styled (HINT: for Frame Shape)"
 msgid "Styled"
 msgstr ""
 
-#: formeditor/form.cpp:468
+#: formeditor/form.cpp:471
 msgctxt "Popup (HINT: for Frame Shape)"
 msgid "Popup"
 msgstr ""
 
-#: formeditor/form.cpp:469
+#: formeditor/form.cpp:472
 msgctxt "Menu Bar (HINT: for Frame Shape)"
 msgid "Menu Bar"
 msgstr ""
 
-#: formeditor/form.cpp:470
+#: formeditor/form.cpp:473
 #, fuzzy
 msgctxt "Toolbar (HINT: for Frame Shape)"
 msgid "Toolbar"
 msgstr "Жами"
 
-#: formeditor/form.cpp:471
+#: formeditor/form.cpp:474
 #, fuzzy
 msgctxt "Text Box (HINT: for Frame Shape)"
 msgid "Text Box"
 msgstr "Матн"
 
-#: formeditor/form.cpp:472
+#: formeditor/form.cpp:475
 #, fuzzy
 msgctxt "Tab Widget (HINT: for Frame Shape)"
 msgid "Tab Widget"
 msgstr "Узунлашиши бўйича"
 
-#: formeditor/form.cpp:473
+#: formeditor/form.cpp:476
 #, fuzzy
 #| msgid "Group by"
 msgctxt "Group Box (HINT: for Frame Shape)"
 msgid "Group Box"
 msgstr "Гуруҳлаш"
 
-#: formeditor/form.cpp:475
+#: formeditor/form.cpp:478
 #, fuzzy
 msgctxt "Plain (HINT: for Frame Shadow)"
 msgid "Plain"
 msgstr "чизиқ"
 
-#: formeditor/form.cpp:476
+#: formeditor/form.cpp:479
 msgctxt "Raised (HINT: for Frame Shadow)"
 msgid "Raised"
 msgstr ""
 
-#: formeditor/form.cpp:477
+#: formeditor/form.cpp:480
 msgctxt "Sunken (HINT: for Frame Shadow)"
 msgid "Sunken"
 msgstr ""
 
-#: formeditor/form.cpp:478
+#: formeditor/form.cpp:481
 #, fuzzy
 #| msgid "Create"
 msgctxt "for Frame Shadow"
 msgid "Internal"
 msgstr "Яратиш"
 
-#: formeditor/form.cpp:480
+#: formeditor/form.cpp:483
 msgctxt "No Focus (HINT: for Focus)"
 msgid "No Focus"
 msgstr ""
 
-#: formeditor/form.cpp:481
+#: formeditor/form.cpp:484
 #, fuzzy
 #| msgid "Table"
 msgctxt "Tab (HINT: for Focus)"
 msgid "Tab"
 msgstr "Жадвал"
 
-#: formeditor/form.cpp:482
+#: formeditor/form.cpp:485
 #, fuzzy
 msgctxt "Click (HINT: for Focus)"
 msgid "Click"
 msgstr "Сўров"
 
-#: formeditor/form.cpp:483
+#: formeditor/form.cpp:486
 msgctxt "Tab/Click (HINT: for Focus)"
 msgid "Tab/Click"
 msgstr ""
 
-#: formeditor/form.cpp:484
+#: formeditor/form.cpp:487
 msgctxt "Tab/Click/MouseWheel (HINT: for Focus)"
 msgid "Tab/Click/MouseWheel"
 msgstr ""
 
-#: formeditor/form.cpp:486
+#: formeditor/form.cpp:489
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
 msgid "Auto"
 msgstr "Авто"
 
-#: formeditor/form.cpp:487
+#: formeditor/form.cpp:490
 msgid "Always Off"
 msgstr ""
 
-#: formeditor/form.cpp:488
+#: formeditor/form.cpp:491
 msgid "Always On"
 msgstr ""
 
-#: formeditor/form.cpp:491
+#: formeditor/form.cpp:494
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Horizontal"
 msgstr "&Энига"
 
-#: formeditor/form.cpp:492
+#: formeditor/form.cpp:495
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Vertical"
 msgstr "&Бўйига"
 
-#: formeditor/form.cpp:495
+#: formeditor/form.cpp:498
 #, fuzzy
 #| msgid "To Right"
 msgid "Left to Right"
 msgstr "Ўнгга"
 
-#: formeditor/form.cpp:496
+#: formeditor/form.cpp:499
 #, fuzzy
 #| msgid "To Left"
 msgid "Right to Left"
 msgstr "Чапга"
 
-#: formeditor/form.cpp:1289
+#: formeditor/form.cpp:1298
 #, fuzzy, kde-format
 msgid "Renaming widget \"%1\" to \"%2\" failed."
 msgstr "\"%1\" объектини номини ўзгартириб бўлмади."
 
-#: formeditor/form.cpp:1921
+#: formeditor/form.cpp:1942
 #, fuzzy, kde-format
 msgid ""
 "Could not rename widget \"%1\" to \"%2\" because \"%3\" is not a valid name "
 "(identifier) for a widget.\n"
 msgstr "Ушбу номни қўллаб бўлмайди. \"%1\" номли объект аллақачон мавжуд."
 
-#: formeditor/form.cpp:1932
+#: formeditor/form.cpp:1953
 #, fuzzy, kde-format
 msgid ""
 "Could not rename widget \"%1\" to \"%2\" because a widget with the name \"%3"
 "\" already exists.\n"
 msgstr "Ушбу номни қўллаб бўлмайди. \"%1\" номли объект аллақачон мавжуд."
 
-#: formeditor/form.cpp:2030 formeditor/form.cpp:2354
+#: formeditor/form.cpp:2079 formeditor/form.cpp:2403
 #, kde-format
 msgid "Multiple Widgets (%1)"
 msgstr ""
 
-#: formeditor/form.cpp:2196 formeditor/form.cpp:2450
+#: formeditor/form.cpp:2245 formeditor/form.cpp:2499
 msgid "Events"
 msgstr ""
 
-#: formeditor/form.cpp:2344
+#: formeditor/form.cpp:2393
 #, fuzzy, kde-format
 msgid "%1 : Form"
 msgstr "Расм йўқ"
 
-#: formeditor/form.cpp:2406
+#: formeditor/form.cpp:2455
 msgid "No Buddy"
 msgstr ""
 
-#: formeditor/form.cpp:2933
+#: formeditor/form.cpp:2982
 msgid ""
 "<b>Cannot create the layout.</b>\n"
 "All selected widgets must have the same parent."
 msgstr ""
 
-#: formeditor/form.cpp:3001
+#: formeditor/form.cpp:3050
 msgctxt "Translators: please keep this string short (less than 20 chars)"
 msgid "Hor. Alignment"
 msgstr ""
 
-#: formeditor/form.cpp:3002
+#: formeditor/form.cpp:3051
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Horizontal Alignment"
 msgstr "&Энига"
 
-#: formeditor/form.cpp:3024
+#: formeditor/form.cpp:3073
 msgctxt "Translators: please keep this string short (less than 20 chars)"
 msgid "Ver. Alignment"
 msgstr ""
 
-#: formeditor/form.cpp:3025
+#: formeditor/form.cpp:3074
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Vertical Alignment"
 msgstr "&Бўйига"
 
-#: formeditor/form.cpp:3040
+#: formeditor/form.cpp:3089
 msgid "Word Break"
 msgstr ""
 
-#: formeditor/form.cpp:3109
+#: formeditor/form.cpp:3158
 msgid "Container's Layout"
 msgstr ""
 
-#: formeditor/form.cpp:3116
+#: formeditor/form.cpp:3165
 msgid "Layout Margin"
 msgstr ""
 
-#: formeditor/form.cpp:3123
+#: formeditor/form.cpp:3172
 msgid "Layout Spacing"
 msgstr ""
 
@@ -7745,24 +7750,18 @@ msgstr "Амал тури:"
 msgid "&Select action to be executed after clicking \"%1\" button:"
 msgstr ""
 
-#: formeditor/WidgetTreeWidget.cpp:79
-#, fuzzy, kde-format
-#| msgid "Table"
-msgid "Tab %1"
-msgstr "Жадвал"
-
-#: formeditor/WidgetTreeWidget.cpp:84
+#: formeditor/WidgetTreeWidget.cpp:104
 #, fuzzy
 #| msgid "Last Page"
 msgctxt "Tab widget's page"
 msgid "Tab Page"
 msgstr "Охирги бет"
 
-#: formeditor/WidgetTreeWidget.cpp:249
+#: formeditor/WidgetTreeWidget.cpp:269
 msgid "Widget name"
 msgstr ""
 
-#: formeditor/WidgetTreeWidget.cpp:249
+#: formeditor/WidgetTreeWidget.cpp:269
 #, fuzzy
 #| msgid "Type"
 msgctxt "Widget's type"
@@ -8257,6 +8256,11 @@ msgstr ""
 #, fuzzy
 msgid "Prompt on replace"
 msgstr "Ал&маштирилмасин"
+
+#, fuzzy
+#~| msgid "Table"
+#~ msgid "Tab %1"
+#~ msgstr "Жадвал"
 
 #, fuzzy
 #~| msgid "Table"
