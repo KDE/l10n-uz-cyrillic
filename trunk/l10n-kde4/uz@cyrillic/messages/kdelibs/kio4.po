@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-18 06:02+0200\n"
+"POT-Creation-Date: 2010-09-30 06:08+0200\n"
 "PO-Revision-Date: 2009-10-14 00:15+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1944,7 +1944,7 @@ msgstr ""
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Сеанс учун клиент сертификатини ўрнатиш муваффақиятсиз тугади."
 
-#: kio/tcpslavebase.cpp:771 kio/slaveinterface.cpp:484
+#: kio/tcpslavebase.cpp:771 kio/slaveinterface.cpp:485
 msgid "SSL"
 msgstr "SSL"
 
@@ -1960,11 +1960,11 @@ msgstr ""
 msgid "Server Authentication"
 msgstr "Сервер тасдиқлаши"
 
-#: kio/tcpslavebase.cpp:826 kio/slaveinterface.cpp:414 kssl/sslui.cpp:81
+#: kio/tcpslavebase.cpp:826 kio/slaveinterface.cpp:415 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Тафсилотлар"
 
-#: kio/tcpslavebase.cpp:826 kio/slaveinterface.cpp:421 kssl/sslui.cpp:82
+#: kio/tcpslavebase.cpp:826 kio/slaveinterface.cpp:422 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "&Давом этиш"
 
@@ -1973,11 +1973,11 @@ msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 
-#: kio/tcpslavebase.cpp:843 kio/slaveinterface.cpp:416 kssl/sslui.cpp:120
+#: kio/tcpslavebase.cpp:843 kio/slaveinterface.cpp:417 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Ҳамиша"
 
-#: kio/tcpslavebase.cpp:844 kio/slaveinterface.cpp:423 kssl/sslui.cpp:121
+#: kio/tcpslavebase.cpp:844 kio/slaveinterface.cpp:424 kssl/sslui.cpp:121
 #, fuzzy
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
@@ -2506,7 +2506,7 @@ msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1 Б"
 
-#: kio/slaveinterface.cpp:482
+#: kio/slaveinterface.cpp:483
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr ""
 
@@ -4476,7 +4476,7 @@ msgctxt "The certificate is trusted"
 msgid "Yes"
 msgstr "&Тиклаш"
 
-#: kssl/ksslinfodialog.cpp:225
+#: kssl/ksslinfodialog.cpp:225 kssl/kcm/displaycertdialog.cpp:54
 #, fuzzy, kde-format
 #| msgid "%1 / %2"
 msgctxt "%1 is the effective date of the certificate, %2 is the expiry date"
@@ -4571,6 +4571,44 @@ msgstr ""
 #: kssl/ksslutils.cpp:78
 msgid "GMT"
 msgstr "GMT"
+
+#: kssl/kcm/cacertificatespage.cpp:131
+#, fuzzy
+#| msgid "Send certificate"
+msgid "System certificates"
+msgstr "Сертификатни жўнатиш"
+
+#: kssl/kcm/cacertificatespage.cpp:138
+#, fuzzy
+#| msgid "Send certificate"
+msgid "User-added certificates"
+msgstr "Сертификатни жўнатиш"
+
+#: kssl/kcm/cacertificatespage.cpp:295
+#, fuzzy
+#| msgid "Certificate"
+msgid "Pick Certificates"
+msgstr "Сертификат"
+
+#: kssl/kcm/kcmssl.cpp:40
+#, fuzzy
+#| msgid "Reload configuration file"
+msgid "SSL Configuration Module"
+msgstr "Мослама файлини қайтадан юклаш"
+
+#: kssl/kcm/kcmssl.cpp:42
+msgid "Copyright 2010 Andreas Hartmetz"
+msgstr ""
+
+#: kssl/kcm/kcmssl.cpp:43
+msgid "Andreas Hartmetz"
+msgstr ""
+
+#: kssl/kcm/kcmssl.cpp:55
+#, fuzzy
+#| msgid "Link"
+msgid "SSL Signers"
+msgstr "Боғ"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -4891,7 +4929,9 @@ msgstr ""
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:209
 #. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
-#: rc.cpp:168
+#. i18n: file: kssl/kcm/cacertificates.ui:111
+#. i18n: ectx: property (text), widget (KPushButton, add)
+#: rc.cpp:168 rc.cpp:327
 msgid "Add..."
 msgstr "Қўшиш..."
 
@@ -4905,7 +4945,9 @@ msgstr ""
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:219
 #. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
-#: rc.cpp:174
+#. i18n: file: kssl/kcm/cacertificates.ui:104
+#. i18n: ectx: property (text), widget (KPushButton, removeSelection)
+#: rc.cpp:174 rc.cpp:324
 msgid "Remove"
 msgstr "Олиб ташлаш"
 
@@ -5120,6 +5162,110 @@ msgstr "Шаҳар:"
 #. i18n: ectx: property (text), widget (QLabel, city)
 #: rc.cpp:273
 msgid "Lakeridge Meadows"
+msgstr ""
+
+#. i18n: file: kssl/kcm/displaycert.ui:23
+#. i18n: ectx: property (text), widget (QLabel, subjectHeading)
+#: rc.cpp:276
+#, fuzzy
+#| msgid "Security Information"
+msgid "<b>Subject Information</b>"
+msgstr "Хавфсизлик маълумоти"
+
+#. i18n: file: kssl/kcm/displaycert.ui:39
+#. i18n: ectx: property (text), widget (QLabel, issuerHeading)
+#: rc.cpp:279
+#, fuzzy
+#| msgid "<b>Possible solutions</b>:"
+msgid "<b>Issuer Information</b>"
+msgstr "<b>Эхтимол ечимлар</b>:"
+
+#. i18n: file: kssl/kcm/displaycert.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:282
+#, fuzzy
+#| msgid "<b>%1</b>"
+msgid "<b>Other</b>"
+msgstr "<b>%1</b>"
+
+#. i18n: file: kssl/kcm/displaycert.ui:64
+#. i18n: ectx: property (text), widget (QLabel, validityPeriodLabel)
+#: rc.cpp:285
+#, fuzzy
+#| msgid "Valid from:"
+msgid "Validity period"
+msgstr "Дан ҳақиқий:"
+
+#. i18n: file: kssl/kcm/displaycert.ui:71
+#. i18n: ectx: property (text), widget (QLabel, validityPeriod)
+#. i18n: file: kssl/kcm/displaycert.ui:85
+#. i18n: ectx: property (text), widget (QLabel, serialNumber)
+#. i18n: file: kssl/kcm/displaycert.ui:99
+#. i18n: ectx: property (text), widget (QLabel, md5Digest)
+#. i18n: file: kssl/kcm/displaycert.ui:113
+#. i18n: ectx: property (text), widget (QLabel, sha1Digest)
+#: rc.cpp:288 rc.cpp:294 rc.cpp:300 rc.cpp:306
+#, fuzzy
+#| msgid "&Name:"
+msgid "TextLabel"
+msgstr "&Номи:"
+
+#. i18n: file: kssl/kcm/displaycert.ui:78
+#. i18n: ectx: property (text), widget (QLabel, serialNumberLabel)
+#: rc.cpp:291
+#, fuzzy
+#| msgid "Serial number:"
+msgid "Serial number"
+msgstr "Серия рақами:"
+
+#. i18n: file: kssl/kcm/displaycert.ui:92
+#. i18n: ectx: property (text), widget (QLabel, md5DigestLabel)
+#: rc.cpp:297
+#, fuzzy
+#| msgid "MD5 digest:"
+msgid "MD5 digest"
+msgstr "MD5 дайжест:"
+
+#. i18n: file: kssl/kcm/displaycert.ui:106
+#. i18n: ectx: property (text), widget (QLabel, sha1DigestLabel)
+#: rc.cpp:303
+#, fuzzy
+#| msgid "MD5 digest:"
+msgid "SHA1 digest"
+msgstr "MD5 дайжест:"
+
+#. i18n: file: kssl/kcm/cacertificates.ui:24
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:309
+#, fuzzy
+#| msgid "Organization:"
+msgid "Organization / Common Name"
+msgstr "Ташкилот:"
+
+#. i18n: file: kssl/kcm/cacertificates.ui:29
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.cpp:312
+#, fuzzy
+#| msgid "Organizational unit:"
+msgid "Organizational Unit"
+msgstr "Бўлим:"
+
+#. i18n: file: kssl/kcm/cacertificates.ui:42
+#. i18n: ectx: property (text), widget (QPushButton, displaySelection)
+#: rc.cpp:315
+msgid "Display..."
+msgstr ""
+
+#. i18n: file: kssl/kcm/cacertificates.ui:68
+#. i18n: ectx: property (text), widget (KPushButton, disableSelection)
+#: rc.cpp:318
+msgid "Disable"
+msgstr ""
+
+#. i18n: file: kssl/kcm/cacertificates.ui:78
+#. i18n: ectx: property (text), widget (QPushButton, enableSelection)
+#: rc.cpp:321
+msgid "Enable"
 msgstr ""
 
 #: ../kioslave/file/file.cpp:209
@@ -6843,11 +6989,6 @@ msgstr "Яширилган жилдларни кўрсатиш"
 #~| msgid "Common name:"
 #~ msgid "Common Name:"
 #~ msgstr "Умумий номи:"
-
-#, fuzzy
-#~| msgid "Organizational unit:"
-#~ msgid "Organizational Unit:"
-#~ msgstr "Бўлим:"
 
 #~ msgid "Pattern ( example: *.html;*.htm )"
 #~ msgstr "Намуна (мисол: *.html;*.htm)"
