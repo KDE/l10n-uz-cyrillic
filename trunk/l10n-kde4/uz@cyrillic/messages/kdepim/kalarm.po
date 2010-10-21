@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-20 06:10+0200\n"
+"POT-Creation-Date: 2010-10-21 06:18+0200\n"
 "PO-Revision-Date: 2006-12-17 13:25+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -92,14 +92,15 @@ msgctxt "@info/plain"
 msgid "At login"
 msgstr "Тизимга киришда"
 
-#: cal/kaevent.cpp:3286 cal/kaevent.cpp:3321
+#: cal/kaevent.cpp:3286 cal/kaevent.cpp:3321 akonadi/kaeventformatter.cpp:318
+#: akonadi/kaeventformatter.cpp:332
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Minute"
 msgid_plural "%1 Minutes"
 msgstr[0] "1 дақиқа"
 
-#: cal/kaevent.cpp:3288 cal/kaevent.cpp:3323
+#: cal/kaevent.cpp:3288 cal/kaevent.cpp:3323 akonadi/kaeventformatter.cpp:334
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Hour"
@@ -114,7 +115,7 @@ msgctxt "@info/plain Hours and minutes"
 msgid "%1h %2m"
 msgstr "%1: %2"
 
-#: cal/kaevent.cpp:3295 cal/kaevent.cpp:3329
+#: cal/kaevent.cpp:3295 cal/kaevent.cpp:3329 akonadi/kaeventformatter.cpp:336
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Day"
@@ -536,131 +537,122 @@ msgctxt "@info"
 msgid "Event with uid '%1' is read only"
 msgstr ""
 
-#: akonadi/akonadi_serializer_kalarm.cpp:105
+#: akonadi/akonadi_serializer_kalarm.cpp:106
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@title:column"
 msgid "Changed Alarm"
 msgstr "Буйруқ орқали огоҳлантиришлар"
 
-#: akonadi/akonadi_serializer_kalarm.cpp:106
+#: akonadi/akonadi_serializer_kalarm.cpp:107
 msgctxt "@title:column"
 msgid "Conflicting Alarm"
 msgstr ""
 
-#: akonadi/kaeventformatter.cpp:48
-msgctxt "@label"
-msgid "ID"
+#: akonadi/kaeventformatter.cpp:50
+msgctxt "@label Unique identifier"
+msgid "UID"
 msgstr ""
 
-#: akonadi/kaeventformatter.cpp:49
+#: akonadi/kaeventformatter.cpp:51
 #, fuzzy
 #| msgid "Alarm Type"
 msgctxt "@label"
 msgid "Alarm type"
 msgstr "Огоҳлантириш тури"
 
-#: akonadi/kaeventformatter.cpp:50
+#: akonadi/kaeventformatter.cpp:52
 #, fuzzy
 #| msgid "Alarm Templates"
 msgctxt "@label"
 msgid "Alarm status"
 msgstr "Огоҳлантириш намуналари"
 
-#: akonadi/kaeventformatter.cpp:51
+#: akonadi/kaeventformatter.cpp:53
 #, fuzzy
 #| msgid "Template name:"
 msgctxt "@label"
 msgid "Template name"
 msgstr "Намуна номи:"
 
-#: akonadi/kaeventformatter.cpp:52
+#: akonadi/kaeventformatter.cpp:54
 #, fuzzy
 #| msgid "&Default time"
 msgctxt "@label"
 msgid "Creation time"
 msgstr "&Андоза вақт"
 
-#: akonadi/kaeventformatter.cpp:53
+#: akonadi/kaeventformatter.cpp:55
 #, fuzzy
 msgctxt "@label"
 msgid "Start time"
 msgstr "Тизимга &киришда автоматик бошлаш"
 
-#: akonadi/kaeventformatter.cpp:54
+#: akonadi/kaeventformatter.cpp:56
 #, fuzzy
 #| msgid "Template name:"
-msgctxt "@label"
+msgctxt "@label Start delay configured in an alarm template"
 msgid "Template after time"
 msgstr "Намуна номи:"
 
-#: akonadi/kaeventformatter.cpp:55
+#: akonadi/kaeventformatter.cpp:57
 #, fuzzy
 msgctxt "@label"
 msgid "Recurs"
 msgstr "%1 қуйидагини талаб қилади: %2"
 
-#: akonadi/kaeventformatter.cpp:56
+#: akonadi/kaeventformatter.cpp:58
 #, fuzzy
 #| msgid "Repeat"
 msgctxt "@label"
 msgid "Recurrence"
 msgstr "Қайтариш"
 
-#: akonadi/kaeventformatter.cpp:57
-#, fuzzy
-#| msgid "&Number of repetitions:"
-msgctxt "@label"
-msgid "Sub repetition interval"
-msgstr "&Такрорланиш сони:"
-
-#: akonadi/kaeventformatter.cpp:58
-#, fuzzy
-#| msgid "&Number of repetitions:"
-msgctxt "@label"
-msgid "Sub repetition count"
-msgstr "&Такрорланиш сони:"
-
 #: akonadi/kaeventformatter.cpp:59
+#, fuzzy
+#| msgid "&Number of repetitions:"
+msgctxt "@label"
+msgid "Sub-repetition"
+msgstr "&Такрорланиш сони:"
+
+#: akonadi/kaeventformatter.cpp:60
+#, fuzzy
+#| msgid "&Number of repetitions:"
+msgctxt "@label"
+msgid "Sub-repetition interval"
+msgstr "&Такрорланиш сони:"
+
+#: akonadi/kaeventformatter.cpp:61
+#, fuzzy
+#| msgid "&Number of repetitions:"
+msgctxt "@label"
+msgid "Sub-repetition count"
+msgstr "&Такрорланиш сони:"
+
+#: akonadi/kaeventformatter.cpp:62
+#, fuzzy
+#| msgid "&Number of repetitions:"
+msgctxt "@label"
+msgid "Next sub-repetition"
+msgstr "&Такрорланиш сони:"
+
+#: akonadi/kaeventformatter.cpp:63
 #, fuzzy
 msgctxt "@label"
 msgid "Work time only"
 msgstr "Вақт:"
 
-#: akonadi/kaeventformatter.cpp:60
+#: akonadi/kaeventformatter.cpp:64
 msgctxt "@label"
 msgid "Holidays excluded"
 msgstr ""
 
-#: akonadi/kaeventformatter.cpp:61
+#: akonadi/kaeventformatter.cpp:65
 #, fuzzy
 #| msgid "Repeat"
 msgctxt "@label"
 msgid "Next recurrence"
 msgstr "Қайтариш"
-
-#: akonadi/kaeventformatter.cpp:62
-#, fuzzy
-#| msgid "Reminder"
-msgctxt "@label"
-msgid "Reminder"
-msgstr "Эсга солиш"
-
-#: akonadi/kaeventformatter.cpp:63
-#, fuzzy
-msgctxt "@label"
-msgid "Deferral"
-msgstr "Бекор қилиш"
-
-#: akonadi/kaeventformatter.cpp:64
-msgctxt "@label"
-msgid "Deferral default"
-msgstr ""
-
-#: akonadi/kaeventformatter.cpp:65
-msgctxt "@label"
-msgid "Deferral default date only"
-msgstr ""
 
 #: akonadi/kaeventformatter.cpp:66
 msgctxt "@label"
@@ -668,7 +660,7 @@ msgid "Late cancel"
 msgstr ""
 
 #: akonadi/kaeventformatter.cpp:67
-msgctxt "@label"
+msgctxt "@label Automatically close window"
 msgid "Auto close"
 msgstr ""
 
@@ -688,7 +680,7 @@ msgstr "Ёқиш"
 
 #: akonadi/kaeventformatter.cpp:70
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Whether alarm should be archived"
 msgid "Archive"
 msgstr "Акти&в"
 
@@ -705,7 +697,7 @@ msgstr "Хабар"
 
 #: akonadi/kaeventformatter.cpp:74
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label File to provide text for message"
 msgid "Message file"
 msgstr "Хабар"
 
@@ -731,11 +723,9 @@ msgctxt "@label"
 msgid "Font"
 msgstr ""
 
-#. i18n: file: kalarmconfig.kcfg:347
-#. i18n: ectx: label, entry (DefaultPreAction), group (Defaults)
-#: akonadi/kaeventformatter.cpp:78 rc.cpp:336
+#: akonadi/kaeventformatter.cpp:78
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Shell command to execute before alarm"
 msgid "Pre-alarm action"
 msgstr "Огоҳлантиришдан олдинги амал:"
 
@@ -751,11 +741,9 @@ msgctxt "@label"
 msgid "Pre-alarm action no error"
 msgstr "Огоҳлантиришдан олдинги амал:"
 
-#. i18n: file: kalarmconfig.kcfg:361
-#. i18n: ectx: label, entry (DefaultPostAction), group (Defaults)
-#: akonadi/kaeventformatter.cpp:81 rc.cpp:354
+#: akonadi/kaeventformatter.cpp:81
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Shell command to execute after alarm"
 msgid "Post-alarm action"
 msgstr "Огоҳлантиришдан кейинги амал:"
 
@@ -780,7 +768,7 @@ msgstr "Товуш"
 
 #: akonadi/kaeventformatter.cpp:85
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Whether audio should repeat"
 msgid "Sound repeat"
 msgstr "Такрор&ланмасин"
 
@@ -804,7 +792,44 @@ msgctxt "@label"
 msgid "Sound fade time"
 msgstr "Товуш ф&айли:"
 
+#: akonadi/kaeventformatter.cpp:89
+#, fuzzy
+#| msgid "Reminder"
+msgctxt "@label Whether the alarm has a reminder"
+msgid "Reminder"
+msgstr "Эсга солиш"
+
 #: akonadi/kaeventformatter.cpp:90
+#, fuzzy
+msgctxt "@label Whether reminder is on first recurrence only"
+msgid "Reminder once only"
+msgstr "Эсга солиш"
+
+#: akonadi/kaeventformatter.cpp:91
+#, fuzzy
+msgctxt "@label Deferral type"
+msgid "Deferral"
+msgstr "Бекор қилиш"
+
+#: akonadi/kaeventformatter.cpp:92
+#, fuzzy
+#| msgid "&Default time"
+msgctxt "@label"
+msgid "Deferral time"
+msgstr "&Андоза вақт"
+
+#: akonadi/kaeventformatter.cpp:93
+#, fuzzy
+msgctxt "@label Default deferral delay"
+msgid "Deferral default"
+msgstr "Бекор қилиш"
+
+#: akonadi/kaeventformatter.cpp:94
+msgctxt "@label Whether deferral time is date-only by default"
+msgid "Deferral default date only"
+msgstr ""
+
+#: akonadi/kaeventformatter.cpp:96
 #, fuzzy
 #| msgid "Co&mmand"
 msgctxt "@label A shell command"
@@ -813,147 +838,154 @@ msgstr "Буй&руқ"
 
 #. i18n: file: kalarmconfig.kcfg:304
 #. i18n: ectx: label, entry (DefaultCmdLogFile), group (Defaults)
-#: akonadi/kaeventformatter.cpp:91 rc.cpp:285
+#: akonadi/kaeventformatter.cpp:97 rc.cpp:285
 #, fuzzy
 msgctxt "@label"
 msgid "Log file"
 msgstr "&Файлга сақлаш"
 
-#: akonadi/kaeventformatter.cpp:92
+#: akonadi/kaeventformatter.cpp:98
 #, fuzzy
-#| msgid "Command Alarms"
-msgctxt "@label"
-msgid "Command X-terminal"
-msgstr "Буйруқ орқали огоҳлантиришлар"
+#| msgid "Execute in terminal window"
+msgctxt "@label Execute in terminal window"
+msgid "Execute in terminal"
+msgstr "Терминал ойнасида ишга тушириш"
 
-#: akonadi/kaeventformatter.cpp:94
+#: akonadi/kaeventformatter.cpp:100
 #, fuzzy
 #| msgid "Email subject line"
 msgctxt "@label"
 msgid "Email subject"
 msgstr "Хатнинг мавзуси"
 
-#: akonadi/kaeventformatter.cpp:95
+#: akonadi/kaeventformatter.cpp:101
 #, fuzzy
 #| msgid "Email subject line"
 msgctxt "@label Email address"
 msgid "Email sender ID"
 msgstr "Хатнинг мавзуси"
 
-#: akonadi/kaeventformatter.cpp:96
+#: akonadi/kaeventformatter.cpp:102
 #, fuzzy
 #| msgid "Email"
 msgctxt "@label Email address"
 msgid "Email to"
 msgstr "Электрон почта"
 
-#: akonadi/kaeventformatter.cpp:97
+#: akonadi/kaeventformatter.cpp:103
 #, fuzzy
 #| msgid "Email"
 msgctxt "@label true/false"
 msgid "Email bcc"
 msgstr "Электрон почта"
 
-#: akonadi/kaeventformatter.cpp:98
+#: akonadi/kaeventformatter.cpp:104
 #, fuzzy
 #| msgid "Email"
 msgctxt "@label"
 msgid "Email body"
 msgstr "Электрон почта"
 
-#: akonadi/kaeventformatter.cpp:99
+#: akonadi/kaeventformatter.cpp:105
 #, fuzzy
 msgctxt "@label"
 msgid "Email attachments"
 msgstr "Электрон почта дастури:"
 
-#: akonadi/kaeventformatter.cpp:188
+#: akonadi/kaeventformatter.cpp:201
 #, fuzzy
-#| msgid "File to display"
+#| msgid "Display Alarms"
 msgctxt "@info/plain Alarm type"
-msgid "Text display"
-msgstr "Кўрсатиш учун файл"
+msgid "Display (text)"
+msgstr "Огоҳлантиришларни кўрсатиш"
 
-#: akonadi/kaeventformatter.cpp:189
+#: akonadi/kaeventformatter.cpp:202
 #, fuzzy
-#| msgid "File to display"
+#| msgid "Display the file now"
 msgctxt "@info/plain Alarm type"
-msgid "File display"
-msgstr "Кўрсатиш учун файл"
+msgid "Display (file)"
+msgstr "Файлни дарҳол кўрсатиш"
 
-#: akonadi/kaeventformatter.cpp:191
+#: akonadi/kaeventformatter.cpp:204
 #, fuzzy
-#| msgid "Command Alarms"
+#| msgid "Display the alarm message now"
 msgctxt "@info/plain Alarm type"
-msgid "Command display"
-msgstr "Буйруқ орқали огоҳлантиришлар"
+msgid "Display (command)"
+msgstr "Огоҳлантириш хабарини дарҳол кўрсатиш"
 
-#: akonadi/kaeventformatter.cpp:192
+#: akonadi/kaeventformatter.cpp:205
 #, fuzzy
 #| msgid "Co&mmand"
 msgctxt "@info/plain Alarm type"
 msgid "Command"
 msgstr "Буй&руқ"
 
-#: akonadi/kaeventformatter.cpp:193
+#: akonadi/kaeventformatter.cpp:206
 #, fuzzy
 #| msgid "Email"
 msgctxt "@info/plain Alarm type"
 msgid "Email"
 msgstr "Электрон почта"
 
-#: akonadi/kaeventformatter.cpp:194
+#: akonadi/kaeventformatter.cpp:207
 msgctxt "@info/plain Alarm type"
 msgid "Audio"
 msgstr ""
 
-#: akonadi/kaeventformatter.cpp:200
+#: akonadi/kaeventformatter.cpp:213
 #, fuzzy
 #| msgid "Acti&ve"
 msgctxt "@info/plain Alarm type"
 msgid "Active"
 msgstr "Акти&в"
 
-#: akonadi/kaeventformatter.cpp:201
+#: akonadi/kaeventformatter.cpp:214
 #, fuzzy
 msgctxt "@info/plain Alarm type"
 msgid "Archived"
 msgstr "Акти&в"
 
-#: akonadi/kaeventformatter.cpp:202
+#: akonadi/kaeventformatter.cpp:215
 #, fuzzy
 #| msgid "&Templates..."
 msgctxt "@info/plain Alarm type"
 msgid "Template"
 msgstr "&Намуналар..."
 
-#: akonadi/kaeventformatter.cpp:215
+#: akonadi/kaeventformatter.cpp:228
 #, fuzzy, kde-format
 #| msgid "At login"
 msgctxt "@info/plain Repeat at login"
 msgid "At login until %1"
 msgstr "Тизимга киришда"
 
-#: akonadi/kaeventformatter.cpp:241
+#: akonadi/kaeventformatter.cpp:261
 #, fuzzy
 #| msgid "&Default time"
 msgctxt "@info/plain Using default font"
 msgid "Default"
 msgstr "&Андоза вақт"
 
-#: akonadi/kaeventformatter.cpp:249
+#: akonadi/kaeventformatter.cpp:268
+#, fuzzy
+#| msgid "Reminder"
+msgctxt "@info/plain"
+msgid "Reminder"
+msgstr "Эсга солиш"
+
+#: akonadi/kaeventformatter.cpp:275
 msgctxt "@info/plain"
 msgid "Speak"
 msgstr ""
 
-#: akonadi/kaeventformatter.cpp:250
+#: akonadi/kaeventformatter.cpp:276
 #, fuzzy
 #| msgid "Beep"
 msgctxt "@info/plain"
 msgid "Beep"
 msgstr "Бип"
 
-#: akonadi/kaeventformatter.cpp:253 akonadi/kaeventformatter.cpp:256
+#: akonadi/kaeventformatter.cpp:279 akonadi/kaeventformatter.cpp:282
 #, fuzzy, kde-format
 #| msgctxt "Undo-action: message"
 #| msgid "%1: %2"
@@ -961,34 +993,29 @@ msgctxt "@info/plain Percentage"
 msgid "%1%%"
 msgstr "%1: %2"
 
-#: akonadi/kaeventformatter.cpp:259
+#: akonadi/kaeventformatter.cpp:285
 #, fuzzy, c-format
 #| msgid "seconds"
 msgctxt "@info/plain"
-msgid "%s seconds"
+msgid "%s Seconds"
 msgstr "сония"
 
-#: akonadi/kaeventformatter.cpp:273
+#: akonadi/kaeventformatter.cpp:299
 msgctxt "@info/plain Error indication"
 msgid "error!"
 msgstr ""
 
-#: akonadi/kaeventformatter.cpp:278
-msgctxt "@info/plain General purpose status indication: true or false"
-msgid "true"
+#: akonadi/kaeventformatter.cpp:304
+msgctxt "@info/plain General purpose status indication: yes or no"
+msgid "Yes"
 msgstr ""
 
-#: akonadi/kaeventformatter.cpp:279
-msgctxt "@info/plain General purpose status indication: true or false"
-msgid "false"
-msgstr ""
-
-#: akonadi/kaeventformatter.cpp:292
-#, fuzzy, kde-format
-msgctxt "@info/plain"
-msgid "1 minute"
-msgid_plural "%1 minutes"
-msgstr[0] "1 дақиқа"
+#: akonadi/kaeventformatter.cpp:305
+#, fuzzy
+#| msgid "None"
+msgctxt "@info/plain General purpose status indication: yes or no"
+msgid "No"
+msgstr "Йўқ"
 
 #: kamail.cpp:88
 #, fuzzy
@@ -4639,6 +4666,14 @@ msgctxt "@option"
 msgid "Hours/Minutes"
 msgstr "Соат/дақиқа"
 
+#. i18n: file: kalarmconfig.kcfg:347
+#. i18n: ectx: label, entry (DefaultPreAction), group (Defaults)
+#: rc.cpp:336
+#, fuzzy
+msgctxt "@label"
+msgid "Pre-alarm action"
+msgstr "Огоҳлантиришдан олдинги амал:"
+
 #. i18n: file: kalarmconfig.kcfg:348
 #. i18n: ectx: whatsthis, entry (DefaultPreAction), group (Defaults)
 #: rc.cpp:339
@@ -4681,6 +4716,14 @@ msgid ""
 "Default setting for whether to show no error status or error message if the "
 "pre-alarm action command fails."
 msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:361
+#. i18n: ectx: label, entry (DefaultPostAction), group (Defaults)
+#: rc.cpp:354
+#, fuzzy
+msgctxt "@label"
+msgid "Post-alarm action"
+msgstr "Огоҳлантиришдан кейинги амал:"
 
 #. i18n: file: kalarmconfig.kcfg:362
 #. i18n: ectx: whatsthis, entry (DefaultPostAction), group (Defaults)
@@ -7438,6 +7481,36 @@ msgid "Choose Calendar"
 msgstr "Календар файлининг манзили"
 
 #, fuzzy
+#~| msgid "Command Alarms"
+#~ msgctxt "@label"
+#~ msgid "Command X-terminal"
+#~ msgstr "Буйруқ орқали огоҳлантиришлар"
+
+#, fuzzy
+#~| msgid "File to display"
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Text display"
+#~ msgstr "Кўрсатиш учун файл"
+
+#, fuzzy
+#~| msgid "File to display"
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "File display"
+#~ msgstr "Кўрсатиш учун файл"
+
+#, fuzzy
+#~| msgid "Command Alarms"
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Command display"
+#~ msgstr "Буйруқ орқали огоҳлантиришлар"
+
+#, fuzzy
+#~ msgctxt "@info/plain"
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "1 дақиқа"
+
+#, fuzzy
 #~| msgid "Date cannot be later than %1"
 #~ msgctxt "@info"
 #~ msgid "Date cannot be later than %1"
@@ -7907,12 +7980,6 @@ msgstr "Календар файлининг манзили"
 #~ msgctxt "@info:plain"
 #~ msgid "Hours and minutes"
 #~ msgstr "Соат/дақиқа"
-
-#, fuzzy
-#~| msgid "&Number of repetitions:"
-#~ msgctxt "@info:plain"
-#~ msgid "No repetition"
-#~ msgstr "&Такрорланиш сони:"
 
 #, fuzzy
 #~| msgid "&Background color:"
