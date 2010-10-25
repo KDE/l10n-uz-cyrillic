@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-23 06:47+0200\n"
+"POT-Creation-Date: 2010-10-25 06:06+0200\n"
 "PO-Revision-Date: 2006-12-17 13:25+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -320,18 +320,18 @@ msgctxt "@option Name of the weekday"
 msgid "Sunday"
 msgstr "Товуш"
 
-#: resources/resourcelocaldir.cpp:484 akonadimodel.cpp:965
+#: resources/resourcelocaldir.cpp:484 akonadimodel.cpp:954
 msgctxt "@info/plain Directory in filesystem"
 msgid "Directory"
 msgstr ""
 
-#: resources/resourcelocal.cpp:268 akonadimodel.cpp:966
+#: resources/resourcelocal.cpp:268 akonadimodel.cpp:955
 #, fuzzy
 msgctxt "@info/plain"
 msgid "File"
 msgstr "Фай&л"
 
-#: resources/resourceremote.cpp:365 akonadimodel.cpp:964
+#: resources/resourceremote.cpp:365 akonadimodel.cpp:953
 msgctxt "@info/plain"
 msgid "URL"
 msgstr ""
@@ -356,7 +356,7 @@ msgid "Alarm templates"
 msgstr "Огоҳлантириш намуналари"
 
 #: resources/alarmresource.cpp:358 resourcemodelview.cpp:114
-#: resourceselector.cpp:713 akonadimodel.cpp:236
+#: resourceselector.cpp:713 akonadimodel.cpp:225
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Read-only"
@@ -382,7 +382,7 @@ msgid "Disabled (wrong alarm type)"
 msgstr "Ў&чирилган огоҳлантиришнинг ранги:"
 
 #: resources/alarmresource.cpp:359 resourcemodelview.cpp:113
-#: resourceselector.cpp:718 akonadimodel.cpp:235
+#: resourceselector.cpp:718 akonadimodel.cpp:224
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Disabled"
@@ -423,8 +423,8 @@ msgctxt "@info"
 msgid "No location specified.  The calendar will be invalid."
 msgstr ""
 
-#: resources/resourcelocalwidget.cpp:44 alarmcalendar.cpp:767
-#: alarmcalendar.cpp:968
+#: resources/resourcelocalwidget.cpp:44 alarmcalendar.cpp:769
+#: alarmcalendar.cpp:970
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Calendar Files"
@@ -1329,7 +1329,7 @@ msgctxt "@info/plain"
 msgid "Reactivate multiple alarms"
 msgstr "Кўп такрорланувчи огоҳлантиришларни қайта активлаштириш"
 
-#: resourcemodelview.cpp:117 akonadimodel.cpp:240
+#: resourcemodelview.cpp:117 akonadimodel.cpp:229
 #, fuzzy, kde-format
 #| msgid ""
 #| "Error attaching file:\n"
@@ -1340,7 +1340,7 @@ msgstr ""
 "Файлни илова қилиш хатоси:\n"
 "%1"
 
-#: resourcemodelview.cpp:123 akonadimodel.cpp:246
+#: resourcemodelview.cpp:123 akonadimodel.cpp:235
 #, fuzzy, kde-format
 #| msgid ""
 #| "Error attaching file:\n"
@@ -1351,7 +1351,7 @@ msgstr ""
 "Файлни илова қилиш хатоси:\n"
 "%1"
 
-#: resourcemodelview.cpp:129 akonadimodel.cpp:251
+#: resourcemodelview.cpp:129 akonadimodel.cpp:240
 #, fuzzy, kde-format
 #| msgid ""
 #| "Error attaching file:\n"
@@ -1362,13 +1362,13 @@ msgstr ""
 "Файлни илова қилиш хатоси:\n"
 "%1"
 
-#: resourcemodelview.cpp:416 akonadimodel.cpp:1978
+#: resourcemodelview.cpp:416 collectionmodel.cpp:277
 #, fuzzy
 msgctxt "@info"
 msgid "You cannot disable your default active alarm calendar."
 msgstr "Ростдан ҳам ушбу огоҳлантиришни тасдиқлайсизми?"
 
-#: resourcemodelview.cpp:425 akonadimodel.cpp:1984
+#: resourcemodelview.cpp:425 collectionmodel.cpp:283
 #, fuzzy
 msgctxt "@info"
 msgid ""
@@ -1376,7 +1376,7 @@ msgid ""
 "are configured to be kept."
 msgstr "Ростдан ҳам ушбу огоҳлантиришни тасдиқлайсизми?"
 
-#: resourcemodelview.cpp:430 akonadimodel.cpp:1988
+#: resourcemodelview.cpp:430 collectionmodel.cpp:287
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to disable your default calendar?"
@@ -1539,7 +1539,1034 @@ msgctxt "@title:window"
 msgid "Choose Sound File"
 msgstr "Товуш файлини танланг"
 
-#: alarmcalendar.cpp:307 alarmcalendar.cpp:798
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Нурали Абдураҳмонов"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mavnur@gmail.com"
+
+#. i18n: file: akonadi/kalarmresource.kcfg:9
+#. i18n: ectx: label, entry (Path), group (General)
+#: rc.cpp:5
+#, fuzzy
+#| msgid "URL of calendar file"
+msgid "Path to KAlarm calendar file."
+msgstr "Календар файлининг манзили"
+
+#. i18n: file: akonadi/kalarmresource.kcfg:13
+#. i18n: ectx: label, entry (DisplayName), group (General)
+#: rc.cpp:8
+#, fuzzy
+#| msgid "Display Alarms"
+msgid "Display name."
+msgstr "Огоҳлантиришларни кўрсатиш"
+
+#. i18n: file: akonadi/kalarmresource.kcfg:17
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: rc.cpp:11
+msgid "Do not change the actual backend data."
+msgstr ""
+
+#. i18n: file: akonadi/kalarmresource.kcfg:21
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: rc.cpp:14
+msgid "Monitor file for changes."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:58
+#. i18n: ectx: label, entry (Version), group (General)
+#: rc.cpp:17
+#, fuzzy
+msgctxt "@label"
+msgid "KAlarm version"
+msgstr "KAlarm демони"
+
+#. i18n: file: kalarmconfig.kcfg:59
+#. i18n: ectx: whatsthis, entry (Version), group (General)
+#: rc.cpp:20
+msgctxt "@info:whatsthis"
+msgid "KAlarm version which wrote this file."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:62
+#. i18n: ectx: label, entry (Base_TimeZone), group (General)
+#: rc.cpp:23
+#, fuzzy
+msgctxt "@label"
+msgid "Time zone"
+msgstr "Вақт"
+
+#. i18n: file: kalarmconfig.kcfg:63
+#. i18n: ectx: whatsthis, entry (Base_TimeZone), group (General)
+#: rc.cpp:26 prefdlg.cpp:626
+msgctxt "@info:whatsthis"
+msgid ""
+"Select the time zone which <application>KAlarm</application> should use as "
+"its default for displaying and entering dates and times."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:67
+#. i18n: ectx: label, entry (Base_HolidayRegion), group (General)
+#: rc.cpp:29
+msgctxt "@label"
+msgid "Holiday region"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:68
+#. i18n: ectx: whatsthis, entry (Base_HolidayRegion), group (General)
+#: rc.cpp:32
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Select the holiday region to use."
+msgstr "Огоҳлантиришни режалаштириш учун вақтни кўрсатинг."
+
+#. i18n: file: kalarmconfig.kcfg:73
+#. i18n: ectx: whatsthis, entry (DefaultFgColour), group (General)
+#: rc.cpp:38
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default foreground color for alarm message windows."
+msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:78
+#. i18n: ectx: whatsthis, entry (DefaultBgColour), group (General)
+#: rc.cpp:44
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default background color for alarm message windows."
+msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:82
+#. i18n: ectx: label, entry (MessageFont), group (General)
+#: rc.cpp:47
+#, fuzzy
+msgctxt "@label"
+msgid "Message font"
+msgstr "Хабар"
+
+#. i18n: file: kalarmconfig.kcfg:83
+#. i18n: ectx: whatsthis, entry (MessageFont), group (General)
+#: rc.cpp:50
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default font for displaying alarm messages."
+msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:88
+#. i18n: ectx: label, entry (ShowInSystemTray), group (General)
+#: rc.cpp:53
+#, fuzzy
+msgctxt "@label"
+msgid "Show in system tray"
+msgstr "Огоҳлантири&шга қолган вақтни кўрсатиш"
+
+#. i18n: file: kalarmconfig.kcfg:89
+#. i18n: ectx: whatsthis, entry (ShowInSystemTray), group (General)
+#: rc.cpp:56 prefdlg.cpp:1585
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check to show <application>KAlarm</application>'s icon in the system "
+"tray. Showing it in the system tray provides easy access and a status "
+"indication.</para>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:94
+#. i18n: ectx: label, entry (AutoStart), group (General)
+#: rc.cpp:59
+#, fuzzy
+msgctxt "@label"
+msgid "Start at login"
+msgstr "Тизимга &киришда автоматик бошлаш"
+
+#. i18n: file: kalarmconfig.kcfg:95
+#. i18n: ectx: whatsthis, entry (AutoStart), group (General)
+#: rc.cpp:62 prefdlg.cpp:420
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Automatically start <application>KAlarm</application> whenever you "
+"start KDE.</para><para>This option should always be checked unless you "
+"intend to discontinue use of <application>KAlarm</application>.</para>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:99
+#. i18n: ectx: label, entry (NoAutoStart), group (General)
+#: rc.cpp:65
+#, fuzzy
+msgctxt "@label"
+msgid "Suppress autostart at login"
+msgstr "Тизимга &киришда автоматик бошлаш"
+
+#. i18n: file: kalarmconfig.kcfg:103
+#. i18n: ectx: label, entry (DefaultDeferTime), group (General)
+#: rc.cpp:68
+#, fuzzy
+#| msgid "&Default time"
+msgctxt "@label"
+msgid "Default defer time interval"
+msgstr "&Андоза вақт"
+
+#. i18n: file: kalarmconfig.kcfg:104
+#. i18n: ectx: whatsthis, entry (DefaultDeferTime), group (General)
+#: rc.cpp:71
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the default time interval (in minutes) to defer alarms, used by the "
+"Defer Alarm dialog."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:108
+#. i18n: ectx: label, entry (AskResource), group (General)
+#: rc.cpp:74
+msgctxt "@label"
+msgid "Prompt for which calendar to store in"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:109
+#. i18n: ectx: whatsthis, entry (AskResource), group (General)
+#: rc.cpp:77 prefdlg.cpp:846
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>When saving a new alarm or alarm template, prompt for which calendar "
+"to store it in, if there is more than one active calendar.</para><para>Note "
+"that archived alarms are always stored in the default archived alarm "
+"calendar.</para>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:114
+#. i18n: ectx: label, entry (ModalMessages), group (General)
+#: rc.cpp:80
+msgctxt "@label"
+msgid "Message windows have a title bar and take keyboard focus"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:115
+#. i18n: ectx: whatsthis, entry (ModalMessages), group (General)
+#: rc.cpp:83 prefdlg.cpp:1715
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify the characteristics of alarm message windows:<list><item>If "
+"checked, the window is a normal window with a title bar, which grabs "
+"keyboard input when it is displayed.</item><item>If unchecked, the window "
+"does not interfere with your typing when it is displayed, but it has no "
+"title bar and cannot be moved or resized.</item></list></para>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:119
+#. i18n: ectx: label, entry (MessageButtonDelay), group (General)
+#: rc.cpp:86
+msgctxt "@label"
+msgid "Delay before message window buttons are enabled"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:124
+#. i18n: ectx: whatsthis, entry (MessageButtonDelay), group (General)
+#: rc.cpp:89
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify the positioning of alarm message windows, and the delay in "
+"seconds after a window shows until its buttons are enabled.\n"
+"        <list><item>0 to position message windows as far from the cursor as "
+"possible with no enable delay.</item>\n"
+"        <item>> 0 to position in center of screen and specify delay before "
+"enabling buttons.</item>\n"
+"        <item>-1 for no special positioning and no enable delay.</item></"
+"list></para>\n"
+"      "
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:130
+#. i18n: ectx: label, entry (TooltipAlarmCount), group (General)
+#: rc.cpp:96
+msgctxt "@label"
+msgid "Number of alarms to show in system tray tooltip"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:135
+#. i18n: ectx: whatsthis, entry (TooltipAlarmCount), group (General)
+#: rc.cpp:99
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>How many alarms due in the next 24 hours to show in the system tray "
+"tooltip:\n"
+"        <list><item>0 to display none</item>\n"
+"        <item>-1 to display all</item>\n"
+"        <item>>0 to set a limit.</item></list></para>\n"
+"      "
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:141
+#. i18n: ectx: label, entry (ShowTooltipAlarmTime), group (General)
+#: rc.cpp:106
+msgctxt "@label"
+msgid "Show alarm times in system tray tooltip"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:142
+#. i18n: ectx: whatsthis, entry (ShowTooltipAlarmTime), group (General)
+#: rc.cpp:109 prefdlg.cpp:1622
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Specify whether to show in the system tray tooltip, the time at which each "
+"alarm is due."
+msgstr ""
+"Огоҳлантиришлар рўйхатидаги муддати ўтган огоҳлантиришлар учун рангни танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:147
+#. i18n: ectx: label, entry (ShowTooltipTimeToAlarm), group (General)
+#: rc.cpp:112
+#, fuzzy
+msgctxt "@label"
+msgid "Show time to alarms in system tray tooltip"
+msgstr "Огоҳлантири&шга қолган вақтни кўрсатиш"
+
+#. i18n: file: kalarmconfig.kcfg:148
+#. i18n: ectx: whatsthis, entry (ShowTooltipTimeToAlarm), group (General)
+#: rc.cpp:115 prefdlg.cpp:1628
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Specify whether to show in the system tray tooltip, how long until each "
+"alarm is due."
+msgstr ""
+"Огоҳлантиришлар рўйхатидаги ўчирилган огоҳлантиришлар учун рангни танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:153
+#. i18n: ectx: label, entry (TooltipTimeToPrefix), group (General)
+#: rc.cpp:118
+msgctxt "@label"
+msgid "Time-to-alarm prefix in system tray tooltip"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:154
+#. i18n: ectx: whatsthis, entry (TooltipTimeToPrefix), group (General)
+#: rc.cpp:121 prefdlg.cpp:1637
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the text to be displayed in front of the time until the alarm, in the "
+"system tray tooltip."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:159
+#. i18n: ectx: label, entry (EmailClient), group (General)
+#: rc.cpp:124
+#, fuzzy
+msgctxt "@label"
+msgid "Email client"
+msgstr "Электрон почта дастури:"
+
+#. i18n: file: kalarmconfig.kcfg:160
+#. i18n: ectx: whatsthis, entry (EmailClient), group (General)
+#: rc.cpp:127
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>How to send email when an email alarm is triggered.<list><item>KMail: "
+"The email is sent automatically via <application>KMail</application>. "
+"<application>KMail</application> is started first if necessary.</"
+"item><item>Sendmail: The email is sent automatically. This option will only "
+"work if your system is configured to use <application>sendmail</application> "
+"or a sendmail compatible mail transport agent.</item></list></para>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:162
+#. i18n: ectx: label, entry (EmailClient), group (General)
+#: rc.cpp:130
+#, fuzzy
+msgctxt "@option"
+msgid "Sendmail"
+msgstr "&Sendmail"
+
+#. i18n: file: kalarmconfig.kcfg:163
+#. i18n: ectx: label, entry (EmailClient), group (General)
+#: rc.cpp:133
+#, fuzzy
+msgctxt "@option"
+msgid "KMail"
+msgstr "&KMail"
+
+#. i18n: file: kalarmconfig.kcfg:168
+#. i18n: ectx: label, entry (Base_EmailCopyToKMail), group (General)
+#: rc.cpp:136
+#, fuzzy
+msgctxt "@label"
+msgid "Whether to copy sent emails into KMail's Sent folder."
+msgstr "Жўнатилган хатлардан KMail %1 жилдига нусха олиш"
+
+#. i18n: file: kalarmconfig.kcfg:169
+#. i18n: ectx: whatsthis, entry (Base_EmailCopyToKMail), group (General)
+#: rc.cpp:139
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether after sending an email to store a copy in KMail's sent-mail folder. "
+"Only applies when sendmail is selected as the email client."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:173
+#. i18n: ectx: label, entry (Base_EmailFrom), group (General)
+#: rc.cpp:142
+#, fuzzy
+msgctxt "@label"
+msgid "'From' email address"
+msgstr "Электрон почтангиз"
+
+#. i18n: file: kalarmconfig.kcfg:174
+#. i18n: ectx: whatsthis, entry (Base_EmailFrom), group (General)
+#: rc.cpp:145
+msgctxt "@info:whatsthis"
+msgid ""
+"Your email address, used to identify you as the sender when sending email "
+"alarms. Enter \"@SystemSettings\" to use the email address set in System "
+"Settings, \"@KMail\" to allow choice of KMail identities, or enter the "
+"actual email address otherwise."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:178
+#. i18n: ectx: label, entry (Base_EmailBccAddress), group (General)
+#: rc.cpp:148
+#, fuzzy
+msgctxt "@label"
+msgid "'Bcc' email address"
+msgstr "Электрон почтангиз"
+
+#. i18n: file: kalarmconfig.kcfg:179
+#. i18n: ectx: whatsthis, entry (Base_EmailBccAddress), group (General)
+#: rc.cpp:151
+msgctxt "@info:whatsthis"
+msgid ""
+"Your email address, used for blind copying email alarms to yourself. If you "
+"want blind copies to be sent to your account on the computer which KAlarm "
+"runs on, you can simply enter your user login name. Enter \"@SystemSettings"
+"\" to use the email address set in System Settings, or enter the actual "
+"email address otherwise."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:183
+#. i18n: ectx: label, entry (Base_CmdXTermCommand), group (General)
+#: rc.cpp:154
+#, fuzzy
+#| msgid "Command Alarms"
+msgctxt "@label"
+msgid "Terminal for command alarms"
+msgstr "Буйруқ орқали огоҳлантиришлар"
+
+#. i18n: file: kalarmconfig.kcfg:184
+#. i18n: ectx: whatsthis, entry (Base_CmdXTermCommand), group (General)
+#: rc.cpp:157
+#, fuzzy
+#| msgid "Check to execute the command in a terminal window"
+msgctxt "@info:whatsthis"
+msgid ""
+"Command line to execute command alarms in a terminal window, including "
+"special codes described in the KAlarm handbook."
+msgstr "Терминал ойнасида буйруқни ишга тушириш учун шу ерни белгиланг"
+
+#. i18n: file: kalarmconfig.kcfg:187
+#. i18n: ectx: label, entry (Base_StartOfDay), group (General)
+#: rc.cpp:160
+msgctxt "@label"
+msgid "Start of day for date-only alarms"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:188
+#. i18n: ectx: whatsthis, entry (Base_StartOfDay), group (General)
+#: rc.cpp:163
+msgctxt "@info:whatsthis"
+msgid "The earliest time of day at which a date-only alarm will be triggered."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:193
+#. i18n: ectx: label, entry (Base_WorkDayStart), group (General)
+#: rc.cpp:166
+msgctxt "@label"
+msgid "Start time of working day"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:194
+#. i18n: ectx: whatsthis, entry (Base_WorkDayStart), group (General)
+#: rc.cpp:169
+#, fuzzy
+#| msgid "Enter the name or path of the log file."
+msgctxt "@info:whatsthis"
+msgid "The start time of the working day."
+msgstr "Лог файлини номини ёки йўлини киритинг."
+
+#. i18n: file: kalarmconfig.kcfg:199
+#. i18n: ectx: label, entry (Base_WorkDayEnd), group (General)
+#: rc.cpp:172
+msgctxt "@label"
+msgid "End time of working day"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:200
+#. i18n: ectx: whatsthis, entry (Base_WorkDayEnd), group (General)
+#: rc.cpp:175
+#, fuzzy
+#| msgid "Enter the name of the alarm template"
+msgctxt "@info:whatsthis"
+msgid "The end time of the working day."
+msgstr "Огоҳлантириш намунаси номини киритиш"
+
+#. i18n: file: kalarmconfig.kcfg:205
+#. i18n: ectx: label, entry (Base_WorkDays), group (General)
+#: rc.cpp:178
+msgctxt "@label"
+msgid "Working days"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:206
+#. i18n: ectx: whatsthis, entry (Base_WorkDays), group (General)
+#: rc.cpp:181
+msgctxt "@info:whatsthis"
+msgid ""
+"OR'ed bits indicating which days of the week are work days, 1 = Monday ... "
+"64 = Sunday."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:211
+#. i18n: ectx: label, entry (DisabledColour), group (General)
+#: rc.cpp:184
+#, fuzzy
+msgctxt "@label"
+msgid "Disabled alarm color"
+msgstr "Ў&чирилган огоҳлантиришнинг ранги:"
+
+#. i18n: file: kalarmconfig.kcfg:212
+#. i18n: ectx: whatsthis, entry (DisabledColour), group (General)
+#: rc.cpp:187 prefdlg.cpp:1657
+#, fuzzy
+#| msgid "Choose the text color in the alarm list for disabled alarms."
+msgctxt "@info:whatsthis"
+msgid "Choose the text color in the alarm list for disabled alarms."
+msgstr ""
+"Огоҳлантиришлар рўйхатидаги ўчирилган огоҳлантиришлар учун рангни танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:217
+#. i18n: ectx: label, entry (ArchivedColour), group (General)
+#: rc.cpp:190
+#, fuzzy
+msgctxt "@label"
+msgid "Archived alarm color"
+msgstr "&Муддати ўтган огоҳлантиришнинг ранги:"
+
+#. i18n: file: kalarmconfig.kcfg:218
+#. i18n: ectx: whatsthis, entry (ArchivedColour), group (General)
+#: rc.cpp:193 prefdlg.cpp:1667
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Choose the text color in the alarm list for archived alarms."
+msgstr ""
+"Огоҳлантиришлар рўйхатидаги муддати ўтган огоҳлантиришлар учун рангни танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:223
+#. i18n: ectx: label, entry (ArchivedKeepDays), group (General)
+#: rc.cpp:196
+#, fuzzy
+msgctxt "@label"
+msgid "Days to keep expired alarms"
+msgstr "Муддати ўтган огоҳлантиришни олиб ташлаш"
+
+#. i18n: file: kalarmconfig.kcfg:228
+#. i18n: ectx: whatsthis, entry (ArchivedKeepDays), group (General)
+#: rc.cpp:199
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify how many days to keep alarms after they expire or are deleted "
+"(except deleted alarms which were never triggered):\n"
+"        <list><item>0 to not keep</item>\n"
+"        <item>-1 to keep indefinitely</item>\n"
+"        <item>>0 number of days to keep.</item></list></para>\n"
+"      "
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:234
+#. i18n: ectx: label, entry (KOrgEventDuration), group (General)
+#: rc.cpp:206
+msgctxt "@label"
+msgid "KOrganizer event duration"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:235
+#. i18n: ectx: whatsthis, entry (KOrgEventDuration), group (General)
+#: rc.cpp:209
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the event duration in minutes, for alarms which are copied to "
+"KOrganizer."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:241
+#. i18n: ectx: label, entry (DefaultLateCancel), group (Defaults)
+#: rc.cpp:212
+#, fuzzy
+msgctxt "@label"
+msgid "Cancel if late (minutes)"
+msgstr "Кеч бўлса, бекор қилиш"
+
+#. i18n: file: kalarmconfig.kcfg:242
+#. i18n: ectx: whatsthis, entry (DefaultLateCancel), group (Defaults)
+#: rc.cpp:215
+msgctxt "@info:whatsthis"
+msgid ""
+"Default value in the alarm edit dialog for late cancellation time (in "
+"minutes). 0 for no late cancellation, >0 how many minutes before cancelling."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:247
+#. i18n: ectx: label, entry (DefaultAutoClose), group (Defaults)
+#: rc.cpp:218
+#, fuzzy
+msgctxt "@label"
+msgid "Auto-close window after late-cancellation time"
+msgstr "Кечикканда бекор қилгандан сўнг ойнани автоматик ёпиш вақти"
+
+#. i18n: file: kalarmconfig.kcfg:248
+#. i18n: ectx: whatsthis, entry (DefaultAutoClose), group (Defaults)
+#: rc.cpp:221
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for \"auto close if late\"."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:253
+#. i18n: ectx: whatsthis, entry (DefaultConfirmAck), group (Defaults)
+#: rc.cpp:227
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting in the alarm edit dialog for \"confirm alarm acknowledgement"
+"\"."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:257
+#. i18n: ectx: label, entry (DefaultCopyToKOrganizer), group (Defaults)
+#: rc.cpp:230
+#, fuzzy
+#| msgid "Show in KOrganizer"
+msgctxt "@label"
+msgid "Show in KOrganizer"
+msgstr "KOrganizer'да кўрсатиш"
+
+#. i18n: file: kalarmconfig.kcfg:258
+#. i18n: ectx: whatsthis, entry (DefaultCopyToKOrganizer), group (Defaults)
+#: rc.cpp:233
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for \"show in KOrganizer\"."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:262
+#. i18n: ectx: label, entry (DefaultSoundType), group (Defaults)
+#: rc.cpp:236
+#, fuzzy
+msgctxt "@label Label for audio options"
+msgid "Sound"
+msgstr "Товуш"
+
+#. i18n: file: kalarmconfig.kcfg:263
+#. i18n: ectx: whatsthis, entry (DefaultSoundType), group (Defaults)
+#: rc.cpp:239
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default sound type in the alarm edit dialog."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:267
+#. i18n: ectx: label, entry (DefaultSoundType), group (Defaults)
+#: rc.cpp:242
+#, fuzzy
+msgctxt "@option"
+msgid "Play File"
+msgstr "Ҳамма файллар"
+
+#. i18n: file: kalarmconfig.kcfg:273
+#. i18n: ectx: label, entry (DefaultSoundFile), group (Defaults)
+#: rc.cpp:245
+#, fuzzy
+msgctxt "@label"
+msgid "Sound file"
+msgstr "Товуш ф&айли:"
+
+#. i18n: file: kalarmconfig.kcfg:274
+#. i18n: ectx: whatsthis, entry (DefaultSoundFile), group (Defaults)
+#: rc.cpp:248
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default sound file path in the alarm edit dialog."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:278
+#. i18n: ectx: whatsthis, entry (Base_DefaultSoundVolume), group (Defaults)
+#: rc.cpp:255
+#, fuzzy, no-c-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Default sound volume in the alarm edit dialog. -1 to deselect volume, or 0 - "
+"100 %"
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:284
+#. i18n: ectx: label, entry (DefaultSoundRepeat), group (Defaults)
+#: rc.cpp:258
+#, fuzzy
+msgctxt "@label"
+msgid "Repeat sound file"
+msgstr "Такрорлаш учун то&вуш файли"
+
+#. i18n: file: kalarmconfig.kcfg:285
+#. i18n: ectx: whatsthis, entry (DefaultSoundRepeat), group (Defaults)
+#: rc.cpp:261
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for sound repetition."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:289
+#. i18n: ectx: label, entry (DefaultCmdScript), group (Defaults)
+#: rc.cpp:264
+msgctxt "@label"
+msgid "Enter script"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:290
+#. i18n: ectx: whatsthis, entry (DefaultCmdScript), group (Defaults)
+#: rc.cpp:267
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default setting in the alarm edit dialog for command script entry."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:294
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:270
+#, fuzzy
+msgctxt "@label"
+msgid "Command output"
+msgstr "Буй&руқ"
+
+#. i18n: file: kalarmconfig.kcfg:295
+#. i18n: ectx: whatsthis, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:273
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting in the alarm edit dialog for where to send command alarm "
+"output."
+msgstr "Огоҳлантириш хабарини дарҳол кўрсатиш"
+
+#. i18n: file: kalarmconfig.kcfg:297
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:276
+#, fuzzy
+msgctxt "@option"
+msgid "Discard Output"
+msgstr "Ў&чириш"
+
+#. i18n: file: kalarmconfig.kcfg:298
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:279
+#, fuzzy
+msgctxt "@option"
+msgid "Log To File"
+msgstr "&Файлга сақлаш"
+
+#. i18n: file: kalarmconfig.kcfg:299
+#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
+#: rc.cpp:282
+#, fuzzy
+#| msgid "Execute in terminal window"
+msgctxt "@option"
+msgid "Execute in terminal window"
+msgstr "Терминал ойнасида ишга тушириш"
+
+#. i18n: file: kalarmconfig.kcfg:305
+#. i18n: ectx: whatsthis, entry (DefaultCmdLogFile), group (Defaults)
+#: rc.cpp:288
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default log file path for command alarms in the alarm edit dialog."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:308
+#. i18n: ectx: label, entry (DefaultEmailBcc), group (Defaults)
+#: rc.cpp:291
+#, fuzzy
+#| msgid "The email to send"
+msgctxt "@label"
+msgid "Copy email to self"
+msgstr "Жўнатиш учун электрон почта"
+
+#. i18n: file: kalarmconfig.kcfg:309
+#. i18n: ectx: whatsthis, entry (DefaultEmailBcc), group (Defaults)
+#: rc.cpp:294
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting in the alarm edit dialog for blind copying emails to self."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:313
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:297
+#, fuzzy
+#| msgid "Repeat"
+msgctxt "@label"
+msgid "Recurrence period"
+msgstr "Қайтариш"
+
+#. i18n: file: kalarmconfig.kcfg:314
+#. i18n: ectx: whatsthis, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:300 prefdlg.cpp:1249
+#, fuzzy
+#| msgid "The default setting for \"%1\" in the alarm edit dialog."
+msgctxt "@info:whatsthis"
+msgid "The default setting for the recurrence rule in the alarm edit dialog."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:316
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:303
+#, fuzzy
+#| msgid "Repeat"
+msgctxt "@option"
+msgid "No recurrence"
+msgstr "Қайтариш"
+
+#. i18n: file: kalarmconfig.kcfg:317
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:306
+#, fuzzy
+#| msgid "At login"
+msgctxt "@option"
+msgid "At login"
+msgstr "Тизимга киришда"
+
+#. i18n: file: kalarmconfig.kcfg:318
+#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
+#: rc.cpp:309
+#, fuzzy
+msgctxt "@option"
+msgid "Hourly/minutely"
+msgstr "Ҳар соат/дақиқада"
+
+#. i18n: file: kalarmconfig.kcfg:327
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:312 prefdlg.cpp:1256
+msgctxt "@label"
+msgid "In non-leap years, repeat yearly February 29th alarms on:"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:328
+#. i18n: ectx: whatsthis, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:315 prefdlg.cpp:1276
+msgctxt "@info:whatsthis"
+msgid ""
+"For yearly recurrences, choose what date, if any, alarms due on February "
+"29th should occur in non-leap years.<note>The next scheduled occurrence of "
+"existing alarms is not re-evaluated when you change this setting.</note>"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:330
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:318
+#, fuzzy
+msgctxt "@option"
+msgid "February 28th"
+msgstr "2&8-чи февраль"
+
+#. i18n: file: kalarmconfig.kcfg:331
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:321
+#, fuzzy
+msgctxt "@option"
+msgid "March 1st"
+msgstr "&1-чи март"
+
+#. i18n: file: kalarmconfig.kcfg:332
+#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
+#: rc.cpp:324
+#, fuzzy
+msgctxt "@option"
+msgid "Do not repeat"
+msgstr "Такрор&ланмасин"
+
+#. i18n: file: kalarmconfig.kcfg:338
+#. i18n: ectx: label, entry (DefaultReminderUnits), group (Defaults)
+#: rc.cpp:327
+#, fuzzy
+msgctxt "@label"
+msgid "Reminder units"
+msgstr "Эсга солиш"
+
+#. i18n: file: kalarmconfig.kcfg:339
+#. i18n: ectx: whatsthis, entry (DefaultReminderUnits), group (Defaults)
+#: rc.cpp:330
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default reminder time units in the alarm edit dialog."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:342
+#. i18n: ectx: label, entry (DefaultReminderUnits), group (Defaults)
+#: rc.cpp:333
+#, fuzzy
+#| msgid "Hours/Minutes"
+msgctxt "@option"
+msgid "Hours/Minutes"
+msgstr "Соат/дақиқа"
+
+#. i18n: file: kalarmconfig.kcfg:347
+#. i18n: ectx: label, entry (DefaultPreAction), group (Defaults)
+#: rc.cpp:336
+#, fuzzy
+msgctxt "@label"
+msgid "Pre-alarm action"
+msgstr "Огоҳлантиришдан олдинги амал:"
+
+#. i18n: file: kalarmconfig.kcfg:348
+#. i18n: ectx: whatsthis, entry (DefaultPreAction), group (Defaults)
+#: rc.cpp:339
+msgctxt "@info:whatsthis"
+msgid "Default command to execute before displaying alarms."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:351
+#. i18n: ectx: label, entry (DefaultCancelOnPreActionError), group (Defaults)
+#: rc.cpp:342
+msgctxt "@label"
+msgid "Cancel alarm on pre-alarm action error"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:352
+#. i18n: ectx: whatsthis, entry (DefaultCancelOnPreActionError), group (Defaults)
+#: rc.cpp:345
+#, fuzzy
+#| msgid "The default setting for \"%1\" in the alarm edit dialog."
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting for whether to cancel the alarm if the pre-alarm action "
+"command fails."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:356
+#. i18n: ectx: label, entry (DefaultDontShowPreActionError), group (Defaults)
+#: rc.cpp:348
+msgctxt "@label"
+msgid "Do not notify pre-alarm action errors"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:357
+#. i18n: ectx: whatsthis, entry (DefaultDontShowPreActionError), group (Defaults)
+#: rc.cpp:351
+#, fuzzy
+#| msgid "The default setting for \"%1\" in the alarm edit dialog."
+msgctxt "@info:whatsthis"
+msgid ""
+"Default setting for whether to show no error status or error message if the "
+"pre-alarm action command fails."
+msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
+
+#. i18n: file: kalarmconfig.kcfg:361
+#. i18n: ectx: label, entry (DefaultPostAction), group (Defaults)
+#: rc.cpp:354
+#, fuzzy
+msgctxt "@label"
+msgid "Post-alarm action"
+msgstr "Огоҳлантиришдан кейинги амал:"
+
+#. i18n: file: kalarmconfig.kcfg:362
+#. i18n: ectx: whatsthis, entry (DefaultPostAction), group (Defaults)
+#: rc.cpp:357
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Default command to execute after alarm message windows are closed."
+msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
+
+#. i18n: file: kalarmconfig.kcfg:368
+#. i18n: ectx: label, entry (Base_QuitWarn), group (Notification Messages)
+#: rc.cpp:360
+msgctxt "@label"
+msgid "Warn before quitting"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:369
+#. i18n: ectx: whatsthis, entry (Base_QuitWarn), group (Notification Messages)
+#: rc.cpp:363
+msgctxt "@info:whatsthis"
+msgid "Whether to suppress a warning prompt before quitting KAlarm."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:373
+#. i18n: ectx: label, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
+#: rc.cpp:366
+#, fuzzy
+msgctxt "@label"
+msgid "Confirm alarm deletions"
+msgstr "Огоҳлантиришни ўчиришда та&сдиқлаш"
+
+#. i18n: file: kalarmconfig.kcfg:374
+#. i18n: ectx: whatsthis, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
+#: rc.cpp:369 prefdlg.cpp:435
+msgctxt "@info:whatsthis"
+msgid "Check to be prompted for confirmation each time you delete an alarm."
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:378
+#. i18n: ectx: label, entry (Base_EmailQueuedNotify), group (Notification Messages)
+#: rc.cpp:372
+msgctxt "@label"
+msgid "Notify when remote emails are queued"
+msgstr ""
+
+#. i18n: file: kalarmconfig.kcfg:379
+#. i18n: ectx: whatsthis, entry (Base_EmailQueuedNotify), group (Notification Messages)
+#: rc.cpp:375 prefdlg.cpp:1009
+msgctxt "@info:whatsthis"
+msgid ""
+"Display a notification message whenever an email alarm has queued an email "
+"for sending to a remote system. This could be useful if, for example, you "
+"have a dial-up connection, so that you can then ensure that the email is "
+"actually transmitted."
+msgstr ""
+
+#. i18n: file: kalarmui.rc:20
+#. i18n: ectx: Menu (file)
+#: rc.cpp:387
+#, fuzzy
+msgid "&File"
+msgstr "Фай&л"
+
+#. i18n: file: kalarmui.rc:33
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:390
+#, fuzzy
+msgid "&Edit"
+msgstr "&Таҳрирлаш"
+
+#. i18n: file: kalarmui.rc:48
+#. i18n: ectx: Menu (view)
+#: rc.cpp:393
+msgid "&View"
+msgstr ""
+
+#. i18n: file: kalarmui.rc:59
+#. i18n: ectx: Menu (actions)
+#: rc.cpp:396
+msgid "&Actions"
+msgstr "&Амаллар"
+
+#. i18n: file: kalarmui.rc:69
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:399
+#, fuzzy
+msgid "&Settings"
+msgstr "Кўриниш мосламалари"
+
+#: alarmcalendar.cpp:309 alarmcalendar.cpp:800
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -1550,7 +2577,7 @@ msgstr ""
 "Аудио файлни очиб бўлмади:\n"
 "%1"
 
-#: alarmcalendar.cpp:328
+#: alarmcalendar.cpp:330
 #, fuzzy, kde-format
 #| msgid ""
 #| "Error loading calendar:\n"
@@ -1567,7 +2594,7 @@ msgstr ""
 "\n"
 "Илтимос файлни созланг ёки олиб ташланг."
 
-#: alarmcalendar.cpp:422
+#: alarmcalendar.cpp:424
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to save calendar to\n"
@@ -1578,7 +2605,7 @@ msgstr ""
 "Календарни сақлаб бўлмади\n"
 "'%1'"
 
-#: alarmcalendar.cpp:431
+#: alarmcalendar.cpp:433
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -1589,7 +2616,7 @@ msgstr ""
 "Аудио файлни очиб бўлмади:\n"
 "%1"
 
-#: alarmcalendar.cpp:789 alarmcalendar.cpp:816
+#: alarmcalendar.cpp:791 alarmcalendar.cpp:818
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -1600,12 +2627,12 @@ msgstr ""
 "Аудио файлни очиб бўлмади:\n"
 "%1"
 
-#: alarmcalendar.cpp:969
+#: alarmcalendar.cpp:971
 msgctxt "@title:window"
 msgid "Choose Export Calendar"
 msgstr ""
 
-#: alarmcalendar.cpp:997
+#: alarmcalendar.cpp:999
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -1616,7 +2643,7 @@ msgstr ""
 "Аудио файлни очиб бўлмади:\n"
 "%1"
 
-#: alarmcalendar.cpp:1046
+#: alarmcalendar.cpp:1048
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to save calendar to\n"
@@ -1627,7 +2654,7 @@ msgstr ""
 "Календарни сақлаб бўлмади\n"
 "'%1'"
 
-#: alarmcalendar.cpp:1052
+#: alarmcalendar.cpp:1054
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -1738,89 +2765,89 @@ msgctxt "@info:shell"
 msgid "<icode>%1</icode> incompatible with <icode>%2</icode>"
 msgstr "%1 %2 билан мос келмайди"
 
-#: templatedlg.cpp:71
+#: templatedlg.cpp:69
 #, fuzzy
 #| msgid "Alarm Templates"
 msgctxt "@title:window"
 msgid "Alarm Templates"
 msgstr "Огоҳлантириш намуналари"
 
-#: templatedlg.cpp:97 templatelistview.cpp:45
+#: templatedlg.cpp:95 templatelistview.cpp:44
 #, fuzzy
 #| msgid "Name of the alarm template"
 msgctxt "@info:whatsthis"
 msgid "The list of alarm templates"
 msgstr "Огоҳлантириш намунасининг номи"
 
-#: templatedlg.cpp:105
+#: templatedlg.cpp:103
 #, fuzzy
 #| msgid "&New..."
 msgctxt "@action:button"
 msgid "New"
 msgstr "Я&нги..."
 
-#: templatedlg.cpp:106
+#: templatedlg.cpp:104
 #, fuzzy
 #| msgid "&New..."
 msgctxt "@action"
 msgid "New"
 msgstr "Я&нги..."
 
-#: templatedlg.cpp:109
+#: templatedlg.cpp:107
 #, fuzzy
 #| msgid "Create a new alarm template"
 msgctxt "@info:whatsthis"
 msgid "Create a new alarm template"
 msgstr "Янги огоҳлантириш намунаси яратиш"
 
-#: templatedlg.cpp:112 resourceselector.cpp:133
+#: templatedlg.cpp:110 resourceselector.cpp:133
 #, fuzzy
 msgctxt "@action:button"
 msgid "Edit..."
 msgstr "&Таҳрирлаш"
 
-#: templatedlg.cpp:114
+#: templatedlg.cpp:112
 #, fuzzy
 #| msgid "Edit the currently highlighted alarm template"
 msgctxt "@info:whatsthis"
 msgid "Edit the currently highlighted alarm template"
 msgstr "Танланган огоҳлантириш намунасини таҳрирлаш"
 
-#: templatedlg.cpp:117
+#: templatedlg.cpp:115
 #, fuzzy
 #| msgid "Co&py"
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "&Нусха олиш"
 
-#: templatedlg.cpp:119
+#: templatedlg.cpp:117
 msgctxt "@info:whatsthis"
 msgid ""
 "Create a new alarm template based on a copy of the currently highlighted "
 "template"
 msgstr ""
 
-#: templatedlg.cpp:122 recurrenceedit.cpp:364
+#: templatedlg.cpp:120 recurrenceedit.cpp:364
 #, fuzzy
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "Огоҳлантиришни ўчириш"
 
-#: templatedlg.cpp:124
+#: templatedlg.cpp:122
 #, fuzzy
 #| msgid "Edit the currently highlighted alarm template"
 msgctxt "@info:whatsthis"
 msgid "Delete the currently highlighted alarm template"
 msgstr "Танланган огоҳлантириш намунасини таҳрирлаш"
 
-#: templatedlg.cpp:213
+#: templatedlg.cpp:211
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete the selected alarm template?"
 msgid_plural "Do you really want to delete the %1 selected alarm templates?"
 msgstr[0] "Ростдан ҳам ушбу огоҳлантиришни тасдиқлайсизми?"
 
-#: templatedlg.cpp:215
+#: templatedlg.cpp:213
 #, fuzzy
 #| msgid "Delete Alarm Template"
 #| msgid_plural "Delete Alarm Templates"
@@ -1829,7 +2856,7 @@ msgid "Delete Alarm Template"
 msgid_plural "Delete Alarm Templates"
 msgstr[0] "Огоҳлантириш намунасини ўчириш"
 
-#: templatedlg.cpp:216 mainwindow.cpp:804
+#: templatedlg.cpp:214 mainwindow.cpp:804
 #, fuzzy
 msgctxt "@action:button"
 msgid "&Delete"
@@ -2467,71 +3494,71 @@ msgid ""
 "cancellation period"
 msgstr "Кечикканда бекор қилгандан сўнг ойнани автоматик ёпиш вақти"
 
-#: eventlistmodel.cpp:312 akonadimodel.cpp:478
+#: eventlistmodel.cpp:312 akonadimodel.cpp:467
 #, fuzzy
 #| msgid "Command execution error:"
 msgctxt "@info:tooltip"
 msgid "Command execution failed"
 msgstr "Буйруқни ишга тушириш хатоси:"
 
-#: eventlistmodel.cpp:314 akonadimodel.cpp:480
+#: eventlistmodel.cpp:314 akonadimodel.cpp:469
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Pre-alarm action execution failed"
 msgstr "Огоҳлантиришдан олдинги амал:"
 
-#: eventlistmodel.cpp:316 akonadimodel.cpp:482
+#: eventlistmodel.cpp:316 akonadimodel.cpp:471
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Post-alarm action execution failed"
 msgstr "Огоҳлантиришдан кейинги амал:"
 
-#: eventlistmodel.cpp:318 akonadimodel.cpp:484
+#: eventlistmodel.cpp:318 akonadimodel.cpp:473
 msgctxt "@info:tooltip"
 msgid "Pre- and post-alarm action execution failed"
 msgstr ""
 
-#: eventlistmodel.cpp:362 akonadimodel.cpp:669
+#: eventlistmodel.cpp:362 akonadimodel.cpp:658
 #, fuzzy
 #| msgid "Time"
 msgctxt "@title:column"
 msgid "Time"
 msgstr "Вақт"
 
-#: eventlistmodel.cpp:364 akonadimodel.cpp:671
+#: eventlistmodel.cpp:364 akonadimodel.cpp:660
 #, fuzzy
 msgctxt "@title:column"
 msgid "Time To"
 msgstr "Вақт"
 
-#: eventlistmodel.cpp:366 akonadimodel.cpp:673
+#: eventlistmodel.cpp:366 akonadimodel.cpp:662
 #, fuzzy
 #| msgid "Repeat"
 msgctxt "@title:column"
 msgid "Repeat"
 msgstr "Қайтариш"
 
-#: eventlistmodel.cpp:372 akonadimodel.cpp:679
+#: eventlistmodel.cpp:372 akonadimodel.cpp:668
 #, fuzzy
 #| msgid "Message, File or Command"
 msgctxt "@title:column"
 msgid "Message, File or Command"
 msgstr "Хабар, файл ёки буйруқ"
 
-#: eventlistmodel.cpp:374 akonadimodel.cpp:681
+#: eventlistmodel.cpp:374 akonadimodel.cpp:670
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column Template name"
 msgid "Name"
 msgstr "Исми"
 
-#: eventlistmodel.cpp:831 eventlistmodel.cpp:869 akonadimodel.cpp:701
-#: akonadimodel.cpp:739
+#: eventlistmodel.cpp:831 eventlistmodel.cpp:869 akonadimodel.cpp:690
+#: akonadimodel.cpp:728
 msgctxt "@info/plain Alarm never occurs"
 msgid "Never"
 msgstr ""
 
-#: eventlistmodel.cpp:875 akonadimodel.cpp:745
+#: eventlistmodel.cpp:875 akonadimodel.cpp:734
 #, fuzzy, no-c-format, kde-format
 #| msgctxt "n days"
 #| msgid " %1d "
@@ -2539,7 +3566,7 @@ msgctxt "@info/plain n days"
 msgid "%1d"
 msgstr " %1к "
 
-#: eventlistmodel.cpp:884 akonadimodel.cpp:754
+#: eventlistmodel.cpp:884 akonadimodel.cpp:743
 #, fuzzy, kde-format
 #| msgctxt "Undo-action: message"
 #| msgid "%1: %2"
@@ -2547,7 +3574,7 @@ msgctxt "@info/plain hours:minutes"
 msgid "%1:%2"
 msgstr "%1: %2"
 
-#: eventlistmodel.cpp:887 akonadimodel.cpp:757
+#: eventlistmodel.cpp:887 akonadimodel.cpp:746
 #, fuzzy, kde-format
 #| msgctxt "days hours:minutes"
 #| msgid " %1d %2:%3 "
@@ -2555,49 +3582,49 @@ msgctxt "@info/plain days hours:minutes"
 msgid "%1d %2:%3"
 msgstr " %1к %2:%3 "
 
-#: eventlistmodel.cpp:971 akonadimodel.cpp:1050
+#: eventlistmodel.cpp:971 akonadimodel.cpp:1039
 #, fuzzy
 #| msgid "Next scheduled date and time of the alarm"
 msgctxt "@info:whatsthis"
 msgid "Next scheduled date and time of the alarm"
 msgstr "Навбатдаги режалаштирилган сана ва огоҳлантириш вақти"
 
-#: eventlistmodel.cpp:973 akonadimodel.cpp:1052
+#: eventlistmodel.cpp:973 akonadimodel.cpp:1041
 #, fuzzy
 #| msgid "Next scheduled date and time of the alarm"
 msgctxt "@info:whatsthis"
 msgid "How long until the next scheduled trigger of the alarm"
 msgstr "Навбатдаги режалаштирилган сана ва огоҳлантириш вақти"
 
-#: eventlistmodel.cpp:975 akonadimodel.cpp:1054
+#: eventlistmodel.cpp:975 akonadimodel.cpp:1043
 #, fuzzy
 #| msgid "How often the alarm recurs"
 msgctxt "@info:whatsthis"
 msgid "How often the alarm recurs"
 msgstr "Огоҳлантириш қанча такрорланади"
 
-#: eventlistmodel.cpp:977 akonadimodel.cpp:1056
+#: eventlistmodel.cpp:977 akonadimodel.cpp:1045
 #, fuzzy
 #| msgid "Background color of alarm message"
 msgctxt "@info:whatsthis"
 msgid "Background color of alarm message"
 msgstr "Огоҳлантириш хабари учун орқа фон ранги"
 
-#: eventlistmodel.cpp:979 akonadimodel.cpp:1058
+#: eventlistmodel.cpp:979 akonadimodel.cpp:1047
 #, fuzzy
 #| msgid "Alarm type (message, file, command or email)"
 msgctxt "@info:whatsthis"
 msgid "Alarm type (message, file, command or email)"
 msgstr "Огоҳлантириш тури (хабар, файл, буйруқ ёки электрон почта)"
 
-#: eventlistmodel.cpp:981 akonadimodel.cpp:1060
+#: eventlistmodel.cpp:981 akonadimodel.cpp:1049
 msgctxt "@info:whatsthis"
 msgid ""
 "Alarm message text, URL of text file to display, command to execute, or "
 "email subject line"
 msgstr ""
 
-#: eventlistmodel.cpp:983 akonadimodel.cpp:1062
+#: eventlistmodel.cpp:983 akonadimodel.cpp:1051
 #, fuzzy
 #| msgid "Name of the alarm template"
 msgctxt "@info:whatsthis"
@@ -2652,7 +3679,7 @@ msgctxt "@info"
 msgid "Post-alarm action:"
 msgstr "Огоҳлантиришдан кейинги амал:"
 
-#: calendarcompat.cpp:114
+#: calendarcompat.cpp:115
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2661,7 +3688,7 @@ msgid ""
 "it to the current format."
 msgstr ""
 
-#: calendarcompat.cpp:121
+#: calendarcompat.cpp:122
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2670,7 +3697,7 @@ msgid ""
 "choose to update them to the current format."
 msgstr ""
 
-#: calendarcompat.cpp:129
+#: calendarcompat.cpp:130
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2910,14 +3937,14 @@ msgctxt "@info:whatsthis"
 msgid "Choose the initial volume for playing the sound file."
 msgstr "Лог файлини номини ёки йўлини киритинг."
 
-#: sounddlg.cpp:421 messagewin.cpp:717
+#: sounddlg.cpp:421 messagewin.cpp:721
 #, fuzzy
 #| msgid "Stop sound"
 msgctxt "@info:tooltip"
 msgid "Stop sound"
 msgstr "Товушни тўхтатиш"
 
-#: sounddlg.cpp:422 messagewin.cpp:718
+#: sounddlg.cpp:422 messagewin.cpp:722
 #, fuzzy
 #| msgid "Stop playing the sound"
 msgctxt "@info:whatsthis"
@@ -3007,7 +4034,7 @@ msgctxt "@option:radio"
 msgid "Defer for time interval:"
 msgstr ""
 
-#: alarmtimewidget.cpp:150 editdlg.cpp:378
+#: alarmtimewidget.cpp:150 editdlg.cpp:380
 #, fuzzy
 #| msgid "Time from no&w:"
 msgctxt "@option:radio"
@@ -3030,7 +4057,7 @@ msgstr ""
 "Жорий вақтдан бошлаб белгиланган тафовутли вақт билан огоҳлантиришни "
 "режалаштиринг."
 
-#: alarmtimewidget.cpp:161 editdlg.cpp:390
+#: alarmtimewidget.cpp:161 editdlg.cpp:392
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "<para>%1</para><para>%2</para>"
@@ -3055,7 +4082,7 @@ msgid ""
 "zone set in KAlarm's configuration dialog."
 msgstr ""
 
-#: alarmtimewidget.cpp:209 prefdlg.cpp:611
+#: alarmtimewidget.cpp:209 prefdlg.cpp:613
 #, fuzzy
 msgctxt "@label:listbox"
 msgid "Time zone:"
@@ -3787,1168 +4814,147 @@ msgstr ""
 "Огоҳлантириш рўйхати бошига етди.\n"
 "Охиридан давом этишни истайсизми?"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Нурали Абдураҳмонов"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "mavnur@gmail.com"
-
-#. i18n: file: akonadi/kalarmresource.kcfg:9
-#. i18n: ectx: label, entry (Path), group (General)
-#: rc.cpp:5
+#: collectionmodel.cpp:774
 #, fuzzy
-#| msgid "URL of calendar file"
-msgid "Path to KAlarm calendar file."
+msgctxt "@title:window"
+msgid "Choose Calendar"
 msgstr "Календар файлининг манзили"
 
-#. i18n: file: akonadi/kalarmresource.kcfg:13
-#. i18n: ectx: label, entry (DisplayName), group (General)
-#: rc.cpp:8
-#, fuzzy
-#| msgid "Display Alarms"
-msgid "Display name."
-msgstr "Огоҳлантиришларни кўрсатиш"
-
-#. i18n: file: akonadi/kalarmresource.kcfg:17
-#. i18n: ectx: label, entry (ReadOnly), group (General)
-#: rc.cpp:11
-msgid "Do not change the actual backend data."
-msgstr ""
-
-#. i18n: file: akonadi/kalarmresource.kcfg:21
-#. i18n: ectx: label, entry (MonitorFile), group (General)
-#: rc.cpp:14
-msgid "Monitor file for changes."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:58
-#. i18n: ectx: label, entry (Version), group (General)
-#: rc.cpp:17
-#, fuzzy
-msgctxt "@label"
-msgid "KAlarm version"
-msgstr "KAlarm демони"
-
-#. i18n: file: kalarmconfig.kcfg:59
-#. i18n: ectx: whatsthis, entry (Version), group (General)
-#: rc.cpp:20
-msgctxt "@info:whatsthis"
-msgid "KAlarm version which wrote this file."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:62
-#. i18n: ectx: label, entry (Base_TimeZone), group (General)
-#: rc.cpp:23
-#, fuzzy
-msgctxt "@label"
-msgid "Time zone"
-msgstr "Вақт"
-
-#. i18n: file: kalarmconfig.kcfg:63
-#. i18n: ectx: whatsthis, entry (Base_TimeZone), group (General)
-#: rc.cpp:26 prefdlg.cpp:624
-msgctxt "@info:whatsthis"
-msgid ""
-"Select the time zone which <application>KAlarm</application> should use as "
-"its default for displaying and entering dates and times."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:67
-#. i18n: ectx: label, entry (Base_HolidayRegion), group (General)
-#: rc.cpp:29
-msgctxt "@label"
-msgid "Holiday region"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:68
-#. i18n: ectx: whatsthis, entry (Base_HolidayRegion), group (General)
-#: rc.cpp:32
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Select the holiday region to use."
-msgstr "Огоҳлантиришни режалаштириш учун вақтни кўрсатинг."
-
-#. i18n: file: kalarmconfig.kcfg:73
-#. i18n: ectx: whatsthis, entry (DefaultFgColour), group (General)
-#: rc.cpp:38
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default foreground color for alarm message windows."
-msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:78
-#. i18n: ectx: whatsthis, entry (DefaultBgColour), group (General)
-#: rc.cpp:44
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default background color for alarm message windows."
-msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:82
-#. i18n: ectx: label, entry (MessageFont), group (General)
-#: rc.cpp:47
-#, fuzzy
-msgctxt "@label"
-msgid "Message font"
-msgstr "Хабар"
-
-#. i18n: file: kalarmconfig.kcfg:83
-#. i18n: ectx: whatsthis, entry (MessageFont), group (General)
-#: rc.cpp:50
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default font for displaying alarm messages."
-msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:88
-#. i18n: ectx: label, entry (ShowInSystemTray), group (General)
-#: rc.cpp:53
-#, fuzzy
-msgctxt "@label"
-msgid "Show in system tray"
-msgstr "Огоҳлантири&шга қолган вақтни кўрсатиш"
-
-#. i18n: file: kalarmconfig.kcfg:89
-#. i18n: ectx: whatsthis, entry (ShowInSystemTray), group (General)
-#: rc.cpp:56 prefdlg.cpp:1583
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Check to show <application>KAlarm</application>'s icon in the system "
-"tray. Showing it in the system tray provides easy access and a status "
-"indication.</para>"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:94
-#. i18n: ectx: label, entry (AutoStart), group (General)
-#: rc.cpp:59
-#, fuzzy
-msgctxt "@label"
-msgid "Start at login"
-msgstr "Тизимга &киришда автоматик бошлаш"
-
-#. i18n: file: kalarmconfig.kcfg:95
-#. i18n: ectx: whatsthis, entry (AutoStart), group (General)
-#: rc.cpp:62 prefdlg.cpp:418
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Automatically start <application>KAlarm</application> whenever you "
-"start KDE.</para><para>This option should always be checked unless you "
-"intend to discontinue use of <application>KAlarm</application>.</para>"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:99
-#. i18n: ectx: label, entry (NoAutoStart), group (General)
-#: rc.cpp:65
-#, fuzzy
-msgctxt "@label"
-msgid "Suppress autostart at login"
-msgstr "Тизимга &киришда автоматик бошлаш"
-
-#. i18n: file: kalarmconfig.kcfg:103
-#. i18n: ectx: label, entry (DefaultDeferTime), group (General)
-#: rc.cpp:68
-#, fuzzy
-#| msgid "&Default time"
-msgctxt "@label"
-msgid "Default defer time interval"
-msgstr "&Андоза вақт"
-
-#. i18n: file: kalarmconfig.kcfg:104
-#. i18n: ectx: whatsthis, entry (DefaultDeferTime), group (General)
-#: rc.cpp:71
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"Enter the default time interval (in minutes) to defer alarms, used by the "
-"Defer Alarm dialog."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:108
-#. i18n: ectx: label, entry (AskResource), group (General)
-#: rc.cpp:74
-msgctxt "@label"
-msgid "Prompt for which calendar to store in"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:109
-#. i18n: ectx: whatsthis, entry (AskResource), group (General)
-#: rc.cpp:77 prefdlg.cpp:844
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>When saving a new alarm or alarm template, prompt for which calendar "
-"to store it in, if there is more than one active calendar.</para><para>Note "
-"that archived alarms are always stored in the default archived alarm "
-"calendar.</para>"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:114
-#. i18n: ectx: label, entry (ModalMessages), group (General)
-#: rc.cpp:80
-msgctxt "@label"
-msgid "Message windows have a title bar and take keyboard focus"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:115
-#. i18n: ectx: whatsthis, entry (ModalMessages), group (General)
-#: rc.cpp:83 prefdlg.cpp:1713
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Specify the characteristics of alarm message windows:<list><item>If "
-"checked, the window is a normal window with a title bar, which grabs "
-"keyboard input when it is displayed.</item><item>If unchecked, the window "
-"does not interfere with your typing when it is displayed, but it has no "
-"title bar and cannot be moved or resized.</item></list></para>"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:119
-#. i18n: ectx: label, entry (MessageButtonDelay), group (General)
-#: rc.cpp:86
-msgctxt "@label"
-msgid "Delay before message window buttons are enabled"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:124
-#. i18n: ectx: whatsthis, entry (MessageButtonDelay), group (General)
-#: rc.cpp:89
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Specify the positioning of alarm message windows, and the delay in "
-"seconds after a window shows until its buttons are enabled.\n"
-"        <list><item>0 to position message windows as far from the cursor as "
-"possible with no enable delay.</item>\n"
-"        <item>> 0 to position in center of screen and specify delay before "
-"enabling buttons.</item>\n"
-"        <item>-1 for no special positioning and no enable delay.</item></"
-"list></para>\n"
-"      "
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:130
-#. i18n: ectx: label, entry (TooltipAlarmCount), group (General)
-#: rc.cpp:96
-msgctxt "@label"
-msgid "Number of alarms to show in system tray tooltip"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:135
-#. i18n: ectx: whatsthis, entry (TooltipAlarmCount), group (General)
-#: rc.cpp:99
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>How many alarms due in the next 24 hours to show in the system tray "
-"tooltip:\n"
-"        <list><item>0 to display none</item>\n"
-"        <item>-1 to display all</item>\n"
-"        <item>>0 to set a limit.</item></list></para>\n"
-"      "
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:141
-#. i18n: ectx: label, entry (ShowTooltipAlarmTime), group (General)
-#: rc.cpp:106
-msgctxt "@label"
-msgid "Show alarm times in system tray tooltip"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:142
-#. i18n: ectx: whatsthis, entry (ShowTooltipAlarmTime), group (General)
-#: rc.cpp:109 prefdlg.cpp:1620
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"Specify whether to show in the system tray tooltip, the time at which each "
-"alarm is due."
-msgstr ""
-"Огоҳлантиришлар рўйхатидаги муддати ўтган огоҳлантиришлар учун рангни танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:147
-#. i18n: ectx: label, entry (ShowTooltipTimeToAlarm), group (General)
-#: rc.cpp:112
-#, fuzzy
-msgctxt "@label"
-msgid "Show time to alarms in system tray tooltip"
-msgstr "Огоҳлантири&шга қолган вақтни кўрсатиш"
-
-#. i18n: file: kalarmconfig.kcfg:148
-#. i18n: ectx: whatsthis, entry (ShowTooltipTimeToAlarm), group (General)
-#: rc.cpp:115 prefdlg.cpp:1626
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"Specify whether to show in the system tray tooltip, how long until each "
-"alarm is due."
-msgstr ""
-"Огоҳлантиришлар рўйхатидаги ўчирилган огоҳлантиришлар учун рангни танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:153
-#. i18n: ectx: label, entry (TooltipTimeToPrefix), group (General)
-#: rc.cpp:118
-msgctxt "@label"
-msgid "Time-to-alarm prefix in system tray tooltip"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:154
-#. i18n: ectx: whatsthis, entry (TooltipTimeToPrefix), group (General)
-#: rc.cpp:121 prefdlg.cpp:1635
-msgctxt "@info:whatsthis"
-msgid ""
-"Enter the text to be displayed in front of the time until the alarm, in the "
-"system tray tooltip."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:159
-#. i18n: ectx: label, entry (EmailClient), group (General)
-#: rc.cpp:124
-#, fuzzy
-msgctxt "@label"
-msgid "Email client"
-msgstr "Электрон почта дастури:"
-
-#. i18n: file: kalarmconfig.kcfg:160
-#. i18n: ectx: whatsthis, entry (EmailClient), group (General)
-#: rc.cpp:127
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>How to send email when an email alarm is triggered.<list><item>KMail: "
-"The email is sent automatically via <application>KMail</application>. "
-"<application>KMail</application> is started first if necessary.</"
-"item><item>Sendmail: The email is sent automatically. This option will only "
-"work if your system is configured to use <application>sendmail</application> "
-"or a sendmail compatible mail transport agent.</item></list></para>"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:162
-#. i18n: ectx: label, entry (EmailClient), group (General)
-#: rc.cpp:130
-#, fuzzy
-msgctxt "@option"
-msgid "Sendmail"
-msgstr "&Sendmail"
-
-#. i18n: file: kalarmconfig.kcfg:163
-#. i18n: ectx: label, entry (EmailClient), group (General)
-#: rc.cpp:133
-#, fuzzy
-msgctxt "@option"
-msgid "KMail"
-msgstr "&KMail"
-
-#. i18n: file: kalarmconfig.kcfg:168
-#. i18n: ectx: label, entry (Base_EmailCopyToKMail), group (General)
-#: rc.cpp:136
-#, fuzzy
-msgctxt "@label"
-msgid "Whether to copy sent emails into KMail's Sent folder."
-msgstr "Жўнатилган хатлардан KMail %1 жилдига нусха олиш"
-
-#. i18n: file: kalarmconfig.kcfg:169
-#. i18n: ectx: whatsthis, entry (Base_EmailCopyToKMail), group (General)
-#: rc.cpp:139
-msgctxt "@info:whatsthis"
-msgid ""
-"Whether after sending an email to store a copy in KMail's sent-mail folder. "
-"Only applies when sendmail is selected as the email client."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:173
-#. i18n: ectx: label, entry (Base_EmailFrom), group (General)
-#: rc.cpp:142
-#, fuzzy
-msgctxt "@label"
-msgid "'From' email address"
-msgstr "Электрон почтангиз"
-
-#. i18n: file: kalarmconfig.kcfg:174
-#. i18n: ectx: whatsthis, entry (Base_EmailFrom), group (General)
-#: rc.cpp:145
-msgctxt "@info:whatsthis"
-msgid ""
-"Your email address, used to identify you as the sender when sending email "
-"alarms. Enter \"@SystemSettings\" to use the email address set in System "
-"Settings, \"@KMail\" to allow choice of KMail identities, or enter the "
-"actual email address otherwise."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:178
-#. i18n: ectx: label, entry (Base_EmailBccAddress), group (General)
-#: rc.cpp:148
-#, fuzzy
-msgctxt "@label"
-msgid "'Bcc' email address"
-msgstr "Электрон почтангиз"
-
-#. i18n: file: kalarmconfig.kcfg:179
-#. i18n: ectx: whatsthis, entry (Base_EmailBccAddress), group (General)
-#: rc.cpp:151
-msgctxt "@info:whatsthis"
-msgid ""
-"Your email address, used for blind copying email alarms to yourself. If you "
-"want blind copies to be sent to your account on the computer which KAlarm "
-"runs on, you can simply enter your user login name. Enter \"@SystemSettings"
-"\" to use the email address set in System Settings, or enter the actual "
-"email address otherwise."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:183
-#. i18n: ectx: label, entry (Base_CmdXTermCommand), group (General)
-#: rc.cpp:154
-#, fuzzy
-#| msgid "Command Alarms"
-msgctxt "@label"
-msgid "Terminal for command alarms"
-msgstr "Буйруқ орқали огоҳлантиришлар"
-
-#. i18n: file: kalarmconfig.kcfg:184
-#. i18n: ectx: whatsthis, entry (Base_CmdXTermCommand), group (General)
-#: rc.cpp:157
-#, fuzzy
-#| msgid "Check to execute the command in a terminal window"
-msgctxt "@info:whatsthis"
-msgid ""
-"Command line to execute command alarms in a terminal window, including "
-"special codes described in the KAlarm handbook."
-msgstr "Терминал ойнасида буйруқни ишга тушириш учун шу ерни белгиланг"
-
-#. i18n: file: kalarmconfig.kcfg:187
-#. i18n: ectx: label, entry (Base_StartOfDay), group (General)
-#: rc.cpp:160
-msgctxt "@label"
-msgid "Start of day for date-only alarms"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:188
-#. i18n: ectx: whatsthis, entry (Base_StartOfDay), group (General)
-#: rc.cpp:163
-msgctxt "@info:whatsthis"
-msgid "The earliest time of day at which a date-only alarm will be triggered."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:193
-#. i18n: ectx: label, entry (Base_WorkDayStart), group (General)
-#: rc.cpp:166
-msgctxt "@label"
-msgid "Start time of working day"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:194
-#. i18n: ectx: whatsthis, entry (Base_WorkDayStart), group (General)
-#: rc.cpp:169
-#, fuzzy
-#| msgid "Enter the name or path of the log file."
-msgctxt "@info:whatsthis"
-msgid "The start time of the working day."
-msgstr "Лог файлини номини ёки йўлини киритинг."
-
-#. i18n: file: kalarmconfig.kcfg:199
-#. i18n: ectx: label, entry (Base_WorkDayEnd), group (General)
-#: rc.cpp:172
-msgctxt "@label"
-msgid "End time of working day"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:200
-#. i18n: ectx: whatsthis, entry (Base_WorkDayEnd), group (General)
-#: rc.cpp:175
-#, fuzzy
-#| msgid "Enter the name of the alarm template"
-msgctxt "@info:whatsthis"
-msgid "The end time of the working day."
-msgstr "Огоҳлантириш намунаси номини киритиш"
-
-#. i18n: file: kalarmconfig.kcfg:205
-#. i18n: ectx: label, entry (Base_WorkDays), group (General)
-#: rc.cpp:178
-msgctxt "@label"
-msgid "Working days"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:206
-#. i18n: ectx: whatsthis, entry (Base_WorkDays), group (General)
-#: rc.cpp:181
-msgctxt "@info:whatsthis"
-msgid ""
-"OR'ed bits indicating which days of the week are work days, 1 = Monday ... "
-"64 = Sunday."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:211
-#. i18n: ectx: label, entry (DisabledColour), group (General)
-#: rc.cpp:184
-#, fuzzy
-msgctxt "@label"
-msgid "Disabled alarm color"
-msgstr "Ў&чирилган огоҳлантиришнинг ранги:"
-
-#. i18n: file: kalarmconfig.kcfg:212
-#. i18n: ectx: whatsthis, entry (DisabledColour), group (General)
-#: rc.cpp:187 prefdlg.cpp:1655
-#, fuzzy
-#| msgid "Choose the text color in the alarm list for disabled alarms."
-msgctxt "@info:whatsthis"
-msgid "Choose the text color in the alarm list for disabled alarms."
-msgstr ""
-"Огоҳлантиришлар рўйхатидаги ўчирилган огоҳлантиришлар учун рангни танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:217
-#. i18n: ectx: label, entry (ArchivedColour), group (General)
-#: rc.cpp:190
-#, fuzzy
-msgctxt "@label"
-msgid "Archived alarm color"
-msgstr "&Муддати ўтган огоҳлантиришнинг ранги:"
-
-#. i18n: file: kalarmconfig.kcfg:218
-#. i18n: ectx: whatsthis, entry (ArchivedColour), group (General)
-#: rc.cpp:193 prefdlg.cpp:1665
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Choose the text color in the alarm list for archived alarms."
-msgstr ""
-"Огоҳлантиришлар рўйхатидаги муддати ўтган огоҳлантиришлар учун рангни танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:223
-#. i18n: ectx: label, entry (ArchivedKeepDays), group (General)
-#: rc.cpp:196
-#, fuzzy
-msgctxt "@label"
-msgid "Days to keep expired alarms"
-msgstr "Муддати ўтган огоҳлантиришни олиб ташлаш"
-
-#. i18n: file: kalarmconfig.kcfg:228
-#. i18n: ectx: whatsthis, entry (ArchivedKeepDays), group (General)
-#: rc.cpp:199
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Specify how many days to keep alarms after they expire or are deleted "
-"(except deleted alarms which were never triggered):\n"
-"        <list><item>0 to not keep</item>\n"
-"        <item>-1 to keep indefinitely</item>\n"
-"        <item>>0 number of days to keep.</item></list></para>\n"
-"      "
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:234
-#. i18n: ectx: label, entry (KOrgEventDuration), group (General)
-#: rc.cpp:206
-msgctxt "@label"
-msgid "KOrganizer event duration"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:235
-#. i18n: ectx: whatsthis, entry (KOrgEventDuration), group (General)
-#: rc.cpp:209
-msgctxt "@info:whatsthis"
-msgid ""
-"Enter the event duration in minutes, for alarms which are copied to "
-"KOrganizer."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:241
-#. i18n: ectx: label, entry (DefaultLateCancel), group (Defaults)
-#: rc.cpp:212
-#, fuzzy
-msgctxt "@label"
-msgid "Cancel if late (minutes)"
-msgstr "Кеч бўлса, бекор қилиш"
-
-#. i18n: file: kalarmconfig.kcfg:242
-#. i18n: ectx: whatsthis, entry (DefaultLateCancel), group (Defaults)
-#: rc.cpp:215
-msgctxt "@info:whatsthis"
-msgid ""
-"Default value in the alarm edit dialog for late cancellation time (in "
-"minutes). 0 for no late cancellation, >0 how many minutes before cancelling."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:247
-#. i18n: ectx: label, entry (DefaultAutoClose), group (Defaults)
-#: rc.cpp:218
-#, fuzzy
-msgctxt "@label"
-msgid "Auto-close window after late-cancellation time"
-msgstr "Кечикканда бекор қилгандан сўнг ойнани автоматик ёпиш вақти"
-
-#. i18n: file: kalarmconfig.kcfg:248
-#. i18n: ectx: whatsthis, entry (DefaultAutoClose), group (Defaults)
-#: rc.cpp:221
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default setting in the alarm edit dialog for \"auto close if late\"."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:253
-#. i18n: ectx: whatsthis, entry (DefaultConfirmAck), group (Defaults)
-#: rc.cpp:227
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"Default setting in the alarm edit dialog for \"confirm alarm acknowledgement"
-"\"."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:257
-#. i18n: ectx: label, entry (DefaultCopyToKOrganizer), group (Defaults)
-#: rc.cpp:230
-#, fuzzy
-#| msgid "Show in KOrganizer"
-msgctxt "@label"
-msgid "Show in KOrganizer"
-msgstr "KOrganizer'да кўрсатиш"
-
-#. i18n: file: kalarmconfig.kcfg:258
-#. i18n: ectx: whatsthis, entry (DefaultCopyToKOrganizer), group (Defaults)
-#: rc.cpp:233
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default setting in the alarm edit dialog for \"show in KOrganizer\"."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:262
-#. i18n: ectx: label, entry (DefaultSoundType), group (Defaults)
-#: rc.cpp:236
-#, fuzzy
-msgctxt "@label Label for audio options"
-msgid "Sound"
-msgstr "Товуш"
-
-#. i18n: file: kalarmconfig.kcfg:263
-#. i18n: ectx: whatsthis, entry (DefaultSoundType), group (Defaults)
-#: rc.cpp:239
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default sound type in the alarm edit dialog."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:267
-#. i18n: ectx: label, entry (DefaultSoundType), group (Defaults)
-#: rc.cpp:242
-#, fuzzy
-msgctxt "@option"
-msgid "Play File"
-msgstr "Ҳамма файллар"
-
-#. i18n: file: kalarmconfig.kcfg:273
-#. i18n: ectx: label, entry (DefaultSoundFile), group (Defaults)
-#: rc.cpp:245
-#, fuzzy
-msgctxt "@label"
-msgid "Sound file"
-msgstr "Товуш ф&айли:"
-
-#. i18n: file: kalarmconfig.kcfg:274
-#. i18n: ectx: whatsthis, entry (DefaultSoundFile), group (Defaults)
-#: rc.cpp:248
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default sound file path in the alarm edit dialog."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:278
-#. i18n: ectx: whatsthis, entry (Base_DefaultSoundVolume), group (Defaults)
-#: rc.cpp:255
-#, fuzzy, no-c-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Default sound volume in the alarm edit dialog. -1 to deselect volume, or 0 - "
-"100 %"
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:284
-#. i18n: ectx: label, entry (DefaultSoundRepeat), group (Defaults)
-#: rc.cpp:258
-#, fuzzy
-msgctxt "@label"
-msgid "Repeat sound file"
-msgstr "Такрорлаш учун то&вуш файли"
-
-#. i18n: file: kalarmconfig.kcfg:285
-#. i18n: ectx: whatsthis, entry (DefaultSoundRepeat), group (Defaults)
-#: rc.cpp:261
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default setting in the alarm edit dialog for sound repetition."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:289
-#. i18n: ectx: label, entry (DefaultCmdScript), group (Defaults)
-#: rc.cpp:264
-msgctxt "@label"
-msgid "Enter script"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:290
-#. i18n: ectx: whatsthis, entry (DefaultCmdScript), group (Defaults)
-#: rc.cpp:267
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default setting in the alarm edit dialog for command script entry."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:294
-#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
-#: rc.cpp:270
-#, fuzzy
-msgctxt "@label"
-msgid "Command output"
-msgstr "Буй&руқ"
-
-#. i18n: file: kalarmconfig.kcfg:295
-#. i18n: ectx: whatsthis, entry (DefaultCmdLogType), group (Defaults)
-#: rc.cpp:273
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"Default setting in the alarm edit dialog for where to send command alarm "
-"output."
-msgstr "Огоҳлантириш хабарини дарҳол кўрсатиш"
-
-#. i18n: file: kalarmconfig.kcfg:297
-#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
-#: rc.cpp:276
-#, fuzzy
-msgctxt "@option"
-msgid "Discard Output"
-msgstr "Ў&чириш"
-
-#. i18n: file: kalarmconfig.kcfg:298
-#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
-#: rc.cpp:279
-#, fuzzy
-msgctxt "@option"
-msgid "Log To File"
-msgstr "&Файлга сақлаш"
-
-#. i18n: file: kalarmconfig.kcfg:299
-#. i18n: ectx: label, entry (DefaultCmdLogType), group (Defaults)
-#: rc.cpp:282
-#, fuzzy
-#| msgid "Execute in terminal window"
-msgctxt "@option"
-msgid "Execute in terminal window"
-msgstr "Терминал ойнасида ишга тушириш"
-
-#. i18n: file: kalarmconfig.kcfg:305
-#. i18n: ectx: whatsthis, entry (DefaultCmdLogFile), group (Defaults)
-#: rc.cpp:288
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default log file path for command alarms in the alarm edit dialog."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:308
-#. i18n: ectx: label, entry (DefaultEmailBcc), group (Defaults)
-#: rc.cpp:291
-#, fuzzy
-#| msgid "The email to send"
-msgctxt "@label"
-msgid "Copy email to self"
-msgstr "Жўнатиш учун электрон почта"
-
-#. i18n: file: kalarmconfig.kcfg:309
-#. i18n: ectx: whatsthis, entry (DefaultEmailBcc), group (Defaults)
-#: rc.cpp:294
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"Default setting in the alarm edit dialog for blind copying emails to self."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:313
-#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
-#: rc.cpp:297
-#, fuzzy
-#| msgid "Repeat"
-msgctxt "@label"
-msgid "Recurrence period"
-msgstr "Қайтариш"
-
-#. i18n: file: kalarmconfig.kcfg:314
-#. i18n: ectx: whatsthis, entry (DefaultRecurPeriod), group (Defaults)
-#: rc.cpp:300 prefdlg.cpp:1247
-#, fuzzy
-#| msgid "The default setting for \"%1\" in the alarm edit dialog."
-msgctxt "@info:whatsthis"
-msgid "The default setting for the recurrence rule in the alarm edit dialog."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:316
-#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
-#: rc.cpp:303
-#, fuzzy
-#| msgid "Repeat"
-msgctxt "@option"
-msgid "No recurrence"
-msgstr "Қайтариш"
-
-#. i18n: file: kalarmconfig.kcfg:317
-#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
-#: rc.cpp:306
-#, fuzzy
-#| msgid "At login"
-msgctxt "@option"
-msgid "At login"
-msgstr "Тизимга киришда"
-
-#. i18n: file: kalarmconfig.kcfg:318
-#. i18n: ectx: label, entry (DefaultRecurPeriod), group (Defaults)
-#: rc.cpp:309
-#, fuzzy
-msgctxt "@option"
-msgid "Hourly/minutely"
-msgstr "Ҳар соат/дақиқада"
-
-#. i18n: file: kalarmconfig.kcfg:327
-#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
-#: rc.cpp:312 prefdlg.cpp:1254
-msgctxt "@label"
-msgid "In non-leap years, repeat yearly February 29th alarms on:"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:328
-#. i18n: ectx: whatsthis, entry (DefaultFeb29Type), group (Defaults)
-#: rc.cpp:315 prefdlg.cpp:1274
-msgctxt "@info:whatsthis"
-msgid ""
-"For yearly recurrences, choose what date, if any, alarms due on February "
-"29th should occur in non-leap years.<note>The next scheduled occurrence of "
-"existing alarms is not re-evaluated when you change this setting.</note>"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:330
-#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
-#: rc.cpp:318
-#, fuzzy
-msgctxt "@option"
-msgid "February 28th"
-msgstr "2&8-чи февраль"
-
-#. i18n: file: kalarmconfig.kcfg:331
-#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
-#: rc.cpp:321
-#, fuzzy
-msgctxt "@option"
-msgid "March 1st"
-msgstr "&1-чи март"
-
-#. i18n: file: kalarmconfig.kcfg:332
-#. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
-#: rc.cpp:324
-#, fuzzy
-msgctxt "@option"
-msgid "Do not repeat"
-msgstr "Такрор&ланмасин"
-
-#. i18n: file: kalarmconfig.kcfg:338
-#. i18n: ectx: label, entry (DefaultReminderUnits), group (Defaults)
-#: rc.cpp:327
-#, fuzzy
-msgctxt "@label"
-msgid "Reminder units"
-msgstr "Эсга солиш"
-
-#. i18n: file: kalarmconfig.kcfg:339
-#. i18n: ectx: whatsthis, entry (DefaultReminderUnits), group (Defaults)
-#: rc.cpp:330
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default reminder time units in the alarm edit dialog."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:342
-#. i18n: ectx: label, entry (DefaultReminderUnits), group (Defaults)
-#: rc.cpp:333
-#, fuzzy
-#| msgid "Hours/Minutes"
-msgctxt "@option"
-msgid "Hours/Minutes"
-msgstr "Соат/дақиқа"
-
-#. i18n: file: kalarmconfig.kcfg:347
-#. i18n: ectx: label, entry (DefaultPreAction), group (Defaults)
-#: rc.cpp:336
-#, fuzzy
-msgctxt "@label"
-msgid "Pre-alarm action"
-msgstr "Огоҳлантиришдан олдинги амал:"
-
-#. i18n: file: kalarmconfig.kcfg:348
-#. i18n: ectx: whatsthis, entry (DefaultPreAction), group (Defaults)
-#: rc.cpp:339
-msgctxt "@info:whatsthis"
-msgid "Default command to execute before displaying alarms."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:351
-#. i18n: ectx: label, entry (DefaultCancelOnPreActionError), group (Defaults)
-#: rc.cpp:342
-msgctxt "@label"
-msgid "Cancel alarm on pre-alarm action error"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:352
-#. i18n: ectx: whatsthis, entry (DefaultCancelOnPreActionError), group (Defaults)
-#: rc.cpp:345
-#, fuzzy
-#| msgid "The default setting for \"%1\" in the alarm edit dialog."
-msgctxt "@info:whatsthis"
-msgid ""
-"Default setting for whether to cancel the alarm if the pre-alarm action "
-"command fails."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:356
-#. i18n: ectx: label, entry (DefaultDontShowPreActionError), group (Defaults)
-#: rc.cpp:348
-msgctxt "@label"
-msgid "Do not notify pre-alarm action errors"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:357
-#. i18n: ectx: whatsthis, entry (DefaultDontShowPreActionError), group (Defaults)
-#: rc.cpp:351
-#, fuzzy
-#| msgid "The default setting for \"%1\" in the alarm edit dialog."
-msgctxt "@info:whatsthis"
-msgid ""
-"Default setting for whether to show no error status or error message if the "
-"pre-alarm action command fails."
-msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
-
-#. i18n: file: kalarmconfig.kcfg:361
-#. i18n: ectx: label, entry (DefaultPostAction), group (Defaults)
-#: rc.cpp:354
-#, fuzzy
-msgctxt "@label"
-msgid "Post-alarm action"
-msgstr "Огоҳлантиришдан кейинги амал:"
-
-#. i18n: file: kalarmconfig.kcfg:362
-#. i18n: ectx: whatsthis, entry (DefaultPostAction), group (Defaults)
-#: rc.cpp:357
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Default command to execute after alarm message windows are closed."
-msgstr "Огоҳлантириш хабарининг орқа фон рангини танлаш."
-
-#. i18n: file: kalarmconfig.kcfg:368
-#. i18n: ectx: label, entry (Base_QuitWarn), group (Notification Messages)
-#: rc.cpp:360
-msgctxt "@label"
-msgid "Warn before quitting"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:369
-#. i18n: ectx: whatsthis, entry (Base_QuitWarn), group (Notification Messages)
-#: rc.cpp:363
-msgctxt "@info:whatsthis"
-msgid "Whether to suppress a warning prompt before quitting KAlarm."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:373
-#. i18n: ectx: label, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
-#: rc.cpp:366
-#, fuzzy
-msgctxt "@label"
-msgid "Confirm alarm deletions"
-msgstr "Огоҳлантиришни ўчиришда та&сдиқлаш"
-
-#. i18n: file: kalarmconfig.kcfg:374
-#. i18n: ectx: whatsthis, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
-#: rc.cpp:369 prefdlg.cpp:433
-msgctxt "@info:whatsthis"
-msgid "Check to be prompted for confirmation each time you delete an alarm."
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:378
-#. i18n: ectx: label, entry (Base_EmailQueuedNotify), group (Notification Messages)
-#: rc.cpp:372
-msgctxt "@label"
-msgid "Notify when remote emails are queued"
-msgstr ""
-
-#. i18n: file: kalarmconfig.kcfg:379
-#. i18n: ectx: whatsthis, entry (Base_EmailQueuedNotify), group (Notification Messages)
-#: rc.cpp:375 prefdlg.cpp:1007
-msgctxt "@info:whatsthis"
-msgid ""
-"Display a notification message whenever an email alarm has queued an email "
-"for sending to a remote system. This could be useful if, for example, you "
-"have a dial-up connection, so that you can then ensure that the email is "
-"actually transmitted."
-msgstr ""
-
-#. i18n: file: kalarmui.rc:20
-#. i18n: ectx: Menu (file)
-#: rc.cpp:387
-#, fuzzy
-msgid "&File"
-msgstr "Фай&л"
-
-#. i18n: file: kalarmui.rc:33
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:390
-#, fuzzy
-msgid "&Edit"
-msgstr "&Таҳрирлаш"
-
-#. i18n: file: kalarmui.rc:48
-#. i18n: ectx: Menu (view)
-#: rc.cpp:393
-msgid "&View"
-msgstr ""
-
-#. i18n: file: kalarmui.rc:59
-#. i18n: ectx: Menu (actions)
-#: rc.cpp:396
-msgid "&Actions"
-msgstr "&Амаллар"
-
-#. i18n: file: kalarmui.rc:69
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:399
-#, fuzzy
-msgid "&Settings"
-msgstr "Кўриниш мосламалари"
-
-#: prefdlg.cpp:147
+#: prefdlg.cpp:149
 #, fuzzy
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Товуш файлини танлаш"
 
-#: prefdlg.cpp:155
+#: prefdlg.cpp:157
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab General preferences"
 msgid "General"
 msgstr "Умумий"
 
-#: prefdlg.cpp:156
+#: prefdlg.cpp:158
 #, fuzzy
 #| msgid "General"
 msgctxt "@title General preferences"
 msgid "General"
 msgstr "Умумий"
 
-#: prefdlg.cpp:161
+#: prefdlg.cpp:163
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Time & Date"
 msgstr "Вақт:"
 
-#: prefdlg.cpp:162
+#: prefdlg.cpp:164
 #, fuzzy
 msgctxt "@title"
 msgid "Time and Date"
 msgstr "Вақт"
 
-#: prefdlg.cpp:167
+#: prefdlg.cpp:169
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Storage"
 msgstr "Огоҳлантириш тури"
 
-#: prefdlg.cpp:168
+#: prefdlg.cpp:170
 #, fuzzy
 msgctxt "@title"
 msgid "Alarm Storage"
 msgstr "Огоҳлантириш тури"
 
-#: prefdlg.cpp:173
+#: prefdlg.cpp:175
 #, fuzzy
 #| msgid "Email"
 msgctxt "@title:tab Email preferences"
 msgid "Email"
 msgstr "Электрон почта"
 
-#: prefdlg.cpp:174
+#: prefdlg.cpp:176
 #, fuzzy
 #| msgid "Email Alarm Settings"
 msgctxt "@title"
 msgid "Email Alarm Settings"
 msgstr "Хат орқали огоҳлантириш мосламалари"
 
-#: prefdlg.cpp:179
+#: prefdlg.cpp:181
 msgctxt "@title:tab"
 msgid "View"
 msgstr ""
 
-#: prefdlg.cpp:180
+#: prefdlg.cpp:182
 #, fuzzy
 #| msgid "View Settings"
 msgctxt "@title"
 msgid "View Settings"
 msgstr "Кўриниш мосламалари"
 
-#: prefdlg.cpp:185
+#: prefdlg.cpp:187
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Edit"
 msgstr "&Таҳрирлаш"
 
-#: prefdlg.cpp:186
+#: prefdlg.cpp:188
 #, fuzzy
 #| msgid "Default Alarm Edit Settings"
 msgctxt "@title"
 msgid "Default Alarm Edit Settings"
 msgstr "Огоҳлантиришни таҳрирлаш мосламалари"
 
-#: prefdlg.cpp:262
+#: prefdlg.cpp:264
 msgctxt "@info"
 msgid "Reset all tabs to their default values, or only reset the current tab?"
 msgstr ""
 
-#: prefdlg.cpp:264
+#: prefdlg.cpp:266
 msgctxt "@action:button Reset ALL tabs"
 msgid "&All"
 msgstr ""
 
-#: prefdlg.cpp:265
+#: prefdlg.cpp:267
 msgctxt "@action:button Reset the CURRENT tab"
 msgid "C&urrent"
 msgstr ""
 
-#: prefdlg.cpp:409
+#: prefdlg.cpp:411
 #, fuzzy
 #| msgid "Run Mode"
 msgctxt "@title:group"
 msgid "Run Mode"
 msgstr "Бажариш усули"
 
-#: prefdlg.cpp:415
+#: prefdlg.cpp:417
 #, fuzzy
 msgctxt "@option:check"
 msgid "Start at login"
 msgstr "Тизимга &киришда автоматик бошлаш"
 
-#: prefdlg.cpp:422
+#: prefdlg.cpp:424
 msgctxt "@option:check"
 msgid "Warn before quitting"
 msgstr ""
 
-#: prefdlg.cpp:423
+#: prefdlg.cpp:425
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to display a warning prompt before quitting <application>KAlarm</"
 "application>."
 msgstr ""
 
-#: prefdlg.cpp:431
+#: prefdlg.cpp:433
 #, fuzzy
 msgctxt "@option:check"
 msgid "Confirm alarm deletions"
 msgstr "Огоҳлантиришни ўчиришда та&сдиқлаш"
 
-#: prefdlg.cpp:441
+#: prefdlg.cpp:443
 msgctxt "@label:spinbox"
 msgid "Default defer time interval:"
 msgstr ""
 
-#: prefdlg.cpp:445
+#: prefdlg.cpp:447
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4956,14 +4962,14 @@ msgid ""
 "the Defer Alarm dialog."
 msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
 
-#: prefdlg.cpp:451
+#: prefdlg.cpp:453
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@title:group"
 msgid "Terminal for Command Alarms"
 msgstr "Буйруқ орқали огоҳлантиришлар"
 
-#: prefdlg.cpp:452
+#: prefdlg.cpp:454
 #, fuzzy
 #| msgid "Check to execute the command in a terminal window"
 msgctxt "@info:whatsthis"
@@ -4972,7 +4978,7 @@ msgid ""
 "terminal window"
 msgstr "Терминал ойнасида буйруқни ишга тушириш учун шу ерни белгиланг"
 
-#: prefdlg.cpp:478
+#: prefdlg.cpp:480
 #, fuzzy, kde-format
 #| msgid "Check to execute the command in a terminal window"
 msgctxt "@info:whatsthis"
@@ -4980,14 +4986,14 @@ msgid ""
 "Check to execute command alarms in a terminal window by <icode>%1</icode>"
 msgstr "Терминал ойнасида буйруқни ишга тушириш учун шу ерни белгиланг"
 
-#: prefdlg.cpp:487
+#: prefdlg.cpp:489
 #, fuzzy
 #| msgid "Other:"
 msgctxt "@option:radio Other terminal window command"
 msgid "Other:"
 msgstr "Бошқа:"
 
-#: prefdlg.cpp:497
+#: prefdlg.cpp:499
 msgctxt "@info:whatsthis"
 msgid ""
 "Enter the full command line needed to execute a command in your chosen "
@@ -4996,31 +5002,31 @@ msgid ""
 "details of special codes to tailor the command line."
 msgstr ""
 
-#: prefdlg.cpp:543
+#: prefdlg.cpp:545
 #, fuzzy, kde-format
 #| msgid "Check to execute the command in a terminal window"
 msgctxt "@info"
 msgid "Command to invoke terminal window not found: <command>%1</command>"
 msgstr "Терминал ойнасида буйруқни ишга тушириш учун шу ерни белгиланг"
 
-#: prefdlg.cpp:586
+#: prefdlg.cpp:588
 msgctxt "@info"
 msgid ""
 "You should not uncheck this option unless you intend to discontinue use of "
 "<application>KAlarm</application>"
 msgstr ""
 
-#: prefdlg.cpp:636
+#: prefdlg.cpp:638
 msgctxt "@label:listbox"
 msgid "Holiday region:"
 msgstr ""
 
-#: prefdlg.cpp:643
+#: prefdlg.cpp:645
 msgctxt "@info:whatsthis"
 msgid "Select which holiday region to use"
 msgstr ""
 
-#: prefdlg.cpp:651
+#: prefdlg.cpp:653
 #, fuzzy, kde-format
 #| msgctxt "Undo-action: message"
 #| msgid "%1: %2"
@@ -5028,19 +5034,19 @@ msgctxt "Holiday region, region language"
 msgid "%1 (%2)"
 msgstr "%1: %2"
 
-#: prefdlg.cpp:655
+#: prefdlg.cpp:657
 #, fuzzy
 #| msgid "None"
 msgctxt "No holiday region"
 msgid "None"
 msgstr "Йўқ"
 
-#: prefdlg.cpp:668
+#: prefdlg.cpp:670
 msgctxt "@label:spinbox"
 msgid "Start of day for date-only alarms:"
 msgstr ""
 
-#: prefdlg.cpp:673
+#: prefdlg.cpp:675
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5048,33 +5054,33 @@ msgid ""
 "</para><para>%1</para>"
 msgstr ""
 
-#: prefdlg.cpp:679
+#: prefdlg.cpp:681
 msgctxt "@title:group"
 msgid "Working Hours"
 msgstr ""
 
-#: prefdlg.cpp:696
+#: prefdlg.cpp:698
 #, fuzzy
 #| msgid "Select the day of the week on which to repeat the alarm"
 msgctxt "@info:whatsthis"
 msgid "Check the days in the week which are work days"
 msgstr "Огоҳлантириш такрорланадиган ҳафта кунини танланг"
 
-#: prefdlg.cpp:704
+#: prefdlg.cpp:706
 #, fuzzy
 #| msgid "&Default time"
 msgctxt "@label:spinbox"
 msgid "Daily start time:"
 msgstr "&Андоза вақт"
 
-#: prefdlg.cpp:709
+#: prefdlg.cpp:711
 #, fuzzy, kde-format
 #| msgid "Enter the name or path of the log file."
 msgctxt "@info:whatsthis"
 msgid "<para>Enter the start time of the working day.</para><para>%1</para>"
 msgstr "Лог файлини номини ёки йўлини киритинг."
 
-#: prefdlg.cpp:719
+#: prefdlg.cpp:721
 #, fuzzy
 #| msgctxt "Time period over which to fade the sound"
 #| msgid "Fade time:"
@@ -5082,26 +5088,26 @@ msgctxt "@label:spinbox"
 msgid "Daily end time:"
 msgstr "Сўниш вақти:"
 
-#: prefdlg.cpp:724
+#: prefdlg.cpp:726
 #, fuzzy, kde-format
 #| msgid "Enter the name of the alarm template"
 msgctxt "@info:whatsthis"
 msgid "<para>Enter the end time of the working day.</para><para>%1</para>"
 msgstr "Огоҳлантириш намунаси номини киритиш"
 
-#: prefdlg.cpp:730
+#: prefdlg.cpp:732
 #, fuzzy
 #| msgid "Show in KOrganizer"
 msgctxt "@title:group"
 msgid "KOrganizer"
 msgstr "KOrganizer'да кўрсатиш"
 
-#: prefdlg.cpp:741
+#: prefdlg.cpp:743
 msgctxt "@label:spinbox"
 msgid "KOrganizer event duration:"
 msgstr ""
 
-#: prefdlg.cpp:746
+#: prefdlg.cpp:748
 #, fuzzy, kde-format
 #| msgid "Enter the name of the alarm template"
 msgctxt "@info:whatsthis"
@@ -5110,82 +5116,82 @@ msgid ""
 "copied to KOrganizer.</para><para>%1</para>"
 msgstr "Огоҳлантириш намунаси номини киритиш"
 
-#: prefdlg.cpp:831
+#: prefdlg.cpp:833
 #, fuzzy
 msgctxt "@title:group"
 msgid "New Alarms && Templates"
 msgstr "Янги огоҳлантириш намунаси"
 
-#: prefdlg.cpp:837
+#: prefdlg.cpp:839
 msgctxt "@option:radio"
 msgid "Store in default calendar"
 msgstr ""
 
-#: prefdlg.cpp:839
+#: prefdlg.cpp:841
 msgctxt "@info:whatsthis"
 msgid ""
 "Add all new alarms and alarm templates to the default calendars, without "
 "prompting."
 msgstr ""
 
-#: prefdlg.cpp:841
+#: prefdlg.cpp:843
 msgctxt "@option:radio"
 msgid "Prompt for which calendar to store in"
 msgstr ""
 
-#: prefdlg.cpp:849
+#: prefdlg.cpp:851
 #, fuzzy
 msgctxt "@title:group"
 msgid "Archived Alarms"
 msgstr "KAlarm'ни активлаштириш"
 
-#: prefdlg.cpp:855
+#: prefdlg.cpp:857
 #, fuzzy
 #| msgid "Keep alarms after e&xpiry"
 msgctxt "@option:check"
 msgid "Keep alarms after expiry"
 msgstr "Огоҳлантиришларни муддатидан сўн&г ҳам сақлаш"
 
-#: prefdlg.cpp:858
+#: prefdlg.cpp:860
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to archive alarms after expiry or deletion (except deleted alarms "
 "which were never triggered)."
 msgstr ""
 
-#: prefdlg.cpp:864
+#: prefdlg.cpp:866
 #, fuzzy
 msgctxt "@option:check"
 msgid "Discard archived alarms after:"
 msgstr "Ў&чирилган огоҳлантиришнинг ранги:"
 
-#: prefdlg.cpp:871
+#: prefdlg.cpp:873
 #, fuzzy
 #| msgid "days"
 msgctxt "@label Time unit for user-entered number"
 msgid "days"
 msgstr "кун"
 
-#: prefdlg.cpp:874
+#: prefdlg.cpp:876
 msgctxt "@info:whatsthis"
 msgid ""
 "Uncheck to store archived alarms indefinitely. Check to enter how long "
 "archived alarms should be stored."
 msgstr ""
 
-#: prefdlg.cpp:877
+#: prefdlg.cpp:879
 #, fuzzy
 msgctxt "@action:button"
 msgid "Clear Archived Alarms"
 msgstr "Муддати ўтган о&гоҳлантиришларни тозалаш"
 
-#: prefdlg.cpp:885
+#: prefdlg.cpp:887
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Delete all existing archived alarms."
 msgstr "Мавжуд муддати ўтган огоҳлантиришларни ўчириш."
 
-#: prefdlg.cpp:886
+#: prefdlg.cpp:888
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5193,7 +5199,7 @@ msgid ""
 "calendar only)."
 msgstr "Ростдан ҳам ушбу огоҳлантиришни тасдиқлайсизми?"
 
-#: prefdlg.cpp:937
+#: prefdlg.cpp:939
 msgctxt "@info"
 msgid ""
 "<para>A default calendar is required in order to archive alarms, but none is "
@@ -5202,13 +5208,13 @@ msgid ""
 "para>"
 msgstr ""
 
-#: prefdlg.cpp:957
+#: prefdlg.cpp:959
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to delete all archived alarms?"
 msgstr "Ростдан ҳам ушбу огоҳлантиришни тасдиқлайсизми?"
 
-#: prefdlg.cpp:958
+#: prefdlg.cpp:960
 #, fuzzy
 msgctxt "@info"
 msgid ""
@@ -5216,26 +5222,26 @@ msgid ""
 "calendar?"
 msgstr "Ростдан ҳам ушбу огоҳлантиришни тасдиқлайсизми?"
 
-#: prefdlg.cpp:977
+#: prefdlg.cpp:979
 #, fuzzy
 #| msgid "Email client:"
 msgctxt "@label"
 msgid "Email client:"
 msgstr "Электрон почта дастури:"
 
-#: prefdlg.cpp:979
+#: prefdlg.cpp:981
 #, fuzzy
 msgctxt "@option:radio"
 msgid "KMail"
 msgstr "&KMail"
 
-#: prefdlg.cpp:980
+#: prefdlg.cpp:982
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Sendmail"
 msgstr "&Sendmail"
 
-#: prefdlg.cpp:990
+#: prefdlg.cpp:992
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5248,7 +5254,7 @@ msgid ""
 "compatible mail transport agent.</item></list></para>"
 msgstr ""
 
-#: prefdlg.cpp:998
+#: prefdlg.cpp:1000
 #, fuzzy, kde-format
 #| msgid "Co&py sent emails into KMail's %1 folder"
 msgctxt "@option:check"
@@ -5257,7 +5263,7 @@ msgid ""
 "resource> folder"
 msgstr "Жўнатилган хатлардан KMail %1 жилдига нусха олиш"
 
-#: prefdlg.cpp:999
+#: prefdlg.cpp:1001
 #, fuzzy, kde-format
 #| msgid "After sending an email, store a copy in KMail's %1 folder"
 msgctxt "@info:whatsthis"
@@ -5266,19 +5272,19 @@ msgid ""
 "<resource>%1</resource> folder"
 msgstr "Хатни жўнатгандан сўнг ундан KMail %1 жилдига нусха олиш"
 
-#: prefdlg.cpp:1005
+#: prefdlg.cpp:1007
 msgctxt "@option:check"
 msgid "Notify when remote emails are queued"
 msgstr ""
 
-#: prefdlg.cpp:1013
+#: prefdlg.cpp:1015
 #, fuzzy
 #| msgid "Your Email Address"
 msgctxt "@title:group"
 msgid "Your Email Address"
 msgstr "Электрон почтангиз"
 
-#: prefdlg.cpp:1020
+#: prefdlg.cpp:1022
 #, fuzzy
 #| msgctxt "'From' email address"
 #| msgid "From:"
@@ -5286,7 +5292,7 @@ msgctxt "@label 'From' email address"
 msgid "From:"
 msgstr "Кимдан:"
 
-#: prefdlg.cpp:1032
+#: prefdlg.cpp:1034
 #, fuzzy
 #| msgid ""
 #| "Your email address, used to identify you as the sender when sending email "
@@ -5299,14 +5305,14 @@ msgstr ""
 "Огоҳлантириш хати жўнатилганда, жўнатувчи сифатида ишлатиладиган электрон "
 "почта."
 
-#: prefdlg.cpp:1039 prefdlg.cpp:1075
+#: prefdlg.cpp:1041 prefdlg.cpp:1077
 #, fuzzy
 #| msgid "&Use address from Control Center"
 msgctxt "@option:radio"
 msgid "Use address from System Settings"
 msgstr "Бошқарув марказидаги манзилдан ф&ойдаланиш"
 
-#: prefdlg.cpp:1042
+#: prefdlg.cpp:1044
 #, fuzzy
 #| msgid ""
 #| "Your email address, used to identify you as the sender when sending email "
@@ -5319,14 +5325,14 @@ msgstr ""
 "Огоҳлантириш хати жўнатилганда, жўнатувчи сифатида ишлатиладиган электрон "
 "почта."
 
-#: prefdlg.cpp:1046
+#: prefdlg.cpp:1048
 #, fuzzy
 #| msgid "Use KMail &identities"
 msgctxt "@option:radio"
 msgid "Use <application>KMail</application> identities"
 msgstr "KMail &шахсиятларидан фойдаланиш"
 
-#: prefdlg.cpp:1049
+#: prefdlg.cpp:1051
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to use <application>KMail</application>'s email identities to identify "
@@ -5336,12 +5342,12 @@ msgid ""
 "application>'s identities to use."
 msgstr ""
 
-#: prefdlg.cpp:1056
+#: prefdlg.cpp:1058
 msgctxt "@label 'Bcc' email address"
 msgid "Bcc:"
 msgstr ""
 
-#: prefdlg.cpp:1067
+#: prefdlg.cpp:1069
 msgctxt "@info:whatsthis"
 msgid ""
 "Your email address, used for blind copying email alarms to yourself. If you "
@@ -5350,7 +5356,7 @@ msgid ""
 "login name."
 msgstr ""
 
-#: prefdlg.cpp:1078
+#: prefdlg.cpp:1080
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5358,13 +5364,13 @@ msgid ""
 "email alarms to yourself."
 msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
 
-#: prefdlg.cpp:1162
+#: prefdlg.cpp:1164
 #, fuzzy
 msgctxt "@info/plain"
 msgid "No valid 'Bcc' email address is specified."
 msgstr "Электрон почтангиз"
 
-#: prefdlg.cpp:1169
+#: prefdlg.cpp:1171
 #, fuzzy, kde-format
 #| msgid ""
 #| "%1\n"
@@ -5375,21 +5381,21 @@ msgstr ""
 "%1\n"
 "Ўзгаришларни сақлашга ишончингиз комилми?"
 
-#: prefdlg.cpp:1175
+#: prefdlg.cpp:1177
 #, fuzzy, kde-format
 #| msgid "No email address is currently set in the KDE Control Center. %1"
 msgctxt "@info"
 msgid "No email address is currently set in KDE System Settings. %1"
 msgstr "KDE бошқарув марказида электрон почта кўрсатилмаган. %1"
 
-#: prefdlg.cpp:1180
+#: prefdlg.cpp:1182
 #, fuzzy, kde-format
 #| msgid "No KMail identities currently exist. %1"
 msgctxt "@info"
 msgid "No <application>KMail</application> identities currently exist. %1"
 msgstr "KMail шахсияти мавжуд эмас. %1"
 
-#: prefdlg.cpp:1198
+#: prefdlg.cpp:1200
 #, fuzzy, kde-format
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info:whatsthis"
@@ -5397,81 +5403,81 @@ msgid ""
 "The default setting for <interface>%1</interface> in the alarm edit dialog."
 msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
 
-#: prefdlg.cpp:1205 prefdlg.cpp:1572
+#: prefdlg.cpp:1207 prefdlg.cpp:1574
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab"
 msgid "General"
 msgstr "Умумий"
 
-#: prefdlg.cpp:1209
+#: prefdlg.cpp:1211
 #, fuzzy
 #| msgid "Alarm Type"
 msgctxt "@title:tab"
 msgid "Alarm Types"
 msgstr "Огоҳлантириш тури"
 
-#: prefdlg.cpp:1213
+#: prefdlg.cpp:1215
 #, fuzzy
 #| msgid "Font & Color"
 msgctxt "@title:tab"
 msgid "Font && Color"
 msgstr "Шрифт ва ранг"
 
-#: prefdlg.cpp:1234
+#: prefdlg.cpp:1236
 #, fuzzy
 #| msgid "Repeat"
 msgctxt "@label:listbox"
 msgid "Recurrence:"
 msgstr "Қайтариш"
 
-#: prefdlg.cpp:1263
+#: prefdlg.cpp:1265
 #, fuzzy
 #| msgid "February 2&8th"
 msgctxt "@option:radio"
 msgid "February 2&8th"
 msgstr "2&8-чи февраль"
 
-#: prefdlg.cpp:1266
+#: prefdlg.cpp:1268
 #, fuzzy
 #| msgid "March &1st"
 msgctxt "@option:radio"
 msgid "March &1st"
 msgstr "&1-чи март"
 
-#: prefdlg.cpp:1269
+#: prefdlg.cpp:1271
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Do not repeat"
 msgstr "Такрор&ланмасин"
 
-#: prefdlg.cpp:1282
+#: prefdlg.cpp:1284
 #, fuzzy
 #| msgid "Display Alarms"
 msgctxt "@title:group"
 msgid "Display Alarms"
 msgstr "Огоҳлантиришларни кўрсатиш"
 
-#: prefdlg.cpp:1301
+#: prefdlg.cpp:1303
 #, fuzzy
 msgctxt "@label:listbox"
 msgid "Reminder units:"
 msgstr "Эсга солиш"
 
-#: prefdlg.cpp:1303
+#: prefdlg.cpp:1305
 #, fuzzy
 msgctxt "@item:inlistbox"
 msgid "Minutes"
 msgstr "1 дақиқа"
 
-#: prefdlg.cpp:1304
+#: prefdlg.cpp:1306
 #, fuzzy
 #| msgid "Hours/Minutes"
 msgctxt "@item:inlistbox"
 msgid "Hours/Minutes"
 msgstr "Соат/дақиқа"
 
-#: prefdlg.cpp:1307
+#: prefdlg.cpp:1309
 #, fuzzy
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info:whatsthis"
@@ -5480,19 +5486,19 @@ msgid ""
 "soon."
 msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
 
-#: prefdlg.cpp:1314
+#: prefdlg.cpp:1316
 #, fuzzy
 msgctxt "@title:group Audio options group"
 msgid "Sound"
 msgstr "Товуш"
 
-#: prefdlg.cpp:1333
+#: prefdlg.cpp:1335
 #, fuzzy
 msgctxt "@option:check"
 msgid "Repeat sound file"
 msgstr "Такрорлаш учун то&вуш файли"
 
-#: prefdlg.cpp:1336
+#: prefdlg.cpp:1338
 #, fuzzy, kde-format
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info:whatsthis sound file 'Repeat' checkbox"
@@ -5501,48 +5507,48 @@ msgid ""
 "edit dialog."
 msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
 
-#: prefdlg.cpp:1342
+#: prefdlg.cpp:1344
 #, fuzzy
 #| msgid "Sound &file:"
 msgctxt "@label:textbox"
 msgid "Sound file:"
 msgstr "Товуш ф&айли:"
 
-#: prefdlg.cpp:1350
+#: prefdlg.cpp:1352
 #, fuzzy
 #| msgid "Choose a sound file"
 msgctxt "@info:tooltip"
 msgid "Choose a sound file"
 msgstr "Товуш файлини танлаш"
 
-#: prefdlg.cpp:1351
+#: prefdlg.cpp:1353
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Enter the default sound file to use in the alarm edit dialog."
 msgstr "Огоҳлантиришни таҳрирлаш ойнасидаги \"%1\" учун андоза мослама."
 
-#: prefdlg.cpp:1357
+#: prefdlg.cpp:1359
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@title:group"
 msgid "Command Alarms"
 msgstr "Буйруқ орқали огоҳлантиришлар"
 
-#: prefdlg.cpp:1377
+#: prefdlg.cpp:1379
 #, fuzzy
 #| msgid "Email Alarms"
 msgctxt "@title:group"
 msgid "Email Alarms"
 msgstr "Электрон почта орқали огоҳлантиришлар"
 
-#: prefdlg.cpp:1393
+#: prefdlg.cpp:1395
 #, fuzzy
 #| msgid "Message Font && Color"
 msgctxt "@title:group"
 msgid "Message Font && Color"
 msgstr "Хабарнинг шрифт ва ранги"
 
-#: prefdlg.cpp:1555
+#: prefdlg.cpp:1557
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -5550,32 +5556,32 @@ msgid ""
 "the default sound type"
 msgstr ""
 
-#: prefdlg.cpp:1576
+#: prefdlg.cpp:1578
 #, fuzzy
 #| msgid "Alarm List"
 msgctxt "@title:tab"
 msgid "Alarm Windows"
 msgstr "Огоҳлантириш рўйхати"
 
-#: prefdlg.cpp:1581
+#: prefdlg.cpp:1583
 #, fuzzy
 msgctxt "@option:check"
 msgid "Show in system tray"
 msgstr "Огоҳлантири&шга қолган вақтни кўрсатиш"
 
-#: prefdlg.cpp:1588
+#: prefdlg.cpp:1590
 msgctxt "@title:group"
 msgid "System Tray Tooltip"
 msgstr ""
 
-#: prefdlg.cpp:1596
+#: prefdlg.cpp:1598
 #, fuzzy
 #| msgid "Show next &24 hours' alarms"
 msgctxt "@option:check"
 msgid "Show next &24 hours' alarms"
 msgstr "Кейинги 24 с&оат ичидаги огоҳлантиришларни кўрсатиш"
 
-#: prefdlg.cpp:1600
+#: prefdlg.cpp:1602
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5584,53 +5590,53 @@ msgid ""
 msgstr ""
 "Огоҳлантиришлар рўйхатидаги ўчирилган огоҳлантиришлар учун рангни танлаш."
 
-#: prefdlg.cpp:1606
+#: prefdlg.cpp:1608
 #, fuzzy
 #| msgid "Ma&ximum number of alarms to show:"
 msgctxt "@option:check"
 msgid "Maximum number of alarms to show:"
 msgstr "&Кўрсатиладиган огоҳлантиришларнинг максимал сони:"
 
-#: prefdlg.cpp:1613
+#: prefdlg.cpp:1615
 msgctxt "@info:whatsthis"
 msgid ""
 "Uncheck to display all of the next 24 hours' alarms in the system tray "
 "tooltip. Check to enter an upper limit on the number to be displayed."
 msgstr ""
 
-#: prefdlg.cpp:1632 birthdaydlg.cpp:94
+#: prefdlg.cpp:1634 birthdaydlg.cpp:94
 #, fuzzy
 #| msgid "Pre&fix:"
 msgctxt "@label:textbox"
 msgid "Prefix:"
 msgstr "&Префикс:"
 
-#: prefdlg.cpp:1640
+#: prefdlg.cpp:1642
 #, fuzzy
 #| msgid "Alarm List"
 msgctxt "@title:group"
 msgid "Alarm List"
 msgstr "Огоҳлантириш рўйхати"
 
-#: prefdlg.cpp:1651
+#: prefdlg.cpp:1653
 #, fuzzy
 #| msgid "Di&sabled alarm color:"
 msgctxt "@label:listbox"
 msgid "Disabled alarm color:"
 msgstr "Ў&чирилган огоҳлантиришнинг ранги:"
 
-#: prefdlg.cpp:1661
+#: prefdlg.cpp:1663
 #, fuzzy
 msgctxt "@label:listbox"
 msgid "Archived alarm color:"
 msgstr "Ў&чирилган огоҳлантиришнинг ранги:"
 
-#: prefdlg.cpp:1672
+#: prefdlg.cpp:1674
 msgctxt "@title:group"
 msgid "Alarm Message Windows"
 msgstr ""
 
-#: prefdlg.cpp:1682
+#: prefdlg.cpp:1684
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Choose how to reduce the chance of alarm messages being accidentally "
@@ -5640,29 +5646,29 @@ msgid ""
 "time after the window is displayed.</item></list></para>"
 msgstr ""
 
-#: prefdlg.cpp:1685
+#: prefdlg.cpp:1687
 msgctxt "@option:radio"
 msgid "Position windows far from mouse cursor"
 msgstr ""
 
-#: prefdlg.cpp:1689
+#: prefdlg.cpp:1691
 msgctxt "@option:radio"
 msgid "Center windows, delay activating window buttons"
 msgstr ""
 
-#: prefdlg.cpp:1699
+#: prefdlg.cpp:1701
 msgctxt "@label:spinbox"
 msgid "Button activation delay (seconds):"
 msgstr ""
 
-#: prefdlg.cpp:1704
+#: prefdlg.cpp:1706
 msgctxt "@info:whatsthis"
 msgid ""
 "Enter how long its buttons should remain disabled after the alarm message "
 "window is shown."
 msgstr ""
 
-#: prefdlg.cpp:1710
+#: prefdlg.cpp:1712
 msgctxt "@option:check"
 msgid "Message windows have a title bar and take keyboard focus"
 msgstr ""
@@ -6070,87 +6076,87 @@ msgstr "Аудио файлнинг товуши"
 msgid "Message text to display"
 msgstr "Кўрсатиш учун хабар матни"
 
-#: messagewin.cpp:404
+#: messagewin.cpp:408
 #, fuzzy
 #| msgid "Reminder"
 msgctxt "@title:window"
 msgid "Reminder"
 msgstr "Эсга солиш"
 
-#: messagewin.cpp:404 messagewin.cpp:825
+#: messagewin.cpp:408 messagewin.cpp:829
 #, fuzzy
 #| msgid "Message"
 msgctxt "@title:window"
 msgid "Message"
 msgstr "Хабар"
 
-#: messagewin.cpp:422
+#: messagewin.cpp:426
 msgctxt "@info:whatsthis"
 msgid ""
 "The scheduled date/time for the message (as opposed to the actual time of "
 "display)."
 msgstr ""
 
-#: messagewin.cpp:429
+#: messagewin.cpp:433
 #, fuzzy
 #| msgid "Reminder"
 msgctxt "@info"
 msgid "Reminder"
 msgstr "Эсга солиш"
 
-#: messagewin.cpp:453
+#: messagewin.cpp:457
 msgctxt "@info:whatsthis"
 msgid "The file whose contents are displayed below"
 msgstr ""
 
-#: messagewin.cpp:509
+#: messagewin.cpp:513
 #, fuzzy
 #| msgid "Select a text or image file to display."
 msgctxt "@info:whatsthis"
 msgid "The contents of the file to be displayed"
 msgstr "Кўрсатиш учун матн ёки расм файлини танланг."
 
-#: messagewin.cpp:517
+#: messagewin.cpp:521
 #, fuzzy
 #| msgid "File not found"
 msgctxt "@info"
 msgid "File is a folder"
 msgstr "Файл топилмади"
 
-#: messagewin.cpp:517
+#: messagewin.cpp:521
 #, fuzzy
 #| msgid "Failed to open file"
 msgctxt "@info"
 msgid "Failed to open file"
 msgstr "Файлни очиш муваффақиятсиз тугади"
 
-#: messagewin.cpp:517
+#: messagewin.cpp:521
 #, fuzzy
 #| msgid "File not found"
 msgctxt "@info"
 msgid "File not found"
 msgstr "Файл топилмади"
 
-#: messagewin.cpp:537
+#: messagewin.cpp:541
 #, fuzzy
 #| msgid "The alarm message"
 msgctxt "@info:whatsthis"
 msgid "The alarm message"
 msgstr "Огоҳлантириш хабари"
 
-#: messagewin.cpp:564
+#: messagewin.cpp:568
 msgctxt "@info:whatsthis"
 msgid "The output of the alarm's command"
 msgstr ""
 
-#: messagewin.cpp:606
+#: messagewin.cpp:610
 #, fuzzy
 #| msgid "The email to send"
 msgctxt "@info:whatsthis"
 msgid "The email to send"
 msgstr "Жўнатиш учун электрон почта"
 
-#: messagewin.cpp:612
+#: messagewin.cpp:616
 #, fuzzy
 #| msgctxt "Email addressee"
 #| msgid "To:"
@@ -6158,7 +6164,7 @@ msgctxt "@info Email addressee"
 msgid "To:"
 msgstr "Кимга:"
 
-#: messagewin.cpp:619
+#: messagewin.cpp:623
 #, fuzzy
 #| msgctxt "Email subject"
 #| msgid "Subject:"
@@ -6166,134 +6172,134 @@ msgctxt "@info Email subject"
 msgid "Subject:"
 msgstr "Мавзу:"
 
-#: messagewin.cpp:645
+#: messagewin.cpp:649
 msgctxt "@title:window"
 msgid "Error"
 msgstr ""
 
-#: messagewin.cpp:665
+#: messagewin.cpp:669
 msgctxt "@option:check"
 msgid "Do not display this error message again for this alarm"
 msgstr ""
 
-#: messagewin.cpp:684
+#: messagewin.cpp:688
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Acknowledge the alarm"
 msgstr "Огоҳлантиришни тасдиқлаш"
 
-#: messagewin.cpp:689
+#: messagewin.cpp:693
 #, fuzzy
 #| msgid "&Edit..."
 msgctxt "@action:button"
 msgid "&Edit..."
 msgstr "&Таҳрирлаш"
 
-#: messagewin.cpp:694
+#: messagewin.cpp:698
 #, fuzzy
 #| msgid "Edit the alarm."
 msgctxt "@info:whatsthis"
 msgid "Edit the alarm."
 msgstr "Огоҳлантиришни таҳрирлаш."
 
-#: messagewin.cpp:698
+#: messagewin.cpp:702
 #, fuzzy
 #| msgid "&New..."
 msgctxt "@action:button"
 msgid "&Defer..."
 msgstr "Я&нги..."
 
-#: messagewin.cpp:703
+#: messagewin.cpp:707
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Defer the alarm until later.</para><para>You will be prompted to "
 "specify when the alarm should be redisplayed.</para>"
 msgstr ""
 
-#: messagewin.cpp:732
+#: messagewin.cpp:736
 #, fuzzy
 #| msgid "Use KMail &identities"
 msgctxt "@info:tooltip Locate this email in KMail"
 msgid "Locate in <application>KMail</application>"
 msgstr "KMail &шахсиятларидан фойдаланиш"
 
-#: messagewin.cpp:733
+#: messagewin.cpp:737
 msgctxt "@info:whatsthis"
 msgid "Locate and highlight this email in <application>KMail</application>"
 msgstr ""
 
-#: messagewin.cpp:742
+#: messagewin.cpp:746
 msgctxt "@info:tooltip"
 msgid "Activate <application>KAlarm</application>"
 msgstr ""
 
-#: messagewin.cpp:743
+#: messagewin.cpp:747
 msgctxt "@info:whatsthis"
 msgid "Activate <application>KAlarm</application>"
 msgstr ""
 
-#: messagewin.cpp:902
+#: messagewin.cpp:906
 #, fuzzy
 #| msgid "Today"
 msgctxt "@info"
 msgid "Today"
 msgstr "Бугун"
 
-#: messagewin.cpp:904
+#: messagewin.cpp:908
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Tomorrow"
 msgid_plural "in %1 days' time"
 msgstr[0] "Эртага"
 
-#: messagewin.cpp:906
+#: messagewin.cpp:910
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "in 1 week's time"
 msgid_plural "in %1 weeks' time"
 msgstr[0] "1 ҳафтадан сўнг"
 
-#: messagewin.cpp:920
+#: messagewin.cpp:924
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "in 1 minute's time"
 msgid_plural "in %1 minutes' time"
 msgstr[0] "1 дақиқадан сўнг"
 
-#: messagewin.cpp:922
+#: messagewin.cpp:926
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "in 1 hour's time"
 msgid_plural "in %1 hours' time"
 msgstr[0] "1 соатдан сўнг"
 
-#: messagewin.cpp:925
+#: messagewin.cpp:929
 #, fuzzy, kde-format
 msgctxt "@item:intext inserted into 'in ... %1 minute's time' below"
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] "1 соат"
 
-#: messagewin.cpp:926
+#: messagewin.cpp:930
 #, fuzzy, kde-format
 msgctxt "@info '%2' is the previous message '1 hour'/'%1 hours'"
 msgid "in %2 1 minute's time"
 msgid_plural "in %2 %1 minutes' time"
 msgstr[0] "1 дақиқадан сўнг"
 
-#: messagewin.cpp:1411 messagewin.cpp:1421
+#: messagewin.cpp:1415 messagewin.cpp:1425
 #, fuzzy
 #| msgid "Enter the email message."
 msgctxt "@info"
 msgid "Unable to speak message"
 msgstr "Электрон почта хабарини киритинг."
 
-#: messagewin.cpp:1421
+#: messagewin.cpp:1425
 msgctxt "@info"
 msgid "D-Bus call say() failed"
 msgstr ""
 
-#: messagewin.cpp:1559
+#: messagewin.cpp:1563
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -6304,7 +6310,7 @@ msgstr ""
 "Аудио файлни очиб бўлмади:\n"
 "%1"
 
-#: messagewin.cpp:1638
+#: messagewin.cpp:1642
 #, fuzzy, kde-format
 #| msgid ""
 #| "Error attaching file:\n"
@@ -6316,30 +6322,30 @@ msgstr ""
 "Файлни илова қилиш хатоси:\n"
 "%1"
 
-#: messagewin.cpp:1964
+#: messagewin.cpp:1968
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to acknowledge this alarm?"
 msgstr "Ростдан ҳам ушбу огоҳлантиришни тасдиқлайсизми?"
 
-#: messagewin.cpp:1965
+#: messagewin.cpp:1969
 #, fuzzy
 msgctxt "@action:button"
 msgid "Acknowledge Alarm"
 msgstr "Огоҳлантиришни тасдиқлаш"
 
-#: messagewin.cpp:1965
+#: messagewin.cpp:1969
 #, fuzzy
 msgctxt "@action:button"
 msgid "Acknowledge"
 msgstr "&Тасдиқлаш"
 
-#: messagewin.cpp:2012
+#: messagewin.cpp:2016
 msgctxt "@info"
 msgid "Unable to locate this email in <application>KMail</application>"
 msgstr ""
 
-#: messagewin.cpp:2185
+#: messagewin.cpp:2189
 msgctxt "@info"
 msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
 msgstr ""
@@ -6351,14 +6357,14 @@ msgctxt "@info:whatsthis"
 msgid "List of scheduled alarms"
 msgstr "Режалаштирилган огоҳлантиришлар рўйхати"
 
-#: templatepickdlg.cpp:48
+#: templatepickdlg.cpp:46
 #, fuzzy
 #| msgid "New Alarm Template"
 msgctxt "@title:window"
 msgid "Choose Alarm Template"
 msgstr "Янги огоҳлантириш намунаси"
 
-#: templatepickdlg.cpp:79
+#: templatepickdlg.cpp:77
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Select a template to base the new alarm on."
@@ -6446,75 +6452,75 @@ msgid ""
 "acknowledged or closed.</para>"
 msgstr ""
 
-#: editdlg.cpp:95
+#: editdlg.cpp:97
 #, fuzzy, kde-format
 #| msgid "Repeat"
 msgctxt "@title:tab"
 msgid "Recurrence - [%1]"
 msgstr "Қайтариш"
 
-#: editdlg.cpp:100
+#: editdlg.cpp:102
 #, fuzzy
 #| msgid "Show in KOrganizer"
 msgctxt "@option:check"
 msgid "Show in KOrganizer"
 msgstr "KOrganizer'да кўрсатиш"
 
-#: editdlg.cpp:236
+#: editdlg.cpp:238
 #, fuzzy
 #| msgid "Alarm Templates"
 msgctxt "@title:window"
 msgid "Alarm Template [read-only]"
 msgstr "Огоҳлантириш намуналари"
 
-#: editdlg.cpp:237
+#: editdlg.cpp:239
 #, fuzzy
 msgctxt "@title:window"
 msgid "Archived Alarm [read-only]"
 msgstr "KAlarm'ни активлаштириш"
 
-#: editdlg.cpp:238
+#: editdlg.cpp:240
 #, fuzzy
 msgctxt "@title:window"
 msgid "Alarm [read-only]"
 msgstr "KAlarm'ни активлаштириш"
 
-#: editdlg.cpp:244
+#: editdlg.cpp:246
 #, fuzzy
 #| msgid "Load Template..."
 msgctxt "@action:button"
 msgid "Load Template..."
 msgstr "Намунани юклаш..."
 
-#: editdlg.cpp:258
+#: editdlg.cpp:260
 #, fuzzy
 #| msgid "Template name:"
 msgctxt "@label:textbox"
 msgid "Template name:"
 msgstr "Намуна номи:"
 
-#: editdlg.cpp:264
+#: editdlg.cpp:266
 #, fuzzy
 #| msgid "Enter the name of the alarm template"
 msgctxt "@info:whatsthis"
 msgid "Enter the name of the alarm template"
 msgstr "Огоҳлантириш намунаси номини киритиш"
 
-#: editdlg.cpp:271
+#: editdlg.cpp:273
 #, fuzzy
 #| msgid "&Alarm"
 msgctxt "@title:tab"
 msgid "Alarm"
 msgstr "&Огоҳлантириш"
 
-#: editdlg.cpp:295
+#: editdlg.cpp:297
 #, fuzzy
 #| msgid "Action"
 msgctxt "@title:group"
 msgid "Action"
 msgstr "Амал"
 
-#: editdlg.cpp:306
+#: editdlg.cpp:308
 #, fuzzy
 #| msgid "Delete Alarm"
 #| msgid_plural "Delete Alarms"
@@ -6522,57 +6528,57 @@ msgctxt "@title:group"
 msgid "Deferred Alarm"
 msgstr "Огоҳлантиришни ўчириш"
 
-#: editdlg.cpp:311
+#: editdlg.cpp:313
 msgctxt "@label"
 msgid "Deferred to:"
 msgstr ""
 
-#: editdlg.cpp:317
+#: editdlg.cpp:319
 #, fuzzy
 #| msgid "C&hange..."
 msgctxt "@action:button"
 msgid "Change..."
 msgstr "Ўз&гартириш"
 
-#: editdlg.cpp:320
+#: editdlg.cpp:322
 msgctxt "@info:whatsthis"
 msgid "Change the alarm's deferred time, or cancel the deferral"
 msgstr ""
 
-#: editdlg.cpp:332 editdlg.cpp:399
+#: editdlg.cpp:334 editdlg.cpp:401
 #, fuzzy
 #| msgid "Time"
 msgctxt "@title:group"
 msgid "Time"
 msgstr "Вақт"
 
-#: editdlg.cpp:341
+#: editdlg.cpp:343
 #, fuzzy
 #| msgid "&Default time"
 msgctxt "@option:radio"
 msgid "Default time"
 msgstr "&Андоза вақт"
 
-#: editdlg.cpp:344
+#: editdlg.cpp:346
 msgctxt "@info:whatsthis"
 msgid ""
 "Do not specify a start time for alarms based on this template. The normal "
 "default start time will be used."
 msgstr ""
 
-#: editdlg.cpp:352
+#: editdlg.cpp:354
 #, fuzzy
 #| msgid "Time:"
 msgctxt "@option:radio"
 msgid "Time:"
 msgstr "Вақт:"
 
-#: editdlg.cpp:355
+#: editdlg.cpp:357
 msgctxt "@info:whatsthis"
 msgid "Specify a start time for alarms based on this template."
 msgstr ""
 
-#: editdlg.cpp:361
+#: editdlg.cpp:363
 #, fuzzy, kde-format
 #| msgid "Enter the name of the alarm template"
 msgctxt "@info:whatsthis"
@@ -6581,13 +6587,13 @@ msgid ""
 "1</para>"
 msgstr "Огоҳлантириш намунаси номини киритиш"
 
-#: editdlg.cpp:368
+#: editdlg.cpp:370
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Date only"
 msgstr "Сана:"
 
-#: editdlg.cpp:371
+#: editdlg.cpp:373
 #, fuzzy
 #| msgid "Enter the name of the alarm template"
 msgctxt "@info:whatsthis"
@@ -6596,7 +6602,7 @@ msgid ""
 "template."
 msgstr "Огоҳлантириш намунаси номини киритиш"
 
-#: editdlg.cpp:382
+#: editdlg.cpp:384
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6606,35 +6612,35 @@ msgstr ""
 "Жорий вақтдан бошлаб белгиланган тафовутли вақт билан огоҳлантиришни "
 "режалаштиринг."
 
-#: editdlg.cpp:448
+#: editdlg.cpp:450
 #, fuzzy
 #| msgid "Check to copy the alarm into KOrganizer's calendar"
 msgctxt "@info:whatsthis"
 msgid "Check to copy the alarm into KOrganizer's calendar"
 msgstr "Огоҳлантиришни KOrganizer календарига кўчириш учун шу ерни белгиланг"
 
-#: editdlg.cpp:452
+#: editdlg.cpp:454
 #, fuzzy
 #| msgid "Schedule the alarm at the specified time."
 msgctxt "@info:whatsthis"
 msgid "Schedule the alarm at the specified time."
 msgstr "Огоҳлантиришни кўрсатилган вақтда режалаштириш."
 
-#: editdlg.cpp:950
+#: editdlg.cpp:952
 #, fuzzy
 #| msgid "You must enter a name for the alarm template"
 msgctxt "@info"
 msgid "You must enter a name for the alarm template"
 msgstr "Огоҳлантириш намунаси номини киритишингиз шарт"
 
-#: editdlg.cpp:954
+#: editdlg.cpp:956
 #, fuzzy
 #| msgid "Template name is already in use"
 msgctxt "@info"
 msgid "Template name is already in use"
 msgstr "Намуна номи аллақачон ишлатилмоқда"
 
-#: editdlg.cpp:1000
+#: editdlg.cpp:1002
 #, kde-format
 msgctxt "@info The parameter is a date value"
 msgid ""
@@ -6642,7 +6648,7 @@ msgid ""
 "adjusted to the date of the next recurrence (%1)."
 msgstr ""
 
-#: editdlg.cpp:1004
+#: editdlg.cpp:1006
 #, kde-format
 msgctxt "@info The parameter is a date/time value"
 msgid ""
@@ -6650,19 +6656,19 @@ msgid ""
 "will be adjusted to the date/time of the next recurrence (%1)."
 msgstr ""
 
-#: editdlg.cpp:1031
+#: editdlg.cpp:1033
 #, fuzzy
 #| msgid "Alarm date has already expired"
 msgctxt "@info"
 msgid "Recurrence has already expired"
 msgstr "Огоҳлантириш санаси аллақачон ўтиб кетган"
 
-#: editdlg.cpp:1036
+#: editdlg.cpp:1038
 msgctxt "@info"
 msgid "The alarm will never occur during working hours"
 msgstr ""
 
-#: editdlg.cpp:1065
+#: editdlg.cpp:1067
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -6670,32 +6676,32 @@ msgid ""
 "%1</interface> is checked."
 msgstr ""
 
-#: editdlg.cpp:1080
+#: editdlg.cpp:1082
 msgctxt "@info"
 msgid ""
 "The duration of a repetition within the recurrence must be less than the "
 "recurrence interval minus any reminder period"
 msgstr ""
 
-#: editdlg.cpp:1087
+#: editdlg.cpp:1089
 msgctxt "@info"
 msgid ""
 "For a repetition within the recurrence, its period must be in units of days "
 "or weeks for a date-only alarm"
 msgstr ""
 
-#: editdlg.cpp:1121 editdlg.cpp:1150
+#: editdlg.cpp:1123 editdlg.cpp:1152
 #, fuzzy
 msgctxt "@info"
 msgid "You must select a calendar to save the alarm in"
 msgstr "Огоҳлантириш намунаси номини киритишингиз шарт"
 
-#: editdlg.cpp:1245
+#: editdlg.cpp:1247
 msgctxt "@action:button"
 msgid "Less Options <<"
 msgstr ""
 
-#: editdlg.cpp:1250
+#: editdlg.cpp:1252
 msgctxt "@action:button"
 msgid "More Options >>"
 msgstr ""
@@ -7287,37 +7293,37 @@ msgctxt "@info"
 msgid "No month selected"
 msgstr "Ой танланмаган"
 
-#: traywindow.cpp:98
+#: traywindow.cpp:99
 #, fuzzy
 #| msgid "New Alarm"
 msgctxt "@action"
 msgid "&New Alarm"
 msgstr "Янги огоҳлантириш"
 
-#: traywindow.cpp:103
+#: traywindow.cpp:104
 #, fuzzy
 #| msgid "New Alarm From &Template"
 msgctxt "@action"
 msgid "New Alarm From &Template"
 msgstr "&Намунадан янги огоҳлантириш"
 
-#: traywindow.cpp:300
+#: traywindow.cpp:301
 #, fuzzy
 msgid "Disabled"
 msgstr "Ў&чириш"
 
-#: traywindow.cpp:305
+#: traywindow.cpp:306
 msgctxt "@info:tooltip Brief: some alarms are disabled"
 msgid "(Some alarms disabled)"
 msgstr ""
 
-#: traywindow.cpp:386
+#: traywindow.cpp:387
 #, fuzzy, kde-format
 msgctxt "@info/plain prefix + hours:minutes"
 msgid "(%1%2:%3)"
 msgstr "(%1%2:%3)"
 
-#: traywindow.cpp:388
+#: traywindow.cpp:389
 #, fuzzy, kde-format
 msgctxt "@info/plain prefix + hours:minutes"
 msgid "%1%2:%3"
@@ -7410,21 +7416,21 @@ msgctxt "@info:whatsthis"
 msgid "Set up an additional alarm repetition"
 msgstr "Огоҳлантиришни такрорлаш вақти"
 
-#: akonadimodel.cpp:658
+#: akonadimodel.cpp:647
 #, fuzzy
 msgctxt "@title:column"
 msgid "Calendars"
 msgstr "Календар файлининг манзили"
 
-#: akonadimodel.cpp:1102
+#: akonadimodel.cpp:1094
 #, fuzzy
 #| msgid "Failed to send email"
 msgctxt "@info/plain"
 msgid "Failed to create new calendar resource"
 msgstr "Хатни жўнатиш муваффақиятсиз тугади"
 
-#: akonadimodel.cpp:1102 akonadimodel.cpp:1148 akonadimodel.cpp:1166
-#: akonadimodel.cpp:1474
+#: akonadimodel.cpp:1094 akonadimodel.cpp:1140 akonadimodel.cpp:1158
+#: akonadimodel.cpp:1470
 #, fuzzy, kde-format
 #| msgctxt "Undo-action: message"
 #| msgid "%1: %2"
@@ -7432,7 +7438,7 @@ msgctxt "@info"
 msgid "%1<nl/>(%2)"
 msgstr "%1: %2"
 
-#: akonadimodel.cpp:1146
+#: akonadimodel.cpp:1138
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -7443,7 +7449,7 @@ msgstr ""
 "Аудио файлни очиб бўлмади:\n"
 "%1"
 
-#: akonadimodel.cpp:1164
+#: akonadimodel.cpp:1156
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -7454,32 +7460,26 @@ msgstr ""
 "Аудио файлни очиб бўлмади:\n"
 "%1"
 
-#: akonadimodel.cpp:1465
+#: akonadimodel.cpp:1461
 #, fuzzy
 #| msgid "Failed to send email"
 msgctxt "@info/plain"
 msgid "Failed to create alarm."
 msgstr "Хатни жўнатиш муваффақиятсиз тугади"
 
-#: akonadimodel.cpp:1467
+#: akonadimodel.cpp:1463
 #, fuzzy
 #| msgid "Failed to open file"
 msgctxt "@info/plain"
 msgid "Failed to update alarm."
 msgstr "Файлни очиш муваффақиятсиз тугади"
 
-#: akonadimodel.cpp:1469
+#: akonadimodel.cpp:1465
 #, fuzzy
 #| msgid "Failed to execute command:"
 msgctxt "@info/plain"
 msgid "Failed to delete alarm."
 msgstr "Буйруқни ишга тушириб бўлмади:"
-
-#: akonadimodel.cpp:2475
-#, fuzzy
-msgctxt "@title:window"
-msgid "Choose Calendar"
-msgstr "Календар файлининг манзили"
 
 #, fuzzy
 #~| msgid "Command Alarms"
