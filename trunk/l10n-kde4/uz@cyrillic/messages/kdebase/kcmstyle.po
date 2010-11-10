@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:43+0200\n"
+"POT-Creation-Date: 2010-11-10 06:10+0100\n"
 "PO-Revision-Date: 2006-03-05 12:04+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -87,54 +87,65 @@ msgstr ""
 msgid "High display resolution and Very High CPU"
 msgstr ""
 
-#: kcmstyle.cpp:265
+#: kcmstyle.cpp:266
 #, fuzzy
 #| msgid "Application Level"
 msgctxt "@title:tab"
 msgid "&Applications"
 msgstr "Дастур даражаси"
 
-#: kcmstyle.cpp:266
+#: kcmstyle.cpp:267
 msgctxt "@title:tab"
 msgid "&Fine Tuning"
 msgstr ""
 
-#: kcmstyle.cpp:296 kcmstyle.cpp:307
+#: kcmstyle.cpp:297 kcmstyle.cpp:308
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "Ушбу услуб учун мослаш ойнасини юклашда хато рўй берди."
 
-#: kcmstyle.cpp:298 kcmstyle.cpp:309
+#: kcmstyle.cpp:299 kcmstyle.cpp:310
 msgid "Unable to Load Dialog"
 msgstr "Ойнани юклаб бўлмади"
 
-#: kcmstyle.cpp:530 kcmstyle.cpp:641
+#: kcmstyle.cpp:382
+msgid ""
+"<p>Changes to the visibilty of menu icons will only affect newly started "
+"applications.</p>"
+msgstr ""
+
+#: kcmstyle.cpp:383
+msgctxt "@title:window"
+msgid "Menu Icons Changed"
+msgstr ""
+
+#: kcmstyle.cpp:540 kcmstyle.cpp:651
 msgid "No description available."
 msgstr "Ҳеч қандай таъриф йўқ."
 
-#: kcmstyle.cpp:641
+#: kcmstyle.cpp:651
 #, kde-format
 msgid "Description: %1"
 msgstr "Таърифи: %1"
 
-#: kcmstyle.cpp:723
+#: kcmstyle.cpp:734
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
 "buttons are drawn) which may or may not be combined with a theme (additional "
 "information like a marble texture or a gradient)."
 msgstr ""
 
-#: kcmstyle.cpp:727
+#: kcmstyle.cpp:738
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr ""
 "Бу ерда танланган улубни қўлламасдан унинг ташқи кўринишини кўриш мумкин."
 
-#: kcmstyle.cpp:730
+#: kcmstyle.cpp:741
 msgid "This page allows you to choose details about the widget style options"
 msgstr ""
 
-#: kcmstyle.cpp:731
+#: kcmstyle.cpp:742
 msgid ""
 "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
@@ -143,7 +154,7 @@ msgid ""
 "and text on toolbar buttons. Text is aligned below the icon."
 msgstr ""
 
-#: kcmstyle.cpp:738
+#: kcmstyle.cpp:749
 msgid ""
 "If you enable this option, KDE Applications will show small icons alongside "
 "some important buttons."
@@ -151,7 +162,19 @@ msgstr ""
 "Агар белгиланса, KDE дастурлари баъзи муҳим тугмаларда нишончаларни "
 "кўрсатади."
 
-#: kcmstyle.cpp:740
+#: kcmstyle.cpp:751
+#, fuzzy
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside some important buttons."
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"most menu items."
+msgstr ""
+"Агар белгиланса, KDE дастурлари баъзи муҳим тугмаларда нишончаларни "
+"кўрсатади."
+
+#: kcmstyle.cpp:753
 #, fuzzy
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -187,70 +210,78 @@ msgid "Show icons on buttons:"
 msgstr "&Тугмаларда нишончаларни кўрсатиш"
 
 #. i18n: file: finetuning.ui:63
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:11
+#, fuzzy
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons in menus:"
+msgstr "&Тугмаларда нишончаларни кўрсатиш"
+
+#. i18n: file: finetuning.ui:83
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:14
 #, fuzzy
 #| msgid "&Toolbar"
 msgid "Toolbars"
 msgstr "&Асбоблар панели"
 
-#. i18n: file: finetuning.ui:69
+#. i18n: file: finetuning.ui:89
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:14
+#: rc.cpp:17
 msgid "Main toolbar text:"
 msgstr ""
 
-#. i18n: file: finetuning.ui:83
+#. i18n: file: finetuning.ui:103
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: file: finetuning.ui:120
+#. i18n: file: finetuning.ui:140
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: rc.cpp:17 rc.cpp:32
+#: rc.cpp:20 rc.cpp:35
 msgid "No Text"
 msgstr ""
 
-#. i18n: file: finetuning.ui:88
+#. i18n: file: finetuning.ui:108
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: file: finetuning.ui:125
+#. i18n: file: finetuning.ui:145
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: rc.cpp:20 rc.cpp:35
+#: rc.cpp:23 rc.cpp:38
 msgid "Text Only"
 msgstr "Фақат матн"
 
-#. i18n: file: finetuning.ui:93
+#. i18n: file: finetuning.ui:113
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: file: finetuning.ui:130
+#. i18n: file: finetuning.ui:150
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: rc.cpp:23 rc.cpp:38
+#: rc.cpp:26 rc.cpp:41
 #, fuzzy
 #| msgid "Text Alongside Icons"
 msgid "Text Beside Icons"
 msgstr "Матн нишончалар ёнида"
 
-#. i18n: file: finetuning.ui:98
+#. i18n: file: finetuning.ui:118
 #. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
-#. i18n: file: finetuning.ui:135
+#. i18n: file: finetuning.ui:155
 #. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
-#: rc.cpp:26 rc.cpp:41
+#: rc.cpp:29 rc.cpp:44
 #, fuzzy
 #| msgid "Text Under Icons"
 msgid "Text Below Icons"
 msgstr "Матн нишончалар пастида"
 
-#. i18n: file: finetuning.ui:106
+#. i18n: file: finetuning.ui:126
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:29
+#: rc.cpp:32
 msgid "Secondary toolbar text:"
 msgstr ""
 
 #. i18n: file: stylepreview.ui:19
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:44
+#: rc.cpp:47
 msgid "Tab 1"
 msgstr "Таб 1"
 
 #. i18n: file: stylepreview.ui:29
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:47
+#: rc.cpp:50
 msgid "Group Box"
 msgstr ""
 
@@ -258,31 +289,31 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
 #. i18n: file: stylepreview.ui:45
 #. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
-#: rc.cpp:50 rc.cpp:53
+#: rc.cpp:53 rc.cpp:56
 msgid "Radio button"
 msgstr "Танлаш тугмаси"
 
 #. i18n: file: stylepreview.ui:62
 #. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
-#: rc.cpp:56
+#: rc.cpp:59
 msgid "Checkbox"
 msgstr "Белгилаш катаги"
 
 #. i18n: file: stylepreview.ui:115
 #. i18n: ectx: property (text), widget (QPushButton, PushButton1)
-#: rc.cpp:59
+#: rc.cpp:62
 msgid "Button"
 msgstr "Тугма"
 
 #. i18n: file: stylepreview.ui:125
 #. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
-#: rc.cpp:62
+#: rc.cpp:65
 msgid "Combobox"
 msgstr "Танлаш рўйхати"
 
 #. i18n: file: stylepreview.ui:155
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:65
+#: rc.cpp:68
 msgid "Tab 2"
 msgstr "Таб 2"
 
