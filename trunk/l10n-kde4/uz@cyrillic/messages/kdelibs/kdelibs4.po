@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 03:32+0100\n"
+"POT-Creation-Date: 2011-02-20 03:34+0100\n"
 "PO-Revision-Date: 2009-10-17 00:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6302,7 +6302,7 @@ msgid "Reset Toolbars"
 msgstr "Асбоблар панеллари"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1836
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
 msgid "Reset"
 msgstr "Тиклаш"
 
@@ -10571,7 +10571,7 @@ msgid "Access Keys activated"
 msgstr ""
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4761
-#: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
+#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
 msgid "Submit"
 msgstr "Жўнатиш"
 
@@ -11190,37 +11190,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "С&крипт"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
 msgid "Confirmation: JavaScript Popup"
 msgstr "Тасдиқлаш: JavaScript Popup"
-
-#: khtml/ecma/kjs_html.cpp:2170
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Бу сайт JavaScript орқали браузернинг янги ойнасини очадиган шакилни "
-"жўнатмоқчи.\n"
-"Шакилни жўнатишга рухсат берасизми?"
-
-#: khtml/ecma/kjs_html.cpp:2173
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Бу сайт JavaScript орқали браузернинг янги ойнасида <p>%1</p> саҳифасини "
-"очадиган шакилни жўнатмоқчи.<br />Шакилни жўнатишга рухсат берасизми?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "Рухсат бериш"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "Рухсат берилмасин"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -11238,6 +11210,14 @@ msgid ""
 msgstr ""
 "<qt>Бу сайт JavaScript ёрдамида браузернинг янги ойнасида қуйидагини очишга "
 "уринаяпти<p>%1</p><br />Сиз рухсат берасизми?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Allow"
+msgstr "Рухсат бериш"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Do Not Allow"
+msgstr "Рухсат берилмасин"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -11274,6 +11254,26 @@ msgstr "Қўйиш"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Рухсат берилмасин"
+
+#: khtml/ecma/kjs_html.cpp:2176
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Бу сайт JavaScript орқали браузернинг янги ойнасини очадиган шакилни "
+"жўнатмоқчи.\n"
+"Шакилни жўнатишга рухсат берасизми?"
+
+#: khtml/ecma/kjs_html.cpp:2179
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Бу сайт JavaScript орқали браузернинг янги ойнасида <p>%1</p> саҳифасини "
+"очадиган шакилни жўнатмоқчи.<br />Шакилни жўнатишга рухсат берасизми?</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
@@ -11414,6 +11414,31 @@ msgstr "Ўрнатиш"
 msgid "Line"
 msgstr "Текислаш"
 
+#: khtml/html/html_objectimpl.cpp:610
+#, kde-format
+msgid ""
+"No plugin found for '%1'.\n"
+"Do you want to download one from %2?"
+msgstr ""
+"\"%1\" учун плагин топилмади.\n"
+"Уни \"%2\"дан ёзиб олишни истайсизми?"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Missing Plugin"
+msgstr "Плагин етишмаяпти"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Download"
+msgstr "Ёзиб олиш"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Do Not Download"
+msgstr "Ёзиб олинмасин"
+
+#: khtml/html/htmlparser.cpp:1938
+msgid "This is a searchable index. Enter search keywords: "
+msgstr "Бу қидириб бўладиган индекс. Таянч сўзларини киритинг: "
+
 #: khtml/html/html_formimpl.cpp:422
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
@@ -11449,35 +11474,10 @@ msgid "&Send File"
 msgid_plural "&Send Files"
 msgstr[0] "&Файлларни жўнатиш"
 
-#: khtml/html/html_formimpl.cpp:2688
+#: khtml/html/html_formimpl.cpp:2701
 #, fuzzy
 msgid "Key Generator"
 msgstr "Умумий"
-
-#: khtml/html/html_objectimpl.cpp:610
-#, kde-format
-msgid ""
-"No plugin found for '%1'.\n"
-"Do you want to download one from %2?"
-msgstr ""
-"\"%1\" учун плагин топилмади.\n"
-"Уни \"%2\"дан ёзиб олишни истайсизми?"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Missing Plugin"
-msgstr "Плагин етишмаяпти"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Download"
-msgstr "Ёзиб олиш"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Do Not Download"
-msgstr "Ёзиб олинмасин"
-
-#: khtml/html/htmlparser.cpp:1938
-msgid "This is a searchable index. Enter search keywords: "
-msgstr "Бу қидириб бўладиган индекс. Таянч сўзларини киритинг: "
 
 #: khtml/java/kjavaapplet.cpp:224
 #, kde-format
