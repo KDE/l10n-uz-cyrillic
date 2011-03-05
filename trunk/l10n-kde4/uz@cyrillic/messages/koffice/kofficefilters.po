@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kofficefilters\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-22 03:22+0100\n"
+"POT-Creation-Date: 2011-03-05 04:03+0100\n"
 "PO-Revision-Date: 2006-12-17 13:44+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -64,59 +64,6 @@ msgstr "Хато XML махлумотлари."
 #, fuzzy
 msgid "Export to Image"
 msgstr "Расмларни импорт қилиш"
-
-#: kpresenter/genericimageexport/genericimageexport.cpp:127
-#: libdialogfilter/exportsizedia.cpp:268
-msgid "Failed to write file."
-msgstr "Файлга ёзиш муваффақиятсиз тугади."
-
-#: kpresenter/genericimageexport/genericimageexport.cpp:128
-#, fuzzy, kde-format
-msgid "%1 Export Error"
-msgstr "Экспорт қилиш хатоси"
-
-#: kpresenter/kword/kprkword.cc:91 kpresenter/kword/odp2odt.cpp:287
-msgid "Slide Title"
-msgstr "Слайднинг сарлавҳаси"
-
-#: kpresenter/pptx/PptxImport.cpp:1100 kspread/xlsx/XlsxImport.cpp:591
-#: kword/docx/DocxImport.cpp:141
-#, fuzzy, kde-format
-#| msgid "Could not read from file."
-msgid "Unable to find part for type %1"
-msgstr "Файлдан ўқиб бўлмади."
-
-#: kpresenter/pptx/PptxXmlDocumentReader.cpp:147
-#: kpresenter/pptx/PptxXmlSlideReader.cpp:259
-#: kspread/xlsx/XlsxXmlCommentsReader.cpp:103
-#: kspread/xlsx/XlsxXmlDocumentReader.cpp:130
-#: kspread/xlsx/XlsxXmlSharedStringsReader.cpp:115
-#: kspread/xlsx/XlsxXmlStylesReader.cpp:888
-#: kspread/xlsx/XlsxXmlWorksheetReader.cpp:199
-#: kword/docx/DocxXmlCommentsReader.cpp:89
-#: kword/docx/DocxXmlDocumentReader.cpp:162
-#: kword/docx/DocxXmlEndnoteReader.cpp:89
-#: kword/docx/DocxXmlFontTableReader.cpp:89
-#: kword/docx/DocxXmlFooterReader.cpp:94
-#: kword/docx/DocxXmlFootnoteReader.cpp:89
-#: kword/docx/DocxXmlHeaderReader.cpp:94 kword/docx/DocxXmlNotesReader.cpp:94
-#: kword/docx/DocxXmlNumberingReader.cpp:89
-#: libmsooxml/MsooXmlDocPropertiesReader.cpp:75
-#: libmsooxml/MsooXmlReader.cpp:180 libmsooxml/MsooXmlThemesReader.cpp:361
-#, kde-format
-msgid "Namespace \"%1\" not found"
-msgstr ""
-
-#: kpresenter/pptx/PptxXmlDocumentReader.cpp:265
-#, fuzzy, kde-format
-msgid "Slide layout \"%1\" not found"
-msgstr "Расм %1"
-
-#: kpresenter/pptx/PptxXmlSlideReader.cpp:446
-#, fuzzy, kde-format
-#| msgid "Slide Title"
-msgid "Slide %1"
-msgstr "Слайднинг сарлавҳаси"
 
 #: kspread/csv/csvdialog.cpp:61
 #, fuzzy
@@ -268,6 +215,34 @@ msgid ""
 msgstr ""
 "Махфий сўз билан ҳимояланган файлни очиб бўлмади.\n"
 "Шифрлаш алгоритми берилмаган."
+
+#: kspread/xlsx/XlsxImport.cpp:591 kword/docx/DocxImport.cpp:141
+#: showcase/pptx/PptxImport.cpp:1100
+#, fuzzy, kde-format
+#| msgid "Could not read from file."
+msgid "Unable to find part for type %1"
+msgstr "Файлдан ўқиб бўлмади."
+
+#: kspread/xlsx/XlsxXmlCommentsReader.cpp:103
+#: kspread/xlsx/XlsxXmlDocumentReader.cpp:130
+#: kspread/xlsx/XlsxXmlSharedStringsReader.cpp:115
+#: kspread/xlsx/XlsxXmlStylesReader.cpp:888
+#: kspread/xlsx/XlsxXmlWorksheetReader.cpp:199
+#: kword/docx/DocxXmlCommentsReader.cpp:89
+#: kword/docx/DocxXmlDocumentReader.cpp:162
+#: kword/docx/DocxXmlEndnoteReader.cpp:89
+#: kword/docx/DocxXmlFontTableReader.cpp:89
+#: kword/docx/DocxXmlFooterReader.cpp:94
+#: kword/docx/DocxXmlFootnoteReader.cpp:89
+#: kword/docx/DocxXmlHeaderReader.cpp:94 kword/docx/DocxXmlNotesReader.cpp:94
+#: kword/docx/DocxXmlNumberingReader.cpp:89
+#: libmsooxml/MsooXmlDocPropertiesReader.cpp:75
+#: libmsooxml/MsooXmlReader.cpp:180 libmsooxml/MsooXmlThemesReader.cpp:361
+#: showcase/pptx/PptxXmlDocumentReader.cpp:147
+#: showcase/pptx/PptxXmlSlideReader.cpp:259
+#, kde-format
+msgid "Namespace \"%1\" not found"
+msgstr ""
 
 #: kspread/xlsx/XlsxXmlSharedStringsReader.cpp:182
 #, kde-format
@@ -620,6 +595,11 @@ msgid "Height (%):"
 msgstr "Узунаси (%):"
 
 #: libdialogfilter/exportsizedia.cpp:268
+#: showcase/genericimageexport/genericimageexport.cpp:127
+msgid "Failed to write file."
+msgstr "Файлга ёзиш муваффақиятсиз тугади."
+
+#: libdialogfilter/exportsizedia.cpp:268
 msgid "PNG Export Error"
 msgstr "PNG экспорт хатоси"
 
@@ -746,6 +726,26 @@ msgstr "Ҳужжатни очиш"
 #: xsltfilter/import/xsltimportdia.cc:56
 msgid "Import XSLT Configuration"
 msgstr "Импорт XSLT мосламаси"
+
+#: showcase/genericimageexport/genericimageexport.cpp:128
+#, fuzzy, kde-format
+msgid "%1 Export Error"
+msgstr "Экспорт қилиш хатоси"
+
+#: showcase/kword/kprkword.cc:91 showcase/kword/odp2odt.cpp:287
+msgid "Slide Title"
+msgstr "Слайднинг сарлавҳаси"
+
+#: showcase/pptx/PptxXmlDocumentReader.cpp:265
+#, fuzzy, kde-format
+msgid "Slide layout \"%1\" not found"
+msgstr "Расм %1"
+
+#: showcase/pptx/PptxXmlSlideReader.cpp:446
+#, fuzzy, kde-format
+#| msgid "Slide Title"
+msgid "Slide %1"
+msgstr "Слайднинг сарлавҳаси"
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
