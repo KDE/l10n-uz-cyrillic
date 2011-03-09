@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-05 04:03+0100\n"
+"POT-Creation-Date: 2011-03-09 03:50+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -118,7 +118,7 @@ msgstr ""
 msgid "Timothée Lacroix "
 msgstr ""
 
-#: part/SCDocument.cpp:399
+#: part/SCDocument.cpp:390
 msgid "Installation Error"
 msgstr ""
 
@@ -382,13 +382,6 @@ msgstr ""
 msgid "Blackscreen on the presentation..."
 msgstr ""
 
-#: part/SCViewModeSlidesSorter.cpp:293 part/ui/SCCustomSlideShowsDialog.cpp:82
-#: part/ui/SCCustomSlideShowsDialog.cpp:239
-#: part/ui/SCCustomSlideShowsDialog.cpp:257 part/ui/SCHtmlExportDialog.cpp:119
-#, kde-format
-msgid "Slide %1"
-msgstr "Слайд %1"
-
 #: part/commands/SCAnimationCreateCommand.cpp:34
 #, fuzzy
 #| msgid "Create HTML Presentation"
@@ -430,25 +423,6 @@ msgstr "Очиш учун файл"
 msgid "Set Layout"
 msgstr ""
 
-#: part/tools/SCAnimationTool.cpp:85
-#, fuzzy
-msgid "Transitions"
-msgstr "Слайд номи"
-
-#: part/tools/SCAnimationTool.cpp:86
-msgid "Click Actions"
-msgstr ""
-
-#: part/tools/SCAnimationTool.cpp:87
-msgid "Not implemented in 2.0"
-msgstr ""
-
-#: part/tools/SCAnimationTool.cpp:90
-#, fuzzy
-#| msgid "Create HTML Presentation"
-msgid "Shape Animation"
-msgstr "HTML намойишни яратиш"
-
 #: part/tools/SCAnimationToolFactory.cpp:32
 msgid "Animation tool"
 msgstr ""
@@ -472,6 +446,25 @@ msgstr "Шакл"
 #: part/tools/SCPlaceholderToolFactory.cpp:28
 msgid "Layout Tool"
 msgstr ""
+
+#: part/tools/SCAnimationTool.cpp:85
+#, fuzzy
+msgid "Transitions"
+msgstr "Слайд номи"
+
+#: part/tools/SCAnimationTool.cpp:86
+msgid "Click Actions"
+msgstr ""
+
+#: part/tools/SCAnimationTool.cpp:87
+msgid "Not implemented in 2.0"
+msgstr ""
+
+#: part/tools/SCAnimationTool.cpp:90
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgid "Shape Animation"
+msgstr "HTML намойишни яратиш"
 
 #: part/ui/SCConfigurePresenterViewDialog.cpp:42
 #, kde-format
@@ -502,37 +495,6 @@ msgstr "Ҳамма файллар"
 msgid "Configure Slide Show"
 msgstr "Намойиш мосламалари"
 
-#: part/ui/SCCustomSlideShowsDialog.cpp:96
-#: part/ui/SCCustomSlideShowsDialog.cpp:100
-#: part/ui/SCCustomSlideShowsDialog.cpp:102
-#: part/ui/SCCustomSlideShowsDialog.cpp:107
-#, fuzzy, kde-format
-#| msgid "Slide Show"
-msgid "New Slide Show %1"
-msgstr "Намойиш"
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:133
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:133 part/ui/SCHtmlExportDialog.cpp:158
-#: part/ui/SCHtmlExportDialog.cpp:210
-#, fuzzy
-msgid "Error"
-msgstr "Кўрсаткич услуби"
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:148
-#, fuzzy
-#| msgid "Do you want to remove the current slide?"
-msgid "Are you sure you want to delete the selected slide show?"
-msgstr "Жорий слайдни олиб ташлашни истайсизми?"
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:148
-#, fuzzy
-#| msgid "Save Configuration..."
-msgid "Confirm action"
-msgstr "Мосламаларни сақлаш..."
-
 #: part/ui/SCHtmlExportDialog.cpp:44
 msgid "Html Export"
 msgstr ""
@@ -540,6 +502,20 @@ msgstr ""
 #: part/ui/SCHtmlExportDialog.cpp:45
 msgid "Export"
 msgstr ""
+
+#: part/ui/SCHtmlExportDialog.cpp:119 part/ui/SCCustomSlideShowsDialog.cpp:82
+#: part/ui/SCCustomSlideShowsDialog.cpp:239
+#: part/ui/SCCustomSlideShowsDialog.cpp:257
+#: part/SCViewModeSlidesSorter.cpp:293
+#, kde-format
+msgid "Slide %1"
+msgstr "Слайд %1"
+
+#: part/ui/SCHtmlExportDialog.cpp:158 part/ui/SCHtmlExportDialog.cpp:210
+#: part/ui/SCCustomSlideShowsDialog.cpp:133
+#, fuzzy
+msgid "Error"
+msgstr "Кўрсаткич услуби"
 
 #: part/ui/SCHtmlExportDialog.cpp:158
 msgid "There is already a favorite file with this name"
@@ -578,6 +554,31 @@ msgstr "Мосламаларни сақлаш..."
 #| msgid "Do you want to remove the current slide?"
 msgid "Are you sure you want to remove \"%1\"?"
 msgstr "Жорий слайдни олиб ташлашни истайсизми?"
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:96
+#: part/ui/SCCustomSlideShowsDialog.cpp:100
+#: part/ui/SCCustomSlideShowsDialog.cpp:102
+#: part/ui/SCCustomSlideShowsDialog.cpp:107
+#, fuzzy, kde-format
+#| msgid "Slide Show"
+msgid "New Slide Show %1"
+msgstr "Намойиш"
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:133
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:148
+#, fuzzy
+#| msgid "Do you want to remove the current slide?"
+msgid "Are you sure you want to delete the selected slide show?"
+msgstr "Жорий слайдни олиб ташлашни истайсизми?"
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:148
+#, fuzzy
+#| msgid "Save Configuration..."
+msgid "Confirm action"
+msgstr "Мосламаларни сақлаш..."
 
 #: plugins/eventactions/sound/SCSoundEventActionWidget.cpp:94
 #, fuzzy
