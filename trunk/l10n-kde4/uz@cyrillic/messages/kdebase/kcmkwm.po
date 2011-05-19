@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:07+0100\n"
+"POT-Creation-Date: 2011-05-19 03:55+0200\n"
 "PO-Revision-Date: 2008-05-30 17:40+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -116,11 +116,11 @@ msgctxt "@item:inlistbox behavior on double click"
 msgid "Minimize"
 msgstr "Йиғиш"
 
-#: mouse.cpp:169 mouse.cpp:289 mouse.cpp:327
+#: mouse.cpp:169 mouse.cpp:260 mouse.cpp:327
 msgid "Shade"
 msgstr "Соялаш"
 
-#: mouse.cpp:170 mouse.cpp:260 mouse.cpp:283 mouse.cpp:330 mouse.cpp:824
+#: mouse.cpp:170 mouse.cpp:257 mouse.cpp:324 mouse.cpp:828
 msgid "Lower"
 msgstr "Орқага"
 
@@ -136,8 +136,8 @@ msgctxt "@item:inlistbox behavior on double click"
 msgid "On All Desktops"
 msgstr "Ҳамма иш столларига"
 
-#: mouse.cpp:173 mouse.cpp:196 mouse.cpp:265 mouse.cpp:288 mouse.cpp:333
-#: mouse.cpp:826 mouse.cpp:874
+#: mouse.cpp:173 mouse.cpp:196 mouse.cpp:264 mouse.cpp:331 mouse.cpp:830
+#: mouse.cpp:878
 msgid "Nothing"
 msgstr "Ҳеч нарса"
 
@@ -149,31 +149,31 @@ msgstr "Сарлавҳани <em>икки марта</em> босиш амалл�
 msgid "&Titlebar double-click:"
 msgstr "&Сарлавҳани икки марта босиш:"
 
-#: mouse.cpp:189 mouse.cpp:867
+#: mouse.cpp:189 mouse.cpp:871
 msgid "Raise/Lower"
 msgstr "Юқорига/Пастга"
 
-#: mouse.cpp:190 mouse.cpp:868
+#: mouse.cpp:190 mouse.cpp:872
 msgid "Shade/Unshade"
 msgstr ""
 
-#: mouse.cpp:191 mouse.cpp:869
+#: mouse.cpp:191 mouse.cpp:873
 msgid "Maximize/Restore"
 msgstr "Ёйиш/Қайта тиклаш"
 
-#: mouse.cpp:192 mouse.cpp:870
+#: mouse.cpp:192 mouse.cpp:874
 msgid "Keep Above/Below"
 msgstr "Юқорига/пастга"
 
-#: mouse.cpp:193 mouse.cpp:871
+#: mouse.cpp:193 mouse.cpp:875
 msgid "Move to Previous/Next Desktop"
 msgstr "Кейинги/олдинги иш столига"
 
-#: mouse.cpp:194 mouse.cpp:872
+#: mouse.cpp:194 mouse.cpp:876
 msgid "Change Opacity"
 msgstr "Шаффофликни ўзгартириш"
 
-#: mouse.cpp:195 mouse.cpp:873
+#: mouse.cpp:195 mouse.cpp:877
 msgid "Switch to Window Tab to the Left/Right"
 msgstr ""
 
@@ -197,11 +197,11 @@ msgstr ""
 "Бу ерда ойнанинг сарлавҳасини ёки чегарасини сичқонча билан босиш натижасида "
 "бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:219 mouse.cpp:370 mouse.cpp:673 mouse.cpp:784
+#: mouse.cpp:219 mouse.cpp:371 mouse.cpp:677 mouse.cpp:788
 msgid "Left button:"
 msgstr "Чап тугма:"
 
-#: mouse.cpp:220 mouse.cpp:674 mouse.cpp:785
+#: mouse.cpp:220 mouse.cpp:678 mouse.cpp:789
 msgid ""
 "In this row you can customize left click behavior when clicking into the "
 "titlebar or the frame."
@@ -209,11 +209,11 @@ msgstr ""
 "Бу ерда ойнанинг сарлавҳасини ёки чегарасини сичқончанинг чап тугмаси билан "
 "босиш натижасида бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:223 mouse.cpp:372 mouse.cpp:681 mouse.cpp:792
+#: mouse.cpp:223 mouse.cpp:373 mouse.cpp:685 mouse.cpp:796
 msgid "Right button:"
 msgstr "Ўнг тугма:"
 
-#: mouse.cpp:224 mouse.cpp:682 mouse.cpp:793
+#: mouse.cpp:224 mouse.cpp:686 mouse.cpp:797
 msgid ""
 "In this row you can customize right click behavior when clicking into the "
 "titlebar or the frame."
@@ -221,11 +221,11 @@ msgstr ""
 "Бу ерда ойнанинг сарлавҳасини ёки чегарасини сичқончанинг ўнг тугмаси билан "
 "босиш натижасида бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:237 mouse.cpp:371 mouse.cpp:677 mouse.cpp:788
+#: mouse.cpp:237 mouse.cpp:372 mouse.cpp:681 mouse.cpp:792
 msgid "Middle button:"
 msgstr "Ўрта тугма:"
 
-#: mouse.cpp:240 mouse.cpp:678 mouse.cpp:789
+#: mouse.cpp:240 mouse.cpp:682 mouse.cpp:793
 msgid ""
 "In this row you can customize middle click behavior when clicking into the "
 "titlebar or the frame."
@@ -245,61 +245,65 @@ msgstr ""
 "Бу ерда актив ойнанинг сарлавҳасини ёки чегарасини сичқонча билан босиш "
 "натижасида бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:259 mouse.cpp:282 mouse.cpp:329 mouse.cpp:823
+#: mouse.cpp:256 mouse.cpp:323 mouse.cpp:827
 msgid "Raise"
 msgstr "Олдинга"
 
-#: mouse.cpp:261 mouse.cpp:284 mouse.cpp:328
-msgid "Operations Menu"
-msgstr "Амаллар менюси"
-
-#: mouse.cpp:262 mouse.cpp:285 mouse.cpp:821
+#: mouse.cpp:258 mouse.cpp:325 mouse.cpp:825
 msgid "Toggle Raise & Lower"
 msgstr "Олдинга/орқага"
 
-#: mouse.cpp:263 mouse.cpp:286 mouse.cpp:331
+#: mouse.cpp:259 mouse.cpp:326 mouse.cpp:829
+msgid "Minimize"
+msgstr "Йиғиш"
+
+#: mouse.cpp:261 mouse.cpp:328
 msgid "Close"
 msgstr ""
 
-#: mouse.cpp:264 mouse.cpp:287 mouse.cpp:332
+#: mouse.cpp:262 mouse.cpp:329
+msgid "Operations Menu"
+msgstr "Амаллар менюси"
+
+#: mouse.cpp:263 mouse.cpp:330
 msgid "Start Window Tab Drag"
 msgstr ""
 
-#: mouse.cpp:269
+#: mouse.cpp:274
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an <em>active</"
 "em> window."
 msgstr ""
 
-#: mouse.cpp:272
+#: mouse.cpp:277
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>active</em> window."
 msgstr ""
 
-#: mouse.cpp:297
+#: mouse.cpp:292
 msgid ""
 "Behavior on <em>middle</em> click into the titlebar or frame of an "
 "<em>active</em> window."
 msgstr ""
 
-#: mouse.cpp:308
+#: mouse.cpp:303
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
 msgstr ""
 
-#: mouse.cpp:311
+#: mouse.cpp:306
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
 msgstr ""
 
-#: mouse.cpp:317
+#: mouse.cpp:312
 msgid "Inactive"
 msgstr "Актив эмас"
 
-#: mouse.cpp:320
+#: mouse.cpp:315
 msgid ""
 "In this column you can customize mouse clicks into the titlebar or the frame "
 "of an inactive window."
@@ -307,15 +311,15 @@ msgstr ""
 "Бу ерда актив бўлмаган ойнанинг сарлавҳасини ёки чегарасини сичқонча билан "
 "босиш натижасида бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:324 mouse.cpp:711
+#: mouse.cpp:320 mouse.cpp:715
 msgid "Activate & Raise"
 msgstr "Активлаштириш ва олдинга"
 
-#: mouse.cpp:325
+#: mouse.cpp:321
 msgid "Activate & Lower"
 msgstr "Активлаштириш ва орқага"
 
-#: mouse.cpp:326 mouse.cpp:710
+#: mouse.cpp:322 mouse.cpp:714
 msgid "Activate"
 msgstr "Активлаштириш"
 
@@ -325,61 +329,61 @@ msgid ""
 "<em>inactive</em> window."
 msgstr ""
 
-#: mouse.cpp:361
+#: mouse.cpp:362
 msgid "Maximize Button"
 msgstr "Ёйиш тугмаси"
 
-#: mouse.cpp:365
+#: mouse.cpp:366
 msgid "Here you can customize behavior when clicking on the maximize button."
 msgstr ""
 "Бу ерда ёйиш тугмасини сичқонча билан босиш натижасида бажариладиган амални "
 "мослаш мумкин."
 
-#: mouse.cpp:376
+#: mouse.cpp:377
 msgid "Behavior on <em>left</em> click onto the maximize button."
 msgstr ""
 
-#: mouse.cpp:377
+#: mouse.cpp:378
 msgid "Behavior on <em>middle</em> click onto the maximize button."
 msgstr ""
 
-#: mouse.cpp:378
+#: mouse.cpp:379
 msgid "Behavior on <em>right</em> click onto the maximize button."
 msgstr ""
 
-#: mouse.cpp:665
+#: mouse.cpp:669
 msgid "Inactive Inner Window"
 msgstr "Актив бўлмаган ички ойна"
 
-#: mouse.cpp:668
+#: mouse.cpp:672
 msgid ""
 "Here you can customize mouse click behavior when clicking on an inactive "
 "inner window ('inner' means: not titlebar, not frame)."
 msgstr ""
 
-#: mouse.cpp:685
+#: mouse.cpp:689
 msgid "Wheel"
 msgstr ""
 
-#: mouse.cpp:692
+#: mouse.cpp:696
 msgid ""
 "In this row you can customize left click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
 msgstr ""
 
-#: mouse.cpp:695
+#: mouse.cpp:699
 msgid ""
 "In this row you can customize middle click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
 msgstr ""
 
-#: mouse.cpp:698
+#: mouse.cpp:702
 msgid ""
 "In this row you can customize right click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
 msgstr ""
 
-#: mouse.cpp:701
+#: mouse.cpp:705
 #, fuzzy
 #| msgid ""
 #| "In this row you can customize left click behavior when clicking into the "
@@ -391,35 +395,35 @@ msgstr ""
 "Бу ерда ойнанинг сарлавҳасини ёки чегарасини сичқончанинг чап тугмаси билан "
 "босиш натижасида бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:708
+#: mouse.cpp:712
 msgid "Activate, Raise & Pass Click"
 msgstr ""
 
-#: mouse.cpp:709
+#: mouse.cpp:713
 msgid "Activate & Pass Click"
 msgstr ""
 
-#: mouse.cpp:750
+#: mouse.cpp:754
 msgid "Scroll"
 msgstr ""
 
-#: mouse.cpp:751
+#: mouse.cpp:755
 #, fuzzy
 #| msgid "Activate & Lower"
 msgid "Activate & Scroll"
 msgstr "Активлаштириш ва орқага"
 
-#: mouse.cpp:752
+#: mouse.cpp:756
 #, fuzzy
 #| msgid "Activate, Raise and Move"
 msgid "Activate, Raise & Scroll"
 msgstr "Активлаштириш, олдинга ва кўчириш"
 
-#: mouse.cpp:771
+#: mouse.cpp:775
 msgid "Inner Window, Titlebar && Frame"
 msgstr "Ички ойна, сарлавҳа ва фрейм"
 
-#: mouse.cpp:774
+#: mouse.cpp:778
 msgid ""
 "Here you can customize KDE's behavior when clicking somewhere into a window "
 "while pressing a modifier key."
@@ -427,41 +431,37 @@ msgstr ""
 "Бу ерда маълум бир тугмани босиб туриб сичқонча билан ойнани босиш "
 "натижасида бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:803
+#: mouse.cpp:807
 msgid "Meta"
 msgstr "Мета"
 
-#: mouse.cpp:804
+#: mouse.cpp:808
 msgid "Alt"
 msgstr "Alt"
 
-#: mouse.cpp:807
+#: mouse.cpp:811
 msgid ""
 "Here you select whether holding the Meta key or Alt key will allow you to "
 "perform the following actions."
 msgstr ""
 
-#: mouse.cpp:810
+#: mouse.cpp:814
 msgid "Modifier key:"
 msgstr "Тугма:"
 
-#: mouse.cpp:819
+#: mouse.cpp:823
 msgid "Move"
 msgstr "Кўчириш"
 
-#: mouse.cpp:820
+#: mouse.cpp:824
 msgid "Activate, Raise and Move"
 msgstr "Активлаштириш, олдинга ва кўчириш"
 
-#: mouse.cpp:822
+#: mouse.cpp:826
 msgid "Resize"
 msgstr "Ўлчамини ўзгартириш"
 
-#: mouse.cpp:825
-msgid "Minimize"
-msgstr "Йиғиш"
-
-#: mouse.cpp:877
+#: mouse.cpp:881
 #, fuzzy
 #| msgid ""
 #| "Here you can customize KDE's behavior when clicking somewhere into a "
@@ -473,7 +473,7 @@ msgstr ""
 "Бу ерда маълум бир тугмани босиб туриб сичқонча билан ойнани босиш "
 "натижасида бажариладиган амални мослаш мумкин."
 
-#: mouse.cpp:880
+#: mouse.cpp:884
 #, fuzzy
 #| msgid "Modifier key + mouse wheel:"
 msgid "Mouse wheel:"
