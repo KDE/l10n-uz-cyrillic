@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-16 04:14+0200\n"
+"POT-Creation-Date: 2011-06-18 04:34+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -179,50 +179,10 @@ msgstr "Қатламни тушириш"
 msgid "Master Page"
 msgstr "Расмни қўйиш"
 
-#: plugins/filtereffects/BlendEffect.cpp:30
-#: plugins/filtereffects/BlendEffectFactory.cpp:27
-#, fuzzy
-#| msgid "Bold"
-msgid "Blend"
-msgstr "Қалин"
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
-msgid "Blend mode"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
-msgid "Normal"
-msgstr "Оддий"
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
-msgid "Multiply"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
-msgid "Screen"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
-msgid "Darken"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Lighten"
-msgstr "Ўнг"
-
-#: plugins/filtereffects/BlurEffect.cpp:276
 #: plugins/filtereffects/BlurEffectFactory.cpp:27
+#: plugins/filtereffects/BlurEffect.cpp:276
 msgid "Gaussian blur"
 msgstr ""
-
-#: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius"
-msgstr "Радиус:"
 
 #: plugins/filtereffects/ColorMatrixEffect.cpp:34
 msgid "Color Matrix"
@@ -260,6 +220,11 @@ msgstr "Бурчак:"
 
 #: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
 msgid "Color matrix"
+msgstr ""
+
+#: plugins/filtereffects/MergeEffectFactory.cpp:27
+#: plugins/filtereffects/MergeEffect.cpp:30
+msgid "Merge"
 msgstr ""
 
 #: plugins/filtereffects/ComponentTransferEffect.cpp:30
@@ -424,11 +389,6 @@ msgstr ""
 msgid "Select image"
 msgstr "Тугунларни танлаш"
 
-#: plugins/filtereffects/MergeEffect.cpp:30
-#: plugins/filtereffects/MergeEffectFactory.cpp:27
-msgid "Merge"
-msgstr ""
-
 #: plugins/filtereffects/MorphologyEffect.cpp:32
 #: plugins/filtereffects/MorphologyEffectFactory.cpp:27
 msgid "Morphology"
@@ -468,6 +428,46 @@ msgstr ""
 #: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
 msgid "dy"
 msgstr ""
+
+#: plugins/filtereffects/BlendEffect.cpp:30
+#: plugins/filtereffects/BlendEffectFactory.cpp:27
+#, fuzzy
+#| msgid "Bold"
+msgid "Blend"
+msgstr "Қалин"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
+msgid "Blend mode"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
+msgid "Normal"
+msgstr "Оддий"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
+msgid "Multiply"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
+msgid "Screen"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
+msgid "Darken"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Lighten"
+msgstr "Ўнг"
+
+#: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius"
+msgstr "Радиус:"
 
 #: plugins/flattenpath/FlattenPathPlugin.cpp:57
 #, fuzzy
@@ -634,12 +634,6 @@ msgstr ""
 msgid "Helpful patches and advice"
 msgstr ""
 
-#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:465
-#, fuzzy
-#| msgid "Insert Sinus"
-msgid "Insert graphics"
-msgstr "Синус қўйиш"
-
 #: ui/dialogs/KarbonConfigureDialog.cpp:54
 #, fuzzy
 msgid "Configure"
@@ -686,51 +680,6 @@ msgstr "Асбоб ойнасидаги шрифтнинг ўлчами:"
 
 #: ui/dialogs/KarbonConfigureDialog.cpp:151
 msgid "Canvas color:"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:172
-#, fuzzy
-#| msgid "Layers"
-msgid "Layer"
-msgstr "Қатламлар"
-
-#: ui/dockers/KarbonLayerModel.cpp:174
-#, fuzzy
-#| msgid "group"
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr "гуруҳ"
-
-#: ui/dockers/KarbonLayerModel.cpp:176
-#, fuzzy
-#| msgid "Shear"
-msgid "Shape"
-msgstr "Эгиш"
-
-#: ui/dockers/KarbonLayerModel.cpp:266
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:267
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:269
-#, fuzzy
-#| msgid "Opacity"
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr "Хиралик"
-
-#: ui/dockers/KarbonLayerModel.cpp:465 ui/dockers/KarbonLayerModel.cpp:485
-msgid "Reparent shapes"
 msgstr ""
 
 #: ui/dockers/KarbonLayerDocker.cpp:80
@@ -806,6 +755,51 @@ msgstr ""
 
 #: ui/dockers/KarbonLayerDocker.cpp:306
 msgid "Error deleting layers"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:172
+#, fuzzy
+#| msgid "Layers"
+msgid "Layer"
+msgstr "Қатламлар"
+
+#: ui/dockers/KarbonLayerModel.cpp:174
+#, fuzzy
+#| msgid "group"
+msgctxt "A group of shapes"
+msgid "Group"
+msgstr "гуруҳ"
+
+#: ui/dockers/KarbonLayerModel.cpp:176
+#, fuzzy
+#| msgid "Shear"
+msgid "Shape"
+msgstr "Эгиш"
+
+#: ui/dockers/KarbonLayerModel.cpp:266
+msgctxt "Visibility state of the shape"
+msgid "Visible"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:267
+msgctxt "Lock state of the shape"
+msgid "Locked"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:268
+msgctxt "The z-index of the shape"
+msgid "zIndex"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:269
+#, fuzzy
+#| msgid "Opacity"
+msgctxt "The opacity of the shape"
+msgid "Opacity"
+msgstr "Хиралик"
+
+#: ui/dockers/KarbonLayerModel.cpp:465 ui/dockers/KarbonLayerModel.cpp:485
+msgid "Reparent shapes"
 msgstr ""
 
 #: ui/widgets/KarbonPatternOptionsWidget.cpp:33
@@ -912,6 +906,24 @@ msgstr "Чизиш"
 #| msgid "Fill"
 msgid "Fill:"
 msgstr "Тўлдириш"
+
+#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:465
+#, fuzzy
+#| msgid "Insert Sinus"
+msgid "Insert graphics"
+msgstr "Синус қўйиш"
+
+#: ui/KarbonPart.cpp:213
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr "Бузуқ OASIS ҳужжати. office:body тэги топилмади."
+
+#: ui/KarbonPart.cpp:220
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr "Бузуқ OASIS ҳужжати. office:drawing тэги топилмади."
+
+#: ui/KarbonPart.cpp:227
+msgid "Invalid OASIS document. No draw:page tag found."
+msgstr "Бузуқ OASIS ҳужжати. office:page тэги топилмади."
 
 #: ui/KarbonView.cpp:289
 #, fuzzy
@@ -1099,18 +1111,6 @@ msgstr "Танлаш"
 #, fuzzy
 msgid "Zoom"
 msgstr "Катталаштириш воситаси"
-
-#: ui/KarbonPart.cpp:213
-msgid "Invalid OASIS document. No office:body tag found."
-msgstr "Бузуқ OASIS ҳужжати. office:body тэги топилмади."
-
-#: ui/KarbonPart.cpp:220
-msgid "Invalid OASIS document. No office:drawing tag found."
-msgstr "Бузуқ OASIS ҳужжати. office:drawing тэги топилмади."
-
-#: ui/KarbonPart.cpp:227
-msgid "Invalid OASIS document. No draw:page tag found."
-msgstr "Бузуқ OASIS ҳужжати. office:page тэги топилмади."
 
 #: main.cpp:41
 msgid "File to open"
