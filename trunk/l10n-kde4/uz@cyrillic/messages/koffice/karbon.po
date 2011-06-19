@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-18 04:34+0200\n"
+"POT-Creation-Date: 2011-06-19 04:29+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -227,6 +227,16 @@ msgstr ""
 msgid "Merge"
 msgstr ""
 
+#: plugins/filtereffects/FloodEffect.cpp:30
+#: plugins/filtereffects/FloodEffectFactory.cpp:27
+msgid "Flood fill"
+msgstr ""
+
+#: plugins/filtereffects/MorphologyEffect.cpp:32
+#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
+msgid "Morphology"
+msgstr ""
+
 #: plugins/filtereffects/ComponentTransferEffect.cpp:30
 #: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
 msgid "Component transfer"
@@ -288,19 +298,12 @@ msgid "Exponent"
 msgstr ""
 
 #: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
-#: plugins/filtereffects/OffsetEffect.cpp:31
 #: plugins/filtereffects/OffsetEffectFactory.cpp:26
+#: plugins/filtereffects/OffsetEffect.cpp:31
 #, fuzzy
 #| msgid "Effects"
 msgid "Offset"
 msgstr "Эффектлар"
-
-#: plugins/filtereffects/CompositeEffect.cpp:32
-#: plugins/filtereffects/CompositeEffectFactory.cpp:27
-#, fuzzy
-#| msgid "Components"
-msgid "Composite"
-msgstr "Компонентлар"
 
 #: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
 #, fuzzy
@@ -308,10 +311,12 @@ msgstr "Компонентлар"
 msgid "Operation"
 msgstr "Мантиқий операция"
 
-#: plugins/filtereffects/ConvolveMatrixEffect.cpp:33
-#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
-msgid "Convolve Matrix"
-msgstr ""
+#: plugins/filtereffects/CompositeEffectFactory.cpp:27
+#: plugins/filtereffects/CompositeEffect.cpp:32
+#, fuzzy
+#| msgid "Components"
+msgid "Composite"
+msgstr "Компонентлар"
 
 #: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
 #, fuzzy
@@ -363,9 +368,9 @@ msgstr ""
 msgid "Edit kernel"
 msgstr "Намуна"
 
-#: plugins/filtereffects/FloodEffect.cpp:30
-#: plugins/filtereffects/FloodEffectFactory.cpp:27
-msgid "Flood fill"
+#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
+#: plugins/filtereffects/ConvolveMatrixEffect.cpp:33
+msgid "Convolve Matrix"
 msgstr ""
 
 #: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
@@ -373,11 +378,6 @@ msgstr ""
 #| msgid "Stroke: Color"
 msgid "Flood color"
 msgstr "Чизиш: Ранг"
-
-#: plugins/filtereffects/ImageEffect.cpp:35
-#: plugins/filtereffects/ImageEffectFactory.cpp:26
-msgid "Image"
-msgstr "Расм"
 
 #: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
 msgid "Select image..."
@@ -389,10 +389,10 @@ msgstr ""
 msgid "Select image"
 msgstr "Тугунларни танлаш"
 
-#: plugins/filtereffects/MorphologyEffect.cpp:32
-#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
-msgid "Morphology"
-msgstr ""
+#: plugins/filtereffects/ImageEffectFactory.cpp:26
+#: plugins/filtereffects/ImageEffect.cpp:35
+msgid "Image"
+msgstr "Расм"
 
 #: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
 msgid "Erode"
@@ -469,6 +469,11 @@ msgstr "Ўнг"
 msgid "Radius"
 msgstr "Радиус:"
 
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
+#, fuzzy
+msgid "Flatten path"
+msgstr "Бурчакни силлиқлаш"
+
 #: plugins/flattenpath/FlattenPathPlugin.cpp:57
 #, fuzzy
 msgid "&Flatten Path..."
@@ -491,11 +496,6 @@ msgstr "Чизиқ хоссалари"
 #, fuzzy
 msgid "Flatness:"
 msgstr "Аниқлик:"
-
-#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
-#, fuzzy
-msgid "Flatten path"
-msgstr "Бурчакни силлиқлаш"
 
 #: plugins/refinepath/KarbonPathRefineCommand.cpp:41
 #, fuzzy

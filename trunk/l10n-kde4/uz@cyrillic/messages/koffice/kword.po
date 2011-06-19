@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-18 04:34+0200\n"
+"POT-Creation-Date: 2011-06-19 04:29+0200\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -890,46 +890,6 @@ msgstr ""
 msgid "Michael Johnson"
 msgstr ""
 
-#: part/KWDocument.cpp:452
-#, fuzzy
-#| msgid "Copy%1-%2"
-msgid "Copy"
-msgstr "Нусха%1-%2"
-
-#: part/KWDocument.cpp:541
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 1"
-msgid "Head 1"
-msgstr "Сарлавҳа 1"
-
-#: part/KWDocument.cpp:548
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 2"
-msgid "Head 2"
-msgstr "Сарлавҳа 2"
-
-#: part/KWDocument.cpp:555
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 3"
-msgid "Head 3"
-msgstr "Сарлавҳа 3"
-
-#: part/KWDocument.cpp:562
-#, fuzzy
-msgid "Bullet List"
-msgstr "Кўкиш"
-
-#: part/KWDocument.cpp:896
-msgid "Can not find needed text component, KWord will quit now"
-msgstr ""
-
-#: part/KWDocument.cpp:897
-msgid "Installation Error"
-msgstr ""
-
 #: part/KWDLoader.cpp:75
 msgid "Invalid document. No mimetype specified."
 msgstr "Ҳужжат ҳақиқий эмас. Ҳеч қандай MIME-тури кўрсатилмаган."
@@ -960,25 +920,6 @@ msgstr "Маълумот база объектини яратиб бўлмади
 msgid "Unable to locate note-text"
 msgstr "Маълумот база объектини яратиб бўлмади"
 
-#: part/KWOdfLoader.cpp:86
-#, fuzzy
-#| msgid "Invalid OASIS OpenDocument file. No office:body tag found."
-msgid "Invalid OpenDocument file. No office:body tag found."
-msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
-
-#: part/KWOdfLoader.cpp:98
-#, fuzzy
-#| msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
-msgid "Invalid OpenDocument file. No tag found inside office:body."
-msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
-
-#: part/KWOdfLoader.cpp:100
-#, kde-format
-msgid ""
-"This is not a word processing document, but %1. Please try opening it with "
-"the appropriate application."
-msgstr "Бу KWord ҳужжати эмас, лекин %1. Уни мос дастур билан очиб кўринг."
-
 #: part/commands/KWNewPageStyleCommand.cpp:27
 #, fuzzy
 #| msgid "Insert Page"
@@ -990,11 +931,6 @@ msgstr "Бетни қўйиш"
 #| msgid "Framestyle:"
 msgid "Set Page Style"
 msgstr "Фреймнинг услуби:"
-
-#: part/commands/KWClipFrameCommand.cpp:40
-#, fuzzy
-msgid "Clip Frame"
-msgstr "Фреймни боғлаш"
 
 #: part/commands/KWCreateOutlineCommand.cpp:30
 #, fuzzy
@@ -1011,17 +947,22 @@ msgstr "Матн фреймини яратиш"
 msgid "Delete Frame"
 msgstr "Фреймни ўчириш"
 
-#: part/commands/KWPageRemoveCommand.cpp:32
-#, fuzzy
-#| msgid "Remove entry"
-msgid "Remove Page"
-msgstr "Ёзувни олиб ташлаш"
-
 #: part/commands/KWPageStylePropertiesCommand.cpp:36
 #, fuzzy
 #| msgid "Frame Properties"
 msgid "Page Properties"
 msgstr "Фреймнинг хоссалари"
+
+#: part/commands/KWClipFrameCommand.cpp:40
+#, fuzzy
+msgid "Clip Frame"
+msgstr "Фреймни боғлаш"
+
+#: part/commands/KWPageRemoveCommand.cpp:32
+#, fuzzy
+#| msgid "Remove entry"
+msgid "Remove Page"
+msgstr "Ёзувни олиб ташлаш"
 
 #: part/dialogs/KWStatisticsDialog.cpp:29
 #: part/dockers/KWStatisticsDocker.cpp:35 part/KWView.cpp:385
@@ -1354,37 +1295,24 @@ msgstr "Тепаси ва пасти кул"
 msgid "File to open"
 msgstr "Очиш учун файл"
 
-#: part/KWStatusBar.cpp:38
-msgid "Modified"
-msgstr ""
-
-#: part/KWStatusBar.cpp:39
+#: part/KWOdfLoader.cpp:86
 #, fuzzy
-#| msgid "Save Failed"
-msgid "Saved"
-msgstr "Сақлаш муваффақиятсиз тугади"
+#| msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgid "Invalid OpenDocument file. No office:body tag found."
+msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
 
-#: part/KWStatusBar.cpp:40
-#, fuzzy, kde-format
-#| msgid "Page %1"
-msgid "Page: %1/%2"
-msgstr "Бет %1"
+#: part/KWOdfLoader.cpp:98
+#, fuzzy
+#| msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgid "Invalid OpenDocument file. No tag found inside office:body."
+msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
 
-#: part/KWStatusBar.cpp:62
-msgid "Page: current/total"
-msgstr ""
-
-#: part/KWStatusBar.cpp:79
-msgid "State: saved/modified"
-msgstr ""
-
-#: part/KWStatusBar.cpp:93
-msgid "Mouseposition: X:Y"
-msgstr ""
-
-#: part/KWStatusBar.cpp:106
-msgid "Zoom Controller"
-msgstr ""
+#: part/KWOdfLoader.cpp:100
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr "Бу KWord ҳужжати эмас, лекин %1. Уни мос дастур билан очиб кўринг."
 
 #: part/KWView.cpp:251
 #, fuzzy
@@ -1750,6 +1678,78 @@ msgstr ""
 #, fuzzy
 msgid "Create outlines"
 msgstr "Жадвални яратиш."
+
+#: part/KWDocument.cpp:452
+#, fuzzy
+#| msgid "Copy%1-%2"
+msgid "Copy"
+msgstr "Нусха%1-%2"
+
+#: part/KWDocument.cpp:541
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 1"
+msgid "Head 1"
+msgstr "Сарлавҳа 1"
+
+#: part/KWDocument.cpp:548
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 2"
+msgid "Head 2"
+msgstr "Сарлавҳа 2"
+
+#: part/KWDocument.cpp:555
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 3"
+msgid "Head 3"
+msgstr "Сарлавҳа 3"
+
+#: part/KWDocument.cpp:562
+#, fuzzy
+msgid "Bullet List"
+msgstr "Кўкиш"
+
+#: part/KWDocument.cpp:896
+msgid "Can not find needed text component, KWord will quit now"
+msgstr ""
+
+#: part/KWDocument.cpp:897
+msgid "Installation Error"
+msgstr ""
+
+#: part/KWStatusBar.cpp:38
+msgid "Modified"
+msgstr ""
+
+#: part/KWStatusBar.cpp:39
+#, fuzzy
+#| msgid "Save Failed"
+msgid "Saved"
+msgstr "Сақлаш муваффақиятсиз тугади"
+
+#: part/KWStatusBar.cpp:40
+#, fuzzy, kde-format
+#| msgid "Page %1"
+msgid "Page: %1/%2"
+msgstr "Бет %1"
+
+#: part/KWStatusBar.cpp:62
+msgid "Page: current/total"
+msgstr ""
+
+#: part/KWStatusBar.cpp:79
+msgid "State: saved/modified"
+msgstr ""
+
+#: part/KWStatusBar.cpp:93
+msgid "Mouseposition: X:Y"
+msgstr ""
+
+#: part/KWStatusBar.cpp:106
+msgid "Zoom Controller"
+msgstr ""
 
 #, fuzzy
 #~| msgid "Create a new frameset"

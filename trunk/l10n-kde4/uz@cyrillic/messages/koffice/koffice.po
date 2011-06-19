@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-18 04:35+0200\n"
+"POT-Creation-Date: 2011-06-19 04:29+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,11 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: flake/KoToolBase.cpp:173 flake/KoToolManager.cpp:352
-#, fuzzy
-msgid "Tool Options"
-msgstr "Тўлдириш мосламалари"
 
 #: flake/KPathShapeFactory.cpp:32
 #, fuzzy
@@ -32,15 +27,20 @@ msgstr "Намунани яратиш"
 msgid "A simple path shape"
 msgstr ""
 
+#: flake/KToolBase.cpp:173 flake/KToolManager.cpp:352
+#, fuzzy
+msgid "Tool Options"
+msgstr "Тўлдириш мосламалари"
+
+#: flake/KToolManager.cpp:351
+#, kde-format
+msgid "Active tool: %1"
+msgstr ""
+
 #: flake/KShapePaste.cpp:100
 #, fuzzy
 msgid "Paste Shapes"
 msgstr "Намунани яратиш"
-
-#: flake/KoToolManager.cpp:351
-#, kde-format
-msgid "Active tool: %1"
-msgstr ""
 
 #: flake/commands/KPathSegmentBreakCommand.cpp:40
 msgid "Break Subpath"
@@ -113,6 +113,11 @@ msgstr "Матнни ўчириш"
 msgid "Resize Shapes"
 msgstr "Намунани яратиш"
 
+#: flake/commands/KSubpathRemoveCommand.cpp:30
+#, fuzzy
+msgid "Remove Subpath"
+msgstr "Гуруҳни олиб ташлаш"
+
 #: flake/commands/KParameterHandleMoveCommand.cpp:34
 #, fuzzy
 msgid "Change Parameter"
@@ -151,12 +156,6 @@ msgstr "Бўш жой"
 #: flake/commands/KPathPointMoveCommand.cpp:58
 msgid "Move points"
 msgstr ""
-
-#: flake/commands/KPathPointRemoveCommand.cpp:104
-#: flake/commands/KPathPointRemoveCommand.cpp:133
-#, fuzzy
-msgid "Remove Points"
-msgstr "Боғни олиб ташлаш"
 
 #: flake/commands/KPathPointTypeCommand.cpp:46
 #, fuzzy
@@ -201,53 +200,36 @@ msgstr "Тўлқин"
 msgid "Set Shadow"
 msgstr "Матннинг сояси"
 
-#: flake/commands/KoShapeTransparencyCommand.cpp:49
-#: flake/commands/KoShapeTransparencyCommand.cpp:60
-#: flake/commands/KoShapeTransparencyCommand.cpp:73
+#: flake/commands/KPathPointRemoveCommand.cpp:104
+#: flake/commands/KPathPointRemoveCommand.cpp:133
+#, fuzzy
+msgid "Remove Points"
+msgstr "Боғни олиб ташлаш"
+
+#: flake/commands/KShapeTransparencyCommand.cpp:49
+#: flake/commands/KShapeTransparencyCommand.cpp:60
+#: flake/commands/KShapeTransparencyCommand.cpp:73
 #, fuzzy
 msgid "Set Opacity"
 msgstr "Скрипт"
 
-#: flake/commands/KoShapeUngroupCommand.cpp:57
+#: flake/commands/KShapeUngroupCommand.cpp:57
 msgid "Ungroup Shapes"
 msgstr ""
 
-#: flake/commands/KoSubpathJoinCommand.cpp:51
+#: flake/commands/KSubpathJoinCommand.cpp:51
 #, fuzzy
 msgid "Close Subpath"
 msgstr "Гуруҳни олиб ташлаш"
 
-#: flake/commands/KoSubpathJoinCommand.cpp:53
+#: flake/commands/KSubpathJoinCommand.cpp:53
 #, fuzzy
 msgid "Join Subpaths"
 msgstr "Чизиқнинг энини ўзгартириш"
 
-#: flake/commands/KoSubpathRemoveCommand.cpp:30
-#, fuzzy
-msgid "Remove Subpath"
-msgstr "Гуруҳни олиб ташлаш"
-
 #: flake/commands/KShapeShearCommand.cpp:51
 #, fuzzy
 msgid "Shear Shapes"
-msgstr "Намунани яратиш"
-
-#: flake/tools/KCreatePathTool.cpp:369 flake/tools/KPathTool.cpp:180
-msgid "Snapping"
-msgstr ""
-
-#: flake/tools/KCreatePathTool.cpp:374
-msgid "Angle snapping delta"
-msgstr ""
-
-#: flake/tools/KCreatePathTool.cpp:379
-#, fuzzy
-msgid "Angle Constraints"
-msgstr "Текислашни ўзгартириш"
-
-#: flake/tools/KCreatePathToolFactory.cpp:33
-#, fuzzy
-msgid "Create Path"
 msgstr "Намунани яратиш"
 
 #: flake/tools/KCreateShapesToolFactory.cpp:33
@@ -259,12 +241,6 @@ msgstr "Ҳужжатни яратиш"
 #, fuzzy
 msgid "Pan"
 msgstr "Циан"
-
-#: flake/tools/KPathSegmentChangeStrategy.cpp:140
-#, fuzzy
-#| msgid "Change Alignment"
-msgid "Change Segment"
-msgstr "Текислашни ўзгартириш"
 
 #: flake/tools/KPathTool.cpp:87
 #, fuzzy
@@ -336,6 +312,10 @@ msgstr "Йўлни таҳрирлаш"
 msgid "Line/Curve"
 msgstr "Жорий бўлим"
 
+#: flake/tools/KPathTool.cpp:180 flake/tools/KCreatePathTool.cpp:369
+msgid "Snapping"
+msgstr ""
+
 #: flake/tools/KPathTool.cpp:514
 msgid "Drag to move handle."
 msgstr ""
@@ -356,15 +336,35 @@ msgstr ""
 msgid "Press B to break path at selected segments."
 msgstr ""
 
-#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:248
-#: widgets/KoZoomController.cpp:38 widgets/KoZoomInput.cpp:52
-msgid "Zoom"
-msgstr ""
-
 #: flake/tools/KPathToolFactory.cpp:29
 #, fuzzy
 msgid "Path editing tool"
 msgstr "Умумий таҳрирлаш вақти:"
+
+#: flake/tools/KZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:248
+#: widgets/KoZoomController.cpp:38 widgets/KoZoomInput.cpp:52
+msgid "Zoom"
+msgstr ""
+
+#: flake/tools/KCreatePathTool.cpp:374
+msgid "Angle snapping delta"
+msgstr ""
+
+#: flake/tools/KCreatePathTool.cpp:379
+#, fuzzy
+msgid "Angle Constraints"
+msgstr "Текислашни ўзгартириш"
+
+#: flake/tools/KCreatePathToolFactory.cpp:33
+#, fuzzy
+msgid "Create Path"
+msgstr "Намунани яратиш"
+
+#: flake/tools/KPathSegmentChangeStrategy.cpp:140
+#, fuzzy
+#| msgid "Change Alignment"
+msgid "Change Segment"
+msgstr "Текислашни ўзгартириш"
 
 #: kokross/KoScriptManager.cpp:177
 msgid "Install Script Package"
@@ -826,6 +826,11 @@ msgstr ""
 msgid "Master Page"
 msgstr "Матнни қўйиш"
 
+#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:93
+#, fuzzy
+msgid "Change background image"
+msgstr "Сония"
+
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:105
 #, fuzzy
 #| msgid "Background color:"
@@ -840,11 +845,6 @@ msgstr ""
 #, fuzzy
 msgid "Background editing tool"
 msgstr "Умумий таҳрирлаш вақти:"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:93
-#, fuzzy
-msgid "Change background image"
-msgstr "Сония"
 
 #: kopageapp/KoPAPastePage.cpp:132
 #, fuzzy
@@ -982,47 +982,6 @@ msgstr[0] ""
 msgid "Found no match"
 msgstr ""
 
-#: kotext/InsertTextLocator.cpp:29
-msgid "Index Reference"
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:35
-#: kotext/InsertTextReferenceAction.cpp:63
-msgid "Text Reference"
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:44
-msgid "Please create an index to reference first."
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:53
-msgid "Select the index you want to reference"
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:63 kotext/InsertVariableAction.cpp:51
-#: main/rdf/InsertSemanticObjectCreateAction.cpp:59
-#: main/rdf/InsertSemanticObjectReferenceAction.cpp:63
-#, fuzzy, kde-format
-msgid "%1 Options"
-msgstr "Қоидадан ташқари ҳолат"
-
-#: kotext/KoText.cpp:47
-msgctxt "Underline Style"
-msgid "None"
-msgstr "Йўқ"
-
-#: kotext/KoText.cpp:48
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Single"
-msgstr "Битта"
-
-#: kotext/KoText.cpp:49
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Double"
-msgstr "Иккита"
-
 #: kotext/commands/DeleteTableColumnCommand.cpp:40
 #: kotext/KoTextEditor.cpp:1058
 #, fuzzy
@@ -1060,6 +1019,70 @@ msgstr "Сатрни қўйиш"
 #| msgid "Insert Row"
 msgid "Insert Row Above"
 msgstr "Сатрни қўйиш"
+
+#: kotext/KoText.cpp:47
+msgctxt "Underline Style"
+msgid "None"
+msgstr "Йўқ"
+
+#: kotext/KoText.cpp:48
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "Битта"
+
+#: kotext/KoText.cpp:49
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "Иккита"
+
+#: kotext/KReplaceStrategy.cpp:58
+msgid ""
+"Found no match\n"
+"\n"
+"No text was replaced"
+msgstr ""
+
+#: kotext/KReplaceStrategy.cpp:61
+#, fuzzy, kde-format
+msgid "1 replacement made"
+msgid_plural "%1 replacements made"
+msgstr[0] "Матнни алмаштириш"
+
+#: kotext/KReplaceStrategy.cpp:74
+#, fuzzy, kde-format
+#| msgctxt "We add the 1/2 char at the %1"
+#| msgid "Re&place 1/2... with %1..."
+msgid "Replace %1 with %2?"
+msgstr "&1/2...ни %1 белгига алмаштириш"
+
+#. i18n: file: widgets/KoCsvImportDialog.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
+#: kotext/KoTextEditor_p.h:93 kotext/KoTextEditor_p.h:130 rc.cpp:344
+#, fuzzy
+msgid "Format"
+msgstr "Санани кўриниши"
+
+#: kotext/InsertTextReferenceAction.cpp:35
+#: kotext/InsertTextReferenceAction.cpp:63
+msgid "Text Reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:44
+msgid "Please create an index to reference first."
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:53
+msgid "Select the index you want to reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:63 kotext/InsertVariableAction.cpp:51
+#: main/rdf/InsertSemanticObjectReferenceAction.cpp:63
+#: main/rdf/InsertSemanticObjectCreateAction.cpp:59
+#, fuzzy, kde-format
+msgid "%1 Options"
+msgstr "Қоидадан ташқари ҳолат"
 
 #: kotext/KoTextEditor.cpp:111 kotext/KoTextEditor.cpp:167
 #: kotext/KoTextEditor.cpp:325 widgets/KoCsvImportDialog.cpp:216
@@ -1215,32 +1238,9 @@ msgstr "&Бўйига"
 msgid "Line Break"
 msgstr "Чегараларни ўзгартириш"
 
-#: kotext/KReplaceStrategy.cpp:58
-msgid ""
-"Found no match\n"
-"\n"
-"No text was replaced"
+#: kotext/InsertTextLocator.cpp:29
+msgid "Index Reference"
 msgstr ""
-
-#: kotext/KReplaceStrategy.cpp:61
-#, fuzzy, kde-format
-msgid "1 replacement made"
-msgid_plural "%1 replacements made"
-msgstr[0] "Матнни алмаштириш"
-
-#: kotext/KReplaceStrategy.cpp:74
-#, fuzzy, kde-format
-#| msgctxt "We add the 1/2 char at the %1"
-#| msgid "Re&place 1/2... with %1..."
-msgid "Replace %1 with %2?"
-msgstr "&1/2...ни %1 белгига алмаштириш"
-
-#. i18n: file: widgets/KoCsvImportDialog.ui:147
-#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:93 kotext/KoTextEditor_p.h:130 rc.cpp:344
-#, fuzzy
-msgid "Format"
-msgstr "Санани кўриниши"
 
 #: main/KoApplication.cpp:77
 msgid "Only print and exit"
@@ -2347,6 +2347,10 @@ msgstr ""
 msgid "Locations"
 msgstr "Манзили:"
 
+#: main/rdf/KoDocumentRdf.cpp:851
+msgid "Reference"
+msgstr ""
+
 #: main/rdf/KoSopranoTableModel.cpp:80
 msgid "Empty"
 msgstr ""
@@ -2405,10 +2409,6 @@ msgstr ""
 
 #: main/rdf/InsertSemanticObjectReferenceAction.cpp:55
 msgid "Select the object you want to reference"
-msgstr ""
-
-#: main/rdf/KoDocumentRdf.cpp:851
-msgid "Reference"
 msgstr ""
 
 #: main/config/KoConfigDocumentPage.cpp:75
@@ -3366,13 +3366,13 @@ msgstr ""
 msgid "Guide lines"
 msgstr "Ёрдамчи чизиқлар"
 
-#. i18n: file: flake/tools/KoZoomToolWidget.ui:20
+#. i18n: file: flake/tools/KZoomToolWidget.ui:20
 #. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
 #: rc.cpp:27
 msgid "Zoom In"
 msgstr ""
 
-#. i18n: file: flake/tools/KoZoomToolWidget.ui:30
+#. i18n: file: flake/tools/KZoomToolWidget.ui:30
 #. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
 #: rc.cpp:30
 msgid "Zoom Out"
