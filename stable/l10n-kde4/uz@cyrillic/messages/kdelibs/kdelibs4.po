@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-21 04:32+0200\n"
+"POT-Creation-Date: 2011-07-05 05:12+0200\n"
 "PO-Revision-Date: 2009-10-17 00:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3251,59 +3251,38 @@ msgstr ""
 "\"http://www.uni-bremen.de/~kmashrab/to-uzbek-linux.html\">\"Линукс ўзбекча "
 "гапиради\"</a> лойиҳасининг веб-сайтига қаранг.</p>"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:281
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
 #, kde-format
 msgid ""
-"Could not launch the mail client:\n"
-"\n"
-"%1"
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
 msgstr ""
-"Хат-хабар клиентини ишга тушириб бўлмади:\n"
-"\n"
-"%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:282
-#, fuzzy
-#| msgid "Could not Launch Mail Client"
-msgid "Could not launch Mail Client"
-msgstr "Хат-хабар клиентини ишга тушириб бўлмади"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:334
-#: kdecore/kernel/ktoolinvocation_x11.cpp:349
-#: kdecore/kernel/ktoolinvocation_x11.cpp:369
-#, kde-format
-msgid ""
-"Could not launch the browser:\n"
-"\n"
-"%1"
-msgstr ""
-"Браузерни ишга тушириб бўлмади:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:335
-#: kdecore/kernel/ktoolinvocation_x11.cpp:350
-#: kdecore/kernel/ktoolinvocation_x11.cpp:370
-#, fuzzy
-#| msgid "Could not Launch Browser"
-msgid "Could not launch Browser"
-msgstr "Браузерни ишга тушириб бўлмади"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:409
+#: kdecore/kernel/ktoolinvocation.cpp:123
 #, fuzzy, kde-format
 msgid ""
-"Could not launch the terminal client:\n"
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr "DCOP орқали KLauncher'ни ишлатиб бўлмади.\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
 "\n"
 "%1"
 msgstr ""
-"Хат-хабар клиентини ишга тушириб бўлмади:\n"
+"Ёрдам марказини ишга тушириб бўлмади:\n"
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:410
-#, fuzzy
-msgid "Could not launch Terminal Client"
-msgstr "Хат-хабар клиентини ишга тушириб бўлмади"
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "Ёрдам марказини ишга тушириб бўлмади"
 
 #: kdecore/kernel/kcmdlineargs.cpp:273
 msgid "Use the X-server display 'displayname'"
@@ -3467,7 +3446,7 @@ msgstr "Дастур:"
 msgid "Qt"
 msgstr "Чиқиш"
 
-#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4812
+#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4811
 msgid "KDE"
 msgstr "KDE"
 
@@ -3609,192 +3588,179 @@ msgstr ""
 msgid "KDE-tempfile"
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
+#: kdecore/kernel/ktoolinvocation_x11.cpp:281
 #, kde-format
 msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
+"Could not launch the mail client:\n"
+"\n"
+"%1"
 msgstr ""
+"Хат-хабар клиентини ишга тушириб бўлмади:\n"
+"\n"
+"%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:123
+#: kdecore/kernel/ktoolinvocation_x11.cpp:282
+#, fuzzy
+#| msgid "Could not Launch Mail Client"
+msgid "Could not launch Mail Client"
+msgstr "Хат-хабар клиентини ишга тушириб бўлмади"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:334
+#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:379
+#, kde-format
+msgid ""
+"Could not launch the browser:\n"
+"\n"
+"%1"
+msgstr ""
+"Браузерни ишга тушириб бўлмади:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:335
+#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:380
+#, fuzzy
+#| msgid "Could not Launch Browser"
+msgid "Could not launch Browser"
+msgstr "Браузерни ишга тушириб бўлмади"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:419
 #, fuzzy, kde-format
 msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr "DCOP орқали KLauncher'ни ишлатиб бўлмади.\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
+"Could not launch the terminal client:\n"
 "\n"
 "%1"
 msgstr ""
-"Ёрдам марказини ишга тушириб бўлмади:\n"
+"Хат-хабар клиентини ишга тушириб бўлмади:\n"
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "Ёрдам марказини ишга тушириб бўлмади"
+#: kdecore/kernel/ktoolinvocation_x11.cpp:420
+#, fuzzy
+msgid "Could not launch Terminal Client"
+msgstr "Хат-хабар клиентини ишга тушириб бўлмади"
 
-#: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingdetector.cpp:1149
-#: kdecore/localization/kencodingdetector.cpp:1232
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:303
-msgctxt "@item Text character set"
-msgid "Western European"
-msgstr "Жанубий Европача"
-
-#: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingdetector.cpp:1151
-#: kdecore/localization/kencodingdetector.cpp:1214
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:285
-msgctxt "@item Text character set"
-msgid "Central European"
-msgstr "Марказий Европача"
-
-#: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingdetector.cpp:1161
-#: kdecore/localization/kencodingdetector.cpp:1211
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:282
-msgctxt "@item Text character set"
-msgid "Baltic"
-msgstr "Болтиқча"
-
-#: kdecore/localization/kcharsets.cpp:167
-msgctxt "@item Text character set"
-msgid "South-Eastern Europe"
-msgstr "Жануби-шарқий Европача"
-
-#: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingdetector.cpp:1157
-#: kdecore/localization/kencodingdetector.cpp:1229
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:300
-msgctxt "@item Text character set"
-msgid "Turkish"
-msgstr "Туркча"
-
-#: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingdetector.cpp:1147
-#: kdecore/localization/kencodingdetector.cpp:1217
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:288
-msgctxt "@item Text character set"
-msgid "Cyrillic"
-msgstr "Кирилча"
-
-#: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingdetector.cpp:1235
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:306
-msgctxt "@item Text character set"
-msgid "Chinese Traditional"
-msgstr "Анъанавий Хитойча"
-
-#: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingdetector.cpp:1238
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:309
-msgctxt "@item Text character set"
-msgid "Chinese Simplified"
-msgstr "Соддалаштирилган Хитойча"
-
-#: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingdetector.cpp:1241
-#: kdecore/localization/kencodingprober.cpp:312
-msgctxt "@item Text character set"
-msgid "Korean"
-msgstr "Корейсча"
-
-#: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingdetector.cpp:1159
-#: kdecore/localization/kencodingdetector.cpp:1226
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:297
-msgctxt "@item Text character set"
-msgid "Japanese"
-msgstr "Японча"
-
-#: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingdetector.cpp:1153
-#: kdecore/localization/kencodingdetector.cpp:1220
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:291
-msgctxt "@item Text character set"
-msgid "Greek"
-msgstr "Юнонча"
-
-#: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingdetector.cpp:1163
-#: kdecore/localization/kencodingdetector.cpp:1208
-#: kdecore/localization/kencodingprober.cpp:262
-#: kdecore/localization/kencodingprober.cpp:279
-msgctxt "@item Text character set"
-msgid "Arabic"
-msgstr "Арабча"
-
-#: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingdetector.cpp:1155
-#: kdecore/localization/kencodingdetector.cpp:1223
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:294
-msgctxt "@item Text character set"
-msgid "Hebrew"
-msgstr "Яҳудийча"
-
-#: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingdetector.cpp:1244
-#: kdecore/localization/kencodingprober.cpp:315
-msgctxt "@item Text character set"
-msgid "Thai"
-msgstr "Тайча"
-
-#: kdecore/localization/kcharsets.cpp:206
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
 #: kdecore/localization/kencodingprober.cpp:240
 #: kdecore/localization/kencodingprober.cpp:318
+#: kdecore/localization/kcharsets.cpp:206
 msgctxt "@item Text character set"
 msgid "Unicode"
 msgstr "Юникод"
 
-#: kdecore/localization/kcharsets.cpp:212
+#: kdecore/localization/kencodingdetector.cpp:1147
+#: kdecore/localization/kencodingdetector.cpp:1217
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:288
+#: kdecore/localization/kcharsets.cpp:173
 msgctxt "@item Text character set"
-msgid "Northern Saami"
-msgstr "Шимолий Саамича"
+msgid "Cyrillic"
+msgstr "Кирилча"
 
-#: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:619
+#: kdecore/localization/kencodingdetector.cpp:1149
+#: kdecore/localization/kencodingdetector.cpp:1232
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:303
+#: kdecore/localization/kcharsets.cpp:155
 msgctxt "@item Text character set"
-msgid "Other"
-msgstr "Бошқа"
+msgid "Western European"
+msgstr "Жанубий Европача"
 
-#: kdecore/localization/kcharsets.cpp:629
-#, kde-format
-msgctxt "@item %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1151
+#: kdecore/localization/kencodingdetector.cpp:1214
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:285
+#: kdecore/localization/kcharsets.cpp:161
+msgctxt "@item Text character set"
+msgid "Central European"
+msgstr "Марказий Европача"
 
-#: kdecore/localization/kcharsets.cpp:632
-#, fuzzy, kde-format
-msgctxt "@item"
-msgid "Other encoding (%1)"
-msgstr "&Кодлаш усулини танлаш"
+#: kdecore/localization/kencodingdetector.cpp:1153
+#: kdecore/localization/kencodingdetector.cpp:1220
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:291
+#: kdecore/localization/kcharsets.cpp:192
+msgctxt "@item Text character set"
+msgid "Greek"
+msgstr "Юнонча"
 
-#: kdecore/localization/kcharsets.cpp:658
-#, kde-format
-msgctxt "@item Text encoding: %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1155
+#: kdecore/localization/kencodingdetector.cpp:1223
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:294
+#: kdecore/localization/kcharsets.cpp:198
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "Яҳудийча"
+
+#: kdecore/localization/kencodingdetector.cpp:1157
+#: kdecore/localization/kencodingdetector.cpp:1229
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:300
+#: kdecore/localization/kcharsets.cpp:170
+msgctxt "@item Text character set"
+msgid "Turkish"
+msgstr "Туркча"
+
+#: kdecore/localization/kencodingdetector.cpp:1159
+#: kdecore/localization/kencodingdetector.cpp:1226
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:297
+#: kdecore/localization/kcharsets.cpp:188
+msgctxt "@item Text character set"
+msgid "Japanese"
+msgstr "Японча"
+
+#: kdecore/localization/kencodingdetector.cpp:1161
+#: kdecore/localization/kencodingdetector.cpp:1211
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:282
+#: kdecore/localization/kcharsets.cpp:164
+msgctxt "@item Text character set"
+msgid "Baltic"
+msgstr "Болтиқча"
+
+#: kdecore/localization/kencodingdetector.cpp:1163
+#: kdecore/localization/kencodingdetector.cpp:1208
+#: kdecore/localization/kencodingprober.cpp:262
+#: kdecore/localization/kencodingprober.cpp:279
+#: kdecore/localization/kcharsets.cpp:195
+msgctxt "@item Text character set"
+msgid "Arabic"
+msgstr "Арабча"
+
+#: kdecore/localization/kencodingdetector.cpp:1235
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:306
+#: kdecore/localization/kcharsets.cpp:179
+msgctxt "@item Text character set"
+msgid "Chinese Traditional"
+msgstr "Анъанавий Хитойча"
+
+#: kdecore/localization/kencodingdetector.cpp:1238
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:309
+#: kdecore/localization/kcharsets.cpp:182
+msgctxt "@item Text character set"
+msgid "Chinese Simplified"
+msgstr "Соддалаштирилган Хитойча"
+
+#: kdecore/localization/kencodingdetector.cpp:1241
+#: kdecore/localization/kencodingprober.cpp:312
+#: kdecore/localization/kcharsets.cpp:186
+msgctxt "@item Text character set"
+msgid "Korean"
+msgstr "Корейсча"
+
+#: kdecore/localization/kencodingdetector.cpp:1244
+#: kdecore/localization/kencodingprober.cpp:315
+#: kdecore/localization/kcharsets.cpp:203
+msgctxt "@item Text character set"
+msgid "Thai"
+msgstr "Тайча"
 
 #: kdecore/localization/kencodingprober.cpp:236
 #: kdecore/localization/kencodingprober.cpp:273
@@ -4416,6 +4382,40 @@ msgstr "Win"
 msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
+
+#: kdecore/localization/kcharsets.cpp:167
+msgctxt "@item Text character set"
+msgid "South-Eastern Europe"
+msgstr "Жануби-шарқий Европача"
+
+#: kdecore/localization/kcharsets.cpp:212
+msgctxt "@item Text character set"
+msgid "Northern Saami"
+msgstr "Шимолий Саамича"
+
+#: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:619
+msgctxt "@item Text character set"
+msgid "Other"
+msgstr "Бошқа"
+
+#: kdecore/localization/kcharsets.cpp:629
+#, kde-format
+msgctxt "@item %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
+#: kdecore/localization/kcharsets.cpp:632
+#, fuzzy, kde-format
+msgctxt "@item"
+msgid "Other encoding (%1)"
+msgstr "&Кодлаш усулини танлаш"
+
+#: kdecore/localization/kcharsets.cpp:658
+#, kde-format
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
 
 #: kdecore/localization/klocale_kde.cpp:1093
 #, fuzzy
@@ -5105,6 +5105,14 @@ msgstr "\"ai_socktype\" қўлланмаган"
 msgid "system error"
 msgstr "тизимнинг хатоси"
 
+#: kdecore/network/k3socks.cpp:137
+msgid "NEC SOCKS client"
+msgstr "NEC SOCKS сервери учун клиент"
+
+#: kdecore/network/k3socks.cpp:172
+msgid "Dante SOCKS client"
+msgstr "Dante SOCKS сервери учун клиент"
+
 #: kdecore/network/ktcpsocket.cpp:152
 #, fuzzy
 #| msgid "no error"
@@ -5184,14 +5192,6 @@ msgstr ""
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Номаълум хато"
-
-#: kdecore/network/k3socks.cpp:137
-msgid "NEC SOCKS client"
-msgstr "NEC SOCKS сервери учун клиент"
-
-#: kdecore/network/k3socks.cpp:172
-msgid "Dante SOCKS client"
-msgstr "Dante SOCKS сервери учун клиент"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, fuzzy, kde-format
@@ -8015,6 +8015,12 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "KDE ҳақида"
 
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Resource Configuration"
+msgid "Spell Checking Configuration"
+msgstr "Манбани мослаш"
+
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -8047,12 +8053,6 @@ msgstr "Имлони текширувчи"
 #, fuzzy
 msgid "Spell check complete."
 msgstr "Имлони текширувчи"
-
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Resource Configuration"
-msgid "Spell Checking Configuration"
-msgstr "Манбани мослаш"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -9811,73 +9811,6 @@ msgstr "Ишончсиз"
 msgid "without name"
 msgstr "Янги хост номи"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-#, fuzzy
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "%1%"
-
-#: kdeui/widgets/klineedit.cpp:295
-#, fuzzy
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Тугмалар бирикмасини ўчириш"
-
-#: kdeui/widgets/klineedit.cpp:1212
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Матнни тугатиш"
-
-#: kdeui/widgets/klineedit.cpp:1219
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Йўқ"
-
-#: kdeui/widgets/klineedit.cpp:1220
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Қўлбола"
-
-#: kdeui/widgets/klineedit.cpp:1221
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Автоматик"
-
-#: kdeui/widgets/klineedit.cpp:1222
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Пастга тушар рўйхат"
-
-#: kdeui/widgets/klineedit.cpp:1223
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Қисқа автоматик"
-
-#: kdeui/widgets/klineedit.cpp:1224
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Пастга тушар рўйхат"
-
-#: kdeui/widgets/klineedit.cpp:1255
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Андоза"
-
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "Расм амаллари"
@@ -10092,6 +10025,39 @@ msgstr "С&крипт"
 msgid "&Copy Full Text"
 msgstr "&Матндан нусха олиш"
 
+#: kdeui/widgets/ktimecombobox.cpp:259
+msgctxt "@info"
+msgid "The time you entered is invalid"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:262
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be earlier than %1"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:269
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be later than %1"
+msgstr ""
+
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+#, fuzzy
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "%1%"
+
 #: kdeui/widgets/ktextedit.cpp:526
 #, fuzzy
 msgid "Speak Text"
@@ -10138,6 +10104,57 @@ msgstr "Вилоят"
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgid "Comment"
 msgstr "Изоҳ"
+
+#: kdeui/widgets/klineedit.cpp:295
+#, fuzzy
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Тугмалар бирикмасини ўчириш"
+
+#: kdeui/widgets/klineedit.cpp:1212
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Матнни тугатиш"
+
+#: kdeui/widgets/klineedit.cpp:1219
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Йўқ"
+
+#: kdeui/widgets/klineedit.cpp:1220
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Қўлбола"
+
+#: kdeui/widgets/klineedit.cpp:1221
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Автоматик"
+
+#: kdeui/widgets/klineedit.cpp:1222
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Пастга тушар рўйхат"
+
+#: kdeui/widgets/klineedit.cpp:1223
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Қисқа автоматик"
+
+#: kdeui/widgets/klineedit.cpp:1224
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Пастга тушар рўйхат"
+
+#: kdeui/widgets/klineedit.cpp:1255
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Андоза"
 
 #: kdeui/widgets/ktoolbar.cpp:291
 #, fuzzy
@@ -10350,26 +10367,9 @@ msgctxt "@info"
 msgid "The entered date and time is after the maximum allowed date and time."
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:259
-msgctxt "@info"
-msgid "The time you entered is invalid"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:262
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be earlier than %1"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:269
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be later than %1"
-msgstr ""
-
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:597
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:563
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:176
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:597
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:856
 #, kde-format
 msgid "Desktop %1"
@@ -10679,7 +10679,7 @@ msgid "Print header"
 msgstr "Сарлавҳани босиб чиқариш"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3708 khtml/khtml_part.cpp:3937
-#: khtml/khtml_part.cpp:4359 kparts/browserrun.cpp:426
+#: khtml/khtml_part.cpp:4358 kparts/browserrun.cpp:426
 msgid "Save As"
 msgstr "Сақлаш"
 
@@ -10733,126 +10733,6 @@ msgstr "Синов"
 
 #: khtml/testkhtml.cpp:42
 msgid "a basic web browser using the KHTML library"
-msgstr ""
-
-#: khtml/khtml_settings.cpp:235
-msgid "Accept"
-msgstr "Қабул қилиш"
-
-#: khtml/khtml_settings.cpp:236
-msgid "Reject"
-msgstr "Рад этиш"
-
-#: khtml/khtml_settings.cpp:916
-msgid "Filter error"
-msgstr "Филтер хатоси"
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr ""
-
-#: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4759
-#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
-msgid "Submit"
-msgstr "Жўнатиш"
-
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr ""
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr ""
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr ""
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr ""
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:632
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-
-#: khtml/test_regression.cpp:634
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr ""
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-
-#: khtml/test_regression.cpp:638
-#, fuzzy
-msgid "TestRegression"
-msgstr "Доимий и&фода"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:76
-#, fuzzy
-msgid "Available Tests: 0"
-msgstr "Мавжуд манзиллар:"
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "Давом этиш"
-
-#: khtml/test_regression_gui_window.cpp:632
-#, fuzzy
-msgid "Cannot find testregression executable."
-msgstr "\"%1\" дастури топилмади."
-
-#: khtml/test_regression_gui_window.cpp:1102
-#, fuzzy
-msgid "Run test..."
-msgstr "Рўйхатнинг номини ўзгартириш"
-
-#: khtml/test_regression_gui_window.cpp:1104
-#, fuzzy
-msgid "Add to ignores..."
-msgstr "&Сатрга ўтиш..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
 msgstr ""
 
 #: khtml/khtml_part.cpp:251
@@ -11181,7 +11061,7 @@ msgstr "Фреймда қ&идириш"
 msgid "&Find..."
 msgstr "&Қидириш"
 
-#: khtml/khtml_part.cpp:4700
+#: khtml/khtml_part.cpp:4699
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -11193,16 +11073,16 @@ msgstr ""
 "Учинчи тараф маълумотни йўлда ушлаб олиб уни кўришим мумкин.\n"
 "Давом этишга ишончингиз комилми?"
 
-#: khtml/khtml_part.cpp:4703 khtml/khtml_part.cpp:4712
-#: khtml/khtml_part.cpp:4736
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4711
+#: khtml/khtml_part.cpp:4735
 msgid "Network Transmission"
 msgstr "Тармоқ алоқаси"
 
-#: khtml/khtml_part.cpp:4703 khtml/khtml_part.cpp:4713
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4712
 msgid "&Send Unencrypted"
 msgstr "&Кодламай жўнатиш"
 
-#: khtml/khtml_part.cpp:4710
+#: khtml/khtml_part.cpp:4709
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -11211,7 +11091,7 @@ msgstr ""
 "Диққат: Маълумот кодланмаган шакилда тармоқ орқали узатилмоқда.\n"
 "Давом этишга ишончингиз комилми?"
 
-#: khtml/khtml_part.cpp:4734
+#: khtml/khtml_part.cpp:4733
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -11219,11 +11099,11 @@ msgstr ""
 "Бу сайт маълумотни электрон почта орқали жўнатишга уринаяпти.\n"
 "Давом этишга ишончингиз комилми?"
 
-#: khtml/khtml_part.cpp:4737
+#: khtml/khtml_part.cpp:4736
 msgid "&Send Email"
 msgstr "Хат &жўнатиш"
 
-#: khtml/khtml_part.cpp:4758
+#: khtml/khtml_part.cpp:4757
 #, fuzzy, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -11232,7 +11112,12 @@ msgstr ""
 "<qt>Маълумот локал файл тизимидаги<BR><B>%1</B>'га<BR>жўнатилади."
 "<BR>Маълумотни жўнатишни истайсизми?"
 
-#: khtml/khtml_part.cpp:4812
+#: khtml/khtml_part.cpp:4758 khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839
+#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
+msgid "Submit"
+msgstr "Жўнатиш"
+
+#: khtml/khtml_part.cpp:4811
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -11240,56 +11125,56 @@ msgstr ""
 "Бу сайт жўнатилаётган маълумотга компьютерингиздаги файлни илова қилишга "
 "уринди. Сизнинг ҳимоянгиз учун илова олиб ташланди."
 
-#: khtml/khtml_part.cpp:5883
+#: khtml/khtml_part.cpp:5882
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/с)"
 
-#: khtml/khtml_part.cpp:6795
+#: khtml/khtml_part.cpp:6794
 msgid "Security Warning"
 msgstr "Хавфсизлик огоҳномаси"
 
-#: khtml/khtml_part.cpp:6804
+#: khtml/khtml_part.cpp:6803
 #, fuzzy, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt><BR><B>%1</B>'га<BR>ишончсиз саҳифа орқали мурожаат рад этилди."
 
-#: khtml/khtml_part.cpp:6805 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6804 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "Хавфсизлик хабарномаси"
 
-#: khtml/khtml_part.cpp:7153
+#: khtml/khtml_part.cpp:7152
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "'%1' қапчуғи шакил маълумоти ва махфий сўзлар учун ишлатилмоқда."
 
-#: khtml/khtml_part.cpp:7213
+#: khtml/khtml_part.cpp:7212
 msgid "&Close Wallet"
 msgstr "&Қопчиқни ёпиш"
 
-#: khtml/khtml_part.cpp:7216
+#: khtml/khtml_part.cpp:7215
 msgid "&Allow storing passwords for this site"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7221
+#: khtml/khtml_part.cpp:7220
 #, kde-format
 msgid "Remove password for form %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7326
+#: khtml/khtml_part.cpp:7325
 msgid "JavaScript &Debugger"
 msgstr "JavaScript &дебаггери"
 
-#: khtml/khtml_part.cpp:7358
+#: khtml/khtml_part.cpp:7357
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 "Бу веб-саҳифага JavaScript ёрдамида янги ойнани очишга рухсат берилмади."
 
-#: khtml/khtml_part.cpp:7364
+#: khtml/khtml_part.cpp:7363
 msgid "Popup Window Blocked"
 msgstr "Попап ойна тўсилган"
 
-#: khtml/khtml_part.cpp:7364
+#: khtml/khtml_part.cpp:7363
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -11300,18 +11185,133 @@ msgstr ""
 "Ҳолат панелидаги шу тугмани босиб тўсишни мослаш ёки тўсилган попап ойнани "
 "кўрсатиш мумкин."
 
-#: khtml/khtml_part.cpp:7377
+#: khtml/khtml_part.cpp:7376
 #, fuzzy, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "&Тўсилган попап ойнани кўрсатиш"
 
-#: khtml/khtml_part.cpp:7378
+#: khtml/khtml_part.cpp:7377
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Тўсилган попап ойна ҳақида &хабар бериш"
 
-#: khtml/khtml_part.cpp:7380
+#: khtml/khtml_part.cpp:7379
 msgid "&Configure JavaScript New Window Policies..."
+msgstr ""
+
+#: khtml/khtml_settings.cpp:235
+msgid "Accept"
+msgstr "Қабул қилиш"
+
+#: khtml/khtml_settings.cpp:236
+msgid "Reject"
+msgstr "Рад этиш"
+
+#: khtml/khtml_settings.cpp:916
+msgid "Filter error"
+msgstr "Филтер хатоси"
+
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr ""
+
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr ""
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr ""
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr ""
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr ""
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:632
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+
+#: khtml/test_regression.cpp:634
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr ""
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+
+#: khtml/test_regression.cpp:638
+#, fuzzy
+msgid "TestRegression"
+msgstr "Доимий и&фода"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:76
+#, fuzzy
+msgid "Available Tests: 0"
+msgstr "Мавжуд манзиллар:"
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "Давом этиш"
+
+#: khtml/test_regression_gui_window.cpp:632
+#, fuzzy
+msgid "Cannot find testregression executable."
+msgstr "\"%1\" дастури топилмади."
+
+#: khtml/test_regression_gui_window.cpp:1102
+#, fuzzy
+msgid "Run test..."
+msgstr "Рўйхатнинг номини ўзгартириш"
+
+#: khtml/test_regression_gui_window.cpp:1104
+#, fuzzy
+msgid "Add to ignores..."
+msgstr "&Сатрга ўтиш..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
 msgstr ""
 
 #: khtml/ecma/kjs_binding.cpp:185
@@ -11338,11 +11338,11 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "С&крипт"
 
-#: khtml/ecma/kjs_html.cpp:2161 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
 msgid "Confirmation: JavaScript Popup"
 msgstr "Тасдиқлаш: JavaScript Popup"
 
-#: khtml/ecma/kjs_html.cpp:2163
+#: khtml/ecma/kjs_html.cpp:2164
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11352,7 +11352,7 @@ msgstr ""
 "жўнатмоқчи.\n"
 "Шакилни жўнатишга рухсат берасизми?"
 
-#: khtml/ecma/kjs_html.cpp:2166
+#: khtml/ecma/kjs_html.cpp:2167
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11362,11 +11362,11 @@ msgstr ""
 "<qt>Бу сайт JavaScript орқали браузернинг янги ойнасида <p>%1</p> саҳифасини "
 "очадиган шакилни жўнатмоқчи.<br />Шакилни жўнатишга рухсат берасизми?</qt>"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
 msgid "Allow"
 msgstr "Рухсат бериш"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
 msgid "Do Not Allow"
 msgstr "Рухсат берилмасин"
 
@@ -11395,14 +11395,14 @@ msgstr "Ойнани ёпайми?"
 msgid "Confirmation Required"
 msgstr "Тасдиқлаш талаб қилинади"
 
-#: khtml/ecma/kjs_window.cpp:2868
+#: khtml/ecma/kjs_window.cpp:2875
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "'%1' билан боғловчи хатчўпни хатчўплар тўпламига қўшишни истайсизми?"
 
-#: khtml/ecma/kjs_window.cpp:2871
+#: khtml/ecma/kjs_window.cpp:2878
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
@@ -11411,15 +11411,15 @@ msgstr ""
 "'%1' билан боғловчи '%2' номли хатчўпни хатчўплар тўпламига қўшишни "
 "истайсизми?"
 
-#: khtml/ecma/kjs_window.cpp:2879
+#: khtml/ecma/kjs_window.cpp:2886
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript хатчўпни қўшишга уринди"
 
-#: khtml/ecma/kjs_window.cpp:2883
+#: khtml/ecma/kjs_window.cpp:2890
 msgid "Insert"
 msgstr "Қўйиш"
 
-#: khtml/ecma/kjs_window.cpp:2883
+#: khtml/ecma/kjs_window.cpp:2890
 msgid "Disallow"
 msgstr "Рухсат берилмасин"
 
@@ -13363,6 +13363,19 @@ msgstr "Мослама"
 msgid "Invalid type in Database"
 msgstr "Сертификат ҳақиқий эмас!"
 
+#: nepomuk/query/query.cpp:696
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr ""
+
+#: nepomuk/query/query.cpp:702
+msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
+msgid "Query Results"
+msgstr ""
+
 #: nepomuk/query/queryparser.cpp:461
 #, fuzzy
 #| msgid "Esfand"
@@ -13383,19 +13396,6 @@ msgctxt ""
 "keyword."
 msgid "or"
 msgstr "Мор"
-
-#: nepomuk/query/query.cpp:696
-#, kde-format
-msgctxt ""
-"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
-"user entered."
-msgid "Query Results from '%1'"
-msgstr ""
-
-#: nepomuk/query/query.cpp:702
-msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
-msgid "Query Results"
-msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
