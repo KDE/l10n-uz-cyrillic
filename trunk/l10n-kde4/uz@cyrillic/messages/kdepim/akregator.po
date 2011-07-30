@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-06 04:34+0200\n"
+"POT-Creation-Date: 2011-07-30 04:16+0200\n"
 "PO-Revision-Date: 2006-02-08 21:32+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -125,26 +125,6 @@ msgstr ""
 msgid "Didier Hoarau"
 msgstr ""
 
-#: plugins/onlinesync/onlinesyncplugin.cpp:61
-msgid "Synchronize Feeds"
-msgstr ""
-
-#: plugins/onlinesync/onlinesyncplugin.cpp:96
-#, kde-format
-msgid "Get from %1"
-msgstr ""
-
-#: plugins/onlinesync/onlinesyncplugin.cpp:105
-#, kde-format
-msgid "Send to %1"
-msgstr ""
-
-#: plugins/onlinesync/onlinesyncplugin.cpp:114
-#, fuzzy
-#| msgid "Loading..."
-msgid "Manage..."
-msgstr "Юкланмоқда..."
-
 #: plugins/onlinesync/sync/feedsync.cpp:161
 msgid ""
 "Some categories and feeds have been marked for removal. Do you want to "
@@ -199,6 +179,26 @@ msgstr "Янгиликлар тасмалари"
 msgid "Ask"
 msgstr ""
 
+#: plugins/onlinesync/onlinesyncplugin.cpp:61
+msgid "Synchronize Feeds"
+msgstr ""
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:96
+#, kde-format
+msgid "Get from %1"
+msgstr ""
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:105
+#, kde-format
+msgid "Send to %1"
+msgstr ""
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:114
+#, fuzzy
+#| msgid "Loading..."
+msgid "Manage..."
+msgstr "Юкланмоқда..."
+
 #: plugins/sharemicroblog/akregator_config_sharemicroblog.cpp:50
 msgid "kcmakrshareconfig"
 msgstr ""
@@ -239,6 +239,54 @@ msgstr ""
 
 #: plugins/sharemicroblog/sharemicroblogplugin.cpp:165
 msgid "Error during article share"
+msgstr ""
+
+#: src/feedlist.cpp:177
+msgid "All Feeds"
+msgstr "Ҳамма янгиликлар тасмалари"
+
+#: src/searchbar.cpp:77
+#, fuzzy
+#| msgid "S&earch:"
+msgctxt "Title of article searchbar"
+msgid "S&earch:"
+msgstr "Қид&ириш:"
+
+#: src/searchbar.cpp:88
+msgid "Status:"
+msgstr "Ҳолати:"
+
+#: src/searchbar.cpp:97
+msgid "All Articles"
+msgstr "Ҳамма мақолалар"
+
+#: src/searchbar.cpp:98
+#, fuzzy
+#| msgid "Unread"
+msgctxt "Unread articles filter"
+msgid "Unread"
+msgstr "Ўқилмаган"
+
+#: src/searchbar.cpp:99
+#, fuzzy
+#| msgid "New"
+msgctxt "New articles filter"
+msgid "New"
+msgstr "Янги"
+
+#: src/searchbar.cpp:100
+#, fuzzy
+#| msgid "Important"
+msgctxt "Important articles filter"
+msgid "Important"
+msgstr "Муҳим"
+
+#: src/searchbar.cpp:102
+msgid "Enter space-separated terms to filter article list"
+msgstr ""
+
+#: src/searchbar.cpp:103
+msgid "Choose what kind of articles to show in article list"
 msgstr ""
 
 #: src/mainwindow.cpp:104
@@ -359,33 +407,13 @@ msgstr ""
 msgid "Ask Me Later"
 msgstr ""
 
-#: src/actions.cpp:35 src/pageviewer.cpp:411
-msgid "Open Link in New &Tab"
-msgstr "Боғни &янги табда очиш"
+#: src/tabwidget.cpp:113
+msgid "Close the current tab"
+msgstr "Жорий табни ёпиш"
 
-#: src/actions.cpp:44 src/pageviewer.cpp:413
-msgid "Open Link in External &Browser"
-msgstr "Боғни &ташқи браузерда очиш"
-
-#. i18n: file: src/addfeedwidgetbase.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
-#: src/addfeeddialog.cpp:65 rc.cpp:419
-msgid "Add Feed"
-msgstr "Янгиликлар тасмасини қўшиш"
-
-#: src/addfeeddialog.cpp:104
-#, kde-format
-msgid "Downloading %1"
-msgstr "%1 ёзиб олинмоқда"
-
-#: src/addfeeddialog.cpp:123
-#, kde-format
-msgid "Feed not found from %1."
-msgstr "Қуйидаги жойда янгиликлар тасмаси топилмади: %1"
-
-#: src/addfeeddialog.cpp:129
-msgid "Feed found, downloading..."
-msgstr "Янгиликлар тасмаси топилди. Ёзиб олинмоқда..."
+#: src/articlejobs.cpp:188
+msgid "The feed to be listed was already removed."
+msgstr ""
 
 #: src/akregator_options.h:37 src/akregator_options.h:41
 msgid "Add a feed with the given URL"
@@ -397,6 +425,18 @@ msgstr ""
 
 #: src/akregator_options.h:40
 msgid "Hide main window on startup"
+msgstr ""
+
+#: src/progressmanager.cpp:177
+msgid "Fetch completed"
+msgstr ""
+
+#: src/progressmanager.cpp:187
+msgid "Fetch error"
+msgstr ""
+
+#: src/progressmanager.cpp:197
+msgid "Fetch aborted"
 msgstr ""
 
 #: src/articleviewer.cpp:137
@@ -453,22 +493,6 @@ msgstr "<qt>Танланган мақолани ўчиришни истайси�
 #| msgid "Disable Archiving"
 msgid "Disable Introduction Page"
 msgstr "Архивлашни ўчириш"
-
-#: src/progressmanager.cpp:177
-msgid "Fetch completed"
-msgstr ""
-
-#: src/progressmanager.cpp:187
-msgid "Fetch error"
-msgstr ""
-
-#: src/progressmanager.cpp:197
-msgid "Fetch aborted"
-msgstr ""
-
-#: src/articlejobs.cpp:188
-msgid "The feed to be listed was already removed."
-msgstr ""
 
 #: src/articlemodel.cpp:106
 #, fuzzy
@@ -552,9 +576,13 @@ msgstr "Янгиликлар тасмасини олиб ташлаш"
 msgid "No Archive"
 msgstr "Архивлаш"
 
-#: src/feedlist.cpp:177
-msgid "All Feeds"
-msgstr "Ҳамма янгиликлар тасмалари"
+#: src/actions.cpp:35 src/pageviewer.cpp:411
+msgid "Open Link in New &Tab"
+msgstr "Боғни &янги табда очиш"
+
+#: src/actions.cpp:44 src/pageviewer.cpp:413
+msgid "Open Link in External &Browser"
+msgstr "Боғни &ташқи браузерда очиш"
 
 #: src/feedpropertiesdialog.cpp:71 src/feedpropertiesdialog.cpp:96
 #, fuzzy
@@ -879,49 +907,25 @@ msgstr ""
 msgid "Complete Story"
 msgstr "Бутун мақола"
 
-#: src/searchbar.cpp:77
-#, fuzzy
-#| msgid "S&earch:"
-msgctxt "Title of article searchbar"
-msgid "S&earch:"
-msgstr "Қид&ириш:"
+#. i18n: file: src/addfeedwidgetbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
+#: src/addfeeddialog.cpp:65 rc.cpp:419
+msgid "Add Feed"
+msgstr "Янгиликлар тасмасини қўшиш"
 
-#: src/searchbar.cpp:88
-msgid "Status:"
-msgstr "Ҳолати:"
+#: src/addfeeddialog.cpp:104
+#, kde-format
+msgid "Downloading %1"
+msgstr "%1 ёзиб олинмоқда"
 
-#: src/searchbar.cpp:97
-msgid "All Articles"
-msgstr "Ҳамма мақолалар"
+#: src/addfeeddialog.cpp:123
+#, kde-format
+msgid "Feed not found from %1."
+msgstr "Қуйидаги жойда янгиликлар тасмаси топилмади: %1"
 
-#: src/searchbar.cpp:98
-#, fuzzy
-#| msgid "Unread"
-msgctxt "Unread articles filter"
-msgid "Unread"
-msgstr "Ўқилмаган"
-
-#: src/searchbar.cpp:99
-#, fuzzy
-#| msgid "New"
-msgctxt "New articles filter"
-msgid "New"
-msgstr "Янги"
-
-#: src/searchbar.cpp:100
-#, fuzzy
-#| msgid "Important"
-msgctxt "Important articles filter"
-msgid "Important"
-msgstr "Муҳим"
-
-#: src/searchbar.cpp:102
-msgid "Enter space-separated terms to filter article list"
-msgstr ""
-
-#: src/searchbar.cpp:103
-msgid "Choose what kind of articles to show in article list"
-msgstr ""
+#: src/addfeeddialog.cpp:129
+msgid "Feed found, downloading..."
+msgstr "Янгиликлар тасмаси топилди. Ёзиб олинмоқда..."
 
 #: src/subscriptionlistjobs.cpp:64
 msgid "Feed list was deleted"
@@ -992,10 +996,6 @@ msgstr "&Мақола"
 #| msgid "Comments"
 msgid "Columns"
 msgstr "Изоҳлар"
-
-#: src/tabwidget.cpp:113
-msgid "Close the current tab"
-msgstr "Жорий табни ёпиш"
 
 #: src/articlelistview.cpp:383
 msgid ""

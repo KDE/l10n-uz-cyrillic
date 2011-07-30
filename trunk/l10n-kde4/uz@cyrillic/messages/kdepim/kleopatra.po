@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-16 04:16+0200\n"
+"POT-Creation-Date: 2011-07-30 04:16+0200\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1168,26 +1168,6 @@ msgstr ""
 msgid "(Current system setting: %1)"
 msgstr ""
 
-#: crlview.cpp:61
-msgid "CRL cache dump:"
-msgstr ""
-
-#: crlview.cpp:71
-msgid "&Update"
-msgstr ""
-
-#: crlview.cpp:117
-msgid "Unable to start gpgsm process. Please check your installation."
-msgstr ""
-
-#: crlview.cpp:117 crlview.cpp:145
-msgid "Certificate Manager Error"
-msgstr ""
-
-#: crlview.cpp:145
-msgid "The GpgSM process ended prematurely because of an unexpected error."
-msgstr ""
-
 #: crypto/decryptverifyemailcontroller.cpp:84
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
@@ -1232,31 +1212,6 @@ msgstr ""
 msgid "No backend support for %1"
 msgstr ""
 
-#: crypto/decryptverifyfilescontroller.cpp:141
-msgid "Cannot determine whether input data is OpenPGP or CMS"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:197
-#, kde-format
-msgid ""
-"Caught unexpected exception in DecryptVerifyFilesController::Private::"
-"slotWizardOperationPrepared: %1"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:201
-msgid ""
-"Caught unknown exception in DecryptVerifyFilesController::Private::"
-"slotWizardOperationPrepared"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:252
-msgid "Decrypt/Verify Files"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:380
-msgid "No usable inputs found"
-msgstr ""
-
 #: crypto/encryptemailtask.cpp:85 crypto/signencryptfilestask.cpp:186
 msgid "Encryption canceled."
 msgstr ""
@@ -1268,28 +1223,6 @@ msgstr ""
 
 #: crypto/encryptemailtask.cpp:90 crypto/signencryptfilestask.cpp:191
 msgid "Encryption succeeded."
-msgstr ""
-
-#: crypto/gui/decryptverifyfileswizard.cpp:207
-msgid "<b>Choose operations to be performed</b>"
-msgstr ""
-
-#: crypto/gui/decryptverifyfileswizard.cpp:208
-msgid ""
-"Here you can check and, if needed, override the operations Kleopatra "
-"detected for the input given."
-msgstr ""
-
-#: crypto/gui/decryptverifyfileswizard.cpp:211
-msgid "&Decrypt/Verify"
-msgstr ""
-
-#: crypto/gui/decryptverifyfileswizard.cpp:217
-msgid "Create all output files in a single folder"
-msgstr ""
-
-#: crypto/gui/decryptverifyfileswizard.cpp:218
-msgid "&Output folder:"
 msgstr ""
 
 #: crypto/gui/decryptverifyoperationwidget.cpp:95
@@ -1343,18 +1276,6 @@ msgstr ""
 msgid "<b>Results</b>"
 msgstr ""
 
-#: crypto/gui/objectspage.cpp:77
-msgid "<b>Objects</b>"
-msgstr ""
-
-#: crypto/gui/objectspage.cpp:87 crypto/gui/resolverecipientspage.cpp:435
-msgid "Remove Selected"
-msgstr ""
-
-#: crypto/gui/objectspage.cpp:99
-msgid "Select File"
-msgstr ""
-
 #: crypto/gui/resultitemwidget.cpp:104
 #, fuzzy
 #| msgid "Certificate Details..."
@@ -1383,119 +1304,6 @@ msgstr ""
 
 #: crypto/gui/signemailwizard.cpp:118
 msgid "Sign Mail Message"
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:84
-msgid ""
-"You need to select an OpenPGP signing certificate to perform this operation."
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:87
-msgid "You need to select at least one signing certificate to proceed."
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:90
-msgid ""
-"Only OpenPGP certificates will be offered for selection because you "
-"specified a combined sign/encrypt operation that is only available for "
-"OpenPGP."
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:93
-msgid ""
-"Only OpenPGP certificates will be offered for selection because you only "
-"specified an OpenPGP signing certificate."
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:96
-msgid ""
-"Only S/MIME certificates will be offered for selection because you only "
-"specified an S/MIME signing certificate."
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:102
-msgid ""
-"You have selected both OpenPGP and S/MIME signing certificate types, thus "
-"two signatures will be created."
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:106
-msgid ""
-"If you select both OpenPGP and S/MIME receipient certificates, two encrypted "
-"files will be created: one for OpenPGP recipients, one for S/MIME recipients."
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:131
-#: crypto/signencryptfilescontroller.cpp:159
-msgid "Sign/Encrypt Files"
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:132
-#: crypto/signencryptfilescontroller.cpp:146
-msgid "Sign Files"
-msgstr ""
-
-#: crypto/gui/signencryptfileswizard.cpp:133
-#: crypto/signencryptfilescontroller.cpp:153
-msgid "Encrypt Files"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:87
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "No certificate selected"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/gui/signerresolvepage.cpp:86
-#, kde-format
-msgctxt "%1=protocol (S/Mime, OpenPGP), %2=certificate"
-msgid "Sign using %1: %2"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:284
-msgid "Sign and encrypt (OpenPGP only)"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:290
-msgid "Encrypt only"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:295
-msgid "Sign only"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:300
-msgid "Encryption Options"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:303
-#: crypto/gui/newsignencryptfileswizard.cpp:356
-msgid "Text output (ASCII armor)"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:306
-#: crypto/gui/newsignencryptfileswizard.cpp:357
-msgid "Remove unencrypted original file when done"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:312
-#, fuzzy
-#| msgid "Canceled."
-msgid "Signing Options"
-msgstr "Бекор қилинди."
-
-#: crypto/gui/signerresolvepage.cpp:317
-msgid "Signer:"
-msgstr ""
-
-#: crypto/gui/signerresolvepage.cpp:332
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Change Signing Certificates..."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/gui/signerresolvepage.cpp:491
-msgid "<b>Choose Operation to be Performed</b>"
 msgstr ""
 
 #: crypto/gui/signingcertificateselectiondialog.cpp:49
@@ -1532,14 +1340,6 @@ msgstr ""
 #: crypto/gui/verifychecksumsdialog.cpp:260
 msgctxt "Show Errors"
 msgid "Show"
-msgstr ""
-
-#: crypto/gui/wizard.cpp:103
-msgid "&Next"
-msgstr ""
-
-#: crypto/gui/wizard.cpp:141
-msgid "Back"
 msgstr ""
 
 #: crypto/gui/newsignencryptfileswizard.cpp:134
@@ -1596,6 +1396,16 @@ msgstr ""
 #: crypto/gui/newsignencryptfileswizard.cpp:355
 #: newcertificatewizard/newcertificatewizard.cpp:1234
 msgid "Sign"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:356
+#: crypto/gui/signerresolvepage.cpp:303
+msgid "Text output (ASCII armor)"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:357
+#: crypto/gui/signerresolvepage.cpp:306
+msgid "Remove unencrypted original file when done"
 msgstr ""
 
 #: crypto/gui/newsignencryptfileswizard.cpp:365
@@ -1725,58 +1535,6 @@ msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
-#: crypto/gui/resolverecipientspage.cpp:203
-msgid "<i>No certificate selected</i>"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:210
-#: crypto/gui/signencryptemailconflictdialog.cpp:238
-msgid "..."
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:416
-msgid "<b>Recipients</b>"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:431
-msgid "Add Recipient..."
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:446
-#: crypto/gui/signencryptemailconflictdialog.cpp:580 utils/formatting.cpp:408
-msgid "OpenPGP"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:450
-#: crypto/gui/signencryptemailconflictdialog.cpp:581
-msgid "S/MIME"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:465
-msgid ""
-"<b>Warning:</b> None of the selected certificates seem to be your own. You "
-"will not be able to decrypt the encrypted data again."
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:582
-msgid "Recipient"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:584
-#, kde-format
-msgctxt "%1 == number"
-msgid "Recipient (%1)"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:617
-#, kde-format
-msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:627
-msgid "Sender"
-msgstr ""
-
 #: crypto/gui/signencryptemailconflictdialog.cpp:163
 #, fuzzy
 #| msgid "Import Certificates..."
@@ -1791,6 +1549,11 @@ msgstr "Сертификатларни импорт қилиш..."
 
 #: crypto/gui/signencryptemailconflictdialog.cpp:222
 msgid "(please choose between OpenPGP and S/MIME first)"
+msgstr ""
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:238
+#: crypto/gui/resolverecipientspage.cpp:210
+msgid "..."
 msgstr ""
 
 #: crypto/gui/signencryptemailconflictdialog.cpp:366
@@ -1842,6 +1605,16 @@ msgstr ""
 msgid "Show all recipients"
 msgstr "Сертификат тафсилотлари..."
 
+#: crypto/gui/signencryptemailconflictdialog.cpp:580
+#: crypto/gui/resolverecipientspage.cpp:446 utils/formatting.cpp:408
+msgid "OpenPGP"
+msgstr ""
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:581
+#: crypto/gui/resolverecipientspage.cpp:450
+msgid "S/MIME"
+msgstr ""
+
 #: crypto/gui/signencryptemailconflictdialog.cpp:582
 #, fuzzy
 #| msgid "Import Certificates..."
@@ -1877,6 +1650,188 @@ msgstr ""
 #| msgid "Import Certificates..."
 msgid "Select Certificates For Message \"%1\""
 msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/gui/decryptverifyfileswizard.cpp:207
+msgid "<b>Choose operations to be performed</b>"
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:208
+msgid ""
+"Here you can check and, if needed, override the operations Kleopatra "
+"detected for the input given."
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:211
+msgid "&Decrypt/Verify"
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:217
+msgid "Create all output files in a single folder"
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:218
+msgid "&Output folder:"
+msgstr ""
+
+#: crypto/gui/objectspage.cpp:77
+msgid "<b>Objects</b>"
+msgstr ""
+
+#: crypto/gui/objectspage.cpp:87 crypto/gui/resolverecipientspage.cpp:435
+msgid "Remove Selected"
+msgstr ""
+
+#: crypto/gui/objectspage.cpp:99
+msgid "Select File"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:203
+msgid "<i>No certificate selected</i>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:416
+msgid "<b>Recipients</b>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:431
+msgid "Add Recipient..."
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:465
+msgid ""
+"<b>Warning:</b> None of the selected certificates seem to be your own. You "
+"will not be able to decrypt the encrypted data again."
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:582
+msgid "Recipient"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:584
+#, kde-format
+msgctxt "%1 == number"
+msgid "Recipient (%1)"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:617
+#, kde-format
+msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:627
+msgid "Sender"
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:84
+msgid ""
+"You need to select an OpenPGP signing certificate to perform this operation."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:87
+msgid "You need to select at least one signing certificate to proceed."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:90
+msgid ""
+"Only OpenPGP certificates will be offered for selection because you "
+"specified a combined sign/encrypt operation that is only available for "
+"OpenPGP."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:93
+msgid ""
+"Only OpenPGP certificates will be offered for selection because you only "
+"specified an OpenPGP signing certificate."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:96
+msgid ""
+"Only S/MIME certificates will be offered for selection because you only "
+"specified an S/MIME signing certificate."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:102
+msgid ""
+"You have selected both OpenPGP and S/MIME signing certificate types, thus "
+"two signatures will be created."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:106
+msgid ""
+"If you select both OpenPGP and S/MIME receipient certificates, two encrypted "
+"files will be created: one for OpenPGP recipients, one for S/MIME recipients."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:131
+#: crypto/signencryptfilescontroller.cpp:159
+msgid "Sign/Encrypt Files"
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:132
+#: crypto/signencryptfilescontroller.cpp:146
+msgid "Sign Files"
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:133
+#: crypto/signencryptfilescontroller.cpp:153
+msgid "Encrypt Files"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:87
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "No certificate selected"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/gui/signerresolvepage.cpp:86
+#, kde-format
+msgctxt "%1=protocol (S/Mime, OpenPGP), %2=certificate"
+msgid "Sign using %1: %2"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:284
+msgid "Sign and encrypt (OpenPGP only)"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:290
+msgid "Encrypt only"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:295
+msgid "Sign only"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:300
+msgid "Encryption Options"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:312
+#, fuzzy
+#| msgid "Canceled."
+msgid "Signing Options"
+msgstr "Бекор қилинди."
+
+#: crypto/gui/signerresolvepage.cpp:317
+msgid "Signer:"
+msgstr ""
+
+#: crypto/gui/signerresolvepage.cpp:332
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Change Signing Certificates..."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/gui/signerresolvepage.cpp:491
+msgid "<b>Choose Operation to be Performed</b>"
+msgstr ""
+
+#: crypto/gui/wizard.cpp:103
+msgid "&Next"
+msgstr ""
+
+#: crypto/gui/wizard.cpp:141
+msgid "Back"
+msgstr ""
 
 #: crypto/signencryptfilestask.cpp:74 crypto/decryptverifytask.cpp:290
 #, kde-format
@@ -2406,6 +2361,31 @@ msgstr ""
 msgid "Verifying checksums (%2) in %1"
 msgstr ""
 
+#: crypto/decryptverifyfilescontroller.cpp:141
+msgid "Cannot determine whether input data is OpenPGP or CMS"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:197
+#, kde-format
+msgid ""
+"Caught unexpected exception in DecryptVerifyFilesController::Private::"
+"slotWizardOperationPrepared: %1"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:201
+msgid ""
+"Caught unknown exception in DecryptVerifyFilesController::Private::"
+"slotWizardOperationPrepared"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:252
+msgid "Decrypt/Verify Files"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:380
+msgid "No usable inputs found"
+msgstr ""
+
 #: dialogs/adduseriddialog.cpp:69 models/keylistmodel.cpp:250
 #: models/useridlistmodel.cpp:249
 #: newcertificatewizard/newcertificatewizard.cpp:918
@@ -2558,18 +2538,6 @@ msgstr[0] ""
 #| msgid "Export Certificates..."
 msgid "Secret Key Deletion"
 msgstr "Сертификатларни экспорт қилиш..."
-
-#: dialogs/exportcertificatesdialog.cpp:67
-msgid "Export"
-msgstr ""
-
-#: dialogs/exportcertificatesdialog.cpp:71
-msgid " OpenPGP export file:"
-msgstr ""
-
-#: dialogs/exportcertificatesdialog.cpp:77
-msgid "S/MIME export file:"
-msgstr ""
 
 #: dialogs/exportsecretkeydialog.cpp:103
 #, fuzzy
@@ -2868,6 +2836,18 @@ msgctxt "@title"
 msgid "Subkeys"
 msgstr ""
 
+#: dialogs/exportcertificatesdialog.cpp:67
+msgid "Export"
+msgstr ""
+
+#: dialogs/exportcertificatesdialog.cpp:71
+msgid " OpenPGP export file:"
+msgstr ""
+
+#: dialogs/exportcertificatesdialog.cpp:77
+msgid "S/MIME export file:"
+msgstr ""
+
 #: kgpgconf/configreader.cpp:234
 msgid "Parse error on gpgconf --list-config output:"
 msgstr ""
@@ -3131,6 +3111,10 @@ msgstr ""
 msgid "Enable &word wrapping"
 msgstr ""
 
+#: kwatchgnupg/tray.cpp:57
+msgid "KWatchGnuPG Log Viewer"
+msgstr ""
+
 #: kwatchgnupg/kwatchgnupgmainwin.cpp:103
 #, kde-format
 msgid "[%1] Log cleared"
@@ -3206,10 +3190,6 @@ msgstr "Файлни алмаштиришни истайсизми?"
 msgid "Could not save file %1: %2"
 msgstr ""
 
-#: kwatchgnupg/tray.cpp:57
-msgid "KWatchGnuPG Log Viewer"
-msgstr ""
-
 #: main.cpp:146
 msgid "Performing Self-Check..."
 msgstr ""
@@ -3262,62 +3242,6 @@ msgid ""
 "manager, but cryptographic plugins that rely on a GPG UI Server being "
 "present might not work correctly, or at all.</qt>"
 msgstr ""
-
-#: mainwindow_mobile.cpp:151 mainwindow_desktop.cpp:121
-#, kde-format
-msgctxt "Quit [ApplicationName]"
-msgid "&Quit %1"
-msgstr ""
-
-#: mainwindow_mobile.cpp:157 mainwindow_desktop.cpp:127
-msgid "Only &Close Window"
-msgstr ""
-
-#: mainwindow_mobile.cpp:203 mainwindow_desktop.cpp:188
-msgid ""
-"Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
-"installation."
-msgstr ""
-
-#: mainwindow_mobile.cpp:205 mainwindow_desktop.cpp:190
-msgid "Error Starting KWatchGnuPG"
-msgstr ""
-
-#: mainwindow_mobile.cpp:210 mainwindow_desktop.cpp:195
-msgid ""
-"Could not start the GnuPG Administrative Console (kgpgconf). Please check "
-"your installation."
-msgstr ""
-
-#: mainwindow_mobile.cpp:212 mainwindow_desktop.cpp:197
-msgid "Error Starting KGpgConf"
-msgstr ""
-
-#: mainwindow_mobile.cpp:278 mainwindow_desktop.cpp:319
-msgid "Perform Self-Test"
-msgstr ""
-
-#: mainwindow_mobile.cpp:345 mainwindow_desktop.cpp:383
-msgid ""
-"There are still some background operations ongoing. These will be terminated "
-"when closing the window. Proceed?"
-msgstr ""
-
-#: mainwindow_mobile.cpp:348 mainwindow_desktop.cpp:386
-msgid "Ongoing Background Tasks"
-msgstr ""
-
-#: models/keycache.cpp:956
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Listing X.509 certificates"
-msgstr "Сертификат тафсилотлари..."
-
-#: models/keycache.cpp:957
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Listing OpenPGP certificates"
-msgstr "Сертификатларни импорт қилиш..."
 
 #: models/keylistmodel.cpp:252
 #, fuzzy
@@ -3384,6 +3308,18 @@ msgstr ""
 #: models/useridlistmodel.cpp:311
 msgid "good"
 msgstr ""
+
+#: models/keycache.cpp:956
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Listing X.509 certificates"
+msgstr "Сертификат тафсилотлари..."
+
+#: models/keycache.cpp:957
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Listing OpenPGP certificates"
+msgstr "Сертификатларни импорт қилиш..."
 
 #: newcertificatewizard/newcertificatewizard.cpp:260
 msgid "new email"
@@ -4074,9 +4010,9 @@ msgid "Learn NetKey v3 Card Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
 #: uiserver/createchecksumscommand.cpp:78
-#: uiserver/decryptverifycommandfilesbase.cpp:165
 #: uiserver/signencryptfilescommand.cpp:83
 #: uiserver/verifychecksumscommand.cpp:80
+#: uiserver/decryptverifycommandfilesbase.cpp:165
 msgid "At least one FILE must be present"
 msgstr ""
 
@@ -4123,30 +4059,6 @@ msgstr ""
 
 #: uiserver/decryptverifycommandemailbase.cpp:199
 msgid "No backend support for S/MIME"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:146
-msgid "Can not use SENDER"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:150
-msgid "Can not use RECIPIENT"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:157
-msgid "INPUT present"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:159
-msgid "MESSAGE present"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:161
-msgid "OUTPUT present"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:168
-msgid "DECRYPT/VERIFY_FILES cannot use directories as input"
 msgstr ""
 
 #: uiserver/echocommand.cpp:160 uiserver/signcommand.cpp:217
@@ -4235,38 +4147,6 @@ msgid ""
 "slotRecipientsResolved"
 msgstr ""
 
-#: uiserver/prepsigncommand.cpp:84
-msgid "INPUT/OUTPUT/MESSAGE may only be given after PREP_SIGN"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:88
-msgid ""
-"PREP_SIGN is an email mode command, connection seems to be in filemanager "
-"mode"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:92
-msgid "No SENDER given"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:101 uiserver/signcommand.cpp:114
-msgid ""
-"Protocol given conflicts with protocol determined by PREP_ENCRYPT in this "
-"session"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:169
-#, kde-format
-msgid ""
-"Caught unexpected exception in PrepSignCommand::Private::"
-"slotRecipientsResolved: %1"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:173
-msgid ""
-"Caught unknown exception in PrepSignCommand::Private::slotRecipientsResolved"
-msgstr ""
-
 #: uiserver/selectcertificatecommand.cpp:177
 #, kde-format
 msgid ""
@@ -4278,35 +4158,6 @@ msgstr ""
 msgid ""
 "Caught unknown exception in SelectCertificateCommand::Private::"
 "slotDialogAccepted"
-msgstr ""
-
-#: uiserver/signcommand.cpp:90
-msgid ""
-"SIGN is an email mode command, connection seems to be in filemanager mode"
-msgstr ""
-
-#: uiserver/signcommand.cpp:94
-msgid "RECIPIENT may not be given prior to SIGN, except with --info"
-msgstr ""
-
-#: uiserver/signcommand.cpp:106
-msgid "MESSAGE command is not allowed before SIGN"
-msgstr ""
-
-#: uiserver/signcommand.cpp:127
-msgid "No senders given, or only with --info"
-msgstr ""
-
-#: uiserver/signcommand.cpp:195
-#, kde-format
-msgid ""
-"Caught unexpected exception in SignCommand::Private::slotRecipientsResolved: "
-"%1"
-msgstr ""
-
-#: uiserver/signcommand.cpp:199
-msgid ""
-"Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
 msgstr ""
 
 #: uiserver/signencryptfilescommand.cpp:88
@@ -4473,6 +4324,91 @@ msgstr ""
 #: uiserver/uiserver.cpp:260
 #, kde-format
 msgid "Detected another running gnupg UI server listening at %1."
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:146
+msgid "Can not use SENDER"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:150
+msgid "Can not use RECIPIENT"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:157
+msgid "INPUT present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:159
+msgid "MESSAGE present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:161
+msgid "OUTPUT present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:168
+msgid "DECRYPT/VERIFY_FILES cannot use directories as input"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:84
+msgid "INPUT/OUTPUT/MESSAGE may only be given after PREP_SIGN"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:88
+msgid ""
+"PREP_SIGN is an email mode command, connection seems to be in filemanager "
+"mode"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:92
+msgid "No SENDER given"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:101 uiserver/signcommand.cpp:114
+msgid ""
+"Protocol given conflicts with protocol determined by PREP_ENCRYPT in this "
+"session"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:169
+#, kde-format
+msgid ""
+"Caught unexpected exception in PrepSignCommand::Private::"
+"slotRecipientsResolved: %1"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:173
+msgid ""
+"Caught unknown exception in PrepSignCommand::Private::slotRecipientsResolved"
+msgstr ""
+
+#: uiserver/signcommand.cpp:90
+msgid ""
+"SIGN is an email mode command, connection seems to be in filemanager mode"
+msgstr ""
+
+#: uiserver/signcommand.cpp:94
+msgid "RECIPIENT may not be given prior to SIGN, except with --info"
+msgstr ""
+
+#: uiserver/signcommand.cpp:106
+msgid "MESSAGE command is not allowed before SIGN"
+msgstr ""
+
+#: uiserver/signcommand.cpp:127
+msgid "No senders given, or only with --info"
+msgstr ""
+
+#: uiserver/signcommand.cpp:195
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignCommand::Private::slotRecipientsResolved: "
+"%1"
+msgstr ""
+
+#: uiserver/signcommand.cpp:199
+msgid ""
+"Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
 msgstr ""
 
 #: utils/archivedefinition.cpp:107
@@ -5415,6 +5351,16 @@ msgstr ""
 msgid "File(s) to process"
 msgstr ""
 
+#: mainwindow_desktop.cpp:121 mainwindow_mobile.cpp:151
+#, kde-format
+msgctxt "Quit [ApplicationName]"
+msgid "&Quit %1"
+msgstr ""
+
+#: mainwindow_desktop.cpp:127 mainwindow_mobile.cpp:157
+msgid "Only &Close Window"
+msgstr ""
+
 #: mainwindow_desktop.cpp:159
 #, kde-format
 msgid ""
@@ -5424,6 +5370,26 @@ msgstr ""
 
 #: mainwindow_desktop.cpp:161
 msgid "Really Quit?"
+msgstr ""
+
+#: mainwindow_desktop.cpp:188 mainwindow_mobile.cpp:203
+msgid ""
+"Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
+"installation."
+msgstr ""
+
+#: mainwindow_desktop.cpp:190 mainwindow_mobile.cpp:205
+msgid "Error Starting KWatchGnuPG"
+msgstr ""
+
+#: mainwindow_desktop.cpp:195 mainwindow_mobile.cpp:210
+msgid ""
+"Could not start the GnuPG Administrative Console (kgpgconf). Please check "
+"your installation."
+msgstr ""
+
+#: mainwindow_desktop.cpp:197 mainwindow_mobile.cpp:212
+msgid "Error Starting KGpgConf"
 msgstr ""
 
 #: mainwindow_desktop.cpp:306
@@ -5438,6 +5404,10 @@ msgstr ""
 msgid "Configure GnuPG Backend..."
 msgstr ""
 
+#: mainwindow_desktop.cpp:319 mainwindow_mobile.cpp:278
+msgid "Perform Self-Test"
+msgstr ""
+
 #: mainwindow_desktop.cpp:323
 msgid "About Gpg4win"
 msgstr ""
@@ -5448,6 +5418,16 @@ msgstr ""
 
 #: mainwindow_desktop.cpp:351
 msgid "Configuration Error"
+msgstr ""
+
+#: mainwindow_desktop.cpp:383 mainwindow_mobile.cpp:345
+msgid ""
+"There are still some background operations ongoing. These will be terminated "
+"when closing the window. Proceed?"
+msgstr ""
+
+#: mainwindow_desktop.cpp:386 mainwindow_mobile.cpp:348
+msgid "Ongoing Background Tasks"
 msgstr ""
 
 #: mainwindow_desktop.cpp:467
@@ -5462,6 +5442,26 @@ msgstr "Сертификатларни импорт қилиш..."
 
 #: mainwindow_desktop.cpp:473
 msgid "Import CRLs"
+msgstr ""
+
+#: crlview.cpp:61
+msgid "CRL cache dump:"
+msgstr ""
+
+#: crlview.cpp:71
+msgid "&Update"
+msgstr ""
+
+#: crlview.cpp:117
+msgid "Unable to start gpgsm process. Please check your installation."
+msgstr ""
+
+#: crlview.cpp:117 crlview.cpp:145
+msgid "Certificate Manager Error"
+msgstr ""
+
+#: crlview.cpp:145
+msgid "The GpgSM process ended prematurely because of an unexpected error."
 msgstr ""
 
 #: rc.cpp:1
