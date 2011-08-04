@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 03:59+0200\n"
+"POT-Creation-Date: 2011-08-04 02:21+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1383,7 +1383,7 @@ msgid "Label"
 msgstr "Қизил"
 
 #: koreport/items/text/KoReportTextPlugin.cpp:34 kotext/KoTextEditor.cpp:169
-#: kotext/KoTextEditor.cpp:322 widgets/KoCsvImportDialog.cpp:217
+#: kotext/KoTextEditor.cpp:336 widgets/KoCsvImportDialog.cpp:217
 #: widgets/KoCsvImportDialog.cpp:581
 #, fuzzy
 msgid "Text"
@@ -1552,8 +1552,8 @@ msgstr "Объект"
 
 #. i18n: file: koreport/wrtembed/sectioneditor.ui:200
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: koreport/wrtembed/KoReportDesigner.cpp:838 kotext/KoTextEditor.cpp:885
-#: kotext/KoTextEditor.cpp:899 rc.cpp:170
+#: koreport/wrtembed/KoReportDesigner.cpp:838 kotext/KoTextEditor.cpp:899
+#: kotext/KoTextEditor.cpp:913 rc.cpp:170
 #, fuzzy
 msgid "Delete"
 msgstr "Матнни ўчириш"
@@ -1586,10 +1586,6 @@ msgstr ""
 msgid "Unable to add a new group because its name would not be unique"
 msgstr ""
 
-#: kotext/InsertTextLocator.cpp:29
-msgid "Index Reference"
-msgstr ""
-
 #: kotext/InsertTextReferenceAction.cpp:35
 #: kotext/InsertTextReferenceAction.cpp:63
 msgid "Text Reference"
@@ -1613,6 +1609,10 @@ msgstr[0] ""
 msgid "Found no match"
 msgstr ""
 
+#: kotext/InsertTextLocator.cpp:33
+msgid "Index Reference"
+msgstr ""
+
 #: kotext/KoReplaceStrategy.cpp:56
 msgid ""
 "Found no match\n"
@@ -1632,6 +1632,185 @@ msgstr[0] "Матнни алмаштириш"
 #| msgid "Re&place 1/2... with %1..."
 msgid "Replace %1 with %2?"
 msgstr "&1/2...ни %1 белгига алмаштириш"
+
+#: kotext/KoTextEditor.cpp:113
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Text"
+msgstr "Матнни қўшиш"
+
+#: kotext/KoTextEditor.cpp:473 kotext/KoTextEditor.cpp:479
+msgid "Bold"
+msgstr "Қалин"
+
+#: kotext/KoTextEditor.cpp:485 kotext/KoTextEditor.cpp:491
+#, fuzzy
+#| msgid "Italic:"
+msgid "Italic"
+msgstr "Қия:"
+
+#: kotext/KoTextEditor.cpp:497 kotext/KoTextEditor.cpp:509
+msgid "Underline"
+msgstr "Тагини чизиш"
+
+#: kotext/KoTextEditor.cpp:515 kotext/KoTextEditor.cpp:526
+#, fuzzy
+#| msgid "Strikeout:"
+msgid "Strike Out"
+msgstr "Устидан чизиш:"
+
+#: kotext/KoTextEditor.cpp:543 kotext/KoTextEditor.cpp:544
+#, fuzzy
+#| msgid "Vertical alignment:"
+msgid "Set Horizontal Alignment"
+msgstr "Бўйига текислаш:"
+
+#: kotext/KoTextEditor.cpp:556 kotext/KoTextEditor.cpp:561
+#, fuzzy
+#| msgid "Vertical alignment:"
+msgid "Set Vertical Alignment"
+msgstr "Бўйига текислаш:"
+
+#: kotext/KoTextEditor.cpp:578 kotext/KoTextEditor.cpp:579
+#, fuzzy
+msgid "Decrease Indent"
+msgstr "Текислашни ўзгартириш"
+
+#: kotext/KoTextEditor.cpp:596 kotext/KoTextEditor.cpp:597
+#, fuzzy
+msgid "Increase Indent"
+msgstr "Текислашни ўзгартириш"
+
+#: kotext/KoTextEditor.cpp:627 kotext/KoTextEditor.cpp:629
+#, fuzzy
+#| msgid "Change font size?"
+msgid "Decrease font size"
+msgstr "Шрифтнинг ўлчами ўзгартириш"
+
+#: kotext/KoTextEditor.cpp:635 kotext/KoTextEditor.cpp:637
+#, fuzzy
+#| msgid "Change font size?"
+msgid "Increase font size"
+msgstr "Шрифтнинг ўлчами ўзгартириш"
+
+#: kotext/KoTextEditor.cpp:643 kotext/KoTextEditor.cpp:648
+#, fuzzy
+#| msgid "Select Font"
+msgid "Set Font"
+msgstr "Шрифтни танлаш"
+
+#: kotext/KoTextEditor.cpp:654 kotext/KoTextEditor.cpp:659
+#, fuzzy
+#| msgid "Select Font"
+msgid "Set Font Size"
+msgstr "Шрифтни танлаш"
+
+#: kotext/KoTextEditor.cpp:665 kotext/KoTextEditor.cpp:670
+#, fuzzy
+msgid "Set Background Color"
+msgstr "Сония"
+
+#: kotext/KoTextEditor.cpp:676 kotext/KoTextEditor.cpp:681
+#, fuzzy
+#| msgid "Text Color"
+msgid "Set Text Color"
+msgstr "Матннинг ранги"
+
+#: kotext/KoTextEditor.cpp:688 kotext/KoTextEditor.cpp:693
+#, fuzzy
+msgid "Set Character Style"
+msgstr "Янги услубни яратиш"
+
+#: kotext/KoTextEditor.cpp:699
+#, fuzzy
+msgid "Set Paragraph Style"
+msgstr "Оддий параграф матни"
+
+#: kotext/KoTextEditor.cpp:719 kotext/KoTextEditor.cpp:726
+#, fuzzy
+#| msgid "Locale date format"
+msgid "Set default format"
+msgstr "Сананинг локал кўриниши"
+
+#: kotext/KoTextEditor.cpp:733
+#, fuzzy
+msgid "Insert Bookmark"
+msgstr "Боғни қўйиш"
+
+#: kotext/KoTextEditor.cpp:778
+#, fuzzy
+#| msgid "Insert Text"
+msgid "Insert Index"
+msgstr "Матнни қўйиш"
+
+#: kotext/KoTextEditor.cpp:787
+#, fuzzy
+msgid "Insert Variable"
+msgstr "Матнни қўйиш"
+
+#: kotext/KoTextEditor.cpp:801 kotext/KoTextEditor.cpp:1164
+#: kotext/KoTextEditor.cpp:1182 kotext/KoTextEditor.cpp:1262
+msgid "Key Press"
+msgstr ""
+
+#: kotext/KoTextEditor.cpp:810
+#, fuzzy
+msgid "Insert Break"
+msgstr "Боғни қўйиш"
+
+#: kotext/KoTextEditor.cpp:963 kotext/KoTextEditor.cpp:973
+#, fuzzy
+msgid "Insert Table"
+msgstr "Матнни қўйиш"
+
+#: kotext/KoTextEditor.cpp:1019 kotext/KoTextEditor.cpp:1033
+#, fuzzy
+#| msgid "Insert Row"
+msgid "Insert Row Above"
+msgstr "Сатрни қўйиш"
+
+#: kotext/KoTextEditor.cpp:1047
+#, fuzzy
+#| msgid "Insert Column"
+msgid "Insert Column Left"
+msgstr "Устунни қўйиш"
+
+#: kotext/KoTextEditor.cpp:1061
+#, fuzzy
+#| msgid "Insert Column"
+msgid "Insert Column Right"
+msgstr "Устунни қўйиш"
+
+#: kotext/KoTextEditor.cpp:1075
+#, fuzzy
+msgid "Delete Column"
+msgstr "Матнни ўчириш"
+
+#: kotext/KoTextEditor.cpp:1090
+#, fuzzy
+msgid "Delete Row"
+msgstr "Матнни ўчириш"
+
+#: kotext/KoTextEditor.cpp:1099
+#, fuzzy
+msgid "Merge Cells"
+msgstr "Бўш жой"
+
+#: kotext/KoTextEditor.cpp:1112
+#, fuzzy
+msgid "Split Cells"
+msgstr "&Бўйига"
+
+#: kotext/KoTextEditor.cpp:1126 kotext/KoTextEditor.cpp:1139
+#, fuzzy
+msgid "Insert Table Of Contents"
+msgstr "Матнни қўйиш"
+
+#: kotext/KoTextEditor.cpp:1231
+#, fuzzy
+#| msgid "Change Borders"
+msgid "Line Break"
+msgstr "Чегараларни ўзгартириш"
 
 #: kotext/commands/DeleteTableColumnCommand.cpp:40
 #, fuzzy
@@ -1677,185 +1856,6 @@ msgstr "Сатрни қўйиш"
 #, fuzzy
 msgid "Default"
 msgstr "&Андоза"
-
-#: kotext/KoTextEditor.cpp:113
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Text"
-msgstr "Матнни қўшиш"
-
-#: kotext/KoTextEditor.cpp:459 kotext/KoTextEditor.cpp:465
-msgid "Bold"
-msgstr "Қалин"
-
-#: kotext/KoTextEditor.cpp:471 kotext/KoTextEditor.cpp:477
-#, fuzzy
-#| msgid "Italic:"
-msgid "Italic"
-msgstr "Қия:"
-
-#: kotext/KoTextEditor.cpp:483 kotext/KoTextEditor.cpp:495
-msgid "Underline"
-msgstr "Тагини чизиш"
-
-#: kotext/KoTextEditor.cpp:501 kotext/KoTextEditor.cpp:512
-#, fuzzy
-#| msgid "Strikeout:"
-msgid "Strike Out"
-msgstr "Устидан чизиш:"
-
-#: kotext/KoTextEditor.cpp:529 kotext/KoTextEditor.cpp:530
-#, fuzzy
-#| msgid "Vertical alignment:"
-msgid "Set Horizontal Alignment"
-msgstr "Бўйига текислаш:"
-
-#: kotext/KoTextEditor.cpp:542 kotext/KoTextEditor.cpp:547
-#, fuzzy
-#| msgid "Vertical alignment:"
-msgid "Set Vertical Alignment"
-msgstr "Бўйига текислаш:"
-
-#: kotext/KoTextEditor.cpp:564 kotext/KoTextEditor.cpp:565
-#, fuzzy
-msgid "Decrease Indent"
-msgstr "Текислашни ўзгартириш"
-
-#: kotext/KoTextEditor.cpp:582 kotext/KoTextEditor.cpp:583
-#, fuzzy
-msgid "Increase Indent"
-msgstr "Текислашни ўзгартириш"
-
-#: kotext/KoTextEditor.cpp:613 kotext/KoTextEditor.cpp:615
-#, fuzzy
-#| msgid "Change font size?"
-msgid "Decrease font size"
-msgstr "Шрифтнинг ўлчами ўзгартириш"
-
-#: kotext/KoTextEditor.cpp:621 kotext/KoTextEditor.cpp:623
-#, fuzzy
-#| msgid "Change font size?"
-msgid "Increase font size"
-msgstr "Шрифтнинг ўлчами ўзгартириш"
-
-#: kotext/KoTextEditor.cpp:629 kotext/KoTextEditor.cpp:634
-#, fuzzy
-#| msgid "Select Font"
-msgid "Set Font"
-msgstr "Шрифтни танлаш"
-
-#: kotext/KoTextEditor.cpp:640 kotext/KoTextEditor.cpp:645
-#, fuzzy
-#| msgid "Select Font"
-msgid "Set Font Size"
-msgstr "Шрифтни танлаш"
-
-#: kotext/KoTextEditor.cpp:651 kotext/KoTextEditor.cpp:656
-#, fuzzy
-msgid "Set Background Color"
-msgstr "Сония"
-
-#: kotext/KoTextEditor.cpp:662 kotext/KoTextEditor.cpp:667
-#, fuzzy
-#| msgid "Text Color"
-msgid "Set Text Color"
-msgstr "Матннинг ранги"
-
-#: kotext/KoTextEditor.cpp:674 kotext/KoTextEditor.cpp:679
-#, fuzzy
-msgid "Set Character Style"
-msgstr "Янги услубни яратиш"
-
-#: kotext/KoTextEditor.cpp:685
-#, fuzzy
-msgid "Set Paragraph Style"
-msgstr "Оддий параграф матни"
-
-#: kotext/KoTextEditor.cpp:705 kotext/KoTextEditor.cpp:712
-#, fuzzy
-#| msgid "Locale date format"
-msgid "Set default format"
-msgstr "Сананинг локал кўриниши"
-
-#: kotext/KoTextEditor.cpp:719
-#, fuzzy
-msgid "Insert Bookmark"
-msgstr "Боғни қўйиш"
-
-#: kotext/KoTextEditor.cpp:764
-#, fuzzy
-#| msgid "Insert Text"
-msgid "Insert Index"
-msgstr "Матнни қўйиш"
-
-#: kotext/KoTextEditor.cpp:773
-#, fuzzy
-msgid "Insert Variable"
-msgstr "Матнни қўйиш"
-
-#: kotext/KoTextEditor.cpp:787 kotext/KoTextEditor.cpp:1150
-#: kotext/KoTextEditor.cpp:1168 kotext/KoTextEditor.cpp:1248
-msgid "Key Press"
-msgstr ""
-
-#: kotext/KoTextEditor.cpp:796
-#, fuzzy
-msgid "Insert Break"
-msgstr "Боғни қўйиш"
-
-#: kotext/KoTextEditor.cpp:949 kotext/KoTextEditor.cpp:959
-#, fuzzy
-msgid "Insert Table"
-msgstr "Матнни қўйиш"
-
-#: kotext/KoTextEditor.cpp:1005 kotext/KoTextEditor.cpp:1019
-#, fuzzy
-#| msgid "Insert Row"
-msgid "Insert Row Above"
-msgstr "Сатрни қўйиш"
-
-#: kotext/KoTextEditor.cpp:1033
-#, fuzzy
-#| msgid "Insert Column"
-msgid "Insert Column Left"
-msgstr "Устунни қўйиш"
-
-#: kotext/KoTextEditor.cpp:1047
-#, fuzzy
-#| msgid "Insert Column"
-msgid "Insert Column Right"
-msgstr "Устунни қўйиш"
-
-#: kotext/KoTextEditor.cpp:1061
-#, fuzzy
-msgid "Delete Column"
-msgstr "Матнни ўчириш"
-
-#: kotext/KoTextEditor.cpp:1076
-#, fuzzy
-msgid "Delete Row"
-msgstr "Матнни ўчириш"
-
-#: kotext/KoTextEditor.cpp:1085
-#, fuzzy
-msgid "Merge Cells"
-msgstr "Бўш жой"
-
-#: kotext/KoTextEditor.cpp:1098
-#, fuzzy
-msgid "Split Cells"
-msgstr "&Бўйига"
-
-#: kotext/KoTextEditor.cpp:1112 kotext/KoTextEditor.cpp:1125
-#, fuzzy
-msgid "Insert Table Of Contents"
-msgstr "Матнни қўйиш"
-
-#: kotext/KoTextEditor.cpp:1217
-#, fuzzy
-#| msgid "Change Borders"
-msgid "Line Break"
-msgstr "Чегараларни ўзгартириш"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:147
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
@@ -2010,7 +2010,7 @@ msgid "Could not create the file for saving"
 msgstr "Сақлаш учун файлни яратиб бўлмади"
 
 #: main/KoDocument.cpp:915 main/KoDocument.cpp:937 main/KoDocument.cpp:968
-#: main/KoDocument.cpp:1002 main/rdf/KoDocumentRdf.cpp:312
+#: main/KoDocument.cpp:1002 main/rdf/KoDocumentRdf.cpp:317
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "'%1' файлини ёзиб бўлмади. Эҳтимол дискда бўш жой қолмаган."
@@ -2860,38 +2860,34 @@ msgstr "Сана:"
 msgid "Select the object you want to reference"
 msgstr ""
 
-#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:112
+#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:113
 #, fuzzy
 #| msgid "Apply Style %1"
 msgid "Apply Stylesheet"
 msgstr "%1 услубини қўллаш"
 
-#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:114
+#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:115
 #: main/rdf/KoSemanticStylesheetsEditor.cpp:113
 msgid "System"
 msgstr ""
 
-#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:123
+#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:124
 #: main/rdf/KoSemanticStylesheetsEditor.cpp:129
 #, fuzzy
 msgid "User"
 msgstr "Қўй&иш:"
 
-#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:137
+#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:138
 msgid "Reapply Current"
 msgstr ""
 
-#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:142
+#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:143
 msgid "Disassociate"
 msgstr ""
 
-#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:162
+#: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:163
 #, kde-format
 msgid "Edit %1"
-msgstr ""
-
-#: main/rdf/KoDocumentRdf.cpp:882
-msgid "Reference"
 msgstr ""
 
 #: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:43
@@ -3061,6 +3057,10 @@ msgstr[0] ""
 #: main/rdf/KoDocumentRdfEditWidget.cpp:277
 msgctxt "statement is an Rdf related term"
 msgid "Discard invalid statements?"
+msgstr ""
+
+#: main/rdf/KoDocumentRdf.cpp:887
+msgid "Reference"
 msgstr ""
 
 #: main/config/KoConfigDocumentPage.cpp:75
