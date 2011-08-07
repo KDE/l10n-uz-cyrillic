@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:51+0200\n"
+"POT-Creation-Date: 2011-08-07 11:41+0200\n"
 "PO-Revision-Date: 2009-10-14 00:15+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -122,14 +122,6 @@ msgstr "Хатчўплар"
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr|Opera хатчўп файллари (*.adr)"
 
-#: bookmarks/kbookmarkmanager.cc:443
-#, kde-format
-msgid ""
-"Unable to save bookmarks in %1. Reported error was: %2. This error message "
-"will only be shown once. The cause of the error needs to be fixed as quickly "
-"as possible, which is most likely a full hard drive."
-msgstr ""
-
 #: bookmarks/kbookmarkmenu.cc:267
 msgid "Add Bookmark Here"
 msgstr "Хатчўпни шу ерга қўшиш"
@@ -231,9 +223,40 @@ msgstr "Янги ойнада очиш"
 msgid "Open in New Tab"
 msgstr ""
 
+#: bookmarks/kbookmarkmanager.cc:443
+#, kde-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
 msgstr ""
+
+#: kfile/kdevicelistmodel.cpp:116
+#, fuzzy
+msgid "Device name"
+msgstr "Ускуна:"
+
+#: kfile/kurlrequesterdialog.cpp:58 kfile/kpropertiesdialog.cpp:984
+msgid "Location:"
+msgstr "Манзили:"
+
+#: kfile/kurlrequesterdialog.cpp:128 kfile/kicondialog.cpp:693
+#: kfile/kencodingfiledialog.cpp:106 kfile/kencodingfiledialog.cpp:124
+#: kfile/kencodingfiledialog.cpp:139 kfile/kencodingfiledialog.cpp:157
+#: kfile/kfiledialog.cpp:480 kfile/kfiledialog.cpp:490
+#: kfile/kfiledialog.cpp:511 kfile/kfiledialog.cpp:535
+#: kfile/kfiledialog.cpp:545 kfile/kfiledialog.cpp:571
+#: kfile/kfiledialog.cpp:603 kfile/kfiledialog.cpp:658
+msgid "Open"
+msgstr "Очиш"
+
+#: kfile/kfilemetainfowidget.cpp:163
+msgid "<Error>"
+msgstr "<Хато>"
 
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
@@ -331,29 +354,6 @@ msgstr "б"
 #: kfile/kacleditwidget.cpp:630
 msgid "Effective"
 msgstr ""
-
-#: kfile/kdevicelistmodel.cpp:116
-#, fuzzy
-msgid "Device name"
-msgstr "Ускуна:"
-
-#: kfile/kurlrequesterdialog.cpp:58 kfile/kpropertiesdialog.cpp:984
-msgid "Location:"
-msgstr "Манзили:"
-
-#: kfile/kurlrequesterdialog.cpp:128 kfile/kencodingfiledialog.cpp:106
-#: kfile/kencodingfiledialog.cpp:124 kfile/kencodingfiledialog.cpp:139
-#: kfile/kencodingfiledialog.cpp:157 kfile/kfiledialog.cpp:480
-#: kfile/kfiledialog.cpp:490 kfile/kfiledialog.cpp:511
-#: kfile/kfiledialog.cpp:535 kfile/kfiledialog.cpp:545
-#: kfile/kfiledialog.cpp:571 kfile/kfiledialog.cpp:603
-#: kfile/kfiledialog.cpp:658 kfile/kicondialog.cpp:693
-msgid "Open"
-msgstr "Очиш"
-
-#: kfile/kfilemetainfowidget.cpp:163
-msgid "<Error>"
-msgstr "<Хато>"
 
 #: kfile/kmetaprops.cpp:57
 #, fuzzy
@@ -702,6 +702,88 @@ msgstr ""
 msgid "P&review"
 msgstr "&Кўриб чиқиш"
 
+#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
+msgid "Select Icon"
+msgstr "Нишончани танлаш"
+
+#: kfile/kicondialog.cpp:369
+msgid "Icon Source"
+msgstr "Нишончалар манбаси"
+
+#: kfile/kicondialog.cpp:378
+msgid "S&ystem icons:"
+msgstr "&Тизимнинг нишончалари:"
+
+#: kfile/kicondialog.cpp:385
+msgid "O&ther icons:"
+msgstr "&Бошқа нишончалар:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, browseButton)
+#: kfile/kicondialog.cpp:388 rc.cpp:134
+msgid "&Browse..."
+msgstr "&Танлаш"
+
+#: kfile/kicondialog.cpp:399
+msgid "&Search:"
+msgstr "Қ&идириш:"
+
+#: kfile/kicondialog.cpp:406
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr ""
+
+#: kfile/kicondialog.cpp:437
+msgid "Actions"
+msgstr "Амаллар"
+
+#: kfile/kicondialog.cpp:438
+msgid "Animations"
+msgstr "Анимация"
+
+#: kfile/kicondialog.cpp:439
+msgid "Applications"
+msgstr "Дастурлар"
+
+#: kfile/kicondialog.cpp:440
+msgid "Categories"
+msgstr "Туркумлар"
+
+#: kfile/kicondialog.cpp:441
+msgid "Devices"
+msgstr "Ускуналар"
+
+#: kfile/kicondialog.cpp:442
+msgid "Emblems"
+msgstr ""
+
+#: kfile/kicondialog.cpp:443
+msgid "Emotes"
+msgstr ""
+
+#: kfile/kicondialog.cpp:444
+msgid "Filesystems"
+msgstr "Файл тизимлари"
+
+#: kfile/kicondialog.cpp:445
+msgid "International"
+msgstr "Халқаро"
+
+#: kfile/kicondialog.cpp:446
+msgid "Mimetypes"
+msgstr "MIME турлари"
+
+#: kfile/kicondialog.cpp:447
+msgid "Places"
+msgstr "Жойлар"
+
+#: kfile/kicondialog.cpp:448
+msgid "Status"
+msgstr "Ҳолат"
+
+#: kfile/kicondialog.cpp:691
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr "*.png *.xpm *.svg *.svgz|Нишонча файллари (*.png *.xpm *.svg *.svgz)"
+
 #: kfile/kurlrequester.cpp:246
 msgid "Open file dialog"
 msgstr "Файлни танлаш ойнасини очиш"
@@ -911,88 +993,6 @@ msgid ""
 "An error occurred while trying to unshare folder '%1'. Make sure that the "
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
-
-#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
-msgid "Select Icon"
-msgstr "Нишончани танлаш"
-
-#: kfile/kicondialog.cpp:369
-msgid "Icon Source"
-msgstr "Нишончалар манбаси"
-
-#: kfile/kicondialog.cpp:378
-msgid "S&ystem icons:"
-msgstr "&Тизимнинг нишончалари:"
-
-#: kfile/kicondialog.cpp:385
-msgid "O&ther icons:"
-msgstr "&Бошқа нишончалар:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: kfile/kicondialog.cpp:388 rc.cpp:134
-msgid "&Browse..."
-msgstr "&Танлаш"
-
-#: kfile/kicondialog.cpp:399
-msgid "&Search:"
-msgstr "Қ&идириш:"
-
-#: kfile/kicondialog.cpp:406
-msgid "Search interactively for icon names (e.g. folder)."
-msgstr ""
-
-#: kfile/kicondialog.cpp:437
-msgid "Actions"
-msgstr "Амаллар"
-
-#: kfile/kicondialog.cpp:438
-msgid "Animations"
-msgstr "Анимация"
-
-#: kfile/kicondialog.cpp:439
-msgid "Applications"
-msgstr "Дастурлар"
-
-#: kfile/kicondialog.cpp:440
-msgid "Categories"
-msgstr "Туркумлар"
-
-#: kfile/kicondialog.cpp:441
-msgid "Devices"
-msgstr "Ускуналар"
-
-#: kfile/kicondialog.cpp:442
-msgid "Emblems"
-msgstr ""
-
-#: kfile/kicondialog.cpp:443
-msgid "Emotes"
-msgstr ""
-
-#: kfile/kicondialog.cpp:444
-msgid "Filesystems"
-msgstr "Файл тизимлари"
-
-#: kfile/kicondialog.cpp:445
-msgid "International"
-msgstr "Халқаро"
-
-#: kfile/kicondialog.cpp:446
-msgid "Mimetypes"
-msgstr "MIME турлари"
-
-#: kfile/kicondialog.cpp:447
-msgid "Places"
-msgstr "Жойлар"
-
-#: kfile/kicondialog.cpp:448
-msgid "Status"
-msgstr "Ҳолат"
-
-#: kfile/kicondialog.cpp:691
-msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-msgstr "*.png *.xpm *.svg *.svgz|Нишонча файллари (*.png *.xpm *.svg *.svgz)"
 
 #: kfile/kopenwithdialog.cpp:268
 msgid "Known Applications"
@@ -5458,11 +5458,11 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:525 ../kioslave/http/http.cpp:3360
+#: ../kioslave/ftp/ftp.cpp:525 ../kioslave/http/http.cpp:3344
 msgid "You need to supply a username and a password to access this site."
 msgstr "Бу сайтга кириш учун фойдаланувчи ва махфий сўзни кўрсатиш керак."
 
-#: ../kioslave/ftp/ftp.cpp:527 ../kioslave/http/http.cpp:3362
+#: ../kioslave/ftp/ftp.cpp:527 ../kioslave/http/http.cpp:3346
 msgid "Site:"
 msgstr "Сайт:"
 
@@ -5648,110 +5648,110 @@ msgstr "Ҳамма кукиларни ўчириш"
 msgid "Reload configuration file"
 msgstr "Мослама файлини қайтадан юклаш"
 
-#: ../kioslave/http/http.cpp:622
+#: ../kioslave/http/http.cpp:606
 msgid "No host specified."
 msgstr "Хост кўрсатилмаган."
 
-#: ../kioslave/http/http.cpp:1503
+#: ../kioslave/http/http.cpp:1487
 #, fuzzy
 #| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
 msgstr "Кўрсатилган манба балки мавжуд эмас."
 
-#: ../kioslave/http/http.cpp:1624
+#: ../kioslave/http/http.cpp:1608
 msgid "Otherwise, the request would have succeeded."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1628
+#: ../kioslave/http/http.cpp:1612
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1631
+#: ../kioslave/http/http.cpp:1615
 msgctxt "request type"
 msgid "set property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1634
+#: ../kioslave/http/http.cpp:1618
 #, fuzzy
 #| msgid "create the requested folder"
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "талаб қилинган жилдни яратиш"
 
-#: ../kioslave/http/http.cpp:1637
+#: ../kioslave/http/http.cpp:1621
 #, fuzzy
 #| msgid "copy the specified file or folder"
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "кўрсатилган файл ёки жилддан нусха олиш"
 
-#: ../kioslave/http/http.cpp:1640
+#: ../kioslave/http/http.cpp:1624
 #, fuzzy
 #| msgid "move the specified file or folder"
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни кўчириш"
 
-#: ../kioslave/http/http.cpp:1643
+#: ../kioslave/http/http.cpp:1627
 #, fuzzy
 #| msgid "search in the specified folder"
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "кўрсатилган жилдда қидириш"
 
-#: ../kioslave/http/http.cpp:1646
+#: ../kioslave/http/http.cpp:1630
 #, fuzzy
 #| msgid "lock the specified file or folder"
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни қулфлаш"
 
-#: ../kioslave/http/http.cpp:1649
+#: ../kioslave/http/http.cpp:1633
 #, fuzzy
 #| msgid "lock the specified file or folder"
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни қулфлаш"
 
-#: ../kioslave/http/http.cpp:1652
+#: ../kioslave/http/http.cpp:1636
 #, fuzzy
 #| msgid "delete the specified file or folder"
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "кўрсатилган файл ёки жилдни ўчириш"
 
-#: ../kioslave/http/http.cpp:1655
+#: ../kioslave/http/http.cpp:1639
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1658
+#: ../kioslave/http/http.cpp:1642
 #, fuzzy
 #| msgid "retrieve the contents of the specified file or folder"
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "кўрсатилган файл ёки жилднинг таркибини аниқлаш"
 
-#: ../kioslave/http/http.cpp:1661
+#: ../kioslave/http/http.cpp:1645
 #, fuzzy
 #| msgid "search in the specified folder"
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "кўрсатилган жилдда қидириш"
 
-#: ../kioslave/http/http.cpp:1672
+#: ../kioslave/http/http.cpp:1656
 #, fuzzy, kde-format
 #| msgid "Access was denied while attempting to %1."
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "%1га рухсат этилмади."
 
-#: ../kioslave/http/http.cpp:1680
+#: ../kioslave/http/http.cpp:1664
 msgid "The server does not support the WebDAV protocol."
 msgstr "Сервер WebDAV протоколини қўлламайди."
 
-#: ../kioslave/http/http.cpp:1722
+#: ../kioslave/http/http.cpp:1706
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -5759,24 +5759,24 @@ msgid ""
 "below."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1736 ../kioslave/http/http.cpp:1834
+#: ../kioslave/http/http.cpp:1720 ../kioslave/http/http.cpp:1818
 #, fuzzy, kde-format
 #| msgid "Access was denied while attempting to %1."
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "%1га рухсат этилмади."
 
-#: ../kioslave/http/http.cpp:1742
+#: ../kioslave/http/http.cpp:1726
 msgid "The specified folder already exists."
 msgstr "Кўрсатилган жилд аллақачон мавжуд."
 
-#: ../kioslave/http/http.cpp:1748 ../kioslave/http/http.cpp:1839
+#: ../kioslave/http/http.cpp:1732 ../kioslave/http/http.cpp:1823
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1756
+#: ../kioslave/http/http.cpp:1740
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -5784,26 +5784,26 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1764
+#: ../kioslave/http/http.cpp:1748
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1770
+#: ../kioslave/http/http.cpp:1754
 msgid "The server does not support the request type of the body."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1775 ../kioslave/http/http.cpp:1846
+#: ../kioslave/http/http.cpp:1759 ../kioslave/http/http.cpp:1830
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1779
+#: ../kioslave/http/http.cpp:1763
 msgid "This action was prevented by another error."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1785 ../kioslave/http/http.cpp:1851
+#: ../kioslave/http/http.cpp:1769 ../kioslave/http/http.cpp:1835
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -5811,32 +5811,32 @@ msgid ""
 "folder."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1792 ../kioslave/http/http.cpp:1857
+#: ../kioslave/http/http.cpp:1776 ../kioslave/http/http.cpp:1841
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1813
+#: ../kioslave/http/http.cpp:1797
 #, fuzzy, kde-format
 #| msgid "upload %1"
 msgctxt "request type"
 msgid "upload %1"
 msgstr "%1'ни ёзиб қўйиш"
 
-#: ../kioslave/http/http.cpp:1823
+#: ../kioslave/http/http.cpp:1807
 #, fuzzy, kde-format
 #| msgid "Access was denied while attempting to %1."
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "%1га рухсат этилмади."
 
-#: ../kioslave/http/http.cpp:2585
+#: ../kioslave/http/http.cpp:2569
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 билан алоқа ўрнатилди. Жавоб кутилмоқда..."
 
-#: ../kioslave/http/http.cpp:2916
+#: ../kioslave/http/http.cpp:2900
 #, kde-format
 msgctxt "@warning: Security check on url being accessed"
 msgid ""
@@ -5845,16 +5845,16 @@ msgid ""
 "<p>Is \"%1\" the site you want to visit?"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:2923
+#: ../kioslave/http/http.cpp:2907
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3000
+#: ../kioslave/http/http.cpp:2984
 msgid "Server processing request, please wait..."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3372 ../kioslave/http/http.cpp:5276
+#: ../kioslave/http/http.cpp:3356 ../kioslave/http/http.cpp:5260
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5862,46 +5862,46 @@ msgstr ""
 "Қуйида кўрсатилган прокси серверга кириш учун фойдаланувчи ва махфий сўзни "
 "кўрсатиш керак."
 
-#: ../kioslave/http/http.cpp:3375 ../kioslave/http/http.cpp:5280
+#: ../kioslave/http/http.cpp:3359 ../kioslave/http/http.cpp:5264
 msgid "Proxy:"
 msgstr "Прокси:"
 
-#: ../kioslave/http/http.cpp:3436
+#: ../kioslave/http/http.cpp:3420
 msgid "Authentication Failed."
 msgstr "Тасдиқлаш муваффақиятсиз тугади."
 
-#: ../kioslave/http/http.cpp:3439 ../kioslave/http/http.cpp:5282
+#: ../kioslave/http/http.cpp:3423 ../kioslave/http/http.cpp:5266
 msgid "Proxy Authentication Failed."
 msgstr "Прокси ёрдамида тасдиқлаш муваффақиятсиз тугади."
 
-#: ../kioslave/http/http.cpp:3449 ../kioslave/http/http.cpp:5281
+#: ../kioslave/http/http.cpp:3433 ../kioslave/http/http.cpp:5265
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3481
+#: ../kioslave/http/http.cpp:3465
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Тасдиқлаш диалоги"
 
-#: ../kioslave/http/http.cpp:3498
+#: ../kioslave/http/http.cpp:3482
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "Тасдиқлаш диалоги"
 
-#: ../kioslave/http/http.cpp:3887 ../kioslave/http/http.cpp:3941
+#: ../kioslave/http/http.cpp:3871 ../kioslave/http/http.cpp:3925
 #, kde-format
 msgid "Sending data to %1"
 msgstr "%1'га маълумот жўнатилмоқда"
 
-#: ../kioslave/http/http.cpp:4403
+#: ../kioslave/http/http.cpp:4387
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "%1 %2'дан аниқланмоқда..."
 
-#: ../kioslave/http/http.cpp:4409
+#: ../kioslave/http/http.cpp:4393
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "%1'дан аниқланмоқда..."
@@ -6085,6 +6085,13 @@ msgstr ""
 #: ../kfile/kurlnavigatortogglebutton.cpp:95
 msgid "Click to Edit Location"
 msgstr ""
+
+#: ../kfile/kurlnavigatorbutton.cpp:612
+#, fuzzy
+#| msgid "Store"
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Сақлаш"
 
 #: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
 #, kde-format
@@ -6728,13 +6735,6 @@ msgstr ""
 #: ../kfile/kurlnavigator.cpp:690
 msgid "Custom Path"
 msgstr ""
-
-#: ../kfile/kurlnavigatorbutton.cpp:611
-#, fuzzy
-#| msgid "Store"
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "Сақлаш"
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "\"%1\" номли янги элемент аллақачон мавжуд."
