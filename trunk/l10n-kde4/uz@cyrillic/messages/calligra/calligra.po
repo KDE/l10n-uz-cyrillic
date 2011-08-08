@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-04 02:21+0200\n"
+"POT-Creation-Date: 2011-08-08 02:19+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -70,11 +70,6 @@ msgstr "Қоидадан ташқари ҳолат"
 msgctxt "(qtundo-format)"
 msgid "Paste Shapes"
 msgstr "Намунани яратиш"
-
-#: flake/KoToolBase.cpp:198 main/KoToolDocker.cpp:198
-#, fuzzy
-msgid "Tool Options"
-msgstr "Тўлдириш мосламалари"
 
 #: flake/KoToolManager.cpp:366
 #, kde-format
@@ -351,6 +346,23 @@ msgstr "Ҳужжатни яратиш"
 msgid "Pan"
 msgstr "Циан"
 
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
+#, fuzzy
+#| msgid "Change Alignment"
+msgctxt "(qtundo-format)"
+msgid "Change Segment"
+msgstr "Текислашни ўзгартириш"
+
+#: flake/tools/KoPathToolFactory.cpp:29
+#, fuzzy
+msgid "Path editing tool"
+msgstr "Умумий таҳрирлаш вақти:"
+
+#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
+#: widgets/KoZoomController.cpp:39
+msgid "Zoom"
+msgstr ""
+
 #: flake/tools/KoPathTool.cpp:90
 #, fuzzy
 msgid "Corner point"
@@ -421,45 +433,28 @@ msgstr "Йўлни таҳрирлаш"
 msgid "Line/Curve"
 msgstr "Жорий бўлим"
 
-#: flake/tools/KoPathTool.cpp:184 flake/tools/KoCreatePathTool.cpp:369
+#: flake/tools/KoPathTool.cpp:185 flake/tools/KoCreatePathTool.cpp:369
 msgid "Snapping"
 msgstr ""
 
-#: flake/tools/KoPathTool.cpp:519
+#: flake/tools/KoPathTool.cpp:520
 msgid "Drag to move handle."
 msgstr ""
 
-#: flake/tools/KoPathTool.cpp:583
+#: flake/tools/KoPathTool.cpp:584
 msgid "Drag to move point. Shift click to change point type."
 msgstr ""
 
-#: flake/tools/KoPathTool.cpp:585
+#: flake/tools/KoPathTool.cpp:586
 msgid "Drag to move control point."
 msgstr ""
 
-#: flake/tools/KoPathTool.cpp:610
+#: flake/tools/KoPathTool.cpp:611
 msgid "Press B to break path at selected point."
 msgstr ""
 
-#: flake/tools/KoPathTool.cpp:612
+#: flake/tools/KoPathTool.cpp:613
 msgid "Press B to break path at selected segments."
-msgstr ""
-
-#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
-#, fuzzy
-#| msgid "Change Alignment"
-msgctxt "(qtundo-format)"
-msgid "Change Segment"
-msgstr "Текислашни ўзгартириш"
-
-#: flake/tools/KoPathToolFactory.cpp:29
-#, fuzzy
-msgid "Path editing tool"
-msgstr "Умумий таҳрирлаш вақти:"
-
-#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
-#: widgets/KoZoomController.cpp:39
-msgid "Zoom"
 msgstr ""
 
 #: flake/tools/KoCreatePathTool.cpp:375
@@ -2807,6 +2802,11 @@ msgstr "Ҳеч қандай расм йўқ."
 msgid "Use This Template"
 msgstr "Шу намунани ишлатиш"
 
+#: main/KoToolDocker.cpp:198
+#, fuzzy
+msgid "Tool Options"
+msgstr "Тўлдириш мосламалари"
+
 #: main/KoToolDocker.cpp:237
 msgid "Toggles showing a title bar"
 msgstr ""
@@ -4667,18 +4667,6 @@ msgstr ""
 msgid "Guide lines"
 msgstr "Ёрдамчи чизиқлар"
 
-#. i18n: file: flake/tools/KoZoomToolWidget.ui:20
-#. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
-#: rc.cpp:35
-msgid "Zoom In"
-msgstr ""
-
-#. i18n: file: flake/tools/KoZoomToolWidget.ui:30
-#. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
-#: rc.cpp:38
-msgid "Zoom Out"
-msgstr ""
-
 #. i18n: file: flake/tools/PathToolOptionWidgetBase.ui:39
 #. i18n: ectx: property (text), widget (QToolButton, corner)
 #. i18n: file: flake/tools/PathToolOptionWidgetBase.ui:46
@@ -4713,8 +4701,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, open)
 #. i18n: file: widgets/KoEditColorSet.ui:78
 #. i18n: ectx: property (text), widget (QToolButton, save)
-#: rc.cpp:41 rc.cpp:44 rc.cpp:47 rc.cpp:50 rc.cpp:53 rc.cpp:56 rc.cpp:59
-#: rc.cpp:62 rc.cpp:65 rc.cpp:68 rc.cpp:71 rc.cpp:74 rc.cpp:77 rc.cpp:535
+#: rc.cpp:35 rc.cpp:38 rc.cpp:41 rc.cpp:44 rc.cpp:47 rc.cpp:50 rc.cpp:53
+#: rc.cpp:56 rc.cpp:59 rc.cpp:62 rc.cpp:65 rc.cpp:68 rc.cpp:71 rc.cpp:535
 #: rc.cpp:541 rc.cpp:547 rc.cpp:553
 #, fuzzy
 msgid "..."
@@ -4722,10 +4710,22 @@ msgstr "Қўшиш..."
 
 #. i18n: file: flake/tools/PathToolOptionWidgetBase.ui:186
 #. i18n: ectx: property (text), widget (QPushButton, convertToPath)
-#: rc.cpp:80
+#: rc.cpp:74
 #, fuzzy
 msgid "Convert To Path"
 msgstr "Юнончага айлантириш"
+
+#. i18n: file: flake/tools/KoZoomToolWidget.ui:20
+#. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
+#: rc.cpp:77
+msgid "Zoom In"
+msgstr ""
+
+#. i18n: file: flake/tools/KoZoomToolWidget.ui:30
+#. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
+#: rc.cpp:80
+msgid "Zoom Out"
+msgstr ""
 
 #. i18n: file: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:18
 #. i18n: ectx: property (text), widget (QPushButton, backgroundImage)
