@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:53+0200\n"
+"POT-Creation-Date: 2011-09-01 10:35+0200\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -636,11 +636,183 @@ msgid "<b>%1</b> message (<b>%2</b> unread)"
 msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 
-#: core/manager.cpp:98 core/model.cpp:293
+#: core/item.cpp:228
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Read"
+msgctxt "Status of an item"
+msgid "Read"
+msgstr "Ўқилган"
+
+#: core/item.cpp:230
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgctxt "Status of an item"
+msgid "Unread"
+msgstr "Ўқилмаган"
+
+#: core/item.cpp:233
+#, fuzzy
+#| msgid "Has Attachment"
+msgctxt "Status of an item"
+msgid "Has Attachment"
+msgstr "Иловали"
+
+#: core/item.cpp:236
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Replied"
+msgctxt "Status of an item"
+msgid "Replied"
+msgstr "Жавоб берилган"
+
+#: core/item.cpp:239
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Forwarded"
+msgctxt "Status of an item"
+msgid "Forwarded"
+msgstr "Узатилган"
+
+#: core/item.cpp:242
+#, fuzzy
+#| msgid "Sent"
+msgctxt "Status of an item"
+msgid "Sent"
+msgstr "Жўнатилган"
+
+#: core/item.cpp:245
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgctxt "Status of an item"
+msgid "Important"
+msgstr "Муҳим"
+
+#: core/item.cpp:248
+#, fuzzy
+msgctxt "Status of an item"
+msgid "Action Item"
+msgstr "Муҳим хабар"
+
+#: core/item.cpp:251
+#, fuzzy
+#| msgid "Spam"
+msgctxt "Status of an item"
+msgid "Spam"
+msgstr "Спэм"
+
+#: core/item.cpp:254
+#, fuzzy
+#| msgid "Ham"
+msgctxt "Status of an item"
+msgid "Ham"
+msgstr "Хэм"
+
+#: core/item.cpp:257
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Watched"
+msgctxt "Status of an item"
+msgid "Watched"
+msgstr "Назоратда"
+
+#: core/item.cpp:260
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Ignored"
+msgctxt "Status of an item"
+msgid "Ignored"
+msgstr "Эътибор берилмаган"
+
+#: core/model.cpp:290
+#, fuzzy
+#| msgid "Todo"
+msgid "Today"
+msgstr "Вазифа"
+
+#: core/model.cpp:291
+msgid "Yesterday"
+msgstr ""
+
+#: core/model.cpp:293 core/manager.cpp:98
 #, fuzzy
 msgctxt "Unknown date"
 msgid "Unknown"
 msgstr "&Узатиш"
+
+#: core/model.cpp:294
+#, fuzzy
+#| msgid "Last Search"
+msgid "Last Week"
+msgstr "Охирги қидирув"
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:512 utils/themeeditor.cpp:204
+#, fuzzy
+#| msgid "Receiver"
+msgid "Receiver"
+msgstr "Қабул қилувчи"
+
+#: core/model.cpp:513 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "Жўнатувчи"
+
+#: core/model.cpp:1335
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "Хат"
+
+#: core/model.cpp:3764
+#, fuzzy, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] "Хабарнинг асл нусхаси:"
+
+#: core/model.cpp:3770 core/model.cpp:3776
+#, fuzzy, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] "Хабарнинг асл нусхаси:"
+
+#: core/model.cpp:3782
+#, fuzzy, kde-format
+#| msgid "&Reading"
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] "Ўқ&иш"
+
+#: core/model.cpp:3788
+#, fuzzy, kde-format
+#| msgid "&Reading"
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] "Ўқ&иш"
+
+#: core/model.cpp:3884
+#, fuzzy
+#| msgid "Ready."
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "Тайёр."
 
 #: core/manager.cpp:320
 msgid "Current Activity, Threaded"
@@ -977,225 +1149,6 @@ msgstr "Хабарлар рўйхати"
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
 
-#: core/item.cpp:228
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Read"
-msgctxt "Status of an item"
-msgid "Read"
-msgstr "Ўқилган"
-
-#: core/item.cpp:230
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgctxt "Status of an item"
-msgid "Unread"
-msgstr "Ўқилмаган"
-
-#: core/item.cpp:233
-#, fuzzy
-#| msgid "Has Attachment"
-msgctxt "Status of an item"
-msgid "Has Attachment"
-msgstr "Иловали"
-
-#: core/item.cpp:236
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Replied"
-msgctxt "Status of an item"
-msgid "Replied"
-msgstr "Жавоб берилган"
-
-#: core/item.cpp:239
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Forwarded"
-msgctxt "Status of an item"
-msgid "Forwarded"
-msgstr "Узатилган"
-
-#: core/item.cpp:242
-#, fuzzy
-#| msgid "Sent"
-msgctxt "Status of an item"
-msgid "Sent"
-msgstr "Жўнатилган"
-
-#: core/item.cpp:245
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgctxt "Status of an item"
-msgid "Important"
-msgstr "Муҳим"
-
-#: core/item.cpp:248
-#, fuzzy
-msgctxt "Status of an item"
-msgid "Action Item"
-msgstr "Муҳим хабар"
-
-#: core/item.cpp:251
-#, fuzzy
-#| msgid "Spam"
-msgctxt "Status of an item"
-msgid "Spam"
-msgstr "Спэм"
-
-#: core/item.cpp:254
-#, fuzzy
-#| msgid "Ham"
-msgctxt "Status of an item"
-msgid "Ham"
-msgstr "Хэм"
-
-#: core/item.cpp:257
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Watched"
-msgctxt "Status of an item"
-msgid "Watched"
-msgstr "Назоратда"
-
-#: core/item.cpp:260
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Ignored"
-msgctxt "Status of an item"
-msgid "Ignored"
-msgstr "Эътибор берилмаган"
-
-#: core/model.cpp:290
-#, fuzzy
-#| msgid "Todo"
-msgid "Today"
-msgstr "Вазифа"
-
-#: core/model.cpp:291
-msgid "Yesterday"
-msgstr ""
-
-#: core/model.cpp:294
-#, fuzzy
-#| msgid "Last Search"
-msgid "Last Week"
-msgstr "Охирги қидирув"
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:512 utils/themeeditor.cpp:204
-#, fuzzy
-#| msgid "Receiver"
-msgid "Receiver"
-msgstr "Қабул қилувчи"
-
-#: core/model.cpp:513 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "Жўнатувчи"
-
-#: core/model.cpp:1335
-#, fuzzy, kde-format
-#| msgid "Mail"
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "Хат"
-
-#: core/model.cpp:3764
-#, fuzzy, kde-format
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] "Хабарнинг асл нусхаси:"
-
-#: core/model.cpp:3770 core/model.cpp:3776
-#, fuzzy, kde-format
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] "Хабарнинг асл нусхаси:"
-
-#: core/model.cpp:3782
-#, fuzzy, kde-format
-#| msgid "&Reading"
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] "Ўқ&иш"
-
-#: core/model.cpp:3788
-#, fuzzy, kde-format
-#| msgid "&Reading"
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] "Ўқ&иш"
-
-#: core/model.cpp:3884
-#, fuzzy
-#| msgid "Ready."
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "Тайёр."
-
-#: utils/aggregationeditor.cpp:47
-#, fuzzy
-#| msgid "&Reading"
-msgid "Groups && Threading"
-msgstr "Ўқ&иш"
-
-#: utils/aggregationeditor.cpp:51
-#, fuzzy
-#| msgid "Add Account"
-msgid "Grouping:"
-msgstr "Ҳисобни қўшиш"
-
-#: utils/aggregationeditor.cpp:58
-#, fuzzy
-#| msgid "Send policy:"
-msgid "Group expand policy:"
-msgstr "Жўнатиш қоидаси:"
-
-#: utils/aggregationeditor.cpp:62
-#, fuzzy
-#| msgid "&Reading"
-msgid "Threading:"
-msgstr "Ўқ&иш"
-
-#: utils/aggregationeditor.cpp:69
-#, fuzzy
-#| msgid "&Trash folder:"
-msgid "Thread leader:"
-msgstr "&Чиқиндилар қутиси:"
-
-#: utils/aggregationeditor.cpp:73
-#, fuzzy
-#| msgid "Send policy:"
-msgid "Thread expand policy:"
-msgstr "Жўнатиш қоидаси:"
-
-#: utils/aggregationeditor.cpp:82
-#, fuzzy
-#| msgid "Advanced"
-msgctxt "@title:tab Advanced settings tab for aggregation mode"
-msgid "Advanced"
-msgstr "Қўшимча"
-
-#: utils/aggregationeditor.cpp:86
-msgid "Fill view strategy:"
-msgstr ""
-
 #: utils/configureaggregationsdialog.cpp:98
 msgid "Customize Message Aggregation Modes"
 msgstr ""
@@ -1256,6 +1209,53 @@ msgstr "Номсиз"
 #| msgid "View Columns"
 msgid "New Column"
 msgstr "Кўринадиган устунлар"
+
+#: utils/aggregationeditor.cpp:47
+#, fuzzy
+#| msgid "&Reading"
+msgid "Groups && Threading"
+msgstr "Ўқ&иш"
+
+#: utils/aggregationeditor.cpp:51
+#, fuzzy
+#| msgid "Add Account"
+msgid "Grouping:"
+msgstr "Ҳисобни қўшиш"
+
+#: utils/aggregationeditor.cpp:58
+#, fuzzy
+#| msgid "Send policy:"
+msgid "Group expand policy:"
+msgstr "Жўнатиш қоидаси:"
+
+#: utils/aggregationeditor.cpp:62
+#, fuzzy
+#| msgid "&Reading"
+msgid "Threading:"
+msgstr "Ўқ&иш"
+
+#: utils/aggregationeditor.cpp:69
+#, fuzzy
+#| msgid "&Trash folder:"
+msgid "Thread leader:"
+msgstr "&Чиқиндилар қутиси:"
+
+#: utils/aggregationeditor.cpp:73
+#, fuzzy
+#| msgid "Send policy:"
+msgid "Thread expand policy:"
+msgstr "Жўнатиш қоидаси:"
+
+#: utils/aggregationeditor.cpp:82
+#, fuzzy
+#| msgid "Advanced"
+msgctxt "@title:tab Advanced settings tab for aggregation mode"
+msgid "Advanced"
+msgstr "Қўшимча"
+
+#: utils/aggregationeditor.cpp:86
+msgid "Fill view strategy:"
+msgstr ""
 
 #: utils/optionseteditor.cpp:40
 #, fuzzy
@@ -1528,32 +1528,6 @@ msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] ""
 
-#: widget.cpp:97
-#, fuzzy
-#| msgid "Show Quick Search"
-msgid "Show Quick Search Bar"
-msgstr "Қидириш панелини кўрсатиш"
-
-#: widget.cpp:312
-msgid "Expand All Groups"
-msgstr ""
-
-#: widget.cpp:316
-msgid "Collapse All Groups"
-msgstr ""
-
-#: widget.cpp:380
-msgid "&Move Here"
-msgstr "Шу ерга &кўчириш"
-
-#: widget.cpp:381
-msgid "&Copy Here"
-msgstr "Шу ерга &нусха олиш"
-
-#: widget.cpp:383
-msgid "C&ancel"
-msgstr "&Бекор қилиш"
-
 #: pane.cpp:112
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
@@ -1604,6 +1578,32 @@ msgstr "Мавзусиз"
 msgctxt "displayed when a mail has unknown sender, receiver or date"
 msgid "Unknown"
 msgstr "Номаълум"
+
+#: widget.cpp:97
+#, fuzzy
+#| msgid "Show Quick Search"
+msgid "Show Quick Search Bar"
+msgstr "Қидириш панелини кўрсатиш"
+
+#: widget.cpp:312
+msgid "Expand All Groups"
+msgstr ""
+
+#: widget.cpp:316
+msgid "Collapse All Groups"
+msgstr ""
+
+#: widget.cpp:380
+msgid "&Move Here"
+msgstr "Шу ерга &кўчириш"
+
+#: widget.cpp:381
+msgid "&Copy Here"
+msgstr "Шу ерга &нусха олиш"
+
+#: widget.cpp:383
+msgid "C&ancel"
+msgstr "&Бекор қилиш"
 
 #. i18n: file: core/settings.kcfg:10
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
