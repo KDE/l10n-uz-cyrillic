@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2011-09-08 04:05+0200\n"
 "PO-Revision-Date: 2005-09-25 12:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -120,16 +120,34 @@ msgid ""
 "instead of automatically deleting files.</para>"
 msgstr ""
 
-#: kio_trash_win.cpp:228 kio_trash.cpp:140
+#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:307 kio_trash.cpp:339
+#: kio_trash.cpp:505 kio_trash.cpp:517
+#, kde-format
+msgid "Malformed URL %1"
+msgstr "Хато URL %1"
+
+#: kio_trash.cpp:111
+#, kde-format
+msgid ""
+"The directory %1 does not exist anymore, so it is not possible to restore "
+"this item to its original location. You can either recreate that directory "
+"and use the restore operation again, or drag the item anywhere else to "
+"restore it."
+msgstr ""
+"Директория '%1' мавжуд эмас. Файлни асл жойига тиклаб бўлмайди. Уни тиклаш "
+"учун юқорида айтилган директорияни яратинг ёки файлни бошқа жойга сичқонча "
+"билан тортиб ташланг."
+
+#: kio_trash.cpp:140 kio_trash_win.cpp:228
 msgid "This file is already in the trash bin."
 msgstr "Файл аллақачон чиқиндилар қутисида."
 
-#: kio_trash_win.cpp:241
-msgid "not supported"
+#: kio_trash.cpp:228 kio_trash_win.cpp:252
+msgid "Internal error in copyOrMove, should never happen"
 msgstr ""
 
-#: kio_trash_win.cpp:252 kio_trash.cpp:228
-msgid "Internal error in copyOrMove, should never happen"
+#: kio_trash_win.cpp:241
+msgid "not supported"
 msgstr ""
 
 #: ktrash.cpp:32
@@ -174,24 +192,6 @@ msgstr ""
 #| msgid "This file is already in the trash bin."
 msgid "The file is too large to be trashed."
 msgstr "Файл аллақачон чиқиндилар қутисида."
-
-#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:307 kio_trash.cpp:339
-#: kio_trash.cpp:505 kio_trash.cpp:517
-#, kde-format
-msgid "Malformed URL %1"
-msgstr "Хато URL %1"
-
-#: kio_trash.cpp:111
-#, kde-format
-msgid ""
-"The directory %1 does not exist anymore, so it is not possible to restore "
-"this item to its original location. You can either recreate that directory "
-"and use the restore operation again, or drag the item anywhere else to "
-"restore it."
-msgstr ""
-"Директория '%1' мавжуд эмас. Файлни асл жойига тиклаб бўлмайди. Уни тиклаш "
-"учун юқорида айтилган директорияни яратинг ёки файлни бошқа жойга сичқонча "
-"билан тортиб ташланг."
 
 #~ msgid "Protocol name"
 #~ msgstr "Протоколнинг номи"
