@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-03 03:45+0200\n"
+"POT-Creation-Date: 2011-10-04 04:23+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -654,7 +654,7 @@ msgstr "Менюни активлаштириш"
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:422 SessionController.cpp:642
+#: MainWindow.cpp:422 SessionController.cpp:642 SessionController.cpp:668
 msgid "Confirm Close"
 msgstr "Ёпишни тасдиқлаш"
 
@@ -1888,13 +1888,26 @@ msgid ""
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1236
+#: SessionController.cpp:662
+msgid ""
+"A program in this session would not die.  Are you sure you want to kill it "
+"by force?"
+msgstr ""
+
+#: SessionController.cpp:665
+#, kde-format
+msgid ""
+"The program '%1' is in this session would not die.  Are you sure you want to "
+"kill it by force?"
+msgstr ""
+
+#: SessionController.cpp:1274
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "ZModem ё&зиб қўйиш"
 
-#: SessionController.cpp:1245
+#: SessionController.cpp:1283
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1909,7 +1922,7 @@ msgstr ""
 "топилмади.\n"
 "<p>\"rzsz\" ёки \"lrzsz\" дастурини ўрнатишингиз керак.\n"
 
-#: SessionController.cpp:1257
+#: SessionController.cpp:1295
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1917,7 +1930,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>Жорий сеансда ZModem файл узатиши аллақачон давом этаяпти."
 
-#: SessionController.cpp:1266
+#: SessionController.cpp:1304
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -1929,23 +1942,23 @@ msgstr ""
 "<p>Тизимда керак бўлган ZModem дастури топилмади.\n"
 "<p>\"rzsz\" ёки \"lrzsz\" дастурини ўрнатишингиз керак.\n"
 
-#: SessionController.cpp:1272
+#: SessionController.cpp:1310
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Ёзиб қўйиш учун файлларни танланг"
 
-#: SessionController.cpp:1344
+#: SessionController.cpp:1382
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Тарихни сақлаш"
 
-#: SessionController.cpp:1355
+#: SessionController.cpp:1393
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1433
+#: SessionController.cpp:1471
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1994,36 +2007,36 @@ msgstr ""
 msgid "Activity in session '%1'"
 msgstr ""
 
-#: Session.cpp:794
+#: Session.cpp:817
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Тугади"
 
-#: Session.cpp:803
+#: Session.cpp:826
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "'%1' дастури %2 ҳолати билан тугади."
 
-#: Session.cpp:805
+#: Session.cpp:828
 #, fuzzy, kde-format
 #| msgid "Session '%1' exited unexpectedly."
 msgid "Program '%1' crashed."
 msgstr "Сеанс \"%1\" кутилмаганда тугади."
 
-#: Session.cpp:1144
+#: Session.cpp:1167
 msgid "ZModem Progress"
 msgstr ""
 
-#: SessionManager.cpp:932
+#: SessionManager.cpp:934
 #, fuzzy
 #| msgid "Session number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "Сеанснинг рақами"
 
-#: SessionManager.cpp:934
+#: SessionManager.cpp:936
 #, fuzzy
 #| msgid "&File"
 msgctxt "@item:intable The session title"
