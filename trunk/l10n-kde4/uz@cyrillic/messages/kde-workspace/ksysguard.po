@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-06 06:27+0100\n"
+"POT-Creation-Date: 2011-12-08 03:51+0100\n"
 "PO-Revision-Date: 2006-12-17 12:27+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -533,6 +533,73 @@ msgstr "Юқорига"
 msgid "Move Down"
 msgstr "Пастга"
 
+#: SensorDisplayLib/ListViewSettings.cpp:30
+msgid "List View Settings"
+msgstr ""
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:31
+#, fuzzy
+#| msgid "Multimeter Settings"
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "Мултиметернинг мосламалари"
+
+#: SensorDisplayLib/SensorDisplay.cpp:118
+#: SensorDisplayLib/SensorLogger.cpp:598
+msgid "&Properties"
+msgstr "Хосса&лари"
+
+#: SensorDisplayLib/SensorDisplay.cpp:123
+#: SensorDisplayLib/SensorLogger.cpp:603
+msgid "&Remove Display"
+msgstr "&Дисплейни олиб ташлаш"
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+msgid "Sensor Logger Settings"
+msgstr "Сенсор логгерининг мосламалари"
+
+#: SensorDisplayLib/SensorModel.cpp:166
+msgid "Host"
+msgstr "Компьютер"
+
+#: SensorDisplayLib/SensorModel.cpp:169
+msgid "Sensor"
+msgstr "Сенсор"
+
+#: SensorDisplayLib/SensorModel.cpp:172
+msgid "Unit"
+msgstr "Бирлик"
+
+#: SensorDisplayLib/SensorModel.cpp:175
+msgid "Status"
+msgstr "Ҳолати"
+
+#: SensorDisplayLib/SensorModel.cpp:178
+msgid "Label"
+msgstr "Ёрлиқ"
+
+#: SensorDisplayLib/LogFile.cpp:92
+#, fuzzy
+#| msgid "Log File Settings"
+msgid "File logging settings"
+msgstr "Лог файлининг мосламалари"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:54
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:113
+msgid "Foreground color:"
+msgstr "Олдин фоннинг ранги:"
+
 #: SensorDisplayLib/ListView.cpp:45
 #, fuzzy, kde-format
 msgid "%1 K"
@@ -586,78 +653,6 @@ msgstr ""
 msgid "Terabytes"
 msgstr "Ҳарорат"
 
-#: SensorDisplayLib/ListViewSettings.cpp:30
-msgid "List View Settings"
-msgstr ""
-
-#: SensorDisplayLib/MultiMeterSettings.cpp:31
-#, fuzzy
-#| msgid "Multimeter Settings"
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "Мултиметернинг мосламалари"
-
-#: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:600
-msgid "&Properties"
-msgstr "Хосса&лари"
-
-#: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:605
-msgid "&Remove Display"
-msgstr "&Дисплейни олиб ташлаш"
-
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-
-#: SensorDisplayLib/SensorLoggerDlg.cpp:32
-#: SensorDisplayLib/SensorLogger.cpp:433
-msgid "Sensor Logger"
-msgstr "Сенсор логгери"
-
-#: SensorDisplayLib/SensorLoggerSettings.cpp:30
-msgid "Sensor Logger Settings"
-msgstr "Сенсор логгерининг мосламалари"
-
-#: SensorDisplayLib/SensorModel.cpp:166
-msgid "Host"
-msgstr "Компьютер"
-
-#: SensorDisplayLib/SensorModel.cpp:169
-msgid "Sensor"
-msgstr "Сенсор"
-
-#: SensorDisplayLib/SensorModel.cpp:172
-msgid "Unit"
-msgstr "Бирлик"
-
-#: SensorDisplayLib/SensorModel.cpp:175
-msgid "Status"
-msgstr "Ҳолати"
-
-#: SensorDisplayLib/SensorModel.cpp:178
-msgid "Label"
-msgstr "Ёрлиқ"
-
-#: SensorDisplayLib/LogFile.cpp:92
-#, fuzzy
-#| msgid "Log File Settings"
-msgid "File logging settings"
-msgstr "Лог файлининг мосламалари"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:54
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:113
-msgid "Foreground color:"
-msgstr "Олдин фоннинг ранги:"
-
 #: SensorDisplayLib/SensorLogger.cpp:138
 msgid "Logging"
 msgstr "Лог қилиш"
@@ -680,19 +675,24 @@ msgstr "Компьютернинг номи"
 msgid "Log File"
 msgstr "Лог файли"
 
-#: SensorDisplayLib/SensorLogger.cpp:610
+#: SensorDisplayLib/SensorLogger.cpp:429
+#: SensorDisplayLib/SensorLoggerDlg.cpp:32
+msgid "Sensor Logger"
+msgstr "Сенсор логгери"
+
+#: SensorDisplayLib/SensorLogger.cpp:608
 msgid "&Remove Sensor"
 msgstr "Сенсорни олиб &ташлаш"
 
-#: SensorDisplayLib/SensorLogger.cpp:615
+#: SensorDisplayLib/SensorLogger.cpp:613
 msgid "&Edit Sensor..."
 msgstr "Сенсорни таҳ&рирлаш"
 
-#: SensorDisplayLib/SensorLogger.cpp:623
+#: SensorDisplayLib/SensorLogger.cpp:621
 msgid "St&op Logging"
 msgstr "Лог қилишни тў&хтатиш"
 
-#: SensorDisplayLib/SensorLogger.cpp:626
+#: SensorDisplayLib/SensorLogger.cpp:624
 msgid "S&tart Logging"
 msgstr "Лог қилишни &бошлаш"
 
@@ -1001,19 +1001,19 @@ msgstr "&Диаграмма"
 msgid "Log to a &file"
 msgstr "Лог файли"
 
-#: WorkSheet.cpp:528
+#: WorkSheet.cpp:533
 #, fuzzy
 #| msgid "&Remove Display"
 msgid "Remove this display?"
 msgstr "&Дисплейни олиб ташлаш"
 
-#: WorkSheet.cpp:529
+#: WorkSheet.cpp:534
 #, fuzzy
 #| msgid "&Remove Display"
 msgid "Remove Display"
 msgstr "&Дисплейни олиб ташлаш"
 
-#: WorkSheet.cpp:570
+#: WorkSheet.cpp:575
 msgid "Dummy"
 msgstr ""
 
