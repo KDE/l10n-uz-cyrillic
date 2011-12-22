@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-21 04:48+0100\n"
+"POT-Creation-Date: 2011-12-22 04:52+0100\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2714,6 +2714,16 @@ msgstr "Натижа"
 msgid "Validation for cell %1 failed"
 msgstr ""
 
+#: KCValueConverter.cpp:273
+#, fuzzy
+msgid "True"
+msgstr "Сеш"
+
+#: KCValueConverter.cpp:274
+#, fuzzy
+msgid "False"
+msgstr "Ёлғон"
+
 #: KCValue.cpp:601
 msgctxt "Error: circular formula dependency"
 msgid "#CIRCLE!"
@@ -2764,16 +2774,6 @@ msgstr ""
 msgctxt "Error: wrong (number of) function argument(s)"
 msgid "#VALUE!"
 msgstr ""
-
-#: KCValueConverter.cpp:273
-#, fuzzy
-msgid "True"
-msgstr "Сеш"
-
-#: KCValueConverter.cpp:274
-#, fuzzy
-msgid "False"
-msgstr "Ёлғон"
 
 #: KCValueFormatter.cpp:509 KCValueFormatter.cpp:515
 msgid "PM"
@@ -3753,54 +3753,54 @@ msgstr "Кўпайтириш"
 msgid "Division"
 msgstr "Бўлиш"
 
+#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, m_replaceSubtotals)
+#: rc.cpp:403
+msgid "&Replace current Subtotals"
+msgstr ""
+
+#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, m_pageBreak)
+#: rc.cpp:406
+msgid "&Page break between groups"
+msgstr ""
+
+#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, m_summaryBelow)
+#: rc.cpp:409
+msgid "&Summary below data"
+msgstr ""
+
+#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, m_summaryOnly)
+#: rc.cpp:412
+msgid "Summary &only"
+msgstr "&Фақат ҳисобот"
+
+#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreBox)
+#: rc.cpp:415
+msgid "&Ignore empty cells when looking for changes"
+msgstr "Ўзгаришларга текширилганда бўш катакларга &эътибор берилмасин"
+
 #. i18n: file: dialogs/SubtotalWidget.ui:35
 #. i18n: ectx: property (text), widget (QLabel, m_eachChangeLabel)
-#: rc.cpp:403
+#: rc.cpp:418
 msgid "At each change in:"
 msgstr ""
 
 #. i18n: file: dialogs/SubtotalWidget.ui:45
 #. i18n: ectx: property (text), widget (QLabel, m_useFunctionLabel)
-#: rc.cpp:406
+#: rc.cpp:421
 #, fuzzy
 msgid "Use function:"
 msgstr "Функцияни қўйиш"
 
 #. i18n: file: dialogs/SubtotalWidget.ui:55
 #. i18n: ectx: property (text), widget (QLabel, m_addSubtotalToLabel)
-#: rc.cpp:409
+#: rc.cpp:424
 msgid "Add Subtotal to:"
 msgstr ""
-
-#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:35
-#. i18n: ectx: property (text), widget (QCheckBox, m_replaceSubtotals)
-#: rc.cpp:412
-msgid "&Replace current Subtotals"
-msgstr ""
-
-#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:48
-#. i18n: ectx: property (text), widget (QCheckBox, m_pageBreak)
-#: rc.cpp:415
-msgid "&Page break between groups"
-msgstr ""
-
-#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:55
-#. i18n: ectx: property (text), widget (QCheckBox, m_summaryBelow)
-#: rc.cpp:418
-msgid "&Summary below data"
-msgstr ""
-
-#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:68
-#. i18n: ectx: property (text), widget (QCheckBox, m_summaryOnly)
-#: rc.cpp:421
-msgid "Summary &only"
-msgstr "&Фақат ҳисобот"
-
-#. i18n: file: dialogs/SubtotalsDetailsWidget.ui:75
-#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreBox)
-#: rc.cpp:424
-msgid "&Ignore empty cells when looking for changes"
-msgstr "Ўзгаришларга текширилганда бўш катакларга &эътибор берилмасин"
 
 #. i18n: file: part/dialogs/FileOptionsWidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, FileOptionsWidget)
@@ -16517,33 +16517,6 @@ msgstr ""
 msgid "Parsing error in sheet-style XML file %1."
 msgstr ""
 
-#: dialogs/CSVDialog.cpp:64 dialogs/CSVDialog.cpp:174
-#, fuzzy
-msgid "Inserting From Clipboard"
-msgstr "&Хотирадан..."
-
-#: dialogs/CSVDialog.cpp:67
-msgid "There is no data in the clipboard."
-msgstr ""
-
-#: dialogs/CSVDialog.cpp:71
-msgid "There is no usable data in the clipboard."
-msgstr ""
-
-#: dialogs/CSVDialog.cpp:75 dialogs/CSVDialog.cpp:176
-#, fuzzy
-msgid "Inserting Text File"
-msgstr "Катакни қўйиш"
-
-#: dialogs/CSVDialog.cpp:85 dialogs/CSVDialog.cpp:178
-#, fuzzy
-msgid "Text to Columns"
-msgstr "Устунлар қўшиш"
-
-#: dialogs/CSVDialog.cpp:112
-msgid "Cannot open input file."
-msgstr ""
-
 #: dialogs/CharacterSelectDialog.cpp:48 dialogs/CharacterSelectDialog.cpp:66
 #, fuzzy
 #| msgid "S&pecial Character..."
@@ -16739,6 +16712,33 @@ msgid ""
 "The range\n"
 "%1\n"
 " is malformed"
+msgstr ""
+
+#: dialogs/CSVDialog.cpp:64 dialogs/CSVDialog.cpp:174
+#, fuzzy
+msgid "Inserting From Clipboard"
+msgstr "&Хотирадан..."
+
+#: dialogs/CSVDialog.cpp:67
+msgid "There is no data in the clipboard."
+msgstr ""
+
+#: dialogs/CSVDialog.cpp:71
+msgid "There is no usable data in the clipboard."
+msgstr ""
+
+#: dialogs/CSVDialog.cpp:75 dialogs/CSVDialog.cpp:176
+#, fuzzy
+msgid "Inserting Text File"
+msgstr "Катакни қўйиш"
+
+#: dialogs/CSVDialog.cpp:85 dialogs/CSVDialog.cpp:178
+#, fuzzy
+msgid "Text to Columns"
+msgstr "Устунлар қўшиш"
+
+#: dialogs/CSVDialog.cpp:112
+msgid "Cannot open input file."
 msgstr ""
 
 #: dialogs/DatabaseDialog.cpp:74 dialogs/DatabaseDialog.cpp:559
