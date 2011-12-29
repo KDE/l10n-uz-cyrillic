@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-13 03:45+0200\n"
+"POT-Creation-Date: 2011-12-29 05:30+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -119,11 +119,11 @@ msgstr ""
 msgid "Timothée Lacroix "
 msgstr ""
 
-#: part/SCDocument.cpp:382
+#: part/SCDocument.cpp:384
 msgid "Installation Error"
 msgstr ""
 
-#: part/SCEndOfSlideShowPage.cpp:68
+#: part/SCEndOfSlideShowPage.cpp:67
 msgid "End of presentation. Click to exit."
 msgstr "Намойиш тугади. Чиқиш учун сичқонча билан истаган жойга босинг."
 
@@ -386,6 +386,18 @@ msgstr ""
 msgid "Blackscreen on the presentation..."
 msgstr ""
 
+#. i18n: file: part/showcase.rc:91
+#. i18n: ectx: ToolBar (editToolBar)
+#: part/commands/SCSetCustomSlideShowsCommand.cpp:33 rc.cpp:119
+msgid "Edit"
+msgstr ""
+
+#: part/commands/SCAnimationCreateCommand.cpp:33
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgid "Create shape animation"
+msgstr "HTML намойишни яратиш"
+
 #: part/commands/SCPageEffectSetCommand.cpp:38
 #, fuzzy
 #| msgid "Change Image Effect"
@@ -403,18 +415,6 @@ msgstr "Расм &эффекти:"
 #| msgid "Image &effect:"
 msgid "Delete page effect"
 msgstr "Расм &эффекти:"
-
-#. i18n: file: part/showcase.rc:91
-#. i18n: ectx: ToolBar (editToolBar)
-#: part/commands/SCSetCustomSlideShowsCommand.cpp:33 rc.cpp:119
-msgid "Edit"
-msgstr ""
-
-#: part/commands/SCAnimationCreateCommand.cpp:33
-#, fuzzy
-#| msgid "Create HTML Presentation"
-msgid "Create shape animation"
-msgstr "HTML намойишни яратиш"
 
 #: part/dockers/SCPageLayoutDocker.cpp:46
 #, fuzzy
@@ -436,16 +436,6 @@ msgstr ""
 #: part/tools/SCPlaceholderToolFactory.cpp:28
 msgid "Layout Tool"
 msgstr ""
-
-#: part/tools/SCPageEffectDocker.cpp:57
-msgid "No Effect"
-msgstr "Эффектсиз"
-
-#: part/tools/SCPageEffectDocker.cpp:80
-#, fuzzy
-#| msgid " seconds"
-msgid " sec"
-msgstr " сония"
 
 #: part/tools/SCAnimationTool.cpp:69
 #, fuzzy
@@ -472,6 +462,16 @@ msgstr "HTML намойишни яратиш"
 msgid "Edit Shape"
 msgstr "Шакл"
 
+#: part/tools/SCPageEffectDocker.cpp:57
+msgid "No Effect"
+msgstr "Эффектсиз"
+
+#: part/tools/SCPageEffectDocker.cpp:80
+#, fuzzy
+#| msgid " seconds"
+msgid " sec"
+msgstr " сония"
+
 #: part/ui/SCConfigurePresenterViewDialog.cpp:42
 #, kde-format
 msgid "Monitor %1 (primary)"
@@ -488,10 +488,23 @@ msgstr ""
 msgid "Configure Presenter View"
 msgstr "KPresenter мосламаси"
 
+#: part/ui/SCConfigureSlideShowDialog.cpp:40
+#: part/ui/SCConfigureSlideShowDialog.cpp:84
+#, fuzzy
+#| msgid "All Files"
+msgid "All slides"
+msgstr "Ҳамма файллар"
+
+#. i18n: file: part/ui/SCConfigureSlideShow.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, SCConfigureSlideShow)
+#: part/ui/SCConfigureSlideShowDialog.cpp:46 rc.cpp:47
+msgid "Configure Slide Show"
+msgstr "Намойиш мосламалари"
+
 #: part/ui/SCCustomSlideShowsDialog.cpp:82
 #: part/ui/SCCustomSlideShowsDialog.cpp:239
 #: part/ui/SCCustomSlideShowsDialog.cpp:257 part/ui/SCHtmlExportDialog.cpp:119
-#: part/SCViewModeSlidesSorter.cpp:337
+#: part/SCViewModeSlidesSorter.cpp:325
 #, kde-format
 msgid "Slide %1"
 msgstr "Слайд %1"
@@ -526,19 +539,6 @@ msgstr "Жорий слайдни олиб ташлашни истайсизми
 #| msgid "Save Configuration..."
 msgid "Confirm action"
 msgstr "Мосламаларни сақлаш..."
-
-#: part/ui/SCConfigureSlideShowDialog.cpp:40
-#: part/ui/SCConfigureSlideShowDialog.cpp:84
-#, fuzzy
-#| msgid "All Files"
-msgid "All slides"
-msgstr "Ҳамма файллар"
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SCConfigureSlideShow)
-#: part/ui/SCConfigureSlideShowDialog.cpp:46 rc.cpp:47
-msgid "Configure Slide Show"
-msgstr "Намойиш мосламалари"
 
 #: part/ui/SCHtmlExportDialog.cpp:44
 msgid "Html Export"

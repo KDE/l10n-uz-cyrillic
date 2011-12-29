@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-24 02:24+0100\n"
+"POT-Creation-Date: 2011-12-29 03:27+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -558,7 +558,7 @@ msgstr ""
 msgid "Script Manager"
 msgstr "Скриптлар бошқарувчиси"
 
-#: kokross/KoScriptManager.cpp:299 main/KoMainWindow.cpp:554
+#: kokross/KoScriptManager.cpp:299 main/KoMainWindow.cpp:579
 #, fuzzy
 msgid "Save"
 msgstr "Тўлқин"
@@ -904,7 +904,7 @@ msgstr ""
 msgid "Import Slideshow"
 msgstr "Услубларни импорт қилиш"
 
-#: kopageapp/KoPAView.cpp:490 main/KoMainWindow.cpp:1179
+#: kopageapp/KoPAView.cpp:490 main/KoMainWindow.cpp:1204
 msgid "Import Document"
 msgstr "Ҳужжатни импорт қилиш"
 
@@ -926,7 +926,7 @@ msgctxt "(qtundo-format)"
 msgid "Change page layout"
 msgstr "Табуляцияни ўзгартириш"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1617
+#: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1645
 msgid "Document"
 msgstr "Ҳужжат"
 
@@ -1597,6 +1597,60 @@ msgstr "Матнни ўчириш"
 msgid "Line"
 msgstr "Атиргул"
 
+#: kotext/InsertTextReferenceAction.cpp:35
+#: kotext/InsertTextReferenceAction.cpp:63
+msgid "Text Reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:44
+msgid "Please create an index to reference first."
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:53
+msgid "Select the index you want to reference"
+msgstr ""
+
+#: kotext/KoFindStrategy.cpp:63
+#, kde-format
+msgid "Found 1 match"
+msgid_plural "Found %1 matches"
+msgstr[0] ""
+
+#: kotext/KoFindStrategy.cpp:63
+msgid "Found no match"
+msgstr ""
+
+#: kotext/InsertTextLocator.cpp:33
+msgid "Index Reference"
+msgstr ""
+
+#: kotext/KoReplaceStrategy.cpp:56
+msgid ""
+"Found no match\n"
+"\n"
+"No text was replaced"
+msgstr ""
+
+#: kotext/KoReplaceStrategy.cpp:59
+#, fuzzy, kde-format
+msgid "1 replacement made"
+msgid_plural "%1 replacements made"
+msgstr[0] "Матнни алмаштириш"
+
+#: kotext/KoReplaceStrategy.cpp:72
+#, fuzzy, kde-format
+#| msgctxt "We add the 1/2 char at the %1"
+#| msgid "Re&place 1/2... with %1..."
+msgid "Replace %1 with %2?"
+msgstr "&1/2...ни %1 белгига алмаштириш"
+
+#. i18n: file: widgets/KoCsvImportDialog.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
+#: kotext/KoTextEditor_p.h:86 kotext/KoTextEditor_p.h:123 rc.cpp:469
+#, fuzzy
+msgid "Format"
+msgstr "Санани кўриниши"
+
 #: kotext/KoTextEditor.cpp:135
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:372
 #: kotext/commands/DeleteCommand.cpp:192
@@ -1800,65 +1854,11 @@ msgstr "Боғни қўйиш"
 msgid "Add Citation"
 msgstr "Жойлашиши"
 
-#: kotext/KoTextEditor.cpp:2006
+#: kotext/KoTextEditor.cpp:2004
 #, fuzzy
 #| msgid "Change Borders"
 msgid "Line Break"
 msgstr "Чегараларни ўзгартириш"
-
-#: kotext/InsertTextReferenceAction.cpp:35
-#: kotext/InsertTextReferenceAction.cpp:63
-msgid "Text Reference"
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:44
-msgid "Please create an index to reference first."
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:53
-msgid "Select the index you want to reference"
-msgstr ""
-
-#: kotext/KoFindStrategy.cpp:63
-#, kde-format
-msgid "Found 1 match"
-msgid_plural "Found %1 matches"
-msgstr[0] ""
-
-#: kotext/KoFindStrategy.cpp:63
-msgid "Found no match"
-msgstr ""
-
-#: kotext/InsertTextLocator.cpp:33
-msgid "Index Reference"
-msgstr ""
-
-#: kotext/KoReplaceStrategy.cpp:56
-msgid ""
-"Found no match\n"
-"\n"
-"No text was replaced"
-msgstr ""
-
-#: kotext/KoReplaceStrategy.cpp:59
-#, fuzzy, kde-format
-msgid "1 replacement made"
-msgid_plural "%1 replacements made"
-msgstr[0] "Матнни алмаштириш"
-
-#: kotext/KoReplaceStrategy.cpp:72
-#, fuzzy, kde-format
-#| msgctxt "We add the 1/2 char at the %1"
-#| msgid "Re&place 1/2... with %1..."
-msgid "Replace %1 with %2?"
-msgstr "&1/2...ни %1 белгига алмаштириш"
-
-#. i18n: file: widgets/KoCsvImportDialog.ui:147
-#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:86 kotext/KoTextEditor_p.h:123 rc.cpp:469
-#, fuzzy
-msgid "Format"
-msgstr "Санани кўриниши"
 
 #: kotext/commands/DeleteTableColumnCommand.cpp:40
 #, fuzzy
@@ -2162,7 +2162,7 @@ msgid ""
 "document now?</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:489 main/KoMainWindow.cpp:719
+#: main/KoDocumentInfoDlg.cpp:489 main/KoMainWindow.cpp:744
 #, kde-format
 msgid "%1 (unknown file type)"
 msgstr "%1 (файлнинг тури номаълум)"
@@ -2227,7 +2227,7 @@ msgstr ""
 msgid "No"
 msgstr "Изоҳ"
 
-#: main/KoExistingDocumentPane.cpp:45 main/KoMainWindow.cpp:1177
+#: main/KoExistingDocumentPane.cpp:45 main/KoMainWindow.cpp:1202
 #: main/KoOpenPane.cpp:358 main/KoOpenPane.cpp:362
 msgid "Open Document"
 msgstr "Ҳужжатни очиш"
@@ -2338,7 +2338,7 @@ msgstr ""
 "Бу ҳужжатнинг авто-сақланган нусхаси мавжуд.\n"
 "Уни очишни истайсизми?"
 
-#: main/KoDocument.cpp:1389 main/KoDocument.cpp:1744 main/KoMainWindow.cpp:597
+#: main/KoDocument.cpp:1389 main/KoDocument.cpp:1744 main/KoMainWindow.cpp:622
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "%1 файли мавжуд эмас."
@@ -2464,13 +2464,13 @@ msgid ""
 "an old version."
 msgstr ""
 
-#: main/KoDocument.cpp:2122 main/KoMainWindow.cpp:1102
+#: main/KoDocument.cpp:2122 main/KoMainWindow.cpp:1127
 #: pigment/resources/KoColorSet.cpp:198
 #, fuzzy
 msgid "Untitled"
 msgstr "Сарлавҳа"
 
-#: main/KoDocument.cpp:2125 main/KoMainWindow.cpp:1105
+#: main/KoDocument.cpp:2125 main/KoMainWindow.cpp:1130
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -2586,17 +2586,17 @@ msgstr ""
 msgid "Dockers"
 msgstr ""
 
-#: main/KoMainWindow.cpp:548
+#: main/KoMainWindow.cpp:573
 #, fuzzy
 msgid "(write protected)"
 msgstr "Файлни яратиш"
 
-#: main/KoMainWindow.cpp:552
+#: main/KoMainWindow.cpp:577
 #, kde-format
 msgid "Save as %1"
 msgstr "%1 сифатида сақлаш"
 
-#: main/KoMainWindow.cpp:727
+#: main/KoMainWindow.cpp:752
 #, kde-format
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
@@ -2605,11 +2605,11 @@ msgstr ""
 "<qt>Ҳужжатни %1 сифатида сақлаш натижасида баъзи форматлаш йўқолиши мумкин."
 "<p>Бунга қарамасдан юқоридаги форматга сақлашни истайсизми?</qt>"
 
-#: main/KoMainWindow.cpp:730
+#: main/KoMainWindow.cpp:755
 msgid "Confirm Save"
 msgstr "Сақлашни тасдиқлаш"
 
-#: main/KoMainWindow.cpp:739
+#: main/KoMainWindow.cpp:764
 #, kde-format
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
@@ -2619,24 +2619,24 @@ msgstr ""
 "мумкин.<p>Бунга қарамасдан юқоридаги форматга экспорт қилишни истайсизми?</"
 "qt>"
 
-#: main/KoMainWindow.cpp:742
+#: main/KoMainWindow.cpp:767
 msgid "Confirm Export"
 msgstr "Экспорт қилишни тасдиқлаш"
 
-#: main/KoMainWindow.cpp:743
+#: main/KoMainWindow.cpp:768
 #, fuzzy
 msgid "Export"
 msgstr "&Экспорт қилиш"
 
-#: main/KoMainWindow.cpp:826
+#: main/KoMainWindow.cpp:851
 msgid "Save Document As"
 msgstr "Бошқа ҳужжат сифатида сақлаш"
 
-#: main/KoMainWindow.cpp:828
+#: main/KoMainWindow.cpp:853
 msgid "Export Document As"
 msgstr "Ҳужжатни экспорт қилиш"
 
-#: main/KoMainWindow.cpp:886 main/KoMainWindow.cpp:1325
+#: main/KoMainWindow.cpp:911 main/KoMainWindow.cpp:1350
 msgid ""
 "A document with this name already exists.\n"
 "Do you want to overwrite it?"
@@ -2644,46 +2644,46 @@ msgstr ""
 "Ҳудди шундай номли ҳужжат аллақачон мавжуд.\n"
 "Уни алмаштиришни истайсизми?"
 
-#: main/KoMainWindow.cpp:888 main/KoMainWindow.cpp:1327
-#: main/KoMainWindow.cpp:1657
+#: main/KoMainWindow.cpp:913 main/KoMainWindow.cpp:1352
+#: main/KoMainWindow.cpp:1685
 #, fuzzy
 msgid "Warning"
 msgstr "чизма"
 
-#: main/KoMainWindow.cpp:1319
+#: main/KoMainWindow.cpp:1344
 #, fuzzy
 #| msgid "E&xport..."
 msgid "Export to PDF"
 msgstr "&Экспорт қилиш"
 
-#: main/KoMainWindow.cpp:1359 main/KoUndoStackAction.cpp:36
+#: main/KoMainWindow.cpp:1384 main/KoUndoStackAction.cpp:36
 #: main/KoUndoStackAction.cpp:52 kundo2/kundo2stack.cpp:1093
 msgid "Undo"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1360 main/KoUndoStackAction.cpp:44
+#: main/KoMainWindow.cpp:1385 main/KoUndoStackAction.cpp:44
 #: main/KoUndoStackAction.cpp:52 kundo2/kundo2stack.cpp:1074
 #, fuzzy
 #| msgid "Red"
 msgid "Redo"
 msgstr "Қизил"
 
-#: main/KoMainWindow.cpp:1549
+#: main/KoMainWindow.cpp:1577
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "%1 асбоблар панелини кўрсатиш"
 
-#: main/KoMainWindow.cpp:1551
+#: main/KoMainWindow.cpp:1579
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "%1 асбоблар панелини бекитиш"
 
-#: main/KoMainWindow.cpp:1625
+#: main/KoMainWindow.cpp:1653
 #, kde-format
 msgid "Document - %1"
 msgstr "Ҳужжат - %1"
 
-#: main/KoMainWindow.cpp:1655
+#: main/KoMainWindow.cpp:1683
 #, fuzzy
 #| msgid ""
 #| "You will lose all your changes!\n"
