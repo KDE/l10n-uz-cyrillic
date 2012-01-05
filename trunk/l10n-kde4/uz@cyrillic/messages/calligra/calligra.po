@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-03 03:22+0100\n"
+"POT-Creation-Date: 2012-01-05 02:59+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -57,9 +57,13 @@ msgstr "Намунани яратиш"
 msgid "A simple path shape"
 msgstr ""
 
-#: flake/svg/SvgShapeFactory.cpp:35
-msgid "Embedded svg shape"
-msgstr ""
+#: flake/KoShapeController.cpp:70 kotext/InsertTextReferenceAction.cpp:63
+#: kotext/InsertVariableAction.cpp:58
+#: main/rdf/InsertSemanticObjectCreateAction.cpp:59
+#: main/rdf/InsertSemanticObjectReferenceAction.cpp:64
+#, fuzzy, kde-format
+msgid "%1 Options"
+msgstr "Қоидадан ташқари ҳолат"
 
 #: flake/KoShapePaste.cpp:168
 #, fuzzy
@@ -67,17 +71,13 @@ msgctxt "(qtundo-format)"
 msgid "Paste Shapes"
 msgstr "Намунани яратиш"
 
-#: flake/KoShapeController.cpp:70 kotext/InsertTextReferenceAction.cpp:63
-#: kotext/InsertVariableAction.cpp:58
-#: main/rdf/InsertSemanticObjectReferenceAction.cpp:64
-#: main/rdf/InsertSemanticObjectCreateAction.cpp:59
-#, fuzzy, kde-format
-msgid "%1 Options"
-msgstr "Қоидадан ташқари ҳолат"
-
 #: flake/KoToolManager.cpp:379
 #, kde-format
 msgid "Active tool: %1"
+msgstr ""
+
+#: flake/svg/SvgShapeFactory.cpp:35
+msgid "Embedded svg shape"
 msgstr ""
 
 #: flake/commands/KoConnectionShapeTypeCommand.cpp:31
@@ -184,6 +184,10 @@ msgctxt "(qtundo-format)"
 msgid "Separate paths"
 msgstr "Андоза йўл"
 
+#: flake/commands/KoPathShapeMarkerCommand.cpp:34
+msgid "Set marker"
+msgstr ""
+
 #: flake/commands/KoShapeAlignCommand.cpp:84
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -204,6 +208,13 @@ msgstr "Сония"
 msgctxt "(qtundo-format)"
 msgid "Set border"
 msgstr ""
+
+#: flake/commands/KoShapeClipCommand.cpp:70
+#: flake/commands/KoShapeClipCommand.cpp:86
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Clip Shape"
+msgstr "Тўлқин"
 
 #: flake/commands/KoShapeCreateCommand.cpp:52
 #, fuzzy
@@ -298,6 +309,18 @@ msgctxt "(qtundo-format)"
 msgid "Set opacity"
 msgstr "Скрипт"
 
+#: flake/commands/KoShapeUnclipCommand.cpp:123
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Unclip Shape"
+msgstr "Чапга текислаш"
+
+#: flake/commands/KoShapeUnclipCommand.cpp:132
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Unclip Shapes"
+msgstr "Чапга текислаш"
+
 #: flake/commands/KoShapeUngroupCommand.cpp:57
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -322,34 +345,6 @@ msgctxt "(qtundo-format)"
 msgid "Remove subpath"
 msgstr "Гуруҳни олиб ташлаш"
 
-#: flake/commands/KoShapeClipCommand.cpp:70
-#: flake/commands/KoShapeClipCommand.cpp:86
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Clip Shape"
-msgstr "Тўлқин"
-
-#: flake/commands/KoShapeUnclipCommand.cpp:123
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Unclip Shape"
-msgstr "Чапга текислаш"
-
-#: flake/commands/KoShapeUnclipCommand.cpp:132
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Unclip Shapes"
-msgstr "Чапга текислаш"
-
-#: flake/commands/KoPathShapeMarkerCommand.cpp:34
-msgid "Set marker"
-msgstr ""
-
-#: flake/tools/KoCreatePathToolFactory.cpp:33
-#, fuzzy
-msgid "Create Path"
-msgstr "Намунани яратиш"
-
 #: flake/tools/KoCreatePathTool.cpp:374 flake/tools/KoPathTool.cpp:185
 msgid "Snapping"
 msgstr ""
@@ -362,6 +357,11 @@ msgstr ""
 #, fuzzy
 msgid "Angle Constraints"
 msgstr "Текислашни ўзгартириш"
+
+#: flake/tools/KoCreatePathToolFactory.cpp:33
+#, fuzzy
+msgid "Create Path"
+msgstr "Намунани яратиш"
 
 #: flake/tools/KoCreateShapesToolFactory.cpp:33
 #, fuzzy
@@ -379,16 +379,6 @@ msgstr "Циан"
 msgctxt "(qtundo-format)"
 msgid "Change Segment"
 msgstr "Текислашни ўзгартириш"
-
-#: flake/tools/KoPathToolFactory.cpp:29
-#, fuzzy
-msgid "Path editing tool"
-msgstr "Умумий таҳрирлаш вақти:"
-
-#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
-#: widgets/KoZoomController.cpp:39
-msgid "Zoom"
-msgstr ""
 
 #: flake/tools/KoPathTool.cpp:90
 #, fuzzy
@@ -478,6 +468,16 @@ msgstr ""
 
 #: flake/tools/KoPathTool.cpp:613
 msgid "Press B to break path at selected segments."
+msgstr ""
+
+#: flake/tools/KoPathToolFactory.cpp:29
+#, fuzzy
+msgid "Path editing tool"
+msgstr "Умумий таҳрирлаш вақти:"
+
+#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
+#: widgets/KoZoomController.cpp:39
+msgid "Zoom"
 msgstr ""
 
 #: kokross/KoScriptManager.cpp:177
@@ -635,296 +635,90 @@ msgstr "Скриптлар бошқарувчиси"
 msgid "Execute Script File"
 msgstr "Скрипт файлини ишга тушириш"
 
-#: kopageapp/KoPAPageThumbnailModel.cpp:67 kopageapp/KoPADocumentModel.cpp:172
+#: kopageapp/KoPADocumentModel.cpp:172 kopageapp/KoPAPageThumbnailModel.cpp:67
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "Slide %1"
 msgstr "%1 ойнасини бекитиш"
 
-#: kopageapp/KoPAPageThumbnailModel.cpp:69
+#: kopageapp/KoPADocumentModel.cpp:174
 #, fuzzy, kde-format
-msgid "Page %1"
+msgid "Page  %1"
 msgstr "Сана:"
 
-#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:35
+#: kopageapp/KoPADocumentModel.cpp:178
+#: kopageapp/KoPADocumentStructureDocker.cpp:121
 #, fuzzy
-#| msgid "Change List Type"
-msgctxt "(qtundo-format)"
-msgid "Change master slide"
-msgstr "Рўйхатнинг турини ўзгартириш"
+msgid "Layer"
+msgstr "Қизил"
 
-#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:38
+#: kopageapp/KoPADocumentModel.cpp:181
 #, fuzzy
-#| msgid "Change List Type"
-msgctxt "(qtundo-format)"
-msgid "Change master page"
-msgstr "Рўйхатнинг турини ўзгартириш"
+#| msgid "Group:"
+msgid "Group"
+msgstr "Гуруҳ:"
 
-#: kopageapp/commands/KoPAChangePageLayoutCommand.cpp:33
+#: kopageapp/KoPADocumentModel.cpp:184
 #, fuzzy
-#| msgid "Page Layout"
-msgctxt "(qtundo-format)"
-msgid "Set Page Layout"
-msgstr "Бет мосламалари"
+msgid "Shape"
+msgstr "Тўлқин"
 
-#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:31
+#: kopageapp/KoPADocumentModel.cpp:270
 #, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Display master background"
-msgstr "Сония"
+#| msgid "Paste Text"
+msgid "Rename Slide"
+msgstr "Матнни қўйиш"
 
-#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:35
+#: kopageapp/KoPADocumentModel.cpp:273
 #, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Display slide background"
-msgstr "Сония"
+msgid "Rename Page"
+msgstr "Матнни ўчириш"
 
-#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:38
+#: kopageapp/KoPADocumentModel.cpp:277
 #, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Display page background"
-msgstr "Сония"
-
-#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:31
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Show master shapes"
+msgid "Rename Layer"
 msgstr "Намунани яратиш"
 
-#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:34
+#: kopageapp/KoPADocumentModel.cpp:313
+#: kopageapp/KoPADocumentStructureDocker.cpp:116
 #, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Hide master shapes"
-msgstr "Намунани яратиш"
+#| msgid "Size:"
+msgid "Slide"
+msgstr "Ўлчами:"
 
-#: kopageapp/commands/KoPAPageInsertCommand.cpp:37
+#: kopageapp/KoPADocumentModel.cpp:316
 #, fuzzy
-#| msgid "Insert Text"
-msgctxt "(qtundo-format)"
-msgid "Insert slide"
-msgstr "Матнни қўйиш"
-
-#: kopageapp/commands/KoPAPageInsertCommand.cpp:40
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Insert page"
-msgstr "Матнни қўйиш"
-
-#: kopageapp/commands/KoPAPageMoveCommand.cpp:58
-#, fuzzy
-#| msgid "Paste Text"
-msgctxt "(qtundo-format)"
-msgid "Move slide"
-msgid_plural "Move slides"
-msgstr[0] "Матнни қўйиш"
-
-#: kopageapp/commands/KoPAPageMoveCommand.cpp:61
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Move page"
-msgid_plural "Move pages"
-msgstr[0] "Матнни ўчириш"
-
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:39
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:63
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete slide"
-msgid_plural "Delete slides"
-msgstr[0] "Матнни ўчириш"
-
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:42
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:66
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete page"
-msgid_plural "Delete pages"
-msgstr[0] "Матнни ўчириш"
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:41
-msgid "Select a master slide design:"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:42
-#, fuzzy
-#| msgid "Paste Text"
-msgid "Master Slide"
-msgstr "Матнни қўйиш"
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:44
-msgid "Select a master page design:"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:45
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:111
-#, fuzzy
-#| msgid "Paste Text"
-msgid "Master Page"
-msgstr "Матнни қўйиш"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:35
-#, fuzzy
-#| msgid "Confirm Save"
-msgid "Configure"
-msgstr "Сақлашни тасдиқлаш"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:40
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:41
-#: main/config/KoConfigMiscPage.cpp:78 pigment/KoCompositeOp.cpp:42
-#: pigment/KoCompositeOpRegistry.cpp:36
-msgid "Misc"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:45
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:46
-#: main/config/KoConfigGridPage.cpp:65
-#, fuzzy
-#| msgid "Show %1"
-msgid "Grid"
-msgstr "%1 ойнасини кўрсатиш"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:52
-#, fuzzy
-#| msgid "Document"
-msgctxt "@title:tab Document settings page"
-msgid "Document"
-msgstr "Ҳужжат"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:53
-#: main/config/KoConfigDocumentPage.cpp:58
-#, fuzzy
-#| msgid "Document Subject"
-msgid "Document Settings"
-msgstr "Ҳужжатнинг мавзуси"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:30
-#, fuzzy
-msgid "Background editing tool"
-msgstr "Умумий таҳрирлаш вақти:"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:105
-#, fuzzy
-#| msgid "Background color:"
-msgid "Background Tool"
-msgstr "Орқа фоннинг ранги:"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:107
-msgid "Use the styles docker to manipulate the background."
-msgstr ""
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:94
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change background image"
-msgstr "Сония"
-
-#: kopageapp/KoPAView.cpp:311 main/KoToolBoxFactory.cpp:37
-#, fuzzy
-msgid "Tools"
-msgstr "Андоза ранг"
-
-#: kopageapp/KoPAView.cpp:348
-#, fuzzy
-msgid "D&elete"
-msgstr "Матнни ўчириш"
-
-#: kopageapp/KoPAView.cpp:359
-msgid "Snap to Grid"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:369
-msgid "Show Master Pages"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:373
-msgid "Show Rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:375
-msgid "Show/hide the view's rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:379
-#, fuzzy
-msgid "Insert Page"
-msgstr "Матнни қўйиш"
-
-#: kopageapp/KoPAView.cpp:381 kopageapp/KoPAView.cpp:382
-msgid "Insert a new page after the current one"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:385
-#, fuzzy
-#| msgid "Company Name"
-msgid "Copy Page"
-msgstr "Ташкилотнинг номи"
-
-#: kopageapp/KoPAView.cpp:387 kopageapp/KoPAView.cpp:388
-msgid "Copy the current page"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:391
-#, fuzzy
-msgid "Delete Page"
-msgstr "Матнни ўчириш"
-
-#: kopageapp/KoPAView.cpp:394 kopageapp/KoPAView.cpp:395
-#, fuzzy
-msgid "Delete the current page"
-msgstr "Матнни ўчириш"
-
-#: kopageapp/KoPAView.cpp:398
-#, fuzzy
-#| msgid "Paste Text"
-msgid "Master Page..."
-msgstr "Матнни қўйиш"
-
-#: kopageapp/KoPAView.cpp:402
-msgid "Page Layout..."
-msgstr "Бет мосламалари..."
-
-#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:57
-#. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: kopageapp/KoPAView.cpp:411 rc.cpp:316
-msgid "Variable"
+#| msgid "Variable"
+msgid "Visible"
 msgstr "Ўзгарувчи"
 
-#: kopageapp/KoPAView.cpp:416
+#: kopageapp/KoPADocumentModel.cpp:317
 #, fuzzy
-#| msgid "Import Document"
-msgid "Import Document..."
-msgstr "Ҳужжатни импорт қилиш"
+#| msgid "Loaded"
+msgid "Locked"
+msgstr "Юкланган"
 
-#: kopageapp/KoPAView.cpp:420
-msgid "Configure..."
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:487
-#, fuzzy
-msgid "Import Slideshow"
-msgstr "Услубларни импорт қилиш"
-
-#: kopageapp/KoPAView.cpp:490 main/KoMainWindow.cpp:1204
-msgid "Import Document"
-msgstr "Ҳужжатни импорт қилиш"
-
-#: kopageapp/KoPAView.cpp:519 kopageapp/KoPAView.cpp:523
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open\n"
-#| "%1"
-msgid ""
-"Could not import\n"
-"%1"
-msgstr ""
-"%1\n"
-"файлини очиб бўлмади."
-
-#: kopageapp/KoPAView.cpp:636
+#: kopageapp/KoPADocumentModel.cpp:525 kopageapp/KoPADocumentModel.cpp:546
 #, fuzzy
 msgctxt "(qtundo-format)"
-msgid "Change page layout"
-msgstr "Табуляцияни ўзгартириш"
+msgid "Reparent shapes"
+msgstr "Матнни ўчириш"
+
+#: kopageapp/KoPADocumentModel.cpp:667
+#, fuzzy
+msgid "&Move Here"
+msgstr "Матнни ўчириш"
+
+#: kopageapp/KoPADocumentModel.cpp:671
+#, fuzzy
+#| msgid "Green"
+msgid "&Copy Here"
+msgstr "Яшил"
+
+#: kopageapp/KoPADocumentModel.cpp:675
+#, fuzzy
+msgid "C&ancel"
+msgstr "Белги услубини ўзгартириш"
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1645
 msgid "Document"
@@ -942,24 +736,11 @@ msgstr "Янги сатр қўшиш"
 msgid "Add a new page or layer"
 msgstr "Янги сатр қўшиш"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:116
-#: kopageapp/KoPADocumentModel.cpp:313
-#, fuzzy
-#| msgid "Size:"
-msgid "Slide"
-msgstr "Ўлчами:"
-
 #: kopageapp/KoPADocumentStructureDocker.cpp:119
 #: widgets/KoPageLayoutDialog.cpp:50
 #, fuzzy
 msgid "Page"
 msgstr "Бетга мослаш"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:121
-#: kopageapp/KoPADocumentModel.cpp:178
-#, fuzzy
-msgid "Layer"
-msgstr "Қизил"
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:128
 #: kopageapp/KoPADocumentStructureDocker.cpp:644
@@ -1050,9 +831,9 @@ msgstr "Бошқа"
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:647
 #: koreport/wrtembed/KoReportDesigner.cpp:833
+#: pigment/KoCompositeOpRegistry.cpp:86
 #: pigment/compositeops/KoCompositeOpCopy.h:37
 #: pigment/compositeops/KoCompositeOpCopy2.h:45
-#: pigment/KoCompositeOpRegistry.cpp:86
 #, fuzzy
 msgid "Copy"
 msgstr "Ташкилот"
@@ -1063,6 +844,11 @@ msgstr "Ташкилот"
 #| msgid "Date"
 msgid "Paste"
 msgstr "Сана"
+
+#: kopageapp/KoPAPageThumbnailModel.cpp:69
+#, fuzzy, kde-format
+msgid "Page %1"
+msgstr "Сана:"
 
 #: kopageapp/KoPAPastePage.cpp:131
 #, fuzzy
@@ -1080,77 +866,291 @@ msgid "Paste Page"
 msgid_plural "Paste Pages"
 msgstr[0] "Матнни қўйиш"
 
-#: kopageapp/KoPADocumentModel.cpp:174
-#, fuzzy, kde-format
-msgid "Page  %1"
-msgstr "Сана:"
-
-#: kopageapp/KoPADocumentModel.cpp:181
+#: kopageapp/KoPAView.cpp:311 main/KoToolBoxFactory.cpp:37
 #, fuzzy
-#| msgid "Group:"
-msgid "Group"
-msgstr "Гуруҳ:"
+msgid "Tools"
+msgstr "Андоза ранг"
 
-#: kopageapp/KoPADocumentModel.cpp:184
+#: kopageapp/KoPAView.cpp:348
 #, fuzzy
-msgid "Shape"
-msgstr "Тўлқин"
+msgid "D&elete"
+msgstr "Матнни ўчириш"
 
-#: kopageapp/KoPADocumentModel.cpp:270
+#: kopageapp/KoPAView.cpp:359
+msgid "Snap to Grid"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:369
+msgid "Show Master Pages"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:373
+msgid "Show Rulers"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:375
+msgid "Show/hide the view's rulers"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:379
 #, fuzzy
-#| msgid "Paste Text"
-msgid "Rename Slide"
+msgid "Insert Page"
 msgstr "Матнни қўйиш"
 
-#: kopageapp/KoPADocumentModel.cpp:273
+#: kopageapp/KoPAView.cpp:381 kopageapp/KoPAView.cpp:382
+msgid "Insert a new page after the current one"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:385
 #, fuzzy
-msgid "Rename Page"
+#| msgid "Company Name"
+msgid "Copy Page"
+msgstr "Ташкилотнинг номи"
+
+#: kopageapp/KoPAView.cpp:387 kopageapp/KoPAView.cpp:388
+msgid "Copy the current page"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:391
+#, fuzzy
+msgid "Delete Page"
 msgstr "Матнни ўчириш"
 
-#: kopageapp/KoPADocumentModel.cpp:277
+#: kopageapp/KoPAView.cpp:394 kopageapp/KoPAView.cpp:395
 #, fuzzy
-msgid "Rename Layer"
-msgstr "Намунани яратиш"
+msgid "Delete the current page"
+msgstr "Матнни ўчириш"
 
-#: kopageapp/KoPADocumentModel.cpp:316
+#: kopageapp/KoPAView.cpp:398
 #, fuzzy
-#| msgid "Variable"
-msgid "Visible"
+#| msgid "Paste Text"
+msgid "Master Page..."
+msgstr "Матнни қўйиш"
+
+#: kopageapp/KoPAView.cpp:402
+msgid "Page Layout..."
+msgstr "Бет мосламалари..."
+
+#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:57
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: kopageapp/KoPAView.cpp:411 rc.cpp:442
+msgid "Variable"
 msgstr "Ўзгарувчи"
 
-#: kopageapp/KoPADocumentModel.cpp:317
+#: kopageapp/KoPAView.cpp:416
 #, fuzzy
-#| msgid "Loaded"
-msgid "Locked"
-msgstr "Юкланган"
+#| msgid "Import Document"
+msgid "Import Document..."
+msgstr "Ҳужжатни импорт қилиш"
 
-#: kopageapp/KoPADocumentModel.cpp:525 kopageapp/KoPADocumentModel.cpp:546
+#: kopageapp/KoPAView.cpp:420
+msgid "Configure..."
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:487
+#, fuzzy
+msgid "Import Slideshow"
+msgstr "Услубларни импорт қилиш"
+
+#: kopageapp/KoPAView.cpp:490 main/KoMainWindow.cpp:1204
+msgid "Import Document"
+msgstr "Ҳужжатни импорт қилиш"
+
+#: kopageapp/KoPAView.cpp:519 kopageapp/KoPAView.cpp:523
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open\n"
+#| "%1"
+msgid ""
+"Could not import\n"
+"%1"
+msgstr ""
+"%1\n"
+"файлини очиб бўлмади."
+
+#: kopageapp/KoPAView.cpp:636
 #, fuzzy
 msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr "Матнни ўчириш"
+msgid "Change page layout"
+msgstr "Табуляцияни ўзгартириш"
 
-#: kopageapp/KoPADocumentModel.cpp:667
+#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:35
 #, fuzzy
-msgid "&Move Here"
-msgstr "Матнни ўчириш"
+#| msgid "Change List Type"
+msgctxt "(qtundo-format)"
+msgid "Change master slide"
+msgstr "Рўйхатнинг турини ўзгартириш"
 
-#: kopageapp/KoPADocumentModel.cpp:671
+#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:38
 #, fuzzy
-#| msgid "Green"
-msgid "&Copy Here"
-msgstr "Яшил"
+#| msgid "Change List Type"
+msgctxt "(qtundo-format)"
+msgid "Change master page"
+msgstr "Рўйхатнинг турини ўзгартириш"
 
-#: kopageapp/KoPADocumentModel.cpp:675
+#: kopageapp/commands/KoPAChangePageLayoutCommand.cpp:33
 #, fuzzy
-msgid "C&ancel"
-msgstr "Белги услубини ўзгартириш"
+#| msgid "Page Layout"
+msgctxt "(qtundo-format)"
+msgid "Set Page Layout"
+msgstr "Бет мосламалари"
 
-#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:24
-#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:31
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Display master background"
+msgstr "Сония"
+
+#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Display slide background"
+msgstr "Сония"
+
+#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Display page background"
+msgstr "Сония"
+
+#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:31
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Show master shapes"
+msgstr "Намунани яратиш"
+
+#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Hide master shapes"
+msgstr "Намунани яратиш"
+
+#: kopageapp/commands/KoPAPageDeleteCommand.cpp:39
+#: kopageapp/commands/KoPAPageDeleteCommand.cpp:63
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete slide"
+msgid_plural "Delete slides"
+msgstr[0] "Матнни ўчириш"
+
+#: kopageapp/commands/KoPAPageDeleteCommand.cpp:42
+#: kopageapp/commands/KoPAPageDeleteCommand.cpp:66
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete page"
+msgid_plural "Delete pages"
+msgstr[0] "Матнни ўчириш"
+
+#: kopageapp/commands/KoPAPageInsertCommand.cpp:37
+#, fuzzy
+#| msgid "Insert Text"
+msgctxt "(qtundo-format)"
+msgid "Insert slide"
+msgstr "Матнни қўйиш"
+
+#: kopageapp/commands/KoPAPageInsertCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert page"
+msgstr "Матнни қўйиш"
+
+#: kopageapp/commands/KoPAPageMoveCommand.cpp:58
+#, fuzzy
+#| msgid "Paste Text"
+msgctxt "(qtundo-format)"
+msgid "Move slide"
+msgid_plural "Move slides"
+msgstr[0] "Матнни қўйиш"
+
+#: kopageapp/commands/KoPAPageMoveCommand.cpp:61
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move page"
+msgid_plural "Move pages"
+msgstr[0] "Матнни ўчириш"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:35
+#, fuzzy
+#| msgid "Confirm Save"
+msgid "Configure"
+msgstr "Сақлашни тасдиқлаш"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:40
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:41
+#: main/config/KoConfigMiscPage.cpp:78 pigment/KoCompositeOp.cpp:42
+#: pigment/KoCompositeOpRegistry.cpp:36
+msgid "Misc"
+msgstr ""
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:45
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:46
+#: main/config/KoConfigGridPage.cpp:65
+#, fuzzy
+#| msgid "Show %1"
+msgid "Grid"
+msgstr "%1 ойнасини кўрсатиш"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:52
+#, fuzzy
+#| msgid "Document"
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "Ҳужжат"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:53
+#: main/config/KoConfigDocumentPage.cpp:58
+#, fuzzy
+#| msgid "Document Subject"
+msgid "Document Settings"
+msgstr "Ҳужжатнинг мавзуси"
+
+#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:41
+msgid "Select a master slide design:"
+msgstr ""
+
+#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:42
+#, fuzzy
+#| msgid "Paste Text"
+msgid "Master Slide"
+msgstr "Матнни қўйиш"
+
+#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:44
+msgid "Select a master page design:"
+msgstr ""
+
+#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:45
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:111
+#, fuzzy
+#| msgid "Paste Text"
+msgid "Master Page"
+msgstr "Матнни қўйиш"
+
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:105
+#, fuzzy
+#| msgid "Background color:"
+msgid "Background Tool"
+msgstr "Орқа фоннинг ранги:"
+
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:107
+msgid "Use the styles docker to manipulate the background."
+msgstr ""
+
+#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:30
+#, fuzzy
+msgid "Background editing tool"
+msgstr "Умумий таҳрирлаш вақти:"
+
+#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:94
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change background image"
+msgstr "Сония"
+
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: koreport/common/KoReportItemBase.cpp:28 rc.cpp:298 rc.cpp:349
+#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: koreport/common/KoReportItemBase.cpp:28 rc.cpp:403 rc.cpp:427
 #, fuzzy
 #| msgid "Name:"
 msgid "Name"
@@ -1327,7 +1327,7 @@ msgstr "Шрифт:"
 #: koreport/items/field/KoReportItemField.cpp:102
 #: koreport/items/label/KoReportItemLabel.cpp:104
 #: koreport/items/text/KoReportItemText.cpp:129
-#: widgets/KoUniColorChooser.cpp:418 widgets/KoColorPopupAction.cpp:85
+#: widgets/KoColorPopupAction.cpp:85 widgets/KoUniColorChooser.cpp:418
 msgid "Opacity"
 msgstr ""
 
@@ -1398,42 +1398,6 @@ msgstr "Қизил"
 #, fuzzy
 msgid "Text"
 msgstr "Матнни қўшиш"
-
-#: koreport/wrtembed/KoReportDesignerItemBase.cpp:124
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "<data-source>: <object>"
-msgid "%1: %2"
-msgstr "%1%"
-
-#: koreport/wrtembed/reportpropertiesbutton.cpp:27
-msgid ""
-"A button that allows a report's surface to be selected, allowing its "
-"properties to be seen."
-msgstr ""
-
-#: koreport/wrtembed/reportsection.cpp:95
-#, fuzzy
-msgid "Detail"
-msgstr "&Андоза"
-
-#: koreport/wrtembed/sectioneditor.cpp:279
-msgid "Ascending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:280
-msgid "Descending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:302
-#: koreport/wrtembed/sectioneditor.cpp:343
-msgid "Error Encountered"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:303
-#: koreport/wrtembed/sectioneditor.cpp:344
-msgid "Unable to add a new group because its name would not be unique"
-msgstr ""
 
 #: koreport/wrtembed/KoReportDesigner.cpp:495
 msgid "Page Header (Any)"
@@ -1597,6 +1561,46 @@ msgstr "Матнни ўчириш"
 msgid "Line"
 msgstr "Атиргул"
 
+#: koreport/wrtembed/KoReportDesignerItemBase.cpp:124
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "<data-source>: <object>"
+msgid "%1: %2"
+msgstr "%1%"
+
+#: koreport/wrtembed/reportpropertiesbutton.cpp:27
+msgid ""
+"A button that allows a report's surface to be selected, allowing its "
+"properties to be seen."
+msgstr ""
+
+#: koreport/wrtembed/reportsection.cpp:95
+#, fuzzy
+msgid "Detail"
+msgstr "&Андоза"
+
+#: koreport/wrtembed/sectioneditor.cpp:279
+msgid "Ascending"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:280
+msgid "Descending"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:302
+#: koreport/wrtembed/sectioneditor.cpp:343
+msgid "Error Encountered"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:303
+#: koreport/wrtembed/sectioneditor.cpp:344
+msgid "Unable to add a new group because its name would not be unique"
+msgstr ""
+
+#: kotext/InsertTextLocator.cpp:33
+msgid "Index Reference"
+msgstr ""
+
 #: kotext/InsertTextReferenceAction.cpp:35
 #: kotext/InsertTextReferenceAction.cpp:63
 msgid "Text Reference"
@@ -1620,10 +1624,6 @@ msgstr[0] ""
 msgid "Found no match"
 msgstr ""
 
-#: kotext/InsertTextLocator.cpp:33
-msgid "Index Reference"
-msgstr ""
-
 #: kotext/KoReplaceStrategy.cpp:56
 msgid ""
 "Found no match\n"
@@ -1644,12 +1644,22 @@ msgstr[0] "Матнни алмаштириш"
 msgid "Replace %1 with %2?"
 msgstr "&1/2...ни %1 белгига алмаштириш"
 
-#. i18n: file: widgets/KoCsvImportDialog.ui:147
-#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:86 kotext/KoTextEditor_p.h:123 rc.cpp:469
+#: kotext/KoText.cpp:30
+msgctxt "Underline Style"
+msgid "None"
+msgstr "Йўқ"
+
+#: kotext/KoText.cpp:31
 #, fuzzy
-msgid "Format"
-msgstr "Санани кўриниши"
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "Битта"
+
+#: kotext/KoText.cpp:32
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "Иккита"
 
 #: kotext/KoTextEditor.cpp:135
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:372
@@ -1860,6 +1870,27 @@ msgstr "Жойлашиши"
 msgid "Line Break"
 msgstr "Чегараларни ўзгартириш"
 
+#. i18n: file: widgets/KoCsvImportDialog.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
+#: kotext/KoTextEditor_p.h:86 kotext/KoTextEditor_p.h:123 rc.cpp:469
+#, fuzzy
+msgid "Format"
+msgstr "Санани кўриниши"
+
+#: kotext/commands/ChangeListCommand.cpp:83
+#: kotext/commands/ChangeListCommand.cpp:96
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "Белги услубини ўзгартириш"
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
+#: kotext/commands/DeleteCommand.cpp:47
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "Матнни ўчириш"
+
 #: kotext/commands/DeleteTableColumnCommand.cpp:40
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -1907,13 +1938,6 @@ msgctxt "(qtundo-format)"
 msgid "Change List Numbering"
 msgstr "Рўйхатнинг турини ўзгартириш"
 
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
-#: kotext/commands/DeleteCommand.cpp:47
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete"
-msgstr "Матнни ўчириш"
-
 #: kotext/commands/TextPasteCommand.cpp:61
 #, fuzzy
 #| msgid "Shadow:"
@@ -1927,60 +1951,45 @@ msgctxt "(qtundo-format)"
 msgid "Paste"
 msgstr "Сана"
 
-#: kotext/commands/ChangeListCommand.cpp:83
-#: kotext/commands/ChangeListCommand.cpp:96
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change List"
-msgstr "Белги услубини ўзгартириш"
-
 #: kotext/styles/KoStyleManager.cpp:95 kotext/styles/KoStyleManager.cpp:100
 #, fuzzy
 msgid "Default"
 msgstr "&Андоза"
 
-#: kotext/KoText.cpp:30
-msgctxt "Underline Style"
-msgid "None"
-msgstr "Йўқ"
-
-#: kotext/KoText.cpp:31
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Single"
-msgstr "Битта"
-
-#: kotext/KoText.cpp:32
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Double"
-msgstr "Иккита"
-
-#: main/KoPrintingDialog.cpp:147
-#, fuzzy
-#| msgid "Last Printing"
-msgid "Printing done"
-msgstr "Охирги босиб чиқариш"
-
-#: main/KoPrintingDialog.cpp:148
-#, fuzzy
-#| msgid "Colors"
-msgid "Close"
-msgstr "Ранглар"
-
-#: main/KoPrintingDialog.cpp:168
-msgid "Stopped"
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:841
+#, kde-format
+msgid "Undo %1"
 msgstr ""
 
-#: main/KoPrintingDialog.cpp:210
-msgid "Stop"
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:841
+msgctxt "Default text for undo action"
+msgid "Undo"
 msgstr ""
 
-#: main/KoDocumentSectionDelegate.cpp:511
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:867
 #, fuzzy, kde-format
-#| msgid "%1%"
-msgid "%1 %"
-msgstr "%1%"
+#| msgid "Red"
+msgid "Redo %1"
+msgstr "Қизил"
+
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:867
+#, fuzzy
+#| msgid "Red"
+msgctxt "Default text for redo action"
+msgid "Redo"
+msgstr "Қизил"
+
+#: kundo2/kundo2stack.cpp:1074 main/KoMainWindow.cpp:1385
+#: main/KoUndoStackAction.cpp:44 main/KoUndoStackAction.cpp:52
+#, fuzzy
+#| msgid "Red"
+msgid "Redo"
+msgstr "Қизил"
+
+#: kundo2/kundo2stack.cpp:1093 main/KoMainWindow.cpp:1384
+#: main/KoUndoStackAction.cpp:36 main/KoUndoStackAction.cpp:52
+msgid "Undo"
+msgstr ""
 
 #: main/KoApplication.cpp:105
 msgid "Only print and exit"
@@ -2049,216 +2058,6 @@ msgstr ""
 
 #: main/KoDockerManager.cpp:68
 msgid "Tool Bars Docker"
-msgstr ""
-
-#: main/KoDocumentInfo.cpp:51
-msgid "Unknown"
-msgstr "Номаълум"
-
-#: main/KoDocumentInfoDlg.cpp:90 main/KoMainWindow.cpp:274
-msgid "Document Information"
-msgstr "Ҳужжат ҳақида маълумот"
-
-#: main/KoDocumentInfoDlg.cpp:105 main/KoDocumentInfoDlg.cpp:106
-msgid "General"
-msgstr "Умумий"
-
-#: main/KoDocumentInfoDlg.cpp:124 main/KoDocumentInfoDlg.cpp:125
-msgid "Author"
-msgstr "Муаллиф"
-
-#: main/KoDocumentInfoDlg.cpp:140 main/KoDocumentInfoDlg.cpp:141
-#, fuzzy
-#| msgid "Red"
-msgid "Rdf"
-msgstr "Қизил"
-
-#: main/KoDocumentInfoDlg.cpp:189
-msgid "Use ';' (Example: Office;KDE;Calligra)"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:219 main/KoDocumentInfoDlg.cpp:361
-msgid "This document will be decrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:221 main/KoDocumentInfoDlg.cpp:363
-#, fuzzy
-msgid "Do not decrypt"
-msgstr "Таърифи:"
-
-#: main/KoDocumentInfoDlg.cpp:224 main/KoDocumentInfoDlg.cpp:366
-msgid "This document is encrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:226 main/KoDocumentInfoDlg.cpp:368
-#, fuzzy
-msgid "D&ecrypt"
-msgstr "Таърифи:"
-
-#: main/KoDocumentInfoDlg.cpp:231 main/KoDocumentInfoDlg.cpp:373
-msgid "This document will be encrypted."
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:233 main/KoDocumentInfoDlg.cpp:375
-#, fuzzy
-msgid "Do not encrypt"
-msgstr "Таърифи:"
-
-#: main/KoDocumentInfoDlg.cpp:236 main/KoDocumentInfoDlg.cpp:378
-#, fuzzy
-msgid "This document is not encrypted"
-msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:301
-#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#: main/KoDocumentInfoDlg.cpp:238 main/KoDocumentInfoDlg.cpp:380 rc.cpp:409
-msgid "&Encrypt"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:242
-#, fuzzy
-msgid "This document does not support encryption"
-msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
-
-#: main/KoDocumentInfoDlg.cpp:411
-msgid ""
-"No personal contact data set, please use the "
-"option                                     \"Set as Personal Contact Data\" "
-"from the \"Edit\"     menu in KAddressbook to set one."
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:453
-msgid ""
-"<qt>Decrypting the document will remove the password protection from it."
-"<p>Do you still want to decrypt the file?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:455
-#, fuzzy
-msgid "Confirm Decrypt"
-msgstr "Экспорт қилишни тасдиқлаш"
-
-#: main/KoDocumentInfoDlg.cpp:456
-#, fuzzy
-msgid "Decrypt"
-msgstr "Таърифи:"
-
-#: main/KoDocumentInfoDlg.cpp:467
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"decryption, please save the document.</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:469 main/KoDocumentInfoDlg.cpp:477
-#: main/KoDocumentInfoDlg.cpp:510 main/KoDocumentInfoDlg.cpp:518
-#, fuzzy
-msgid "Save Document"
-msgstr "Бошқа ҳужжат сифатида сақлаш"
-
-#: main/KoDocumentInfoDlg.cpp:475
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"decryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:489 main/KoMainWindow.cpp:744
-#, kde-format
-msgid "%1 (unknown file type)"
-msgstr "%1 (файлнинг тури номаълум)"
-
-#: main/KoDocumentInfoDlg.cpp:492
-#, kde-format
-msgid ""
-"<qt>The document is currently saved as %1. The document needs to be changed "
-"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
-"file to OASIS OpenDocument?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:494
-#, fuzzy
-msgid "Change Filetype"
-msgstr "Рўйхатнинг турини ўзгартириш"
-
-#: main/KoDocumentInfoDlg.cpp:495
-#, fuzzy
-msgid "Change"
-msgstr "Белги услубини ўзгартириш"
-
-#: main/KoDocumentInfoDlg.cpp:508
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"encryption, please save the document.</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:516
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"encryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-
-#: main/KoFileDialog.cpp:98
-#, kde-format
-msgid "%1 (Uncompressed XML Files)"
-msgstr "%1 (қисилмаган XML-файллари)"
-
-#: main/KoFileDialog.cpp:100
-#, kde-format
-msgid "%1 (Flat XML File)"
-msgstr "%1 (қисилмаган XML-файли)"
-
-#: main/KoFileDialog.cpp:102
-#, kde-format
-msgid "%1 (Encrypted)"
-msgstr ""
-
-#: main/KoFileDialog.cpp:120
-#, kde-format
-msgid "%1 (%2 Compatible)"
-msgstr "%1 (%2 билан мос)"
-
-#: main/KoDocumentSectionToolTip.cpp:50
-msgid "Yes"
-msgstr ""
-
-#: main/KoDocumentSectionToolTip.cpp:50
-#, fuzzy
-msgid "No"
-msgstr "Изоҳ"
-
-#: main/KoExistingDocumentPane.cpp:45 main/KoMainWindow.cpp:1202
-#: main/KoOpenPane.cpp:358 main/KoOpenPane.cpp:362
-msgid "Open Document"
-msgstr "Ҳужжатни очиш"
-
-#: main/KoFilterManager.cpp:230 main/KoFilterManager.cpp:239
-msgid "Could not export file."
-msgstr "Файлни экспорт қилиб бўлмади."
-
-#: main/KoFilterManager.cpp:230 main/KoFilterManager.cpp:239
-msgid "Missing Export Filter"
-msgstr "Экспорт филтери етишмаяпти"
-
-#: main/KoFilterManager.cpp:528
-#, kde-format
-msgid ""
-"Could not import file of type\n"
-"%1"
-msgstr ""
-"%1\n"
-"турли файлни импорт қилиб бўлмади"
-
-#: main/KoFilterManager.cpp:530
-msgid "Missing Import Filter"
-msgstr "Импорт филтери етишмаяпти"
-
-#: main/KoFilterManager_p.cpp:43
-msgid "Choose Filter"
-msgstr "Филтерни танлаш"
-
-#: main/KoGridData.cpp:210
-msgid "Shows or hides grid"
 msgstr ""
 
 #: main/KoDocument.cpp:512
@@ -2545,6 +2344,304 @@ msgstr "чизма"
 msgid "Embedding Object"
 msgstr "Белгиланган объектлар сони"
 
+#: main/KoDocumentInfo.cpp:51
+msgid "Unknown"
+msgstr "Номаълум"
+
+#: main/KoDocumentInfoDlg.cpp:90 main/KoMainWindow.cpp:274
+msgid "Document Information"
+msgstr "Ҳужжат ҳақида маълумот"
+
+#: main/KoDocumentInfoDlg.cpp:105 main/KoDocumentInfoDlg.cpp:106
+msgid "General"
+msgstr "Умумий"
+
+#: main/KoDocumentInfoDlg.cpp:124 main/KoDocumentInfoDlg.cpp:125
+msgid "Author"
+msgstr "Муаллиф"
+
+#: main/KoDocumentInfoDlg.cpp:140 main/KoDocumentInfoDlg.cpp:141
+#, fuzzy
+#| msgid "Red"
+msgid "Rdf"
+msgstr "Қизил"
+
+#: main/KoDocumentInfoDlg.cpp:189
+msgid "Use ';' (Example: Office;KDE;Calligra)"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:219 main/KoDocumentInfoDlg.cpp:361
+msgid "This document will be decrypted"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:221 main/KoDocumentInfoDlg.cpp:363
+#, fuzzy
+msgid "Do not decrypt"
+msgstr "Таърифи:"
+
+#: main/KoDocumentInfoDlg.cpp:224 main/KoDocumentInfoDlg.cpp:366
+msgid "This document is encrypted"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:226 main/KoDocumentInfoDlg.cpp:368
+#, fuzzy
+msgid "D&ecrypt"
+msgstr "Таърифи:"
+
+#: main/KoDocumentInfoDlg.cpp:231 main/KoDocumentInfoDlg.cpp:373
+msgid "This document will be encrypted."
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:233 main/KoDocumentInfoDlg.cpp:375
+#, fuzzy
+msgid "Do not encrypt"
+msgstr "Таърифи:"
+
+#: main/KoDocumentInfoDlg.cpp:236 main/KoDocumentInfoDlg.cpp:378
+#, fuzzy
+msgid "This document is not encrypted"
+msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:301
+#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
+#: main/KoDocumentInfoDlg.cpp:238 main/KoDocumentInfoDlg.cpp:380 rc.cpp:239
+msgid "&Encrypt"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:242
+#, fuzzy
+msgid "This document does not support encryption"
+msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
+
+#: main/KoDocumentInfoDlg.cpp:411
+msgid ""
+"No personal contact data set, please use the "
+"option                                     \"Set as Personal Contact Data\" "
+"from the \"Edit\"     menu in KAddressbook to set one."
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:453
+msgid ""
+"<qt>Decrypting the document will remove the password protection from it."
+"<p>Do you still want to decrypt the file?</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:455
+#, fuzzy
+msgid "Confirm Decrypt"
+msgstr "Экспорт қилишни тасдиқлаш"
+
+#: main/KoDocumentInfoDlg.cpp:456
+#, fuzzy
+msgid "Decrypt"
+msgstr "Таърифи:"
+
+#: main/KoDocumentInfoDlg.cpp:467
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"decryption, please save the document.</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:469 main/KoDocumentInfoDlg.cpp:477
+#: main/KoDocumentInfoDlg.cpp:510 main/KoDocumentInfoDlg.cpp:518
+#, fuzzy
+msgid "Save Document"
+msgstr "Бошқа ҳужжат сифатида сақлаш"
+
+#: main/KoDocumentInfoDlg.cpp:475
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"decryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:489 main/KoMainWindow.cpp:744
+#, kde-format
+msgid "%1 (unknown file type)"
+msgstr "%1 (файлнинг тури номаълум)"
+
+#: main/KoDocumentInfoDlg.cpp:492
+#, kde-format
+msgid ""
+"<qt>The document is currently saved as %1. The document needs to be changed "
+"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
+"file to OASIS OpenDocument?</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:494
+#, fuzzy
+msgid "Change Filetype"
+msgstr "Рўйхатнинг турини ўзгартириш"
+
+#: main/KoDocumentInfoDlg.cpp:495
+#, fuzzy
+msgid "Change"
+msgstr "Белги услубини ўзгартириш"
+
+#: main/KoDocumentInfoDlg.cpp:508
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"encryption, please save the document.</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:516
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"encryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+
+#: main/KoDocumentSectionDelegate.cpp:511
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgid "%1 %"
+msgstr "%1%"
+
+#: main/KoDocumentSectionToolTip.cpp:50
+msgid "Yes"
+msgstr ""
+
+#: main/KoDocumentSectionToolTip.cpp:50
+#, fuzzy
+msgid "No"
+msgstr "Изоҳ"
+
+#: main/KoExistingDocumentPane.cpp:45 main/KoMainWindow.cpp:1202
+#: main/KoOpenPane.cpp:358 main/KoOpenPane.cpp:362
+msgid "Open Document"
+msgstr "Ҳужжатни очиш"
+
+#: main/KoFileDialog.cpp:98
+#, kde-format
+msgid "%1 (Uncompressed XML Files)"
+msgstr "%1 (қисилмаган XML-файллари)"
+
+#: main/KoFileDialog.cpp:100
+#, kde-format
+msgid "%1 (Flat XML File)"
+msgstr "%1 (қисилмаган XML-файли)"
+
+#: main/KoFileDialog.cpp:102
+#, kde-format
+msgid "%1 (Encrypted)"
+msgstr ""
+
+#: main/KoFileDialog.cpp:120
+#, kde-format
+msgid "%1 (%2 Compatible)"
+msgstr "%1 (%2 билан мос)"
+
+#: main/KoFilterManager.cpp:230 main/KoFilterManager.cpp:239
+msgid "Could not export file."
+msgstr "Файлни экспорт қилиб бўлмади."
+
+#: main/KoFilterManager.cpp:230 main/KoFilterManager.cpp:239
+msgid "Missing Export Filter"
+msgstr "Экспорт филтери етишмаяпти"
+
+#: main/KoFilterManager.cpp:528
+#, kde-format
+msgid ""
+"Could not import file of type\n"
+"%1"
+msgstr ""
+"%1\n"
+"турли файлни импорт қилиб бўлмади"
+
+#: main/KoFilterManager.cpp:530
+msgid "Missing Import Filter"
+msgstr "Импорт филтери етишмаяпти"
+
+#: main/KoFilterManager_p.cpp:43
+msgid "Choose Filter"
+msgstr "Филтерни танлаш"
+
+#: main/KoFindText.cpp:92
+msgid "Case Sensitive"
+msgstr ""
+
+#: main/KoFindText.cpp:92
+msgid "Match cases when searching"
+msgstr ""
+
+#: main/KoFindText.cpp:93
+msgid "Whole Words Only"
+msgstr ""
+
+#: main/KoFindText.cpp:93
+msgid "Match only whole words"
+msgstr ""
+
+#: main/KoFindToolbar.cpp:99
+#, fuzzy
+#| msgid "Field"
+msgctxt "Label for the Find text input box"
+msgid "Find:"
+msgstr "Майдон"
+
+#: main/KoFindToolbar.cpp:112
+#, fuzzy
+msgctxt "Next search result"
+msgid "Next"
+msgstr "Матнни қўшиш"
+
+#: main/KoFindToolbar.cpp:122
+#, fuzzy
+#| msgid "Preview:"
+msgctxt "Previous search result"
+msgid "Previous"
+msgstr "Кўриб чиқиш:"
+
+#: main/KoFindToolbar.cpp:131
+#, fuzzy
+msgctxt "Search options"
+msgid "Options"
+msgstr "Қоидадан ташқари ҳолат"
+
+#: main/KoFindToolbar.cpp:155
+#, fuzzy
+msgctxt "Label for the Replace text input box"
+msgid "Replace:"
+msgstr "&Алмаштириш:"
+
+#: main/KoFindToolbar.cpp:165
+#, fuzzy
+msgctxt "Replace the current match"
+msgid "Replace"
+msgstr "&Алмаштириш:"
+
+#: main/KoFindToolbar.cpp:171
+#, fuzzy
+msgctxt "Replace all found matches"
+msgid "Replace All"
+msgstr "&Алмаштириш:"
+
+#: main/KoFindToolbar.cpp:237
+#, fuzzy, kde-format
+#| msgid "No template found for: %1 "
+msgctxt "Total number of matches"
+msgid "1 match found"
+msgid_plural "%1 matches found"
+msgstr[0] "%1 учун ҳеч қандай намуна топилмади."
+
+#: main/KoFindToolbar.cpp:247
+#, fuzzy
+#| msgid "No template found for: %1 "
+msgid "No matches found"
+msgstr "%1 учун ҳеч қандай намуна топилмади."
+
+#: main/KoFindToolbar.cpp:253
+msgid "Search hit bottom, continuing from top."
+msgstr ""
+
+#: main/KoFindToolbar.cpp:255
+msgid "Search hit top, continuing from bottom."
+msgstr ""
+
+#: main/KoGridData.cpp:210
+msgid "Shows or hides grid"
+msgstr ""
+
 #: main/KoMainWindow.cpp:153
 #, fuzzy, kde-format
 msgid "%1 unsaved document (%2)"
@@ -2656,18 +2753,6 @@ msgstr "чизма"
 msgid "Export to PDF"
 msgstr "&Экспорт қилиш"
 
-#: main/KoMainWindow.cpp:1384 main/KoUndoStackAction.cpp:36
-#: main/KoUndoStackAction.cpp:52 kundo2/kundo2stack.cpp:1093
-msgid "Undo"
-msgstr ""
-
-#: main/KoMainWindow.cpp:1385 main/KoUndoStackAction.cpp:44
-#: main/KoUndoStackAction.cpp:52 kundo2/kundo2stack.cpp:1074
-#, fuzzy
-#| msgid "Red"
-msgid "Redo"
-msgstr "Қизил"
-
 #: main/KoMainWindow.cpp:1577
 #, kde-format
 msgid "Show %1 Toolbar"
@@ -2702,6 +2787,26 @@ msgstr "Яқинда очилган ҳужжатлар"
 #: main/KoOpenPane.cpp:272
 msgid "Custom Document"
 msgstr "Бошқа ҳужжат"
+
+#: main/KoPrintingDialog.cpp:147
+#, fuzzy
+#| msgid "Last Printing"
+msgid "Printing done"
+msgstr "Охирги босиб чиқариш"
+
+#: main/KoPrintingDialog.cpp:148
+#, fuzzy
+#| msgid "Colors"
+msgid "Close"
+msgstr "Ранглар"
+
+#: main/KoPrintingDialog.cpp:168
+msgid "Stopped"
+msgstr ""
+
+#: main/KoPrintingDialog.cpp:210
+msgid "Stop"
+msgstr ""
 
 #: main/KoRecentDocumentsPane.cpp:76
 msgid "Open This Document"
@@ -2745,7 +2850,7 @@ msgstr "Намунани яратиш"
 
 #. i18n: file: main/koDocumentInfoAuthorWidget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
-#: main/KoTemplateCreateDia.cpp:127 rc.cpp:412
+#: main/KoTemplateCreateDia.cpp:127 rc.cpp:242
 msgid "Name:"
 msgstr "Номи:"
 
@@ -2841,11 +2946,6 @@ msgstr "Ҳеч қандай расм йўқ."
 msgid "Use This Template"
 msgstr "Шу намунани ишлатиш"
 
-#: main/KoView.cpp:504
-#, fuzzy
-msgid "&New View"
-msgstr "Кўринишни &олиб ташлаш"
-
 #: main/KoToolDocker.cpp:222
 #, fuzzy
 msgid "Tool Options"
@@ -2900,9 +3000,212 @@ msgstr ""
 msgid "Date: %1"
 msgstr "Сана:"
 
+#: main/KoView.cpp:504
+#, fuzzy
+msgid "&New View"
+msgstr "Кўринишни &олиб ташлаш"
+
+#: main/config/KoConfigDocumentPage.cpp:75
+#, fuzzy
+#| msgid "Autosaving..."
+msgid "Auto save (min):"
+msgstr "Авто-сақланмоқда..."
+
+#: main/config/KoConfigDocumentPage.cpp:76
+#, fuzzy
+#| msgid "No date set"
+msgid "No auto save"
+msgstr "Сана кўрсатилмаган"
+
+#: main/config/KoConfigDocumentPage.cpp:77
+msgid "min"
+msgstr ""
+
+#: main/config/KoConfigDocumentPage.cpp:80
+#, fuzzy
+msgid "Create backup file"
+msgstr "Намунани яратиш"
+
+#: main/config/KoConfigGridPage.cpp:67
+#, fuzzy
+#| msgid "Show %1"
+msgid "Show grid:"
+msgstr "%1 ойнасини кўрсатиш"
+
+#: main/config/KoConfigGridPage.cpp:70
+msgid "Snap to grid:"
+msgstr ""
+
+#: main/config/KoConfigGridPage.cpp:73
+#, fuzzy
+#| msgid "&Background color:"
+msgid "Grid color:"
+msgstr "О&рқа фон ранги:"
+
+#: main/config/KoConfigGridPage.cpp:86
+#, fuzzy
+#| msgid "Line &Spacing"
+msgid "Spacing"
+msgstr "&Сатрлар орасидаги масофа"
+
+#: main/config/KoConfigGridPage.cpp:89
+#, fuzzy
+#| msgid "&Horizontal"
+msgctxt "Horizontal grid spacing"
+msgid "&Horizontal:"
+msgstr "&Энига"
+
+#: main/config/KoConfigGridPage.cpp:95
+#, fuzzy
+#| msgid "&Vertical"
+msgctxt "Vertical grid spacing"
+msgid "&Vertical:"
+msgstr "&Бўйига"
+
+#: main/config/KoConfigMiscPage.cpp:89
+#, fuzzy
+#| msgid "Unit:"
+msgid "Units:"
+msgstr "Бирлик:"
+
+#: main/config/KoConfigMiscPage.cpp:97
+msgid "Handle radius:"
+msgstr ""
+
+#: main/config/KoConfigMiscPage.cpp:105
+msgid "Grab sensitivity:"
+msgstr ""
+
+#: main/config/KoConfigMiscPage.cpp:113
+#, fuzzy
+#| msgid "Shadow:"
+msgid "Paste offset:"
+msgstr "Соя:"
+
+#: main/config/KoConfigMiscPage.cpp:122
+msgid "Paste at Cursor"
+msgstr ""
+
 #: main/rdf/InsertSemanticObjectReferenceAction.cpp:56
 msgid "Select the object you want to reference"
 msgstr ""
+
+#: main/rdf/KoDocumentRdf.cpp:903
+msgid "Reference"
+msgstr ""
+
+#: main/rdf/KoDocumentRdfEditWidget.cpp:274
+#, kde-format
+msgctxt "statement is an Rdf related term"
+msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
+msgid_plural ""
+"<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
+msgstr[0] ""
+
+#: main/rdf/KoDocumentRdfEditWidget.cpp:277
+msgctxt "statement is an Rdf related term"
+msgid "Discard invalid statements?"
+msgstr ""
+
+#: main/rdf/KoRdfCalendarEvent.cpp:161
+#, fuzzy
+#| msgctxt "color"
+#| msgid "Azure"
+msgid "Area"
+msgstr "Кўм-кўк"
+
+#: main/rdf/KoRdfCalendarEvent.cpp:162
+#, fuzzy
+#| msgid "Version"
+msgid "Region"
+msgstr "Версия"
+
+#: main/rdf/KoRdfCalendarEvent.cpp:403
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not save\n"
+#| "%1"
+msgid ""
+"Could not add entry\n"
+"%1"
+msgstr ""
+"%1\n"
+"файлини сақлаб бўлмади."
+
+#: main/rdf/KoRdfCalendarEvent.cpp:427
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not save\n"
+#| "%1"
+msgid ""
+"Could not save iCal file\n"
+"%1"
+msgstr ""
+"%1\n"
+"файлини сақлаб бўлмади."
+
+#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:42
+msgid "Calendar Event"
+msgstr ""
+
+#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:49
+#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:70
+#, fuzzy
+#| msgid "Add..."
+msgid "Edit..."
+msgstr "Қўшиш..."
+
+#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:52
+msgid "Import event to Calendar"
+msgstr ""
+
+#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:55
+msgid "Export event to iCal file..."
+msgstr ""
+
+#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:52
+#, fuzzy
+#| msgid "Document Information"
+msgid "Contact Information"
+msgstr "Ҳужжат ҳақида маълумот"
+
+#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:73
+#, fuzzy
+msgid "Import contact"
+msgstr "Ҳужжатни импорт қилиш"
+
+#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:76
+#, fuzzy
+#| msgid "E&xport..."
+msgid "Export as vcard..."
+msgstr "&Экспорт қилиш"
+
+#: main/rdf/KoRdfLocationTreeWidgetItem.cpp:42
+#, fuzzy
+#| msgid "Document Information"
+msgid "Location Information"
+msgstr "Ҳужжат ҳақида маълумот"
+
+#: main/rdf/KoRdfSemanticTree.cpp:49
+#, fuzzy
+#| msgctxt "color"
+#| msgid "Purple"
+msgid "People"
+msgstr "Тўқ қизил"
+
+#. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:240
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main/rdf/KoRdfSemanticTree.cpp:52 rc.cpp:349
+msgid "Events"
+msgstr ""
+
+#. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:256
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: main/rdf/KoRdfSemanticTree.cpp:55 rc.cpp:352
+#, fuzzy
+#| msgid "Location:"
+msgid "Locations"
+msgstr "Манзили:"
 
 #: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:112
 #, fuzzy
@@ -2933,33 +3236,6 @@ msgstr ""
 #, kde-format
 msgid "Edit %1"
 msgstr ""
-
-#: main/rdf/KoRdfLocationTreeWidgetItem.cpp:42
-#, fuzzy
-#| msgid "Document Information"
-msgid "Location Information"
-msgstr "Ҳужжат ҳақида маълумот"
-
-#: main/rdf/KoRdfSemanticTree.cpp:49
-#, fuzzy
-#| msgctxt "color"
-#| msgid "Purple"
-msgid "People"
-msgstr "Тўқ қизил"
-
-#. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:240
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: main/rdf/KoRdfSemanticTree.cpp:52 rc.cpp:262
-msgid "Events"
-msgstr ""
-
-#. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:256
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: main/rdf/KoRdfSemanticTree.cpp:55 rc.cpp:265
-#, fuzzy
-#| msgid "Location:"
-msgid "Locations"
-msgstr "Манзили:"
 
 #: main/rdf/KoSopranoTableModel.cpp:80
 msgid "Empty"
@@ -3015,259 +3291,6 @@ msgstr "Сана"
 
 #: main/rdf/KoSopranoTableModel.cpp:140
 msgid "Stored In"
-msgstr ""
-
-#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:52
-#, fuzzy
-#| msgid "Document Information"
-msgid "Contact Information"
-msgstr "Ҳужжат ҳақида маълумот"
-
-#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:70
-#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:49
-#, fuzzy
-#| msgid "Add..."
-msgid "Edit..."
-msgstr "Қўшиш..."
-
-#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:73
-#, fuzzy
-msgid "Import contact"
-msgstr "Ҳужжатни импорт қилиш"
-
-#: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:76
-#, fuzzy
-#| msgid "E&xport..."
-msgid "Export as vcard..."
-msgstr "&Экспорт қилиш"
-
-#: main/rdf/KoDocumentRdfEditWidget.cpp:274
-#, kde-format
-msgctxt "statement is an Rdf related term"
-msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
-msgid_plural ""
-"<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
-msgstr[0] ""
-
-#: main/rdf/KoDocumentRdfEditWidget.cpp:277
-msgctxt "statement is an Rdf related term"
-msgid "Discard invalid statements?"
-msgstr ""
-
-#: main/rdf/KoDocumentRdf.cpp:903
-msgid "Reference"
-msgstr ""
-
-#: main/rdf/KoRdfCalendarEvent.cpp:161
-#, fuzzy
-#| msgctxt "color"
-#| msgid "Azure"
-msgid "Area"
-msgstr "Кўм-кўк"
-
-#: main/rdf/KoRdfCalendarEvent.cpp:162
-#, fuzzy
-#| msgid "Version"
-msgid "Region"
-msgstr "Версия"
-
-#: main/rdf/KoRdfCalendarEvent.cpp:403
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not save\n"
-#| "%1"
-msgid ""
-"Could not add entry\n"
-"%1"
-msgstr ""
-"%1\n"
-"файлини сақлаб бўлмади."
-
-#: main/rdf/KoRdfCalendarEvent.cpp:427
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not save\n"
-#| "%1"
-msgid ""
-"Could not save iCal file\n"
-"%1"
-msgstr ""
-"%1\n"
-"файлини сақлаб бўлмади."
-
-#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:42
-msgid "Calendar Event"
-msgstr ""
-
-#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:52
-msgid "Import event to Calendar"
-msgstr ""
-
-#: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:55
-msgid "Export event to iCal file..."
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:75
-#, fuzzy
-#| msgid "Autosaving..."
-msgid "Auto save (min):"
-msgstr "Авто-сақланмоқда..."
-
-#: main/config/KoConfigDocumentPage.cpp:76
-#, fuzzy
-#| msgid "No date set"
-msgid "No auto save"
-msgstr "Сана кўрсатилмаган"
-
-#: main/config/KoConfigDocumentPage.cpp:77
-msgid "min"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:80
-#, fuzzy
-msgid "Create backup file"
-msgstr "Намунани яратиш"
-
-#: main/config/KoConfigMiscPage.cpp:89
-#, fuzzy
-#| msgid "Unit:"
-msgid "Units:"
-msgstr "Бирлик:"
-
-#: main/config/KoConfigMiscPage.cpp:97
-msgid "Handle radius:"
-msgstr ""
-
-#: main/config/KoConfigMiscPage.cpp:105
-msgid "Grab sensitivity:"
-msgstr ""
-
-#: main/config/KoConfigMiscPage.cpp:113
-#, fuzzy
-#| msgid "Shadow:"
-msgid "Paste offset:"
-msgstr "Соя:"
-
-#: main/config/KoConfigMiscPage.cpp:122
-msgid "Paste at Cursor"
-msgstr ""
-
-#: main/config/KoConfigGridPage.cpp:67
-#, fuzzy
-#| msgid "Show %1"
-msgid "Show grid:"
-msgstr "%1 ойнасини кўрсатиш"
-
-#: main/config/KoConfigGridPage.cpp:70
-msgid "Snap to grid:"
-msgstr ""
-
-#: main/config/KoConfigGridPage.cpp:73
-#, fuzzy
-#| msgid "&Background color:"
-msgid "Grid color:"
-msgstr "О&рқа фон ранги:"
-
-#: main/config/KoConfigGridPage.cpp:86
-#, fuzzy
-#| msgid "Line &Spacing"
-msgid "Spacing"
-msgstr "&Сатрлар орасидаги масофа"
-
-#: main/config/KoConfigGridPage.cpp:89
-#, fuzzy
-#| msgid "&Horizontal"
-msgctxt "Horizontal grid spacing"
-msgid "&Horizontal:"
-msgstr "&Энига"
-
-#: main/config/KoConfigGridPage.cpp:95
-#, fuzzy
-#| msgid "&Vertical"
-msgctxt "Vertical grid spacing"
-msgid "&Vertical:"
-msgstr "&Бўйига"
-
-#: main/KoFindToolbar.cpp:99
-#, fuzzy
-#| msgid "Field"
-msgctxt "Label for the Find text input box"
-msgid "Find:"
-msgstr "Майдон"
-
-#: main/KoFindToolbar.cpp:112
-#, fuzzy
-msgctxt "Next search result"
-msgid "Next"
-msgstr "Матнни қўшиш"
-
-#: main/KoFindToolbar.cpp:122
-#, fuzzy
-#| msgid "Preview:"
-msgctxt "Previous search result"
-msgid "Previous"
-msgstr "Кўриб чиқиш:"
-
-#: main/KoFindToolbar.cpp:131
-#, fuzzy
-msgctxt "Search options"
-msgid "Options"
-msgstr "Қоидадан ташқари ҳолат"
-
-#: main/KoFindToolbar.cpp:155
-#, fuzzy
-msgctxt "Label for the Replace text input box"
-msgid "Replace:"
-msgstr "&Алмаштириш:"
-
-#: main/KoFindToolbar.cpp:165
-#, fuzzy
-msgctxt "Replace the current match"
-msgid "Replace"
-msgstr "&Алмаштириш:"
-
-#: main/KoFindToolbar.cpp:171
-#, fuzzy
-msgctxt "Replace all found matches"
-msgid "Replace All"
-msgstr "&Алмаштириш:"
-
-#: main/KoFindToolbar.cpp:237
-#, fuzzy, kde-format
-#| msgid "No template found for: %1 "
-msgctxt "Total number of matches"
-msgid "1 match found"
-msgid_plural "%1 matches found"
-msgstr[0] "%1 учун ҳеч қандай намуна топилмади."
-
-#: main/KoFindToolbar.cpp:247
-#, fuzzy
-#| msgid "No template found for: %1 "
-msgid "No matches found"
-msgstr "%1 учун ҳеч қандай намуна топилмади."
-
-#: main/KoFindToolbar.cpp:253
-msgid "Search hit bottom, continuing from top."
-msgstr ""
-
-#: main/KoFindToolbar.cpp:255
-msgid "Search hit top, continuing from bottom."
-msgstr ""
-
-#: main/KoFindText.cpp:92
-msgid "Case Sensitive"
-msgstr ""
-
-#: main/KoFindText.cpp:92
-msgid "Match cases when searching"
-msgstr ""
-
-#: main/KoFindText.cpp:93
-msgid "Whole Words Only"
-msgstr ""
-
-#: main/KoFindText.cpp:93
-msgid "Match only whole words"
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:164
@@ -3667,529 +3690,12 @@ msgstr ""
 msgid "32 Bits Float"
 msgstr ""
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:48
-msgid "Clear"
-msgstr ""
-
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:121
-#: pigment/compositeops/KoCompositeOpSubtract.h:37
-#: pigment/compositeops/KoCompositeOps.h:101
-#, fuzzy
-msgid "Subtract"
-msgstr "Қисқача мазмуни"
-
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:193
-#: pigment/compositeops/KoCompositeOpMultiply.h:35
-#: pigment/compositeops/KoCompositeOps.h:103
-#: pigment/KoCompositeOpRegistry.cpp:44
-msgid "Multiply"
-msgstr ""
-
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:259
-#: pigment/colorspaces/KoAlphaColorSpace.h:189
-msgid "Alpha mask"
-msgstr ""
-
-#: pigment/colorspaces/KoAlphaColorSpace.h:140
-#: pigment/colorspaces/KoAlphaColorSpace.h:144
-#: pigment/colorspaces/KoAlphaColorSpace.h:148
-#: pigment/colorspaces/KoAlphaColorSpace.h:152
-#: pigment/colorspaces/KoAlphaColorSpace.h:156
-#: pigment/colorspaces/KoAlphaColorSpace.h:159
-#: pigment/colorspaces/KoAlphaColorSpace.h:162
-msgid "Undefined operation in the alpha color space"
-msgstr ""
-
-#: pigment/colorspaces/KoLabColorSpace.cpp:38
-#: pigment/colorspaces/KoLabColorSpace.h:72
-msgid "L*a*b* (16-bit integer/channel, unmanaged)"
-msgstr ""
-
-#: pigment/colorspaces/KoLabColorSpace.cpp:42
-#: pigment/compositeops/KoCompositeOps.h:164
-#: pigment/KoCompositeOpRegistry.cpp:109 widgets/KoUniColorChooser.cpp:201
-#, fuzzy
-msgid "Lightness"
-msgstr "Оч кулранг"
-
-#: pigment/colorspaces/KoRgbU16ColorSpace.cpp:40
-#: pigment/colorspaces/KoRgbU16ColorSpace.h:60
-msgid "RGB (16-bit integer/channel, unmanaged)"
-msgstr ""
-
-#: pigment/colorspaces/KoRgbU8ColorSpace.h:61
-#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:42
-msgid "RGB (8-bit integer/channel, unmanaged)"
-msgstr ""
-
-#: pigment/colorspaces/KoSimpleColorSpace.h:74
-#, kde-format
-msgid "Undefined operation in the %1 space"
-msgstr ""
-
-#: pigment/colorspaces/KoSimpleColorSpace.h:95
-#: pigment/colorspaces/KoSimpleColorSpace.h:100
-#: pigment/colorspaces/KoSimpleColorSpace.h:105
-#: pigment/colorspaces/KoSimpleColorSpace.h:110
-#: pigment/colorspaces/KoSimpleColorSpace.h:115
-#: pigment/colorspaces/KoSimpleColorSpace.h:119
-#: pigment/colorspaces/KoSimpleColorSpace.h:123
-#, kde-format
-msgid "Undefined operation in the %1 color space"
-msgstr ""
-
-#: pigment/colorspaces/KoSimpleColorSpaceEngine.cpp:68
-msgid "Simple Color Conversion Engine"
-msgstr ""
-
-#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:47
-#: widgets/KoUniColorChooser.cpp:159
-msgid "Blue"
-msgstr "Кўк"
-
-#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:48
-#: widgets/KoUniColorChooser.cpp:151
-msgid "Green"
-msgstr "Яшил"
-
-#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:49
-#: widgets/KoUniColorChooser.cpp:143
-msgid "Red"
-msgstr "Қизил"
-
-#: pigment/compositeops/KoCompositeOpDivide.h:36
-#: pigment/compositeops/KoCompositeOps.h:104
-#: pigment/KoCompositeOpRegistry.cpp:45
-msgid "Divide"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOpDodge.h:37
-#, fuzzy
-msgid "Dodge"
-msgstr "Тўқ кўк"
-
-#: pigment/compositeops/KoCompositeOpErase.h:40
-#: pigment/KoCompositeOpRegistry.cpp:72
-#, fuzzy
-msgid "Erase"
-msgstr "ёлғон"
-
-#: pigment/compositeops/KoCompositeOpHardlight.h:36
-#, fuzzy
-msgid "Hard light"
-msgstr "&Узунаси:"
-
-#: pigment/compositeops/KoCompositeOpOver.h:61
-#: pigment/KoCompositeOpRegistry.cpp:70 pigment/KoCompositeOpRegistry.cpp:133
-msgid "Normal"
-msgstr "Оддий"
-
-#: pigment/compositeops/KoCompositeOpOverlay.h:36
-#: pigment/compositeops/KoCompositeOps.h:76
-#: pigment/KoCompositeOpRegistry.cpp:71
-#, fuzzy
-msgid "Overlay"
-msgstr "Тагига чизилган"
-
-#: pigment/compositeops/KoCompositeOpScreen.h:36
-#: pigment/compositeops/KoCompositeOps.h:84
-#: pigment/KoCompositeOpRegistry.cpp:57
-msgid "Screen"
-msgstr "Экран"
-
-#: pigment/compositeops/KoCompositeOpSoftlight.h:39
-#, fuzzy
-msgid "Soft light"
-msgstr "Қатор:"
-
-#: pigment/compositeops/KoCompositeOpBurn.h:37
-#: pigment/KoCompositeOpRegistry.cpp:48
-#, fuzzy
-#| msgctxt "color"
-#| msgid "Brown"
-msgid "Burn"
-msgstr "Малла"
-
-#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
-#, fuzzy
-msgid "Inverse Subtract"
-msgstr "Қисқача мазмуни"
-
-#: pigment/compositeops/KoCompositeOpAlphaDarken.h:40
-msgid "Alpha darken"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOpDissolve.h:61
-#: pigment/KoCompositeOpRegistry.cpp:82
-msgid "Dissolve"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:77
-#: pigment/KoCompositeOpRegistry.cpp:75
-msgid "Grain Merge"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:78
-#: pigment/KoCompositeOpRegistry.cpp:76
-msgid "Grain Extract"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:79
-#: pigment/KoCompositeOpRegistry.cpp:74
-#, fuzzy
-msgid "Hard Mix"
-msgstr "&Узунаси:"
-
-#: pigment/compositeops/KoCompositeOps.h:80
-#: pigment/KoCompositeOpRegistry.cpp:79
-msgid "Geometric Mean"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:81
-#: pigment/KoCompositeOpRegistry.cpp:77
-#, fuzzy
-#| msgid "Variable"
-msgid "Parallel"
-msgstr "Ўзгарувчи"
-
-#: pigment/compositeops/KoCompositeOps.h:82
-#: pigment/KoCompositeOpRegistry.cpp:78
-msgid "Allanon"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:85
-#: pigment/KoCompositeOpRegistry.cpp:53
-#, fuzzy
-#| msgid "Bookmark name:"
-msgid "Color Dodge"
-msgstr "Хатчўпнинг номи:"
-
-#: pigment/compositeops/KoCompositeOps.h:86
-#: pigment/KoCompositeOpRegistry.cpp:54
-#, fuzzy
-#| msgid "Line width:"
-msgid "Linear Dodge"
-msgstr "Чизиқнинг эни:"
-
-#: pigment/compositeops/KoCompositeOps.h:87 pigment/KoCompositeOp.cpp:35
-#: pigment/KoCompositeOpRegistry.cpp:33 pigment/KoCompositeOpRegistry.cpp:55
-#, fuzzy
-msgid "Lighten"
-msgstr "Яшил"
-
-#: pigment/compositeops/KoCompositeOps.h:88
-#: pigment/KoCompositeOpRegistry.cpp:60
-#, fuzzy
-msgid "Hard Light"
-msgstr "&Узунаси:"
-
-#: pigment/compositeops/KoCompositeOps.h:89
-#: pigment/KoCompositeOpRegistry.cpp:61
-#, fuzzy
-msgid "Soft Light"
-msgstr "Қатор:"
-
-#: pigment/compositeops/KoCompositeOps.h:90
-#: pigment/KoCompositeOpRegistry.cpp:62
-#, fuzzy
-msgid "Gamma Light"
-msgstr "Яшил"
-
-#: pigment/compositeops/KoCompositeOps.h:91
-#: pigment/KoCompositeOpRegistry.cpp:59
-#, fuzzy
-msgid "Vivid Light"
-msgstr "Яшил"
-
-#: pigment/compositeops/KoCompositeOps.h:92
-#: pigment/KoCompositeOpRegistry.cpp:58
-#, fuzzy
-msgid "Pin Light"
-msgstr "Яшил"
-
-#: pigment/compositeops/KoCompositeOps.h:93
-#: pigment/KoCompositeOpRegistry.cpp:56
-#, fuzzy
-#| msgid "Line width:"
-msgid "Linear Light"
-msgstr "Чизиқнинг эни:"
-
-#: pigment/compositeops/KoCompositeOps.h:95
-#, fuzzy
-#| msgid "Color:"
-msgid "Color Burn"
-msgstr "Ранги:"
-
-#: pigment/compositeops/KoCompositeOps.h:96
-#: pigment/KoCompositeOpRegistry.cpp:49
-#, fuzzy
-#| msgid "Change Borders"
-msgid "Linear Burn"
-msgstr "Чегараларни ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:97 pigment/KoCompositeOp.cpp:36
-#: pigment/KoCompositeOpRegistry.cpp:32 pigment/KoCompositeOpRegistry.cpp:50
-#, fuzzy
-#| msgid "Date"
-msgid "Darken"
-msgstr "Сана"
-
-#: pigment/compositeops/KoCompositeOps.h:98
-#: pigment/KoCompositeOpRegistry.cpp:51
-msgid "Gamma Dark"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:100
-#: pigment/KoCompositeOpRegistry.cpp:42
-#, fuzzy
-#| msgid "Position"
-msgid "Addition"
-msgstr "Жойлашиши"
-
-#: pigment/compositeops/KoCompositeOps.h:102
-#, fuzzy
-msgid "Inversed-Subtract"
-msgstr "Қисқача мазмуни"
-
-#: pigment/compositeops/KoCompositeOps.h:106
-#: pigment/KoCompositeOpRegistry.cpp:68
-msgid "Arcus Tangent"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:107
-#: pigment/KoCompositeOpRegistry.cpp:64
-msgid "Difference"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:108
-#: pigment/KoCompositeOpRegistry.cpp:67
-msgid "Exclusion"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:109
-#: pigment/KoCompositeOpRegistry.cpp:65
-msgid "Equivalence"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:110
-msgid "Additive-Substractive"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:137
-#: pigment/KoCompositeOpRegistry.cpp:83
-#, fuzzy
-#| msgid "Company Name"
-msgid "Copy Red"
-msgstr "Ташкилотнинг номи"
-
-#: pigment/compositeops/KoCompositeOps.h:138
-#: pigment/KoCompositeOpRegistry.cpp:84
-#, fuzzy
-#| msgid "Green"
-msgid "Copy Green"
-msgstr "Яшил"
-
-#: pigment/compositeops/KoCompositeOps.h:139
-#: pigment/KoCompositeOpRegistry.cpp:85
-#, fuzzy
-#| msgid "Company Name"
-msgid "Copy Blue"
-msgstr "Ташкилотнинг номи"
-
-#: pigment/compositeops/KoCompositeOps.h:141 pigment/KoCompositeOp.cpp:30
-#: pigment/KoCompositeOpRegistry.cpp:88
+#: pigment/KoCompositeOp.cpp:30 pigment/KoCompositeOpRegistry.cpp:88
+#: pigment/compositeops/KoCompositeOps.h:141
 #, fuzzy
 #| msgid "Color:"
 msgid "Color"
 msgstr "Ранги:"
-
-#: pigment/compositeops/KoCompositeOps.h:142
-#: pigment/KoCompositeOpRegistry.cpp:89 widgets/KoUniColorChooser.cpp:116
-#, fuzzy
-msgid "Hue"
-msgstr "Ранг туси"
-
-#: pigment/compositeops/KoCompositeOps.h:143
-#: pigment/KoCompositeOpRegistry.cpp:90 widgets/KoUniColorChooser.cpp:125
-#, fuzzy
-msgid "Saturation"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:144
-#: pigment/KoCompositeOpRegistry.cpp:93
-#, fuzzy
-msgid "Increase Saturation"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:145
-#: pigment/KoCompositeOpRegistry.cpp:92
-#, fuzzy
-msgid "Decrease Saturation"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:146
-#: pigment/KoCompositeOpRegistry.cpp:91
-msgid "Luminosity"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:147
-#: pigment/KoCompositeOpRegistry.cpp:95
-#, fuzzy
-#| msgid "Change font size?"
-msgid "Increase Luminosity"
-msgstr "Шрифтнинг ўлчами ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:148
-#: pigment/KoCompositeOpRegistry.cpp:94
-#, fuzzy
-#| msgid "Change font size?"
-msgid "Decrease Luminosity"
-msgstr "Шрифтнинг ўлчами ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:150
-#: pigment/KoCompositeOpRegistry.cpp:97
-#, fuzzy
-#| msgid "Color:"
-msgid "Color HSI"
-msgstr "Ранги:"
-
-#: pigment/compositeops/KoCompositeOps.h:151
-#: pigment/KoCompositeOpRegistry.cpp:98
-#, fuzzy
-msgid "Hue HSI"
-msgstr "Ранг туси"
-
-#: pigment/compositeops/KoCompositeOps.h:152
-#: pigment/KoCompositeOpRegistry.cpp:99
-#, fuzzy
-msgid "Saturation HSI"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:153
-#: pigment/KoCompositeOpRegistry.cpp:102
-#, fuzzy
-msgid "Increase Saturation HSI"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:154
-#: pigment/KoCompositeOpRegistry.cpp:101
-#, fuzzy
-msgid "Decrease Saturation HSI"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:155
-#: pigment/KoCompositeOpRegistry.cpp:100
-msgid "Intensity"
-msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:156
-#: pigment/KoCompositeOpRegistry.cpp:104
-#, fuzzy
-msgid "Increase Intensity"
-msgstr "Текислашни ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:157
-#: pigment/KoCompositeOpRegistry.cpp:103
-#, fuzzy
-msgid "Decrease Intensity"
-msgstr "Текислашни ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:159
-#: pigment/KoCompositeOpRegistry.cpp:106
-#, fuzzy
-#| msgid "Color:"
-msgid "Color HSL"
-msgstr "Ранги:"
-
-#: pigment/compositeops/KoCompositeOps.h:160
-#: pigment/KoCompositeOpRegistry.cpp:107
-#, fuzzy
-msgid "Hue HSL"
-msgstr "Ранг туси"
-
-#: pigment/compositeops/KoCompositeOps.h:161
-#: pigment/KoCompositeOpRegistry.cpp:108
-#, fuzzy
-msgid "Saturation HSL"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:162
-#: pigment/KoCompositeOpRegistry.cpp:111
-#, fuzzy
-msgid "Increase Saturation HSL"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:163
-#: pigment/KoCompositeOpRegistry.cpp:110
-#, fuzzy
-msgid "Decrease Saturation HSL"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:165
-#: pigment/KoCompositeOpRegistry.cpp:113
-#, fuzzy
-msgid "Increase Lightness"
-msgstr "Текислашни ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:166
-#: pigment/KoCompositeOpRegistry.cpp:112
-#, fuzzy
-msgid "Decrease Lightness"
-msgstr "Текислашни ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:168
-#: pigment/KoCompositeOpRegistry.cpp:115
-#, fuzzy
-#| msgid "Color:"
-msgid "Color HSV"
-msgstr "Ранги:"
-
-#: pigment/compositeops/KoCompositeOps.h:169
-#: pigment/KoCompositeOpRegistry.cpp:116
-#, fuzzy
-msgid "Hue HSV"
-msgstr "Ранг туси"
-
-#: pigment/compositeops/KoCompositeOps.h:170
-#: pigment/KoCompositeOpRegistry.cpp:117
-#, fuzzy
-msgid "Saturation HSV"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:171
-#: pigment/KoCompositeOpRegistry.cpp:120
-#, fuzzy
-msgid "Increase Saturation HSV"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:172
-#: pigment/KoCompositeOpRegistry.cpp:119
-#, fuzzy
-msgid "Decrease Saturation HSV"
-msgstr "Тўйинтириш"
-
-#: pigment/compositeops/KoCompositeOps.h:173
-#: pigment/KoCompositeOpRegistry.cpp:118
-#, fuzzy
-#| msgid "Blue"
-msgid "Value"
-msgstr "Кўк"
-
-#: pigment/compositeops/KoCompositeOps.h:174
-#: pigment/KoCompositeOpRegistry.cpp:122
-#, fuzzy
-msgid "Increase Value"
-msgstr "Текислашни ўзгартириш"
-
-#: pigment/compositeops/KoCompositeOps.h:175
-#: pigment/KoCompositeOpRegistry.cpp:121
-#, fuzzy
-msgid "Decrease Value"
-msgstr "Текислашни ўзгартириш"
-
-#: pigment/resources/KoStopGradient.cpp:420
-msgid "SVG Gradient"
-msgstr ""
 
 #: pigment/KoCompositeOp.cpp:33 pigment/KoCompositeOpRegistry.cpp:31
 #, fuzzy
@@ -4199,6 +3705,21 @@ msgstr "намойиш"
 #: pigment/KoCompositeOp.cpp:34 pigment/KoCompositeOpRegistry.cpp:34
 msgid "Negative"
 msgstr ""
+
+#: pigment/KoCompositeOp.cpp:35 pigment/KoCompositeOpRegistry.cpp:33
+#: pigment/KoCompositeOpRegistry.cpp:55
+#: pigment/compositeops/KoCompositeOps.h:87
+#, fuzzy
+msgid "Lighten"
+msgstr "Яшил"
+
+#: pigment/KoCompositeOp.cpp:36 pigment/KoCompositeOpRegistry.cpp:32
+#: pigment/KoCompositeOpRegistry.cpp:50
+#: pigment/compositeops/KoCompositeOps.h:97
+#, fuzzy
+#| msgid "Date"
+msgid "Darken"
+msgstr "Сана"
 
 #: pigment/KoCompositeOp.cpp:37 pigment/KoCompositeOpRegistry.cpp:37
 msgid "HSY"
@@ -4220,19 +3741,154 @@ msgstr ""
 msgid "Mix"
 msgstr ""
 
+#: pigment/KoCompositeOpRegistry.cpp:42
+#: pigment/compositeops/KoCompositeOps.h:100
+#, fuzzy
+#| msgid "Position"
+msgid "Addition"
+msgstr "Жойлашиши"
+
 #: pigment/KoCompositeOpRegistry.cpp:43
 #, fuzzy
 msgid "Substract"
 msgstr "Қисқача мазмуни"
+
+#: pigment/KoCompositeOpRegistry.cpp:44
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:193
+#: pigment/compositeops/KoCompositeOpMultiply.h:35
+#: pigment/compositeops/KoCompositeOps.h:103
+msgid "Multiply"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:45
+#: pigment/compositeops/KoCompositeOpDivide.h:36
+#: pigment/compositeops/KoCompositeOps.h:104
+msgid "Divide"
+msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:46
 #, fuzzy
 msgid "Inverse Substract"
 msgstr "Қисқача мазмуни"
 
+#: pigment/KoCompositeOpRegistry.cpp:48
+#: pigment/compositeops/KoCompositeOpBurn.h:37
+#, fuzzy
+#| msgctxt "color"
+#| msgid "Brown"
+msgid "Burn"
+msgstr "Малла"
+
+#: pigment/KoCompositeOpRegistry.cpp:49
+#: pigment/compositeops/KoCompositeOps.h:96
+#, fuzzy
+#| msgid "Change Borders"
+msgid "Linear Burn"
+msgstr "Чегараларни ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:51
+#: pigment/compositeops/KoCompositeOps.h:98
+msgid "Gamma Dark"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:53
+#: pigment/compositeops/KoCompositeOps.h:85
+#, fuzzy
+#| msgid "Bookmark name:"
+msgid "Color Dodge"
+msgstr "Хатчўпнинг номи:"
+
+#: pigment/KoCompositeOpRegistry.cpp:54
+#: pigment/compositeops/KoCompositeOps.h:86
+#, fuzzy
+#| msgid "Line width:"
+msgid "Linear Dodge"
+msgstr "Чизиқнинг эни:"
+
+#: pigment/KoCompositeOpRegistry.cpp:56
+#: pigment/compositeops/KoCompositeOps.h:93
+#, fuzzy
+#| msgid "Line width:"
+msgid "Linear Light"
+msgstr "Чизиқнинг эни:"
+
+#: pigment/KoCompositeOpRegistry.cpp:57
+#: pigment/compositeops/KoCompositeOpScreen.h:36
+#: pigment/compositeops/KoCompositeOps.h:84
+msgid "Screen"
+msgstr "Экран"
+
+#: pigment/KoCompositeOpRegistry.cpp:58
+#: pigment/compositeops/KoCompositeOps.h:92
+#, fuzzy
+msgid "Pin Light"
+msgstr "Яшил"
+
+#: pigment/KoCompositeOpRegistry.cpp:59
+#: pigment/compositeops/KoCompositeOps.h:91
+#, fuzzy
+msgid "Vivid Light"
+msgstr "Яшил"
+
+#: pigment/KoCompositeOpRegistry.cpp:60
+#: pigment/compositeops/KoCompositeOps.h:88
+#, fuzzy
+msgid "Hard Light"
+msgstr "&Узунаси:"
+
+#: pigment/KoCompositeOpRegistry.cpp:61
+#: pigment/compositeops/KoCompositeOps.h:89
+#, fuzzy
+msgid "Soft Light"
+msgstr "Қатор:"
+
+#: pigment/KoCompositeOpRegistry.cpp:62
+#: pigment/compositeops/KoCompositeOps.h:90
+#, fuzzy
+msgid "Gamma Light"
+msgstr "Яшил"
+
+#: pigment/KoCompositeOpRegistry.cpp:64
+#: pigment/compositeops/KoCompositeOps.h:107
+msgid "Difference"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:65
+#: pigment/compositeops/KoCompositeOps.h:109
+msgid "Equivalence"
+msgstr ""
+
 #: pigment/KoCompositeOpRegistry.cpp:66
 msgid "Additive Substractive"
 msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:67
+#: pigment/compositeops/KoCompositeOps.h:108
+msgid "Exclusion"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:68
+#: pigment/compositeops/KoCompositeOps.h:106
+msgid "Arcus Tangent"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:70 pigment/KoCompositeOpRegistry.cpp:133
+#: pigment/compositeops/KoCompositeOpOver.h:61
+msgid "Normal"
+msgstr "Оддий"
+
+#: pigment/KoCompositeOpRegistry.cpp:71
+#: pigment/compositeops/KoCompositeOpOverlay.h:36
+#: pigment/compositeops/KoCompositeOps.h:76
+#, fuzzy
+msgid "Overlay"
+msgstr "Тагига чизилган"
+
+#: pigment/KoCompositeOpRegistry.cpp:72
+#: pigment/compositeops/KoCompositeOpErase.h:40
+#, fuzzy
+msgid "Erase"
+msgstr "ёлғон"
 
 #: pigment/KoCompositeOpRegistry.cpp:73
 #, fuzzy
@@ -4240,336 +3896,378 @@ msgstr ""
 msgid "Alpha Darken"
 msgstr "Сана"
 
+#: pigment/KoCompositeOpRegistry.cpp:74
+#: pigment/compositeops/KoCompositeOps.h:79
+#, fuzzy
+msgid "Hard Mix"
+msgstr "&Узунаси:"
+
+#: pigment/KoCompositeOpRegistry.cpp:75
+#: pigment/compositeops/KoCompositeOps.h:77
+msgid "Grain Merge"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:76
+#: pigment/compositeops/KoCompositeOps.h:78
+msgid "Grain Extract"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:77
+#: pigment/compositeops/KoCompositeOps.h:81
+#, fuzzy
+#| msgid "Variable"
+msgid "Parallel"
+msgstr "Ўзгарувчи"
+
+#: pigment/KoCompositeOpRegistry.cpp:78
+#: pigment/compositeops/KoCompositeOps.h:82
+msgid "Allanon"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:79
+#: pigment/compositeops/KoCompositeOps.h:80
+msgid "Geometric Mean"
+msgstr ""
+
 #: pigment/KoCompositeOpRegistry.cpp:81
 msgid "Bumpmap"
 msgstr ""
 
-#: widgets/KoUniColorChooser.cpp:134
-msgid "Value (brightness)"
-msgstr "Қиймат (ёруғлик)"
-
-#: widgets/KoUniColorChooser.cpp:168
-msgid "Cyan"
+#: pigment/KoCompositeOpRegistry.cpp:82
+#: pigment/compositeops/KoCompositeOpDissolve.h:61
+msgid "Dissolve"
 msgstr ""
 
-#: widgets/KoUniColorChooser.cpp:176
+#: pigment/KoCompositeOpRegistry.cpp:83
+#: pigment/compositeops/KoCompositeOps.h:137
 #, fuzzy
-msgid "Magenta"
-msgstr "Қизғиш-қўнғир"
+#| msgid "Company Name"
+msgid "Copy Red"
+msgstr "Ташкилотнинг номи"
 
-#: widgets/KoUniColorChooser.cpp:184
-msgid "Yellow"
-msgstr "Сариқ"
-
-#: widgets/KoUniColorChooser.cpp:192
-msgid "Black"
-msgstr "Қора"
-
-#: widgets/KoUniColorChooser.cpp:209
-msgid "Green to magenta*"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:217
-msgid "Blue to yellow"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:221
+#: pigment/KoCompositeOpRegistry.cpp:84
+#: pigment/compositeops/KoCompositeOps.h:138
 #, fuzzy
-msgid "Opacity:"
-msgstr "Шаҳар:"
+#| msgid "Green"
+msgid "Copy Green"
+msgstr "Яшил"
 
-#: widgets/KoZoomAction.cpp:173 widgets/KoZoomAction.cpp:175
-#: widgets/KoZoomAction.cpp:187 widgets/KoZoomAction.cpp:189
-#: widgets/KoZoomMode.cpp:26
+#: pigment/KoCompositeOpRegistry.cpp:85
+#: pigment/compositeops/KoCompositeOps.h:139
+#, fuzzy
+#| msgid "Company Name"
+msgid "Copy Blue"
+msgstr "Ташкилотнинг номи"
+
+#: pigment/KoCompositeOpRegistry.cpp:89
+#: pigment/compositeops/KoCompositeOps.h:142 widgets/KoUniColorChooser.cpp:116
+#, fuzzy
+msgid "Hue"
+msgstr "Ранг туси"
+
+#: pigment/KoCompositeOpRegistry.cpp:90
+#: pigment/compositeops/KoCompositeOps.h:143 widgets/KoUniColorChooser.cpp:125
+#, fuzzy
+msgid "Saturation"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:91
+#: pigment/compositeops/KoCompositeOps.h:146
+msgid "Luminosity"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:92
+#: pigment/compositeops/KoCompositeOps.h:145
+#, fuzzy
+msgid "Decrease Saturation"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:93
+#: pigment/compositeops/KoCompositeOps.h:144
+#, fuzzy
+msgid "Increase Saturation"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:94
+#: pigment/compositeops/KoCompositeOps.h:148
+#, fuzzy
+#| msgid "Change font size?"
+msgid "Decrease Luminosity"
+msgstr "Шрифтнинг ўлчами ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:95
+#: pigment/compositeops/KoCompositeOps.h:147
+#, fuzzy
+#| msgid "Change font size?"
+msgid "Increase Luminosity"
+msgstr "Шрифтнинг ўлчами ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:97
+#: pigment/compositeops/KoCompositeOps.h:150
+#, fuzzy
+#| msgid "Color:"
+msgid "Color HSI"
+msgstr "Ранги:"
+
+#: pigment/KoCompositeOpRegistry.cpp:98
+#: pigment/compositeops/KoCompositeOps.h:151
+#, fuzzy
+msgid "Hue HSI"
+msgstr "Ранг туси"
+
+#: pigment/KoCompositeOpRegistry.cpp:99
+#: pigment/compositeops/KoCompositeOps.h:152
+#, fuzzy
+msgid "Saturation HSI"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:100
+#: pigment/compositeops/KoCompositeOps.h:155
+msgid "Intensity"
+msgstr ""
+
+#: pigment/KoCompositeOpRegistry.cpp:101
+#: pigment/compositeops/KoCompositeOps.h:154
+#, fuzzy
+msgid "Decrease Saturation HSI"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:102
+#: pigment/compositeops/KoCompositeOps.h:153
+#, fuzzy
+msgid "Increase Saturation HSI"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:103
+#: pigment/compositeops/KoCompositeOps.h:157
+#, fuzzy
+msgid "Decrease Intensity"
+msgstr "Текислашни ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:104
+#: pigment/compositeops/KoCompositeOps.h:156
+#, fuzzy
+msgid "Increase Intensity"
+msgstr "Текислашни ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:106
+#: pigment/compositeops/KoCompositeOps.h:159
+#, fuzzy
+#| msgid "Color:"
+msgid "Color HSL"
+msgstr "Ранги:"
+
+#: pigment/KoCompositeOpRegistry.cpp:107
+#: pigment/compositeops/KoCompositeOps.h:160
+#, fuzzy
+msgid "Hue HSL"
+msgstr "Ранг туси"
+
+#: pigment/KoCompositeOpRegistry.cpp:108
+#: pigment/compositeops/KoCompositeOps.h:161
+#, fuzzy
+msgid "Saturation HSL"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:109
+#: pigment/colorspaces/KoLabColorSpace.cpp:42
+#: pigment/compositeops/KoCompositeOps.h:164 widgets/KoUniColorChooser.cpp:201
+#, fuzzy
+msgid "Lightness"
+msgstr "Оч кулранг"
+
+#: pigment/KoCompositeOpRegistry.cpp:110
+#: pigment/compositeops/KoCompositeOps.h:163
+#, fuzzy
+msgid "Decrease Saturation HSL"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:111
+#: pigment/compositeops/KoCompositeOps.h:162
+#, fuzzy
+msgid "Increase Saturation HSL"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:112
+#: pigment/compositeops/KoCompositeOps.h:166
+#, fuzzy
+msgid "Decrease Lightness"
+msgstr "Текислашни ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:113
+#: pigment/compositeops/KoCompositeOps.h:165
+#, fuzzy
+msgid "Increase Lightness"
+msgstr "Текислашни ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:115
+#: pigment/compositeops/KoCompositeOps.h:168
+#, fuzzy
+#| msgid "Color:"
+msgid "Color HSV"
+msgstr "Ранги:"
+
+#: pigment/KoCompositeOpRegistry.cpp:116
+#: pigment/compositeops/KoCompositeOps.h:169
+#, fuzzy
+msgid "Hue HSV"
+msgstr "Ранг туси"
+
+#: pigment/KoCompositeOpRegistry.cpp:117
+#: pigment/compositeops/KoCompositeOps.h:170
+#, fuzzy
+msgid "Saturation HSV"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:118
+#: pigment/compositeops/KoCompositeOps.h:173
+#, fuzzy
+#| msgid "Blue"
+msgid "Value"
+msgstr "Кўк"
+
+#: pigment/KoCompositeOpRegistry.cpp:119
+#: pigment/compositeops/KoCompositeOps.h:172
+#, fuzzy
+msgid "Decrease Saturation HSV"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:120
+#: pigment/compositeops/KoCompositeOps.h:171
+#, fuzzy
+msgid "Increase Saturation HSV"
+msgstr "Тўйинтириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:121
+#: pigment/compositeops/KoCompositeOps.h:175
+#, fuzzy
+msgid "Decrease Value"
+msgstr "Текислашни ўзгартириш"
+
+#: pigment/KoCompositeOpRegistry.cpp:122
+#: pigment/compositeops/KoCompositeOps.h:174
+#, fuzzy
+msgid "Increase Value"
+msgstr "Текислашни ўзгартириш"
+
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:48
+msgid "Clear"
+msgstr ""
+
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:121
+#: pigment/compositeops/KoCompositeOpSubtract.h:37
+#: pigment/compositeops/KoCompositeOps.h:101
+#, fuzzy
+msgid "Subtract"
+msgstr "Қисқача мазмуни"
+
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:259
+#: pigment/colorspaces/KoAlphaColorSpace.h:189
+msgid "Alpha mask"
+msgstr ""
+
+#: pigment/colorspaces/KoAlphaColorSpace.h:140
+#: pigment/colorspaces/KoAlphaColorSpace.h:144
+#: pigment/colorspaces/KoAlphaColorSpace.h:148
+#: pigment/colorspaces/KoAlphaColorSpace.h:152
+#: pigment/colorspaces/KoAlphaColorSpace.h:156
+#: pigment/colorspaces/KoAlphaColorSpace.h:159
+#: pigment/colorspaces/KoAlphaColorSpace.h:162
+msgid "Undefined operation in the alpha color space"
+msgstr ""
+
+#: pigment/colorspaces/KoLabColorSpace.cpp:38
+#: pigment/colorspaces/KoLabColorSpace.h:72
+msgid "L*a*b* (16-bit integer/channel, unmanaged)"
+msgstr ""
+
+#: pigment/colorspaces/KoRgbU16ColorSpace.cpp:40
+#: pigment/colorspaces/KoRgbU16ColorSpace.h:60
+msgid "RGB (16-bit integer/channel, unmanaged)"
+msgstr ""
+
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:42
+#: pigment/colorspaces/KoRgbU8ColorSpace.h:61
+msgid "RGB (8-bit integer/channel, unmanaged)"
+msgstr ""
+
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:47
+#: widgets/KoUniColorChooser.cpp:159
+msgid "Blue"
+msgstr "Кўк"
+
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:48
+#: widgets/KoUniColorChooser.cpp:151
+msgid "Green"
+msgstr "Яшил"
+
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:49
+#: widgets/KoUniColorChooser.cpp:143
+msgid "Red"
+msgstr "Қизил"
+
+#: pigment/colorspaces/KoSimpleColorSpace.h:74
 #, kde-format
-msgid "%1%"
-msgstr "%1%"
-
-#: widgets/KoZoomAction.cpp:271
-msgid "Use same aspect as pixels"
+msgid "Undefined operation in the %1 space"
 msgstr ""
 
-#: widgets/KoZoomAction.cpp:279
-msgid "Zoom to Selection"
-msgstr ""
-
-#: widgets/KoZoomAction.cpp:287
-msgid "Zoom to All"
-msgstr ""
-
-#: widgets/KoEditColorSetDialog.cpp:159
-msgid "Add Color To Palette"
-msgstr ""
-
-#: widgets/KoEditColorSetDialog.cpp:159
-#, fuzzy
-#| msgid "Bookmark name:"
-msgid "Color name:"
-msgstr "Хатчўпнинг номи:"
-
-#: widgets/KoEditColorSetDialog.cpp:197
+#: pigment/colorspaces/KoSimpleColorSpace.h:95
+#: pigment/colorspaces/KoSimpleColorSpace.h:100
+#: pigment/colorspaces/KoSimpleColorSpace.h:105
+#: pigment/colorspaces/KoSimpleColorSpace.h:110
+#: pigment/colorspaces/KoSimpleColorSpace.h:115
+#: pigment/colorspaces/KoSimpleColorSpace.h:119
+#: pigment/colorspaces/KoSimpleColorSpace.h:123
 #, kde-format
-msgid "Cannot write to palette file %1. Maybe it is read-only. "
+msgid "Undefined operation in the %1 color space"
 msgstr ""
 
-#: widgets/KoEditColorSetDialog.cpp:197
-#, fuzzy
-#| msgid "Palettes"
-msgid "Palette"
-msgstr "Асбоб ойналари"
-
-#: widgets/KoEditColorSetDialog.cpp:211
-#, fuzzy
-#| msgid "Remove Column"
-msgid "Add/Remove Colors"
-msgstr "Устунни олиб ташлаш"
-
-#: widgets/KoColorSetWidget.cpp:189
-#, fuzzy
-#| msgid "Recent file:"
-msgid "Recent:"
-msgstr "Яқинда очилган файллар:"
-
-#: widgets/KoColorSetWidget.cpp:196
-msgid "Hide colors with bad contrast"
+#: pigment/colorspaces/KoSimpleColorSpaceEngine.cpp:68
+msgid "Simple Color Conversion Engine"
 msgstr ""
 
-#: widgets/KoColorSetWidget.cpp:207
-#, fuzzy
-#| msgid "More Colors..."
-msgid "Add / Remove Colors..."
-msgstr "Кўпроқ ранглар"
-
-#: widgets/KoCsvImportDialog.cpp:93
-#, fuzzy
-msgid "Import Data"
-msgstr "Ҳужжатни импорт қилиш"
-
-#: widgets/KoCsvImportDialog.cpp:96
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Recommended ( %1 )"
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:40
+msgid "Alpha darken"
 msgstr ""
 
-#: widgets/KoCsvImportDialog.cpp:97
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Locale ( %1 )"
+#: pigment/compositeops/KoCompositeOpDodge.h:37
+#, fuzzy
+msgid "Dodge"
+msgstr "Тўқ кўк"
+
+#: pigment/compositeops/KoCompositeOpHardlight.h:36
+#, fuzzy
+msgid "Hard light"
+msgstr "&Узунаси:"
+
+#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
+#, fuzzy
+msgid "Inverse Subtract"
+msgstr "Қисқача мазмуни"
+
+#: pigment/compositeops/KoCompositeOpSoftlight.h:39
+#, fuzzy
+msgid "Soft light"
+msgstr "Қатор:"
+
+#: pigment/compositeops/KoCompositeOps.h:95
+#, fuzzy
+#| msgid "Color:"
+msgid "Color Burn"
+msgstr "Ранги:"
+
+#: pigment/compositeops/KoCompositeOps.h:102
+#, fuzzy
+msgid "Inversed-Subtract"
+msgstr "Қисқача мазмуни"
+
+#: pigment/compositeops/KoCompositeOps.h:110
+msgid "Additive-Substractive"
 msgstr ""
 
-#: widgets/KoCsvImportDialog.cpp:100
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Other ( %1 )"
+#: pigment/resources/KoStopGradient.cpp:420
+msgid "SVG Gradient"
 msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:215 widgets/KoCsvImportDialog.cpp:556
-#: widgets/KoCsvImportDialog.cpp:579
-#, fuzzy
-#| msgid "General"
-msgid "Generic"
-msgstr "Умумий"
-
-#: widgets/KoCsvImportDialog.cpp:219 widgets/KoCsvImportDialog.cpp:583
-msgid "Date"
-msgstr "Сана"
-
-#: widgets/KoCsvImportDialog.cpp:221 widgets/KoCsvImportDialog.cpp:585
-#, fuzzy
-msgid "Currency"
-msgstr "Жорий бўлим"
-
-#. i18n: file: widgets/KoCsvImportDialog.ui:268
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: widgets/KoCsvImportDialog.cpp:223 widgets/KoCsvImportDialog.cpp:587
-#: widgets/KoCsvImportDialog.cpp:694 rc.cpp:499
-msgid "None"
-msgstr "Йўқ"
-
-#: widgets/KoCsvImportDialog.cpp:721
-msgid ""
-"Please check the ranges you specified. The start value must be lower than "
-"the end value."
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:767
-#, kde-format
-msgid "Cannot find encoding: %1"
-msgstr ""
-
-#: widgets/KoSelectionToggle.cpp:133
-msgctxt "@info:tooltip"
-msgid "Deselect Item"
-msgstr ""
-
-#: widgets/KoSelectionToggle.cpp:134
-msgctxt "@info:tooltip"
-msgid "Select Item"
-msgstr ""
-
-#: widgets/KoUniColorDialog.cpp:39
-#, fuzzy
-#| msgid "Completion"
-msgid "Color Selector"
-msgstr "Тўлдириш"
-
-#: widgets/KoZoomMode.cpp:27
-#, fuzzy
-msgid "Fit Page Width"
-msgstr "Энига мослаш"
-
-#: widgets/KoZoomMode.cpp:28
-#, fuzzy
-msgid "Fit Page"
-msgstr "Бетга мослаш"
-
-#: widgets/KoZoomMode.cpp:30
-msgid "Actual Pixels"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:92
-#, fuzzy
-#| msgid "St&yle"
-msgid "Style:"
-msgstr "&Услуб"
-
-#. i18n: file: widgets/KoPageLayoutWidget.ui:66
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/KoStrokeConfigWidget.cpp:98 rc.cpp:562
-#, fuzzy
-msgid "Width:"
-msgstr "&Эни:"
-
-#: widgets/KoStrokeConfigWidget.cpp:105
-msgid "Set line width of actual selection"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:109
-msgid "Cap:"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:120
-msgid "Butt cap"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:127
-msgid "Round cap"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:134
-msgid "Square cap"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:139
-msgid "Join:"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:148
-#, fuzzy
-msgid "Miter join"
-msgstr "Бўш жой"
-
-#: widgets/KoStrokeConfigWidget.cpp:155
-msgid "Round join"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:162
-#, fuzzy
-msgid "Bevel join"
-msgstr "Боғни олиб ташлаш"
-
-#: widgets/KoStrokeConfigWidget.cpp:167
-msgid "Miter limit:"
-msgstr ""
-
-#: widgets/KoStrokeConfigWidget.cpp:174
-msgid "Set miter limit"
-msgstr ""
-
-#: widgets/KoPageLayoutDialog.cpp:46
-msgid "Page Layout"
-msgstr "Бет мосламалари"
-
-#: widgets/KoPageLayoutDialog.cpp:110
-#, fuzzy
-#| msgid "Empty Document"
-msgid "Apply to document"
-msgstr "Бўш ҳужжат"
-
-#: widgets/KoPageLayoutWidget.cpp:184
-#, fuzzy
-#| msgid "Left:"
-msgid "Left Edge:"
-msgstr "Чап:"
-
-#: widgets/KoPageLayoutWidget.cpp:185
-#, fuzzy
-#| msgid "Right:"
-msgid "Right Edge:"
-msgstr "Ўнг:"
-
-#: widgets/KoPageLayoutWidget.cpp:188
-#, fuzzy
-#| msgid "Last Printing"
-msgid "Binding Edge:"
-msgstr "Охирги босиб чиқариш"
-
-#: widgets/KoPageLayoutWidget.cpp:189
-#, fuzzy
-#| msgid "Page Size"
-msgid "Page Edge:"
-msgstr "Бетнинг ўлчами"
-
-#: widgets/KoPageLayoutWidget.cpp:285
-#, fuzzy
-msgid "Facing Pages:"
-msgstr "Бетга мослаш"
-
-#. i18n: file: widgets/KoPageLayoutWidget.ui:143
-#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
-#: widgets/KoPageLayoutWidget.cpp:286 rc.cpp:583
-#, fuzzy
-msgid "Facing pages"
-msgstr "Бетга мослаш"
-
-#: widgets/KoPageLayoutWidget.cpp:289
-#, fuzzy
-#| msgid "Page Layout"
-msgid "Page Layout:"
-msgstr "Бет мосламалари"
-
-#: widgets/KoPageLayoutWidget.cpp:290
-#, fuzzy
-#| msgid "a spreadsheet"
-msgid "Page spread"
-msgstr "электрон жадвали"
-
-#: widgets/KoResourceItemChooser.cpp:93
-#, fuzzy
-#| msgid "Import Document"
-msgid "Import Resource"
-msgstr "Ҳужжатни импорт қилиш"
-
-#: widgets/KoResourceItemChooser.cpp:100
-#, fuzzy
-msgid "Delete Resource"
-msgstr "Матнни ўчириш"
-
-#: widgets/KoResourceItemChooser.cpp:107
-#, fuzzy
-#| msgid "Download"
-msgid "Download Resource"
-msgstr "Ёзиб олиш"
-
-#: widgets/KoResourceItemChooser.cpp:115
-msgid "Share Resource"
-msgstr ""
-
-#: widgets/KoResourceItemChooser.cpp:158
-#, fuzzy
-#| msgid "Choose Filter"
-msgid "Choose File to Add"
-msgstr "Филтерни танлаш"
 
 #: textlayout/ListItemsHelper.cpp:179
 #, fuzzy
@@ -4695,28 +4393,332 @@ msgstr ""
 msgid "ArabicAlphabet"
 msgstr ""
 
-#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:841
-#, kde-format
-msgid "Undo %1"
-msgstr ""
-
-#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:841
-msgctxt "Default text for undo action"
-msgid "Undo"
-msgstr ""
-
-#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:867
-#, fuzzy, kde-format
-#| msgid "Red"
-msgid "Redo %1"
-msgstr "Қизил"
-
-#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:867
+#: widgets/KoColorSetWidget.cpp:189
 #, fuzzy
-#| msgid "Red"
-msgctxt "Default text for redo action"
-msgid "Redo"
-msgstr "Қизил"
+#| msgid "Recent file:"
+msgid "Recent:"
+msgstr "Яқинда очилган файллар:"
+
+#: widgets/KoColorSetWidget.cpp:196
+msgid "Hide colors with bad contrast"
+msgstr ""
+
+#: widgets/KoColorSetWidget.cpp:207
+#, fuzzy
+#| msgid "More Colors..."
+msgid "Add / Remove Colors..."
+msgstr "Кўпроқ ранглар"
+
+#: widgets/KoCsvImportDialog.cpp:93
+#, fuzzy
+msgid "Import Data"
+msgstr "Ҳужжатни импорт қилиш"
+
+#: widgets/KoCsvImportDialog.cpp:96
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Recommended ( %1 )"
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:97
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Locale ( %1 )"
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:100
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Other ( %1 )"
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:215 widgets/KoCsvImportDialog.cpp:556
+#: widgets/KoCsvImportDialog.cpp:579
+#, fuzzy
+#| msgid "General"
+msgid "Generic"
+msgstr "Умумий"
+
+#: widgets/KoCsvImportDialog.cpp:219 widgets/KoCsvImportDialog.cpp:583
+msgid "Date"
+msgstr "Сана"
+
+#: widgets/KoCsvImportDialog.cpp:221 widgets/KoCsvImportDialog.cpp:585
+#, fuzzy
+msgid "Currency"
+msgstr "Жорий бўлим"
+
+#. i18n: file: widgets/KoCsvImportDialog.ui:268
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.cpp:223 widgets/KoCsvImportDialog.cpp:587
+#: widgets/KoCsvImportDialog.cpp:694 rc.cpp:499
+msgid "None"
+msgstr "Йўқ"
+
+#: widgets/KoCsvImportDialog.cpp:721
+msgid ""
+"Please check the ranges you specified. The start value must be lower than "
+"the end value."
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:767
+#, kde-format
+msgid "Cannot find encoding: %1"
+msgstr ""
+
+#: widgets/KoEditColorSetDialog.cpp:159
+msgid "Add Color To Palette"
+msgstr ""
+
+#: widgets/KoEditColorSetDialog.cpp:159
+#, fuzzy
+#| msgid "Bookmark name:"
+msgid "Color name:"
+msgstr "Хатчўпнинг номи:"
+
+#: widgets/KoEditColorSetDialog.cpp:197
+#, kde-format
+msgid "Cannot write to palette file %1. Maybe it is read-only. "
+msgstr ""
+
+#: widgets/KoEditColorSetDialog.cpp:197
+#, fuzzy
+#| msgid "Palettes"
+msgid "Palette"
+msgstr "Асбоб ойналари"
+
+#: widgets/KoEditColorSetDialog.cpp:211
+#, fuzzy
+#| msgid "Remove Column"
+msgid "Add/Remove Colors"
+msgstr "Устунни олиб ташлаш"
+
+#: widgets/KoPageLayoutDialog.cpp:46
+msgid "Page Layout"
+msgstr "Бет мосламалари"
+
+#: widgets/KoPageLayoutDialog.cpp:110
+#, fuzzy
+#| msgid "Empty Document"
+msgid "Apply to document"
+msgstr "Бўш ҳужжат"
+
+#: widgets/KoPageLayoutWidget.cpp:184
+#, fuzzy
+#| msgid "Left:"
+msgid "Left Edge:"
+msgstr "Чап:"
+
+#: widgets/KoPageLayoutWidget.cpp:185
+#, fuzzy
+#| msgid "Right:"
+msgid "Right Edge:"
+msgstr "Ўнг:"
+
+#: widgets/KoPageLayoutWidget.cpp:188
+#, fuzzy
+#| msgid "Last Printing"
+msgid "Binding Edge:"
+msgstr "Охирги босиб чиқариш"
+
+#: widgets/KoPageLayoutWidget.cpp:189
+#, fuzzy
+#| msgid "Page Size"
+msgid "Page Edge:"
+msgstr "Бетнинг ўлчами"
+
+#: widgets/KoPageLayoutWidget.cpp:285
+#, fuzzy
+msgid "Facing Pages:"
+msgstr "Бетга мослаш"
+
+#. i18n: file: widgets/KoPageLayoutWidget.ui:143
+#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
+#: widgets/KoPageLayoutWidget.cpp:286 rc.cpp:583
+#, fuzzy
+msgid "Facing pages"
+msgstr "Бетга мослаш"
+
+#: widgets/KoPageLayoutWidget.cpp:289
+#, fuzzy
+#| msgid "Page Layout"
+msgid "Page Layout:"
+msgstr "Бет мосламалари"
+
+#: widgets/KoPageLayoutWidget.cpp:290
+#, fuzzy
+#| msgid "a spreadsheet"
+msgid "Page spread"
+msgstr "электрон жадвали"
+
+#: widgets/KoResourceItemChooser.cpp:93
+#, fuzzy
+#| msgid "Import Document"
+msgid "Import Resource"
+msgstr "Ҳужжатни импорт қилиш"
+
+#: widgets/KoResourceItemChooser.cpp:100
+#, fuzzy
+msgid "Delete Resource"
+msgstr "Матнни ўчириш"
+
+#: widgets/KoResourceItemChooser.cpp:107
+#, fuzzy
+#| msgid "Download"
+msgid "Download Resource"
+msgstr "Ёзиб олиш"
+
+#: widgets/KoResourceItemChooser.cpp:115
+msgid "Share Resource"
+msgstr ""
+
+#: widgets/KoResourceItemChooser.cpp:158
+#, fuzzy
+#| msgid "Choose Filter"
+msgid "Choose File to Add"
+msgstr "Филтерни танлаш"
+
+#: widgets/KoSelectionToggle.cpp:133
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr ""
+
+#: widgets/KoSelectionToggle.cpp:134
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:92
+#, fuzzy
+#| msgid "St&yle"
+msgid "Style:"
+msgstr "&Услуб"
+
+#. i18n: file: widgets/KoPageLayoutWidget.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: widgets/KoStrokeConfigWidget.cpp:98 rc.cpp:562
+#, fuzzy
+msgid "Width:"
+msgstr "&Эни:"
+
+#: widgets/KoStrokeConfigWidget.cpp:105
+msgid "Set line width of actual selection"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:109
+msgid "Cap:"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:120
+msgid "Butt cap"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:127
+msgid "Round cap"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:134
+msgid "Square cap"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:139
+msgid "Join:"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:148
+#, fuzzy
+msgid "Miter join"
+msgstr "Бўш жой"
+
+#: widgets/KoStrokeConfigWidget.cpp:155
+msgid "Round join"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:162
+#, fuzzy
+msgid "Bevel join"
+msgstr "Боғни олиб ташлаш"
+
+#: widgets/KoStrokeConfigWidget.cpp:167
+msgid "Miter limit:"
+msgstr ""
+
+#: widgets/KoStrokeConfigWidget.cpp:174
+msgid "Set miter limit"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:134
+msgid "Value (brightness)"
+msgstr "Қиймат (ёруғлик)"
+
+#: widgets/KoUniColorChooser.cpp:168
+msgid "Cyan"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:176
+#, fuzzy
+msgid "Magenta"
+msgstr "Қизғиш-қўнғир"
+
+#: widgets/KoUniColorChooser.cpp:184
+msgid "Yellow"
+msgstr "Сариқ"
+
+#: widgets/KoUniColorChooser.cpp:192
+msgid "Black"
+msgstr "Қора"
+
+#: widgets/KoUniColorChooser.cpp:209
+msgid "Green to magenta*"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:217
+msgid "Blue to yellow"
+msgstr ""
+
+#: widgets/KoUniColorChooser.cpp:221
+#, fuzzy
+msgid "Opacity:"
+msgstr "Шаҳар:"
+
+#: widgets/KoUniColorDialog.cpp:39
+#, fuzzy
+#| msgid "Completion"
+msgid "Color Selector"
+msgstr "Тўлдириш"
+
+#: widgets/KoZoomAction.cpp:173 widgets/KoZoomAction.cpp:175
+#: widgets/KoZoomAction.cpp:187 widgets/KoZoomAction.cpp:189
+#: widgets/KoZoomMode.cpp:26
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: widgets/KoZoomAction.cpp:271
+msgid "Use same aspect as pixels"
+msgstr ""
+
+#: widgets/KoZoomAction.cpp:279
+msgid "Zoom to Selection"
+msgstr ""
+
+#: widgets/KoZoomAction.cpp:287
+msgid "Zoom to All"
+msgstr ""
+
+#: widgets/KoZoomMode.cpp:27
+#, fuzzy
+msgid "Fit Page Width"
+msgstr "Энига мослаш"
+
+#: widgets/KoZoomMode.cpp:28
+#, fuzzy
+msgid "Fit Page"
+msgstr "Бетга мослаш"
+
+#: widgets/KoZoomMode.cpp:30
+msgid "Actual Pixels"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -4738,7 +4740,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:109
 #. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
-#: rc.cpp:8 rc.cpp:385
+#: rc.cpp:8 rc.cpp:215
 msgid "Type:"
 msgstr "Тури:"
 
@@ -4794,6 +4796,18 @@ msgstr ""
 msgid "Guide lines"
 msgstr "Ёрдамчи чизиқлар"
 
+#. i18n: file: flake/tools/KoZoomToolWidget.ui:20
+#. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
+#: rc.cpp:35
+msgid "Zoom In"
+msgstr ""
+
+#. i18n: file: flake/tools/KoZoomToolWidget.ui:30
+#. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
+#: rc.cpp:38
+msgid "Zoom Out"
+msgstr ""
+
 #. i18n: file: flake/tools/PathToolOptionWidgetBase.ui:39
 #. i18n: ectx: property (text), widget (QToolButton, corner)
 #. i18n: file: flake/tools/PathToolOptionWidgetBase.ui:46
@@ -4828,8 +4842,8 @@ msgstr "Ёрдамчи чизиқлар"
 #. i18n: ectx: property (text), widget (QToolButton, open)
 #. i18n: file: widgets/KoEditColorSet.ui:78
 #. i18n: ectx: property (text), widget (QToolButton, save)
-#: rc.cpp:35 rc.cpp:38 rc.cpp:41 rc.cpp:44 rc.cpp:47 rc.cpp:50 rc.cpp:53
-#: rc.cpp:56 rc.cpp:59 rc.cpp:62 rc.cpp:65 rc.cpp:68 rc.cpp:71 rc.cpp:535
+#: rc.cpp:41 rc.cpp:44 rc.cpp:47 rc.cpp:50 rc.cpp:53 rc.cpp:56 rc.cpp:59
+#: rc.cpp:62 rc.cpp:65 rc.cpp:68 rc.cpp:71 rc.cpp:74 rc.cpp:77 rc.cpp:535
 #: rc.cpp:541 rc.cpp:547 rc.cpp:553
 #, fuzzy
 msgid "..."
@@ -4837,22 +4851,10 @@ msgstr "Қўшиш..."
 
 #. i18n: file: flake/tools/PathToolOptionWidgetBase.ui:186
 #. i18n: ectx: property (text), widget (QPushButton, convertToPath)
-#: rc.cpp:74
+#: rc.cpp:80
 #, fuzzy
 msgid "Convert To Path"
 msgstr "Юнончага айлантириш"
-
-#. i18n: file: flake/tools/KoZoomToolWidget.ui:20
-#. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
-#: rc.cpp:77
-msgid "Zoom In"
-msgstr ""
-
-#. i18n: file: flake/tools/KoZoomToolWidget.ui:30
-#. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
-#: rc.cpp:80
-msgid "Zoom Out"
-msgstr ""
 
 #. i18n: file: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:18
 #. i18n: ectx: property (text), widget (QPushButton, backgroundImage)
@@ -5083,9 +5085,168 @@ msgstr "Қатор:"
 msgid "File"
 msgstr "Файлнинг номи"
 
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:16
+#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
+#: rc.cpp:200
+#, fuzzy
+#| msgid "Edit Path"
+msgid "Path:"
+msgstr "Йўлни таҳрирлаш"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:37
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:60
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#: rc.cpp:203 rc.cpp:248
+msgid "Title:"
+msgstr "Сарлавҳа:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:50
+#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
+#: rc.cpp:206
+msgid "Subject:"
+msgstr "Мавзу:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:63
+#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
+#: rc.cpp:209
+msgid "Keywords:"
+msgstr "Таянч сўзлар:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:80
+#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
+#: rc.cpp:212
+#, fuzzy
+msgid "Comments:"
+msgstr "Изоҳ"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
+#: rc.cpp:218
+msgid "Created:"
+msgstr "Яратилган:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:149
+#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
+#: rc.cpp:221
+msgid "Modified:"
+msgstr "Ўзгарган:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:169
+#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
+#: rc.cpp:224
+msgid "Last printed:"
+msgstr "Охирги босиб чиқариш:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:189
+#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
+#: rc.cpp:227
+msgid "Total editing time:"
+msgstr "Умумий таҳрирлаш вақти:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:215
+#. i18n: ectx: property (text), widget (QPushButton, pbReset)
+#: rc.cpp:230
+msgid "&Reset"
+msgstr "&Тиклаш"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:228
+#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
+#: rc.cpp:233
+#, fuzzy
+msgid "Revision number:"
+msgstr "Чоп этиш рақами:"
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:242
+#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
+#: rc.cpp:236
+#, fuzzy
+msgid "Encryption:"
+msgstr "Таърифи:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
+#: rc.cpp:245
+#, fuzzy
+msgid "Initials:"
+msgstr "Қия:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:73
+#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
+#: rc.cpp:251
+msgid "Position:"
+msgstr "Жойлашиши:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:86
+#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
+#: rc.cpp:254
+msgid "Company:"
+msgstr "Ташкилот:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:99
+#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
+#: rc.cpp:257
+msgid "Email:"
+msgstr "Электрон почта:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:112
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
+#: rc.cpp:260
+msgid "Telephone (home):"
+msgstr "Телефон (уй):"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:125
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
+#: rc.cpp:263
+msgid "Telephone (work):"
+msgstr "Телефон (иш):"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:138
+#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
+#: rc.cpp:266
+msgid "Fax:"
+msgstr "Факс:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:151
+#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
+#: rc.cpp:269
+msgid "Street:"
+msgstr "Кўча:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:164
+#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
+#: rc.cpp:272
+msgid "Postal code:"
+msgstr "Индекс:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:177
+#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
+#: rc.cpp:275
+msgid "City:"
+msgstr "Шаҳар:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:190
+#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
+#: rc.cpp:278
+msgid "Country:"
+msgstr "Давлат:"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:222
+#. i18n: ectx: property (text), widget (QPushButton, pbLoadKABC)
+#: rc.cpp:281
+msgid "&Load From Address Book"
+msgstr "Ман&зиллар дафтаридан қўйиш"
+
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:235
+#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#: rc.cpp:284
+#, fuzzy
+msgid "&Delete Personal Data"
+msgstr "Шахсий маълумотни ўчириш"
+
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:21
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:200
+#: rc.cpp:287
 #, fuzzy
 #| msgid "Title"
 msgid "Triples"
@@ -5097,7 +5258,7 @@ msgstr "Сарлавҳа"
 #. i18n: ectx: property (text), widget (QPushButton, newNamespaceButton)
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, newStylesheet)
-#: rc.cpp:203 rc.cpp:215 rc.cpp:322
+#: rc.cpp:290 rc.cpp:302 rc.cpp:448
 #, fuzzy
 #| msgid "New"
 msgid "new"
@@ -5105,7 +5266,7 @@ msgstr "Янги"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, copyTripleButton)
-#: rc.cpp:206
+#: rc.cpp:293
 #, fuzzy
 msgid "copy"
 msgstr "Ташкилот"
@@ -5116,20 +5277,20 @@ msgstr "Ташкилот"
 #. i18n: ectx: property (text), widget (QPushButton, deleteNamespaceButton)
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:84
 #. i18n: ectx: property (text), widget (QPushButton, deleteStylesheet)
-#: rc.cpp:209 rc.cpp:218 rc.cpp:325
+#: rc.cpp:296 rc.cpp:305 rc.cpp:451
 #, fuzzy
 msgid "delete"
 msgstr "Матнни ўчириш"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:76
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:212
+#: rc.cpp:299
 msgid "Namespaces"
 msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:123
 #. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
-#: rc.cpp:221
+#: rc.cpp:308
 #, fuzzy
 #| msgid "Pre&fix text:"
 msgid "Prefix"
@@ -5137,26 +5298,26 @@ msgstr "&Префикс матни:"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:128
 #. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
-#: rc.cpp:224
+#: rc.cpp:311
 #, fuzzy
 msgid "Namespace"
 msgstr "&Алмаштириш:"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:137
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:227
+#: rc.cpp:314
 msgid "Semantic"
 msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:156
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rc.cpp:230
+#: rc.cpp:317
 msgid "SPARQL"
 msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:182
 #. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
-#: rc.cpp:233
+#: rc.cpp:320
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -5216,13 +5377,13 @@ msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
-#: rc.cpp:253
+#: rc.cpp:340
 msgid "Execute"
 msgstr "Ишга тушириш"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:221
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: rc.cpp:256
+#: rc.cpp:343
 #, fuzzy
 #| msgid "St&yle"
 msgid "Stylesheets"
@@ -5230,14 +5391,14 @@ msgstr "&Услуб"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:227
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:259
+#: rc.cpp:346
 #, fuzzy
 msgid "Contacts"
 msgstr "Шрифт:"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:279
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:268
+#: rc.cpp:355
 msgid ""
 "Set the default stylesheet for Semantic objects in this document. New RDF "
 "objects will use this stylesheet automatically. The buttons allow you to set "
@@ -5253,104 +5414,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_defaultLocationsSheetButton)
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:310
 #. i18n: ectx: property (text), widget (QPushButton, m_setAllStylesheetsButton)
-#: rc.cpp:271 rc.cpp:274 rc.cpp:277 rc.cpp:280
+#: rc.cpp:358 rc.cpp:361 rc.cpp:364 rc.cpp:367
 msgid "Set For All Existing"
-msgstr ""
-
-#. i18n: file: main/rdf/KoRdfLocationEditWidget.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:283
-#, fuzzy
-#| msgid "Name:"
-msgid "&Name"
-msgstr "Номи:"
-
-#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:26
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: main/rdf/KoRdfLocationViewWidget.ui:24
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:286 rc.cpp:307
-#, fuzzy
-#| msgid "Name:"
-msgid "&Name:"
-msgstr "Номи:"
-
-#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:36
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:289
-msgid "&Nick:"
-msgstr ""
-
-#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:46
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:292
-#, fuzzy
-#| msgid "Page Number"
-msgid "&Phone Number:"
-msgstr "Бетнинг сони"
-
-#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:59
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:295
-#, fuzzy
-msgid "&Home Page:"
-msgstr "Матнни ўчириш"
-
-#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:31
-#. i18n: ectx: property (toolTip), widget (Marble::MarbleWidget, map)
-#. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:30
-#. i18n: ectx: property (toolTip), widget (Marble::MarbleWidget, map)
-#: rc.cpp:301 rc.cpp:352
-#, fuzzy
-#| msgid "Edit Path"
-msgid "The Earth"
-msgstr "Йўлни таҳрирлаш"
-
-#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:34
-#. i18n: ectx: property (whatsThis), widget (Marble::MarbleWidget, map)
-#. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:33
-#. i18n: ectx: property (whatsThis), widget (Marble::MarbleWidget, map)
-#: rc.cpp:304 rc.cpp:355
-msgid "The Marble widget displays a virtual globe."
-msgstr ""
-
-#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:17
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:310
-msgid "Stylesheet Definition"
-msgstr ""
-
-#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:29
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:313
-#, fuzzy
-#| msgid "Variable Name"
-msgid "Variables Available"
-msgstr "Ўзгарувчининг номи"
-
-#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:62
-#. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: rc.cpp:319
-#, fuzzy
-#| msgid "Description:"
-msgid "Description"
-msgstr "Таърифи:"
-
-#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:107
-#. i18n: ectx: property (text), widget (QTreeWidget, stylesheets)
-#: rc.cpp:328
-msgid "Stylesheet Name"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:331
+#: rc.cpp:370
 msgid "&Summary:"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:334
+#: rc.cpp:373
 #, fuzzy
 #| msgid "Location:"
 msgid "&Location:"
@@ -5358,7 +5434,7 @@ msgstr "Манзили:"
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:337
+#: rc.cpp:376
 #, fuzzy
 #| msgid "Street"
 msgid "&Start:"
@@ -5366,206 +5442,132 @@ msgstr "Кўча"
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:340
+#: rc.cpp:379
 msgid "&End:"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:80
 #. i18n: ectx: attribute (title), widget (QWidget, tadtab)
-#: rc.cpp:343
+#: rc.cpp:382
 msgid "Time and Date"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:93
 #. i18n: ectx: attribute (title), widget (QWidget, tztab)
-#: rc.cpp:346
+#: rc.cpp:385
 #, fuzzy
 #| msgid "Time:"
 msgid "Timezone"
 msgstr "Вақт:"
 
+#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: main/rdf/KoRdfLocationViewWidget.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:388 rc.cpp:424
+#, fuzzy
+#| msgid "Name:"
+msgid "&Name:"
+msgstr "Номи:"
+
+#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:391
+msgid "&Nick:"
+msgstr ""
+
+#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:46
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:394
+#, fuzzy
+#| msgid "Page Number"
+msgid "&Phone Number:"
+msgstr "Бетнинг сони"
+
+#. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:59
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:397
+#, fuzzy
+msgid "&Home Page:"
+msgstr "Матнни ўчириш"
+
+#. i18n: file: main/rdf/KoRdfLocationEditWidget.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:400
+#, fuzzy
+#| msgid "Name:"
+msgid "&Name"
+msgstr "Номи:"
+
+#. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:30
+#. i18n: ectx: property (toolTip), widget (Marble::MarbleWidget, map)
+#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:31
+#. i18n: ectx: property (toolTip), widget (Marble::MarbleWidget, map)
+#: rc.cpp:406 rc.cpp:430
+#, fuzzy
+#| msgid "Edit Path"
+msgid "The Earth"
+msgstr "Йўлни таҳрирлаш"
+
+#. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:33
+#. i18n: ectx: property (whatsThis), widget (Marble::MarbleWidget, map)
+#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:34
+#. i18n: ectx: property (whatsThis), widget (Marble::MarbleWidget, map)
+#: rc.cpp:409 rc.cpp:433
+msgid "The Marble widget displays a virtual globe."
+msgstr ""
+
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:40
 #. i18n: ectx: property (toolTip), widget (Marble::MarbleNavigator, zoomer)
-#: rc.cpp:358
+#: rc.cpp:412
 msgid "Navigation Control"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:43
 #. i18n: ectx: property (whatsThis), widget (Marble::MarbleNavigator, zoomer)
-#: rc.cpp:361
+#: rc.cpp:415
 msgid "Use this control to navigate."
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:364
+#: rc.cpp:418
 msgid "Latitude"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:367
+#: rc.cpp:421
 msgid "Longitude"
 msgstr ""
 
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:16
-#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
-#: rc.cpp:370
+#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:436
+msgid "Stylesheet Definition"
+msgstr ""
+
+#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:29
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:439
 #, fuzzy
-#| msgid "Edit Path"
-msgid "Path:"
-msgstr "Йўлни таҳрирлаш"
+#| msgid "Variable Name"
+msgid "Variables Available"
+msgstr "Ўзгарувчининг номи"
 
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:37
-#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:60
-#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: rc.cpp:373 rc.cpp:418
-msgid "Title:"
-msgstr "Сарлавҳа:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:50
-#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
-#: rc.cpp:376
-msgid "Subject:"
-msgstr "Мавзу:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:63
-#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
-#: rc.cpp:379
-msgid "Keywords:"
-msgstr "Таянч сўзлар:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:80
-#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
-#: rc.cpp:382
+#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:62
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: rc.cpp:445
 #, fuzzy
-msgid "Comments:"
-msgstr "Изоҳ"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:129
-#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
-#: rc.cpp:388
-msgid "Created:"
-msgstr "Яратилган:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:149
-#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
-#: rc.cpp:391
-msgid "Modified:"
-msgstr "Ўзгарган:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:169
-#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
-#: rc.cpp:394
-msgid "Last printed:"
-msgstr "Охирги босиб чиқариш:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:189
-#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
-#: rc.cpp:397
-msgid "Total editing time:"
-msgstr "Умумий таҳрирлаш вақти:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:215
-#. i18n: ectx: property (text), widget (QPushButton, pbReset)
-#: rc.cpp:400
-msgid "&Reset"
-msgstr "&Тиклаш"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:228
-#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
-#: rc.cpp:403
-#, fuzzy
-msgid "Revision number:"
-msgstr "Чоп этиш рақами:"
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:242
-#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
-#: rc.cpp:406
-#, fuzzy
-msgid "Encryption:"
+#| msgid "Description:"
+msgid "Description"
 msgstr "Таърифи:"
 
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:40
-#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
-#: rc.cpp:415
-#, fuzzy
-msgid "Initials:"
-msgstr "Қия:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:73
-#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
-#: rc.cpp:421
-msgid "Position:"
-msgstr "Жойлашиши:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:86
-#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
-#: rc.cpp:424
-msgid "Company:"
-msgstr "Ташкилот:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:99
-#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
-#: rc.cpp:427
-msgid "Email:"
-msgstr "Электрон почта:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:112
-#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
-#: rc.cpp:430
-msgid "Telephone (home):"
-msgstr "Телефон (уй):"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:125
-#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
-#: rc.cpp:433
-msgid "Telephone (work):"
-msgstr "Телефон (иш):"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:138
-#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
-#: rc.cpp:436
-msgid "Fax:"
-msgstr "Факс:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:151
-#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
-#: rc.cpp:439
-msgid "Street:"
-msgstr "Кўча:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:164
-#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
-#: rc.cpp:442
-msgid "Postal code:"
-msgstr "Индекс:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:177
-#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
-#: rc.cpp:445
-msgid "City:"
-msgstr "Шаҳар:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:190
-#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
-#: rc.cpp:448
-msgid "Country:"
-msgstr "Давлат:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:222
-#. i18n: ectx: property (text), widget (QPushButton, pbLoadKABC)
-#: rc.cpp:451
-msgid "&Load From Address Book"
-msgstr "Ман&зиллар дафтаридан қўйиш"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:235
-#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:107
+#. i18n: ectx: property (text), widget (QTreeWidget, stylesheets)
 #: rc.cpp:454
-#, fuzzy
-msgid "&Delete Personal Data"
-msgstr "Шахсий маълумотни ўчириш"
+msgid "Stylesheet Name"
+msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:52
 #. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
