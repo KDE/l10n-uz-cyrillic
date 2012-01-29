@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-14 04:31+0100\n"
+"POT-Creation-Date: 2012-01-29 03:08+0100\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -638,23 +638,37 @@ msgstr ""
 msgid "Status"
 msgstr "Ҳолати"
 
-#: core/widgetbase.cpp:139
+#: core/widgetbase.cpp:140
+#, fuzzy
+#| msgid "Last Search"
+msgctxt "@action:button"
+msgid "Lock search"
+msgstr "Охирги қидирув"
+
+#: core/widgetbase.cpp:144
+msgctxt "@info:whatsthis"
+msgid ""
+"Toggle this button if you want to keep your quick search locked when moving "
+"to other folders or when narrowing the search by message status."
+msgstr ""
+
+#: core/widgetbase.cpp:155
 #, fuzzy
 msgctxt "Search for messages."
 msgid "Search"
 msgstr "&Қидириш"
 
-#: core/widgetbase.cpp:160
+#: core/widgetbase.cpp:176
 #, fuzzy
 #| msgid "Delete Search"
 msgid "Open Full Search"
 msgstr "Қидирувни олиб ташлаш"
 
-#: core/widgetbase.cpp:234
+#: core/widgetbase.cpp:250
 msgid "Any Status"
 msgstr "Истаган"
 
-#: core/widgetbase.cpp:237
+#: core/widgetbase.cpp:253
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Unread"
@@ -662,7 +676,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Unread"
 msgstr "Ўқилмаган"
 
-#: core/widgetbase.cpp:241
+#: core/widgetbase.cpp:257
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Replied"
@@ -670,7 +684,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Replied"
 msgstr "Жавоб берилган"
 
-#: core/widgetbase.cpp:245
+#: core/widgetbase.cpp:261
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Forwarded"
@@ -678,7 +692,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Forwarded"
 msgstr "Узатилган"
 
-#: core/widgetbase.cpp:249
+#: core/widgetbase.cpp:265
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Important"
@@ -686,13 +700,13 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Important"
 msgstr "Муҳим"
 
-#: core/widgetbase.cpp:253
+#: core/widgetbase.cpp:269
 #, fuzzy
 msgctxt "@action:inmenu Status of a message"
 msgid "Action Item"
 msgstr "Муҳим хабар"
 
-#: core/widgetbase.cpp:257
+#: core/widgetbase.cpp:273
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Watched"
@@ -700,7 +714,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Watched"
 msgstr "Назоратда"
 
-#: core/widgetbase.cpp:261
+#: core/widgetbase.cpp:277
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Ignored"
@@ -708,75 +722,87 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Ignored"
 msgstr "Эътибор берилмаган"
 
-#: core/widgetbase.cpp:265
+#: core/widgetbase.cpp:281
 #, fuzzy
 #| msgid "Has Attachment"
 msgctxt "@action:inmenu Status of a message"
 msgid "Has Attachment"
 msgstr "Иловали"
 
-#: core/widgetbase.cpp:269
+#: core/widgetbase.cpp:285
 #, fuzzy
 #| msgid "Advanced Options"
 msgctxt "@action:inmenu Status of a message"
 msgid "Has Invitation"
 msgstr "Қўшимча параметрлар"
 
-#: core/widgetbase.cpp:273
+#: core/widgetbase.cpp:289
 #, fuzzy
 #| msgid "Spam"
 msgctxt "@action:inmenu Status of a message"
 msgid "Spam"
 msgstr "Спэм"
 
-#: core/widgetbase.cpp:277
+#: core/widgetbase.cpp:293
 #, fuzzy
 #| msgid "Ham"
 msgctxt "@action:inmenu Status of a message"
 msgid "Ham"
 msgstr "Хэм"
 
-#: core/widgetbase.cpp:442 core/view.cpp:1584
+#: core/widgetbase.cpp:459 core/view.cpp:1584
 msgid "Theme"
 msgstr ""
 
-#: core/widgetbase.cpp:466 core/widgetbase.cpp:554
+#: core/widgetbase.cpp:483 core/widgetbase.cpp:571
 #: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
 #, fuzzy
 msgid "Configure..."
 msgstr "KMail мослама&си"
 
-#: core/widgetbase.cpp:529 core/view.cpp:1578
+#: core/widgetbase.cpp:546 core/view.cpp:1578
 #, fuzzy
 #| msgid "Suggestions"
 msgid "Aggregation"
 msgstr "Таклифлар"
 
-#: core/widgetbase.cpp:610
+#: core/widgetbase.cpp:627
 #, fuzzy
 #| msgid "Message Body"
 msgid "Message Sort Order"
 msgstr "Хабар таркиби"
 
-#: core/widgetbase.cpp:637
+#: core/widgetbase.cpp:654
 #, fuzzy
 msgid "Message Sort Direction"
 msgstr "Хабарлар рўйхати"
 
-#: core/widgetbase.cpp:658
+#: core/widgetbase.cpp:675
 #, fuzzy
 #| msgid "Delete Folder"
 msgid "Group Sort Order"
 msgstr "Жилдни ўчириш"
 
-#: core/widgetbase.cpp:681
+#: core/widgetbase.cpp:698
 #, fuzzy
 msgid "Group Sort Direction"
 msgstr "Хабарлар рўйхати"
 
-#: core/widgetbase.cpp:699
+#: core/widgetbase.cpp:716
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
+
+#: core/widgetbase.cpp:911
+msgctxt "@info:tooltip"
+msgid "Unlock search"
+msgstr ""
+
+#: core/widgetbase.cpp:914
+#, fuzzy
+#| msgid "Last Search"
+msgctxt "@info:tooltip"
+msgid "Lock search"
+msgstr "Охирги қидирув"
 
 #: core/view.cpp:725
 msgid "Adjust Column Sizes"
@@ -2360,9 +2386,6 @@ msgstr ""
 
 #~ msgid "Search folder &name:"
 #~ msgstr "Қидирув жилди &номи:"
-
-#~ msgid "Last Search"
-#~ msgstr "Охирги қидирув"
 
 #, fuzzy
 #~| msgid "Delete Search"
