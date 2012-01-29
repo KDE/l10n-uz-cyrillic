@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-16 04:13+0100\n"
+"POT-Creation-Date: 2012-01-29 13:32+0100\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -146,6 +146,20 @@ msgctxt "@title:window"
 msgid "Add User-ID Succeeded"
 msgstr "Сертификат тафсилотлари..."
 
+#: commands/certifycertificatecommand.cpp:182
+msgctxt "@info"
+msgid ""
+"To certify other certificates, you first need to create an OpenPGP "
+"certificate for yourself. Choose <interface>File->New Certificate...</"
+"interface> to create one."
+msgstr ""
+
+#: commands/certifycertificatecommand.cpp:183
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Certification Not Possible"
+msgstr "Сертификат тафсилотлари..."
+
 #: commands/changeexpirycommand.cpp:222
 #, kde-format
 msgid ""
@@ -185,6 +199,31 @@ msgstr "Сертификатларни импорт қилиш..."
 #: commands/changeownertrustcommand.cpp:230
 msgid "Owner Trust Change Succeeded"
 msgstr ""
+
+#: commands/changepassphrasecommand.cpp:185
+#, kde-format
+msgid ""
+"<p>An error occurred while trying to change the passphrase for <b>%1</b>:</"
+"p><p>%2</p>"
+msgstr ""
+
+#: commands/changepassphrasecommand.cpp:189
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Passphrase Change Error"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/changepassphrasecommand.cpp:193
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Passphrase changed successfully."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/changepassphrasecommand.cpp:194
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Passphrase Change Succeeded"
+msgstr "Сертификатларни импорт қилиш..."
 
 #: commands/changeroottrustcommand.cpp:94
 #, kde-format
@@ -297,6 +336,75 @@ msgstr ""
 
 #: commands/decryptverifyfilescommand.cpp:175
 msgid "Select One or More Files to Decrypt and/or Verify"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:98
+#, fuzzy
+#| msgid "Import Certificates..."
+msgctxt "@title:window"
+msgid "Delete Certificates"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/deletecertificatescommand.cpp:163
+msgid ""
+"Neither the OpenPGP nor the CMS backends support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:167
+msgid ""
+"The OpenPGP backend does not support certificate deletion.\n"
+"Check your installation.\n"
+"Only the selected CMS certificates will be deleted."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:174
+#: commands/deletecertificatescommand.cpp:178
+msgid ""
+"The OpenPGP backend does not support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:184
+msgid ""
+"The CMS backend does not support certificate deletion.\n"
+"Check your installation.\n"
+"Only the selected OpenPGP certificates will be deleted."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:200
+#: commands/deletecertificatescommand.cpp:213
+msgid ""
+"The CMS backend does not support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:280
+#: commands/deletecertificatescommand.cpp:349
+msgid "Certificate Deletion Failed"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:281
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Certificate Deletion Problem"
+msgstr "Сертификат тафсилотлари..."
+
+#: commands/deletecertificatescommand.cpp:340
+#, kde-format
+msgid "OpenPGP backend: %1"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:343
+#, kde-format
+msgid "CMS backend: %1"
+msgstr ""
+
+#: commands/deletecertificatescommand.cpp:345
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to delete the certificate:</p><p><b>"
+"%1</b></p></qt>"
 msgstr ""
 
 #: commands/dumpcertificatecommand.cpp:90 commands/dumpcrlcachecommand.cpp:87
@@ -544,319 +652,6 @@ msgstr "Сертификат тафсилотлари..."
 msgid "Select Certificate File"
 msgstr ""
 
-#: commands/importcrlcommand.cpp:70
-msgid ""
-"Certificate Revocation Lists, DER encoded (*.crl *.arl *-crl.der *-arl.der)"
-msgstr ""
-
-#: commands/importcrlcommand.cpp:71
-msgid "Select CRL File to Import"
-msgstr ""
-
-#: commands/importcrlcommand.cpp:161
-msgid "Unable to start process dirmngr. Please check your installation."
-msgstr ""
-
-#: commands/importcrlcommand.cpp:179
-msgid ""
-"The GpgSM process that tried to import the CRL file ended prematurely "
-"because of an unexpected error. Please check the output of gpgsm --call-"
-"dirmngr loadcrl &lt;filename&gt; for details."
-msgstr ""
-
-#: commands/importcrlcommand.cpp:182 commands/importcrlcommand.cpp:186
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Import CRL Error"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/importcrlcommand.cpp:184
-#, kde-format
-msgid ""
-"An error occurred while trying to import the CRL file. The output from gpgsm "
-"was:\n"
-"%1"
-msgstr ""
-
-#: commands/importcrlcommand.cpp:188
-msgid "CRL file imported successfully."
-msgstr ""
-
-#: commands/importcrlcommand.cpp:189
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Import CRL Finished"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/learncardkeyscommand.cpp:75
-msgid "Error Learning SmartCard"
-msgstr ""
-
-#: commands/learncardkeyscommand.cpp:79
-msgid "Finished Learning SmartCard"
-msgstr ""
-
-#: commands/learncardkeyscommand.cpp:84
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>The GPG or GpgSM process that tried to learn the smart card ended "
-"prematurely because of an unexpected error.</para><para>Please check the "
-"output of <icode>%1</icode> for details.</para>"
-msgstr ""
-
-#: commands/refreshopenpgpcertscommand.cpp:74
-msgctxt "@info"
-msgid ""
-"<para>No OpenPGP directory services have been configured.</para><para>If not "
-"all of the certificates carry the name of their preferred certificate server "
-"(few do), a fallback server is needed to fetch from.</para><para>Since none "
-"is configured, <application>Kleopatra</application> will use <resource>keys."
-"gnupg.net</resource> as the fallback.</para><para>You can configure OpenPGP "
-"directory servers in Kleopatra's configuration dialog.</para><para>Do you "
-"want to continue with <resource>keys.gnupg.net</resource> as fallback server?"
-"</para>"
-msgstr ""
-
-#: commands/refreshopenpgpcertscommand.cpp:83
-#: commands/refreshopenpgpcertscommand.cpp:96
-#, fuzzy
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "OpenPGP Certificate Refresh"
-msgstr "Сертификат тафсилотлари..."
-
-#: commands/refreshopenpgpcertscommand.cpp:90
-msgctxt "@info"
-msgid ""
-"<para>Refreshing OpenPGP certificates implies downloading all certificates "
-"anew, to check if any of them have been revoked in the meantime.</"
-"para><para>This can put a severe strain on your own as well as other "
-"people's network connections, and can take up to an hour or more to "
-"complete, depending on your network connection, and the number of "
-"certificates to check.</para> <para>Are you sure you want to continue?</para>"
-msgstr ""
-
-#: commands/refreshopenpgpcertscommand.cpp:112
-#, fuzzy
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "OpenPGP Certificate Refresh Error"
-msgstr "Сертификат тафсилотлари..."
-
-#: commands/refreshopenpgpcertscommand.cpp:116
-#, fuzzy
-#| msgid "Import Certificates..."
-msgctxt "@title:window"
-msgid "OpenPGP Certificate Refresh Finished"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/refreshopenpgpcertscommand.cpp:121
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>The GPG process that tried to refresh OpenPGP certificates ended "
-"prematurely because of an unexpected error.</para><para>Please check the "
-"output of <icode>%1</icode> for details.</para>"
-msgstr ""
-
-#: commands/refreshopenpgpcertscommand.cpp:128
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>An error occurred while trying to refresh OpenPGP certificates.</para> "
-"<para>The output from <command>%1</command> was: <message>%2</message></para>"
-msgstr ""
-
-#: commands/refreshopenpgpcertscommand.cpp:134
-#, fuzzy
-#| msgid "Import Certificates..."
-msgctxt "@info"
-msgid "OpenPGP certificates refreshed successfully."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/refreshx509certscommand.cpp:62
-msgctxt "@info"
-msgid ""
-"<para>Refreshing X.509 certificates implies downloading CRLs for all "
-"certificates, even if they might otherwise still be valid.</para><para>This "
-"can put a severe strain on your own as well as other people's network "
-"connections, and can take up to an hour or more to complete, depending on "
-"your network connection, and the number of certificates to check.</para> "
-"<para>Are you sure you want to continue?</para>"
-msgstr ""
-
-#: commands/refreshx509certscommand.cpp:68
-#, fuzzy
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "X.509 Certificate Refresh"
-msgstr "Сертификат тафсилотлари..."
-
-#: commands/refreshx509certscommand.cpp:79
-#, fuzzy
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "X.509 Certificate Refresh Error"
-msgstr "Сертификат тафсилотлари..."
-
-#: commands/refreshx509certscommand.cpp:83
-#, fuzzy
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "X.509 Certificate Refresh Finished"
-msgstr "Сертификат тафсилотлари..."
-
-#: commands/refreshx509certscommand.cpp:88
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>The GpgSM process that tried to refresh X.509 certificates ended "
-"prematurely because of an unexpected error.</para><para>Please check the "
-"output of <icode>%1</icode> for details.</para>"
-msgstr ""
-
-#: commands/refreshx509certscommand.cpp:95
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>An error occurred while trying to refresh X.509 certificates.</"
-"para><para>The output from <command>%1</command> was: <message>%2</message></"
-"para>"
-msgstr ""
-
-#: commands/refreshx509certscommand.cpp:101
-#, fuzzy
-#| msgid "Import Certificates..."
-msgctxt "@info"
-msgid "X.509 certificates refreshed successfully."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/setinitialpincommand.cpp:71
-msgctxt "@title"
-msgid "Set Initial Pin"
-msgstr ""
-
-#: commands/signclipboardcommand.cpp:151 commands/signclipboardcommand.cpp:164
-msgid "Sign Clipboard Error"
-msgstr ""
-
-#: commands/signencryptfilescommand.cpp:234
-msgid "Sign/Encrypt Files Error"
-msgstr ""
-
-#: commands/signencryptfilescommand.cpp:245
-msgid "Select One or More Files to Sign and/or Encrypt"
-msgstr ""
-
-#: commands/changepassphrasecommand.cpp:185
-#, kde-format
-msgid ""
-"<p>An error occurred while trying to change the passphrase for <b>%1</b>:</"
-"p><p>%2</p>"
-msgstr ""
-
-#: commands/changepassphrasecommand.cpp:189
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Passphrase Change Error"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/changepassphrasecommand.cpp:193
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Passphrase changed successfully."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/changepassphrasecommand.cpp:194
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Passphrase Change Succeeded"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/certifycertificatecommand.cpp:182
-msgctxt "@info"
-msgid ""
-"To certify other certificates, you first need to create an OpenPGP "
-"certificate for yourself. Choose <interface>File->New Certificate...</"
-"interface> to create one."
-msgstr ""
-
-#: commands/certifycertificatecommand.cpp:183
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Certification Not Possible"
-msgstr "Сертификат тафсилотлари..."
-
-#: commands/deletecertificatescommand.cpp:98
-#, fuzzy
-#| msgid "Import Certificates..."
-msgctxt "@title:window"
-msgid "Delete Certificates"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: commands/deletecertificatescommand.cpp:163
-msgid ""
-"Neither the OpenPGP nor the CMS backends support certificate deletion.\n"
-"Check your installation."
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:167
-msgid ""
-"The OpenPGP backend does not support certificate deletion.\n"
-"Check your installation.\n"
-"Only the selected CMS certificates will be deleted."
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:174
-#: commands/deletecertificatescommand.cpp:178
-msgid ""
-"The OpenPGP backend does not support certificate deletion.\n"
-"Check your installation."
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:184
-msgid ""
-"The CMS backend does not support certificate deletion.\n"
-"Check your installation.\n"
-"Only the selected OpenPGP certificates will be deleted."
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:200
-#: commands/deletecertificatescommand.cpp:213
-msgid ""
-"The CMS backend does not support certificate deletion.\n"
-"Check your installation."
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:280
-#: commands/deletecertificatescommand.cpp:349
-msgid "Certificate Deletion Failed"
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:281
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Certificate Deletion Problem"
-msgstr "Сертификат тафсилотлари..."
-
-#: commands/deletecertificatescommand.cpp:340
-#, kde-format
-msgid "OpenPGP backend: %1"
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:343
-#, kde-format
-msgid "CMS backend: %1"
-msgstr ""
-
-#: commands/deletecertificatescommand.cpp:345
-#, kde-format
-msgid ""
-"<qt><p>An error occurred while trying to delete the certificate:</p><p><b>"
-"%1</b></p></qt>"
-msgstr ""
-
 #: commands/importcertificatescommand.cpp:207
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
@@ -1005,6 +800,67 @@ msgid ""
 "installation."
 msgstr ""
 
+#: commands/importcrlcommand.cpp:70
+msgid ""
+"Certificate Revocation Lists, DER encoded (*.crl *.arl *-crl.der *-arl.der)"
+msgstr ""
+
+#: commands/importcrlcommand.cpp:71
+msgid "Select CRL File to Import"
+msgstr ""
+
+#: commands/importcrlcommand.cpp:161
+msgid "Unable to start process dirmngr. Please check your installation."
+msgstr ""
+
+#: commands/importcrlcommand.cpp:179
+msgid ""
+"The GpgSM process that tried to import the CRL file ended prematurely "
+"because of an unexpected error. Please check the output of gpgsm --call-"
+"dirmngr loadcrl &lt;filename&gt; for details."
+msgstr ""
+
+#: commands/importcrlcommand.cpp:182 commands/importcrlcommand.cpp:186
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Import CRL Error"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/importcrlcommand.cpp:184
+#, kde-format
+msgid ""
+"An error occurred while trying to import the CRL file. The output from gpgsm "
+"was:\n"
+"%1"
+msgstr ""
+
+#: commands/importcrlcommand.cpp:188
+msgid "CRL file imported successfully."
+msgstr ""
+
+#: commands/importcrlcommand.cpp:189
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Import CRL Finished"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/learncardkeyscommand.cpp:75
+msgid "Error Learning SmartCard"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:79
+msgid "Finished Learning SmartCard"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:84
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG or GpgSM process that tried to learn the smart card ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
 #: commands/lookupcertificatescommand.cpp:210
 msgid ""
 "<p>You seem to be searching for a fingerprint or a key-id.</p><p>Different "
@@ -1068,6 +924,150 @@ msgstr ""
 #: commands/lookupcertificatescommand.cpp:374
 msgctxt "@title"
 msgid "No Directory Servers Configured"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:74
+msgctxt "@info"
+msgid ""
+"<para>No OpenPGP directory services have been configured.</para><para>If not "
+"all of the certificates carry the name of their preferred certificate server "
+"(few do), a fallback server is needed to fetch from.</para><para>Since none "
+"is configured, <application>Kleopatra</application> will use <resource>keys."
+"gnupg.net</resource> as the fallback.</para><para>You can configure OpenPGP "
+"directory servers in Kleopatra's configuration dialog.</para><para>Do you "
+"want to continue with <resource>keys.gnupg.net</resource> as fallback server?"
+"</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:83
+#: commands/refreshopenpgpcertscommand.cpp:96
+#, fuzzy
+#| msgid "Certificate Details..."
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh"
+msgstr "Сертификат тафсилотлари..."
+
+#: commands/refreshopenpgpcertscommand.cpp:90
+msgctxt "@info"
+msgid ""
+"<para>Refreshing OpenPGP certificates implies downloading all certificates "
+"anew, to check if any of them have been revoked in the meantime.</"
+"para><para>This can put a severe strain on your own as well as other "
+"people's network connections, and can take up to an hour or more to "
+"complete, depending on your network connection, and the number of "
+"certificates to check.</para> <para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:112
+#, fuzzy
+#| msgid "Certificate Details..."
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh Error"
+msgstr "Сертификат тафсилотлари..."
+
+#: commands/refreshopenpgpcertscommand.cpp:116
+#, fuzzy
+#| msgid "Import Certificates..."
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh Finished"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/refreshopenpgpcertscommand.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG process that tried to refresh OpenPGP certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:128
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to refresh OpenPGP certificates.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:134
+#, fuzzy
+#| msgid "Import Certificates..."
+msgctxt "@info"
+msgid "OpenPGP certificates refreshed successfully."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/refreshx509certscommand.cpp:62
+msgctxt "@info"
+msgid ""
+"<para>Refreshing X.509 certificates implies downloading CRLs for all "
+"certificates, even if they might otherwise still be valid.</para><para>This "
+"can put a severe strain on your own as well as other people's network "
+"connections, and can take up to an hour or more to complete, depending on "
+"your network connection, and the number of certificates to check.</para> "
+"<para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:68
+#, fuzzy
+#| msgid "Certificate Details..."
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh"
+msgstr "Сертификат тафсилотлари..."
+
+#: commands/refreshx509certscommand.cpp:79
+#, fuzzy
+#| msgid "Certificate Details..."
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh Error"
+msgstr "Сертификат тафсилотлари..."
+
+#: commands/refreshx509certscommand.cpp:83
+#, fuzzy
+#| msgid "Certificate Details..."
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh Finished"
+msgstr "Сертификат тафсилотлари..."
+
+#: commands/refreshx509certscommand.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GpgSM process that tried to refresh X.509 certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to refresh X.509 certificates.</"
+"para><para>The output from <command>%1</command> was: <message>%2</message></"
+"para>"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:101
+#, fuzzy
+#| msgid "Import Certificates..."
+msgctxt "@info"
+msgid "X.509 certificates refreshed successfully."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: commands/setinitialpincommand.cpp:71
+msgctxt "@title"
+msgid "Set Initial Pin"
+msgstr ""
+
+#: commands/signclipboardcommand.cpp:151 commands/signclipboardcommand.cpp:164
+msgid "Sign Clipboard Error"
+msgstr ""
+
+#: commands/signencryptfilescommand.cpp:234
+msgid "Sign/Encrypt Files Error"
+msgstr ""
+
+#: commands/signencryptfilescommand.cpp:245
+msgid "Select One or More Files to Sign and/or Encrypt"
 msgstr ""
 
 #: commands/exportcertificatecommand.cpp:212
@@ -1169,6 +1169,89 @@ msgstr ""
 msgid "(Current system setting: %1)"
 msgstr ""
 
+#: crypto/createchecksumscontroller.cpp:84
+msgctxt "@info"
+msgid "No checksum files have been created."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:85
+msgctxt "@info"
+msgid "These checksum files have been successfully created:"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:88
+msgctxt "@info"
+msgid "There were no errors."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:89
+msgctxt "@info"
+msgid "The following errors were encountered:"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:280
+msgid ""
+"Create Checksums: input files must be either all checksum files or all files "
+"to be checksummed, not a mixture of both."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:302
+msgid "Initializing..."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:302 mainwindow_desktop.cpp:480
+#, fuzzy
+#| msgid "Canceled."
+msgid "Cancel"
+msgstr "Бекор қилинди."
+
+#: crypto/createchecksumscontroller.cpp:306
+msgctxt "@title:window"
+msgid "Create Checksum Progress"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:535
+#, kde-format
+msgid "Failed to open file \"%1\" for reading and writing: %2"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:551
+#: crypto/verifychecksumscontroller.cpp:554 utils/output.cpp:463
+#, kde-format
+msgid "Error while running %1: %2"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:554
+#: crypto/verifychecksumscontroller.cpp:557 utils/input.cpp:324
+#: utils/output.cpp:466
+#, kde-format
+msgid "Failed to execute %1: %2"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:585
+msgid "No checksum programs defined."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:597
+#: crypto/verifychecksumscontroller.cpp:590
+msgid "Scanning directories..."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:612
+#: crypto/verifychecksumscontroller.cpp:603
+msgid "Calculating total size..."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:629
+#, kde-format
+msgid "Checksumming (%2) in %1"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:640
+#: crypto/verifychecksumscontroller.cpp:631
+msgid "Done."
+msgstr "Тайёр."
+
 #: crypto/decryptverifyemailcontroller.cpp:84
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
@@ -1211,6 +1294,330 @@ msgstr ""
 #: crypto/decryptverifyemailcontroller.cpp:302
 #, kde-format
 msgid "No backend support for %1"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:180
+msgid "Error: Signature not verified"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:182
+msgid "Good signature"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:184
+msgid "Bad signature"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:186
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Signing certificate revoked"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:188
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Signing certificate expired"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:190
+msgid "No public certificate to verify the signature"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:192
+msgid "Signature expired"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:194
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Certificate missing"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/decryptverifytask.cpp:196
+msgid "CRL missing"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:198
+msgid "CRL too old"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:200
+msgid "Bad policy"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:202
+msgid "System error"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:211
+msgid ""
+"The signature is valid but the trust in the certificate's validity is only "
+"marginal."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:213
+msgid "The signature is valid and the certificate's validity is fully trusted."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:215
+msgid ""
+"The signature is valid and the certificate's validity is ultimately trusted."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:217
+msgid ""
+"The signature is valid but the certificate's validity is <em>not trusted</"
+"em>."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:219
+msgid "The signature is valid but the certificate's validity is unknown."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:222
+msgid "The signature is valid but the certificate's validity is undefined."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:238 crypto/decryptverifytask.cpp:244
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Unknown certificate"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:263
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "Signed on %1 with unknown certificate %2."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:265
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "Signed with unknown certificate %1."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:270
+#, kde-format
+msgctxt "date, key owner, key ID"
+msgid "Signed on %1 by %2 (Key ID: %3)."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:275
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "Signed by %1 with certificate %2."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:278
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "Signed on %1 with certificate %2."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:279
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "Signed with certificate %1."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/decryptverifytask.cpp:290 crypto/signencryptfilestask.cpp:74
+#, kde-format
+msgctxt "Input file --> Output file (rarr is arrow"
+msgid "%1 &rarr; %2"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:360
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "<b>Verification canceled.</b>"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/decryptverifytask.cpp:362
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgid "<b>Verification failed: %1.</b>"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/decryptverifytask.cpp:368
+msgid "<b>No signatures found.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:372
+#, kde-format
+msgid "<b>Invalid signature.</b>"
+msgid_plural "<b>%1 invalid signatures.</b>"
+msgstr[0] ""
+
+#: crypto/decryptverifytask.cpp:376
+#, kde-format
+msgid "<b>Not enough information to check signature validity.</b>"
+msgid_plural "<b>%1 signatures could not be verified.</b>"
+msgstr[0] ""
+
+#: crypto/decryptverifytask.cpp:383
+msgid "<b>Signature is valid.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:384
+#, kde-format
+msgid "<b>Signed by %1</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:387
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "certificate"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/decryptverifytask.cpp:386
+#, kde-format
+msgid ""
+"<br/><b>Warning:</b> The sender's mail address is not stored in the %1 used "
+"for signing."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:390
+#, kde-format
+msgid "<b>Valid signature.</b>"
+msgid_plural "<b>%1 valid signatures.</b>"
+msgstr[0] ""
+
+#: crypto/decryptverifytask.cpp:392
+msgid ""
+"<br/><b>Warning:</b> The sender's mail address is not stored in the "
+"certificates used for signing."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:403
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "<b>Decryption canceled.</b>"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/decryptverifytask.cpp:405 crypto/decryptverifytask.cpp:407
+#, kde-format
+msgid "<b>Decryption failed: %1.</b>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:408
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "<b>Decryption succeeded.</b>"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/decryptverifytask.cpp:423
+msgid "The signature is bad."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:425
+msgid "The validity of the signature cannot be verified."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:426
+#, kde-format
+msgid "The signature is invalid: %1"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:438 crypto/decryptverifytask.cpp:455
+#: crypto/signencryptfilestask.cpp:223 crypto/signencryptfilestask.cpp:235
+#, kde-format
+msgid "Input error: %1"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:448
+msgctxt "separator for a list of e-mail addresses"
+msgid ", "
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:448
+#, kde-format
+msgid ""
+"<p>The sender's address %1 is not stored in the certificate. Stored: %2</p>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:461
+#, kde-format
+msgid "One unknown recipient."
+msgid_plural "%1 unknown recipients."
+msgstr[0] ""
+
+#: crypto/decryptverifytask.cpp:465
+msgid "Recipient:"
+msgid_plural "Recipients:"
+msgstr[0] ""
+
+#: crypto/decryptverifytask.cpp:473
+#, kde-format
+msgid "One unknown recipient"
+msgid_plural "%1 unknown recipients"
+msgstr[0] ""
+
+#: crypto/decryptverifytask.cpp:689
+#, kde-format
+msgctxt "label: result example: foo.sig: Verification failed. "
+msgid "%1: %2"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:811 crypto/decryptverifytask.cpp:908
+#: crypto/decryptverifytask.cpp:962 crypto/decryptverifytask.cpp:1061
+#: crypto/decryptverifytask.cpp:1114 crypto/decryptverifytask.cpp:1212
+#: crypto/decryptverifytask.cpp:1260 crypto/decryptverifytask.cpp:1346
+#, kde-format
+msgid "Caught exception: %1"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:814 crypto/decryptverifytask.cpp:910
+#: crypto/decryptverifytask.cpp:965 crypto/decryptverifytask.cpp:1063
+#: crypto/decryptverifytask.cpp:1117 crypto/decryptverifytask.cpp:1214
+#: crypto/decryptverifytask.cpp:1262 crypto/decryptverifytask.cpp:1348
+#: uiserver/assuanserverconnection.cpp:1424
+#: uiserver/assuanserverconnection.cpp:1470
+msgid "Caught unknown exception"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:863
+msgid ""
+"Could not determine whether this is an S/MIME or an OpenPGP signature/"
+"ciphertext - maybe it is neither ciphertext nor a signature?"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:869 crypto/decryptverifytask.cpp:1020
+#, kde-format
+msgid "Decrypting: %1..."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1014
+msgid ""
+"Could not determine whether this was S/MIME- or OpenPGP-encrypted - maybe it "
+"is not ciphertext at all?"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1166 crypto/decryptverifytask.cpp:1300
+msgid ""
+"Could not determine whether this is an S/MIME or an OpenPGP signature - "
+"maybe it is not a signature at all?"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1172
+#, kde-format
+msgid "Verifying: %1..."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1311
+#, kde-format
+msgid "Verifying signature: %1..."
+msgstr ""
+
+#: crypto/encryptemailcontroller.cpp:150
+msgid "Call to EncryptEMailController::protocolAsString() is ambiguous."
+msgstr ""
+
+#: crypto/encryptemailcontroller.cpp:169
+#: crypto/newsignencryptemailcontroller.cpp:382
+#: crypto/signemailcontroller.cpp:180
+#: crypto/signencryptfilescontroller.cpp:278
+msgid "User cancel"
 msgstr ""
 
 #: crypto/encryptemailtask.cpp:85 crypto/signencryptfilestask.cpp:186
@@ -1259,8 +1666,8 @@ msgstr ""
 msgid "All operations completed."
 msgstr ""
 
-#: crypto/gui/newresultpage.cpp:160 crypto/gui/resultpage.cpp:149
-#: crypto/gui/resultlistwidget.cpp:224
+#: crypto/gui/newresultpage.cpp:160 crypto/gui/resultlistwidget.cpp:224
+#: crypto/gui/resultpage.cpp:149
 #, fuzzy, kde-format
 #| msgid "Stop Operation"
 msgctxt "number, operation description"
@@ -1275,72 +1682,6 @@ msgstr ""
 
 #: crypto/gui/newresultpage.cpp:167 crypto/gui/resultpage.cpp:156
 msgid "<b>Results</b>"
-msgstr ""
-
-#: crypto/gui/resultitemwidget.cpp:104
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Hide Details"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/gui/resultitemwidget.cpp:104
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Show Details"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/gui/signemailwizard.cpp:82
-msgid "You need to select a signing certificate to proceed."
-msgstr ""
-
-#: crypto/gui/signemailwizard.cpp:88
-#, kde-format
-msgid "You need to select an %1 signing certificate to proceed."
-msgstr ""
-
-#: crypto/gui/signemailwizard.cpp:90
-#, kde-format
-msgid "You need to select %1 and %2 signing certificates to proceed."
-msgstr ""
-
-#: crypto/gui/signemailwizard.cpp:118
-msgid "Sign Mail Message"
-msgstr ""
-
-#: crypto/gui/signingcertificateselectiondialog.cpp:49
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Select Signing Certificates"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/gui/verifychecksumsdialog.cpp:223
-msgid "The following errors and warnings were recorded:"
-msgstr ""
-
-#: crypto/gui/verifychecksumsdialog.cpp:224
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Checksum Verification Errors"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/gui/verifychecksumsdialog.cpp:235
-#: crypto/gui/verifychecksumsdialog.cpp:259
-msgid "No errors occurred"
-msgstr ""
-
-#: crypto/gui/verifychecksumsdialog.cpp:237
-#, kde-format
-msgid "One error occurred"
-msgid_plural "%1 errors occurred"
-msgstr[0] ""
-
-#: crypto/gui/verifychecksumsdialog.cpp:257
-msgid "Progress:"
-msgstr ""
-
-#: crypto/gui/verifychecksumsdialog.cpp:260
-msgctxt "Show Errors"
-msgid "Show"
 msgstr ""
 
 #: crypto/gui/newsignencryptfileswizard.cpp:134
@@ -1536,6 +1877,36 @@ msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
+#: crypto/gui/resultitemwidget.cpp:104
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Hide Details"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/gui/resultitemwidget.cpp:104
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Show Details"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/gui/signemailwizard.cpp:82
+msgid "You need to select a signing certificate to proceed."
+msgstr ""
+
+#: crypto/gui/signemailwizard.cpp:88
+#, kde-format
+msgid "You need to select an %1 signing certificate to proceed."
+msgstr ""
+
+#: crypto/gui/signemailwizard.cpp:90
+#, kde-format
+msgid "You need to select %1 and %2 signing certificates to proceed."
+msgstr ""
+
+#: crypto/gui/signemailwizard.cpp:118
+msgid "Sign Mail Message"
+msgstr ""
+
 #: crypto/gui/signencryptemailconflictdialog.cpp:163
 #, fuzzy
 #| msgid "Import Certificates..."
@@ -1651,6 +2022,42 @@ msgstr ""
 #| msgid "Import Certificates..."
 msgid "Select Certificates For Message \"%1\""
 msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/gui/signingcertificateselectiondialog.cpp:49
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Select Signing Certificates"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: crypto/gui/verifychecksumsdialog.cpp:223
+msgid "The following errors and warnings were recorded:"
+msgstr ""
+
+#: crypto/gui/verifychecksumsdialog.cpp:224
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Checksum Verification Errors"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/gui/verifychecksumsdialog.cpp:235
+#: crypto/gui/verifychecksumsdialog.cpp:259
+msgid "No errors occurred"
+msgstr ""
+
+#: crypto/gui/verifychecksumsdialog.cpp:237
+#, kde-format
+msgid "One error occurred"
+msgid_plural "%1 errors occurred"
+msgstr[0] ""
+
+#: crypto/gui/verifychecksumsdialog.cpp:257
+msgid "Progress:"
+msgstr ""
+
+#: crypto/gui/verifychecksumsdialog.cpp:260
+msgctxt "Show Errors"
+msgid "Show"
+msgstr ""
 
 #: crypto/gui/decryptverifyfileswizard.cpp:207
 msgid "<b>Choose operations to be performed</b>"
@@ -1834,27 +2241,63 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: crypto/signencryptfilestask.cpp:74 crypto/decryptverifytask.cpp:290
-#, kde-format
-msgctxt "Input file --> Output file (rarr is arrow"
-msgid "%1 &rarr; %2"
+#: crypto/newsignencryptemailcontroller.cpp:297
+msgid "Call to NewSignEncryptEMailController::protocolAsString() is ambiguous."
 msgstr ""
 
-#: crypto/signencryptfilestask.cpp:173 crypto/signemailtask.cpp:85
+#: crypto/newsignencryptemailcontroller.cpp:517
+#: crypto/newsignencryptemailcontroller.cpp:522
+msgctxt "@title:window"
+msgid "Error"
+msgstr ""
+
+#: crypto/signemailtask.cpp:85 crypto/signencryptfilestask.cpp:173
 #, fuzzy
 #| msgid "Canceled."
 msgid "Signing canceled."
 msgstr "Бекор қилинди."
+
+#: crypto/signemailtask.cpp:88
+#, kde-format
+msgid "Signing failed: %1"
+msgstr ""
+
+#: crypto/signemailtask.cpp:90 crypto/signencryptfilestask.cpp:177
+msgid "Signing succeeded."
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:144
+msgid "Archive and Sign Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:151
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Archive and Encrypt Files"
+msgstr "Сертификат тафсилотлари..."
+
+#: crypto/signencryptfilescontroller.cpp:157
+msgid "Archive and Sign/Encrypt Files"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:477
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignEncryptFilesController::Private::"
+"slotWizardOperationPrepared: %1"
+msgstr ""
+
+#: crypto/signencryptfilescontroller.cpp:481
+msgid ""
+"Caught unknown exception in SignEncryptFilesController::Private::"
+"slotWizardOperationPrepared"
+msgstr ""
 
 #: crypto/signencryptfilestask.cpp:176
 #, fuzzy
 #| msgid "Canceled."
 msgid "Signing failed."
 msgstr "Бекор қилинди."
-
-#: crypto/signencryptfilestask.cpp:177 crypto/signemailtask.cpp:90
-msgid "Signing succeeded."
-msgstr ""
 
 #: crypto/signencryptfilestask.cpp:189
 #, fuzzy
@@ -1867,12 +2310,6 @@ msgstr "Сертификат тафсилотлари..."
 #| msgid "Certificate Details..."
 msgid "Signing and encryption succeeded."
 msgstr "Сертификат тафсилотлари..."
-
-#: crypto/signencryptfilestask.cpp:223 crypto/signencryptfilestask.cpp:235
-#: crypto/decryptverifytask.cpp:438 crypto/decryptverifytask.cpp:455
-#, kde-format
-msgid "Input error: %1"
-msgstr ""
 
 #: crypto/signencryptfilestask.cpp:225 crypto/signencryptfilestask.cpp:237
 #, kde-format
@@ -1908,443 +2345,6 @@ msgstr ""
 
 #: crypto/task.cpp:169
 msgid "Unknown exception in Task::start()"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:84
-msgctxt "@info"
-msgid "No checksum files have been created."
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:85
-msgctxt "@info"
-msgid "These checksum files have been successfully created:"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:88
-msgctxt "@info"
-msgid "There were no errors."
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:89
-msgctxt "@info"
-msgid "The following errors were encountered:"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:280
-msgid ""
-"Create Checksums: input files must be either all checksum files or all files "
-"to be checksummed, not a mixture of both."
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:302
-msgid "Initializing..."
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:302 mainwindow_desktop.cpp:480
-#, fuzzy
-#| msgid "Canceled."
-msgid "Cancel"
-msgstr "Бекор қилинди."
-
-#: crypto/createchecksumscontroller.cpp:306
-msgctxt "@title:window"
-msgid "Create Checksum Progress"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:535
-#, kde-format
-msgid "Failed to open file \"%1\" for reading and writing: %2"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:551
-#: crypto/verifychecksumscontroller.cpp:554 utils/output.cpp:463
-#, kde-format
-msgid "Error while running %1: %2"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:554
-#: crypto/verifychecksumscontroller.cpp:557 utils/input.cpp:324
-#: utils/output.cpp:466
-#, kde-format
-msgid "Failed to execute %1: %2"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:585
-msgid "No checksum programs defined."
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:597
-#: crypto/verifychecksumscontroller.cpp:590
-msgid "Scanning directories..."
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:612
-#: crypto/verifychecksumscontroller.cpp:603
-msgid "Calculating total size..."
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:629
-#, kde-format
-msgid "Checksumming (%2) in %1"
-msgstr ""
-
-#: crypto/createchecksumscontroller.cpp:640
-#: crypto/verifychecksumscontroller.cpp:631
-msgid "Done."
-msgstr "Тайёр."
-
-#: crypto/decryptverifytask.cpp:180
-msgid "Error: Signature not verified"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:182
-msgid "Good signature"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:184
-msgid "Bad signature"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:186
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Signing certificate revoked"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:188
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Signing certificate expired"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:190
-msgid "No public certificate to verify the signature"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:192
-msgid "Signature expired"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:194
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Certificate missing"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/decryptverifytask.cpp:196
-msgid "CRL missing"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:198
-msgid "CRL too old"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:200
-msgid "Bad policy"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:202
-msgid "System error"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:211
-msgid ""
-"The signature is valid but the trust in the certificate's validity is only "
-"marginal."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:213
-msgid "The signature is valid and the certificate's validity is fully trusted."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:215
-msgid ""
-"The signature is valid and the certificate's validity is ultimately trusted."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:217
-msgid ""
-"The signature is valid but the certificate's validity is <em>not trusted</"
-"em>."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:219
-msgid "The signature is valid but the certificate's validity is unknown."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:222
-msgid "The signature is valid but the certificate's validity is undefined."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:238 crypto/decryptverifytask.cpp:244
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Unknown certificate"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:263
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Signed on %1 with unknown certificate %2."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:265
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Signed with unknown certificate %1."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:270
-#, kde-format
-msgctxt "date, key owner, key ID"
-msgid "Signed on %1 by %2 (Key ID: %3)."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:275
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Signed by %1 with certificate %2."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:278
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Signed on %1 with certificate %2."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:279
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Signed with certificate %1."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: crypto/decryptverifytask.cpp:360
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "<b>Verification canceled.</b>"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/decryptverifytask.cpp:362
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "<b>Verification failed: %1.</b>"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/decryptverifytask.cpp:368
-msgid "<b>No signatures found.</b>"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:372
-#, kde-format
-msgid "<b>Invalid signature.</b>"
-msgid_plural "<b>%1 invalid signatures.</b>"
-msgstr[0] ""
-
-#: crypto/decryptverifytask.cpp:376
-#, kde-format
-msgid "<b>Not enough information to check signature validity.</b>"
-msgid_plural "<b>%1 signatures could not be verified.</b>"
-msgstr[0] ""
-
-#: crypto/decryptverifytask.cpp:383
-msgid "<b>Signature is valid.</b>"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:384
-#, kde-format
-msgid "<b>Signed by %1</b>"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:387
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "certificate"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/decryptverifytask.cpp:386
-#, kde-format
-msgid ""
-"<br/><b>Warning:</b> The sender's mail address is not stored in the %1 used "
-"for signing."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:390
-#, kde-format
-msgid "<b>Valid signature.</b>"
-msgid_plural "<b>%1 valid signatures.</b>"
-msgstr[0] ""
-
-#: crypto/decryptverifytask.cpp:392
-msgid ""
-"<br/><b>Warning:</b> The sender's mail address is not stored in the "
-"certificates used for signing."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:403
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "<b>Decryption canceled.</b>"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/decryptverifytask.cpp:405 crypto/decryptverifytask.cpp:407
-#, kde-format
-msgid "<b>Decryption failed: %1.</b>"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:408
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "<b>Decryption succeeded.</b>"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/decryptverifytask.cpp:423
-msgid "The signature is bad."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:425
-msgid "The validity of the signature cannot be verified."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:426
-#, kde-format
-msgid "The signature is invalid: %1"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:448
-msgctxt "separator for a list of e-mail addresses"
-msgid ", "
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:448
-#, kde-format
-msgid ""
-"<p>The sender's address %1 is not stored in the certificate. Stored: %2</p>"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:461
-#, kde-format
-msgid "One unknown recipient."
-msgid_plural "%1 unknown recipients."
-msgstr[0] ""
-
-#: crypto/decryptverifytask.cpp:465
-msgid "Recipient:"
-msgid_plural "Recipients:"
-msgstr[0] ""
-
-#: crypto/decryptverifytask.cpp:473
-#, kde-format
-msgid "One unknown recipient"
-msgid_plural "%1 unknown recipients"
-msgstr[0] ""
-
-#: crypto/decryptverifytask.cpp:689
-#, kde-format
-msgctxt "label: result example: foo.sig: Verification failed. "
-msgid "%1: %2"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:811 crypto/decryptverifytask.cpp:908
-#: crypto/decryptverifytask.cpp:962 crypto/decryptverifytask.cpp:1061
-#: crypto/decryptverifytask.cpp:1114 crypto/decryptverifytask.cpp:1212
-#: crypto/decryptverifytask.cpp:1260 crypto/decryptverifytask.cpp:1346
-#, kde-format
-msgid "Caught exception: %1"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:814 crypto/decryptverifytask.cpp:910
-#: crypto/decryptverifytask.cpp:965 crypto/decryptverifytask.cpp:1063
-#: crypto/decryptverifytask.cpp:1117 crypto/decryptverifytask.cpp:1214
-#: crypto/decryptverifytask.cpp:1262 crypto/decryptverifytask.cpp:1348
-#: uiserver/assuanserverconnection.cpp:1424
-#: uiserver/assuanserverconnection.cpp:1470
-msgid "Caught unknown exception"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:863
-msgid ""
-"Could not determine whether this is an S/MIME or an OpenPGP signature/"
-"ciphertext - maybe it is neither ciphertext nor a signature?"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:869 crypto/decryptverifytask.cpp:1020
-#, kde-format
-msgid "Decrypting: %1..."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:1014
-msgid ""
-"Could not determine whether this was S/MIME- or OpenPGP-encrypted - maybe it "
-"is not ciphertext at all?"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:1166 crypto/decryptverifytask.cpp:1300
-msgid ""
-"Could not determine whether this is an S/MIME or an OpenPGP signature - "
-"maybe it is not a signature at all?"
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:1172
-#, kde-format
-msgid "Verifying: %1..."
-msgstr ""
-
-#: crypto/decryptverifytask.cpp:1311
-#, kde-format
-msgid "Verifying signature: %1..."
-msgstr ""
-
-#: crypto/encryptemailcontroller.cpp:150
-msgid "Call to EncryptEMailController::protocolAsString() is ambiguous."
-msgstr ""
-
-#: crypto/encryptemailcontroller.cpp:169
-#: crypto/newsignencryptemailcontroller.cpp:382
-#: crypto/signemailcontroller.cpp:180
-#: crypto/signencryptfilescontroller.cpp:278
-msgid "User cancel"
-msgstr ""
-
-#: crypto/newsignencryptemailcontroller.cpp:297
-msgid "Call to NewSignEncryptEMailController::protocolAsString() is ambiguous."
-msgstr ""
-
-#: crypto/newsignencryptemailcontroller.cpp:517
-#: crypto/newsignencryptemailcontroller.cpp:522
-msgctxt "@title:window"
-msgid "Error"
-msgstr ""
-
-#: crypto/signemailtask.cpp:88
-#, kde-format
-msgid "Signing failed: %1"
-msgstr ""
-
-#: crypto/signencryptfilescontroller.cpp:144
-msgid "Archive and Sign Files"
-msgstr ""
-
-#: crypto/signencryptfilescontroller.cpp:151
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Archive and Encrypt Files"
-msgstr "Сертификат тафсилотлари..."
-
-#: crypto/signencryptfilescontroller.cpp:157
-msgid "Archive and Sign/Encrypt Files"
-msgstr ""
-
-#: crypto/signencryptfilescontroller.cpp:477
-#, kde-format
-msgid ""
-"Caught unexpected exception in SignEncryptFilesController::Private::"
-"slotWizardOperationPrepared: %1"
-msgstr ""
-
-#: crypto/signencryptfilescontroller.cpp:481
-msgid ""
-"Caught unknown exception in SignEncryptFilesController::Private::"
-"slotWizardOperationPrepared"
 msgstr ""
 
 #: crypto/verifychecksumscontroller.cpp:220
@@ -2483,6 +2483,153 @@ msgctxt "@info"
 msgid ""
 "<interface>%1</interface> is invalid.<nl/>Local Admin rule: <icode>%2</icode>"
 msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:110
+msgid "Please select one or more of the following certificates:"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:111
+msgid "Please select one of the following certificates:"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:148
+msgid "Reload"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:149
+msgid "Lookup..."
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:150
+msgid "New..."
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:152
+#, fuzzy
+#| msgid "Import Certificates..."
+msgctxt "@info:tooltip"
+msgid "Lookup certificates on server"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: dialogs/certificateselectiondialog.cpp:153
+#, fuzzy
+#| msgid "Certificate Details..."
+msgctxt "@info:tooltip"
+msgid "Refresh certificate list"
+msgstr "Сертификат тафсилотлари..."
+
+#: dialogs/certificateselectiondialog.cpp:154
+#, fuzzy
+#| msgid "Import Certificates..."
+msgctxt "@info:tooltip"
+msgid "Create a new certificate"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: dialogs/certificateselectiondialog.cpp:180
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Certificate Selection"
+msgstr "Сертификат тафсилотлари..."
+
+#: dialogs/certifycertificatedialog.cpp:131
+msgid "<b>Step 1:</b> Please select the user IDs you wish to certify."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:140
+msgid "I have verified the fingerprint"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:159
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgid ""
+"Certificate: %1\n"
+"Fingerprint: %2"
+msgstr "Сертификат тафсилотлари..."
+
+#: dialogs/certifycertificatedialog.cpp:186
+#: newcertificatewizard/newcertificatewizard.cpp:1239
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Certify"
+msgstr "Сертификат тафсилотлари..."
+
+#. i18n: file: dialogs/certificationoptionswidget.ui:44
+#. i18n: ectx: property (text), widget (QLabel, singleKeyLabel)
+#: dialogs/certifycertificatedialog.cpp:199 rc.cpp:297
+#, no-c-format, kde-format
+msgid "Certification will be performed using certificate %1."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:229
+msgid "Signed user IDs:"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:232
+msgid "<b>Summary:</b>"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:236
+msgid "Check level:"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:239
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Selected secret key:"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: dialogs/certifycertificatedialog.cpp:258
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Default certificate"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: dialogs/certifycertificatedialog.cpp:262
+msgid "No statement made"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:265
+msgid "Not checked"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:268
+msgid "Casually checked"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:271
+msgid "Thoroughly checked"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:286
+msgid ""
+"The certificate was not certified because it was already certified by the "
+"same certificate."
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:288
+#, kde-format
+msgid "The certificate could not be certified. <b>Error</b>: %1"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:290
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Certification canceled."
+msgstr "Сертификат тафсилотлари..."
+
+#: dialogs/certifycertificatedialog.cpp:292
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Certification successful."
+msgstr "Сертификат тафсилотлари..."
+
+#: dialogs/certifycertificatedialog.cpp:365
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "arg is name, email of certificate holder"
+msgid "Certify Certificate: %1"
+msgstr "Сертификатларни импорт қилиш..."
 
 #: dialogs/deletecertificatesdialog.cpp:94
 msgid "These are the certificates you have selected for deletion:"
@@ -2652,153 +2799,6 @@ msgctxt "@info"
 msgid "PIN set successfully."
 msgstr "Сертификат тафсилотлари..."
 
-#: dialogs/certificateselectiondialog.cpp:110
-msgid "Please select one or more of the following certificates:"
-msgstr ""
-
-#: dialogs/certificateselectiondialog.cpp:111
-msgid "Please select one of the following certificates:"
-msgstr ""
-
-#: dialogs/certificateselectiondialog.cpp:148
-msgid "Reload"
-msgstr ""
-
-#: dialogs/certificateselectiondialog.cpp:149
-msgid "Lookup..."
-msgstr ""
-
-#: dialogs/certificateselectiondialog.cpp:150
-msgid "New..."
-msgstr ""
-
-#: dialogs/certificateselectiondialog.cpp:152
-#, fuzzy
-#| msgid "Import Certificates..."
-msgctxt "@info:tooltip"
-msgid "Lookup certificates on server"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: dialogs/certificateselectiondialog.cpp:153
-#, fuzzy
-#| msgid "Certificate Details..."
-msgctxt "@info:tooltip"
-msgid "Refresh certificate list"
-msgstr "Сертификат тафсилотлари..."
-
-#: dialogs/certificateselectiondialog.cpp:154
-#, fuzzy
-#| msgid "Import Certificates..."
-msgctxt "@info:tooltip"
-msgid "Create a new certificate"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: dialogs/certificateselectiondialog.cpp:180
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Certificate Selection"
-msgstr "Сертификат тафсилотлари..."
-
-#: dialogs/certifycertificatedialog.cpp:131
-msgid "<b>Step 1:</b> Please select the user IDs you wish to certify."
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:140
-msgid "I have verified the fingerprint"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:159
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid ""
-"Certificate: %1\n"
-"Fingerprint: %2"
-msgstr "Сертификат тафсилотлари..."
-
-#: dialogs/certifycertificatedialog.cpp:186
-#: newcertificatewizard/newcertificatewizard.cpp:1239
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Certify"
-msgstr "Сертификат тафсилотлари..."
-
-#. i18n: file: dialogs/certificationoptionswidget.ui:44
-#. i18n: ectx: property (text), widget (QLabel, singleKeyLabel)
-#: dialogs/certifycertificatedialog.cpp:199 rc.cpp:297
-#, no-c-format, kde-format
-msgid "Certification will be performed using certificate %1."
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:229
-msgid "Signed user IDs:"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:232
-msgid "<b>Summary:</b>"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:236
-msgid "Check level:"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:239
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Selected secret key:"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: dialogs/certifycertificatedialog.cpp:258
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Default certificate"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: dialogs/certifycertificatedialog.cpp:262
-msgid "No statement made"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:265
-msgid "Not checked"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:268
-msgid "Casually checked"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:271
-msgid "Thoroughly checked"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:286
-msgid ""
-"The certificate was not certified because it was already certified by the "
-"same certificate."
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:288
-#, kde-format
-msgid "The certificate could not be certified. <b>Error</b>: %1"
-msgstr ""
-
-#: dialogs/certifycertificatedialog.cpp:290
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Certification canceled."
-msgstr "Сертификат тафсилотлари..."
-
-#: dialogs/certifycertificatedialog.cpp:292
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Certification successful."
-msgstr "Сертификат тафсилотлари..."
-
-#: dialogs/certifycertificatedialog.cpp:365
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "arg is name, email of certificate holder"
-msgid "Certify Certificate: %1"
-msgstr "Сертификатларни импорт қилиш..."
-
 #: dialogs/certificatedetailsdialog.cpp:230
 #, kde-format
 msgctxt "@info"
@@ -2914,6 +2914,55 @@ msgstr ""
 msgid "Directory Path"
 msgstr ""
 
+#: kgpgconf/configreader.cpp:234
+#, kde-format
+msgid "Parse error on gpgconf --list-config output: %1"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:239
+#, kde-format
+msgid "gpgconf --list-config: Unknown component: %1"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:244
+#, kde-format
+msgid "gpgconf --list-config: Unknown entry: %1:%2"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:250
+#, kde-format
+msgid "gpgconf --list-config: Invalid entry: value must start with '\"': %1"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:283
+#, kde-format
+msgid "Parse error on gpgconf --list-components. output: %1"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:311
+msgid "gpgconf not found or cannot be started"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:313
+msgid "gpgconf terminated unexpectedly"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:315
+msgid "timeout while executing gpgconf"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:317
+msgid "error while writing to gpgconf"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:319
+msgid "error while reading from gpgconf"
+msgstr ""
+
+#: kgpgconf/configreader.cpp:322
+msgid "Unknown error while executing gpgconf"
+msgstr ""
+
 #. i18n: file: kleopatra.rc:5
 #. i18n: ectx: Menu (file)
 #. i18n: file: kwatchgnupg/kwatchgnupgui.rc:4
@@ -2981,53 +3030,68 @@ msgstr ""
 msgid "Save As"
 msgstr ""
 
-#: kgpgconf/configreader.cpp:234
-#, kde-format
-msgid "Parse error on gpgconf --list-config output: %1"
+#: kleopatraapplication.cpp:93
+msgid "Run UI server only, hide main window"
 msgstr ""
 
-#: kgpgconf/configreader.cpp:239
-#, kde-format
-msgid "gpgconf --list-config: Unknown component: %1"
+#: kleopatraapplication.cpp:94
+msgid "Use OpenPGP for the following operation"
 msgstr ""
 
-#: kgpgconf/configreader.cpp:244
-#, kde-format
-msgid "gpgconf --list-config: Unknown entry: %1:%2"
+#: kleopatraapplication.cpp:95
+msgid "Use CMS (X.509, S/MIME) for the following operation"
 msgstr ""
 
-#: kgpgconf/configreader.cpp:250
-#, kde-format
-msgid "gpgconf --list-config: Invalid entry: value must start with '\"': %1"
+#: kleopatraapplication.cpp:96
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Import certificate file(s)"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: kleopatraapplication.cpp:97
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Encrypt file(s)"
+msgstr "Сертификат тафсилотлари..."
+
+#: kleopatraapplication.cpp:98
+#, fuzzy
+#| msgid "Canceled."
+msgid "Sign file(s)"
+msgstr "Бекор қилинди."
+
+#: kleopatraapplication.cpp:99
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Sign and/or encrypt file(s)"
+msgstr "Сертификат тафсилотлари..."
+
+#: kleopatraapplication.cpp:100
+msgid "Same as --sign-encrypt, do not use"
 msgstr ""
 
-#: kgpgconf/configreader.cpp:283
-#, kde-format
-msgid "Parse error on gpgconf --list-components. output: %1"
+#: kleopatraapplication.cpp:101
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Decrypt file(s)"
+msgstr "Сертификат тафсилотлари..."
+
+#: kleopatraapplication.cpp:102
+msgid "Verify file/signature"
 msgstr ""
 
-#: kgpgconf/configreader.cpp:311
-msgid "gpgconf not found or cannot be started"
+#: kleopatraapplication.cpp:103
+#, fuzzy
+#| msgid "Certificate Details..."
+msgid "Decrypt and/or verify file(s)"
+msgstr "Сертификат тафсилотлари..."
+
+#: kleopatraapplication.cpp:111
+msgid "Location of the socket the ui server is listening on"
 msgstr ""
 
-#: kgpgconf/configreader.cpp:313
-msgid "gpgconf terminated unexpectedly"
-msgstr ""
-
-#: kgpgconf/configreader.cpp:315
-msgid "timeout while executing gpgconf"
-msgstr ""
-
-#: kgpgconf/configreader.cpp:317
-msgid "error while writing to gpgconf"
-msgstr ""
-
-#: kgpgconf/configreader.cpp:319
-msgid "error while reading from gpgconf"
-msgstr ""
-
-#: kgpgconf/configreader.cpp:322
-msgid "Unknown error while executing gpgconf"
+#: kleopatraapplication.cpp:118
+msgid "File(s) to process"
 msgstr ""
 
 #: kwatchgnupg/aboutdata.cpp:40
@@ -3244,6 +3308,103 @@ msgid ""
 "error given was: <b>%1</b><br/>You can use Kleopatra as a certificate "
 "manager, but cryptographic plugins that rely on a GPG UI Server being "
 "present might not work correctly, or at all.</qt>"
+msgstr ""
+
+#: mainwindow_desktop.cpp:121 mainwindow_mobile.cpp:151
+#, kde-format
+msgctxt "Quit [ApplicationName]"
+msgid "&Quit %1"
+msgstr ""
+
+#: mainwindow_desktop.cpp:127 mainwindow_mobile.cpp:157
+msgid "Only &Close Window"
+msgstr ""
+
+#: mainwindow_desktop.cpp:159
+#, kde-format
+msgid ""
+"%1 may be used by other applications as a service.\n"
+"You may instead want to close this window without exiting %1."
+msgstr ""
+
+#: mainwindow_desktop.cpp:161
+msgid "Really Quit?"
+msgstr ""
+
+#: mainwindow_desktop.cpp:188 mainwindow_mobile.cpp:203
+msgid ""
+"Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
+"installation."
+msgstr ""
+
+#: mainwindow_desktop.cpp:190 mainwindow_mobile.cpp:205
+msgid "Error Starting KWatchGnuPG"
+msgstr ""
+
+#: mainwindow_desktop.cpp:195 mainwindow_mobile.cpp:210
+msgid ""
+"Could not start the GnuPG Administrative Console (kgpgconf). Please check "
+"your installation."
+msgstr ""
+
+#: mainwindow_desktop.cpp:197 mainwindow_mobile.cpp:212
+msgid "Error Starting KGpgConf"
+msgstr ""
+
+#: mainwindow_desktop.cpp:306
+msgid "GnuPG Log Viewer"
+msgstr ""
+
+#: mainwindow_desktop.cpp:310
+msgid "GnuPG Administrative Console"
+msgstr ""
+
+#: mainwindow_desktop.cpp:315
+msgid "Configure GnuPG Backend..."
+msgstr ""
+
+#: mainwindow_desktop.cpp:319 mainwindow_mobile.cpp:278
+msgid "Perform Self-Test"
+msgstr ""
+
+#: mainwindow_desktop.cpp:323
+msgid "About Gpg4win"
+msgstr ""
+
+#: mainwindow_desktop.cpp:351
+msgid "Could not configure the cryptography backend (gpgconf tool not found)"
+msgstr ""
+
+#: mainwindow_desktop.cpp:351
+msgid "Configuration Error"
+msgstr ""
+
+#: mainwindow_desktop.cpp:383 mainwindow_mobile.cpp:345
+msgid ""
+"There are still some background operations ongoing. These will be terminated "
+"when closing the window. Proceed?"
+msgstr ""
+
+#: mainwindow_desktop.cpp:386 mainwindow_mobile.cpp:348
+msgid "Ongoing Background Tasks"
+msgstr ""
+
+#: mainwindow_desktop.cpp:467
+msgid "Sign/Encrypt..."
+msgstr ""
+
+#: mainwindow_desktop.cpp:468 systrayicon.cpp:191
+msgid "Decrypt/Verify..."
+msgstr ""
+
+#: mainwindow_desktop.cpp:472
+#, fuzzy
+#| msgid "Import Certificates..."
+msgid "Import Certificates"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: mainwindow_desktop.cpp:473
+msgid "Import CRLs"
 msgstr ""
 
 #: models/keylistmodel.cpp:252
@@ -3990,10 +4151,6 @@ msgstr ""
 msgid "OpenPGP-Sign..."
 msgstr ""
 
-#: systrayicon.cpp:191 mainwindow_desktop.cpp:468
-msgid "Decrypt/Verify..."
-msgstr ""
-
 #: systrayicon.cpp:192
 msgid "SmartCard"
 msgstr ""
@@ -4174,6 +4331,28 @@ msgid ""
 "present)"
 msgstr ""
 
+#: uiserver/uiserver.cpp:232
+msgid ""
+"Could not determine the GnuPG home directory. Consider setting the GNUPGHOME "
+"environment variable."
+msgstr ""
+
+#: uiserver/uiserver.cpp:242
+#, kde-format
+msgid ""
+"Cannot determine the GnuPG home directory: %1 exists but is not a directory."
+msgstr ""
+
+#: uiserver/uiserver.cpp:248
+#, kde-format
+msgid "Could not create GnuPG home directory %1: %2"
+msgstr ""
+
+#: uiserver/uiserver.cpp:260
+#, kde-format
+msgid "Detected another running gnupg UI server listening at %1."
+msgstr ""
+
 #: uiserver/uiserver_unix.cpp:70 uiserver/uiserver_win.cpp:72
 #, kde-format
 msgid "Could not create socket: %1"
@@ -4199,113 +4378,6 @@ msgstr ""
 msgid ""
 "Could not pass socket to Qt: %1. This should not happen, please report this "
 "bug."
-msgstr ""
-
-#: uiserver/uiserver.cpp:232
-msgid ""
-"Could not determine the GnuPG home directory. Consider setting the GNUPGHOME "
-"environment variable."
-msgstr ""
-
-#: uiserver/uiserver.cpp:242
-#, kde-format
-msgid ""
-"Cannot determine the GnuPG home directory: %1 exists but is not a directory."
-msgstr ""
-
-#: uiserver/uiserver.cpp:248
-#, kde-format
-msgid "Could not create GnuPG home directory %1: %2"
-msgstr ""
-
-#: uiserver/uiserver.cpp:260
-#, kde-format
-msgid "Detected another running gnupg UI server listening at %1."
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:146
-msgid "Can not use SENDER"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:150
-msgid "Can not use RECIPIENT"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:157
-msgid "INPUT present"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:159
-msgid "MESSAGE present"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:161
-msgid "OUTPUT present"
-msgstr ""
-
-#: uiserver/decryptverifycommandfilesbase.cpp:168
-msgid "DECRYPT/VERIFY_FILES cannot use directories as input"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:84
-msgid "INPUT/OUTPUT/MESSAGE may only be given after PREP_SIGN"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:88
-msgid ""
-"PREP_SIGN is an email mode command, connection seems to be in filemanager "
-"mode"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:92
-msgid "No SENDER given"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:101 uiserver/signcommand.cpp:114
-msgid ""
-"Protocol given conflicts with protocol determined by PREP_ENCRYPT in this "
-"session"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:169
-#, kde-format
-msgid ""
-"Caught unexpected exception in PrepSignCommand::Private::"
-"slotRecipientsResolved: %1"
-msgstr ""
-
-#: uiserver/prepsigncommand.cpp:173
-msgid ""
-"Caught unknown exception in PrepSignCommand::Private::slotRecipientsResolved"
-msgstr ""
-
-#: uiserver/signcommand.cpp:90
-msgid ""
-"SIGN is an email mode command, connection seems to be in filemanager mode"
-msgstr ""
-
-#: uiserver/signcommand.cpp:94
-msgid "RECIPIENT may not be given prior to SIGN, except with --info"
-msgstr ""
-
-#: uiserver/signcommand.cpp:106
-msgid "MESSAGE command is not allowed before SIGN"
-msgstr ""
-
-#: uiserver/signcommand.cpp:127
-msgid "No senders given, or only with --info"
-msgstr ""
-
-#: uiserver/signcommand.cpp:195
-#, kde-format
-msgid ""
-"Caught unexpected exception in SignCommand::Private::slotRecipientsResolved: "
-"%1"
-msgstr ""
-
-#: uiserver/signcommand.cpp:199
-msgid ""
-"Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
 msgstr ""
 
 #: uiserver/assuanserverconnection.cpp:194
@@ -4412,6 +4484,91 @@ msgstr ""
 #: uiserver/assuanserverconnection.cpp:1531
 #, kde-format
 msgid "invalid protocol \"%1\""
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:146
+msgid "Can not use SENDER"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:150
+msgid "Can not use RECIPIENT"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:157
+msgid "INPUT present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:159
+msgid "MESSAGE present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:161
+msgid "OUTPUT present"
+msgstr ""
+
+#: uiserver/decryptverifycommandfilesbase.cpp:168
+msgid "DECRYPT/VERIFY_FILES cannot use directories as input"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:84
+msgid "INPUT/OUTPUT/MESSAGE may only be given after PREP_SIGN"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:88
+msgid ""
+"PREP_SIGN is an email mode command, connection seems to be in filemanager "
+"mode"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:92
+msgid "No SENDER given"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:101 uiserver/signcommand.cpp:114
+msgid ""
+"Protocol given conflicts with protocol determined by PREP_ENCRYPT in this "
+"session"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:169
+#, kde-format
+msgid ""
+"Caught unexpected exception in PrepSignCommand::Private::"
+"slotRecipientsResolved: %1"
+msgstr ""
+
+#: uiserver/prepsigncommand.cpp:173
+msgid ""
+"Caught unknown exception in PrepSignCommand::Private::slotRecipientsResolved"
+msgstr ""
+
+#: uiserver/signcommand.cpp:90
+msgid ""
+"SIGN is an email mode command, connection seems to be in filemanager mode"
+msgstr ""
+
+#: uiserver/signcommand.cpp:94
+msgid "RECIPIENT may not be given prior to SIGN, except with --info"
+msgstr ""
+
+#: uiserver/signcommand.cpp:106
+msgid "MESSAGE command is not allowed before SIGN"
+msgstr ""
+
+#: uiserver/signcommand.cpp:127
+msgid "No senders given, or only with --info"
+msgstr ""
+
+#: uiserver/signcommand.cpp:195
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignCommand::Private::slotRecipientsResolved: "
+"%1"
+msgstr ""
+
+#: uiserver/signcommand.cpp:199
+msgid ""
+"Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
 msgstr ""
 
 #: utils/archivedefinition.cpp:107
@@ -5050,108 +5207,6 @@ msgstr ""
 msgid "Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr ""
 
-#: view/searchbar.cpp:90
-#, fuzzy
-#| msgid "Find"
-msgid "&Find:"
-msgstr "Қидириш"
-
-#: view/tabwidget.cpp:389
-msgid "New Tab"
-msgstr ""
-
-#: view/tabwidget.cpp:389
-msgid "Open a new tab"
-msgstr ""
-
-#: view/tabwidget.cpp:390
-msgid "CTRL+SHIFT+N"
-msgstr ""
-
-#: view/tabwidget.cpp:396
-msgid "Rename Tab..."
-msgstr ""
-
-#: view/tabwidget.cpp:396
-msgid "Rename this tab"
-msgstr ""
-
-#: view/tabwidget.cpp:397
-msgid "CTRL+SHIFT+R"
-msgstr ""
-
-#: view/tabwidget.cpp:398
-msgid "Duplicate Tab"
-msgstr ""
-
-#: view/tabwidget.cpp:398
-msgid "Duplicate this tab"
-msgstr ""
-
-#: view/tabwidget.cpp:399
-msgid "CTRL+SHIFT+D"
-msgstr ""
-
-#: view/tabwidget.cpp:400
-msgid "Close Tab"
-msgstr ""
-
-#: view/tabwidget.cpp:400
-msgid "Close this tab"
-msgstr ""
-
-#: view/tabwidget.cpp:401
-msgid "CTRL+SHIFT+W"
-msgstr ""
-
-#: view/tabwidget.cpp:402
-msgid "Move Tab Left"
-msgstr ""
-
-#: view/tabwidget.cpp:403
-msgid "CTRL+SHIFT+LEFT"
-msgstr ""
-
-#: view/tabwidget.cpp:404
-msgid "Move Tab Right"
-msgstr ""
-
-#: view/tabwidget.cpp:405
-msgid "CTRL+SHIFT+RIGHT"
-msgstr ""
-
-#: view/tabwidget.cpp:406
-msgid "Hierarchical Certificate List"
-msgstr ""
-
-#. i18n: file: dialogs/certificatedetailsdialog.ui:229
-#. i18n: ectx: property (text), widget (QPushButton, expandAllCertificationsPB)
-#: view/tabwidget.cpp:408 rc.cpp:269
-msgid "Expand All"
-msgstr ""
-
-#: view/tabwidget.cpp:409
-msgid "CTRL+."
-msgstr ""
-
-#. i18n: file: dialogs/certificatedetailsdialog.ui:239
-#. i18n: ectx: property (text), widget (QPushButton, collapseAllCertificationsPB)
-#: view/tabwidget.cpp:410 rc.cpp:272
-msgid "Collapse All"
-msgstr ""
-
-#: view/tabwidget.cpp:411
-msgid "CTRL+,"
-msgstr ""
-
-#: view/tabwidget.cpp:536
-msgid "Rename Tab"
-msgstr ""
-
-#: view/tabwidget.cpp:536
-msgid "New tab title:"
-msgstr ""
-
 #: view/keylistcontroller.cpp:336
 #, fuzzy
 #| msgid "Import Certificates..."
@@ -5290,161 +5345,106 @@ msgstr ""
 msgid "Import CRL From File..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: kleopatraapplication.cpp:93
-msgid "Run UI server only, hide main window"
-msgstr ""
-
-#: kleopatraapplication.cpp:94
-msgid "Use OpenPGP for the following operation"
-msgstr ""
-
-#: kleopatraapplication.cpp:95
-msgid "Use CMS (X.509, S/MIME) for the following operation"
-msgstr ""
-
-#: kleopatraapplication.cpp:96
+#: view/searchbar.cpp:90
 #, fuzzy
-#| msgid "Import Certificates..."
-msgid "Import certificate file(s)"
-msgstr "Сертификатларни импорт қилиш..."
+#| msgid "Find"
+msgid "&Find:"
+msgstr "Қидириш"
 
-#: kleopatraapplication.cpp:97
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Encrypt file(s)"
-msgstr "Сертификат тафсилотлари..."
-
-#: kleopatraapplication.cpp:98
-#, fuzzy
-#| msgid "Canceled."
-msgid "Sign file(s)"
-msgstr "Бекор қилинди."
-
-#: kleopatraapplication.cpp:99
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Sign and/or encrypt file(s)"
-msgstr "Сертификат тафсилотлари..."
-
-#: kleopatraapplication.cpp:100
-msgid "Same as --sign-encrypt, do not use"
+#: view/tabwidget.cpp:389
+msgid "New Tab"
 msgstr ""
 
-#: kleopatraapplication.cpp:101
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Decrypt file(s)"
-msgstr "Сертификат тафсилотлари..."
-
-#: kleopatraapplication.cpp:102
-msgid "Verify file/signature"
+#: view/tabwidget.cpp:389
+msgid "Open a new tab"
 msgstr ""
 
-#: kleopatraapplication.cpp:103
-#, fuzzy
-#| msgid "Certificate Details..."
-msgid "Decrypt and/or verify file(s)"
-msgstr "Сертификат тафсилотлари..."
-
-#: kleopatraapplication.cpp:111
-msgid "Location of the socket the ui server is listening on"
+#: view/tabwidget.cpp:390
+msgid "CTRL+SHIFT+N"
 msgstr ""
 
-#: kleopatraapplication.cpp:118
-msgid "File(s) to process"
+#: view/tabwidget.cpp:396
+msgid "Rename Tab..."
 msgstr ""
 
-#: mainwindow_desktop.cpp:121 mainwindow_mobile.cpp:151
-#, kde-format
-msgctxt "Quit [ApplicationName]"
-msgid "&Quit %1"
+#: view/tabwidget.cpp:396
+msgid "Rename this tab"
 msgstr ""
 
-#: mainwindow_desktop.cpp:127 mainwindow_mobile.cpp:157
-msgid "Only &Close Window"
+#: view/tabwidget.cpp:397
+msgid "CTRL+SHIFT+R"
 msgstr ""
 
-#: mainwindow_desktop.cpp:159
-#, kde-format
-msgid ""
-"%1 may be used by other applications as a service.\n"
-"You may instead want to close this window without exiting %1."
+#: view/tabwidget.cpp:398
+msgid "Duplicate Tab"
 msgstr ""
 
-#: mainwindow_desktop.cpp:161
-msgid "Really Quit?"
+#: view/tabwidget.cpp:398
+msgid "Duplicate this tab"
 msgstr ""
 
-#: mainwindow_desktop.cpp:188 mainwindow_mobile.cpp:203
-msgid ""
-"Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
-"installation."
+#: view/tabwidget.cpp:399
+msgid "CTRL+SHIFT+D"
 msgstr ""
 
-#: mainwindow_desktop.cpp:190 mainwindow_mobile.cpp:205
-msgid "Error Starting KWatchGnuPG"
+#: view/tabwidget.cpp:400
+msgid "Close Tab"
 msgstr ""
 
-#: mainwindow_desktop.cpp:195 mainwindow_mobile.cpp:210
-msgid ""
-"Could not start the GnuPG Administrative Console (kgpgconf). Please check "
-"your installation."
+#: view/tabwidget.cpp:400
+msgid "Close this tab"
 msgstr ""
 
-#: mainwindow_desktop.cpp:197 mainwindow_mobile.cpp:212
-msgid "Error Starting KGpgConf"
+#: view/tabwidget.cpp:401
+msgid "CTRL+SHIFT+W"
 msgstr ""
 
-#: mainwindow_desktop.cpp:306
-msgid "GnuPG Log Viewer"
+#: view/tabwidget.cpp:402
+msgid "Move Tab Left"
 msgstr ""
 
-#: mainwindow_desktop.cpp:310
-msgid "GnuPG Administrative Console"
+#: view/tabwidget.cpp:403
+msgid "CTRL+SHIFT+LEFT"
 msgstr ""
 
-#: mainwindow_desktop.cpp:315
-msgid "Configure GnuPG Backend..."
+#: view/tabwidget.cpp:404
+msgid "Move Tab Right"
 msgstr ""
 
-#: mainwindow_desktop.cpp:319 mainwindow_mobile.cpp:278
-msgid "Perform Self-Test"
+#: view/tabwidget.cpp:405
+msgid "CTRL+SHIFT+RIGHT"
 msgstr ""
 
-#: mainwindow_desktop.cpp:323
-msgid "About Gpg4win"
+#: view/tabwidget.cpp:406
+msgid "Hierarchical Certificate List"
 msgstr ""
 
-#: mainwindow_desktop.cpp:351
-msgid "Could not configure the cryptography backend (gpgconf tool not found)"
+#. i18n: file: dialogs/certificatedetailsdialog.ui:229
+#. i18n: ectx: property (text), widget (QPushButton, expandAllCertificationsPB)
+#: view/tabwidget.cpp:408 rc.cpp:269
+msgid "Expand All"
 msgstr ""
 
-#: mainwindow_desktop.cpp:351
-msgid "Configuration Error"
+#: view/tabwidget.cpp:409
+msgid "CTRL+."
 msgstr ""
 
-#: mainwindow_desktop.cpp:383 mainwindow_mobile.cpp:345
-msgid ""
-"There are still some background operations ongoing. These will be terminated "
-"when closing the window. Proceed?"
+#. i18n: file: dialogs/certificatedetailsdialog.ui:239
+#. i18n: ectx: property (text), widget (QPushButton, collapseAllCertificationsPB)
+#: view/tabwidget.cpp:410 rc.cpp:272
+msgid "Collapse All"
 msgstr ""
 
-#: mainwindow_desktop.cpp:386 mainwindow_mobile.cpp:348
-msgid "Ongoing Background Tasks"
+#: view/tabwidget.cpp:411
+msgid "CTRL+,"
 msgstr ""
 
-#: mainwindow_desktop.cpp:467
-msgid "Sign/Encrypt..."
+#: view/tabwidget.cpp:536
+msgid "Rename Tab"
 msgstr ""
 
-#: mainwindow_desktop.cpp:472
-#, fuzzy
-#| msgid "Import Certificates..."
-msgid "Import Certificates"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: mainwindow_desktop.cpp:473
-msgid "Import CRLs"
+#: view/tabwidget.cpp:536
+msgid "New tab title:"
 msgstr ""
 
 #: crlview.cpp:61
