@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-04 04:46+0100\n"
+"POT-Creation-Date: 2012-02-09 04:18+0100\n"
 "PO-Revision-Date: 2006-12-17 13:24+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -91,19 +91,19 @@ msgid "Setting up colors"
 msgstr "Шрифт ва рангларни мослаш"
 
 #: printing/detailledstyle.cpp:301 printing/mikesstyle.cpp:129
-#: printing/ringbinderstyle.cpp:184
+#: printing/ringbinderstyle.cpp:184 printing/compactstyle.cpp:193
 #, fuzzy
 #| msgid "Setting up fonts and colors"
 msgid "Setting up document"
 msgstr "Шрифт ва рангларни мослаш"
 
 #: printing/detailledstyle.cpp:308 printing/mikesstyle.cpp:136
-#: printing/ringbinderstyle.cpp:217
+#: printing/ringbinderstyle.cpp:217 printing/compactstyle.cpp:200
 msgid "Printing"
 msgstr "Босиб чиқариш"
 
 #: printing/detailledstyle.cpp:312 printing/mikesstyle.cpp:140
-#: printing/ringbinderstyle.cpp:221
+#: printing/ringbinderstyle.cpp:221 printing/compactstyle.cpp:204
 #, fuzzy
 #| msgid "Done"
 msgctxt "Finished printing"
@@ -139,28 +139,6 @@ msgstr "Шрифт ва рангларни мослаш"
 #: printing/ringbinderstyle.cpp:236
 msgid "Printout for Ring Binders"
 msgstr ""
-
-#: printing/printingwizard.cpp:55 mainwidget.cpp:544
-#, fuzzy
-#| msgid "Edit Contact"
-msgid "Print Contacts"
-msgstr "Алоқани таҳрирлаш"
-
-#: printing/printingwizard.cpp:59
-msgid "Which contacts do you want to print?"
-msgstr "Қайси алоқаларни босиб чиқаришни истайсиз?"
-
-#: printing/printingwizard.cpp:62
-msgid "Choose Contacts to Print"
-msgstr "Босиб чиқариш учун алоқаларни танлаш"
-
-#: printing/printingwizard.cpp:68
-msgid "Choose Printing Style"
-msgstr "Босиб чиқариш услубини танлаш"
-
-#: printing/printingwizard.cpp:155
-msgid "Print Progress"
-msgstr "Босиб чиқариш жараёни"
 
 #: printing/stylepage.cpp:53
 #, fuzzy
@@ -262,6 +240,40 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Choose your desired printing style. See the preview image to help you decide."
 msgstr ""
+
+#: printing/compactstyle.cpp:137
+#, fuzzy
+#| msgid "Company"
+msgid "Compact Style"
+msgstr "Ташкилот"
+
+#: printing/compactstyle.cpp:228
+#, fuzzy
+#| msgid "Choose Printing Style"
+msgid "Compact Printing Style"
+msgstr "Босиб чиқариш услубини танлаш"
+
+#: printing/printingwizard.cpp:56 mainwidget.cpp:544
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "Print Contacts"
+msgstr "Алоқани таҳрирлаш"
+
+#: printing/printingwizard.cpp:60
+msgid "Which contacts do you want to print?"
+msgstr "Қайси алоқаларни босиб чиқаришни истайсиз?"
+
+#: printing/printingwizard.cpp:63
+msgid "Choose Contacts to Print"
+msgstr "Босиб чиқариш учун алоқаларни танлаш"
+
+#: printing/printingwizard.cpp:69
+msgid "Choose Printing Style"
+msgstr "Босиб чиқариш услубини танлаш"
+
+#: printing/printingwizard.cpp:157
+msgid "Print Progress"
+msgstr "Босиб чиқариш жараёни"
 
 #: xxport/csv/csv_xxport.cpp:50 xxport/gmx/gmx_xxport.cpp:356
 #: xxport/ldif/ldif_xxport.cpp:120
@@ -560,8 +572,8 @@ msgstr ""
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want the import to skip over the first row of the csv "
-"data.  In many cases, the first line of a csv file will be a comment line "
-"describing the order of the datafields include in the file."
+"data. In many cases, the first line of a csv file will be a comment line "
+"describing the order of the data fields included in the file."
 msgstr ""
 
 #: xxport/csv/csvimportdialog.cpp:459
@@ -893,254 +905,6 @@ msgid ""
 "vCard's full name field.  This may be required to get the name shown "
 "correctly in GMail or Android."
 msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Машраб Қуватов"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "kmashrab@uni-bremen.de"
-
-#. i18n: file: printing/ds_appearance.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
-#: rc.cpp:5
-msgid "Appearance Page"
-msgstr ""
-
-#. i18n: file: printing/ds_appearance.ui:68
-#. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
-#: rc.cpp:11
-msgid "Contact Headers"
-msgstr ""
-
-#. i18n: file: printing/ds_appearance.ui:92
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderBGColor)
-#: rc.cpp:14
-msgid "Select the headline text background color"
-msgstr ""
-
-#. i18n: file: printing/ds_appearance.ui:95
-#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderBGColor)
-#: rc.cpp:17
-msgid ""
-"Click this button to start a color chooser that will allow you set to the "
-"color for the headline background color."
-msgstr ""
-
-#. i18n: file: printing/ds_appearance.ui:112
-#. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
-#: rc.cpp:20
-msgid "Headline background color:"
-msgstr ""
-
-#. i18n: file: printing/ds_appearance.ui:122
-#. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
-#: rc.cpp:23
-msgid "Headline text color:"
-msgstr ""
-
-#. i18n: file: printing/ds_appearance.ui:135
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderTextColor)
-#: rc.cpp:26
-#, fuzzy
-#| msgid "%1 address book"
-msgid "Select the headline text color"
-msgstr "%1 манзиллар дафтари"
-
-#. i18n: file: printing/ds_appearance.ui:138
-#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderTextColor)
-#: rc.cpp:29
-msgid ""
-"Click this button to start a color chooser that will allow you set to the "
-"color for the headline text."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, RingBinderStyleAppearanceForm_Base)
-#: rc.cpp:32
-#, fuzzy
-msgid "Appearance"
-msgstr "Франция"
-
-#. i18n: file: printing/rbs_appearance.ui:26
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
-#: rc.cpp:35
-msgid "Print Contact's Information"
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:32
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbPhoneNumbers)
-#: rc.cpp:38
-#, fuzzy
-msgid "Print contact phone numbers"
-msgstr "Телефон рақамни таҳрирлаш"
-
-#. i18n: file: printing/rbs_appearance.ui:35
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPhoneNumbers)
-#: rc.cpp:41
-msgid "Check this box if you want contact phone numbers to be printed."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:38
-#. i18n: ectx: property (text), widget (QCheckBox, cbPhoneNumbers)
-#: rc.cpp:44
-#, fuzzy
-msgid "Phone numbers"
-msgstr "Телефон рақамни таҳрирлаш"
-
-#. i18n: file: printing/rbs_appearance.ui:48
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbEmails)
-#: rc.cpp:47
-#, fuzzy
-#| msgid "Postal Address"
-msgid "Print contact email addresses"
-msgstr "Манзилгоҳ"
-
-#. i18n: file: printing/rbs_appearance.ui:51
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEmails)
-#: rc.cpp:50
-msgid "Check this box if you want contact email addresses to be printed."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:54
-#. i18n: ectx: property (text), widget (QCheckBox, cbEmails)
-#: rc.cpp:53
-#, fuzzy
-msgid "Email addresses"
-msgstr "Электрон почталар:"
-
-#. i18n: file: printing/rbs_appearance.ui:64
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbStreetAddresses)
-#: rc.cpp:56
-#, fuzzy
-msgid "Print contact street addresses"
-msgstr "Манзилларни босиб чиқариш"
-
-#. i18n: file: printing/rbs_appearance.ui:67
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbStreetAddresses)
-#: rc.cpp:59
-msgid "Check this box if you want contact street addresses to be printed."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:70
-#. i18n: ectx: property (text), widget (QCheckBox, cbStreetAddresses)
-#: rc.cpp:62
-#, fuzzy
-#| msgid "Postal Address"
-msgid "Postal addresses"
-msgstr "Манзилгоҳ"
-
-#. i18n: file: printing/rbs_appearance.ui:80
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbOrganization)
-#: rc.cpp:65
-#, fuzzy
-#| msgid "Edit Contact"
-msgid "Print contact organizations"
-msgstr "Алоқани таҳрирлаш"
-
-#. i18n: file: printing/rbs_appearance.ui:83
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbOrganization)
-#: rc.cpp:68
-msgid "Check this box if you want contact organizations to be printed."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:86
-#. i18n: ectx: property (text), widget (QCheckBox, cbOrganization)
-#: rc.cpp:71
-msgid "Organization"
-msgstr "Ташкилот"
-
-#. i18n: file: printing/rbs_appearance.ui:93
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbBirthday)
-#: rc.cpp:74
-msgid "Print email birthdays"
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:96
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbBirthday)
-#: rc.cpp:77
-msgid "Check this box if you want contact birthdays to be printed."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:99
-#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
-#: rc.cpp:80
-#, fuzzy
-msgid "Birthday"
-msgstr "Туғилган куни:"
-
-#. i18n: file: printing/rbs_appearance.ui:106
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNote)
-#: rc.cpp:83
-#, fuzzy
-#| msgid "Edit Contact"
-msgid "Print contact notes"
-msgstr "Алоқани таҳрирлаш"
-
-#. i18n: file: printing/rbs_appearance.ui:109
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbNote)
-#: rc.cpp:86
-msgid "Check this box if you want contact notes to be printed."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:112
-#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
-#: rc.cpp:89
-#, fuzzy
-#| msgid "Note:"
-msgid "Note"
-msgstr "Изоҳ:"
-
-#. i18n: file: kaddressbookui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:92
-#, fuzzy
-msgid "&File"
-msgstr "Филтер:"
-
-#. i18n: file: kaddressbookui.rc:7
-#. i18n: ectx: Menu (file_new)
-#: rc.cpp:95
-#, fuzzy
-#| msgid "New..."
-msgid "&New"
-msgstr "Янги"
-
-#. i18n: file: kaddressbookui.rc:15
-#. i18n: ectx: Menu (file_import)
-#: rc.cpp:98
-msgid "&Import"
-msgstr "&Импорт қилиш"
-
-#. i18n: file: kaddressbookui.rc:23
-#. i18n: ectx: Menu (file_export)
-#: rc.cpp:101
-msgid "&Export"
-msgstr "&Экспорт қилиш"
-
-#. i18n: file: kaddressbookui.rc:36
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:104
-#, fuzzy
-msgid "&Edit"
-msgstr "&Таҳрирлаш"
-
-#. i18n: file: kaddressbookui.rc:47
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:107
-#, fuzzy
-msgid "&Settings"
-msgstr "Шрифт мосламалари"
-
-#. i18n: file: kaddressbookui.rc:82
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:110
-#, fuzzy
-msgid "Main Toolbar"
-msgstr "Алоқа асбоблар панели"
 
 #: aboutdata.cpp:28
 msgid "KAddressBook"
@@ -1633,6 +1397,377 @@ msgstr "%1 манзиллар дафтари"
 msgid "Address Book"
 msgstr "Манзиллар дафтари"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Машраб Қуватов"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kmashrab@uni-bremen.de"
+
+#. i18n: file: printing/ds_appearance.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
+#: rc.cpp:5
+msgid "Appearance Page"
+msgstr ""
+
+#. i18n: file: printing/ds_appearance.ui:68
+#. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
+#: rc.cpp:11
+msgid "Contact Headers"
+msgstr ""
+
+#. i18n: file: printing/ds_appearance.ui:92
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderBGColor)
+#: rc.cpp:14
+msgid "Select the headline text background color"
+msgstr ""
+
+#. i18n: file: printing/ds_appearance.ui:95
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderBGColor)
+#: rc.cpp:17
+msgid ""
+"Click this button to start a color chooser that will allow you set to the "
+"color for the headline background color."
+msgstr ""
+
+#. i18n: file: printing/ds_appearance.ui:112
+#. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
+#: rc.cpp:20
+msgid "Headline background color:"
+msgstr ""
+
+#. i18n: file: printing/ds_appearance.ui:122
+#. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
+#: rc.cpp:23
+msgid "Headline text color:"
+msgstr ""
+
+#. i18n: file: printing/ds_appearance.ui:135
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderTextColor)
+#: rc.cpp:26
+#, fuzzy
+#| msgid "%1 address book"
+msgid "Select the headline text color"
+msgstr "%1 манзиллар дафтари"
+
+#. i18n: file: printing/ds_appearance.ui:138
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderTextColor)
+#: rc.cpp:29
+msgid ""
+"Click this button to start a color chooser that will allow you set to the "
+"color for the headline text."
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, CompactStyleForm_Base)
+#. i18n: file: printing/rbs_appearance.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, RingBinderStyleAppearanceForm_Base)
+#: rc.cpp:32 rc.cpp:104
+#, fuzzy
+msgid "Appearance"
+msgstr "Франция"
+
+#. i18n: file: printing/compactstyle.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, gbFields)
+#: rc.cpp:35
+msgid "Fields"
+msgstr "Майдонлар"
+
+#. i18n: file: printing/compactstyle.ui:34
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithHomeAddress)
+#. i18n: file: printing/compactstyle.ui:37
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithHomeAddress)
+#: rc.cpp:38 rc.cpp:41
+msgid "print the home address, with home phone number and mobil phone number"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:40
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithHomeAddress)
+#: rc.cpp:44
+#, fuzzy
+#| msgid "Home Address"
+msgid "with home address"
+msgstr "Уй манзилгоҳ"
+
+#. i18n: file: printing/compactstyle.ui:47
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithBusinessAddress)
+#. i18n: file: printing/compactstyle.ui:50
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithBusinessAddress)
+#: rc.cpp:47 rc.cpp:50
+msgid "print the business address, with business phone number"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithBusinessAddress)
+#: rc.cpp:53
+#, fuzzy
+#| msgid "Business fields"
+msgid "with business address"
+msgstr "Иш майдонлари"
+
+#. i18n: file: printing/compactstyle.ui:60
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithBirthday)
+#. i18n: file: printing/compactstyle.ui:63
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithBirthday)
+#: rc.cpp:56 rc.cpp:59
+msgid "print the birthday"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithBirthday)
+#: rc.cpp:62
+#, fuzzy
+msgid "with birthday"
+msgstr "Туғилган куни:"
+
+#. i18n: file: printing/compactstyle.ui:73
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithEMail)
+#. i18n: file: printing/compactstyle.ui:76
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithEMail)
+#: rc.cpp:65 rc.cpp:68
+msgid "prints the e-mail and e-mail2 field"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:79
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithEMail)
+#: rc.cpp:71
+#, fuzzy
+#| msgid "Edit Email"
+msgid "with e-mail"
+msgstr "Электрон почтани таҳрирлаш"
+
+#. i18n: file: printing/compactstyle.ui:91
+#. i18n: ectx: property (title), widget (QGroupBox, gbColors)
+#: rc.cpp:74
+msgid "GroupBox"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:103
+#. i18n: ectx: property (toolTip), widget (QLabel, lbCbFirst)
+#. i18n: file: printing/compactstyle.ui:106
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCbFirst)
+#: rc.cpp:77 rc.cpp:80
+msgid "the first color, if alternating color is checked"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:109
+#. i18n: ectx: property (text), widget (QLabel, lbCbFirst)
+#: rc.cpp:83
+msgid "first color"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:116
+#. i18n: ectx: property (toolTip), widget (QLabel, lbCbSecond)
+#. i18n: file: printing/compactstyle.ui:119
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCbSecond)
+#: rc.cpp:86 rc.cpp:89
+msgid "the second color, if alternating color is checked"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:122
+#. i18n: ectx: property (text), widget (QLabel, lbCbSecond)
+#: rc.cpp:92
+#, fuzzy
+#| msgid "Background Color"
+msgid "second color"
+msgstr "Орқа фон ранги"
+
+#. i18n: file: printing/compactstyle.ui:129
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbAlternating)
+#. i18n: file: printing/compactstyle.ui:132
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAlternating)
+#: rc.cpp:95 rc.cpp:98
+msgid "Change the background color of every row"
+msgstr ""
+
+#. i18n: file: printing/compactstyle.ui:135
+#. i18n: ectx: property (text), widget (QCheckBox, cbAlternating)
+#: rc.cpp:101
+msgid "Alternating the background color"
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: rc.cpp:107
+msgid "Print Contact's Information"
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:32
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbPhoneNumbers)
+#: rc.cpp:110
+#, fuzzy
+msgid "Print contact phone numbers"
+msgstr "Телефон рақамни таҳрирлаш"
+
+#. i18n: file: printing/rbs_appearance.ui:35
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPhoneNumbers)
+#: rc.cpp:113
+msgid "Check this box if you want contact phone numbers to be printed."
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:38
+#. i18n: ectx: property (text), widget (QCheckBox, cbPhoneNumbers)
+#: rc.cpp:116
+#, fuzzy
+msgid "Phone numbers"
+msgstr "Телефон рақамни таҳрирлаш"
+
+#. i18n: file: printing/rbs_appearance.ui:48
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbEmails)
+#: rc.cpp:119
+#, fuzzy
+#| msgid "Postal Address"
+msgid "Print contact email addresses"
+msgstr "Манзилгоҳ"
+
+#. i18n: file: printing/rbs_appearance.ui:51
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEmails)
+#: rc.cpp:122
+msgid "Check this box if you want contact email addresses to be printed."
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, cbEmails)
+#: rc.cpp:125
+#, fuzzy
+msgid "Email addresses"
+msgstr "Электрон почталар:"
+
+#. i18n: file: printing/rbs_appearance.ui:64
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbStreetAddresses)
+#: rc.cpp:128
+#, fuzzy
+msgid "Print contact street addresses"
+msgstr "Манзилларни босиб чиқариш"
+
+#. i18n: file: printing/rbs_appearance.ui:67
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbStreetAddresses)
+#: rc.cpp:131
+msgid "Check this box if you want contact street addresses to be printed."
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:70
+#. i18n: ectx: property (text), widget (QCheckBox, cbStreetAddresses)
+#: rc.cpp:134
+#, fuzzy
+#| msgid "Postal Address"
+msgid "Postal addresses"
+msgstr "Манзилгоҳ"
+
+#. i18n: file: printing/rbs_appearance.ui:80
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbOrganization)
+#: rc.cpp:137
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "Print contact organizations"
+msgstr "Алоқани таҳрирлаш"
+
+#. i18n: file: printing/rbs_appearance.ui:83
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbOrganization)
+#: rc.cpp:140
+msgid "Check this box if you want contact organizations to be printed."
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:86
+#. i18n: ectx: property (text), widget (QCheckBox, cbOrganization)
+#: rc.cpp:143
+msgid "Organization"
+msgstr "Ташкилот"
+
+#. i18n: file: printing/rbs_appearance.ui:93
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbBirthday)
+#: rc.cpp:146
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "Print contact birthdays"
+msgstr "Алоқани таҳрирлаш"
+
+#. i18n: file: printing/rbs_appearance.ui:96
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbBirthday)
+#: rc.cpp:149
+msgid "Check this box if you want contact birthdays to be printed."
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:99
+#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
+#: rc.cpp:152
+#, fuzzy
+msgid "Birthday"
+msgstr "Туғилган куни:"
+
+#. i18n: file: printing/rbs_appearance.ui:106
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNote)
+#: rc.cpp:155
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "Print contact notes"
+msgstr "Алоқани таҳрирлаш"
+
+#. i18n: file: printing/rbs_appearance.ui:109
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbNote)
+#: rc.cpp:158
+msgid "Check this box if you want contact notes to be printed."
+msgstr ""
+
+#. i18n: file: printing/rbs_appearance.ui:112
+#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
+#: rc.cpp:161
+#, fuzzy
+#| msgid "Note:"
+msgid "Note"
+msgstr "Изоҳ:"
+
+#. i18n: file: kaddressbookui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:164
+#, fuzzy
+msgid "&File"
+msgstr "Филтер:"
+
+#. i18n: file: kaddressbookui.rc:7
+#. i18n: ectx: Menu (file_new)
+#: rc.cpp:167
+#, fuzzy
+#| msgid "New..."
+msgid "&New"
+msgstr "Янги"
+
+#. i18n: file: kaddressbookui.rc:15
+#. i18n: ectx: Menu (file_import)
+#: rc.cpp:170
+msgid "&Import"
+msgstr "&Импорт қилиш"
+
+#. i18n: file: kaddressbookui.rc:23
+#. i18n: ectx: Menu (file_export)
+#: rc.cpp:173
+msgid "&Export"
+msgstr "&Экспорт қилиш"
+
+#. i18n: file: kaddressbookui.rc:36
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:176
+#, fuzzy
+msgid "&Edit"
+msgstr "&Таҳрирлаш"
+
+#. i18n: file: kaddressbookui.rc:47
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:179
+#, fuzzy
+msgid "&Settings"
+msgstr "Шрифт мосламалари"
+
+#. i18n: file: kaddressbookui.rc:82
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:182
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "Алоқа асбоблар панели"
+
 #~ msgid "Select the fields which shall be exported in the vCard."
 #~ msgstr "vCard'га экспорт қилинадиган майдонни танланг."
 
@@ -1841,9 +1976,6 @@ msgstr "Манзиллар дафтари"
 
 #~ msgid "City"
 #~ msgstr "Шаҳар"
-
-#~ msgid "Company"
-#~ msgstr "Ташкилот"
 
 #~ msgid "Department"
 #~ msgstr "Бўлим"
@@ -2131,9 +2263,6 @@ msgstr "Манзиллар дафтари"
 
 #~ msgid "New Email:"
 #~ msgstr "Янги электрон почта:"
-
-#~ msgid "Edit Email"
-#~ msgstr "Электрон почтани таҳрирлаш"
 
 #, fuzzy
 #~| msgid "Email:"
@@ -2881,9 +3010,6 @@ msgstr "Манзиллар дафтари"
 #~ msgid "Use last active filter"
 #~ msgstr "Охирги актив филтерни қўллаш"
 
-#~ msgid "Fields"
-#~ msgstr "Майдонлар"
-
 #~ msgid "Default Filter"
 #~ msgstr "Андоза филтер"
 
@@ -3044,9 +3170,6 @@ msgstr "Манзиллар дафтари"
 
 #~ msgid "Look & Feel"
 #~ msgstr "Ташқи кўриниши"
-
-#~ msgid "Background Color"
-#~ msgstr "Орқа фон ранги"
 
 #~ msgid "Text Color"
 #~ msgstr "Матннинг ранги"
