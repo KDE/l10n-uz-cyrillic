@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-06 10:56+0100\n"
+"POT-Creation-Date: 2012-02-09 11:28+0100\n"
 "PO-Revision-Date: 2009-10-13 23:57+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -841,20 +841,31 @@ msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: views/dolphinview.cpp:1074
+#: views/dolphinview.cpp:1077
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr ""
 
-#: views/dolphinview.cpp:1149
+#: views/dolphinview.cpp:1152
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr ""
 
-#: views/dolphinview.cpp:1151
+#: views/dolphinview.cpp:1154
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
+msgstr ""
+
+#: views/draganddrophelper.cpp:34
+#, kde-format
+msgctxt "@info:status"
+msgid "Access denied. Could not write to <filename>%1</filename>"
+msgstr ""
+
+#: views/draganddrophelper.cpp:49
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
 msgstr ""
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
@@ -1128,17 +1139,6 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr ""
 
-#: views/draganddrophelper.cpp:34
-#, kde-format
-msgctxt "@info:status"
-msgid "Access denied. Could not write to <filename>%1</filename>"
-msgstr ""
-
-#: views/draganddrophelper.cpp:48
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr ""
-
 #: dolphincontextmenu.cpp:173
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
@@ -1210,21 +1210,6 @@ msgstr "Ўчириш"
 msgctxt "@item:intable"
 msgid "items"
 msgstr ""
-
-#: kitemviews/kfileitemlistwidget.cpp:236
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown error."
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "Номаълум хато."
-
-#: kitemviews/kfileitemlistwidget.cpp:238
-#, kde-format
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] ""
 
 #: kitemviews/kfileitemmodel.cpp:268
 #, fuzzy
@@ -1491,6 +1476,21 @@ msgstr ""
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr ""
+
+#: kitemviews/kfileitemlistwidget.cpp:236
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown error."
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "Номаълум хато."
+
+#: kitemviews/kfileitemlistwidget.cpp:238
+#, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
 
 #: main.cpp:35
 msgctxt "@title"
