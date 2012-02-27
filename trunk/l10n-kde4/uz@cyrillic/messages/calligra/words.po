@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-12 02:43+0100\n"
+"POT-Creation-Date: 2012-02-27 02:59+0100\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -792,6 +792,21 @@ msgstr "Маълумот база объектини яратиб бўлмади
 msgid "Unable to locate note-text"
 msgstr "Маълумот база объектини яратиб бўлмади"
 
+#: part/KWOdfLoader.cpp:90
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
+
+#: part/KWOdfLoader.cpp:102
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
+
+#: part/KWOdfLoader.cpp:104
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr "Бу KWord ҳужжати эмас, лекин %1. Уни мос дастур билан очиб кўринг."
+
 #: part/KWStatusBar.cpp:48
 msgid "Modified"
 msgstr ""
@@ -1020,6 +1035,66 @@ msgstr "Атрофидаги матн"
 msgid "Options"
 msgstr ""
 
+#: part/dialogs/KWAnchoringProperties.cpp:432
+#, fuzzy
+msgid "Baseline"
+msgstr "Фреймнинг услуби:"
+
+#: part/dialogs/KWAnchoringProperties.cpp:433
+#: part/dialogs/KWAnchoringProperties.cpp:444
+#, fuzzy
+#| msgid "&Formatting Characters"
+msgid "Character"
+msgstr "Форматлаш &белгилари"
+
+#: part/dialogs/KWAnchoringProperties.cpp:436
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Row"
+msgid "Row"
+msgstr "Сатр"
+
+#: part/dialogs/KWAnchoringProperties.cpp:437
+#: part/dialogs/KWAnchoringProperties.cpp:445
+msgid "Page (entire) area"
+msgstr ""
+
+#: part/dialogs/KWAnchoringProperties.cpp:438
+#: part/dialogs/KWAnchoringProperties.cpp:446
+#, fuzzy
+msgid "Page text area"
+msgstr "Чегарани ўзгартириш"
+
+#: part/dialogs/KWAnchoringProperties.cpp:439
+#: part/dialogs/KWAnchoringProperties.cpp:453
+msgid "Paragraph area"
+msgstr ""
+
+#: part/dialogs/KWAnchoringProperties.cpp:440
+#: part/dialogs/KWAnchoringProperties.cpp:454
+msgid "Paragraph text area"
+msgstr ""
+
+#: part/dialogs/KWAnchoringProperties.cpp:447
+#, fuzzy
+#| msgid "Frame &Borders"
+msgid "Left page border"
+msgstr "Фреймнинг че&гаралари"
+
+#: part/dialogs/KWAnchoringProperties.cpp:448
+#, fuzzy
+#| msgid "Frame &Borders"
+msgid "Right page border"
+msgstr "Фреймнинг че&гаралари"
+
+#: part/dialogs/KWAnchoringProperties.cpp:455
+msgid "Right paragraph border"
+msgstr ""
+
+#: part/dialogs/KWAnchoringProperties.cpp:456
+msgid "Left paragraph border"
+msgstr ""
+
 #: part/dialogs/KWFrameDialog.cpp:41
 msgid "General"
 msgstr "Умумий"
@@ -1030,72 +1105,12 @@ msgstr "Умумий"
 msgid "Smart Positioning"
 msgstr "Жойлашиши"
 
-#: part/dialogs/KWFrameDialog.cpp:79
+#: part/dialogs/KWFrameDialog.cpp:83
 #, fuzzy
 #| msgid "Frame Properties"
 msgctxt "(qtundo-format)"
 msgid "Change Shape Properties"
 msgstr "Фреймнинг хоссалари"
-
-#: part/dialogs/KWAnchoringProperties.cpp:431
-#, fuzzy
-msgid "Baseline"
-msgstr "Фреймнинг услуби:"
-
-#: part/dialogs/KWAnchoringProperties.cpp:432
-#: part/dialogs/KWAnchoringProperties.cpp:443
-#, fuzzy
-#| msgid "&Formatting Characters"
-msgid "Character"
-msgstr "Форматлаш &белгилари"
-
-#: part/dialogs/KWAnchoringProperties.cpp:435
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Row"
-msgid "Row"
-msgstr "Сатр"
-
-#: part/dialogs/KWAnchoringProperties.cpp:436
-#: part/dialogs/KWAnchoringProperties.cpp:444
-msgid "Page (entire) area"
-msgstr ""
-
-#: part/dialogs/KWAnchoringProperties.cpp:437
-#: part/dialogs/KWAnchoringProperties.cpp:445
-#, fuzzy
-msgid "Page text area"
-msgstr "Чегарани ўзгартириш"
-
-#: part/dialogs/KWAnchoringProperties.cpp:438
-#: part/dialogs/KWAnchoringProperties.cpp:452
-msgid "Paragraph area"
-msgstr ""
-
-#: part/dialogs/KWAnchoringProperties.cpp:439
-#: part/dialogs/KWAnchoringProperties.cpp:453
-msgid "Paragraph text area"
-msgstr ""
-
-#: part/dialogs/KWAnchoringProperties.cpp:446
-#, fuzzy
-#| msgid "Frame &Borders"
-msgid "Left page border"
-msgstr "Фреймнинг че&гаралари"
-
-#: part/dialogs/KWAnchoringProperties.cpp:447
-#, fuzzy
-#| msgid "Frame &Borders"
-msgid "Right page border"
-msgstr "Фреймнинг че&гаралари"
-
-#: part/dialogs/KWAnchoringProperties.cpp:454
-msgid "Right paragraph border"
-msgstr ""
-
-#: part/dialogs/KWAnchoringProperties.cpp:455
-msgid "Left paragraph border"
-msgstr ""
 
 #: part/dockers/KWRdfDocker.cpp:53
 msgid "RDF"
@@ -1354,20 +1369,45 @@ msgstr "Тепаси ва пасти кул"
 msgid "File to open"
 msgstr "Очиш учун файл"
 
-#: part/KWOdfLoader.cpp:90
-msgid "Invalid OASIS OpenDocument file. No office:body tag found."
-msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
+#: part/KWDocument.cpp:518
+#, fuzzy
+#| msgid "Copy%1-%2"
+msgid "Copy"
+msgstr "Нусха%1-%2"
 
-#: part/KWOdfLoader.cpp:102
-msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
-msgstr "OASIS OpenDocument файли ҳақиқий эмас. office:body тэги топилмади."
+#: part/KWDocument.cpp:563
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 1"
+msgid "Head 1"
+msgstr "Сарлавҳа 1"
 
-#: part/KWOdfLoader.cpp:104
-#, kde-format
-msgid ""
-"This is not a word processing document, but %1. Please try opening it with "
-"the appropriate application."
-msgstr "Бу KWord ҳужжати эмас, лекин %1. Уни мос дастур билан очиб кўринг."
+#: part/KWDocument.cpp:569
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 2"
+msgid "Head 2"
+msgstr "Сарлавҳа 2"
+
+#: part/KWDocument.cpp:575
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 3"
+msgid "Head 3"
+msgstr "Сарлавҳа 3"
+
+#: part/KWDocument.cpp:581
+#, fuzzy
+msgid "Bullet List"
+msgstr "Кўкиш"
+
+#: part/KWDocument.cpp:806
+msgid "Can not find needed text component, Words will quit now"
+msgstr ""
+
+#: part/KWDocument.cpp:807
+msgid "Installation Error"
+msgstr ""
 
 #: part/KWGui.cpp:74
 msgid "Tools"
@@ -1815,46 +1855,6 @@ msgstr "Чегарани ўзгартириш"
 #| msgid "Header 1"
 msgid "Header & Footer"
 msgstr "Сарлавҳа 1"
-
-#: part/KWDocument.cpp:515
-#, fuzzy
-#| msgid "Copy%1-%2"
-msgid "Copy"
-msgstr "Нусха%1-%2"
-
-#: part/KWDocument.cpp:560
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 1"
-msgid "Head 1"
-msgstr "Сарлавҳа 1"
-
-#: part/KWDocument.cpp:566
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 2"
-msgid "Head 2"
-msgstr "Сарлавҳа 2"
-
-#: part/KWDocument.cpp:572
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 3"
-msgid "Head 3"
-msgstr "Сарлавҳа 3"
-
-#: part/KWDocument.cpp:578
-#, fuzzy
-msgid "Bullet List"
-msgstr "Кўкиш"
-
-#: part/KWDocument.cpp:803
-msgid "Can not find needed text component, Words will quit now"
-msgstr ""
-
-#: part/KWDocument.cpp:804
-msgid "Installation Error"
-msgstr ""
 
 #, fuzzy
 #~| msgid "KFormula"
