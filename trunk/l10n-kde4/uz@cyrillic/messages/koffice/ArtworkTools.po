@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-14 04:28+0200\n"
+"POT-Creation-Date: 2012-03-02 05:07+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -54,7 +54,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: ../../ui/ArtworkPatternOptionsWidget.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:12 rc.cpp:21 filterEffectTool/ArtworkFilterEffectsTool.cpp:462
+#: rc.cpp:12 rc.cpp:21
 msgid "X:"
 msgstr "X:"
 
@@ -82,7 +82,7 @@ msgstr "Намуна"
 
 #. i18n: file: ../../ui/ArtworkPatternOptionsWidget.ui:100
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:30 filterEffectTool/ArtworkFilterEffectsTool.cpp:474
+#: rc.cpp:30
 #, fuzzy
 msgid "W:"
 msgstr "W:"
@@ -246,9 +246,10 @@ msgstr ""
 #: CalligraphyTool/ArtworkCalligraphyOptionWidget.cpp:200
 #: CalligraphyTool/ArtworkCalligraphyOptionWidget.cpp:224
 #, fuzzy
-#| msgid "Curve"
-msgid "Current"
-msgstr "Эгри чизиқ"
+#| msgid "Delete Objects"
+msgctxt "Current"
+msgid "Profile selected now"
+msgstr "Объектларни ўчириш"
 
 #: CalligraphyTool/ArtworkCalligraphyOptionWidget.cpp:217
 msgid "Profile name"
@@ -322,6 +323,17 @@ msgstr ""
 msgid "Add Filter"
 msgstr "Қатламни қўшиш"
 
+#: filterEffectTool/ArtworkFilterEffectsTool.cpp:462
+msgctxt "X:"
+msgid "X-Coordinate"
+msgstr ""
+
+#: filterEffectTool/ArtworkFilterEffectsTool.cpp:474
+#, fuzzy
+msgctxt "W:"
+msgid "Width"
+msgstr "Эни:"
+
 #: filterEffectTool/ArtworkFilterEffectsTool.cpp:486
 #, fuzzy
 #| msgid "Effects"
@@ -374,70 +386,115 @@ msgid "Set filter stack"
 msgstr "Чизиқ қалинлигини кўрсатиш"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:33
-msgid "Original"
+msgctxt "Original"
+msgid "Original Image"
 msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:34
 #, fuzzy
-msgid "Tiled"
+msgctxt "Tiled"
+msgid "Tiled Image"
 msgstr "Тўлдириш"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:35
-msgid "Stretched"
+msgctxt "Stretched"
+msgid "Stretched Image"
 msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:37
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Top Left"
-msgstr "Чап"
-
-#: ../../ui/ArtworkPatternOptionsWidget.cpp:38
-msgid "Top"
+msgctxt "Top Left"
+msgid "Align to top-left corner"
 msgstr ""
 
-#: ../../ui/ArtworkPatternOptionsWidget.cpp:39
+#: ../../ui/ArtworkPatternOptionsWidget.cpp:38
 #, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Top Right"
-msgstr "Ўнг"
+#| msgid "Align Bottom"
+msgctxt "Top"
+msgid "Align to top side"
+msgstr "Пастга"
+
+#: ../../ui/ArtworkPatternOptionsWidget.cpp:39
+msgctxt "Top Right"
+msgid "Align to top-right corner"
+msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:40
 #, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Left"
-msgstr "Чап"
+#| msgid "Align Left"
+msgctxt "Left"
+msgid "Align to left side"
+msgstr "Чапга"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:41
 #, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Center"
-msgid "Center"
-msgstr "Марказ"
+#| msgid "Align Right"
+msgctxt "Center"
+msgid "Align in the center"
+msgstr "Ўнгга"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:42
 #, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Right"
-msgstr "Ўнг"
+#| msgid "Align Right"
+msgctxt "Right"
+msgid "Align to right side"
+msgstr "Ўнгга"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
+msgctxt "Bottom Left"
+msgid "Align to bottom-left corner"
 msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:44
 #, fuzzy
 #| msgid "Align Bottom"
-msgid "Bottom"
+msgctxt "Bottom"
+msgid "Align to bottom side"
 msgstr "Пастга"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
+msgctxt "Bottom Right"
+msgid "Align to bottom-right corner"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Curve"
+#~ msgid "Current"
+#~ msgstr "Эгри чизиқ"
+
+#, fuzzy
+#~| msgctxt "Horizontal alignment"
+#~| msgid "Left"
+#~ msgid "Top Left"
+#~ msgstr "Чап"
+
+#, fuzzy
+#~| msgctxt "Horizontal alignment"
+#~| msgid "Right"
+#~ msgid "Top Right"
+#~ msgstr "Ўнг"
+
+#, fuzzy
+#~| msgctxt "Horizontal alignment"
+#~| msgid "Left"
+#~ msgid "Left"
+#~ msgstr "Чап"
+
+#, fuzzy
+#~| msgctxt "Horizontal alignment"
+#~| msgid "Center"
+#~ msgid "Center"
+#~ msgstr "Марказ"
+
+#, fuzzy
+#~| msgctxt "Horizontal alignment"
+#~| msgid "Right"
+#~ msgid "Right"
+#~ msgstr "Ўнг"
+
+#, fuzzy
+#~| msgid "Align Bottom"
+#~ msgid "Bottom"
+#~ msgstr "Пастга"
 
 #~ msgid "Edit Gradient"
 #~ msgstr "Градиентни таҳрирлаш"
@@ -699,11 +756,6 @@ msgstr ""
 #, fuzzy
 #~| msgid "Delete Objects"
 #~ msgid "Delete selected objects"
-#~ msgstr "Объектларни ўчириш"
-
-#, fuzzy
-#~| msgid "Delete Objects"
-#~ msgid "Raise selected objects"
 #~ msgstr "Объектларни ўчириш"
 
 #, fuzzy
@@ -1021,25 +1073,14 @@ msgstr ""
 #~ msgid "Shows or hides grid"
 #~ msgstr "Тўрни кўрсатиш/бекитиш."
 
-#~ msgid "Align Left"
-#~ msgstr "Чапга"
-
 #~ msgid "Align Center (Horizontal)"
 #~ msgstr "Марказда (энига)"
-
-#~ msgid "Align Right"
-#~ msgstr "Ўнгга"
 
 #~ msgid "Align Top"
 #~ msgstr "Юқорига"
 
 #~ msgid "Align Middle (Vertical)"
 #~ msgstr "Марказда (узинасига)"
-
-#, fuzzy
-#~| msgid "Align Bottom"
-#~ msgid "Align Bottom"
-#~ msgstr "Пастга"
 
 #, fuzzy
 #~| msgid "Opacity:"
