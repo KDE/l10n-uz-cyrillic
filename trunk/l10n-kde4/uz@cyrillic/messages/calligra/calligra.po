@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-06 03:00+0200\n"
+"POT-Creation-Date: 2012-05-07 02:38+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -614,7 +614,7 @@ msgstr "Скрипт пакетини ўрнатиш"
 #. i18n: file: widgets/KoEditColorSet.ui:45
 #. i18n: ectx: property (toolTip), widget (QToolButton, add)
 #: kokross/KoScriptManagerAdd.cpp:272 kokross/KoScriptManagerAdd.cpp:275
-#: pigment/compositeops/KoCompositeOpAdd.h:36 rc.cpp:526
+#: pigment/compositeops/KoCompositeOpAdd.h:36 rc.cpp:562
 #, fuzzy
 msgid "Add"
 msgstr "&Қўшиш"
@@ -753,40 +753,51 @@ msgstr ""
 msgid "Master Page"
 msgstr "Матнни қўйиш"
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:36 main/KoMainWindow.cpp:1356
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:37 main/KoMainWindow.cpp:1356
 #, fuzzy
 #| msgid "Confirm Save"
 msgid "Configure"
 msgstr "Сақлашни тасдиқлаш"
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:41
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:42
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:43
 #: main/config/KoConfigMiscPage.cpp:78 pigment/KoCompositeOp.cpp:42
 #: pigment/KoCompositeOpRegistry.cpp:36
 msgid "Misc"
 msgstr ""
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:46
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:47
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:48
 #: main/config/KoConfigGridPage.cpp:65
 #, fuzzy
 #| msgid "Show %1"
 msgid "Grid"
 msgstr "%1 ойнасини кўрсатиш"
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:53
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:54
 #, fuzzy
 #| msgid "Document"
 msgctxt "@title:tab Document settings page"
 msgid "Document"
 msgstr "Ҳужжат"
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:54
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:55
 #: main/config/KoConfigDocumentPage.cpp:58
 #, fuzzy
 #| msgid "Document Subject"
 msgid "Document Settings"
 msgstr "Ҳужжатнинг мавзуси"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:59
+#, fuzzy
+#| msgid "Author"
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "Муаллиф"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:60 main/KoDocumentInfoDlg.cpp:125
+msgid "Author"
+msgstr "Муаллиф"
 
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:105
 #, fuzzy
@@ -1102,7 +1113,7 @@ msgstr "Бет мосламалари..."
 
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:57
 #. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: kopageapp/KoPAView.cpp:412 rc.cpp:352
+#: kopageapp/KoPAView.cpp:412 rc.cpp:382
 msgid "Variable"
 msgstr "Ўзгарувчи"
 
@@ -1187,7 +1198,7 @@ msgstr "Ўлчами:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:24
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: koreport/common/KoReportItemBase.cpp:28 rc.cpp:313 rc.cpp:337
+#: koreport/common/KoReportItemBase.cpp:28 rc.cpp:343 rc.cpp:367
 #, fuzzy
 #| msgid "Name:"
 msgid "Name"
@@ -1492,7 +1503,7 @@ msgstr "Бетнинг ўлчами"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:129
 #. i18n: ectx: property (text), widget (QRadioButton, portrait)
-#: koreport/wrtembed/KoReportDesigner.cpp:617 rc.cpp:583
+#: koreport/wrtembed/KoReportDesigner.cpp:617 rc.cpp:619
 #, fuzzy
 #| msgid "&Portrait"
 msgid "Portrait"
@@ -1500,7 +1511,7 @@ msgstr "&Узунасига"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:136
 #. i18n: ectx: property (text), widget (QRadioButton, landscape)
-#: koreport/wrtembed/KoReportDesigner.cpp:617 rc.cpp:586
+#: koreport/wrtembed/KoReportDesigner.cpp:617 rc.cpp:622
 #, fuzzy
 #| msgid "La&ndscape"
 msgid "Landscape"
@@ -1667,7 +1678,7 @@ msgstr "Иккита"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:147
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:128 kotext/KoTextEditor_p.h:164 rc.cpp:463
+#: kotext/KoTextEditor_p.h:128 kotext/KoTextEditor_p.h:164 rc.cpp:499
 #, fuzzy
 msgid "Format"
 msgstr "Санани кўриниши"
@@ -2119,117 +2130,114 @@ msgid "Unknown Calligra MimeType %1. Check your installation."
 msgstr ""
 "KOffice MIME тури %s номаълум. Дастур тўғри ўрнатилганлигини текширинг."
 
-#: main/KoView.cpp:505
-#, fuzzy
-msgid "&New View"
-msgstr "Кўринишни &олиб ташлаш"
-
-#: main/KoDocumentInfoDlg.cpp:93 main/KoMainWindow.cpp:282
+#: main/KoDocumentInfoDlg.cpp:91 main/KoMainWindow.cpp:282
 msgid "Document Information"
 msgstr "Ҳужжат ҳақида маълумот"
 
-#: main/KoDocumentInfoDlg.cpp:108 main/KoDocumentInfoDlg.cpp:109
+#: main/KoDocumentInfoDlg.cpp:106 main/KoDocumentInfoDlg.cpp:107
 msgid "General"
 msgstr "Умумий"
 
-#: main/KoDocumentInfoDlg.cpp:127 main/KoDocumentInfoDlg.cpp:128
-msgid "Author"
-msgstr "Муаллиф"
+#: main/KoDocumentInfoDlg.cpp:126
+#, fuzzy
+#| msgid "Paste Text"
+msgid "Last saved by"
+msgstr "Матнни қўйиш"
 
-#: main/KoDocumentInfoDlg.cpp:143 main/KoDocumentInfoDlg.cpp:144
+#: main/KoDocumentInfoDlg.cpp:141 main/KoDocumentInfoDlg.cpp:142
 #, fuzzy
 #| msgid "Red"
 msgid "Rdf"
 msgstr "Қизил"
 
-#: main/KoDocumentInfoDlg.cpp:192
+#: main/KoDocumentInfoDlg.cpp:190
 msgid "Use ';' (Example: Office;KDE;Calligra)"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:222 main/KoDocumentInfoDlg.cpp:355
+#: main/KoDocumentInfoDlg.cpp:220 main/KoDocumentInfoDlg.cpp:318
 msgid "This document will be decrypted"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:224 main/KoDocumentInfoDlg.cpp:357
+#: main/KoDocumentInfoDlg.cpp:222 main/KoDocumentInfoDlg.cpp:320
 #, fuzzy
 msgid "Do not decrypt"
 msgstr "Таърифи:"
 
-#: main/KoDocumentInfoDlg.cpp:227 main/KoDocumentInfoDlg.cpp:360
+#: main/KoDocumentInfoDlg.cpp:225 main/KoDocumentInfoDlg.cpp:323
 msgid "This document is encrypted"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:229 main/KoDocumentInfoDlg.cpp:362
+#: main/KoDocumentInfoDlg.cpp:227 main/KoDocumentInfoDlg.cpp:325
 #, fuzzy
 msgid "D&ecrypt"
 msgstr "Таърифи:"
 
-#: main/KoDocumentInfoDlg.cpp:234 main/KoDocumentInfoDlg.cpp:367
+#: main/KoDocumentInfoDlg.cpp:232 main/KoDocumentInfoDlg.cpp:330
 msgid "This document will be encrypted."
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:236 main/KoDocumentInfoDlg.cpp:369
+#: main/KoDocumentInfoDlg.cpp:234 main/KoDocumentInfoDlg.cpp:332
 #, fuzzy
 msgid "Do not encrypt"
 msgstr "Таърифи:"
 
-#: main/KoDocumentInfoDlg.cpp:239 main/KoDocumentInfoDlg.cpp:372
+#: main/KoDocumentInfoDlg.cpp:237 main/KoDocumentInfoDlg.cpp:335
 #, fuzzy
 msgid "This document is not encrypted"
 msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:298
 #. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#: main/KoDocumentInfoDlg.cpp:241 main/KoDocumentInfoDlg.cpp:374 rc.cpp:406
+#: main/KoDocumentInfoDlg.cpp:239 main/KoDocumentInfoDlg.cpp:337 rc.cpp:436
 msgid "&Encrypt"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:245
+#: main/KoDocumentInfoDlg.cpp:243
 #, fuzzy
 msgid "This document does not support encryption"
 msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
 
-#: main/KoDocumentInfoDlg.cpp:409
+#: main/KoDocumentInfoDlg.cpp:356
 msgid ""
 "<qt>Decrypting the document will remove the password protection from it."
 "<p>Do you still want to decrypt the file?</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:411
+#: main/KoDocumentInfoDlg.cpp:358
 #, fuzzy
 msgid "Confirm Decrypt"
 msgstr "Экспорт қилишни тасдиқлаш"
 
-#: main/KoDocumentInfoDlg.cpp:412
+#: main/KoDocumentInfoDlg.cpp:359
 #, fuzzy
 msgid "Decrypt"
 msgstr "Таърифи:"
 
-#: main/KoDocumentInfoDlg.cpp:423
+#: main/KoDocumentInfoDlg.cpp:370
 msgid ""
 "<qt>Your document could not be saved automatically.<p>To complete the "
 "decryption, please save the document.</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:425 main/KoDocumentInfoDlg.cpp:433
-#: main/KoDocumentInfoDlg.cpp:466 main/KoDocumentInfoDlg.cpp:474
+#: main/KoDocumentInfoDlg.cpp:372 main/KoDocumentInfoDlg.cpp:380
+#: main/KoDocumentInfoDlg.cpp:413 main/KoDocumentInfoDlg.cpp:421
 #, fuzzy
 msgid "Save Document"
 msgstr "Бошқа ҳужжат сифатида сақлаш"
 
-#: main/KoDocumentInfoDlg.cpp:431
+#: main/KoDocumentInfoDlg.cpp:378
 msgid ""
 "<qt>The document has been changed since it was opened. To complete the "
 "decryption the document needs to be saved.<p>Do you want to save the "
 "document now?</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:445 main/KoMainWindow.cpp:757
+#: main/KoDocumentInfoDlg.cpp:392 main/KoMainWindow.cpp:757
 #, kde-format
 msgid "%1 (unknown file type)"
 msgstr "%1 (файлнинг тури номаълум)"
 
-#: main/KoDocumentInfoDlg.cpp:448
+#: main/KoDocumentInfoDlg.cpp:395
 #, kde-format
 msgid ""
 "<qt>The document is currently saved as %1. The document needs to be changed "
@@ -2237,27 +2245,49 @@ msgid ""
 "file to OASIS OpenDocument?</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:450
+#: main/KoDocumentInfoDlg.cpp:397
 #, fuzzy
 msgid "Change Filetype"
 msgstr "Рўйхатнинг турини ўзгартириш"
 
-#: main/KoDocumentInfoDlg.cpp:451
+#: main/KoDocumentInfoDlg.cpp:398
 #, fuzzy
 msgid "Change"
 msgstr "Белги услубини ўзгартириш"
 
-#: main/KoDocumentInfoDlg.cpp:464
+#: main/KoDocumentInfoDlg.cpp:411
 msgid ""
 "<qt>Your document could not be saved automatically.<p>To complete the "
 "encryption, please save the document.</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:472
+#: main/KoDocumentInfoDlg.cpp:419
 msgid ""
 "<qt>The document has been changed since it was opened. To complete the "
 "encryption the document needs to be saved.<p>Do you want to save the "
 "document now?</qt>"
+msgstr ""
+
+#: main/KoDocumentInfo.cpp:53
+msgid "Unknown"
+msgstr "Номаълум"
+
+#: main/KoView.cpp:508
+#, fuzzy
+msgid "&New View"
+msgstr "Кўринишни &олиб ташлаш"
+
+#: main/KoView.cpp:515
+msgid "Active Author Profile"
+msgstr ""
+
+#: main/KoView.cpp:516 main/config/KoConfigAuthorPage.cpp:80
+msgid "Default Author Profile"
+msgstr ""
+
+#: main/KoView.cpp:517 main/KoView.cpp:555
+msgctxt "choice for author profile"
+msgid "Anonymous"
 msgstr ""
 
 #: main/KoDocumentSectionDelegate.cpp:512
@@ -2274,10 +2304,6 @@ msgstr ""
 #, fuzzy
 msgid "No"
 msgstr "Изоҳ"
-
-#: main/KoDocumentInfo.cpp:51
-msgid "Unknown"
-msgstr "Номаълум"
 
 #: main/KoDocument.cpp:513
 #, fuzzy
@@ -2822,9 +2848,9 @@ msgstr "чизма"
 msgid "Export to PDF"
 msgstr "&Экспорт қилиш"
 
-#. i18n: file: main/calligra_shell.rc:43
+#. i18n: file: main/calligra_shell.rc:44
 #. i18n: ectx: ToolBar (mainToolBar)
-#: main/KoMainWindow.cpp:1350 rc.cpp:194
+#: main/KoMainWindow.cpp:1350 rc.cpp:445
 #, fuzzy
 msgid "File"
 msgstr "Файлнинг номи"
@@ -2912,9 +2938,11 @@ msgstr ""
 msgid "Create Template"
 msgstr "Намунани яратиш"
 
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:17
+#. i18n: file: main/config/KoConfigAuthorPage.ui:20
 #. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
-#: main/KoTemplateCreateDia.cpp:123 rc.cpp:409
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:20
+#. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
+#: main/KoTemplateCreateDia.cpp:123 rc.cpp:188 rc.cpp:448
 msgid "Name:"
 msgstr "Номи:"
 
@@ -3137,6 +3165,23 @@ msgstr "Соя:"
 msgid "Paste at Cursor"
 msgstr ""
 
+#: main/config/KoConfigAuthorPage.cpp:62
+msgid "Add new author profile (starts out as a copy of current)"
+msgstr ""
+
+#: main/config/KoConfigAuthorPage.cpp:66
+#, fuzzy
+msgid "Delete the author profile"
+msgstr "Матнни ўчириш"
+
+#: main/config/KoConfigAuthorPage.cpp:136
+msgid "Name of Profile"
+msgstr ""
+
+#: main/config/KoConfigAuthorPage.cpp:136
+msgid "Name (not duplicate or blank name):"
+msgstr ""
+
 #: main/rdf/InsertSemanticObjectReferenceAction.cpp:56
 msgid "Select the object you want to reference"
 msgstr ""
@@ -3242,13 +3287,13 @@ msgstr "Тўқ қизил"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:240
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: main/rdf/KoRdfSemanticTree.cpp:52 rc.cpp:259
+#: main/rdf/KoRdfSemanticTree.cpp:52 rc.cpp:289
 msgid "Events"
 msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:256
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: main/rdf/KoRdfSemanticTree.cpp:55 rc.cpp:262
+#: main/rdf/KoRdfSemanticTree.cpp:55 rc.cpp:292
 #, fuzzy
 #| msgid "Location:"
 msgid "Locations"
@@ -4500,7 +4545,7 @@ msgstr "Жорий бўлим"
 #. i18n: file: widgets/KoCsvImportDialog.ui:268
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
 #: widgets/KoCsvImportDialog.cpp:223 widgets/KoCsvImportDialog.cpp:587
-#: widgets/KoCsvImportDialog.cpp:694 rc.cpp:493
+#: widgets/KoCsvImportDialog.cpp:694 rc.cpp:529
 msgid "None"
 msgstr "Йўқ"
 
@@ -4570,7 +4615,7 @@ msgstr "&Услуб"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/KoStrokeConfigWidget.cpp:97 rc.cpp:574
+#: widgets/KoStrokeConfigWidget.cpp:97 rc.cpp:610
 #, fuzzy
 msgid "Width:"
 msgstr "&Эни:"
@@ -4725,7 +4770,7 @@ msgstr "Бетга мослаш"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:160
 #. i18n: ectx: property (text), widget (QRadioButton, facingPages)
-#: widgets/KoPageLayoutWidget.cpp:286 rc.cpp:595
+#: widgets/KoPageLayoutWidget.cpp:286 rc.cpp:631
 #, fuzzy
 msgid "Facing pages"
 msgstr "Бетга мослаш"
@@ -4783,7 +4828,7 @@ msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:118
 #. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
-#: rc.cpp:5 rc.cpp:382
+#: rc.cpp:5 rc.cpp:412
 msgid "Type:"
 msgstr "Тури:"
 
@@ -4834,8 +4879,8 @@ msgstr ""
 #. i18n: file: widgets/KoEditColorSet.ui:78
 #. i18n: ectx: property (text), widget (QToolButton, save)
 #: rc.cpp:14 rc.cpp:17 rc.cpp:20 rc.cpp:23 rc.cpp:26 rc.cpp:29 rc.cpp:32
-#: rc.cpp:35 rc.cpp:38 rc.cpp:41 rc.cpp:44 rc.cpp:47 rc.cpp:50 rc.cpp:529
-#: rc.cpp:535 rc.cpp:541 rc.cpp:547
+#: rc.cpp:35 rc.cpp:38 rc.cpp:41 rc.cpp:44 rc.cpp:47 rc.cpp:50 rc.cpp:565
+#: rc.cpp:571 rc.cpp:577 rc.cpp:583
 #, fuzzy
 msgid "..."
 msgstr "Қўшиш..."
@@ -5107,23 +5152,108 @@ msgstr "Дастур ишга тушганда ушбу намунадан фо�
 msgid "Always use this template"
 msgstr "Ҳамиша ушбу намунадан фойдаланиш"
 
-#. i18n: file: main/calligra_shell.rc:4
-#. i18n: ectx: Menu (file)
-#: rc.cpp:188
+#. i18n: file: main/config/KoConfigAuthorPage.ui:40
+#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:37
+#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
+#: rc.cpp:191 rc.cpp:451
 #, fuzzy
-msgid "&File"
-msgstr "Файлнинг номи"
+msgid "Initials:"
+msgstr "Қия:"
 
-#. i18n: file: main/calligra_shell.rc:31
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:191
-#, fuzzy
-msgid "&Settings"
-msgstr "Қатор:"
+#. i18n: file: main/config/KoConfigAuthorPage.ui:63
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:60
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#: rc.cpp:194 rc.cpp:400 rc.cpp:454
+msgid "Title:"
+msgstr "Сарлавҳа:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:79
+#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:77
+#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
+#: rc.cpp:197 rc.cpp:457
+msgid "Position:"
+msgstr "Жойлашиши:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:95
+#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:94
+#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
+#: rc.cpp:200 rc.cpp:460
+msgid "Company:"
+msgstr "Ташкилот:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:111
+#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:104
+#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
+#: rc.cpp:203 rc.cpp:463
+msgid "Email:"
+msgstr "Электрон почта:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:127
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:114
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
+#: rc.cpp:206 rc.cpp:466
+msgid "Telephone (home):"
+msgstr "Телефон (уй):"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:143
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
+#: rc.cpp:209 rc.cpp:469
+msgid "Telephone (work):"
+msgstr "Телефон (иш):"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:159
+#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:134
+#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
+#: rc.cpp:212 rc.cpp:472
+msgid "Fax:"
+msgstr "Факс:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:175
+#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:144
+#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
+#: rc.cpp:215 rc.cpp:475
+msgid "Street:"
+msgstr "Кўча:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:191
+#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:154
+#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
+#: rc.cpp:218 rc.cpp:478
+msgid "Postal code:"
+msgstr "Индекс:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:207
+#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:164
+#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
+#: rc.cpp:221 rc.cpp:481
+msgid "City:"
+msgstr "Шаҳар:"
+
+#. i18n: file: main/config/KoConfigAuthorPage.ui:223
+#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
+#. i18n: file: main/koDocumentInfoAuthorWidget.ui:174
+#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
+#: rc.cpp:224 rc.cpp:484
+msgid "Country:"
+msgstr "Давлат:"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:21
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:197
+#: rc.cpp:227
 #, fuzzy
 #| msgid "Title"
 msgid "Triples"
@@ -5135,7 +5265,7 @@ msgstr "Сарлавҳа"
 #. i18n: ectx: property (text), widget (QPushButton, newNamespaceButton)
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, newStylesheet)
-#: rc.cpp:200 rc.cpp:212 rc.cpp:358
+#: rc.cpp:230 rc.cpp:242 rc.cpp:388
 #, fuzzy
 #| msgid "New"
 msgid "new"
@@ -5143,7 +5273,7 @@ msgstr "Янги"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, copyTripleButton)
-#: rc.cpp:203
+#: rc.cpp:233
 #, fuzzy
 msgid "copy"
 msgstr "Ташкилот"
@@ -5154,20 +5284,20 @@ msgstr "Ташкилот"
 #. i18n: ectx: property (text), widget (QPushButton, deleteNamespaceButton)
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:84
 #. i18n: ectx: property (text), widget (QPushButton, deleteStylesheet)
-#: rc.cpp:206 rc.cpp:215 rc.cpp:361
+#: rc.cpp:236 rc.cpp:245 rc.cpp:391
 #, fuzzy
 msgid "delete"
 msgstr "Матнни ўчириш"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:76
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:209
+#: rc.cpp:239
 msgid "Namespaces"
 msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:123
 #. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
-#: rc.cpp:218
+#: rc.cpp:248
 #, fuzzy
 #| msgid "Pre&fix text:"
 msgid "Prefix"
@@ -5175,26 +5305,26 @@ msgstr "&Префикс матни:"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:128
 #. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
-#: rc.cpp:221
+#: rc.cpp:251
 #, fuzzy
 msgid "Namespace"
 msgstr "&Алмаштириш:"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:137
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:224
+#: rc.cpp:254
 msgid "Semantic"
 msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:156
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rc.cpp:227
+#: rc.cpp:257
 msgid "SPARQL"
 msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:182
 #. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
-#: rc.cpp:230
+#: rc.cpp:260
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -5254,13 +5384,13 @@ msgstr ""
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
-#: rc.cpp:250
+#: rc.cpp:280
 msgid "Execute"
 msgstr "Ишга тушириш"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:221
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: rc.cpp:253
+#: rc.cpp:283
 #, fuzzy
 #| msgid "St&yle"
 msgid "Stylesheets"
@@ -5268,14 +5398,14 @@ msgstr "&Услуб"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:227
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:256
+#: rc.cpp:286
 #, fuzzy
 msgid "Contacts"
 msgstr "Шрифт:"
 
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:279
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:265
+#: rc.cpp:295
 msgid ""
 "Set the default stylesheet for Semantic objects in this document. New RDF "
 "objects will use this stylesheet automatically. The buttons allow you to set "
@@ -5291,19 +5421,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_defaultLocationsSheetButton)
 #. i18n: file: main/rdf/KoDocumentRdfEditWidget.ui:310
 #. i18n: ectx: property (text), widget (QPushButton, m_setAllStylesheetsButton)
-#: rc.cpp:268 rc.cpp:271 rc.cpp:274 rc.cpp:277
+#: rc.cpp:298 rc.cpp:301 rc.cpp:304 rc.cpp:307
 msgid "Set For All Existing"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:280
+#: rc.cpp:310
 msgid "&Summary:"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:283
+#: rc.cpp:313
 #, fuzzy
 #| msgid "Location:"
 msgid "&Location:"
@@ -5311,7 +5441,7 @@ msgstr "Манзили:"
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:286
+#: rc.cpp:316
 #, fuzzy
 #| msgid "Street"
 msgid "&Start:"
@@ -5319,19 +5449,19 @@ msgstr "Кўча"
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:289
+#: rc.cpp:319
 msgid "&End:"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:80
 #. i18n: ectx: attribute (title), widget (QWidget, tadtab)
-#: rc.cpp:292
+#: rc.cpp:322
 msgid "Time and Date"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfCalendarEventEditWidget.ui:93
 #. i18n: ectx: attribute (title), widget (QWidget, tztab)
-#: rc.cpp:295
+#: rc.cpp:325
 #, fuzzy
 #| msgid "Time:"
 msgid "Timezone"
@@ -5341,7 +5471,7 @@ msgstr "Вақт:"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: main/rdf/KoRdfLocationViewWidget.ui:24
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:298 rc.cpp:334
+#: rc.cpp:328 rc.cpp:364
 #, fuzzy
 #| msgid "Name:"
 msgid "&Name:"
@@ -5349,13 +5479,13 @@ msgstr "Номи:"
 
 #. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:301
+#: rc.cpp:331
 msgid "&Nick:"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:304
+#: rc.cpp:334
 #, fuzzy
 #| msgid "Page Number"
 msgid "&Phone Number:"
@@ -5363,14 +5493,14 @@ msgstr "Бетнинг сони"
 
 #. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:307
+#: rc.cpp:337
 #, fuzzy
 msgid "&Home Page:"
 msgstr "Матнни ўчириш"
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidget.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:310
+#: rc.cpp:340
 #, fuzzy
 #| msgid "Name:"
 msgid "&Name"
@@ -5380,7 +5510,7 @@ msgstr "Номи:"
 #. i18n: ectx: property (toolTip), widget (Marble::MarbleWidget, map)
 #. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:31
 #. i18n: ectx: property (toolTip), widget (Marble::MarbleWidget, map)
-#: rc.cpp:316 rc.cpp:340
+#: rc.cpp:346 rc.cpp:370
 #, fuzzy
 #| msgid "Edit Path"
 msgid "The Earth"
@@ -5390,43 +5520,43 @@ msgstr "Йўлни таҳрирлаш"
 #. i18n: ectx: property (whatsThis), widget (Marble::MarbleWidget, map)
 #. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:34
 #. i18n: ectx: property (whatsThis), widget (Marble::MarbleWidget, map)
-#: rc.cpp:319 rc.cpp:343
+#: rc.cpp:349 rc.cpp:373
 msgid "The Marble widget displays a virtual globe."
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:40
 #. i18n: ectx: property (toolTip), widget (Marble::MarbleNavigator, zoomer)
-#: rc.cpp:322
+#: rc.cpp:352
 msgid "Navigation Control"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:43
 #. i18n: ectx: property (whatsThis), widget (Marble::MarbleNavigator, zoomer)
-#: rc.cpp:325
+#: rc.cpp:355
 msgid "Use this control to navigate."
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:328
+#: rc.cpp:358
 msgid "Latitude"
 msgstr ""
 
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:331
+#: rc.cpp:361
 msgid "Longitude"
 msgstr ""
 
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:346
+#: rc.cpp:376
 msgid "Stylesheet Definition"
 msgstr ""
 
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:29
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:349
+#: rc.cpp:379
 #, fuzzy
 #| msgid "Variable Name"
 msgid "Variables Available"
@@ -5434,7 +5564,7 @@ msgstr "Ўзгарувчининг номи"
 
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:62
 #. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: rc.cpp:355
+#: rc.cpp:385
 #, fuzzy
 #| msgid "Description:"
 msgid "Description"
@@ -5442,297 +5572,229 @@ msgstr "Таърифи:"
 
 #. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:107
 #. i18n: ectx: property (text), widget (QTreeWidget, stylesheets)
-#: rc.cpp:364
+#: rc.cpp:394
 msgid "Stylesheet Name"
 msgstr ""
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
-#: rc.cpp:367
+#: rc.cpp:397
 #, fuzzy
 #| msgid "Edit Path"
 msgid "Path:"
 msgstr "Йўлни таҳрирлаш"
 
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:40
-#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:67
-#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: rc.cpp:370 rc.cpp:415
-msgid "Title:"
-msgstr "Сарлавҳа:"
-
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:56
 #. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
-#: rc.cpp:373
+#: rc.cpp:403
 msgid "Subject:"
 msgstr "Мавзу:"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:72
 #. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
-#: rc.cpp:376
+#: rc.cpp:406
 msgid "Keywords:"
 msgstr "Таянч сўзлар:"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:92
 #. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
-#: rc.cpp:379
+#: rc.cpp:409
 #, fuzzy
 msgid "Comments:"
 msgstr "Изоҳ"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:132
 #. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
-#: rc.cpp:385
+#: rc.cpp:415
 msgid "Created:"
 msgstr "Яратилган:"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:149
 #. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
-#: rc.cpp:388
+#: rc.cpp:418
 msgid "Modified:"
 msgstr "Ўзгарган:"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:166
 #. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
-#: rc.cpp:391
+#: rc.cpp:421
 msgid "Last printed:"
 msgstr "Охирги босиб чиқариш:"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:183
 #. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
-#: rc.cpp:394
+#: rc.cpp:424
 msgid "Total editing time:"
 msgstr "Умумий таҳрирлаш вақти:"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:212
 #. i18n: ectx: property (text), widget (QPushButton, pbReset)
-#: rc.cpp:397
+#: rc.cpp:427
 msgid "&Reset"
 msgstr "&Тиклаш"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:219
 #. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
-#: rc.cpp:400
+#: rc.cpp:430
 #, fuzzy
 msgid "Revision number:"
 msgstr "Чоп этиш рақами:"
 
 #. i18n: file: main/koDocumentInfoAboutWidget.ui:236
 #. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
-#: rc.cpp:403
+#: rc.cpp:433
 #, fuzzy
 msgid "Encryption:"
 msgstr "Таърифи:"
 
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:44
-#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
-#: rc.cpp:412
-#, fuzzy
-msgid "Initials:"
-msgstr "Қия:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:83
-#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
-#: rc.cpp:418
-msgid "Position:"
-msgstr "Жойлашиши:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:99
-#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
-#: rc.cpp:421
-msgid "Company:"
-msgstr "Ташкилот:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:115
-#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
-#: rc.cpp:424
-msgid "Email:"
-msgstr "Электрон почта:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:131
-#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
-#: rc.cpp:427
-msgid "Telephone (home):"
-msgstr "Телефон (уй):"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:147
-#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
-#: rc.cpp:430
-msgid "Telephone (work):"
-msgstr "Телефон (иш):"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:163
-#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
-#: rc.cpp:433
-msgid "Fax:"
-msgstr "Факс:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:179
-#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
-#: rc.cpp:436
-msgid "Street:"
-msgstr "Кўча:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:195
-#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
+#. i18n: file: main/calligra_shell.rc:4
+#. i18n: ectx: Menu (file)
 #: rc.cpp:439
-msgid "Postal code:"
-msgstr "Индекс:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:211
-#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
-#: rc.cpp:442
-msgid "City:"
-msgstr "Шаҳар:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:227
-#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
-#: rc.cpp:445
-msgid "Country:"
-msgstr "Давлат:"
-
-#. i18n: file: main/koDocumentInfoAuthorWidget.ui:262
-#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
-#: rc.cpp:448
 #, fuzzy
-msgid "&Delete Personal Data"
-msgstr "Шахсий маълумотни ўчириш"
+msgid "&File"
+msgstr "Файлнинг номи"
+
+#. i18n: file: main/calligra_shell.rc:32
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:442
+#, fuzzy
+msgid "&Settings"
+msgstr "Қатор:"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:52
 #. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
-#: rc.cpp:451
+#: rc.cpp:487
 #, fuzzy
 msgid "Data"
 msgstr "Сана"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:66
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:454
+#: rc.cpp:490
 #, fuzzy
 msgid "E&ncoding:"
 msgstr "Та&гини чизиш:"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:110
 #. i18n: ectx: property (text), widget (QCheckBox, m_firstRowHeader)
-#: rc.cpp:457
+#: rc.cpp:493
 msgid "First row contains headers"
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:123
 #. i18n: ectx: property (text), widget (QCheckBox, m_firstColHeader)
-#: rc.cpp:460
+#: rc.cpp:496
 msgid "First column contains headers"
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:159
 #. i18n: ectx: property (title), widget (QGroupBox, m_delimiterBox)
-#: rc.cpp:466
+#: rc.cpp:502
 #, fuzzy
 msgid "Delimiter"
 msgstr "Чап ажратувчи"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:165
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
-#: rc.cpp:469
+#: rc.cpp:505
 #, fuzzy
 msgid "Comma"
 msgstr "Ташкилот"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:175
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
-#: rc.cpp:472
+#: rc.cpp:508
 #, fuzzy
 msgid "Semicolon"
 msgstr "Сония"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:182
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
-#: rc.cpp:475
+#: rc.cpp:511
 #, fuzzy
 msgid "Other"
 msgstr "Enter"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:189
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
-#: rc.cpp:478
+#: rc.cpp:514
 #, fuzzy
 msgid "Tabulator"
 msgstr "&Табуляциялар"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:196
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
-#: rc.cpp:481
+#: rc.cpp:517
 msgid "Space"
 msgstr "Бўш жой"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:241
 #. i18n: ectx: property (text), widget (QLabel, label2)
-#: rc.cpp:484
+#: rc.cpp:520
 msgid "Text&quote:"
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:258
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: rc.cpp:487
+#: rc.cpp:523
 msgid "\""
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:263
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: rc.cpp:490
+#: rc.cpp:526
 msgid "'"
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:292
 #. i18n: ectx: property (text), widget (QLabel, label3)
-#: rc.cpp:496
+#: rc.cpp:532
 msgid "Decimal symbol:"
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:321
 #. i18n: ectx: property (text), widget (QLabel, label4)
-#: rc.cpp:499
+#: rc.cpp:535
 msgid "Thousands separator:"
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:366
 #. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
-#: rc.cpp:502
+#: rc.cpp:538
 msgid "Ignore duplicate delimiters"
 msgstr ""
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:373
 #. i18n: ectx: property (text), widget (QLabel, label1)
-#: rc.cpp:505
+#: rc.cpp:541
 #, fuzzy
 msgid "&Format:"
 msgstr "Санани кўриниши"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:387
 #. i18n: ectx: attribute (title), widget (QWidget, m_rangesTab)
-#: rc.cpp:508
+#: rc.cpp:544
 #, fuzzy
 msgid "Ranges"
 msgstr "Апельсин"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:393
 #. i18n: ectx: property (text), widget (QPushButton, m_updateButton)
-#: rc.cpp:511
+#: rc.cpp:547
 #, fuzzy
 msgid "Update"
 msgstr "Сана"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:460
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
-#: rc.cpp:514
+#: rc.cpp:550
 #, fuzzy
 msgid "Import columns:"
 msgstr "Ҳужжатни импорт қилиш"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:479
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3)
-#: rc.cpp:517
+#: rc.cpp:553
 #, fuzzy
 msgid "Import lines:"
 msgstr "Услубларни импорт қилиш"
@@ -5741,20 +5803,20 @@ msgstr "Услубларни импорт қилиш"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: file: widgets/KoCsvImportDialog.ui:512
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:520 rc.cpp:523
+#: rc.cpp:556 rc.cpp:559
 msgid "to"
 msgstr ""
 
 #. i18n: file: widgets/KoEditColorSet.ui:55
 #. i18n: ectx: property (toolTip), widget (QToolButton, remove)
-#: rc.cpp:532
+#: rc.cpp:568
 #, fuzzy
 msgid "Remove"
 msgstr "Сатрни олиб ташлаш"
 
 #. i18n: file: widgets/KoEditColorSet.ui:65
 #. i18n: ectx: property (toolTip), widget (QToolButton, open)
-#: rc.cpp:538
+#: rc.cpp:574
 #, fuzzy
 #| msgid "Palettes"
 msgid "Open palette"
@@ -5762,7 +5824,7 @@ msgstr "Асбоб ойналари"
 
 #. i18n: file: widgets/KoEditColorSet.ui:75
 #. i18n: ectx: property (toolTip), widget (QToolButton, save)
-#: rc.cpp:544
+#: rc.cpp:580
 #, fuzzy
 #| msgid "Palettes"
 msgid "Save palette"
@@ -5770,7 +5832,7 @@ msgstr "Асбоб ойналари"
 
 #. i18n: file: widgets/KoShadowConfigWidget.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, shadowVisible)
-#: rc.cpp:550
+#: rc.cpp:586
 #, fuzzy
 #| msgid "Change Shadow"
 msgid "Show Shadow"
@@ -5778,14 +5840,14 @@ msgstr "Сояни ўзгартириш"
 
 #. i18n: file: widgets/KoShadowConfigWidget.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:553
+#: rc.cpp:589
 #, fuzzy
 msgid "Angle:"
 msgstr "Битта"
 
 #. i18n: file: widgets/KoShadowConfigWidget.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:556
+#: rc.cpp:592
 #, fuzzy
 #| msgid "Shadow:"
 msgid "Offset:"
@@ -5793,7 +5855,7 @@ msgstr "Соя:"
 
 #. i18n: file: widgets/KoShadowConfigWidget.ui:47
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:559
+#: rc.cpp:595
 #, fuzzy
 #| msgid "Color:"
 msgid "Color:"
@@ -5801,19 +5863,19 @@ msgstr "Ранги:"
 
 #. i18n: file: widgets/KoShadowConfigWidget.ui:64
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:562
+#: rc.cpp:598
 msgid "Blur radius:"
 msgstr ""
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, unitsLabel)
-#: rc.cpp:565
+#: rc.cpp:601
 msgid "Unit:"
 msgstr "Бирлик:"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:45
 #. i18n: ectx: property (text), widget (QLabel, stylesLabel)
-#: rc.cpp:568
+#: rc.cpp:604
 #, fuzzy
 #| msgid "Font style:"
 msgid "Follow style:"
@@ -5821,27 +5883,27 @@ msgstr "Шрифтнинг услуби:"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:571
+#: rc.cpp:607
 msgid "Size:"
 msgstr "Ўлчами:"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:104
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:577
+#: rc.cpp:613
 #, fuzzy
 msgid "Height:"
 msgstr "&Узунаси:"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:119
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:580
+#: rc.cpp:616
 #, fuzzy
 msgid "Orientation:"
 msgstr "намойиш"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:143
 #. i18n: ectx: property (text), widget (QLabel, facingPageLabel)
-#: rc.cpp:589
+#: rc.cpp:625
 #, fuzzy
 #| msgid "Language:"
 msgid "Facing pages:"
@@ -5849,7 +5911,7 @@ msgstr "Тил:"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:153
 #. i18n: ectx: property (text), widget (QRadioButton, singleSided)
-#: rc.cpp:592
+#: rc.cpp:628
 #, fuzzy
 #| msgid "Single"
 msgid "Single sided"
@@ -5857,27 +5919,27 @@ msgstr "Битта"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:167
 #. i18n: ectx: property (text), widget (QLabel, directionLabel)
-#: rc.cpp:598
+#: rc.cpp:634
 #, fuzzy
 msgid "Text direction:"
 msgstr "&Матннинг ранги:"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:184
 #. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
-#: rc.cpp:601
+#: rc.cpp:637
 #, fuzzy
 msgid "Automatic"
 msgstr "намойиш"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:189
 #. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
-#: rc.cpp:604
+#: rc.cpp:640
 msgid "Left to right"
 msgstr ""
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:194
 #. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
-#: rc.cpp:607
+#: rc.cpp:643
 #, fuzzy
 #| msgid "Right indent"
 msgid "Right to left"
@@ -5885,20 +5947,20 @@ msgstr "Ўнгдан бўш жой"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:204
 #. i18n: ectx: property (title), widget (QGroupBox, margins)
-#: rc.cpp:610
+#: rc.cpp:646
 msgid "Margins"
 msgstr "Бўш жой"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:210
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:613
+#: rc.cpp:649
 #, fuzzy
 msgid "Top:"
 msgstr "Юқ&ори:"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:230
 #. i18n: ectx: property (text), widget (QLabel, leftLabel)
-#: rc.cpp:616
+#: rc.cpp:652
 #, fuzzy
 #| msgid "Last Printing"
 msgid "Binding edge:"
@@ -5906,7 +5968,7 @@ msgstr "Охирги босиб чиқариш"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:250
 #. i18n: ectx: property (text), widget (QLabel, rightLabel)
-#: rc.cpp:619
+#: rc.cpp:655
 #, fuzzy
 #| msgid "Page Preview"
 msgid "Page edge:"
@@ -5914,11 +5976,15 @@ msgstr "Бетни кўриб чиқиш"
 
 #. i18n: file: widgets/KoPageLayoutWidget.ui:270
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: rc.cpp:622
+#: rc.cpp:658
 #, fuzzy
 #| msgid "Align Auto"
 msgid "Bottom:"
 msgstr "Автоматик текислаш"
+
+#, fuzzy
+#~ msgid "&Delete Personal Data"
+#~ msgstr "Шахсий маълумотни ўчириш"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
