@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-16 11:40+0200\n"
+"POT-Creation-Date: 2012-05-18 12:28+0200\n"
 "PO-Revision-Date: 2009-10-17 00:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2662,7 +2662,7 @@ msgctxt "@item Spelling dictionary"
 msgid "<application>Hunspell</application> Default"
 msgstr ""
 
-#: kde3support/kdeui/k3wizard.cpp:48
+#: kde3support/kdeui/k3wizard.cpp:48 kdeui/actions/kstandardaction_p.h:90
 msgid "&Back"
 msgstr "О&рқага"
 
@@ -5489,27 +5489,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Авто-аниқлаш"
 
-#: kdeui/actions/ktogglefullscreenaction.cpp:48
-#: kdeui/actions/ktogglefullscreenaction.cpp:55
-#: kdeui/actions/ktogglefullscreenaction.cpp:85
-#: kdeui/actions/kstandardaction_p.h:101
-msgid "F&ull Screen Mode"
-msgstr "Бутун &экранга"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:51
-#: kdeui/actions/ktogglefullscreenaction.cpp:58
-#: kdeui/actions/ktogglefullscreenaction.cpp:86
-msgid "Full Screen"
-msgstr "Бутун экранга"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:81
-msgid "Exit F&ull Screen Mode"
-msgstr "Бутун &экрандан қайтиш"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:82
-msgid "Exit Full Screen"
-msgstr "Бутун экрандан қайтиш"
-
 #: kdeui/actions/kaction.cpp:122
 #, kde-format
 msgid ""
@@ -5553,19 +5532,19 @@ msgctxt "show help"
 msgid "&Help"
 msgstr "&Ёрдам"
 
-#: kdeui/actions/kstandardaction.cpp:516 kdeui/actions/kstandardaction_p.h:98
+#: kdeui/actions/kstandardaction.cpp:521 kdeui/actions/kstandardaction_p.h:98
 msgid "Show &Menubar"
 msgstr "&Менюлар панелини кўрсатиш"
 
-#: kdeui/actions/kstandardaction.cpp:522
+#: kdeui/actions/kstandardaction.cpp:527
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr "Менюлар панелини кўрсатиш<p>Бекитилган менюлар панелини кўрсатиш</p>"
 
-#: kdeui/actions/kstandardaction.cpp:539 kdeui/actions/kstandardaction_p.h:100
+#: kdeui/actions/kstandardaction.cpp:544 kdeui/actions/kstandardaction_p.h:100
 msgid "Show St&atusbar"
 msgstr "&Ҳолат панелини кўрсатиш"
 
-#: kdeui/actions/kstandardaction.cpp:542
+#: kdeui/actions/kstandardaction.cpp:547
 #, fuzzy
 #| msgid ""
 #| "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
@@ -5576,6 +5555,46 @@ msgid ""
 msgstr ""
 "Ҳолат панелини кўрсатиш<br /><br />Ойнанинг пастида жойлашган ҳолат "
 "маълумотини кўрсатувчи панелни кўрсатиш."
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:48
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgctxt "@action:inmenu"
+msgid "Exit F&ull Screen Mode"
+msgstr "Бутун &экрандан қайтиш"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:49
+#, fuzzy
+#| msgid "Exit Full Screen"
+msgctxt "@action:intoolbar"
+msgid "Exit Full Screen"
+msgstr "Бутун экрандан қайтиш"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:50
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgctxt "@info:tooltip"
+msgid "Exit full screen mode"
+msgstr "Бутун &экрандан қайтиш"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:53
+#, fuzzy
+#| msgid "F&ull Screen Mode"
+msgctxt "@action:inmenu"
+msgid "F&ull Screen Mode"
+msgstr "Бутун &экранга"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:54
+#, fuzzy
+#| msgid "Full Screen"
+msgctxt "@action:intoolbar"
+msgid "Full Screen"
+msgstr "Бутун экранга"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:55
+msgctxt "@info:tooltip"
+msgid "Display the window in full screen"
+msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 #, fuzzy
@@ -8342,7 +8361,7 @@ msgstr "Файлни очиш"
 msgid "&Quit"
 msgstr "Чи&қиш"
 
-#: kdeui/util/kstandardguiitem.cpp:255
+#: kdeui/util/kstandardguiitem.cpp:255 kdeui/actions/kstandardaction_p.h:53
 msgid "Quit application"
 msgstr "Дастурдан чиқиш"
 
@@ -13983,38 +14002,109 @@ msgstr ""
 msgid "&New"
 msgstr "&Янги"
 
+#: kdeui/actions/kstandardaction_p.h:43
+#, fuzzy
+#| msgid "Clear shortcut"
+msgid "Create new document"
+msgstr "Тугмалар бирикмасини ўчириш"
+
+#: kdeui/actions/kstandardaction_p.h:44
+msgid "Open an existing document"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:45
 msgid "Open &Recent"
 msgstr "&Яқинда фойдаланилганни очиш"
 
+#: kdeui/actions/kstandardaction_p.h:45
+msgid "Open a document which was recently opened"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:46
+#, fuzzy
+#| msgid "Close Document"
+msgid "Save document"
+msgstr "Ҳужжатни ёпиш"
+
+#: kdeui/actions/kstandardaction_p.h:47
+msgid "Save document under a new name"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:48
 msgid "Re&vert"
 msgstr "&Тескариси"
+
+#: kdeui/actions/kstandardaction_p.h:48
+msgid "Revert unsaved changes made to document"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:49
+#, fuzzy
+#| msgid "Close Document"
+msgid "Close document"
+msgstr "Ҳужжатни ёпиш"
+
+#: kdeui/actions/kstandardaction_p.h:50
+#, fuzzy
+msgid "Print document"
+msgstr "&Кўриб чиқиш"
 
 #: kdeui/actions/kstandardaction_p.h:51
 #, fuzzy
 msgid "Print Previe&w"
 msgstr "&Кўриб чиқиш"
 
+#: kdeui/actions/kstandardaction_p.h:51
+msgid "Show a print preview of document"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:52
 msgid "&Mail..."
 msgstr "Хатга илова қилиб &жўнатиш"
+
+#: kdeui/actions/kstandardaction_p.h:52
+msgid "Send document by mail"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:55
+msgid "Undo last action"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:56
 msgid "Re&do"
 msgstr "Қай&тариш"
 
+#: kdeui/actions/kstandardaction_p.h:56
+#, fuzzy
+#| msgid "HTML documentation"
+msgid "Redo last undone action"
+msgstr "HTML шаклида кўлланмалар"
+
 #: kdeui/actions/kstandardaction_p.h:57
 msgid "Cu&t"
 msgstr "&Кесиш"
+
+#: kdeui/actions/kstandardaction_p.h:57
+msgid "Cut selection to clipboard"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:58
 msgid "&Copy"
 msgstr "&Нусха олиш"
 
+#: kdeui/actions/kstandardaction_p.h:58
+msgid "Copy selection to clipboard"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:59 kdeui/actions/kstandardaction_p.h:60
 msgid "&Paste"
 msgstr "&Қўйиш"
+
+#: kdeui/actions/kstandardaction_p.h:59 kdeui/actions/kstandardaction_p.h:60
+#, fuzzy
+#| msgid "Upload Info"
+msgid "Paste clipboard content"
+msgstr "Маълумотни ёзиб қўйиш"
 
 #: kdeui/actions/kstandardaction_p.h:62
 msgid "Select &All"
@@ -14040,17 +14130,33 @@ msgstr "&Алмаштириш..."
 msgid "&Actual Size"
 msgstr "&Табиий ўлчам"
 
+#: kdeui/actions/kstandardaction_p.h:69
+msgid "View document at its actual size"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:70
 msgid "&Fit to Page"
 msgstr "&Бетга мослаш"
+
+#: kdeui/actions/kstandardaction_p.h:70
+msgid "Zoom to fit page in window"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:71
 msgid "Fit to Page &Width"
 msgstr "Бетнинг &энига мослаш"
 
+#: kdeui/actions/kstandardaction_p.h:71
+msgid "Zoom to fit page width in window"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:72
 msgid "Fit to Page &Height"
 msgstr "Бетнинг &узунлигига мослаш"
+
+#: kdeui/actions/kstandardaction_p.h:72
+msgid "Zoom to fit page height in window"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:73
 msgid "Zoom &In"
@@ -14064,21 +14170,50 @@ msgstr "К&ичиклаштириш"
 msgid "&Zoom..."
 msgstr "&Катталаштириш"
 
+#: kdeui/actions/kstandardaction_p.h:75
+#, fuzzy
+#| msgid "Select a week"
+msgid "Select zoom level"
+msgstr "Ҳафтани танлаш"
+
 #: kdeui/actions/kstandardaction_p.h:76
 msgid "&Redisplay"
+msgstr "&Қайтадан кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:76
+#, fuzzy
+#| msgid "&Redisplay"
+msgid "Redisplay document"
 msgstr "&Қайтадан кўрсатиш"
 
 #: kdeui/actions/kstandardaction_p.h:78
 msgid "&Up"
 msgstr "&Юқорига"
 
+#: kdeui/actions/kstandardaction_p.h:78
+msgid "Go up"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:83
 msgid "&Previous Page"
+msgstr "&Олдинги бет"
+
+#: kdeui/actions/kstandardaction_p.h:83
+#, fuzzy
+#| msgid "&Previous Page"
+msgid "Go to previous page"
 msgstr "&Олдинги бет"
 
 #: kdeui/actions/kstandardaction_p.h:84
 msgid "&Next Page"
 msgstr "&Кейинги бет"
+
+#: kdeui/actions/kstandardaction_p.h:84
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Go to Line"
+msgid "Go to next page"
+msgstr "Сатрга ўтиш"
 
 #: kdeui/actions/kstandardaction_p.h:85
 msgid "&Go To..."
@@ -14096,17 +14231,41 @@ msgstr "&Сатрга ўтиш..."
 msgid "&First Page"
 msgstr "&Биринчи бет"
 
+#: kdeui/actions/kstandardaction_p.h:88
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Go to Line"
+msgid "Go to first page"
+msgstr "Сатрга ўтиш"
+
 #: kdeui/actions/kstandardaction_p.h:89
 msgid "&Last Page"
 msgstr "&Охирги бет"
 
+#: kdeui/actions/kstandardaction_p.h:89
+#, fuzzy
+#| msgid "&Go to Page..."
+msgid "Go to last page"
+msgstr "&Бетга ўтиш..."
+
 #: kdeui/actions/kstandardaction_p.h:90
-msgid "&Back in the Document"
-msgstr ""
+#, fuzzy
+#| msgid "Go back one step"
+msgid "Go back in document"
+msgstr "Бир қадам орқага"
 
 #: kdeui/actions/kstandardaction_p.h:91
-msgid "&Forward in the Document"
-msgstr ""
+#, fuzzy
+#| msgctxt "go forward"
+#| msgid "&Forward"
+msgid "&Forward"
+msgstr "Ол&динга"
+
+#: kdeui/actions/kstandardaction_p.h:91
+#, fuzzy
+#| msgid "Go forward one step"
+msgid "Go forward in document"
+msgstr "Бир қадам олдинга"
 
 #: kdeui/actions/kstandardaction_p.h:93
 msgid "&Add Bookmark"
@@ -14120,9 +14279,39 @@ msgstr "Хатчўпларни &таҳрирлаш"
 msgid "&Spelling..."
 msgstr "&Имло..."
 
+#: kdeui/actions/kstandardaction_p.h:96
+#, fuzzy
+#| msgid "Check Spelling"
+msgid "Check spelling in document"
+msgstr "Имлони текшириш"
+
+#: kdeui/actions/kstandardaction_p.h:98
+#, fuzzy
+#| msgid "Show &Menubar"
+msgid "Show or hide menubar"
+msgstr "&Менюлар панелини кўрсатиш"
+
 #: kdeui/actions/kstandardaction_p.h:99
 msgid "Show &Toolbar"
 msgstr "&Асбоблар панелини кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:99
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Show Toolbar"
+msgid "Show or hide toolbar"
+msgstr "Асбоблар панелини кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:100
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Show Statusbar"
+msgid "Show or hide statusbar"
+msgstr "Ҳолат панелини кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:101
+msgid "F&ull Screen Mode"
+msgstr "Бутун &экранга"
 
 #: kdeui/actions/kstandardaction_p.h:102
 msgid "&Save Settings"
@@ -14217,12 +14406,6 @@ msgstr "кечқурун"
 #~ msgstr "&Менюлар панелини бекитиш"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Show Statusbar"
-#~ msgid "Show Statusbar"
-#~ msgstr "Ҳолат панелини кўрсатиш"
-
-#, fuzzy
 #~| msgid "Hide St&atusbar"
 #~ msgid "Hide Statusbar"
 #~ msgstr "Ҳолат панелини &бекитиш"
@@ -14243,12 +14426,6 @@ msgstr "кечқурун"
 #~ msgctxt "option:check A filter on file type - media files"
 #~ msgid "Media"
 #~ msgstr "Мета"
-
-#, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Show Toolbar"
-#~ msgid "Show Toolbar"
-#~ msgstr "Асбоблар панелини кўрсатиш"
 
 #~ msgid "Hide Toolbar"
 #~ msgstr "Асбоблар панелини бекитиш"
