@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-25 15:28+0200\n"
+"POT-Creation-Date: 2012-05-30 12:35+0200\n"
 "PO-Revision-Date: 2009-10-14 00:15+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3952,118 +3952,6 @@ msgstr "&Ҳа"
 msgid "&No"
 msgstr "&Йўқ"
 
-#: kio/tcpslavebase.cpp:328
-msgid ""
-"You are about to leave secure mode. Transmissions will no longer be "
-"encrypted.\n"
-"This means that a third party could observe your data in transit."
-msgstr ""
-
-#: kio/tcpslavebase.cpp:334 kio/tcpslavebase.cpp:609
-msgid "Security Information"
-msgstr "Хавфсизлик маълумоти"
-
-#: kio/tcpslavebase.cpp:335
-msgid "C&ontinue Loading"
-msgstr "&Юклашни давом этиш"
-
-#: kio/tcpslavebase.cpp:391
-#, fuzzy, kde-format
-#| msgid "Authentication Failed."
-msgctxt "%1 is a host name"
-msgid "%1: SSL negotiation failed"
-msgstr "Тасдиқлаш муваффақиятсиз тугади."
-
-#: kio/tcpslavebase.cpp:603
-msgid ""
-"You are about to enter secure mode. All transmissions will be encrypted "
-"unless otherwise noted.\n"
-"This means that no third party will be able to easily observe your data in "
-"transit."
-msgstr ""
-
-#: kio/tcpslavebase.cpp:610
-msgid "Display SSL &Information"
-msgstr "SSL &маълумотини кўрсатиш"
-
-#: kio/tcpslavebase.cpp:611
-msgid "C&onnect"
-msgstr "У&ланиш"
-
-#: kio/tcpslavebase.cpp:747
-msgid "Enter the certificate password:"
-msgstr "Сертификатнинг махфий сўзини киритинг:"
-
-#: kio/tcpslavebase.cpp:748
-msgid "SSL Certificate Password"
-msgstr "SSL сертификати учун махфий сўз"
-
-#: kio/tcpslavebase.cpp:761
-msgid "Unable to open the certificate. Try a new password?"
-msgstr ""
-"Сертификатни очиб бўлмади. Бошқа махфий сўзни синаб кўришни истайсизми?"
-
-#: kio/tcpslavebase.cpp:774
-msgid "The procedure to set the client certificate for the session failed."
-msgstr "Сеанс учун клиент сертификатини ўрнатиш муваффақиятсиз тугади."
-
-#: kio/tcpslavebase.cpp:776 kio/slaveinterface.cpp:498
-msgid "SSL"
-msgstr "SSL"
-
-#: kio/tcpslavebase.cpp:820 kssl/sslui.cpp:71
-#, kde-format
-msgid ""
-"The server failed the authenticity check (%1).\n"
-"\n"
-msgstr ""
-
-#: kio/tcpslavebase.cpp:830 kio/tcpslavebase.cpp:847 kio/tcpslavebase.cpp:949
-#: kio/tcpslavebase.cpp:961 kssl/sslui.cpp:80 kssl/sslui.cpp:119
-msgid "Server Authentication"
-msgstr "Сервер тасдиқлаши"
-
-#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "&Тафсилотлар"
-
-#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "&Давом этиш"
-
-#: kio/tcpslavebase.cpp:844 kssl/sslui.cpp:116
-msgid ""
-"Would you like to accept this certificate forever without being prompted?"
-msgstr ""
-
-#: kio/tcpslavebase.cpp:848 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "&Ҳамиша"
-
-#: kio/tcpslavebase.cpp:849 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "&Фақат жорий сеанслар"
-
-#: kio/tcpslavebase.cpp:948
-msgid ""
-"You have indicated that you wish to accept this certificate, but it is not "
-"issued to the server who is presenting it. Do you wish to continue loading?"
-msgstr ""
-
-#: kio/tcpslavebase.cpp:960
-#, fuzzy
-#| msgid ""
-#| "SSL certificate is being rejected as requested. You can disable this in "
-#| "the KDE Control Center."
-msgid ""
-"SSL certificate is being rejected as requested. You can disable this in the "
-"KDE System Settings."
-msgstr ""
-"SSL сертификати талабга биноан қабул қилинмади. Буни KDE бошқарув марказида "
-"ўчиришингиз мумкин."
-
 #: kio/netaccess.cpp:104
 #, kde-format
 msgid "File '%1' is not readable"
@@ -4206,9 +4094,121 @@ msgstr "Ўтказиб юбориш"
 msgid "AutoSkip"
 msgstr "Авто-ўтказиб юбориш"
 
+#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:904 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "&Тафсилотлар"
+
+#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:921 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "&Ҳамиша"
+
+#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:904 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "&Давом этиш"
+
+#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:922 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "&Фақат жорий сеанслар"
+
 #: kio/slaveinterface.cpp:496
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr ""
+
+#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:849
+msgid "SSL"
+msgstr "SSL"
+
+#: kio/tcpslavebase.cpp:334
+msgid ""
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
+"This means that a third party could observe your data in transit."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:682
+msgid "Security Information"
+msgstr "Хавфсизлик маълумоти"
+
+#: kio/tcpslavebase.cpp:341
+msgid "C&ontinue Loading"
+msgstr "&Юклашни давом этиш"
+
+#: kio/tcpslavebase.cpp:442
+#, fuzzy, kde-format
+#| msgid "Authentication Failed."
+msgctxt "%1 is a host name"
+msgid "%1: SSL negotiation failed"
+msgstr "Тасдиқлаш муваффақиятсиз тугади."
+
+#: kio/tcpslavebase.cpp:676
+msgid ""
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:683
+msgid "Display SSL &Information"
+msgstr "SSL &маълумотини кўрсатиш"
+
+#: kio/tcpslavebase.cpp:684
+msgid "C&onnect"
+msgstr "У&ланиш"
+
+#: kio/tcpslavebase.cpp:820
+msgid "Enter the certificate password:"
+msgstr "Сертификатнинг махфий сўзини киритинг:"
+
+#: kio/tcpslavebase.cpp:821
+msgid "SSL Certificate Password"
+msgstr "SSL сертификати учун махфий сўз"
+
+#: kio/tcpslavebase.cpp:834
+msgid "Unable to open the certificate. Try a new password?"
+msgstr ""
+"Сертификатни очиб бўлмади. Бошқа махфий сўзни синаб кўришни истайсизми?"
+
+#: kio/tcpslavebase.cpp:847
+msgid "The procedure to set the client certificate for the session failed."
+msgstr "Сеанс учун клиент сертификатини ўрнатиш муваффақиятсиз тугади."
+
+#: kio/tcpslavebase.cpp:893 kssl/sslui.cpp:71
+#, kde-format
+msgid ""
+"The server failed the authenticity check (%1).\n"
+"\n"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:903 kio/tcpslavebase.cpp:920 kio/tcpslavebase.cpp:1022
+#: kio/tcpslavebase.cpp:1034 kssl/sslui.cpp:80 kssl/sslui.cpp:119
+msgid "Server Authentication"
+msgstr "Сервер тасдиқлаши"
+
+#: kio/tcpslavebase.cpp:917 kssl/sslui.cpp:116
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1021
+msgid ""
+"You have indicated that you wish to accept this certificate, but it is not "
+"issued to the server who is presenting it. Do you wish to continue loading?"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1033
+#, fuzzy
+#| msgid ""
+#| "SSL certificate is being rejected as requested. You can disable this in "
+#| "the KDE Control Center."
+msgid ""
+"SSL certificate is being rejected as requested. You can disable this in the "
+"KDE System Settings."
+msgstr ""
+"SSL сертификати талабга биноан қабул қилинмади. Буни KDE бошқарув марказида "
+"ўчиришингиз мумкин."
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
