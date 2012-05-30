@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-28 04:48+0200\n"
+"POT-Creation-Date: 2012-05-30 04:55+0200\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1202,37 +1202,6 @@ msgstr ""
 msgid "Encrypt Mail Message"
 msgstr ""
 
-#: crypto/gui/newresultpage.cpp:103 crypto/gui/resultpage.cpp:104
-msgid "Keep open after operation completed"
-msgstr ""
-
-#: crypto/gui/newresultpage.cpp:135 crypto/gui/resultpage.cpp:131
-#, kde-format
-msgid "%1: All operations completed."
-msgstr ""
-
-#: crypto/gui/newresultpage.cpp:137 crypto/gui/resultpage.cpp:133
-msgid "All operations completed."
-msgstr ""
-
-#: crypto/gui/newresultpage.cpp:160 crypto/gui/resultpage.cpp:149
-#: crypto/gui/resultlistwidget.cpp:224
-#, fuzzy, kde-format
-#| msgid "Stop Operation"
-msgctxt "number, operation description"
-msgid "Operation %1: %2"
-msgstr "Жараённи тўхтатиш"
-
-#: crypto/gui/newresultpage.cpp:162 crypto/gui/resultpage.cpp:151
-#, kde-format
-msgctxt "tag( \"OpenPGP\" or \"CMS\"),  operation description"
-msgid "%1: %2"
-msgstr ""
-
-#: crypto/gui/newresultpage.cpp:167 crypto/gui/resultpage.cpp:156
-msgid "<b>Results</b>"
-msgstr ""
-
 #: crypto/gui/resultitemwidget.cpp:104
 #, fuzzy
 #| msgid "Certificate Details..."
@@ -1462,6 +1431,14 @@ msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
+#: crypto/gui/resultlistwidget.cpp:224 crypto/gui/newresultpage.cpp:162
+#: crypto/gui/resultpage.cpp:151
+#, fuzzy, kde-format
+#| msgid "Stop Operation"
+msgctxt "number, operation description"
+msgid "Operation %1: %2"
+msgstr "Жараённи тўхтатиш"
+
 #: crypto/gui/signencryptemailconflictdialog.cpp:163
 #, fuzzy
 #| msgid "Import Certificates..."
@@ -1479,7 +1456,7 @@ msgid "(please choose between OpenPGP and S/MIME first)"
 msgstr ""
 
 #: crypto/gui/signencryptemailconflictdialog.cpp:238
-#: crypto/gui/resolverecipientspage.cpp:210
+#: crypto/gui/resolverecipientspage.cpp:209
 msgid "..."
 msgstr ""
 
@@ -1533,12 +1510,12 @@ msgid "Show all recipients"
 msgstr "Сертификат тафсилотлари..."
 
 #: crypto/gui/signencryptemailconflictdialog.cpp:580
-#: crypto/gui/resolverecipientspage.cpp:446 utils/formatting.cpp:408
+#: crypto/gui/resolverecipientspage.cpp:445 utils/formatting.cpp:408
 msgid "OpenPGP"
 msgstr ""
 
 #: crypto/gui/signencryptemailconflictdialog.cpp:581
-#: crypto/gui/resolverecipientspage.cpp:450
+#: crypto/gui/resolverecipientspage.cpp:449
 msgid "S/MIME"
 msgstr ""
 
@@ -1604,49 +1581,12 @@ msgstr ""
 msgid "<b>Objects</b>"
 msgstr ""
 
-#: crypto/gui/objectspage.cpp:87 crypto/gui/resolverecipientspage.cpp:435
+#: crypto/gui/objectspage.cpp:87 crypto/gui/resolverecipientspage.cpp:434
 msgid "Remove Selected"
 msgstr ""
 
 #: crypto/gui/objectspage.cpp:99
 msgid "Select File"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:203
-msgid "<i>No certificate selected</i>"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:416
-msgid "<b>Recipients</b>"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:431
-msgid "Add Recipient..."
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:465
-msgid ""
-"<b>Warning:</b> None of the selected certificates seem to be your own. You "
-"will not be able to decrypt the encrypted data again."
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:582
-msgid "Recipient"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:584
-#, kde-format
-msgctxt "%1 == number"
-msgid "Recipient (%1)"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:617
-#, kde-format
-msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1"
-msgstr ""
-
-#: crypto/gui/resolverecipientspage.cpp:627
-msgid "Sender"
 msgstr ""
 
 #: crypto/gui/signencryptfileswizard.cpp:84
@@ -1788,6 +1728,66 @@ msgstr ""
 #: crypto/gui/verifychecksumsdialog.cpp:265
 msgctxt "Show Errors"
 msgid "Show"
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:103 crypto/gui/resultpage.cpp:104
+msgid "Keep open after operation completed"
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:136 crypto/gui/resultpage.cpp:132
+#, kde-format
+msgid "%1: All operations completed."
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:138 crypto/gui/resultpage.cpp:134
+msgid "All operations completed."
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:164 crypto/gui/resultpage.cpp:153
+#, kde-format
+msgctxt "tag( \"OpenPGP\" or \"CMS\"),  operation description"
+msgid "%1: %2"
+msgstr ""
+
+#: crypto/gui/newresultpage.cpp:169 crypto/gui/resultpage.cpp:158
+msgid "<b>Results</b>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:202
+msgid "<i>No certificate selected</i>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:415
+msgid "<b>Recipients</b>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:430
+msgid "Add Recipient..."
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:464
+msgid ""
+"<b>Warning:</b> None of the selected certificates seem to be your own. You "
+"will not be able to decrypt the encrypted data again."
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:581
+msgid "Recipient"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:583
+#, kde-format
+msgctxt "%1 == number"
+msgid "Recipient (%1)"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:617
+#, kde-format
+msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1</qt>"
+msgstr ""
+
+#: crypto/gui/resolverecipientspage.cpp:628
+msgid "Sender"
 msgstr ""
 
 #: crypto/signencryptfilestask.cpp:74 crypto/decryptverifytask.cpp:290
@@ -2299,50 +2299,14 @@ msgstr ""
 msgid "No backend support for %1"
 msgstr ""
 
-#: crypto/decryptverifyfilescontroller.cpp:141
-msgid "Cannot determine whether input data is OpenPGP or CMS"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:197
-#, kde-format
-msgid ""
-"Caught unexpected exception in DecryptVerifyFilesController::Private::"
-"slotWizardOperationPrepared: %1"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:201
-msgid ""
-"Caught unknown exception in DecryptVerifyFilesController::Private::"
-"slotWizardOperationPrepared"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:252
-msgid "Decrypt/Verify Files"
-msgstr ""
-
-#: crypto/decryptverifyfilescontroller.cpp:380
-msgid "No usable inputs found"
-msgstr ""
-
 #: crypto/encryptemailcontroller.cpp:150
 msgid "Call to EncryptEMailController::protocolAsString() is ambiguous."
 msgstr ""
 
-#: crypto/encryptemailcontroller.cpp:169
-#: crypto/newsignencryptemailcontroller.cpp:382
-#: crypto/signemailcontroller.cpp:180
+#: crypto/encryptemailcontroller.cpp:169 crypto/signemailcontroller.cpp:180
 #: crypto/signencryptfilescontroller.cpp:278
+#: crypto/newsignencryptemailcontroller.cpp:382
 msgid "User cancel"
-msgstr ""
-
-#: crypto/newsignencryptemailcontroller.cpp:297
-msgid "Call to NewSignEncryptEMailController::protocolAsString() is ambiguous."
-msgstr ""
-
-#: crypto/newsignencryptemailcontroller.cpp:517
-#: crypto/newsignencryptemailcontroller.cpp:522
-msgctxt "@title:window"
-msgid "Error"
 msgstr ""
 
 #: crypto/signencryptfilescontroller.cpp:144
@@ -2385,6 +2349,41 @@ msgstr ""
 #: crypto/verifychecksumscontroller.cpp:629
 #, kde-format
 msgid "Verifying checksums (%2) in %1"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:141
+msgid "Cannot determine whether input data is OpenPGP or CMS"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:197
+#, kde-format
+msgid ""
+"Caught unexpected exception in DecryptVerifyFilesController::Private::"
+"slotWizardOperationPrepared: %1"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:201
+msgid ""
+"Caught unknown exception in DecryptVerifyFilesController::Private::"
+"slotWizardOperationPrepared"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:252
+msgid "Decrypt/Verify Files"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:380
+msgid "No usable inputs found"
+msgstr ""
+
+#: crypto/newsignencryptemailcontroller.cpp:297
+msgid "Call to NewSignEncryptEMailController::protocolAsString() is ambiguous."
+msgstr ""
+
+#: crypto/newsignencryptemailcontroller.cpp:517
+#: crypto/newsignencryptemailcontroller.cpp:522
+msgctxt "@title:window"
+msgid "Error"
 msgstr ""
 
 #: dialogs/adduseriddialog.cpp:69 models/keylistmodel.cpp:250
@@ -5037,75 +5036,75 @@ msgstr ""
 msgid "New tab title:"
 msgstr ""
 
-#: view/keylistcontroller.cpp:336
+#: view/keylistcontroller.cpp:334
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "New Certificate..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: view/keylistcontroller.cpp:338
+#: view/keylistcontroller.cpp:336
 msgid "Export Certificates..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: view/keylistcontroller.cpp:340
+#: view/keylistcontroller.cpp:338
 #, fuzzy
 #| msgid "Export Certificates..."
 msgid "Export Certificates to Server..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: view/keylistcontroller.cpp:342
+#: view/keylistcontroller.cpp:340
 #, fuzzy
 #| msgid "Export Certificates..."
 msgid "Export Secret Keys..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: view/keylistcontroller.cpp:344
+#: view/keylistcontroller.cpp:342
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Lookup Certificates on Server..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: view/keylistcontroller.cpp:346
+#: view/keylistcontroller.cpp:344
 msgid "Import Certificates..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: view/keylistcontroller.cpp:348
+#: view/keylistcontroller.cpp:346
 msgid "Decrypt/Verify Files..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:350
+#: view/keylistcontroller.cpp:348
 msgid "Sign/Encrypt Files..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:352
+#: view/keylistcontroller.cpp:350
 msgid "Create Checksum Files..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:354
+#: view/keylistcontroller.cpp:352
 msgid "Verify Checksum Files..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:357
+#: view/keylistcontroller.cpp:355
 msgid "Redisplay"
 msgstr ""
 
-#: view/keylistcontroller.cpp:359
+#: view/keylistcontroller.cpp:357
 msgid "Stop Operation"
 msgstr "Жараённи тўхтатиш"
 
 #. i18n: file: dialogs/certificatedetailsdialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, CertificateDetailsDialog)
-#: view/keylistcontroller.cpp:361 rc.cpp:217
+#: view/keylistcontroller.cpp:359 rc.cpp:217
 #, fuzzy
 #| msgid "Certificate Details..."
 msgid "Certificate Details"
 msgstr "Сертификат тафсилотлари..."
 
-#: view/keylistcontroller.cpp:364
+#: view/keylistcontroller.cpp:362
 msgid "Delete"
 msgstr ""
 
-#: view/keylistcontroller.cpp:366
+#: view/keylistcontroller.cpp:364
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Certify Certificate..."
@@ -5113,21 +5112,21 @@ msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: file: dialogs/certificatedetailsdialog.ui:53
 #. i18n: ectx: property (text), widget (QPushButton, changeExpiryDatePB)
-#: view/keylistcontroller.cpp:368 rc.cpp:232
+#: view/keylistcontroller.cpp:366 rc.cpp:232
 msgid "Change Expiry Date..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:370
+#: view/keylistcontroller.cpp:368
 msgid "Change Owner Trust..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:372
+#: view/keylistcontroller.cpp:370
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Trust Root Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: view/keylistcontroller.cpp:374
+#: view/keylistcontroller.cpp:372
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Distrust Root Certificate"
@@ -5135,41 +5134,41 @@ msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: file: dialogs/certificatedetailsdialog.ui:33
 #. i18n: ectx: property (text), widget (QPushButton, changePassphrasePB)
-#: view/keylistcontroller.cpp:376 rc.cpp:226
+#: view/keylistcontroller.cpp:374 rc.cpp:226
 msgid "Change Passphrase..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:378
+#: view/keylistcontroller.cpp:376
 msgid "Add User-ID..."
 msgstr ""
 
-#: view/keylistcontroller.cpp:380
+#: view/keylistcontroller.cpp:378
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Dump Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: view/keylistcontroller.cpp:383
+#: view/keylistcontroller.cpp:381
 #, fuzzy
 #| msgid "Certificate Details..."
 msgid "Refresh X.509 Certificates"
 msgstr "Сертификат тафсилотлари..."
 
-#: view/keylistcontroller.cpp:385
+#: view/keylistcontroller.cpp:383
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Refresh OpenPGP Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: view/keylistcontroller.cpp:388
+#: view/keylistcontroller.cpp:386
 msgid "Clear CRL Cache"
 msgstr ""
 
-#: view/keylistcontroller.cpp:390
+#: view/keylistcontroller.cpp:388
 msgid "Dump CRL Cache"
 msgstr ""
 
-#: view/keylistcontroller.cpp:393
+#: view/keylistcontroller.cpp:391
 #, fuzzy
 #| msgid "Import Certificates..."
 msgid "Import CRL From File..."
