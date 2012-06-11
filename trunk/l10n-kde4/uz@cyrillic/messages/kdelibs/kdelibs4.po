@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-10 04:26+0200\n"
+"POT-Creation-Date: 2012-06-11 04:48+0200\n"
 "PO-Revision-Date: 2009-10-17 00:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -819,7 +819,7 @@ msgstr "&Воситалар"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:148
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:442 khtml/ecma/debugger/debugwindow.cpp:240
+#: rc.cpp:442 khtml/ecma/debugger/debugwindow.cpp:243
 msgid "&Settings"
 msgstr "Мос&ламалар"
 
@@ -2662,7 +2662,7 @@ msgctxt "@item Spelling dictionary"
 msgid "<application>Hunspell</application> Default"
 msgstr ""
 
-#: kde3support/kdeui/k3wizard.cpp:48
+#: kde3support/kdeui/k3wizard.cpp:48 kdeui/actions/kstandardaction_p.h:90
 msgid "&Back"
 msgstr "О&рқага"
 
@@ -5489,27 +5489,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Авто-аниқлаш"
 
-#: kdeui/actions/ktogglefullscreenaction.cpp:48
-#: kdeui/actions/ktogglefullscreenaction.cpp:55
-#: kdeui/actions/ktogglefullscreenaction.cpp:85
-#: kdeui/actions/kstandardaction_p.h:101
-msgid "F&ull Screen Mode"
-msgstr "Бутун &экранга"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:51
-#: kdeui/actions/ktogglefullscreenaction.cpp:58
-#: kdeui/actions/ktogglefullscreenaction.cpp:86
-msgid "Full Screen"
-msgstr "Бутун экранга"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:81
-msgid "Exit F&ull Screen Mode"
-msgstr "Бутун &экрандан қайтиш"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:82
-msgid "Exit Full Screen"
-msgstr "Бутун экрандан қайтиш"
-
 #: kdeui/actions/kaction.cpp:122
 #, kde-format
 msgid ""
@@ -5553,19 +5532,19 @@ msgctxt "show help"
 msgid "&Help"
 msgstr "&Ёрдам"
 
-#: kdeui/actions/kstandardaction.cpp:516 kdeui/actions/kstandardaction_p.h:98
+#: kdeui/actions/kstandardaction.cpp:521 kdeui/actions/kstandardaction_p.h:98
 msgid "Show &Menubar"
 msgstr "&Менюлар панелини кўрсатиш"
 
-#: kdeui/actions/kstandardaction.cpp:522
+#: kdeui/actions/kstandardaction.cpp:527
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr "Менюлар панелини кўрсатиш<p>Бекитилган менюлар панелини кўрсатиш</p>"
 
-#: kdeui/actions/kstandardaction.cpp:539 kdeui/actions/kstandardaction_p.h:100
+#: kdeui/actions/kstandardaction.cpp:544 kdeui/actions/kstandardaction_p.h:100
 msgid "Show St&atusbar"
 msgstr "&Ҳолат панелини кўрсатиш"
 
-#: kdeui/actions/kstandardaction.cpp:542
+#: kdeui/actions/kstandardaction.cpp:547
 #, fuzzy
 #| msgid ""
 #| "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
@@ -5576,6 +5555,46 @@ msgid ""
 msgstr ""
 "Ҳолат панелини кўрсатиш<br /><br />Ойнанинг пастида жойлашган ҳолат "
 "маълумотини кўрсатувчи панелни кўрсатиш."
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:48
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgctxt "@action:inmenu"
+msgid "Exit F&ull Screen Mode"
+msgstr "Бутун &экрандан қайтиш"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:49
+#, fuzzy
+#| msgid "Exit Full Screen"
+msgctxt "@action:intoolbar"
+msgid "Exit Full Screen"
+msgstr "Бутун экрандан қайтиш"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:50
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgctxt "@info:tooltip"
+msgid "Exit full screen mode"
+msgstr "Бутун &экрандан қайтиш"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:53
+#, fuzzy
+#| msgid "F&ull Screen Mode"
+msgctxt "@action:inmenu"
+msgid "F&ull Screen Mode"
+msgstr "Бутун &экранга"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:54
+#, fuzzy
+#| msgid "Full Screen"
+msgctxt "@action:intoolbar"
+msgid "Full Screen"
+msgstr "Бутун экранга"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:55
+msgctxt "@info:tooltip"
+msgid "Display the window in full screen"
+msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 #, fuzzy
@@ -5856,6 +5875,79 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1%"
 
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:41
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Shortcut Schemes"
+msgstr "Тугмалар бирикмаси"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:59
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Current scheme:"
+msgstr "&Жорий амаллар:"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:69
+msgid "New..."
+msgstr "Янги..."
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:72
+msgid "Delete"
+msgstr "Ўчириш"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:75
+#, fuzzy
+#| msgid "Action"
+msgid "More Actions"
+msgstr "Амал"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:79
+#, fuzzy
+#| msgid "Defaults"
+msgid "Save as Scheme Defaults"
+msgstr "Андозалар"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:81
+msgid "Export Scheme..."
+msgstr ""
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:98
+msgid "Name for New Scheme"
+msgstr ""
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Name for new scheme:"
+msgstr "&Жорий амаллар:"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "New Scheme"
+msgstr "&Жорий амаллар:"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:105
+#, fuzzy
+msgid "A scheme with this name already exists."
+msgstr "Бу номли сертификат аллақачон мавжуд. Уни алмаштиришни истайсизми?"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:133
+#, kde-format
+msgid ""
+"Do you really want to delete the scheme %1?\n"
+"Note that this will not remove any system wide shortcut schemes."
+msgstr ""
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:162
+#, fuzzy
+msgid "Export to Location"
+msgstr "Шрифтни танлаш учун сичқонча билан босинг"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:171
+msgid "Could not export shortcuts scheme because the location is invalid."
+msgstr ""
+
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
 msgid "Switch Application Language"
 msgstr "Дастурнинг тилини ўзгартириш"
@@ -6055,79 +6147,6 @@ msgstr "Расмнинг қисмини танланг"
 
 #: kdeui/dialogs/kpixmapregionselectordialog.cpp:68
 msgid "Please click and drag on the image to select the region of interest:"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:41
-#, fuzzy
-#| msgid "Shortcuts"
-msgid "Shortcut Schemes"
-msgstr "Тугмалар бирикмаси"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:59
-#, fuzzy
-#| msgid "Curr&ent actions:"
-msgid "Current scheme:"
-msgstr "&Жорий амаллар:"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:69
-msgid "New..."
-msgstr "Янги..."
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:72
-msgid "Delete"
-msgstr "Ўчириш"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:75
-#, fuzzy
-#| msgid "Action"
-msgid "More Actions"
-msgstr "Амал"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:79
-#, fuzzy
-#| msgid "Defaults"
-msgid "Save as Scheme Defaults"
-msgstr "Андозалар"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Export Scheme..."
-msgstr ""
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:98
-msgid "Name for New Scheme"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
-#, fuzzy
-#| msgid "Curr&ent actions:"
-msgid "Name for new scheme:"
-msgstr "&Жорий амаллар:"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
-#, fuzzy
-#| msgid "Curr&ent actions:"
-msgid "New Scheme"
-msgstr "&Жорий амаллар:"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:105
-#, fuzzy
-msgid "A scheme with this name already exists."
-msgstr "Бу номли сертификат аллақачон мавжуд. Уни алмаштиришни истайсизми?"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:133
-#, kde-format
-msgid ""
-"Do you really want to delete the scheme %1?\n"
-"Note that this will not remove any system wide shortcut schemes."
-msgstr ""
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:162
-#, fuzzy
-msgid "Export to Location"
-msgstr "Шрифтни танлаш учун сичқонча билан босинг"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:171
-msgid "Could not export shortcuts scheme because the location is invalid."
 msgstr ""
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:67
@@ -6577,7 +6596,7 @@ msgid "Warning"
 msgstr "Диққат"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:818 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:872 kjs/object.cpp:553
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 msgid "Error"
 msgstr "Хато"
@@ -8336,7 +8355,7 @@ msgstr "Файлни очиш"
 msgid "&Quit"
 msgstr "Чи&қиш"
 
-#: kdeui/util/kstandardguiitem.cpp:255
+#: kdeui/util/kstandardguiitem.cpp:255 kdeui/actions/kstandardaction_p.h:53
 msgid "Quit application"
 msgstr "Дастурдан чиқиш"
 
@@ -9779,7 +9798,7 @@ msgstr "&Юқорига"
 msgid "Move &Down"
 msgstr "&Пастга"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:941
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:995
 msgid "Clear &History"
 msgstr "Тарихни &бўшатиш"
 
@@ -11017,30 +11036,6 @@ msgstr ""
 msgid "GUI for the khtml regression tester"
 msgstr ""
 
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 пиксел)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 пиксел"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 пиксел)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "Расм - %1x%2 пиксел"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "Тайёр."
-
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
 msgstr ""
@@ -11098,6 +11093,30 @@ msgstr "Доимий и&фода"
 msgid "Regression tester for khtml"
 msgstr ""
 
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 пиксел)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 пиксел"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 пиксел)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "Расм - %1x%2 пиксел"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "Тайёр."
+
 #: khtml/test_regression_gui_window.cpp:76
 #, fuzzy
 msgid "Available Tests: 0"
@@ -11117,7 +11136,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
 #: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
+#: khtml/ecma/debugger/debugwindow.cpp:195
 msgid "Continue"
 msgstr "Давом этиш"
 
@@ -11458,89 +11477,6 @@ msgstr ""
 msgid "Breakpoint"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:111
-msgid "JavaScript Debugger"
-msgstr "JavaScript дебаггери"
-
-#: khtml/ecma/debugger/debugwindow.cpp:186
-msgid "&Break at Next Statement"
-msgstr "&Кейинги кўрсатмада тўхтатиш"
-
-#: khtml/ecma/debugger/debugwindow.cpp:187
-#, fuzzy
-msgid "Break at Next"
-msgstr "&Кейинги кўрсатмада тўхтатиш"
-
-#: khtml/ecma/debugger/debugwindow.cpp:199
-#, fuzzy
-msgid "Step Over"
-msgstr "Қадам"
-
-#: khtml/ecma/debugger/debugwindow.cpp:206
-#, fuzzy
-msgid "Step Into"
-msgstr "Қадам"
-
-#: khtml/ecma/debugger/debugwindow.cpp:213
-#, fuzzy
-msgid "Step Out"
-msgstr "Қадам"
-
-#: khtml/ecma/debugger/debugwindow.cpp:219
-#, fuzzy
-#| msgid "Resources"
-msgid "Reindent Sources"
-msgstr "Манбалар"
-
-#: khtml/ecma/debugger/debugwindow.cpp:224
-#, fuzzy
-#| msgid "Action"
-msgid "Report Exceptions"
-msgstr "Амал"
-
-#: khtml/ecma/debugger/debugwindow.cpp:232
-msgid "&Debug"
-msgstr ""
-
-#: khtml/ecma/debugger/debugwindow.cpp:266
-#, fuzzy
-msgid "Close source"
-msgstr "Ҳужжатни ёпиш"
-
-#: khtml/ecma/debugger/debugwindow.cpp:272
-#, fuzzy
-msgid "Ready"
-msgstr "Қайтадан юклаш"
-
-#: khtml/ecma/debugger/debugwindow.cpp:621
-#, kde-format
-msgid "Parse error at %1 line %2"
-msgstr "%1 %2 сатрда ажратиш хатоси"
-
-#: khtml/ecma/debugger/debugwindow.cpp:658
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1 line %2:\n"
-"%3"
-msgstr ""
-"Бу саҳифадаги скриптни ишга туширишда хато рўй берди.\n"
-"\n"
-"%1 сатр %2:\n"
-"%3"
-
-#: khtml/ecma/debugger/debugwindow.cpp:853
-msgid ""
-"Do not know where to evaluate the expression. Please pause a script or open "
-"a source file."
-msgstr ""
-
-#: khtml/ecma/debugger/debugwindow.cpp:889
-#, kde-format
-msgid "Evaluation threw an exception %1"
-msgstr ""
-
 #: khtml/ecma/debugger/scriptsdock.cpp:43
 #, fuzzy
 msgid "Loaded Scripts"
@@ -11554,6 +11490,89 @@ msgstr ""
 #, fuzzy
 msgid "Reference"
 msgstr "&Тескариси"
+
+#: khtml/ecma/debugger/debugwindow.cpp:111
+msgid "JavaScript Debugger"
+msgstr "JavaScript дебаггери"
+
+#: khtml/ecma/debugger/debugwindow.cpp:189
+msgid "&Break at Next Statement"
+msgstr "&Кейинги кўрсатмада тўхтатиш"
+
+#: khtml/ecma/debugger/debugwindow.cpp:190
+#, fuzzy
+msgid "Break at Next"
+msgstr "&Кейинги кўрсатмада тўхтатиш"
+
+#: khtml/ecma/debugger/debugwindow.cpp:202
+#, fuzzy
+msgid "Step Over"
+msgstr "Қадам"
+
+#: khtml/ecma/debugger/debugwindow.cpp:209
+#, fuzzy
+msgid "Step Into"
+msgstr "Қадам"
+
+#: khtml/ecma/debugger/debugwindow.cpp:216
+#, fuzzy
+msgid "Step Out"
+msgstr "Қадам"
+
+#: khtml/ecma/debugger/debugwindow.cpp:222
+#, fuzzy
+#| msgid "Resources"
+msgid "Reindent Sources"
+msgstr "Манбалар"
+
+#: khtml/ecma/debugger/debugwindow.cpp:227
+#, fuzzy
+#| msgid "Action"
+msgid "Report Exceptions"
+msgstr "Амал"
+
+#: khtml/ecma/debugger/debugwindow.cpp:235
+msgid "&Debug"
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:269
+#, fuzzy
+msgid "Close source"
+msgstr "Ҳужжатни ёпиш"
+
+#: khtml/ecma/debugger/debugwindow.cpp:275
+#, fuzzy
+msgid "Ready"
+msgstr "Қайтадан юклаш"
+
+#: khtml/ecma/debugger/debugwindow.cpp:624
+#, kde-format
+msgid "Parse error at %1 line %2"
+msgstr "%1 %2 сатрда ажратиш хатоси"
+
+#: khtml/ecma/debugger/debugwindow.cpp:661
+#, kde-format
+msgid ""
+"An error occurred while attempting to run a script on this page.\n"
+"\n"
+"%1 line %2:\n"
+"%3"
+msgstr ""
+"Бу саҳифадаги скриптни ишга туширишда хато рўй берди.\n"
+"\n"
+"%1 сатр %2:\n"
+"%3"
+
+#: khtml/ecma/debugger/debugwindow.cpp:856
+msgid ""
+"Do not know where to evaluate the expression. Please pause a script or open "
+"a source file."
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:892
+#, kde-format
+msgid "Evaluation threw an exception %1"
+msgstr ""
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
@@ -11719,34 +11738,34 @@ msgstr "%1 учун дастур топилмади."
 msgid "Play"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:797
+#: khtml/rendering/render_form.cpp:851
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "Тугмалар бирикмаси"
 
-#: khtml/rendering/render_form.cpp:818
+#: khtml/rendering/render_form.cpp:872
 #, fuzzy, kde-format
 #| msgctxt "Socket error code AlreadyCreated"
 #| msgid "socket is already created"
 msgid "%1 is already assigned to %2"
 msgstr "сокет аллақачон яратилган"
 
-#: khtml/rendering/render_form.cpp:863
+#: khtml/rendering/render_form.cpp:917
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:865
+#: khtml/rendering/render_form.cpp:919
 msgid "New search provider"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:870
+#: khtml/rendering/render_form.cpp:924
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "Тугмалар бирикмаси"
 
-#: khtml/rendering/render_form.cpp:956
+#: khtml/rendering/render_form.cpp:1010
 #, fuzzy
 #| msgid "Clear shortcut"
 msgid "Create Web Shortcut"
@@ -12676,7 +12695,7 @@ msgstr "Файлларни ёзиб қўйиш"
 msgctxt ""
 "the price of a download item, parameter 1 is the currency, 2 is the price"
 msgid ""
-"This items costs %1 %2.\n"
+"This item costs %1 %2.\n"
 "Do you want to buy it?"
 msgstr ""
 
@@ -13366,19 +13385,6 @@ msgstr "Мослама"
 msgid "Invalid type in Database"
 msgstr "Сертификат ҳақиқий эмас!"
 
-#: nepomuk/query/query.cpp:696
-#, kde-format
-msgctxt ""
-"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
-"user entered."
-msgid "Query Results from '%1'"
-msgstr ""
-
-#: nepomuk/query/query.cpp:702
-msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
-msgid "Query Results"
-msgstr ""
-
 #: nepomuk/query/queryparser.cpp:544
 #, fuzzy
 #| msgid "Esfand"
@@ -13399,6 +13405,19 @@ msgctxt ""
 "keyword."
 msgid "or"
 msgstr "Мор"
+
+#: nepomuk/query/query.cpp:687
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr ""
+
+#: nepomuk/query/query.cpp:693
+msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
+msgid "Query Results"
+msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
@@ -13958,6 +13977,11 @@ msgstr "-андоза-"
 msgid "-unnamed-"
 msgstr "-номсиз-"
 
+#: interfaces/terminal/example/main.cc:32
+#, fuzzy
+msgid "TETest"
+msgstr "Синов"
+
 #: kdecore/services/kmimetypetrader.h:136
 #: kdecore/services/kmimetypetrader.h:169
 #: kdecore/services/kservicetypetrader.h:192
@@ -13977,38 +14001,109 @@ msgstr ""
 msgid "&New"
 msgstr "&Янги"
 
+#: kdeui/actions/kstandardaction_p.h:43
+#, fuzzy
+#| msgid "Clear shortcut"
+msgid "Create new document"
+msgstr "Тугмалар бирикмасини ўчириш"
+
+#: kdeui/actions/kstandardaction_p.h:44
+msgid "Open an existing document"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:45
 msgid "Open &Recent"
 msgstr "&Яқинда фойдаланилганни очиш"
 
+#: kdeui/actions/kstandardaction_p.h:45
+msgid "Open a document which was recently opened"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:46
+#, fuzzy
+#| msgid "Close Document"
+msgid "Save document"
+msgstr "Ҳужжатни ёпиш"
+
+#: kdeui/actions/kstandardaction_p.h:47
+msgid "Save document under a new name"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:48
 msgid "Re&vert"
 msgstr "&Тескариси"
+
+#: kdeui/actions/kstandardaction_p.h:48
+msgid "Revert unsaved changes made to document"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:49
+#, fuzzy
+#| msgid "Close Document"
+msgid "Close document"
+msgstr "Ҳужжатни ёпиш"
+
+#: kdeui/actions/kstandardaction_p.h:50
+#, fuzzy
+msgid "Print document"
+msgstr "&Кўриб чиқиш"
 
 #: kdeui/actions/kstandardaction_p.h:51
 #, fuzzy
 msgid "Print Previe&w"
 msgstr "&Кўриб чиқиш"
 
+#: kdeui/actions/kstandardaction_p.h:51
+msgid "Show a print preview of document"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:52
 msgid "&Mail..."
 msgstr "Хатга илова қилиб &жўнатиш"
+
+#: kdeui/actions/kstandardaction_p.h:52
+msgid "Send document by mail"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:55
+msgid "Undo last action"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:56
 msgid "Re&do"
 msgstr "Қай&тариш"
 
+#: kdeui/actions/kstandardaction_p.h:56
+#, fuzzy
+#| msgid "HTML documentation"
+msgid "Redo last undone action"
+msgstr "HTML шаклида кўлланмалар"
+
 #: kdeui/actions/kstandardaction_p.h:57
 msgid "Cu&t"
 msgstr "&Кесиш"
+
+#: kdeui/actions/kstandardaction_p.h:57
+msgid "Cut selection to clipboard"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:58
 msgid "&Copy"
 msgstr "&Нусха олиш"
 
+#: kdeui/actions/kstandardaction_p.h:58
+msgid "Copy selection to clipboard"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:59 kdeui/actions/kstandardaction_p.h:60
 msgid "&Paste"
 msgstr "&Қўйиш"
+
+#: kdeui/actions/kstandardaction_p.h:59 kdeui/actions/kstandardaction_p.h:60
+#, fuzzy
+#| msgid "Upload Info"
+msgid "Paste clipboard content"
+msgstr "Маълумотни ёзиб қўйиш"
 
 #: kdeui/actions/kstandardaction_p.h:62
 msgid "Select &All"
@@ -14034,17 +14129,33 @@ msgstr "&Алмаштириш..."
 msgid "&Actual Size"
 msgstr "&Табиий ўлчам"
 
+#: kdeui/actions/kstandardaction_p.h:69
+msgid "View document at its actual size"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:70
 msgid "&Fit to Page"
 msgstr "&Бетга мослаш"
+
+#: kdeui/actions/kstandardaction_p.h:70
+msgid "Zoom to fit page in window"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:71
 msgid "Fit to Page &Width"
 msgstr "Бетнинг &энига мослаш"
 
+#: kdeui/actions/kstandardaction_p.h:71
+msgid "Zoom to fit page width in window"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:72
 msgid "Fit to Page &Height"
 msgstr "Бетнинг &узунлигига мослаш"
+
+#: kdeui/actions/kstandardaction_p.h:72
+msgid "Zoom to fit page height in window"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:73
 msgid "Zoom &In"
@@ -14058,21 +14169,50 @@ msgstr "К&ичиклаштириш"
 msgid "&Zoom..."
 msgstr "&Катталаштириш"
 
+#: kdeui/actions/kstandardaction_p.h:75
+#, fuzzy
+#| msgid "Select a week"
+msgid "Select zoom level"
+msgstr "Ҳафтани танлаш"
+
 #: kdeui/actions/kstandardaction_p.h:76
 msgid "&Redisplay"
+msgstr "&Қайтадан кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:76
+#, fuzzy
+#| msgid "&Redisplay"
+msgid "Redisplay document"
 msgstr "&Қайтадан кўрсатиш"
 
 #: kdeui/actions/kstandardaction_p.h:78
 msgid "&Up"
 msgstr "&Юқорига"
 
+#: kdeui/actions/kstandardaction_p.h:78
+msgid "Go up"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:83
 msgid "&Previous Page"
+msgstr "&Олдинги бет"
+
+#: kdeui/actions/kstandardaction_p.h:83
+#, fuzzy
+#| msgid "&Previous Page"
+msgid "Go to previous page"
 msgstr "&Олдинги бет"
 
 #: kdeui/actions/kstandardaction_p.h:84
 msgid "&Next Page"
 msgstr "&Кейинги бет"
+
+#: kdeui/actions/kstandardaction_p.h:84
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Go to Line"
+msgid "Go to next page"
+msgstr "Сатрга ўтиш"
 
 #: kdeui/actions/kstandardaction_p.h:85
 msgid "&Go To..."
@@ -14090,17 +14230,41 @@ msgstr "&Сатрга ўтиш..."
 msgid "&First Page"
 msgstr "&Биринчи бет"
 
+#: kdeui/actions/kstandardaction_p.h:88
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Go to Line"
+msgid "Go to first page"
+msgstr "Сатрга ўтиш"
+
 #: kdeui/actions/kstandardaction_p.h:89
 msgid "&Last Page"
 msgstr "&Охирги бет"
 
+#: kdeui/actions/kstandardaction_p.h:89
+#, fuzzy
+#| msgid "&Go to Page..."
+msgid "Go to last page"
+msgstr "&Бетга ўтиш..."
+
 #: kdeui/actions/kstandardaction_p.h:90
-msgid "&Back in the Document"
-msgstr ""
+#, fuzzy
+#| msgid "Go back one step"
+msgid "Go back in document"
+msgstr "Бир қадам орқага"
 
 #: kdeui/actions/kstandardaction_p.h:91
-msgid "&Forward in the Document"
-msgstr ""
+#, fuzzy
+#| msgctxt "go forward"
+#| msgid "&Forward"
+msgid "&Forward"
+msgstr "Ол&динга"
+
+#: kdeui/actions/kstandardaction_p.h:91
+#, fuzzy
+#| msgid "Go forward one step"
+msgid "Go forward in document"
+msgstr "Бир қадам олдинга"
 
 #: kdeui/actions/kstandardaction_p.h:93
 msgid "&Add Bookmark"
@@ -14114,9 +14278,39 @@ msgstr "Хатчўпларни &таҳрирлаш"
 msgid "&Spelling..."
 msgstr "&Имло..."
 
+#: kdeui/actions/kstandardaction_p.h:96
+#, fuzzy
+#| msgid "Check Spelling"
+msgid "Check spelling in document"
+msgstr "Имлони текшириш"
+
+#: kdeui/actions/kstandardaction_p.h:98
+#, fuzzy
+#| msgid "Show &Menubar"
+msgid "Show or hide menubar"
+msgstr "&Менюлар панелини кўрсатиш"
+
 #: kdeui/actions/kstandardaction_p.h:99
 msgid "Show &Toolbar"
 msgstr "&Асбоблар панелини кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:99
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Show Toolbar"
+msgid "Show or hide toolbar"
+msgstr "Асбоблар панелини кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:100
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Show Statusbar"
+msgid "Show or hide statusbar"
+msgstr "Ҳолат панелини кўрсатиш"
+
+#: kdeui/actions/kstandardaction_p.h:101
+msgid "F&ull Screen Mode"
+msgstr "Бутун &экранга"
 
 #: kdeui/actions/kstandardaction_p.h:102
 msgid "&Save Settings"
@@ -14215,12 +14409,6 @@ msgstr "кечқурун"
 #~ msgstr "&Менюлар панелини бекитиш"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Show Statusbar"
-#~ msgid "Show Statusbar"
-#~ msgstr "Ҳолат панелини кўрсатиш"
-
-#, fuzzy
 #~| msgid "Hide St&atusbar"
 #~ msgid "Hide Statusbar"
 #~ msgstr "Ҳолат панелини &бекитиш"
@@ -14242,12 +14430,6 @@ msgstr "кечқурун"
 #~ msgid "Media"
 #~ msgstr "Мета"
 
-#, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Show Toolbar"
-#~ msgid "Show Toolbar"
-#~ msgstr "Асбоблар панелини кўрсатиш"
-
 #~ msgid "Hide Toolbar"
 #~ msgstr "Асбоблар панелини бекитиш"
 
@@ -14262,10 +14444,6 @@ msgstr "кечқурун"
 #, fuzzy
 #~ msgid "KrossTest"
 #~ msgstr "KIOTest"
-
-#, fuzzy
-#~ msgid "TETest"
-#~ msgstr "Синов"
 
 #~ msgid "Find stopped."
 #~ msgstr "Қидирув тўхтатилди."
