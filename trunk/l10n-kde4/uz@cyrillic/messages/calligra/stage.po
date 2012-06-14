@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-13 02:28+0200\n"
+"POT-Creation-Date: 2012-06-14 03:53+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -316,7 +316,7 @@ msgstr "Слайддан нусха олиш"
 msgid "Copy the current slide"
 msgstr "Жорий слайддан олдин"
 
-#: part/KPrView.cpp:88
+#: part/KPrView.cpp:88 part/KPrViewModeSlidesSorter.cpp:188
 #, fuzzy
 #| msgid "Delete Slide"
 msgid "Delete Slide"
@@ -563,7 +563,7 @@ msgid "Export"
 msgstr ""
 
 #: part/ui/KPrHtmlExportDialog.cpp:158 part/ui/KPrHtmlExportDialog.cpp:210
-#: part/KPrViewModeSlidesSorter.cpp:692
+#: part/KPrViewModeSlidesSorter.cpp:695
 #, fuzzy
 msgid "Error"
 msgstr "Кўрсаткич услуби"
@@ -623,7 +623,7 @@ msgid "Configure Presenter View"
 msgstr "KPresenter мосламаси"
 
 #: part/ui/KPrConfigureSlideShowDialog.cpp:41
-#: part/KPrViewModeSlidesSorter.cpp:663
+#: part/KPrViewModeSlidesSorter.cpp:666
 #, fuzzy
 #| msgid "All Files"
 msgid "All slides"
@@ -635,83 +635,95 @@ msgstr "Ҳамма файллар"
 msgid "Configure Slide Show"
 msgstr "Намойиш мосламалари"
 
-#: part/KPrViewModeSlidesSorter.cpp:77
-#, fuzzy
-#| msgid "Slide Show"
-msgid "Slides Sorter"
-msgstr "Намойиш"
-
-#: part/KPrViewModeSlidesSorter.cpp:86
-#, fuzzy
-#| msgid "Slide Show"
-msgid "Slide Show: "
-msgstr "Намойиш"
-
-#: part/KPrViewModeSlidesSorter.cpp:95
-#, fuzzy
-#| msgid "Slideshow"
-msgid "Add a new custom slide show"
-msgstr "Намойиш"
-
-#: part/KPrViewModeSlidesSorter.cpp:100
-#, fuzzy
-#| msgid "Before Current Slide"
-msgid "Delete current custom slide show"
-msgstr "Жорий слайддан олдин"
-
-#: part/KPrViewModeSlidesSorter.cpp:104
-msgid "Add slides to current custom slide show"
-msgstr ""
-
-#: part/KPrViewModeSlidesSorter.cpp:109
-msgid "Remove slides from current custom slide show"
-msgstr ""
-
-#: part/KPrViewModeSlidesSorter.cpp:537
-#, fuzzy
-#| msgid "Slideshow"
-msgid "Add a new slide"
-msgstr "Намойиш"
-
-#: part/KPrViewModeSlidesSorter.cpp:538 part/KPrViewModeSlidesSorter.cpp:556
-#, fuzzy
-#| msgid "Before Current Slide"
-msgid "Delete selected slides"
-msgstr "Жорий слайддан олдин"
-
-#: part/KPrViewModeSlidesSorter.cpp:542
-msgid "Rename"
-msgstr ""
-
-#: part/KPrViewModeSlidesSorter.cpp:546
-msgid "Cut"
-msgstr ""
-
-#: part/KPrViewModeSlidesSorter.cpp:547
-#, fuzzy
-#| msgid "Co&py"
-msgid "Copy"
-msgstr "&Нусха олиш"
-
-#: part/KPrViewModeSlidesSorter.cpp:548
-msgid "Paste"
-msgstr ""
-
-#: part/KPrViewModeSlidesSorter.cpp:644 part/KPrViewModeSlidesSorter.cpp:649
-#, fuzzy, kde-format
-#| msgid "Slide Show"
-msgid "Slide Show %1"
-msgstr "Намойиш"
-
-#: part/KPrViewModeSlidesSorter.cpp:692
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
 #: part/KPrViewModeNotes.cpp:52
 #, fuzzy
 #| msgid "Note"
 msgid "Notes"
 msgstr "Изоҳ"
+
+#: part/KPrViewModeSlidesSorter.cpp:79
+#, fuzzy
+#| msgid "Slide Show"
+msgid "Slides Sorter"
+msgstr "Намойиш"
+
+#: part/KPrViewModeSlidesSorter.cpp:88
+#, fuzzy
+#| msgid "Slide Show"
+msgid "Slide Show: "
+msgstr "Намойиш"
+
+#: part/KPrViewModeSlidesSorter.cpp:97
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Add a new custom slide show"
+msgstr "Намойиш"
+
+#: part/KPrViewModeSlidesSorter.cpp:102
+#, fuzzy
+#| msgid "Before Current Slide"
+msgid "Delete current custom slide show"
+msgstr "Жорий слайддан олдин"
+
+#: part/KPrViewModeSlidesSorter.cpp:106
+msgid "Add slides to current custom slide show"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:111
+msgid "Remove slides from current custom slide show"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:187
+#, fuzzy
+#| msgid "Delete Slide"
+msgid "Duplicate Slide"
+msgstr "Слайдни олиб ташлаш"
+
+#: part/KPrViewModeSlidesSorter.cpp:189
+#, fuzzy
+#| msgid "Create HTML Slideshow"
+msgid "Start Slideshow"
+msgstr "HTML намойиш яратиш"
+
+#: part/KPrViewModeSlidesSorter.cpp:540
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Add a new slide"
+msgstr "Намойиш"
+
+#: part/KPrViewModeSlidesSorter.cpp:541 part/KPrViewModeSlidesSorter.cpp:559
+#, fuzzy
+#| msgid "Before Current Slide"
+msgid "Delete selected slides"
+msgstr "Жорий слайддан олдин"
+
+#: part/KPrViewModeSlidesSorter.cpp:545
+msgid "Rename"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:549
+msgid "Cut"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:550
+#, fuzzy
+#| msgid "Co&py"
+msgid "Copy"
+msgstr "&Нусха олиш"
+
+#: part/KPrViewModeSlidesSorter.cpp:551
+msgid "Paste"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:647 part/KPrViewModeSlidesSorter.cpp:652
+#, fuzzy, kde-format
+#| msgid "Slide Show"
+msgid "Slide Show %1"
+msgstr "Намойиш"
+
+#: part/KPrViewModeSlidesSorter.cpp:695
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:94
 #, fuzzy
@@ -2473,11 +2485,6 @@ msgstr "Имлони текшириш натижаси"
 #~| msgid "Duplicate Slide"
 #~ msgid "Available Slides"
 #~ msgstr "Слайдни айни нусхасини олиш"
-
-#, fuzzy
-#~| msgid "Create HTML Slideshow"
-#~ msgid "Current Slideshow:"
-#~ msgstr "HTML намойиш яратиш"
 
 #, fuzzy
 #~| msgid "Slide"
