@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-07 14:20+0200\n"
+"POT-Creation-Date: 2012-07-10 20:11+0200\n"
 "PO-Revision-Date: 2006-12-17 12:27+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,6 +17,113 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: HostConnector.cpp:44
+msgid "Connect Host"
+msgstr "Компьютерга уланиш"
+
+#: HostConnector.cpp:55
+msgid "Host:"
+msgstr "Компьютер:"
+
+#: HostConnector.cpp:65
+msgid "Enter the name of the host you want to connect to."
+msgstr "Сиз уланмоқчи бўлган компьютернинг номини киритинг."
+
+#: HostConnector.cpp:71
+msgid "Connection Type"
+msgstr "Алоқанинг тури"
+
+#: HostConnector.cpp:77
+msgid "ssh"
+msgstr "ssh"
+
+#: HostConnector.cpp:80
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr ""
+"Масофадаги компьютерга уланишда хавфсиз шеллдан (ssh) фойдаланиш учун шуни "
+"танланг."
+
+#: HostConnector.cpp:83
+msgid "rsh"
+msgstr "rsh"
+
+#: HostConnector.cpp:84
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr ""
+"Масофадаги компьютерга уланишда масофадаги шеллдан (rsh) фойдаланиш учун "
+"шуни танланг."
+
+#: HostConnector.cpp:87
+msgid "Daemon"
+msgstr "Демон"
+
+#: HostConnector.cpp:88
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+"Масофадаги компьютерда ишга туширилган ksysguard демонига уланмоқчи "
+"бўлсангиз, шуни танланг."
+
+#: HostConnector.cpp:91
+msgid "Custom command"
+msgstr "Бошқа буйруқ"
+
+#: HostConnector.cpp:92
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+"Масофадаги компьютерда қуйидаги кўрсатилган буйруқ ёрдамида ksysguardd "
+"демонини ишга тушириш учун шуни белгиланг."
+
+#: HostConnector.cpp:95
+msgid "Port:"
+msgstr "Порт:"
+
+#: HostConnector.cpp:102
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr "Ksysguard демони қулоқ солаётган портнинг номини киритинг."
+
+#: HostConnector.cpp:105
+msgid "e.g.  3112"
+msgstr "м-н  3112"
+
+#: HostConnector.cpp:108
+msgid "Command:"
+msgstr "Буйруқ:"
+
+#: HostConnector.cpp:117
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr ""
+"Сиз назорат қилмоқчи бўлган компьютерда ksysguardd демонини ишга тушурувчи "
+"буйруқни киритинг."
+
+#: HostConnector.cpp:121
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr "м-н ssh -l root remote.host.org ksysguardd"
+
+#: SensorBrowser.cpp:117
+msgid "Sensor Browser"
+msgstr "Сенсор браузери"
+
+#: SensorBrowser.cpp:474
+#, fuzzy
+#| msgid "Drag sensors to empty fields in a worksheet."
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr "Сенсорни иш варағидаги бўш жойга олиб қўйинг."
+
+#: SensorBrowser.cpp:475
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+
 #: SensorDisplayLib/DancingBars.cpp:96 SensorDisplayLib/FancyPlotter.cpp:283
 msgid "OK"
 msgstr ""
@@ -26,74 +133,6 @@ msgstr ""
 #, fuzzy
 msgid "Error"
 msgstr "Хатолар"
-
-#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
-msgid "Drop Sensor Here"
-msgstr "Сенсорни шу ерга олиб қўйинг"
-
-#: SensorDisplayLib/DummyDisplay.cpp:32
-msgid ""
-"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
-"and drop it here. A sensor display will appear that allows you to monitor "
-"the values of the sensor over time."
-msgstr ""
-"Иш варағининг бўш жойи. Сенсор браузеридан сенсорни олиб қўйсангиз, унинг "
-"қийматларини вақт давомида кўришингиз мумкин."
-
-#: SensorDisplayLib/ListViewSettings.cpp:30
-msgid "List View Settings"
-msgstr ""
-
-#: SensorDisplayLib/MultiMeterSettings.cpp:31
-#, fuzzy
-#| msgid "Multimeter Settings"
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "Мултиметернинг мосламалари"
-
-#: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:598
-msgid "&Properties"
-msgstr "Хосса&лари"
-
-#: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:603
-msgid "&Remove Display"
-msgstr "&Дисплейни олиб ташлаш"
-
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-
-#: SensorDisplayLib/SensorLoggerSettings.cpp:30
-msgid "Sensor Logger Settings"
-msgstr "Сенсор логгерининг мосламалари"
-
-#: SensorDisplayLib/SensorModel.cpp:166
-msgid "Host"
-msgstr "Компьютер"
-
-#: SensorDisplayLib/SensorModel.cpp:169
-msgid "Sensor"
-msgstr "Сенсор"
-
-#: SensorDisplayLib/SensorModel.cpp:172
-msgid "Unit"
-msgstr "Бирлик"
-
-#: SensorDisplayLib/SensorModel.cpp:175
-msgid "Status"
-msgstr "Ҳолати"
-
-#: SensorDisplayLib/SensorModel.cpp:178
-msgid "Label"
-msgstr "Ёрлиқ"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:43
 msgid "Edit BarGraph Preferences"
@@ -108,14 +147,14 @@ msgstr "Чегара"
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #: SensorDisplayLib/DancingBarsSettings.cpp:57 WorkSheetSettings.cpp:50
-#: rc.cpp:5 rc.cpp:92
+#: rc.cpp:5 rc.cpp:116
 msgid "Title"
 msgstr "Сарлавҳа"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_title)
 #: SensorDisplayLib/DancingBarsSettings.cpp:62
-#: SensorDisplayLib/FancyPlotterSettings.cpp:73 rc.cpp:23
+#: SensorDisplayLib/FancyPlotterSettings.cpp:73 rc.cpp:47
 msgid "Enter the title of the display here."
 msgstr "Бу ерга дисплейнинг сарлавҳасини киритинг."
 
@@ -155,7 +194,7 @@ msgstr "Хавф огоҳномалари"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: SensorDisplayLib/DancingBarsSettings.cpp:107 rc.cpp:68
+#: SensorDisplayLib/DancingBarsSettings.cpp:107 rc.cpp:92
 msgid "Alarm for Minimum Value"
 msgstr "Огоҳнома учун пастки чегара"
 
@@ -168,19 +207,19 @@ msgstr "Хавф огоҳномасини ёқиш"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:71
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cpp:113 rc.cpp:32 rc.cpp:74
+#: SensorDisplayLib/DancingBarsSettings.cpp:113 rc.cpp:56 rc.cpp:98
 msgid "Enable the minimum value alarm."
 msgstr "Пастки чегарага етганда огоҳнома беришни ёқиш."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:97
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: SensorDisplayLib/DancingBarsSettings.cpp:116 rc.cpp:77
+#: SensorDisplayLib/DancingBarsSettings.cpp:116 rc.cpp:101
 msgid "Lower limit:"
 msgstr "Пастки чегара:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:123
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: SensorDisplayLib/DancingBarsSettings.cpp:130 rc.cpp:80
+#: SensorDisplayLib/DancingBarsSettings.cpp:130 rc.cpp:104
 msgid "Alarm for Maximum Value"
 msgstr "Огоҳнома учун юқори чегара"
 
@@ -188,13 +227,13 @@ msgstr "Огоҳнома учун юқори чегара"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:135
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cpp:136 rc.cpp:41 rc.cpp:86
+#: SensorDisplayLib/DancingBarsSettings.cpp:136 rc.cpp:65 rc.cpp:110
 msgid "Enable the maximum value alarm."
 msgstr "Юқори чегарага етганда огоҳнома беришни ёқиш."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:161
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: SensorDisplayLib/DancingBarsSettings.cpp:139 rc.cpp:89
+#: SensorDisplayLib/DancingBarsSettings.cpp:139 rc.cpp:113
 msgid "Upper limit:"
 msgstr "Юқори чегара:"
 
@@ -215,14 +254,14 @@ msgstr "Чегарадан ташқари ранг:"
 
 #. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:228
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:67
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: SensorDisplayLib/DancingBarsSettings.cpp:175
-#: SensorDisplayLib/LogFile.cpp:100 rc.cpp:17 rc.cpp:56 rc.cpp:101 rc.cpp:116
+#: SensorDisplayLib/LogFile.cpp:100 rc.cpp:17 rc.cpp:29 rc.cpp:80 rc.cpp:125
 msgid "Background color:"
 msgstr "Орқа фоннинг ранги:"
 
@@ -268,6 +307,96 @@ msgstr ""
 #: SensorDisplayLib/DancingBarsSettings.cpp:367
 msgid "Enter new label:"
 msgstr "Янги белгини киритинг:"
+
+#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
+msgid "Drop Sensor Here"
+msgstr "Сенсорни шу ерга олиб қўйинг"
+
+#: SensorDisplayLib/DummyDisplay.cpp:32
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"Иш варағининг бўш жойи. Сенсор браузеридан сенсорни олиб қўйсангиз, унинг "
+"қийматларини вақт давомида кўришингиз мумкин."
+
+#: SensorDisplayLib/FancyPlotter.cpp:178
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:515 SensorDisplayLib/FancyPlotter.cpp:586
+#: SensorDisplayLib/FancyPlotter.cpp:649
+#, kde-format
+msgctxt "units"
+msgid "%1%"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:523
+#, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:594
+#, kde-format
+msgid "%1 of %2%1"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:622
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:625
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:628
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:631
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:636
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:639
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:642
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:645
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:651
+#, fuzzy, kde-format
+msgctxt "unitless - just a number"
+msgid "%1"
+msgstr "%"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:51
 #, fuzzy
@@ -457,6 +586,10 @@ msgstr ""
 msgid "Terabytes"
 msgstr "Ҳарорат"
 
+#: SensorDisplayLib/ListViewSettings.cpp:30
+msgid "List View Settings"
+msgstr ""
+
 #: SensorDisplayLib/LogFile.cpp:92
 #, fuzzy
 #| msgid "Log File Settings"
@@ -465,9 +598,36 @@ msgstr "Лог файлининг мосламалари"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:54
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:113
+#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:26
 msgid "Foreground color:"
 msgstr "Олдин фоннинг ранги:"
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:31
+#, fuzzy
+#| msgid "Multimeter Settings"
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "Мултиметернинг мосламалари"
+
+#: SensorDisplayLib/SensorDisplay.cpp:118
+#: SensorDisplayLib/SensorLogger.cpp:598
+msgid "&Properties"
+msgstr "Хосса&лари"
+
+#: SensorDisplayLib/SensorDisplay.cpp:123
+#: SensorDisplayLib/SensorLogger.cpp:603
+msgid "&Remove Display"
+msgstr "&Дисплейни олиб ташлаш"
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
 
 #: SensorDisplayLib/SensorLogger.cpp:138
 msgid "Logging"
@@ -475,7 +635,7 @@ msgstr "Лог қилиш"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:62
+#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:86
 msgid "Timer Interval"
 msgstr "Вақт даври"
 
@@ -512,233 +672,29 @@ msgstr "Лог қилишни тў&хтатиш"
 msgid "S&tart Logging"
 msgstr "Лог қилишни &бошлаш"
 
-#: SensorDisplayLib/FancyPlotter.cpp:178
-msgctxt "Largest axis title"
-msgid "99999 XXXX"
-msgstr ""
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+msgid "Sensor Logger Settings"
+msgstr "Сенсор логгерининг мосламалари"
 
-#: SensorDisplayLib/FancyPlotter.cpp:515 SensorDisplayLib/FancyPlotter.cpp:586
-#: SensorDisplayLib/FancyPlotter.cpp:649
-#, kde-format
-msgctxt "units"
-msgid "%1%"
-msgstr ""
+#: SensorDisplayLib/SensorModel.cpp:166
+msgid "Host"
+msgstr "Компьютер"
 
-#: SensorDisplayLib/FancyPlotter.cpp:523
-#, kde-format
-msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
-msgid "<p><b>%1:</b><br>"
-msgstr ""
+#: SensorDisplayLib/SensorModel.cpp:169
+msgid "Sensor"
+msgstr "Сенсор"
 
-#: SensorDisplayLib/FancyPlotter.cpp:594
-#, kde-format
-msgid "%1 of %2%1"
-msgstr ""
+#: SensorDisplayLib/SensorModel.cpp:172
+msgid "Unit"
+msgstr "Бирлик"
 
-#: SensorDisplayLib/FancyPlotter.cpp:622
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB"
-msgstr ""
+#: SensorDisplayLib/SensorModel.cpp:175
+msgid "Status"
+msgstr "Ҳолати"
 
-#: SensorDisplayLib/FancyPlotter.cpp:625
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:628
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:631
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:636
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:639
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:642
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:645
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:651
-#, fuzzy, kde-format
-msgctxt "unitless - just a number"
-msgid "%1"
-msgstr "%"
-
-#: WorkSheetSettings.cpp:40
-#, fuzzy
-msgid "Tab Properties"
-msgstr "Хосса&лари"
-
-#: WorkSheetSettings.cpp:61
-#, fuzzy
-msgid "Properties"
-msgstr "Хосса&лари"
-
-#: WorkSheetSettings.cpp:70
-msgid "Rows:"
-msgstr "Сатрлар:"
-
-#: WorkSheetSettings.cpp:79
-msgid "Columns:"
-msgstr "Устунлар:"
-
-#: WorkSheetSettings.cpp:87
-msgid "Enter the number of rows the sheet should have."
-msgstr "Иш варағининг сатрлар сонини киритинг."
-
-#: WorkSheetSettings.cpp:88
-msgid "Enter the number of columns the sheet should have."
-msgstr "Иш варағининг устунлар сонини киритинг."
-
-#: WorkSheetSettings.cpp:90 TimerSettings.cpp:51
-msgid "Update interval:"
-msgstr "Янгилаш даври:"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
-#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: WorkSheetSettings.cpp:94 TimerSettings.cpp:58 rc.cpp:65
-msgid " sec"
-msgstr " сония"
-
-#: WorkSheetSettings.cpp:100 TimerSettings.cpp:61
-msgid "All displays of the sheet are updated at the rate specified here."
-msgstr ""
-
-#: WorkSheetSettings.cpp:101
-msgid "Enter the title of the worksheet here."
-msgstr "Иш варағининг сарлавҳасини киритинг."
-
-#: HostConnector.cpp:44
-msgid "Connect Host"
-msgstr "Компьютерга уланиш"
-
-#: HostConnector.cpp:55
-msgid "Host:"
-msgstr "Компьютер:"
-
-#: HostConnector.cpp:65
-msgid "Enter the name of the host you want to connect to."
-msgstr "Сиз уланмоқчи бўлган компьютернинг номини киритинг."
-
-#: HostConnector.cpp:71
-msgid "Connection Type"
-msgstr "Алоқанинг тури"
-
-#: HostConnector.cpp:77
-msgid "ssh"
-msgstr "ssh"
-
-#: HostConnector.cpp:80
-msgid "Select this to use the secure shell to login to the remote host."
-msgstr ""
-"Масофадаги компьютерга уланишда хавфсиз шеллдан (ssh) фойдаланиш учун шуни "
-"танланг."
-
-#: HostConnector.cpp:83
-msgid "rsh"
-msgstr "rsh"
-
-#: HostConnector.cpp:84
-msgid "Select this to use the remote shell to login to the remote host."
-msgstr ""
-"Масофадаги компьютерга уланишда масофадаги шеллдан (rsh) фойдаланиш учун "
-"шуни танланг."
-
-#: HostConnector.cpp:87
-msgid "Daemon"
-msgstr "Демон"
-
-#: HostConnector.cpp:88
-msgid ""
-"Select this if you want to connect to a ksysguard daemon that is running on "
-"the machine you want to connect to, and is listening for client requests."
-msgstr ""
-"Масофадаги компьютерда ишга туширилган ksysguard демонига уланмоқчи "
-"бўлсангиз, шуни танланг."
-
-#: HostConnector.cpp:91
-msgid "Custom command"
-msgstr "Бошқа буйруқ"
-
-#: HostConnector.cpp:92
-msgid ""
-"Select this to use the command you entered below to start ksysguardd on the "
-"remote host."
-msgstr ""
-"Масофадаги компьютерда қуйидаги кўрсатилган буйруқ ёрдамида ksysguardd "
-"демонини ишга тушириш учун шуни белгиланг."
-
-#: HostConnector.cpp:95
-msgid "Port:"
-msgstr "Порт:"
-
-#: HostConnector.cpp:102
-msgid ""
-"Enter the port number on which the ksysguard daemon is listening for "
-"connections."
-msgstr "Ksysguard демони қулоқ солаётган портнинг номини киритинг."
-
-#: HostConnector.cpp:105
-msgid "e.g.  3112"
-msgstr "м-н  3112"
-
-#: HostConnector.cpp:108
-msgid "Command:"
-msgstr "Буйруқ:"
-
-#: HostConnector.cpp:117
-msgid "Enter the command that runs ksysguardd on the host you want to monitor."
-msgstr ""
-"Сиз назорат қилмоқчи бўлган компьютерда ksysguardd демонини ишга тушурувчи "
-"буйруқни киритинг."
-
-#: HostConnector.cpp:121
-msgid "e.g. ssh -l root remote.host.org ksysguardd"
-msgstr "м-н ssh -l root remote.host.org ksysguardd"
-
-#: SensorBrowser.cpp:117
-msgid "Sensor Browser"
-msgstr "Сенсор браузери"
-
-#: SensorBrowser.cpp:474
-#, fuzzy
-#| msgid "Drag sensors to empty fields in a worksheet."
-msgid "Drag sensors to empty cells of a worksheet "
-msgstr "Сенсорни иш варағидаги бўш жойга олиб қўйинг."
-
-#: SensorBrowser.cpp:475
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet. A display "
-"will appear that visualizes the values provided by the sensor. Some sensor "
-"displays can display values of multiple sensors. Simply drag other sensors "
-"on to the display to add more sensors."
-msgstr ""
+#: SensorDisplayLib/SensorModel.cpp:178
+msgid "Label"
+msgstr "Ёрлиқ"
 
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
@@ -748,62 +704,19 @@ msgstr "Таймернинг мосламалари"
 msgid "Use update interval of worksheet"
 msgstr "Иш варағининг янгилаш даврини ишлатиш"
 
-#: Workspace.cpp:113
-#, kde-format
-msgid "Sheet %1"
-msgstr "Варақ %1"
+#: TimerSettings.cpp:51 WorkSheetSettings.cpp:90
+msgid "Update interval:"
+msgstr "Янгилаш даври:"
 
-#: Workspace.cpp:172
-#, fuzzy, kde-format
-#| msgid ""
-#| "The worksheet '%1' contains unsaved data.\n"
-#| "Do you want to save the worksheet?"
-msgid ""
-"The tab '%1' contains unsaved data.\n"
-"Do you want to save the tab?"
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
+#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
+#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:89
+msgid " sec"
+msgstr " сония"
+
+#: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
+msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
-"%1 иш варағида сақланмаган маълумот бор.\n"
-"Иш варағини сақлашни истайсизми?"
-
-#: Workspace.cpp:187
-#, fuzzy
-#| msgid "*.sgrd|Sensor Files"
-msgid "*.sgrd|Sensor Files (*.sgrd)"
-msgstr "*.sgrd|Сенсор файллари"
-
-#: Workspace.cpp:187
-msgid "Select Tab File to Import"
-msgstr ""
-
-#: Workspace.cpp:215 Workspace.cpp:236
-#, fuzzy
-#| msgid "You do not have a worksheet that could be saved."
-msgid "You do not have a tab that could be saved."
-msgstr "Сақлаб бўладиган иш варағи йўқ."
-
-#: Workspace.cpp:243
-msgid "Export Tab"
-msgstr ""
-
-#: Workspace.cpp:261
-#, fuzzy
-#| msgid "There are no worksheets that could be deleted."
-msgid "There are no tabs that could be deleted."
-msgstr "Ўчириб бўладиган иш варағи йўқ."
-
-#: Workspace.cpp:301
-#, kde-format
-msgid ""
-"<qt>To propose the current custom tab as a new System Monitor tab, email "
-"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
-"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
-"qt>"
-msgstr ""
-
-#: Workspace.cpp:301
-#, fuzzy
-msgid "Upload custom System Monitor tab"
-msgstr "Тизим юкланганлиги"
 
 #: WorkSheet.cpp:88
 #, kde-format
@@ -875,6 +788,93 @@ msgstr "&Дисплейни олиб ташлаш"
 #: WorkSheet.cpp:572
 msgid "Dummy"
 msgstr ""
+
+#: WorkSheetSettings.cpp:40
+#, fuzzy
+msgid "Tab Properties"
+msgstr "Хосса&лари"
+
+#: WorkSheetSettings.cpp:61
+#, fuzzy
+msgid "Properties"
+msgstr "Хосса&лари"
+
+#: WorkSheetSettings.cpp:70
+msgid "Rows:"
+msgstr "Сатрлар:"
+
+#: WorkSheetSettings.cpp:79
+msgid "Columns:"
+msgstr "Устунлар:"
+
+#: WorkSheetSettings.cpp:87
+msgid "Enter the number of rows the sheet should have."
+msgstr "Иш варағининг сатрлар сонини киритинг."
+
+#: WorkSheetSettings.cpp:88
+msgid "Enter the number of columns the sheet should have."
+msgstr "Иш варағининг устунлар сонини киритинг."
+
+#: WorkSheetSettings.cpp:101
+msgid "Enter the title of the worksheet here."
+msgstr "Иш варағининг сарлавҳасини киритинг."
+
+#: Workspace.cpp:113
+#, kde-format
+msgid "Sheet %1"
+msgstr "Варақ %1"
+
+#: Workspace.cpp:172
+#, fuzzy, kde-format
+#| msgid ""
+#| "The worksheet '%1' contains unsaved data.\n"
+#| "Do you want to save the worksheet?"
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
+"%1 иш варағида сақланмаган маълумот бор.\n"
+"Иш варағини сақлашни истайсизми?"
+
+#: Workspace.cpp:187
+#, fuzzy
+#| msgid "*.sgrd|Sensor Files"
+msgid "*.sgrd|Sensor Files (*.sgrd)"
+msgstr "*.sgrd|Сенсор файллари"
+
+#: Workspace.cpp:187
+msgid "Select Tab File to Import"
+msgstr ""
+
+#: Workspace.cpp:215 Workspace.cpp:236
+#, fuzzy
+#| msgid "You do not have a worksheet that could be saved."
+msgid "You do not have a tab that could be saved."
+msgstr "Сақлаб бўладиган иш варағи йўқ."
+
+#: Workspace.cpp:243
+msgid "Export Tab"
+msgstr ""
+
+#: Workspace.cpp:261
+#, fuzzy
+#| msgid "There are no worksheets that could be deleted."
+msgid "There are no tabs that could be deleted."
+msgstr "Ўчириб бўладиган иш варағи йўқ."
+
+#: Workspace.cpp:301
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+
+#: Workspace.cpp:301
+#, fuzzy
+msgid "Upload custom System Monitor tab"
+msgstr "Тизим юкланганлиги"
 
 #: ksysguard.cpp:70
 #, fuzzy
@@ -1031,7 +1031,7 @@ msgstr "kmashrab@uni-bremen.de"
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
-#: rc.cpp:8 rc.cpp:95
+#: rc.cpp:8 rc.cpp:119
 msgid "Colors"
 msgstr "Ранглар"
 
@@ -1039,7 +1039,7 @@ msgstr "Ранглар"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:11 rc.cpp:98
+#: rc.cpp:11 rc.cpp:122
 msgid "Text color:"
 msgstr "Матн учун ранг:"
 
@@ -1049,9 +1049,51 @@ msgstr "Матн учун ранг:"
 msgid "Grid color:"
 msgstr "Тўрнинг ранги:"
 
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, textTab)
+#: rc.cpp:20
+#, fuzzy
+#| msgid "Text"
+msgid "&Text"
+msgstr "Матн"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:23
+#, fuzzy
+#| msgid "Title:"
+msgid "T&itle:"
+msgstr "Сарлавҳа:"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:139
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:32
+#, fuzzy
+#| msgid "Filter"
+msgid "Fi&lter"
+msgstr "Филтер"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:160
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: rc.cpp:35
+msgid "&Add"
+msgstr "&Қўшиш"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:167
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: rc.cpp:38
+msgid "&Delete"
+msgstr ""
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:174
+#. i18n: ectx: property (text), widget (QPushButton, changeButton)
+#: rc.cpp:41
+msgid "&Change"
+msgstr "Ўз&гартириш"
+
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20
+#: rc.cpp:44
 #, fuzzy
 #| msgid "Title:"
 msgid "&Title:"
@@ -1059,13 +1101,13 @@ msgstr "Сарлавҳа:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
-#: rc.cpp:26
+#: rc.cpp:50
 msgid "Enable this to append the unit to the title of the display."
 msgstr "Бирликни дисплейнинг сарлавҳасига қўшиш учун шуни белгиланг."
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
-#: rc.cpp:29
+#: rc.cpp:53
 msgid "&Show unit"
 msgstr "Бирликни &кўрсатиш"
 
@@ -1073,13 +1115,13 @@ msgstr "Бирликни &кўрсатиш"
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:68
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
-#: rc.cpp:35 rc.cpp:71
+#: rc.cpp:59 rc.cpp:95
 msgid "&Enable alarm"
 msgstr "&Хавф огоҳномасини ёқиш"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: rc.cpp:38
+#: rc.cpp:62
 #, fuzzy
 #| msgid "Lower limit:"
 msgid "Lo&wer limit:"
@@ -1089,13 +1131,13 @@ msgstr "Пастки чегара:"
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:132
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
-#: rc.cpp:44 rc.cpp:83
+#: rc.cpp:68 rc.cpp:107
 msgid "E&nable alarm"
 msgstr "Хавф &огоҳномасини ёқиш"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:144
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: rc.cpp:47
+#: rc.cpp:71
 #, fuzzy
 #| msgid "Upper limit:"
 msgid "&Upper limit:"
@@ -1103,70 +1145,28 @@ msgstr "Юқори чегара:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:174
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:50
+#: rc.cpp:74
 msgid "Normal digit color:"
 msgstr "Оддий сон учун ранг:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:201
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:53
+#: rc.cpp:77
 msgid "Alarm digit color:"
 msgstr "Огоҳнома сони учун ранг:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
-#: rc.cpp:59
+#: rc.cpp:83
 #, fuzzy
 msgid "File"
 msgstr "Филтер"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:104
+#: rc.cpp:128
 msgid "Alarm color:"
 msgstr "Хавф огоҳноманинг ранги:"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:21
-#. i18n: ectx: attribute (title), widget (QWidget, textTab)
-#: rc.cpp:107
-#, fuzzy
-#| msgid "Text"
-msgid "&Text"
-msgstr "Матн"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:29
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:110
-#, fuzzy
-#| msgid "Title:"
-msgid "T&itle:"
-msgstr "Сарлавҳа:"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:139
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:119
-#, fuzzy
-#| msgid "Filter"
-msgid "Fi&lter"
-msgstr "Филтер"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:160
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:122
-msgid "&Add"
-msgstr "&Қўшиш"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:167
-#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:125
-msgid "&Delete"
-msgstr ""
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:174
-#. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:128
-msgid "&Change"
-msgstr "Ўз&гартириш"
 
 #. i18n: file: ksysguardui.rc:4
 #. i18n: ectx: Menu (file)
