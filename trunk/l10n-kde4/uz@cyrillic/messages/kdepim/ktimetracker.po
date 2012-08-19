@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:21+0200\n"
+"POT-Creation-Date: 2012-08-19 05:41+0200\n"
 "PO-Revision-Date: 2006-02-12 19:43+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16,6 +16,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: csvexportdialog.h:37
+#, fuzzy
+#| msgid "&Export"
+msgctxt "@action:button"
+msgid "&Export"
+msgstr "&Экспорт қилиш"
+
+#: csvexportdialog.h:38
+#, fuzzy
+msgctxt "@action:button"
+msgid "E&xport to Clipboard"
+msgstr "Натижаларни клипбордга олиш"
 
 #. i18n: file: csvexportdialog_base.ui:176
 #. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
@@ -39,24 +52,9 @@ msgstr "Сеанс вақти"
 msgid "All Tasks"
 msgstr "Ҳамма вазифалар"
 
-#: csvexportdialog.h:37
-#, fuzzy
-#| msgid "&Export"
-msgctxt "@action:button"
-msgid "&Export"
-msgstr "&Экспорт қилиш"
-
-#: csvexportdialog.h:38
-#, fuzzy
-msgctxt "@action:button"
-msgid "E&xport to Clipboard"
-msgstr "Натижаларни клипбордга олиш"
-
-#: historydialog.cpp:81
-#, fuzzy
-#| msgid "Time"
-msgid "EndTime"
-msgstr "Вақт"
+#: historydialog.cpp:81 timekard.cpp:65
+msgid "Task"
+msgstr "Вазифа"
 
 #: historydialog.cpp:81
 #, fuzzy
@@ -64,9 +62,11 @@ msgstr "Вақт"
 msgid "StartTime"
 msgstr "Умумий вақт"
 
-#: historydialog.cpp:81 timekard.cpp:65
-msgid "Task"
-msgstr "Вазифа"
+#: historydialog.cpp:81
+#, fuzzy
+#| msgid "Time"
+msgid "EndTime"
+msgstr "Вақт"
 
 #: historydialog.cpp:82
 #, fuzzy
@@ -136,10 +136,6 @@ msgid ""
 msgstr ""
 
 #: karm.cpp:55
-msgid "KArm is now ktimetracker"
-msgstr ""
-
-#: karm.cpp:55
 msgid ""
 "Someone, probably you, has called karm. KArm has been renamed to "
 "KTimeTracker. This makes it easier to recognize. Compatibility advice: Do "
@@ -148,15 +144,19 @@ msgid ""
 "may be removed in the future."
 msgstr ""
 
+#: karm.cpp:55
+msgid "KArm is now ktimetracker"
+msgstr ""
+
 #: ktimetrackerpart.cpp:74
 msgid "ktimetracker"
 msgstr ""
 
-#: ktimetrackerpart.cpp:87 mainwindow.cpp:172
+#: ktimetrackerpart.cpp:87 mainwindow.cpp:173
 msgid "Configure key bindings"
 msgstr ""
 
-#: ktimetrackerpart.cpp:88 mainwindow.cpp:173
+#: ktimetrackerpart.cpp:88 mainwindow.cpp:174
 msgid ""
 "This will let you configure keybindings which are specific to ktimetracker"
 msgstr ""
@@ -178,20 +178,20 @@ msgid "Copyright © 1997-2012 KDE PIM authors"
 msgstr ""
 
 #: main.cpp:90
+msgid "Thorsten Stärk"
+msgstr ""
+
+#: main.cpp:90
 msgid "Current Maintainer"
 msgstr "Жорий таъминловчи"
 
-#: main.cpp:90
-msgid "Thorsten Stärk"
+#: main.cpp:92
+msgid "Sirtaj Singh Kang"
 msgstr ""
 
 #: main.cpp:92
 msgid "Original Author"
 msgstr "Биринчи муаллиф"
-
-#: main.cpp:92
-msgid "Sirtaj Singh Kang"
-msgstr ""
 
 #: main.cpp:94
 msgid "Allen Winter"
@@ -259,21 +259,21 @@ msgstr ""
 msgid "Outputs the version"
 msgstr ""
 
-#: mainwindow.cpp:89
+#: mainwindow.cpp:90
 msgid "Could not create the KTimeTracker part."
 msgstr ""
 
-#: mainwindow.cpp:98
+#: mainwindow.cpp:99
 msgid "Could not find the KTimeTracker part."
 msgstr ""
 
-#: mainwindow.cpp:130
+#: mainwindow.cpp:131
 #, fuzzy
 #| msgid "Configure KArm..."
 msgid "Configure KTimeTracker..."
 msgstr "KArm мосламаси..."
 
-#: mainwindow.cpp:212
+#: mainwindow.cpp:213
 msgid "task_popup"
 msgstr ""
 
@@ -761,12 +761,12 @@ msgid "Tasks"
 msgstr "Вазифа"
 
 #: taskview.cpp:181
-msgid "Session Time"
-msgstr "Сеанс вақти"
-
-#: taskview.cpp:181
 msgid "Task Name"
 msgstr "Вазифа номи"
+
+#: taskview.cpp:181
+msgid "Session Time"
+msgstr "Сеанс вақти"
 
 #: taskview.cpp:181 timekard.cpp:64
 msgid "Time"
@@ -963,13 +963,13 @@ msgid "Edit History..."
 msgstr "Лог тарихи"
 
 #: timetrackerwidget.cpp:214
-msgid ""
-"A window will be opened where you can change start and stop times of tasks "
-"or add a comment to them."
+msgid "Edits history of all tasks of the current document"
 msgstr ""
 
 #: timetrackerwidget.cpp:214
-msgid "Edits history of all tasks of the current document"
+msgid ""
+"A window will be opened where you can change start and stop times of tasks "
+"or add a comment to them."
 msgstr ""
 
 #: timetrackerwidget.cpp:218
@@ -1217,11 +1217,11 @@ msgid "Columns"
 msgstr ""
 
 #: treeviewheadercontextmenu.cpp:141
-msgid "Hide"
+msgid "Show"
 msgstr ""
 
 #: treeviewheadercontextmenu.cpp:141
-msgid "Show"
+msgid "Hide"
 msgstr ""
 
 #, fuzzy
