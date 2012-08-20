@@ -15,6 +15,14 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Машраб Қуватов"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kmashrab@uni-bremen.de"
+
 #: disklist.cpp:342
 #, fuzzy, kde-format
 #| msgid "could not execute [%s]"
@@ -41,6 +49,27 @@ msgstr ""
 
 #: kconftest.cpp:43
 msgid "A test application"
+msgstr ""
+
+#: kdf.cpp:38
+msgid "KDE free disk space utility"
+msgstr ""
+
+#: kdf.cpp:50
+msgctxt "Update action"
+msgid "&Update"
+msgstr ""
+
+#: kdf.cpp:74
+msgid "KDiskFree"
+msgstr "KDiskFree"
+
+#: kdf.cpp:76
+msgid "(c) 1998-2001, Michael Kropfberger"
+msgstr ""
+
+#: kdf.cpp:78 kwikdisk.cpp:320
+msgid "Michael Kropfberger"
 msgstr ""
 
 #: kdfconfig.cpp:56
@@ -124,25 +153,35 @@ msgctxt "Device information item is visible"
 msgid "visible"
 msgstr ""
 
-#: kdf.cpp:38
-msgid "KDE free disk space utility"
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: kdfconfig.ui:35
+msgid "Update frequency:"
 msgstr ""
 
-#: kdf.cpp:50
-msgctxt "Update action"
-msgid "&Update"
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
+#: kdfconfig.ui:42
+msgid " sec"
 msgstr ""
 
-#: kdf.cpp:74
-msgid "KDiskFree"
-msgstr "KDiskFree"
-
-#: kdf.cpp:76
-msgid "(c) 1998-2001, Michael Kropfberger"
+#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
+#: kdfconfig.ui:55
+msgid "Open file manager automatically on mount"
 msgstr ""
 
-#: kdf.cpp:78 kwikdisk.cpp:320
-msgid "Michael Kropfberger"
+#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
+#: kdfconfig.ui:62
+msgid "Pop up a window when a disk gets critically full"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
+#: kdfconfig.ui:69
+#, no-c-format
+msgid "File manager (e.g. konsole -e mc %m):"
+msgstr "Файл бошқарувчиси (м-н konsole -e mc %m):"
+
+#. i18n: ectx: Menu (file)
+#: kdfui.rc:5
+msgid "&File"
 msgstr ""
 
 #: kdfwidget.cpp:75
@@ -283,6 +322,40 @@ msgstr "Фақат локал файллар қўлланган."
 msgid "Only local files are currently supported."
 msgstr "Ҳозирча фақат локал файллар қўлланган."
 
+#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
+#: mntconfig.ui:20
+#, fuzzy
+#| msgid "Icon"
+msgid "Icon name:"
+msgstr "Нишонча"
+
+#. i18n: ectx: property (text), widget (QLabel, mountLabel)
+#: mntconfig.ui:30
+#, fuzzy
+#| msgid "Mount Command"
+msgid "Mount Command:"
+msgstr "Улаш буйруғи"
+
+#. i18n: ectx: property (text), widget (QLabel, umountLabel)
+#: mntconfig.ui:40
+#, fuzzy
+#| msgid "Unmount Command"
+msgid "Unmount Command:"
+msgstr "Узиш буйруғи"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
+#: mntconfig.ui:50
+msgid "Default Icon"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
+#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
+#: mntconfig.ui:57 mntconfig.ui:64
+#, fuzzy
+#| msgid "Mount Command"
+msgid "Get Command..."
+msgstr "Улаш буйруғи"
+
 #: optiondialog.cpp:31
 msgid "Configure"
 msgstr ""
@@ -294,93 +367,6 @@ msgstr "Умумий мосламалар"
 #: optiondialog.cpp:43
 msgid "Mount Commands"
 msgstr "Улаш буйруқлари"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Машраб Қуватов"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "kmashrab@uni-bremen.de"
-
-#. i18n: file: kdfui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:5
-msgid "&File"
-msgstr ""
-
-#. i18n: file: kdfconfig.ui:35
-#. i18n: ectx: property (text), widget (QLabel, updateLabel)
-#: rc.cpp:8
-msgid "Update frequency:"
-msgstr ""
-
-#. i18n: file: kdfconfig.ui:42
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
-#: rc.cpp:11
-msgid " sec"
-msgstr ""
-
-#. i18n: file: kdfconfig.ui:55
-#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
-#: rc.cpp:14
-msgid "Open file manager automatically on mount"
-msgstr ""
-
-#. i18n: file: kdfconfig.ui:62
-#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
-#: rc.cpp:17
-msgid "Pop up a window when a disk gets critically full"
-msgstr ""
-
-#. i18n: file: kdfconfig.ui:69
-#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
-#: rc.cpp:21
-#, no-c-format
-msgid "File manager (e.g. konsole -e mc %m):"
-msgstr "Файл бошқарувчиси (м-н konsole -e mc %m):"
-
-#. i18n: file: mntconfig.ui:20
-#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
-#: rc.cpp:24
-#, fuzzy
-#| msgid "Icon"
-msgid "Icon name:"
-msgstr "Нишонча"
-
-#. i18n: file: mntconfig.ui:30
-#. i18n: ectx: property (text), widget (QLabel, mountLabel)
-#: rc.cpp:27
-#, fuzzy
-#| msgid "Mount Command"
-msgid "Mount Command:"
-msgstr "Улаш буйруғи"
-
-#. i18n: file: mntconfig.ui:40
-#. i18n: ectx: property (text), widget (QLabel, umountLabel)
-#: rc.cpp:30
-#, fuzzy
-#| msgid "Unmount Command"
-msgid "Unmount Command:"
-msgstr "Узиш буйруғи"
-
-#. i18n: file: mntconfig.ui:50
-#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
-#: rc.cpp:33
-msgid "Default Icon"
-msgstr ""
-
-#. i18n: file: mntconfig.ui:57
-#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
-#. i18n: file: mntconfig.ui:64
-#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
-#: rc.cpp:36 rc.cpp:39
-#, fuzzy
-#| msgid "Mount Command"
-msgid "Get Command..."
-msgstr "Улаш буйруғи"
 
 #, fuzzy
 #~| msgid "Mount Command"
