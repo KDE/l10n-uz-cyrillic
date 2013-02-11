@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-08-20 05:29+0200\n"
 "PO-Revision-Date: 2004-06-06 00:28+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -25,6 +25,28 @@ msgstr "Машраб Қуватов"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: nosmartcardbase.ui:24
+msgid "<b>Unable to contact the KDE smartcard service.</b>"
+msgstr "<b>KDE smartcard хизмати билан алоқа ўрнатиб бўлмади.</b>"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: nosmartcardbase.ui:35
+msgid "Possible Reasons"
+msgstr "Эхтимол сабаблар"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: nosmartcardbase.ui:49
+msgid ""
+"\n"
+"1) The KDE daemon, 'kded' is not running. You can restart it by running the "
+"command 'kdeinit' and then try reloading the KDE System Settings to see if "
+"this message goes away.\n"
+"\n"
+"2) You do not appear to have smartcard support in the KDE libraries. You "
+"will need to recompile the kdelibs package with libpcsclite installed."
+msgstr ""
 
 #: smartcard.cpp:65
 msgid "kcmsmartcard"
@@ -84,36 +106,80 @@ msgid ""
 "certificates and logging in to the system."
 msgstr ""
 
-#~ msgid "<b>Unable to contact the KDE smartcard service.</b>"
-#~ msgstr "<b>KDE smartcard хизмати билан алоқа ўрнатиб бўлмади.</b>"
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:31
+msgid "Smartcard Support"
+msgstr "Smartcard'ни қўллаш"
 
-#~ msgid "Possible Reasons"
-#~ msgstr "Эхтимол сабаблар"
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:42
+msgid "&Enable smartcard support"
+msgstr "Smartcard'ни &қўллашни ёқиш"
 
-#~ msgid "Smartcard Support"
-#~ msgstr "Smartcard'ни қўллаш"
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:61
+msgid "Enable &polling to autodetect card events"
+msgstr ""
 
-#~ msgid "&Enable smartcard support"
-#~ msgstr "Smartcard'ни &қўллашни ёқиш"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:64
+msgid ""
+"In most cases you should have this enabled. It allows KDE to automatically "
+"detect card insertion and reader hotplug events."
+msgstr ""
 
-#~ msgid "&Beep on card insert and removal"
-#~ msgstr "&Картани қўйиш ва олишда товуш чиқариш"
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:92
+msgid "Automatically &launch card manager if inserted card is unclaimed"
+msgstr ""
 
-#~ msgid "Readers"
-#~ msgstr "Ўқувчилар"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:95
+msgid ""
+"When you insert a smartcard, KDE can automatically launch a management tool "
+"if no other application attempts to use the card."
+msgstr ""
 
-#~ msgid "Reader"
-#~ msgstr "Ўқувчи"
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:106
+msgid "&Beep on card insert and removal"
+msgstr "&Картани қўйиш ва олишда товуш чиқариш"
 
-#~ msgid "Type"
-#~ msgstr "Тури"
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:135
+msgid "Readers"
+msgstr "Ўқувчилар"
 
-#~ msgid "PCSCLite Configuration"
-#~ msgstr "PCSCLite мосламаси"
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:152
+msgid "Reader"
+msgstr "Ўқувчи"
 
-#~ msgid ""
-#~ "To add new readers you have to modify /etc/readers.conf file and re-start "
-#~ "pcscd"
-#~ msgstr ""
-#~ "Янги ўқувчиларни қўшиш учун /etc/readers.conf файлига ўзгартириш киритиб "
-#~ "pcscd хизматини қайтадан ишга тушириш керак"
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:163
+msgid "Type"
+msgstr "Тури"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:174
+msgid "Subtype"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:185
+msgid "SubSubtype"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: smartcardbase.ui:228
+msgid "PCSCLite Configuration"
+msgstr "PCSCLite мосламаси"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: smartcardbase.ui:251
+msgid ""
+"To add new readers you have to modify /etc/readers.conf file and re-start "
+"pcscd"
+msgstr ""
+"Янги ўқувчиларни қўшиш учун /etc/readers.conf файлига ўзгартириш киритиб "
+"pcscd хизматини қайтадан ишга тушириш керак"

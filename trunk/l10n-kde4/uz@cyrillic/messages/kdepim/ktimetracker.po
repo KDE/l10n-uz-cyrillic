@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:47+0100\n"
+"POT-Creation-Date: 2013-02-01 03:43+0100\n"
 "PO-Revision-Date: 2006-02-12 19:43+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -25,19 +25,142 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mavnur@gmail.com"
 
-#: csvexportdialog.cpp:91
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enabled)
+#: cfgbehavior.ui:16
+msgid "Detect desktop as idle after:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_period)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_autoSavePeriod)
+#: cfgbehavior.ui:23 cfgstorage.ui:35
+msgid " min"
+msgstr " дақ"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cfgbehavior.ui:36
+msgid "Minimum desktop active time:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minActiveTime)
+#: cfgbehavior.ui:43
+msgid " sec"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptDelete)
+#: cfgbehavior.ui:56
+msgid "Prompt before deleting tasks"
+msgstr "Вазифаларни олиб ташлашдан олдин сўраш"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_uniTasking)
+#: cfgbehavior.ui:63
+msgid ""
+"Unitasking - allow only one task to be timed at a time. Does not stop any "
+"timer."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_uniTasking)
+#: cfgbehavior.ui:66
+msgid "Allow only one timer at a time"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trayIcon)
+#: cfgbehavior.ui:73
+msgid "Place an icon to the system tray"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: cfgdisplay.ui:19
+msgctxt "title of group box, general options"
+msgid "General"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_decimalFormat)
+#: cfgdisplay.ui:25
+#, fuzzy
+msgid "Decimal number format"
+msgstr "Вақтнинг кўриниши"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_configPDA)
+#: cfgdisplay.ui:32
+msgid ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious. It will disable the search bar and every click will pop up a "
+"context menu."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_configPDA)
+#: cfgdisplay.ui:35
+#, fuzzy
+#| msgid "Confirmation Required"
+msgctxt ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious."
+msgid "Configuration for PDA"
+msgstr "Тасдиқлаш талаб қилинади"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: cfgdisplay.ui:45
+#, fuzzy
+#| msgid "Columns displayed:"
+msgid "Columns Displayed"
+msgstr "Кўрсатиладиган устунлар:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displaySessionTime)
+#: cfgdisplay.ui:51
+msgid "Session time"
+msgstr "Сеанс вақти"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTime)
+#: cfgdisplay.ui:58
+#, fuzzy
+#| msgid "Total task time"
+msgid "Cumulative task time"
+msgstr "Вазифанинг умумий вақти"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalSessionTime)
+#: cfgdisplay.ui:65
+msgid "Total session time"
+msgstr "Сеанснинг умумий вақти"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalTime)
+#: cfgdisplay.ui:72
+msgid "Total task time"
+msgstr "Вазифанинг умумий вақти"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPriority)
+#: cfgdisplay.ui:79 taskview.cpp:183
+msgid "Priority"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPercentComplete)
+#: cfgdisplay.ui:86
+#, fuzzy
+msgid "Percent complete"
+msgstr "&Бажарилган деб белгилаш"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoSave)
+#: cfgstorage.ui:28
+#, fuzzy
+#| msgid "Save tasks every"
+msgid "Save tasks every:"
+msgstr "Вазифаларни сақлаш"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: csvexportdialog.cpp:91 csvexportdialog_base.ui:176
 #, fuzzy
 #| msgid "Decimal"
 msgctxt "format to display times"
 msgid "Decimal"
 msgstr "Ўнлик"
 
-#: csvexportdialog.cpp:106
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: csvexportdialog.cpp:106 csvexportdialog_base.ui:203
 #, fuzzy
 msgid "Session Times"
 msgstr "Сеанс вақти"
 
-#: csvexportdialog.cpp:107
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: csvexportdialog.cpp:107 csvexportdialog_base.ui:220
 msgid "All Tasks"
 msgstr "Ҳамма вазифалар"
 
@@ -53,6 +176,185 @@ msgstr "&Экспорт қилиш"
 msgctxt "@action:button"
 msgid "E&xport to Clipboard"
 msgstr "Натижаларни клипбордга олиш"
+
+#. i18n: ectx: property (windowTitle), widget (KDialog, CSVExportDialogBase)
+#: csvexportdialog_base.ui:13
+#, fuzzy
+#| msgid "&Export"
+msgid "CSV Export"
+msgstr "&Экспорт қилиш"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: csvexportdialog_base.ui:36
+msgid "Export to:"
+msgstr "Экспорт қилиш:"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, urlExportTo)
+#: csvexportdialog_base.ui:46
+#, fuzzy
+#| msgid "The file where Karm will write the data."
+msgid "The file where KTimeTracker will write the data."
+msgstr "Karm маълумотларни ёзиб қўядиган файл."
+
+#. i18n: ectx: property (text), widget (QLabel, quotesLabel)
+#: csvexportdialog_base.ui:64
+#, fuzzy
+msgid "Quotes:"
+msgstr "Иқтибос:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cboQuote)
+#: csvexportdialog_base.ui:85
+msgid "All fields are quoted in the output."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: csvexportdialog_base.ui:89
+msgid "\""
+msgstr "\""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: csvexportdialog_base.ui:94
+msgid "'"
+msgstr "'"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpDateRange)
+#: csvexportdialog_base.ui:105
+msgid "Date Range"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDateRange)
+#: csvexportdialog_base.ui:108
+msgid ""
+"<p>An inclusive date range for reporting on time card history.  Not enabled "
+"when reporting on totals.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: csvexportdialog_base.ui:114
+msgid "From:"
+msgstr "Боши:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: csvexportdialog_base.ui:139
+msgid "To:"
+msgstr "Охири:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: csvexportdialog_base.ui:181
+msgid "Hours:Minutes"
+msgstr "Соат:Дақиқа"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: csvexportdialog_base.ui:198
+#, fuzzy
+msgid "All Times"
+msgstr "Ҳамма таймерларни &тўхтатиш"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: csvexportdialog_base.ui:225
+#, fuzzy
+msgid "Only Selected"
+msgstr "Танланган вазифа"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpDelimiter)
+#: csvexportdialog_base.ui:241
+msgid "Delimiter"
+msgstr "Ажратувчи"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDelimiter)
+#: csvexportdialog_base.ui:244
+msgid "The character used to separate one field from another in the output."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioTab)
+#: csvexportdialog_base.ui:256
+#, fuzzy
+#| msgid "Tab"
+msgctxt "tabulator delimiter"
+msgid "Tab"
+msgstr "Таб"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioOther)
+#: csvexportdialog_base.ui:263
+#, fuzzy
+#| msgid "Other:"
+msgctxt "user can set an user defined delimiter"
+msgid "Other:"
+msgstr "Бошқа:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioSpace)
+#: csvexportdialog_base.ui:270
+msgid "Space"
+msgstr "Бўш жой"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioComma)
+#: csvexportdialog_base.ui:277
+msgid "Comma"
+msgstr "Вергул"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioSemicolon)
+#: csvexportdialog_base.ui:314
+msgid "Semicolon"
+msgstr "Нуқта вергул"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, EditTaskDialog)
+#: edittaskdialog.ui:14
+#, fuzzy
+#| msgid "Edit Task"
+msgid "Add/Edit a task"
+msgstr "Вазифани таҳрирлаш"
+
+#. i18n: ectx: property (text), widget (QLabel, tasknamelabel)
+#: edittaskdialog.ui:26
+#, fuzzy
+#| msgid "Task Name"
+msgid "Task Name:"
+msgstr "Вазифа номи"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, tasknamelineedit)
+#: edittaskdialog.ui:44
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Enter the name of the task "
+"here. You can choose it freely.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Example:</span> phone with mother</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: edittaskdialog.ui:51
+msgid "Description:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: edittaskdialog.ui:74
+msgid "Change time (in minutes, e.g. -60)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, autotrackinggroupbox)
+#: edittaskdialog.ui:103
+msgid "Auto Tracking"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, edittimespushbutton)
+#: edittaskdialog.ui:133
+msgid "To change this task's time, you have to edit its event history."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, edittimespushbutton)
+#: edittaskdialog.ui:136
+#, fuzzy
+#| msgid "Edit Task"
+msgid "Edit Times"
+msgstr "Вазифани таҳрирлаш"
 
 #: historydialog.cpp:81 timekard.cpp:65
 msgid "Task"
@@ -86,6 +388,24 @@ msgstr ""
 
 #: historydialog.cpp:265
 msgid "Please select a task to delete."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, historydialog)
+#: historydialog.ui:14
+#, fuzzy
+#| msgid "Log history"
+msgid "Edit History"
+msgstr "Лог тарихи"
+
+#. i18n: ectx: property (text), widget (QPushButton, deletepushbutton)
+#: historydialog.ui:23
+#, fuzzy
+msgid "Delete"
+msgstr "Ажратувчи"
+
+#. i18n: ectx: property (text), widget (QPushButton, okpushbutton)
+#: historydialog.ui:33
+msgid "Close"
 msgstr ""
 
 #: idletimedetector.cpp:112
@@ -162,6 +482,51 @@ msgstr ""
 msgid ""
 "This will let you configure keybindings which are specific to ktimetracker"
 msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: ktimetrackerui.rc:5
+msgid "&File"
+msgstr ""
+
+#. i18n: ectx: Menu (import)
+#: ktimetrackerui.rc:14
+#, fuzzy
+#| msgid "&Export"
+msgid "&Import"
+msgstr "&Экспорт қилиш"
+
+#. i18n: ectx: Menu (export)
+#: ktimetrackerui.rc:18
+msgid "&Export"
+msgstr "&Экспорт қилиш"
+
+#. i18n: ectx: Menu (clock)
+#: ktimetrackerui.rc:27
+msgid "&Clock"
+msgstr "&Соат"
+
+#. i18n: ectx: Menu (task)
+#: ktimetrackerui.rc:34
+msgid "&Task"
+msgstr "&Вазифа"
+
+#. i18n: ectx: Menu (settings)
+#: ktimetrackerui.rc:45
+#, fuzzy
+msgid "&Settings"
+msgstr "Кўрсатиш мосламалари"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ktimetrackerui.rc:50
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: ectx: ToolBar (taskToolBar)
+#: ktimetrackerui.rc:59
+#, fuzzy
+#| msgid "Task"
+msgid "Tasks"
+msgstr "Вазифа"
 
 #: main.cpp:42
 msgid "KDE Time tracker tool"
@@ -279,6 +644,51 @@ msgstr "KArm мосламаси..."
 msgid "task_popup"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: new/mainwindow.ui:50
+msgid "File"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QMenu, menuHelp)
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:58 new/mainwindow.ui:104
+msgid "Help"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QMenu, menuConfigure)
+#: new/mainwindow.ui:64
+msgid "Configure"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:75
+msgid "toolBar"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:89
+msgid "Load"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:94
+#, fuzzy
+#| msgid "Space"
+msgid "Save"
+msgstr "Бўш жой"
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:99
+msgid "Quit"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:109
+#, fuzzy
+#| msgid "Configure KArm..."
+msgid "Configure ktimetracker"
+msgstr "KArm мосламаси..."
+
 #: taskview.cpp:181
 msgid "Task Name"
 msgstr "Вазифа номи"
@@ -298,10 +708,6 @@ msgstr "Сеанснинг умумий вақти"
 #: taskview.cpp:182
 msgid "Total Time"
 msgstr "Умумий вақт"
-
-#: taskview.cpp:183
-msgid "Priority"
-msgstr ""
 
 #: taskview.cpp:183
 #, fuzzy
@@ -746,163 +1152,6 @@ msgstr ""
 #: treeviewheadercontextmenu.cpp:141
 msgid "Hide"
 msgstr ""
-
-#~ msgid " min"
-#~ msgstr " дақ"
-
-#~ msgid "Prompt before deleting tasks"
-#~ msgstr "Вазифаларни олиб ташлашдан олдин сўраш"
-
-#, fuzzy
-#~ msgid "Decimal number format"
-#~ msgstr "Вақтнинг кўриниши"
-
-#, fuzzy
-#~| msgid "Confirmation Required"
-#~ msgctxt ""
-#~ "Choose this if you have a touchscreen and your screen real estate is "
-#~ "precious."
-#~ msgid "Configuration for PDA"
-#~ msgstr "Тасдиқлаш талаб қилинади"
-
-#, fuzzy
-#~| msgid "Columns displayed:"
-#~ msgid "Columns Displayed"
-#~ msgstr "Кўрсатиладиган устунлар:"
-
-#~ msgid "Session time"
-#~ msgstr "Сеанс вақти"
-
-#~ msgid "Total session time"
-#~ msgstr "Сеанснинг умумий вақти"
-
-#~ msgid "Total task time"
-#~ msgstr "Вазифанинг умумий вақти"
-
-#, fuzzy
-#~ msgid "Percent complete"
-#~ msgstr "&Бажарилган деб белгилаш"
-
-#, fuzzy
-#~| msgid "Save tasks every"
-#~ msgid "Save tasks every:"
-#~ msgstr "Вазифаларни сақлаш"
-
-#~ msgid "Export to:"
-#~ msgstr "Экспорт қилиш:"
-
-#, fuzzy
-#~| msgid "The file where Karm will write the data."
-#~ msgid "The file where KTimeTracker will write the data."
-#~ msgstr "Karm маълумотларни ёзиб қўядиган файл."
-
-#, fuzzy
-#~ msgid "Quotes:"
-#~ msgstr "Иқтибос:"
-
-#~ msgid "\""
-#~ msgstr "\""
-
-#~ msgid "'"
-#~ msgstr "'"
-
-#~ msgid "From:"
-#~ msgstr "Боши:"
-
-#~ msgid "To:"
-#~ msgstr "Охири:"
-
-#~ msgid "Hours:Minutes"
-#~ msgstr "Соат:Дақиқа"
-
-#, fuzzy
-#~ msgid "All Times"
-#~ msgstr "Ҳамма таймерларни &тўхтатиш"
-
-#, fuzzy
-#~ msgid "Only Selected"
-#~ msgstr "Танланган вазифа"
-
-#~ msgid "Delimiter"
-#~ msgstr "Ажратувчи"
-
-#, fuzzy
-#~| msgid "Tab"
-#~ msgctxt "tabulator delimiter"
-#~ msgid "Tab"
-#~ msgstr "Таб"
-
-#, fuzzy
-#~| msgid "Other:"
-#~ msgctxt "user can set an user defined delimiter"
-#~ msgid "Other:"
-#~ msgstr "Бошқа:"
-
-#~ msgid "Space"
-#~ msgstr "Бўш жой"
-
-#~ msgid "Comma"
-#~ msgstr "Вергул"
-
-#~ msgid "Semicolon"
-#~ msgstr "Нуқта вергул"
-
-#, fuzzy
-#~| msgid "Edit Task"
-#~ msgid "Add/Edit a task"
-#~ msgstr "Вазифани таҳрирлаш"
-
-#, fuzzy
-#~| msgid "Task Name"
-#~ msgid "Task Name:"
-#~ msgstr "Вазифа номи"
-
-#, fuzzy
-#~| msgid "Edit Task"
-#~ msgid "Edit Times"
-#~ msgstr "Вазифани таҳрирлаш"
-
-#, fuzzy
-#~| msgid "Log history"
-#~ msgid "Edit History"
-#~ msgstr "Лог тарихи"
-
-#, fuzzy
-#~ msgid "Delete"
-#~ msgstr "Ажратувчи"
-
-#, fuzzy
-#~| msgid "&Export"
-#~ msgid "&Import"
-#~ msgstr "&Экспорт қилиш"
-
-#~ msgid "&Export"
-#~ msgstr "&Экспорт қилиш"
-
-#~ msgid "&Clock"
-#~ msgstr "&Соат"
-
-#~ msgid "&Task"
-#~ msgstr "&Вазифа"
-
-#, fuzzy
-#~ msgid "&Settings"
-#~ msgstr "Кўрсатиш мосламалари"
-
-#, fuzzy
-#~| msgid "Task"
-#~ msgid "Tasks"
-#~ msgstr "Вазифа"
-
-#, fuzzy
-#~| msgid "Space"
-#~ msgid "Save"
-#~ msgstr "Бўш жой"
-
-#, fuzzy
-#~| msgid "Configure KArm..."
-#~ msgid "Configure ktimetracker"
-#~ msgstr "KArm мосламаси..."
 
 #, fuzzy
 #~| msgid "Print Dialog"
