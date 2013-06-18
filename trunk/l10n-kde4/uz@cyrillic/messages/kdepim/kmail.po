@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-14 01:39+0000\n"
+"POT-Creation-Date: 2013-06-18 01:37+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1575,61 +1575,66 @@ msgstr ""
 msgid "Reading"
 msgstr "Ўқ&иш"
 
-#: configuredialog/configuredialog.cpp:3380
+#: configuredialog/configuredialog.cpp:3376
+#, fuzzy
+msgid "Message Disposition Notifications"
+msgstr "Хабарлар рўйхати"
+
+#: configuredialog/configuredialog.cpp:3382
 msgid "Composing"
 msgstr "Яратиш"
 
-#: configuredialog/configuredialog.cpp:3386
+#: configuredialog/configuredialog.cpp:3388
 #, fuzzy
 msgid "Miscellaneous"
 msgstr "Нотўғри ёзилган сўзлар"
 
-#: configuredialog/configuredialog.cpp:3392
+#: configuredialog/configuredialog.cpp:3394
 msgid "S/MIME Validation"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3481
+#: configuredialog/configuredialog.cpp:3452
 msgid ""
 "Changing the global HTML setting will override all folder specific values."
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3648
-#: configuredialog/configuredialog.cpp:3651
-#: configuredialog/configuredialog.cpp:3654
-#: configuredialog/configuredialog.cpp:3658
-#: configuredialog/configuredialog.cpp:3661
-#: configuredialog/configuredialog.cpp:3664
+#: configuredialog/configuredialog.cpp:3671
+#: configuredialog/configuredialog.cpp:3674
+#: configuredialog/configuredialog.cpp:3677
+#: configuredialog/configuredialog.cpp:3681
+#: configuredialog/configuredialog.cpp:3684
+#: configuredialog/configuredialog.cpp:3687
 msgid " day"
 msgid_plural " days"
 msgstr[0] ""
 
-#: configuredialog/configuredialog.cpp:3808
+#: configuredialog/configuredialog.cpp:3831
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
-#: configuredialog/configuredialog.cpp:3919 ui/smimeconfiguration.ui:183
+#: configuredialog/configuredialog.cpp:3942 ui/smimeconfiguration.ui:183
 msgid "no proxy"
 msgstr "проксисиз"
 
-#: configuredialog/configuredialog.cpp:3920
+#: configuredialog/configuredialog.cpp:3943
 #, kde-format
 msgid "(Current system setting: %1)"
 msgstr "(Жорий тизим мосламаси: %1)"
 
-#: configuredialog/configuredialog.cpp:4048
+#: configuredialog/configuredialog.cpp:4071
 #, fuzzy
 #| msgid "&Folders"
 msgid "Folders"
 msgstr "&Жилдлар"
 
-#: configuredialog/configuredialog.cpp:4051
+#: configuredialog/configuredialog.cpp:4074
 #, fuzzy
 #| msgid "Advanced Options"
 msgid "Invitations"
 msgstr "Қўшимча параметрлар"
 
-#: configuredialog/configuredialog.cpp:4054
+#: configuredialog/configuredialog.cpp:4077
 #, fuzzy
 #| msgid "no proxy"
 msgid "Proxy"
@@ -5757,12 +5762,12 @@ msgid "Open &Message"
 msgstr "Хабарни очиш"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ui/securitypagegeneraltab.ui:17
+#: ui/securitypagegeneraltab.ui:23
 msgid "HTML Messages"
 msgstr "HTML хабарлар"
 
 #. i18n: ectx: property (text), widget (QLabel, labelWarnHTML)
-#: ui/securitypagegeneraltab.ui:23
+#: ui/securitypagegeneraltab.ui:29
 msgid ""
 "<b>WARNING:</b> Allowing HTML in email may increase the risk that your "
 "system will be compromised by present and anticipated security exploits. <a "
@@ -5771,7 +5776,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mHtmlMailCheck)
-#: ui/securitypagegeneraltab.ui:36
+#: ui/securitypagegeneraltab.ui:42
 msgid ""
 "<qt><p>Messages sometimes come in both formats. This option controls whether "
 "you want the HTML part or the plain text part to be displayed.</"
@@ -5788,12 +5793,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mHtmlMailCheck)
-#: ui/securitypagegeneraltab.ui:39
+#: ui/securitypagegeneraltab.ui:45
 msgid "Prefer HTML to plain text"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mExternalReferences)
-#: ui/securitypagegeneraltab.ui:46
+#: ui/securitypagegeneraltab.ui:52
 msgid ""
 "<qt><p>Some mail advertisements are in HTML and contain references to, for "
 "example, images that the advertisers employ to find out that you have read "
@@ -5807,30 +5812,67 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mExternalReferences)
-#: ui/securitypagegeneraltab.ui:49
+#: ui/securitypagegeneraltab.ui:55
 msgid "Allow messages to load external references from the Internet"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: ui/securitypagegeneraltab.ui:71
+#, fuzzy
+#| msgid "E-mail address:"
+msgid "E-mails Scams"
+msgstr "Электрон почта:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/securitypagegeneraltab.ui:77
+msgid ""
+"KMail can analyze messages for suspected email scams by looking for common "
+"techniques used to deceive you"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mScamDetection)
+#: ui/securitypagegeneraltab.ui:84
+msgid "Informs if message reading is a suspected email scam"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/securitypagegeneraltab.ui:91
+msgid "Whitelist:"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: ui/securitypagegeneraltab.ui:59
+#: ui/securitypagegeneraltab.ui:110
 #, fuzzy
 #| msgid "Unread Message"
 msgid "Encrypted Messages"
 msgstr "Ўқилмаган хабар"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mAlwaysDecrypt)
-#: ui/securitypagegeneraltab.ui:65
+#: ui/securitypagegeneraltab.ui:116
 msgid "Attempt decryption of encrypted messages when viewing"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupMessageDisp)
-#: ui/securitypagegeneraltab.ui:75
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: ui/securitypagegeneraltab.ui:132
+msgid "Certificate && Key Bundle Attachments"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mAutomaticallyImportAttachedKeysCheck)
+#: ui/securitypagegeneraltab.ui:138
 #, fuzzy
-msgid "Message Disposition Notifications"
-msgstr "Хабарлар рўйхати"
+#| msgid "Automatically import keys and certificates"
+msgid "Automatically import keys and certificate"
+msgstr "Калит ва сертификатларни автоматик импорт қилиш"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SecurityPageMDNTab)
+#: ui/securitypagemdntab.ui:14
+#, fuzzy
+#| msgid "&From"
+msgid "Form"
+msgstr "&Кимдан"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSend)
-#: ui/securitypagegeneraltab.ui:81
+#: ui/securitypagemdntab.ui:23
 msgid "Send policy:"
 msgstr "Жўнатиш қоидаси:"
 
@@ -5841,10 +5883,10 @@ msgstr "Жўнатиш қоидаси:"
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioNothing)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioFull)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioHeaders)
-#: ui/securitypagegeneraltab.ui:88 ui/securitypagegeneraltab.ui:98
-#: ui/securitypagegeneraltab.ui:108 ui/securitypagegeneraltab.ui:118
-#: ui/securitypagegeneraltab.ui:135 ui/securitypagegeneraltab.ui:145
-#: ui/securitypagegeneraltab.ui:155
+#: ui/securitypagemdntab.ui:33 ui/securitypagemdntab.ui:43
+#: ui/securitypagemdntab.ui:53 ui/securitypagemdntab.ui:63
+#: ui/securitypagemdntab.ui:99 ui/securitypagemdntab.ui:109
+#: ui/securitypagemdntab.ui:119
 msgid ""
 "<qt><h3>Message Disposition Notification Policy</h3><p>MDNs are a "
 "generalization of what is commonly called <b>read receipt</b>. The message "
@@ -5870,7 +5912,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioIgnore)
-#: ui/securitypagegeneraltab.ui:91
+#: ui/securitypagemdntab.ui:36
 #, fuzzy
 #| msgctxt "MDN type"
 #| msgid "Ignore"
@@ -5878,100 +5920,64 @@ msgid "Ignore"
 msgstr "Эътибор берилмасин"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioAsk)
-#: ui/securitypagegeneraltab.ui:101
+#: ui/securitypagemdntab.ui:46
 #, fuzzy
 #| msgid "As&k"
 msgid "Ask"
 msgstr "&Сўраш"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioDeny)
-#: ui/securitypagegeneraltab.ui:111
+#: ui/securitypagemdntab.ui:56
 #, fuzzy
 #| msgid "&Deny"
 msgid "Deny"
 msgstr "&Рухсат берилмасин"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioAlways)
-#: ui/securitypagegeneraltab.ui:121
+#: ui/securitypagemdntab.ui:66
 #, fuzzy
 #| msgid "Al&ways send"
 msgid "Always send"
 msgstr "&Ҳамиша жўнатиш"
 
 #. i18n: ectx: property (text), widget (QLabel, labelQuote)
-#: ui/securitypagegeneraltab.ui:128
+#: ui/securitypagemdntab.ui:89
 #, fuzzy
 msgid "Quote original message:"
 msgstr "Им&зо қўйиш"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioNothing)
-#: ui/securitypagegeneraltab.ui:138
+#: ui/securitypagemdntab.ui:102
 #, fuzzy
 #| msgid "Nothin&g"
 msgid "Nothing"
 msgstr "Ҳеч &нарса"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioFull)
-#: ui/securitypagegeneraltab.ui:148
+#: ui/securitypagemdntab.ui:112
 #, fuzzy
 #| msgid "&Full message"
 msgid "Full message"
 msgstr "&Бутун хабар"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioHeaders)
-#: ui/securitypagegeneraltab.ui:158
+#: ui/securitypagemdntab.ui:122
 #, fuzzy
 #| msgid "Onl&y headers"
 msgid "Only headers"
 msgstr "&Фақат сарлавҳалар"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mNoMDNsWhenEncryptedCheck)
-#: ui/securitypagegeneraltab.ui:165
+#: ui/securitypagemdntab.ui:145
 #, fuzzy
 msgid "Do not send MDNs in response to encrypted messages"
 msgstr "Кейинги хабарга ўтиш"
 
 #. i18n: ectx: property (text), widget (QLabel, labelWarning)
-#: ui/securitypagegeneraltab.ui:172
+#: ui/securitypagemdntab.ui:152
 msgid ""
 "<b>WARNING:</b> Unconditionally returning confirmations undermines your "
-"privacy. <a href=\"whatsthis3\">More about MDNs...</a>"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: ui/securitypagegeneraltab.ui:188
-msgid "Certificate && Key Bundle Attachments"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, mAutomaticallyImportAttachedKeysCheck)
-#: ui/securitypagegeneraltab.ui:194
-#, fuzzy
-#| msgid "Automatically import keys and certificates"
-msgid "Automatically import keys and certificate"
-msgstr "Калит ва сертификатларни автоматик импорт қилиш"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: ui/securitypagegeneraltab.ui:204
-#, fuzzy
-#| msgid "E-mail address:"
-msgid "E-mails Scams"
-msgstr "Электрон почта:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/securitypagegeneraltab.ui:210
-msgid ""
-"KMail can analyze messages for suspected email scams by looking for common "
-"techniques used to deceive you"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, mScamDetection)
-#: ui/securitypagegeneraltab.ui:217
-msgid "Informs if message reading is a suspected email scam"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ui/securitypagegeneraltab.ui:224
-msgid "Whitelist:"
+"privacy. <a href=\"whatsthis-mdn\">More about MDNs...</a>"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, CRLRB)
@@ -11223,11 +11229,6 @@ msgstr "Ташқи таҳрирчи"
 #, fuzzy
 #~ msgid "Change Encoding"
 #~ msgstr "Кодлашни ўзгартириш"
-
-#, fuzzy
-#~| msgid "&From"
-#~ msgid "Form"
-#~ msgstr "&Кимдан"
 
 #, fuzzy
 #~| msgid "Check &Mail"
