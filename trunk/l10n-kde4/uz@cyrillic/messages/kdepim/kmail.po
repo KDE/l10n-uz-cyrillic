@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-26 01:44+0000\n"
+"POT-Creation-Date: 2013-09-27 01:50+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4568,7 +4568,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Жавоб бериш"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:230
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:242
 msgid "&Reply..."
 msgstr "&Жавоб бериш"
 
@@ -4576,11 +4576,11 @@ msgstr "&Жавоб бериш"
 msgid "Reply to A&uthor..."
 msgstr "Муаллифга ж&авоб бериш"
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:234
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:246
 msgid "Reply to &All..."
 msgstr "Ҳаммага ж&авоб бериш"
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:238
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:250
 msgid "Reply to Mailing-&List..."
 msgstr ""
 
@@ -4625,7 +4625,7 @@ msgstr "Хабарни &таҳрирлаш"
 msgid "Add Note..."
 msgstr "Қўшиш..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:242
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:254
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Узатиш"
@@ -4783,7 +4783,7 @@ msgid "Search"
 msgstr "&Қидириш"
 
 #: searchdialog/debug/searchdebugwidget.cpp:124
-#: searchdialog/searchwindow.cpp:472
+#: searchdialog/searchwindow.cpp:499
 #, fuzzy
 msgid "Searching..."
 msgstr "&Жўнатиш"
@@ -4860,80 +4860,84 @@ msgstr "Жилд"
 msgid "Nepomuk cannot make search. Errors found: <ul><li>%1</li></ul>"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:84
+#: searchdialog/searchwindow.cpp:85
 msgid "Find Messages"
 msgstr "Хабарларни қидириш"
 
-#: searchdialog/searchwindow.cpp:106
+#: searchdialog/searchwindow.cpp:107
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&Қидириш"
 
-#: searchdialog/searchwindow.cpp:111
+#: searchdialog/searchwindow.cpp:112
 msgid "Debug query"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:192 searchdialog/searchwindow.cpp:385
+#: searchdialog/searchwindow.cpp:204 searchdialog/searchwindow.cpp:397
 msgid "Last Search"
 msgstr "Охирги қидирув"
 
-#: searchdialog/searchwindow.cpp:247
+#: searchdialog/searchwindow.cpp:259
 #, fuzzy
 #| msgid "&Insert File..."
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "&Файлдан қўйиш"
 
-#: searchdialog/searchwindow.cpp:252
+#: searchdialog/searchwindow.cpp:264
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "&Илова сифатида"
 
-#: searchdialog/searchwindow.cpp:266
+#: searchdialog/searchwindow.cpp:278
 msgid "Save Attachments..."
 msgstr "Иловаларни сақлаш"
 
-#: searchdialog/searchwindow.cpp:272
+#: searchdialog/searchwindow.cpp:284
 msgid "Clear Selection"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:356
+#: searchdialog/searchwindow.cpp:368
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] ""
 
-#: searchdialog/searchwindow.cpp:409
+#: searchdialog/searchwindow.cpp:421
 msgid "You did not selected a valid folder."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:432
+#: searchdialog/searchwindow.cpp:439
+msgid "You forgot to select collections."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:459
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:437
+#: searchdialog/searchwindow.cpp:464
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:443
+#: searchdialog/searchwindow.cpp:470
 #, fuzzy
 msgid "No message found."
 msgstr "1 хат, %2."
 
-#: searchdialog/searchwindow.cpp:448
+#: searchdialog/searchwindow.cpp:475
 msgid ""
 "Contains condition cannot be used with a number of characters inferior to 4."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:480
+#: searchdialog/searchwindow.cpp:507
 #, fuzzy, kde-format
 #| msgid "Move Messages to Folder"
 msgid "Cannot get search result. %1"
 msgstr "Хабарларни жилга кўчириш"
 
-#: searchdialog/searchwindow.cpp:594
+#: searchdialog/searchwindow.cpp:628
 #, kde-format
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
@@ -4941,17 +4945,27 @@ msgid ""
 "\"%1\"."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:700
+#: searchdialog/searchwindow.cpp:734
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "Хабарни очиш"
 
-#: searchdialog/searchwindow.cpp:703
+#: searchdialog/searchwindow.cpp:737
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
 msgstr[0] "Хатларни ўчириш"
+
+#: searchdialog/selectmulticollectiondialog.cpp:27
+#, fuzzy
+msgid "Select Multiple Folders"
+msgstr "Жилд"
+
+#: searchdialog/selectmulticollectionwidget.cpp:76
+#, fuzzy
+msgid "Search..."
+msgstr "&Жўнатиш"
 
 #: secondarywindow.cpp:88
 msgctxt "Document/application separator in titlebar"
@@ -5834,20 +5848,34 @@ msgstr "&Фақат бу ердан қидириш:"
 msgid "&Include sub-folders"
 msgstr "&Туб жилдларни қўшиш"
 
+#. i18n: ectx: property (text), widget (QRadioButton, mChkMultiFolders)
+#: ui/searchwindow.ui:53
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Select specific folders"
+msgstr "Жилдни танлаш"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectMultipleFolders)
+#: ui/searchwindow.ui:60
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Select folders..."
+msgstr "Жилдни танлаш"
+
 #. i18n: ectx: property (text), widget (QLabel, mSearchFolderLbl)
-#: ui/searchwindow.ui:82
+#: ui/searchwindow.ui:113
 msgid "Search folder &name:"
 msgstr "Қидирув жилди &номи:"
 
 #. i18n: ectx: property (text), widget (KPushButton, mSearchFolderOpenBtn)
-#: ui/searchwindow.ui:102
+#: ui/searchwindow.ui:133
 #, fuzzy
 #| msgid "Delete Search"
 msgid "Open &Search Folder"
 msgstr "Қидирувни олиб ташлаш"
 
 #. i18n: ectx: property (text), widget (KPushButton, mSearchResultOpenBtn)
-#: ui/searchwindow.ui:112
+#: ui/searchwindow.ui:143
 #, fuzzy
 #| msgid "Open Message"
 msgid "Open &Message"
@@ -7594,9 +7622,6 @@ msgstr "Ташқи таҳрирчи"
 #~ msgid "Moving old messages from folder %1 to folder %2 failed."
 #~ msgstr ""
 #~ "Эски хабарларни %1 жилдидан %2 жилдга кўчириш муваффақиятсиз тугади."
-
-#~ msgid "Select Folder"
-#~ msgstr "Жилдни танлаш"
 
 #~ msgid "Local Folders"
 #~ msgstr "Локал жилдлар"
@@ -9348,10 +9373,6 @@ msgstr "Ташқи таҳрирчи"
 
 #~ msgid "Refresh Folder List"
 #~ msgstr "Жилдлар рўйхатини янгилаш"
-
-#, fuzzy
-#~ msgid "Multiple Folders"
-#~ msgstr "Жилд"
 
 #, fuzzy
 #~ msgid ""
