@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-28 01:40+0000\n"
+"POT-Creation-Date: 2013-09-29 01:50+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -23,25 +23,30 @@ msgstr ""
 msgid "Add subscription"
 msgstr "Таърифи"
 
-#: adblock/adblockaddsubscriptiondialog.cpp:36
+#: adblock/adblockaddsubscriptiondialog.cpp:35
 #, fuzzy
 msgid "Select List:"
 msgstr "Жилдни танлаш"
 
-#: adblock/adblocksettingwidget.cpp:58
+#: adblock/adblocklistwidget.cpp:61
+#, fuzzy
+msgid "Not subscription added..."
+msgstr "Таърифи"
+
+#: adblock/adblocksettingwidget.cpp:57
 msgid ""
 "<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
 "\"filterhelp\">more information</a>):"
 msgstr ""
 
-#: adblock/adblocksettingwidget.cpp:73
+#: adblock/adblocksettingwidget.cpp:72
 #, fuzzy
 #| msgid " days"
 msgid " day"
 msgid_plural " days"
 msgstr[0] " кун"
 
-#: adblock/adblocksettingwidget.cpp:91
+#: adblock/adblocksettingwidget.cpp:101
 msgid ""
 "<qt><p>Enter an expression to filter. Filters can be defined as either:"
 "<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
@@ -52,35 +57,35 @@ msgid ""
 "filter."
 msgstr ""
 
-#: adblock/adblocksettingwidget.cpp:253
+#: adblock/adblocksettingwidget.cpp:286
 msgid "Do you want to delete current list?"
 msgstr ""
 
-#: adblock/adblocksettingwidget.cpp:253
+#: adblock/adblocksettingwidget.cpp:286
 #, fuzzy
 #| msgid "Delete Script"
 msgid "Delete current list"
 msgstr "Скриптни олиб ташлаш"
 
+#: adblock/adblockshowlistdialog.cpp:37
+#, fuzzy
+#| msgid "Show alway&s"
+msgid "Show adblock list"
+msgstr "Ҳар &доим кўрсатиш"
+
+#: adblock/adblockshowlistdialog.cpp:46
+#, fuzzy
+#| msgid "&Download mail"
+msgid "Download..."
+msgstr "Хатни ё&зиб олиш"
+
+#: adblock/adblockshowlistdialog.cpp:119
+#, kde-format
+msgid "An error occurs during download list: \"%1\""
+msgstr ""
+
 #: adblock/networkaccessmanager.cpp:52
 msgid "Blocked by ad filter"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, BlockedLabel)
-#: adblock/ui/blocked_elements.ui:17
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Blocked elements</"
-"span></p></body></html>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, HidedLabel)
-#: adblock/ui/blocked_elements.ui:101
-msgid "<b>Hidden elements</b>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: adblock/ui/blocked_elements.ui:108
-msgid "TextLabel"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
@@ -101,7 +106,7 @@ msgid "Automatic Filters"
 msgstr "Ҳеч қачон автоматик эмас"
 
 #. i18n: ectx: property (text), widget (QPushButton, addFilters)
-#: adblock/ui/settings_adblock.ui:47
+#: adblock/ui/settings_adblock.ui:44
 #, fuzzy
 msgid "Add Filters subscriptions..."
 msgstr "Таърифи"
@@ -109,7 +114,7 @@ msgstr "Таърифи"
 #. i18n: ectx: property (text), widget (QPushButton, removeSubscription)
 #: adblock/ui/settings_adblock.ui:54
 #, fuzzy
-msgid "Remove subscrition"
+msgid "Remove subscription"
 msgstr "Таърифи"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -117,35 +122,42 @@ msgstr "Таърифи"
 msgid "Update enabled automatic filters every:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, showList)
+#: adblock/ui/settings_adblock.ui:114
+#, fuzzy
+#| msgid "Save List..."
+msgid "Show List..."
+msgstr "Рўйхатни сақлаш"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: adblock/ui/settings_adblock.ui:115
+#: adblock/ui/settings_adblock.ui:122
 #, fuzzy
 #| msgid "Available Filters"
 msgid "Manual Filters"
 msgstr "Мавжуд филтерлар"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: adblock/ui/settings_adblock.ui:123
+#: adblock/ui/settings_adblock.ui:130
 #, fuzzy
 #| msgid "&Search:"
 msgid "Search:"
 msgstr "&Қидириш:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, insertButton)
-#: adblock/ui/settings_adblock.ui:150
+#: adblock/ui/settings_adblock.ui:157
 msgid "Add filter expression"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, insertButton)
 #. i18n: ectx: property (text), widget (QToolButton, removeButton)
-#: adblock/ui/settings_adblock.ui:153 adblock/ui/settings_adblock.ui:163
+#: adblock/ui/settings_adblock.ui:160 adblock/ui/settings_adblock.ui:170
 #, fuzzy
 #| msgid "Add..."
 msgid "..."
 msgstr "Қўшиш..."
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
-#: adblock/ui/settings_adblock.ui:160
+#: adblock/ui/settings_adblock.ui:167
 msgid "Remove filter expression"
 msgstr ""
 
@@ -767,32 +779,32 @@ msgid "Update interval list of adblock"
 msgstr ""
 
 #. i18n: ectx: label, entry (notSendWhenEncrypted), group (MDN)
-#: settings/messageviewer.kcfg.cmake:204
+#: settings/messageviewer.kcfg.cmake:201
 #, fuzzy
 msgid "Do not send MDNs in response to encrypted messages"
 msgstr "Кейинги хабарга ўтиш"
 
 #. i18n: ectx: label, entry (DefaultPolicy), group (MDN)
-#: settings/messageviewer.kcfg.cmake:208
+#: settings/messageviewer.kcfg.cmake:205
 msgid ""
 "Specifies the default policy to use, for the Message Disposition "
 "Notifications (for internal use only)"
 msgstr ""
 
 #. i18n: ectx: label, entry (QuoteMessage), group (MDN)
-#: settings/messageviewer.kcfg.cmake:212
+#: settings/messageviewer.kcfg.cmake:209
 msgid ""
 "Specifies the default quoting action to take, when replying to a message "
 "(for internal use only)"
 msgstr ""
 
 #. i18n: ectx: label, entry (LegacyMangleFromToHeaders), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:228
+#: settings/messageviewer.kcfg.cmake:225
 msgid "Mangle From:/To: headers in replies to replies"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (LegacyMangleFromToHeaders), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:229
+#: settings/messageviewer.kcfg.cmake:226
 msgid ""
 "Microsoft Outlook has a number of shortcomings in its implementation of the "
 "iCalendar standard; this option works around one of them. If you have "
@@ -801,12 +813,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (LegacyBodyInvites), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:234
+#: settings/messageviewer.kcfg.cmake:231
 msgid "Send groupware invitations in the mail body"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (LegacyBodyInvites), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:235
+#: settings/messageviewer.kcfg.cmake:232
 msgid ""
 "Microsoft Outlook has a number of shortcomings in its implementation of the "
 "iCalendar standard; this option works around one of them. If you have "
@@ -815,12 +827,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (ExchangeCompatibleInvitations), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:240
+#: settings/messageviewer.kcfg.cmake:237
 msgid "Exchange-compatible invitation naming"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ExchangeCompatibleInvitations), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:241
+#: settings/messageviewer.kcfg.cmake:238
 msgid ""
 "Microsoft Outlook, when used in combination with a Microsoft Exchange "
 "server, has a problem understanding standards-compliant groupware email. "
@@ -830,12 +842,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mOutlookCompatibleInvitationComments)
 #. i18n: ectx: label, entry (OutlookCompatibleInvitationReplyComments), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:246 ui/invitationsettings.ui:58
+#: settings/messageviewer.kcfg.cmake:243 ui/invitationsettings.ui:58
 msgid "Outlook compatible invitation reply comments"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (OutlookCompatibleInvitationReplyComments), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:247
+#: settings/messageviewer.kcfg.cmake:244
 msgid ""
 "When replying to invitations, send the reply comment in way that Microsoft "
 "Outlook understands."
@@ -843,25 +855,25 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mOutlookCompatibleInvitationComparisons)
 #. i18n: ectx: label, entry (OutlookCompatibleInvitationComparisons), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:252 ui/invitationsettings.ui:71
+#: settings/messageviewer.kcfg.cmake:249 ui/invitationsettings.ui:71
 msgid "Show invitation update differences in the Outlook style"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mOutlookCompatibleInvitationComparisons)
 #. i18n: ectx: whatsthis, entry (OutlookCompatibleInvitationComparisons), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:253 ui/invitationsettings.ui:68
+#: settings/messageviewer.kcfg.cmake:250 ui/invitationsettings.ui:68
 msgid ""
 "When viewing invitation updates, show the differences in the Microsoft "
 "Outlook style."
 msgstr ""
 
 #. i18n: ectx: label, entry (AutomaticSending), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:258
+#: settings/messageviewer.kcfg.cmake:255
 msgid "Automatic invitation sending"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (AutomaticSending), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:259
+#: settings/messageviewer.kcfg.cmake:256
 msgid ""
 "When this is checked, you will not see the mail composer window. Instead, "
 "all invitation mails are sent automatically. If you want to see the mail "
@@ -872,19 +884,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mDeleteInvitations)
 #. i18n: ectx: label, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:264 ui/invitationsettings.ui:100
+#: settings/messageviewer.kcfg.cmake:261 ui/invitationsettings.ui:100
 msgid "Delete invitation emails after the reply to them has been sent"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:265
+#: settings/messageviewer.kcfg.cmake:262
 msgid ""
 "When this is checked, received invitation emails that have been replied to "
 "will be moved to the Trash folder, once the reply has been successfully sent."
 msgstr ""
 
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
-#: settings/messageviewer.kcfg.cmake:289 viewer/viewer_p.cpp:1704
+#: settings/messageviewer.kcfg.cmake:286 viewer/viewer_p.cpp:1704
 msgid "Use Fi&xed Font"
 msgstr "Эни ўзгармайдиган &шрифтни қўллаш"
 
@@ -4640,10 +4652,6 @@ msgstr "&Олдинги хабар"
 #~ msgid "Never"
 #~ msgstr "Қабул қилувчи"
 
-#, fuzzy
-#~ msgid "Local Subscription..."
-#~ msgstr "Таърифи"
-
 #~ msgid "Refresh Folder List"
 #~ msgstr "Жилдлар рўйхатини янгилаш"
 
@@ -5150,12 +5158,6 @@ msgstr "&Олдинги хабар"
 #~ msgctxt "@action:button"
 #~ msgid "Download all messages later"
 #~ msgstr "Хабар маълумотлари ёзиб олинлмоқда"
-
-#, fuzzy
-#~| msgid "&Download mail"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Download Now"
-#~ msgstr "Хатни ё&зиб олиш"
 
 #, fuzzy
 #~ msgctxt "@info:tooltip"
@@ -6507,12 +6509,6 @@ msgstr "&Олдинги хабар"
 #~ msgctxt "@label:listbox"
 #~ msgid "Select type of recipient"
 #~ msgstr "<қабул қилувчилар>"
-
-#, fuzzy
-#~| msgid "Save List..."
-#~ msgctxt "@action:button"
-#~ msgid "Save List..."
-#~ msgstr "Рўйхатни сақлаш"
 
 #, fuzzy
 #~| msgid "Se&lect..."
