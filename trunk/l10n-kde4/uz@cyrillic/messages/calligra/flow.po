@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kivio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-21 01:26+0000\n"
+"POT-Creation-Date: 2014-02-28 03:08+0000\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -136,98 +136,89 @@ msgstr ""
 msgid "File to open"
 msgstr "Очиш учун файл"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/dockers/layoutdocker/LayoutDocker.ui:39
-msgid "Auto"
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:298
+msgid "Expand all"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/dockers/layoutdocker/LayoutDocker.ui:46
-msgid "Constraint "
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:299
+msgid "Collapse all"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/dockers/layoutdocker/LayoutDocker.ui:79
-msgid "None"
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:302
+msgid "List View"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/dockers/layoutdocker/LayoutDocker.ui:86
-msgid "Non-overlap"
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:303
+msgid "Icon View"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_2)
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_3)
-#: plugins/dockers/layoutdocker/LayoutDocker.ui:111
-#: plugins/dockers/layoutdocker/LayoutDocker.ui:130
-#: plugins/dockers/layoutdocker/LayoutDocker.ui:149
-msgid "PushButton"
-msgstr ""
-
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:94
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:71
 msgid "Stencil Box"
 msgstr ""
 
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:99
-msgid "Get more stencils"
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:77
+msgid "Stencils Online"
 msgstr ""
 
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:100
-msgid "Install stencil"
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:78
+msgid "Add/Remove Stencil"
 msgstr ""
 
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:107
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:97
 #, fuzzy
 #| msgctxt "Stencils"
 #| msgid "House shape"
 msgid "More shapes"
 msgstr "Уй шакли"
 
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:113
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:103
 msgid "Filter"
 msgstr ""
 
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:147
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:182
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:135
 msgid "Stencils successfully installed."
 msgstr ""
 
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:150
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:138
 msgid "Stencils successfully uninstalled."
 msgstr ""
 
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:159
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:150
 msgid ""
-"Calligra Stencil Packages (*.cstencil.tar, *.cstencil.tar.bz2, *.cstencil."
-"tar.gz)"
-msgstr ""
-
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:165
-msgid "Could not read this package."
-msgstr ""
-
-#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:176
-#, kde-format
-msgid ""
-"A collection of stencils in family '%1' is already installed. Please "
-"uninstall it first."
-msgstr ""
-
-#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:352
-msgid "Expand all"
-msgstr ""
-
-#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:353
-msgid "Collapse all"
-msgstr ""
-
-#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:356
-msgid "List View"
-msgstr ""
-
-#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:357
-msgid "Icon View"
+"This is the user stencils directory.\n"
+"From here you can add / remove stencils for use in the Stencil Box docker.\n"
+"\n"
+"Stencils are organized in collections, a collection is a folder containing a "
+"text file 'collection.desktop':\n"
+"\n"
+"ollection.desktop\n"
+"\n"
+"[Desktop Entry]\n"
+"Name=Your Stencil Collection Name\n"
+"\n"
+"A stencil is an ODG file, a desktop file, an optional PNG icon file, all "
+"with with name under its cpollection folder:\n"
+"\n"
+"foo.odg\n"
+"\n"
+"ODF elements for stencil should be a <draw:g> element or <draw:custom-shape> "
+"element\n"
+"\n"
+"foo.desktop\n"
+"\n"
+"[Desktop Entry]\n"
+"Name=Foo\n"
+"CS-KeepAspectRatio=1\n"
+"\n"
+"If CS-KeepAspectRatio=1, the stencil added to canvas will have geomatry "
+"aspect ratio locked, by default it's 0.\n"
+"\n"
+"foo.png\n"
+"\n"
+"Should have size 32x32 pixel, if the png file is not included, Flow will "
+"render the ODG file as the icon,\n"
+"but it won't look good under small pixels when the stencil stroke is "
+"complicated.\n"
 msgstr ""
 
 #, fuzzy
