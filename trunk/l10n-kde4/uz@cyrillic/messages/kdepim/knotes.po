@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-22 01:44+0000\n"
+"POT-Creation-Date: 2014-04-02 01:49+0000\n"
 "PO-Revision-Date: 2006-02-13 23:30+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -196,15 +196,32 @@ msgctxt "@info"
 msgid "Select the folder where the note will be saved:"
 msgstr ""
 
-#: configdialog/knoteconfigdialog.cpp:211
+#: configdialog/knoteconfigdialog.cpp:212
 msgid "Show number of notes in tray icon"
 msgstr ""
 
-#: configdialog/knoteconfigdialog.cpp:240
+#: configdialog/knoteconfigdialog.cpp:219
+#, fuzzy
+#| msgid "Default &width:"
+msgid "Default Title:"
+msgstr "Андоза &эн ўлчами:"
+
+#: configdialog/knoteconfigdialog.cpp:226
+msgid "<a href=\"whatsthis\">How does this work?</a>"
+msgstr ""
+
+#: configdialog/knoteconfigdialog.cpp:259
+msgid ""
+"<qt><p>You can customize title note. You can use:</p><ul><li>%d current date "
+"(short format)</li><li>%l current date (long format)</li><li>%t current "
+"time</li></ul></qt>"
+msgstr ""
+
+#: configdialog/knoteconfigdialog.cpp:283
 msgid "Theme:"
 msgstr ""
 
-#: configdialog/knoteconfigdialog.cpp:250
+#: configdialog/knoteconfigdialog.cpp:293
 #, fuzzy
 #| msgid "Print %1"
 msgid "Download new printing themes"
@@ -381,14 +398,22 @@ msgid "Uppercase"
 msgstr ""
 
 #: knoteedit.cpp:180
-msgid "Lowercase"
+msgid "Sentence case"
 msgstr ""
 
 #: knoteedit.cpp:184
+msgid "Lowercase"
+msgstr ""
+
+#: knoteedit.cpp:188
 msgid "Insert Date"
 msgstr "Санани киритиш"
 
-#: knoteedit.cpp:266
+#: knoteedit.cpp:192
+msgid "Insert Checkmark"
+msgstr ""
+
+#: knoteedit.cpp:280
 msgid "Change case..."
 msgstr ""
 
@@ -496,18 +521,28 @@ msgstr "Иш столига"
 msgid "Walk Through Notes"
 msgstr ""
 
-#: print/knoteprinter.cpp:142
+#: print/knoteprinter.cpp:140
+#, fuzzy
+#| msgid "Alarm"
+msgid "Alarm:"
+msgstr "Огоҳлантириш"
+
+#: print/knoteprinter.cpp:141
+msgid "Note is locked"
+msgstr ""
+
+#: print/knoteprinter.cpp:144
 #, fuzzy, kde-format
 #| msgid "Print %1"
 msgid "Print Note"
 msgid_plural "Print %1 notes"
 msgstr[0] "%1 ҳужжатни босиб чиқариш"
 
-#: print/knoteprinter.cpp:149
+#: print/knoteprinter.cpp:151
 msgid "Printing theme was not found."
 msgstr ""
 
-#: print/knoteprinter.cpp:149
+#: print/knoteprinter.cpp:151
 msgid "Printing error"
 msgstr ""
 
@@ -577,9 +612,6 @@ msgstr ""
 
 #~ msgid "Alarm &at:"
 #~ msgstr "Огоҳлантириш &вақти:"
-
-#~ msgid "Alarm"
-#~ msgstr "Огоҳлантириш"
 
 #~ msgid "Display"
 #~ msgstr "Кўрсатиш"
