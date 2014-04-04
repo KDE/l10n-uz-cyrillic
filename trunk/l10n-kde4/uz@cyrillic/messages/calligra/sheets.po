@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-24 18:46+0000\n"
+"POT-Creation-Date: 2014-04-04 01:48+0000\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -83,7 +83,7 @@ msgid "Data sets in columns"
 msgstr "Устунлар қўшиш"
 
 #: chart/ChartDatabaseSelectorFactory.cpp:40 dialogs/DatabaseDialog.cpp:139
-#: functions/database.xml:5 ui/CellToolBase.cpp:687
+#: functions/database.xml:5 ui/CellToolBase.cpp:688
 msgid "Database"
 msgstr "Маълумот базаси"
 
@@ -306,7 +306,7 @@ msgctxt "(qtundo-format)"
 msgid "Change Border Color"
 msgstr "Чегара рангини ўзгартириш"
 
-#: commands/CommentCommand.cpp:62 ui/CellToolBase.cpp:2467
+#: commands/CommentCommand.cpp:62 ui/CellToolBase.cpp:2473
 #, fuzzy
 #| msgid "Remove Comment"
 msgctxt "(qtundo-format)"
@@ -388,7 +388,7 @@ msgctxt "(qtundo-format)"
 msgid "Decrease Indentation"
 msgstr "Аниқликни камайтириш"
 
-#: commands/LinkCommand.cpp:39 ui/CellToolBase.cpp:607
+#: commands/LinkCommand.cpp:39 ui/CellToolBase.cpp:608
 msgid "Remove Link"
 msgstr "Боғни олиб ташлаш"
 
@@ -396,22 +396,22 @@ msgstr "Боғни олиб ташлаш"
 msgid "Set Link"
 msgstr "Боғни кўрсатиш"
 
-#: commands/MergeCommand.cpp:130 ui/CellToolBase.cpp:453
+#: commands/MergeCommand.cpp:130 ui/CellToolBase.cpp:454
 msgid "Merge Cells Horizontally"
 msgstr "Катакларни энига бирлаштириш"
 
-#: commands/MergeCommand.cpp:132 ui/CellToolBase.cpp:458
+#: commands/MergeCommand.cpp:132 ui/CellToolBase.cpp:459
 msgid "Merge Cells Vertically"
 msgstr "Катакларни бўйига бирлаштириш"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
 #. i18n: ectx: Menu (MergeCellMenu)
 #: commands/MergeCommand.cpp:134 dialogs/PositionWidget.ui:179 sheets.rc:104
-#: ui/CellToolBase.cpp:448
+#: ui/CellToolBase.cpp:449
 msgid "Merge Cells"
 msgstr "Катакларни бирлаштириш"
 
-#: commands/MergeCommand.cpp:137 ui/CellToolBase.cpp:463
+#: commands/MergeCommand.cpp:137 ui/CellToolBase.cpp:464
 msgid "Dissociate Cells"
 msgstr "Катакларни ажратиш"
 
@@ -3074,8 +3074,8 @@ msgstr "ZWD"
 
 #: database/FilterPopup.cpp:69 dialogs/FormulaDialog.cpp:102
 #: dialogs/FormulaDialog.cpp:208 dialogs/FormulaDialog.cpp:742
-#: dialogs/ValidityDialog.cpp:80 ui/CellToolBase.cpp:340
-#: ui/CellToolBase.cpp:567
+#: dialogs/ValidityDialog.cpp:80 ui/CellToolBase.cpp:341
+#: ui/CellToolBase.cpp:568
 msgid "All"
 msgstr "Ҳаммаси"
 
@@ -3257,7 +3257,7 @@ msgstr "Катак услуби"
 msgid "different from"
 msgstr ""
 
-#: dialogs/ConditionalDialog.cpp:260 ui/CellToolBase.cpp:595
+#: dialogs/ConditionalDialog.cpp:260 ui/CellToolBase.cpp:596
 #, fuzzy
 msgid "Conditional Styles"
 msgstr "Катакнинг шартли атрибутлари..."
@@ -3295,33 +3295,45 @@ msgstr "&Нусха олиш"
 msgid "Consolidate"
 msgstr "Муғилистон"
 
-#: dialogs/ConsolidateDialog.cpp:106 dialogs/SubtotalDialog.cpp:287
-#: part/dialogs/PreferenceDialog.cpp:333 part/View.cpp:466
+#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
+#: dialogs/ConsolidateDialog.cpp:106 dialogs/pivotsubtotals.ui:38
+#: dialogs/SubtotalDialog.cpp:287 part/dialogs/PreferenceDialog.cpp:333
+#: part/View.cpp:466
 msgid "Sum"
 msgstr "Йиғинди"
 
-#: dialogs/ConsolidateDialog.cpp:107 dialogs/SubtotalDialog.cpp:279
-#: part/dialogs/PreferenceDialog.cpp:336 part/View.cpp:487
+#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
+#: dialogs/ConsolidateDialog.cpp:107 dialogs/pivotsubtotals.ui:48
+#: dialogs/SubtotalDialog.cpp:279 part/dialogs/PreferenceDialog.cpp:336
+#: part/View.cpp:487
 msgid "Average"
 msgstr "Ўртача"
 
-#: dialogs/ConsolidateDialog.cpp:108 dialogs/SubtotalDialog.cpp:280
-#: part/dialogs/PreferenceDialog.cpp:337 part/View.cpp:494
+#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
+#: dialogs/ConsolidateDialog.cpp:108 dialogs/pivotsubtotals.ui:43
+#: dialogs/SubtotalDialog.cpp:280 part/dialogs/PreferenceDialog.cpp:337
+#: part/View.cpp:494
 #, fuzzy
 msgid "Count"
 msgstr "Сони: "
 
-#: dialogs/ConsolidateDialog.cpp:109 dialogs/SubtotalDialog.cpp:282
-#: part/dialogs/PreferenceDialog.cpp:335 part/View.cpp:480
+#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
+#: dialogs/ConsolidateDialog.cpp:109 dialogs/pivotsubtotals.ui:53
+#: dialogs/SubtotalDialog.cpp:282 part/dialogs/PreferenceDialog.cpp:335
+#: part/View.cpp:480
 msgid "Max"
 msgstr "Макс"
 
-#: dialogs/ConsolidateDialog.cpp:110 dialogs/SubtotalDialog.cpp:283
-#: part/dialogs/PreferenceDialog.cpp:334 part/View.cpp:473
+#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
+#: dialogs/ConsolidateDialog.cpp:110 dialogs/pivotsubtotals.ui:58
+#: dialogs/SubtotalDialog.cpp:283 part/dialogs/PreferenceDialog.cpp:334
+#: part/View.cpp:473
 msgid "Min"
 msgstr "Мин"
 
-#: dialogs/ConsolidateDialog.cpp:111 dialogs/SubtotalDialog.cpp:284
+#. i18n: ectx: property (text), item, widget (QListWidget, Functions)
+#: dialogs/ConsolidateDialog.cpp:111 dialogs/pivotsubtotals.ui:63
+#: dialogs/SubtotalDialog.cpp:284
 msgid "Product"
 msgstr ""
 
@@ -3441,7 +3453,7 @@ msgstr ""
 msgid "There is no usable data in the clipboard."
 msgstr ""
 
-#: dialogs/CSVDialog.cpp:79
+#: dialogs/CSVDialog.cpp:80
 msgid "Import CSV Data File"
 msgstr ""
 
@@ -3449,28 +3461,28 @@ msgstr ""
 msgid "CSV data files (*.csv)"
 msgstr ""
 
-#: dialogs/CSVDialog.cpp:90
+#: dialogs/CSVDialog.cpp:89
 #, fuzzy
 msgid "Text to Columns"
 msgstr "Устунлар қўшиш"
 
-#: dialogs/CSVDialog.cpp:117
+#: dialogs/CSVDialog.cpp:116
 msgid "Cannot open input file."
 msgstr ""
 
-#: dialogs/CSVDialog.cpp:180
+#: dialogs/CSVDialog.cpp:179
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Inserting From Clipboard"
 msgstr "&Хотирадан..."
 
-#: dialogs/CSVDialog.cpp:182
+#: dialogs/CSVDialog.cpp:181
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Inserting Text File"
 msgstr "Катакни қўйиш"
 
-#: dialogs/CSVDialog.cpp:184
+#: dialogs/CSVDialog.cpp:183
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Text to Columns"
@@ -3540,8 +3552,9 @@ msgstr "Устун"
 msgid "Table"
 msgstr "Тала"
 
-#: dialogs/DatabaseDialog.cpp:201 ui/CellToolBase.cpp:475
-#: ui/CellToolBase.cpp:481
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/DatabaseDialog.cpp:201 dialogs/pivotmain.ui:129
+#: ui/CellToolBase.cpp:476 ui/CellToolBase.cpp:482
 msgid "Columns"
 msgstr "Устунлар"
 
@@ -3602,13 +3615,16 @@ msgstr "кам ёки тенг"
 msgid "Sorted by"
 msgstr "Саралаш"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, Order)
 #: dialogs/DatabaseDialog.cpp:277 dialogs/DatabaseDialog.cpp:289
-#: dialogs/SortDialog.cpp:545 dialogs/SortDialog.cpp:620
+#: dialogs/pivotsubtotals.ui:84 dialogs/SortDialog.cpp:545
+#: dialogs/SortDialog.cpp:620
 msgid "Ascending"
 msgstr "Кўпайиш бўйича"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, Order)
 #: dialogs/DatabaseDialog.cpp:278 dialogs/DatabaseDialog.cpp:290
-#: dialogs/SortDialog.cpp:541
+#: dialogs/pivotsubtotals.ui:89 dialogs/SortDialog.cpp:541
 msgid "Descending"
 msgstr "Камайиш бўйича"
 
@@ -3704,10 +3720,16 @@ msgstr "Камида битта жадвални танлаш лозим."
 msgid "You have to select at least one column."
 msgstr "Камида битта устунни танлаш лозим."
 
+#. i18n: ectx: property (text), item, widget (QComboBox, Operator)
+#. i18n: ectx: property (text), item, widget (QComboBox, BaseField)
+#. i18n: ectx: property (text), item, widget (QComboBox, BaseItem)
+#. i18n: ectx: property (text), widget (QRadioButton, None)
 #: dialogs/DatabaseDialog.cpp:737 dialogs/DatabaseDialog.cpp:738
-#: part/dialogs/PreferenceDialog.cpp:331 part/dialogs/PreferenceDialog.cpp:339
-#: part/dialogs/PreferenceDialog.cpp:468 part/View.cpp:459
-#: ui/CellToolBase.cpp:346
+#: dialogs/DocumentSettingsDialog.cpp:143 dialogs/pivotfilters.ui:36
+#: dialogs/pivotoptions.ui:95 dialogs/pivotoptions.ui:104
+#: dialogs/pivotsubtotals.ui:21 part/dialogs/PreferenceDialog.cpp:331
+#: part/dialogs/PreferenceDialog.cpp:339 part/dialogs/PreferenceDialog.cpp:468
+#: part/View.cpp:459 ui/CellToolBase.cpp:347
 msgid "None"
 msgstr "Йўқ"
 
@@ -3723,8 +3745,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, formatButton)
 #. i18n: ectx: ToolBar (formatToolBar)
 #: dialogs/DataFormatWidget.ui:35 dialogs/LayoutDialog.cpp:879
-#: dialogs/SpecialPasteWidget.ui:58 functions/conversion.xml:251 sheets.rc:234
-#: ui/CellToolBase.cpp:192
+#: dialogs/SpecialPasteWidget.ui:58 functions/conversion.xml:251 sheets.rc:235
+#: ui/CellToolBase.cpp:193
 msgid "Format"
 msgstr "Формат"
 
@@ -3780,13 +3802,13 @@ msgstr "Пул"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_4)
 #: dialogs/DataFormatWidget.ui:95 dialogs/LayoutDialog.cpp:897
-#: ui/CellToolBase.cpp:404
+#: ui/CellToolBase.cpp:405
 msgid "Money"
 msgstr "Пул"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_3)
 #: dialogs/DataFormatWidget.ui:102 dialogs/LayoutDialog.cpp:893
-#: ui/CellToolBase.cpp:398
+#: ui/CellToolBase.cpp:399
 msgid "Percent"
 msgstr "Фоиз"
 
@@ -3845,52 +3867,89 @@ msgstr "Аниқлик:"
 msgid "Prefix:"
 msgstr "Префикс:"
 
-#: dialogs/DocumentSettingsDialog.cpp:72
+#: dialogs/DocumentSettingsDialog.cpp:75
 #, fuzzy
 msgid "Document Settings"
 msgstr "Мосламалар"
 
-#: dialogs/DocumentSettingsDialog.cpp:82
+#: dialogs/DocumentSettingsDialog.cpp:85
 #, fuzzy
-msgid "Locale Settings"
-msgstr "Мосламалар"
+#| msgid "Calculation mode"
+msgid "Calculation"
+msgstr "Ҳисоблаш усули"
 
-#: dialogs/DocumentSettingsDialog.cpp:83
+#: dialogs/DocumentSettingsDialog.cpp:91
+msgid "Locale"
+msgstr ""
+
+#: dialogs/DocumentSettingsDialog.cpp:122
+msgid "Case sensitive"
+msgstr ""
+
+#: dialogs/DocumentSettingsDialog.cpp:125
 #, fuzzy
-msgid "Document's Locale Settings"
-msgstr "Мосламалар"
+#| msgid "Precision"
+msgid "Precision as shown"
+msgstr "Аниқлик"
 
-#: dialogs/DocumentSettingsDialog.cpp:126
+#: dialogs/DocumentSettingsDialog.cpp:128
+msgid "Search criteria must apply to whole cell"
+msgstr ""
+
+#: dialogs/DocumentSettingsDialog.cpp:131
+#, fuzzy
+#| msgid "Automatic"
+msgid "Automatic find labels"
+msgstr "Автоматик"
+
+#: dialogs/DocumentSettingsDialog.cpp:137
+msgid "String comparison:"
+msgstr ""
+
+#: dialogs/DocumentSettingsDialog.cpp:143
+msgid "Wildcards"
+msgstr ""
+
+#: dialogs/DocumentSettingsDialog.cpp:143
+#, fuzzy
+msgid "Regular Expressions"
+msgstr "Математик ифода қўшиш."
+
+#: dialogs/DocumentSettingsDialog.cpp:149
+msgid "Null Year:"
+msgstr ""
+
+#: dialogs/DocumentSettingsDialog.cpp:188
 #, fuzzy
 msgid "&Use System's Locale Settings"
 msgstr "Мосламалар"
 
-#: dialogs/DocumentSettingsDialog.cpp:152
+#: dialogs/DocumentSettingsDialog.cpp:214
 #, kde-format
 msgid "Language: %1"
 msgstr "Тил: %1"
 
-#: dialogs/DocumentSettingsDialog.cpp:153
+#: dialogs/DocumentSettingsDialog.cpp:215
 #, kde-format
 msgid "Default number format: %1"
 msgstr "Андоза рақам кўриниши: %1"
 
-#: dialogs/DocumentSettingsDialog.cpp:154
+#: dialogs/DocumentSettingsDialog.cpp:216
 #, kde-format
 msgid "Long date format: %1"
 msgstr "Сананинг тўлиқ кўриниши: %1"
 
-#: dialogs/DocumentSettingsDialog.cpp:155
+#: dialogs/DocumentSettingsDialog.cpp:217
 #, kde-format
 msgid "Short date format: %1"
 msgstr "Сананинг қисқа кўриниши: %1"
 
-#: dialogs/DocumentSettingsDialog.cpp:156
+#: dialogs/DocumentSettingsDialog.cpp:218
 #, kde-format
 msgid "Time format: %1"
 msgstr "Вақтнинг кўриниши: %1"
 
-#: dialogs/DocumentSettingsDialog.cpp:157
+#: dialogs/DocumentSettingsDialog.cpp:219
 #, kde-format
 msgid "Currency format: %1"
 msgstr "Пулнинг кўриниши: %1"
@@ -3969,7 +4028,7 @@ msgstr "Руминия"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, style_combo)
 #: dialogs/FontWidget.ui:57 dialogs/LayoutDialog.cpp:1889
-#: ui/CellToolBase.cpp:226
+#: ui/CellToolBase.cpp:227
 #, fuzzy
 msgid "Italic"
 msgstr "Италия"
@@ -3985,13 +4044,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, weight_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, ValueType)
 #: dialogs/FontWidget.ui:77 dialogs/LayoutDialog.cpp:1876
+#: dialogs/pivotoptions.ui:81
 msgid "Normal"
 msgstr "Оддий"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, weight_combo)
 #: dialogs/FontWidget.ui:82 dialogs/LayoutDialog.cpp:1878
-#: ui/CellToolBase.cpp:221
+#: ui/CellToolBase.cpp:222
 msgid "Bold"
 msgstr "Қалин"
 
@@ -4009,7 +4070,7 @@ msgid "If this is checked, the current cell text will be underlined."
 msgstr "Агар белгиланса, жорий катакдаги матннинг таги чизилади."
 
 #. i18n: ectx: property (text), widget (QCheckBox, underline)
-#: dialogs/FontWidget.ui:100 ui/CellToolBase.cpp:231
+#: dialogs/FontWidget.ui:100 ui/CellToolBase.cpp:232
 msgid "Underline"
 msgstr "Таги чизилган"
 
@@ -4060,7 +4121,9 @@ msgid ""
 "You can see a preview of the font you are choosing for the current cell."
 msgstr ""
 
-#: dialogs/FormulaDialog.cpp:70 functions/math.xml:11
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/FormulaDialog.cpp:70 dialogs/pivotoptions.ui:19
+#: functions/math.xml:11
 msgid "Function"
 msgstr "Функция"
 
@@ -4217,7 +4280,7 @@ msgid "Remove Cells"
 msgstr "Катакларни олиб ташлаш"
 
 #: dialogs/LayoutDialog.cpp:165 dialogs/StyleManagerDialog.cpp:62
-#: ui/CellToolBase.cpp:208
+#: ui/CellToolBase.cpp:209
 msgid "Style"
 msgstr "Услуб"
 
@@ -4239,12 +4302,12 @@ msgstr "Варақнинг услуби"
 #: dialogs/StyleManagerDialog.cpp:157 dialogs/StyleManagerDialog.cpp:190
 #: dialogs/StyleManagerDialog.cpp:212 dialogs/StyleManagerDialog.cpp:253
 #: dialogs/StyleManagerDialog.cpp:279 dialogs/StyleManagerDialog.cpp:300
-#: StyleManager.cpp:362 ui/CellToolBase.cpp:198
+#: StyleManager.cpp:362 ui/CellToolBase.cpp:199
 #, fuzzy
 msgid "Default"
 msgstr "Натижа"
 
-#: dialogs/LayoutDialog.cpp:231 ui/CellToolBase.cpp:1681
+#: dialogs/LayoutDialog.cpp:231 ui/CellToolBase.cpp:1687
 msgid "A style with this name already exists."
 msgstr "Ушбу номли услуб аллақачон мавжуд."
 
@@ -4455,7 +4518,7 @@ msgid ""
 msgstr ""
 
 #: dialogs/LayoutDialog.cpp:1009 dialogs/LayoutDialog.cpp:1582
-#: dialogs/LayoutDialog.cpp:1644 functions/information.cpp:213
+#: dialogs/LayoutDialog.cpp:1644 functions/information.cpp:217
 #: part/dialogs/PreferenceDialog.cpp:471
 msgid "Automatic"
 msgstr "Автоматик"
@@ -4554,7 +4617,7 @@ msgstr "Орқа фон ранги:"
 msgid "No Color"
 msgstr "Рангсиз"
 
-#: dialogs/LinkDialog.cpp:74 ui/CellToolBase.cpp:2501
+#: dialogs/LinkDialog.cpp:74 ui/CellToolBase.cpp:2507
 msgid "Insert Link"
 msgstr "Боғни қўйиш"
 
@@ -4714,7 +4777,7 @@ msgstr ""
 msgid "&Select"
 msgstr "&Варақ"
 
-#: dialogs/NamedAreaDialog.cpp:66 ui/CellToolBase.cpp:737
+#: dialogs/NamedAreaDialog.cpp:66 ui/CellToolBase.cpp:743
 #, fuzzy
 #| msgid "Remove Area"
 msgid "Named Areas"
@@ -4778,6 +4841,220 @@ msgstr "Майдоннинг номи:"
 msgid "Paste Inserting Cells"
 msgstr "Катакни қўйиш"
 
+#: dialogs/pivot.cpp:46
+#, fuzzy
+#| msgid "S&pecial Character..."
+msgid "Select Source"
+msgstr "Ма&хсус белги..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, Current)
+#: dialogs/pivot.ui:25
+#, fuzzy
+msgid "Current Selection"
+msgstr "Танлашни бекор қилиш."
+
+#. i18n: ectx: property (text), widget (QRadioButton, External)
+#: dialogs/pivot.ui:32
+#, fuzzy
+#| msgid "&External Data"
+msgid "External Source"
+msgstr "&Ташқи маълумот"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/pivotfilters.ui:21
+#, fuzzy
+#| msgid "Operation"
+msgid "Operator"
+msgstr "Амал"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, Operator)
+#: dialogs/pivotfilters.ui:41
+#, fuzzy
+#| msgid "&Add"
+msgid "And"
+msgstr "&Қўшиш"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, Operator)
+#: dialogs/pivotfilters.ui:46
+msgid "Or"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/pivotfilters.ui:61
+#, fuzzy
+#| msgid "Riel"
+msgid "Field"
+msgstr "Риел"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/pivotfilters.ui:81 functions/logic.xml:201
+#, fuzzy
+msgid "Condition"
+msgstr "Қўшиш"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, Condition)
+#: dialogs/pivotfilters.ui:89
+msgid "<"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, Condition)
+#: dialogs/pivotfilters.ui:94
+msgid ">"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, Condition)
+#: dialogs/pivotfilters.ui:99
+msgid "=="
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, Condition)
+#: dialogs/pivotfilters.ui:104
+msgid "!="
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/pivotfilters.ui:122 functions/conversion.xml:187
+#: functions/information.xml:40 functions/math.xml:729
+#: functions/statistical.xml:1027 functions/text.xml:140
+#: functions/text.xml:155
+msgid "Value"
+msgstr "Қиймат"
+
+#: dialogs/pivotmain.cpp:69
+msgid "Pivot Table Configuration Window"
+msgstr ""
+
+#: dialogs/pivotmain.cpp:73
+#, fuzzy
+msgid "Add Filter"
+msgstr "файл"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/pivotmain.ui:19
+msgid "Drag from Labels and drop in the desired field"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/pivotmain.ui:32
+msgid "Labels"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/pivotmain.ui:46
+#, fuzzy
+#| msgid "Text Option"
+msgid "Select Option"
+msgstr "Матн мосламалари"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, selectOption)
+#. i18n: ectx: property (text), item, widget (QComboBox, SelectFunction)
+#: dialogs/pivotmain.ui:54 dialogs/pivotoptions.ui:52
+#, fuzzy
+#| msgid "Sum"
+msgid "sum"
+msgstr "Йиғинди"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, selectOption)
+#. i18n: ectx: property (text), item, widget (QComboBox, SelectFunction)
+#: dialogs/pivotmain.ui:59 dialogs/pivotoptions.ui:57
+#, fuzzy
+#| msgid "Average"
+msgid "average"
+msgstr "Ўртача"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, selectOption)
+#. i18n: ectx: property (text), item, widget (QComboBox, SelectFunction)
+#: dialogs/pivotmain.ui:64 dialogs/pivotoptions.ui:67
+#, fuzzy
+#| msgid "Max"
+msgid "max"
+msgstr "Макс"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, selectOption)
+#. i18n: ectx: property (text), item, widget (QComboBox, SelectFunction)
+#: dialogs/pivotmain.ui:69 dialogs/pivotoptions.ui:72 ValueFormatter.cpp:536
+msgid "min"
+msgstr "дақиқа"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, selectOption)
+#. i18n: ectx: property (text), item, widget (QComboBox, SelectFunction)
+#: dialogs/pivotmain.ui:74 dialogs/pivotoptions.ui:62
+#, fuzzy
+msgid "count"
+msgstr "Сони: "
+
+#. i18n: ectx: property (text), widget (QCheckBox, TotalRows)
+#: dialogs/pivotmain.ui:93
+#, fuzzy
+#| msgid "Show Rows"
+msgid "Total Rows"
+msgstr "Сатрларни кўрсатиш"
+
+#. i18n: ectx: property (text), widget (QCheckBox, TotalColumns)
+#: dialogs/pivotmain.ui:100
+#, fuzzy
+#| msgid "Show Columns"
+msgid "Total Columns"
+msgstr "Устунларни кўрсатиш"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/pivotmain.ui:115 ui/CellToolBase.cpp:514 ui/CellToolBase.cpp:520
+#, fuzzy
+#| msgid "Row"
+msgid "Rows"
+msgstr "Сатр"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: dialogs/pivotmain.ui:143 functions/financial.xml:678
+#: functions/financial.xml:796 functions/financial.xml:1395
+#: functions/financial.xml:1422 functions/math.xml:15 functions/math.xml:292
+#: functions/math.xml:310 functions/math.xml:394 functions/math.xml:412
+#: functions/math.xml:454 functions/math.xml:471 functions/math.xml:489
+#: functions/math.xml:503 functions/math.xml:520 functions/math.xml:537
+#: functions/math.xml:558 functions/math.xml:579 functions/math.xml:600
+#: functions/math.xml:621 functions/math.xml:639
+#, fuzzy
+#| msgid "&Values"
+msgid "Values"
+msgstr "&Қийматлар"
+
+#: dialogs/pivotoptions.cpp:51
+#, fuzzy
+#| msgid "Operation"
+msgid "Pivot Options"
+msgstr "Амал"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/pivotoptions.ui:26
+#, fuzzy
+#| msgid "Value"
+msgid "Value Type"
+msgstr "Қиймат"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/pivotoptions.ui:33
+msgid "Base Field"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/pivotoptions.ui:40
+#, fuzzy
+#| msgid "Bs"
+msgid "Base Item"
+msgstr "Bs"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ManualSelection)
+#: dialogs/pivotsubtotals.ui:28
+#, fuzzy
+msgid "Manual Selection"
+msgstr "Формула танлаш"
+
+#. i18n: ectx: property (text), widget (QCheckBox, SortBy)
+#: dialogs/pivotsubtotals.ui:73
+#, fuzzy
+msgid "Sort By"
+msgstr "Саралаш"
+
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, horizontalGroup)
 #: dialogs/PositionWidget.ui:45
 msgid ""
@@ -4805,20 +5082,20 @@ msgstr "Андоза"
 
 #. i18n: ectx: property (text), widget (QRadioButton, left)
 #: dialogs/PositionWidget.ui:61 part/dialogs/PreferenceDialog.cpp:329
-#: ui/CellToolBase.cpp:269 ui/CellToolBase.cpp:316
+#: ui/CellToolBase.cpp:270 ui/CellToolBase.cpp:317
 #, fuzzy
 msgid "Left"
 msgstr "Lt"
 
 #. i18n: ectx: property (text), widget (QRadioButton, center)
-#: dialogs/PositionWidget.ui:68 ui/CellToolBase.cpp:276
+#: dialogs/PositionWidget.ui:68 ui/CellToolBase.cpp:277
 #, fuzzy
 msgid "Center"
 msgstr "Марказда"
 
 #. i18n: ectx: property (text), widget (QRadioButton, right)
 #: dialogs/PositionWidget.ui:75 part/dialogs/PreferenceDialog.cpp:328
-#: ui/CellToolBase.cpp:283 ui/CellToolBase.cpp:322
+#: ui/CellToolBase.cpp:284 ui/CellToolBase.cpp:323
 #, fuzzy
 msgid "Right"
 msgstr "Узунаси:"
@@ -4837,25 +5114,25 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/PositionWidget.ui:91 dialogs/SeriesDialog.cpp:67
-#: part/dialogs/PageLayoutSheetPage.ui:335 ui/CellToolBase.cpp:374
+#: part/dialogs/PageLayoutSheetPage.ui:335 ui/CellToolBase.cpp:375
 #, fuzzy
 msgid "Vertical"
 msgstr "Метикал"
 
 #. i18n: ectx: property (text), widget (QRadioButton, top)
-#: dialogs/PositionWidget.ui:97 ui/CellToolBase.cpp:293
-#: ui/CellToolBase.cpp:328
+#: dialogs/PositionWidget.ui:97 ui/CellToolBase.cpp:294
+#: ui/CellToolBase.cpp:329
 msgid "Top"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, middle)
-#: dialogs/PositionWidget.ui:104 ui/CellToolBase.cpp:300
+#: dialogs/PositionWidget.ui:104 ui/CellToolBase.cpp:301
 msgid "Middle"
 msgstr "Ўртача"
 
 #. i18n: ectx: property (text), widget (QRadioButton, bottom)
-#: dialogs/PositionWidget.ui:111 ui/CellToolBase.cpp:307
-#: ui/CellToolBase.cpp:334
+#: dialogs/PositionWidget.ui:111 ui/CellToolBase.cpp:308
+#: ui/CellToolBase.cpp:335
 #, fuzzy
 msgid "Bottom"
 msgstr "Пастда текислаш"
@@ -5179,7 +5456,7 @@ msgid ""
 "If the step is negative, the start value must be greater then the end value."
 msgstr ""
 
-#: dialogs/ShowColRowDialog.cpp:62 ui/CellToolBase.cpp:502
+#: dialogs/ShowColRowDialog.cpp:62 ui/CellToolBase.cpp:503
 msgid "Show Columns"
 msgstr "Устунларни кўрсатиш"
 
@@ -5188,7 +5465,7 @@ msgstr "Устунларни кўрсатиш"
 msgid "Select hidden columns to show:"
 msgstr "Кўрсатиш учун бекитилган сатрни танланг:"
 
-#: dialogs/ShowColRowDialog.cpp:65 ui/CellToolBase.cpp:540
+#: dialogs/ShowColRowDialog.cpp:65 ui/CellToolBase.cpp:541
 msgid "Show Rows"
 msgstr "Сатрларни кўрсатиш"
 
@@ -5364,7 +5641,7 @@ msgid "Everything"
 msgstr "Ҳаммаси"
 
 #. i18n: ectx: property (text), widget (QRadioButton, commentButton)
-#: dialogs/SpecialPasteWidget.ui:65 ui/CellToolBase.cpp:584
+#: dialogs/SpecialPasteWidget.ui:65 ui/CellToolBase.cpp:585
 #: ui/CellToolBase_p.cpp:1297
 msgid "Comment"
 msgstr "Изоҳ"
@@ -5522,7 +5799,7 @@ msgstr "Функцияни қўйиш"
 msgid "Add Subtotal to:"
 msgstr ""
 
-#: dialogs/ValidityDialog.cpp:62 ui/CellToolBase.cpp:617
+#: dialogs/ValidityDialog.cpp:62 ui/CellToolBase.cpp:618
 msgid "Validity"
 msgstr "Текшириш"
 
@@ -6130,12 +6407,6 @@ msgstr "Тувалу"
 #, fuzzy
 msgid "CARX(12;0) returns 12"
 msgstr "Тувалу"
-
-#: functions/conversion.xml:187 functions/information.xml:40
-#: functions/math.xml:729 functions/statistical.xml:1027
-#: functions/text.xml:140 functions/text.xml:155
-msgid "Value"
-msgstr "Қиймат"
 
 #: functions/conversion.xml:191
 msgid "The DECSEX() function converts a double value to a time value."
@@ -9146,19 +9417,6 @@ msgstr ""
 msgid "IPMT(0.1;3;3;8000) equals -292.45"
 msgstr ""
 
-#: functions/financial.xml:678 functions/financial.xml:796
-#: functions/financial.xml:1395 functions/financial.xml:1422
-#: functions/math.xml:15 functions/math.xml:292 functions/math.xml:310
-#: functions/math.xml:394 functions/math.xml:412 functions/math.xml:454
-#: functions/math.xml:471 functions/math.xml:489 functions/math.xml:503
-#: functions/math.xml:520 functions/math.xml:537 functions/math.xml:558
-#: functions/math.xml:579 functions/math.xml:600 functions/math.xml:621
-#: functions/math.xml:639
-#, fuzzy
-#| msgid "&Values"
-msgid "Values"
-msgstr "&Қийматлар"
-
 #: functions/financial.xml:682 functions/financial.xml:1170
 #: functions/financial.xml:1403
 msgid "Guess"
@@ -9778,7 +10036,7 @@ msgstr ""
 msgid "ZERO_COUPON(1000;.1;20) equals 148.64"
 msgstr ""
 
-#: functions/information.cpp:211 part/dialogs/PreferenceDialog.cpp:469
+#: functions/information.cpp:215 part/dialogs/PreferenceDialog.cpp:469
 msgid "Manual"
 msgstr "Қўлбола"
 
@@ -10406,11 +10664,6 @@ msgstr "Қиймат"
 #, fuzzy
 msgid "NOT(true) returns False"
 msgstr "Қиймат"
-
-#: functions/logic.xml:201
-#, fuzzy
-msgid "Condition"
-msgstr "Қўшиш"
 
 #: functions/logic.xml:205
 msgid "If true"
@@ -15821,7 +16074,7 @@ msgstr "варақ"
 msgid "Sheet%1"
 msgstr "Варақ%1"
 
-#: Map.cpp:593 Map.cpp:683
+#: Map.cpp:595 Map.cpp:685
 msgid "This document has no sheets (tables)."
 msgstr "Ушбу ҳужжатда варақлар (жадваллар) мавжуд эмас."
 
@@ -15839,149 +16092,149 @@ msgid "Calligra Sheets"
 msgstr "Катак қийматлари"
 
 #: part/AboutData.h:41
-#, fuzzy
-msgid "(c) 1998-2013, The Calligra Sheets Team"
+#, fuzzy, kde-format
+msgid "© 1998-%1, The Calligra Sheets Team"
 msgstr "(C) 1998-2006, KSpread жамоаси"
 
-#: part/AboutData.h:45
+#: part/AboutData.h:46
 msgid "Torben Weis"
 msgstr ""
 
-#: part/AboutData.h:45
+#: part/AboutData.h:46
 msgid "Original Author"
 msgstr ""
 
-#: part/AboutData.h:46
+#: part/AboutData.h:47
 msgid "Marijn Kruisselbrink"
 msgstr ""
 
-#: part/AboutData.h:46
+#: part/AboutData.h:47
 #, fuzzy
 #| msgid "Martinique"
 msgid "Maintainer"
 msgstr "Мартиника"
 
-#: part/AboutData.h:47
+#: part/AboutData.h:48
 msgid "Sebastian Sauer"
 msgstr ""
 
-#: part/AboutData.h:47
+#: part/AboutData.h:48
 msgid "ODS and Excel, functions, scripting"
 msgstr ""
 
-#: part/AboutData.h:48
+#: part/AboutData.h:49
 msgid "Laurent Montel"
 msgstr ""
 
-#: part/AboutData.h:49
+#: part/AboutData.h:50
 msgid "John Dailey"
 msgstr ""
 
-#: part/AboutData.h:50
+#: part/AboutData.h:51
 #, fuzzy
 #| msgid "Philippines"
 msgid "Philipp Müller"
 msgstr "Филиппин"
 
-#: part/AboutData.h:51
+#: part/AboutData.h:52
 msgid "Ariya Hidayat"
 msgstr ""
 
-#: part/AboutData.h:52
+#: part/AboutData.h:53
 msgid "Norbert Andres"
 msgstr ""
 
-#: part/AboutData.h:53
+#: part/AboutData.h:54
 #, fuzzy
 msgid "Shaheed Haque"
 msgstr "Варақнинг услуби"
 
-#: part/AboutData.h:54 part/AboutData.h:57 part/AboutData.h:60
-#: part/AboutData.h:64 part/AboutData.h:67 part/AboutData.h:70
-#: part/AboutData.h:73 part/AboutData.h:76 part/AboutData.h:79
+#: part/AboutData.h:55 part/AboutData.h:58 part/AboutData.h:61
+#: part/AboutData.h:65 part/AboutData.h:68 part/AboutData.h:71
+#: part/AboutData.h:74 part/AboutData.h:77 part/AboutData.h:80
 msgid "Import/export filter developer"
 msgstr ""
 
-#: part/AboutData.h:56
+#: part/AboutData.h:57
 msgid "Werner Trobin"
 msgstr ""
 
-#: part/AboutData.h:59
+#: part/AboutData.h:60
 msgid "Nikolas Zimmermann"
 msgstr ""
 
-#: part/AboutData.h:62
+#: part/AboutData.h:63
 msgid "David Faure"
 msgstr ""
 
-#: part/AboutData.h:63
+#: part/AboutData.h:64
 #, fuzzy
 #| msgid "Belize Dollar"
 msgid "Helge Deller"
 msgstr "Белиз доллари"
 
-#: part/AboutData.h:66
+#: part/AboutData.h:67
 #, fuzzy
 #| msgid "Percent"
 msgid "Percy Leonhart"
 msgstr "Фоиз"
 
-#: part/AboutData.h:69
+#: part/AboutData.h:70
 msgid "Eva Brucherseifer"
 msgstr ""
 
-#: part/AboutData.h:72
+#: part/AboutData.h:73
 msgid "Phillip Ezolt"
 msgstr ""
 
-#: part/AboutData.h:75
+#: part/AboutData.h:76
 msgid "Enno Bartels"
 msgstr ""
 
-#: part/AboutData.h:78
+#: part/AboutData.h:79
 msgid "Graham Short"
 msgstr ""
 
-#: part/AboutData.h:81
+#: part/AboutData.h:82
 msgid "Lukáš Tinkl"
 msgstr ""
 
-#: part/AboutData.h:82
+#: part/AboutData.h:83
 msgid "Tomas Mecir"
 msgstr ""
 
-#: part/AboutData.h:83
+#: part/AboutData.h:84
 msgid "Raphael Langerhorst"
 msgstr ""
 
-#: part/AboutData.h:84
+#: part/AboutData.h:85
 msgid "John Tapsell"
 msgstr ""
 
-#: part/AboutData.h:85
+#: part/AboutData.h:86
 #, fuzzy
 #| msgid "Border Right"
 msgid "Robert Knight"
 msgstr "Ўнг чегара"
 
-#: part/AboutData.h:86
+#: part/AboutData.h:87
 msgid "Stefan Nikolaus"
 msgstr ""
 
-#: part/AboutData.h:87
+#: part/AboutData.h:88
 msgid "Sascha Pfau"
 msgstr ""
 
-#: part/AboutData.h:87
+#: part/AboutData.h:88
 #, fuzzy
 msgid "Developer (functions)"
 msgstr "<h2>Параметрлар</h2><ul>"
 
-#: part/AboutData.h:88
+#: part/AboutData.h:89
 msgid "Brad Hards"
 msgstr ""
 
-#: part/AboutData.h:89
+#: part/AboutData.h:90
 msgid "Implemented, reviewed and tested various functions"
 msgstr ""
 
@@ -16746,10 +16999,10 @@ msgstr "Эни: %1 %2"
 msgid "Hide Column"
 msgstr "Устунни бекитиш"
 
-#: part/Headers.cpp:259 part/Headers.cpp:758 ui/CellToolBase.cpp:2196
-#: ui/CellToolBase.cpp:2224 ui/CellToolBase.cpp:2238 ui/CellToolBase.cpp:2260
-#: ui/CellToolBase.cpp:2300 ui/CellToolBase.cpp:2328 ui/CellToolBase.cpp:2342
-#: ui/CellToolBase.cpp:2364
+#: part/Headers.cpp:259 part/Headers.cpp:758 ui/CellToolBase.cpp:2202
+#: ui/CellToolBase.cpp:2230 ui/CellToolBase.cpp:2244 ui/CellToolBase.cpp:2266
+#: ui/CellToolBase.cpp:2306 ui/CellToolBase.cpp:2334 ui/CellToolBase.cpp:2348
+#: ui/CellToolBase.cpp:2370
 #, fuzzy
 msgid "Area is too large."
 msgstr "Майдон жуда катта."
@@ -17146,7 +17399,7 @@ msgstr "Сатрларни олиб ташлаш"
 msgid "Rename Sheet"
 msgstr "Варақнинг номини ўзгартириш"
 
-#: part/View.cpp:1788 ui/CellToolBase.cpp:1668
+#: part/View.cpp:1788 ui/CellToolBase.cpp:1674
 msgid "Enter name:"
 msgstr "Номини киритинг:"
 
@@ -17307,30 +17560,30 @@ msgid "Filter"
 msgstr "файл"
 
 #. i18n: ectx: Menu (tools)
-#: sheets.rc:164
+#: sheets.rc:165
 #, fuzzy
 msgid "&Tools"
 msgstr "Того"
 
 #. i18n: ectx: Menu (settings)
-#: sheets.rc:177
+#: sheets.rc:178
 #, fuzzy
 msgid "&Settings"
 msgstr "Мосламалар"
 
 #. i18n: ectx: ToolBar (editToolBar)
-#: sheets.rc:208
+#: sheets.rc:209
 #, fuzzy
 msgid "Edit"
 msgstr "&Таҳрирлаш..."
 
 #. i18n: ectx: ToolBar (navigationToolBar)
-#: sheets.rc:218
+#: sheets.rc:219
 msgid "Navigation"
 msgstr ""
 
 #. i18n: ectx: Menu
-#: sheets.rc:224
+#: sheets.rc:225
 #, fuzzy
 #| msgid "Hide Sheet"
 msgid "Activate"
@@ -17338,14 +17591,14 @@ msgstr "Варақни бекитиш"
 
 #. i18n: tag optionWidget attribute name
 #. i18n: ectx: ToolBar (fontPropertyToolBar)
-#: sheets.rc:230 ui/CellToolBase.cpp:241 ui/CellToolOptionWidgets.xml:3
+#: sheets.rc:231 ui/CellToolBase.cpp:242 ui/CellToolOptionWidgets.xml:3
 #, fuzzy
 #| msgid "&Font"
 msgid "Font"
 msgstr "&Шрифт"
 
 #. i18n: ectx: ToolBar (colorAndBorderToolBar)
-#: sheets.rc:260
+#: sheets.rc:261
 msgid "Color/Border"
 msgstr "Ранг/Чегара"
 
@@ -17370,1109 +17623,1112 @@ msgstr "Катаклар:"
 msgid "Formula"
 msgstr " Формула "
 
-#: ui/CellToolBase.cpp:191
+#: ui/CellToolBase.cpp:192
 msgid "Cell Format..."
 msgstr "Катакнинг формати"
 
-#: ui/CellToolBase.cpp:196
+#: ui/CellToolBase.cpp:197
 #, fuzzy
 msgid "Set the cell formatting"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:201
+#: ui/CellToolBase.cpp:202
 #, fuzzy
 msgid "Resets to the default format"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:203
+#: ui/CellToolBase.cpp:204
 #, fuzzy
 #| msgid "Style Manager"
 msgid "Style Manager..."
 msgstr "Услуб бошқарувчиси"
 
-#: ui/CellToolBase.cpp:206
+#: ui/CellToolBase.cpp:207
 #, fuzzy
 msgid "Edit and organize cell styles"
 msgstr "Катак услубларини ўзгартириш ва бошқариш."
 
-#: ui/CellToolBase.cpp:210
+#: ui/CellToolBase.cpp:211
 #, fuzzy
 msgid "Apply a predefined style to the selected cells"
 msgstr "Танланган катак учун олдиндан аниқланган услубни қўллаш."
 
-#: ui/CellToolBase.cpp:213
+#: ui/CellToolBase.cpp:214
 msgid "Create Style From Cell..."
 msgstr "Услубни катакдан яратиш..."
 
-#: ui/CellToolBase.cpp:214
+#: ui/CellToolBase.cpp:215
 #, fuzzy
 #| msgid "Style of Cell"
 msgid "Style From Cell"
 msgstr "Катакнинг услуби"
 
-#: ui/CellToolBase.cpp:217
+#: ui/CellToolBase.cpp:218
 #, fuzzy
 msgid "Create a new style based on the currently selected cell"
 msgstr "Жорий танланган катак асосида янги услуб яратиш."
 
-#: ui/CellToolBase.cpp:236
+#: ui/CellToolBase.cpp:237
 msgid "Strike Out"
 msgstr "Усти чизилган"
 
-#: ui/CellToolBase.cpp:240
+#: ui/CellToolBase.cpp:241
 msgid "Select Font..."
 msgstr "Шрифтни танлаш"
 
-#: ui/CellToolBase.cpp:245
+#: ui/CellToolBase.cpp:246
 msgid "Select Font Size"
 msgstr "Шрифт ўлчамини танлаш"
 
-#: ui/CellToolBase.cpp:246
+#: ui/CellToolBase.cpp:247
 #, fuzzy
 #| msgid "Select Font Size"
 msgid "Font Size"
 msgstr "Шрифт ўлчамини танлаш"
 
-#: ui/CellToolBase.cpp:250
+#: ui/CellToolBase.cpp:251
 msgid "Increase Font Size"
 msgstr "Шрифтни катталаштириш"
 
-#: ui/CellToolBase.cpp:254
+#: ui/CellToolBase.cpp:255
 msgid "Decrease Font Size"
 msgstr "Шрифтни кичиклаштириш"
 
-#: ui/CellToolBase.cpp:260
+#: ui/CellToolBase.cpp:261
 msgid "Text Color"
 msgstr "Матннинг ранги"
 
-#: ui/CellToolBase.cpp:261
+#: ui/CellToolBase.cpp:262
 #, fuzzy
 msgid "Set the text color"
 msgstr "Орқа фон рангини кўрсатиш."
 
-#: ui/CellToolBase.cpp:268
+#: ui/CellToolBase.cpp:269
 msgid "Align Left"
 msgstr "Чапга текислаш"
 
-#: ui/CellToolBase.cpp:272
+#: ui/CellToolBase.cpp:273
 #, fuzzy
 msgid "Left justify the cell contents"
 msgstr "Катак таркибини чап томонга текислаш."
 
-#: ui/CellToolBase.cpp:275
+#: ui/CellToolBase.cpp:276
 msgid "Align Center"
 msgstr "Марказда"
 
-#: ui/CellToolBase.cpp:279
+#: ui/CellToolBase.cpp:280
 #, fuzzy
 msgid "Center the cell contents"
 msgstr "Катак таркибини марказда текислаш."
 
-#: ui/CellToolBase.cpp:282
+#: ui/CellToolBase.cpp:283
 msgid "Align Right"
 msgstr "Ўнгга текислаш"
 
-#: ui/CellToolBase.cpp:286
+#: ui/CellToolBase.cpp:287
 #, fuzzy
 msgid "Right justify the cell contents"
 msgstr "Катак таркибини ўнг томонга текислаш."
 
-#: ui/CellToolBase.cpp:292
+#: ui/CellToolBase.cpp:293
 msgid "Align Top"
 msgstr "Юқорида текислаш"
 
-#: ui/CellToolBase.cpp:296
+#: ui/CellToolBase.cpp:297
 #, fuzzy
 msgid "Align cell contents along the top of the cell"
 msgstr "Катак таркибини юқорига текислаш."
 
-#: ui/CellToolBase.cpp:299
+#: ui/CellToolBase.cpp:300
 msgid "Align Middle"
 msgstr "Ўртада текислаш"
 
-#: ui/CellToolBase.cpp:303
+#: ui/CellToolBase.cpp:304
 #, fuzzy
 msgid "Align cell contents centered in the cell"
 msgstr "Катак таркибини катак ўртасида текислаш."
 
-#: ui/CellToolBase.cpp:306
+#: ui/CellToolBase.cpp:307
 msgid "Align Bottom"
 msgstr "Пастда текислаш"
 
-#: ui/CellToolBase.cpp:310
+#: ui/CellToolBase.cpp:311
 #, fuzzy
 msgid "Align cell contents along the bottom of the cell"
 msgstr "Катак таркибини катак пастида текислаш."
 
-#: ui/CellToolBase.cpp:315
+#: ui/CellToolBase.cpp:316
 msgid "Border Left"
 msgstr "Чап чегара"
 
-#: ui/CellToolBase.cpp:319
+#: ui/CellToolBase.cpp:320
 #, fuzzy
 msgid "Set a left border to the selected area"
 msgstr "Танланган майдоннинг чап чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:321
+#: ui/CellToolBase.cpp:322
 msgid "Border Right"
 msgstr "Ўнг чегара"
 
-#: ui/CellToolBase.cpp:325
+#: ui/CellToolBase.cpp:326
 #, fuzzy
 msgid "Set a right border to the selected area"
 msgstr "Танланган майдоннинг ўнг чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:327
+#: ui/CellToolBase.cpp:328
 msgid "Border Top"
 msgstr "Юқори чегара"
 
-#: ui/CellToolBase.cpp:331
+#: ui/CellToolBase.cpp:332
 #, fuzzy
 msgid "Set a top border to the selected area"
 msgstr "Танланган майдоннинг юқори чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:333
+#: ui/CellToolBase.cpp:334
 msgid "Border Bottom"
 msgstr "Пастги чегара"
 
-#: ui/CellToolBase.cpp:337
+#: ui/CellToolBase.cpp:338
 #, fuzzy
 msgid "Set a bottom border to the selected area"
 msgstr "Танланган майдоннинг пастги чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:339
+#: ui/CellToolBase.cpp:340
 msgid "All Borders"
 msgstr "Ҳамма чегаралар"
 
-#: ui/CellToolBase.cpp:343
+#: ui/CellToolBase.cpp:344
 #, fuzzy
 msgid "Set a border around all cells in the selected area"
 msgstr "Танланган майдоннинг ҳамма чегараларини кўрсатиш."
 
-#: ui/CellToolBase.cpp:345
+#: ui/CellToolBase.cpp:346
 #, fuzzy
 #| msgid "All Borders"
 msgid "No Borders"
 msgstr "Ҳамма чегаралар"
 
-#: ui/CellToolBase.cpp:349
+#: ui/CellToolBase.cpp:350
 #, fuzzy
 msgid "Remove all borders in the selected area"
 msgstr "Танланган майдоннинг ҳамма чегараларини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:351
+#: ui/CellToolBase.cpp:352
 #, fuzzy
 msgid "Border Outline"
 msgstr "Чап чегара"
 
-#: ui/CellToolBase.cpp:352
+#: ui/CellToolBase.cpp:353
 #, fuzzy
 msgid "Outline"
 msgstr "Чап чегара"
 
-#: ui/CellToolBase.cpp:355
+#: ui/CellToolBase.cpp:356
 #, fuzzy
 msgid "Set a border to the outline of the selected area"
 msgstr "Танланган майдоннинг юқори чегарасини кўрсатиш."
 
-#: ui/CellToolBase.cpp:359
+#: ui/CellToolBase.cpp:360
 #, fuzzy
 msgid "Select a new border color"
 msgstr "Янги чегара рангини танлаш."
 
-#: ui/CellToolBase.cpp:360
+#: ui/CellToolBase.cpp:361
 msgid "Border Color"
 msgstr "Чегара ранги"
 
-#: ui/CellToolBase.cpp:367
+#: ui/CellToolBase.cpp:368
 #, fuzzy
 msgid "Wrap Text"
 msgstr "Матн"
 
-#: ui/CellToolBase.cpp:368
+#: ui/CellToolBase.cpp:369
 #, fuzzy
 msgid "Wrap"
 msgstr "Матн"
 
-#: ui/CellToolBase.cpp:371
+#: ui/CellToolBase.cpp:372
 msgid "Make the cell text wrap onto multiple lines"
 msgstr ""
 
-#: ui/CellToolBase.cpp:373
+#: ui/CellToolBase.cpp:374
 #, fuzzy
 msgid "Vertical Text"
 msgstr "Метикал"
 
-#: ui/CellToolBase.cpp:377
+#: ui/CellToolBase.cpp:378
 #, fuzzy
 msgid "Print cell contents vertically"
 msgstr "Катак таркибини катак ўртасида текислаш."
 
-#: ui/CellToolBase.cpp:379
+#: ui/CellToolBase.cpp:380
 #, fuzzy
 msgid "Increase Indent"
 msgstr "Аниқликни ошириш"
 
-#: ui/CellToolBase.cpp:382
+#: ui/CellToolBase.cpp:383
 #, fuzzy
 msgid "Increase the indentation"
 msgstr "Аниқликни ошириш"
 
-#: ui/CellToolBase.cpp:384
+#: ui/CellToolBase.cpp:385
 #, fuzzy
 msgid "Decrease Indent"
 msgstr "Аниқликни камайтириш"
 
-#: ui/CellToolBase.cpp:387
+#: ui/CellToolBase.cpp:388
 #, fuzzy
 msgid "Decrease the indentation"
 msgstr "Аниқликни камайтириш"
 
-#: ui/CellToolBase.cpp:389
+#: ui/CellToolBase.cpp:390
 msgid "Change Angle..."
 msgstr "Бурчакни ўзгартириш..."
 
-#: ui/CellToolBase.cpp:390
+#: ui/CellToolBase.cpp:391
 #, fuzzy
 #| msgid "Angle:"
 msgid "Angle"
 msgstr "Бурчак:"
 
-#: ui/CellToolBase.cpp:393
+#: ui/CellToolBase.cpp:394
 #, fuzzy
 msgid "Change the angle that cell contents are printed"
 msgstr "Катак таркибини марказда текислаш."
 
-#: ui/CellToolBase.cpp:397
+#: ui/CellToolBase.cpp:398
 #, fuzzy
 msgid "Percent Format"
 msgstr "Фоиз"
 
-#: ui/CellToolBase.cpp:401
+#: ui/CellToolBase.cpp:402
 #, fuzzy
 msgid "Set the cell formatting to look like a percentage"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:403
+#: ui/CellToolBase.cpp:404
 msgid "Money Format"
 msgstr "Пул кўриниши"
 
-#: ui/CellToolBase.cpp:407
+#: ui/CellToolBase.cpp:408
 #, fuzzy
 msgid "Set the cell formatting to look like your local currency"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:409
+#: ui/CellToolBase.cpp:410
 msgid "Increase Precision"
 msgstr "Аниқликни ошириш"
 
-#: ui/CellToolBase.cpp:412
+#: ui/CellToolBase.cpp:413
 msgid "Increase the decimal precision shown onscreen"
 msgstr ""
 
-#: ui/CellToolBase.cpp:414
+#: ui/CellToolBase.cpp:415
 msgid "Decrease Precision"
 msgstr "Аниқликни камайтириш"
 
-#: ui/CellToolBase.cpp:417
+#: ui/CellToolBase.cpp:418
 msgid "Decrease the decimal precision shown onscreen"
 msgstr ""
 
-#: ui/CellToolBase.cpp:421
+#: ui/CellToolBase.cpp:422
 msgid "Upper Case"
 msgstr "Бош ҳарф"
 
-#: ui/CellToolBase.cpp:422
+#: ui/CellToolBase.cpp:423
 #, fuzzy
 #| msgid "Upper Case"
 msgid "Upper"
 msgstr "Бош ҳарф"
 
-#: ui/CellToolBase.cpp:425
+#: ui/CellToolBase.cpp:426
 #, fuzzy
 msgid "Convert all letters to upper case"
 msgstr "Ҳамма ҳарфларни бош ҳарфга айлантириш"
 
-#: ui/CellToolBase.cpp:427
+#: ui/CellToolBase.cpp:428
 msgid "Lower Case"
 msgstr "Кичик ҳарф"
 
-#: ui/CellToolBase.cpp:428
+#: ui/CellToolBase.cpp:429
 #, fuzzy
 msgid "Lower"
 msgstr "Перу"
 
-#: ui/CellToolBase.cpp:431
+#: ui/CellToolBase.cpp:432
 #, fuzzy
 msgid "Convert all letters to lower case"
 msgstr "Ҳамма ҳарфларни кичик ҳарфга айлантириш."
 
-#: ui/CellToolBase.cpp:433
+#: ui/CellToolBase.cpp:434
 msgid "Convert First Letter to Upper Case"
 msgstr "Биринчи ҳарфни бош ҳарфга айлантириш"
 
-#: ui/CellToolBase.cpp:434
+#: ui/CellToolBase.cpp:435
 #, fuzzy
 msgid "First Letter Upper"
 msgstr "Биринчи ҳарфни бош ҳарфга &алмаштириш"
 
-#: ui/CellToolBase.cpp:437
+#: ui/CellToolBase.cpp:438
 #, fuzzy
 msgid "Capitalize the first letter"
 msgstr "Биринчи ҳарфни бош ҳарф қилиш."
 
-#: ui/CellToolBase.cpp:441
+#: ui/CellToolBase.cpp:442
 #, fuzzy
 msgid "Set the background color"
 msgstr "Орқа фон рангини кўрсатиш."
 
-#: ui/CellToolBase.cpp:442
+#: ui/CellToolBase.cpp:443
 msgid "Background Color"
 msgstr "Орқа фон ранги"
 
-#: ui/CellToolBase.cpp:451
+#: ui/CellToolBase.cpp:452
 #, fuzzy
 msgid "Merge the selected region"
 msgstr "Танланган майдонни бирлаштириш."
 
-#: ui/CellToolBase.cpp:454
+#: ui/CellToolBase.cpp:455
 #, fuzzy
 msgid "Merge the selected region horizontally"
 msgstr "Танланган катакларни энига бирлаштириш."
 
-#: ui/CellToolBase.cpp:459
+#: ui/CellToolBase.cpp:460
 #, fuzzy
 msgid "Merge the selected region vertically"
 msgstr "Танланган катакларни бўйига бирлаштириш."
 
-#: ui/CellToolBase.cpp:464
+#: ui/CellToolBase.cpp:465
 #, fuzzy
 msgid "Unmerge the selected region"
 msgstr "Танланган катакларни бирлаштиришни бекор қилиш."
 
-#: ui/CellToolBase.cpp:470
+#: ui/CellToolBase.cpp:471
 msgid "Resize Column..."
 msgstr "Устуннинг ўлчамини ўзгартириш..."
 
-#: ui/CellToolBase.cpp:473
+#: ui/CellToolBase.cpp:474
 #, fuzzy
 msgid "Change the width of a column"
 msgstr "Устуннинг энини ўзгартириш."
 
-#: ui/CellToolBase.cpp:476 ui/CellToolBase_p.cpp:1273
+#: ui/CellToolBase.cpp:477 ui/CellToolBase_p.cpp:1273
 msgid "Insert Columns"
 msgstr "Устунлар қўшиш"
 
-#: ui/CellToolBase.cpp:477
+#: ui/CellToolBase.cpp:478
 #, fuzzy
 msgid "Inserts a new column into the spreadsheet"
 msgstr "Электрон жадвалга янги устун қўшиш."
 
-#: ui/CellToolBase.cpp:482
+#: ui/CellToolBase.cpp:483
 msgid "Remove Columns"
 msgstr "Устунларни олиб ташлаш"
 
-#: ui/CellToolBase.cpp:483
+#: ui/CellToolBase.cpp:484
 #, fuzzy
 msgid "Removes the selected columns from the spreadsheet"
 msgstr "Жорий катакни электрон жадвалдан олиб ташлаш."
 
-#: ui/CellToolBase.cpp:487
+#: ui/CellToolBase.cpp:488
 msgid "Hide Columns"
 msgstr "Устунларни бекитиш"
 
-#: ui/CellToolBase.cpp:490
+#: ui/CellToolBase.cpp:491
 #, fuzzy
 msgid "Hide the column from this"
 msgstr "Устунни жорий кўринишдан бекитиш."
 
-#: ui/CellToolBase.cpp:492
+#: ui/CellToolBase.cpp:493
 msgid "Show Columns..."
 msgstr "Устунларни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:495
+#: ui/CellToolBase.cpp:496
 #, fuzzy
 msgid "Show hidden columns"
 msgstr "Бекитилган устунларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:497
+#: ui/CellToolBase.cpp:498
 msgid "Equalize Column"
 msgstr "Устун энини тенглаштириш"
 
-#: ui/CellToolBase.cpp:500
+#: ui/CellToolBase.cpp:501
 #, fuzzy
 msgid "Resizes selected columns to be the same size"
 msgstr "Танланган устунларнинг энини тенглаштириш."
 
-#: ui/CellToolBase.cpp:505
+#: ui/CellToolBase.cpp:506
 #, fuzzy
 msgid "Show hidden columns in the selection"
 msgstr "Танланган майдонда бекитилган устунларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:508
+#: ui/CellToolBase.cpp:509
 msgid "Resize Row..."
 msgstr "Сарт ўлчамини ўзгартириш..."
 
-#: ui/CellToolBase.cpp:511
+#: ui/CellToolBase.cpp:512
 #, fuzzy
 msgid "Change the height of a row"
 msgstr "Сатрнинг узунасини ўзгартириш."
 
-#: ui/CellToolBase.cpp:513 ui/CellToolBase.cpp:519
-#, fuzzy
-#| msgid "Row"
-msgid "Rows"
-msgstr "Сатр"
-
-#: ui/CellToolBase.cpp:514 ui/CellToolBase_p.cpp:1285
+#: ui/CellToolBase.cpp:515 ui/CellToolBase_p.cpp:1285
 msgid "Insert Rows"
 msgstr "Сатрларни қўйиш"
 
-#: ui/CellToolBase.cpp:515
+#: ui/CellToolBase.cpp:516
 #, fuzzy
 msgid "Inserts a new row into the spreadsheet"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:520
+#: ui/CellToolBase.cpp:521
 msgid "Remove Rows"
 msgstr "Сатрларни олиб ташлаш"
 
-#: ui/CellToolBase.cpp:521
+#: ui/CellToolBase.cpp:522
 #, fuzzy
 msgid "Removes a row from the spreadsheet"
 msgstr "Электрон жадвалдан сатрни олиб ташлаш."
 
-#: ui/CellToolBase.cpp:525
+#: ui/CellToolBase.cpp:526
 msgid "Hide Rows"
 msgstr "Сатрларни бекитиш"
 
-#: ui/CellToolBase.cpp:528
+#: ui/CellToolBase.cpp:529
 #, fuzzy
 msgid "Hide a row from this"
 msgstr "Сатрни жорий кўринишдан бекитиш."
 
-#: ui/CellToolBase.cpp:530
+#: ui/CellToolBase.cpp:531
 msgid "Show Rows..."
 msgstr "Сатрларни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:533
+#: ui/CellToolBase.cpp:534
 #, fuzzy
 msgid "Show hidden rows"
 msgstr "Бекитилган сатрларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:535
+#: ui/CellToolBase.cpp:536
 #, fuzzy
 msgid "Equalize Row"
 msgstr "Устун энини тенглаштириш"
 
-#: ui/CellToolBase.cpp:538
+#: ui/CellToolBase.cpp:539
 #, fuzzy
 msgid "Resizes selected rows to be the same size"
 msgstr "Танланган устунларнинг энини тенглаштириш."
 
-#: ui/CellToolBase.cpp:544
+#: ui/CellToolBase.cpp:545
 #, fuzzy
 msgid "Show hidden rows in the selection"
 msgstr "Танланган майдонда бекитилган устунларни кўрсатиш."
 
-#: ui/CellToolBase.cpp:546
+#: ui/CellToolBase.cpp:547
 msgid "Adjust Row && Column"
 msgstr "Сатр ва устунни созлаш"
 
-#: ui/CellToolBase.cpp:549
+#: ui/CellToolBase.cpp:550
 msgid "Adjusts row/column size so that the contents will fit"
 msgstr ""
 
-#: ui/CellToolBase.cpp:553 ui/CellToolBase.cpp:559
+#: ui/CellToolBase.cpp:554 ui/CellToolBase.cpp:560
 #, fuzzy
 #| msgid "Cells:"
 msgid "Cells..."
 msgstr "Катаклар:"
 
-#: ui/CellToolBase.cpp:554 ui/CellToolBase_p.cpp:1261
+#: ui/CellToolBase.cpp:555 ui/CellToolBase_p.cpp:1261
 msgid "Insert Cells..."
 msgstr "Катакларни қўйиш"
 
-#: ui/CellToolBase.cpp:555
+#: ui/CellToolBase.cpp:556
 #, fuzzy
 msgid "Insert a blank cell into the spreadsheet"
 msgstr "Электрон жадвалга бўш катак қўшиш."
 
-#: ui/CellToolBase.cpp:560
+#: ui/CellToolBase.cpp:561
 msgid "Remove Cells..."
 msgstr "Катакларни олиб ташлаш"
 
-#: ui/CellToolBase.cpp:561
+#: ui/CellToolBase.cpp:562
 #, fuzzy
 msgid "Removes the cells from the spreadsheet"
 msgstr "Жорий катакни электрон жадвалдан олиб ташлаш."
 
-#: ui/CellToolBase.cpp:568
+#: ui/CellToolBase.cpp:569
 #, fuzzy
 #| msgid "Clear &All"
 msgid "Clear All"
 msgstr "&Ҳаммасини тозалаш"
 
-#: ui/CellToolBase.cpp:569
+#: ui/CellToolBase.cpp:570
 #, fuzzy
 msgid "Clear all contents and formatting of the current cell"
 msgstr "Жорий катакнинг формати ва таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:573
+#: ui/CellToolBase.cpp:574
 #, fuzzy
 msgid "Contents"
 msgstr "Изоҳлар"
 
-#: ui/CellToolBase.cpp:574
+#: ui/CellToolBase.cpp:575
 #, fuzzy
 msgid "Clear Contents"
 msgstr "Изоҳлар"
 
-#: ui/CellToolBase.cpp:575
+#: ui/CellToolBase.cpp:576
 #, fuzzy
 msgid "Remove the contents of the current cell"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:579
+#: ui/CellToolBase.cpp:580
 #, fuzzy
 #| msgid "Comment"
 msgid "Comment..."
 msgstr "Изоҳ"
 
-#: ui/CellToolBase.cpp:580
+#: ui/CellToolBase.cpp:581
 #, fuzzy
 msgid "Edit a comment for this cell"
 msgstr "Катак учун изоҳни таҳрирлаш."
 
-#: ui/CellToolBase.cpp:585
+#: ui/CellToolBase.cpp:586
 msgid "Remove Comment"
 msgstr "Изоҳни олиб ташлаш"
 
-#: ui/CellToolBase.cpp:586
+#: ui/CellToolBase.cpp:587
 #, fuzzy
 msgid "Remove this cell's comment"
 msgstr "Катак изоҳини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:590
+#: ui/CellToolBase.cpp:591
 #, fuzzy
 #| msgid "Conditional Cell Attributes..."
 msgid "Conditional Styles..."
 msgstr "Катакнинг шартли атрибутлари..."
 
-#: ui/CellToolBase.cpp:591
+#: ui/CellToolBase.cpp:592
 msgid "Set cell style based on certain conditions"
 msgstr ""
 
-#: ui/CellToolBase.cpp:596
+#: ui/CellToolBase.cpp:597
 #, fuzzy
 msgid "Remove Conditional Styles"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:597
+#: ui/CellToolBase.cpp:598
 #, fuzzy
 msgid "Remove the conditional cell styles"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:601
+#: ui/CellToolBase.cpp:602
 msgid "&Link..."
 msgstr "&Боғ..."
 
-#: ui/CellToolBase.cpp:604
+#: ui/CellToolBase.cpp:605
 #, fuzzy
 msgid "Insert an Internet hyperlink"
 msgstr "Янги варақ қўшиш."
 
-#: ui/CellToolBase.cpp:606
+#: ui/CellToolBase.cpp:607
 #, fuzzy
 #| msgid "Set Link"
 msgid "Link"
 msgstr "Боғни кўрсатиш"
 
-#: ui/CellToolBase.cpp:608
+#: ui/CellToolBase.cpp:609
 #, fuzzy
 msgid "Remove a link"
 msgstr "Боғни олиб ташлаш."
 
-#: ui/CellToolBase.cpp:612
+#: ui/CellToolBase.cpp:613
 msgid "Validity..."
 msgstr "Текшириш..."
 
-#: ui/CellToolBase.cpp:613
+#: ui/CellToolBase.cpp:614
 msgid "Set tests to confirm cell data is valid"
 msgstr ""
 
-#: ui/CellToolBase.cpp:618
+#: ui/CellToolBase.cpp:619
 #, fuzzy
 msgid "Remove Validity"
 msgstr "Боғни олиб ташлаш."
 
-#: ui/CellToolBase.cpp:619
+#: ui/CellToolBase.cpp:620
 #, fuzzy
 msgid "Remove the validity tests on this cell"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:625
+#: ui/CellToolBase.cpp:626
 msgid "&Sort..."
 msgstr "С&аралаш..."
 
-#: ui/CellToolBase.cpp:628
+#: ui/CellToolBase.cpp:629
 #, fuzzy
 msgid "Sort a group of cells"
 msgstr "Катаклар гуруҳини саралаш."
 
-#: ui/CellToolBase.cpp:630
+#: ui/CellToolBase.cpp:631
 msgid "Sort &Decreasing"
 msgstr "&Камайиши бўйича саралаш"
 
-#: ui/CellToolBase.cpp:633
+#: ui/CellToolBase.cpp:634
 msgid "Sort a group of cells in decreasing(last to first) order"
 msgstr ""
 
-#: ui/CellToolBase.cpp:635
+#: ui/CellToolBase.cpp:636
 msgid "Sort &Increasing"
 msgstr "&Кўпайиши бўйича саралаш"
 
-#: ui/CellToolBase.cpp:638
+#: ui/CellToolBase.cpp:639
 msgid "Sort a group of cells in ascending(first to last) order"
 msgstr ""
 
-#: ui/CellToolBase.cpp:640
+#: ui/CellToolBase.cpp:641
 #, fuzzy
 #| msgid "Autofill"
 msgid "&Auto-Filter"
 msgstr "Авто-тўлдириш"
 
-#: ui/CellToolBase.cpp:643
+#: ui/CellToolBase.cpp:644
 msgid "Add an automatic filter to a cell range"
 msgstr ""
 
-#: ui/CellToolBase.cpp:647
+#: ui/CellToolBase.cpp:648
 msgid "&Left"
 msgstr ""
 
-#: ui/CellToolBase.cpp:651
+#: ui/CellToolBase.cpp:652
 #, fuzzy
 msgid "&Right"
 msgstr "Узунаси:"
 
-#: ui/CellToolBase.cpp:655
+#: ui/CellToolBase.cpp:656
 #, fuzzy
 msgid "&Up"
 msgstr "Юқорига"
 
-#: ui/CellToolBase.cpp:659
+#: ui/CellToolBase.cpp:660
 #, fuzzy
 msgid "&Down"
 msgstr "Пастга"
 
-#: ui/CellToolBase.cpp:663
+#: ui/CellToolBase.cpp:664
 #, fuzzy
 msgid "Autosum"
 msgstr "Автоматик"
 
-#: ui/CellToolBase.cpp:666
+#: ui/CellToolBase.cpp:667
 #, fuzzy
 msgid "Insert the 'sum' function"
 msgstr "Функцияни қўйиш"
 
-#: ui/CellToolBase.cpp:670
+#: ui/CellToolBase.cpp:671
 #, fuzzy
 msgid "&Series..."
 msgstr "С&аралаш..."
 
-#: ui/CellToolBase.cpp:673
+#: ui/CellToolBase.cpp:674
 #, fuzzy
 msgid "Insert a series"
 msgstr "Янги варақ қўшиш."
 
-#: ui/CellToolBase.cpp:675
+#: ui/CellToolBase.cpp:676
 msgid "&Function..."
 msgstr "&Функция..."
 
-#: ui/CellToolBase.cpp:678
+#: ui/CellToolBase.cpp:679
 #, fuzzy
 msgid "Insert math expression"
 msgstr "Математик ифода қўшиш."
 
-#: ui/CellToolBase.cpp:680
+#: ui/CellToolBase.cpp:681
 msgid "S&pecial Character..."
 msgstr "Ма&хсус белги..."
 
-#: ui/CellToolBase.cpp:682
+#: ui/CellToolBase.cpp:683
 msgid "Insert one or more symbols or letters not found on the keyboard"
 msgstr ""
 
-#: ui/CellToolBase.cpp:686
+#: ui/CellToolBase.cpp:687
 msgid "From &Database..."
 msgstr "&Маълумот базасидан..."
 
-#: ui/CellToolBase.cpp:690
+#: ui/CellToolBase.cpp:691
 #, fuzzy
 msgid "Insert data from a SQL database"
 msgstr "Маълумотни SQL маълумотлар базасидан қўйиш."
 
-#: ui/CellToolBase.cpp:693
+#: ui/CellToolBase.cpp:694
 msgid "From &Text File..."
 msgstr "&Матн файлидан..."
 
-#: ui/CellToolBase.cpp:694
+#: ui/CellToolBase.cpp:695
 #, fuzzy
 #| msgid "From &Text File..."
 msgid "Text File"
 msgstr "&Матн файлидан..."
 
-#: ui/CellToolBase.cpp:697
+#: ui/CellToolBase.cpp:698
 msgid "Insert data from a text file to the current cursor position/selection"
 msgstr ""
 
-#: ui/CellToolBase.cpp:699
+#: ui/CellToolBase.cpp:700
 msgid "From &Clipboard..."
 msgstr "&Хотирадан..."
 
-#: ui/CellToolBase.cpp:700
+#: ui/CellToolBase.cpp:701
 #, fuzzy
 #| msgid "From &Clipboard..."
 msgid "Clipboard"
 msgstr "&Хотирадан..."
 
-#: ui/CellToolBase.cpp:703
+#: ui/CellToolBase.cpp:704
 #, fuzzy
 msgid ""
 "Insert CSV data from the clipboard to the current cursor position/selection"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:705
+#: ui/CellToolBase.cpp:706
 #, fuzzy
 msgid "&Text to Columns..."
 msgstr "Устунларни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:708
+#: ui/CellToolBase.cpp:709
 msgid "Expand the content of cells to multiple columns"
 msgstr ""
 
-#: ui/CellToolBase.cpp:710
+#: ui/CellToolBase.cpp:711
 msgid "Custom Lists..."
 msgstr "Бошқа рўйхатлар..."
 
-#: ui/CellToolBase.cpp:713
+#: ui/CellToolBase.cpp:714
 msgid "Create custom lists for sorting or autofill"
 msgstr ""
 
-#: ui/CellToolBase.cpp:715
+#: ui/CellToolBase.cpp:716
 msgid "&Consolidate..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:718
+#: ui/CellToolBase.cpp:719
 msgid "Create a region of summary data from a group of similar regions"
 msgstr ""
 
-#: ui/CellToolBase.cpp:720
+#: ui/CellToolBase.cpp:721
 #, fuzzy
 msgid "&Goal Seek..."
 msgstr "Варақни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:723
+#: ui/CellToolBase.cpp:724
 msgid "Repeating calculation to find a specific value"
 msgstr ""
 
-#: ui/CellToolBase.cpp:725
+#: ui/CellToolBase.cpp:726
 #, fuzzy
 msgid "&Subtotals..."
 msgstr "С&аралаш..."
 
-#: ui/CellToolBase.cpp:728
+#: ui/CellToolBase.cpp:729
 msgid "Create different kind of subtotals to a list or database"
 msgstr ""
 
-#: ui/CellToolBase.cpp:730
+#: ui/CellToolBase.cpp:731
+#, fuzzy
+msgid "&Pivot Tables..."
+msgstr "С&аралаш..."
+
+#: ui/CellToolBase.cpp:734
+msgid "Create Pivot Tables"
+msgstr ""
+
+#: ui/CellToolBase.cpp:736
 msgid "Area Name..."
 msgstr "Майдоннинг номи"
 
-#: ui/CellToolBase.cpp:733
+#: ui/CellToolBase.cpp:739
 #, fuzzy
 msgid "Set a name for a region of the spreadsheet"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:735
+#: ui/CellToolBase.cpp:741
 #, fuzzy
 #| msgid "Show Area..."
 msgid "Named Areas..."
 msgstr "Майдонни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:739
+#: ui/CellToolBase.cpp:745
 msgid "Edit or select named areas"
 msgstr ""
 
-#: ui/CellToolBase.cpp:743
+#: ui/CellToolBase.cpp:749
 msgid "Formula Selection"
 msgstr "Формула танлаш"
 
-#: ui/CellToolBase.cpp:745
+#: ui/CellToolBase.cpp:751
 #, fuzzy
 msgid "Insert a function"
 msgstr "Функцияни қўйиш"
 
-#: ui/CellToolBase.cpp:753 ui/CellToolBase.cpp:2906
+#: ui/CellToolBase.cpp:759 ui/CellToolBase.cpp:2924
 msgid "Others..."
 msgstr "Бошқалар..."
 
-#: ui/CellToolBase.cpp:761
+#: ui/CellToolBase.cpp:767
 msgid "Modify Cell"
 msgstr "Катакни ўзгартириш"
 
-#: ui/CellToolBase.cpp:765
+#: ui/CellToolBase.cpp:771
 #, fuzzy
 msgid "Edit the highlighted cell"
 msgstr "Танланган катакни таҳрирлаш."
 
-#: ui/CellToolBase.cpp:768
+#: ui/CellToolBase.cpp:774
 #, fuzzy
 msgid "Move the cell object to the clipboard"
 msgstr "Танланган варақни энг пастга кўчириш."
 
-#: ui/CellToolBase.cpp:772
+#: ui/CellToolBase.cpp:778
 #, fuzzy
 msgid "Copy the cell object to the clipboard"
 msgstr "Танланган варақни энг пастга кўчириш."
 
-#: ui/CellToolBase.cpp:776
+#: ui/CellToolBase.cpp:782
 #, fuzzy
 msgid "Paste the contents of the clipboard at the cursor"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:779
+#: ui/CellToolBase.cpp:785
 msgid "Special Paste..."
 msgstr "Махсус қўйиш"
 
-#: ui/CellToolBase.cpp:782
+#: ui/CellToolBase.cpp:788
 #, fuzzy
 msgid "Paste the contents of the clipboard with special options"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:784
+#: ui/CellToolBase.cpp:790
 msgid "Paste with Insertion"
 msgstr ""
 
-#: ui/CellToolBase.cpp:787
+#: ui/CellToolBase.cpp:793
 #, fuzzy
 msgid "Inserts a cell from the clipboard into the spreadsheet"
 msgstr "Электрон жадвалга янги сатр қўшиш."
 
-#: ui/CellToolBase.cpp:790
+#: ui/CellToolBase.cpp:796
 #, fuzzy
 msgid "Selects all cells in the current sheet"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:807
+#: ui/CellToolBase.cpp:813
 msgid "Goto Cell..."
 msgstr "Катакга ўтиш"
 
-#: ui/CellToolBase.cpp:808
+#: ui/CellToolBase.cpp:814
 #, fuzzy
 #| msgid "Goto Cell"
 msgid "Goto"
 msgstr "Катакка ўтиш"
 
-#: ui/CellToolBase.cpp:812
+#: ui/CellToolBase.cpp:818
 #, fuzzy
 msgid "Move to a particular cell"
 msgstr "Олдинги вараққа ўтиш."
 
-#: ui/CellToolBase.cpp:815
+#: ui/CellToolBase.cpp:821
 #, fuzzy
 msgid "Check the spelling"
 msgstr "Имлони текшириш."
 
-#: ui/CellToolBase.cpp:818
+#: ui/CellToolBase.cpp:824
 msgid "Run Inspector..."
 msgstr ""
 
-#: ui/CellToolBase.cpp:824
+#: ui/CellToolBase.cpp:830
 #, fuzzy
 #| msgid "Show Sheet..."
 msgid "Show QTableView..."
 msgstr "Варақни кўрсатиш..."
 
-#: ui/CellToolBase.cpp:830
+#: ui/CellToolBase.cpp:836
 #, fuzzy
 msgid "Auto-Format..."
 msgstr "Катакнинг формати"
 
-#: ui/CellToolBase.cpp:833
+#: ui/CellToolBase.cpp:839
 #, fuzzy
 msgid "Set the worksheet formatting"
 msgstr "Катакнинг кўринишини мослаш."
 
-#: ui/CellToolBase.cpp:835
+#: ui/CellToolBase.cpp:841
 #, fuzzy
 msgid "Document Settings..."
 msgstr "Мосламалар"
 
-#: ui/CellToolBase.cpp:838
+#: ui/CellToolBase.cpp:844
 msgid "Show document settings dialog"
 msgstr ""
 
-#: ui/CellToolBase.cpp:840
+#: ui/CellToolBase.cpp:846
 #, fuzzy
 #| msgid "Remove Columns"
 msgid "Break Before Column"
 msgstr "Устунларни олиб ташлаш"
 
-#: ui/CellToolBase.cpp:843
+#: ui/CellToolBase.cpp:849
 #, fuzzy
 msgid "Column Break"
 msgstr "Устунларни &рақам сифатида кўрсатиш"
 
-#: ui/CellToolBase.cpp:844
+#: ui/CellToolBase.cpp:850
 msgid "Set a manual page break before the column"
 msgstr ""
 
-#: ui/CellToolBase.cpp:846
+#: ui/CellToolBase.cpp:852
 msgid "Break Before Row"
 msgstr ""
 
-#: ui/CellToolBase.cpp:849
+#: ui/CellToolBase.cpp:855
 #, fuzzy
 msgid "Row Break"
 msgstr "кўпроқ"
 
-#: ui/CellToolBase.cpp:850
+#: ui/CellToolBase.cpp:856
 msgid "Set a manual page break before the row"
 msgstr ""
 
-#: ui/CellToolBase.cpp:854
+#: ui/CellToolBase.cpp:860
 msgid "Permute reference fixation"
 msgstr ""
 
-#: ui/CellToolBase.cpp:858
+#: ui/CellToolBase.cpp:864
 #, fuzzy
 #| msgid "Protection"
 msgid "Permute fixation"
 msgstr "Ҳимоялаш"
 
-#: ui/CellToolBase.cpp:859
+#: ui/CellToolBase.cpp:865
 #, fuzzy
 msgid "Permute the fixation of the reference at the text cursor"
 msgstr "Жорий катак таркибини олиб ташлаш."
 
-#: ui/CellToolBase.cpp:1667
+#: ui/CellToolBase.cpp:1673
 msgid "Create Style From Cell"
 msgstr "Услубни катакдан яратиш"
 
-#: ui/CellToolBase.cpp:1676
+#: ui/CellToolBase.cpp:1682
 msgid "The style name cannot be empty."
 msgstr "Услубнинг номи бўш бўлиши мумкин эмас."
 
-#: ui/CellToolBase.cpp:1702 ui/CellToolBase.cpp:1716 ui/CellToolBase.cpp:1730
-#: ui/CellToolBase.cpp:1745 ui/CellToolBase.cpp:1759 ui/CellToolBase.cpp:1777
-#: ui/CellToolBase.cpp:1798 ui/CellToolBase.cpp:1811
+#: ui/CellToolBase.cpp:1708 ui/CellToolBase.cpp:1722 ui/CellToolBase.cpp:1736
+#: ui/CellToolBase.cpp:1751 ui/CellToolBase.cpp:1765 ui/CellToolBase.cpp:1783
+#: ui/CellToolBase.cpp:1804 ui/CellToolBase.cpp:1817
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Font"
 msgstr "Форматни ўзгартириш"
 
-#: ui/CellToolBase.cpp:1821
+#: ui/CellToolBase.cpp:1827
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Text Color"
 msgstr "Матнни ўзгартириш"
 
-#: ui/CellToolBase.cpp:1831 ui/CellToolBase.cpp:1841 ui/CellToolBase.cpp:1851
+#: ui/CellToolBase.cpp:1837 ui/CellToolBase.cpp:1847 ui/CellToolBase.cpp:1857
 #, fuzzy
 #| msgid "Merge Cells Horizontally"
 msgctxt "(qtundo-format)"
 msgid "Change Horizontal Alignment"
 msgstr "Катакларни энига бирлаштириш"
 
-#: ui/CellToolBase.cpp:1861 ui/CellToolBase.cpp:1871 ui/CellToolBase.cpp:1881
+#: ui/CellToolBase.cpp:1867 ui/CellToolBase.cpp:1877 ui/CellToolBase.cpp:1887
 msgctxt "(qtundo-format)"
 msgid "Change Vertical Alignment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1892 ui/CellToolBase.cpp:1906 ui/CellToolBase.cpp:1920
-#: ui/CellToolBase.cpp:1931 ui/CellToolBase.cpp:1942 ui/CellToolBase.cpp:1957
-#: ui/CellToolBase.cpp:1973 ui/CellToolBase_p.cpp:780
+#: ui/CellToolBase.cpp:1898 ui/CellToolBase.cpp:1912 ui/CellToolBase.cpp:1926
+#: ui/CellToolBase.cpp:1937 ui/CellToolBase.cpp:1948 ui/CellToolBase.cpp:1963
+#: ui/CellToolBase.cpp:1979 ui/CellToolBase_p.cpp:780
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Border"
 msgstr "Чегара рангини ўзгартириш"
 
-#: ui/CellToolBase.cpp:1995
+#: ui/CellToolBase.cpp:2001
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Wrap Text"
 msgstr "Матн"
 
-#: ui/CellToolBase.cpp:2007
+#: ui/CellToolBase.cpp:2013
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Vertical Text"
 msgstr "Метикал"
 
-#: ui/CellToolBase.cpp:2045
+#: ui/CellToolBase.cpp:2051
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Format Percent"
 msgstr "Фоиз"
 
-#: ui/CellToolBase.cpp:2055
+#: ui/CellToolBase.cpp:2061
 #, fuzzy
 #| msgid "Format Money"
 msgctxt "(qtundo-format)"
 msgid "Format Money"
 msgstr "Пулни кўриниши"
 
-#: ui/CellToolBase.cpp:2086
+#: ui/CellToolBase.cpp:2092
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Switch to uppercase"
 msgstr "Биринчи ҳарфни бош ҳарфга &алмаштириш"
 
-#: ui/CellToolBase.cpp:2096
+#: ui/CellToolBase.cpp:2102
 msgctxt "(qtundo-format)"
 msgid "Switch to lowercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:2106
+#: ui/CellToolBase.cpp:2112
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "First letter uppercase"
 msgstr "Биринчи ҳарфни бош ҳарфга &алмаштириш"
 
-#: ui/CellToolBase.cpp:2116
+#: ui/CellToolBase.cpp:2122
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Background Color"
 msgstr "Орқа фон ранги"
 
-#: ui/CellToolBase.cpp:2443
+#: ui/CellToolBase.cpp:2449
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Clear Text"
 msgstr "Матнни ўзгартириш"
 
-#: ui/CellToolBase.cpp:2505
+#: ui/CellToolBase.cpp:2511
 msgid "Edit Link"
 msgstr "Боғни таҳрирлаш"
 
-#: ui/CellToolBase.cpp:2560 ui/CellToolBase.cpp:2572 ui/CellToolBase.cpp:2594
-#: ui/CellToolBase.cpp:2881
+#: ui/CellToolBase.cpp:2566 ui/CellToolBase.cpp:2578 ui/CellToolBase.cpp:2600
+#: ui/CellToolBase.cpp:2887 ui/CellToolBase.cpp:2899
 msgid "You must select multiple cells."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2799
+#: ui/CellToolBase.cpp:2805
 msgid ""
 "No database drivers available.  To use this feature you need to install the "
 "necessary Qt 3 database drivers."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2952
+#: ui/CellToolBase.cpp:2970
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "Сони: "
 
-#: ui/CellToolBase.cpp:3371
+#: ui/CellToolBase.cpp:3389
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Replace"
@@ -18627,53 +18883,53 @@ msgstr "Жадвалларни танланг:"
 msgid "Validation for cell %1 failed"
 msgstr ""
 
-#: Value.cpp:605
+#: Value.cpp:618
 msgctxt "Error: circular formula dependency"
 msgid "#CIRCLE!"
 msgstr ""
 
-#: Value.cpp:613
+#: Value.cpp:626
 msgctxt "Error: broken cell reference"
 msgid "#DEPEND!"
 msgstr ""
 
-#: Value.cpp:621
+#: Value.cpp:634
 msgctxt "Error: division by zero"
 msgid "#DIV/0!"
 msgstr ""
 
-#: Value.cpp:629
+#: Value.cpp:642
 msgctxt "Error: not available"
 msgid "#N/A"
 msgstr ""
 
-#: Value.cpp:637
+#: Value.cpp:650
 msgctxt "Error: unknown function name"
 msgid "#NAME?"
 msgstr ""
 
-#: Value.cpp:645
+#: Value.cpp:658
 msgctxt "Error: number out of range"
 msgid "#NUM!"
 msgstr ""
 
-#: Value.cpp:653
+#: Value.cpp:666
 msgctxt "Error: empty intersecting area"
 msgid "#NULL!"
 msgstr ""
 
-#: Value.cpp:661
+#: Value.cpp:674
 #, fuzzy
 msgctxt "Error: formula not parseable"
 msgid "#PARSE!"
 msgstr "ARS"
 
-#: Value.cpp:669
+#: Value.cpp:682
 msgctxt "Error: invalid cell/array reference"
 msgid "#REF!"
 msgstr ""
 
-#: Value.cpp:677
+#: Value.cpp:690
 msgctxt "Error: wrong (number of) function argument(s)"
 msgid "#VALUE!"
 msgstr ""
@@ -18700,10 +18956,6 @@ msgstr "Эрталаб"
 msgid "h"
 msgstr "соат"
 
-#: ValueFormatter.cpp:536
-msgid "min"
-msgstr "дақиқа"
-
 #: ValueFormatter.cpp:538
 msgid "s"
 msgstr "сония"
@@ -18725,6 +18977,14 @@ msgstr ""
 #, fuzzy
 msgid "am"
 msgstr "Гуам"
+
+#, fuzzy
+#~ msgid "Locale Settings"
+#~ msgstr "Мосламалар"
+
+#, fuzzy
+#~ msgid "Document's Locale Settings"
+#~ msgstr "Мосламалар"
 
 #, fuzzy
 #~ msgid "Inserting Text File"
