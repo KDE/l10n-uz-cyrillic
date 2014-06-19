@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-06 01:45+0000\n"
+"POT-Creation-Date: 2014-06-19 01:30+0000\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -388,30 +388,45 @@ msgctxt "(qtundo-format)"
 msgid "Decrease Indentation"
 msgstr "Аниқликни камайтириш"
 
-#: commands/LinkCommand.cpp:39 ui/CellToolBase.cpp:608
+#: commands/LinkCommand.cpp:39
+#, fuzzy
+#| msgid "Remove Link"
+msgctxt "(qtundo-format)"
 msgid "Remove Link"
 msgstr "Боғни олиб ташлаш"
 
 #: commands/LinkCommand.cpp:39
+#, fuzzy
+#| msgid "Set Link"
+msgctxt "(qtundo-format)"
 msgid "Set Link"
 msgstr "Боғни кўрсатиш"
 
-#: commands/MergeCommand.cpp:130 ui/CellToolBase.cpp:454
+#: commands/MergeCommand.cpp:130
+#, fuzzy
+#| msgid "Merge Cells Horizontally"
+msgctxt "(qtundo-format)"
 msgid "Merge Cells Horizontally"
 msgstr "Катакларни энига бирлаштириш"
 
-#: commands/MergeCommand.cpp:132 ui/CellToolBase.cpp:459
+#: commands/MergeCommand.cpp:132
+#, fuzzy
+#| msgid "Merge Cells Vertically"
+msgctxt "(qtundo-format)"
 msgid "Merge Cells Vertically"
 msgstr "Катакларни бўйига бирлаштириш"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
-#. i18n: ectx: Menu (MergeCellMenu)
-#: commands/MergeCommand.cpp:134 dialogs/PositionWidget.ui:179 sheets.rc:104
-#: ui/CellToolBase.cpp:449
+#: commands/MergeCommand.cpp:134
+#, fuzzy
+#| msgid "Merge Cells"
+msgctxt "(qtundo-format)"
 msgid "Merge Cells"
 msgstr "Катакларни бирлаштириш"
 
-#: commands/MergeCommand.cpp:137 ui/CellToolBase.cpp:464
+#: commands/MergeCommand.cpp:137
+#, fuzzy
+#| msgid "Dissociate Cells"
+msgctxt "(qtundo-format)"
 msgid "Dissociate Cells"
 msgstr "Катакларни ажратиш"
 
@@ -461,45 +476,90 @@ msgctxt "(qtundo-format)"
 msgid "Resize Row"
 msgstr "Сатрнинг ўлчамини ўзгартириш"
 
-#: commands/RowColumnManipulators.cpp:566
+#: commands/RowColumnManipulators.cpp:225
 #, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Show Rows/Columns"
+msgstr "Устунларни кўрсатиш"
+
+#: commands/RowColumnManipulators.cpp:227
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Show Columns"
+msgstr "Устунларни кўрсатиш"
+
+#: commands/RowColumnManipulators.cpp:229
+#, fuzzy
+#| msgid "Show Rows"
+msgctxt "(qtundo-format)"
+msgid "Show Rows"
+msgstr "Сатрларни кўрсатиш"
+
+#: commands/RowColumnManipulators.cpp:231
+#, fuzzy
+#| msgid "Hide Columns"
+msgctxt "(qtundo-format)"
+msgid "Hide Rows/Columns"
+msgstr "Устунларни бекитиш"
+
+#: commands/RowColumnManipulators.cpp:233
+#, fuzzy
+#| msgid "Hide Columns"
+msgctxt "(qtundo-format)"
+msgid "Hide Columns"
+msgstr "Устунларни бекитиш"
+
+#: commands/RowColumnManipulators.cpp:235
+#, fuzzy
+#| msgid "Hide Rows"
+msgctxt "(qtundo-format)"
+msgid "Hide Rows"
+msgstr "Сатрларни бекитиш"
+
+#: commands/RowColumnManipulators.cpp:565
+#, fuzzy
+msgctxt "(qtundo-format)"
 msgid "Adjust Columns/Rows"
 msgstr "Қатор ва устунни созлаш"
 
-#: commands/RowColumnManipulators.cpp:568
+#: commands/RowColumnManipulators.cpp:567
 #, fuzzy
+msgctxt "(qtundo-format)"
 msgid "Adjust Columns"
 msgstr "Устунни созлаш"
 
-#: commands/RowColumnManipulators.cpp:570
+#: commands/RowColumnManipulators.cpp:569
 #, fuzzy
+msgctxt "(qtundo-format)"
 msgid "Adjust Rows"
 msgstr "Қаторни созлаш"
 
-#: commands/RowColumnManipulators.cpp:583
-#: commands/RowColumnManipulators.cpp:602
+#: commands/RowColumnManipulators.cpp:582
+#: commands/RowColumnManipulators.cpp:601
 #, fuzzy
 #| msgid "Insert Columns"
 msgctxt "(qtundo-format)"
 msgid "Insert Columns"
 msgstr "Устунлар қўшиш"
 
-#: commands/RowColumnManipulators.cpp:604
+#: commands/RowColumnManipulators.cpp:603
 #, fuzzy
 #| msgid "Remove Columns"
 msgctxt "(qtundo-format)"
 msgid "Remove Columns"
 msgstr "Устунларни олиб ташлаш"
 
-#: commands/RowColumnManipulators.cpp:706
-#: commands/RowColumnManipulators.cpp:725
+#: commands/RowColumnManipulators.cpp:705
+#: commands/RowColumnManipulators.cpp:724
 #, fuzzy
 #| msgid "Insert Rows"
 msgctxt "(qtundo-format)"
 msgid "Insert Rows"
 msgstr "Сатрларни қўйиш"
 
-#: commands/RowColumnManipulators.cpp:727
+#: commands/RowColumnManipulators.cpp:726
 #, fuzzy
 #| msgid "Remove Rows"
 msgctxt "(qtundo-format)"
@@ -514,20 +574,30 @@ msgid "Rename Sheet"
 msgstr "Варақнинг номини ўзгартириш"
 
 #: commands/SheetCommands.cpp:59
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Hide Sheet %1"
+msgctxt "(qtundo-format)"
 msgid "Hide Sheet %1"
 msgstr "%1 варақни бекитиш"
 
-#: commands/SheetCommands.cpp:60 part/View.cpp:320
+#: commands/SheetCommands.cpp:60
+#, fuzzy
+#| msgid "Hide Sheet"
+msgctxt "(qtundo-format)"
 msgid "Hide Sheet"
 msgstr "Варақни бекитиш"
 
 #: commands/SheetCommands.cpp:87
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Sheet %1"
+msgctxt "(qtundo-format)"
 msgid "Show Sheet %1"
 msgstr "%1 варақни кўрсатиш"
 
-#: commands/SheetCommands.cpp:88 dialogs/ShowDialog.cpp:48
+#: commands/SheetCommands.cpp:88 dialogs/ShowDialog.cpp:87
+#, fuzzy
+#| msgid "Show Sheet"
+msgctxt "(qtundo-format)"
 msgid "Show Sheet"
 msgstr "Варақни кўрсатиш"
 
@@ -718,13 +788,13 @@ msgstr "Словения"
 msgid "Spain"
 msgstr "Испания"
 
-#: Currency.cpp:76 Currency.cpp:332
-msgid "United Kingdom"
-msgstr "Буюк Британия"
-
 #: Currency.cpp:76
 msgid "Pound"
 msgstr "Фунт"
+
+#: Currency.cpp:76 Currency.cpp:332
+msgid "United Kingdom"
+msgstr "Буюк Британия"
 
 #: Currency.cpp:78 Currency.cpp:206
 msgid "Japan"
@@ -734,9 +804,9 @@ msgstr "Япония"
 msgid "Yen"
 msgstr "Йена"
 
-#: Currency.cpp:80 Currency.cpp:81
-msgid "Afghanistan"
-msgstr "Афғонистон"
+#: Currency.cpp:80
+msgid "AFA"
+msgstr "AFA"
 
 #: Currency.cpp:80
 #, fuzzy
@@ -744,19 +814,19 @@ msgstr "Афғонистон"
 msgid "Afghani (old)"
 msgstr "Афғони"
 
-#: Currency.cpp:80
-msgid "AFA"
-msgstr "AFA"
-
-#: Currency.cpp:81
-msgid "Afghani"
-msgstr "Афғони"
+#: Currency.cpp:80 Currency.cpp:81
+msgid "Afghanistan"
+msgstr "Афғонистон"
 
 #: Currency.cpp:81
 #, fuzzy
 #| msgid "AFA"
 msgid "AFN"
 msgstr "AFA"
+
+#: Currency.cpp:81
+msgid "Afghani"
+msgstr "Афғони"
 
 #: Currency.cpp:82
 msgid "Albania"
@@ -811,12 +881,16 @@ msgid "EUR"
 msgstr "EUR"
 
 #: Currency.cpp:86
+msgid "ADP"
+msgstr "ADP"
+
+#: Currency.cpp:86
 msgid "Andorran Peseta"
 msgstr "Андорра Песетаси"
 
-#: Currency.cpp:86
-msgid "ADP"
-msgstr "ADP"
+#: Currency.cpp:87
+msgid "AOA"
+msgstr "AOA"
 
 #: Currency.cpp:87
 msgid "Angola"
@@ -825,10 +899,6 @@ msgstr "Ангола"
 #: Currency.cpp:87
 msgid "Kwanza"
 msgstr "Кванза"
-
-#: Currency.cpp:87
-msgid "AOA"
-msgstr "AOA"
 
 #: Currency.cpp:88
 #, fuzzy
@@ -850,6 +920,10 @@ msgid "Antigua And Barbuda"
 msgstr "Антигуа ва Барбуда"
 
 #: Currency.cpp:90
+msgid "ARS"
+msgstr "ARS"
+
+#: Currency.cpp:90
 msgid "Argentina"
 msgstr "Аргентина"
 
@@ -857,9 +931,9 @@ msgstr "Аргентина"
 msgid "Argentine Peso"
 msgstr "Аргентина песоси"
 
-#: Currency.cpp:90
-msgid "ARS"
-msgstr "ARS"
+#: Currency.cpp:91
+msgid "AMD"
+msgstr "AMD"
 
 #: Currency.cpp:91
 msgid "Armenia"
@@ -869,9 +943,9 @@ msgstr "Арманистон"
 msgid "Armenian Dram"
 msgstr "Арманистон драми"
 
-#: Currency.cpp:91
-msgid "AMD"
-msgstr "AMD"
+#: Currency.cpp:92
+msgid "AWG"
+msgstr "AWG"
 
 #: Currency.cpp:92
 msgid "Aruba"
@@ -883,27 +957,27 @@ msgstr "Аруба"
 msgid "Aruban Florin"
 msgstr "Аруба гулдени"
 
-#: Currency.cpp:92
-msgid "AWG"
-msgstr "AWG"
+#: Currency.cpp:93 Currency.cpp:131 Currency.cpp:132 Currency.cpp:189
+#: Currency.cpp:210 Currency.cpp:253 Currency.cpp:264 Currency.cpp:328
+msgid "AUD"
+msgstr "AUD"
 
 #: Currency.cpp:93 Currency.cpp:131 Currency.cpp:132 Currency.cpp:189
 #: Currency.cpp:210 Currency.cpp:253 Currency.cpp:264 Currency.cpp:328
 msgid "Australian Dollar"
 msgstr "Австралия доллари"
 
-#: Currency.cpp:93 Currency.cpp:131 Currency.cpp:132 Currency.cpp:189
-#: Currency.cpp:210 Currency.cpp:253 Currency.cpp:264 Currency.cpp:328
-msgid "AUD"
-msgstr "AUD"
+#: Currency.cpp:95
+msgid "S"
+msgstr "S"
 
 #: Currency.cpp:95
 msgid "Schilling"
 msgstr "Шиллинг"
 
-#: Currency.cpp:95
-msgid "S"
-msgstr "S"
+#: Currency.cpp:96
+msgid "AZM"
+msgstr "AZM"
 
 #: Currency.cpp:96
 msgid "Azerbaijan"
@@ -913,9 +987,9 @@ msgstr "Озарбайжон"
 msgid "Azerbaijanian Manat"
 msgstr "Озарбайжон манати"
 
-#: Currency.cpp:96
-msgid "AZM"
-msgstr "AZM"
+#: Currency.cpp:97
+msgid "BSD"
+msgstr "BSD"
 
 #: Currency.cpp:97
 msgid "Bahamas"
@@ -925,9 +999,9 @@ msgstr "Багама Ороллари"
 msgid "Bahamian Dollar"
 msgstr "Багама доллари"
 
-#: Currency.cpp:97
-msgid "BSD"
-msgstr "BSD"
+#: Currency.cpp:98
+msgid "BHD"
+msgstr "BHD"
 
 #: Currency.cpp:98
 msgid "Bahrain"
@@ -937,9 +1011,9 @@ msgstr "Баҳрайн"
 msgid "Bahraini Dinar"
 msgstr "Баҳрайн динори"
 
-#: Currency.cpp:98
-msgid "BHD"
-msgstr "BHD"
+#: Currency.cpp:99
+msgid "BDT"
+msgstr "BDT"
 
 #: Currency.cpp:99
 msgid "Bangladesh"
@@ -949,9 +1023,9 @@ msgstr "Бангладеш"
 msgid "Taka"
 msgstr "Така"
 
-#: Currency.cpp:99
-msgid "BDT"
-msgstr "BDT"
+#: Currency.cpp:100
+msgid "BBD"
+msgstr "BBD"
 
 #: Currency.cpp:100
 msgid "Barbados"
@@ -960,10 +1034,6 @@ msgstr "Барбадос"
 #: Currency.cpp:100
 msgid "Barbados Dollar"
 msgstr "Барбадос доллари"
-
-#: Currency.cpp:100
-msgid "BBD"
-msgstr "BBD"
 
 #: Currency.cpp:101
 msgid "Belarus"
@@ -978,13 +1048,17 @@ msgstr "Белорус рубли"
 msgid "p."
 msgstr "p."
 
+#: Currency.cpp:103
+msgid "BF"
+msgstr "BF"
+
 #: Currency.cpp:103 Currency.cpp:165 Currency.cpp:226
 msgid "Franc"
 msgstr "Франк"
 
-#: Currency.cpp:103
-msgid "BF"
-msgstr "BF"
+#: Currency.cpp:104
+msgid "BZ$"
+msgstr "BZ$"
 
 #: Currency.cpp:104
 msgid "Belize"
@@ -993,10 +1067,6 @@ msgstr "Белиз"
 #: Currency.cpp:104
 msgid "Belize Dollar"
 msgstr "Белиз доллари"
-
-#: Currency.cpp:104
-msgid "BZ$"
-msgstr "BZ$"
 
 #: Currency.cpp:105
 msgid "Benin"
@@ -1013,6 +1083,10 @@ msgid "XOF"
 msgstr "XOF"
 
 #: Currency.cpp:106
+msgid "BMD"
+msgstr "BMD"
+
+#: Currency.cpp:106
 msgid "Bermuda"
 msgstr "Бермуд Ороллари"
 
@@ -1020,30 +1094,26 @@ msgstr "Бермуд Ороллари"
 msgid "Bermudian Dollar"
 msgstr "Бермуд ороллари доллари"
 
-#: Currency.cpp:106
-msgid "BMD"
-msgstr "BMD"
-
 #: Currency.cpp:107 Currency.cpp:108
 msgid "Bhutan"
 msgstr "Бутан"
 
 #: Currency.cpp:107 Currency.cpp:195
+msgid "INR"
+msgstr "INR"
+
+#: Currency.cpp:107 Currency.cpp:195
 msgid "Indian Rupee"
 msgstr "Ҳинд рупияси"
 
-#: Currency.cpp:107 Currency.cpp:195
-msgid "INR"
-msgstr "INR"
+#: Currency.cpp:108
+msgid "BTN"
+msgstr "BTN"
 
 #: Currency.cpp:108
 #, fuzzy
 msgid "Ngultrum"
 msgstr "Науру"
-
-#: Currency.cpp:108
-msgid "BTN"
-msgstr "BTN"
 
 #: Currency.cpp:109 Currency.cpp:110
 msgid "Bolivia"
@@ -1058,12 +1128,16 @@ msgid "Bs"
 msgstr "Bs"
 
 #: Currency.cpp:110
+msgid "BOV"
+msgstr "BOV"
+
+#: Currency.cpp:110
 msgid "Mvdol"
 msgstr "Мвдол"
 
-#: Currency.cpp:110
-msgid "BOV"
-msgstr "BOV"
+#: Currency.cpp:111
+msgid "BAM"
+msgstr "BAM"
 
 #: Currency.cpp:111
 msgid "Bosnia And Herzegovina"
@@ -1073,9 +1147,9 @@ msgstr "Босния ва Герцоговина"
 msgid "Convertible Marks"
 msgstr "Алмаштириладиган марка"
 
-#: Currency.cpp:111
-msgid "BAM"
-msgstr "BAM"
+#: Currency.cpp:112
+msgid "BWP"
+msgstr "BWP"
 
 #: Currency.cpp:112
 msgid "Botswana"
@@ -1085,21 +1159,17 @@ msgstr "Боцвана"
 msgid "Pula"
 msgstr "Пула"
 
-#: Currency.cpp:112
-msgid "BWP"
-msgstr "BWP"
-
 #: Currency.cpp:113
 msgid "Bouvet Island"
 msgstr "Бувет Ороллари"
 
-#: Currency.cpp:113 Currency.cpp:266 Currency.cpp:311
-msgid "Norwegian Krone"
-msgstr "Норвегия кронаси"
-
 #: Currency.cpp:113 Currency.cpp:311
 msgid "NOK"
 msgstr "NOK"
+
+#: Currency.cpp:113 Currency.cpp:266 Currency.cpp:311
+msgid "Norwegian Krone"
+msgstr "Норвегия кронаси"
 
 #: Currency.cpp:114
 msgid "Brazil"
@@ -1118,6 +1188,10 @@ msgid "British Indian Ocean Territory"
 msgstr "Ҳинд Океанидаги Британия минтақаси"
 
 #: Currency.cpp:116
+msgid "BND"
+msgstr "BND"
+
+#: Currency.cpp:116
 msgid "Brunei Darussalam"
 msgstr "Бруней Доруссалом"
 
@@ -1125,9 +1199,9 @@ msgstr "Бруней Доруссалом"
 msgid "Brunei Dollar"
 msgstr "Бруней доллари"
 
-#: Currency.cpp:116
-msgid "BND"
-msgstr "BND"
+#: Currency.cpp:117
+msgid "BGL"
+msgstr "BGL"
 
 #: Currency.cpp:117 Currency.cpp:118
 msgid "Bulgaria"
@@ -1137,21 +1211,21 @@ msgstr "Болгария"
 msgid "Lev"
 msgstr "Лев"
 
-#: Currency.cpp:117
-msgid "BGL"
-msgstr "BGL"
+#: Currency.cpp:118
+msgid "BGN"
+msgstr "BGN"
 
 #: Currency.cpp:118
 msgid "Bulgarian Lev"
 msgstr "Болгария леви"
 
-#: Currency.cpp:118
-msgid "BGN"
-msgstr "BGN"
-
 #: Currency.cpp:119
 msgid "Burkina Faso"
 msgstr "Буркина-Фасо"
+
+#: Currency.cpp:120
+msgid "BIF"
+msgstr "BIF"
 
 #: Currency.cpp:120
 msgid "Burundi"
@@ -1161,21 +1235,22 @@ msgstr "Бурунди"
 msgid "Burundi Franc"
 msgstr "Бурунди франки"
 
-#: Currency.cpp:120
-msgid "BIF"
-msgstr "BIF"
-
 #: Currency.cpp:121
 msgid "Cambodia"
 msgstr "Камбоджа"
 
 #: Currency.cpp:121
+msgid "KHR"
+msgstr "KHR"
+
+#: Currency.cpp:121
 msgid "Riel"
 msgstr "Риел"
 
-#: Currency.cpp:121
-msgid "KHR"
-msgstr "KHR"
+#: Currency.cpp:122 Currency.cpp:126 Currency.cpp:127 Currency.cpp:135
+#: Currency.cpp:155 Currency.cpp:169
+msgid "CFA Franc BEAC"
+msgstr ""
 
 #: Currency.cpp:122
 msgid "Cameroon"
@@ -1183,21 +1258,20 @@ msgstr "Камерун"
 
 #: Currency.cpp:122 Currency.cpp:126 Currency.cpp:127 Currency.cpp:135
 #: Currency.cpp:155 Currency.cpp:169
-msgid "CFA Franc BEAC"
-msgstr ""
-
-#: Currency.cpp:122 Currency.cpp:126 Currency.cpp:127 Currency.cpp:135
-#: Currency.cpp:155 Currency.cpp:169
 msgid "XAF"
 msgstr "XAF"
+
+#: Currency.cpp:123
+msgid "CAD"
+msgstr "CAD"
 
 #: Currency.cpp:123
 msgid "Canadian Dollar"
 msgstr "Канада доллари"
 
-#: Currency.cpp:123
-msgid "CAD"
-msgstr "CAD"
+#: Currency.cpp:124
+msgid "CVE"
+msgstr "CVE"
 
 #: Currency.cpp:124
 msgid "Cape Verde"
@@ -1206,10 +1280,6 @@ msgstr "Кейп Верде"
 #: Currency.cpp:124
 msgid "Cape Verde Escudo"
 msgstr "Кейп Верде эскудоси"
-
-#: Currency.cpp:124
-msgid "CVE"
-msgstr "CVE"
 
 #: Currency.cpp:125
 msgid "Cayman Islands"
@@ -1231,6 +1301,10 @@ msgstr "Марказий Африка Республикаси"
 msgid "Chad"
 msgstr "Чад"
 
+#: Currency.cpp:128
+msgid "Ch$"
+msgstr "Ch$"
+
 #: Currency.cpp:128 Currency.cpp:129
 msgid "Chile"
 msgstr "Чили"
@@ -1239,17 +1313,17 @@ msgstr "Чили"
 msgid "Chilean Peso"
 msgstr "Чили песоси"
 
-#: Currency.cpp:128
-msgid "Ch$"
-msgstr "Ch$"
+#: Currency.cpp:129
+msgid "CLF"
+msgstr "CLF"
 
 #: Currency.cpp:129
 msgid "Unidades de fomento"
 msgstr ""
 
-#: Currency.cpp:129
-msgid "CLF"
-msgstr "CLF"
+#: Currency.cpp:130
+msgid "CNY"
+msgstr "CNY"
 
 #: Currency.cpp:130
 msgid "China"
@@ -1258,10 +1332,6 @@ msgstr "Хитой"
 #: Currency.cpp:130
 msgid "Yuan Renminbi"
 msgstr "Хитой юани"
-
-#: Currency.cpp:130
-msgid "CNY"
-msgstr "CNY"
 
 #: Currency.cpp:131
 msgid "Christmas Island"
@@ -1272,6 +1342,10 @@ msgid "Cocos (Keeling) Islands"
 msgstr "Кокос (Килинг) Ороллари"
 
 #: Currency.cpp:133
+msgid "C$"
+msgstr "C$"
+
+#: Currency.cpp:133
 msgid "Colombia"
 msgstr "Колумбия"
 
@@ -1279,17 +1353,13 @@ msgstr "Колумбия"
 msgid "Colombian Peso"
 msgstr "Колумбия песоси"
 
-#: Currency.cpp:133
-msgid "C$"
-msgstr "C$"
+#: Currency.cpp:134
+msgid "Comoro Franc"
+msgstr "Коморос франки"
 
 #: Currency.cpp:134
 msgid "Comoros"
 msgstr "Коморос"
-
-#: Currency.cpp:134
-msgid "Comoro Franc"
-msgstr "Коморос франки"
 
 #: Currency.cpp:134
 msgid "KMF"
@@ -1300,6 +1370,10 @@ msgid "Congo"
 msgstr "Конго"
 
 #: Currency.cpp:136
+msgid "CDF"
+msgstr "CDF"
+
+#: Currency.cpp:136
 msgid "Congo, The Democratic Republic Of"
 msgstr "Конго Демократик Республикаси"
 
@@ -1307,23 +1381,23 @@ msgstr "Конго Демократик Республикаси"
 msgid "Franc Congolais"
 msgstr ""
 
-#: Currency.cpp:136
-msgid "CDF"
-msgstr "CDF"
-
 #: Currency.cpp:137
 msgid "Cook Islands"
 msgstr "Кук Ороллари"
 
 #: Currency.cpp:137 Currency.cpp:259 Currency.cpp:263 Currency.cpp:276
 #: Currency.cpp:321
-msgid "New Zealand Dollar"
-msgstr "Янги Зеландия доллари"
+msgid "NZD"
+msgstr "NZD"
 
 #: Currency.cpp:137 Currency.cpp:259 Currency.cpp:263 Currency.cpp:276
 #: Currency.cpp:321
-msgid "NZD"
-msgstr "NZD"
+msgid "New Zealand Dollar"
+msgstr "Янги Зеландия доллари"
+
+#: Currency.cpp:138 Currency.cpp:153
+msgid "C"
+msgstr "C"
 
 #: Currency.cpp:138
 msgid "Costa Rica"
@@ -1332,10 +1406,6 @@ msgstr "Коста Рика"
 #: Currency.cpp:138
 msgid "Costa Rican Colon"
 msgstr "Коста Рика колони"
-
-#: Currency.cpp:138 Currency.cpp:153
-msgid "C"
-msgstr "C"
 
 #: Currency.cpp:139
 msgid "Cote D'Ivoire"
@@ -1354,6 +1424,10 @@ msgid "kn"
 msgstr "kn"
 
 #: Currency.cpp:141
+msgid "CUP"
+msgstr "CUP"
+
+#: Currency.cpp:141
 msgid "Cuba"
 msgstr "Куба"
 
@@ -1361,42 +1435,42 @@ msgstr "Куба"
 msgid "Cuban Peso"
 msgstr "Кубу песоси"
 
-#: Currency.cpp:141
-msgid "CUP"
-msgstr "CUP"
-
-#: Currency.cpp:143
-msgid "Cyprus Pound"
-msgstr "Кипр фунти"
-
 #: Currency.cpp:143
 msgid "CYP"
 msgstr "CYP"
 
-#: Currency.cpp:144
-msgid "Czech Republic"
-msgstr "Чех Республикаси"
+#: Currency.cpp:143
+msgid "Cyprus Pound"
+msgstr "Кипр фунти"
 
 #: Currency.cpp:144
 msgid "Czech Koruna"
 msgstr "Чех кронаси"
 
 #: Currency.cpp:144
+msgid "Czech Republic"
+msgstr "Чех Республикаси"
+
+#: Currency.cpp:144
 msgid "Kc"
 msgstr "Kc"
-
-#: Currency.cpp:145
-msgid "Denmark"
-msgstr "Дания"
 
 #: Currency.cpp:145 Currency.cpp:160 Currency.cpp:178
 msgid "Danish Krone"
 msgstr "Дания кронаси"
 
+#: Currency.cpp:145
+msgid "Denmark"
+msgstr "Дания"
+
 #: Currency.cpp:145 Currency.cpp:157 Currency.cpp:160 Currency.cpp:266
 #: Currency.cpp:313
 msgid "kr"
 msgstr "kr"
+
+#: Currency.cpp:146
+msgid "DJF"
+msgstr "DJF"
 
 #: Currency.cpp:146
 msgid "Djibouti"
@@ -1405,10 +1479,6 @@ msgstr "Жибути"
 #: Currency.cpp:146
 msgid "Djibouti Franc"
 msgstr "Жибути франки"
-
-#: Currency.cpp:146
-msgid "DJF"
-msgstr "DJF"
 
 #: Currency.cpp:147
 msgid "Dominica"
@@ -1419,32 +1489,36 @@ msgid "RD$"
 msgstr "RD$"
 
 #: Currency.cpp:148
-msgid "Dominican Republic"
-msgstr "Доминикан Республикаси"
+msgid "DOP"
+msgstr "DOP"
 
 #: Currency.cpp:148
 msgid "Dominican Peso"
 msgstr "Доминикан песоси"
 
 #: Currency.cpp:148
-msgid "DOP"
-msgstr "DOP"
+msgid "Dominican Republic"
+msgstr "Доминикан Республикаси"
 
 #: Currency.cpp:149 Currency.cpp:150
 msgid "East Timor"
 msgstr "Шарқий Тимор"
 
 #: Currency.cpp:149
-msgid "Timor Escudo"
-msgstr "Тимор эскудоси"
-
-#: Currency.cpp:149
 msgid "TPE"
 msgstr "TPE"
+
+#: Currency.cpp:149
+msgid "Timor Escudo"
+msgstr "Тимор эскудоси"
 
 #: Currency.cpp:151
 msgid "Ecuador"
 msgstr "Эквадор"
+
+#: Currency.cpp:152
+msgid "EGP"
+msgstr "EGP"
 
 #: Currency.cpp:152
 msgid "Egypt"
@@ -1453,10 +1527,6 @@ msgstr "Миср"
 #: Currency.cpp:152
 msgid "Egyptian Pound"
 msgstr "Миср фунти"
-
-#: Currency.cpp:152
-msgid "EGP"
-msgstr "EGP"
 
 #: Currency.cpp:153 Currency.cpp:154
 msgid "El Salvador"
@@ -1471,16 +1541,16 @@ msgid "Equatorial Guinea"
 msgstr "Экваториал Гвинея"
 
 #: Currency.cpp:156
+msgid "ERN"
+msgstr "ERN"
+
+#: Currency.cpp:156
 msgid "Eritrea"
 msgstr "Эритрия"
 
 #: Currency.cpp:156
 msgid "Nakfa"
 msgstr "Накфа"
-
-#: Currency.cpp:156
-msgid "ERN"
-msgstr "ERN"
 
 #: Currency.cpp:157
 msgid "Estonia"
@@ -1491,6 +1561,10 @@ msgid "Kroon"
 msgstr "Крона"
 
 #: Currency.cpp:158
+msgid "ETB"
+msgstr "ETB"
+
+#: Currency.cpp:158
 msgid "Ethiopia"
 msgstr "Эфиопия"
 
@@ -1498,9 +1572,9 @@ msgstr "Эфиопия"
 msgid "Ethiopian Birr"
 msgstr "Эфиопия бирри"
 
-#: Currency.cpp:158
-msgid "ETB"
-msgstr "ETB"
+#: Currency.cpp:159
+msgid "FKP"
+msgstr "FKP"
 
 #: Currency.cpp:159
 msgid "Falkland Island (Malvinas)"
@@ -1511,13 +1585,13 @@ msgstr ""
 msgid "Falkland Islands Pound"
 msgstr "Кайман Ороллари"
 
-#: Currency.cpp:159
-msgid "FKP"
-msgstr "FKP"
-
 #: Currency.cpp:160
 msgid "Faeroe Islands"
 msgstr "Фарер Ороллари"
+
+#: Currency.cpp:161
+msgid "FJD"
+msgstr "FJD"
 
 #: Currency.cpp:161
 msgid "Fiji"
@@ -1526,10 +1600,6 @@ msgstr "Фижи"
 #: Currency.cpp:161
 msgid "Fiji Dollar"
 msgstr "Фижи доллари"
-
-#: Currency.cpp:161
-msgid "FJD"
-msgstr "FJD"
 
 #: Currency.cpp:163
 msgid "Markka"
@@ -1547,14 +1617,14 @@ msgstr "F"
 msgid "French Guiana"
 msgstr "Француз Гвинеяси"
 
-#: Currency.cpp:167
-msgid "French Polynesia"
-msgstr "Француз Полинезияси"
-
 #: Currency.cpp:167 Currency.cpp:258 Currency.cpp:342
 #, fuzzy
 msgid "CFP Franc"
 msgstr "Франк"
+
+#: Currency.cpp:167
+msgid "French Polynesia"
+msgstr "Француз Полинезияси"
 
 #: Currency.cpp:167 Currency.cpp:258 Currency.cpp:342
 msgid "XPF"
@@ -1569,16 +1639,20 @@ msgid "Gabon"
 msgstr "Габон"
 
 #: Currency.cpp:170
-msgid "Gambia"
-msgstr "Гамбия"
-
-#: Currency.cpp:170
 msgid "Dalasi"
 msgstr "Даласи"
 
 #: Currency.cpp:170
 msgid "GMD"
 msgstr "GMD"
+
+#: Currency.cpp:170
+msgid "Gambia"
+msgstr "Гамбия"
+
+#: Currency.cpp:171
+msgid "GEL"
+msgstr "GEL"
 
 #: Currency.cpp:171
 msgid "Georgia"
@@ -1588,21 +1662,13 @@ msgstr "Гуржистон"
 msgid "Lari"
 msgstr "Лари"
 
-#: Currency.cpp:171
-msgid "GEL"
-msgstr "GEL"
-
-#: Currency.cpp:173
-msgid "German Mark"
-msgstr "Олмон маркаси"
-
 #: Currency.cpp:173
 msgid "DM"
 msgstr "DM"
 
-#: Currency.cpp:174
-msgid "Ghana"
-msgstr "Гана"
+#: Currency.cpp:173
+msgid "German Mark"
+msgstr "Олмон маркаси"
 
 #: Currency.cpp:174
 msgid "Cedi"
@@ -1612,6 +1678,14 @@ msgstr "Седи"
 msgid "GHC"
 msgstr "GHC"
 
+#: Currency.cpp:174
+msgid "Ghana"
+msgstr "Гана"
+
+#: Currency.cpp:175
+msgid "GIP"
+msgstr "GIP"
+
 #: Currency.cpp:175
 msgid "Gibraltar"
 msgstr "Гибралтар"
@@ -1619,10 +1693,6 @@ msgstr "Гибралтар"
 #: Currency.cpp:175
 msgid "Gibraltar Pound"
 msgstr "Гибралтар фунти"
-
-#: Currency.cpp:175
-msgid "GIP"
-msgstr "GIP"
 
 #: Currency.cpp:177
 msgid "Drachma"
@@ -1633,12 +1703,12 @@ msgid "GRD"
 msgstr "GRD"
 
 #: Currency.cpp:178
-msgid "Greenland"
-msgstr "Гренландия"
-
-#: Currency.cpp:178
 msgid "DKK"
 msgstr "DKK"
+
+#: Currency.cpp:178
+msgid "Greenland"
+msgstr "Гренландия"
 
 #: Currency.cpp:179
 msgid "Grenada"
@@ -1657,12 +1727,16 @@ msgid "Guatemala"
 msgstr "Гватемала"
 
 #: Currency.cpp:182
+msgid "Q"
+msgstr "Q"
+
+#: Currency.cpp:182
 msgid "Quetzal"
 msgstr "Кетсал"
 
-#: Currency.cpp:182
-msgid "Q"
-msgstr "Q"
+#: Currency.cpp:183
+msgid "GNF"
+msgstr "GNF"
 
 #: Currency.cpp:183
 msgid "Guinea"
@@ -1672,9 +1746,9 @@ msgstr "Гвинея"
 msgid "Guinea Franc"
 msgstr "Гвинея франки"
 
-#: Currency.cpp:183
-msgid "GNF"
-msgstr "GNF"
+#: Currency.cpp:184
+msgid "GWP"
+msgstr "GWP"
 
 #: Currency.cpp:184 Currency.cpp:185
 msgid "Guinea-Bissau"
@@ -1684,9 +1758,9 @@ msgstr "Гвинея-Биссау"
 msgid "Guinea-Bissau Peso"
 msgstr "Гвинея-Биссау песоси"
 
-#: Currency.cpp:184
-msgid "GWP"
-msgstr "GWP"
+#: Currency.cpp:186
+msgid "GYD"
+msgstr "GYD"
 
 #: Currency.cpp:186
 #, fuzzy
@@ -1698,14 +1772,6 @@ msgstr "Гана"
 msgid "Guyana Dollar"
 msgstr "Канада доллари"
 
-#: Currency.cpp:186
-msgid "GYD"
-msgstr "GYD"
-
-#: Currency.cpp:187 Currency.cpp:188
-msgid "Haiti"
-msgstr "Гаити"
-
 #: Currency.cpp:187
 msgid "Gourde"
 msgstr "Гурд"
@@ -1713,6 +1779,10 @@ msgstr "Гурд"
 #: Currency.cpp:187
 msgid "HTG"
 msgstr "HTG"
+
+#: Currency.cpp:187 Currency.cpp:188
+msgid "Haiti"
+msgstr "Гаити"
 
 #: Currency.cpp:189
 msgid "Heard Island And McDonald Islands"
@@ -1727,12 +1797,16 @@ msgid "Honduras"
 msgstr "Гондурас"
 
 #: Currency.cpp:191
+msgid "L"
+msgstr "L"
+
+#: Currency.cpp:191
 msgid "Lempira"
 msgstr "Лемпира"
 
-#: Currency.cpp:191
-msgid "L"
-msgstr "L"
+#: Currency.cpp:192
+msgid "HKD"
+msgstr "HKD"
 
 #: Currency.cpp:192
 msgid "Hong Kong"
@@ -1742,14 +1816,6 @@ msgstr "Гонконг"
 msgid "Hong Kong Dollar"
 msgstr "Гонконг доллари"
 
-#: Currency.cpp:192
-msgid "HKD"
-msgstr "HKD"
-
-#: Currency.cpp:193
-msgid "Hungary"
-msgstr "Венгрия"
-
 #: Currency.cpp:193
 msgid "Forint"
 msgstr "Форинт"
@@ -1757,6 +1823,10 @@ msgstr "Форинт"
 #: Currency.cpp:193
 msgid "Ft"
 msgstr "Ft"
+
+#: Currency.cpp:193
+msgid "Hungary"
+msgstr "Венгрия"
 
 #: Currency.cpp:194
 msgid "Iceland"
@@ -1779,12 +1849,16 @@ msgid "Indonesia"
 msgstr "Индонезия"
 
 #: Currency.cpp:196
+msgid "Rp"
+msgstr "Rp"
+
+#: Currency.cpp:196
 msgid "Rupiah"
 msgstr "Рупия"
 
-#: Currency.cpp:196
-msgid "Rp"
-msgstr "Rp"
+#: Currency.cpp:197
+msgid "IRR"
+msgstr "IRR"
 
 #: Currency.cpp:197
 msgid "Iran, Islamic Republic Of"
@@ -1794,9 +1868,9 @@ msgstr "Эрон Ислом Республикаси"
 msgid "Iranian Rial"
 msgstr "Эрон риоли"
 
-#: Currency.cpp:197
-msgid "IRR"
-msgstr "IRR"
+#: Currency.cpp:198
+msgid "IQD"
+msgstr "IQD"
 
 #: Currency.cpp:198
 msgid "Iraq"
@@ -1806,25 +1880,25 @@ msgstr "Ироқ"
 msgid "Iraqi Dinar"
 msgstr "Ироқ динори"
 
-#: Currency.cpp:198
-msgid "IQD"
-msgstr "IQD"
+#: Currency.cpp:200
+msgid "IR----"
+msgstr "IR----"
 
 #: Currency.cpp:200
 msgid "Punt"
 msgstr "Пунт"
 
-#: Currency.cpp:200
-msgid "IR----"
-msgstr "IR----"
+#: Currency.cpp:201
+msgid "IEX"
+msgstr "IEX"
 
 #: Currency.cpp:201
 msgid "Pence"
 msgstr "Пенс"
 
-#: Currency.cpp:201
-msgid "IEX"
-msgstr "IEX"
+#: Currency.cpp:202
+msgid "ILS"
+msgstr "ILS"
 
 #: Currency.cpp:202
 msgid "Israel"
@@ -1834,17 +1908,17 @@ msgstr "Исроил"
 msgid "New Israeli Sheqel"
 msgstr "Янги Исроил шақели"
 
-#: Currency.cpp:202
-msgid "ILS"
-msgstr "ILS"
+#: Currency.cpp:204
+msgid "L."
+msgstr "L."
 
 #: Currency.cpp:204
 msgid "Lira"
 msgstr "Лира"
 
-#: Currency.cpp:204
-msgid "L."
-msgstr "L."
+#: Currency.cpp:205
+msgid "J$"
+msgstr "J$"
 
 #: Currency.cpp:205
 msgid "Jamaica"
@@ -1854,13 +1928,13 @@ msgstr "Ямайка"
 msgid "Jamaican Dollar"
 msgstr "Ямайка доллари"
 
-#: Currency.cpp:205
-msgid "J$"
-msgstr "J$"
-
 #: Currency.cpp:206
 msgid "JPY"
 msgstr "JPY"
+
+#: Currency.cpp:207
+msgid "JOD"
+msgstr "JOD"
 
 #: Currency.cpp:207
 msgid "Jordan"
@@ -1870,9 +1944,9 @@ msgstr "Иордания"
 msgid "Jordanian Dinar"
 msgstr "Иордания динори"
 
-#: Currency.cpp:207
-msgid "JOD"
-msgstr "JOD"
+#: Currency.cpp:208
+msgid "KZT"
+msgstr "KZT"
 
 #: Currency.cpp:208
 msgid "Kazakhstan"
@@ -1882,9 +1956,9 @@ msgstr "Қозоғистон"
 msgid "Tenge"
 msgstr "Танга"
 
-#: Currency.cpp:208
-msgid "KZT"
-msgstr "KZT"
+#: Currency.cpp:209
+msgid "KES"
+msgstr "KES"
 
 #: Currency.cpp:209
 msgid "Kenya"
@@ -1894,13 +1968,13 @@ msgstr "Кения"
 msgid "Kenyan Shilling"
 msgstr "Кения шиллинги"
 
-#: Currency.cpp:209
-msgid "KES"
-msgstr "KES"
-
 #: Currency.cpp:210
 msgid "Kiribati"
 msgstr "Кирибати"
+
+#: Currency.cpp:211
+msgid "KPW"
+msgstr "KPW"
 
 #: Currency.cpp:211
 msgid "Korea, Democratic People's Republic Of"
@@ -1910,9 +1984,9 @@ msgstr "Корея Демократик Республикаси"
 msgid "North Korean Won"
 msgstr "Шимолий Корея вони"
 
-#: Currency.cpp:211
-msgid "KPW"
-msgstr "KPW"
+#: Currency.cpp:212
+msgid "KRW"
+msgstr "KRW"
 
 #: Currency.cpp:212
 msgid "Korea, Republic Of"
@@ -1922,9 +1996,9 @@ msgstr "Корея Республикаси"
 msgid "Won"
 msgstr "Вон"
 
-#: Currency.cpp:212
-msgid "KRW"
-msgstr "KRW"
+#: Currency.cpp:213
+msgid "KWD"
+msgstr "KWD"
 
 #: Currency.cpp:213
 msgid "Kuwait"
@@ -1934,9 +2008,9 @@ msgstr "Кувайт"
 msgid "Kuwaiti Dinar"
 msgstr "Кувайт динори"
 
-#: Currency.cpp:213
-msgid "KWD"
-msgstr "KWD"
+#: Currency.cpp:214
+msgid "KGS"
+msgstr "KGS"
 
 #: Currency.cpp:214
 msgid "Kyrgyzstan"
@@ -1946,14 +2020,6 @@ msgstr "Қирғизистон"
 msgid "Som"
 msgstr "Сом"
 
-#: Currency.cpp:214
-msgid "KGS"
-msgstr "KGS"
-
-#: Currency.cpp:215
-msgid "Lao People's Democratic Republic"
-msgstr "Лаос Халқ Республикаси"
-
 #: Currency.cpp:215
 msgid "Kip"
 msgstr "Кип"
@@ -1961,6 +2027,10 @@ msgstr "Кип"
 #: Currency.cpp:215
 msgid "LAK"
 msgstr "LAK"
+
+#: Currency.cpp:215
+msgid "Lao People's Democratic Republic"
+msgstr "Лаос Халқ Республикаси"
 
 #: Currency.cpp:217
 msgid "Latvian Lats"
@@ -1971,16 +2041,16 @@ msgid "Ls"
 msgstr "Ls"
 
 #: Currency.cpp:218
-msgid "Lebanon"
-msgstr "Ливан"
+msgid "LBP"
+msgstr "LBP"
 
 #: Currency.cpp:218
 msgid "Lebanese Pound"
 msgstr "Ливан фунти"
 
 #: Currency.cpp:218
-msgid "LBP"
-msgstr "LBP"
+msgid "Lebanon"
+msgstr "Ливан"
 
 #: Currency.cpp:219 Currency.cpp:220
 msgid "Lesotho"
@@ -1995,12 +2065,16 @@ msgid "ZAR"
 msgstr "ZAR"
 
 #: Currency.cpp:220
+msgid "LSL"
+msgstr "LSL"
+
+#: Currency.cpp:220
 msgid "Loti"
 msgstr "Лоти"
 
-#: Currency.cpp:220
-msgid "LSL"
-msgstr "LSL"
+#: Currency.cpp:221
+msgid "LRD"
+msgstr "LRD"
 
 #: Currency.cpp:221
 msgid "Liberia"
@@ -2010,9 +2084,9 @@ msgstr "Либерия"
 msgid "Liberian Dollar"
 msgstr "Либерия доллари"
 
-#: Currency.cpp:221
-msgid "LRD"
-msgstr "LRD"
+#: Currency.cpp:222
+msgid "LYD"
+msgstr "LYD"
 
 #: Currency.cpp:222
 msgid "Libyan Arab Jamahiriya"
@@ -2022,9 +2096,9 @@ msgstr "Ливия Араб Жумҳурияти"
 msgid "Lybian Dinar"
 msgstr "Ливия динори"
 
-#: Currency.cpp:222
-msgid "LYD"
-msgstr "LYD"
+#: Currency.cpp:223
+msgid "CHF"
+msgstr "CHF"
 
 #: Currency.cpp:223
 msgid "Liechtenstein"
@@ -2033,10 +2107,6 @@ msgstr "Лихтенштейн"
 #: Currency.cpp:223 Currency.cpp:314
 msgid "Swiss Franc"
 msgstr "Швейцария франки"
-
-#: Currency.cpp:223
-msgid "CHF"
-msgstr "CHF"
 
 #: Currency.cpp:224
 msgid "Lithuania"
@@ -2051,20 +2121,16 @@ msgid "Lt"
 msgstr "Lt"
 
 #: Currency.cpp:227
+msgid "MOP"
+msgstr "MOP"
+
+#: Currency.cpp:227
 msgid "Macao"
 msgstr "Макао"
 
 #: Currency.cpp:227
 msgid "Pataca"
 msgstr "Патака"
-
-#: Currency.cpp:227
-msgid "MOP"
-msgstr "MOP"
-
-#: Currency.cpp:228
-msgid "Macedonia, The Former Yugoslav Republic Of"
-msgstr "Македония, собиқ Югославия Республикаси"
 
 #: Currency.cpp:228
 msgid "Denar"
@@ -2073,6 +2139,14 @@ msgstr "Денар"
 #: Currency.cpp:228
 msgid "MKD"
 msgstr "MKD"
+
+#: Currency.cpp:228
+msgid "Macedonia, The Former Yugoslav Republic Of"
+msgstr "Македония, собиқ Югославия Республикаси"
+
+#: Currency.cpp:229
+msgid "MGF"
+msgstr "MGF"
 
 #: Currency.cpp:229
 msgid "Madagascar"
@@ -2083,14 +2157,6 @@ msgstr "Мадагаскар"
 msgid "Malagasy Franc"
 msgstr "Руанда франки"
 
-#: Currency.cpp:229
-msgid "MGF"
-msgstr "MGF"
-
-#: Currency.cpp:230
-msgid "Malawi"
-msgstr "Малави"
-
 #: Currency.cpp:230 Currency.cpp:346
 msgid "Kwacha"
 msgstr "Квача"
@@ -2098,6 +2164,14 @@ msgstr "Квача"
 #: Currency.cpp:230
 msgid "MWK"
 msgstr "MWK"
+
+#: Currency.cpp:230
+msgid "Malawi"
+msgstr "Малави"
+
+#: Currency.cpp:231
+msgid "MYR"
+msgstr "MYR"
 
 #: Currency.cpp:231
 msgid "Malaysia"
@@ -2107,9 +2181,9 @@ msgstr "Малайзия"
 msgid "Malaysian Ringgit"
 msgstr "Малайзия рингити"
 
-#: Currency.cpp:231
-msgid "MYR"
-msgstr "MYR"
+#: Currency.cpp:232
+msgid "MVR"
+msgstr "MVR"
 
 #: Currency.cpp:232
 msgid "Maldives"
@@ -2118,10 +2192,6 @@ msgstr "Малдив Ороллари"
 #: Currency.cpp:232
 msgid "Rufiyaa"
 msgstr "Руфия"
-
-#: Currency.cpp:232
-msgid "MVR"
-msgstr "MVR"
 
 #: Currency.cpp:233
 msgid "Mali"
@@ -2134,12 +2204,12 @@ msgid "EURO"
 msgstr "EUR"
 
 #: Currency.cpp:235
-msgid "Maltese Lira"
-msgstr "Малта лираси"
-
-#: Currency.cpp:235
 msgid "MTL"
 msgstr "MTL"
+
+#: Currency.cpp:235
+msgid "Maltese Lira"
+msgstr "Малта лираси"
 
 #: Currency.cpp:236
 msgid "Marshall Islands"
@@ -2150,6 +2220,10 @@ msgid "Martinique"
 msgstr "Мартиника"
 
 #: Currency.cpp:238
+msgid "MRO"
+msgstr "MRO"
+
+#: Currency.cpp:238
 msgid "Mauritania"
 msgstr "Мавритания"
 
@@ -2157,9 +2231,9 @@ msgstr "Мавритания"
 msgid "Ouguiya"
 msgstr ""
 
-#: Currency.cpp:238
-msgid "MRO"
-msgstr "MRO"
+#: Currency.cpp:239
+msgid "MUR"
+msgstr "MUR"
 
 #: Currency.cpp:239
 msgid "Mauritius"
@@ -2169,37 +2243,37 @@ msgstr "Маврикий"
 msgid "Mauritius Rupee"
 msgstr "Маврикий рупияси"
 
-#: Currency.cpp:239
-msgid "MUR"
-msgstr "MUR"
-
 #: Currency.cpp:240
 msgid "Mayotte"
 msgstr "Майот"
-
-#: Currency.cpp:241 Currency.cpp:242
-msgid "Mexico"
-msgstr "Мексика"
-
-#: Currency.cpp:241
-msgid "Mexican Peso"
-msgstr "Мексика песоси"
 
 #: Currency.cpp:241
 msgid "MXN"
 msgstr "MXN"
 
-#: Currency.cpp:242
-msgid "Mexican Unidad de Inversion (UDI)"
-msgstr ""
+#: Currency.cpp:241
+msgid "Mexican Peso"
+msgstr "Мексика песоси"
+
+#: Currency.cpp:241 Currency.cpp:242
+msgid "Mexico"
+msgstr "Мексика"
 
 #: Currency.cpp:242
 msgid "MXV"
 msgstr "MXV"
 
+#: Currency.cpp:242
+msgid "Mexican Unidad de Inversion (UDI)"
+msgstr ""
+
 #: Currency.cpp:243
 msgid "Micronesia, Federated States Of"
 msgstr ""
+
+#: Currency.cpp:244
+msgid "MDL"
+msgstr "MDL"
 
 #: Currency.cpp:244
 msgid "Moldova, Republic Of"
@@ -2209,9 +2283,9 @@ msgstr "Молдова Республикаси"
 msgid "Moldovan Leu"
 msgstr "Молдова леуси"
 
-#: Currency.cpp:244
-msgid "MDL"
-msgstr "MDL"
+#: Currency.cpp:246
+msgid "MNT"
+msgstr "MNT"
 
 #: Currency.cpp:246
 msgid "Mongolia"
@@ -2221,41 +2295,33 @@ msgstr "Муғилистон"
 msgid "Tugrik"
 msgstr "Тугрик"
 
-#: Currency.cpp:246
-msgid "MNT"
-msgstr "MNT"
-
 #: Currency.cpp:247
 msgid "Montserrat"
 msgstr "Монцеррат"
-
-#: Currency.cpp:248
-msgid "Morocco"
-msgstr "Марокаш"
-
-#: Currency.cpp:248 Currency.cpp:343
-msgid "Moroccan Dirham"
-msgstr "Марокаш дирҳами"
 
 #: Currency.cpp:248 Currency.cpp:343
 msgid "MAD"
 msgstr "MAD"
 
+#: Currency.cpp:248 Currency.cpp:343
+msgid "Moroccan Dirham"
+msgstr "Марокаш дирҳами"
+
+#: Currency.cpp:248
+msgid "Morocco"
+msgstr "Марокаш"
+
 #: Currency.cpp:249
-msgid "Mozambique"
-msgstr "Мозамбик"
+msgid "MZM"
+msgstr "MZM"
 
 #: Currency.cpp:249
 msgid "Metical"
 msgstr "Метикал"
 
 #: Currency.cpp:249
-msgid "MZM"
-msgstr "MZM"
-
-#: Currency.cpp:250
-msgid "Myanmar"
-msgstr "Мянмар"
+msgid "Mozambique"
+msgstr "Мозамбик"
 
 #: Currency.cpp:250
 #, fuzzy
@@ -2266,21 +2332,29 @@ msgstr "Кения"
 msgid "MMK"
 msgstr "MMK"
 
+#: Currency.cpp:250
+msgid "Myanmar"
+msgstr "Мянмар"
+
 #: Currency.cpp:251 Currency.cpp:252
 msgid "Namibia"
 msgstr "Намибия"
 
 #: Currency.cpp:252
-msgid "Namibia Dollar"
-msgstr "Намибия доллари"
-
-#: Currency.cpp:252
 msgid "NAD"
 msgstr "NAD"
+
+#: Currency.cpp:252
+msgid "Namibia Dollar"
+msgstr "Намибия доллари"
 
 #: Currency.cpp:253
 msgid "Nauru"
 msgstr "Науру"
+
+#: Currency.cpp:254
+msgid "NPR"
+msgstr "NPR"
 
 #: Currency.cpp:254
 msgid "Nepal"
@@ -2289,10 +2363,6 @@ msgstr "Непал"
 #: Currency.cpp:254
 msgid "Nepalese Rupee"
 msgstr "Непал рупияси"
-
-#: Currency.cpp:254
-msgid "NPR"
-msgstr "NPR"
 
 #: Currency.cpp:256
 #, fuzzy
@@ -2304,8 +2374,8 @@ msgid "fl"
 msgstr "fl"
 
 #: Currency.cpp:257
-msgid "Netherlands Antilles"
-msgstr "Нидерландлар Антил Ороллари"
+msgid "ANG"
+msgstr "ANG"
 
 #: Currency.cpp:257
 #, fuzzy
@@ -2313,16 +2383,12 @@ msgid "Netherlands Antillean Guilder"
 msgstr "Нидерландлар Антил Ороллари"
 
 #: Currency.cpp:257
-msgid "ANG"
-msgstr "ANG"
+msgid "Netherlands Antilles"
+msgstr "Нидерландлар Антил Ороллари"
 
 #: Currency.cpp:258
 msgid "New Caledonia"
 msgstr "Янги Каледония"
-
-#: Currency.cpp:260
-msgid "Nicaragua"
-msgstr "Никарагуа"
 
 #: Currency.cpp:260
 msgid "Cordoba Oro"
@@ -2332,21 +2398,25 @@ msgstr ""
 msgid "NIO"
 msgstr "NIO"
 
+#: Currency.cpp:260
+msgid "Nicaragua"
+msgstr "Никарагуа"
+
 #: Currency.cpp:261
 msgid "Niger"
 msgstr "Нигер"
 
 #: Currency.cpp:262
-msgid "Nigeria"
-msgstr "Нигерия"
+msgid "NGN"
+msgstr "NGN"
 
 #: Currency.cpp:262
 msgid "Naira"
 msgstr "Найра"
 
 #: Currency.cpp:262
-msgid "NGN"
-msgstr "NGN"
+msgid "Nigeria"
+msgstr "Нигерия"
 
 #: Currency.cpp:263
 #, fuzzy
@@ -2366,6 +2436,10 @@ msgid "Norway"
 msgstr "Норвегия"
 
 #: Currency.cpp:267
+msgid "OMR"
+msgstr "OMR"
+
+#: Currency.cpp:267
 msgid "Oman"
 msgstr "Уммон"
 
@@ -2373,9 +2447,9 @@ msgstr "Уммон"
 msgid "Rial Omani"
 msgstr "Уммон риоли"
 
-#: Currency.cpp:267
-msgid "OMR"
-msgstr "OMR"
+#: Currency.cpp:268
+msgid "PKR"
+msgstr "PKR"
 
 #: Currency.cpp:268
 msgid "Pakistan"
@@ -2385,17 +2459,9 @@ msgstr "Покистон"
 msgid "Pakistan Rupee"
 msgstr "Покистон рупияси"
 
-#: Currency.cpp:268
-msgid "PKR"
-msgstr "PKR"
-
 #: Currency.cpp:269
 msgid "Palau"
 msgstr "Палау"
-
-#: Currency.cpp:270 Currency.cpp:271
-msgid "Panama"
-msgstr "Панама"
 
 #: Currency.cpp:270
 msgid "Balboa"
@@ -2405,9 +2471,9 @@ msgstr "Балбоа"
 msgid "PAB"
 msgstr "PAB"
 
-#: Currency.cpp:272
-msgid "Papua New Guinea"
-msgstr "Папуа Янги Гвинея"
+#: Currency.cpp:270 Currency.cpp:271
+msgid "Panama"
+msgstr "Панама"
 
 #: Currency.cpp:272
 msgid "Kina"
@@ -2417,21 +2483,21 @@ msgstr "Кина"
 msgid "PGK"
 msgstr "PGK"
 
+#: Currency.cpp:272
+msgid "Papua New Guinea"
+msgstr "Папуа Янги Гвинея"
+
 #: Currency.cpp:273
-msgid "Paraguay"
-msgstr "Парагвай"
+msgid "G"
+msgstr "G"
 
 #: Currency.cpp:273
 msgid "Guarani"
 msgstr "Гуарани"
 
 #: Currency.cpp:273
-msgid "G"
-msgstr "G"
-
-#: Currency.cpp:274
-msgid "Peru"
-msgstr "Перу"
+msgid "Paraguay"
+msgstr "Парагвай"
 
 #: Currency.cpp:274
 msgid "Nuevo Sol"
@@ -2441,17 +2507,21 @@ msgstr "Янги Сол"
 msgid "PEN"
 msgstr "PEN"
 
+#: Currency.cpp:274
+msgid "Peru"
+msgstr "Перу"
+
 #: Currency.cpp:275
-msgid "Philippines"
-msgstr "Филиппин"
+msgid "PHP"
+msgstr "PHP"
 
 #: Currency.cpp:275
 msgid "Philippine Peso"
 msgstr "Филиппин песоси"
 
 #: Currency.cpp:275
-msgid "PHP"
-msgstr "PHP"
+msgid "Philippines"
+msgstr "Филиппин"
 
 #: Currency.cpp:276
 msgid "Pitcairn"
@@ -2470,16 +2540,20 @@ msgid "zt"
 msgstr "zt"
 
 #: Currency.cpp:279
-msgid "Escudo"
-msgstr "Эскудо"
-
-#: Currency.cpp:279
 msgid "Esc."
 msgstr "Esc."
+
+#: Currency.cpp:279
+msgid "Escudo"
+msgstr "Эскудо"
 
 #: Currency.cpp:280
 msgid "Puerto Rico"
 msgstr "Пуэрто-Рико"
+
+#: Currency.cpp:281
+msgid "QAR"
+msgstr "QAR"
 
 #: Currency.cpp:281
 msgid "Qatar"
@@ -2489,21 +2563,21 @@ msgstr "Қатар"
 msgid "Qatari Rial"
 msgstr "Қатар риоли"
 
-#: Currency.cpp:281
-msgid "QAR"
-msgstr "QAR"
-
 #: Currency.cpp:282
-msgid "Romania"
-msgstr "Руминия"
+msgid "LEI"
+msgstr "LEI"
 
 #: Currency.cpp:282
 msgid "Leu"
 msgstr "Лей"
 
 #: Currency.cpp:282
-msgid "LEI"
-msgstr "LEI"
+msgid "Romania"
+msgstr "Руминия"
+
+#: Currency.cpp:283
+msgid "RUR"
+msgstr "RUR"
 
 #: Currency.cpp:283 Currency.cpp:284
 msgid "Russian Federation"
@@ -2513,13 +2587,13 @@ msgstr "Россия Федерацияси"
 msgid "Russian Ruble"
 msgstr "Россия рубли"
 
-#: Currency.cpp:283
-msgid "RUR"
-msgstr "RUR"
-
 #: Currency.cpp:284
 msgid "RUB"
 msgstr "RUB"
+
+#: Currency.cpp:285
+msgid "RWF"
+msgstr "RWF"
 
 #: Currency.cpp:285
 msgid "Rwanda"
@@ -2529,9 +2603,9 @@ msgstr "Руанда"
 msgid "Rwanda Franc"
 msgstr "Руанда франки"
 
-#: Currency.cpp:285
-msgid "RWF"
-msgstr "RWF"
+#: Currency.cpp:286
+msgid "SHP"
+msgstr "SHP"
 
 #: Currency.cpp:286
 msgid "Saint Helena"
@@ -2540,10 +2614,6 @@ msgstr "Авлиё Елена Ороли"
 #: Currency.cpp:286
 msgid "Saint Helena Pound"
 msgstr "Авлиё Елена фунти"
-
-#: Currency.cpp:286
-msgid "SHP"
-msgstr "SHP"
 
 #: Currency.cpp:287
 msgid "Saint Kitts And Nevis"
@@ -2575,16 +2645,20 @@ msgid "WST"
 msgstr "WST"
 
 #: Currency.cpp:293
-msgid "Sao Tome And Principe"
-msgstr "Сан-Томе ва Принсипи"
-
-#: Currency.cpp:293
 msgid "Dobra"
 msgstr "Добра"
 
 #: Currency.cpp:293
 msgid "STD"
 msgstr "STD"
+
+#: Currency.cpp:293
+msgid "Sao Tome And Principe"
+msgstr "Сан-Томе ва Принсипи"
+
+#: Currency.cpp:294
+msgid "SAR"
+msgstr "SAR"
 
 #: Currency.cpp:294
 msgid "Saudi Arabia"
@@ -2594,13 +2668,13 @@ msgstr "Саудия Арабистони"
 msgid "Saudi Riyal"
 msgstr "Саудия Арабистони риоли"
 
-#: Currency.cpp:294
-msgid "SAR"
-msgstr "SAR"
-
 #: Currency.cpp:295
 msgid "Senegal"
 msgstr "Сенегал"
+
+#: Currency.cpp:296
+msgid "SCR"
+msgstr "SCR"
 
 #: Currency.cpp:296
 msgid "Seychelles"
@@ -2610,14 +2684,6 @@ msgstr "Сейшел Ороллари"
 msgid "Seychelles Rupee"
 msgstr "Сейшел руписи"
 
-#: Currency.cpp:296
-msgid "SCR"
-msgstr "SCR"
-
-#: Currency.cpp:297
-msgid "Sierra Leone"
-msgstr "Серра-Леоне"
-
 #: Currency.cpp:297
 msgid "Leone"
 msgstr "Леоне"
@@ -2625,6 +2691,14 @@ msgstr "Леоне"
 #: Currency.cpp:297
 msgid "SLL"
 msgstr "SLL"
+
+#: Currency.cpp:297
+msgid "Sierra Leone"
+msgstr "Серра-Леоне"
+
+#: Currency.cpp:298
+msgid "SGD"
+msgstr "SGD"
 
 #: Currency.cpp:298
 msgid "Singapore"
@@ -2634,27 +2708,27 @@ msgstr "Сингапур"
 msgid "Singapore Dollar"
 msgstr "Сингапур доллари"
 
-#: Currency.cpp:298
-msgid "SGD"
-msgstr "SGD"
+#: Currency.cpp:300
+msgid "Sk"
+msgstr "Sk"
 
 #: Currency.cpp:300
 msgid "Slovak Koruna"
 msgstr "Словакия кронаси"
 
-#: Currency.cpp:300
-msgid "Sk"
-msgstr "Sk"
+#: Currency.cpp:302
+#, fuzzy
+msgid "SIT"
+msgstr "WST"
 
 #: Currency.cpp:302
 #, fuzzy
 msgid "Tolar"
 msgstr "Доллар"
 
-#: Currency.cpp:302
-#, fuzzy
-msgid "SIT"
-msgstr "WST"
+#: Currency.cpp:303
+msgid "SBD"
+msgstr "SBD"
 
 #: Currency.cpp:303
 msgid "Solomon Islands"
@@ -2664,29 +2738,25 @@ msgstr "Соломон Ороллари"
 msgid "Solomon Islands Dollar"
 msgstr "Соломон Ороллари доллари"
 
-#: Currency.cpp:303
-msgid "SBD"
-msgstr "SBD"
-
 #: Currency.cpp:304
-msgid "Somalia"
-msgstr "Сомали"
+msgid "SOS"
+msgstr "SOS"
 
 #: Currency.cpp:304
 msgid "Somali Shilling"
 msgstr "Сомали шиллинги"
 
 #: Currency.cpp:304
-msgid "SOS"
-msgstr "SOS"
-
-#: Currency.cpp:305
-msgid "South Africa"
-msgstr "Жанубий Африка"
+msgid "Somalia"
+msgstr "Сомали"
 
 #: Currency.cpp:305
 msgid "R"
 msgstr "R"
+
+#: Currency.cpp:305
+msgid "South Africa"
+msgstr "Жанубий Африка"
 
 #: Currency.cpp:307
 msgid "Peseta"
@@ -2697,6 +2767,10 @@ msgid "Pts"
 msgstr "Pts"
 
 #: Currency.cpp:308
+msgid "LKR"
+msgstr "LKR"
+
+#: Currency.cpp:308
 msgid "Sri Lanka"
 msgstr "Шри Ланка"
 
@@ -2704,9 +2778,9 @@ msgstr "Шри Ланка"
 msgid "Sri Lanka Rupee"
 msgstr "Шри Ланка рупияси"
 
-#: Currency.cpp:308
-msgid "LKR"
-msgstr "LKR"
+#: Currency.cpp:309
+msgid "SDD"
+msgstr "SDD"
 
 #: Currency.cpp:309
 msgid "Sudan"
@@ -2716,9 +2790,9 @@ msgstr "Судан"
 msgid "Sudanese Dinar"
 msgstr "Судан динори"
 
-#: Currency.cpp:309
-msgid "SDD"
-msgstr "SDD"
+#: Currency.cpp:310
+msgid "SRG"
+msgstr "SRG"
 
 #: Currency.cpp:310
 msgid "Suriname"
@@ -2728,17 +2802,9 @@ msgstr "Суринам"
 msgid "Suriname Guilder"
 msgstr "Суринам гулдени"
 
-#: Currency.cpp:310
-msgid "SRG"
-msgstr "SRG"
-
 #: Currency.cpp:311
 msgid "Svalbard And Jan Mayen"
 msgstr ""
-
-#: Currency.cpp:312
-msgid "Swaziland"
-msgstr "Свазиленд"
 
 #: Currency.cpp:312
 msgid "Lilangeni"
@@ -2747,6 +2813,10 @@ msgstr "Лилангени"
 #: Currency.cpp:312
 msgid "SZL"
 msgstr "SZL"
+
+#: Currency.cpp:312
+msgid "Swaziland"
+msgstr "Свазиленд"
 
 #: Currency.cpp:313
 msgid "Sweden"
@@ -2757,12 +2827,16 @@ msgid "Swedish Krona"
 msgstr "Швеция кронаси"
 
 #: Currency.cpp:314
+msgid "SFr."
+msgstr "SFr."
+
+#: Currency.cpp:314
 msgid "Switzerland"
 msgstr "Швейцария"
 
-#: Currency.cpp:314
-msgid "SFr."
-msgstr "SFr."
+#: Currency.cpp:315
+msgid "SYP"
+msgstr "SYP"
 
 #: Currency.cpp:315
 msgid "Syrian Arab Republic"
@@ -2772,14 +2846,6 @@ msgstr "Сурия Араб Республикаси"
 msgid "Syrian Pound"
 msgstr "Сурия фунти"
 
-#: Currency.cpp:315
-msgid "SYP"
-msgstr "SYP"
-
-#: Currency.cpp:316
-msgid "Taiwan, Province Of China"
-msgstr "Тайван, Хитой таркибидаги минтақа"
-
 #: Currency.cpp:316
 msgid "New Taiwan Dollar"
 msgstr "Янги Тайван доллари"
@@ -2788,9 +2854,9 @@ msgstr "Янги Тайван доллари"
 msgid "TWD"
 msgstr "TWD"
 
-#: Currency.cpp:317
-msgid "Tajikistan"
-msgstr "Тожикистон"
+#: Currency.cpp:316
+msgid "Taiwan, Province Of China"
+msgstr "Тайван, Хитой таркибидаги минтақа"
 
 #: Currency.cpp:317
 msgid "Somoni"
@@ -2800,6 +2866,14 @@ msgstr "Сомони"
 msgid "TJS"
 msgstr "TJS"
 
+#: Currency.cpp:317
+msgid "Tajikistan"
+msgstr "Тожикистон"
+
+#: Currency.cpp:318
+msgid "TZS"
+msgstr "TZS"
+
 #: Currency.cpp:318
 msgid "Tanzania, United Republic Of"
 msgstr "Танзания Бирлашган Республикаси"
@@ -2808,14 +2882,6 @@ msgstr "Танзания Бирлашган Республикаси"
 msgid "Tanzanian Shilling"
 msgstr "Танзания шиллинги"
 
-#: Currency.cpp:318
-msgid "TZS"
-msgstr "TZS"
-
-#: Currency.cpp:319
-msgid "Thailand"
-msgstr "Таиланд"
-
 #: Currency.cpp:319
 msgid "Baht"
 msgstr "Бат"
@@ -2823,6 +2889,10 @@ msgstr "Бат"
 #: Currency.cpp:319
 msgid "THB"
 msgstr "THB"
+
+#: Currency.cpp:319
+msgid "Thailand"
+msgstr "Таиланд"
 
 #: Currency.cpp:320
 msgid "Togo"
@@ -2833,16 +2903,20 @@ msgid "Tokelau"
 msgstr "Токелау"
 
 #: Currency.cpp:322
-msgid "Tonga"
-msgstr "Тонга"
-
-#: Currency.cpp:322
 msgid "Pa'anga"
 msgstr "Паанга"
 
 #: Currency.cpp:322
 msgid "TOP"
 msgstr "TOP"
+
+#: Currency.cpp:322
+msgid "Tonga"
+msgstr "Тонга"
+
+#: Currency.cpp:323
+msgid "TT$"
+msgstr "TT$"
 
 #: Currency.cpp:323
 msgid "Trinidad And Tobago"
@@ -2852,9 +2926,9 @@ msgstr ""
 msgid "Trinidad and Tobago Dollar"
 msgstr ""
 
-#: Currency.cpp:323
-msgid "TT$"
-msgstr "TT$"
+#: Currency.cpp:324
+msgid "TND"
+msgstr "TND"
 
 #: Currency.cpp:324
 msgid "Tunisia"
@@ -2864,9 +2938,9 @@ msgstr "Тунис"
 msgid "Tunisian Dinar"
 msgstr "Тунис динори"
 
-#: Currency.cpp:324
-msgid "TND"
-msgstr "TND"
+#: Currency.cpp:325
+msgid "TL"
+msgstr "TL"
 
 #: Currency.cpp:325
 msgid "Turkey"
@@ -2876,14 +2950,6 @@ msgstr "Туркия"
 msgid "Turkish Lira"
 msgstr "Туркия лираси"
 
-#: Currency.cpp:325
-msgid "TL"
-msgstr "TL"
-
-#: Currency.cpp:326
-msgid "Turkmenistan"
-msgstr "Туркманистон"
-
 #: Currency.cpp:326
 msgid "Manat"
 msgstr "Манат"
@@ -2891,6 +2957,10 @@ msgstr "Манат"
 #: Currency.cpp:326
 msgid "TMM"
 msgstr "TMM"
+
+#: Currency.cpp:326
+msgid "Turkmenistan"
+msgstr "Туркманистон"
 
 #: Currency.cpp:327
 msgid "Turks And Caicos Islands"
@@ -2901,20 +2971,16 @@ msgid "Tuvalu"
 msgstr "Тувалу"
 
 #: Currency.cpp:329
+msgid "UGX"
+msgstr "UGX"
+
+#: Currency.cpp:329
 msgid "Uganda"
 msgstr "Уганда"
 
 #: Currency.cpp:329
 msgid "Uganda Shilling"
 msgstr "Уганда шиллинги"
-
-#: Currency.cpp:329
-msgid "UGX"
-msgstr "UGX"
-
-#: Currency.cpp:330
-msgid "Ukraine"
-msgstr "Украина"
 
 #: Currency.cpp:330
 msgid "Hryvnia"
@@ -2924,25 +2990,29 @@ msgstr "Гривна"
 msgid "UAH"
 msgstr "UAH"
 
+#: Currency.cpp:330
+msgid "Ukraine"
+msgstr "Украина"
+
 #: Currency.cpp:331
-msgid "United Arab Emirates"
-msgstr "Бирлашган Араб Амирликлари"
+msgid "AED"
+msgstr "AED"
 
 #: Currency.cpp:331
 msgid "UAE Dirham"
 msgstr "Бирлашган Араб Амирликлари дирҳами"
 
 #: Currency.cpp:331
-msgid "AED"
-msgstr "AED"
-
-#: Currency.cpp:332
-msgid "Pound Sterling"
-msgstr "Фунт стерлинг"
+msgid "United Arab Emirates"
+msgstr "Бирлашган Араб Амирликлари"
 
 #: Currency.cpp:332
 msgid "GBP"
 msgstr "GBP"
+
+#: Currency.cpp:332
+msgid "Pound Sterling"
+msgstr "Фунт стерлинг"
 
 #: Currency.cpp:334
 msgid "US Dollar (Next day)"
@@ -2961,16 +3031,20 @@ msgid "USS"
 msgstr "USS"
 
 #: Currency.cpp:336
-msgid "Uruguay"
-msgstr "Уругвай"
+msgid "NU$"
+msgstr "NU$"
 
 #: Currency.cpp:336
 msgid "Peso Uruguayo"
 msgstr "Уругвай песоси"
 
 #: Currency.cpp:336
-msgid "NU$"
-msgstr "NU$"
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: Currency.cpp:337
+msgid "UZS"
+msgstr "UZS"
 
 #: Currency.cpp:337
 msgid "Uzbekistan"
@@ -2980,9 +3054,9 @@ msgstr "Ўзбекистон"
 msgid "Uzbekistan Sum"
 msgstr "Ўзбек сўми"
 
-#: Currency.cpp:337
-msgid "UZS"
-msgstr "UZS"
+#: Currency.cpp:338
+msgid "VUV"
+msgstr "VUV"
 
 #: Currency.cpp:338
 msgid "Vanuatu"
@@ -2992,21 +3066,13 @@ msgstr "Вануату"
 msgid "Vatu"
 msgstr "Вату"
 
-#: Currency.cpp:338
-msgid "VUV"
-msgstr "VUV"
-
-#: Currency.cpp:339
-msgid "Venezuela"
-msgstr "Венесуэла"
-
 #: Currency.cpp:339
 msgid "Bolivar"
 msgstr "Боливар"
 
-#: Currency.cpp:340
-msgid "Viet Nam"
-msgstr "Вьетнам"
+#: Currency.cpp:339
+msgid "Venezuela"
+msgstr "Венесуэла"
 
 #: Currency.cpp:340
 msgid "Dong"
@@ -3015,6 +3081,10 @@ msgstr "Донг"
 #: Currency.cpp:340
 msgid "VND"
 msgstr "VND"
+
+#: Currency.cpp:340
+msgid "Viet Nam"
+msgstr "Вьетнам"
 
 #: Currency.cpp:341
 msgid "Virgin Islands"
@@ -3029,6 +3099,10 @@ msgid "Western Sahara"
 msgstr "Жанубий Сахара"
 
 #: Currency.cpp:344
+msgid "YER"
+msgstr "YER"
+
+#: Currency.cpp:344
 msgid "Yemen"
 msgstr "Яман"
 
@@ -3036,9 +3110,9 @@ msgstr "Яман"
 msgid "Yemeni Rial"
 msgstr "Яман риоли"
 
-#: Currency.cpp:344
-msgid "YER"
-msgstr "YER"
+#: Currency.cpp:345
+msgid "YUM"
+msgstr "YUM"
 
 #: Currency.cpp:345
 msgid "Yugoslavia"
@@ -3048,17 +3122,17 @@ msgstr "Югославия"
 msgid "Yugoslavian Dinar"
 msgstr "Югославия динори"
 
-#: Currency.cpp:345
-msgid "YUM"
-msgstr "YUM"
+#: Currency.cpp:346
+msgid "ZMK"
+msgstr "ZMK"
 
 #: Currency.cpp:346
 msgid "Zambia"
 msgstr "Замбия"
 
-#: Currency.cpp:346
-msgid "ZMK"
-msgstr "ZMK"
+#: Currency.cpp:347
+msgid "ZWD"
+msgstr "ZWD"
 
 #: Currency.cpp:347
 msgid "Zimbabwe"
@@ -3067,10 +3141,6 @@ msgstr "Зимбабве"
 #: Currency.cpp:347
 msgid "Zimbabwe Dollar"
 msgstr "Зимбабве доллари"
-
-#: Currency.cpp:347
-msgid "ZWD"
-msgstr "ZWD"
 
 #: database/FilterPopup.cpp:69 dialogs/FormulaDialog.cpp:102
 #: dialogs/FormulaDialog.cpp:208 dialogs/FormulaDialog.cpp:742
@@ -3907,13 +3977,13 @@ msgid "String comparison:"
 msgstr ""
 
 #: dialogs/DocumentSettingsDialog.cpp:143
-msgid "Wildcards"
-msgstr ""
-
-#: dialogs/DocumentSettingsDialog.cpp:143
 #, fuzzy
 msgid "Regular Expressions"
 msgstr "Математик ифода қўшиш."
+
+#: dialogs/DocumentSettingsDialog.cpp:143
+msgid "Wildcards"
+msgstr ""
 
 #: dialogs/DocumentSettingsDialog.cpp:149
 msgid "Null Year:"
@@ -5181,6 +5251,12 @@ msgid ""
 "effect as Format -> Dissociate Cells."
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
+#. i18n: ectx: Menu (MergeCellMenu)
+#: dialogs/PositionWidget.ui:179 sheets.rc:104 ui/CellToolBase.cpp:449
+msgid "Merge Cells"
+msgstr "Катакларни бирлаштириш"
+
 #. i18n: ectx: property (text), widget (QCheckBox, mergeCell)
 #: dialogs/PositionWidget.ui:185
 msgid "Merge cells"
@@ -5486,17 +5562,14 @@ msgstr "Устун: %1"
 msgid "Row: %1"
 msgstr "Сатр: %1"
 
+#: dialogs/ShowDialog.cpp:48
+msgid "Show Sheet"
+msgstr "Варақни кўрсатиш"
+
 #: dialogs/ShowDialog.cpp:58
 #, fuzzy
 msgid "Select hidden sheets to show:"
 msgstr "Кўрсатиш учун бекитилган сатрни танланг:"
-
-#: dialogs/ShowDialog.cpp:87
-#, fuzzy
-#| msgid "Show Sheet"
-msgctxt "(qtundo-format)"
-msgid "Show Sheet"
-msgstr "Варақни кўрсатиш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_useCustomLists)
 #: dialogs/SortDetailsWidget.ui:35
@@ -16100,15 +16173,11 @@ msgid "© 1998-%1, The Calligra Sheets Team"
 msgstr "(C) 1998-2006, KSpread жамоаси"
 
 #: part/AboutData.h:46
-msgid "Torben Weis"
-msgstr ""
-
-#: part/AboutData.h:46
 msgid "Original Author"
 msgstr ""
 
-#: part/AboutData.h:47
-msgid "Marijn Kruisselbrink"
+#: part/AboutData.h:46
+msgid "Torben Weis"
 msgstr ""
 
 #: part/AboutData.h:47
@@ -16117,12 +16186,16 @@ msgstr ""
 msgid "Maintainer"
 msgstr "Мартиника"
 
-#: part/AboutData.h:48
-msgid "Sebastian Sauer"
+#: part/AboutData.h:47
+msgid "Marijn Kruisselbrink"
 msgstr ""
 
 #: part/AboutData.h:48
 msgid "ODS and Excel, functions, scripting"
+msgstr ""
+
+#: part/AboutData.h:48
+msgid "Sebastian Sauer"
 msgstr ""
 
 #: part/AboutData.h:49
@@ -16225,13 +16298,13 @@ msgid "Stefan Nikolaus"
 msgstr ""
 
 #: part/AboutData.h:88
-msgid "Sascha Pfau"
-msgstr ""
-
-#: part/AboutData.h:88
 #, fuzzy
 msgid "Developer (functions)"
 msgstr "<h2>Параметрлар</h2><ul>"
+
+#: part/AboutData.h:88
+msgid "Sascha Pfau"
+msgstr ""
 
 #: part/AboutData.h:89
 msgid "Brad Hards"
@@ -17086,6 +17159,10 @@ msgstr "Варақни кўрсатиш..."
 msgid "Show a hidden sheet"
 msgstr "Бекитилган варақни кўрсатиш."
 
+#: part/View.cpp:320
+msgid "Hide Sheet"
+msgstr "Варақни бекитиш"
+
 #: part/View.cpp:323
 #, fuzzy
 msgid "Hide the active sheet"
@@ -17398,21 +17475,21 @@ msgstr ""
 msgid "&Delete"
 msgstr "Сатрларни олиб ташлаш"
 
-#: part/View.cpp:1787
-msgid "Rename Sheet"
-msgstr "Варақнинг номини ўзгартириш"
-
 #: part/View.cpp:1787 ui/CellToolBase.cpp:1674
 msgid "Enter name:"
 msgstr "Номини киритинг:"
 
-#: part/View.cpp:1792
-msgid "Sheet name cannot be empty."
-msgstr "Варақнинг номи бўш бўлиши мумкин эмас."
+#: part/View.cpp:1787
+msgid "Rename Sheet"
+msgstr "Варақнинг номини ўзгартириш"
 
 #: part/View.cpp:1792 part/View.cpp:1798
 msgid "Change Sheet Name"
 msgstr "Варақнинг номини ўзгартириш"
+
+#: part/View.cpp:1792
+msgid "Sheet name cannot be empty."
+msgstr "Варақнинг номи бўш бўлиши мумкин эмас."
 
 #: part/View.cpp:1798
 msgid "This name is already used."
@@ -17991,15 +18068,27 @@ msgstr "Орқа фон ранги"
 msgid "Merge the selected region"
 msgstr "Танланган майдонни бирлаштириш."
 
+#: ui/CellToolBase.cpp:454
+msgid "Merge Cells Horizontally"
+msgstr "Катакларни энига бирлаштириш"
+
 #: ui/CellToolBase.cpp:455
 #, fuzzy
 msgid "Merge the selected region horizontally"
 msgstr "Танланган катакларни энига бирлаштириш."
 
+#: ui/CellToolBase.cpp:459
+msgid "Merge Cells Vertically"
+msgstr "Катакларни бўйига бирлаштириш"
+
 #: ui/CellToolBase.cpp:460
 #, fuzzy
 msgid "Merge the selected region vertically"
 msgstr "Танланган катакларни бўйига бирлаштириш."
+
+#: ui/CellToolBase.cpp:464
+msgid "Dissociate Cells"
+msgstr "Катакларни ажратиш"
 
 #: ui/CellToolBase.cpp:465
 #, fuzzy
@@ -18237,6 +18326,10 @@ msgstr "Янги варақ қўшиш."
 #| msgid "Set Link"
 msgid "Link"
 msgstr "Боғни кўрсатиш"
+
+#: ui/CellToolBase.cpp:608
+msgid "Remove Link"
+msgstr "Боғни олиб ташлаш"
 
 #: ui/CellToolBase.cpp:609
 #, fuzzy
@@ -18948,12 +19041,12 @@ msgid "False"
 msgstr "Ёлғон"
 
 #: ValueFormatter.cpp:524 ValueFormatter.cpp:530
-msgid "PM"
-msgstr "Кечқурун"
-
-#: ValueFormatter.cpp:524 ValueFormatter.cpp:530
 msgid "AM"
 msgstr "Эрталаб"
+
+#: ValueFormatter.cpp:524 ValueFormatter.cpp:530
+msgid "PM"
+msgstr "Кечқурун"
 
 #: ValueFormatter.cpp:534
 msgid "h"
