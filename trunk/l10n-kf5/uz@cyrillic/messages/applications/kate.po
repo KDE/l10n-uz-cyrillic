@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-11 07:57+0000\n"
+"POT-Creation-Date: 2014-09-12 08:09+0000\n"
 "PO-Revision-Date: 2006-12-17 12:02+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -44,42 +44,42 @@ msgid "&View"
 msgstr "&Янги"
 
 #. i18n: ectx: Menu (view-split)
-#: data/kateui.rc:51
+#: data/kateui.rc:53
 #, fuzzy
 #| msgid "Split Ve&rtical"
 msgid "Split View"
 msgstr "&Бўйига бўлиш"
 
 #. i18n: ectx: Menu (tools)
-#: data/kateui.rc:77
+#: data/kateui.rc:80
 #, fuzzy
 msgid "&Tools"
 msgstr "Асбоблар панели"
 
 #. i18n: ectx: Menu (sessions)
-#: data/kateui.rc:85
+#: data/kateui.rc:88
 msgid "Sess&ions"
 msgstr "&Сеанслар"
 
 #. i18n: ectx: Menu (settings)
-#: data/kateui.rc:96
+#: data/kateui.rc:99
 #, fuzzy
 msgid "&Settings"
 msgstr "Ишга тушмоқда"
 
 #. i18n: ectx: Menu (help)
-#: data/kateui.rc:101
+#: data/kateui.rc:104
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: data/kateui.rc:106
+#: data/kateui.rc:109
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Асбоблар панели"
 
 #. i18n: ectx: Menu (viewspace_popup_statusbar)
-#: data/kateui.rc:137
+#: data/kateui.rc:140
 msgid "&Status Bar Items"
 msgstr ""
 
@@ -200,19 +200,19 @@ msgstr ""
 "Бу ерда, ҳамма мавжуд бўлган плагинларини кўришингиз мумкин. Белгиланган "
 "плагинлар юкланган. Kate ишга тушганда улар юкланади."
 
-#: src/katedocmanager.cpp:225
+#: src/katedocmanager.cpp:227
 #, kde-format
 msgid ""
 "The supposedly temporary file %1 has been modified. Do you want to delete it "
 "anyway?"
 msgstr ""
 
-#: src/katedocmanager.cpp:227
+#: src/katedocmanager.cpp:229
 #, fuzzy
 msgid "Delete File?"
 msgstr "Ўчирилган"
 
-#: src/katedocmanager.cpp:332
+#: src/katedocmanager.cpp:334
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
@@ -222,32 +222,32 @@ msgid ""
 "save your changes or discard them?</p>"
 msgstr "<p>'%1' ҳужжатига ўзариш киритилди.<p>Уни сақлашни истайсизми?"
 
-#: src/katedocmanager.cpp:334 src/katetabbutton.cpp:43
+#: src/katedocmanager.cpp:336 src/katetabbutton.cpp:43
 msgid "Close Document"
 msgstr "Ҳужжатни ёпиш"
 
-#: src/katedocmanager.cpp:341
+#: src/katedocmanager.cpp:343
 #, fuzzy
 msgid "Save As"
 msgstr "...сифатида с&ақлаш"
 
-#: src/katedocmanager.cpp:365 src/katemainwindow.cpp:448
+#: src/katedocmanager.cpp:362 src/katemainwindow.cpp:458
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 
-#: src/katedocmanager.cpp:366 src/katemainwindow.cpp:449
+#: src/katedocmanager.cpp:363 src/katemainwindow.cpp:459
 msgid "Closing Aborted"
 msgstr "Ёпиш тўхтатилди"
 
-#: src/katedocmanager.cpp:441
+#: src/katedocmanager.cpp:438
 msgid "Starting Up"
 msgstr "Ишга тушмоқда"
 
-#: src/katedocmanager.cpp:442
+#: src/katedocmanager.cpp:439
 msgid "Reopening files from the last session..."
 msgstr "Охирги сеанснинг файллари қайтадан очилмоқда..."
 
-#: src/katedocmanager.cpp:610
+#: src/katedocmanager.cpp:607
 msgid "Errors/Warnings while opening documents"
 msgstr ""
 
@@ -279,24 +279,48 @@ msgstr "&Сарлавҳада тўлиқ йўлни кўрсатиш"
 msgid "Show the complete document path in the window caption"
 msgstr "Ҳужжатнинг тўлиқ йўлини ойнанинг сарлавҳасида кўрсатиш"
 
-#: src/katemainwindow.cpp:230
+#: src/katemainwindow.cpp:228
+#, fuzzy
+#| msgid "Activate Previous Tab"
+msgid "&Previous Tab"
+msgstr "Олдинги табни активлаш"
+
+#: src/katemainwindow.cpp:229
+#, fuzzy
+#| msgid "Activate Previous Tab"
+msgid "Focus the previous tab."
+msgstr "Олдинги табни активлаш"
+
+#: src/katemainwindow.cpp:233
+#, fuzzy
+#| msgid "New Tab"
+msgid "&Next Tab"
+msgstr "Янги таб"
+
+#: src/katemainwindow.cpp:234
+#, fuzzy
+#| msgid "Close the current tab"
+msgid "Focus the next tab."
+msgstr "Жорий табни ёпиш"
+
+#: src/katemainwindow.cpp:240
 msgid "&Quick Open"
 msgstr "&Тез очиш"
 
-#: src/katemainwindow.cpp:236
+#: src/katemainwindow.cpp:246
 #, fuzzy
 msgid "Open a form to quick open documents."
 msgstr "Ҳамма очиқ ҳужжатларни ёпиш."
 
-#: src/katemainwindow.cpp:269
+#: src/katemainwindow.cpp:279
 msgid "Create a new document"
 msgstr "Янги ҳужжатни яратиш"
 
-#: src/katemainwindow.cpp:271
+#: src/katemainwindow.cpp:281
 msgid "Open an existing document for editing"
 msgstr "Таҳрирлаш учун мавжуд ҳужжатни очиш"
 
-#: src/katemainwindow.cpp:276
+#: src/katemainwindow.cpp:286
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
@@ -304,75 +328,75 @@ msgstr ""
 "Яқинда очилган файлларнинг рўйхатини кўрсатади ва уларни осонгина очиш учун "
 "имконият яратади."
 
-#: src/katemainwindow.cpp:280
+#: src/katemainwindow.cpp:290
 msgid "Save A&ll"
 msgstr "Ҳа&ммасини сақлаш"
 
-#: src/katemainwindow.cpp:283
+#: src/katemainwindow.cpp:293
 msgid "Save all open, modified documents to disk."
 msgstr "Ҳамма очиқ, ўзгартирилган ҳужжатларни сақлаш."
 
-#: src/katemainwindow.cpp:286
+#: src/katemainwindow.cpp:296
 msgid "&Reload All"
 msgstr ""
 
-#: src/katemainwindow.cpp:288
+#: src/katemainwindow.cpp:298
 #, fuzzy
 #| msgid "Close all open documents."
 msgid "Reload all open documents."
 msgstr "Ҳамма очиқ ҳужжатларни ёпиш."
 
-#: src/katemainwindow.cpp:291
+#: src/katemainwindow.cpp:301
 #, fuzzy
 msgid "Close Orphaned"
 msgstr "Жорий табни ёпиш"
 
-#: src/katemainwindow.cpp:293
+#: src/katemainwindow.cpp:303
 msgid ""
 "Close all documents in the file list that could not be reopened, because "
 "they are not accessible anymore."
 msgstr ""
 
-#: src/katemainwindow.cpp:296
+#: src/katemainwindow.cpp:306
 msgid "Close the current document."
 msgstr "Жорий ҳужжатни ёпиш."
 
-#: src/katemainwindow.cpp:299
+#: src/katemainwindow.cpp:309
 #, fuzzy
 msgid "Close Other"
 msgstr "Жорий табни ёпиш"
 
-#: src/katemainwindow.cpp:301
+#: src/katemainwindow.cpp:311
 #, fuzzy
 msgid "Close other open documents."
 msgstr "Ҳамма очиқ ҳужжатларни ёпиш."
 
-#: src/katemainwindow.cpp:304
+#: src/katemainwindow.cpp:314
 msgid "Clos&e All"
 msgstr "Ҳаммасини ё&пиш"
 
-#: src/katemainwindow.cpp:306
+#: src/katemainwindow.cpp:316
 msgid "Close all open documents."
 msgstr "Ҳамма очиқ ҳужжатларни ёпиш."
 
-#: src/katemainwindow.cpp:311
+#: src/katemainwindow.cpp:321
 msgid "Close this window"
 msgstr "Шу ойнани ёпиш"
 
-#: src/katemainwindow.cpp:315
+#: src/katemainwindow.cpp:325
 #, fuzzy
 msgid "&New Window"
 msgstr "&Ойна"
 
-#: src/katemainwindow.cpp:317
+#: src/katemainwindow.cpp:327
 msgid "Create a new Kate view (a new window with the same document list)."
 msgstr "Янги Kate кўринишини (ҳудди шу ҳужжатлар билан янги ойна) яратиш."
 
-#: src/katemainwindow.cpp:323
+#: src/katemainwindow.cpp:333
 msgid "Open W&ith"
 msgstr "...билан &очиш"
 
-#: src/katemainwindow.cpp:325
+#: src/katemainwindow.cpp:335
 msgid ""
 "Open the current document using another application registered for its file "
 "type, or an application of your choice."
@@ -380,105 +404,105 @@ msgstr ""
 "Жорий ҳужжатни ушбу файл тури учун қайд қилинган бошқа дастур ёки сиз "
 "истаган дастур билан очиш."
 
-#: src/katemainwindow.cpp:330
+#: src/katemainwindow.cpp:340
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr "Дастурнинг тугмалар бирикмасини мослаш."
 
-#: src/katemainwindow.cpp:333
+#: src/katemainwindow.cpp:343
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr "Асбоблар панел(лар)ида қайси элемент кўринишини мослаш."
 
-#: src/katemainwindow.cpp:336
+#: src/katemainwindow.cpp:346
 msgid ""
 "Configure various aspects of this application and the editing component."
 msgstr "Дастурнинг хар ҳил параметрларини ва таҳрирлаш компонентини мослаш."
 
-#: src/katemainwindow.cpp:340
+#: src/katemainwindow.cpp:350
 msgid "&Plugins Handbook"
 msgstr ""
 
-#: src/katemainwindow.cpp:342
+#: src/katemainwindow.cpp:352
 msgid "This shows help files for various available plugins."
 msgstr "Мавжуд бўлган плагинлар учун ёрдам файлларини кўрсатиш."
 
-#: src/katemainwindow.cpp:346
+#: src/katemainwindow.cpp:356
 #, fuzzy
 msgid "&About Editor Component"
 msgstr "Таҳрирчи компонентини танлаш"
 
-#: src/katemainwindow.cpp:363
+#: src/katemainwindow.cpp:373
 msgctxt "Menu entry Session->New"
 msgid "&New"
 msgstr "&Янги"
 
-#: src/katemainwindow.cpp:368
+#: src/katemainwindow.cpp:378
 #, fuzzy
 #| msgid "Open Session"
 msgid "&Open Session"
 msgstr "Сеансни очиш"
 
-#: src/katemainwindow.cpp:373
+#: src/katemainwindow.cpp:383
 #, fuzzy
 #| msgid "&Save session"
 msgid "&Save Session"
 msgstr "Сеа&нсни сақлаш"
 
-#: src/katemainwindow.cpp:377
+#: src/katemainwindow.cpp:387
 #, fuzzy
 #| msgid "Save Session?"
 msgid "Save Session &As..."
 msgstr "Сеансни сақлашни истайсизми?"
 
-#: src/katemainwindow.cpp:381
+#: src/katemainwindow.cpp:391
 #, fuzzy
 #| msgid "Manage Sessions"
 msgid "&Manage Sessions..."
 msgstr "Сеансларни бошқариш"
 
-#: src/katemainwindow.cpp:386
+#: src/katemainwindow.cpp:396
 #, fuzzy
 #| msgid "Open Session"
 msgid "&Quick Open Session"
 msgstr "Сеансни очиш"
 
-#: src/katemainwindow.cpp:393
+#: src/katemainwindow.cpp:403
 msgid "This will close all open documents. Are you sure you want to continue?"
 msgstr ""
 
-#: src/katemainwindow.cpp:394
+#: src/katemainwindow.cpp:404
 #, fuzzy
 #| msgid "Close all open documents."
 msgid "Close all documents"
 msgstr "Ҳамма очиқ ҳужжатларни ёпиш."
 
-#: src/katemainwindow.cpp:565
+#: src/katemainwindow.cpp:575
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: src/katemainwindow.cpp:567
+#: src/katemainwindow.cpp:577
 #, fuzzy
 #| msgid "Hide Side&bars"
 msgid "Hide menu bar"
 msgstr "Ён панелларни &бекитиш"
 
-#: src/katemainwindow.cpp:810
+#: src/katemainwindow.cpp:820
 msgid "&Other..."
 msgstr "&Бошқа..."
 
-#: src/katemainwindow.cpp:833
+#: src/katemainwindow.cpp:843
 #, fuzzy, kde-format
 #| msgid "Application '%1' not found!"
 msgid "Application '%1' not found."
 msgstr "Дастур '%1' топилмади."
 
-#: src/katemainwindow.cpp:833
+#: src/katemainwindow.cpp:843
 #, fuzzy
 msgid "Application not found"
 msgstr "Дастур топилмади!"
 
-#: src/katemainwindow.cpp:934
+#: src/katemainwindow.cpp:944
 msgid " [read only]"
 msgstr ""
 
@@ -646,27 +670,27 @@ msgstr ""
 msgid "Quick Open Search"
 msgstr "Сеансни очиш"
 
-#: src/katesavemodifieddialog.cpp:84
+#: src/katesavemodifieddialog.cpp:83
 #, kde-format
 msgid "Save As (%1)"
 msgstr "Сақлаш (%1)"
 
-#: src/katesavemodifieddialog.cpp:94
+#: src/katesavemodifieddialog.cpp:90
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
-#: src/katesavemodifieddialog.cpp:96
+#: src/katesavemodifieddialog.cpp:92
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "&Алмаштириш"
 
-#: src/katesavemodifieddialog.cpp:155
+#: src/katesavemodifieddialog.cpp:149
 msgid "Save Documents"
 msgstr "Ҳужжатларни сақлаш"
 
-#: src/katesavemodifieddialog.cpp:163
+#: src/katesavemodifieddialog.cpp:157
 msgid ""
 "<qt>The following documents have been modified. Do you want to save them "
 "before closing?</qt>"
@@ -674,19 +698,19 @@ msgstr ""
 "<qt>Қуйидаги ҳужжатларга ўзариш киритилди. Уларни ёпишдан олдин сақлашни "
 "истайсизми?</qt>"
 
-#: src/katesavemodifieddialog.cpp:170
+#: src/katesavemodifieddialog.cpp:164
 msgid "Documents"
 msgstr "Ҳужжатлар"
 
-#: src/katesavemodifieddialog.cpp:170
+#: src/katesavemodifieddialog.cpp:164
 msgid "Location"
 msgstr "Манзил"
 
-#: src/katesavemodifieddialog.cpp:180
+#: src/katesavemodifieddialog.cpp:174
 msgid "Se&lect All"
 msgstr "&Ҳаммасини танлаш"
 
-#: src/katesavemodifieddialog.cpp:252
+#: src/katesavemodifieddialog.cpp:246
 msgid ""
 "Data you requested to be saved could not be written. Please choose how you "
 "want to proceed."
@@ -743,64 +767,74 @@ msgid "Hide every view but the active one"
 msgstr "Кейинги бўлинган кўринишни актив қилиш."
 
 #: src/kateviewmanager.cpp:166
+msgid "Toggle Orientation"
+msgstr ""
+
+#: src/kateviewmanager.cpp:169
+#, fuzzy
+#| msgid "Make the next split view the active one."
+msgid "Toggles the orientation of the current split view"
+msgstr "Кейинги бўлинган кўринишни актив қилиш."
+
+#: src/kateviewmanager.cpp:172
 #, fuzzy
 #| msgid "Next View"
 msgid "Next Split View"
 msgstr "Кейинги кўриниш"
 
-#: src/kateviewmanager.cpp:170
+#: src/kateviewmanager.cpp:176
 msgid "Make the next split view the active one."
 msgstr "Кейинги бўлинган кўринишни актив қилиш."
 
-#: src/kateviewmanager.cpp:173
+#: src/kateviewmanager.cpp:179
 #, fuzzy
 #| msgid "Previous View"
 msgid "Previous Split View"
 msgstr "Олдинги кўриниш"
 
-#: src/kateviewmanager.cpp:177
+#: src/kateviewmanager.cpp:183
 msgid "Make the previous split view the active one."
 msgstr "Олдинги бўлинган кўринишни актив қилиш."
 
-#: src/kateviewmanager.cpp:180
+#: src/kateviewmanager.cpp:186
 msgid "Move Splitter Right"
 msgstr ""
 
-#: src/kateviewmanager.cpp:183
+#: src/kateviewmanager.cpp:189
 msgid "Move the splitter of the current view to the right"
 msgstr ""
 
-#: src/kateviewmanager.cpp:186
+#: src/kateviewmanager.cpp:192
 msgid "Move Splitter Left"
 msgstr ""
 
-#: src/kateviewmanager.cpp:189
+#: src/kateviewmanager.cpp:195
 msgid "Move the splitter of the current view to the left"
 msgstr ""
 
-#: src/kateviewmanager.cpp:192
+#: src/kateviewmanager.cpp:198
 msgid "Move Splitter Up"
 msgstr ""
 
-#: src/kateviewmanager.cpp:195
+#: src/kateviewmanager.cpp:201
 msgid "Move the splitter of the current view up"
 msgstr ""
 
-#: src/kateviewmanager.cpp:198
+#: src/kateviewmanager.cpp:204
 msgid "Move Splitter Down"
 msgstr ""
 
-#: src/kateviewmanager.cpp:201
+#: src/kateviewmanager.cpp:207
 #, fuzzy
 #| msgid "Make the next split view the active one."
 msgid "Move the splitter of the current view down"
 msgstr "Кейинги бўлинган кўринишни актив қилиш."
 
-#: src/kateviewmanager.cpp:227
+#: src/kateviewmanager.cpp:236
 msgid "Open File"
 msgstr "Файлни очиш"
 
-#: src/kateviewmanager.cpp:243
+#: src/kateviewmanager.cpp:246
 #, kde-format
 msgid ""
 "<p>You are attempting to open one or more large files:</p><ul>%1</ul><p>Do "
@@ -808,7 +842,7 @@ msgid ""
 "some time when opening large files.</strong></p>"
 msgstr ""
 
-#: src/kateviewmanager.cpp:245
+#: src/kateviewmanager.cpp:248
 #, fuzzy
 #| msgid "Open File"
 msgid "Opening Large File"
@@ -838,13 +872,13 @@ msgid_plural ""
 "switch to the Quick Open view by clicking here."
 msgstr[0] ""
 
-#: src/kateviewspace.cpp:552
+#: src/kateviewspace.cpp:568
 #, fuzzy
 #| msgid "Close Document"
 msgid "&Close Document"
 msgstr "Ҳужжатни ёпиш"
 
-#: src/kateviewspace.cpp:553
+#: src/kateviewspace.cpp:569
 #, fuzzy
 #| msgid "Close Document"
 msgid "&Close Other Documents"
@@ -2226,23 +2260,14 @@ msgstr "&Сеансни кўлбола танлаш"
 #~ msgid "Empty session"
 #~ msgstr "Сеансни очиш"
 
-#~ msgid "New Tab"
-#~ msgstr "Янги таб"
-
 #~ msgid "Close Current Tab"
 #~ msgstr "Жорий табни ёпиш"
 
 #~ msgid "Activate Next Tab"
 #~ msgstr "Кейинги табни активлаш"
 
-#~ msgid "Activate Previous Tab"
-#~ msgstr "Олдинги табни активлаш"
-
 #~ msgid "Open a new tab"
 #~ msgstr "Янги табни очиш"
-
-#~ msgid "Close the current tab"
-#~ msgstr "Жорий табни ёпиш"
 
 #, fuzzy
 #~ msgid "Position"
