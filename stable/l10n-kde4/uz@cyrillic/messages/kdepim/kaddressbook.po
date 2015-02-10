@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-09 05:54+0000\n"
+"POT-Creation-Date: 2015-02-10 06:49+0000\n"
 "PO-Revision-Date: 2006-12-17 13:24+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -168,12 +168,6 @@ msgstr "Ёрдамчисининг исми"
 #: contactfields.cpp:170
 msgid "Spouse"
 msgstr ""
-
-#: contactselectiondialog.cpp:29
-#, fuzzy
-#| msgid "&Selected contacts"
-msgid "Select Contacts"
-msgstr "&Танланган алоқалар"
 
 #: contactselectionwidget.cpp:114
 #, fuzzy
@@ -599,34 +593,52 @@ msgid ""
 "wide shortcuts."
 msgstr ""
 
-#: merge/mergecontactsdialog.cpp:44
+#: merge/manualmerge/mergecontactsdialog.cpp:44
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:38
 #, fuzzy
 #| msgid "&Selected contacts"
 msgid "Select Contacts to merge"
 msgstr "&Танланган алоқалар"
 
-#: merge/mergecontactsdialog.cpp:49
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:61
+#: merge/manualmerge/mergecontactsdialog.cpp:49
+#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:67
 msgid "You must select at least two elements."
 msgstr ""
 
-#: merge/mergecontactsdialog.cpp:53
+#: merge/manualmerge/mergecontactsdialog.cpp:53
 #, kde-format
 msgid "You selected %1 and some item has not the same name"
 msgstr ""
 
-#: merge/mergecontactsdialog.cpp:89
+#: merge/manualmerge/mergecontactsdialog.cpp:89
 #, fuzzy
 #| msgid "Importing contacts"
 msgid "Error during merge contacts."
 msgstr "Алоқалар импорт қилинмоқда"
 
-#: merge/mergecontactsdialog.cpp:89
+#: merge/manualmerge/mergecontactsdialog.cpp:89
 #, fuzzy
 #| msgid "&Merge Contacts"
 msgid "Merge contact"
 msgstr "Алоқаларни &бирлаштириш"
+
+#: merge/manualmerge/mergecontactwidget.cpp:44
+#, fuzzy
+#| msgid "&Selected contacts"
+msgid "Select contacts that you want really to merge:"
+msgstr "&Танланган алоқалар"
+
+#: merge/manualmerge/mergecontactwidget.cpp:56
+#, fuzzy
+#| msgid "Set the categories for all selected contacts."
+msgid "Select addressbook where to store merged contact:"
+msgstr "Танланган алоқалар учун туркумни кўрсатиш."
+
+#: merge/manualmerge/mergecontactwidget.cpp:73
+#, fuzzy
+#| msgid "Merge"
+msgid "merge"
+msgstr "Бирлаштириш"
 
 #: merge/mergecontactselectinformationdialog.cpp:28
 msgid "Select Which Information to Use for new Contact"
@@ -638,31 +650,13 @@ msgstr ""
 msgid "Merged Contact"
 msgstr "Алоқаларни &бирлаштириш"
 
-#: merge/mergecontactwidget.cpp:44
-#, fuzzy
-#| msgid "&Selected contacts"
-msgid "Select contacts that you want really to merge:"
-msgstr "&Танланган алоқалар"
-
-#: merge/mergecontactwidget.cpp:56
-#, fuzzy
-#| msgid "Set the categories for all selected contacts."
-msgid "Select addressbook where to store merged contact:"
-msgstr "Танланган алоқалар учун туркумни кўрсатиш."
-
-#: merge/mergecontactwidget.cpp:73
-#, fuzzy
-#| msgid "Merge"
-msgid "merge"
-msgstr "Бирлаштириш"
-
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:49
 #, fuzzy
 #| msgid "&All contacts"
 msgid "No contacts selected."
 msgstr "&Ҳамма алоқалар"
 
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:53
+#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:57
 #, fuzzy
 #| msgid "&Selected contacts"
 msgid "No contact duplicated found."
@@ -1241,6 +1235,12 @@ msgid ""
 "contacts of interest."
 msgstr ""
 
+#: xxport/contactselectiondialog.cpp:32
+#, fuzzy
+#| msgid "&Selected contacts"
+msgid "Select Contacts"
+msgstr "&Танланган алоқалар"
+
 #: xxport/csv/csv_xxport.cpp:67 xxport/gmx/gmx_xxport.cpp:371
 #: xxport/ldif/ldif_xxport.cpp:106
 #, fuzzy, kde-format
@@ -1632,48 +1632,48 @@ msgstr ""
 msgid "%1 is not a GMX address book file."
 msgstr "%1 манзиллар дафтари"
 
-#: xxport/vcard/vcard_xxport.cpp:119
+#: xxport/vcard/vcard_xxport.cpp:92
 msgctxt "@info"
 msgid ""
 "You have selected a list of contacts, shall they be exported to several "
 "files?"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:122
+#: xxport/vcard/vcard_xxport.cpp:95
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@action:button"
 msgid "Export to One File"
 msgstr "Битта файлга экспорт қилиш"
 
-#: xxport/vcard/vcard_xxport.cpp:123
+#: xxport/vcard/vcard_xxport.cpp:96
 #, fuzzy
 #| msgid "Export to Several Files"
 msgctxt "@action:button"
 msgid "Export to Several Files"
 msgstr "Бир неча файлга экспорт қилиш"
 
-#: xxport/vcard/vcard_xxport.cpp:189
+#: xxport/vcard/vcard_xxport.cpp:162
 msgid ""
 "*.vcf|vCard (*.vcf)\n"
 "*|all files (*)"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:195
+#: xxport/vcard/vcard_xxport.cpp:168
 #, fuzzy
 #| msgid "Select vCard to Import"
 msgctxt "@title:window"
 msgid "Select vCard to Import"
 msgstr "Импорт қилиш учун vCard танланг"
 
-#: xxport/vcard/vcard_xxport.cpp:202
+#: xxport/vcard/vcard_xxport.cpp:175
 #, fuzzy
 #| msgid "vCard Import Failed"
 msgctxt "@title:window"
 msgid "vCard Import Failed"
 msgstr "vCard импорт қилиш муваффақиятсиз тугади"
 
-#: xxport/vcard/vcard_xxport.cpp:224
+#: xxport/vcard/vcard_xxport.cpp:197
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>When trying to read the vCard, there was an error opening the file "
@@ -1685,162 +1685,155 @@ msgid ""
 msgstr ""
 "<qt>vCard'ни ўқиш мобайнида '%1 файлини очишда хатолик рўй берди: %2</qt>"
 
-#: xxport/vcard/vcard_xxport.cpp:235
+#: xxport/vcard/vcard_xxport.cpp:208
 #, fuzzy, kde-format
 #| msgid "<qt>Unable to access vCard: %1</qt>"
 msgctxt "@info"
 msgid "<para>Unable to access vCard:</para><para>%1</para>"
 msgstr "<qt>vCard'га мурожаат этиб бўлмади: %1</qt>"
 
-#: xxport/vcard/vcard_xxport.cpp:247
+#: xxport/vcard/vcard_xxport.cpp:220
 #, fuzzy
 #| msgid "No contacts were imported, due to errors with the vCards."
 msgctxt "@info"
 msgid "No contacts were imported, due to errors with the vCards."
 msgstr "vCard хатолиги сабабли ҳеч қандай алоқа импорт қилинмади."
 
-#: xxport/vcard/vcard_xxport.cpp:251
+#: xxport/vcard/vcard_xxport.cpp:224
 #, fuzzy
 #| msgid "The vCard does not contain any contacts."
 msgctxt "@info"
 msgid "The vCard does not contain any contacts."
 msgstr "vCard таркибида ҳеч қандай алоқа мавжуд эмас."
 
-#: xxport/vcard/vcard_xxport.cpp:486
-#, fuzzy
-#| msgid "Select vCard Fields"
-msgctxt "@title:window"
-msgid "Select vCard Fields"
-msgstr "vCard майдонини танланг"
-
-#: xxport/vcard/vcard_xxport.cpp:500
+#: xxport/vcard/vcardexportselectionwidget.cpp:34
 #, fuzzy
 #| msgid "File to import:"
 msgctxt "@title:group"
 msgid "Fields to be exported"
 msgstr "Импорт қилиш учун файл:"
 
-#: xxport/vcard/vcard_xxport.cpp:504
+#: xxport/vcard/vcardexportselectionwidget.cpp:38
 #, fuzzy
 #| msgid "Private fields"
 msgctxt "@option:check"
 msgid "Private fields"
 msgstr "Шахсий майдонлар"
 
-#: xxport/vcard/vcard_xxport.cpp:506
+#: xxport/vcard/vcardexportselectionwidget.cpp:40
 #, fuzzy
 #| msgid "Private fields"
 msgctxt "@info:tooltip"
 msgid "Export private fields"
 msgstr "Шахсий майдонлар"
 
-#: xxport/vcard/vcard_xxport.cpp:509
+#: xxport/vcard/vcardexportselectionwidget.cpp:43
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's private fields to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:513
+#: xxport/vcard/vcardexportselectionwidget.cpp:47
 #, fuzzy
 #| msgid "Business fields"
 msgctxt "@option:check"
 msgid "Business fields"
 msgstr "Иш майдонлари"
 
-#: xxport/vcard/vcard_xxport.cpp:515
+#: xxport/vcard/vcardexportselectionwidget.cpp:49
 #, fuzzy
 #| msgid "Business fields"
 msgctxt "@info:tooltip"
 msgid "Export business fields"
 msgstr "Иш майдонлари"
 
-#: xxport/vcard/vcard_xxport.cpp:518
+#: xxport/vcard/vcardexportselectionwidget.cpp:52
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's business fields to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:522
+#: xxport/vcard/vcardexportselectionwidget.cpp:56
 #, fuzzy
 #| msgid "Other fields"
 msgctxt "@option:check"
 msgid "Other fields"
 msgstr "Бошқа майдонлар"
 
-#: xxport/vcard/vcard_xxport.cpp:524
+#: xxport/vcard/vcardexportselectionwidget.cpp:58
 #, fuzzy
 #| msgid "Other fields"
 msgctxt "@info:tooltip"
 msgid "Export other fields"
 msgstr "Бошқа майдонлар"
 
-#: xxport/vcard/vcard_xxport.cpp:527
+#: xxport/vcard/vcardexportselectionwidget.cpp:61
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's other fields to the vCard "
 "output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:531
+#: xxport/vcard/vcardexportselectionwidget.cpp:65
 msgctxt "@option:check"
 msgid "Encryption keys"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:533
+#: xxport/vcard/vcardexportselectionwidget.cpp:67
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@info:tooltip"
 msgid "Export encryption keys"
 msgstr "Битта файлга экспорт қилиш"
 
-#: xxport/vcard/vcard_xxport.cpp:536
+#: xxport/vcard/vcardexportselectionwidget.cpp:70
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's encryption keys to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:540
+#: xxport/vcard/vcardexportselectionwidget.cpp:74
 #, fuzzy
 #| msgid "Picture"
 msgctxt "@option:check"
 msgid "Pictures"
 msgstr "Расм"
 
-#: xxport/vcard/vcard_xxport.cpp:542
+#: xxport/vcard/vcardexportselectionwidget.cpp:76
 #, fuzzy
 #| msgid "Picture"
 msgctxt "@info:tooltip"
 msgid "Export pictures"
 msgstr "Расм"
 
-#: xxport/vcard/vcard_xxport.cpp:545
+#: xxport/vcard/vcardexportselectionwidget.cpp:79
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's picture to the vCard "
 "output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:550
+#: xxport/vcard/vcardexportselectionwidget.cpp:84
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@title:group"
 msgid "Export options"
 msgstr "Битта файлга экспорт қилиш"
 
-#: xxport/vcard/vcard_xxport.cpp:554
+#: xxport/vcard/vcardexportselectionwidget.cpp:88
 msgctxt "@option:check"
 msgid "Display name as full name"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:556
+#: xxport/vcard/vcardexportselectionwidget.cpp:90
 msgctxt "@info:tooltip"
 msgid "Export display name as full name"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:559
+#: xxport/vcard/vcardexportselectionwidget.cpp:93
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's display name in the "
@@ -1892,15 +1885,21 @@ msgid "Importing one contact to %2"
 msgid_plural "Importing %1 contacts to %2"
 msgstr[0] "Алоқалар импорт қилинмоқда"
 
-#: xxport/xxportmanager.cpp:186
+#: xxport/xxportmanager.cpp:187
 #, fuzzy
 #| msgid "Which contacts do you want to export?"
 msgid "Which contact do you want to export?"
 msgstr "Қайси алоқаларни экспорт қилмоқчисиз?"
 
-#: xxport/xxportmanager.cpp:197
+#: xxport/xxportmanager.cpp:199
 msgid "You have not selected any contacts to export."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Select vCard Fields"
+#~ msgctxt "@title:window"
+#~ msgid "Select vCard Fields"
+#~ msgstr "vCard майдонини танланг"
 
 #, fuzzy
 #~| msgid "Contains"
