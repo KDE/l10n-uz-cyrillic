@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-15 09:05+0000\n"
+"POT-Creation-Date: 2015-02-16 09:01+0000\n"
 "PO-Revision-Date: 2006-12-17 13:24+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -600,6 +600,7 @@ msgstr "&Танланган алоқалар"
 
 #: merge/manualmerge/mergecontactsdialog.cpp:54
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:74
+#: merge/widgets/noenoughcontactselectedwidget.cpp:27
 msgid "You must select at least two elements."
 msgstr ""
 
@@ -608,13 +609,13 @@ msgstr ""
 msgid "You selected %1 and some item has not the same name"
 msgstr ""
 
-#: merge/manualmerge/mergecontactsdialog.cpp:96
+#: merge/manualmerge/mergecontactsdialog.cpp:101
 #, fuzzy
 #| msgid "Importing contacts"
 msgid "Error while merging contacts."
 msgstr "Алоқалар импорт қилинмоқда"
 
-#: merge/manualmerge/mergecontactsdialog.cpp:96
+#: merge/manualmerge/mergecontactsdialog.cpp:101
 #, fuzzy
 #| msgid "&Merge Contacts"
 msgid "Merge contact"
@@ -648,17 +649,18 @@ msgstr ""
 msgid "Merged Contact"
 msgstr "Алоқаларни &бирлаштириш"
 
-#: merge/searchduplicate/resultduplicatetreewidget.cpp:28
-#, fuzzy
-#| msgid "Contains"
-msgid "Contacts"
-msgstr "Бор"
-
+#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:62
 #: merge/searchduplicate/resultduplicatetreewidget.cpp:52
 #, fuzzy, kde-format
 #| msgid "&Selected contacts"
 msgid "Duplicate contact %1"
 msgstr "&Танланган алоқалар"
+
+#: merge/searchduplicate/resultduplicatetreewidget.cpp:28
+#, fuzzy
+#| msgid "Contains"
+msgid "Contacts"
+msgstr "Бор"
 
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:56
 #, fuzzy
@@ -679,10 +681,27 @@ msgid "Select AddressBook:"
 msgstr "Манзиллар дафтари"
 
 #: merge/searchduplicate/searchduplicateresultwidget.cpp:80
+#: merge/widgets/mergecontactselectinformationscrollarea.cpp:52
 #, fuzzy
 #| msgid "Merge"
 msgid "Merge"
 msgstr "Бирлаштириш"
+
+#: merge/widgets/mergecontactloseinformationwarning.cpp:31
+msgid ""
+"Some information can be lost. Do you want to continue or customize what do "
+"you want to merge ?"
+msgstr ""
+
+#: merge/widgets/mergecontactloseinformationwarning.cpp:33
+#, fuzzy
+#| msgid "Customer"
+msgid "Customize"
+msgstr "Харидор"
+
+#: merge/widgets/mergecontactloseinformationwarning.cpp:38
+msgid "Automatic Merging"
+msgstr ""
 
 #: modelcolumnmanager.cpp:78
 msgid "Full Name"
@@ -3263,12 +3282,6 @@ msgstr ""
 #~ msgctxt "@item Contact category"
 #~ msgid "School"
 #~ msgstr "Мактаб"
-
-#, fuzzy
-#~| msgid "Customer"
-#~ msgctxt "@item Contact category"
-#~ msgid "Customer"
-#~ msgstr "Харидор"
 
 #, fuzzy
 #~| msgid "Friend"
