@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-29 07:54+0000\n"
+"POT-Creation-Date: 2015-02-28 09:47+0000\n"
 "PO-Revision-Date: 2005-10-09 00:05+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -36,9 +36,9 @@ msgstr ""
 msgid "Set date and time &automatically:"
 msgstr "Сана ва вақтни &авто-ўрнатиш:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, timeServerLabel)
 #: dateandtime.ui:53
-msgid "Time server:"
+msgid "&Time server:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
@@ -74,13 +74,13 @@ msgstr "Жорий вақт зонаси: %1 (%2)"
 msgid "Search"
 msgstr ""
 
-#: dtime.cpp:77
+#: dtime.cpp:81
 msgid ""
 "No NTP utility has been found. Install 'ntpdate' or 'rdate' command to "
 "enable automatic updating of date and time."
 msgstr ""
 
-#: dtime.cpp:107
+#: dtime.cpp:112
 msgid ""
 "Here you can change the system time. Click into the hours, minutes or "
 "seconds field to change the relevant value, either using the up and down "
@@ -90,50 +90,54 @@ msgstr ""
 "қийматини ўзгартириш учун \"пастга\", \"юқорига\" тугмаларидан фойдаланинг "
 "ёки янги қийматни тўғридан-тўғри майдонга киритинг."
 
-#: dtime.cpp:129
+#: dtime.cpp:134
 #, fuzzy, kde-format
 #| msgid "Current local timezone: %1 (%2)"
 msgctxt "%1 is name of time zone"
 msgid "Current local time zone: %1"
 msgstr "Жорий вақт зонаси: %1 (%2)"
 
-#: dtime.cpp:133
+#: dtime.cpp:138
 #, fuzzy, kde-format
 #| msgid "Current local timezone: %1 (%2)"
 msgctxt "%1 is name of time zone, %2 is its abbreviation"
 msgid "Current local time zone: %1 (%2)"
 msgstr "Жорий вақт зонаси: %1 (%2)"
 
-#: dtime.cpp:201
+#: dtime.cpp:218
+#, fuzzy
+#| msgid ""
+#| "Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
+#| "north-america.pool.ntp.org,oceania.pool.ntp.org"
 msgid ""
-"Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
-"north-america.pool.ntp.org,oceania.pool.ntp.org"
+"Public Time Server (pool.ntp.org),        asia.pool.ntp.org,        europe."
+"pool.ntp.org,        north-america.pool.ntp.org,        oceania.pool.ntp.org"
 msgstr ""
 "Вақт сервери (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,north-"
 "america.pool.ntp.org,oceania.pool.ntp.org"
 
-#: dtime.cpp:283
+#: dtime.cpp:288
 #, kde-format
 msgid "Unable to contact time server: %1."
 msgstr ""
 
-#: dtime.cpp:287
+#: dtime.cpp:292
 msgid "Can not set date."
 msgstr "Санани ўзгартириб бўлмади."
 
-#: dtime.cpp:290
+#: dtime.cpp:295
 #, fuzzy
 #| msgid "Error setting new timezone."
 msgid "Error setting new time zone."
 msgstr "Вақт зонасини ўзгартиришда хато рўй берди."
 
-#: dtime.cpp:291
+#: dtime.cpp:296
 #, fuzzy
 #| msgid "Timezone Error"
 msgid "Time zone Error"
 msgstr "Вақт зона хатоси"
 
-#: dtime.cpp:308
+#: dtime.cpp:313
 #, fuzzy
 #| msgid ""
 #| "<h1>Date & Time</h1> This control module can be used to set the system "
@@ -155,39 +159,39 @@ msgstr ""
 "керак. Агар сана ёки вақт нотўғри бўлса, илтимос тизимнинг бошқарувчисига "
 "хабар беринг."
 
-#: main.cpp:50
+#: main.cpp:62
 msgid "KDE Clock Control Module"
 msgstr "Соат учун бошқарув модули"
 
-#: main.cpp:52
+#: main.cpp:64
 msgid "(c) 1996 - 2001 Luca Montecchiani"
 msgstr ""
 
-#: main.cpp:54
+#: main.cpp:66
 msgid "Luca Montecchiani"
 msgstr ""
 
-#: main.cpp:54
+#: main.cpp:66
 msgid "Original author"
 msgstr "Биринчи муаллиф"
 
-#: main.cpp:55
+#: main.cpp:67
 msgid "Paul Campbell"
 msgstr ""
 
-#: main.cpp:55
+#: main.cpp:67
 msgid "Current Maintainer"
 msgstr "Жорий таъминловчи"
 
-#: main.cpp:56
+#: main.cpp:68
 msgid "Benjamin Meyer"
 msgstr ""
 
-#: main.cpp:56
+#: main.cpp:68
 msgid "Added NTP support"
 msgstr "NTP хизмати"
 
-#: main.cpp:58
+#: main.cpp:70
 #, fuzzy
 #| msgid ""
 #| "<h1>Date & Time</h1> This control module can be used to set the system "
@@ -208,9 +212,21 @@ msgstr ""
 "керак. Агар сана ёки вақт нотўғри бўлса, илтимос тизимнинг бошқарувчисига "
 "хабар беринг."
 
-#: main.cpp:92
+#: main.cpp:125
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1, %2"
+msgstr ""
+
+#: main.cpp:144
+msgid "Unable to change NTP settings"
+msgstr ""
+
+#: main.cpp:156
+msgid "Unable to set current time"
+msgstr ""
+
+#: main.cpp:166
+msgid "Unable to set timezone"
 msgstr ""
 
 #~ msgid "kcmclock"
