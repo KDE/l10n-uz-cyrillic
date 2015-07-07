@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-02 09:07+0000\n"
+"POT-Creation-Date: 2015-07-07 11:57+0000\n"
 "PO-Revision-Date: 2009-10-17 00:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -30,38 +30,44 @@ msgstr "kmashrab@uni-bremen.de"
 msgid "About %1"
 msgstr "%1 ҳақида"
 
-#: kaboutapplicationdialog.cpp:99
-#, kde-format
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>Версия %2</b><br />&nbsp;</html>"
-
-#: kaboutapplicationdialog.cpp:103
+#: kaboutapplicationdialog.cpp:98
 #, fuzzy, kde-format
 #| msgid ""
-#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-#| "%3</html>"
-msgctxt ""
-"Program name, version and KDE platform version; do not translate "
-"'Development Platform'"
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-"Frameworks %3</html>"
+#| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
+#| "b></html>"
+msgid "<html><font size=\"5\">%1</font></html>"
 msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>Версия %2</b><br />KDE %3 "
-"ишлатилмоқда</html>"
+"<html><font size=\"5\">KDE иш столи</b></font><br /><b>Версия %1</b></html>"
 
-#: kaboutapplicationdialog.cpp:142
+#: kaboutapplicationdialog.cpp:136
 #, kde-format
 msgid "License: %1"
 msgstr "Лицензия: %1"
 
-#: kaboutapplicationdialog.cpp:154
+#: kaboutapplicationdialog.cpp:148
 msgid "&About"
 msgstr "&Ҳақида"
 
-#: kaboutapplicationdialog.cpp:174
+#: kaboutapplicationdialog.cpp:153
+#, fuzzy, kde-format
+#| msgid "<br />Version: %1"
+msgid "<b>Version %1</b>"
+msgstr "<br />Версия: %1"
+
+#: kaboutapplicationdialog.cpp:158
+#, kde-format
+msgid ""
+"Using:<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The "
+"<em>%4</em> windowing system</li></ul>"
+msgstr ""
+
+#: kaboutapplicationdialog.cpp:168
+#, fuzzy
+#| msgid "Version:"
+msgid "&Version"
+msgstr "Версия:"
+
+#: kaboutapplicationdialog.cpp:188
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
 "bugs.\n"
@@ -69,30 +75,30 @@ msgstr ""
 "Илтимос, хато ҳақида хабар бериш учун <a href=\"http://bugs.kde.org\">http://"
 "bugs.kde.org</a> веб-сайтидан фойдаланинг.\n"
 
-#: kaboutapplicationdialog.cpp:178 kaboutapplicationdialog.cpp:182
+#: kaboutapplicationdialog.cpp:192 kaboutapplicationdialog.cpp:196
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr ""
 "Илтимос хато ҳақида қуйидаги почтага хабар беринг.<a href=\"mailto:%1\">%2</"
 "a>\n"
 
-#: kaboutapplicationdialog.cpp:209
+#: kaboutapplicationdialog.cpp:223
 msgid "A&uthor"
 msgstr "&Муаллиф"
 
-#: kaboutapplicationdialog.cpp:209
+#: kaboutapplicationdialog.cpp:223
 msgid "A&uthors"
 msgstr "&Муаллифлар"
 
-#: kaboutapplicationdialog.cpp:236
+#: kaboutapplicationdialog.cpp:250
 msgid "&Thanks To"
 msgstr "&Миннатдорчилик"
 
-#: kaboutapplicationdialog.cpp:275
+#: kaboutapplicationdialog.cpp:289
 msgid "T&ranslation"
 msgstr "&Таржима"
 
-#: kaboutapplicationdialog.cpp:307
+#: kaboutapplicationdialog.cpp:321
 msgid "License Agreement"
 msgstr "Лицензия келишуви"
 
@@ -1393,6 +1399,25 @@ msgstr "Мос&ламалар"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "Асосий асбоблар панели"
+
+#~ msgid ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Версия %2</b><br />&nbsp;</html>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+#~| "%3</html>"
+#~ msgctxt ""
+#~ "Program name, version and KDE platform version; do not translate "
+#~ "'Development Platform'"
+#~ msgid ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+#~ "Frameworks %3</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Версия %2</b><br />KDE %3 "
+#~ "ишлатилмоқда</html>"
 
 #~ msgid "Print"
 #~ msgstr "Босиб чиқариш"
@@ -7354,9 +7379,6 @@ msgstr "Асосий асбоблар панели"
 #, fuzzy
 #~ msgid "<br />Provider: %1"
 #~ msgstr "%1'ни бекитиш"
-
-#~ msgid "<br />Version: %1"
-#~ msgstr "<br />Версия: %1"
 
 #, fuzzy
 #~ msgid "Provider information"
