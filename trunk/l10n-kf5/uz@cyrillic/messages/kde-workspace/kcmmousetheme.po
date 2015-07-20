@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-11 09:20+0000\n"
+"POT-Creation-Date: 2015-05-10 08:43+0000\n"
 "PO-Revision-Date: 2005-10-19 21:17+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -25,345 +25,260 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: core/themepage.cpp:53
-msgid "Select the cursor theme you want to use:"
-msgstr "Курсор мавзусини танланг:"
+#: kcmcursortheme.cpp:43
+#, fuzzy
+#| msgid "&Cursor Theme"
+msgid "Cursor Theme"
+msgstr "&Курсор мавзуси"
 
-#: core/themepage.cpp:58
+#: kcmcursortheme.cpp:44
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr ""
+
+#: kcmcursortheme.cpp:45
+msgid "Fredrik Höglund"
+msgstr ""
+
+#: xcursor/thememodel.cpp:74
 msgid "Name"
 msgstr "Номи"
 
-#: core/themepage.cpp:58
+#: xcursor/thememodel.cpp:77
 msgid "Description"
 msgstr "Таърифи"
 
-#: core/themepage.cpp:99
+#: xcursor/themepage.cpp:154
+msgctxt "@item:inlistbox size"
+msgid "Resolution dependent"
+msgstr ""
+
+#: xcursor/themepage.cpp:311
 msgid "You have to restart KDE for these changes to take effect."
 msgstr "Ўзгаришлар кучга кириши учун KDE'ни қайтадан ишга туширишингиз керак."
 
-#: core/themepage.cpp:100
+#: xcursor/themepage.cpp:312
 msgid "Cursor Settings Changed"
 msgstr "Курсор мосламалари ўзгарди"
 
-#: core/themepage.cpp:150
-msgid "Small black"
-msgstr "Кичик қора"
+#: xcursor/themepage.cpp:430
+msgid "Drag or Type Theme URL"
+msgstr ""
 
-#: core/themepage.cpp:151
-msgid "Small black cursors"
-msgstr "Кичик қора курсорлар"
+#: xcursor/themepage.cpp:441
+#, kde-format
+msgid "Unable to find the cursor theme archive %1."
+msgstr "Курсор мавзусининг %1 архиви топилмади."
 
-#: core/themepage.cpp:157
-msgid "Large black"
-msgstr "Катта қора"
-
-#: core/themepage.cpp:158
-msgid "Large black cursors"
-msgstr "Катта қора курсорлар"
-
-#: core/themepage.cpp:164
-msgid "Small white"
-msgstr "Кичик оқ"
-
-#: core/themepage.cpp:165
-msgid "Small white cursors"
-msgstr "Кичик оқ курсорлар"
-
-#: core/themepage.cpp:171
-msgid "Large white"
-msgstr "Катта оқ"
-
-#: core/themepage.cpp:172
-msgid "Large white cursors"
-msgstr "Катта оқ курсорлар"
-
-#. i18n: ectx: property (title), widget (QGroupBox, handedBox)
-#: kmousedlg.ui:27
-msgid "Button Order"
-msgstr "Тугмалар тартиби"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rightHanded)
-#: kmousedlg.ui:36
-msgid "Righ&t handed"
-msgstr "Ў&нг қўл учун"
-
-#. i18n: ectx: property (text), widget (QRadioButton, leftHanded)
-#: kmousedlg.ui:46
-msgid "Le&ft handed"
-msgstr "Ча&п қўл учун"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbScrollPolarity)
-#: kmousedlg.ui:72
+#: xcursor/themepage.cpp:444
+#, kde-format
 msgid ""
-"Change the direction of scrolling for the mouse wheel or the 4th and 5th "
-"mouse buttons."
+"Unable to download the cursor theme archive; please check that the address "
+"%1 is correct."
+msgstr ""
+"Курсор мавзусининг архивини ёзиб олиб бўлмади. Илтимос %1 манзили "
+"тўғрилигини текширинг."
+
+#: xcursor/themepage.cpp:453
+#, kde-format
+msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgstr "%1 файли ҳақиқий курсор мавзусининг архивига ўхшамайди."
+
+#: xcursor/themepage.cpp:468
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbScrollPolarity)
-#: kmousedlg.ui:75
-msgid "Re&verse scroll direction"
+#: xcursor/themepage.cpp:474
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Are you sure you want to remove the <strong>%1</strong> cursor theme?"
+#| "<br>This will delete all the files installed by this theme.</qt>"
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt><strong>%1</strong> мавзусини олиб ташлашга ишончингиз комилми?<br>Бу "
+"мавзуга тегишли ҳамма файллар ўчирилади.</qt>"
+
+#: xcursor/themepage.cpp:480
+msgid "Confirmation"
+msgstr "Тасдиқлаш"
+
+#: xcursor/themepage.cpp:537
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr "%1 мавзуси аллақачон мавжуд. Уни алмаштиришни истайсизми?"
+
+#: xcursor/themepage.cpp:541
+msgid "Overwrite Theme?"
+msgstr "Мавзуни алмаштириш"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: xcursor/themepage.ui:17
+msgid "Select the cursor theme you want to use (hover preview to test cursor):"
+msgstr "Курсор мавзусини танланг:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, installKnsButton)
+#: xcursor/themepage.ui:56
+msgid "Get new color schemes from the Internet"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: kmousedlg.ui:105
-msgid "Icons"
-msgstr "Нишончалар"
-
-#. i18n: ectx: property (text), widget (QRadioButton, doubleClick)
-#: kmousedlg.ui:111
-msgid "Dou&ble-click to open files and folders (select icons on first click)"
-msgstr "&Икки марта босиш файл ва жилдларни очади (бир марта - белгилайди)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, singleClick)
-#: kmousedlg.ui:121
-msgid "&Single-click to open files and folders"
-msgstr "&Бир марта босиш файл ва жилдларни очади"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cb_pointershape)
-#: kmousedlg.ui:151
-msgid "Cha&nge pointer shape over icons"
-msgstr "&Нишончалар устида курсорнинг шаклини ўзгартириш"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbAutoSelect)
-#: kmousedlg.ui:161
-msgid "A&utomatically select icons"
-msgstr "Нишончаларни &авто-танлаш"
-
-#. i18n: ectx: property (label), widget (KIntNumInput, slAutoSelect)
-#: kmousedlg.ui:195
+#. i18n: ectx: property (text), widget (QPushButton, installKnsButton)
+#: xcursor/themepage.ui:59
 #, fuzzy
-#| msgid "Dela&y:"
-msgctxt "label. delay (on milliseconds) to automatically select icons"
-msgid "Delay"
-msgstr "К&ечикиш:"
+#| msgid "Install New Theme..."
+msgid "Get New Theme..."
+msgstr "Янги мавзуни ўрнатиш"
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, slAutoSelect)
-#: kmousedlg.ui:207
+#. i18n: ectx: property (text), widget (QPushButton, installButton)
+#: xcursor/themepage.ui:66
 #, fuzzy
-#| msgid " msec"
-msgctxt "milliseconds. time to automatically select the items"
-msgid " ms"
-msgstr " мс"
+#| msgid "Install New Theme..."
+msgid "Install From File..."
+msgstr "Янги мавзуни ўрнатиш"
 
-#: mouse.cpp:95
-msgid ""
-"<h1>Mouse</h1> This module allows you to choose various options for the way "
-"in which your pointing device works. Your pointing device may be a mouse, "
-"trackball, or some other hardware that performs a similar function."
-msgstr ""
-"<h1>Сичқонча</h1> Бу модул ёрдамида кўрсатгич ускунасининг турли "
-"параметрларини танлашингиз мумкин. Кўрсатгич ускунаси сичқонча, трэкбол ёки "
-"шунга ўхшган аммалларни бажарувчи бошқа ускуна бўлиши мумкин."
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: xcursor/themepage.ui:73
+msgid "Remove Theme"
+msgstr "Мавзуни олиб ташлаш"
 
-#: mouse.cpp:114
-msgid "&General"
-msgstr "&Умумий"
-
-#: mouse.cpp:124
-msgid ""
-"If you are left-handed, you may prefer to swap the functions of the left and "
-"right buttons on your pointing device by choosing the 'left-handed' option. "
-"If your pointing device has more than two buttons, only those that function "
-"as the left and right buttons are affected. For example, if you have a three-"
-"button mouse, the middle button is unaffected."
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#: xcursor/themepage.ui:99
+msgctxt "@label:listbox cursor size"
+msgid "Size:"
 msgstr ""
 
-#: mouse.cpp:134
-msgid ""
-"The default behavior in KDE is to select and activate icons with a single "
-"click of the left button on your pointing device. This behavior is "
-"consistent with what you would expect when you click links in most web "
-"browsers. If you would prefer to select with a single click, and activate "
-"with a double click, check this option."
+#: xcursor/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
 msgstr ""
 
-#: mouse.cpp:142
-msgid "Activates and opens a file or folder with a single click."
-msgstr "Бир марта босиб файл ёки жилдни танлаш ва опиш."
+#~ msgid "Select the cursor theme you want to use:"
+#~ msgstr "Курсор мавзусини танланг:"
 
-#: mouse.cpp:148
-msgid ""
-"If you check this option, pausing the mouse pointer over an icon on the "
-"screen will automatically select that icon. This may be useful when single "
-"clicks activate icons, and you want only to select the icon without "
-"activating it."
-msgstr ""
+#~ msgid "Small black"
+#~ msgstr "Кичик қора"
 
-#: mouse.cpp:154
-msgid ""
-"If you have checked the option to automatically select icons, this slider "
-"allows you to select how long the mouse pointer must be paused over the icon "
-"before it is selected."
-msgstr ""
+#~ msgid "Small black cursors"
+#~ msgstr "Кичик қора курсорлар"
 
-#: mouse.cpp:190
-msgid "Advanced"
-msgstr "Қўшимча"
+#~ msgid "Large black"
+#~ msgstr "Катта қора"
 
-#: mouse.cpp:195
-msgid " x"
-msgstr ""
+#~ msgid "Large black cursors"
+#~ msgstr "Катта қора курсорлар"
 
-#: mouse.cpp:196
-msgid "Pointer acceleration:"
-msgstr "Курсорнинг тезланиши:"
+#~ msgid "Small white"
+#~ msgstr "Кичик оқ"
 
-#: mouse.cpp:199
-msgid ""
-"<p>This option allows you to change the relationship between the distance "
-"that the mouse pointer moves on the screen and the relative movement of the "
-"physical device itself (which may be a mouse, trackball, or some other "
-"pointing device.)</p><p> A high value for the acceleration will lead to "
-"large movements of the mouse pointer on the screen even when you only make a "
-"small movement with the physical device. Selecting very high values may "
-"result in the mouse pointer flying across the screen, making it hard to "
-"control.</p>"
-msgstr ""
+#~ msgid "Small white cursors"
+#~ msgstr "Кичик оқ курсорлар"
 
-#: mouse.cpp:214
-msgid "Pointer threshold:"
-msgstr ""
+#~ msgid "Large white"
+#~ msgstr "Катта оқ"
 
-#: mouse.cpp:219
-msgid ""
-"<p>The threshold is the smallest distance that the mouse pointer must move "
-"on the screen before acceleration has any effect. If the movement is smaller "
-"than the threshold, the mouse pointer moves as if the acceleration was set "
-"to 1X;</p><p> thus, when you make small movements with the physical device, "
-"there is no acceleration at all, giving you a greater degree of control over "
-"the mouse pointer. With larger movements of the physical device, you can "
-"move the mouse pointer rapidly to different areas on the screen.</p>"
-msgstr ""
+#~ msgid "Large white cursors"
+#~ msgstr "Катта оқ курсорлар"
 
-#: mouse.cpp:234 mouse.cpp:249 mouse.cpp:295 mouse.cpp:300 mouse.cpp:305
-msgid " msec"
-msgstr " мс"
+#~ msgid "Button Order"
+#~ msgstr "Тугмалар тартиби"
 
-#: mouse.cpp:236
-msgid "Double click interval:"
-msgstr "Икки марта босиш орасидаги вақт:"
+#~ msgid "Righ&t handed"
+#~ msgstr "Ў&нг қўл учун"
 
-#: mouse.cpp:239
-msgid ""
-"The double click interval is the maximal time (in milliseconds) between two "
-"mouse clicks which turns them into a double click. If the second click "
-"happens later than this time interval after the first click, they are "
-"recognized as two separate clicks."
-msgstr ""
+#~ msgid "Le&ft handed"
+#~ msgstr "Ча&п қўл учун"
 
-#: mouse.cpp:251
-msgid "Drag start time:"
-msgstr ""
+#~ msgid "Icons"
+#~ msgstr "Нишончалар"
 
-#: mouse.cpp:254
-msgid ""
-"If you click with the mouse (e.g. in a multi-line editor) and begin to move "
-"the mouse within the drag start time, a drag operation will be initiated."
-msgstr ""
+#~ msgid ""
+#~ "Dou&ble-click to open files and folders (select icons on first click)"
+#~ msgstr "&Икки марта босиш файл ва жилдларни очади (бир марта - белгилайди)"
 
-#: mouse.cpp:262
-msgid "Drag start distance:"
-msgstr ""
+#~ msgid "&Single-click to open files and folders"
+#~ msgstr "&Бир марта босиш файл ва жилдларни очади"
 
-#: mouse.cpp:267
-msgid ""
-"If you click with the mouse and begin to move the mouse at least the drag "
-"start distance, a drag operation will be initiated."
-msgstr ""
+#~ msgid "Cha&nge pointer shape over icons"
+#~ msgstr "&Нишончалар устида курсорнинг шаклини ўзгартириш"
 
-#: mouse.cpp:275
-msgid "Mouse wheel scrolls by:"
-msgstr ""
+#~ msgid "A&utomatically select icons"
+#~ msgstr "Нишончаларни &авто-танлаш"
 
-#: mouse.cpp:280
-msgid ""
-"If you use the wheel of a mouse, this value determines the number of lines "
-"to scroll for each wheel movement. Note that if this number exceeds the "
-"number of visible lines, it will be ignored and the wheel movement will be "
-"handled as a page up/down movement."
-msgstr ""
+#, fuzzy
+#~| msgid "Dela&y:"
+#~ msgctxt "label. delay (on milliseconds) to automatically select icons"
+#~ msgid "Delay"
+#~ msgstr "К&ечикиш:"
 
-#: mouse.cpp:286
-msgid "Mouse Navigation"
-msgstr "Сичқончани тугмалар билан бошқариш"
+#, fuzzy
+#~| msgid " msec"
+#~ msgctxt "milliseconds. time to automatically select the items"
+#~ msgid " ms"
+#~ msgstr " мс"
 
-#: mouse.cpp:290
-msgid "&Move pointer with keyboard (using the num pad)"
-msgstr "&Сичқончани тугматаг билан бошқариш"
+#~ msgid ""
+#~ "<h1>Mouse</h1> This module allows you to choose various options for the "
+#~ "way in which your pointing device works. Your pointing device may be a "
+#~ "mouse, trackball, or some other hardware that performs a similar function."
+#~ msgstr ""
+#~ "<h1>Сичқонча</h1> Бу модул ёрдамида кўрсатгич ускунасининг турли "
+#~ "параметрларини танлашингиз мумкин. Кўрсатгич ускунаси сичқонча, трэкбол "
+#~ "ёки шунга ўхшган аммалларни бажарувчи бошқа ускуна бўлиши мумкин."
 
-#: mouse.cpp:296
-msgid "&Acceleration delay:"
-msgstr "&Тезланиш кечикиши:"
+#~ msgid "&General"
+#~ msgstr "&Умумий"
 
-#: mouse.cpp:301
-msgid "R&epeat interval:"
-msgstr "&Қайтариш вақти:"
+#~ msgid "Activates and opens a file or folder with a single click."
+#~ msgstr "Бир марта босиб файл ёки жилдни танлаш ва опиш."
 
-#: mouse.cpp:306
-msgid "Acceleration &time:"
-msgstr "Тезланиш &вақти:"
+#~ msgid "Advanced"
+#~ msgstr "Қўшимча"
 
-#: mouse.cpp:310
-msgid " pixel/sec"
-msgstr " пиксел/сек"
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Курсорнинг тезланиши:"
 
-#: mouse.cpp:311
-msgid "Ma&ximum speed:"
-msgstr "&Энг катта тезлиги:"
+#~ msgid " msec"
+#~ msgstr " мс"
 
-#: mouse.cpp:315
-msgid "Acceleration &profile:"
-msgstr "Тезланиш &профили:"
+#~ msgid "Double click interval:"
+#~ msgstr "Икки марта босиш орасидаги вақт:"
 
-#: mouse.cpp:328
-msgid "Mouse"
-msgstr "Сичқонча"
+#~ msgid "Mouse Navigation"
+#~ msgstr "Сичқончани тугмалар билан бошқариш"
 
-#: mouse.cpp:329
-msgid "(c) 1997 - 2005 Mouse developers"
-msgstr "(C) 1997-2005, Mouse тузувчилари"
+#~ msgid "&Move pointer with keyboard (using the num pad)"
+#~ msgstr "&Сичқончани тугматаг билан бошқариш"
 
-#: mouse.cpp:330
-msgid "Patrick Dowler"
-msgstr ""
+#~ msgid "&Acceleration delay:"
+#~ msgstr "&Тезланиш кечикиши:"
 
-#: mouse.cpp:331
-msgid "Dirk A. Mueller"
-msgstr ""
+#~ msgid "R&epeat interval:"
+#~ msgstr "&Қайтариш вақти:"
 
-#: mouse.cpp:332
-msgid "David Faure"
-msgstr ""
+#~ msgid "Acceleration &time:"
+#~ msgstr "Тезланиш &вақти:"
 
-#: mouse.cpp:333
-msgid "Bernd Gehrmann"
-msgstr ""
+#~ msgid " pixel/sec"
+#~ msgstr " пиксел/сек"
 
-#: mouse.cpp:334
-msgid "Rik Hemsley"
-msgstr ""
+#~ msgid "Ma&ximum speed:"
+#~ msgstr "&Энг катта тезлиги:"
 
-#: mouse.cpp:335
-msgid "Brad Hughes"
-msgstr ""
+#~ msgid "Acceleration &profile:"
+#~ msgstr "Тезланиш &профили:"
 
-#: mouse.cpp:336
-msgid "Ralf Nolden"
-msgstr ""
+#~ msgid "Mouse"
+#~ msgstr "Сичқонча"
 
-#: mouse.cpp:337
-msgid "Brad Hards"
-msgstr ""
-
-#: mouse.cpp:639 mouse.cpp:644
-msgid " pixel"
-msgid_plural " pixels"
-msgstr[0] ""
-
-#: mouse.cpp:649
-msgid " line"
-msgid_plural " lines"
-msgstr[0] ""
+#~ msgid "(c) 1997 - 2005 Mouse developers"
+#~ msgstr "(C) 1997-2005, Mouse тузувчилари"
 
 #~ msgid "Mouse type: %1"
 #~ msgstr "Сичқончанинг тури: %1"
@@ -394,63 +309,6 @@ msgstr[0] ""
 
 #~ msgid "Channel 2"
 #~ msgstr "Канал 2"
-
-#, fuzzy
-#~| msgid "&Cursor Theme"
-#~ msgid "Cursor Theme"
-#~ msgstr "&Курсор мавзуси"
-
-#~ msgid "Unable to find the cursor theme archive %1."
-#~ msgstr "Курсор мавзусининг %1 архиви топилмади."
-
-#~ msgid ""
-#~ "Unable to download the cursor theme archive; please check that the "
-#~ "address %1 is correct."
-#~ msgstr ""
-#~ "Курсор мавзусининг архивини ёзиб олиб бўлмади. Илтимос %1 манзили "
-#~ "тўғрилигини текширинг."
-
-#~ msgid "The file %1 does not appear to be a valid cursor theme archive."
-#~ msgstr "%1 файли ҳақиқий курсор мавзусининг архивига ўхшамайди."
-
-#, fuzzy
-#~| msgid ""
-#~| "<qt>Are you sure you want to remove the <strong>%1</strong> cursor theme?"
-#~| "<br>This will delete all the files installed by this theme.</qt>"
-#~ msgid ""
-#~ "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
-#~ "will delete all the files installed by this theme.</qt>"
-#~ msgstr ""
-#~ "<qt><strong>%1</strong> мавзусини олиб ташлашга ишончингиз комилми?<br>Бу "
-#~ "мавзуга тегишли ҳамма файллар ўчирилади.</qt>"
-
-#~ msgid "Confirmation"
-#~ msgstr "Тасдиқлаш"
-
-#~ msgid ""
-#~ "A theme named %1 already exists in your icon theme folder. Do you want "
-#~ "replace it with this one?"
-#~ msgstr "%1 мавзуси аллақачон мавжуд. Уни алмаштиришни истайсизми?"
-
-#~ msgid "Overwrite Theme?"
-#~ msgstr "Мавзуни алмаштириш"
-
-#~ msgid ""
-#~ "Select the cursor theme you want to use (hover preview to test cursor):"
-#~ msgstr "Курсор мавзусини танланг:"
-
-#, fuzzy
-#~| msgid "Install New Theme..."
-#~ msgid "Get New Theme..."
-#~ msgstr "Янги мавзуни ўрнатиш"
-
-#, fuzzy
-#~| msgid "Install New Theme..."
-#~ msgid "Install From File..."
-#~ msgstr "Янги мавзуни ўрнатиш"
-
-#~ msgid "Remove Theme"
-#~ msgstr "Мавзуни олиб ташлаш"
 
 #~ msgid "No description available"
 #~ msgstr "Ҳеч қандай таъриф мавжуд эмас"
