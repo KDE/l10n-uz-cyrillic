@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-14 08:08+0000\n"
+"POT-Creation-Date: 2015-09-15 10:32+0000\n"
 "PO-Revision-Date: 2006-12-17 13:34+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -484,6 +484,91 @@ msgstr "%1 архив файлини ёзиб бўлмади."
 #| msgid "Archive events"
 msgid "Archiving events"
 msgstr "Ҳодисаларни архивлаш"
+
+#: freebusymodel/freebusycalendar.cpp:133
+#, fuzzy
+#| msgid "Free"
+msgid "Free"
+msgstr "Бўш"
+
+#: freebusymodel/freebusycalendar.cpp:136
+#, fuzzy
+#| msgid "Busy"
+msgid "Busy"
+msgstr "Банд"
+
+#: freebusymodel/freebusycalendar.cpp:139
+msgid "Unavailable"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:142
+msgid "Tentative"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:145
+#, fuzzy
+#| msgid "Unknown"
+msgid "Unknown"
+msgstr "Номаълум"
+
+#: freebusymodel/freebusyitemmodel.cpp:230
+#, fuzzy
+#| msgid "Atte&ndees"
+msgid "Attendee"
+msgstr "&Қатнашувчилар"
+
+#: freebusymodel/freeperiodmodel.cpp:150
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "@label Day of the week name, example: Monday,"
+msgid "%1,"
+msgstr "%1 %2"
+
+#: freebusymodel/freeperiodmodel.cpp:165
+#, fuzzy, kde-format
+msgctxt ""
+"@label A time period duration. It is preceded/followed (based on the "
+"orientation) by the name of the week, see the message above. example: 12 "
+"June, 8:00am to 9:30am"
+msgid "%1 %2, %3 to %4"
+msgstr "%1 %2"
+
+#: freebusymodel/freeperiodmodel.cpp:185
+#, fuzzy, kde-format
+msgctxt ""
+"@label A time period duration. KLocale is used to format the components. "
+"example: Monday, 12 June, 8:00am to 9:30am"
+msgid "%1, %2 %3, %4 to %5"
+msgstr "%1 %2"
+
+#: freebusymodel/freeperiodmodel.cpp:199
+#, fuzzy
+#| msgid "Working Hours"
+msgctxt "@info:tooltip"
+msgid "Free Period"
+msgstr "Иш вақти"
+
+#: freebusymodel/freeperiodmodel.cpp:201
+#, fuzzy
+#| msgid "&Start:"
+msgctxt "@info:tooltip period start time"
+msgid "Start:"
+msgstr "&Боши:"
+
+#: freebusymodel/freeperiodmodel.cpp:204
+#, fuzzy
+#| msgid "&End:"
+msgctxt "@info:tooltip period end time"
+msgid "End:"
+msgstr "&Охири:"
+
+#: freebusymodel/freeperiodmodel.cpp:207
+#, fuzzy
+#| msgid "Duration: "
+msgctxt "@info:tooltip period duration"
+msgid "Duration:"
+msgstr "Давом этиши: "
 
 #: kcalmodel.cpp:128
 #, kde-format
@@ -3747,12 +3832,6 @@ msgstr "&Иловалар"
 #~ msgstr "(Йўқ)"
 
 #, fuzzy
-#~| msgid "Working Hours"
-#~ msgctxt "@title:group"
-#~ msgid "Working Period"
-#~ msgstr "Иш вақти"
-
-#, fuzzy
 #~| msgid "Appointment"
 #~ msgctxt "@title:group"
 #~ msgid "Appointments"
@@ -4745,13 +4824,6 @@ msgstr "&Иловалар"
 #~ msgctxt "@action:inmenu lowest priority"
 #~ msgid "%1 (lowest)"
 #~ msgstr "9 (энг паст)"
-
-#, fuzzy
-#~| msgctxt "short_weekday date (e.g. Mon 13)"
-#~| msgid "%1 %2"
-#~ msgctxt "@action:inmenu"
-#~ msgid "%1"
-#~ msgstr "%1 %2"
 
 #, fuzzy
 #~ msgctxt "priority is unspecified"
@@ -6144,12 +6216,6 @@ msgstr "&Иловалар"
 #~ msgstr "Ушбу ҳодиса ёки вазифа сарлавҳасини мослаш."
 
 #, fuzzy
-#~| msgid "&Start:"
-#~ msgctxt "@label event start time"
-#~ msgid "&Start:"
-#~ msgstr "&Боши:"
-
-#, fuzzy
 #~ msgctxt "@info:tooltip"
 #~ msgid "Set the start date"
 #~ msgstr "Бошлаш куни:"
@@ -6165,24 +6231,6 @@ msgstr "&Иловалар"
 #~ msgctxt "@info:whatsthis"
 #~ msgid "Select the starting time for this event."
 #~ msgstr "Ушбу ҳодиса ёки вазифа сарлавҳасини мослаш."
-
-#, fuzzy
-#~| msgid "&End:"
-#~ msgctxt "@label"
-#~ msgid "&End:"
-#~ msgstr "&Охири:"
-
-#, fuzzy
-#~| msgid "Busy"
-#~ msgctxt "@item:inlistbox show event as busy time"
-#~ msgid "Busy"
-#~ msgstr "Банд"
-
-#, fuzzy
-#~| msgid "Free"
-#~ msgctxt "@item:inlistbox show event as free time"
-#~ msgid "Free"
-#~ msgstr "Бўш"
 
 #, fuzzy
 #~| msgid "Accept"
@@ -6375,12 +6423,6 @@ msgstr "&Иловалар"
 #~ msgctxt "@action:button reload freebusy data"
 #~ msgid "Reload"
 #~ msgstr "&Қайтадан юклаш"
-
-#, fuzzy
-#~| msgid "Atte&ndees"
-#~ msgctxt "@title:column attendee name"
-#~ msgid "Attendee"
-#~ msgstr "&Қатнашувчилар"
 
 #, fuzzy
 #~ msgctxt "@info"
