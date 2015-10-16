@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-13 10:02+0000\n"
+"POT-Creation-Date: 2015-10-16 07:55+0000\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18,6 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#, fuzzy
+#| msgid "Bookmark name:"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Хатчўпнинг номи:"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
 
 #: basicflakes/plugin/KoCreatePathToolFactory.cpp:30
 #, fuzzy
@@ -667,6 +677,7 @@ msgid "Key Press"
 msgstr ""
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:277
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:75
 #, fuzzy
 msgid "Delete"
 msgstr "Матнни ўчириш"
@@ -1090,13 +1101,13 @@ msgstr "Қизил"
 msgid "<empty>"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1350
+#: kundo2/kundo2stack.cpp:1350 widgetutils/xmlgui/kundoactions.cpp:43
 #, fuzzy
 #| msgid "Red"
 msgid "Redo"
 msgstr "Қизил"
 
-#: kundo2/kundo2stack.cpp:1369
+#: kundo2/kundo2stack.cpp:1369 widgetutils/xmlgui/kundoactions.cpp:62
 msgid "Undo"
 msgstr ""
 
@@ -2307,7 +2318,8 @@ msgctxt "Document/application separator in titlebar"
 msgid " – "
 msgstr ""
 
-#: widgets/KoDialog.cpp:863
+#: widgets/KoDialog.cpp:863 widgetutils/xmlgui/kshortcutsdialog.cpp:130
+#: widgetutils/xmlgui/kshortcutsdialog.cpp:165
 #, fuzzy
 msgid "&Details"
 msgstr "&Андоза"
@@ -2441,6 +2453,7 @@ msgstr "&Қўшиш"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, remove)
 #: widgets/KoEditColorSet.ui:55
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:415
 #, fuzzy
 msgid "Remove"
 msgstr "Сатрни олиб ташлаш"
@@ -2960,13 +2973,13 @@ msgstr ""
 msgid "Undelete"
 msgstr "Матнни ўчириш"
 
-#: widgets/KoToolBox.cpp:326
+#: widgets/KoToolBox.cpp:326 widgetutils/xmlgui/ktoolbar.cpp:337
 #, fuzzy
 #| msgid "Select Font"
 msgid "Icon Size"
 msgstr "Шрифтни танлаш"
 
-#: widgets/KoToolBox.cpp:327
+#: widgets/KoToolBox.cpp:327 widgetutils/xmlgui/ktoolbar.cpp:339
 #, fuzzy
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
@@ -3681,9 +3694,924 @@ msgstr ""
 msgid "Import Directory"
 msgstr "Ҳужжатни импорт қилиш"
 
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:43
+msgid "About KDE"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:46
+msgid "<html><font size=\"5\">KDE - Be Free!</font></html>"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:55
+#, kde-format
+msgid ""
+"<html><b>KDE</b> is a world-wide network of software engineers, artists, "
+"writers, translators and facilitators who are committed to <a href="
+"\"%1\">Free Software</a> development. This community has created hundreds of "
+"Free Software applications as part of the KDE frameworks, workspaces and "
+"applications.<br /><br />KDE is a cooperative enterprise in which no single "
+"entity controls the efforts or products of KDE to the exclusion of others. "
+"Everyone is welcome to join and contribute to KDE, including you.<br /><br /"
+">Visit <a href=\"%2\">%2</a> for more information about the KDE community "
+"and the software we produce.</html>"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:74
+#, kde-format
+msgid ""
+"<html>Software can always be improved, and the KDE team is ready to do so. "
+"However, you - the user - must tell us when something does not work as "
+"expected or could be done better.<br /><br />KDE has a bug tracking system. "
+"Visit <a href=\"%1\">%1</a> or use the \"Report Bug...\" dialog from the "
+"\"Help\" menu to report bugs.<br /><br />If you have a suggestion for "
+"improvement then you are welcome to use the bug tracking system to register "
+"your wish. Make sure you use the severity called \"Wishlist\".</html>"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:92
+#, kde-format
+msgid ""
+"<html>You do not have to be a software developer to be a member of the KDE "
+"team. You can join the national teams that translate program interfaces. You "
+"can provide graphics, themes, sounds, and improved documentation. You decide!"
+"<br /><br />Visit <a href=\"%1\">%1</a> for information on some projects in "
+"which you can participate.<br /><br />If you need more information or "
+"documentation, then a visit to <a href=\"%2\">%2</a> will provide you with "
+"what you need.</html>"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:114
+#, kde-format
+msgid ""
+"<html>KDE software is and will always be available free of charge, however "
+"creating it is not free.<br /><br />To support development the KDE community "
+"has formed the KDE e.V., a non-profit organization legally founded in "
+"Germany. KDE e.V. represents the KDE community in legal and financial "
+"matters. See <a href=\"%1\">%1</a> for information on KDE e.V.<br /><br /"
+">KDE benefits from many kinds of contributions, including financial. We use "
+"the funds to reimburse members and others for expenses they incur when "
+"contributing. Further funds are used for legal support and organizing "
+"conferences and meetings. <br /> <br />We would like to encourage you to "
+"support our efforts with a financial donation, using one of the ways "
+"described at <a href=\"%2\">%2</a>.<br /><br />Thank you very much in "
+"advance for your support.</html>"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:133
+msgctxt "About KDE"
+msgid "&About"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:134
+#, fuzzy
+#| msgid "E&xport..."
+msgid "&Report Bugs or Wishes"
+msgstr "&Экспорт қилиш"
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:135
+msgid "&Join KDE"
+msgstr ""
+
+#: widgetutils/xmlgui/kaboutkdedialog_p.cpp:136
+msgid "&Support KDE"
+msgstr ""
+
+#: widgetutils/xmlgui/kactionconflictdetector.cpp:49
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: widgetutils/xmlgui/kactionconflictdetector.cpp:53
+msgid "Ambiguous shortcut detected"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:90 widgetutils/xmlgui/kbugreport.cpp:106
+msgid "Submit Bug Report"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:116
+msgid ""
+"The application for which you wish to submit a bug report - if incorrect, "
+"please use the Report Bug menu item of the correct application"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:117
+#, fuzzy
+#| msgid "Location:"
+msgid "Application: "
+msgstr "Манзили:"
+
+#: widgetutils/xmlgui/kbugreport.cpp:142
+msgid ""
+"The version of this application - please make sure that no newer version is "
+"available before sending a bug report"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:143
+#, fuzzy
+#| msgid "Version"
+msgid "Version:"
+msgstr "Версия"
+
+#: widgetutils/xmlgui/kbugreport.cpp:148
+msgid "no version set (programmer error)"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:156
+msgid "OS:"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:164
+msgid "Compiler:"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:173
+msgid ""
+"<qt>To submit a bug report, click on the button below. This will open a web "
+"browser window on <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
+"where you will find a form to fill in. The information displayed above will "
+"be transferred to that server.</qt>"
+msgstr ""
+
+#: widgetutils/xmlgui/kbugreport.cpp:188
+msgid "&Launch Bug Report Wizard"
+msgstr ""
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:221
+msgctxt "@title:window"
+msgid "Dr. Klash' Accelerator Diagnosis"
+msgstr ""
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:228
+msgctxt "@option:check"
+msgid "Disable automatic checking"
+msgstr ""
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:232
+#, fuzzy
+#| msgid "Colors"
+msgctxt "@action:button"
+msgid "Close"
+msgstr "Ранглар"
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:273
+msgid "<h2>Accelerators changed</h2>"
+msgstr ""
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:275
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:286
+#, fuzzy
+msgid "Old Text"
+msgstr "Матнни қўшиш"
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:277
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:295
+#, fuzzy
+msgid "New Text"
+msgstr "Матнни қўшиш"
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:284
+msgid "<h2>Accelerators removed</h2>"
+msgstr ""
+
+#: widgetutils/xmlgui/kcheckaccelerators.cpp:293
+msgid "<h2>Accelerators added (just for your info)</h2>"
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:58
+msgid "--- separator ---"
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:352
+#, fuzzy
+msgid "Change Text"
+msgstr "Белги услубини ўзгартириш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:363
+#, fuzzy
+msgid "Icon te&xt:"
+msgstr "Матнни қўшиш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:368
+msgid "&Hide text when toolbar shows text alongside icons"
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:621
+#, fuzzy
+#| msgid "Confirm Save"
+msgid "Configure Toolbars"
+msgstr "Сақлашни тасдиқлаш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:684
+msgid ""
+"Do you really want to reset all toolbars of this application to their "
+"default? The changes will be applied immediately."
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:684
+#, fuzzy
+#| msgid "&Reset"
+msgid "Reset"
+msgstr "&Тиклаш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:684
+#, fuzzy
+#| msgid "Hide %1 Toolbar"
+msgid "Reset Toolbars"
+msgstr "%1 асбоблар панелини бекитиш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1012
+#, fuzzy
+#| msgid "Show %1 Toolbar"
+msgid "&Toolbar:"
+msgstr "%1 асбоблар панелини кўрсатиш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1027
+msgid "A&vailable actions:"
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1042
+#: widgetutils/xmlgui/kedittoolbar.cpp:1061
+#, fuzzy
+#| msgid "Choose Filter"
+msgid "Filter"
+msgstr "Филтерни танлаш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1045
+#, fuzzy
+msgid "Curr&ent actions:"
+msgstr "намойиш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1064
+#, fuzzy
+msgid "Change &Icon..."
+msgstr "Текислашни ўзгартириш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1074
+#, fuzzy
+#| msgid "Change Alignment"
+msgid "Change Te&xt..."
+msgstr "Текислашни ўзгартириш"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1226
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@item:intable Action name in toolbar editor"
+msgid "%1"
+msgstr "%1%"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1246
+msgid ""
+"This element will be replaced with all the elements of an embedded component."
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1248
+msgid "<Merge>"
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1250
+#, kde-format
+msgid "<Merge %1>"
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1256
+msgid ""
+"This is a dynamic list of actions. You can move it, but if you remove it you "
+"will not be able to re-add it."
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1257
+#, kde-format
+msgid "ActionList: %1"
+msgstr ""
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1357
+#: widgetutils/xmlgui/kedittoolbar.cpp:1384
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@label Action tooltip in toolbar editor, below the action list"
+msgid "%1"
+msgstr "%1%"
+
+#: widgetutils/xmlgui/kedittoolbar.cpp:1612
+#, fuzzy
+msgid "Change Icon"
+msgstr "Текислашни ўзгартириш"
+
+#: widgetutils/xmlgui/kgesture.cpp:505
+msgctxt "left mouse button"
+msgid "left button"
+msgstr ""
+
+#: widgetutils/xmlgui/kgesture.cpp:508
+msgctxt "middle mouse button"
+msgid "middle button"
+msgstr ""
+
+#: widgetutils/xmlgui/kgesture.cpp:511
+msgctxt "right mouse button"
+msgid "right button"
+msgstr ""
+
+#: widgetutils/xmlgui/kgesture.cpp:514
+msgctxt "a nonexistent value of mouse button"
+msgid "invalid button"
+msgstr ""
+
+#: widgetutils/xmlgui/kgesture.cpp:528
+#, kde-format
+msgctxt ""
+"a kind of mouse gesture: hold down one mouse button, then press another "
+"button"
+msgid "Hold %1, then push %2"
+msgstr ""
+
+#. i18n: ectx: Menu (help)
+#: widgetutils/xmlgui/khelpmenu.cpp:166 widgetutils/xmlgui/ui_standards.rc:177
+msgid "&Help"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:129
+#, kde-format
+msgid "Shortcut '%1' in Application %2 for action %3\n"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:139
+#, kde-format
+msgctxt ""
+"%1 is the number of conflicts (hidden), %2 is the key sequence of the "
+"shortcut that is problematic"
+msgid "The shortcut '%2' conflicts with the following key combination:\n"
+msgid_plural ""
+"The shortcut '%2' conflicts with the following key combinations:\n"
+msgstr[0] ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:145
+msgctxt "%1 is the number of shortcuts with which there is a conflict"
+msgid "Conflict with Registered Global Shortcut"
+msgid_plural "Conflict with Registered Global Shortcuts"
+msgstr[0] ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:147
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:235
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:614
+#: widgetutils/xmlgui/kshortcutseditor.cpp:612
+#: widgetutils/xmlgui/kshortcutseditor.cpp:630
+msgid "Reassign"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:216
+msgctxt "%1 is the number of conflicts"
+msgid "Shortcut Conflict"
+msgid_plural "Shortcut Conflicts"
+msgstr[0] ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:220
+#, kde-format
+msgid "Shortcut '%1' for action '%2'\n"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:225
+#, kde-format
+msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
+msgid ""
+"The \"%2\" shortcut is ambiguous with the following shortcut.\n"
+"Do you want to assign an empty shortcut to this action?\n"
+"%3"
+msgid_plural ""
+"The \"%2\" shortcut is ambiguous with the following shortcuts.\n"
+"Do you want to assign an empty shortcut to these actions?\n"
+"%3"
+msgstr[0] ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:244
+msgid "Shortcut conflict"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:245
+#, kde-format
+msgid ""
+"<qt>The '%1' key combination is already used by the <b>%2</b> action."
+"<br>Please select a different one.</qt>"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:275
+msgid ""
+"Click on the button, then enter the shortcut like you would in the program.\n"
+"Example for Ctrl+A: hold the Ctrl key and press A."
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:459
+msgid "Reserved Shortcut"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:460
+msgid ""
+"The F12 key is reserved on Windows, so cannot be used for a global "
+"shortcut.\n"
+"Please choose another one."
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:608
+msgid "Conflict with Standard Application Shortcut"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:609
+#, kde-format
+msgid ""
+"The '%1' key combination is also used for the standard action \"%2\" that "
+"some applications use.\n"
+"Do you really want to use it as a global shortcut as well?"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:654
+msgctxt "What the user inputs now will be taken as the new shortcut"
+msgid "Input"
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:661
+#: widgetutils/xmlgui/kshortcuteditwidget.cpp:64
+#: widgetutils/xmlgui/kshortcuteditwidget.cpp:67
+#, fuzzy
+#| msgid "None"
+msgctxt "No shortcut defined"
+msgid "None"
+msgstr "Йўқ"
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:701
+msgid "The key you just pressed is not supported by Qt."
+msgstr ""
+
+#: widgetutils/xmlgui/kkeysequencewidget.cpp:702
+msgid "Unsupported Key"
+msgstr ""
+
+#: widgetutils/xmlgui/kmenumenuhandler_p.cpp:50
+#, fuzzy
+#| msgid "Hide %1 Toolbar"
+msgid "Add to Toolbar"
+msgstr "%1 асбоблар панелини бекитиш"
+
+#: widgetutils/xmlgui/kmenumenuhandler_p.cpp:227
+#, fuzzy
+#| msgid "Confirm Save"
+msgid "Configure Shortcut..."
+msgstr "Сақлашни тасдиқлаш"
+
+#: widgetutils/xmlgui/kshortcuteditwidget.cpp:63
+#, fuzzy
+msgid "Default:"
+msgstr "&Андоза"
+
+#: widgetutils/xmlgui/kshortcuteditwidget.cpp:71
+#, fuzzy
+#| msgid "Custom"
+msgid "Custom:"
+msgstr "Бошқа"
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:43
+msgid "Shortcut Schemes"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:62
+#, fuzzy
+msgid "Current scheme:"
+msgstr "Жорий бўлим"
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:72
+msgid "New..."
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:78
+#, fuzzy
+#| msgid "Location:"
+msgid "More Actions"
+msgstr "Манзили:"
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:82
+msgid "Save as Scheme Defaults"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:84
+#, fuzzy
+#| msgid "E&xport..."
+msgid "Export Scheme..."
+msgstr "&Экспорт қилиш"
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:86
+#, fuzzy
+#| msgid "Import Document"
+msgid "Import Scheme..."
+msgstr "Ҳужжатни импорт қилиш"
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:102
+msgid "Name for New Scheme"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:103
+msgid "Name for new scheme:"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:103
+msgid "New Scheme"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:109
+#, fuzzy
+#| msgid ""
+#| "A document with this name already exists.\n"
+#| "Do you want to overwrite it?"
+msgid "A scheme with this name already exists."
+msgstr ""
+"Ҳудди шундай номли ҳужжат аллақачон мавжуд.\n"
+"Уни алмаштиришни истайсизми?"
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:138
+#, kde-format
+msgid ""
+"Do you really want to delete the scheme %1?\n"
+"Note that this will not remove any system wide shortcut schemes."
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:168
+#, fuzzy
+#| msgid "Export Document As"
+msgid "Export Shortcuts"
+msgstr "Ҳужжатни экспорт қилиш"
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:168
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:179
+msgid "Shortcuts (*.shortcuts)"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutschemeseditor.cpp:179
+#, fuzzy
+msgid "Import Shortcuts"
+msgstr "Ҳужжатни импорт қилиш"
+
+#: widgetutils/xmlgui/kshortcutsdialog.cpp:85
+msgid ""
+"The current shortcut scheme is modified. Save before switching to the new "
+"one?"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutsdialog.cpp:149
+#, fuzzy
+#| msgid "Confirm Save"
+msgid "Configure Shortcuts"
+msgstr "Сақлашни тасдиқлаш"
+
+#. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:16
+msgid ""
+"Search interactively for shortcut names (e.g. Copy) or combination of keys "
+"(e.g. Ctrl+C) by typing them here."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:23
+msgid ""
+"Here you can see a list of key bindings, i.e. associations between actions "
+"(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
+"Ctrl+V) shown in the right column."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:33
+#, fuzzy
+#| msgid "Completion"
+msgid "Action"
+msgstr "Тўлдириш"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:38
+msgid "Shortcut"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:43
+msgid "Alternate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:48
+msgid "Global"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:53
+msgid "Global Alternate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:58
+msgid "Mouse Button Gesture"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list)
+#: widgetutils/xmlgui/kshortcutsdialog.ui:63
+msgid "Mouse Shape Gesture"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:607
+#: widgetutils/xmlgui/kshortcutseditor.cpp:625
+msgid "Key Conflict"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:608
+#, kde-format
+msgid ""
+"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:626
+#, kde-format
+msgid ""
+"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:673
+#, kde-format
+msgctxt "header for an applications shortcut list"
+msgid "Shortcuts for %1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, priLabel)
+#: widgetutils/xmlgui/kshortcutseditor.cpp:691
+#: widgetutils/xmlgui/kshortcutwidget.ui:22
+msgid "Main:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, altLabel)
+#: widgetutils/xmlgui/kshortcutseditor.cpp:692
+#: widgetutils/xmlgui/kshortcutwidget.ui:52
+msgid "Alternate:"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:693
+msgid "Global:"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:694
+msgid "Global alternate:"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:709
+#, fuzzy
+#| msgid "Object"
+msgid "Action Name"
+msgstr "Объект"
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:713
+msgid "Shortcuts"
+msgstr ""
+
+#: widgetutils/xmlgui/kshortcutseditor.cpp:717
+#, fuzzy
+#| msgid "Description:"
+msgid "Description"
+msgstr "Таърифи:"
+
+#: widgetutils/xmlgui/kshortcutseditoritem.cpp:53
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@item:intable Action name in shortcuts configuration"
+msgid "%1"
+msgstr "%1%"
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:152
+msgid "Switch Application Language"
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:157
+msgid "Please choose the language which should be used for this application:"
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:184
+msgid "Add Fallback Language"
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:185
+msgid ""
+"Adds one more language which will be used if other translations do not "
+"contain a proper translation."
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:281
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:303
+msgid ""
+"The language for this application has been changed. The change will take "
+"effect the next time the application is started."
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:282
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:304
+msgid "Application Language Changed"
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:396
+msgid "Fallback language:"
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:396
+#, fuzzy
+#| msgid "Paste Text"
+msgid "Primary language:"
+msgstr "Матнни қўйиш"
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:426
+msgid ""
+"This is the main application language which will be used first, before any "
+"other languages."
+msgstr ""
+
+#: widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:427
+msgid ""
+"This is the language which will be used if any previous languages do not "
+"contain a proper translation."
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:305
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "Матнни қўшиш"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:308
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "Қатор:"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:310
+#, fuzzy
+msgctxt "Toolbar orientation"
+msgid "Orientation"
+msgstr "намойиш"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:312
+#, fuzzy
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "Юқ&ори:"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:314
+#, fuzzy
+#| msgid "Left:"
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "Чап:"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:315
+#, fuzzy
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "&Ўнг"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:316
+#, fuzzy
+#| msgid "Align Auto"
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "Автоматик текислаш"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:324
+#, fuzzy
+#| msgid "Position"
+msgid "Text Position"
+msgstr "Жойлашиши"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:326
+msgid "Icons Only"
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:327
+#, fuzzy
+msgid "Text Only"
+msgstr "Матнни қўшиш"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:328
+msgid "Text Alongside Icons"
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:329
+#, fuzzy
+msgid "Text Under Icons"
+msgstr "&Матннинг ранги:"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:359 widgetutils/xmlgui/ktoolbar.cpp:380
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:361 widgetutils/xmlgui/ktoolbar.cpp:382
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:363 widgetutils/xmlgui/ktoolbar.cpp:384
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:365 widgetutils/xmlgui/ktoolbar.cpp:386
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:408
+msgid "Lock Toolbar Positions"
+msgstr ""
+
+#: widgetutils/xmlgui/ktoolbar.cpp:1333
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1%"
+
+#: widgetutils/xmlgui/ktoolbar.cpp:1334
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1%"
+
+#: widgetutils/xmlgui/ktoolbarhandler.cpp:101
+msgid "Toolbars Shown"
+msgstr ""
+
+#: widgetutils/xmlgui/kxmlguibuilder.cpp:188
+#: widgetutils/xmlgui/kxmlguibuilder.cpp:352
+msgid "No text"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: widgetutils/xmlgui/ui_standards.rc:5
+#, fuzzy
+msgid "&File"
+msgstr "Файлнинг номи"
+
+#. i18n: ectx: Menu (game)
+#: widgetutils/xmlgui/ui_standards.rc:34
+msgid "&Game"
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#: widgetutils/xmlgui/ui_standards.rc:61
+#, fuzzy
+#| msgid "Add..."
+msgid "&Edit"
+msgstr "Қўшиш..."
+
+#. i18n: ectx: Menu (move)
+#: widgetutils/xmlgui/ui_standards.rc:84
+#, fuzzy
+msgctxt "@title:menu Game move"
+msgid "&Move"
+msgstr "Матнни ўчириш"
+
+#. i18n: ectx: Menu (view)
+#: widgetutils/xmlgui/ui_standards.rc:101
+#, fuzzy
+#| msgid "&Split View"
+msgid "&View"
+msgstr "Кўр&инишни бўлиш"
+
+#. i18n: ectx: Menu (go)
+#: widgetutils/xmlgui/ui_standards.rc:117
+msgid "&Go"
+msgstr ""
+
+#. i18n: ectx: Menu (bookmarks)
+#: widgetutils/xmlgui/ui_standards.rc:138
+#, fuzzy
+msgid "&Bookmarks"
+msgstr "Боғни қўйиш"
+
+#. i18n: ectx: Menu (tools)
+#: widgetutils/xmlgui/ui_standards.rc:144
+#, fuzzy
+msgid "&Tools"
+msgstr "Андоза ранг"
+
+#. i18n: ectx: Menu (settings)
+#: widgetutils/xmlgui/ui_standards.rc:148
+#, fuzzy
+msgid "&Settings"
+msgstr "Қатор:"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: widgetutils/xmlgui/ui_standards.rc:194
+#, fuzzy
+#| msgid "Hide %1 Toolbar"
+msgid "Main Toolbar"
+msgstr "%1 асбоблар панелини бекитиш"
 
 #~ msgid "Scripts"
 #~ msgstr "Скриптлар"
@@ -3949,10 +4877,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Матнни ўчириш"
 
 #, fuzzy
-#~ msgid "&Move Here"
-#~ msgstr "Матнни ўчириш"
-
-#, fuzzy
 #~| msgid "Green"
 #~ msgid "&Copy Here"
 #~ msgstr "Яшил"
@@ -4055,11 +4979,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Ўзгарувчи"
 
 #, fuzzy
-#~| msgid "Import Document"
-#~ msgid "Import Document..."
-#~ msgstr "Ҳужжатни импорт қилиш"
-
-#, fuzzy
 #~ msgid "Import Slideshow"
 #~ msgstr "Услубларни импорт қилиш"
 
@@ -4158,10 +5077,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~| msgid "Re&place 1/2... with %1..."
 #~ msgid "Replace %1 with %2?"
 #~ msgstr "&1/2...ни %1 белгига алмаштириш"
-
-#, fuzzy
-#~ msgid "&File"
-#~ msgstr "Файлнинг номи"
 
 #, fuzzy
 #~ msgid "File"
@@ -4576,9 +5491,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgid "Warning"
 #~ msgstr "чизма"
 
-#~ msgid "Hide %1 Toolbar"
-#~ msgstr "%1 асбоблар панелини бекитиш"
-
 #~ msgid "Custom Document"
 #~ msgstr "Бошқа ҳужжат"
 
@@ -4591,11 +5503,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~| msgid "Last Printing"
 #~ msgid "Printing done"
 #~ msgstr "Охирги босиб чиқариш"
-
-#, fuzzy
-#~| msgid "Colors"
-#~ msgid "Close"
-#~ msgstr "Ранглар"
 
 #~ msgid "Open This Document"
 #~ msgstr "Шу ҳужжатни очиш"
@@ -4629,11 +5536,6 @@ msgstr "Ҳужжатни импорт қилиш"
 
 #~ msgid "Picture"
 #~ msgstr "Расм"
-
-#, fuzzy
-#~| msgid "Custom"
-#~ msgid "Custom:"
-#~ msgstr "Бошқа"
 
 #~ msgid "Use the new template as default"
 #~ msgstr "Янги намунани андоза сифатида ишлатиш"
@@ -4674,9 +5576,6 @@ msgstr "Ҳужжатни импорт қилиш"
 
 #~ msgid "Use This Template"
 #~ msgstr "Шу намунани ишлатиш"
-
-#~ msgid "Version"
-#~ msgstr "Версия"
 
 #~ msgid "Date & Time"
 #~ msgstr "Сана ва вақт"
@@ -4763,11 +5662,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Ўзгарувчининг номи"
 
 #, fuzzy
-#~| msgid "Description:"
-#~ msgid "Description"
-#~ msgstr "Таърифи:"
-
-#, fuzzy
 #~| msgid "St&yle"
 #~ msgid "Stylesheet Name"
 #~ msgstr "&Услуб"
@@ -4826,19 +5720,8 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgid "Generic"
 #~ msgstr "Умумий"
 
-#, fuzzy
-#~ msgid "Text"
-#~ msgstr "Матнни қўшиш"
-
 #~ msgid "Date"
 #~ msgstr "Сана"
-
-#, fuzzy
-#~ msgid "Currency"
-#~ msgstr "Жорий бўлим"
-
-#~ msgid "None"
-#~ msgstr "Йўқ"
 
 #, fuzzy
 #~ msgid "Data"
@@ -4935,10 +5818,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #, fuzzy
 #~ msgid "Change"
 #~ msgstr "Белги услубини ўзгартириш"
-
-#, fuzzy
-#~ msgid "Icon and Text"
-#~ msgstr "Матнни қўшиш"
 
 #, fuzzy
 #~| msgid "Align Auto"
@@ -5163,10 +6042,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Чоп этиш рақами:"
 
 #, fuzzy
-#~ msgid "Long Text"
-#~ msgstr "Матнни қўшиш"
-
-#, fuzzy
 #~| msgid "Add Group"
 #~ msgid "Invalid Group"
 #~ msgstr "Гуруҳни қўшиш"
@@ -5224,11 +6099,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Номи:"
 
 #, fuzzy
-#~| msgid "Object"
-#~ msgid "Object Name"
-#~ msgstr "Объект"
-
-#, fuzzy
 #~| msgid "Line width:"
 #~ msgid "Line Weight"
 #~ msgstr "Чизиқнинг эни:"
@@ -5242,9 +6112,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~| msgid "St&yle"
 #~ msgid "Line Style"
 #~ msgstr "&Услуб"
-
-#~ msgid "Position"
-#~ msgstr "Жойлашиши"
 
 #, fuzzy
 #~ msgid "Height"
@@ -5284,27 +6151,9 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "&Марказ"
 
 #, fuzzy
-#~| msgid "Left:"
-#~ msgid "Left"
-#~ msgstr "Чап:"
-
-#, fuzzy
-#~ msgid "Right"
-#~ msgstr "&Ўнг"
-
-#, fuzzy
 #~| msgid "Vertical alignment:"
 #~ msgid "Horizontal Alignment"
 #~ msgstr "Бўйига текислаш:"
-
-#, fuzzy
-#~| msgid "Align Auto"
-#~ msgid "Bottom"
-#~ msgstr "Автоматик текислаш"
-
-#, fuzzy
-#~ msgid "Top"
-#~ msgstr "Юқ&ори:"
 
 #, fuzzy
 #~| msgid "Vertical alignment:"
@@ -5490,11 +6339,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Локал формати"
 
 #, fuzzy
-#~| msgid "Completion"
-#~ msgid "Section"
-#~ msgstr "Тўлдириш"
-
-#, fuzzy
 #~ msgctxt "Static Image"
 #~ msgid "Static"
 #~ msgstr "намойиш"
@@ -5516,10 +6360,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgctxt "default theme name"
 #~ msgid "Default"
 #~ msgstr "&Андоза"
-
-#, fuzzy
-#~ msgid "&Tools"
-#~ msgstr "Андоза ранг"
 
 #, fuzzy
 #~| msgid "Completion"
@@ -5616,11 +6456,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Шрифт:"
 
 #, fuzzy
-#~| msgid "Location:"
-#~ msgid "Locations"
-#~ msgstr "Манзили:"
-
-#, fuzzy
 #~| msgctxt "color"
 #~| msgid "Azure"
 #~ msgid "Area"
@@ -5654,11 +6489,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ "файлини сақлаб бўлмади."
 
 #, fuzzy
-#~| msgid "Location:"
-#~ msgid "&Location:"
-#~ msgstr "Манзили:"
-
-#, fuzzy
 #~| msgid "Street"
 #~ msgid "&Start:"
 #~ msgstr "Кўча"
@@ -5684,15 +6514,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgstr "Ҳужжат ҳақида маълумот"
 
 #, fuzzy
-#~ msgid "Import contact"
-#~ msgstr "Ҳужжатни импорт қилиш"
-
-#, fuzzy
-#~| msgid "E&xport..."
-#~ msgid "Export as vcard..."
-#~ msgstr "&Экспорт қилиш"
-
-#, fuzzy
 #~| msgid "Name:"
 #~ msgid "&Name"
 #~ msgstr "Номи:"
@@ -5713,13 +6534,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~ msgid "People"
 #~ msgstr "Тўқ қизил"
 
-#~ msgid ""
-#~ "A document with this name already exists.\n"
-#~ "Do you want to overwrite it?"
-#~ msgstr ""
-#~ "Ҳудди шундай номли ҳужжат аллақачон мавжуд.\n"
-#~ "Уни алмаштиришни истайсизми?"
-
 #, fuzzy
 #~| msgid "Unknown KOffice MimeType %s. Check your installation."
 #~ msgid "Unknown Calligra MimeType %1. Check your installation."
@@ -5737,9 +6551,6 @@ msgstr "Ҳужжатни импорт қилиш"
 
 #~ msgid "Save Document As"
 #~ msgstr "Бошқа ҳужжат сифатида сақлаш"
-
-#~ msgid "Export Document As"
-#~ msgstr "Ҳужжатни экспорт қилиш"
 
 #, fuzzy
 #~| msgid "E&xport..."
@@ -5767,11 +6578,6 @@ msgstr "Ҳужжатни импорт қилиш"
 #~| msgid "Company Name"
 #~ msgid "Any Pages(s)"
 #~ msgstr "Ташкилотнинг номи"
-
-#, fuzzy
-#~| msgid "Add..."
-#~ msgid "&Edit"
-#~ msgstr "Қўшиш..."
 
 #, fuzzy
 #~ msgid "Dodge"
@@ -5928,9 +6734,6 @@ msgstr "Ҳужжатни импорт қилиш"
 
 #~ msgid "&Close All Views"
 #~ msgstr "Ҳамма &кўринишларни ёпиш"
-
-#~ msgid "&Split View"
-#~ msgstr "Кўр&инишни бўлиш"
 
 #~ msgid "&Remove View"
 #~ msgstr "Кўринишни &олиб ташлаш"
