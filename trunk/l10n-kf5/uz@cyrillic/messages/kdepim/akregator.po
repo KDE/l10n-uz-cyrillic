@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-18 09:25+0000\n"
+"POT-Creation-Date: 2016-01-19 09:02+0000\n"
 "PO-Revision-Date: 2006-02-08 21:32+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -776,7 +776,7 @@ msgstr ""
 msgid "Metakit"
 msgstr ""
 
-#: src/aboutdata.cpp:35 src/articleviewer-ng/articleviewerng.cpp:122
+#: src/aboutdata.cpp:35 src/articleviewer-ng/articleviewerng.cpp:152
 #: src/trayicon.cpp:58 src/trayicon.cpp:59 src/trayicon.cpp:70
 msgid "Akregator"
 msgstr "Akregator"
@@ -1149,23 +1149,31 @@ msgstr "Табни &ёпиш"
 msgid "Activate Tab %1"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:610
+#: src/actions/actionmanagerimpl.cpp:598
+msgid "&Save Link As..."
+msgstr "Боғни &сақлаш"
+
+#: src/actions/actionmanagerimpl.cpp:603
+msgid "Copy &Link Address"
+msgstr "&Боғ манзилидан нусха олиш"
+
+#: src/actions/actionmanagerimpl.cpp:618
 msgctxt "Go forward in browser history"
 msgid "Forward"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:617
+#: src/actions/actionmanagerimpl.cpp:625
 msgctxt "Go back in browser history"
 msgid "Back"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:626
+#: src/actions/actionmanagerimpl.cpp:634
 #, fuzzy
 msgctxt "Reload current page"
 msgid "Reload"
 msgstr "Ўқи&лган"
 
-#: src/actions/actionmanagerimpl.cpp:631
+#: src/actions/actionmanagerimpl.cpp:639
 msgid "Stop"
 msgstr ""
 
@@ -1410,38 +1418,30 @@ msgctxt "Articlelist's column header"
 msgid "Content"
 msgstr "Изоҳлар"
 
-#: src/articleviewer-ng/articleviewerng.cpp:123
+#: src/articleviewer-ng/articleviewerng.cpp:153
 #, fuzzy
 #| msgid "A KDE Feed Aggregator"
 msgid "Akregator is a KDE news feed reader."
 msgstr "KDE учун янгиликлар тасмасини ўқувчи"
 
-#: src/articleviewer-ng/articleviewerng.cpp:246
+#: src/articleviewer-ng/articleviewerng.cpp:284
 msgid "Disable"
 msgstr "Ўчириш"
 
-#: src/articleviewer-ng/articleviewerng.cpp:248
+#: src/articleviewer-ng/articleviewerng.cpp:286
 msgid "Keep Enabled"
 msgstr ""
 
-#: src/articleviewer-ng/articleviewerng.cpp:249
+#: src/articleviewer-ng/articleviewerng.cpp:287
 #, fuzzy
 msgid "Are you sure you want to disable this introduction page?"
 msgstr "<qt>Танланган мақолани ўчиришни истайсизми?</qt>"
 
-#: src/articleviewer-ng/articleviewerng.cpp:250
+#: src/articleviewer-ng/articleviewerng.cpp:288
 #, fuzzy
 #| msgid "Disable Archiving"
 msgid "Disable Introduction Page"
 msgstr "Архивлашни ўчириш"
-
-#: src/articleviewerwidget.cpp:95
-msgid "Copy &Link Address"
-msgstr "&Боғ манзилидан нусха олиш"
-
-#: src/articleviewerwidget.cpp:99
-msgid "&Save Link As..."
-msgstr "Боғни &сақлаш"
 
 #: src/command/createfoldercommand.cpp:66
 msgid "Add Folder"
@@ -1681,7 +1681,7 @@ msgstr[0] " (1 ўқилмаган мақола)"
 #: src/formatter/grantleeviewformatter.cpp:85
 #, fuzzy, kde-format
 #| msgid "<b>Description:</b> %1<br><br>"
-msgid "<b>Description:</b> %1<br /><br />"
+msgid "<b>Description:</b> %1<br />"
 msgstr "<b>Таъриф:</b> %1<br><br>"
 
 #: src/formatter/grantleeviewformatter.cpp:94
@@ -1763,39 +1763,39 @@ msgstr "Бир неча мақолани алоҳида табларда кўр�
 msgid "Articles list."
 msgstr "Мақолалар рўйхати."
 
-#: src/mainwidget.cpp:245 src/mainwidget.cpp:625
+#: src/mainwidget.cpp:240 src/mainwidget.cpp:624
 msgid "Articles"
 msgstr "Мақолалар"
 
-#: src/mainwidget.cpp:271
+#: src/mainwidget.cpp:268
 msgid "About"
 msgstr ""
 
-#: src/mainwidget.cpp:798 src/mainwidget.cpp:807 src/mainwidget.cpp:1201
+#: src/mainwidget.cpp:797 src/mainwidget.cpp:806 src/mainwidget.cpp:1200
 msgid "Networking is not available."
 msgstr ""
 
-#: src/mainwidget.cpp:815
+#: src/mainwidget.cpp:814
 msgid "Fetching Feeds..."
 msgstr "Янгиликлар тасмалари олинмоқда..."
 
-#: src/mainwidget.cpp:1012
+#: src/mainwidget.cpp:1011
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr "<qt><b>%1</b> мақолани ўчиришни истайсизми?</qt>"
 
-#: src/mainwidget.cpp:1015
+#: src/mainwidget.cpp:1014
 #, fuzzy, kde-format
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
 msgid_plural ""
 "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
 msgstr[0] "<qt>Танланган мақолани ўчиришни истайсизми?</qt>"
 
-#: src/mainwidget.cpp:1019 src/urlhandler/urlhandler.cpp:86
+#: src/mainwidget.cpp:1018 src/urlhandler/urlhandler.cpp:117
 msgid "Delete Article"
 msgstr "Мақолани ўчириш"
 
-#: src/mainwidget.cpp:1198
+#: src/mainwidget.cpp:1197
 msgid "Networking is available now."
 msgstr ""
 
@@ -2126,43 +2126,55 @@ msgstr ""
 msgid "Mar&k articles as read when they arrive"
 msgstr ""
 
-#: src/urlhandler/urlhandler.cpp:48
+#: src/urlhandler/urlhandler.cpp:52
 #, fuzzy
 #| msgid "Disable Archiving"
 msgid "Disable Introduction"
 msgstr "Архивлашни ўчириш"
 
-#: src/urlhandler/urlhandler.cpp:88
+#: src/urlhandler/urlhandler.cpp:76
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Open in Address Book"
+msgstr "Боғ манзилидан нусха олиш"
+
+#: src/urlhandler/urlhandler.cpp:77
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Email Address"
+msgstr "Боғ манзилидан нусха олиш"
+
+#: src/urlhandler/urlhandler.cpp:119
 #, fuzzy
 #| msgid "&Mark Articles as Read"
 msgid "Mark Article as Read"
 msgstr "Мақолаларни ўқилган деб &белгилаш"
 
-#: src/urlhandler/urlhandler.cpp:90
+#: src/urlhandler/urlhandler.cpp:121
 #, fuzzy
 #| msgid "&Mark Articles as Read"
 msgid "Mark Article as Unread"
 msgstr "Мақолаларни ўқилган деб &белгилаш"
 
-#: src/urlhandler/urlhandler.cpp:92
+#: src/urlhandler/urlhandler.cpp:123
 #, fuzzy
 #| msgid "&Mark as Important"
 msgid "Mark Article as Important"
 msgstr "Муҳим деб &белгилаш"
 
-#: src/urlhandler/urlhandler.cpp:94
+#: src/urlhandler/urlhandler.cpp:125
 #, fuzzy
 #| msgid "Article"
 msgid "Send Url Article"
 msgstr "Мақола"
 
-#: src/urlhandler/urlhandler.cpp:96
+#: src/urlhandler/urlhandler.cpp:127
 #, fuzzy
 #| msgid "Open in External Browser"
 msgid "Open In External Browser"
 msgstr "Ташқи браузерда очиш"
 
-#: src/urlhandler/urlhandler.cpp:98
+#: src/urlhandler/urlhandler.cpp:129
 msgid "Share"
 msgstr ""
 
