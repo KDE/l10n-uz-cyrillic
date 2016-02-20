@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-19 07:29+0000\n"
+"POT-Creation-Date: 2016-02-20 07:48+0000\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -154,7 +154,7 @@ msgctxt "@title:window"
 msgid "Add User-ID Succeeded"
 msgstr "Сертификат тафсилотлари..."
 
-#: commands/certifycertificatecommand.cpp:204
+#: commands/certifycertificatecommand.cpp:206
 msgctxt "@info"
 msgid ""
 "To certify other certificates, you first need to create an OpenPGP "
@@ -162,7 +162,7 @@ msgid ""
 "interface> to create one."
 msgstr ""
 
-#: commands/certifycertificatecommand.cpp:205
+#: commands/certifycertificatecommand.cpp:207
 #, fuzzy
 #| msgid "Certificate Details..."
 msgid "Certification Not Possible"
@@ -2826,7 +2826,7 @@ msgid "Verifying checksums (%2) in %1"
 msgstr ""
 
 #: dialogs/adduseriddialog.cpp:71 models/keylistmodel.cpp:265
-#: models/useridlistmodel.cpp:284
+#: models/useridlistmodel.cpp:80
 #: newcertificatewizard/newcertificatewizard.cpp:1091
 msgid "Name"
 msgstr ""
@@ -2836,7 +2836,7 @@ msgstr ""
 msgid "Comment"
 msgstr ""
 
-#: dialogs/adduseriddialog.cpp:77 models/useridlistmodel.cpp:285
+#: dialogs/adduseriddialog.cpp:77 models/useridlistmodel.cpp:81
 #: newcertificatewizard/newcertificatewizard.cpp:1097
 #, fuzzy
 #| msgid "Email"
@@ -2930,7 +2930,7 @@ msgstr ""
 msgid "This is how the new User-ID will be stored in the certificate:"
 msgstr ""
 
-#: dialogs/certificatedetailsdialog.cpp:297
+#: dialogs/certificatedetailsdialog.cpp:292
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2938,32 +2938,24 @@ msgid ""
 "message></para>"
 msgstr ""
 
-#: dialogs/certificatedetailsdialog.cpp:300
+#: dialogs/certificatedetailsdialog.cpp:295
 #, fuzzy
 #| msgid "Certificate Details..."
 msgctxt "@title"
 msgid "Certifications Loading Failed"
 msgstr "Сертификат тафсилотлари..."
 
-#: dialogs/certificatedetailsdialog.cpp:328
+#: dialogs/certificatedetailsdialog.cpp:323
 msgid "Please wait while generating the dump..."
 msgstr ""
 
-#: dialogs/certificatedetailsdialog.cpp:412
-msgid "(please wait while certifications are being loaded)"
-msgstr ""
-
-#: dialogs/certificatedetailsdialog.cpp:413
-msgid "Load Certifications (may take a while)"
-msgstr ""
-
-#: dialogs/certificatedetailsdialog.cpp:443
+#: dialogs/certificatedetailsdialog.cpp:429
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Issuer Certificate Not Found (%1)"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: dialogs/certificatedetailsdialog.cpp:503
+#: dialogs/certificatedetailsdialog.cpp:484
 msgctxt "@title"
 msgid "Subkeys"
 msgstr ""
@@ -3080,7 +3072,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, detailsTab)
 #. i18n: ectx: attribute (title), widget (QWidget, technicalTab)
-#: dialogs/certificatedetailsdialog.ui:264
+#: dialogs/certificatedetailsdialog.ui:254
 #: newcertificatewizard/advancedsettingsdialog.ui:21
 #, fuzzy
 #| msgid "Certificate Details..."
@@ -3088,22 +3080,22 @@ msgid "Technical Details"
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, chainTab)
-#: dialogs/certificatedetailsdialog.ui:297
+#: dialogs/certificatedetailsdialog.ui:287
 msgid "Chain"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, chainTW)
-#: dialogs/certificatedetailsdialog.ui:310
+#: dialogs/certificatedetailsdialog.ui:300
 msgid "1"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, dumpTab)
-#: dialogs/certificatedetailsdialog.ui:319
+#: dialogs/certificatedetailsdialog.ui:309
 msgid "Dump"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/certificatedetailsdialog.ui:325
+#: dialogs/certificatedetailsdialog.ui:315
 msgid ""
 "This is a dump of all information the backend has about this certificate:"
 msgstr ""
@@ -4247,12 +4239,12 @@ msgid "E-Mail"
 msgstr "Электрон почта"
 
 #: models/keylistmodel.cpp:267 models/subkeylistmodel.cpp:172
-#: models/useridlistmodel.cpp:286
+#: models/useridlistmodel.cpp:82
 msgid "Valid From"
 msgstr ""
 
 #: models/keylistmodel.cpp:268 models/subkeylistmodel.cpp:173
-#: models/useridlistmodel.cpp:287
+#: models/useridlistmodel.cpp:83
 msgid "Valid Until"
 msgstr ""
 
@@ -4260,7 +4252,7 @@ msgstr ""
 msgid "Key-ID"
 msgstr ""
 
-#: models/subkeylistmodel.cpp:170 models/useridlistmodel.cpp:283
+#: models/subkeylistmodel.cpp:170 models/useridlistmodel.cpp:79
 msgid "ID"
 msgstr ""
 
@@ -4268,35 +4260,12 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: models/subkeylistmodel.cpp:174 models/useridlistmodel.cpp:288
+#: models/subkeylistmodel.cpp:174 models/useridlistmodel.cpp:84
 msgid "Status"
 msgstr ""
 
 #: models/subkeylistmodel.cpp:175
 msgid "Strength"
-msgstr ""
-
-#: models/useridlistmodel.cpp:347 utils/formatting.cpp:530
-#: utils/formatting.cpp:547
-msgid "revoked"
-msgstr ""
-
-#: models/useridlistmodel.cpp:350 utils/formatting.cpp:533
-#: utils/formatting.cpp:577
-msgid "expired"
-msgstr ""
-
-#: models/useridlistmodel.cpp:353 utils/formatting.cpp:536
-msgid "disabled"
-msgstr ""
-
-#: models/useridlistmodel.cpp:356 utils/formatting.cpp:539
-#: utils/formatting.cpp:550 utils/formatting.cpp:576
-msgid "invalid"
-msgstr ""
-
-#: models/useridlistmodel.cpp:358
-msgid "good"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, Kleo::NewCertificateUi::AdvancedSettingsDialog)
@@ -5013,11 +4982,11 @@ msgid ""
 "gpgme++ was compiled against it."
 msgstr ""
 
-#: selftest/gpgagentcheck.cpp:89
+#: selftest/gpgagentcheck.cpp:95
 msgid "GpgME does not support gpg-agent"
 msgstr ""
 
-#: selftest/gpgagentcheck.cpp:91
+#: selftest/gpgagentcheck.cpp:97
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -5027,17 +4996,17 @@ msgid ""
 "para>"
 msgstr ""
 
-#: selftest/gpgagentcheck.cpp:104 selftest/uiservercheck.cpp:82
+#: selftest/gpgagentcheck.cpp:110 selftest/uiservercheck.cpp:82
 msgid "not reachable"
 msgstr ""
 
-#: selftest/gpgagentcheck.cpp:106
+#: selftest/gpgagentcheck.cpp:112
 #, kde-format
 msgctxt "@info"
 msgid "Could not connect to GpgAgent: <message>%1</message>"
 msgstr ""
 
-#: selftest/gpgagentcheck.cpp:109
+#: selftest/gpgagentcheck.cpp:115
 msgctxt "@info"
 msgid ""
 "<para>Check that gpg-agent is running and that the "
@@ -5045,11 +5014,11 @@ msgid ""
 "para>"
 msgstr ""
 
-#: selftest/gpgagentcheck.cpp:113
+#: selftest/gpgagentcheck.cpp:119
 msgid "unexpected error"
 msgstr ""
 
-#: selftest/gpgagentcheck.cpp:115
+#: selftest/gpgagentcheck.cpp:121
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -5910,6 +5879,22 @@ msgstr ""
 #: utils/formatting.cpp:519 utils/formatting.cpp:554
 msgctxt "undefined trust"
 msgid "undefined"
+msgstr ""
+
+#: utils/formatting.cpp:530 utils/formatting.cpp:547
+msgid "revoked"
+msgstr ""
+
+#: utils/formatting.cpp:533 utils/formatting.cpp:577
+msgid "expired"
+msgstr ""
+
+#: utils/formatting.cpp:536
+msgid "disabled"
+msgstr ""
+
+#: utils/formatting.cpp:539 utils/formatting.cpp:550 utils/formatting.cpp:576
+msgid "invalid"
 msgstr ""
 
 #: utils/formatting.cpp:541
