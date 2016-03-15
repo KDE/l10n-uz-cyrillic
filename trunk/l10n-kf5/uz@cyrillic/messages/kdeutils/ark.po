@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-11 07:47+0000\n"
+"POT-Creation-Date: 2016-03-15 09:11+0000\n"
 "PO-Revision-Date: 2006-12-17 13:36+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -246,17 +246,17 @@ msgid ""
 "archive, a subfolder with the name of the archive will be created."
 msgstr ""
 
-#: app/mainwindow.cpp:146
+#: app/mainwindow.cpp:147
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 
-#: app/mainwindow.cpp:173
+#: app/mainwindow.cpp:175
 #, fuzzy
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "&Очиш"
 
-#: app/mainwindow.cpp:174
+#: app/mainwindow.cpp:176
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Open an archive"
@@ -388,34 +388,34 @@ msgstr ""
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:161
+#: kerfuffle/createdialog.cpp:165
 msgid "The chosen password does not match the given verification password."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:164
+#: kerfuffle/createdialog.cpp:168
 #, fuzzy
 #| msgid "The password was incorrect. "
 msgid "The password cannot be empty."
 msgstr "Махфий сўз хато. "
 
-#: kerfuffle/createdialog.cpp:181
+#: kerfuffle/createdialog.cpp:187
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:194
+#: kerfuffle/createdialog.cpp:200
 #, kde-format
 msgid "Protection of the list of files is not possible with the %1 format."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:220
+#: kerfuffle/createdialog.cpp:226
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Please select a filename for the archive."
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: kerfuffle/createdialog.cpp:220
+#: kerfuffle/createdialog.cpp:226
 #, fuzzy
 #| msgid "0 files selected"
 msgid "No file selected"
@@ -676,22 +676,35 @@ msgstr ""
 msgid " megabytes"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:56
+#: kerfuffle/propertiesdialog.cpp:59
 #, fuzzy, kde-format
 #| msgid "Create folder %1?"
 msgctxt "@title:window"
 msgid "Properties for %1"
 msgstr "%1 жилдини яратайми?"
 
-#: kerfuffle/propertiesdialog.cpp:62 kerfuffle/propertiesdialog.cpp:63
-#: kerfuffle/propertiesdialog.cpp:64
+#: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:67
 msgid "yes"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:62 kerfuffle/propertiesdialog.cpp:63
-#: kerfuffle/propertiesdialog.cpp:64
+#: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:67
+#: kerfuffle/propertiesdialog.cpp:79
 msgid "no"
 msgstr ""
+
+#: kerfuffle/propertiesdialog.cpp:82
+msgid "yes (excluding the list of files)"
+msgstr ""
+
+#: kerfuffle/propertiesdialog.cpp:85
+msgid "yes (including the list of files)"
+msgstr ""
+
+#: kerfuffle/propertiesdialog.cpp:102 kerfuffle/propertiesdialog.cpp:103
+#, fuzzy
+#| msgid "Saving..."
+msgid "Calculating..."
+msgstr "Сақланмоқда..."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kerfuffle/propertiesdialog.ui:37
@@ -721,94 +734,136 @@ msgstr "Архивни очиш"
 msgid "lblArchiveType"
 msgstr "Ҳамма архивлар\n"
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
 #: kerfuffle/propertiesdialog.ui:65
+#, fuzzy
+#| msgid "Open 'archive'"
+msgid "Mime-type:"
+msgstr "Архивни очиш"
+
+#. i18n: ectx: property (text), widget (QLabel, lblMimetype)
+#: kerfuffle/propertiesdialog.ui:72
+msgid "lblMimetype"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: kerfuffle/propertiesdialog.ui:79
 msgid "Opened read-only:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblReadOnly)
-#: kerfuffle/propertiesdialog.ui:72
+#: kerfuffle/propertiesdialog.ui:86
 msgid "lblReadOnly"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kerfuffle/propertiesdialog.ui:79
+#: kerfuffle/propertiesdialog.ui:93
 msgid "Password-protected:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasswordProtected)
-#: kerfuffle/propertiesdialog.ui:86
+#: kerfuffle/propertiesdialog.ui:100
 msgid "lblPasswordProtected"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: kerfuffle/propertiesdialog.ui:93
+#: kerfuffle/propertiesdialog.ui:107
 msgid "Has comment:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblHasComment)
-#: kerfuffle/propertiesdialog.ui:100
+#: kerfuffle/propertiesdialog.ui:114
 msgid "lblHasComment"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kerfuffle/propertiesdialog.ui:107
+#: kerfuffle/propertiesdialog.ui:121
 msgid "Number of files:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblNumberOfFiles)
-#: kerfuffle/propertiesdialog.ui:114
+#: kerfuffle/propertiesdialog.ui:128
 msgid "lblNumberOfFiles"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: kerfuffle/propertiesdialog.ui:121
+#: kerfuffle/propertiesdialog.ui:135
 msgid "Unpacked size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblUnpackedSize)
-#: kerfuffle/propertiesdialog.ui:128
+#: kerfuffle/propertiesdialog.ui:142
 msgid "lblUnpackedSize"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: kerfuffle/propertiesdialog.ui:135
+#: kerfuffle/propertiesdialog.ui:149
 msgid "Packed size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPackedSize)
-#: kerfuffle/propertiesdialog.ui:142
+#: kerfuffle/propertiesdialog.ui:156
 msgid "lblPackedSize"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: kerfuffle/propertiesdialog.ui:149
+#: kerfuffle/propertiesdialog.ui:163
 #, fuzzy
 #| msgid "Simple Compressed Archive"
 msgid "Compression ratio:"
 msgstr "Оддий сиқилган архив"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCompressionRatio)
-#: kerfuffle/propertiesdialog.ui:156
+#: kerfuffle/propertiesdialog.ui:170
 #, fuzzy
 #| msgid "Compressing..."
 msgid "lblCompressionRatio"
 msgstr "Қисилмоқда..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: kerfuffle/propertiesdialog.ui:163
+#: kerfuffle/propertiesdialog.ui:177
 msgid "Last modified:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblLastModified)
-#: kerfuffle/propertiesdialog.ui:170
+#: kerfuffle/propertiesdialog.ui:184
 #, fuzzy
 #| msgid "Files to be added"
 msgid "lblModified"
 msgstr "Қўшиш учун файллар"
 
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: kerfuffle/propertiesdialog.ui:191
+msgid "MD5 hash:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblMD5)
+#: kerfuffle/propertiesdialog.ui:198
+msgid "lblMD5"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: kerfuffle/propertiesdialog.ui:211
+msgid "SHA-1 hash:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblSHA1)
+#: kerfuffle/propertiesdialog.ui:218
+msgid "lblSHA1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: kerfuffle/propertiesdialog.ui:228
+msgid "SHA-256 hash:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblSHA256)
+#: kerfuffle/propertiesdialog.ui:235
+msgid "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, lblIcon)
-#: kerfuffle/propertiesdialog.ui:179
+#: kerfuffle/propertiesdialog.ui:247
 #, fuzzy
 #| msgid "Icons"
 msgid "lblIcon"
@@ -1082,55 +1137,55 @@ msgstr ""
 msgid "Some Information about the job"
 msgstr ""
 
-#: part/part.cpp:111
+#: part/part.cpp:112
 msgid "Comment"
 msgstr ""
 
-#: part/part.cpp:186
+#: part/part.cpp:187
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:230
+#: part/part.cpp:231
 msgctxt "@info"
 msgid "Ark can only extract to local destinations."
 msgstr ""
 
-#: part/part.cpp:287
+#: part/part.cpp:288
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr ""
 
-#: part/part.cpp:296
+#: part/part.cpp:297
 #, fuzzy
 #| msgid "&Open"
 msgctxt "open a file with external program"
 msgid "&Open"
 msgstr "&Очиш"
 
-#: part/part.cpp:298
+#: part/part.cpp:299
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with the associated application"
 msgstr "Танланган элементларни ростдан ўчиришни истайсизми?"
 
-#: part/part.cpp:303
+#: part/part.cpp:304
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "open a file with external program"
 msgid "Open &With..."
 msgstr "...билан &очиш"
 
-#: part/part.cpp:305
+#: part/part.cpp:306
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with an external program"
 msgstr "Танланган элементларни ростдан ўчиришни истайсизми?"
 
-#: part/part.cpp:310
+#: part/part.cpp:311
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -1138,111 +1193,111 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "&Кўриш"
 
-#: part/part.cpp:312
+#: part/part.cpp:313
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to preview the selected file"
 msgstr "Танланган элементларни ростдан ўчиришни истайсизми?"
 
-#: part/part.cpp:318 part/part.cpp:325
+#: part/part.cpp:319 part/part.cpp:326
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:inmenu"
 msgid "E&xtract"
 msgstr "Ажратиш"
 
-#: part/part.cpp:320
+#: part/part.cpp:321
 msgid ""
 "Click to open an extraction dialog, where you can choose how to extract all "
 "the files in the archive"
 msgstr ""
 
-#: part/part.cpp:327
+#: part/part.cpp:328
 msgid ""
 "Click to open an extraction dialog, where you can choose how to extract the "
 "selected files"
 msgstr ""
 
-#: part/part.cpp:332
+#: part/part.cpp:333
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:intoolbar"
 msgid "E&xtract"
 msgstr "Ажратиш"
 
-#: part/part.cpp:334
+#: part/part.cpp:335
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:341
+#: part/part.cpp:342
 msgid "Add &File..."
 msgstr "Файлни &қўшиш"
 
-#: part/part.cpp:342
+#: part/part.cpp:343
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to add files to the archive"
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: part/part.cpp:348
+#: part/part.cpp:349
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "&Жилдни қўшиш"
 
-#: part/part.cpp:349
+#: part/part.cpp:350
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to add a folder to the archive"
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: part/part.cpp:355
+#: part/part.cpp:356
 msgid "De&lete"
 msgstr "Ўч&ириш"
 
-#: part/part.cpp:357
+#: part/part.cpp:358
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to delete the selected files"
 msgstr "Танланган элементларни ростдан ўчиришни истайсизми?"
 
-#: part/part.cpp:363
+#: part/part.cpp:364
 msgctxt "@action:inmenu"
 msgid "&Properties"
 msgstr ""
 
-#: part/part.cpp:365
+#: part/part.cpp:366
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to see properties for archive"
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: part/part.cpp:441
+#: part/part.cpp:442
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Extract To..."
 msgstr "&Ажратиш"
 
-#: part/part.cpp:455
+#: part/part.cpp:456
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick Extract To..."
 msgstr "&Ажратиш"
 
-#: part/part.cpp:526
+#: part/part.cpp:527
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
-#: part/part.cpp:533
+#: part/part.cpp:534
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1251,33 +1306,42 @@ msgid ""
 "it instead?"
 msgstr "Архив аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: part/part.cpp:533
+#: part/part.cpp:534
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "Архив аллақачон мавжуд"
 
-#: part/part.cpp:533
+#: part/part.cpp:534
 #, fuzzy
 #| msgid "Open with:"
 msgid "Open File"
 msgstr "Билан очиш:"
 
-#: part/part.cpp:541
+#: part/part.cpp:540
+#, fuzzy, kde-format
+#| msgid "Archive already exists. Do you wish to overwrite it?"
+msgctxt "@info"
+msgid ""
+"The archive <filename>%1</filename> will be created as soon as you add a "
+"file."
+msgstr "Архив аллақачон мавжуд. Уни алмаштиришни истайсизми?"
+
+#: part/part.cpp:543
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:541 part/part.cpp:560 part/part.cpp:567 part/part.cpp:637
+#: part/part.cpp:543 part/part.cpp:562 part/part.cpp:569 part/part.cpp:636
 #, fuzzy
 #| msgid "Open 'archive'"
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "Архивни очиш"
 
-#: part/part.cpp:546
+#: part/part.cpp:548
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1286,7 +1350,7 @@ msgid ""
 "possible to read from it."
 msgstr "Архив аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: part/part.cpp:557
+#: part/part.cpp:559
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1295,7 +1359,7 @@ msgid ""
 "<nl/><nl/>Ark does not seem to support this file type."
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: part/part.cpp:564
+#: part/part.cpp:566
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1305,20 +1369,20 @@ msgid ""
 "are installed."
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: part/part.cpp:618
+#: part/part.cpp:617
 #, fuzzy
 #| msgid "Extract Settings"
 msgid "Extraction settings"
 msgstr "Ажратиш мосламалари"
 
-#: part/part.cpp:619
+#: part/part.cpp:618
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
 msgid "Preview settings"
 msgstr "&Кўриш"
 
-#: part/part.cpp:634
+#: part/part.cpp:633
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1326,23 +1390,23 @@ msgid ""
 "<nl/><nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:678
+#: part/part.cpp:677
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr "%1 архиви мавжуд эмас."
 
-#: part/part.cpp:683
+#: part/part.cpp:682
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr ""
 
-#: part/part.cpp:728
+#: part/part.cpp:729
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:840
+#: part/part.cpp:841
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid ""
@@ -1350,46 +1414,46 @@ msgid ""
 "archive?"
 msgstr "Архив аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: part/part.cpp:842
+#: part/part.cpp:843
 #, fuzzy
 #| msgid "Files to be added"
 msgctxt "@title:window"
 msgid "File Modified"
 msgstr "Қўшиш учун файллар"
 
-#: part/part.cpp:1110
+#: part/part.cpp:1111
 #, fuzzy
 #| msgid "All Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Ҳамма файллар"
 
-#: part/part.cpp:1117
+#: part/part.cpp:1118
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "&Жилдни қўшиш"
 
-#: part/part.cpp:1142
+#: part/part.cpp:1143
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:1143
+#: part/part.cpp:1144
 #, fuzzy
 #| msgid "Selected files only"
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "Фақат танланган файллар"
 
-#: part/part.cpp:1182
+#: part/part.cpp:1183
 #, fuzzy
 #| msgid "Save Archive As"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "Архивни сақлаш"
 
-#: part/part.cpp:1189
+#: part/part.cpp:1190
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1398,7 +1462,7 @@ msgid ""
 "want to overwrite it?"
 msgstr "Архив аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: part/part.cpp:1203
+#: part/part.cpp:1204
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -1407,7 +1471,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr "Ажратиш учун махфий сўзни киритинг:"
 
-#: part/part.cpp:1217
+#: part/part.cpp:1218
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
@@ -1420,56 +1484,6 @@ msgstr "Ажратишда ишлатилган охирги жилдлар"
 msgid "Wrong password."
 msgstr ""
 
-#: plugins/karchiveplugin/karchiveplugin.cpp:90
-#: plugins/karchiveplugin/karchiveplugin.cpp:136
-#, fuzzy, kde-format
-#| msgid "Could not create the folder %1"
-msgctxt "@info"
-msgid "Could not open the archive <filename>%1</filename> for reading"
-msgstr "%1 жилдини яратиб бўлмади"
-
-#: plugins/karchiveplugin/karchiveplugin.cpp:156
-#, fuzzy, kde-format
-#| msgid "Could not create the folder %1"
-msgctxt "@info"
-msgid "File <filename>%1</filename> not found in the archive"
-msgstr "%1 жилдини яратиб бўлмади"
-
-#: plugins/karchiveplugin/karchiveplugin.cpp:166
-#, fuzzy, kde-format
-#| msgid "Folder to extract to"
-msgctxt "@info"
-msgid "Error creating directory <filename>%1</filename>"
-msgstr "Ажратиш учун жилд"
-
-#: plugins/karchiveplugin/karchiveplugin.cpp:324
-#, fuzzy, kde-format
-#| msgid "Could not create the folder %1"
-msgctxt "@info"
-msgid "Could not open the archive <filename>%1</filename> for writing."
-msgstr "%1 жилдини яратиб бўлмади"
-
-#: plugins/karchiveplugin/karchiveplugin.cpp:341
-#, fuzzy, kde-format
-#| msgid "An error occurred while adding the files to the archive."
-msgctxt "@info"
-msgid "Could not add the directory <filename>%1</filename> to the archive"
-msgstr "Файлларни архивга қўшишда хато рўй берди."
-
-#: plugins/karchiveplugin/karchiveplugin.cpp:353
-#, fuzzy, kde-format
-#| msgid "Could not create the folder %1"
-msgctxt "@info"
-msgid "Could not open the archive <filename>%1</filename> after adding file."
-msgstr "%1 жилдини яратиб бўлмади"
-
-#: plugins/karchiveplugin/karchiveplugin.cpp:362
-#, fuzzy, kde-format
-#| msgid "An error occurred while adding the files to the archive."
-msgctxt "@info"
-msgid "Could not add the file <filename>%1</filename> to the archive."
-msgstr "Файлларни архивга қўшишда хато рўй берди."
-
 #: plugins/libarchive/libarchiveplugin.cpp:78
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
@@ -1477,14 +1491,14 @@ msgctxt "@info"
 msgid "Could not open the archive."
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: plugins/libarchive/libarchiveplugin.cpp:103
+#: plugins/libarchive/libarchiveplugin.cpp:112
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
 msgid "Could not read until the end of the archive"
 msgstr "Файлларни архивга қўшишда хато рўй берди."
 
-#: plugins/libarchive/libarchiveplugin.cpp:165
+#: plugins/libarchive/libarchiveplugin.cpp:174
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
@@ -1493,13 +1507,13 @@ msgid ""
 "have sufficient permissions."
 msgstr "%1 жилдини яратиб бўлмади"
 
-#: plugins/libarchive/libarchiveplugin.cpp:237
+#: plugins/libarchive/libarchiveplugin.cpp:246
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:376
+#: plugins/libarchive/libarchiveplugin.cpp:385
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
@@ -1507,14 +1521,14 @@ msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "Ажратиш учун жилд"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:71
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:264
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:288
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "%1 архиви мавжуд эмас."
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:84
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:277
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:301
 msgid "The source file could not be read."
 msgstr ""
 
@@ -1526,15 +1540,15 @@ msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr "Ажратиш учун жилд"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:101
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:293
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:317
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "%1 архиви мавжуд эмас."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:131
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:159
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:323
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:143
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:183
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:347
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1542,14 +1556,14 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:153
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:318
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:177
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:342
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:167
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:330
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:191
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:354
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1557,8 +1571,8 @@ msgid ""
 "><message>%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:234
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:361
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:258
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:385
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1566,14 +1580,14 @@ msgid ""
 ">Operation aborted."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:287
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:311
 #, fuzzy
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Failed to create a temporary file."
 msgstr "Ажратиш учун жилд"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:419
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:443
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
@@ -1600,6 +1614,49 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr "Ажратишда ишлатилган охирги жилдлар"
+
+#, fuzzy
+#~| msgid "Could not create the folder %1"
+#~ msgctxt "@info"
+#~ msgid "Could not open the archive <filename>%1</filename> for reading"
+#~ msgstr "%1 жилдини яратиб бўлмади"
+
+#, fuzzy
+#~| msgid "Could not create the folder %1"
+#~ msgctxt "@info"
+#~ msgid "File <filename>%1</filename> not found in the archive"
+#~ msgstr "%1 жилдини яратиб бўлмади"
+
+#, fuzzy
+#~| msgid "Folder to extract to"
+#~ msgctxt "@info"
+#~ msgid "Error creating directory <filename>%1</filename>"
+#~ msgstr "Ажратиш учун жилд"
+
+#, fuzzy
+#~| msgid "Could not create the folder %1"
+#~ msgctxt "@info"
+#~ msgid "Could not open the archive <filename>%1</filename> for writing."
+#~ msgstr "%1 жилдини яратиб бўлмади"
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgctxt "@info"
+#~ msgid "Could not add the directory <filename>%1</filename> to the archive"
+#~ msgstr "Файлларни архивга қўшишда хато рўй берди."
+
+#, fuzzy
+#~| msgid "Could not create the folder %1"
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Could not open the archive <filename>%1</filename> after adding file."
+#~ msgstr "%1 жилдини яратиб бўлмади"
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgctxt "@info"
+#~ msgid "Could not add the file <filename>%1</filename> to the archive."
+#~ msgstr "Файлларни архивга қўшишда хато рўй берди."
 
 #~ msgid "&Action"
 #~ msgstr "&Амал"
@@ -1821,9 +1878,6 @@ msgstr "Ажратишда ишлатилган охирги жилдлар"
 #~ msgstr ""
 #~ "Илтимос архивни унинг асл кенгайтмаси каби сақланг.\n"
 #~ "Маслаҳат: Таклиф қилинган кенгайтмалардан биттасини танланг."
-
-#~ msgid "Saving..."
-#~ msgstr "Сақланмоқда..."
 
 #~ msgid "Not enough free disc space to extract the archive."
 #~ msgstr "Архивни ажратиш учун дискда бўш жой етмайди."
