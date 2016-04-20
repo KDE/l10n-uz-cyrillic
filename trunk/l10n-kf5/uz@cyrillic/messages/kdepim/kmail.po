@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-18 08:17+0000\n"
+"POT-Creation-Date: 2016-04-20 07:36+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3653,6 +3653,7 @@ msgstr "К&имга"
 #. i18n: ectx: Menu (settings)
 #: src/kmail_part.rc:200 src/kmcomposerui.rc:108 src/kmmainwin.rc:200
 #: src/kmreadermainwin.rc:72
+#: src/kontactplugin/summary/kontactsummary_part.rc:5
 #, fuzzy
 msgid "&Settings"
 msgstr "&Жўнатиш"
@@ -4917,33 +4918,35 @@ msgid "1 unread message"
 msgid_plural "%1 unread messages"
 msgstr[0] "Ўқилмаган хабар"
 
-#: src/kontactplugin/kcmkmailsummary.cpp:67
+#: src/kontactplugin/kmail/kcmkmailsummary.cpp:67
 msgid "kcmkmailsummary"
 msgstr ""
 
-#: src/kontactplugin/kcmkmailsummary.cpp:69
+#: src/kontactplugin/kmail/kcmkmailsummary.cpp:69
 msgid "Mail Summary Configuration Dialog"
 msgstr ""
 
-#: src/kontactplugin/kcmkmailsummary.cpp:71
+#: src/kontactplugin/kmail/kcmkmailsummary.cpp:71
 msgid "Copyright © 2004–2010 Tobias Koenig"
 msgstr ""
 
-#: src/kontactplugin/kcmkmailsummary.cpp:72
+#: src/kontactplugin/kmail/kcmkmailsummary.cpp:72
+#: src/kontactplugin/summary/kcmkontactsummary.cpp:119
+#: src/kontactplugin/summary/summaryview_plugin.cpp:121
 msgid "Tobias Koenig"
 msgstr ""
 
-#: src/kontactplugin/kcmkmailsummary.cpp:88
+#: src/kontactplugin/kmail/kcmkmailsummary.cpp:88
 #, fuzzy
 msgid "Show full path for folders"
 msgstr "&Қисқа жилдлар рўйхати"
 
-#: src/kontactplugin/kcmkmailsummary.cpp:90
+#: src/kontactplugin/kmail/kcmkmailsummary.cpp:90
 msgctxt "@info:tooltip"
 msgid "Show full path for each folder"
 msgstr ""
 
-#: src/kontactplugin/kcmkmailsummary.cpp:93
+#: src/kontactplugin/kmail/kcmkmailsummary.cpp:93
 msgctxt "@info:whatsthis"
 msgid ""
 "Enable this option if you want to see the full path for each folder listed "
@@ -4951,59 +4954,151 @@ msgid ""
 "path will be shown."
 msgstr ""
 
-#: src/kontactplugin/kmail_plugin.cpp:59
+#: src/kontactplugin/kmail/kmail_plugin.cpp:59
 #, fuzzy
 #| msgid "&New Message..."
 msgctxt "@action:inmenu"
 msgid "New Message..."
 msgstr "&Янги хабар"
 
-#: src/kontactplugin/kmail_plugin.cpp:66
+#: src/kontactplugin/kmail/kmail_plugin.cpp:66
 msgctxt "@info:whatsthis"
 msgid ""
 "You will be presented with a dialog where you can create and send a new "
 "email message."
 msgstr ""
 
-#: src/kontactplugin/kmail_plugin.cpp:73
+#: src/kontactplugin/kmail/kmail_plugin.cpp:73
 #, fuzzy
 #| msgid "&Send Mail"
 msgctxt "@action:inmenu"
 msgid "Sync Mail"
 msgstr "Хатни &жўнатиш"
 
-#: src/kontactplugin/kmail_plugin.cpp:78
+#: src/kontactplugin/kmail/kmail_plugin.cpp:78
 msgctxt "@info:whatsthis"
 msgid "Choose this option to synchronize your groupware email."
 msgstr ""
 
-#: src/kontactplugin/summarywidget.cpp:63
+#: src/kontactplugin/kmail/summarywidget.cpp:63
 #, fuzzy
 #| msgid "New Message"
 msgid "New Messages"
 msgstr "Янги хабар"
 
-#: src/kontactplugin/summarywidget.cpp:158
+#: src/kontactplugin/kmail/summarywidget.cpp:158
 #, kde-format
 msgid "<qt><b>%1</b><br/>Total: %2<br/>Unread: %3</qt>"
 msgstr ""
 
-#: src/kontactplugin/summarywidget.cpp:170
+#: src/kontactplugin/kmail/summarywidget.cpp:170
 #, kde-format
 msgctxt "%1: number of unread messages %2: total number of messages"
 msgid "%1 / %2"
 msgstr ""
 
-#: src/kontactplugin/summarywidget.cpp:208
+#: src/kontactplugin/kmail/summarywidget.cpp:208
 #, fuzzy
 #| msgid "Send &messages in outbox folder:"
 msgid "No unread messages in your monitored folders"
 msgstr "&Хабарларни жўнатиш қутисига юбориш:"
 
-#: src/kontactplugin/summarywidget.cpp:226
+#: src/kontactplugin/kmail/summarywidget.cpp:226
 #, fuzzy, kde-format
 msgid "Open Folder: \"%1\""
 msgstr "Мўлжал жилди: "
+
+#: src/kontactplugin/summary/kcmkontactsummary.cpp:85
+msgctxt "@title:column plugin name"
+msgid "Summary Plugin Name"
+msgstr ""
+
+#: src/kontactplugin/summary/kcmkontactsummary.cpp:101
+msgid "Select the plugin summaries to show on the summary page."
+msgstr ""
+
+#: src/kontactplugin/summary/kcmkontactsummary.cpp:114
+#, fuzzy
+#| msgid "Contacts"
+msgid "kontactsummary"
+msgstr "Алоқалар"
+
+#: src/kontactplugin/summary/kcmkontactsummary.cpp:116
+msgid "KDE Kontact Summary"
+msgstr ""
+
+#: src/kontactplugin/summary/kcmkontactsummary.cpp:118
+msgid "(c), 2004 Tobias Koenig"
+msgstr ""
+
+#: src/kontactplugin/summary/summaryview_part.cpp:67
+#, fuzzy
+#| msgid "&Configure KMail..."
+msgid "&Configure Summary View..."
+msgstr "KMail мослама&си"
+
+#: src/kontactplugin/summary/summaryview_part.cpp:70
+msgid "Configure the summary view"
+msgstr ""
+
+#: src/kontactplugin/summary/summaryview_part.cpp:75
+msgctxt "@info:whatsthis"
+msgid ""
+"Choosing this will show a dialog where you can select which summaries you "
+"want to see and also allow you to configure the summaries to your liking."
+msgstr ""
+
+#: src/kontactplugin/summary/summaryview_part.cpp:123
+#, fuzzy, kde-format
+#| msgid "Fancy for&mat (%1)"
+msgid "Summary for %1"
+msgstr "&Чиройли формат (%1)"
+
+#: src/kontactplugin/summary/summaryview_part.cpp:390
+msgid "What's next?"
+msgstr ""
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:42
+#, fuzzy
+#| msgid "&Send Mail"
+msgid "Sync All"
+msgstr "Хатни &жўнатиш"
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:54
+#, fuzzy
+#| msgid "All"
+msgctxt "@action:inmenu sync everything"
+msgid "All"
+msgstr "Ҳаммаси"
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:68
+#, fuzzy
+#| msgid "All"
+msgctxt "sync everything"
+msgid "All"
+msgstr "Ҳаммаси"
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:111
+msgid "Kontact Summary"
+msgstr ""
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:113
+msgid "Kontact Summary View"
+msgstr ""
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:115
+#, fuzzy
+#| msgid "(c) 1997-2005, The KMail developers"
+msgid "(c) 2003-2016 The Kontact developers"
+msgstr "(C) 1997-2005, KMail тузувчилари"
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:117
+msgid "Sven Lueppken"
+msgstr ""
+
+#: src/kontactplugin/summary/summaryview_plugin.cpp:119
+msgid "Cornelius Schumacher"
+msgstr ""
 
 #: src/mailmerge/mailmergedialog.cpp:31
 #, fuzzy
@@ -7609,12 +7704,6 @@ msgstr[0] ""
 #~ msgstr "Календар"
 
 #, fuzzy
-#~| msgid "Contacts"
-#~ msgctxt "type of folder content"
-#~ msgid "Contacts"
-#~ msgstr "Алоқалар"
-
-#, fuzzy
 #~| msgid "Notes"
 #~ msgctxt "type of folder content"
 #~ msgid "Notes"
@@ -8851,12 +8940,6 @@ msgstr[0] ""
 #~ msgid "Search:"
 #~ msgstr "&Қидириш:"
 
-#, fuzzy
-#~| msgid "All"
-#~ msgctxt "All collections containing recipients."
-#~ msgid "All"
-#~ msgstr "Ҳаммаси"
-
 #~ msgid "Selected Recipients"
 #~ msgstr "Танланган қабул қилувчилар"
 
@@ -9195,11 +9278,6 @@ msgstr[0] ""
 
 #~ msgid "Message &property:"
 #~ msgstr "Хабарнинг &хоссаси:"
-
-#, fuzzy
-#~| msgid "(c) 1997-2005, The KMail developers"
-#~ msgid "(c) 1997-2010, The KMail developers"
-#~ msgstr "(C) 1997-2005, KMail тузувчилари"
 
 #, fuzzy
 #~ msgid "Above the message pane"
