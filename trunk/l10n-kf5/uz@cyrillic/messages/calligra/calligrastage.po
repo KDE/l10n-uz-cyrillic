@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -63,6 +63,98 @@ msgstr "&Намойиш"
 msgid "&Settings"
 msgstr "Йўл мосламалари"
 
+#: part/commands/KPrAddCustomSlideShowCommand.cpp:32
+#, fuzzy
+#| msgid "Slideshow"
+msgctxt "(qtundo-format)"
+msgid "Add custom slide show"
+msgstr "Намойиш"
+
+#: part/commands/KPrAnimationCreateCommand.cpp:32
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgctxt "(qtundo-format)"
+msgid "Create shape animation"
+msgstr "HTML намойишни яратиш"
+
+#: part/commands/KPrAnimationEditNodeTypeCommand.cpp:35
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgctxt "(qtundo-format)"
+msgid "Edit animation trigger event"
+msgstr "HTML намойишни яратиш"
+
+#: part/commands/KPrAnimationRemoveCommand.cpp:30
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgctxt "(qtundo-format)"
+msgid "Remove shape animation"
+msgstr "HTML намойишни яратиш"
+
+#: part/commands/KPrDelCustomSlideShowCommand.cpp:33
+#, fuzzy
+#| msgid "Delete Slide"
+msgctxt "(qtundo-format)"
+msgid "Delete custom slide show"
+msgstr "Слайдни олиб ташлаш"
+
+#: part/commands/KPrDeleteSlidesCommand.cpp:38
+#: part/commands/KPrDeleteSlidesCommand.cpp:57
+#, fuzzy
+#| msgid "Delete Slide"
+msgctxt "(qtundo-format)"
+msgid "Delete slide"
+msgid_plural "Delete slides"
+msgstr[0] "Слайдни олиб ташлаш"
+
+#: part/commands/KPrEditAnimationTimeLineCommand.cpp:37
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgctxt "(qtundo-format)"
+msgid "Edit animation delay/duration"
+msgstr "HTML намойишни яратиш"
+
+#: part/commands/KPrEditCustomSlideShowsCommand.cpp:32
+#, fuzzy
+#| msgid "Custom Slide Show..."
+msgctxt "(qtundo-format)"
+msgid "Edit custom slide show"
+msgstr "Бошқа намойиш..."
+
+#: part/commands/KPrPageEffectSetCommand.cpp:38
+#, fuzzy
+#| msgid "Change Image Effect"
+msgctxt "(qtundo-format)"
+msgid "Create Slide Effect"
+msgstr "Расм эффектини ўзгартириш"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:41
+#, fuzzy
+#| msgid "Image &effect:"
+msgctxt "(qtundo-format)"
+msgid "Modify Slide Effect"
+msgstr "Расм &эффекти:"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:45
+#, fuzzy
+#| msgid "Delete Slide"
+msgctxt "(qtundo-format)"
+msgid "Delete Slide Effect"
+msgstr "Слайдни олиб ташлаш"
+
+#: part/commands/KPrRenameCustomSlideShowCommand.cpp:33
+#, fuzzy
+#| msgid "Custom Slide Show"
+msgctxt "(qtundo-format)"
+msgid "Rename custom slide show"
+msgstr "Бошқа намойиш"
+
+#: part/commands/KPrReorderAnimationCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reorder animations"
+msgstr "Слайд номи"
+
 #: part/KPrAboutData.h:34
 #, fuzzy, kde-format
 #| msgid "&Configure Slide Show..."
@@ -88,16 +180,16 @@ msgstr ""
 msgid "Copyright 1998-%1, The Stage Team"
 msgstr "(C) 1998-2006, KPresenter жамоаси"
 
-#: part/KPrAboutData.h:48
-#, kde-format
-msgid "Thorsten Zachmann"
-msgstr ""
-
 #: part/KPrAboutData.h:48 part/KPrAboutData.h:49
 #, fuzzy, kde-format
 #| msgid "current maintainer"
 msgid "Former maintainer"
 msgstr "жорий таъминловчи"
+
+#: part/KPrAboutData.h:48
+#, kde-format
+msgid "Thorsten Zachmann"
+msgstr ""
 
 #: part/KPrAboutData.h:49
 #, kde-format
@@ -105,15 +197,15 @@ msgid "Laurent Montel"
 msgstr ""
 
 #: part/KPrAboutData.h:50
-#, kde-format
-msgid "Reginald Stadlbauer"
-msgstr ""
-
-#: part/KPrAboutData.h:50
 #, fuzzy, kde-format
 #| msgid "original author"
 msgid "Original author"
 msgstr "Биринчи муаллиф"
+
+#: part/KPrAboutData.h:50
+#, kde-format
+msgid "Reginald Stadlbauer"
+msgstr ""
 
 #: part/KPrAboutData.h:51
 #, kde-format
@@ -252,6 +344,13 @@ msgstr ""
 #, kde-format
 msgid "Installation Error"
 msgstr ""
+
+#: part/KPrPicturesImport.cpp:75
+#, fuzzy
+#| msgid "Insert Picture"
+msgctxt "(qtundo-format)"
+msgid "Insert Pictures"
+msgstr "Расмни қўйиш"
 
 #: part/KPrPlaceholderShapeFactory.cpp:32
 #, kde-format
@@ -707,16 +806,23 @@ msgstr "Намойиш"
 msgid "All slides"
 msgstr "Ҳамма файллар"
 
-#: part/KPrViewModeSlidesSorter.cpp:699
-#, kde-format
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
 #: part/KPrViewModeSlidesSorter.cpp:699 part/ui/KPrHtmlExportDialog.cpp:162
 #: part/ui/KPrHtmlExportDialog.cpp:216
 #, fuzzy, kde-format
 msgid "Error"
 msgstr "Кўрсаткич услуби"
+
+#: part/KPrViewModeSlidesSorter.cpp:699
+#, kde-format
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
+
+#: part/pagelayout/KPrPlaceholders.cpp:59
+#: part/pagelayout/KPrPlaceholders.cpp:60
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Layout"
+msgstr "&Мастер слайд"
 
 #: part/tools/animationtool/KPrAnimationSelectorWidget.cpp:67
 #, kde-format
@@ -806,6 +912,13 @@ msgstr " сония"
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "Apply To All Slides"
+msgstr "Ҳамма файллар"
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:236
+#, fuzzy
+#| msgid "All Files"
+msgctxt "(qtundo-format)"
+msgid "Apply Slide Effect to all Slides"
 msgstr "Ҳамма файллар"
 
 #: part/tools/animationtool/KPrPredefinedAnimationsLoader.cpp:178
@@ -973,6 +1086,13 @@ msgstr "&Бет"
 #| msgid "&Top:"
 msgid "&Crop"
 msgstr "Юқ&ори:"
+
+#: part/tools/KPrPlaceholderTool.cpp:92
+#, fuzzy
+#| msgid "Shape"
+msgctxt "(qtundo-format)"
+msgid "Edit Shape"
+msgstr "Шакл"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: part/ui/KPrConfigurePresenterView.ui:16
@@ -1159,15 +1279,22 @@ msgstr ""
 
 #: part/ui/KPrHtmlExportDialog.cpp:330
 #, fuzzy, kde-format
+#| msgid "Do you want to remove the current slide?"
+msgid "Are you sure you want to remove \"%1\"?"
+msgstr "Жорий слайдни олиб ташлашни истайсизми?"
+
+#: part/ui/KPrHtmlExportDialog.cpp:330
+#, fuzzy, kde-format
 #| msgid "Save Configuration..."
 msgid "Confirm remove"
 msgstr "Мосламаларни сақлаш..."
 
-#: part/ui/KPrHtmlExportDialog.cpp:330
-#, fuzzy, kde-format
-#| msgid "Do you want to remove the current slide?"
-msgid "Are you sure you want to remove \"%1\"?"
-msgstr "Жорий слайдни олиб ташлашни истайсизми?"
+#: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:95
+#, fuzzy
+#| msgid "Change Rotation"
+msgctxt "(qtundo-format)"
+msgid "Change sound action"
+msgstr "Буришни ўзгартириш"
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:118
 #, fuzzy, kde-format
@@ -2627,72 +2754,6 @@ msgstr "Изоҳ"
 #~ msgstr "KPresenter мосламаси"
 
 #, fuzzy
-#~| msgid "Slideshow"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add custom slide show"
-#~ msgstr "Намойиш"
-
-#, fuzzy
-#~| msgid "Create HTML Presentation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create shape animation"
-#~ msgstr "HTML намойишни яратиш"
-
-#, fuzzy
-#~| msgid "Create HTML Presentation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove shape animation"
-#~ msgstr "HTML намойишни яратиш"
-
-#, fuzzy
-#~| msgid "Delete Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete custom slide show"
-#~ msgstr "Слайдни олиб ташлаш"
-
-#, fuzzy
-#~| msgid "Delete Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete slide"
-#~ msgid_plural "Delete slides"
-#~ msgstr[0] "Слайдни олиб ташлаш"
-
-#, fuzzy
-#~| msgid "Custom Slide Show..."
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Edit custom slide show"
-#~ msgstr "Бошқа намойиш..."
-
-#, fuzzy
-#~| msgid "Change Image Effect"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create Slide Effect"
-#~ msgstr "Расм эффектини ўзгартириш"
-
-#, fuzzy
-#~| msgid "Image &effect:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Slide Effect"
-#~ msgstr "Расм &эффекти:"
-
-#, fuzzy
-#~| msgid "Delete Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Slide Effect"
-#~ msgstr "Слайдни олиб ташлаш"
-
-#, fuzzy
-#~| msgid "Custom Slide Show"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename custom slide show"
-#~ msgstr "Бошқа намойиш"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reorder animations"
-#~ msgstr "Слайд номи"
-
-#, fuzzy
 #~| msgid "&Configure Slide Show..."
 #~ msgctxt "(qtundo-format) application name"
 #~ msgid "Calligra Stage"
@@ -2769,12 +2830,6 @@ msgstr "Изоҳ"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Layout"
 #~ msgstr "&Мастер слайд"
-
-#, fuzzy
-#~| msgid "Insert Picture"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Pictures"
-#~ msgstr "Расмни қўйиш"
 
 #, fuzzy
 #~| msgid "Color"
@@ -3140,11 +3195,6 @@ msgstr "Изоҳ"
 #~ msgstr "Кўрсаткич услуби"
 
 #, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Layout"
-#~ msgstr "&Мастер слайд"
-
-#, fuzzy
 #~| msgid "Presentation"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Preview animation"
@@ -3251,12 +3301,6 @@ msgstr "Изоҳ"
 #~ msgstr "Жорий слайддан олдин"
 
 #, fuzzy
-#~| msgid "Shape"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Edit Shape"
-#~ msgstr "Шакл"
-
-#, fuzzy
 #~| msgid "Configure KPresenter"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Configure Presenter View"
@@ -3291,12 +3335,6 @@ msgstr "Изоҳ"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Confirm remove"
 #~ msgstr "Мосламаларни сақлаш..."
-
-#, fuzzy
-#~| msgid "Change Rotation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change sound action"
-#~ msgstr "Буришни ўзгартириш"
 
 #, fuzzy
 #~| msgid " seconds"
