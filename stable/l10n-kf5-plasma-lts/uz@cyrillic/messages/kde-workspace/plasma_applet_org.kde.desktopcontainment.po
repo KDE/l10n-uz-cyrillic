@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-11 08:15+0100\n"
+"POT-Creation-Date: 2017-02-12 07:49+0100\n"
 "PO-Revision-Date: 2006-04-07 18:03+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -26,7 +26,7 @@ msgstr "&Амаллар"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:252
-#: package/contents/ui/FolderViewLayer.qml:342
+#: package/contents/ui/FolderViewLayer.qml:340
 msgid "Icons"
 msgstr ""
 
@@ -48,10 +48,6 @@ msgstr ""
 
 #: package/contents/ui/AppletHandle.qml:312
 msgid "Remove"
-msgstr ""
-
-#: package/contents/ui/BackButtonItem.qml:105
-msgid "Back"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
@@ -307,21 +303,27 @@ msgstr ""
 msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:42
+#: package/contents/ui/ConfigTweaks.qml:44
+msgid ""
+"Tweaks are experimental options that may become defaults depending on your "
+"feedback."
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:50
 #, fuzzy
 #| msgid "New Folder"
 msgid "Desktop Layout"
 msgstr "Янги жилд"
 
-#: package/contents/ui/ConfigTweaks.qml:51
+#: package/contents/ui/ConfigTweaks.qml:59
 msgid "Show the desktop toolbox"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:59
+#: package/contents/ui/ConfigTweaks.qml:67
 msgid "Widget Handling"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:69
+#: package/contents/ui/ConfigTweaks.qml:77
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
 
@@ -359,67 +361,173 @@ msgstr ""
 msgid "Configure Desktop"
 msgstr "Орқа фонни мослаш"
 
+#: package/contents/ui/UpButtonItem.qml:105
+msgid "Up"
+msgstr ""
+
 #: plugins/folder/directorypicker.cpp:45
 #, fuzzy, kde-format
 #| msgid "New Folder"
 msgid "Select Folder"
 msgstr "Янги жилд"
 
-#: plugins/folder/foldermodel.cpp:254
+#: plugins/folder/foldermodel.cpp:250
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:254 plugins/folder/foldermodel.cpp:1239
+#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1195
 #, kde-format
 msgid "&Refresh View"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1236
+#: plugins/folder/foldermodel.cpp:1192
 #, kde-format
 msgid "&Reload"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1242
+#: plugins/folder/foldermodel.cpp:1198
 #, fuzzy, kde-format
 msgid "&Rename"
 msgstr "&Бекор қилиш: Боғлаш"
 
-#: plugins/folder/foldermodel.cpp:1245
+#: plugins/folder/foldermodel.cpp:1201
 #, fuzzy, kde-format
 #| msgid "Move to Trash"
 msgid "&Move to Trash"
 msgstr "Чиқиндилар қутисига олиб ташлаш"
 
-#: plugins/folder/foldermodel.cpp:1248
+#: plugins/folder/foldermodel.cpp:1204
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "Чиқиндилар қутисини &бўшатиш"
 
-#: plugins/folder/foldermodel.cpp:1251
-#, fuzzy, kde-format
-#| msgid "&Restore"
-msgctxt "Restore from trash"
-msgid "Restore"
-msgstr "Қ&айта тиклаш"
-
-#: plugins/folder/foldermodel.cpp:1254
+#: plugins/folder/foldermodel.cpp:1207
 #, fuzzy, kde-format
 #| msgid "Delete Files"
 msgid "&Delete"
 msgstr "Файлларни ўчириш"
 
-#: plugins/folder/foldermodel.cpp:1257
-#, kde-format
-msgid "&Open"
-msgstr "&Очиш"
-
-#: plugins/folder/foldermodel.cpp:1327
+#: plugins/folder/foldermodel.cpp:1267
 #, kde-format
 msgid "&Paste"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1449
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
+#, fuzzy, kde-format
+#| msgid "&Copy Here"
+msgctxt "@title:menu"
+msgid "Copy To"
+msgstr "Шу ерга &нусха олиш"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
+#, fuzzy, kde-format
+#| msgid "Move to Trash"
+msgctxt "@title:menu"
+msgid "Move To"
+msgstr "Чиқиндилар қутисига олиб ташлаш"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
+#, fuzzy, kde-format
+#| msgid "New Folder"
+msgctxt "@title:menu"
+msgid "Home Folder"
+msgstr "Янги жилд"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
+#, fuzzy, kde-format
+#| msgid "New Folder"
+msgctxt "@title:menu"
+msgid "Root Folder"
+msgstr "Янги жилд"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
+#, kde-format
+msgctxt "@title:menu in Copy To or Move To submenu"
+msgid "Browse..."
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
+#, fuzzy, kde-format
+#| msgid "&Copy Here"
+msgctxt "@title:menu"
+msgid "Copy Here"
+msgstr "Шу ерга &нусха олиш"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
+#, fuzzy, kde-format
+#| msgid "&Move Here"
+msgctxt "@title:menu"
+msgid "Move Here"
+msgstr "Шу ерга &кўчириш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#, kde-format
+msgid "&Open"
+msgstr "&Очиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#, kde-format
+msgid "Create &Folder..."
+msgstr "Жилдни &яратиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
+#, fuzzy, kde-format
+#| msgid "&Restore"
+msgid "&Restore"
+msgstr "Қ&айта тиклаш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#, fuzzy, kde-format
+#| msgid "Shred Files"
+msgid "Show Original Directory"
+msgstr "Файлни қириб ташлаш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#, fuzzy, kde-format
+#| msgid "Shred Files"
+msgid "Show Original File"
+msgstr "Файлни қириб ташлаш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Configure Trash Bin"
+msgstr "Чиқиндилар қутисини &бўшатиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
+#, kde-format
+msgid "&Bookmark This Page"
+msgstr "Бу саҳифани &хатчўпларга қўшиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
+#, kde-format
+msgid "&Bookmark This Location"
+msgstr "Бу манзилни &хатчўпларга қўшиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
+#, kde-format
+msgid "&Bookmark This Folder"
+msgstr "Бу жилдни &хатчўпларга қўшиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
+#, kde-format
+msgid "&Bookmark This Link"
+msgstr "Бу боғни &хатчўпларга қўшиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
+#, kde-format
+msgid "&Bookmark This File"
+msgstr "Бу файлни &хатчўпларга қўшиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgid "Preview In"
+msgstr "Кўриб чиқиш"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
 #, kde-format
 msgid "&Properties"
 msgstr "&Хоссалари"
@@ -483,75 +591,6 @@ msgstr "&Баҳайбат"
 #, kde-format
 msgid "Locked"
 msgstr ""
-
-#, fuzzy
-#~| msgid "&Copy Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Copy To"
-#~ msgstr "Шу ерга &нусха олиш"
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@title:menu"
-#~ msgid "Move To"
-#~ msgstr "Чиқиндилар қутисига олиб ташлаш"
-
-#, fuzzy
-#~| msgid "New Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Home Folder"
-#~ msgstr "Янги жилд"
-
-#, fuzzy
-#~| msgid "New Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Root Folder"
-#~ msgstr "Янги жилд"
-
-#, fuzzy
-#~| msgid "&Copy Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Copy Here"
-#~ msgstr "Шу ерга &нусха олиш"
-
-#, fuzzy
-#~| msgid "&Move Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Move Here"
-#~ msgstr "Шу ерга &кўчириш"
-
-#~ msgid "Create &Folder..."
-#~ msgstr "Жилдни &яратиш"
-
-#, fuzzy
-#~| msgid "Shred Files"
-#~ msgid "Show Original File"
-#~ msgstr "Файлни қириб ташлаш"
-
-#, fuzzy
-#~| msgid "&Empty Trash Bin"
-#~ msgid "&Configure Trash Bin"
-#~ msgstr "Чиқиндилар қутисини &бўшатиш"
-
-#~ msgid "&Bookmark This Page"
-#~ msgstr "Бу саҳифани &хатчўпларга қўшиш"
-
-#~ msgid "&Bookmark This Location"
-#~ msgstr "Бу манзилни &хатчўпларга қўшиш"
-
-#~ msgid "&Bookmark This Folder"
-#~ msgstr "Бу жилдни &хатчўпларга қўшиш"
-
-#~ msgid "&Bookmark This Link"
-#~ msgstr "Бу боғни &хатчўпларга қўшиш"
-
-#~ msgid "&Bookmark This File"
-#~ msgstr "Бу файлни &хатчўпларга қўшиш"
-
-#, fuzzy
-#~| msgid "Preview"
-#~ msgid "Preview In"
-#~ msgstr "Кўриб чиқиш"
 
 #~ msgid "Share"
 #~ msgstr "Бўлишиш"
