@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-25 07:16+0100\n"
+"POT-Creation-Date: 2017-02-28 13:46+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -12125,9 +12125,9 @@ msgstr "Сония"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:254
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:218
 #: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:795
-#: libs/ui/KisApplication.cpp:669 libs/ui/KisApplication.cpp:672
-#: libs/ui/KisApplication.cpp:698 libs/ui/KisApplication.cpp:724
-#: libs/ui/KisApplication.cpp:745 libs/ui/KisDocument.cpp:789
+#: libs/ui/KisApplication.cpp:679 libs/ui/KisApplication.cpp:682
+#: libs/ui/KisApplication.cpp:708 libs/ui/KisApplication.cpp:734
+#: libs/ui/KisApplication.cpp:755 libs/ui/KisDocument.cpp:789
 #: libs/ui/KisDocument.cpp:791 libs/ui/KisDocument.cpp:1259
 #: libs/ui/KisDocument.cpp:1305 libs/ui/KisDocument.cpp:1353
 #: libs/ui/KisDocument.cpp:2001 libs/ui/KisDocument.cpp:2004
@@ -16106,13 +16106,13 @@ msgstr ""
 msgid "Loading Plugins Exiv/IO..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:339
+#: libs/ui/KisApplication.cpp:341 libs/ui/opengl/kis_opengl.cpp:161
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "чизма"
 
-#: libs/ui/KisApplication.cpp:340
+#: libs/ui/KisApplication.cpp:342
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -16120,44 +16120,44 @@ msgid ""
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:349
+#: libs/ui/KisApplication.cpp:359
 #, kde-format
 msgid "Initializing Globals"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:386
+#: libs/ui/KisApplication.cpp:396
 #, kde-format
 msgid "Adding resource types"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:398
+#: libs/ui/KisApplication.cpp:408
 #, kde-format
 msgid "Loading Main Window..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:441
+#: libs/ui/KisApplication.cpp:451
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:670
+#: libs/ui/KisApplication.cpp:680
 #, fuzzy, kde-format
 #| msgid "No template found for: %1 "
 msgid "No template found for: %1"
 msgstr "%1 учун ҳеч қандай намуна топилмади."
 
-#: libs/ui/KisApplication.cpp:673
+#: libs/ui/KisApplication.cpp:683
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr "%1 учун жуда кўп намуна топилди."
 
-#: libs/ui/KisApplication.cpp:699
+#: libs/ui/KisApplication.cpp:709
 #, fuzzy, kde-format
 #| msgid "Template %1 failed to load."
 msgid "Template %1 failed to load."
 msgstr "%1 намунани юклаш муваффақиятсиз тугади."
 
-#: libs/ui/KisApplication.cpp:725
+#: libs/ui/KisApplication.cpp:735
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -16165,7 +16165,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:746
+#: libs/ui/KisApplication.cpp:756
 #, fuzzy, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr "Намунани ростдан олиб ташлашни истайсизми?"
@@ -18309,6 +18309,18 @@ msgstr ""
 #: libs/ui/layerstyles/wdgTexture.ui:122
 #, kde-format
 msgid "Li&nk with Layer"
+msgstr ""
+
+#: libs/ui/opengl/kis_opengl.cpp:162
+#, kde-format
+msgid ""
+"You have an Intel(R) HD Graphics video adapter.\n"
+"If you experience problems like a crash, a black or blank screen,please "
+"update your display driver to the latest version.\n"
+"\n"
+"If Krita crashes, it will disable OpenGL rendering. Please restart Krita in "
+"that case.\n"
+" After updating your drivers you can re-enable OpenGL in Krita's Settings.\n"
 msgstr ""
 
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:326
@@ -22620,9 +22632,10 @@ msgid "Last Frame"
 msgstr "Матнни қўйиш"
 
 #: plugins/dockers/animation/animation_docker.cpp:96
-#, kde-format
-msgid "Play / Pause"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "a presentation"
+msgid "Play / Stop"
+msgstr "намойиш"
 
 #: plugins/dockers/animation/animation_docker.cpp:301
 #, fuzzy
@@ -26406,46 +26419,6 @@ msgstr ""
 msgid "Shape:"
 msgstr "Тўлқин"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, irisShapeCombo)
-#. i18n: ectx: property (text), item, widget (KComboBox, cbHShape)
-#. i18n: ectx: property (text), item, widget (KComboBox, cbVShape)
-#: plugins/filters/blur/wdg_lens_blur.ui:40
-#: plugins/filters/wavefilter/wdgwaveoptions.ui:129
-#: plugins/filters/wavefilter/wdgwaveoptions.ui:218
-#, fuzzy, kde-format
-msgid "Triangle"
-msgstr "Битта"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, irisShapeCombo)
-#: plugins/filters/blur/wdg_lens_blur.ui:45
-#, kde-format
-msgid "Quadrilateral (4)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, irisShapeCombo)
-#: plugins/filters/blur/wdg_lens_blur.ui:50
-#, kde-format
-msgid "Pentagon (5)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, irisShapeCombo)
-#: plugins/filters/blur/wdg_lens_blur.ui:55
-#, kde-format
-msgid "Hexagon (6)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, irisShapeCombo)
-#: plugins/filters/blur/wdg_lens_blur.ui:60
-#, kde-format
-msgid "Heptagon (7)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, irisShapeCombo)
-#: plugins/filters/blur/wdg_lens_blur.ui:65
-#, kde-format
-msgid "Octagon (8)"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (label), widget (KisIntParseSpinBox, irisRadiusSlider)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -27640,6 +27613,14 @@ msgstr ""
 #, kde-format
 msgid "Sinusoidale"
 msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, cbHShape)
+#. i18n: ectx: property (text), item, widget (KComboBox, cbVShape)
+#: plugins/filters/wavefilter/wdgwaveoptions.ui:129
+#: plugins/filters/wavefilter/wdgwaveoptions.ui:218
+#, fuzzy, kde-format
+msgid "Triangle"
+msgstr "Битта"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
@@ -52342,12 +52323,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Last Frame"
 #~ msgstr "Матнни қўйиш"
-
-#, fuzzy
-#~| msgid "a presentation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Play / Pause"
-#~ msgstr "намойиш"
 
 #, fuzzy
 #~| msgid "Position"
