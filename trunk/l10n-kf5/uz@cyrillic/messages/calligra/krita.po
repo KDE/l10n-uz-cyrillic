@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-23 03:09+0200\n"
+"POT-Creation-Date: 2017-07-26 06:44+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -9231,7 +9231,7 @@ msgstr ""
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:150
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:157
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:164
-#: libs/ui/forms/wdggeneralsettings.ui:208 libs/ui/forms/wdgnewimage.ui:150
+#: libs/ui/forms/wdggeneralsettings.ui:228 libs/ui/forms/wdgnewimage.ui:150
 #: libs/ui/forms/wdgnewimage.ui:254 libs/ui/forms/wdgpaintactioneditor.ui:98
 #: libs/ui/forms/wdgpaintactioneditor.ui:111
 #: libs/ui/forms/wdgperformancesettings.ui:210
@@ -9415,7 +9415,7 @@ msgstr "Ўлчами:"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1340
 #: libs/ui/forms/wdgdisplaysettings.ui:85
 #: libs/ui/forms/wdgrectangleconstraints.ui:91
-#: libs/ui/forms/wdgrectangleconstraints.ui:127 libs/ui/kis_paintop_box.cc:292
+#: libs/ui/forms/wdgrectangleconstraints.ui:127 libs/ui/kis_paintop_box.cc:295
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:387
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:651
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:734
@@ -11172,6 +11172,7 @@ msgstr ""
 #: libs/pigment/compositeops/KoCompositeOpCopy.h:37
 #: libs/pigment/compositeops/KoCompositeOpCopy2.h:45
 #: libs/pigment/KoCompositeOpRegistry.cpp:101
+#: libs/ui/widgets/kis_paintop_presets_save.cpp:80
 #, fuzzy, kde-format
 msgid "Copy"
 msgstr "Ташкилот"
@@ -11478,7 +11479,7 @@ msgstr "Чизиқнинг энини ўзгартириш"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/pigment/compositeops/KoCompositeOps.h:189
 #: libs/pigment/KoCompositeOp.cpp:31 libs/pigment/KoCompositeOpRegistry.cpp:104
-#: libs/ui/dialogs/kis_dlg_preferences.cc:911 libs/ui/forms/wdgnewimage.ui:375
+#: libs/ui/dialogs/kis_dlg_preferences.cc:931 libs/ui/forms/wdgnewimage.ui:375
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:150
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:188
 #: libs/ui/kis_palette_view.cpp:100 libs/ui/kis_palette_view.cpp:322
@@ -12320,10 +12321,12 @@ msgstr ""
 msgid "Close"
 msgstr "Ранглар"
 
+#. i18n: ectx: property (text), widget (QPushButton, cancelBrushNameUpdateButton)
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:62
 #: libs/ui/dialogs/KisAnimationCacheUpdateProgressDialog.cpp:36
-#: libs/ui/forms/KisOpenPaneBase.ui:67
+#: libs/ui/forms/KisOpenPaneBase.ui:67 libs/ui/forms/wdgpaintopsettings.ui:509
+#: libs/ui/forms/wdgsavebrushpreset.ui:201
 #: libs/ui/input/kis_tool_invocation_action.cpp:58 libs/ui/kis_clipboard.cc:274
 #: libs/ui/KisView.cpp:545
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:70
@@ -12525,9 +12528,9 @@ msgstr "&Танлаш"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1343
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1346
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1349
-#: libs/ui/dialogs/kis_dlg_preferences.cc:601
-#: libs/ui/dialogs/kis_dlg_preferences.cc:605
-#: libs/ui/dialogs/kis_dlg_preferences.cc:609 libs/ui/kis_autogradient.cc:76
+#: libs/ui/dialogs/kis_dlg_preferences.cc:608
+#: libs/ui/dialogs/kis_dlg_preferences.cc:612
+#: libs/ui/dialogs/kis_dlg_preferences.cc:616 libs/ui/kis_autogradient.cc:76
 #: libs/ui/kis_autogradient.cc:80
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:134
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:912
@@ -12638,12 +12641,12 @@ msgstr ""
 msgid "Tilt Outline"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:269
+#: libs/ui/dialogs/kis_dlg_preferences.cc:276
 #, fuzzy, kde-format
 msgid "Select a Background Image"
 msgstr "Сония"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:281
+#: libs/ui/dialogs/kis_dlg_preferences.cc:288
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:218
 #: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:786
 #: libs/ui/KisApplication.cpp:695 libs/ui/KisApplication.cpp:698
@@ -12686,92 +12689,92 @@ msgctxt "@title:window"
 msgid "Krita"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:281
+#: libs/ui/dialogs/kis_dlg_preferences.cc:288
 #, fuzzy, kde-format
 #| msgid "%1 is not a file."
 msgid "%1 is not a valid image file!"
 msgstr "%1 файл эмас."
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:367
+#: libs/ui/dialogs/kis_dlg_preferences.cc:374
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:65
 #: libs/ui/widgets/kis_color_space_selector.cc:62
 #, kde-format
 msgid "Open Color Profile"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:372
-#: libs/ui/dialogs/kis_dlg_preferences.cc:548
+#: libs/ui/dialogs/kis_dlg_preferences.cc:379
+#: libs/ui/dialogs/kis_dlg_preferences.cc:555
 #, fuzzy, kde-format
 #| msgid "Screen"
 msgctxt "The number of the screen"
 msgid "Screen %1:"
 msgstr "Экран"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:433
+#: libs/ui/dialogs/kis_dlg_preferences.cc:440
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:772
 #: libs/ui/widgets/kis_color_space_selector.cc:226
 #, kde-format
 msgid "Install Color Profiles"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:472
+#: libs/ui/dialogs/kis_dlg_preferences.cc:479
 #, fuzzy, kde-format
 #| msgid "Screen"
 msgctxt "The display/screen we got from Qt"
 msgid "Screen %1:"
 msgstr "Экран"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:599
+#: libs/ui/dialogs/kis_dlg_preferences.cc:606
 #, kde-format
 msgid "%1 MiB"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:648
+#: libs/ui/dialogs/kis_dlg_preferences.cc:655
 #: libs/ui/forms/wdgperformancesettings.ui:176
 #, kde-format
 msgid " GiB"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:719
+#: libs/ui/dialogs/kis_dlg_preferences.cc:726
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a swap directory"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:865
+#: libs/ui/dialogs/kis_dlg_preferences.cc:885
 #, fuzzy, kde-format
 #| msgid "Confirm Save"
 msgid "Configure Krita"
 msgstr "Сақлашни тасдиқлаш"
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:873
-#: libs/ui/dialogs/kis_dlg_preferences.cc:875
+#: libs/ui/dialogs/kis_dlg_preferences.cc:893
+#: libs/ui/dialogs/kis_dlg_preferences.cc:895
 #: libs/widgets/KoDocumentInfoDlg.cpp:97 libs/widgets/KoDocumentInfoDlg.cpp:98
 #: plugins/flake/textshape/dialogs/CharacterGeneral.ui:27
 #, kde-format
 msgid "General"
 msgstr "Умумий"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:882
+#: libs/ui/dialogs/kis_dlg_preferences.cc:902
 #, fuzzy, kde-format
 #| msgid "Export Document As"
 msgid "Keyboard Shortcuts"
 msgstr "Ҳужжатни экспорт қилиш"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:884
+#: libs/ui/dialogs/kis_dlg_preferences.cc:904
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:287
 #, kde-format
 msgid "Shortcuts"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:893
+#: libs/ui/dialogs/kis_dlg_preferences.cc:913
 #, fuzzy, kde-format
 msgid "Canvas Input Settings"
 msgstr "Қатор:"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:894
+#: libs/ui/dialogs/kis_dlg_preferences.cc:914
 #, kde-format
 msgid "Canvas Input"
 msgstr ""
@@ -12779,49 +12782,49 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplayBlacklist)
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:900
-#: libs/ui/dialogs/kis_dlg_preferences.cc:902
+#: libs/ui/dialogs/kis_dlg_preferences.cc:920
+#: libs/ui/dialogs/kis_dlg_preferences.cc:922
 #: libs/ui/forms/wdgcolorsettings.ui:62 libs/ui/forms/wdgdisplaysettings.ui:20
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:20
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:53
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:113
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:139
 #, kde-format
 msgid "Display"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:909
+#: libs/ui/dialogs/kis_dlg_preferences.cc:929
 #, fuzzy, kde-format
 #| msgid "Bookmark name:"
 msgid "Color Management"
 msgstr "Хатчўпнинг номи:"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:918
-#: libs/ui/dialogs/kis_dlg_preferences.cc:920
+#: libs/ui/dialogs/kis_dlg_preferences.cc:938
+#: libs/ui/dialogs/kis_dlg_preferences.cc:940
 #, kde-format
 msgid "Performance"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:927
+#: libs/ui/dialogs/kis_dlg_preferences.cc:947
 #, fuzzy, kde-format
 msgid "Tablet settings"
 msgstr "Қатор:"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:929
+#: libs/ui/dialogs/kis_dlg_preferences.cc:949
 #, kde-format
 msgid "Tablet"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:936
+#: libs/ui/dialogs/kis_dlg_preferences.cc:956
 #, kde-format
 msgid "Canvas-only settings"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:938
+#: libs/ui/dialogs/kis_dlg_preferences.cc:958
 #, kde-format
 msgid "Canvas-only"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:945
+#: libs/ui/dialogs/kis_dlg_preferences.cc:965
 #, fuzzy, kde-format
 #| msgid "Author"
 msgctxt "@title:tab Author page"
@@ -12829,7 +12832,7 @@ msgid "Author"
 msgstr "Муаллиф"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:947
+#: libs/ui/dialogs/kis_dlg_preferences.cc:967
 #: libs/widgets/KoDocumentInfoDlg.cpp:120
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:109
 #, kde-format
@@ -13119,7 +13122,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblName)
 #. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
 #. i18n: ectx: property (text), widget (QLabel, labelName)
-#: libs/ui/forms/wdgautogradient.ui:25 libs/ui/forms/wdgpaintopsettings.ui:215
+#: libs/ui/forms/wdgautogradient.ui:25
 #: libs/ui/forms/wdgstopgradienteditor.ui:19 libs/ui/KisColorsetChooser.cpp:113
 #: libs/widgets/KoConfigAuthorPage.ui:20
 #: libs/widgets/koDocumentInfoAuthorWidget.ui:20
@@ -13143,7 +13146,7 @@ msgstr "Матннинг ранги"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
 #: libs/ui/forms/wdgautogradient.ui:81 libs/ui/forms/wdgpaintactioneditor.ui:63
-#: libs/ui/kis_paintop_box.cc:263 libs/ui/kis_paintop_box.cc:268
+#: libs/ui/kis_paintop_box.cc:266 libs/ui/kis_paintop_box.cc:271
 #: plugins/dockers/defaultdockers/wdglayerbox.ui:75
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:29
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:65
@@ -13522,7 +13525,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/forms/wdgdisplaysettings.ui:26
-#: libs/ui/forms/wdggeneralsettings.ui:421
+#: libs/ui/forms/wdggeneralsettings.ui:441
 #, kde-format
 msgid "Miscellaneous"
 msgstr ""
@@ -13667,6 +13670,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, soldStrokeColorLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, chooseGridLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, shadowColorLabel)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel4)
@@ -13675,7 +13679,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, colorLabel3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: libs/ui/forms/wdgdisplaysettings.ui:271
-#: libs/ui/forms/wdgdisplaysettings.ui:316 libs/ui/layerstyles/WdgStroke.ui:159
+#: libs/ui/forms/wdgdisplaysettings.ui:316
+#: libs/ui/forms/wdgdisplaysettings.ui:352 libs/ui/layerstyles/WdgStroke.ui:159
 #: libs/ui/widgets/KoFillConfigWidget.ui:159
 #: plugins/filters/colors/wdgcolortoalphabase.ui:40
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:454
@@ -13699,6 +13704,39 @@ msgstr ""
 #, kde-format
 msgid "Selection Overlay"
 msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpPixelGrid)
+#: libs/ui/forms/wdgdisplaysettings.ui:343
+#, fuzzy, kde-format
+#| msgid "Line width:"
+msgid "Pixel Grid"
+msgstr "Чизиқнинг эни:"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, pixelGridDrawingThresholdBox)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intChoke)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intRange)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intJitter)
+#. i18n: ectx: property (text), widget (QToolButton, alignPercent)
+#: libs/ui/forms/wdgdisplaysettings.ui:359
+#: libs/ui/layerstyles/wdgInnerGlow.ui:216
+#: libs/ui/layerstyles/wdgInnerGlow.ui:318
+#: libs/ui/layerstyles/wdgInnerGlow.ui:347
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:142
+#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:90
+#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:165
+#: plugins/paintops/spray/kis_spray_paintop_settings.cpp:189
+#: plugins/tools/defaulttool/connectionTool/ConnectionPointWidget.ui:116
+#, fuzzy, no-c-format, kde-format
+#| msgid "%1%"
+msgid "%"
+msgstr "%1%"
+
+#. i18n: ectx: property (text), widget (QLabel, gridThresholdLabel)
+#: libs/ui/forms/wdgdisplaysettings.ui:389
+#, fuzzy, kde-format
+#| msgid "Total editing time:"
+msgid "Start showing at:"
+msgstr "Умумий таҳрирлаш вақти:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveWorkspaces)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:26
@@ -13763,9 +13801,11 @@ msgstr ""
 msgid "Pattern"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (KisHighlightedToolButton, showPresetsButton)
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemovePresets)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:93
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:164
+#: libs/ui/forms/wdgpaintopsettings.ui:548
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:190
 #, fuzzy, kde-format
 #| msgid "&Reset"
 msgid "Presets"
@@ -13943,32 +13983,39 @@ msgstr "Тўлқин"
 msgid "Show brush outline while painting"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: libs/ui/forms/wdggeneralsettings.ui:119
+#, fuzzy, kde-format
+#| msgid "Custom"
+msgid "Cursor Color:"
+msgstr "Бошқа"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/forms/wdggeneralsettings.ui:135
+#: libs/ui/forms/wdggeneralsettings.ui:155
 #, kde-format
 msgid "Window"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdggeneralsettings.ui:147
+#: libs/ui/forms/wdggeneralsettings.ui:167
 #, kde-format
 msgid "Multiple Document Mode:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:167
+#: libs/ui/forms/wdggeneralsettings.ui:187
 #, kde-format
 msgid "Subwindows"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:172
+#: libs/ui/forms/wdggeneralsettings.ui:192
 #, kde-format
 msgid "Tabs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: libs/ui/forms/wdggeneralsettings.ui:180
+#: libs/ui/forms/wdggeneralsettings.ui:200
 #, kde-format
 msgid "Background Image (overrides color):"
 msgstr ""
@@ -13976,7 +14023,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, clearBgImageButton)
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
-#: libs/ui/forms/wdggeneralsettings.ui:221
+#: libs/ui/forms/wdggeneralsettings.ui:241
 #: plugins/color/lcms2engine/compositeops/RgbCompositeOpClear.h:33
 #: plugins/dockers/lut/wdglut.ui:237
 #: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:101
@@ -13985,131 +14032,131 @@ msgid "Clear"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/ui/forms/wdggeneralsettings.ui:230
+#: libs/ui/forms/wdggeneralsettings.ui:250
 #, fuzzy, kde-format
 msgid "Window Background:"
 msgstr "Сония"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdggeneralsettings.ui:253
+#: libs/ui/forms/wdggeneralsettings.ui:273
 #, kde-format
 msgid "Don't show contents when moving sub-windows:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdggeneralsettings.ui:273
+#: libs/ui/forms/wdggeneralsettings.ui:293
 #, kde-format
 msgid "Show on-canvas popup messages:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: libs/ui/forms/wdggeneralsettings.ui:307
+#: libs/ui/forms/wdggeneralsettings.ui:327
 #, kde-format
 msgid "Enable Hi-DPI support:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_r98)
-#: libs/ui/forms/wdggeneralsettings.ui:321
+#: libs/ui/forms/wdggeneralsettings.ui:341
 #, kde-format
 msgid "Allow only one instance of Krita:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
-#: libs/ui/forms/wdggeneralsettings.ui:329 libs/widgets/KoToolBoxDocker.cpp:41
+#: libs/ui/forms/wdggeneralsettings.ui:349 libs/widgets/KoToolBoxDocker.cpp:41
 #, fuzzy, kde-format
 msgid "Tools"
 msgstr "Андоза ранг"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: libs/ui/forms/wdggeneralsettings.ui:352
+#: libs/ui/forms/wdggeneralsettings.ui:372
 #, kde-format
 msgid "Tool Options Location (needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInDocker)
-#: libs/ui/forms/wdggeneralsettings.ui:358
+#: libs/ui/forms/wdggeneralsettings.ui:378
 #, fuzzy, kde-format
 #| msgid "Guide Lines"
 msgid "In Doc&ker"
 msgstr "Ёрдамчи чизиқлар"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInToolbar)
-#: libs/ui/forms/wdggeneralsettings.ui:365
+#: libs/ui/forms/wdggeneralsettings.ui:385
 #, fuzzy, kde-format
 #| msgid "Hide %1 Toolbar"
 msgid "In Tool&bar"
 msgstr "%1 асбоблар панелини бекитиш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
-#: libs/ui/forms/wdggeneralsettings.ui:378
+#: libs/ui/forms/wdggeneralsettings.ui:398
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
-#: libs/ui/forms/wdggeneralsettings.ui:385
+#: libs/ui/forms/wdggeneralsettings.ui:405
 #, fuzzy, kde-format
 msgid "Enable Touch Painting"
 msgstr "Қатор:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_autosaveCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:436
+#: libs/ui/forms/wdggeneralsettings.ui:456
 #, fuzzy, kde-format
 #| msgid "Autosaving..."
 msgid "Autosave every:"
 msgstr "Авто-сақланмоқда..."
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:458
+#: libs/ui/forms/wdggeneralsettings.ui:478
 #, kde-format
 msgid " min"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
-#: libs/ui/forms/wdggeneralsettings.ui:477
+#: libs/ui/forms/wdggeneralsettings.ui:497
 #, kde-format
 msgid "Compress .kra files more (slows loading/saving)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_backupFileCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:484
+#: libs/ui/forms/wdggeneralsettings.ui:504
 #, fuzzy, kde-format
 msgid "Create backup file "
 msgstr "Намунани яратиш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
-#: libs/ui/forms/wdggeneralsettings.ui:491
+#: libs/ui/forms/wdggeneralsettings.ui:511
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:504
+#: libs/ui/forms/wdggeneralsettings.ui:524
 #, kde-format
 msgid "Undo stack size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: libs/ui/forms/wdggeneralsettings.ui:548
+#: libs/ui/forms/wdggeneralsettings.ui:568
 #, fuzzy, kde-format
 msgid "Number of Palette Presets"
 msgstr "Ҳужжатни импорт қилиш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
-#: libs/ui/forms/wdggeneralsettings.ui:580
+#: libs/ui/forms/wdggeneralsettings.ui:600
 #, fuzzy, kde-format
 #| msgid "Show %1"
 msgid "Show root layer"
 msgstr "%1 ойнасини кўрсатиш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_hideSplashScreen)
-#: libs/ui/forms/wdggeneralsettings.ui:587
+#: libs/ui/forms/wdggeneralsettings.ui:607
 #, kde-format
 msgid "Hide splash screen on startup"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:594
+#: libs/ui/forms/wdggeneralsettings.ui:614
 #, kde-format
 msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
@@ -14117,40 +14164,40 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:597
+#: libs/ui/forms/wdggeneralsettings.ui:617
 #, kde-format
 msgid ""
 "Enable native file dialogs (warning: may not work correctly on some systems)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdggeneralsettings.ui:604
+#: libs/ui/forms/wdggeneralsettings.ui:624
 #, fuzzy, kde-format
 #| msgid "St&yle"
 msgid "Maximum brush size:"
 msgstr "&Услуб"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:619
+#: libs/ui/forms/wdggeneralsettings.ui:639
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:622
+#: libs/ui/forms/wdggeneralsettings.ui:642
 #, kde-format
 msgctxt "pixel"
 msgid "px"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: libs/ui/forms/wdggeneralsettings.ui:638
+#: libs/ui/forms/wdggeneralsettings.ui:658
 #, kde-format
 msgid "(Needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCacheAnimatioInBackground)
-#: libs/ui/forms/wdggeneralsettings.ui:660
+#: libs/ui/forms/wdggeneralsettings.ui:680
 #, kde-format
 msgid "Recalculate animation cache in background"
 msgstr ""
@@ -14735,134 +14782,125 @@ msgid "Preset Collection"
 msgstr "Тўлдириш"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
-#: libs/ui/forms/wdgpaintopsettings.ui:14 libs/ui/kis_paintop_box.cc:434
+#: libs/ui/forms/wdgpaintopsettings.ui:14 libs/ui/kis_paintop_box.cc:440
 #, fuzzy, kde-format
 #| msgid "Show %1 Toolbar"
 msgid "Brush Editor"
 msgstr "%1 асбоблар панелини кўрсатиш"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushSizeCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:74
+#: libs/ui/forms/wdgpaintopsettings.ui:110
 #, kde-format
 msgid "Erase mode will use a separate brush size"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushSizeCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:77
+#: libs/ui/forms/wdgpaintopsettings.ui:113
 #, fuzzy, kde-format
 #| msgid "Change font size?"
 msgid "Eraser switch size"
 msgstr "Шрифтнинг ўлчами ўзгартириш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dirtyPresetCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:93
+#: libs/ui/forms/wdgpaintopsettings.ui:129
 #, kde-format
 msgid "Temporarily Save Tweaks To Presets"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushOpacityCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:109
+#: libs/ui/forms/wdgpaintopsettings.ui:145
 #, kde-format
 msgid "Erase mode will use a separate brush opacity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushOpacityCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:112
+#: libs/ui/forms/wdgpaintopsettings.ui:148
 #, fuzzy, kde-format
 #| msgid "Change font size?"
 msgid "Eraser switch opacity"
 msgstr "Шрифтнинг ўлчами ўзгартириш"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDefaultPreset)
-#: libs/ui/forms/wdgpaintopsettings.ui:170
+#: libs/ui/forms/wdgpaintopsettings.ui:206
 #, kde-format
 msgid "Load Engine Defaults"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, reload)
-#: libs/ui/forms/wdgpaintopsettings.ui:183
+#. i18n: ectx: property (text), widget (QPushButton, saveBrushPresetButton)
+#: libs/ui/forms/wdgpaintopsettings.ui:226
 #, fuzzy, kde-format
-#| msgid "Confirm Save"
-msgid "Reload Preset"
-msgstr "Сақлашни тасдиқлаш"
+#| msgid "Choose Filter"
+msgid "Overwrite Brush"
+msgstr "Филтерни танлаш"
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, txtPreset)
-#: libs/ui/forms/wdgpaintopsettings.ui:237
-#, kde-format
-msgid ""
-"Current Brush Preset. Typed in italic when the preset has unsaved settings."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnSave)
-#: libs/ui/forms/wdgpaintopsettings.ui:253
-#, kde-format
-msgid "Save the current brush settings under this name"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, bnSave)
-#: libs/ui/forms/wdgpaintopsettings.ui:256
+#. i18n: ectx: property (text), widget (QPushButton, saveNewBrushPresetButton)
+#: libs/ui/forms/wdgpaintopsettings.ui:233
 #, fuzzy, kde-format
-msgid "&Save to Presets"
-msgstr "Қатор:"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, paintPresetIcon)
-#: libs/ui/forms/wdgpaintopsettings.ui:322
-#, kde-format
-msgid "Fill preset area with current icon"
-msgstr ""
+#| msgid "Show %1"
+msgid "Save New Brush Preset..."
+msgstr "%1 ойнасини кўрсатиш"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, fillGradient)
-#: libs/ui/forms/wdgpaintopsettings.ui:339
+#: libs/ui/forms/wdgpaintopsettings.ui:331
 #, kde-format
 msgid "Fill area with gradient"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, fillSolid)
-#: libs/ui/forms/wdgpaintopsettings.ui:349
+#: libs/ui/forms/wdgpaintopsettings.ui:341
 #, fuzzy, kde-format
 msgid "Fill area with background color"
 msgstr "Сония"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, eraseScratchPad)
-#: libs/ui/forms/wdgpaintopsettings.ui:359
+#: libs/ui/forms/wdgpaintopsettings.ui:351
 #, kde-format
 msgid "Reset area to white"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, currentBrushNameLabel)
+#: libs/ui/forms/wdgpaintopsettings.ui:425
+#, fuzzy, kde-format
+msgid "Current Brush Name"
+msgstr "Жорий бўлим"
+
+#. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
+#. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
+#: libs/ui/forms/wdgpaintopsettings.ui:502
+#: libs/ui/forms/wdgsavebrushpreset.ui:208 libs/ui/KisColorsetChooser.cpp:100
+#: libs/ui/KisMainWindow.cpp:726 libs/ui/widgets/kis_workspace_chooser.cpp:93
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
+#, fuzzy, kde-format
+msgid "Save"
+msgstr "Тўлқин"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/forms/wdgpaintopsettings.ui:529
+#, kde-format
+msgid "Show:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (KisHighlightedToolButton, showEditorButton)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:407
+#: libs/ui/forms/wdgpaintopsettings.ui:567
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
 #, fuzzy, kde-format
 msgid "Settings"
 msgstr "Қатор:"
 
 #. i18n: ectx: property (text), widget (KisHighlightedToolButton, showScratchpadButton)
-#: libs/ui/forms/wdgpaintopsettings.ui:426
+#: libs/ui/forms/wdgpaintopsettings.ui:586
 #, fuzzy, kde-format
 #| msgid "Change Shadow"
 msgid "Scratchpad"
 msgstr "Сояни ўзгартириш"
 
-#. i18n: ectx: property (text), widget (QLabel, currentBrushNameLabel)
-#: libs/ui/forms/wdgpaintopsettings.ui:442
-#, fuzzy, kde-format
-msgid "Current Brush Name"
-msgstr "Жорий бўлим"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdgpaintopsettings.ui:481
+#: libs/ui/forms/wdgpaintopsettings.ui:627
 #, fuzzy, kde-format
 #| msgid "Bookmark name:"
 msgid "Engine:"
 msgstr "Хатчўпнинг номи:"
-
-#. i18n: ectx: property (text), widget (QToolButton, presetChangeViewToolButton)
-#: libs/ui/forms/wdgpaintopsettings.ui:504
-#, fuzzy, kde-format
-#| msgid "&Split View"
-msgid "View"
-msgstr "Кўр&инишни бўлиш"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/forms/wdgperformancesettings.ui:17
@@ -15038,6 +15076,58 @@ msgstr "&Эни:"
 #, kde-format
 msgid "Ratio:"
 msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgSaveBrushPreset)
+#: libs/ui/forms/wdgsavebrushpreset.ui:20
+#: libs/ui/widgets/kis_paintop_presets_save.cpp:85
+#, fuzzy, kde-format
+#| msgid "Show %1"
+msgid "Save Brush Preset"
+msgstr "%1 ойнасини кўрсатиш"
+
+#. i18n: ectx: property (text), widget (QLabel, newBrushNameLabel)
+#: libs/ui/forms/wdgsavebrushpreset.ui:31
+#, fuzzy, kde-format
+msgid "Brush Name:"
+msgstr "Услубларни импорт қилиш"
+
+#. i18n: ectx: property (text), widget (QLabel, currentBrushNameLabel)
+#: libs/ui/forms/wdgsavebrushpreset.ui:53
+#, fuzzy, kde-format
+#| msgid "St&yle"
+msgid "BrushName"
+msgstr "&Услуб"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/forms/wdgsavebrushpreset.ui:85
+#, kde-format
+msgid "Paint in this area"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, loadExistingThumbnailButton)
+#: libs/ui/forms/wdgsavebrushpreset.ui:139
+#, kde-format
+msgid "Load Existing Thumbnail"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, loadScratchPadThumbnailButton)
+#: libs/ui/forms/wdgsavebrushpreset.ui:146
+#, kde-format
+msgid "Load Scratchpad Thumbnail"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, loadImageIntoThumbnailButton)
+#: libs/ui/forms/wdgsavebrushpreset.ui:153
+#, fuzzy, kde-format
+#| msgid "Paste Text"
+msgid "Load Image"
+msgstr "Матнни қўйиш"
+
+#. i18n: ectx: property (text), widget (QPushButton, clearBrushPresetThumbnailButton)
+#: libs/ui/forms/wdgsavebrushpreset.ui:160
+#, fuzzy, kde-format
+msgid "Clear Thumbnail"
+msgstr "Белги услубини ўзгартириш"
 
 #. i18n: ectx: property (toolTip), widget (KoGroupButton, intersect)
 #: libs/ui/forms/wdgselectionoptions.ui:37
@@ -16475,27 +16565,27 @@ msgstr ""
 msgid "Painter's Toolchest"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:126
+#: libs/ui/kis_paintop_box.cc:129
 #, fuzzy, kde-format
 msgid "Tool Settings"
 msgstr "Қатор:"
 
-#: libs/ui/kis_paintop_box.cc:132
+#: libs/ui/kis_paintop_box.cc:135
 #, kde-format
 msgid "Edit brush settings"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:137
+#: libs/ui/kis_paintop_box.cc:140
 #, kde-format
 msgid "Choose brush preset"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:176 libs/ui/kis_paintop_box.cc:196
+#: libs/ui/kis_paintop_box.cc:179 libs/ui/kis_paintop_box.cc:199
 #, kde-format
 msgid "Hide Mirror Line"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:180 libs/ui/kis_paintop_box.cc:201
+#: libs/ui/kis_paintop_box.cc:183 libs/ui/kis_paintop_box.cc:204
 #: libs/ui/widgets/kis_categorized_list_view.cpp:124
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:89
 #, fuzzy, kde-format
@@ -16503,14 +16593,14 @@ msgstr ""
 msgid "Lock"
 msgstr "Юкланган"
 
-#: libs/ui/kis_paintop_box.cc:186 libs/ui/kis_paintop_box.cc:207
+#: libs/ui/kis_paintop_box.cc:189 libs/ui/kis_paintop_box.cc:210
 #, fuzzy, kde-format
 #| msgid "Add Newline"
 msgid "Move to Canvas Center"
 msgstr "Янги сатр қўшиш"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
-#: libs/ui/kis_paintop_box.cc:264 libs/ui/kis_paintop_box.cc:269
+#: libs/ui/kis_paintop_box.cc:267 libs/ui/kis_paintop_box.cc:272
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1908
 #, kde-format
 msgid "Flow:"
@@ -16519,7 +16609,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
-#: libs/ui/kis_paintop_box.cc:265 libs/ui/kis_paintop_box.cc:270
+#: libs/ui/kis_paintop_box.cc:268 libs/ui/kis_paintop_box.cc:273
 #: plugins/filters/halftone/wdg_halftone_filter.ui:42
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:168
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1930
@@ -16527,18 +16617,18 @@ msgstr ""
 msgid "Size:"
 msgstr "Ўлчами:"
 
-#: libs/ui/kis_paintop_box.cc:308
+#: libs/ui/kis_paintop_box.cc:311
 #, kde-format
 msgid "Choose workspace"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:342
+#: libs/ui/kis_paintop_box.cc:345
 #, fuzzy, kde-format
 #| msgid "St&yle"
 msgid "Brush composite"
 msgstr "&Услуб"
 
-#: libs/ui/kis_paintop_box.cc:353
+#: libs/ui/kis_paintop_box.cc:356
 #, kde-format
 msgid "Pressure usage (small button)"
 msgstr ""
@@ -17065,13 +17155,6 @@ msgid ""
 "If you press OK, selected files will be recovered, the unselected files "
 "discarded."
 msgstr ""
-
-#: libs/ui/KisColorsetChooser.cpp:100 libs/ui/KisMainWindow.cpp:726
-#: libs/ui/widgets/kis_workspace_chooser.cpp:93
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
-#, fuzzy, kde-format
-msgid "Save"
-msgstr "Тўлқин"
 
 #: libs/ui/KisColorsetChooser.cpp:104
 #: libs/ui/widgets/kis_workspace_chooser.cpp:97
@@ -18643,23 +18726,6 @@ msgstr ""
 msgid "&Choke:"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intChoke)
-#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intRange)
-#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intJitter)
-#. i18n: ectx: property (text), widget (QToolButton, alignPercent)
-#: libs/ui/layerstyles/wdgInnerGlow.ui:216
-#: libs/ui/layerstyles/wdgInnerGlow.ui:318
-#: libs/ui/layerstyles/wdgInnerGlow.ui:347
-#: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:142
-#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:90
-#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:165
-#: plugins/paintops/spray/kis_spray_paintop_settings.cpp:189
-#: plugins/tools/defaulttool/connectionTool/ConnectionPointWidget.ui:116
-#, fuzzy, no-c-format, kde-format
-#| msgid "%1%"
-msgid "%"
-msgstr "%1%"
-
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/layerstyles/wdgInnerGlow.ui:226
 #, fuzzy, kde-format
@@ -19858,40 +19924,52 @@ msgid "x%1"
 msgstr "%1%"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:59
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:119
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:145
 #, kde-format
 msgid "Thumbnails"
 msgstr ""
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:64
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:124
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:150
 #, fuzzy, kde-format
 msgid "Details"
 msgstr "&Андоза"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:82
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:143
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:169
 #: libs/widgets/KoToolBox.cpp:342 libs/widgetutils/xmlgui/ktoolbar.cpp:335
 #, fuzzy, kde-format
 #| msgid "Select Font"
 msgid "Icon Size"
 msgstr "Шрифтни танлаш"
 
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:357
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:118
 #, kde-format
-msgid "Overwrite Preset"
+msgid "The settings for this preset have changed from their default."
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:357
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:121
 #, fuzzy, kde-format
-#| msgid "Confirm Save"
-msgid "Save to Presets"
-msgstr "Сақлашни тасдиқлаш"
+#| msgid "Choose Filter"
+msgid "Reload the brush preset"
+msgstr "Филтерни танлаш"
 
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:482
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:122
+#, fuzzy, kde-format
+#| msgid "Choose Filter"
+msgid "Rename the brush preset"
+msgstr "Филтерни танлаш"
+
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:612
 #, kde-format
 msgid "All"
 msgstr ""
+
+#: libs/ui/widgets/kis_paintop_presets_save.cpp:73
+#, fuzzy, kde-format
+#| msgid "Show %1"
+msgid "Save New Brush Preset"
+msgstr "%1 ойнасини кўрсатиш"
 
 #: libs/ui/widgets/kis_tone_curve_widget.cpp:341
 #, fuzzy, kde-format
@@ -39213,6 +39291,25 @@ msgid "Work Recursively"
 msgstr ""
 
 #, fuzzy
+#~| msgid "Confirm Save"
+#~ msgid "Reload Preset"
+#~ msgstr "Сақлашни тасдиқлаш"
+
+#, fuzzy
+#~ msgid "&Save to Presets"
+#~ msgstr "Қатор:"
+
+#, fuzzy
+#~| msgid "&Split View"
+#~ msgid "View"
+#~ msgstr "Кўр&инишни бўлиш"
+
+#, fuzzy
+#~| msgid "Confirm Save"
+#~ msgid "Save to Presets"
+#~ msgstr "Сақлашни тасдиқлаш"
+
+#, fuzzy
 #~ msgid "untitled"
 #~ msgstr "Сарлавҳа"
 
@@ -46772,12 +46869,6 @@ msgstr ""
 #~ msgstr "Тўлдириш мосламалари"
 
 #, fuzzy
-#~| msgid "Show %1"
-#~ msgctxt "(qtundo-format) action"
-#~ msgid "Show Brush Presets"
-#~ msgstr "%1 ойнасини кўрсатиш"
-
-#, fuzzy
 #~ msgctxt "(qtundo-format) action"
 #~ msgid "Rename Composition..."
 #~ msgstr "Намунани яратиш"
@@ -50776,12 +50867,6 @@ msgstr ""
 #~ msgstr "Қатор:"
 
 #, fuzzy
-#~| msgid "Choose Filter"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Choose brush preset"
-#~ msgstr "Филтерни танлаш"
-
-#, fuzzy
 #~| msgid "Loaded"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Lock"
@@ -52235,12 +52320,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Details"
 #~ msgstr "&Андоза"
-
-#, fuzzy
-#~| msgid "Choose Filter"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Overwrite Preset"
-#~ msgstr "Филтерни танлаш"
 
 #, fuzzy
 #~| msgid "Confirm Save"
@@ -54884,12 +54963,6 @@ msgstr ""
 #, fuzzy
 #~| msgid "Line width:"
 #~ msgctxt "(qtundo-format)"
-#~ msgid "Pixel width"
-#~ msgstr "Чизиқнинг эни:"
-
-#, fuzzy
-#~| msgid "Line width:"
-#~ msgctxt "(qtundo-format)"
 #~ msgid "Pixel height"
 #~ msgstr "Чизиқнинг эни:"
 
@@ -56722,12 +56795,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Particle"
 #~ msgstr "&Бўйига"
-
-#, fuzzy
-#~| msgid "St&yle"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Brush"
-#~ msgstr "&Услуб"
 
 #, fuzzy
 #~| msgid "Group:"
