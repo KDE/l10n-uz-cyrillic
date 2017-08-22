@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-08-20 03:31+0200\n"
+"POT-Creation-Date: 2017-08-22 03:36+0200\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4378,7 +4378,7 @@ msgstr ""
 #: src/dialogs/lookupcertificatesdialog.ui:13
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
-msgid "Certificate Server Certificate Lookup"
+msgid "Lookup on Server"
 msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: ectx: property (text), widget (QPushButton, findPB)
@@ -5436,7 +5436,7 @@ msgstr ""
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#: src/mainwindow.cpp:614 src/view/welcomewidget.cpp:87
+#: src/mainwindow.cpp:614
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Import Certificates"
@@ -5559,13 +5559,13 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title"
-msgid "Choose Certificate Format"
+msgid "Choose Format"
 msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::ChooseProtocolPage)
 #: src/newcertificatewizard/chooseprotocolpage.ui:16
 #, kde-format
-msgid "Please choose which type of certificate you want to create. "
+msgid "Please choose which type you want to create. "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, pgpCLB)
@@ -5609,7 +5609,7 @@ msgstr "Сертификат тафсилотлари..."
 #, kde-format
 msgid ""
 "Please enter your personal details below. If you want more control over the "
-"certificate parameters, click on the Advanced Settings button."
+"parameters, click on the Advanced Settings button."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, nameLB)
@@ -5641,24 +5641,15 @@ msgstr ""
 #: src/newcertificatewizard/keycreationpage.ui:5
 #, kde-format
 msgctxt "@title"
-msgid "Creating Key..."
-msgstr ""
-
-#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::KeyCreationPage)
-#: src/newcertificatewizard/keycreationpage.ui:8
-#, kde-format
-msgid "Your key is being created."
+msgid "Creating Key Pair..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/newcertificatewizard/keycreationpage.ui:17
+#: src/newcertificatewizard/keycreationpage.ui:14
 #, kde-format
 msgid ""
-"The process of creating a key requires large amounts of random numbers. To "
-"foster this process, you can use the entry field below to enter some "
-"gibberish. The text itself does not matter - only the inter-character "
-"timing. You can also move this window around with your mouse, or start some "
-"disk-intensive application."
+"The process of creating a key requires large amounts of random numbers. This "
+"may require several minutes..."
 msgstr ""
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:404
@@ -5679,12 +5670,12 @@ msgstr ""
 #: src/newcertificatewizard/newcertificatewizard.cpp:798
 #, kde-format
 msgctxt "@action"
-msgid "Create Key"
+msgid "Create"
 msgstr ""
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:855
 #, kde-format
-msgid "Could not start certificate creation: %1"
+msgid "Could not start key pair creation: %1"
 msgstr ""
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:871
@@ -5695,14 +5686,14 @@ msgstr "Сертификат тафсилотлари..."
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:872
 #, kde-format
-msgid "Could not create certificate: %1"
+msgid "Could not create key pair: %1"
 msgstr ""
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:879
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid ""
-"Certificate created successfully.\n"
+"Key pair created successfully.\n"
 "Fingerprint: %1"
 msgstr "Сертификат тафсилотлари..."
 
@@ -5714,7 +5705,7 @@ msgstr ""
 #: src/newcertificatewizard/newcertificatewizard.cpp:893
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
-msgid "Certificate created successfully."
+msgid "Key pair created successfully."
 msgstr "Сертификат тафсилотлари..."
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:934
@@ -5799,12 +5790,12 @@ msgstr ""
 #: src/newcertificatewizard/newcertificatewizard.cpp:1061
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
-msgid "My new OpenPGP certificate"
+msgid "My new public OpenPGP key"
 msgstr "Сертификатларни импорт қилиш..."
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1062
 #, kde-format
-msgid "Please find attached my new OpenPGP certificate."
+msgid "Please find attached my new public OpenPGP key."
 msgstr ""
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1098
@@ -5845,7 +5836,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title"
-msgid "Certificate Creation Wizard"
+msgid "Key Pair Creation Wizard"
 msgstr "Сертификат тафсилотлари..."
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1610
@@ -5900,10 +5891,9 @@ msgid_plural "%1 bits"
 msgstr[0] ""
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1698
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Certificate Usage:"
-msgstr "Сертификат тафсилотлари..."
+#, kde-format
+msgid "Usage:"
+msgstr ""
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1698
 #: src/newcertificatewizard/newcertificatewizard.cpp:1708
@@ -5987,15 +5977,13 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title"
-msgid "Review Certificate Parameters"
+msgid "Review Parameters"
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::OverviewPage)
 #: src/newcertificatewizard/overviewpage.ui:8
 #, kde-format
-msgid ""
-"Please review the certificate parameters before proceeding to create the "
-"certificate."
+msgid "Please review the parameters before proceeding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showAllDetailsCB)
@@ -6050,14 +6038,14 @@ msgstr "Сертификатларни импорт қилиш..."
 #: src/newcertificatewizard/resultpage.ui:75
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
-msgid "Send Certificate By EMail..."
+msgid "Send Public Key By EMail..."
 msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: ectx: property (text), widget (QPushButton, uploadToKeyserverPB)
 #: src/newcertificatewizard/resultpage.ui:82
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
-msgid "Upload Certificate To Directory Service..."
+msgid "Upload Public Key To Directory Service..."
 msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: ectx: property (text), widget (QPushButton, createRevocationRequestPB)
@@ -7183,9 +7171,9 @@ msgstr ""
 msgid "Loading certificate cache..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:374
+#: src/view/keylistcontroller.cpp:374 src/view/welcomewidget.cpp:83
 #, kde-format
-msgid "New Keypair..."
+msgid "New Key Pair..."
 msgstr ""
 
 #: src/view/keylistcontroller.cpp:378
@@ -7234,7 +7222,7 @@ msgstr "Сертификатларни импорт қилиш..."
 msgid "Search for certificates online using a public keyserver"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:398
+#: src/view/keylistcontroller.cpp:398 src/view/welcomewidget.cpp:87
 #, kde-format
 msgid "Import..."
 msgstr ""
@@ -7793,8 +7781,8 @@ msgstr ""
 #: src/view/welcomewidget.cpp:69
 #, kde-format
 msgid ""
-"For most actions you need either a public certificate (key) from others or a "
-"private key of your own."
+"For most actions you need either a public key (certificate) or your own "
+"private key."
 msgstr ""
 
 #: src/view/welcomewidget.cpp:71
@@ -7805,8 +7793,8 @@ msgstr ""
 #: src/view/welcomewidget.cpp:72
 #, kde-format
 msgid ""
-"The certificate (public key) can be used by others to verify your identity "
-"or encrypt to you."
+"The public key can be used by others to verify your identity or encrypt to "
+"you."
 msgstr ""
 
 #: src/view/welcomewidget.cpp:75
@@ -7820,36 +7808,41 @@ msgstr ""
 #: src/view/welcomewidget.cpp:76
 #, kde-format
 msgctxt "%1 is link a wiki article"
-msgid "You can learn more about this on <a href=\"%1\">Wikipedia</a>"
-msgstr ""
-
-#: src/view/welcomewidget.cpp:83
-#, kde-format
-msgid "Generate Keypair"
+msgid "You can learn more about this on <a href=\"%1\">Wikipedia</a>."
 msgstr ""
 
 #: src/view/welcomewidget.cpp:97
 #, kde-format
-msgid "Create a new OpenPGP Keypair"
+msgid "Create a new OpenPGP key pair"
 msgstr ""
 
 #: src/view/welcomewidget.cpp:98
 #, kde-format
 msgid ""
-"To create an S/MIME certificate request use \"New Keypair\" from the 'File' "
+"To create an S/MIME certificate request use \"New Key Pair\" from the 'File' "
 "Menu instead"
 msgstr ""
 
 #: src/view/welcomewidget.cpp:104
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
-msgid "Import a Certificate from a file."
+msgid "Import from a file."
 msgstr "Сертификатларни импорт қилиш..."
 
 #: src/view/welcomewidget.cpp:105
 #, kde-format
 msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Certificate Server Certificate Lookup"
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Certificate Usage:"
+#~ msgstr "Сертификат тафсилотлари..."
 
 #, fuzzy
 #~| msgid "Certificate Details..."
