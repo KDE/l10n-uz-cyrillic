@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-23 03:00+0200\n"
+"POT-Creation-Date: 2017-10-25 05:27+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -10254,9 +10254,9 @@ msgid "Processing"
 msgstr ""
 
 #: libs/image/kis_psd_layer_style.cpp:99
-#: libs/ui/KisApplicationArguments.cpp:335 libs/ui/KisDocument.cpp:1519
-#: libs/ui/KisMainWindow.cpp:1057 libs/ui/KisMainWindow.cpp:1348
-#: libs/ui/KisMainWindow.cpp:1367 plugins/impex/libkra/kis_kra_saver.cpp:83
+#: libs/ui/KisApplicationArguments.cpp:335 libs/ui/KisDocument.cpp:1518
+#: libs/ui/KisMainWindow.cpp:1079 libs/ui/KisMainWindow.cpp:1370
+#: libs/ui/KisMainWindow.cpp:1389 plugins/impex/libkra/kis_kra_saver.cpp:83
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgid "Unnamed"
@@ -12574,7 +12574,7 @@ msgid "Numerical"
 msgstr "&Бўйига"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:125
-#: libs/ui/KisMainWindow.cpp:852
+#: libs/ui/KisMainWindow.cpp:874
 #, fuzzy, kde-format
 msgid "Import Images"
 msgstr "Услубларни импорт қилиш"
@@ -12621,7 +12621,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:251 libs/ui/KisMainWindow.cpp:2026
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:251 libs/ui/KisMainWindow.cpp:2048
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgctxt "@label:textbox"
@@ -12794,10 +12794,10 @@ msgstr "Сония"
 #: libs/ui/KisApplication.cpp:805 libs/ui/KisDocument.cpp:605
 #: libs/ui/KisDocument.cpp:980 libs/ui/KisDocument.cpp:1062
 #: libs/ui/KisDocument.cpp:1102 libs/ui/KisDocument.cpp:1110
-#: libs/ui/KisMainWindow.cpp:789 libs/ui/KisMainWindow.cpp:875
-#: libs/ui/KisMainWindow.cpp:888 libs/ui/KisMainWindow.cpp:938
-#: libs/ui/KisMainWindow.cpp:1667 libs/ui/KisMainWindow.cpp:1697
-#: libs/ui/KisMainWindow.cpp:1774 libs/ui/KisMainWindow.cpp:1786
+#: libs/ui/KisMainWindow.cpp:811 libs/ui/KisMainWindow.cpp:897
+#: libs/ui/KisMainWindow.cpp:910 libs/ui/KisMainWindow.cpp:960
+#: libs/ui/KisMainWindow.cpp:1689 libs/ui/KisMainWindow.cpp:1719
+#: libs/ui/KisMainWindow.cpp:1796 libs/ui/KisMainWindow.cpp:1808
 #: libs/ui/KisPart.cpp:428 libs/ui/KisPart.cpp:431
 #: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisTemplateCreateDia.cpp:297
 #: libs/ui/KisView.cpp:712 libs/ui/opengl/kis_opengl_canvas2.cpp:344
@@ -15117,7 +15117,7 @@ msgstr "Матнни ўчириш"
 #. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
 #: libs/ui/forms/wdgpaintopsettings.ui:727
 #: libs/ui/forms/wdgsavebrushpreset.ui:208 libs/ui/KisColorsetChooser.cpp:100
-#: libs/ui/KisMainWindow.cpp:753 libs/ui/widgets/kis_workspace_chooser.cpp:93
+#: libs/ui/KisMainWindow.cpp:775 libs/ui/widgets/kis_workspace_chooser.cpp:93
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
 #, fuzzy, kde-format
 msgid "Save"
@@ -17202,36 +17202,36 @@ msgid ""
 "\t\tPlease configure more RAM for Krita in Settings dialog"
 msgstr ""
 
-#: libs/ui/kis_statusbar.cc:351
+#: libs/ui/kis_statusbar.cc:353
 #, kde-format
 msgid "Hidden"
 msgstr ""
 
-#: libs/ui/kis_statusbar.cc:353
+#: libs/ui/kis_statusbar.cc:355
 #, kde-format
 msgid "Ants"
 msgstr ""
 
-#: libs/ui/kis_statusbar.cc:353
+#: libs/ui/kis_statusbar.cc:355
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:299
 #, kde-format
 msgid "Mask"
 msgstr ""
 
-#: libs/ui/kis_statusbar.cc:356
+#: libs/ui/kis_statusbar.cc:358
 #, kde-format
 msgid ""
 "Selection: x = %1 y = %2 width = %3 height = %4\n"
 "Display Mode: %5"
 msgstr ""
 
-#: libs/ui/kis_statusbar.cc:361
+#: libs/ui/kis_statusbar.cc:363
 #, fuzzy, kde-format
 #| msgid "Current Section"
 msgid "No Selection"
 msgstr "Жорий бўлим"
 
-#: libs/ui/kis_statusbar.cc:380
+#: libs/ui/kis_statusbar.cc:382
 #, kde-format
 msgid "No profile"
 msgstr ""
@@ -17613,7 +17613,12 @@ msgstr ""
 msgid "There were problems opening %1."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1575
+#: libs/ui/KisDocument.cpp:1228
+#, fuzzy, kde-format
+msgid "Not Saved"
+msgstr "Услубларни импорт қилиш"
+
+#: libs/ui/KisDocument.cpp:1574
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -17814,71 +17819,78 @@ msgstr ""
 msgid "Also save your image as a Krita file."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:173
+#: libs/ui/KisMainWindow.cpp:175
 #, fuzzy, kde-format
 #| msgid "Guide Lines"
 msgctxt "@action:inmenu"
 msgid "&Dockers"
 msgstr "Ёрдамчи чизиқлар"
 
-#: libs/ui/KisMainWindow.cpp:174
+#: libs/ui/KisMainWindow.cpp:176
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Window"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:175
+#: libs/ui/KisMainWindow.cpp:177
 #, fuzzy, kde-format
 #| msgid "&Split View"
 msgctxt "@action:inmenu"
 msgid "New &View"
 msgstr "Кўр&инишни бўлиш"
 
-#: libs/ui/KisMainWindow.cpp:176
+#: libs/ui/KisMainWindow.cpp:178
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "&Алмаштириш:"
 
-#: libs/ui/KisMainWindow.cpp:448
+#: libs/ui/KisMainWindow.cpp:450
 #, fuzzy, kde-format
 #| msgid "Show %1 Toolbar"
 msgid "Show %1 Toolbar"
 msgstr "%1 асбоблар панелини кўрсатиш"
 
-#: libs/ui/KisMainWindow.cpp:450
+#: libs/ui/KisMainWindow.cpp:452
 #, fuzzy, kde-format
 #| msgid "Hide %1 Toolbar"
 msgid "Hide %1 Toolbar"
 msgstr "%1 асбоблар панелини бекитиш"
 
-#: libs/ui/KisMainWindow.cpp:736
+#: libs/ui/KisMainWindow.cpp:739
 #, fuzzy, kde-format
-msgid "(write protected)"
+msgid "Write Protected"
 msgstr "Файлни яратиш"
 
-#: libs/ui/KisMainWindow.cpp:740
-#, kde-format
-msgid "[RECOVERED]"
-msgstr ""
+#: libs/ui/KisMainWindow.cpp:743
+#, fuzzy, kde-format
+#| msgid "Palettes"
+msgid "Recovered"
+msgstr "Асбоб ойналари"
 
-#: libs/ui/KisMainWindow.cpp:751
+#: libs/ui/KisMainWindow.cpp:752
+#, fuzzy, kde-format
+#| msgid "Modified:"
+msgid "Modified"
+msgstr "Ўзгарган:"
+
+#: libs/ui/KisMainWindow.cpp:773
 #, kde-format
 msgid "Save as %1"
 msgstr "%1 сифатида сақлаш"
 
-#: libs/ui/KisMainWindow.cpp:789
+#: libs/ui/KisMainWindow.cpp:811
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisMainWindow.cpp:852
+#: libs/ui/KisMainWindow.cpp:874
 #, fuzzy, kde-format
 #| msgid "Palettes"
 msgid "Open Images"
 msgstr "Асбоб ойналари"
 
-#: libs/ui/KisMainWindow.cpp:939
+#: libs/ui/KisMainWindow.cpp:961
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -17887,38 +17899,38 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1004
+#: libs/ui/KisMainWindow.cpp:1026
 #, fuzzy, kde-format
 msgid "Exporting"
 msgstr "&Экспорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:1004
+#: libs/ui/KisMainWindow.cpp:1026
 #, fuzzy, kde-format
 msgid "Saving As"
 msgstr "Санани кўриниши"
 
-#: libs/ui/KisMainWindow.cpp:1369
+#: libs/ui/KisMainWindow.cpp:1391
 #, kde-format
 msgid "Create from Clipboard"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1625
+#: libs/ui/KisMainWindow.cpp:1647
 #, fuzzy, kde-format
 #| msgid "E&xport..."
 msgid "Export as PDF"
 msgstr "&Экспорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:1667
+#: libs/ui/KisMainWindow.cpp:1689
 #, kde-format
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1689
+#: libs/ui/KisMainWindow.cpp:1711
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Услубларни импорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:1697
+#: libs/ui/KisMainWindow.cpp:1719
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open\n"
@@ -17930,7 +17942,7 @@ msgstr ""
 "%1\n"
 "файлини очиб бўлмади."
 
-#: libs/ui/KisMainWindow.cpp:1775
+#: libs/ui/KisMainWindow.cpp:1797
 #, fuzzy, kde-format
 #| msgid ""
 #| "You will lose all your changes!\n"
@@ -17942,92 +17954,92 @@ msgstr ""
 "Киритилган ҳамма ўзгаришлар йўқолади!\n"
 "Давом этишни истайсизми?"
 
-#: libs/ui/KisMainWindow.cpp:1786
+#: libs/ui/KisMainWindow.cpp:1808
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "Error: Could not reload this document"
 msgstr "Сақлаш учун файлни яратиб бўлмади"
 
-#: libs/ui/KisMainWindow.cpp:2004
+#: libs/ui/KisMainWindow.cpp:2026
 #, fuzzy, kde-format
 #| msgid "Import Document"
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "Ҳужжатни импорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:2016 libs/widgets/KoResourceItemChooser.cpp:209
+#: libs/ui/KisMainWindow.cpp:2038 libs/widgets/KoResourceItemChooser.cpp:209
 #, fuzzy, kde-format
 #| msgid "Choose Filter"
 msgctxt "@title:window"
 msgid "Choose File to Add"
 msgstr "Филтерни танлаш"
 
-#: libs/ui/KisMainWindow.cpp:2022
+#: libs/ui/KisMainWindow.cpp:2044
 #, fuzzy, kde-format
 #| msgid "Import Document"
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "Ҳужжатни импорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:2025
+#: libs/ui/KisMainWindow.cpp:2047
 #, fuzzy, kde-format
 #| msgid "Import Document"
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "Ҳужжатни импорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:2039 libs/ui/widgets/kis_workspace_chooser.cpp:128
+#: libs/ui/KisMainWindow.cpp:2061 libs/ui/widgets/kis_workspace_chooser.cpp:128
 #, kde-format
 msgid "Workspace"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2050 libs/ui/widgets/kis_workspace_chooser.cpp:139
+#: libs/ui/KisMainWindow.cpp:2072 libs/ui/widgets/kis_workspace_chooser.cpp:139
 #, kde-format
 msgid "Workspace %1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2078
+#: libs/ui/KisMainWindow.cpp:2100
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgid "&%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2081
+#: libs/ui/KisMainWindow.cpp:2103
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgid "%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2188
+#: libs/ui/KisMainWindow.cpp:2210
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2196
+#: libs/ui/KisMainWindow.cpp:2218
 #, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2205
+#: libs/ui/KisMainWindow.cpp:2227
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2266
+#: libs/ui/KisMainWindow.cpp:2288
 #, fuzzy, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr "Бошқа ҳужжат сифатида сақлаш"
 
-#: libs/ui/KisMainWindow.cpp:2331
+#: libs/ui/KisMainWindow.cpp:2353
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2369
+#: libs/ui/KisMainWindow.cpp:2391
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
