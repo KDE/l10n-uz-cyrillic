@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-23 03:11+0100\n"
+"POT-Creation-Date: 2017-12-24 03:09+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -22801,12 +22801,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnReset)
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
 #. i18n: ectx: property (text), widget (QPushButton, reset)
 #. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
 #. i18n: ectx: property (text), widget (QPushButton, resetOriginButton)
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
 #: plugins/dockers/artisticcolorselector/forms/wdgArtisticColorSelector.ui:32
 #: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:235
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:374
 #: plugins/impex/video/video_export_options_dialog.ui:128
 #: plugins/tools/basictools/wdgmultihandtool.ui:97
 #, fuzzy, kde-format
@@ -28883,7 +28885,7 @@ msgstr "Бошқа ҳужжат"
 msgid "HSV/HSL Adjustment"
 msgstr "Бошқа ҳужжат"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:494
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:496
 #, fuzzy, kde-format
 #| msgid "Custom Document"
 msgid "&Color Adjustment curves..."
@@ -28898,7 +28900,7 @@ msgstr "Бошқа ҳужжат"
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPerChannel)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgBrightnessContrast)
 #: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:20
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:14
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:20
 #, fuzzy, kde-format
 msgid "BrightnessCon"
 msgstr "Оч кулранг"
@@ -29066,35 +29068,32 @@ msgstr "Тўйинтириш"
 msgid "&Hue:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, labelIn)
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:67
+#, kde-format
+msgid "         Input:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelOut)
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:93
+#, fuzzy, kde-format
+#| msgid "I&mport..."
+msgid "         Output:"
+msgstr "&Импорт қилиш"
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:201
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:335
 #, fuzzy, kde-format
 msgid "Channel:"
 msgstr "Белги услубини ўзгартириш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLogarithmic)
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:227
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:361
 #: plugins/filters/levelfilter/wdg_level.ui:65
 #: plugins/filters/threshold/wdg_threshold.ui:55
 #, fuzzy, kde-format
 msgid "Logarithmic"
 msgstr "намойиш"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, labelOut)
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:289
-#: plugins/filters/edgedetection/wdg_edge_detection.ui:70
-#, fuzzy, kde-format
-#| msgid "I&mport..."
-msgid "Output:"
-msgstr "&Импорт қилиш"
-
-#. i18n: ectx: property (text), widget (QLabel, labelIn)
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:315
-#, fuzzy, kde-format
-#| msgid "I&mport..."
-msgid "Input:"
-msgstr "&Импорт қилиш"
 
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.cpp:40
 #, fuzzy, kde-format
@@ -29310,6 +29309,13 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Formula:"
 msgstr "Санани кўриниши"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:70
+#, fuzzy, kde-format
+#| msgid "I&mport..."
+msgid "Output:"
+msgstr "&Импорт қилиш"
 
 #: plugins/filters/embossfilter/kis_emboss_filter.cpp:53
 #, kde-format
@@ -41043,6 +41049,11 @@ msgstr "Жорий бўлим"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~| msgid "I&mport..."
+#~ msgid "Input:"
+#~ msgstr "&Импорт қилиш"
 
 #, fuzzy
 #~ msgid "Engine Default Preset"
