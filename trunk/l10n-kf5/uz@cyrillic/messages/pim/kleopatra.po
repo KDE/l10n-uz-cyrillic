@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-13 03:15+0100\n"
+"POT-Creation-Date: 2018-01-18 03:20+0100\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -780,7 +780,7 @@ msgid "Revocation Certificates "
 msgstr "Сертификатларни импорт қилиш..."
 
 #: src/commands/genrevokecommand.cpp:139
-#: src/crypto/autodecryptverifyfilescontroller.cpp:224 src/utils/output.cpp:497
+#: src/crypto/autodecryptverifyfilescontroller.cpp:224 src/utils/output.cpp:543
 #, kde-format
 msgid ""
 "The file <b>%1</b> already exists.\n"
@@ -788,7 +788,7 @@ msgid ""
 msgstr ""
 
 #: src/commands/genrevokecommand.cpp:141
-#: src/crypto/autodecryptverifyfilescontroller.cpp:226 src/utils/output.cpp:499
+#: src/crypto/autodecryptverifyfilescontroller.cpp:226 src/utils/output.cpp:545
 #, fuzzy, kde-format
 #| msgid "Overwrite File?"
 msgid "Overwrite Existing File?"
@@ -844,7 +844,7 @@ msgid "Could not determine certificate type of clipboard contents."
 msgstr ""
 
 #: src/commands/importcertificatefromclipboardcommand.cpp:135
-#: src/utils/clipboardmenu.cpp:44 src/utils/output.cpp:659
+#: src/utils/clipboardmenu.cpp:44 src/utils/output.cpp:705
 #, kde-format
 msgid "Clipboard"
 msgstr ""
@@ -2172,7 +2172,7 @@ msgstr ""
 msgid "Failed to move <filename>%1</filename> to <filename>%2</filename>."
 msgstr ""
 
-#: src/crypto/autodecryptverifyfilescontroller.cpp:228 src/utils/output.cpp:501
+#: src/crypto/autodecryptverifyfilescontroller.cpp:228 src/utils/output.cpp:547
 #, fuzzy, kde-format
 #| msgid "Overwrite File?"
 msgid "Overwrite All"
@@ -2227,7 +2227,7 @@ msgid ""
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:349
-#: src/dialogs/updatenotification.cpp:94 src/mainwindow.cpp:622
+#: src/dialogs/updatenotification.cpp:94 src/mainwindow.cpp:648
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Cancel"
@@ -2245,14 +2245,14 @@ msgid "Create Checksum Progress"
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:627
-#: src/crypto/verifychecksumscontroller.cpp:607 src/utils/output.cpp:631
+#: src/crypto/verifychecksumscontroller.cpp:607 src/utils/output.cpp:677
 #, kde-format
 msgid "Error while running %1: %2"
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:630
-#: src/crypto/verifychecksumscontroller.cpp:610 src/utils/input.cpp:349
-#: src/utils/output.cpp:634
+#: src/crypto/verifychecksumscontroller.cpp:610 src/utils/input.cpp:397
+#: src/utils/output.cpp:680
 #, kde-format
 msgid "Failed to execute %1: %2"
 msgstr ""
@@ -2601,9 +2601,9 @@ msgstr ""
 #: src/crypto/decryptverifytask.cpp:536 src/crypto/decryptverifytask.cpp:557
 #: src/crypto/signencryptfilestask.cpp:245
 #: src/crypto/signencryptfilestask.cpp:262
-#: src/crypto/signencryptfilestask.cpp:561
-#: src/crypto/signencryptfilestask.cpp:589
-#: src/crypto/signencryptfilestask.cpp:617
+#: src/crypto/signencryptfilestask.cpp:571
+#: src/crypto/signencryptfilestask.cpp:599
+#: src/crypto/signencryptfilestask.cpp:627
 #, kde-format
 msgid "Input error: %1"
 msgstr ""
@@ -3090,7 +3090,7 @@ msgid ""
 msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:302
-#: src/crypto/gui/signencryptfileswizard.cpp:310
+#: src/crypto/gui/signencryptfileswizard.cpp:310 src/view/padwidget.cpp:278
 #, kde-format
 msgctxt ""
 "VS-NfD-conforming is a German standard for restricted documents for which "
@@ -3101,7 +3101,7 @@ msgid "VS-NfD-compliant communication possible."
 msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:304
-#: src/crypto/gui/signencryptfileswizard.cpp:312
+#: src/crypto/gui/signencryptfileswizard.cpp:312 src/view/padwidget.cpp:280
 #, kde-format
 msgctxt ""
 "VS-NfD-conforming is a German standard for restricted documents for which "
@@ -3269,44 +3269,44 @@ msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:109
+#: src/crypto/gui/signencryptwidget.cpp:121
 #, kde-format
 msgid "Prove authenticity (sign)"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:110
+#: src/crypto/gui/signencryptwidget.cpp:122
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Sign as:"
 msgstr "Бекор қилинди."
 
-#: src/crypto/gui/signencryptwidget.cpp:130
-#: src/crypto/gui/signencryptwidget.cpp:312
+#: src/crypto/gui/signencryptwidget.cpp:141
+#: src/crypto/gui/signencryptwidget.cpp:323
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action"
 msgid "Encrypt"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:137
+#: src/crypto/gui/signencryptwidget.cpp:147
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt for me:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:143
+#: src/crypto/gui/signencryptwidget.cpp:153
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt for others:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:172
+#: src/crypto/gui/signencryptwidget.cpp:182
 #, kde-format
 msgid ""
 "Encrypt with password. Anyone you share the password with can read the data."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:174
+#: src/crypto/gui/signencryptwidget.cpp:184
 #, kde-format
 msgctxt "Tooltip information for symetric encryption"
 msgid ""
@@ -3316,14 +3316,14 @@ msgid ""
 "Even if you pick a very strong password."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:310
+#: src/crypto/gui/signencryptwidget.cpp:321
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action"
 msgid "Sign / Encrypt"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:314
+#: src/crypto/gui/signencryptwidget.cpp:325
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@action"
@@ -3586,7 +3586,7 @@ msgctxt "label: result. Example: foo -> foo.gpg: Encryption failed."
 msgid "%1: <b>%2</b>"
 msgstr ""
 
-#: src/crypto/signencryptfilestask.cpp:442
+#: src/crypto/signencryptfilestask.cpp:449
 #, kde-format
 msgid "Cannot determine protocol for task"
 msgstr ""
@@ -3995,53 +3995,66 @@ msgstr ""
 msgid "Related addresses:"
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:111
+#: src/dialogs/certificateselectiondialog.cpp:112
 #, kde-format
 msgid "Please select one or more of the following certificates:"
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:112
+#: src/dialogs/certificateselectiondialog.cpp:113
 #, kde-format
 msgid "Please select one of the following certificates:"
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:149
+#: src/dialogs/certificateselectiondialog.cpp:150
 #, kde-format
 msgid "Reload"
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:150
+#: src/dialogs/certificateselectiondialog.cpp:151
+#: src/view/keylistcontroller.cpp:397 src/view/welcomewidget.cpp:87
+#, kde-format
+msgid "Import..."
+msgstr ""
+
+#: src/dialogs/certificateselectiondialog.cpp:152
 #, kde-format
 msgid "Lookup..."
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:151
+#: src/dialogs/certificateselectiondialog.cpp:153
 #, kde-format
 msgid "New..."
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:153
+#: src/dialogs/certificateselectiondialog.cpp:155
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "@info:tooltip"
+msgid "Import certificate from file"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/dialogs/certificateselectiondialog.cpp:156
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info:tooltip"
 msgid "Lookup certificates on server"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificateselectiondialog.cpp:154
+#: src/dialogs/certificateselectiondialog.cpp:157
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info:tooltip"
 msgid "Refresh certificate list"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificateselectiondialog.cpp:155
+#: src/dialogs/certificateselectiondialog.cpp:158
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info:tooltip"
 msgid "Create a new certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificateselectiondialog.cpp:180
+#: src/dialogs/certificateselectiondialog.cpp:194
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certificate Selection"
@@ -5133,37 +5146,37 @@ msgstr ""
 
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
-#: src/kleopatra.rc:38 src/kleopatra.rc:104
+#: src/kleopatra.rc:40 src/kleopatra.rc:109
 #, kde-format
 msgid "&Certificates"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
-#: src/kleopatra.rc:53
+#: src/kleopatra.rc:55
 #, kde-format
 msgid "&Tools"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: src/kleopatra.rc:69
+#: src/kleopatra.rc:73
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: Menu (window)
-#: src/kleopatra.rc:73
+#: src/kleopatra.rc:77
 #, kde-format
 msgid "&Window"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
-#: src/kleopatra.rc:84
+#: src/kleopatra.rc:88
 #, kde-format
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/kleopatra.rc:91 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:95 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -5409,30 +5422,30 @@ msgstr ""
 msgid "Invalid arguments: %1"
 msgstr ""
 
-#: src/mainwindow.cpp:108
+#: src/mainwindow.cpp:109
 #, kde-format
 msgctxt "Quit [ApplicationName]"
 msgid "&Quit %1"
 msgstr ""
 
-#: src/mainwindow.cpp:115
+#: src/mainwindow.cpp:116
 #, kde-format
 msgid "Only &Close Window"
 msgstr ""
 
-#: src/mainwindow.cpp:155
+#: src/mainwindow.cpp:156
 #, kde-format
 msgid ""
 "%1 may be used by other applications as a service.\n"
 "You may instead want to close this window without exiting %1."
 msgstr ""
 
-#: src/mainwindow.cpp:157
+#: src/mainwindow.cpp:158
 #, kde-format
 msgid "Really Quit?"
 msgstr ""
 
-#: src/mainwindow.cpp:196
+#: src/mainwindow.cpp:197
 #, kde-format
 msgctxt ""
 "Compliance means that GnuPG is running in a more restricted mode e.g. to "
@@ -5440,19 +5453,19 @@ msgctxt ""
 msgid "Compliance: %1"
 msgstr ""
 
-#: src/mainwindow.cpp:215
+#: src/mainwindow.cpp:216
 #, kde-format
 msgid ""
 "Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
 "installation."
 msgstr ""
 
-#: src/mainwindow.cpp:217
+#: src/mainwindow.cpp:218
 #, kde-format
 msgid "Error Starting KWatchGnuPG"
 msgstr ""
 
-#: src/mainwindow.cpp:231
+#: src/mainwindow.cpp:232
 #, kde-format
 msgctxt ""
 "The Gpg4win compendium is only availableat this point (24.7.2017) in german "
@@ -5460,86 +5473,97 @@ msgctxt ""
 msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:392
+#: src/mainwindow.cpp:400
 #, kde-format
 msgid "GnuPG Log Viewer"
 msgstr ""
 
-#: src/mainwindow.cpp:398
+#: src/mainwindow.cpp:406
 #, kde-format
 msgid "Check for updates"
 msgstr ""
 
-#: src/mainwindow.cpp:402
+#: src/mainwindow.cpp:410
 #, kde-format
 msgid "Gpg4win Compendium"
 msgstr ""
 
-#: src/mainwindow.cpp:409
+#: src/mainwindow.cpp:415
+#, kde-format
+msgctxt "Title for a generic data input / output area supporting text actions."
+msgid "Notepad"
+msgstr ""
+
+#: src/mainwindow.cpp:416
+#, kde-format
+msgid "Switch to Pad view."
+msgstr ""
+
+#: src/mainwindow.cpp:421
 #, kde-format
 msgid "Configure GnuPG Backend..."
 msgstr ""
 
-#: src/mainwindow.cpp:415
+#: src/mainwindow.cpp:427
 #, kde-format
 msgid "Perform Self-Test"
 msgstr ""
 
-#: src/mainwindow.cpp:419
+#: src/mainwindow.cpp:431
 #, kde-format
 msgid "Manage Smartcards"
 msgstr ""
 
-#: src/mainwindow.cpp:420
+#: src/mainwindow.cpp:432
 #, kde-format
 msgid "Edit or initialize a crypto hardware token."
 msgstr ""
 
-#: src/mainwindow.cpp:438
+#: src/mainwindow.cpp:450
 #, kde-format
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/mainwindow.cpp:459
+#: src/mainwindow.cpp:471
 #, kde-format
 msgid "Could not configure the cryptography backend (gpgconf tool not found)"
 msgstr ""
 
-#: src/mainwindow.cpp:459
+#: src/mainwindow.cpp:471
 #, kde-format
 msgid "Configuration Error"
 msgstr ""
 
-#: src/mainwindow.cpp:494
+#: src/mainwindow.cpp:520
 #, kde-format
 msgid ""
 "There are still some background operations ongoing. These will be terminated "
 "when closing the window. Proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:497
+#: src/mainwindow.cpp:523
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:606 src/view/keylistcontroller.cpp:405
+#: src/mainwindow.cpp:632 src/view/keylistcontroller.cpp:405
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
-#: src/mainwindow.cpp:607 src/utils/clipboardmenu.cpp:49
+#: src/mainwindow.cpp:633 src/utils/clipboardmenu.cpp:49
 #: src/view/keylistcontroller.cpp:401
 #, kde-format
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#: src/mainwindow.cpp:612
+#: src/mainwindow.cpp:638
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Import Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/mainwindow.cpp:613
+#: src/mainwindow.cpp:639
 #, kde-format
 msgid "Import CRLs"
 msgstr ""
@@ -7109,71 +7133,71 @@ msgstr ""
 msgid "Premature end of hex-encoded char in input stream"
 msgstr ""
 
-#: src/utils/input.cpp:199
+#: src/utils/input.cpp:247
 #, kde-format
 msgid "Could not open FD %1 for reading"
 msgstr ""
 
-#: src/utils/input.cpp:229 src/utils/input.cpp:245
+#: src/utils/input.cpp:277 src/utils/input.cpp:293
 #, kde-format
 msgid "Could not open file \"%1\" for reading"
 msgstr ""
 
-#: src/utils/input.cpp:242
+#: src/utils/input.cpp:290
 #, kde-format
 msgid "File \"%1\" is already open, but not for reading"
 msgstr ""
 
-#: src/utils/input.cpp:310 src/utils/output.cpp:601
+#: src/utils/input.cpp:358 src/utils/output.cpp:647
 #, kde-format
 msgid "Command not specified"
 msgstr ""
 
-#: src/utils/input.cpp:315 src/utils/output.cpp:607
+#: src/utils/input.cpp:363 src/utils/output.cpp:653
 #, kde-format
 msgid "Could not start %1 process: %2"
 msgstr ""
 
-#: src/utils/input.cpp:320
+#: src/utils/input.cpp:368
 #, kde-format
 msgid "Failed to write input to %1 process: %2"
 msgstr ""
 
-#: src/utils/input.cpp:333
+#: src/utils/input.cpp:381
 #, kde-format
 msgctxt "e.g. \"Output of tar xf - file1 ...\""
 msgid "Output of %1 ..."
 msgstr ""
 
-#: src/utils/input.cpp:335
+#: src/utils/input.cpp:383
 #, kde-format
 msgctxt "e.g. \"Output of tar xf - file\""
 msgid "Output of %1"
 msgstr ""
 
-#: src/utils/input.cpp:346
+#: src/utils/input.cpp:394
 #, kde-format
 msgid ""
 "Error while running %1:\n"
 "%2"
 msgstr ""
 
-#: src/utils/input.cpp:383
+#: src/utils/input.cpp:431
 #, kde-format
 msgid "Could not open clipboard for reading"
 msgstr ""
 
-#: src/utils/input.cpp:395
+#: src/utils/input.cpp:443
 #, kde-format
 msgid "Clipboard contents"
 msgstr ""
 
-#: src/utils/input.cpp:397
+#: src/utils/input.cpp:445
 #, kde-format
 msgid "FindBuffer contents"
 msgstr ""
 
-#: src/utils/input.cpp:399
+#: src/utils/input.cpp:447
 #, fuzzy, kde-format
 #| msgid "Current Maintainer"
 msgid "Current selection"
@@ -7194,60 +7218,60 @@ msgstr ""
 msgid "No output device"
 msgstr ""
 
-#: src/utils/output.cpp:463
+#: src/utils/output.cpp:509
 #, kde-format
 msgid "Could not open FD %1 for writing"
 msgstr ""
 
-#: src/utils/output.cpp:489
+#: src/utils/output.cpp:535
 #, kde-format
 msgid "Could not create temporary file for output \"%1\""
 msgstr ""
 
-#: src/utils/output.cpp:551
+#: src/utils/output.cpp:597
 #, fuzzy, kde-format
 #| msgid "Overwrite File?"
 msgid "Overwriting declined"
 msgstr "Файлни алмаштиришни истайсизми?"
 
-#: src/utils/output.cpp:557
+#: src/utils/output.cpp:603
 #, kde-format
 msgid "Could not remove file \"%1\" for overwriting."
 msgstr ""
 
-#: src/utils/output.cpp:573
+#: src/utils/output.cpp:619
 #, kde-format
 msgid "Could not rename file \"%1\" to \"%2\""
 msgstr ""
 
-#: src/utils/output.cpp:618
+#: src/utils/output.cpp:664
 #, kde-format
 msgctxt "e.g. \"Input to tar xf - file1 ...\""
 msgid "Input to %1 ..."
 msgstr ""
 
-#: src/utils/output.cpp:620
+#: src/utils/output.cpp:666
 #, kde-format
 msgctxt "e.g. \"Input to tar xf - file\""
 msgid "Input to %1"
 msgstr ""
 
-#: src/utils/output.cpp:652
+#: src/utils/output.cpp:698
 #, kde-format
 msgid "Could not write to clipboard"
 msgstr ""
 
-#: src/utils/output.cpp:661
+#: src/utils/output.cpp:707
 #, kde-format
 msgid "Find buffer"
 msgstr ""
 
-#: src/utils/output.cpp:663
+#: src/utils/output.cpp:709
 #, kde-format
 msgid "Selection"
 msgstr ""
 
-#: src/utils/output.cpp:677
+#: src/utils/output.cpp:723
 #, kde-format
 msgid "Could not find clipboard"
 msgstr ""
@@ -7312,11 +7336,6 @@ msgstr "Сертификатларни импорт қилиш..."
 #| msgid "Certificate Details..."
 msgid "Search for certificates online using a public keyserver"
 msgstr "Сертификат тафсилотлари..."
-
-#: src/view/keylistcontroller.cpp:397 src/view/welcomewidget.cpp:87
-#, kde-format
-msgid "Import..."
-msgstr ""
 
 #: src/view/keylistcontroller.cpp:397
 #, fuzzy, kde-format
@@ -7548,6 +7567,43 @@ msgstr ""
 #: src/view/nullpinwidget.cpp:92
 #, kde-format
 msgid "Set initial PIN"
+msgstr ""
+
+#: src/view/padwidget.cpp:72 src/view/padwidget.cpp:264
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgid "Sign / Encrypt Notepad"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:73
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgid "Decrypt / Verify Notepad"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:114
+#, kde-format
+msgid "<h3>Recipients:</h3>"
+msgstr ""
+
+#: src/view/padwidget.cpp:166 src/view/padwidget.cpp:189
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@title"
+msgid "Error in crypto action"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:177
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgid "Decrypt / Verify"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:178 src/view/padwidget.cpp:179
+#: src/view/padwidget.cpp:228 src/view/padwidget.cpp:229
+#: src/view/padwidget.cpp:262
+#, kde-format
+msgid "Notepad"
 msgstr ""
 
 #: src/view/pgpcardwidget.cpp:156
