@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-18 03:20+0100\n"
+"POT-Creation-Date: 2018-01-19 03:25+0100\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2227,7 +2227,7 @@ msgid ""
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:349
-#: src/dialogs/updatenotification.cpp:94 src/mainwindow.cpp:648
+#: src/dialogs/updatenotification.cpp:94 src/mainwindow.cpp:644
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Cancel"
@@ -2492,7 +2492,7 @@ msgctxt ""
 msgid "The signature <b>is not</b> VS-NfD-compliant."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:322 src/crypto/signencryptfilestask.cpp:71
+#: src/crypto/decryptverifytask.cpp:322 src/crypto/signencrypttask.cpp:71
 #, kde-format
 msgctxt "Input file --> Output file (rarr is arrow"
 msgid "%1 &rarr; %2"
@@ -2599,11 +2599,9 @@ msgid ""
 msgstr ""
 
 #: src/crypto/decryptverifytask.cpp:536 src/crypto/decryptverifytask.cpp:557
-#: src/crypto/signencryptfilestask.cpp:245
-#: src/crypto/signencryptfilestask.cpp:262
-#: src/crypto/signencryptfilestask.cpp:571
-#: src/crypto/signencryptfilestask.cpp:599
-#: src/crypto/signencryptfilestask.cpp:627
+#: src/crypto/signencrypttask.cpp:245 src/crypto/signencrypttask.cpp:262
+#: src/crypto/signencrypttask.cpp:571 src/crypto/signencrypttask.cpp:599
+#: src/crypto/signencrypttask.cpp:627
 #, kde-format
 msgid "Input error: %1"
 msgstr ""
@@ -2752,7 +2750,7 @@ msgstr ""
 msgid "User cancel"
 msgstr ""
 
-#: src/crypto/encryptemailtask.cpp:82 src/crypto/signencryptfilestask.cpp:198
+#: src/crypto/encryptemailtask.cpp:82 src/crypto/signencrypttask.cpp:198
 #, kde-format
 msgid "Encryption canceled."
 msgstr ""
@@ -2762,7 +2760,7 @@ msgstr ""
 msgid "Encryption failed: %1"
 msgstr ""
 
-#: src/crypto/encryptemailtask.cpp:89 src/crypto/signencryptfilestask.cpp:205
+#: src/crypto/encryptemailtask.cpp:89 src/crypto/signencrypttask.cpp:205
 #, kde-format
 msgid "Encryption succeeded."
 msgstr ""
@@ -3090,7 +3088,7 @@ msgid ""
 msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:302
-#: src/crypto/gui/signencryptfileswizard.cpp:310 src/view/padwidget.cpp:278
+#: src/crypto/gui/signencryptfileswizard.cpp:310 src/view/padwidget.cpp:306
 #, kde-format
 msgctxt ""
 "VS-NfD-conforming is a German standard for restricted documents for which "
@@ -3101,7 +3099,7 @@ msgid "VS-NfD-compliant communication possible."
 msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:304
-#: src/crypto/gui/signencryptfileswizard.cpp:312 src/view/padwidget.cpp:280
+#: src/crypto/gui/signencryptfileswizard.cpp:312 src/view/padwidget.cpp:308
 #, kde-format
 msgctxt ""
 "VS-NfD-conforming is a German standard for restricted documents for which "
@@ -3471,7 +3469,7 @@ msgctxt "@title:window"
 msgid "Error"
 msgstr ""
 
-#: src/crypto/signemailtask.cpp:86 src/crypto/signencryptfilestask.cpp:181
+#: src/crypto/signemailtask.cpp:86 src/crypto/signencrypttask.cpp:181
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Signing canceled."
@@ -3482,7 +3480,7 @@ msgstr "Бекор қилинди."
 msgid "Signing failed: %1"
 msgstr ""
 
-#: src/crypto/signemailtask.cpp:93 src/crypto/signencryptfilestask.cpp:187
+#: src/crypto/signemailtask.cpp:93 src/crypto/signencrypttask.cpp:187
 #, kde-format
 msgid "Signing succeeded."
 msgstr ""
@@ -3539,54 +3537,53 @@ msgid ""
 "slotWizardOperationPrepared"
 msgstr ""
 
-#: src/crypto/signencryptfilestask.cpp:185
+#: src/crypto/signencrypttask.cpp:185
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Signing failed."
 msgstr "Бекор қилинди."
 
-#: src/crypto/signencryptfilestask.cpp:202
+#: src/crypto/signencrypttask.cpp:202
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encryption failed."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/signencryptfilestask.cpp:230
+#: src/crypto/signencrypttask.cpp:230
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Signing and encryption succeeded."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/signencryptfilestask.cpp:247
-#: src/crypto/signencryptfilestask.cpp:264
+#: src/crypto/signencrypttask.cpp:247 src/crypto/signencrypttask.cpp:264
 #, kde-format
 msgid "Output error: %1"
 msgstr ""
 
-#: src/crypto/signencryptfilestask.cpp:271
+#: src/crypto/signencrypttask.cpp:271
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid " Encryption succeeded."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/signencryptfilestask.cpp:283
+#: src/crypto/signencrypttask.cpp:283
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "%1: <b>Sign/encrypt canceled.</b>"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/signencryptfilestask.cpp:283
+#: src/crypto/signencrypttask.cpp:283
 #, kde-format
 msgid " %1: Sign/encrypt failed."
 msgstr ""
 
-#: src/crypto/signencryptfilestask.cpp:285
+#: src/crypto/signencrypttask.cpp:285
 #, kde-format
 msgctxt "label: result. Example: foo -> foo.gpg: Encryption failed."
 msgid "%1: <b>%2</b>"
 msgstr ""
 
-#: src/crypto/signencryptfilestask.cpp:449
+#: src/crypto/signencrypttask.cpp:449
 #, kde-format
 msgid "Cannot determine protocol for task"
 msgstr ""
@@ -5422,30 +5419,30 @@ msgstr ""
 msgid "Invalid arguments: %1"
 msgstr ""
 
-#: src/mainwindow.cpp:109
+#: src/mainwindow.cpp:110
 #, kde-format
 msgctxt "Quit [ApplicationName]"
 msgid "&Quit %1"
 msgstr ""
 
-#: src/mainwindow.cpp:116
+#: src/mainwindow.cpp:117
 #, kde-format
 msgid "Only &Close Window"
 msgstr ""
 
-#: src/mainwindow.cpp:156
+#: src/mainwindow.cpp:157
 #, kde-format
 msgid ""
 "%1 may be used by other applications as a service.\n"
 "You may instead want to close this window without exiting %1."
 msgstr ""
 
-#: src/mainwindow.cpp:158
+#: src/mainwindow.cpp:159
 #, kde-format
 msgid "Really Quit?"
 msgstr ""
 
-#: src/mainwindow.cpp:197
+#: src/mainwindow.cpp:198
 #, kde-format
 msgctxt ""
 "Compliance means that GnuPG is running in a more restricted mode e.g. to "
@@ -5453,19 +5450,19 @@ msgctxt ""
 msgid "Compliance: %1"
 msgstr ""
 
-#: src/mainwindow.cpp:216
+#: src/mainwindow.cpp:217
 #, kde-format
 msgid ""
 "Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
 "installation."
 msgstr ""
 
-#: src/mainwindow.cpp:218
+#: src/mainwindow.cpp:219
 #, kde-format
 msgid "Error Starting KWatchGnuPG"
 msgstr ""
 
-#: src/mainwindow.cpp:232
+#: src/mainwindow.cpp:233
 #, kde-format
 msgctxt ""
 "The Gpg4win compendium is only availableat this point (24.7.2017) in german "
@@ -5473,97 +5470,97 @@ msgctxt ""
 msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:400
+#: src/mainwindow.cpp:410
 #, kde-format
 msgid "GnuPG Log Viewer"
 msgstr ""
 
-#: src/mainwindow.cpp:406
+#: src/mainwindow.cpp:416
 #, kde-format
 msgid "Check for updates"
 msgstr ""
 
-#: src/mainwindow.cpp:410
+#: src/mainwindow.cpp:420
 #, kde-format
 msgid "Gpg4win Compendium"
 msgstr ""
 
-#: src/mainwindow.cpp:415
+#: src/mainwindow.cpp:425
 #, kde-format
 msgctxt "Title for a generic data input / output area supporting text actions."
 msgid "Notepad"
 msgstr ""
 
-#: src/mainwindow.cpp:416
+#: src/mainwindow.cpp:426
 #, kde-format
 msgid "Switch to Pad view."
 msgstr ""
 
-#: src/mainwindow.cpp:421
+#: src/mainwindow.cpp:431
 #, kde-format
 msgid "Configure GnuPG Backend..."
 msgstr ""
 
-#: src/mainwindow.cpp:427
+#: src/mainwindow.cpp:437
 #, kde-format
 msgid "Perform Self-Test"
 msgstr ""
 
-#: src/mainwindow.cpp:431
+#: src/mainwindow.cpp:441
 #, kde-format
 msgid "Manage Smartcards"
 msgstr ""
 
-#: src/mainwindow.cpp:432
+#: src/mainwindow.cpp:442
 #, kde-format
 msgid "Edit or initialize a crypto hardware token."
 msgstr ""
 
-#: src/mainwindow.cpp:450
+#: src/mainwindow.cpp:460
 #, kde-format
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/mainwindow.cpp:471
+#: src/mainwindow.cpp:481
 #, kde-format
 msgid "Could not configure the cryptography backend (gpgconf tool not found)"
 msgstr ""
 
-#: src/mainwindow.cpp:471
+#: src/mainwindow.cpp:481
 #, kde-format
 msgid "Configuration Error"
 msgstr ""
 
-#: src/mainwindow.cpp:520
+#: src/mainwindow.cpp:516
 #, kde-format
 msgid ""
 "There are still some background operations ongoing. These will be terminated "
 "when closing the window. Proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:523
+#: src/mainwindow.cpp:519
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:632 src/view/keylistcontroller.cpp:405
+#: src/mainwindow.cpp:628 src/view/keylistcontroller.cpp:405
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
-#: src/mainwindow.cpp:633 src/utils/clipboardmenu.cpp:49
+#: src/mainwindow.cpp:629 src/utils/clipboardmenu.cpp:49
 #: src/view/keylistcontroller.cpp:401
 #, kde-format
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#: src/mainwindow.cpp:638
+#: src/mainwindow.cpp:634
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Import Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/mainwindow.cpp:639
+#: src/mainwindow.cpp:635
 #, kde-format
 msgid "Import CRLs"
 msgstr ""
@@ -7086,17 +7083,7 @@ msgstr ""
 msgid "Caught unknown exception in group %1"
 msgstr ""
 
-#: src/utils/auditlog.cpp:66
-#, kde-format
-msgid "No Audit Log available"
-msgstr ""
-
-#: src/utils/auditlog.cpp:68
-#, kde-format
-msgid "Error Retrieving Audit Log: %1"
-msgstr ""
-
-#: src/utils/auditlog.cpp:77
+#: src/utils/auditlog.cpp:76
 #, kde-format
 msgctxt "The Audit Log is a detailed error log from the gnupg backend"
 msgid "Show Audit Log"
@@ -7569,39 +7556,44 @@ msgstr ""
 msgid "Set initial PIN"
 msgstr ""
 
-#: src/view/padwidget.cpp:72 src/view/padwidget.cpp:264
+#: src/view/padwidget.cpp:74 src/view/padwidget.cpp:292
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Sign / Encrypt Notepad"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:73
+#: src/view/padwidget.cpp:75
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Decrypt / Verify Notepad"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:114
+#: src/view/padwidget.cpp:76
+#, kde-format
+msgid "Revert"
+msgstr ""
+
+#: src/view/padwidget.cpp:119
 #, kde-format
 msgid "<h3>Recipients:</h3>"
 msgstr ""
 
-#: src/view/padwidget.cpp:166 src/view/padwidget.cpp:189
+#: src/view/padwidget.cpp:182 src/view/padwidget.cpp:217
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title"
 msgid "Error in crypto action"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:177
+#: src/view/padwidget.cpp:194
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Decrypt / Verify"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:178 src/view/padwidget.cpp:179
-#: src/view/padwidget.cpp:228 src/view/padwidget.cpp:229
-#: src/view/padwidget.cpp:262
+#: src/view/padwidget.cpp:195 src/view/padwidget.cpp:196
+#: src/view/padwidget.cpp:256 src/view/padwidget.cpp:257
+#: src/view/padwidget.cpp:290
 #, kde-format
 msgid "Notepad"
 msgstr ""
