@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-25 03:13+0100\n"
+"POT-Creation-Date: 2018-03-01 03:19+0100\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -589,12 +589,12 @@ msgstr "Ҳаммасини танлаш"
 msgid "Deselect All"
 msgstr "Ҳаммасини танлашни бекор қилиш"
 
-#: EditProfileDialog.cpp:76
+#: EditProfileDialog.cpp:78
 #, kde-format
 msgid "Edit Profile"
 msgstr "Профилни таҳрирлаш"
 
-#: EditProfileDialog.cpp:185
+#: EditProfileDialog.cpp:187
 #, kde-format
 msgid ""
 "<p>Konsole does not have permission to save this profile to:<br /> \"%1\"</"
@@ -603,12 +603,12 @@ msgid ""
 "settings to a new profile.</p>"
 msgstr ""
 
-#: EditProfileDialog.cpp:206
+#: EditProfileDialog.cpp:208
 #, kde-format
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: EditProfileDialog.cpp:214
+#: EditProfileDialog.cpp:216
 #, fuzzy, kde-format
 #| msgid ""
 #| "A file with this name already exists.\n"
@@ -618,87 +618,93 @@ msgstr ""
 "Бундай номли файл аллақачон мавжуд.\n"
 "Уни алмаштиришни истайсизми?"
 
-#: EditProfileDialog.cpp:248
+#: EditProfileDialog.cpp:250
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
 msgstr[0] "\"%1\" профилини таҳрирлаш"
 
-#: EditProfileDialog.cpp:253
+#: EditProfileDialog.cpp:255
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "\"%1\" профилини таҳрирлаш"
 
-#: EditProfileDialog.cpp:341
+#: EditProfileDialog.cpp:343
 #, fuzzy, kde-format
 #| msgid "Profile name:"
 msgid "Profile name is empty."
 msgstr "Профилнинг номи:"
 
-#: EditProfileDialog.cpp:412
+#: EditProfileDialog.cpp:414
 #, kde-format
 msgid "Edit Environment"
 msgstr "Муҳитни таҳрирлаш"
 
-#: EditProfileDialog.cpp:413
+#: EditProfileDialog.cpp:415
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: EditProfileDialog.cpp:444
+#: EditProfileDialog.cpp:446
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] ""
 
-#: EditProfileDialog.cpp:521
+#: EditProfileDialog.cpp:523
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "Бошланғич директорияни танлаш"
 
-#: EditProfileDialog.cpp:749
+#: EditProfileDialog.cpp:760
 #, kde-format
 msgid "%1"
 msgstr ""
 
-#: EditProfileDialog.cpp:988
+#: EditProfileDialog.cpp:920
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Scheme <resource>%1</resource> failed to load."
+msgstr ""
+
+#: EditProfileDialog.cpp:1083
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr ""
 
-#: EditProfileDialog.cpp:994
+#: EditProfileDialog.cpp:1089
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:1108 EditProfileDialog.cpp:1120
+#: EditProfileDialog.cpp:1203 EditProfileDialog.cpp:1215
 #, kde-format
 msgid "New Key Binding List"
 msgstr ""
 
-#: EditProfileDialog.cpp:1110
+#: EditProfileDialog.cpp:1205
 #, kde-format
 msgid "Edit Key Binding List"
 msgstr ""
 
-#: EditProfileDialog.cpp:1557
+#: EditProfileDialog.cpp:1652
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Any Font"
 msgstr "Ҳаммасини танлаш"
 
-#: EditProfileDialog.cpp:1560
+#: EditProfileDialog.cpp:1655
 #, kde-format
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1612
+#: EditProfileDialog.cpp:1707
 #, kde-format
 msgid "AaZz09..."
 msgstr ""
@@ -792,7 +798,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, environmentEditButton)
 #. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
 #. i18n: ectx: property (text), widget (QPushButton, editKeyBindingsButton)
-#: EditProfileDialog.ui:203 EditProfileDialog.ui:493 EditProfileDialog.ui:845
+#: EditProfileDialog.ui:203 EditProfileDialog.ui:536 EditProfileDialog.ui:862
 #, kde-format
 msgid "Edit..."
 msgstr "Таҳрирлаш..."
@@ -898,29 +904,21 @@ msgstr "Кўриниши"
 msgid "Color Scheme && Background"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, newColorSchemeButton)
-#: EditProfileDialog.ui:480
-#, kde-format
-msgid "Create a new color scheme based upon the selected scheme"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, newColorSchemeButton)
-#: EditProfileDialog.ui:483
-#, fuzzy, kde-format
-#| msgid "New..."
-msgctxt "@action:button Create an alternate color scheme"
-msgid "New..."
-msgstr "Янги..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, editColorSchemeButton)
-#: EditProfileDialog.ui:490
+#. i18n: ectx: property (toolTip), widget (QPushButton, resetColorSchemeButton)
+#: EditProfileDialog.ui:473
 #, fuzzy, kde-format
 #| msgid "List the available profiles"
-msgid "Edit the selected color scheme"
+msgid "Reset the selected color scheme settings to the default values"
 msgstr "Мавжуд профилларнинг рўйхатини кўрсатиш"
 
+#. i18n: ectx: property (text), widget (QPushButton, resetColorSchemeButton)
+#: EditProfileDialog.ui:476
+#, fuzzy, kde-format
+msgid "Defaults"
+msgstr "Терминал андозаси"
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeColorSchemeButton)
-#: EditProfileDialog.ui:500
+#: EditProfileDialog.ui:483
 #, fuzzy, kde-format
 #| msgid "List the available profiles"
 msgid "Delete the selected color scheme"
@@ -929,204 +927,219 @@ msgstr "Мавжуд профилларнинг рўйхатини кўрсат�
 #. i18n: ectx: property (text), widget (QPushButton, removeEntryButton)
 #. i18n: ectx: property (text), widget (QPushButton, removeColorSchemeButton)
 #. i18n: ectx: property (text), widget (QPushButton, removeKeyBindingsButton)
-#: EditProfileDialog.ui:503 EditProfileDialog.ui:855 KeyBindingEditor.ui:53
+#: EditProfileDialog.ui:486 EditProfileDialog.ui:872 KeyBindingEditor.ui:53
 #, kde-format
 msgid "Remove"
 msgstr "Олиб ташлаш"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, resetColorSchemeButton)
+#. i18n: ectx: property (text), widget (KNS3::Button, downloadColorSchemeButton)
+#: EditProfileDialog.ui:500
+#, fuzzy, kde-format
+#| msgid "New..."
+msgid "Get New..."
+msgstr "Янги..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newColorSchemeButton)
+#: EditProfileDialog.ui:507
+#, kde-format
+msgid "Create a new color scheme based upon the selected scheme"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, newColorSchemeButton)
 #: EditProfileDialog.ui:510
 #, fuzzy, kde-format
+#| msgid "New..."
+msgctxt "@action:button Create an alternate color scheme"
+msgid "New..."
+msgstr "Янги..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, editColorSchemeButton)
+#: EditProfileDialog.ui:533
+#, fuzzy, kde-format
 #| msgid "List the available profiles"
-msgid "Reset the selected color scheme settings to the default values"
+msgid "Edit the selected color scheme"
 msgstr "Мавжуд профилларнинг рўйхатини кўрсатиш"
 
-#. i18n: ectx: property (text), widget (QPushButton, resetColorSchemeButton)
-#: EditProfileDialog.ui:513
-#, fuzzy, kde-format
-msgid "Defaults"
-msgstr "Терминал андозаси"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: EditProfileDialog.ui:539
+#: EditProfileDialog.ui:556
 #, kde-format
 msgid "Font"
 msgstr "Шрифт"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: EditProfileDialog.ui:550
+#: EditProfileDialog.ui:567
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgid "Preview:"
 msgstr "Олдинги"
 
 #. i18n: ectx: property (textElideMode), widget (KSqueezedTextLabel, fontPreviewLabel)
-#: EditProfileDialog.ui:566
+#: EditProfileDialog.ui:583
 #, kde-format
 msgid "Qt::ElideRight"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: EditProfileDialog.ui:577
+#: EditProfileDialog.ui:594
 #, kde-format
 msgid "Text size:"
 msgstr "Матннинг ўлчами:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectFontButton)
-#: EditProfileDialog.ui:603
+#: EditProfileDialog.ui:620
 #, kde-format
 msgid "Select the font used in this profile"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, selectFontButton)
-#: EditProfileDialog.ui:606
+#: EditProfileDialog.ui:623
 #, fuzzy, kde-format
 #| msgid "Edit Font..."
 msgid "Select Font..."
 msgstr "Шрифтни таҳрирлаш..."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showAllFontsButton)
-#: EditProfileDialog.ui:613
+#: EditProfileDialog.ui:630
 #, kde-format
 msgid "Show all fonts instead of the monospaced fonts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showAllFontsButton)
-#: EditProfileDialog.ui:616
+#: EditProfileDialog.ui:633
 #, kde-format
 msgid "Show All Fonts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, antialiasTextButton)
-#: EditProfileDialog.ui:638
+#: EditProfileDialog.ui:655
 #, kde-format
 msgid "Smooth fonts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, boldIntenseButton)
-#: EditProfileDialog.ui:645
+#: EditProfileDialog.ui:662
 #, kde-format
 msgid "Draw intense colors in bold font"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useFontLineCharactersButton)
-#: EditProfileDialog.ui:652
+#: EditProfileDialog.ui:669
 #, kde-format
 msgid "Use the selected font for line characters instead of the builtin code"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, useFontLineCharactersButton)
-#: EditProfileDialog.ui:655
+#: EditProfileDialog.ui:672
 #, kde-format
 msgid "Use line characters contained in font"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, scrollingTab)
-#: EditProfileDialog.ui:666
+#: EditProfileDialog.ui:683
 #, kde-format
 msgid "Scrolling"
 msgstr "Варақлаш"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: EditProfileDialog.ui:672
+#: EditProfileDialog.ui:689
 #, fuzzy, kde-format
 #| msgid "Do not display scrollbar"
 msgid "Scrollback"
 msgstr "Варақлаш панелини бекитиш"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
-#: EditProfileDialog.ui:687
+#: EditProfileDialog.ui:704
 #, fuzzy, kde-format
 #| msgid "Scroll Bar "
 msgid "Scroll Bar"
 msgstr "Варақлаш панели"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarHiddenButton)
-#: EditProfileDialog.ui:704
+#: EditProfileDialog.ui:721
 #, kde-format
 msgid "Hide the scroll bar"
 msgstr ""
 "Агар белгиланса, терминал ойнада ҳеч қандай варақлаш панели кўрсатилмайди"
 
 #. i18n: ectx: property (text), widget (QRadioButton, scrollBarHiddenButton)
-#: EditProfileDialog.ui:707
+#: EditProfileDialog.ui:724
 #, kde-format
 msgctxt "@option:radio Hide the scroll bar"
 msgid "Hide"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarLeftButton)
-#: EditProfileDialog.ui:720
+#: EditProfileDialog.ui:737
 #, kde-format
 msgid "Show the scroll bar on the left side of the terminal window"
 msgstr ""
 "Агар белгиланса, варақлаш панели терминал ойнанинг чап тарафида кўрсатилади"
 
 #. i18n: ectx: property (text), widget (QRadioButton, scrollBarLeftButton)
-#: EditProfileDialog.ui:723
+#: EditProfileDialog.ui:740
 #, kde-format
 msgid "Show on left side"
 msgstr "Чап тарафда кўрсатиш"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarRightButton)
-#: EditProfileDialog.ui:736
+#: EditProfileDialog.ui:753
 #, kde-format
 msgid "Show the scroll bar on the right side of the terminal window"
 msgstr ""
 "Агар белгиланса, варақлаш панели терминал ойнанинг ўнг тарафида кўрсатилади"
 
 #. i18n: ectx: property (text), widget (QRadioButton, scrollBarRightButton)
-#: EditProfileDialog.ui:739
+#: EditProfileDialog.ui:756
 #, kde-format
 msgid "Show on right side"
 msgstr "Ўнг тарафда кўрсатиш"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_15)
-#: EditProfileDialog.ui:751
+#: EditProfileDialog.ui:768
 #, kde-format
 msgid "Scroll Page Up/Down Amount"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollHalfPage)
-#: EditProfileDialog.ui:760
+#: EditProfileDialog.ui:777
 #, kde-format
 msgid "Scroll the page the half height of window"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, scrollHalfPage)
-#: EditProfileDialog.ui:763
+#: EditProfileDialog.ui:780
 #, kde-format
 msgid "Half Page Height"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, scrollFullPage)
-#: EditProfileDialog.ui:770
+#: EditProfileDialog.ui:787
 #, kde-format
 msgid "Scroll the page the full height of window"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, scrollFullPage)
-#: EditProfileDialog.ui:773
+#: EditProfileDialog.ui:790
 #, kde-format
 msgid "Full Page Height"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, keyboardTab)
-#: EditProfileDialog.ui:797
+#: EditProfileDialog.ui:814
 #, fuzzy, kde-format
 #| msgid "&Keyboard"
 msgid "Keyboard"
 msgstr "&Тугматаг"
 
 #. i18n: ectx: property (title), widget (QGroupBox, keyBindingsGroup)
-#: EditProfileDialog.ui:803
+#: EditProfileDialog.ui:820
 #, fuzzy, kde-format
 #| msgid "&Encoding"
 msgid "Key Bindings"
 msgstr "&Кодлаш усули"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: EditProfileDialog.ui:812
+#: EditProfileDialog.ui:829
 #, kde-format
 msgid ""
 "Key bindings control how combinations of keystrokes in the terminal window "
@@ -1135,13 +1148,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
-#: EditProfileDialog.ui:832
+#: EditProfileDialog.ui:849
 #, kde-format
 msgid "Create a new key bindings list based upon the selected bindings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, newKeyBindingsButton)
-#: EditProfileDialog.ui:835
+#: EditProfileDialog.ui:852
 #, fuzzy, kde-format
 #| msgid "New..."
 msgctxt "@action:button Create an alternate key binding"
@@ -1149,34 +1162,34 @@ msgid "New..."
 msgstr "Янги..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, editKeyBindingsButton)
-#: EditProfileDialog.ui:842
+#: EditProfileDialog.ui:859
 #, fuzzy, kde-format
 #| msgid "List the available profiles"
 msgid "Edit the selected key bindings list"
 msgstr "Мавжуд профилларнинг рўйхатини кўрсатиш"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeKeyBindingsButton)
-#: EditProfileDialog.ui:852
+#: EditProfileDialog.ui:869
 #, fuzzy, kde-format
 #| msgid "List the available profiles"
 msgid "Delete the selected key bindings list"
 msgstr "Мавжуд профилларнинг рўйхатини кўрсатиш"
 
 #. i18n: ectx: attribute (title), widget (QWidget, mouseTab)
-#: EditProfileDialog.ui:879
+#: EditProfileDialog.ui:896
 #, kde-format
 msgid "Mouse"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
-#: EditProfileDialog.ui:885
+#: EditProfileDialog.ui:902
 #, fuzzy, kde-format
 #| msgid "Select"
 msgid "Select Text"
 msgstr "Танлаш"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: EditProfileDialog.ui:896
+#: EditProfileDialog.ui:913
 #, fuzzy, kde-format
 #| msgid ""
 #| "Characters other than alphanumerics considered part of a word when double "
@@ -1187,7 +1200,7 @@ msgstr ""
 "қисми ҳисобланади:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, wordCharacterEdit)
-#: EditProfileDialog.ui:909
+#: EditProfileDialog.ui:926
 #, fuzzy, kde-format
 #| msgid ""
 #| "Characters other than alphanumerics considered part of a word when double "
@@ -1200,113 +1213,113 @@ msgstr ""
 "қисми ҳисобланади:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: EditProfileDialog.ui:920
+#: EditProfileDialog.ui:937
 #, kde-format
 msgid "Triple-click select:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, tripleClickModeCombo)
-#: EditProfileDialog.ui:927
+#: EditProfileDialog.ui:944
 #, kde-format
 msgid "Which part of current line should be selected with triple click ."
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, tripleClickModeCombo)
-#: EditProfileDialog.ui:931
+#: EditProfileDialog.ui:948
 #, fuzzy, kde-format
 #| msgid "Edit Current Profile..."
 msgid "The whole current line"
 msgstr "Жорий профилни таҳрирлаш..."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, tripleClickModeCombo)
-#: EditProfileDialog.ui:936
+#: EditProfileDialog.ui:953
 #, kde-format
 msgid "From mouse position to the end of line"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_14)
-#: EditProfileDialog.ui:949
+#: EditProfileDialog.ui:966
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Copy && Paste"
 msgstr "Ёпишни тасдиқлаш"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, trimLeadingSpacesButton)
-#: EditProfileDialog.ui:960
+#: EditProfileDialog.ui:977
 #, kde-format
 msgid "Trim leading spaces in selected text, useful in some instances"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, trimLeadingSpacesButton)
-#: EditProfileDialog.ui:963
+#: EditProfileDialog.ui:980
 #, kde-format
 msgid "Trim leading spaces"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, trimTrailingSpacesButton)
-#: EditProfileDialog.ui:970
+#: EditProfileDialog.ui:987
 #, kde-format
 msgid "Trim trailing spaces in selected text, useful in some instances"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, trimTrailingSpacesButton)
-#: EditProfileDialog.ui:973
+#: EditProfileDialog.ui:990
 #, kde-format
 msgid "Trim trailing spaces"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: EditProfileDialog.ui:984
+#: EditProfileDialog.ui:1001
 #, kde-format
 msgid "Mouse middle button:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, pasteFromClipboardButton)
-#: EditProfileDialog.ui:991
+#: EditProfileDialog.ui:1008
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "Paste from clipboard"
 msgstr "Белгиланганни қўйиш"
 
 #. i18n: ectx: property (text), widget (QRadioButton, pasteFromX11SelectionButton)
-#: EditProfileDialog.ui:998
+#: EditProfileDialog.ui:1015
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "Paste from selection"
 msgstr "Белгиланганни қўйиш"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, copyTextToClipboardButton)
-#: EditProfileDialog.ui:1009
+#: EditProfileDialog.ui:1026
 #, kde-format
 msgid "Automatically copy selected text into clipboard"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, copyTextToClipboardButton)
-#: EditProfileDialog.ui:1012
+#: EditProfileDialog.ui:1029
 #, kde-format
 msgid "Copy on select"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, copyTextAsHTMLButton)
-#: EditProfileDialog.ui:1019
+#: EditProfileDialog.ui:1036
 #, kde-format
 msgid "Copy text as HTML (including formatting, font faces, colors... etc)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, copyTextAsHTMLButton)
-#: EditProfileDialog.ui:1022
+#: EditProfileDialog.ui:1039
 #, kde-format
 msgid "Copy text as HTML"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: EditProfileDialog.ui:1034
+#: EditProfileDialog.ui:1051
 #, kde-format
 msgid "Miscellaneous"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, underlineLinksButton)
-#: EditProfileDialog.ui:1043
+#: EditProfileDialog.ui:1060
 #, kde-format
 msgid ""
 "Text recognized as a link or an email address will be underlined when "
@@ -1314,14 +1327,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, underlineLinksButton)
-#: EditProfileDialog.ui:1046
+#: EditProfileDialog.ui:1063
 #, fuzzy, kde-format
 #| msgid "Underline"
 msgid "Underline links"
 msgstr "Тагини чизиш"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, underlineFilesButton)
-#: EditProfileDialog.ui:1053
+#: EditProfileDialog.ui:1070
 #, kde-format
 msgid ""
 "Text recognized as a file will be underlined when hovered by the mouse "
@@ -1329,14 +1342,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, underlineFilesButton)
-#: EditProfileDialog.ui:1056
+#: EditProfileDialog.ui:1073
 #, fuzzy, kde-format
 #| msgid "Underline"
 msgid "Underline files"
 msgstr "Тагини чизиш"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, openLinksByDirectClickButton)
-#: EditProfileDialog.ui:1084
+#: EditProfileDialog.ui:1101
 #, kde-format
 msgid ""
 "Text recognized as a file, link or an email address can be opened by direct "
@@ -1344,25 +1357,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
-#: EditProfileDialog.ui:1087
+#: EditProfileDialog.ui:1104
 #, kde-format
 msgid "Open files and links by direct click"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ctrlRequiredForDragButton)
-#: EditProfileDialog.ui:1096
+#: EditProfileDialog.ui:1113
 #, kde-format
 msgid "Selected text will require control key plus click to drag."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ctrlRequiredForDragButton)
-#: EditProfileDialog.ui:1099
+#: EditProfileDialog.ui:1116
 #, kde-format
 msgid "Require Ctrl key for drag and drop"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dropUrlsAsText)
-#: EditProfileDialog.ui:1106
+#: EditProfileDialog.ui:1123
 #, kde-format
 msgid ""
 "Always paste dropped URLs as text without offering move, copy and link "
@@ -1370,25 +1383,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, dropUrlsAsText)
-#: EditProfileDialog.ui:1109
+#: EditProfileDialog.ui:1126
 #, kde-format
 msgid "Disable drag and drop menu for URLs and files"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableMouseWheelZoomButton)
-#: EditProfileDialog.ui:1116
+#: EditProfileDialog.ui:1133
 #, kde-format
 msgid "Pressing Ctrl+scrollwheel will increase/decrease the text size."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableMouseWheelZoomButton)
-#: EditProfileDialog.ui:1119
+#: EditProfileDialog.ui:1136
 #, kde-format
 msgid "Allow Ctrl+scrollwheel to zoom text size"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#: EditProfileDialog.ui:1130
+#: EditProfileDialog.ui:1147
 #, fuzzy, kde-format
 #| msgid "Advanced"
 msgctxt "@title:tab Complex options"
@@ -1396,68 +1409,68 @@ msgid "Advanced"
 msgstr "Қўшимча"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: EditProfileDialog.ui:1136
+#: EditProfileDialog.ui:1153
 #, fuzzy, kde-format
 #| msgid "&Close Terminal Emulator"
 msgid "Terminal Features"
 msgstr "Терминал э&муляторни ёпиш"
 
 #. i18n: ectx: property (text), widget (QLabel, urlHintsLabel)
-#: EditProfileDialog.ui:1145
+#: EditProfileDialog.ui:1162
 #, kde-format
 msgid "Show URL hints when these keys are pressed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierShift)
-#: EditProfileDialog.ui:1170
+#: EditProfileDialog.ui:1187
 #, kde-format
 msgid "Shift"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierCtrl)
-#: EditProfileDialog.ui:1177
+#: EditProfileDialog.ui:1194
 #, kde-format
 msgid "Control"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierAlt)
-#: EditProfileDialog.ui:1184
+#: EditProfileDialog.ui:1201
 #, kde-format
 msgid "Alt"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierMeta)
-#: EditProfileDialog.ui:1191
+#: EditProfileDialog.ui:1208
 #, kde-format
 msgid "Meta"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1206
+#: EditProfileDialog.ui:1223
 #, kde-format
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1209
+#: EditProfileDialog.ui:1226
 #, kde-format
 msgid "Allow blinking text"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1222
+#: EditProfileDialog.ui:1239
 #, kde-format
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1225
+#: EditProfileDialog.ui:1242
 #, kde-format
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1238
+#: EditProfileDialog.ui:1255
 #, kde-format
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
@@ -1465,71 +1478,71 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1241
+#: EditProfileDialog.ui:1258
 #, kde-format
 msgid "Enable Bi-Directional text rendering"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:1250
+#: EditProfileDialog.ui:1267
 #, fuzzy, kde-format
 #| msgid "Li&ne Spacing"
 msgid "Line Spacing:"
 msgstr "&Сатрлар орасидаги масофа"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:1257
+#: EditProfileDialog.ui:1274
 #, kde-format
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1288
+#: EditProfileDialog.ui:1305
 #, fuzzy, kde-format
 msgid "Cursor"
 msgstr "Таб &параметрлари"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1303
+#: EditProfileDialog.ui:1320
 #, kde-format
 msgid "Make the cursor blink regularly"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1306
+#: EditProfileDialog.ui:1323
 #, fuzzy, kde-format
 #| msgid "Blinking &Cursor"
 msgid "Blinking cursor"
 msgstr "Ўчиб-ё&надиган курсор"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1315
+#: EditProfileDialog.ui:1332
 #, fuzzy, kde-format
 msgid "Cursor shape:"
 msgstr "Таб &параметрлари"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1322
+#: EditProfileDialog.ui:1339
 #, kde-format
 msgid "Change the shape of the cursor"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1326
+#: EditProfileDialog.ui:1343
 #, kde-format
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1331
+#: EditProfileDialog.ui:1348
 #, kde-format
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1336
+#: EditProfileDialog.ui:1353
 #, fuzzy, kde-format
 #| msgid "Underline"
 msgctxt "The shape of the cursor"
@@ -1537,51 +1550,51 @@ msgid "Underline"
 msgstr "Тагини чизиш"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1367
+#: EditProfileDialog.ui:1384
 #, kde-format
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1370
+#: EditProfileDialog.ui:1387
 #, kde-format
 msgid "Set cursor color to match current character"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1385
+#: EditProfileDialog.ui:1402
 #, kde-format
 msgid "Use a custom, fixed color for the cursor"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1388
+#: EditProfileDialog.ui:1405
 #, kde-format
 msgid "Custom cursor color:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1401
+#: EditProfileDialog.ui:1418
 #, kde-format
 msgid "Select the color used to draw the cursor"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1431
+#: EditProfileDialog.ui:1448
 #, fuzzy, kde-format
 #| msgid "&Encoding"
 msgid "Encoding"
 msgstr "&Кодлаш усули"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1440
+#: EditProfileDialog.ui:1457
 #, fuzzy, kde-format
 #| msgid "Character Encoding"
 msgid "Default character encoding:"
 msgstr "Кодлаш усули"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1460
+#: EditProfileDialog.ui:1477
 #, fuzzy, kde-format
 #| msgid "Select"
 msgctxt "@action:button Pick an encoding"
