@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 22:53+0100\n"
+"POT-Creation-Date: 2017-10-11 07:06+0200\n"
 "PO-Revision-Date: 2006-03-29 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -28,29 +28,37 @@ msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: browserconfig_ui.ui:12
+#: browserconfig_ui.ui:29
 #, kde-format
 msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 msgstr "<qt><b>HTTP</b> ва <b>HTTPS</b> URL'ларни очиш</qt>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
-#: browserconfig_ui.ui:19
+#: browserconfig_ui.ui:36
 #, kde-format
 msgid "in an application based on the contents of the URL"
 msgstr "мос келадиган дастурда"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: browserconfig_ui.ui:29
-#, kde-format
-msgid "in the following browser:"
+#. i18n: ectx: property (text), widget (QRadioButton, radioService)
+#: browserconfig_ui.ui:46
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "in the following application:"
 msgstr "кўрсатилган браузерда:"
 
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:80
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "with the following command:"
+msgstr "кўрсатилган браузерда:"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: browserconfig_ui.ui:64 emailclientconfig_ui.ui:69 filemanagerconfig_ui.ui:41
-#: terminalemulatorconfig_ui.ui:60
+#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
 #, kde-format
 msgid "..."
 msgstr "Танлаш"
@@ -114,12 +122,12 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: componentchooserbrowser.cpp:110
+#: componentchooserbrowser.cpp:147
 #, kde-format
 msgid "Select preferred Web browser application:"
 msgstr "Афзал кўрган веб-браузерни танланг:"
 
-#: componentchooseremail.cpp:82
+#: componentchooseremail.cpp:83
 #, kde-format
 msgid "Select preferred email client:"
 msgstr "Афзал кўрган хат-хабар клиентини танланг"
@@ -131,8 +139,9 @@ msgstr "Афзал кўрган терминал дастурини танлан
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
-#, kde-format
-msgid "Kmail is the standard Mail program for the KDE desktop."
+#, fuzzy, kde-format
+#| msgid "Kmail is the standard Mail program for the KDE desktop."
+msgid "Kmail is the standard Mail program for the Plasma desktop."
 msgstr "KMail - KDE учун андоза хат-хабар дастури."
 
 #. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
