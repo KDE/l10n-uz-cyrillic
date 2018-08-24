@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-23 03:32+0200\n"
+"POT-Creation-Date: 2018-08-24 03:32+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7477,18 +7477,23 @@ msgstr "Гуруҳни олиб ташлаш"
 msgid "Freehand path"
 msgstr "Гуруҳни олиб ташлаш"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:508
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:545
+#, kde-format
+msgid "Autosmooth curve"
+msgstr ""
+
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:556
 #, kde-format
 msgid "Angle snapping delta:"
 msgstr ""
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:515
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:563
 #, fuzzy, kde-format
 #| msgid "Shadow:"
 msgid "Activate angle snap:"
 msgstr "Соя:"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:523
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:571
 #, fuzzy, kde-format
 msgid "Angle Constraints"
 msgstr "Текислашни ўзгартириш"
@@ -8413,6 +8418,8 @@ msgstr "Ўлчами:"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intWidth)
+#. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersX)
+#. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersY)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intCheckSize)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, sizeToStartFromSpinBox)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, deltaValueSpinBox)
@@ -8446,8 +8453,10 @@ msgstr "Ўлчами:"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1347
 #: libs/ui/dialogs/kis_dlg_preferences.cc:781
 #: libs/ui/forms/wdgdisplaysettings.ui:193
-#: libs/ui/forms/wdgrectangleconstraints.ui:91
-#: libs/ui/forms/wdgrectangleconstraints.ui:127 libs/ui/kis_paintop_box.cc:274
+#: libs/ui/forms/wdgrectangleconstraints.ui:82
+#: libs/ui/forms/wdgrectangleconstraints.ui:130
+#: libs/ui/forms/wdgrectangleconstraints.ui:180
+#: libs/ui/forms/wdgrectangleconstraints.ui:222 libs/ui/kis_paintop_box.cc:274
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:87
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:453
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:727
@@ -12362,7 +12371,7 @@ msgstr "Бет мосламалари"
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
 #. i18n: ectx: property (text), widget (QLabel, intWidthzqffs)
 #: libs/ui/forms/wdg_resolution.ui:20 libs/ui/forms/wdgimageproperties.ui:44
-#: libs/ui/forms/wdgrectangleconstraints.ui:101
+#: libs/ui/forms/wdgrectangleconstraints.ui:92
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:85
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:77
 #: libs/widgets/KoPageLayoutWidget.ui:98
@@ -12393,7 +12402,7 @@ msgstr "&Эни:"
 #. i18n: ectx: property (text), widget (QLabel, heightLabel)
 #. i18n: ectx: property (text), widget (QLabel, intHeightqsdfq)
 #: libs/ui/forms/wdg_resolution.ui:27 libs/ui/forms/wdgimageproperties.ui:67
-#: libs/ui/forms/wdgrectangleconstraints.ui:147
+#: libs/ui/forms/wdgrectangleconstraints.ui:150
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:114
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:816
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1034
@@ -14718,9 +14727,13 @@ msgid "Tool image:"
 msgstr "Сония"
 
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intHeight)
+#. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intRoundCornersX)
+#. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intRoundCornersY)
 #. i18n: ectx: property (text), widget (QLabel, heightLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, heightLabel)
-#: libs/ui/forms/wdgrectangleconstraints.ui:88
+#: libs/ui/forms/wdgrectangleconstraints.ui:79
+#: libs/ui/forms/wdgrectangleconstraints.ui:177
+#: libs/ui/forms/wdgrectangleconstraints.ui:219
 #: plugins/flake/textshape/dialogs/ParagraphBulletsNumbers.ui:274
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:218
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:243
@@ -14729,7 +14742,7 @@ msgid "Height"
 msgstr "&Узунаси:"
 
 #. i18n: ectx: property (toolTip), widget (KisDoubleParseSpinBox, doubleRatio)
-#: libs/ui/forms/wdgrectangleconstraints.ui:111
+#: libs/ui/forms/wdgrectangleconstraints.ui:108
 #, fuzzy, kde-format
 #| msgid "Location:"
 msgid "Aspect ratio"
@@ -14738,7 +14751,7 @@ msgstr "Манзили:"
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intWidth)
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, widthLabel)
-#: libs/ui/forms/wdgrectangleconstraints.ui:124
+#: libs/ui/forms/wdgrectangleconstraints.ui:127
 #: plugins/flake/textshape/dialogs/ParagraphBulletsNumbers.ui:257
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:268
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:316
@@ -14749,13 +14762,25 @@ msgstr "&Эни:"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, lblRatio)
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
-#: libs/ui/forms/wdgrectangleconstraints.ui:137
+#: libs/ui/forms/wdgrectangleconstraints.ui:140
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:181
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:306
 #, fuzzy, kde-format
 #| msgid "Completion"
 msgid "Ratio:"
 msgstr "Тўлдириш"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRoundCornersX)
+#: libs/ui/forms/wdgrectangleconstraints.ui:164
+#, fuzzy, kde-format
+msgid "Round X:"
+msgstr "Экспорт қилишни тасдиқлаш"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRoundCornersY)
+#: libs/ui/forms/wdgrectangleconstraints.ui:206
+#, fuzzy, kde-format
+msgid "Round Y:"
+msgstr "Экспорт қилишни тасдиқлаш"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgSaveBrushPreset)
 #: libs/ui/forms/wdgsavebrushpreset.ui:20
@@ -18841,41 +18866,41 @@ msgid ""
 "selection instead"
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:552
+#: libs/ui/tool/kis_tool.cc:558
 #, fuzzy, kde-format
 msgid "No options"
 msgstr "Тўлдириш мосламалари"
 
-#: libs/ui/tool/kis_tool.cc:667
+#: libs/ui/tool/kis_tool.cc:673
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "Layer is locked and invisible."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/tool/kis_tool.cc:669
+#: libs/ui/tool/kis_tool.cc:675
 #, fuzzy, kde-format
 #| msgid "Page Size"
 msgid "Layer is locked."
 msgstr "Бетнинг ўлчами"
 
-#: libs/ui/tool/kis_tool.cc:671
+#: libs/ui/tool/kis_tool.cc:677
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "Layer is invisible."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/tool/kis_tool.cc:673
+#: libs/ui/tool/kis_tool.cc:679
 #, kde-format
 msgid "Layer can be painted in Wash Mode only."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:675
+#: libs/ui/tool/kis_tool.cc:681
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "Group not editable."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/tool/kis_tool.cc:690
+#: libs/ui/tool/kis_tool.cc:696
 #, fuzzy, kde-format
 #| msgid "Completion"
 msgid "Local selection is locked."
@@ -24412,7 +24437,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, cbShape)
 #: plugins/dockers/griddocker/grid_config_widget.cpp:59
 #: plugins/filters/blur/wdgblur.ui:159
-#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:35
+#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:37
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:42
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:237
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:71
@@ -29498,7 +29523,7 @@ msgstr "Экспорт қилишни тасдиқлаш"
 msgid "Corner radius y:"
 msgstr "Экспорт қилишни тасдиқлаш"
 
-#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:37
+#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:39
 #, fuzzy, kde-format
 msgid "A rectangle"
 msgstr "Рўйхатнинг турини ўзгартириш"
@@ -39074,7 +39099,7 @@ msgstr "Намунани ростдан олиб ташлашни истайси
 msgid "Color Selector Tool"
 msgstr "Тўлдириш"
 
-#: plugins/tools/basictools/kis_tool_ellipse.cc:61
+#: plugins/tools/basictools/kis_tool_ellipse.cc:64
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Ellipse"
@@ -40744,13 +40769,13 @@ msgstr "Матнни ўчириш"
 msgid "Contiguous Selection Tool"
 msgstr "Тўлдириш"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:49
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:52
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Ellipse"
 msgstr "&Алмаштириш:"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:81
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:84
 #, fuzzy, kde-format
 #| msgid "Current Section"
 msgid "Elliptical Selection"
@@ -40820,7 +40845,7 @@ msgctxt "(qtundo-format)"
 msgid "Select Rectangle"
 msgstr "Намунани яратиш"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:81
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:90
 #, fuzzy, kde-format
 msgid "Rectangular Selection"
 msgstr "Намунани яратиш"
