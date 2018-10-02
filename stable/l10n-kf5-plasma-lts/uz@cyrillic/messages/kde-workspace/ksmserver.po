@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-05 03:18+0100\n"
+"POT-Creation-Date: 2018-10-02 08:09+0200\n"
 "PO-Revision-Date: 2009-10-16 00:04+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -151,7 +151,24 @@ msgstr ""
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: shutdown.cpp:482
+#. i18nd is used as this patch was backported to an LTS with stable translations
+#: shutdown.cpp:227
+#, kde-format
+msgid "Shutdown"
+msgstr ""
+
+#: shutdown.cpp:230
+#, kde-format
+msgid "Reboot"
+msgstr ""
+
+#: shutdown.cpp:235
+#, fuzzy, kde-format
+#| msgid "&Logout"
+msgid "Logout"
+msgstr "&Чиқиш"
+
+#: shutdown.cpp:509
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr "Тизимдан чиқиш '%1' томонидан бекор қилинди"
@@ -174,11 +191,6 @@ msgstr "Тизимдан чиқиш '%1' томонидан бекор қили�
 #~ msgid "Restarting computer in 1 second."
 #~ msgid_plural "Restarting computer in %1 seconds."
 #~ msgstr[0] "Компьютер %1 сониядан сўнг ўчириб-ёқилади"
-
-#, fuzzy
-#~| msgid "&Logout"
-#~ msgid "Logout"
-#~ msgstr "&Чиқиш"
 
 #, fuzzy
 #~| msgid "&Turn Off Computer"
