@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-25 03:10+0100\n"
+"POT-Creation-Date: 2019-01-26 03:10+0100\n"
 "PO-Revision-Date: 2007-02-03 14:08+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -657,8 +657,15 @@ msgstr "Қайтадан ёзиб олиш"
 msgid "Enter URL:"
 msgstr ""
 
+#: core/kget.cpp:972
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Directory"
+msgstr ""
+
 #: core/kget.cpp:991
 #, kde-format
+msgctxt "@title:window"
 msgid "Save As"
 msgstr ""
 
@@ -884,7 +891,7 @@ msgstr ""
 msgid "Downloads completed"
 msgstr "Ёзиб олиш бажарилди"
 
-#: core/kget.h:367 main.cpp:101 mainwindow.cpp:96 mainwindow.cpp:525
+#: core/kget.h:368 main.cpp:101 mainwindow.cpp:96 mainwindow.cpp:524
 #: ui/tray.cpp:45
 #, kde-format
 msgid "KGet"
@@ -1862,7 +1869,7 @@ msgstr "Вақтинча тў&хтатиш"
 msgid "Open Destination"
 msgstr "М&анзилни очиш"
 
-#: mainwindow.cpp:319 mainwindow.cpp:507
+#: mainwindow.cpp:319
 #, fuzzy, kde-format
 msgid "Open File"
 msgstr "&Файлни очиш"
@@ -1938,18 +1945,24 @@ msgstr "Ёқиш"
 msgid "Do Not Enable"
 msgstr "Ёқилмасин"
 
+#: mainwindow.cpp:505
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Open File"
+msgstr "&Файлни очиш"
+
 #: mainwindow.cpp:506
 #, kde-format
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:523
+#: mainwindow.cpp:522
 #, kde-format
 msgctxt "window title including overall download progress in percent"
 msgid "KGet - %1%"
 msgstr ""
 
-#: mainwindow.cpp:573
+#: mainwindow.cpp:572
 #, fuzzy, kde-format
 #| msgid ""
 #| "Some transfers are still running.\n"
@@ -1961,49 +1974,50 @@ msgstr ""
 "Баъзи вазифалар ҳали ҳам бажарилмоқда.\n"
 "Шунга қарамасдан KGet'дан чиқишни истайсизми?"
 
-#: mainwindow.cpp:575
+#: mainwindow.cpp:574
 #, kde-format
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:602
+#: mainwindow.cpp:600
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Export Transfers"
+msgstr "Вазифалар рўйхатини &экспорт қилиш..."
+
+#: mainwindow.cpp:601
 #, fuzzy, kde-format
 msgid "KGet Transfer List"
 msgstr "Вазифани очиш:"
 
-#: mainwindow.cpp:602
+#: mainwindow.cpp:601
 #, fuzzy, kde-format
 msgid "Text File"
 msgstr "&Файлни очиш"
 
-#: mainwindow.cpp:604
-#, fuzzy, kde-format
-msgid "Export Transfers"
-msgstr "Вазифалар рўйхатини &экспорт қилиш..."
-
-#: mainwindow.cpp:635
+#: mainwindow.cpp:632
 #, fuzzy, kde-format
 msgid "Enter Group Name"
 msgstr "Нурали Абдураҳмонов, Машраб Қуватов"
 
-#: mainwindow.cpp:636
+#: mainwindow.cpp:633
 #, fuzzy, kde-format
 msgid "Group name:"
 msgstr "Нурали Абдураҳмонов, Машраб Қуватов"
 
-#: mainwindow.cpp:723
+#: mainwindow.cpp:720
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this transfer?"
 msgid "Are you sure you want to delete the selected transfer?"
 msgid_plural "Are you sure you want to delete the selected transfers?"
 msgstr[0] "Ростдан ҳам ушбу вазифани олиб ташлашни истайсизми?"
 
-#: mainwindow.cpp:725 mainwindow.cpp:754
+#: mainwindow.cpp:722 mainwindow.cpp:751
 #, fuzzy, kde-format
 msgid "Confirm transfer delete"
 msgstr "Вазифани очиш:"
 
-#: mainwindow.cpp:752
+#: mainwindow.cpp:749
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this transfer?"
 msgid "Are you sure you want to delete the selected transfer including files?"
@@ -2011,7 +2025,7 @@ msgid_plural ""
 "Are you sure you want to delete the selected transfers including files?"
 msgstr[0] "Ростдан ҳам ушбу вазифани олиб ташлашни истайсизми?"
 
-#: mainwindow.cpp:1083
+#: mainwindow.cpp:1080
 #, kde-format
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
@@ -2019,17 +2033,17 @@ msgid ""
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:1202 ui/droptarget.cpp:220
+#: mainwindow.cpp:1199 ui/droptarget.cpp:220
 #, fuzzy, kde-format
 msgid "The dropped file is a KGet Transfer List"
 msgstr "Вазифани очиш:"
 
-#: mainwindow.cpp:1203 ui/droptarget.cpp:221
+#: mainwindow.cpp:1200 ui/droptarget.cpp:221
 #, fuzzy, kde-format
 msgid "&Download"
 msgstr "Ёзиб олиш давом эттрилди"
 
-#: mainwindow.cpp:1204 ui/droptarget.cpp:222
+#: mainwindow.cpp:1201 ui/droptarget.cpp:222
 #, fuzzy, kde-format
 msgid "&Load transfer list"
 msgstr "Вазифани очиш:"
