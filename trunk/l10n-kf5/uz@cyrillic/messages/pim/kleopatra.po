@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-19 03:20+0100\n"
+"POT-Creation-Date: 2019-02-28 03:18+0100\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -698,7 +698,7 @@ msgid ""
 msgstr ""
 
 #: src/commands/exportpaperkeycommand.cpp:146
-#: src/commands/exportsecretkeycommand.cpp:156
+#: src/commands/exportsecretkeycommand.cpp:162
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -706,21 +706,34 @@ msgid ""
 "<para>The output from <command>%1</command> was: <message>%2</message></para>"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:137
+#: src/commands/exportsecretkeycommand.cpp:97
+#, fuzzy, kde-format
+#| msgid "Export Certificates..."
+msgid "Export Secret Key"
+msgstr "Сертификатларни экспорт қилиш..."
+
+#: src/commands/exportsecretkeycommand.cpp:101
+#: src/commands/exportsecretkeycommand.cpp:102
+#, fuzzy, kde-format
+#| msgid "Export Certificates..."
+msgid "Secret Key Files"
+msgstr "Сертификатларни экспорт қилиш..."
+
+#: src/commands/exportsecretkeycommand.cpp:143
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:window"
 msgid "Secret Key Export Error"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/exportsecretkeycommand.cpp:142
+#: src/commands/exportsecretkeycommand.cpp:148
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@title:window"
 msgid "Secret Key Export Finished"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/commands/exportsecretkeycommand.cpp:148
+#: src/commands/exportsecretkeycommand.cpp:154
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -729,7 +742,7 @@ msgid ""
 "output of <icode>%1</icode> for details.</para>"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:163
+#: src/commands/exportsecretkeycommand.cpp:169
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info"
@@ -3967,7 +3980,7 @@ msgstr "Сертификатларни импорт қилиш..."
 #. i18n: ectx: property (text), widget (QPushButton, certifyBtn)
 #: src/dialogs/certificatedetailswidget.ui:67
 #: src/dialogs/certifycertificatedialog.cpp:199
-#: src/newcertificatewizard/newcertificatewizard.cpp:1646
+#: src/newcertificatewizard/newcertificatewizard.cpp:1649
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certify"
@@ -4442,67 +4455,6 @@ msgstr ""
 #| msgid "Export Certificates..."
 msgid "Export..."
 msgstr "Сертификатларни экспорт қилиш..."
-
-#: src/dialogs/exportsecretkeydialog.cpp:104
-#, fuzzy, kde-format
-#| msgid "Export Certificates..."
-msgid "Secret Key Files"
-msgstr "Сертификатларни экспорт қилиш..."
-
-#: src/dialogs/exportsecretkeydialog.cpp:128
-#, kde-format
-msgctxt "@info"
-msgid "Please select export options for %1:"
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:142
-#, kde-format
-msgid "Secret Key Files (*.pem *.p12 *.gpg *.asc *.pgp)"
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:221
-#, kde-format
-msgctxt "@info"
-msgid "You have to enter an output filename."
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:222
-#: src/dialogs/exportsecretkeydialog.cpp:231
-#, kde-format
-msgctxt "@title"
-msgid "Incomplete data"
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:230
-#, kde-format
-msgctxt "@info"
-msgid "You have to choose a passphrase character set."
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, ExportSecretKeyDialog)
-#: src/dialogs/exportsecretkeydialog.ui:13
-#, fuzzy, kde-format
-#| msgid "Export Certificates..."
-msgid "Export Secret Certificate"
-msgstr "Сертификатларни экспорт қилиш..."
-
-#. i18n: ectx: property (text), widget (QLabel, outputFileLB)
-#: src/dialogs/exportsecretkeydialog.ui:26
-#, kde-format
-msgid "Output file:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, charsetLB)
-#: src/dialogs/exportsecretkeydialog.ui:36
-#, kde-format
-msgid "Passphrase charset:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, armorCB)
-#: src/dialogs/exportsecretkeydialog.ui:66
-#, kde-format
-msgid "ASCII armor"
-msgstr ""
 
 #: src/dialogs/gencardkeydialog.cpp:77
 #: src/newcertificatewizard/newcertificatewizard.cpp:1708
@@ -6062,18 +6014,18 @@ msgctxt "@title"
 msgid "Key Pair Creation Wizard"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/newcertificatewizard/newcertificatewizard.cpp:1638
+#: src/newcertificatewizard/newcertificatewizard.cpp:1639
 #, kde-format
 msgid "Sign"
 msgstr ""
 
-#: src/newcertificatewizard/newcertificatewizard.cpp:1642
+#: src/newcertificatewizard/newcertificatewizard.cpp:1643
 #: src/newcertificatewizard/newcertificatewizard.cpp:1671
 #, kde-format
 msgid "Encrypt"
 msgstr ""
 
-#: src/newcertificatewizard/newcertificatewizard.cpp:1649
+#: src/newcertificatewizard/newcertificatewizard.cpp:1646
 #, kde-format
 msgid "Authenticate"
 msgstr ""
@@ -8152,6 +8104,11 @@ msgstr "Сертификатларни импорт қилиш..."
 #, kde-format
 msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Export Certificates..."
+#~ msgid "Export Secret Certificate"
+#~ msgstr "Сертификатларни экспорт қилиш..."
 
 #, fuzzy
 #~| msgid "Import Certificates..."
