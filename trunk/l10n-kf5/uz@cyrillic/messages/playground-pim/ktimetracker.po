@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-12 03:29+0100\n"
+"POT-Creation-Date: 2019-11-13 03:32+0100\n"
 "PO-Revision-Date: 2006-02-12 19:43+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -374,30 +374,36 @@ msgstr ""
 msgid "Edit History"
 msgstr "Лог тарихи"
 
-#: src/idletimedetector.cpp:75
-#, kde-format
-msgid "Continue timing. Timing has started at %1"
-msgstr ""
-
 #: src/idletimedetector.cpp:76
 #, kde-format
-msgid "Continue timing."
+msgctxt "@info:tooltip"
+msgid ""
+"Apply the idle time since %1 to all active\n"
+"timers and keep them running."
 msgstr ""
 
-#: src/idletimedetector.cpp:78
+#: src/idletimedetector.cpp:77
 #, kde-format
-msgid "Stop timing and revert back to the time at %1."
+msgctxt "@action:button"
+msgid "Continue Timing"
 msgstr ""
 
 #: src/idletimedetector.cpp:79
 #, kde-format
-msgid "Revert timing"
+msgctxt "@info:tooltip"
+msgid "Stop timing and revert back to the time at %1"
 msgstr ""
 
-#: src/idletimedetector.cpp:83
+#: src/idletimedetector.cpp:80
+#, kde-format
+msgctxt "@action:button"
+msgid "Revert Timing"
+msgstr ""
+
+#: src/idletimedetector.cpp:84
 #, fuzzy, kde-format
 #| msgid "Desktop has been idle since %1. What should we do?"
-msgid "Desktop has been idle since %1. What do you want to do ?"
+msgid "Desktop has been idle since %1. What do you want to do?"
 msgstr "Иш столи %1 дан буён ишсиз турибди. Нима қилишни истайсиз?"
 
 #. i18n: ectx: Menu (clock)
@@ -431,7 +437,7 @@ msgstr ""
 msgid "Tasks"
 msgstr "Вазифа"
 
-#: src/main.cpp:87 src/model/event.cpp:155 src/model/eventsmodel.cpp:132
+#: src/main.cpp:87 src/model/event.cpp:157 src/model/eventsmodel.cpp:132
 #, kde-format
 msgid "KTimeTracker"
 msgstr ""
@@ -745,7 +751,7 @@ msgstr "&Бажарилган деб белгилаш"
 msgid "Save tasks every:"
 msgstr "Вазифаларни сақлаш"
 
-#: src/taskview.cpp:121
+#: src/taskview.cpp:123
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -753,34 +759,34 @@ msgid ""
 "any lock file related to its name from ~/.kde/share/apps/kabc/lock/ "
 msgstr ""
 
-#: src/taskview.cpp:213
+#: src/taskview.cpp:215
 #, kde-format
 msgid "Your virtual desktop number is too high, desktop tracking will not work"
 msgstr ""
 
-#: src/taskview.cpp:375
+#: src/taskview.cpp:377
 #, kde-format
 msgid "Stopping timers..."
 msgstr ""
 
-#: src/taskview.cpp:375
+#: src/taskview.cpp:377
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
-#: src/taskview.cpp:473
+#: src/taskview.cpp:475
 #, fuzzy, kde-format
 #| msgid "New Task"
 msgctxt "@title:window"
 msgid "New Task"
 msgstr "Янги вазифа"
 
-#: src/taskview.cpp:482 src/taskview.cpp:561
+#: src/taskview.cpp:484 src/taskview.cpp:563
 #, kde-format
 msgid "Unnamed Task"
 msgstr "Номсиз вазифа"
 
-#: src/taskview.cpp:502
+#: src/taskview.cpp:504
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -788,26 +794,26 @@ msgid ""
 "any lock file related to its name from ~/.kde/share/apps/kabc/lock/"
 msgstr ""
 
-#: src/taskview.cpp:541
+#: src/taskview.cpp:543
 #, fuzzy, kde-format
 #| msgid "New Sub Task"
 msgctxt "@title:window"
 msgid "New Sub Task"
 msgstr "Янги туб вазифа"
 
-#: src/taskview.cpp:558
+#: src/taskview.cpp:560
 #, fuzzy, kde-format
 #| msgid "Edit Task"
 msgctxt "@title:window"
 msgid "Edit Task"
 msgstr "Вазифани таҳрирлаш"
 
-#: src/taskview.cpp:620 src/taskview.cpp:660 src/taskview.cpp:681
+#: src/taskview.cpp:622 src/taskview.cpp:662 src/taskview.cpp:683
 #, kde-format
 msgid "No task selected."
 msgstr "Вазифа танланмаган."
 
-#: src/taskview.cpp:665
+#: src/taskview.cpp:667
 #, fuzzy, kde-format
 #| msgid ""
 #| "Are you sure you want to delete the task named\n"
@@ -819,7 +825,7 @@ msgstr ""
 "Ростдан \"%1\" номли вазифани ва унинг бутун\n"
 "тарихни ўчиришни истайсизми?"
 
-#: src/taskview.cpp:669
+#: src/taskview.cpp:671
 #, fuzzy, kde-format
 #| msgid "Deleting Task"
 msgid "Deleting Task"
