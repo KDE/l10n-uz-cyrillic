@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-25 03:07+0200\n"
+"POT-Creation-Date: 2020-04-28 03:04+0200\n"
 "PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3295,7 +3295,7 @@ msgid "*|All Folders"
 msgstr "*|Ҳамма жилдлар"
 
 #: filewidgets/kfilewidget.cpp:2093 widgets/executablefileopendialog.cpp:42
-#: widgets/kfileitemactions.cpp:641
+#: widgets/kfileitemactions.cpp:640
 #, kde-format
 msgid "&Open"
 msgstr "&Очиш"
@@ -3624,22 +3624,42 @@ msgstr ""
 msgid "Icon file too big, download aborted"
 msgstr ""
 
-#: gui/kprocessrunner.cpp:57
+#: gui/kprocessrunner.cpp:88
+#, fuzzy, kde-format
+#| msgid ""
+#| "The desktop entry of type\n"
+#| "%1\n"
+#| "is unknown."
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+"is not valid."
+msgstr ""
+".desktop файлида\n"
+"номаълум ёзув (%1)."
+
+#: gui/kprocessrunner.cpp:99
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "'%1' дастурини топиб бўлмади."
 
-#: gui/kprocessrunner.cpp:65
+#: gui/kprocessrunner.cpp:101
+#, kde-format
+msgid ""
+"The program '%1' was found at '%2' but it is missing executable permissions."
+msgstr ""
+
+#: gui/kprocessrunner.cpp:110
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: gui/kprocessrunner.cpp:138
+#: gui/kprocessrunner.cpp:183
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "Бу файлни бажаришга сизда етарли ҳуқуқлар йўқ."
 
-#: gui/kprocessrunner.cpp:162
+#: gui/kprocessrunner.cpp:207
 #, kde-format
 msgid "Launching %1"
 msgstr "%1'ни ишга тушириш"
@@ -7075,12 +7095,12 @@ msgstr "Тизимнинг мосламаси янгиланмоқда"
 msgid "Updating system configuration."
 msgstr "Тизимнинг мосламаси янгиланмоқда."
 
-#: widgets/kdesktopfileactions.cpp:82
+#: widgets/kdesktopfileactions.cpp:68
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "Файлда (%1) \"Type=...\" ёзуви йўқ."
 
-#: widgets/kdesktopfileactions.cpp:99
+#: widgets/kdesktopfileactions.cpp:86
 #, kde-format
 msgid ""
 "The desktop entry of type\n"
@@ -7090,8 +7110,8 @@ msgstr ""
 ".desktop файлида\n"
 "номаълум ёзув (%1)."
 
-#: widgets/kdesktopfileactions.cpp:112 widgets/kdesktopfileactions.cpp:191
-#: widgets/kdesktopfileactions.cpp:326
+#: widgets/kdesktopfileactions.cpp:99 widgets/kdesktopfileactions.cpp:165
+#: widgets/kdesktopfileactions.cpp:278
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -7101,21 +7121,7 @@ msgstr ""
 ".desktop файлининг (%1) тури\n"
 "FSDevice, аммо \"Dev=...\" ёзуви йўқ."
 
-#: widgets/kdesktopfileactions.cpp:145
-#, fuzzy, kde-format
-#| msgid ""
-#| "The desktop entry of type\n"
-#| "%1\n"
-#| "is unknown."
-msgid ""
-"The desktop entry file\n"
-"%1\n"
-"is not valid."
-msgstr ""
-".desktop файлида\n"
-"номаълум ёзув (%1)."
-
-#: widgets/kdesktopfileactions.cpp:157
+#: widgets/kdesktopfileactions.cpp:131
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -7125,17 +7131,17 @@ msgstr ""
 ".desktop файлининг (%1) тури\n"
 "боғ, аммо \"URL=...\" ёзуви йўқ."
 
-#: widgets/kdesktopfileactions.cpp:227
+#: widgets/kdesktopfileactions.cpp:179
 #, kde-format
 msgid "Mount"
 msgstr "Улаш"
 
-#: widgets/kdesktopfileactions.cpp:238
+#: widgets/kdesktopfileactions.cpp:190
 #, kde-format
 msgid "Eject"
 msgstr "Чиқариш"
 
-#: widgets/kdesktopfileactions.cpp:240
+#: widgets/kdesktopfileactions.cpp:192
 #, kde-format
 msgid "Unmount"
 msgstr "Ажратиш"
@@ -7182,47 +7188,47 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Тури"
 
-#: widgets/kfileitemactions.cpp:429
+#: widgets/kfileitemactions.cpp:428
 #, fuzzy, kde-format
 #| msgid "Actions"
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "Амаллар"
 
-#: widgets/kfileitemactions.cpp:630
+#: widgets/kfileitemactions.cpp:629
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "&Open with %1"
 msgstr "Дастур билан очиш:"
 
-#: widgets/kfileitemactions.cpp:662
+#: widgets/kfileitemactions.cpp:661
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "Дастур билан очиш"
 
-#: widgets/kfileitemactions.cpp:681
+#: widgets/kfileitemactions.cpp:680
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
 msgstr "&Дастур"
 
-#: widgets/kfileitemactions.cpp:683 widgets/kfileitemactions.cpp:694
+#: widgets/kfileitemactions.cpp:682 widgets/kfileitemactions.cpp:693
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "Дастур билан очиш"
 
-#: widgets/kfileitemactions.cpp:802
+#: widgets/kfileitemactions.cpp:801
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "Open &with %1"
 msgstr "Дастур билан очиш:"
 
-#: widgets/kfileitemactions.cpp:804
+#: widgets/kfileitemactions.cpp:803
 #, fuzzy, kde-format
 #| msgid "%1 B"
 msgctxt "@item:inmenu Open With, %1 is application name"
