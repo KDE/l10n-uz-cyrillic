@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-25 02:04+0200\n"
+"POT-Creation-Date: 2020-07-26 02:02+0200\n"
 "PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2162,7 +2162,7 @@ msgid "Undocumented Error"
 msgstr "Бу хато учун кўлланма йўқ."
 
 #: core/kcoredirlister.cpp:396 gui/openurljob.cpp:152 widgets/krun.cpp:419
-#: widgets/paste.cpp:278 widgets/renamedialog.cpp:487
+#: widgets/paste.cpp:278 widgets/renamedialog.cpp:595
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -8674,23 +8674,23 @@ msgstr ""
 msgid "Filename for dropped contents:"
 msgstr ""
 
-#: widgets/renamedialog.cpp:76
+#: widgets/renamedialog.cpp:76 widgets/renamedialog.cpp:392
 #, fuzzy, kde-format
 msgid "Date: %1"
 msgstr "ҳажми %1"
 
-#: widgets/renamedialog.cpp:82
+#: widgets/renamedialog.cpp:82 widgets/renamedialog.cpp:410
 #, fuzzy, kde-format
 #| msgid "Size:"
 msgid "Size: %1"
 msgstr "Ҳажми:"
 
-#: widgets/renamedialog.cpp:171
+#: widgets/renamedialog.cpp:245
 #, kde-format
 msgid "Appl&y to All"
 msgstr ""
 
-#: widgets/renamedialog.cpp:172
+#: widgets/renamedialog.cpp:246
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
@@ -8699,46 +8699,46 @@ msgid ""
 "an existing file in the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:173
+#: widgets/renamedialog.cpp:247
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "conflicts for the remainder of the current job."
 msgstr ""
 
-#: widgets/renamedialog.cpp:178
+#: widgets/renamedialog.cpp:252
 #, kde-format
 msgid "&Rename"
 msgstr "&Номини ўзгартириш"
 
-#: widgets/renamedialog.cpp:180
+#: widgets/renamedialog.cpp:254
 #, kde-format
 msgid "Suggest New &Name"
 msgstr "Бошқа номни &таклиф қилиш"
 
-#: widgets/renamedialog.cpp:186
+#: widgets/renamedialog.cpp:260
 #, kde-format
 msgid "&Skip"
 msgstr "Ў&тказиб юбориш"
 
-#: widgets/renamedialog.cpp:187
+#: widgets/renamedialog.cpp:261
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 
-#: widgets/renamedialog.cpp:188
+#: widgets/renamedialog.cpp:262
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 
-#: widgets/renamedialog.cpp:197
+#: widgets/renamedialog.cpp:271
 #, fuzzy, kde-format
 #| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr "Ёзиш"
 
-#: widgets/renamedialog.cpp:199
+#: widgets/renamedialog.cpp:273
 #, kde-format
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
@@ -8747,74 +8747,99 @@ msgid ""
 "the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:205
+#: widgets/renamedialog.cpp:279
 #, kde-format
 msgid "&Resume"
 msgstr "&Давом этиш"
 
-#: widgets/renamedialog.cpp:214
+#: widgets/renamedialog.cpp:288
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
 "Please enter a new file name:"
 msgstr ""
 
-#: widgets/renamedialog.cpp:219
+#: widgets/renamedialog.cpp:293
 #, kde-format
 msgid "C&ontinue"
 msgstr "&Давом этиш"
 
-#: widgets/renamedialog.cpp:279
+#: widgets/renamedialog.cpp:353
 #, fuzzy, kde-format
 #| msgid "Choose a different filename for the destination file."
 msgid "This action will overwrite the destination."
 msgstr "Манзил файлининг номини ўзгартиринг."
 
-#: widgets/renamedialog.cpp:285
+#: widgets/renamedialog.cpp:359
 #, fuzzy, kde-format
 #| msgid "Source"
 msgid "Source"
 msgstr "Манба"
 
-#: widgets/renamedialog.cpp:287
+#: widgets/renamedialog.cpp:361
 #, fuzzy, kde-format
 #| msgid "Destination"
 msgid "Destination"
 msgstr "Манзил"
 
-#: widgets/renamedialog.cpp:314
+#: widgets/renamedialog.cpp:383
 #, kde-format
-msgid "The destination is more recent."
+msgid "Differences"
 msgstr ""
 
-#: widgets/renamedialog.cpp:326
+#: widgets/renamedialog.cpp:403
+#, fuzzy, kde-format
+#| msgid "the extension <b>%1</b>"
+msgid "The destination is <b>smaller by %1</b>"
+msgstr "кенгайтма <b>%1</b>"
+
+#: widgets/renamedialog.cpp:406
+#, fuzzy, kde-format
+#| msgid "the extension <b>%1</b>"
+msgid "The destination is <b>bigger by %1</b>"
+msgstr "кенгайтма <b>%1</b>"
+
+#: widgets/renamedialog.cpp:420
 #, fuzzy, kde-format
 #| msgid "The new file name is empty."
-msgid "The source file is bigger."
+msgid "The files are identical."
 msgstr "Янги файлнинг номи кўрсатилмаган."
 
-#: widgets/renamedialog.cpp:328
+#: widgets/renamedialog.cpp:421
 #, kde-format
-msgid "The destination file is bigger."
+msgid "The files seem identical."
 msgstr ""
 
-#: widgets/renamedialog.cpp:340
+#: widgets/renamedialog.cpp:422
+#, fuzzy, kde-format
+#| msgid "The new file name is empty."
+msgid "The files are different."
+msgstr "Янги файлнинг номи кўрсатилмаган."
+
+#: widgets/renamedialog.cpp:429
+#, kde-format
+msgid ""
+"The files are likely to be identical: they have the same size and their "
+"contents are the same at the beginning, middle and end."
+msgstr ""
+
+#: widgets/renamedialog.cpp:448
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr "\"%1\" номли эски элемент аллақачон мавжуд."
 
-#: widgets/renamedialog.cpp:342
+#: widgets/renamedialog.cpp:450
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr "\"%1\" номли ўхшаш файл аллақачон мавжуд."
 
-#: widgets/renamedialog.cpp:344
+#: widgets/renamedialog.cpp:452
 #, fuzzy, kde-format
 #| msgid "An older item named '%1' already exists."
 msgid "A more recent item named '%1' already exists."
 msgstr "\"%1\" номли эски элемент аллақачон мавжуд."
 
-#: widgets/renamedialog.cpp:357
+#: widgets/renamedialog.cpp:465
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename:"
@@ -8997,6 +9022,11 @@ msgstr ""
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
+
+#, fuzzy
+#~| msgid "The new file name is empty."
+#~ msgid "The source file is bigger."
+#~ msgstr "Янги файлнинг номи кўрсатилмаган."
 
 #~ msgid ""
 #~ "The chosen filenames do not\n"
