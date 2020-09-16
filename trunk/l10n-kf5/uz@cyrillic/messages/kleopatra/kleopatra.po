@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-15 02:26+0200\n"
+"POT-Creation-Date: 2020-09-16 02:32+0200\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -166,9 +166,10 @@ msgid "Authenticating to the card failed: %1"
 msgstr ""
 
 #: src/commands/authenticatepivcardapplicationcommand.cpp:132
-#: src/commands/changepincommand.cpp:157 src/commands/keytocardcommand.cpp:446
-#: src/commands/keytocardcommand.cpp:525 src/commands/keytocardcommand.cpp:564
-#: src/commands/keytocardcommand.cpp:583 src/commands/keytocardcommand.cpp:598
+#: src/commands/certificatetopivcardcommand.cpp:149
+#: src/commands/certificatetopivcardcommand.cpp:211
+#: src/commands/changepincommand.cpp:157 src/commands/keytocardcommand.cpp:363
+#: src/commands/keytocardcommand.cpp:397 src/commands/keytocardcommand.cpp:407
 #: src/commands/pivgeneratecardkeycommand.cpp:198
 #: src/commands/setpivcardapplicationadministrationkeycommand.cpp:174
 #: src/commands/setpivcardapplicationadministrationkeycommand.cpp:197
@@ -186,6 +187,48 @@ msgstr ""
 #, kde-format
 msgid ""
 "Please enter the PIV Card Application Administration Key in hex-encoded form."
+msgstr ""
+
+#: src/commands/certificatetopivcardcommand.cpp:124
+#: src/commands/keytocardcommand.cpp:251
+#, kde-format
+msgid "Failed to find the PIV card with the serial number: %1"
+msgstr ""
+
+#: src/commands/certificatetopivcardcommand.cpp:131
+#: src/commands/keytocardcommand.cpp:266
+#, kde-format
+msgid "Sorry! No suitable certificate to write to this card slot was found."
+msgstr ""
+
+#: src/commands/certificatetopivcardcommand.cpp:148
+#, fuzzy, kde-format
+#| msgid "Export Certificates..."
+msgctxt "@info"
+msgid "Exporting the certificate failed: %1"
+msgstr "Сертификатларни экспорт қилиш..."
+
+#: src/commands/certificatetopivcardcommand.cpp:210
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "@info"
+msgid "Writing the certificate to the card failed: %1"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/commands/certificatetopivcardcommand.cpp:214
+#, kde-format
+msgid "Successfully copied the certificate to the card."
+msgstr ""
+
+#: src/commands/certificatetopivcardcommand.cpp:215
+#: src/commands/changepincommand.cpp:159 src/commands/keytocardcommand.cpp:379
+#: src/commands/pivgeneratecardkeycommand.cpp:200
+#: src/commands/setpivcardapplicationadministrationkeycommand.cpp:199
+#: src/view/pgpcardwidget.cpp:302 src/view/pgpcardwidget.cpp:393
+#: src/view/pgpcardwidget.cpp:435
+#, kde-format
+msgctxt "@title"
+msgid "Success"
 msgstr ""
 
 #: src/commands/certifycertificatecommand.cpp:194
@@ -357,17 +400,6 @@ msgstr "Сертификатларни импорт қилиш..."
 msgctxt "@info"
 msgid "PIN changed successfully."
 msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/changepincommand.cpp:159 src/commands/keytocardcommand.cpp:541
-#: src/commands/keytocardcommand.cpp:587
-#: src/commands/pivgeneratecardkeycommand.cpp:200
-#: src/commands/setpivcardapplicationadministrationkeycommand.cpp:199
-#: src/view/pgpcardwidget.cpp:302 src/view/pgpcardwidget.cpp:393
-#: src/view/pgpcardwidget.cpp:435
-#, kde-format
-msgctxt "@title"
-msgid "Success"
-msgstr ""
 
 #: src/commands/changeroottrustcommand.cpp:77
 #, kde-format
@@ -1371,63 +1403,58 @@ msgid ""
 "message></para>"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:123
-#, kde-format
-msgid "Failed to find a smart card."
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:132
+#: src/commands/keytocardcommand.cpp:108
 #: src/commands/pivgeneratecardkeycommand.cpp:115
 #, kde-format
 msgid "Failed to find the card with the serial number: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:147
+#: src/commands/keytocardcommand.cpp:123
 #, kde-format
 msgid "Sorry! Transferring keys to this card is not supported."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:182
+#: src/commands/keytocardcommand.cpp:150
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "Placeholder is the number of a slot on a smart card"
 msgid "Signature (%1)"
 msgstr "Бекор қилинди."
 
-#: src/commands/keytocardcommand.cpp:185
+#: src/commands/keytocardcommand.cpp:153
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "Placeholder is the number of a slot on a smart card"
 msgid "Encryption (%1)"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/keytocardcommand.cpp:188
+#: src/commands/keytocardcommand.cpp:156
 #, fuzzy, kde-format
 msgctxt "Placeholder is the number of a slot on a smart card"
 msgid "Authentication (%1)"
 msgstr "Манзили"
 
-#: src/commands/keytocardcommand.cpp:192 src/commands/keytocardcommand.cpp:319
+#: src/commands/keytocardcommand.cpp:160
 #, kde-format
 msgid "Select Card Slot"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:193
+#: src/commands/keytocardcommand.cpp:161
 #, kde-format
 msgid "Please select the card slot the key should be written to:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:204
+#: src/commands/keytocardcommand.cpp:172
 #, kde-format
 msgid "Failed to find the OpenPGP card with the serial number: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:217
+#: src/commands/keytocardcommand.cpp:182
 #, kde-format
 msgid "Sorry! This key cannot be transferred to an OpenPGP card."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:235 src/commands/keytocardcommand.cpp:391
+#: src/commands/keytocardcommand.cpp:200 src/commands/keytocardcommand.cpp:286
 #: src/commands/pivgeneratecardkeycommand.cpp:127
 #: src/view/pgpcardwidget.cpp:311
 #, kde-format
@@ -1436,7 +1463,7 @@ msgid ""
 "the existing key."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:242 src/commands/keytocardcommand.cpp:394
+#: src/commands/keytocardcommand.cpp:207 src/commands/keytocardcommand.cpp:289
 #: src/commands/pivgeneratecardkeycommand.cpp:123
 #, kde-format
 msgctxt "@info"
@@ -1446,12 +1473,12 @@ msgid ""
 "be irrecoverably lost.</p>"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:244
+#: src/commands/keytocardcommand.cpp:209
 #, kde-format
 msgid "The existing key has the fingerprint:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:248 src/commands/keytocardcommand.cpp:400
+#: src/commands/keytocardcommand.cpp:213 src/commands/keytocardcommand.cpp:295
 #: src/commands/pivgeneratecardkeycommand.cpp:130
 #, fuzzy, kde-format
 #| msgid "Overwrite File?"
@@ -1459,86 +1486,35 @@ msgctxt "@title:window"
 msgid "Overwrite existing key"
 msgstr "Файлни алмаштиришни истайсизми?"
 
-#: src/commands/keytocardcommand.cpp:307 src/commands/keytocardcommand.cpp:313
-#, kde-format
-msgctxt ""
-"Placeholder 1 is the name of a key, e.g. 'Digital Signature Key'; "
-"placeholder 2 is the identifier of a slot on a smart card"
-msgid "%1 (%2)"
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:320
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Please select the card slot the certificate should be written to:"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/keytocardcommand.cpp:332 src/commands/keytocardcommand.cpp:381
-#: src/commands/keytocardcommand.cpp:422
-#, kde-format
-msgid "Failed to find the PIV card with the serial number: %1"
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:342
-#, kde-format
-msgid "Sorry! No suitable certificate to write to this card slot was found."
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:348
+#: src/commands/keytocardcommand.cpp:271
 #, kde-format
 msgid "Sorry! This key cannot be transferred to a PIV card."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:353
+#: src/commands/keytocardcommand.cpp:276
 #, kde-format
 msgid ""
 "Sorry! Only encryption keys and signing keys can be transferred to a PIV "
 "card."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:396
+#: src/commands/keytocardcommand.cpp:291
 #, kde-format
 msgid "The existing key has the key grip:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:431
-#, kde-format
-msgid ""
-"<p>The certificate does not seem to correspond to the key on the card.</"
-"p><p>Public key on card: %1<br>Public key of certificate: %2</p>"
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:445
-#, fuzzy, kde-format
-#| msgid "Export Certificates..."
-msgctxt "@info"
-msgid "Exporting the certificate failed: %1"
-msgstr "Сертификатларни экспорт қилиш..."
-
-#: src/commands/keytocardcommand.cpp:524 src/commands/keytocardcommand.cpp:563
+#: src/commands/keytocardcommand.cpp:362 src/commands/keytocardcommand.cpp:396
 #, kde-format
 msgctxt "@info"
 msgid "Moving the key to the card failed: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:540
+#: src/commands/keytocardcommand.cpp:378
 #, kde-format
 msgid "Successfully copied the key to the card."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:582
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@info"
-msgid "Writing the certificate to the card failed: %1"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/keytocardcommand.cpp:586
-#, kde-format
-msgid "Successfully copied the certificate to the card."
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:597
+#: src/commands/keytocardcommand.cpp:406
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete the key: %1"
@@ -4428,7 +4404,7 @@ msgid "Reload"
 msgstr ""
 
 #: src/dialogs/certificateselectiondialog.cpp:128
-#: src/view/keylistcontroller.cpp:375 src/view/welcomewidget.cpp:64
+#: src/view/keylistcontroller.cpp:373 src/view/welcomewidget.cpp:64
 #, kde-format
 msgid "Import..."
 msgstr ""
@@ -5016,7 +4992,7 @@ msgid "Show all test results"
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGB)
-#: src/dialogs/selftestdialog.ui:76 src/view/keylistcontroller.cpp:408
+#: src/dialogs/selftestdialog.ui:76 src/view/keylistcontroller.cpp:406
 #, kde-format
 msgid "Details"
 msgstr ""
@@ -5106,7 +5082,7 @@ msgstr ""
 msgid "(optional) Set Initial PIN (SigG)"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:78 src/view/keylistcontroller.cpp:421
+#: src/dialogs/subkeyswidget.cpp:78 src/view/keylistcontroller.cpp:419
 #, kde-format
 msgid "Change Expiry Date..."
 msgstr ""
@@ -5445,37 +5421,37 @@ msgstr ""
 
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
-#: src/kleopatra.rc:40 src/kleopatra.rc:109
+#: src/kleopatra.rc:40 src/kleopatra.rc:107
 #, kde-format
 msgid "&Certificates"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
-#: src/kleopatra.rc:55
+#: src/kleopatra.rc:53
 #, kde-format
 msgid "&Tools"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: src/kleopatra.rc:73
+#: src/kleopatra.rc:71
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: Menu (window)
-#: src/kleopatra.rc:77
+#: src/kleopatra.rc:75
 #, kde-format
 msgid "&Window"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
-#: src/kleopatra.rc:88
+#: src/kleopatra.rc:86
 #, kde-format
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/kleopatra.rc:95 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:93 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -5855,13 +5831,13 @@ msgstr ""
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:623 src/view/keylistcontroller.cpp:383
+#: src/mainwindow.cpp:623 src/view/keylistcontroller.cpp:381
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
 #: src/mainwindow.cpp:624 src/utils/clipboardmenu.cpp:38
-#: src/view/keylistcontroller.cpp:379
+#: src/view/keylistcontroller.cpp:377
 #, kde-format
 msgid "Decrypt/Verify..."
 msgstr ""
@@ -5885,7 +5861,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, technicalTab)
 #: src/newcertificatewizard/advancedsettingsdialog.ui:21
-#: src/view/keylistcontroller.cpp:449
+#: src/view/keylistcontroller.cpp:443
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Technical Details"
@@ -7600,185 +7576,180 @@ msgstr ""
 msgid "Loading certificate cache..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:351 src/view/welcomewidget.cpp:60
+#: src/view/keylistcontroller.cpp:349 src/view/welcomewidget.cpp:60
 #, kde-format
 msgid "New Key Pair..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:355
+#: src/view/keylistcontroller.cpp:353
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Export..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:355
+#: src/view/keylistcontroller.cpp:353
 #, kde-format
 msgid "Export the selected certificate (public key) to a file"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:359
+#: src/view/keylistcontroller.cpp:357
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Publish on Server..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:359
+#: src/view/keylistcontroller.cpp:357
 #, kde-format
 msgid "Publish the selected certificate (public key) on a public keyserver"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:363
+#: src/view/keylistcontroller.cpp:361
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Export Secret Keys..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:367
+#: src/view/keylistcontroller.cpp:365
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Print Secret Key..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:371
+#: src/view/keylistcontroller.cpp:369
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Lookup on Server..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:371
+#: src/view/keylistcontroller.cpp:369
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Search for certificates online using a public keyserver"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:375
+#: src/view/keylistcontroller.cpp:373
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Import a certificate from a file"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:379
+#: src/view/keylistcontroller.cpp:377
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Decrypt and/or verify files"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:383
+#: src/view/keylistcontroller.cpp:381
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt and/or sign files"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:387
+#: src/view/keylistcontroller.cpp:385
 #, kde-format
 msgid "Sign/Encrypt Folder..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:387
+#: src/view/keylistcontroller.cpp:385
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt and/or sign folders"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:391
+#: src/view/keylistcontroller.cpp:389
 #, kde-format
 msgid "Create Checksum Files..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:395
+#: src/view/keylistcontroller.cpp:393
 #, kde-format
 msgid "Verify Checksum Files..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:400
+#: src/view/keylistcontroller.cpp:398
 #, kde-format
 msgid "Redisplay"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:404
+#: src/view/keylistcontroller.cpp:402
 #, kde-format
 msgid "Stop Operation"
 msgstr "Жараённи тўхтатиш"
 
-#: src/view/keylistcontroller.cpp:413
+#: src/view/keylistcontroller.cpp:411
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:413
+#: src/view/keylistcontroller.cpp:411
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Delete selected certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:417
+#: src/view/keylistcontroller.cpp:415
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Certify..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:417
+#: src/view/keylistcontroller.cpp:415
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Certify the validity of the selected certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:425
+#: src/view/keylistcontroller.cpp:423
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Change Certification Trust..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:429
+#: src/view/keylistcontroller.cpp:427
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Trust Root Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:433
+#: src/view/keylistcontroller.cpp:431
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Distrust Root Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:437
+#: src/view/keylistcontroller.cpp:435
 #, kde-format
 msgid "Change Passphrase..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:441
+#: src/view/keylistcontroller.cpp:439
 #, kde-format
 msgid "Add User-ID..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:445
-#, kde-format
-msgid "Transfer to Smartcard"
-msgstr ""
-
-#: src/view/keylistcontroller.cpp:454
+#: src/view/keylistcontroller.cpp:448
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Refresh X.509 Certificates"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:458
+#: src/view/keylistcontroller.cpp:452
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Refresh OpenPGP Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:462
+#: src/view/keylistcontroller.cpp:456
 #, kde-format
 msgid "Clear CRL Cache"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:466
+#: src/view/keylistcontroller.cpp:460
 #, kde-format
 msgid "Dump CRL Cache"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:470
+#: src/view/keylistcontroller.cpp:464
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Import CRL From File..."
@@ -7790,7 +7761,7 @@ msgid "View Columns"
 msgstr ""
 
 #: src/view/netkeywidget.cpp:68 src/view/pgpcardwidget.cpp:128
-#: src/view/pivcardwidget.cpp:88
+#: src/view/pivcardwidget.cpp:89
 #, fuzzy, kde-format
 #| msgid "Serial Number"
 msgid "Serial number:"
@@ -7973,7 +7944,7 @@ msgctxt ""
 msgid "Pubkey URL:"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:162 src/view/pivcardwidget.cpp:97
+#: src/view/pgpcardwidget.cpp:162 src/view/pivcardwidget.cpp:98
 #, kde-format
 msgid "Keys:"
 msgstr ""
@@ -8005,7 +7976,7 @@ msgstr ""
 msgid "Create a new primary key and generate subkeys on the card."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:188 src/view/pivcardwidget.cpp:147
+#: src/view/pgpcardwidget.cpp:188 src/view/pivcardwidget.cpp:153
 #, kde-format
 msgid "Change PIN"
 msgstr ""
@@ -8171,7 +8142,7 @@ msgctxt "@info"
 msgid "URL successfully changed."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/pgpcardwidget.cpp:445 src/view/pivcardwidget.cpp:198
+#: src/view/pgpcardwidget.cpp:445 src/view/pivcardwidget.cpp:204
 #, kde-format
 msgid "Slot empty"
 msgstr ""
@@ -8181,72 +8152,72 @@ msgstr ""
 msgid "Public key not found."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:99
+#: src/view/pivcardwidget.cpp:100
 #, fuzzy, kde-format
 msgid "PIV authentication:"
 msgstr "Манзили"
 
-#: src/view/pivcardwidget.cpp:102 src/view/pivcardwidget.cpp:111
-#: src/view/pivcardwidget.cpp:120 src/view/pivcardwidget.cpp:134
-#: src/view/pivcardwidget.cpp:199
+#: src/view/pivcardwidget.cpp:103 src/view/pivcardwidget.cpp:112
+#: src/view/pivcardwidget.cpp:121 src/view/pivcardwidget.cpp:135
+#: src/view/pivcardwidget.cpp:205
 #, fuzzy, kde-format
 #| msgid "Stop Operation"
 msgid "Generate"
 msgstr "Жараённи тўхтатиш"
 
-#: src/view/pivcardwidget.cpp:108
+#: src/view/pivcardwidget.cpp:109
 #, fuzzy, kde-format
 msgid "Card authentication:"
 msgstr "Манзили"
 
-#: src/view/pivcardwidget.cpp:117
+#: src/view/pivcardwidget.cpp:118
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Digital signature:"
 msgstr "Бекор қилинди."
 
-#: src/view/pivcardwidget.cpp:124
+#: src/view/pivcardwidget.cpp:125 src/view/pivcardwidget.cpp:139
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Write Certificate"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/pivcardwidget.cpp:125
+#: src/view/pivcardwidget.cpp:126 src/view/pivcardwidget.cpp:140
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Write the certificate corresponding to this key to the card"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/pivcardwidget.cpp:131
+#: src/view/pivcardwidget.cpp:132
 #, kde-format
 msgid "Key management:"
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:148
+#: src/view/pivcardwidget.cpp:154
 #, kde-format
 msgid ""
 "Change the PIV Card Application PIN that activates the PIV Card and enables "
 "private key operations using the stored keys."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:153
+#: src/view/pivcardwidget.cpp:159
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Change PUK"
 msgstr "Бекор қилинди."
 
-#: src/view/pivcardwidget.cpp:154
+#: src/view/pivcardwidget.cpp:160
 #, kde-format
 msgid "Change the PIN Unblocking Key that enables a reset of the PIN."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:159
+#: src/view/pivcardwidget.cpp:165
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Change Admin Key"
 msgstr "Бекор қилинди."
 
-#: src/view/pivcardwidget.cpp:160
+#: src/view/pivcardwidget.cpp:166
 #, kde-format
 msgid ""
 "Change the PIV Card Application Administration Key that is used by the PIV "
@@ -8255,25 +8226,25 @@ msgid ""
 "Application."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:180
+#: src/view/pivcardwidget.cpp:186
 #, kde-format
 msgctxt "Placeholder is a version number"
 msgid "PIV v%1 card"
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:199
+#: src/view/pivcardwidget.cpp:205
 #, kde-format
 msgid "Replace"
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:201
+#: src/view/pivcardwidget.cpp:207
 #, fuzzy, kde-format
 #| msgid "Stop Operation"
 msgctxt "Placeholder is the display name of a key"
 msgid "Generate %1"
 msgstr "Жараённи тўхтатиш"
 
-#: src/view/pivcardwidget.cpp:202
+#: src/view/pivcardwidget.cpp:208
 #, kde-format
 msgctxt "Placeholder is the display name of a key"
 msgid "Replace %1 with new key"
@@ -8473,6 +8444,11 @@ msgstr "Сертификатларни импорт қилиш..."
 #, kde-format
 msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Please select the card slot the certificate should be written to:"
+#~ msgstr "Сертификатларни импорт қилиш..."
 
 #, fuzzy
 #~| msgid "Certificate Details..."
