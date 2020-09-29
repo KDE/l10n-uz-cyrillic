@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-28 02:35+0200\n"
+"POT-Creation-Date: 2020-09-29 02:30+0200\n"
 "PO-Revision-Date: 2006-12-17 12:02+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -93,42 +93,32 @@ msgstr "'%1' файлини очиб бўлмади. У оддий файл эм
 msgid "&Color Scheme"
 msgstr ""
 
-#: kateconfigdialog.cpp:47
+#: kateconfigdialog.cpp:43
 #, kde-format
 msgid "Configure"
 msgstr ""
 
-#: kateconfigdialog.cpp:56
+#: kateconfigdialog.cpp:75 katemdi.cpp:533
 #, kde-format
-msgid "Application"
-msgstr "Дастур"
+msgid "Behavior"
+msgstr "Хусусиятлар"
 
-#: kateconfigdialog.cpp:58
+#: kateconfigdialog.cpp:76
 #, fuzzy, kde-format
-msgid "Application Options"
-msgstr "Дастур"
-
-#: kateconfigdialog.cpp:65
-#, kde-format
-msgid "General"
-msgstr "Умумий"
-
-#: kateconfigdialog.cpp:66
-#, kde-format
-msgid "General Options"
+msgid "Behavior Options"
 msgstr "Умумий параметрлар"
 
-#: kateconfigdialog.cpp:74
+#: kateconfigdialog.cpp:83
 #, kde-format
 msgid "&Behavior"
 msgstr "&Хусусиятлар"
 
-#: kateconfigdialog.cpp:79
+#: kateconfigdialog.cpp:88
 #, kde-format
 msgid "Wa&rn about files modified by foreign processes"
 msgstr "&Файл ўзгарганда хабар бериш"
 
-#: kateconfigdialog.cpp:82
+#: kateconfigdialog.cpp:91
 #, kde-format
 msgid ""
 "If enabled, when Kate receives focus you will be asked what to do with files "
@@ -137,49 +127,77 @@ msgid ""
 "that file is tried to be saved."
 msgstr ""
 
-#: kateconfigdialog.cpp:91
+#: kateconfigdialog.cpp:102 katemainwindow.cpp:256
 #, kde-format
-msgid "Close Kate entirely when the last file is closed"
+msgid "&Quick Open"
+msgstr "&Тез очиш"
+
+#: kateconfigdialog.cpp:107
+#, fuzzy, kde-format
+msgid "&Match Mode:"
+msgstr "&Янги"
+
+#: kateconfigdialog.cpp:112 katemwmodonhddialog.cpp:89
+#, kde-format
+msgid "Filename"
+msgstr "Файлнинг номи"
+
+#: kateconfigdialog.cpp:113
+#, fuzzy, kde-format
+msgid "Filepath"
+msgstr "Файллар:"
+
+#: kateconfigdialog.cpp:120
+#, fuzzy, kde-format
+msgid "&List Mode:"
+msgstr "&Янги"
+
+#: kateconfigdialog.cpp:125
+#, kde-format
+msgid "Current Project Files"
 msgstr ""
 
-#: kateconfigdialog.cpp:94
+#: kateconfigdialog.cpp:126
+#, fuzzy, kde-format
+#| msgid "Projects"
+msgid "All Projects Files"
+msgstr "Лойиҳалар"
+
+#: kateconfigdialog.cpp:134
+#, fuzzy, kde-format
+#| msgid "Show Side&bars"
+msgid "&Tabs"
+msgstr "Ён &панелларни кўрсатиш"
+
+#: kateconfigdialog.cpp:138
 #, kde-format
-msgid ""
-"If enabled, Kate will shutdown when the last file being edited is closed, "
-"otherwise a blank page will open so that you can start a new file."
+msgid "&Limit number of tabs:"
 msgstr ""
 
-#: kateconfigdialog.cpp:102
+#: kateconfigdialog.cpp:144
 #, kde-format
-msgid "Meta-Information"
-msgstr "Мета-маълумот"
-
-#: kateconfigdialog.cpp:108
-#, kde-format
-msgid "Keep &meta-information past sessions"
+msgid "Unlimited"
 msgstr ""
 
-#: kateconfigdialog.cpp:111
-#, kde-format
-msgid ""
-"Check this if you want document configuration like for example bookmarks to "
-"be saved past editor sessions. The configuration will be restored if the "
-"document has not changed when reopened."
-msgstr ""
+#: kateconfigdialog.cpp:159
+#, fuzzy, kde-format
+#| msgid "Sessions"
+msgid "Session"
+msgstr "Сеанслар"
 
-#: kateconfigdialog.cpp:123
+#: kateconfigdialog.cpp:160
 #, kde-format
-msgid "&Delete unused meta-information after:"
-msgstr ""
+msgid "Session Management"
+msgstr "Сеанс бошқаруви"
 
-#: kateconfigdialog.cpp:127
+#: kateconfigdialog.cpp:171
 #, fuzzy, kde-format
 #| msgid "(never)"
 msgctxt "The special case of 'Delete unused meta-information after'"
 msgid "(never)"
 msgstr "(ҳеч қачон)"
 
-#: kateconfigdialog.cpp:128
+#: kateconfigdialog.cpp:172
 #, fuzzy, kde-format
 #| msgid " day(s)"
 msgctxt "The suffix of 'Delete unused meta-information after'"
@@ -187,95 +205,22 @@ msgid " day"
 msgid_plural " days"
 msgstr[0] " кун"
 
-#: kateconfigdialog.cpp:139 katemainwindow.cpp:256
-#, kde-format
-msgid "&Quick Open"
-msgstr "&Тез очиш"
-
-#: kateconfigdialog.cpp:144
-#, fuzzy, kde-format
-msgid "&Match Mode:"
-msgstr "&Янги"
-
-#: kateconfigdialog.cpp:149 katemwmodonhddialog.cpp:89
-#, kde-format
-msgid "Filename"
-msgstr "Файлнинг номи"
-
-#: kateconfigdialog.cpp:150
-#, fuzzy, kde-format
-msgid "Filepath"
-msgstr "Файллар:"
-
-#: kateconfigdialog.cpp:157
-#, fuzzy, kde-format
-msgid "&List Mode:"
-msgstr "&Янги"
-
-#: kateconfigdialog.cpp:162
-#, kde-format
-msgid "Current Project Files"
-msgstr ""
-
-#: kateconfigdialog.cpp:163
-#, fuzzy, kde-format
-#| msgid "Projects"
-msgid "All Projects Files"
-msgstr "Лойиҳалар"
-
-#: kateconfigdialog.cpp:171
-#, fuzzy, kde-format
-#| msgid "Show Side&bars"
-msgid "&Tabs"
-msgstr "Ён &панелларни кўрсатиш"
-
-#: kateconfigdialog.cpp:175
-#, kde-format
-msgid "&Limit number of tabs:"
-msgstr ""
-
-#: kateconfigdialog.cpp:181
-#, kde-format
-msgid "Unlimited"
-msgstr ""
-
-#: kateconfigdialog.cpp:192
-#, fuzzy, kde-format
-#| msgid "Sessions"
-msgid "Session"
-msgstr "Сеанслар"
-
-#: kateconfigdialog.cpp:193
-#, kde-format
-msgid "Session Management"
-msgstr "Сеанс бошқаруви"
-
-#: kateconfigdialog.cpp:229
+#: kateconfigdialog.cpp:211
 #, kde-format
 msgid "Plugins"
 msgstr "Плагинлар"
 
-#: kateconfigdialog.cpp:230
+#: kateconfigdialog.cpp:212
 #, kde-format
 msgid "Plugin Manager"
 msgstr "Плагин бошқарувчиси"
 
-#: kateconfigdialog.cpp:253 kateconfigdialog.cpp:254
+#: kateconfigdialog.cpp:230 kateconfigdialog.cpp:231
 #, kde-format
 msgid "User Feedback"
 msgstr ""
 
-#: kateconfigdialog.cpp:259
-#, fuzzy, kde-format
-msgid "Editor Component"
-msgstr "Таҳрирчи компонентини танлаш"
-
-#: kateconfigdialog.cpp:261
-#, fuzzy, kde-format
-msgid "Editor Component Options"
-msgstr "Таҳрирчи компонентини танлаш"
-
-#: kateconfigdialog.cpp:481
+#: kateconfigdialog.cpp:444
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
@@ -284,7 +229,7 @@ msgid ""
 "You have unsaved changes. Do you want to apply the changes or discard them?"
 msgstr "<p>'%1' ҳужжатига ўзариш киритилди.<p>Уни сақлашни истайсизми?"
 
-#: kateconfigdialog.cpp:481
+#: kateconfigdialog.cpp:444
 #, kde-format
 msgid "Warning"
 msgstr ""
@@ -765,11 +710,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Configure ..."
 msgstr "Олдинги кўриниш"
-
-#: katemdi.cpp:533
-#, kde-format
-msgid "Behavior"
-msgstr "Хусусиятлар"
 
 #: katemdi.cpp:535
 #, kde-format
@@ -1739,15 +1679,60 @@ msgstr "Сеанс учун номни кўрсатиш"
 msgid "Specify a new name for session: %1"
 msgstr "Сеанс учун номни кўрсатиш"
 
+#. i18n: ectx: property (title), widget (QGroupBox, gbAppStartup)
+#: ui/sessionconfigwidget.ui:17
+#, fuzzy, kde-format
+msgid "Application Startup Behavior"
+msgstr "Дастур"
+
+#. i18n: ectx: property (text), widget (QRadioButton, startNewSessionRadioButton)
+#: ui/sessionconfigwidget.ui:23
+#, kde-format
+msgid "&Start new session"
+msgstr "&Янги сеансни бошлаш"
+
+#. i18n: ectx: property (text), widget (QRadioButton, loadLastUserSessionRadioButton)
+#: ui/sessionconfigwidget.ui:30
+#, fuzzy, kde-format
+#| msgid "&Load last-used session"
+msgid "&Load last used session"
+msgstr "&Охирги ишлатилган сеансни юклаш"
+
+#. i18n: ectx: property (text), widget (QRadioButton, manuallyChooseSessionRadioButton)
+#: ui/sessionconfigwidget.ui:37
+#, kde-format
+msgid "&Manually choose a session"
+msgstr "&Сеансни кўлбола танлаш"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/sessionconfigwidget.ui:47
+#, fuzzy, kde-format
+msgid "Application Shutdown Behavior"
+msgstr "Дастур"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, modCloseAfterLast)
+#: ui/sessionconfigwidget.ui:53
+#, kde-format
+msgid ""
+"If enabled, Kate will shutdown when the last file being edited is closed, "
+"otherwise a blank page will open so that you can start a new file."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, modCloseAfterLast)
+#: ui/sessionconfigwidget.ui:56
+#, kde-format
+msgid "Close Kate entirely when the last file is closed"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, gbElements)
-#: ui/sessionconfigwidget.ui:29
+#: ui/sessionconfigwidget.ui:66
 #, fuzzy, kde-format
 #| msgid "Session Management"
 msgid "Session Elements"
 msgstr "Сеанс бошқаруви"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/sessionconfigwidget.ui:35
+#: ui/sessionconfigwidget.ui:72
 #, kde-format
 msgid ""
 "The session contains the list of open documents, recently opened files list, "
@@ -1756,13 +1741,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ui/sessionconfigwidget.ui:47
+#: ui/sessionconfigwidget.ui:84
 #, kde-format
 msgid "Maximum number of entries in recent file list:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, restoreVC)
-#: ui/sessionconfigwidget.ui:75
+#: ui/sessionconfigwidget.ui:112
 #, kde-format
 msgid ""
 "Check this if you want all your views and frames restored each time you open "
@@ -1770,36 +1755,56 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, restoreVC)
-#: ui/sessionconfigwidget.ui:78
+#: ui/sessionconfigwidget.ui:115
 #, kde-format
 msgid "Include &window configuration"
 msgstr "&Ойна мосламалари билан"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbAppStartup)
-#: ui/sessionconfigwidget.ui:88
-#, fuzzy, kde-format
-#| msgid "Behavior on Application Startup"
-msgid "Behaviour on Application Startup"
-msgstr "Дастурни ишга тушиши"
-
-#. i18n: ectx: property (text), widget (QRadioButton, startNewSessionRadioButton)
-#: ui/sessionconfigwidget.ui:94
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, saveMetaInfos)
+#: ui/sessionconfigwidget.ui:125
 #, kde-format
-msgid "&Start new session"
-msgstr "&Янги сеансни бошлаш"
+msgid ""
+"Check this if you want document configuration like for example bookmarks to "
+"be saved past editor sessions. The configuration will be restored if the "
+"document has not changed when reopened."
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, loadLastUserSessionRadioButton)
-#: ui/sessionconfigwidget.ui:101
-#, fuzzy, kde-format
-#| msgid "&Load last-used session"
-msgid "&Load last used session"
-msgstr "&Охирги ишлатилган сеансни юклаш"
-
-#. i18n: ectx: property (text), widget (QRadioButton, manuallyChooseSessionRadioButton)
-#: ui/sessionconfigwidget.ui:108
+#. i18n: ectx: property (title), widget (QGroupBox, saveMetaInfos)
+#: ui/sessionconfigwidget.ui:128
 #, kde-format
-msgid "&Manually choose a session"
-msgstr "&Сеансни кўлбола танлаш"
+msgid "Keep &meta-information past sessions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/sessionconfigwidget.ui:139
+#, kde-format
+msgid "&Delete unused meta-information after:"
+msgstr ""
+
+#~ msgid "Application"
+#~ msgstr "Дастур"
+
+#~ msgid "General"
+#~ msgstr "Умумий"
+
+#~ msgid "General Options"
+#~ msgstr "Умумий параметрлар"
+
+#~ msgid "Meta-Information"
+#~ msgstr "Мета-маълумот"
+
+#, fuzzy
+#~ msgid "Editor Component"
+#~ msgstr "Таҳрирчи компонентини танлаш"
+
+#, fuzzy
+#~ msgid "Editor Component Options"
+#~ msgstr "Таҳрирчи компонентини танлаш"
+
+#, fuzzy
+#~| msgid "Behavior on Application Startup"
+#~ msgid "Behaviour on Application Startup"
+#~ msgstr "Дастурни ишга тушиши"
 
 #, fuzzy
 #~ msgid "&About Editor Component"
@@ -2626,10 +2631,6 @@ msgstr "&Сеансни кўлбола танлаш"
 #, fuzzy
 #~ msgid "Show Macros"
 #~ msgstr "Ён &панелларни кўрсатиш"
-
-#, fuzzy
-#~ msgid "Parser Options"
-#~ msgstr "Умумий параметрлар"
 
 #, fuzzy
 #~ msgid "Show Uses"
