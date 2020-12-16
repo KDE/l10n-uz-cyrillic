@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-15 02:21+0100\n"
+"POT-Creation-Date: 2020-12-16 02:25+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -5483,7 +5483,7 @@ msgid "&Help"
 msgstr ""
 
 #: krita/krita5.xmlgui:389 libs/ui/kis_file_layer.cpp:121
-#: plugins/python/scripter/uicontroller.py:102
+#: plugins/python/scripter/uicontroller.py:93
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:71
 #, fuzzy, kde-format
 msgid "File"
@@ -7765,14 +7765,28 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "&Алмаштириш:"
 
-#: krita/main.cc:564 libs/ui/KisApplication.cpp:368
+#: krita/main.cc:460
+#, fuzzy, kde-format
+#| msgid "Internal error"
+msgctxt "@title:window"
+msgid "Fatal Error"
+msgstr "Ички хато"
+
+#: krita/main.cc:460
+#, kde-format
+msgid ""
+"Krita does not support the Wayland platform. Use XWayland to run Krita on "
+"Wayland. Krita will close now."
+msgstr ""
+
+#: krita/main.cc:570 libs/ui/KisApplication.cpp:368
 #: libs/ui/KisApplication.cpp:634
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "чизма"
 
-#: krita/main.cc:565
+#: krita/main.cc:571
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -7780,13 +7794,13 @@ msgid ""
 "Please update to a supported version of Windows: Windows 7, 8, 8.1 or 10."
 msgstr ""
 
-#: krita/main.cc:587 krita/main.cc:592
+#: krita/main.cc:593 krita/main.cc:598
 #, fuzzy, kde-format
 #| msgid "Internal error"
 msgid "Krita Tablet Support"
 msgstr "Ички хато"
 
-#: krita/main.cc:588
+#: krita/main.cc:594
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -7794,7 +7808,7 @@ msgid ""
 "installed."
 msgstr ""
 
-#: krita/main.cc:593
+#: krita/main.cc:599
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -8321,7 +8335,7 @@ msgstr ""
 msgid "Unknown error writing SVG text element"
 msgstr ""
 
-#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:111
+#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:108
 #, fuzzy
 #| msgid "Change Alignment"
 msgctxt "(qtundo-format)"
@@ -8709,8 +8723,8 @@ msgstr "Ўлчами:"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:31
 #: plugins/tools/basictools/kis_tool_brush.cc:379
-#: plugins/tools/basictools/kis_tool_fill.cc:250
-#: plugins/tools/basictools/kis_tool_fill.cc:257
+#: plugins/tools/basictools/kis_tool_fill.cc:241
+#: plugins/tools/basictools/kis_tool_fill.cc:248
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:449
@@ -9339,7 +9353,7 @@ msgstr "Сана"
 
 #: libs/image/kis_layer_properties_icons.cpp:25
 #: libs/image/kis_paint_layer.cc:204
-#: plugins/dockers/animation/onion_skins_docker.cpp:29
+#: plugins/dockers/animation/KisOnionSkinsDocker.cpp:29
 #, fuzzy, kde-format
 #| msgid "Document Information"
 msgid "Onion Skins"
@@ -9455,7 +9469,7 @@ msgstr "Жойлашиши:"
 
 #: libs/image/kis_psd_layer_style.cpp:88
 #: libs/ui/KisApplicationArguments.cpp:336 libs/ui/KisMainWindow.cpp:1350
-#: libs/ui/KisMainWindow.cpp:1618 libs/ui/KisMainWindow.cpp:1637
+#: libs/ui/KisMainWindow.cpp:1617 libs/ui/KisMainWindow.cpp:1636
 #: plugins/impex/libkra/kis_kra_saver.cpp:80
 #, fuzzy, kde-format
 #| msgid "Name:"
@@ -9872,7 +9886,7 @@ msgid "File Layer"
 msgstr "Матнни ўчириш"
 
 #: libs/impex/KisExportCheckRegistry.cpp:94 libs/ui/kis_layer_manager.cc:652
-#: plugins/impex/svg/kis_svg_import.cc:89
+#: plugins/impex/svg/kis_svg_import.cc:79
 #, fuzzy, kde-format
 msgid "Vector Layer"
 msgstr "Намунани яратиш"
@@ -9895,7 +9909,7 @@ msgid "Colorize Mask"
 msgstr "Ранги:"
 
 #: libs/impex/KisExportCheckRegistry.cpp:102
-#: libs/ui/dialogs/kis_dlg_filter.cpp:198 libs/ui/kis_mask_manager.cc:219
+#: libs/ui/dialogs/kis_dlg_filter.cpp:188 libs/ui/kis_mask_manager.cc:219
 #, fuzzy, kde-format
 #| msgid "Choose Filter"
 msgid "Filter Mask"
@@ -10150,7 +10164,7 @@ msgctxt "description of a file type"
 msgid "SeExpr script package"
 msgstr "Скрипт пакетини ўрнатиш"
 
-#: libs/libkis/Document.cpp:906 libs/ui/KisMainWindow.cpp:1913
+#: libs/libkis/Document.cpp:906 libs/ui/KisMainWindow.cpp:1911
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Услубларни импорт қилиш"
@@ -12283,9 +12297,9 @@ msgstr "Ҳужжатни импорт қилиш"
 #: libs/ui/KisDocument.cpp:1618 libs/ui/KisMainWindow.cpp:848
 #: libs/ui/KisMainWindow.cpp:1005 libs/ui/KisMainWindow.cpp:1130
 #: libs/ui/KisMainWindow.cpp:1143 libs/ui/KisMainWindow.cpp:1238
-#: libs/ui/KisMainWindow.cpp:1920 libs/ui/KisPart.cpp:537
+#: libs/ui/KisMainWindow.cpp:1918 libs/ui/KisPart.cpp:537
 #: libs/ui/KisPart.cpp:540 libs/ui/KisReferenceImage.cpp:178
-#: libs/ui/KisRemoteFileFetcher.cpp:51 libs/ui/KisTemplateCreateDia.cpp:284
+#: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:703
 #: libs/ui/KisWelcomePageWidget.cpp:701
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:410
@@ -12425,7 +12439,7 @@ msgstr ""
 #: libs/ui/KisPaletteEditor.cpp:206 libs/ui/KisPaletteEditor.cpp:411
 #: libs/widgets/kis_palette_view.cpp:115
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:25
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgid "Name"
@@ -12539,7 +12553,7 @@ msgstr "Гуруҳни қўшиш"
 #: libs/widgets/KoConfigAuthorPage.cpp:89
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:97
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:25
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 #, fuzzy, kde-format
 #| msgid "Type:"
 msgid "Type"
@@ -12744,7 +12758,7 @@ msgid "Delete resource"
 msgstr "Матнни ўчириш"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:212
-#: libs/ui/KisMainWindow.cpp:2333
+#: libs/ui/KisMainWindow.cpp:2330
 #, fuzzy, kde-format
 #| msgid "Choose Filter"
 msgctxt "@title:window"
@@ -12982,7 +12996,7 @@ msgid "Failed to render animation frames!"
 msgstr "Текислашни ўзгартириш"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:50
-#: libs/ui/KisMainWindow.cpp:1938
+#: libs/ui/KisMainWindow.cpp:1936
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid "Render Animation"
@@ -13031,20 +13045,20 @@ msgstr ""
 msgid "This is a source code archive. Please install ffmpeg instead."
 msgstr ""
 
-#: libs/ui/animation/KisVideoSaver.cpp:206
+#: libs/ui/animation/KisVideoSaver.cpp:196
 #, fuzzy, kde-format
 #| msgid "Could not find %1"
 msgid "ffmpeg could not be found at %1"
 msgstr "%1 топилмади"
 
-#: libs/ui/animation/KisVideoSaver.cpp:245
+#: libs/ui/animation/KisVideoSaver.cpp:235
 #, fuzzy, kde-format
 #| msgid "Palettes"
 msgid "Fetching palette..."
 msgstr "Асбоб ойналари"
 
-#: libs/ui/animation/KisVideoSaver.cpp:276
-#: libs/ui/animation/KisVideoSaver.cpp:315
+#: libs/ui/animation/KisVideoSaver.cpp:266
+#: libs/ui/animation/KisVideoSaver.cpp:305
 #, fuzzy, kde-format
 #| msgid "E&xport..."
 msgid "Encoding frames..."
@@ -13144,7 +13158,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, resetOriginButton)
 #: libs/ui/animation/video_export_options_dialog.ui:211
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:671
-#: plugins/dockers/animation/onion_skins_docker.ui:99
+#: plugins/dockers/animation/KisOnionSkinsDocker.ui:99
 #: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:239
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:346
 #: plugins/tools/basictools/wdgmultihandtool.ui:208
@@ -13823,7 +13837,7 @@ msgstr "Сана"
 msgid "Down"
 msgstr "Матнни ўчириш"
 
-#: libs/ui/canvas/kis_animation_player.cpp:242
+#: libs/ui/canvas/kis_animation_player.cpp:243
 #, kde-format
 msgctxt "floating on-canvas message"
 msgid ""
@@ -14114,7 +14128,7 @@ msgstr ""
 #: libs/ui/forms/wdgsessionmanager.ui:94
 #: plugins/dockers/recorder/recorder_export.ui:568
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:279
-#: plugins/python/scripter/ui_scripter/actions/closeaction/closeaction.py:29
+#: plugins/python/scripter/ui_scripter/actions/closeaction/closeaction.py:20
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Close"
@@ -14199,14 +14213,14 @@ msgstr "Хатчўпнинг номи:"
 msgid "No configuration options are available for this filter"
 msgstr "Жорий бўлим"
 
-#: libs/ui/dialogs/kis_dlg_filter.cpp:126
+#: libs/ui/dialogs/kis_dlg_filter.cpp:116
 #, fuzzy, kde-format
 #| msgid "Choose Filter"
 msgctxt "@title:window"
 msgid "Filter"
 msgstr "Филтерни танлаш"
 
-#: libs/ui/dialogs/kis_dlg_filter.cpp:126
+#: libs/ui/dialogs/kis_dlg_filter.cpp:116
 #, fuzzy, kde-format
 #| msgid "Choose Filter"
 msgctxt "@title:window"
@@ -14277,8 +14291,8 @@ msgstr "Рўйхатнинг турини ўзгартириш"
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
 #: libs/ui/widgets/kis_custom_image_widget.cc:85
 #: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
-#: plugins/dockers/animation/onion_skins_docker.cpp:46
-#: plugins/dockers/animation/timeline_frames_view.cpp:247
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:229
+#: plugins/dockers/animation/KisOnionSkinsDocker.cpp:46
 #: plugins/dockers/layerdocker/LayerBox.cpp:188
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
@@ -14289,8 +14303,8 @@ msgstr "Рўйхатнинг турини ўзгартириш"
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:32
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:35
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:38
-#: plugins/impex/jpeg/kis_jpeg_export.cc:227
-#: plugins/impex/jpeg/kis_jpeg_export.cc:229
+#: plugins/impex/jpeg/kis_jpeg_export.cc:217
+#: plugins/impex/jpeg/kis_jpeg_export.cc:219
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:130
 #: plugins/paintops/deform/kis_brush_size_option.cpp:59
 #: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:84
@@ -14355,7 +14369,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "Гуруҳнинг номини киритинг:"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2356
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2353
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:360
 #, fuzzy, kde-format
 #| msgid "Name:"
@@ -14731,8 +14745,8 @@ msgstr "Сақлашни тасдиқлаш"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1532
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1534
 #: libs/ui/forms/wdgcolorsettings.ui:28
-#: libs/ui/forms/wdgperformancesettings.ui:38 libs/ui/KoDocumentInfoDlg.cpp:87
-#: libs/ui/KoDocumentInfoDlg.cpp:88
+#: libs/ui/forms/wdgperformancesettings.ui:38 libs/ui/KoDocumentInfoDlg.cpp:89
+#: libs/ui/KoDocumentInfoDlg.cpp:90
 #: plugins/dockers/logdocker/LogDockerDock.cpp:118
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:49
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:263
@@ -14812,7 +14826,7 @@ msgid "Author"
 msgstr "Муаллиф"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1614
-#: libs/ui/KoDocumentInfoDlg.cpp:110
+#: libs/ui/KoDocumentInfoDlg.cpp:112
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
@@ -15101,7 +15115,7 @@ msgid "Session name:"
 msgstr "Объект"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:89
-#: libs/ui/KisMainWindow.cpp:2362 libs/ui/widgets/kis_gradient_chooser.cc:221
+#: libs/ui/KisMainWindow.cpp:2359 libs/ui/widgets/kis_gradient_chooser.cc:221
 #: libs/ui/widgets/KoFillConfigWidget.cpp:651
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:366
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:194
@@ -15111,7 +15125,7 @@ msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:90
-#: libs/ui/KisMainWindow.cpp:2363 libs/ui/widgets/kis_gradient_chooser.cc:222
+#: libs/ui/KisMainWindow.cpp:2360 libs/ui/widgets/kis_gradient_chooser.cc:222
 #: libs/ui/widgets/KoFillConfigWidget.cpp:652
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:367
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:195
@@ -15274,7 +15288,7 @@ msgstr "Ҳужжат"
 #: libs/ui/input/wintab/drawpile_tablettester/tablettest.ui:43
 #: plugins/dockers/lut/wdglut.ui:241
 #: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:105
-#: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/clearaction.py:30
+#: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/clearaction.py:21
 #, fuzzy, kde-format
 msgid "Clear"
 msgstr "Белги услубини ўзгартириш"
@@ -17102,7 +17116,7 @@ msgstr "Ранги:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdggeometryoptions.ui:120
-#: plugins/tools/basictools/kis_tool_fill.cc:263
+#: plugins/tools/basictools/kis_tool_fill.cc:254
 #, fuzzy, kde-format
 msgid "Rotate:"
 msgstr "Тиклаш"
@@ -17121,7 +17135,7 @@ msgstr "Тиклаш"
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:82
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:82
 #: plugins/paintops/spray/wdgsprayoptions.ui:122
-#: plugins/tools/basictools/kis_tool_fill.cc:270
+#: plugins/tools/basictools/kis_tool_fill.cc:261
 #, fuzzy, kde-format
 #| msgid "Gray"
 msgid "Scale:"
@@ -17693,7 +17707,7 @@ msgstr "Жорий бўлим"
 #: plugins/generators/seexpr/wdgseexpr.ui:172
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:152
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:136
-#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:30
+#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
 #, fuzzy, kde-format
 msgid "Save"
 msgstr "Тўлқин"
@@ -19477,42 +19491,42 @@ msgstr ""
 msgid "Favorites"
 msgstr "Филтерни танлаш"
 
-#: libs/ui/kis_control_frame.cpp:78
+#: libs/ui/kis_control_frame.cpp:69
 #, fuzzy, kde-format
 msgid "Fill Patterns"
 msgstr "Қизил"
 
-#: libs/ui/kis_control_frame.cpp:82
+#: libs/ui/kis_control_frame.cpp:73
 #, fuzzy, kde-format
 #| msgid "E&xport..."
 msgid "Fill Gradients"
 msgstr "&Экспорт қилиш"
 
-#: libs/ui/kis_control_frame.cpp:92
+#: libs/ui/kis_control_frame.cpp:83
 #, fuzzy, kde-format
 #| msgid "&Open"
 msgid "&Patterns"
 msgstr "&Очиш"
 
-#: libs/ui/kis_control_frame.cpp:97
+#: libs/ui/kis_control_frame.cpp:88
 #, fuzzy, kde-format
 #| msgid "E&xport..."
 msgid "&Gradients"
 msgstr "&Экспорт қилиш"
 
-#: libs/ui/kis_control_frame.cpp:110
+#: libs/ui/kis_control_frame.cpp:101
 #, fuzzy, kde-format
 #| msgid "Color:"
 msgid "&Color"
 msgstr "Ранги:"
 
-#: libs/ui/kis_control_frame.cpp:125
+#: libs/ui/kis_control_frame.cpp:116
 #, fuzzy, kde-format
 #| msgid "More Line Colors..."
 msgid "&Painter's Tools"
 msgstr "Кўпроқ чизиқ ранглари"
 
-#: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:305
+#: libs/ui/kis_control_frame.cpp:177 libs/ui/KisApplication.cpp:305
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:173
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:64
@@ -19521,12 +19535,12 @@ msgstr "Кўпроқ чизиқ ранглари"
 msgid "Patterns"
 msgstr "&Очиш"
 
-#: libs/ui/kis_control_frame.cpp:189 libs/ui/kis_control_frame.cpp:191
+#: libs/ui/kis_control_frame.cpp:180 libs/ui/kis_control_frame.cpp:182
 #, fuzzy, kde-format
 msgid "Custom Pattern"
 msgstr "Тўлдириш мосламалари"
 
-#: libs/ui/kis_control_frame.cpp:233 libs/ui/KisApplication.cpp:282
+#: libs/ui/kis_control_frame.cpp:224 libs/ui/KisApplication.cpp:282
 #: libs/ui/KisApplication.cpp:283
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:168
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:62
@@ -20923,169 +20937,169 @@ msgctxt "A gradient wasn't set in the generic gradient editor"
 msgid "No Gradient Set"
 msgstr "&Экспорт қилиш"
 
-#: libs/ui/KisImportExportErrorCode.cpp:29
+#: libs/ui/KisImportExportErrorCode.cpp:19
 #, kde-format
 msgid "An unspecified error occurred."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:34
-#: libs/ui/KisImportExportErrorCode.cpp:175
+#: libs/ui/KisImportExportErrorCode.cpp:24
+#: libs/ui/KisImportExportErrorCode.cpp:165
 #, kde-format
 msgid "The action has been completed successfully."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:36
+#: libs/ui/KisImportExportErrorCode.cpp:26
 #, fuzzy, kde-format
 #| msgid "Could not read the beginning of the file."
 msgid "An error occurred when reading from the file."
 msgstr "Файлнинг бошини ўқиб бўлмади."
 
-#: libs/ui/KisImportExportErrorCode.cpp:38
+#: libs/ui/KisImportExportErrorCode.cpp:28
 #, fuzzy, kde-format
 #| msgid "Could not read the beginning of the file."
 msgid "An error occurred when writing to the file."
 msgstr "Файлнинг бошини ўқиб бўлмади."
 
-#: libs/ui/KisImportExportErrorCode.cpp:40
+#: libs/ui/KisImportExportErrorCode.cpp:30
 #, kde-format
 msgid "A fatal error occurred."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:42
+#: libs/ui/KisImportExportErrorCode.cpp:32
 #, kde-format
 msgid "Out of resources (e.g. out of memory)."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:44
+#: libs/ui/KisImportExportErrorCode.cpp:34
 #, fuzzy, kde-format
 #| msgid "Could not find %1"
 msgid "The file could not be opened."
 msgstr "%1 топилмади"
 
-#: libs/ui/KisImportExportErrorCode.cpp:46
+#: libs/ui/KisImportExportErrorCode.cpp:36
 #, kde-format
 msgid "The operation was aborted."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:48
+#: libs/ui/KisImportExportErrorCode.cpp:38
 #, kde-format
 msgid "A timeout occurred."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:52
+#: libs/ui/KisImportExportErrorCode.cpp:42
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file could not be removed."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:54
+#: libs/ui/KisImportExportErrorCode.cpp:44
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file could not be renamed."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:56
+#: libs/ui/KisImportExportErrorCode.cpp:46
 #, kde-format
 msgid "The position in the file could not be changed."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:58
+#: libs/ui/KisImportExportErrorCode.cpp:48
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file could not be resized."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:60
+#: libs/ui/KisImportExportErrorCode.cpp:50
 #, kde-format
 msgid "Permission denied. Krita is not allowed to read or write to the file."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:62
+#: libs/ui/KisImportExportErrorCode.cpp:52
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file could not be copied."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:75
+#: libs/ui/KisImportExportErrorCode.cpp:65
 #, fuzzy, kde-format
 #| msgid "Could not open the file for reading (check read permissions)."
 msgid "Cannot open file for reading. Reason: %1"
 msgstr "Файлни ўқиш учун очиб бўлмади (ҳуқуқларни текширинг)."
 
-#: libs/ui/KisImportExportErrorCode.cpp:93
+#: libs/ui/KisImportExportErrorCode.cpp:83
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "Cannot open file for writing. Reason: %1"
 msgstr "Сақлаш учун файлни яратиб бўлмади"
 
-#: libs/ui/KisImportExportErrorCode.cpp:131
+#: libs/ui/KisImportExportErrorCode.cpp:121
 #, kde-format
 msgid "Unexpected error. Please contact developers."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:140
+#: libs/ui/KisImportExportErrorCode.cpp:130
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file doesn't exist."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:142
+#: libs/ui/KisImportExportErrorCode.cpp:132
 #, kde-format
 msgid "Permission denied: Krita is not allowed to read the file."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:144
+#: libs/ui/KisImportExportErrorCode.cpp:134
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file format cannot be parsed."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:146
+#: libs/ui/KisImportExportErrorCode.cpp:136
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file format contains unsupported features."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:148
+#: libs/ui/KisImportExportErrorCode.cpp:138
 #, fuzzy, kde-format
 #| msgid "The directory mode is not supported for remote locations."
 msgid "The file format contains unsupported color space."
 msgstr "Масофадаги манзил учун директория усули қўлланилмайди."
 
-#: libs/ui/KisImportExportErrorCode.cpp:150
+#: libs/ui/KisImportExportErrorCode.cpp:140
 #, fuzzy, kde-format
 #| msgid "Could not read the beginning of the file."
 msgid "Error occurred while reading from the file."
 msgstr "Файлнинг бошини ўқиб бўлмади."
 
-#: libs/ui/KisImportExportErrorCode.cpp:154
+#: libs/ui/KisImportExportErrorCode.cpp:144
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file cannot be created."
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportErrorCode.cpp:156
+#: libs/ui/KisImportExportErrorCode.cpp:146
 #, kde-format
 msgid "Permission denied: Krita is not allowed to write to the file."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:158
+#: libs/ui/KisImportExportErrorCode.cpp:148
 #, kde-format
 msgid "There is not enough disk space left to save the file."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:160
+#: libs/ui/KisImportExportErrorCode.cpp:150
 #, fuzzy, kde-format
 #| msgid "Could not read the beginning of the file."
 msgid "Error occurred while writing to the file."
 msgstr "Файлнинг бошини ўқиб бўлмади."
 
-#: libs/ui/KisImportExportErrorCode.cpp:165
+#: libs/ui/KisImportExportErrorCode.cpp:155
 #, kde-format
 msgid "The action was cancelled by the user."
 msgstr ""
 
-#: libs/ui/KisImportExportErrorCode.cpp:169 plugins/impex/heif/HeifError.cpp:56
+#: libs/ui/KisImportExportErrorCode.cpp:159 plugins/impex/heif/HeifError.cpp:46
 #: plugins/impex/kra/kra_converter.cpp:355
 #: plugins/impex/kra/kra_converter.cpp:384
 #, fuzzy, kde-format
@@ -21093,34 +21107,34 @@ msgstr ""
 msgid "Unknown error."
 msgstr "Номаълум хато"
 
-#: libs/ui/KisImportExportFilter.cpp:146
+#: libs/ui/KisImportExportFilter.cpp:148
 #, kde-format
 msgid ""
 "%1 does not exist after writing. Try saving again under a different name, in "
 "another location."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:150
+#: libs/ui/KisImportExportFilter.cpp:152
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "%1 is not readable"
 msgstr "%1 файли мавжуд эмас."
 
-#: libs/ui/KisImportExportFilter.cpp:154
+#: libs/ui/KisImportExportFilter.cpp:156
 #, kde-format
 msgid ""
 "%1 is smaller than 10 bytes, it must be corrupt. Try saving again under a "
 "different name, in another location."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:169
+#: libs/ui/KisImportExportFilter.cpp:171
 #, kde-format
 msgid ""
 "%1 has only zero bytes in the first 1000 bytes, it's probably corrupt. Try "
 "saving again under a different name, in another location."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:233
+#: libs/ui/KisImportExportFilter.cpp:235
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -21128,7 +21142,7 @@ msgid ""
 "image will be converted."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:238
+#: libs/ui/KisImportExportFilter.cpp:240
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -21136,7 +21150,7 @@ msgid ""
 "layers will be converted or skipped."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:243
+#: libs/ui/KisImportExportFilter.cpp:245
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -21144,7 +21158,7 @@ msgid ""
 "image will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:248
+#: libs/ui/KisImportExportFilter.cpp:250
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -21152,14 +21166,14 @@ msgid ""
 "layers will be skipped."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:266
+#: libs/ui/KisImportExportFilter.cpp:268
 #, kde-format
 msgid ""
 "Could not open the saved file %1. Please try to save again in a different "
 "location."
 msgstr ""
 
-#: libs/ui/KisImportExportFilter.cpp:271
+#: libs/ui/KisImportExportFilter.cpp:273
 #, kde-format
 msgid ""
 "File %1 is missing in %2 and is broken. Please try to save again in a "
@@ -21354,26 +21368,26 @@ msgstr "&Экспорт қилиш"
 msgid "Saving As"
 msgstr "Санани кўриниши"
 
-#: libs/ui/KisMainWindow.cpp:1597
+#: libs/ui/KisMainWindow.cpp:1596
 #: libs/widgetutils/config/kstandardaction_p.h:29
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Create new document"
 msgstr "Яқинда очилган ҳужжатлар"
 
-#: libs/ui/KisMainWindow.cpp:1621
+#: libs/ui/KisMainWindow.cpp:1620
 #, fuzzy, kde-format
 #| msgid "Document"
 msgid "Custom Document"
 msgstr "Ҳужжат"
 
-#: libs/ui/KisMainWindow.cpp:1639
+#: libs/ui/KisMainWindow.cpp:1638
 #, fuzzy, kde-format
 #| msgid "Show %1 Toolbar"
 msgid "Create from Clipboard"
 msgstr "%1 асбоблар панелини кўрсатиш"
 
-#: libs/ui/KisMainWindow.cpp:1920
+#: libs/ui/KisMainWindow.cpp:1918
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open\n"
@@ -21385,65 +21399,65 @@ msgstr ""
 "%1\n"
 "файлини очиб бўлмади."
 
-#: libs/ui/KisMainWindow.cpp:2325
+#: libs/ui/KisMainWindow.cpp:2322
 #, fuzzy, kde-format
 #| msgid "Import Document"
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "Ҳужжатни импорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:2339
+#: libs/ui/KisMainWindow.cpp:2336
 #, fuzzy, kde-format
 #| msgid "Import Document"
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "Ҳужжатни импорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:2355
+#: libs/ui/KisMainWindow.cpp:2352
 #, fuzzy, kde-format
 #| msgid "Import Document"
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "Ҳужжатни импорт қилиш"
 
-#: libs/ui/KisMainWindow.cpp:2399
+#: libs/ui/KisMainWindow.cpp:2396
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgid "&%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2402
+#: libs/ui/KisMainWindow.cpp:2399
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgid "%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2576
+#: libs/ui/KisMainWindow.cpp:2573
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2584
+#: libs/ui/KisMainWindow.cpp:2581
 #, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2599
+#: libs/ui/KisMainWindow.cpp:2596
 #, fuzzy, kde-format
 #| msgid "Internal error"
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "Ички хато"
 
-#: libs/ui/KisMainWindow.cpp:2705
+#: libs/ui/KisMainWindow.cpp:2702
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2755
+#: libs/ui/KisMainWindow.cpp:2752
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -21908,53 +21922,53 @@ msgstr "Файлнинг бошини ўқиб бўлмади."
 msgid "Restart is required."
 msgstr ""
 
-#: libs/ui/KoDocumentInfoDlg.cpp:71
+#: libs/ui/KoDocumentInfoDlg.cpp:73
 #, kde-format
 msgid "Document Information"
 msgstr "Ҳужжат ҳақида маълумот"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:111
+#: libs/ui/KoDocumentInfoDlg.cpp:113
 #, fuzzy, kde-format
 #| msgid "Paste Text"
 msgid "Last saved by"
 msgstr "Матнни қўйиш"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:166
+#: libs/ui/KoDocumentInfoDlg.cpp:168
 #, kde-format
 msgid "Use ';' (Example: Office;KDE;Calligra)"
 msgstr ""
 
-#: libs/ui/KoDocumentInfoDlg.cpp:292
+#: libs/ui/KoDocumentInfoDlg.cpp:294
 #, kde-format
 msgid "%1 week"
 msgid_plural "%1 weeks"
 msgstr[0] ""
 
-#: libs/ui/KoDocumentInfoDlg.cpp:293 libs/ui/KoDocumentInfoDlg.cpp:295
+#: libs/ui/KoDocumentInfoDlg.cpp:295 libs/ui/KoDocumentInfoDlg.cpp:297
 #, kde-format
 msgid "%1 day"
 msgid_plural "%1 days"
 msgstr[0] ""
 
-#: libs/ui/KoDocumentInfoDlg.cpp:296 libs/ui/KoDocumentInfoDlg.cpp:298
+#: libs/ui/KoDocumentInfoDlg.cpp:298 libs/ui/KoDocumentInfoDlg.cpp:300
 #, kde-format
 msgid "%1 hour"
 msgid_plural "%1 hours"
 msgstr[0] ""
 
-#: libs/ui/KoDocumentInfoDlg.cpp:299 libs/ui/KoDocumentInfoDlg.cpp:301
+#: libs/ui/KoDocumentInfoDlg.cpp:301 libs/ui/KoDocumentInfoDlg.cpp:303
 #, kde-format
 msgid "%1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] ""
 
-#: libs/ui/KoDocumentInfoDlg.cpp:302 libs/ui/KoDocumentInfoDlg.cpp:304
+#: libs/ui/KoDocumentInfoDlg.cpp:304 libs/ui/KoDocumentInfoDlg.cpp:306
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] ""
 
-#: libs/ui/KoDocumentInfoDlg.cpp:310
+#: libs/ui/KoDocumentInfoDlg.cpp:312
 #, kde-format
 msgctxt "major time unit and minor time unit"
 msgid "%1 and %2"
@@ -23065,7 +23079,7 @@ msgid ""
 msgstr ""
 
 #: libs/ui/tool/kis_tool_utils.cpp:129
-#: plugins/dockers/animation/kis_animation_utils.cpp:72
+#: plugins/dockers/animation/KisAnimUtils.cpp:72
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Clear"
@@ -23719,13 +23733,13 @@ msgid ""
 "size is %4 bit. A single paint layer will thus take up %5 of RAM."
 msgstr ""
 
-#: libs/ui/widgets/kis_filter_selector_widget.cc:164
+#: libs/ui/widgets/kis_filter_selector_widget.cc:155
 #, fuzzy, kde-format
 #| msgid "Current Section"
 msgid "Filter configuration XML"
 msgstr "Жорий бўлим"
 
-#: libs/ui/widgets/kis_filter_selector_widget.cc:219
+#: libs/ui/widgets/kis_filter_selector_widget.cc:210
 #, fuzzy, kde-format
 #| msgid "Current Section"
 msgid "No configuration options"
@@ -23849,7 +23863,7 @@ msgctxt "@info:tooltip"
 msgid "<p>Instant Preview Mode is available</p>"
 msgstr "Кўриб чиқиш:"
 
-#: libs/ui/widgets/kis_meta_data_merge_strategy_chooser_widget.cc:72
+#: libs/ui/widgets/kis_meta_data_merge_strategy_chooser_widget.cc:62
 #, kde-format
 msgid "Choose meta data merge strategy"
 msgstr ""
@@ -24080,7 +24094,7 @@ msgid "Back"
 msgstr "Ёрдамчи чизиқлар"
 
 #: libs/ui/widgets/kis_transport_controls.cpp:30
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:30
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:21
 #, fuzzy, kde-format
 #| msgid "a presentation"
 msgid "Stop"
@@ -24813,13 +24827,6 @@ msgid "Close Docker"
 msgstr "Бошқа ҳужжат"
 
 #: libs/widgets/KoDockWidgetTitleBar.cpp:59
-#, fuzzy, kde-format
-#| msgid "Custom Document"
-msgctxt "@info:tooltip"
-msgid "Collapse Docker"
-msgstr "Бошқа ҳужжат"
-
-#: libs/widgets/KoDockWidgetTitleBar.cpp:69
 #, fuzzy, kde-format
 #| msgid "Guide Lines"
 msgctxt "@info:tooltip"
@@ -27496,91 +27503,338 @@ msgstr "Яшил"
 msgid "Bluer/Yellower: "
 msgstr "Сариқ"
 
-#: plugins/dockers/animation/kis_animation_curve_docker.cpp:56
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:51
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:237
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid "Animation Curves"
 msgstr "Жойлашиши"
 
-#: plugins/dockers/animation/kis_animation_curves_model.cpp:193
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:61
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:61
+#, fuzzy, kde-format
+msgid "Frame register"
+msgstr "Сана:"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:79
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:79
+#, kde-format
+msgid "Preview playback speed"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:158
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:114
+#, fuzzy, kde-format
+#| msgid "Document Information"
+msgid "Onion skins menu"
+msgstr "Ҳужжат ҳақида маълумот"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:163
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:119
+#, kde-format
+msgid "Audio menu"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:170
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:126
+#, fuzzy, kde-format
+#| msgid "Position"
+msgid "Animation settings menu"
+msgstr "Жойлашиши"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:180
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:136
+#, fuzzy, kde-format
+#| msgid "Street"
+msgid "Clip Start: "
+msgstr "Кўча"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:184
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:140
+#, kde-format
+msgid "Clip End: "
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:189
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:145
+#, fuzzy, kde-format
+msgid "Frame Rate: "
+msgstr "Сана:"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:425
+#, kde-format
+msgid "Hold constant value. No interpolation."
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:432
+#, fuzzy, kde-format
+#| msgid "Completion"
+msgid "Linear interpolation."
+msgstr "Тўлдириш"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:439
+#, fuzzy, kde-format
+#| msgid "Completion"
+msgid "Bezier curve interpolation."
+msgstr "Тўлдириш"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:446
+#, fuzzy, kde-format
+#| msgid "Section Title"
+msgid "Sharp interpolation tangents."
+msgstr "Бўлимнинг сарлавҳаси"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:453
+#, fuzzy, kde-format
+#| msgid "Section Title"
+msgid "Smooth interpolation tangents."
+msgstr "Бўлимнинг сарлавҳаси"
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:460
+#, kde-format
+msgid "Zoom view to fit channel range."
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:467
+#, fuzzy, kde-format
+#| msgid "Current Section"
+msgid "Zoom view to fit curve."
+msgstr "Жорий бўлим"
+
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:208
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Adjust keyframe"
 msgstr "Матнни ўчириш"
 
-#: plugins/dockers/animation/kis_animation_curves_model.cpp:196
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:212
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Insert keyframe"
 msgstr "Матнни қўйиш"
 
-#: plugins/dockers/animation/kis_animation_curves_model.cpp:210
-#: plugins/dockers/animation/kis_animation_curves_view.cpp:544
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:227
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:625
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Adjust tangent"
 msgstr "Энига мослаш"
 
-#: plugins/dockers/animation/kis_animation_curves_model.cpp:218
-#: plugins/dockers/animation/kis_animation_curves_model.cpp:229
-#: plugins/dockers/animation/kis_animation_curves_view.cpp:681
-#: plugins/dockers/animation/kis_animation_curves_view.cpp:690
-#: plugins/dockers/animation/kis_animation_curves_view.cpp:699
-#: plugins/dockers/animation/kis_animation_curves_view.cpp:708
-#: plugins/dockers/animation/kis_animation_curves_view.cpp:736
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:236
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:248
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:763
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:772
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:781
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:790
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:818
 #, fuzzy
 #| msgid "Section Title"
 msgctxt "(qtundo-format)"
 msgid "Set interpolation mode"
 msgstr "Бўлимнинг сарлавҳаси"
 
-#: plugins/dockers/animation/kis_animation_curves_model.cpp:269
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:293
 #, fuzzy, kde-format
 msgctxt "(qtundo-format)"
 msgid "Adjust Keyframe"
 msgid_plural "Adjust %1 Keyframes"
 msgstr[0] "Матнни қўйиш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:25
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:51
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:223
+#, fuzzy, kde-format
+#| msgid "Guide Lines"
+msgid "Animation Timeline"
+msgstr "Ёрдамчи чизиқлар"
+
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:153
+#, kde-format
+msgid "AutoKey Blank"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:155
+#, fuzzy, kde-format
+#| msgid "Location:"
+msgid "AutoKey Duplicate"
+msgstr "Манзили:"
+
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:423
+#, kde-format
+msgid "Enable to preserve playback timing."
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:431
+#, kde-format
+msgid "Effective FPS:\t%1"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:432
+#, kde-format
+msgid "Real FPS:\t%1"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:433
+#, kde-format
+msgid "Frames dropped:\t%1%"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:666
+#, kde-format
+msgid "Dropped frames are not available in this Krita instance"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:852
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:900
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Insert frame"
+msgid_plural "Insert %1 frames"
+msgstr[0] "Матнни қўйиш"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:178
+#, fuzzy, kde-format
+msgid "Edit Layers:"
+msgstr "Қизил"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:207
+#, fuzzy, kde-format
+#| msgid "Position"
+msgid "Edit Audio:"
+msgstr "Жойлашиши"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:211
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Audio playback is not supported in this build!"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:218
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Mute"
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:223
+#, fuzzy, kde-format
+msgctxt "@item:inmenu"
+msgid "Remove audio"
+msgstr "Боғни олиб ташлаш"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230
+#, fuzzy, kde-format
+#| msgid "Columns:"
+msgctxt "@item:inmenu, slider"
+msgid "Volume:"
+msgstr "Устунлар:"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:269
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Zoom Timeline. Hold down and drag left or right."
+msgstr ""
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:789
+#, fuzzy, kde-format
+#| msgid "Only print and exit"
+msgctxt "@item:inmenu"
+msgid "Open audio..."
+msgstr "Фақат босиб чиқариш ва чиқиш"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:792
+#, fuzzy, kde-format
+msgctxt "@item:inmenu"
+msgid "Change audio (%1)..."
+msgstr "Текислашни ўзгартириш"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1476
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Insert or Remove Hold Frames"
+msgstr "Матнни қўйиш"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1477
+#, fuzzy, kde-format
+#| msgid "Enter group name:"
+msgctxt "@label:spinbox"
+msgid "Enter number of frames"
+msgstr "Гуруҳнинг номини киритинг:"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1584
+#, fuzzy, kde-format
+msgid "Edit Frames:"
+msgstr "Бетга мослаш"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1611
+#, fuzzy, kde-format
+msgctxt "@item:inmenu"
+msgid "Keyframes"
+msgstr "Матнни қўйиш"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1619
+#, fuzzy, kde-format
+#| msgid "Company Name"
+msgctxt "@item:inmenu"
+msgid "Hold Frames"
+msgstr "Ташкилотнинг номи"
+
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:478
+#, fuzzy, kde-format
+#| msgid "Columns:"
+msgid "Edit Columns:"
+msgstr "Устунлар:"
+
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:488
+#, fuzzy, kde-format
+msgctxt "@item:inmenu"
+msgid "Keyframe Columns"
+msgstr "Боғни олиб ташлаш"
+
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:496
+#, fuzzy, kde-format
+msgctxt "@item:inmenu"
+msgid "Hold Frame Columns"
+msgstr "Боғни олиб ташлаш"
+
+#: plugins/dockers/animation/KisAnimUtils.cpp:25
 #, fuzzy, kde-format
 msgid "Auto Frame Mode"
 msgstr "Тиклаш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:26
+#: plugins/dockers/animation/KisAnimUtils.cpp:26
 #, fuzzy, kde-format
 #| msgid "Company Name"
 msgid "Drop Frames"
 msgstr "Ташкилотнинг номи"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:28
+#: plugins/dockers/animation/KisAnimUtils.cpp:28
 #, fuzzy, kde-format
 msgid "New Layer"
 msgstr "Матнни ўчириш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:29
+#: plugins/dockers/animation/KisAnimUtils.cpp:29
 #, fuzzy, kde-format
 msgid "Pin Existing Layer"
 msgstr "Қизил"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:30
+#: plugins/dockers/animation/KisAnimUtils.cpp:30
 #, fuzzy, kde-format
 msgid "Remove Layer"
 msgstr "Намунани яратиш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:32
+#: plugins/dockers/animation/KisAnimUtils.cpp:32
 #, fuzzy, kde-format
 #| msgid "Scriptfile"
 msgid "Add transform keyframe"
 msgstr "Скрипт файли"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:33
+#: plugins/dockers/animation/KisAnimUtils.cpp:33
 #, fuzzy, kde-format
 #| msgid "Remove Template"
 msgid "Remove transform keyframe"
 msgstr "Намунани олиб ташлаш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:37
-#: plugins/dockers/animation/kis_animation_utils.cpp:264
+#: plugins/dockers/animation/KisAnimUtils.cpp:37
+#: plugins/dockers/animation/KisAnimUtils.cpp:264
 #, fuzzy, kde-format
 #| msgid "Green"
 msgctxt "(qtundo-format)"
@@ -27588,13 +27842,13 @@ msgid "Copy Keyframe"
 msgid_plural "Copy %1 Keyframes"
 msgstr[0] "Яшил"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:38
+#: plugins/dockers/animation/KisAnimUtils.cpp:38
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Keyframe"
 msgstr "Матнни қўйиш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:110
+#: plugins/dockers/animation/KisAnimUtils.cpp:110
 #, fuzzy
 #| msgid "Remove Template"
 msgctxt "(qtundo-format)"
@@ -27602,72 +27856,57 @@ msgid "Remove Keyframe"
 msgid_plural "Remove Keyframes"
 msgstr[0] "Намунани олиб ташлаш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:261
+#: plugins/dockers/animation/KisAnimUtils.cpp:261
 #, fuzzy, kde-format
 msgctxt "(qtundo-format)"
 msgid "Move Keyframe"
 msgid_plural "Move %1 Keyframes"
 msgstr[0] "Матнни ўчириш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:337
+#: plugins/dockers/animation/KisAnimUtils.cpp:337
 #, fuzzy, kde-format
 msgctxt "(qtundo-format)"
 msgid "Clone Keyframe"
 msgid_plural "Clone %1 Keyframes"
 msgstr[0] "Матнни ўчириш"
 
-#: plugins/dockers/animation/kis_animation_utils.cpp:367
+#: plugins/dockers/animation/KisAnimUtils.cpp:367
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Make clones Unique"
 msgstr "Бўш жой"
 
-#: plugins/dockers/animation/kis_time_based_item_model.cpp:372
-#, fuzzy, kde-format
-#| msgid "Remove Template"
-msgctxt "(qtundo-format)"
-msgid "Remove frame and shift"
-msgid_plural "Remove %1 frames and shift"
-msgstr[0] "Намунани олиб ташлаш"
-
-#: plugins/dockers/animation/kis_time_based_item_model.cpp:402
-#, fuzzy
-#| msgid "Company Name"
-msgctxt "(qtundo-format)"
-msgid "Mirror Frames"
-msgstr "Ташкилотнинг номи"
-
-#: plugins/dockers/animation/onion_skins_docker.cpp:45
+#: plugins/dockers/animation/KisOnionSkinsDocker.cpp:45
 #, kde-format
 msgid "Tint: "
 msgstr ""
 
-#: plugins/dockers/animation/onion_skins_docker.cpp:48
+#: plugins/dockers/animation/KisOnionSkinsDocker.cpp:48
 #, kde-format
 msgid "Tint color for past frames"
 msgstr ""
 
-#: plugins/dockers/animation/onion_skins_docker.cpp:49
+#: plugins/dockers/animation/KisOnionSkinsDocker.cpp:49
 #, kde-format
 msgid "Tint color for future frames"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, OnionSkinsDocker)
-#: plugins/dockers/animation/onion_skins_docker.ui:23
+#: plugins/dockers/animation/KisOnionSkinsDocker.ui:23
 #, fuzzy, kde-format
 #| msgid "Document Information"
 msgid "Onion skin options"
 msgstr "Ҳужжат ҳақида маълумот"
 
 #. i18n: ectx: property (title), widget (QGroupBox, colorFilterGroupbox)
-#: plugins/dockers/animation/onion_skins_docker.ui:54
+#: plugins/dockers/animation/KisOnionSkinsDocker.ui:54
 #, fuzzy, kde-format
 msgid "Filter Onion Skins by Frame Color"
 msgstr "Матнни ўчириш"
 
 #. i18n: ectx: property (text), widget (QToolButton, btnShowHide)
 #. i18n: ectx: property (text), widget (QToolButton, btnAddField)
-#: plugins/dockers/animation/onion_skins_docker.ui:132
+#: plugins/dockers/animation/KisOnionSkinsDocker.ui:132
 #: plugins/dockers/storyboarddocker/wdgcommentmenu.ui:92
 #: plugins/python/palette_docker/palette_docker.py:68
 #, kde-format
@@ -27675,196 +27914,31 @@ msgid "+"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrevColor)
-#: plugins/dockers/animation/onion_skins_docker.ui:169
+#: plugins/dockers/animation/KisOnionSkinsDocker.ui:169
 #, fuzzy, kde-format
 #| msgid "Preview:"
 msgid "Previous frames"
 msgstr "Кўриб чиқиш:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNextColor)
-#: plugins/dockers/animation/onion_skins_docker.ui:189
+#: plugins/dockers/animation/KisOnionSkinsDocker.ui:189
 #, fuzzy, kde-format
 msgid "Next frames"
 msgstr "Матнни қўйиш"
 
-#: plugins/dockers/animation/timeline_docker.cpp:51
-#: plugins/dockers/animation/timeline_docker.cpp:222
+#: plugins/dockers/animation/KisTimeBasedItemModel.cpp:375
 #, fuzzy, kde-format
-#| msgid "Guide Lines"
-msgid "Animation Timeline"
-msgstr "Ёрдамчи чизиқлар"
-
-#: plugins/dockers/animation/timeline_docker.cpp:61
-#, fuzzy, kde-format
-msgid "Frame register"
-msgstr "Сана:"
-
-#: plugins/dockers/animation/timeline_docker.cpp:99
-#, kde-format
-msgid "Preview playback speed"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_docker.cpp:113
-#, fuzzy, kde-format
-#| msgid "Document Information"
-msgid "Onion skins menu"
-msgstr "Ҳужжат ҳақида маълумот"
-
-#: plugins/dockers/animation/timeline_docker.cpp:118
-#, kde-format
-msgid "Audio menu"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_docker.cpp:125
-#, fuzzy, kde-format
-#| msgid "Position"
-msgid "Animation settings menu"
-msgstr "Жойлашиши"
-
-#: plugins/dockers/animation/timeline_docker.cpp:135
-#, fuzzy, kde-format
-#| msgid "Street"
-msgid "Clip Start: "
-msgstr "Кўча"
-
-#: plugins/dockers/animation/timeline_docker.cpp:139
-#, kde-format
-msgid "Clip End: "
-msgstr ""
-
-#: plugins/dockers/animation/timeline_docker.cpp:144
-#, fuzzy, kde-format
-msgid "Frame Rate: "
-msgstr "Сана:"
-
-#: plugins/dockers/animation/timeline_docker.cpp:152
-#, kde-format
-msgid "AutoKey Blank"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_docker.cpp:154
-#, fuzzy, kde-format
-#| msgid "Location:"
-msgid "AutoKey Duplicate"
-msgstr "Манзили:"
-
-#: plugins/dockers/animation/timeline_docker.cpp:414
-#, kde-format
-msgid "Enable to preserve playback timing."
-msgstr ""
-
-#: plugins/dockers/animation/timeline_docker.cpp:422
-#, kde-format
-msgid "Effective FPS:\t%1"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_docker.cpp:423
-#, kde-format
-msgid "Real FPS:\t%1"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_docker.cpp:424
-#, kde-format
-msgid "Frames dropped:\t%1%"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_frames_model.cpp:666
-#, kde-format
-msgid "Dropped frames are not available in this Krita instance"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_frames_model.cpp:852
-#: plugins/dockers/animation/timeline_frames_model.cpp:900
-#, fuzzy, kde-format
+#| msgid "Remove Template"
 msgctxt "(qtundo-format)"
-msgid "Insert frame"
-msgid_plural "Insert %1 frames"
-msgstr[0] "Матнни қўйиш"
+msgid "Remove frame and shift"
+msgid_plural "Remove %1 frames and shift"
+msgstr[0] "Намунани олиб ташлаш"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:196
-#, fuzzy, kde-format
-msgid "Edit Layers:"
-msgstr "Қизил"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:225
-#, fuzzy, kde-format
-#| msgid "Position"
-msgid "Edit Audio:"
-msgstr "Жойлашиши"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:229
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Audio playback is not supported in this build!"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:236
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Mute"
-msgstr ""
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:241
-#, fuzzy, kde-format
-msgctxt "@item:inmenu"
-msgid "Remove audio"
-msgstr "Боғни олиб ташлаш"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:248
-#, fuzzy, kde-format
-#| msgid "Columns:"
-msgctxt "@item:inmenu, slider"
-msgid "Volume:"
-msgstr "Устунлар:"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:287
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Zoom Timeline. Hold down and drag left or right."
-msgstr ""
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:797
-#, fuzzy, kde-format
-#| msgid "Only print and exit"
-msgctxt "@item:inmenu"
-msgid "Open audio..."
-msgstr "Фақат босиб чиқариш ва чиқиш"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:800
-#, fuzzy, kde-format
-msgctxt "@item:inmenu"
-msgid "Change audio (%1)..."
-msgstr "Текислашни ўзгартириш"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:1502
-#, fuzzy, kde-format
-msgctxt "@title:window"
-msgid "Insert or Remove Hold Frames"
-msgstr "Матнни қўйиш"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:1503
-#, fuzzy, kde-format
-#| msgid "Enter group name:"
-msgctxt "@label:spinbox"
-msgid "Enter number of frames"
-msgstr "Гуруҳнинг номини киритинг:"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:1610
-#, fuzzy, kde-format
-msgid "Edit Frames:"
-msgstr "Бетга мослаш"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:1637
-#, fuzzy, kde-format
-msgctxt "@item:inmenu"
-msgid "Keyframes"
-msgstr "Матнни қўйиш"
-
-#: plugins/dockers/animation/timeline_frames_view.cpp:1645
-#, fuzzy, kde-format
+#: plugins/dockers/animation/KisTimeBasedItemModel.cpp:405
+#, fuzzy
 #| msgid "Company Name"
-msgctxt "@item:inmenu"
-msgid "Hold Frames"
+msgctxt "(qtundo-format)"
+msgid "Mirror Frames"
 msgstr "Ташкилотнинг номи"
 
 #: plugins/dockers/animation/timeline_insert_keyframe_dialog.cpp:27
@@ -27903,95 +27977,6 @@ msgstr "Намунани яратиш"
 msgctxt "@label:radio"
 msgid "Right / After"
 msgstr "Ўнгдан бўш жой"
-
-#: plugins/dockers/animation/timeline_ruler_header.cpp:471
-#, fuzzy, kde-format
-#| msgid "Columns:"
-msgid "Edit Columns:"
-msgstr "Устунлар:"
-
-#: plugins/dockers/animation/timeline_ruler_header.cpp:481
-#, fuzzy, kde-format
-msgctxt "@item:inmenu"
-msgid "Keyframe Columns"
-msgstr "Боғни олиб ташлаш"
-
-#: plugins/dockers/animation/timeline_ruler_header.cpp:489
-#, fuzzy, kde-format
-msgctxt "@item:inmenu"
-msgid "Hold Frame Columns"
-msgstr "Боғни олиб ташлаш"
-
-#. i18n: ectx: property (toolTip), widget (KisZoomButton, btnHorizontalZoom)
-#: plugins/dockers/animation/wdg_animation_curves.ui:23
-#, fuzzy, kde-format
-#| msgid "Current Section"
-msgid "Zoom time"
-msgstr "Жорий бўлим"
-
-#. i18n: ectx: property (toolTip), widget (KisZoomButton, btnVerticalZoom)
-#: plugins/dockers/animation/wdg_animation_curves.ui:33
-#, fuzzy, kde-format
-#| msgid "Add Group"
-msgid "Zoom values"
-msgstr "Гуруҳни қўшиш"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnZoomToFit)
-#: plugins/dockers/animation/wdg_animation_curves.ui:43
-#, fuzzy, kde-format
-#| msgid "Current Section"
-msgid "Zoom to fit"
-msgstr "Жорий бўлим"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnAddKeyframe)
-#: plugins/dockers/animation/wdg_animation_curves.ui:66
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not save %1\n"
-#| "Reason: %2"
-msgid "Add new keyframe"
-msgstr ""
-"%1 файлини сақлаб бўлмади.\n"
-"Сабаб: %2"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnRemoveKeyframes)
-#: plugins/dockers/animation/wdg_animation_curves.ui:76
-#, fuzzy, kde-format
-#| msgid "Remove Template"
-msgid "Remove selected keyframes"
-msgstr "Намунани олиб ташлаш"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnConstantInterpolation)
-#: plugins/dockers/animation/wdg_animation_curves.ui:99
-#, fuzzy, kde-format
-#| msgid "Add Group"
-msgid "Hold value"
-msgstr "Гуруҳни қўшиш"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnLinearInterpolation)
-#: plugins/dockers/animation/wdg_animation_curves.ui:109
-#, fuzzy, kde-format
-#| msgid "Completion"
-msgid "Linear interpolation"
-msgstr "Тўлдириш"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnBezierInterpolation)
-#: plugins/dockers/animation/wdg_animation_curves.ui:119
-#, fuzzy, kde-format
-msgid "Custom interpolation"
-msgstr "Тўлдириш мосламалари"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnSharp)
-#: plugins/dockers/animation/wdg_animation_curves.ui:145
-#, fuzzy, kde-format
-msgid "Sharp node"
-msgstr "Тўлқин"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnSmooth)
-#: plugins/dockers/animation/wdg_animation_curves.ui:155
-#, fuzzy, kde-format
-msgid "Smooth node"
-msgstr "Боғни олиб ташлаш"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:30
@@ -35436,14 +35421,14 @@ msgid "Brush selection information for animated brushes"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:43
+#: plugins/impex/brush/KisWdgOptionsBrush.h:33
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:216
 #, fuzzy, kde-format
 msgid "Constant"
 msgstr "Текислашни ўзгартириш"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:44
+#: plugins/impex/brush/KisWdgOptionsBrush.h:34
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:221
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:33
 #, fuzzy, kde-format
@@ -35452,7 +35437,7 @@ msgid "Random"
 msgstr "Соя:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:45
+#: plugins/impex/brush/KisWdgOptionsBrush.h:35
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:226
 #, fuzzy, kde-format
 msgid "Incremental"
@@ -35461,7 +35446,7 @@ msgstr "Текислашни ўзгартириш"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #. i18n: ectx: property (text), widget (QToolButton, liquifySizePressureBox)
 #. i18n: ectx: property (text), widget (QToolButton, liquifyAmountPressureBox)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:46
+#: plugins/impex/brush/KisWdgOptionsBrush.h:36
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:231
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:30
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2107
@@ -35472,18 +35457,18 @@ msgid "Pressure"
 msgstr "&Тиклаш"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:47
+#: plugins/impex/brush/KisWdgOptionsBrush.h:37
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:236
 #, kde-format
 msgid "Angular"
 msgstr ""
 
-#: plugins/impex/brush/KisWdgOptionsBrush.h:48
+#: plugins/impex/brush/KisWdgOptionsBrush.h:38
 #, fuzzy, kde-format
 msgid "Velocity"
 msgstr "Скрипт"
 
-#: plugins/impex/brush/KisWdgOptionsBrush.h:65
+#: plugins/impex/brush/KisWdgOptionsBrush.h:55
 #, kde-format
 msgid "Rank"
 msgstr ""
@@ -35565,7 +35550,7 @@ msgstr "Тўлдириш мосламалари"
 msgid "Selection mode:"
 msgstr "Бўлимнинг сарлавҳаси"
 
-#: plugins/impex/exr/exr_converter.cc:893
+#: plugins/impex/exr/exr_converter.cc:883
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -35575,19 +35560,19 @@ msgid ""
 ">This will hardly make any visual difference just keep it in mind."
 msgstr ""
 
-#: plugins/impex/exr/exr_converter.cc:900
+#: plugins/impex/exr/exr_converter.cc:890
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "EXR image has been modified"
 msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
 
-#: plugins/impex/exr/exr_converter.cc:1300
+#: plugins/impex/exr/exr_converter.cc:1290
 #, fuzzy, kde-format
 msgctxt "@item:unsupported-node-message"
 msgid "%1 (type: \"%2\")"
 msgstr "Ташкилот"
 
-#: plugins/impex/exr/exr_converter.cc:1305
+#: plugins/impex/exr/exr_converter.cc:1295
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -35617,13 +35602,13 @@ msgstr ""
 msgid "Flatten the &image"
 msgstr "Матнни қўйиш"
 
-#: plugins/impex/heif/HeifError.cpp:47
+#: plugins/impex/heif/HeifError.cpp:37
 #, fuzzy, kde-format
 #| msgid "Could not load picture."
 msgid "Could not allocate memory."
 msgstr "Расмни юклаб бўлмади."
 
-#: plugins/impex/heif/HeifError.cpp:51
+#: plugins/impex/heif/HeifError.cpp:41
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "Could not encode or write image."
@@ -36373,18 +36358,18 @@ msgstr ""
 "%1 файлини сақлаб бўлмади.\n"
 "Сабаб: %2"
 
-#: plugins/impex/pdf/kis_pdf_import.cpp:79
-#: plugins/impex/pdf/kis_pdf_import.cpp:80
+#: plugins/impex/pdf/kis_pdf_import.cpp:69
+#: plugins/impex/pdf/kis_pdf_import.cpp:70
 #, kde-format
 msgid "A password is required to read that pdf"
 msgstr ""
 
-#: plugins/impex/pdf/kis_pdf_import.cpp:89
+#: plugins/impex/pdf/kis_pdf_import.cpp:79
 #, fuzzy, kde-format
 msgid "PDF Import Options"
 msgstr "Услубларни импорт қилиш"
 
-#: plugins/impex/pdf/kis_pdf_import.cpp:112
+#: plugins/impex/pdf/kis_pdf_import.cpp:102
 #, fuzzy, kde-format
 msgid "Page %1"
 msgstr "Сана:"
@@ -37502,13 +37487,13 @@ msgstr "Сана"
 msgid "No image loaded"
 msgstr ""
 
-#: plugins/impex/svg/kis_svg_import.cc:58
+#: plugins/impex/svg/kis_svg_import.cc:48
 #, fuzzy, kde-format
 #| msgid "I&mport..."
 msgid "Import SVG"
 msgstr "&Импорт қилиш"
 
-#: plugins/impex/svg/kis_svg_import.cc:59
+#: plugins/impex/svg/kis_svg_import.cc:49
 #, kde-format
 msgid "Enter preferred resolution (PPI) for \"%1\""
 msgstr ""
@@ -40635,8 +40620,8 @@ msgstr "Соя:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:46
-#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsaction.py:33
-#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsdialog.py:26
+#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsaction.py:24
+#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsdialog.py:17
 #, fuzzy, kde-format
 msgid "Settings"
 msgstr "Қатор:"
@@ -43193,152 +43178,152 @@ msgstr "Скриптлар"
 msgid "Script {0}"
 msgstr "Скриптлар"
 
-#: plugins/python/scripter/debugcontroller.py:72
-#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:41
-#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:43
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggerwidget.py:25
+#: plugins/python/scripter/debugcontroller.py:63
+#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:32
+#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:34
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggerwidget.py:16
 msgid "Debugger"
 msgstr ""
 
-#: plugins/python/scripter/scripter.py:29
-#: plugins/python/scripter/uicontroller.py:94
+#: plugins/python/scripter/scripter.py:20
+#: plugins/python/scripter/uicontroller.py:85
 #, fuzzy
 #| msgid "Scripts"
 msgid "Scripter"
 msgstr "Скриптлар"
 
-#: plugins/python/scripter/ui_scripter/actions/closeaction/closeaction.py:40
+#: plugins/python/scripter/ui_scripter/actions/closeaction/closeaction.py:31
 #, fuzzy
 msgid "Do you want to save the current document?"
 msgstr "Намунани ростдан олиб ташлашни истайсизми?"
 
-#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:30
+#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:21
 msgid "Debug"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:31
+#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:22
 msgid "Debug Ctrl+D"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/newaction/newaction.py:29
+#: plugins/python/scripter/ui_scripter/actions/newaction/newaction.py:20
 #, fuzzy
 msgid "New"
 msgstr "Кўринишни &олиб ташлаш"
 
-#: plugins/python/scripter/ui_scripter/actions/newaction/newaction.py:40
+#: plugins/python/scripter/ui_scripter/actions/newaction/newaction.py:31
 #, fuzzy
 msgid "The document has been modified."
 msgstr "Ҳужжат MathML ҳужжатига ўхшамайди."
 
-#: plugins/python/scripter/ui_scripter/actions/newaction/newaction.py:41
+#: plugins/python/scripter/ui_scripter/actions/newaction/newaction.py:32
 #, fuzzy
 msgid "Do you want to save your changes?"
 msgstr "Намунани ростдан олиб ташлашни истайсизми?"
 
-#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:31
+#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:22
 #, fuzzy
 #| msgid "&Open"
 msgid "Open"
 msgstr "&Очиш"
 
-#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:41
+#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:32
 #, fuzzy
 #| msgid "Palettes"
 msgid "Python Files (*.py)"
 msgstr "Асбоб ойналари"
 
-#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:54
+#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:45
 #, fuzzy
 #| msgid "Add Group"
 msgid "Invalid File"
 msgstr "Гуруҳни қўшиш"
 
-#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:55
+#: plugins/python/scripter/ui_scripter/actions/openaction/openaction.py:46
 msgid "Open files with .py extension"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:30
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:21
 #, fuzzy
 msgid "Reload File"
 msgstr "Юклашни бекор қилиш"
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:34
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:25
 #, fuzzy
 msgid "Reload File Alt+R"
 msgstr "Юклашни бекор қилиш"
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:47
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:38
 #, fuzzy
 #| msgid "Open This Document"
 msgid "No existing document"
 msgstr "Шу ҳужжатни очиш"
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:48
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:39
 msgid "Please specify a document by opening it before reloading"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:43
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:65
-#: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/outputwidget.py:25
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:34
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:56
+#: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/outputwidget.py:16
 #, fuzzy
 #| msgid "Show %1"
 msgid "Output"
 msgstr "%1 ойнасини кўрсатиш"
 
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:47
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:38
 msgid "Run"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:48
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:39
 msgid "Run Ctrl+R"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:44
-#: plugins/python/scripter/ui_scripter/actions/saveasaction/saveasaction.py:42
+#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:35
+#: plugins/python/scripter/ui_scripter/actions/saveasaction/saveasaction.py:33
 #, fuzzy
 #| msgid "Palettes"
 msgid "Save Python File"
 msgstr "Асбоб ойналари"
 
-#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:45
-#: plugins/python/scripter/ui_scripter/actions/saveasaction/saveasaction.py:43
+#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:36
+#: plugins/python/scripter/ui_scripter/actions/saveasaction/saveasaction.py:34
 #, fuzzy
 #| msgid "Palettes"
 msgid "Python File (*.py)"
 msgstr "Асбоб ойналари"
 
-#: plugins/python/scripter/ui_scripter/actions/saveasaction/saveasaction.py:30
+#: plugins/python/scripter/ui_scripter/actions/saveasaction/saveasaction.py:21
 #, fuzzy
 #| msgid "Save as %1"
 msgid "Save As"
 msgstr "%1 сифатида сақлаш"
 
-#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsdialog.py:28
+#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsdialog.py:19
 #, fuzzy
 msgid "Syntax highlighter:"
 msgstr "&Узунаси:"
 
-#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsdialog.py:29
+#: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsdialog.py:20
 #, fuzzy
 msgid "Fonts:"
 msgstr "Шрифт:"
 
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:25
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 msgid "Scope"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:25
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 #, fuzzy
 #| msgid "Blue"
 msgid "Value"
 msgstr "Кўк"
 
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:30
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:21
 #, fuzzy
 msgid "Step Over"
 msgstr "Тагига чизилган"
 
-#: plugins/python/scripter/uicontroller.py:173
+#: plugins/python/scripter/uicontroller.py:164
 msgid "Error Running Script"
 msgstr ""
 
@@ -43780,63 +43765,63 @@ msgstr "Тўлқин"
 msgid "Ellipse Tool"
 msgstr "Кўпроқ чизиқ ранглари"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:127
+#: plugins/tools/basictools/kis_tool_fill.cc:118
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:170
+#: plugins/tools/basictools/kis_tool_fill.cc:161
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "Сония"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:230
+#: plugins/tools/basictools/kis_tool_fill.cc:221
 #, fuzzy, kde-format
 #| msgid "Postal code:"
 msgid "Fast mode: "
 msgstr "Индекс:"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:233
+#: plugins/tools/basictools/kis_tool_fill.cc:224
 #, kde-format
 msgid ""
 "Fills area faster, but does not take composition mode into account. "
 "Selections and other extended features will also be disabled."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:238
+#: plugins/tools/basictools/kis_tool_fill.cc:229
 #, fuzzy, kde-format
 msgctxt "The Threshold label in Fill tool options"
 msgid "Threshold: "
 msgstr "Рўйхатнинг турини ўзгартириш"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:245
+#: plugins/tools/basictools/kis_tool_fill.cc:236
 #, fuzzy, kde-format
 #| msgid "Current Section"
 msgid "Grow selection: "
 msgstr "Жорий бўлим"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:252
+#: plugins/tools/basictools/kis_tool_fill.cc:243
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:251
 #, fuzzy, kde-format
 #| msgid "&Vertical"
 msgid "Feathering radius: "
 msgstr "&Бўйига"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:259
+#: plugins/tools/basictools/kis_tool_fill.cc:250
 #, fuzzy, kde-format
 #| msgid "Loaded"
 msgid "Use pattern:"
 msgstr "Юкланган"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:261
+#: plugins/tools/basictools/kis_tool_fill.cc:252
 #, kde-format
 msgid ""
 "When checked do not use the foreground color, but the pattern selected to "
 "fill with"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:280
+#: plugins/tools/basictools/kis_tool_fill.cc:271
 #, fuzzy, kde-format
 #| msgid "Change Borders"
 msgctxt ""
@@ -43848,7 +43833,7 @@ msgctxt ""
 msgid "Sample:"
 msgstr "Чегараларни ўзгартириш"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:289
+#: plugins/tools/basictools/kis_tool_fill.cc:280
 #, kde-format
 msgctxt ""
 "This is a string in tool options for Fill Tool to describe a combobox about "
@@ -43857,20 +43842,20 @@ msgctxt ""
 msgid "Labels used:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:293
+#: plugins/tools/basictools/kis_tool_fill.cc:284
 #, fuzzy, kde-format
 #| msgid "Completion"
 msgid "Fill entire selection:"
 msgstr "Тўлдириш"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:295
+#: plugins/tools/basictools/kis_tool_fill.cc:286
 #, kde-format
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:297
+#: plugins/tools/basictools/kis_tool_fill.cc:288
 #, fuzzy, kde-format
 #| msgid "Show %1 Toolbar"
 msgctxt ""
@@ -43879,13 +43864,13 @@ msgctxt ""
 msgid "Use selection as boundary:"
 msgstr "%1 асбоблар панелини кўрсатиш"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:299
+#: plugins/tools/basictools/kis_tool_fill.cc:290
 #, kde-format
 msgctxt "Tooltip for 'Use selection as boundary' checkbox"
 msgid "When checked, use selection borders as boundary when filling"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:401
+#: plugins/tools/basictools/kis_tool_fill.cc:392
 #, fuzzy, kde-format
 msgctxt ""
 "Option in fill tool: take only the current layer into account when "
@@ -43893,7 +43878,7 @@ msgctxt ""
 msgid "Current Layer"
 msgstr "Намунани яратиш"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:405
+#: plugins/tools/basictools/kis_tool_fill.cc:396
 #, fuzzy, kde-format
 msgctxt ""
 "Option in fill tool: take all layers (merged) into account when calculating "
@@ -43901,7 +43886,7 @@ msgctxt ""
 msgid "All Layers"
 msgstr "Қизил"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:408
+#: plugins/tools/basictools/kis_tool_fill.cc:399
 #, fuzzy, kde-format
 #| msgid "Bookmark name:"
 msgctxt ""
@@ -45036,7 +45021,7 @@ msgstr "Бўлимнинг сарлавҳаси"
 msgid "Select path"
 msgstr "Андоза йўл"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:151
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:158
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select by Bezier Curve"
@@ -46747,8 +46732,8 @@ msgstr "Тўлқин"
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowControlPoints)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2189
 #, fuzzy, kde-format
-msgid "Show control points"
-msgstr "Бўш жой"
+msgid "Show handles"
+msgstr "Белги услубини ўзгартириш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSymmetricalHandles)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2196
@@ -46761,6 +46746,57 @@ msgstr ""
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Custom Document"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Collapse Docker"
+#~ msgstr "Бошқа ҳужжат"
+
+#, fuzzy
+#~| msgid "Current Section"
+#~ msgid "Zoom time"
+#~ msgstr "Жорий бўлим"
+
+#, fuzzy
+#~| msgid "Add Group"
+#~ msgid "Zoom values"
+#~ msgstr "Гуруҳни қўшиш"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not save %1\n"
+#~| "Reason: %2"
+#~ msgid "Add new keyframe"
+#~ msgstr ""
+#~ "%1 файлини сақлаб бўлмади.\n"
+#~ "Сабаб: %2"
+
+#, fuzzy
+#~| msgid "Remove Template"
+#~ msgid "Remove selected keyframes"
+#~ msgstr "Намунани олиб ташлаш"
+
+#, fuzzy
+#~| msgid "Add Group"
+#~ msgid "Hold value"
+#~ msgstr "Гуруҳни қўшиш"
+
+#, fuzzy
+#~ msgid "Custom interpolation"
+#~ msgstr "Тўлдириш мосламалари"
+
+#, fuzzy
+#~ msgid "Sharp node"
+#~ msgstr "Тўлқин"
+
+#, fuzzy
+#~ msgid "Smooth node"
+#~ msgstr "Боғни олиб ташлаш"
+
+#, fuzzy
+#~ msgid "Show control points"
+#~ msgstr "Бўш жой"
 
 #, fuzzy
 #~ msgid "Outline Selection"
@@ -47827,10 +47863,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Record Changes"
-#~ msgstr "Белги услубини ўзгартириш"
-
-#, fuzzy
-#~ msgid "Show Changes"
 #~ msgstr "Белги услубини ўзгартириш"
 
 #, fuzzy
@@ -64027,12 +64059,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "O&pacity:"
 #~ msgstr "Шаҳар:"
-
-#, fuzzy
-#~| msgid "Internal error"
-#~ msgctxt "@title:window"
-#~ msgid "Fatal Error"
-#~ msgstr "Ички хато"
 
 #, fuzzy
 #~| msgid "Last Printing"
