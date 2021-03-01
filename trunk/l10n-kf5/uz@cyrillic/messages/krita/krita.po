@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-27 02:26+0100\n"
+"POT-Creation-Date: 2021-03-01 02:39+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8045,6 +8045,11 @@ msgid_plural "Create %1 shapes"
 msgstr[0] "Намунани яратиш"
 
 #: libs/flake/commands/KoShapeDeleteCommand.cpp:43
+#, fuzzy
+msgctxt "(qtundo-format) Delete one shape"
+msgid "Delete shape"
+msgstr "Матнни ўчириш"
+
 #: libs/flake/commands/KoShapeDeleteCommand.cpp:56
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -19763,13 +19768,20 @@ msgid ""
 "the image?"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:759 libs/ui/kis_layer_manager.cc:780
+#: libs/ui/kis_layer_manager.cc:759
 #, fuzzy, kde-format
 #| msgid "Page Size"
 msgctxt "floating message in layer manager"
-msgid "Layer is locked "
+msgid "Layer is locked"
 msgid_plural "Layers are locked"
 msgstr[0] "Бетнинг ўлчами"
+
+#: libs/ui/kis_layer_manager.cc:780
+#, fuzzy, kde-format
+#| msgid "Page Size"
+msgctxt "floating message in layer manager when previous layer is locked"
+msgid "Layer is locked"
+msgstr "Бетнинг ўлчами"
 
 #: libs/ui/kis_layer_manager.cc:838
 #, kde-format
@@ -26555,14 +26567,14 @@ msgstr ""
 msgid "Lock Toolbar Positions"
 msgstr "Қатор:"
 
-#: libs/widgetutils/xmlgui/ktoolbar.cpp:1256
+#: libs/widgetutils/xmlgui/ktoolbar.cpp:1261
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1%"
 
-#: libs/widgetutils/xmlgui/ktoolbar.cpp:1257
+#: libs/widgetutils/xmlgui/ktoolbar.cpp:1262
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@info:tooltip Tooltip of toolbar button"
@@ -27992,13 +28004,11 @@ msgid "Remove transform keyframe"
 msgstr "Намунани олиб ташлаш"
 
 #: plugins/dockers/animation/KisAnimUtils.cpp:37
-#: plugins/dockers/animation/KisAnimUtils.cpp:286
-#, fuzzy, kde-format
+#, fuzzy
 #| msgid "Green"
 msgctxt "(qtundo-format)"
 msgid "Copy Keyframe"
-msgid_plural "Copy %1 Keyframes"
-msgstr[0] "Яшил"
+msgstr "Яшил"
 
 #: plugins/dockers/animation/KisAnimUtils.cpp:38
 #, fuzzy
@@ -28021,14 +28031,22 @@ msgid "Move Keyframe"
 msgid_plural "Move %1 Keyframes"
 msgstr[0] "Матнни ўчириш"
 
-#: plugins/dockers/animation/KisAnimUtils.cpp:359
+#: plugins/dockers/animation/KisAnimUtils.cpp:287
+#, fuzzy, kde-format
+#| msgid "Green"
+msgctxt "(qtundo-format) Copy one or several keyframes"
+msgid "Copy Keyframe"
+msgid_plural "Copy %1 Keyframes"
+msgstr[0] "Яшил"
+
+#: plugins/dockers/animation/KisAnimUtils.cpp:360
 #, fuzzy, kde-format
 msgctxt "(qtundo-format)"
 msgid "Clone Keyframe"
 msgid_plural "Clone %1 Keyframes"
 msgstr[0] "Матнни ўчириш"
 
-#: plugins/dockers/animation/KisAnimUtils.cpp:389
+#: plugins/dockers/animation/KisAnimUtils.cpp:390
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Make clones Unique"
@@ -46941,6 +46959,13 @@ msgstr ""
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Page Size"
+#~ msgctxt "floating message in layer manager"
+#~ msgid "Layer is locked "
+#~ msgid_plural "Layers are locked"
+#~ msgstr[0] "Бетнинг ўлчами"
 
 #, fuzzy
 #~| msgid "Green"
