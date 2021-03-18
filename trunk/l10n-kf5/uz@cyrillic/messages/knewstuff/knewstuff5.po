@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-17 03:40+0100\n"
+"POT-Creation-Date: 2021-03-18 02:25+0100\n"
 "PO-Revision-Date: 2009-10-17 00:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -253,7 +253,7 @@ msgstr "Янги нарсаларни ўрнатиш муваффақиятси�
 msgid "The installation of %1 failed to create the expected new directory %2"
 msgstr ""
 
-#: core/installation.cpp:506 core/installation.cpp:798
+#: core/installation.cpp:506 core/installation.cpp:805
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Installation of %1 failed: %2"
@@ -337,14 +337,22 @@ msgid ""
 "%3"
 msgstr ""
 
-#: core/installation.cpp:805
+#: core/installation.cpp:752
+#, kde-format
+msgid ""
+"The removal of %1 failed, as the installed file %2 could not be "
+"automatically removed. You can attempt to manually delete this file, if you "
+"believe this is in error."
+msgstr ""
+
+#: core/installation.cpp:812
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain a "
 "correct KPackage structure."
 msgstr ""
 
-#: core/installation.cpp:810
+#: core/installation.cpp:817
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package is not a supported type "
@@ -352,21 +360,21 @@ msgid ""
 "package?)"
 msgstr ""
 
-#: core/installation.cpp:817
+#: core/installation.cpp:824
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain any "
 "useful meta information, which means it is not a valid KPackage."
 msgstr ""
 
-#: core/installation.cpp:857
+#: core/installation.cpp:864
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the downloaded file %2 could not be "
 "automatically removed."
 msgstr ""
 
-#: core/installation.cpp:862
+#: core/installation.cpp:869
 #, kde-format
 msgid ""
 "The removal of %1 failed, due to the installed file not being a KPackage. "
@@ -374,14 +382,14 @@ msgid ""
 "you are certain that it is not needed."
 msgstr ""
 
-#: core/installation.cpp:870
+#: core/installation.cpp:877
 #, kde-format
 msgid ""
 "The removal of %1 failed, as there seems to somehow be more than one thing "
 "installed, which is not supposed to be possible for KPackage based entries."
 msgstr ""
 
-#: core/installation.cpp:903
+#: core/installation.cpp:910
 #, kde-format
 msgid ""
 "The uninstallation process failed to successfully run the command %1\n"
@@ -843,8 +851,8 @@ msgstr "Ўрнатиш"
 #, kde-format
 msgctxt ""
 "Status message to be shown when the entry is in the process of being "
-"installed"
-msgid "Currently installing the item %1 by %2. Please wait..."
+"installed OR uninstalled"
+msgid "Currently working on the item %1 by %2. Please wait..."
 msgstr ""
 
 #: qtquick/qml/EntryDetails.qml:66
@@ -1221,11 +1229,12 @@ msgid "By <i>%1</i>"
 msgstr "<b>Хато</b>: %1: %2"
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:44
-#, fuzzy, kde-format
-#| msgid "Install"
-msgctxt "Label for the busy indicator showing an item is being installed"
-msgid "Installing..."
-msgstr "Ўрнатиш"
+#, kde-format
+msgctxt ""
+"Label for the busy indicator showing an item is being installed OR "
+"uninstalled"
+msgid "Working..."
+msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:46
 #, fuzzy, kde-format
@@ -1742,6 +1751,12 @@ msgstr ""
 #| msgid "Start replace"
 msgid "Start Upload"
 msgstr "Алмаштиришни бошлаш"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt "Label for the busy indicator showing an item is being installed"
+#~ msgid "Installing..."
+#~ msgstr "Ўрнатиш"
 
 #, fuzzy
 #~ msgid "Tiles view mode"
