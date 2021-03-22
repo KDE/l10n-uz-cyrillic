@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-21 02:36+0100\n"
+"POT-Creation-Date: 2021-03-22 02:17+0100\n"
 "PO-Revision-Date: 2006-03-05 01:36+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -210,8 +210,8 @@ msgstr ""
 msgid "Import playlists"
 msgstr "Қўшиқ рўйхатларини импорт қилиш"
 
-#: exampleoptions.cpp:56 main.cpp:63 playermanager.cpp:401 playlist.cpp:1228
-#: systemtray.cpp:492 systemtray.cpp:503
+#: exampleoptions.cpp:56 main.cpp:63 playermanager.cpp:401 playlist.cpp:1240
+#: systemtray.cpp:488 systemtray.cpp:499
 #, kde-format
 msgid "JuK"
 msgstr "JuK"
@@ -293,19 +293,19 @@ msgid "Title"
 msgstr "Вақт"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleArtist)
-#: exampleoptionsbase.ui:221 playlist.cpp:1213 tagrenameroptions.cpp:104
+#: exampleoptionsbase.ui:221 playlist.cpp:1225 tagrenameroptions.cpp:104
 #, kde-format
 msgid "Artist"
 msgstr "Санъаткор"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleAlbum)
-#: exampleoptionsbase.ui:228 playlist.cpp:1214 tagrenameroptions.cpp:108
+#: exampleoptionsbase.ui:228 playlist.cpp:1226 tagrenameroptions.cpp:108
 #, kde-format
 msgid "Album"
 msgstr "Албом"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleGenre)
-#: exampleoptionsbase.ui:235 playlist.cpp:1217 tagrenameroptions.cpp:117
+#: exampleoptionsbase.ui:235 playlist.cpp:1229 tagrenameroptions.cpp:117
 #, kde-format
 msgid "Genre"
 msgstr "Жанр"
@@ -573,7 +573,7 @@ msgstr ""
 msgid "Your album art has finished downloading."
 msgstr ""
 
-#: juk.cpp:260 systemtray.cpp:185
+#: juk.cpp:260 systemtray.cpp:173
 #, kde-format
 msgid "&Random Play"
 msgstr "&Тасодифий ўйнаш"
@@ -1089,6 +1089,13 @@ msgstr ""
 msgid "Save Playlist"
 msgstr "Қўшиқ рўйхати"
 
+#: mediafiles.cpp:118
+#, fuzzy, kde-format
+#| msgid "Playlists"
+msgctxt "For save dialog, %1 is always .m3u"
+msgid "Playlists (*%1)"
+msgstr "Қўшиқ рўйхатлари"
+
 #: nowplaying.cpp:319
 #, fuzzy, kde-format
 msgid "back to playlist"
@@ -1115,125 +1122,125 @@ msgstr ""
 msgid "Could not save to file %1."
 msgstr ""
 
-#: playlist.cpp:526
+#: playlist.cpp:533
 #, fuzzy, kde-format
 msgid "Are you sure you want to delete these covers?"
 msgstr "Ушбу бандларни олиб ташлашни истайсизми?"
 
-#: playlist.cpp:528
+#: playlist.cpp:535
 #, kde-format
 msgid "&Delete Covers"
 msgstr ""
 
-#: playlist.cpp:557
+#: playlist.cpp:564
 #, fuzzy, kde-format
 msgid "Select Cover Image File"
 msgstr "&Устунларни кўрсатиш"
 
-#: playlist.cpp:559
+#: playlist.cpp:566
 #, kde-format
 msgid "Images (*.png *.jpg)"
 msgstr ""
 
-#: playlist.cpp:712
+#: playlist.cpp:722
 #, fuzzy, kde-format
 msgid "Could not delete these files"
 msgstr "Кўрсатилган файлларни ўчириб бўлмади."
 
-#: playlist.cpp:713
+#: playlist.cpp:723
 #, fuzzy, kde-format
 msgid "Could not move these files to the Trash"
 msgstr "Ушбу бандларни олиб ташлашни истайсизми?"
 
-#: playlist.cpp:1212
+#: playlist.cpp:1224
 #, kde-format
 msgid "Track Name"
 msgstr "Қўшиқнинг номи"
 
-#: playlist.cpp:1215
+#: playlist.cpp:1227
 #, kde-format
 msgid "Cover"
 msgstr ""
 
-#: playlist.cpp:1216 tagrenameroptions.cpp:112
+#: playlist.cpp:1228 tagrenameroptions.cpp:112
 #, fuzzy, kde-format
 msgctxt "cd track number"
 msgid "Track"
 msgstr "Қўшиқнинг номи"
 
-#: playlist.cpp:1218 tagrenameroptions.cpp:121
+#: playlist.cpp:1230 tagrenameroptions.cpp:121
 #, kde-format
 msgid "Year"
 msgstr "Йил"
 
-#: playlist.cpp:1219
+#: playlist.cpp:1231
 #, kde-format
 msgid "Length"
 msgstr "Узунлиги"
 
-#: playlist.cpp:1220
+#: playlist.cpp:1232
 #, kde-format
 msgid "Bitrate"
 msgstr ""
 
-#: playlist.cpp:1221
+#: playlist.cpp:1233
 #, kde-format
 msgid "Comment"
 msgstr "Изоҳ"
 
-#: playlist.cpp:1222
+#: playlist.cpp:1234
 #, kde-format
 msgid "File Name"
 msgstr "Файлнинг номи"
 
-#: playlist.cpp:1223
+#: playlist.cpp:1235
 #, kde-format
 msgid "File Name (full path)"
 msgstr "Файлнинг номи (тўлиқ йўл)"
 
-#: playlist.cpp:1408
+#: playlist.cpp:1426
 #, kde-format
 msgid "&Show Columns"
 msgstr "&Устунларни кўрсатиш"
 
-#: playlist.cpp:1841
+#: playlist.cpp:1864
 #, kde-format
 msgid "Add to Play Queue"
 msgstr ""
 
-#: playlist.cpp:1854 playlist.cpp:1973
+#: playlist.cpp:1877 playlist.cpp:1996
 #, fuzzy, kde-format
 msgid "Edit"
 msgstr "%1ни таҳрирлаш"
 
-#: playlist.cpp:1870
+#: playlist.cpp:1893
 #, fuzzy, kde-format
 msgid "Create Playlist From Selected Items..."
 msgstr "Танланган кўшиқлардан рўйхат яратиш"
 
-#: playlist.cpp:1887
+#: playlist.cpp:1910
 #, kde-format
 msgid "Edit '%1'"
 msgstr "%1ни таҳрирлаш"
 
-#: playlist.cpp:1971
+#: playlist.cpp:1994
 #, kde-format
 msgid "This will edit multiple files. Are you sure?"
 msgstr ""
 
-#: playlist.cpp:2030 playlistcollection.h:186
+#: playlist.cpp:2053 playlistcollection.h:186
 #, kde-format
 msgid "Create New Playlist"
 msgstr "Янги қўшиқ рўйхатини яратиш"
 
-#: playlist.cpp:2039
+#: playlist.cpp:2062
 #, kde-format
 msgid ""
 "Manual column widths have been enabled. You can switch back to automatic "
 "column sizes in the view menu."
 msgstr ""
 
-#: playlist.cpp:2042
+#: playlist.cpp:2065
 #, kde-format
 msgid "Manual Column Widths Enabled"
 msgstr ""
@@ -1613,7 +1620,7 @@ msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "1 банд"
 
-#: systemtray.cpp:165
+#: systemtray.cpp:150
 #, kde-format
 msgid "Redisplay Popup"
 msgstr ""
@@ -2037,9 +2044,6 @@ msgstr ""
 
 #~ msgid "Audio Mode"
 #~ msgstr "Аудио усули"
-
-#~ msgid "Playlists"
-#~ msgstr "Қўшиқ рўйхатлари"
 
 #~ msgid "New Search"
 #~ msgstr "Янги қидирув"
