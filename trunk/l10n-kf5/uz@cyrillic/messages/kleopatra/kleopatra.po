@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-17 00:18+0000\n"
+"POT-Creation-Date: 2021-08-20 00:21+0000\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3861,7 +3861,7 @@ msgid ""
 msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:280
-#: src/crypto/gui/signencryptfileswizard.cpp:295 src/view/padwidget.cpp:477
+#: src/crypto/gui/signencryptfileswizard.cpp:360 src/view/padwidget.cpp:477
 #, kde-format
 msgctxt ""
 "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED "
@@ -3870,7 +3870,7 @@ msgid "%1 communication possible."
 msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:282
-#: src/crypto/gui/signencryptfileswizard.cpp:297 src/view/padwidget.cpp:479
+#: src/crypto/gui/signencryptfileswizard.cpp:362 src/view/padwidget.cpp:479
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt ""
@@ -3926,37 +3926,73 @@ msgctxt "@title:window"
 msgid "Select Certificates for Message \"%1\""
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptfileswizard.cpp:68
+#: src/crypto/gui/signencryptfileswizard.cpp:124
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title"
 msgid "Sign / Encrypt Files"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptfileswizard.cpp:78
+#: src/crypto/gui/signencryptfileswizard.cpp:128
+#, fuzzy, kde-format
+#| msgid "Canceled."
+msgctxt "@option:check on SignEncryptPage"
+msgid "&Sign as:"
+msgstr "Бекор қилинди."
+
+#: src/crypto/gui/signencryptfileswizard.cpp:130
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@option:check on SignEncryptPage"
+msgid "Encrypt for &me:"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/crypto/gui/signencryptfileswizard.cpp:132
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@option:check on SignEncryptPage"
+msgid "Encrypt for &others:"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/crypto/gui/signencryptfileswizard.cpp:134
 #, kde-format
+msgctxt "@option:check on SignEncryptPage"
+msgid ""
+"Encrypt with &password. Anyone you share the password with can read the data."
+msgstr ""
+
+#: src/crypto/gui/signencryptfileswizard.cpp:142
+#, kde-format
+msgctxt "@title:group"
 msgid "Output"
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:81
+#: src/crypto/gui/signencryptfileswizard.cpp:145
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Please select an action."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptfileswizard.cpp:84
+#: src/crypto/gui/signencryptfileswizard.cpp:148
+#, kde-format
+msgctxt "@label on SignEncryptPage"
+msgid "Output &files/folder:"
+msgstr ""
+
+#: src/crypto/gui/signencryptfileswizard.cpp:154
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
-msgid "Encrypt / Sign each file separately."
+msgctxt "@option:check on SignEncryptPage"
+msgid "Encrypt / Sign &each file separately."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptfileswizard.cpp:86
+#: src/crypto/gui/signencryptfileswizard.cpp:156
 #, kde-format
-msgctxt "@info"
+msgctxt "@info:tooltip"
 msgid "Keep each file separate instead of creating an archive for all."
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:157
+#: src/crypto/gui/signencryptfileswizard.cpp:226
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3968,13 +4004,13 @@ msgid ""
 "support detached signatures in this case.</para>"
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:162
+#: src/crypto/gui/signencryptfileswizard.cpp:231
 #, kde-format
 msgctxt "@title:window"
 msgid "Unusual Signature Warning"
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:183
+#: src/crypto/gui/signencryptfileswizard.cpp:252
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3984,101 +4020,101 @@ msgid ""
 "recipient selection?</para>"
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:186
+#: src/crypto/gui/signencryptfileswizard.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Encrypt-To-Self Warning"
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:224
+#: src/crypto/gui/signencryptfileswizard.cpp:293
 #, kde-format
 msgid "The S/MIME signature."
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:225
+#: src/crypto/gui/signencryptfileswizard.cpp:294
 #, kde-format
 msgid "The signature."
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:226
+#: src/crypto/gui/signencryptfileswizard.cpp:295
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "The signed and encrypted file."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptfileswizard.cpp:227
+#: src/crypto/gui/signencryptfileswizard.cpp:296
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The encrypted file."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptfileswizard.cpp:228
+#: src/crypto/gui/signencryptfileswizard.cpp:297
 #, kde-format
 msgid "The S/MIME encrypted file."
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:229
+#: src/crypto/gui/signencryptfileswizard.cpp:298
 #, kde-format
 msgid "Output directory."
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:300
+#: src/crypto/gui/signencryptfileswizard.cpp:365
 #, kde-format
 msgid "Next"
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:359
+#: src/crypto/gui/signencryptfileswizard.cpp:430
 #, kde-format
 msgctxt "@title"
 msgid "Results"
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:361
+#: src/crypto/gui/signencryptfileswizard.cpp:432
 #, kde-format
 msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:108
-#, kde-format
+#: src/crypto/gui/signencryptwidget.cpp:107
+#, fuzzy, kde-format
+msgctxt "@title:group"
 msgid "Prove authenticity (sign)"
-msgstr ""
+msgstr "Манзили"
 
-#: src/crypto/gui/signencryptwidget.cpp:109
+#: src/crypto/gui/signencryptwidget.cpp:108
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Sign as:"
 msgstr "Бекор қилинди."
 
-#: src/crypto/gui/signencryptwidget.cpp:128
-#: src/crypto/gui/signencryptwidget.cpp:458
+#: src/crypto/gui/signencryptwidget.cpp:126
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
-msgctxt "@action"
+msgctxt "@title:group"
 msgid "Encrypt"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:134
+#: src/crypto/gui/signencryptwidget.cpp:130
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt for me:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:140
+#: src/crypto/gui/signencryptwidget.cpp:137
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt for others:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:169
+#: src/crypto/gui/signencryptwidget.cpp:170
 #, kde-format
 msgid ""
 "Encrypt with password. Anyone you share the password with can read the data."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:171
+#: src/crypto/gui/signencryptwidget.cpp:172
 #, kde-format
-msgctxt "Tooltip information for symetric encryption"
+msgctxt "Tooltip information for symmetric encryption"
 msgid ""
 "Additionally to the keys of the recipients you can encrypt your data with a "
 "password. Anyone who has the password can read the data without any secret "
@@ -4086,27 +4122,34 @@ msgid ""
 "Even if you pick a very strong password."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:456
+#: src/crypto/gui/signencryptwidget.cpp:467
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action"
 msgid "Sign / Encrypt"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:460
+#: src/crypto/gui/signencryptwidget.cpp:469
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@action"
+msgid "Encrypt"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/crypto/gui/signencryptwidget.cpp:471
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@action"
 msgid "Sign"
 msgstr "Бекор қилинди."
 
-#: src/crypto/gui/signencryptwidget.cpp:616
+#: src/crypto/gui/signencryptwidget.cpp:621
 #, kde-format
 msgctxt "%1 is user input that could not be found"
 msgid "Could not find a key for '%1'"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:617
+#: src/crypto/gui/signencryptwidget.cpp:622
 #, kde-format
 msgid "Failed to find recipient"
 msgstr ""
@@ -9237,10 +9280,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Authentication:"
-#~ msgstr "Манзили"
-
-#, fuzzy
-#~ msgid "PIV authentication:"
 #~ msgstr "Манзили"
 
 #, fuzzy
