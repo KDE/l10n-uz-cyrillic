@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:19+0000\n"
+"POT-Creation-Date: 2021-09-23 00:17+0000\n"
 "PO-Revision-Date: 2006-02-12 19:43+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -567,12 +567,24 @@ msgctxt "@info:shell"
 msgid "Path or URL to iCalendar file to open."
 msgstr "Очиш учун iCalendar файли"
 
-#: mainwindow.cpp:53
+#: mainwindow.cpp:54
 #, fuzzy, kde-format
 #| msgid "Configure KArm..."
 msgctxt "@action:inmenu"
 msgid "Configure KTimeTracker..."
 msgstr "KArm мосламаси..."
+
+#: mainwindow.cpp:152 tray.cpp:90
+#, kde-format
+msgid "No active tasks"
+msgstr "Актив вазифалар йўқ"
+
+#: mainwindow.cpp:162 tray.cpp:110
+#, fuzzy, kde-format
+#| msgid ", "
+msgctxt "separator between task names"
+msgid ", "
+msgstr ", "
 
 #: model/tasksmodel.cpp:34
 #, fuzzy, kde-format
@@ -731,46 +743,65 @@ msgctxt ""
 msgid "Configuration for PDA"
 msgstr "Тасдиқлаш талаб қилинади"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, windowTitleGroupBox)
 #: settings/cfgdisplay.ui:55
+#, kde-format
+msgid "Window Title"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_windowTitleCurrentFile)
+#: settings/cfgdisplay.ui:64
+#, kde-format
+msgid "Currently opened file"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_windowTitleCurrentTask)
+#: settings/cfgdisplay.ui:71
+#, fuzzy, kde-format
+#| msgid "Total Session Time"
+msgid "Current Task and Session Time"
+msgstr "Сеанснинг умумий вақти"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/cfgdisplay.ui:81
 #, fuzzy, kde-format
 #| msgid "Columns displayed:"
 msgid "Columns Displayed"
 msgstr "Кўрсатиладиган устунлар:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displaySessionTime)
-#: settings/cfgdisplay.ui:61
+#: settings/cfgdisplay.ui:87
 #, kde-format
 msgid "Session time"
 msgstr "Сеанс вақти"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTime)
-#: settings/cfgdisplay.ui:68
+#: settings/cfgdisplay.ui:94
 #, fuzzy, kde-format
 #| msgid "Total task time"
 msgid "Cumulative task time"
 msgstr "Вазифанинг умумий вақти"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalSessionTime)
-#: settings/cfgdisplay.ui:75
+#: settings/cfgdisplay.ui:101
 #, kde-format
 msgid "Total session time"
 msgstr "Сеанснинг умумий вақти"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalTime)
-#: settings/cfgdisplay.ui:82
+#: settings/cfgdisplay.ui:108
 #, kde-format
 msgid "Total task time"
 msgstr "Вазифанинг умумий вақти"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPriority)
-#: settings/cfgdisplay.ui:89
+#: settings/cfgdisplay.ui:115
 #, kde-format
 msgid "Priority"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPercentComplete)
-#: settings/cfgdisplay.ui:96
+#: settings/cfgdisplay.ui:122
 #, fuzzy, kde-format
 msgid "Percent complete"
 msgstr "&Бажарилган деб белгилаш"
@@ -807,12 +838,12 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: taskview.cpp:357 taskview.cpp:436
+#: taskview.cpp:358 taskview.cpp:437
 #, kde-format
 msgid "Unnamed Task"
 msgstr "Номсиз вазифа"
 
-#: taskview.cpp:376
+#: taskview.cpp:377
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -820,26 +851,26 @@ msgid ""
 "any lock file related to its name from ~/.kde/share/apps/kabc/lock/"
 msgstr ""
 
-#: taskview.cpp:415
+#: taskview.cpp:416
 #, fuzzy, kde-format
 #| msgid "New Sub Task"
 msgctxt "@title:window"
 msgid "New Sub Task"
 msgstr "Янги туб вазифа"
 
-#: taskview.cpp:433
+#: taskview.cpp:434
 #, fuzzy, kde-format
 #| msgid "Edit Task"
 msgctxt "@title:window"
 msgid "Edit Task"
 msgstr "Вазифани таҳрирлаш"
 
-#: taskview.cpp:465 taskview.cpp:506 taskview.cpp:525
+#: taskview.cpp:466 taskview.cpp:507 taskview.cpp:526
 #, kde-format
 msgid "No task selected."
 msgstr "Вазифа танланмаган."
 
-#: taskview.cpp:511
+#: taskview.cpp:512
 #, fuzzy, kde-format
 #| msgid ""
 #| "Are you sure you want to delete the task named\n"
@@ -851,7 +882,7 @@ msgstr ""
 "Ростдан \"%1\" номли вазифани ва унинг бутун\n"
 "тарихни ўчиришни истайсизми?"
 
-#: taskview.cpp:513
+#: taskview.cpp:514
 #, fuzzy, kde-format
 #| msgid "Deleting Task"
 msgctxt "@title:window"
@@ -1180,34 +1211,34 @@ msgctxt "@action:inmenu"
 msgid "Show Searchbar"
 msgstr ""
 
-#: timetrackerwidget.cpp:428
+#: timetrackerwidget.cpp:429
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgctxt "@title:tab"
 msgid "Behavior"
 msgstr "Хусусиятлар"
 
-#: timetrackerwidget.cpp:429
+#: timetrackerwidget.cpp:430
 #, kde-format
 msgctxt "@title:tab"
 msgid "Appearance"
 msgstr ""
 
-#: timetrackerwidget.cpp:430
+#: timetrackerwidget.cpp:431
 #, fuzzy, kde-format
 #| msgid "Storage"
 msgctxt "@title:tab"
 msgid "Storage"
 msgstr "Сақлаш"
 
-#: timetrackerwidget.cpp:462
+#: timetrackerwidget.cpp:467
 #, fuzzy, kde-format
 #| msgid "New Task"
 msgctxt "@title:window"
 msgid "New Task"
 msgstr "Янги вазифа"
 
-#: timetrackerwidget.cpp:539
+#: timetrackerwidget.cpp:544
 #, kde-format
 msgctxt "@info in message box"
 msgid ""
@@ -1215,67 +1246,67 @@ msgid ""
 "your history."
 msgstr ""
 
-#: timetrackerwidget.cpp:549
+#: timetrackerwidget.cpp:554
 #, kde-format
 msgid ""
 "Do you really want to reset the time to zero for all tasks? This will delete "
 "the entire history."
 msgstr ""
 
-#: timetrackerwidget.cpp:550
+#: timetrackerwidget.cpp:555
 #, fuzzy, kde-format
 #| msgid "Confirmation Required"
 msgctxt "@title:window"
 msgid "Confirmation Required"
 msgstr "Тасдиқлаш талаб қилинади"
 
-#: timetrackerwidget.cpp:551
+#: timetrackerwidget.cpp:556
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Reset All Times"
 msgstr "Ҳамма таймерларни &тўхтатиш"
 
-#: timetrackerwidget.cpp:739
+#: timetrackerwidget.cpp:744
 #, kde-format
 msgid "Save failed, most likely because the file could not be locked."
 msgstr ""
 
-#: timetrackerwidget.cpp:741
+#: timetrackerwidget.cpp:746
 #, kde-format
 msgid "Could not modify calendar resource."
 msgstr "Календар манбасини ўзгартириб бўлмади."
 
-#: timetrackerwidget.cpp:743
+#: timetrackerwidget.cpp:748
 #, kde-format
 msgid "Out of memory--could not create object."
 msgstr "Объект яратилмади--хотира етишмайди."
 
-#: timetrackerwidget.cpp:745
+#: timetrackerwidget.cpp:750
 #, kde-format
 msgid "UID not found."
 msgstr "UID топилмади."
 
-#: timetrackerwidget.cpp:747
+#: timetrackerwidget.cpp:752
 #, kde-format
 msgid "Invalidate date--format is YYYY-MM-DD."
 msgstr ""
 
-#: timetrackerwidget.cpp:749
+#: timetrackerwidget.cpp:754
 #, kde-format
 msgid "Invalid time--format is YYYY-MM-DDTHH:MM:SS."
 msgstr ""
 
-#: timetrackerwidget.cpp:751
+#: timetrackerwidget.cpp:756
 #, kde-format
 msgid "Invalid task duration--must be greater than zero."
 msgstr ""
 
-#: timetrackerwidget.cpp:753
+#: timetrackerwidget.cpp:758
 #, kde-format
 msgid "Invalid error number: %1"
 msgstr "Ноаниқ хато рақами: %1"
 
-#: timetrackerwidget.cpp:979
+#: timetrackerwidget.cpp:984
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1284,16 +1315,11 @@ msgid ""
 "\"Search or add task\"."
 msgstr ""
 
-#: timetrackerwidget.cpp:985
+#: timetrackerwidget.cpp:990
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "You have already created a task. You can now start and stop timing."
 msgstr ""
-
-#: tray.cpp:90
-#, kde-format
-msgid "No active tasks"
-msgstr "Актив вазифалар йўқ"
 
 #: tray.cpp:95
 #, fuzzy, kde-format
@@ -1301,13 +1327,6 @@ msgstr "Актив вазифалар йўқ"
 msgctxt "ellipsis to truncate long list of tasks"
 msgid ", ..."
 msgstr ", ..."
-
-#: tray.cpp:110
-#, fuzzy, kde-format
-#| msgid ", "
-msgctxt "separator between task names"
-msgid ", "
-msgstr ", "
 
 #: treeviewheadercontextmenu.cpp:43
 #, kde-format
