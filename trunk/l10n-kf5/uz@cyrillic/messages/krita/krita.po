@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-29 00:46+0000\n"
+"POT-Creation-Date: 2021-12-30 00:42+0000\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -25483,10 +25483,8 @@ msgstr "Кўриб чиқиш:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, photobashWidget)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:14
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:14
-#: plugins/python/photobash_images/photobash_images_docker.ui:14
 #, fuzzy, kde-format
 msgid "Form"
 msgstr "Санани кўриниши"
@@ -53274,25 +53272,50 @@ msgstr "&Экспорт қилиш"
 msgid "{input} has been exported to {output}."
 msgstr ""
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterTextEdit)
-#: plugins/python/photobash_images/photobash_images_docker.ui:71
-#, fuzzy, kde-format
-msgid "Filter images by words..."
-msgstr "Матнни ўчириш"
+#: plugins/python/photobash_images/photobash_images_docker.py:73
+#, fuzzy
+#| msgid "Paste Text"
+msgctxt "@title:window"
+msgid "Photobash Images"
+msgstr "Матнни қўйиш"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:141
+#: plugins/python/photobash_images/photobash_images_docker.py:471
+#, fuzzy
+#| msgid "Import Document"
+msgid "Change References Folder"
+msgstr "Ҳужжатни импорт қилиш"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:147
+#: plugins/python/photobash_images/photobash_images_docker.py:219
+#, fuzzy, python-brace-format
+#| msgid "Page Size"
+msgid "Image Scale: {0}%"
+msgstr "Бетнинг ўлчами"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:321
+#, fuzzy, python-brace-format
+msgid "Page: {0}/{1}"
+msgstr "Сана:"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:460
+#, fuzzy
+msgid "Change Directory for Images"
+msgstr "Рўйхатнинг турини ўзгартириш"
 
 #. i18n: ectx: property (text), widget (QPushButton, changePathButton)
+#: plugins/python/photobash_images/photobash_images_docker.py:469
 #: plugins/python/photobash_images/photobash_images_docker.ui:96
 #, fuzzy, kde-format
 #| msgid "Import Document"
 msgid "Set References Folder"
 msgstr "Ҳужжатни импорт қилиш"
 
-#. i18n: ectx: property (text), widget (QLabel, scaleSliderLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:328
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterTextEdit)
+#: plugins/python/photobash_images/photobash_images_docker.ui:71
 #, fuzzy, kde-format
-#| msgid "Page Size"
-msgid "Image Scale :"
-msgstr "Бетнинг ўлчами"
+msgid "Filter images by words..."
+msgstr "Матнни ўчириш"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fitCanvasCheckBox)
 #: plugins/python/photobash_images/photobash_images_docker.ui:388
@@ -53300,12 +53323,6 @@ msgstr "Бетнинг ўлчами"
 #| msgid "Add Newline"
 msgid "Scale To Canvas"
 msgstr "Янги сатр қўшиш"
-
-#. i18n: ectx: property (text), widget (QLabel, paginationLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:413
-#, kde-format
-msgid "0/0"
-msgstr ""
 
 #: plugins/python/plugin_importer/plugin_downloader.py:70
 msgid "Could not determine download link from URL"
@@ -61994,12 +62011,6 @@ msgstr "&Алмаштириш:"
 #~ msgctxt "./krita/data/brushes/bamboo_leaves_random.gih"
 #~ msgid "GIMP Brush Pipe"
 #~ msgstr "Тўлқин"
-
-#, fuzzy
-#~| msgid "Paste Text"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste Image"
-#~ msgstr "Матнни қўйиш"
 
 #, fuzzy
 #~| msgid "Choose Filter"
