@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-28 00:45+0000\n"
+"POT-Creation-Date: 2022-06-30 00:46+0000\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2760,7 +2760,7 @@ msgstr "Сертификат тафсилотлари..."
 #. i18n: ectx: attribute (title), widget (QWidget, tab_tags)
 #: src/conf/appearanceconfigwidget.ui:175
 #: src/dialogs/certificatedetailswidget.cpp:497
-#: src/dialogs/certifywidget.cpp:339
+#: src/dialogs/certifywidget.cpp:337
 #, kde-format
 msgid "Tags"
 msgstr ""
@@ -5759,19 +5759,19 @@ msgctxt "@title:window arg is name, email of certificate holder"
 msgid "Certify Certificate: %1"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certifywidget.cpp:290
+#: src/dialogs/certifywidget.cpp:282
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certify with:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certifywidget.cpp:297
+#: src/dialogs/certifywidget.cpp:292
 #, kde-format
 msgctxt "@action:button"
 msgid "Set Owner Trust"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:300
+#: src/dialogs/certifywidget.cpp:295
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -5779,35 +5779,40 @@ msgid ""
 "trust. This is what you usually want to do for your own keys."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:316
+#: src/dialogs/certifywidget.cpp:311
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:321
+#: src/dialogs/certifywidget.cpp:317
 #, kde-format
 msgid "Certify for everyone to see (exportable)"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:327
+#: src/dialogs/certifywidget.cpp:324
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Publish on keyserver afterwards"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certifywidget.cpp:340
+#: src/dialogs/certifywidget.cpp:338
 #, kde-format
 msgid "You can use this to add additional info to a certification."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:342
+#: src/dialogs/certifywidget.cpp:340
 #, kde-format
 msgid ""
 "Tags created by anyone with full certification trust are shown in the "
 "keylist and can be searched."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:346
+#: src/dialogs/certifywidget.cpp:343
+#, kde-format
+msgid "Explain tags"
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:345
 #, kde-format
 msgid "Tags:"
 msgstr ""
@@ -5817,35 +5822,35 @@ msgstr ""
 msgid "Expiration:"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:363
+#: src/dialogs/certifywidget.cpp:364
 #, kde-format
 msgid "The certification must be valid at least until tomorrow."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:364
+#: src/dialogs/certifywidget.cpp:365
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The latest allowed certification date is %1."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certifywidget.cpp:367
+#: src/dialogs/certifywidget.cpp:368
 #, kde-format
 msgctxt "Date for expiration of certification"
 msgid "Two years from now"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:368
+#: src/dialogs/certifywidget.cpp:369
 #, kde-format
 msgctxt "Date for expiration of certification"
 msgid "One year from now"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:373
+#: src/dialogs/certifywidget.cpp:374
 #, kde-format
 msgid "You can use this to set an expiration date for a certification."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:375
+#: src/dialogs/certifywidget.cpp:376
 #, kde-format
 msgid ""
 "By setting an expiration date, you can limit the validity of your "
@@ -5853,17 +5858,23 @@ msgid ""
 "passed, your certification is no longer valid."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:390
+#: src/dialogs/certifywidget.cpp:380
+#, fuzzy, kde-format
+#| msgid "Stop Operation"
+msgid "Explain expiration"
+msgstr "Жараённи тўхтатиш"
+
+#: src/dialogs/certifywidget.cpp:393
 #, kde-format
 msgid "Certify as trusted introducer"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:391
+#: src/dialogs/certifywidget.cpp:394
 #, kde-format
 msgid "You can use this to certify a trusted introducer for a domain."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:393
+#: src/dialogs/certifywidget.cpp:396
 #, kde-format
 msgid ""
 "All certificates with email addresses belonging to the domain that have been "
@@ -5871,41 +5882,46 @@ msgid ""
 "introducer acts as a kind of intermediate CA for a domain."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:407
+#: src/dialogs/certifywidget.cpp:401
+#, kde-format
+msgid "Explain trusted introducer"
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:412
 #, kde-format
 msgid "Domain"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:501
+#: src/dialogs/certifywidget.cpp:506
 #: src/dialogs/revokecertificationwidget.cpp:227
 #, kde-format
 msgid "Fingerprint: <b>%1</b>"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:503
+#: src/dialogs/certifywidget.cpp:508
 #: src/dialogs/revokecertificationwidget.cpp:229
 #, kde-format
 msgid "<i>Only the fingerprint clearly identifies the key and its owner.</i>"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:597
+#: src/dialogs/certifywidget.cpp:602
 #, kde-format
 msgid "Is this your own key?"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:612
+#: src/dialogs/certifywidget.cpp:617
 #, kde-format
 msgid ""
 "<p>Changing the certification trust of the key <b>%1</b> failed:</p><p>%2</p>"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:615
+#: src/dialogs/certifywidget.cpp:620
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certification Trust Change Failed"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certifywidget.cpp:622
+#: src/dialogs/certifywidget.cpp:627
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Owner trust set successfully."
@@ -5953,19 +5969,19 @@ msgctxt "@title:window"
 msgid "Choose Type of Key Pair"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:91
+#: src/dialogs/deletecertificatesdialog.cpp:92
 #, kde-format
 msgid "These are the certificates you have selected for deletion:"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:93
+#: src/dialogs/deletecertificatesdialog.cpp:94
 #, kde-format
 msgid ""
 "These certificates will be deleted even though you did <b>not</b> explicitly "
 "select them (<a href=\"whatsthis://\">Why?</a>):"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:114
+#: src/dialogs/deletecertificatesdialog.cpp:115
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5979,13 +5995,13 @@ msgid ""
 "contents, too.</para>"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:126
+#: src/dialogs/deletecertificatesdialog.cpp:127
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:192
+#: src/dialogs/deletecertificatesdialog.cpp:193
 #, kde-format
 msgid ""
 "The certificate to be deleted is your own. It contains private key material, "
@@ -5997,7 +6013,7 @@ msgid_plural ""
 "certificate, and should therefore not be deleted."
 msgstr[0] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:206
+#: src/dialogs/deletecertificatesdialog.cpp:207
 #, kde-format
 msgid ""
 "One of the certificates to be deleted is your own. It contains private key "
@@ -6009,7 +6025,7 @@ msgid_plural ""
 "certificate, and should therefore not be deleted."
 msgstr[0] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:221 src/view/pgpcardwidget.cpp:348
+#: src/dialogs/deletecertificatesdialog.cpp:222 src/view/pgpcardwidget.cpp:348
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Secret Key Deletion"
@@ -9519,7 +9535,7 @@ msgid ""
 "bug."
 msgstr ""
 
-#: src/utils/accessibility.cpp:52
+#: src/utils/accessibility.cpp:58
 #, kde-format
 msgctxt ""
 "text for screen readers to indicate that the associated object, such as a "
@@ -9527,7 +9543,7 @@ msgctxt ""
 msgid "invalid entry"
 msgstr ""
 
-#: src/utils/accessibility.cpp:59
+#: src/utils/accessibility.cpp:65
 #, kde-format
 msgctxt ""
 "text for screen readers to indicate that the associated object, such as a "
