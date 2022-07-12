@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-08 00:47+0000\n"
+"POT-Creation-Date: 2022-07-12 00:47+0000\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2758,7 +2758,7 @@ msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_tags)
 #: src/conf/appearanceconfigwidget.ui:175
-#: src/dialogs/certificatedetailswidget.cpp:596
+#: src/dialogs/certificatedetailswidget.cpp:637
 #: src/dialogs/certifywidget.cpp:337
 #, kde-format
 msgid "Tags"
@@ -5260,7 +5260,7 @@ msgid "%1 (%2)"
 msgstr ""
 
 #: src/dialogs/certificatedetailsinputwidget.cpp:71
-#: src/dialogs/certificatedetailswidget.cpp:380
+#: src/dialogs/certificatedetailswidget.cpp:407
 #: src/newcertificatewizard/enterdetailspage.cpp:315
 #, kde-format
 msgctxt "interpunctation for labels"
@@ -5329,171 +5329,186 @@ msgid ""
 "<interface>%1</interface> is invalid.<nl/>Local Admin rule: <icode>%2</icode>"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:331
+#: src/dialogs/certificatedetailswidget.cpp:352
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "User IDs:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:336
+#: src/dialogs/certificatedetailswidget.cpp:357
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "User IDs"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:351
+#: src/dialogs/certificatedetailswidget.cpp:372
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "Add User ID"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:354
+#: src/dialogs/certificatedetailswidget.cpp:375
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
-msgid "Certify User ID"
+msgid "Certify User IDs"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:357
+#: src/dialogs/certificatedetailswidget.cpp:378
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "Show Certifications"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:391
+#: src/dialogs/certificatedetailswidget.cpp:381
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@action:button"
+msgid "Revoke Certifications"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/certificatedetailswidget.cpp:384
+#: src/dialogs/certificatedetailswidget.cpp:743
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "@action:button"
+msgid "Revoke User ID"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/dialogs/certificatedetailswidget.cpp:418
 #, kde-format
 msgid "Trust level:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:396
+#: src/dialogs/certificatedetailswidget.cpp:423
 #, kde-format
 msgid "Valid from:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:401
+#: src/dialogs/certificatedetailswidget.cpp:428
 #, kde-format
 msgid "Expires:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:404
+#: src/dialogs/certificatedetailswidget.cpp:431
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Change the expiration date"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:405
+#: src/dialogs/certificatedetailswidget.cpp:432
 #, fuzzy, kde-format
 #| msgid "Stop Operation"
 msgctxt "@action:button"
 msgid "Change expiration"
 msgstr "Жараённи тўхтатиш"
 
-#: src/dialogs/certificatedetailswidget.cpp:411
+#: src/dialogs/certificatedetailswidget.cpp:438
 #, kde-format
 msgid "Fingerprint:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:415
+#: src/dialogs/certificatedetailswidget.cpp:442
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy the fingerprint to the clipboard"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:416
+#: src/dialogs/certificatedetailswidget.cpp:443
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy fingerprint"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:423
+#: src/dialogs/certificatedetailswidget.cpp:450
 #, fuzzy, kde-format
 #| msgid "Issuer"
 msgid "Issuer:"
 msgstr "Ким томонидан берилган"
 
-#: src/dialogs/certificatedetailswidget.cpp:426
+#: src/dialogs/certificatedetailswidget.cpp:453
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info:tooltip"
 msgid "Show the issuer certificate"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:427
+#: src/dialogs/certificatedetailswidget.cpp:454
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:button"
 msgid "Show certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:433
+#: src/dialogs/certificatedetailswidget.cpp:460
 #, kde-format
 msgid "Compliance:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:438
+#: src/dialogs/certificatedetailswidget.cpp:465
 #, kde-format
 msgid "Trusted introducer for:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:440
+#: src/dialogs/certificatedetailswidget.cpp:467
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "See certifications for details."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:446
+#: src/dialogs/certificatedetailswidget.cpp:473
 #, kde-format
 msgid "Related addresses:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:451
+#: src/dialogs/certificatedetailswidget.cpp:478
 #, kde-format
 msgid "Related addresses"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:460
+#: src/dialogs/certificatedetailswidget.cpp:487
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "More Details..."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:463
+#: src/dialogs/certificatedetailswidget.cpp:490
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "Trust Chain Details"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:466
+#: src/dialogs/certificatedetailswidget.cpp:493
 #, kde-format
 msgctxt "@action:button"
 msgid "Update"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:472
+#: src/dialogs/certificatedetailswidget.cpp:499
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@action:button"
 msgid "Export"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:475
+#: src/dialogs/certificatedetailswidget.cpp:502
 #, kde-format
 msgctxt "@action:button"
 msgid "Change Passphrase"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:478
+#: src/dialogs/certificatedetailswidget.cpp:505
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:button"
 msgid "Generate Revocation Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:480
+#: src/dialogs/certificatedetailswidget.cpp:507
 #, kde-format
 msgid ""
 "A revocation certificate is a file that serves as a \"kill switch\" to "
@@ -5501,30 +5516,30 @@ msgid ""
 "to retract such a revocation certificate once it has been published."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:583
-#: src/dialogs/certificatedetailswidget.cpp:584
+#: src/dialogs/certificatedetailswidget.cpp:618
+#: src/dialogs/certificatedetailswidget.cpp:619
 #, kde-format
 msgctxt "Expires"
 msgid "never"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:596
+#: src/dialogs/certificatedetailswidget.cpp:637
 #, kde-format
 msgid "Email"
 msgstr "Электрон почта"
 
-#: src/dialogs/certificatedetailswidget.cpp:596
+#: src/dialogs/certificatedetailswidget.cpp:637
 #: src/newcertificatewizard/enterdetailspage.cpp:61
 #, kde-format
 msgid "Name"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:596
+#: src/dialogs/certificatedetailswidget.cpp:637
 #, kde-format
 msgid "Trust Level"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:614
+#: src/dialogs/certificatedetailswidget.cpp:655
 #, fuzzy, kde-format
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
@@ -5532,7 +5547,7 @@ msgctxt "text for screen readers for an empty email address"
 msgid "no email"
 msgstr "mavnur@gmail.com"
 
-#: src/dialogs/certificatedetailswidget.cpp:699
+#: src/dialogs/certificatedetailswidget.cpp:740
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5540,133 +5555,141 @@ msgid ""
 "</para>"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:702
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@action:button"
-msgid "Revoke User ID"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/dialogs/certificatedetailswidget.cpp:705
+#: src/dialogs/certificatedetailswidget.cpp:746
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Confirm Revocation"
 msgstr "Манзили"
 
-#: src/dialogs/certificatedetailswidget.cpp:865
-#: src/dialogs/weboftrustwidget.cpp:100 src/view/keylistcontroller.cpp:437
+#: src/dialogs/certificatedetailswidget.cpp:905
 #, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Certify..."
-msgstr "Сертификатларни импорт қилиш..."
+#| msgid "Certificate Details..."
+msgctxt "@action:inmenu"
+msgid "Certify User IDs..."
+msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:878
+#: src/dialogs/certificatedetailswidget.cpp:906
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@action:inmenu"
+msgid "Certify User ID..."
+msgid_plural "Certify User IDs..."
+msgstr[0] "Сертификат тафсилотлари..."
+
+#: src/dialogs/certificatedetailswidget.cpp:915
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:inmenu"
-msgid "Revoke User ID"
+msgid "Revoke Certifications..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:886
-#: src/dialogs/weboftrustwidget.cpp:115 src/dialogs/weboftrustwidget.cpp:142
-#: src/view/keylistcontroller.cpp:441
+#: src/dialogs/certificatedetailswidget.cpp:916
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
+msgctxt "@action:inmenu"
 msgid "Revoke Certification..."
-msgstr "Сертификатларни импорт қилиш..."
+msgid_plural "Revoke Certifications..."
+msgstr[0] "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:901
+#: src/dialogs/certificatedetailswidget.cpp:927
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:inmenu"
 msgid "Publish at Mail Provider ..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:957
+#: src/dialogs/certificatedetailswidget.cpp:940
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "@action:inmenu"
+msgid "Revoke User ID"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/dialogs/certificatedetailswidget.cpp:992
 #, kde-format
 msgid "never"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:959
+#: src/dialogs/certificatedetailswidget.cpp:994
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Signing"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/certificatedetailswidget.cpp:960
-#: src/dialogs/certificatedetailswidget.cpp:964
+#: src/dialogs/certificatedetailswidget.cpp:995
+#: src/dialogs/certificatedetailswidget.cpp:999
 #, kde-format
 msgid "First message"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:961
-#: src/dialogs/certificatedetailswidget.cpp:965
+#: src/dialogs/certificatedetailswidget.cpp:996
+#: src/dialogs/certificatedetailswidget.cpp:1000
 #, kde-format
 msgid "Last message"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:962
-#: src/dialogs/certificatedetailswidget.cpp:966
+#: src/dialogs/certificatedetailswidget.cpp:997
+#: src/dialogs/certificatedetailswidget.cpp:1001
 #, kde-format
 msgid "Message count"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:963
+#: src/dialogs/certificatedetailswidget.cpp:998
 #: src/smartcard/openpgpcard.cpp:95
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encryption"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:998
+#: src/dialogs/certificatedetailswidget.cpp:1033
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Updating..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:1046
+#: src/dialogs/certificatedetailswidget.cpp:1081
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Update the key from external sources."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1062
+#: src/dialogs/certificatedetailswidget.cpp:1097
 #, kde-format
 msgid "Common Name"
 msgstr "Умумий номи"
 
-#: src/dialogs/certificatedetailswidget.cpp:1063
+#: src/dialogs/certificatedetailswidget.cpp:1098
 #, kde-format
 msgid "Organization"
 msgstr "Ташкилот"
 
-#: src/dialogs/certificatedetailswidget.cpp:1064
+#: src/dialogs/certificatedetailswidget.cpp:1099
 #, kde-format
 msgid "Street"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1065
+#: src/dialogs/certificatedetailswidget.cpp:1100
 #, kde-format
 msgid "City"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1066
+#: src/dialogs/certificatedetailswidget.cpp:1101
 #, kde-format
 msgid "State"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1067
+#: src/dialogs/certificatedetailswidget.cpp:1102
 #, kde-format
 msgid "Country"
 msgstr "Давлат"
 
-#: src/dialogs/certificatedetailswidget.cpp:1095
+#: src/dialogs/certificatedetailswidget.cpp:1130
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Update the CRLs and do a full validation check of the certificate."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1104
+#: src/dialogs/certificatedetailswidget.cpp:1139
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The issuer certificate could not be found locally."
@@ -7049,6 +7072,19 @@ msgid ""
 "Look up and import all keys that were used to certify the user IDs of this "
 "key"
 msgstr ""
+
+#: src/dialogs/weboftrustwidget.cpp:100 src/view/keylistcontroller.cpp:437
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "Certify..."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/dialogs/weboftrustwidget.cpp:115 src/dialogs/weboftrustwidget.cpp:142
+#: src/view/keylistcontroller.cpp:441
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "Revoke Certification..."
+msgstr "Сертификатларни импорт қилиш..."
 
 #: src/dialogs/weboftrustwidget.cpp:134
 #, fuzzy, kde-format
