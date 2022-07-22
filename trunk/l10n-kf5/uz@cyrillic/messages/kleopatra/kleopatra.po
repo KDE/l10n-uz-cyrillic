@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-21 00:45+0000\n"
+"POT-Creation-Date: 2022-07-22 00:46+0000\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1520,7 +1520,7 @@ msgid "Could not open file %1 for reading: %2"
 msgstr ""
 
 #: src/commands/importcertificatefromfilecommand.cpp:148
-#: src/commands/importcertificatescommand.cpp:286 src/view/keytreeview.cpp:347
+#: src/commands/importcertificatescommand.cpp:286 src/view/keytreeview.cpp:365
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certificates"
@@ -3028,24 +3028,24 @@ msgstr ""
 msgid "Backend error: gpgconf has wrong type for %1/%2: %3 %4"
 msgstr ""
 
-#: src/conf/groupsconfigdialog.cpp:71
+#: src/conf/groupsconfigdialog.cpp:90
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Groups"
 msgstr ""
 
-#: src/conf/groupsconfigdialog.cpp:74
+#: src/conf/groupsconfigdialog.cpp:93
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Groups"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/conf/groupsconfigdialog.cpp:88
+#: src/conf/groupsconfigdialog.cpp:107
 #, kde-format
 msgid "Help"
 msgstr ""
 
-#: src/conf/groupsconfigdialog.cpp:90
+#: src/conf/groupsconfigdialog.cpp:109
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
@@ -3076,51 +3076,80 @@ msgctxt "@title::window"
 msgid "Save changes?"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:96
+#: src/conf/groupsconfigwidget.cpp:134 src/dialogs/editgroupdialog.cpp:99
+#: src/dialogs/editgroupdialog.cpp:155
 #, fuzzy, kde-format
 #| msgid "Search:"
-msgctxt "@info::placeholder"
-msgid "Search..."
+msgctxt "@label"
+msgid "Search:"
 msgstr "Қидириш:"
 
-#: src/conf/groupsconfigwidget.cpp:116
+#: src/conf/groupsconfigwidget.cpp:135
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "@label"
+msgid "Search groups"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/conf/groupsconfigwidget.cpp:136 src/conf/groupsconfigwidget.cpp:141
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search the list for groups matching the search term."
+msgstr ""
+
+#: src/conf/groupsconfigwidget.cpp:142 src/dialogs/editgroupdialog.cpp:107
+#: src/dialogs/editgroupdialog.cpp:163
+#, fuzzy, kde-format
+#| msgid "Serial Number"
+msgctxt "@info::placeholder"
+msgid "Enter search term"
+msgstr "Серия рақами"
+
+#: src/conf/groupsconfigwidget.cpp:158
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "groups of keys"
+msgid "groups"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/conf/groupsconfigwidget.cpp:167
 #, kde-format
 msgctxt "@action::button"
 msgid "New"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:119
+#: src/conf/groupsconfigwidget.cpp:170
 #, kde-format
 msgctxt "@action::button"
 msgid "Edit"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:123
+#: src/conf/groupsconfigwidget.cpp:174
 #, kde-format
 msgctxt "@action::button"
 msgid "Delete"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:127
+#: src/conf/groupsconfigwidget.cpp:178
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@action::button"
 msgid "Export"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/conf/groupsconfigwidget.cpp:236
+#: src/conf/groupsconfigwidget.cpp:287
 #, kde-format
 msgctxt "default name for new group of keys"
 msgid "New Group"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:240
+#: src/conf/groupsconfigwidget.cpp:291
 #, kde-format
 msgctxt "@title:window a group of keys"
 msgid "New Group"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:278
+#: src/conf/groupsconfigwidget.cpp:329
 #, kde-format
 msgctxt "@title:window a group of keys"
 msgid "Edit Group"
@@ -6089,56 +6118,88 @@ msgstr[0] ""
 msgid "Secret Key Deletion"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/dialogs/editgroupdialog.cpp:78
+#: src/dialogs/editgroupdialog.cpp:81
 #, fuzzy, kde-format
 #| msgid "Serial Number"
 msgctxt "Name of a group of keys"
 msgid "Name:"
 msgstr "Серия рақами"
 
-#: src/dialogs/editgroupdialog.cpp:88
+#: src/dialogs/editgroupdialog.cpp:93
 #, kde-format
-msgid "Available keys:"
+msgctxt "@title"
+msgid "Available Keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:92 src/dialogs/editgroupdialog.cpp:134
-#, fuzzy, kde-format
-#| msgid "Search:"
-msgctxt "Placeholder text"
-msgid "Search..."
-msgstr "Қидириш:"
+#: src/dialogs/editgroupdialog.cpp:100 src/dialogs/editgroupdialog.cpp:106
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search the list of available keys for keys matching the search term."
+msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:113
+#: src/dialogs/editgroupdialog.cpp:105
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Search available keys"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/editgroupdialog.cpp:117
+#, kde-format
+msgid "available keys"
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:133
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:button"
 msgid "Add Selected Keys"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/editgroupdialog.cpp:114
+#: src/dialogs/editgroupdialog.cpp:134
 #, kde-format
 msgid "Add the selected keys to the group"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:120
+#: src/dialogs/editgroupdialog.cpp:140
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:button"
 msgid "Remove Selected Keys"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/editgroupdialog.cpp:121
+#: src/dialogs/editgroupdialog.cpp:141
 #, kde-format
 msgid "Remove the selected keys from the group"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:130
+#: src/dialogs/editgroupdialog.cpp:149
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
-msgid "Group keys:"
+msgctxt "@title"
+msgid "Group Keys"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/editgroupdialog.cpp:265
+#: src/dialogs/editgroupdialog.cpp:156 src/dialogs/editgroupdialog.cpp:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search the list of group keys for keys matching the search term."
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:161
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Search group keys"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/editgroupdialog.cpp:172
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgid "group keys"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/editgroupdialog.cpp:302
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Group"
@@ -10168,13 +10229,13 @@ msgstr "Сертификатларни импорт қилиш..."
 msgid "View Columns"
 msgstr ""
 
-#: src/view/keytreeview.cpp:348 src/view/keytreeview.cpp:687
+#: src/view/keytreeview.cpp:366 src/view/keytreeview.cpp:705
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Hierarchical list of certificates"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keytreeview.cpp:348 src/view/keytreeview.cpp:687
+#: src/view/keytreeview.cpp:366 src/view/keytreeview.cpp:705
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "List of certificates"
@@ -11140,6 +11201,18 @@ msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""
 
 #, fuzzy
+#~| msgid "Search:"
+#~ msgctxt "@info::placeholder"
+#~ msgid "Search..."
+#~ msgstr "Қидириш:"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgctxt "Placeholder text"
+#~ msgid "Search..."
+#~ msgstr "Қидириш:"
+
+#, fuzzy
 #~| msgid "Certificate Details..."
 #~ msgctxt "@title:window"
 #~ msgid "Certificate Details"
@@ -11622,9 +11695,6 @@ msgstr ""
 
 #~ msgid "Download"
 #~ msgstr "Ёзиб олиш"
-
-#~ msgid "Search:"
-#~ msgstr "Қидириш:"
 
 #~ msgid "Find"
 #~ msgstr "Қидириш"
