@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-10 00:46+0000\n"
+"POT-Creation-Date: 2022-08-12 00:46+0000\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2499,43 +2499,96 @@ msgctxt "@info"
 msgid "X.509 certificates refreshed successfully."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/revokecertificationcommand.cpp:133
-#, kde-format
+#: src/commands/revokecertificationcommand.cpp:78
+#, kde-kuit-format
+msgctxt "@info"
 msgid ""
-"<p>An error occurred while trying to revoke the certification of<br/><br/><b>"
-"%1</b>:</p><p>\t%2</p>"
+"<para>You are about to revoke the certification of user ID<nl/>%1<nl/>made "
+"with the key<nl/>%2.</para>"
 msgstr ""
 
-#: src/commands/revokecertificationcommand.cpp:137
+#: src/commands/revokecertificationcommand.cpp:83
+#: src/commands/revokecertificationcommand.cpp:97
+#: src/dialogs/certificatedetailswidget.cpp:749
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Confirm Revocation"
+msgstr "Манзили"
+
+#: src/commands/revokecertificationcommand.cpp:84
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
-msgid "Revocation Error"
+msgid "Revoke Certification"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/revokecertificationcommand.cpp:139
+#: src/commands/revokecertificationcommand.cpp:89
+#, kde-format
+msgid "User ID '%1' certified with key %2"
+msgstr ""
+
+#: src/commands/revokecertificationcommand.cpp:91
+#, kde-format
+msgid "You are about to revoke the following certification:"
+msgid_plural "You are about to revoke the following %1 certifications:"
+msgstr[0] ""
+
+#: src/commands/revokecertificationcommand.cpp:98
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
-msgid "Revocation successful."
+msgid "Revoke Certifications"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/revokecertificationcommand.cpp:140
+#: src/commands/revokecertificationcommand.cpp:202
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The certification has been revoked successfully.</para><para>Do you "
+"want to publish the revocation?</para>"
+msgid_plural ""
+"<para>%1 certifications have been revoked successfully.</para><para>Do you "
+"want to publish the revocations?</para>"
+msgstr[0] ""
+
+#: src/commands/revokecertificationcommand.cpp:207
 #, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Revocation Succeeded"
-msgstr "Сертификат тафсилотлари..."
+#| msgid "Import Certificates..."
+msgctxt "@action:button"
+msgid "Publish Revocation"
+msgid_plural "Publish Revocations"
+msgstr[0] "Сертификатларни импорт қилиш..."
 
-#: src/commands/revokecertificationcommand.cpp:253
+#: src/commands/revokecertificationcommand.cpp:211
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Confirm Publication"
+msgstr "Манзили"
+
+#: src/commands/revokecertificationcommand.cpp:234
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The revocation of the certification of user ID<nl/>%1<nl/>made with "
+"key<nl/>%2<nl/>failed:</para><para><message>%3</message></para>"
+msgstr ""
+
+#: src/commands/revokecertificationcommand.cpp:325
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "You cannot revoke any certifications of this key."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/revokecertificationcommand.cpp:254
+#: src/commands/revokecertificationcommand.cpp:328
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "You cannot revoke any certifications of this user ID."
 msgid_plural "You cannot revoke any certifications of these user IDs."
 msgstr[0] "Сертификатларни импорт қилиш..."
+
+#: src/commands/revokecertificationcommand.cpp:333
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "You cannot revoke this certification."
+msgstr "Сертификатларни импорт қилиш..."
 
 #: src/commands/revokekeycommand.cpp:109
 #, kde-format
@@ -5656,12 +5709,6 @@ msgid ""
 "</para>"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:749
-#, fuzzy, kde-format
-msgctxt "@title:window"
-msgid "Confirm Revocation"
-msgstr "Манзили"
-
 #: src/dialogs/certificatedetailswidget.cpp:935
 #, kde-format
 msgctxt "@action:inmenu"
@@ -6053,13 +6100,11 @@ msgid "Domain"
 msgstr ""
 
 #: src/dialogs/certifywidget.cpp:506
-#: src/dialogs/revokecertificationwidget.cpp:228
 #, kde-format
 msgid "Fingerprint: <b>%1</b>"
 msgstr ""
 
 #: src/dialogs/certifywidget.cpp:508
-#: src/dialogs/revokecertificationwidget.cpp:230
 #, kde-format
 msgid "<i>Only the fingerprint clearly identifies the key and its owner.</i>"
 msgstr ""
@@ -6659,37 +6704,6 @@ msgid ""
 "<br>Certificates will become valid with just a single certification at this "
 "trust level.</font>"
 msgstr ""
-
-#: src/dialogs/revokecertificationdialog.cpp:102
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Revoke Certification"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/dialogs/revokecertificationdialog.cpp:129
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window arg is name, email of certificate holder"
-msgid "Revoke Certification: %1"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/dialogs/revokecertificationwidget.cpp:162
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Certification key:"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/dialogs/revokecertificationwidget.cpp:163
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "The key whose certifications shall be revoke"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/dialogs/revokecertificationwidget.cpp:180
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Publish revocations on keyserver"
-msgstr "Сертификатларни импорт қилиш..."
 
 #: src/dialogs/revokekeydialog.cpp:96
 #, fuzzy, kde-format
@@ -8147,21 +8161,26 @@ msgctxt "@title"
 msgid "Running as Administrator"
 msgstr ""
 
-#: src/main.cpp:230
+#: src/main.cpp:232
 #, kde-format
 msgid "GPG UI Server Error"
 msgstr ""
 
-#: src/main.cpp:231
+#: src/main.cpp:236
 #, kde-format
+msgctxt ""
+"This error message is only shown on Windows when the socket to communicate "
+"with Windows Explorer could not be created. This often times means that the "
+"whole installation is buggy. e.g. GnuPG is not installed at all."
 msgid ""
-"<qt>The Kleopatra GPG UI Server Module could not be initialized.<br/>The "
-"error given was: <b>%1</b><br/>You can use Kleopatra as a certificate "
-"manager, but cryptographic plugins that rely on a GPG UI Server being "
-"present might not work correctly, or at all.</qt>"
+"<qt>The Kleopatra Windows Explorer Module could not be initialized.<br/>The "
+"error given was: <b>%1</b><br/>This likely means that there is a problem "
+"with your installation. Try reinstalling or contact your Administrator for "
+"support.<br/>You can try to continue to use Kleopatra but there might be "
+"other problems.</qt>"
 msgstr ""
 
-#: src/main.cpp:257
+#: src/main.cpp:265
 #, kde-format
 msgid "Invalid arguments: %1"
 msgstr ""
@@ -11286,6 +11305,37 @@ msgstr "Сертификатларни импорт қилиш..."
 #, kde-format
 msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Revocation Error"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Revocation successful."
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Revocation Succeeded"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window arg is name, email of certificate holder"
+#~ msgid "Revoke Certification: %1"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Certification key:"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "The key whose certifications shall be revoke"
+#~ msgstr "Сертификат тафсилотлари..."
 
 #, fuzzy
 #~| msgid "Stop Operation"
