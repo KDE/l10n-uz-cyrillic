@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-15 02:42+0000\n"
+"POT-Creation-Date: 2025-11-06 08:06+0000\n"
 "PO-Revision-Date: 2006-02-12 21:29+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -92,7 +92,7 @@ msgid "Frank Osterfeld"
 msgstr ""
 
 #: src/aboutdata.cpp:55
-msgid "Resident gpgme/win wrangler, UI Server commands and dialogs"
+msgid "UI Server commands and dialogs"
 msgstr ""
 
 #: src/aboutdata.cpp:56
@@ -137,41 +137,50 @@ msgstr ""
 msgid "Artwork"
 msgstr ""
 
-#: src/aboutdata.cpp:125 src/aboutdata.cpp:149
+#: src/aboutdata.cpp:61
+msgid "Werner Koch"
+msgstr ""
+
+#: src/aboutdata.cpp:61
+#, fuzzy
+msgid "GnuPG consulting"
+msgstr "Манзили"
+
+#: src/aboutdata.cpp:126 src/aboutdata.cpp:150
 #, kde-format
 msgid "Kleopatra"
 msgstr "Kleopatra"
 
-#: src/aboutdata.cpp:127 src/aboutdata.cpp:149
+#: src/aboutdata.cpp:128 src/aboutdata.cpp:150
 #, kde-format
 msgid "Certificate manager and cryptography app"
-msgstr ""
-
-#: src/aboutdata.cpp:129
-#, kde-format
-msgctxt "@info:credit"
-msgid "© 2019-%1 g10 Code GmbH"
 msgstr ""
 
 #: src/aboutdata.cpp:130
 #, kde-format
 msgctxt "@info:credit"
-msgid "© 2015-2018 Intevation GmbH"
+msgid "© 2019-%1 g10 Code GmbH"
 msgstr ""
 
 #: src/aboutdata.cpp:131
 #, kde-format
 msgctxt "@info:credit"
-msgid "© 2015-2018 Bundesamt für Sicherheit in der Informationstechnik"
+msgid "© 2015-2018 Intevation GmbH"
 msgstr ""
 
 #: src/aboutdata.cpp:132
 #, kde-format
 msgctxt "@info:credit"
-msgid "© 2001-2010 Klarälvdalens Datakonsult AB"
+msgid "© 2015-2018 Bundesamt für Sicherheit in der Informationstechnik"
 msgstr ""
 
 #: src/aboutdata.cpp:133
+#, kde-format
+msgctxt "@info:credit"
+msgid "© 2001-2010 Klarälvdalens Datakonsult AB"
+msgstr ""
+
+#: src/aboutdata.cpp:134
 #, kde-format
 msgctxt "@info:credit"
 msgid "© 2001-%1 The Kleopatra developers"
@@ -608,7 +617,7 @@ msgid "Is '%1' your own certificate?"
 msgstr "Сертификатларни импорт қилиш..."
 
 #: src/commands/changeownertrustcommand.cpp:102
-#: src/commands/importcertificatescommand.cpp:645
+#: src/commands/importcertificatescommand.cpp:531
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title:window"
@@ -761,7 +770,7 @@ msgid "Passphrase Change Succeeded"
 msgstr "Сертификатларни импорт қилиш..."
 
 #: src/commands/changepincommand.cpp:122
-#: src/commands/createcsrforcardkeycommand.cpp:139
+#: src/commands/createcsrforcardkeycommand.cpp:127
 #: src/commands/createopenpgpkeyfromcardkeyscommand.cpp:105
 #, kde-format
 msgid "Failed to find the smartcard with the serial number: %1"
@@ -1073,22 +1082,15 @@ msgstr ""
 msgid "CRL cache cleared successfully."
 msgstr ""
 
-#: src/commands/command_p.h:90 src/commands/keytocardcommand.cpp:491
-#: src/commands/keytocardcommand.cpp:519
+#: src/commands/command_p.h:98 src/commands/keytocardcommand.cpp:491
+#: src/commands/keytocardcommand.cpp:519 src/utils/csrutils.cpp:89
 #, kde-format
 msgctxt "@title:window"
 msgid "Success"
 msgstr ""
 
-#: src/commands/createcsrforcardkeycommand.cpp:149
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "Certificate Details"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/createcsrforcardkeycommand.cpp:190
-#: src/commands/createcsrforcardkeycommand.cpp:205
+#: src/commands/createcsrforcardkeycommand.cpp:179
+#: src/commands/createcsrforcardkeycommand.cpp:194
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
@@ -1096,49 +1098,6 @@ msgid ""
 "Creating a CSR for the card key failed:\n"
 "%1"
 msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/createcsrforcardkeycommand.cpp:210
-#: src/newcertificatewizard/resultpage.cpp:226
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>Successfully wrote request to <filename>%1</filename>.</para><para>You "
-"should now send the request to the Certification Authority (CA).</para>"
-msgstr ""
-
-#: src/commands/createcsrforcardkeycommand.cpp:213
-#: src/newcertificatewizard/resultpage.cpp:229
-#, kde-format
-msgctxt "@title"
-msgid "Request Saved"
-msgstr ""
-
-#: src/commands/createcsrforcardkeycommand.cpp:247
-#: src/newcertificatewizard/resultpage.cpp:206
-#, kde-format
-msgctxt "@title"
-msgid "Save Request"
-msgstr ""
-
-#: src/commands/createcsrforcardkeycommand.cpp:250
-#: src/newcertificatewizard/resultpage.cpp:206
-#, kde-format
-msgid "PKCS#10 Requests (*.p10)"
-msgstr ""
-
-#: src/commands/createcsrforcardkeycommand.cpp:258
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>Saving the request failed.</para><para><message>%1</message></para>"
-msgstr ""
-
-#: src/commands/createcsrforcardkeycommand.cpp:259
-#: src/newcertificatewizard/resultpage.cpp:222
-#, kde-format
-msgctxt "@title"
-msgid "Error Saving Request"
-msgstr ""
 
 #: src/commands/creategroupcommand.cpp:101
 #, fuzzy, kde-format
@@ -1232,70 +1191,70 @@ msgstr ""
 msgid "Select One or More Files to Decrypt and/or Verify"
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:78
+#: src/commands/deletecertificatescommand.cpp:79
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title:window"
 msgid "Delete Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/deletecertificatescommand.cpp:162
+#: src/commands/deletecertificatescommand.cpp:164
 msgid ""
 "Neither the OpenPGP nor the CMS backends support certificate deletion.\n"
 "Check your installation."
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:166
+#: src/commands/deletecertificatescommand.cpp:168
 msgid ""
 "The OpenPGP backend does not support certificate deletion.\n"
 "Check your installation.\n"
 "Only the selected CMS certificates will be deleted."
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:173
-#: src/commands/deletecertificatescommand.cpp:177
+#: src/commands/deletecertificatescommand.cpp:175
+#: src/commands/deletecertificatescommand.cpp:179
 msgid ""
 "The OpenPGP backend does not support certificate deletion.\n"
 "Check your installation."
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:183
+#: src/commands/deletecertificatescommand.cpp:185
 msgid ""
 "The CMS backend does not support certificate deletion.\n"
 "Check your installation.\n"
 "Only the selected OpenPGP certificates will be deleted."
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:196
-#: src/commands/deletecertificatescommand.cpp:206
+#: src/commands/deletecertificatescommand.cpp:198
+#: src/commands/deletecertificatescommand.cpp:208
 msgid ""
 "The CMS backend does not support certificate deletion.\n"
 "Check your installation."
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:273
-#: src/commands/deletecertificatescommand.cpp:352
+#: src/commands/deletecertificatescommand.cpp:275
+#: src/commands/deletecertificatescommand.cpp:380
 #, kde-format
 msgid "Certificate Deletion Failed"
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:273
+#: src/commands/deletecertificatescommand.cpp:275
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certificate Deletion Problem"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/deletecertificatescommand.cpp:340
+#: src/commands/deletecertificatescommand.cpp:368
 #, kde-format
 msgid "OpenPGP backend: %1"
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:344
+#: src/commands/deletecertificatescommand.cpp:372
 #, kde-format
 msgid "CMS backend: %1"
 msgstr ""
 
-#: src/commands/deletecertificatescommand.cpp:348
+#: src/commands/deletecertificatescommand.cpp:376
 #, kde-format
 msgid ""
 "<qt><p>An error occurred while trying to delete the certificate:</p><p><b>"
@@ -1600,7 +1559,7 @@ msgid "Exporting certificate groups..."
 msgstr "Сертификатларни экспорт қилиш..."
 
 #: src/commands/exportgroupscommand.cpp:271
-#: src/commands/exportsecretkeycommand.cpp:252
+#: src/commands/exportsecretkeycommand.cpp:250
 #: src/commands/exportsecretsubkeycommand.cpp:218
 #, fuzzy, kde-kuit-format
 #| msgid "Import Certificates..."
@@ -1675,7 +1634,7 @@ msgid ""
 msgstr ""
 
 #: src/commands/exportopenpgpcertstoservercommand.cpp:163
-#: src/commands/importcertificatescommand.cpp:627
+#: src/commands/importcertificatescommand.cpp:513
 #, kde-format
 msgid " "
 msgstr ""
@@ -1782,8 +1741,8 @@ msgctxt "@title:window"
 msgid "Print Secret Key"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/commands/exportsecretkeycommand.cpp:90
-#: src/commands/exportsecretkeycommand.cpp:92
+#: src/commands/exportsecretkeycommand.cpp:91
+#: src/commands/exportsecretkeycommand.cpp:93
 #: src/commands/exportsecretsubkeycommand.cpp:75
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
@@ -1791,15 +1750,15 @@ msgctxt "description of filename filter"
 msgid "Secret Key Files"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/commands/exportsecretkeycommand.cpp:95
+#: src/commands/exportsecretkeycommand.cpp:96
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "description of filename filter"
 msgid "All Files"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/exportsecretkeycommand.cpp:102
-#: src/commands/exportsecretkeycommand.cpp:265
+#: src/commands/exportsecretkeycommand.cpp:103
+#: src/commands/exportsecretkeycommand.cpp:263
 #: src/commands/exportsecretsubkeycommand.cpp:236
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
@@ -1807,21 +1766,14 @@ msgctxt "@title:window"
 msgid "Secret Key Backup"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/commands/exportsecretkeycommand.cpp:120
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "Secret Key Backup Error"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/exportsecretkeycommand.cpp:226
+#: src/commands/exportsecretkeycommand.cpp:224
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@info:status"
 msgid "Backing up secret key..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/commands/exportsecretkeycommand.cpp:245
+#: src/commands/exportsecretkeycommand.cpp:243
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1829,21 +1781,21 @@ msgid ""
 "passphrase."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:259
+#: src/commands/exportsecretkeycommand.cpp:257
 #, fuzzy, kde-kuit-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
 msgid "Writing key to file <filename>%1</filename> failed."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/exportsecretkeycommand.cpp:265
+#: src/commands/exportsecretkeycommand.cpp:263
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info"
 msgid "The backup of the secret key was created successfully."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/exportsecretkeycommand.cpp:275
+#: src/commands/exportsecretkeycommand.cpp:273
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2106,14 +2058,14 @@ msgid "Clipboard"
 msgstr ""
 
 #: src/commands/importcertificatefromdatacommand.cpp:75
-#: src/view/padwidget.cpp:295 src/view/padwidget.cpp:296
-#: src/view/padwidget.cpp:375 src/view/padwidget.cpp:376
+#: src/view/padwidget.cpp:392 src/view/padwidget.cpp:393
+#: src/view/padwidget.cpp:476 src/view/padwidget.cpp:477
 #, kde-format
 msgid "Notepad"
 msgstr ""
 
 #: src/commands/importcertificatefromfilecommand.cpp:124
-#: src/commands/importcertificatescommand.cpp:186
+#: src/commands/importcertificatescommand.cpp:107
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title:window"
@@ -2128,8 +2080,8 @@ msgid_plural "Importing certificates from %1 files..."
 msgstr[0] "Сертификатларни импорт қилиш..."
 
 #: src/commands/importcertificatefromfilecommand.cpp:132
-#: src/commands/importcertificatescommand.cpp:906
-#: src/commands/importcertificatescommand.cpp:959
+#: src/commands/importcertificatescommand.cpp:792
+#: src/commands/importcertificatescommand.cpp:845
 #, kde-format
 msgid "Certificate Import Failed"
 msgstr ""
@@ -2140,7 +2092,7 @@ msgid "Could not open file %1 for reading: %2"
 msgstr ""
 
 #: src/commands/importcertificatefromfilecommand.cpp:154
-#: src/commands/importcertificatescommand.cpp:287 src/view/keytreeview.cpp:232
+#: src/commands/importcertificatescommand.cpp:156 src/view/keytreeview.cpp:229
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certificates"
@@ -2182,198 +2134,177 @@ msgstr ""
 msgid "Card Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/importcertificatescommand.cpp:187
+#: src/commands/importcertificatescommand.cpp:108
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Importing certificates... (this can take a while)"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/importcertificatescommand.cpp:242
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@info:tooltip"
-msgid "Imported Certificates from %1"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/importcertificatescommand.cpp:244
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@info:tooltip"
-msgid "Imported certificates from these sources:<br/>%1"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/importcertificatescommand.cpp:259
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@title:tab"
-msgid "Imported Certificates"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/importcertificatescommand.cpp:272
+#: src/commands/importcertificatescommand.cpp:141
 #, kde-format
 msgid "<tr><td align=\"right\">%1</td><td>%2</td></tr>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:273
+#: src/commands/importcertificatescommand.cpp:142
 #, kde-format
 msgid "<tr><td align=\"right\"><b>%1</b></td><td>%2</td></tr>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:274
+#: src/commands/importcertificatescommand.cpp:143
 #, kde-format
 msgid "<tr><th colspan=\"2\" align=\"center\">%1</th></tr>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:288
-#: src/commands/importcertificatescommand.cpp:328
+#: src/commands/importcertificatescommand.cpp:157
+#: src/commands/importcertificatescommand.cpp:197
 #, kde-format
 msgid "Total number processed:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:289
+#: src/commands/importcertificatescommand.cpp:158
 #, kde-format
 msgid "Imported:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:291
+#: src/commands/importcertificatescommand.cpp:160
 #, kde-format
 msgid "New signatures:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:293
+#: src/commands/importcertificatescommand.cpp:162
 #, kde-format
 msgid "New user IDs:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:295
+#: src/commands/importcertificatescommand.cpp:164
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certificates without user IDs:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/importcertificatescommand.cpp:297
+#: src/commands/importcertificatescommand.cpp:166
 #, kde-format
 msgid "New subkeys:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:299
+#: src/commands/importcertificatescommand.cpp:168
 #, kde-format
 msgid "Newly revoked:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:301
+#: src/commands/importcertificatescommand.cpp:170
 #, kde-format
 msgid "Not imported:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:303
+#: src/commands/importcertificatescommand.cpp:172
 #, kde-format
 msgid "Unchanged:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:305
+#: src/commands/importcertificatescommand.cpp:174
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Secret keys processed:"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/importcertificatescommand.cpp:307
+#: src/commands/importcertificatescommand.cpp:176
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Secret keys imported:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/importcertificatescommand.cpp:311
+#: src/commands/importcertificatescommand.cpp:180
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Secret keys <em>not</em> imported:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/importcertificatescommand.cpp:313
+#: src/commands/importcertificatescommand.cpp:182
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Secret keys unchanged:"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/importcertificatescommand.cpp:315
+#: src/commands/importcertificatescommand.cpp:184
 #, kde-format
 msgid "Deprecated PGP-2 keys skipped:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:327
+#: src/commands/importcertificatescommand.cpp:196
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certificate Groups"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/importcertificatescommand.cpp:329
+#: src/commands/importcertificatescommand.cpp:198
 #, kde-format
 msgid "New groups:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:330
+#: src/commands/importcertificatescommand.cpp:199
 #, kde-format
 msgid "Updated groups:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:345
+#: src/commands/importcertificatescommand.cpp:214
 #, kde-format
 msgid "No imports (should not happen, please report a bug)."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:347
+#: src/commands/importcertificatescommand.cpp:216
 #, kde-format
 msgid "Detailed results of importing %1:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:348
+#: src/commands/importcertificatescommand.cpp:217
 #, kde-format
 msgid "Detailed results of import:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:406
+#: src/commands/importcertificatescommand.cpp:272
 #, kde-format
 msgid "A phone call to the person."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:407
+#: src/commands/importcertificatescommand.cpp:273
 #, kde-format
 msgid "Using a business card."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:408
+#: src/commands/importcertificatescommand.cpp:274
 #, kde-format
 msgid "Confirming it on a trusted website."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:412
+#: src/commands/importcertificatescommand.cpp:278
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "In order to mark the certificate as valid it needs to be certified."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/importcertificatescommand.cpp:413
+#: src/commands/importcertificatescommand.cpp:279
 #, kde-format
 msgid "Certifying means that you check the Fingerprint."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:414
+#: src/commands/importcertificatescommand.cpp:280
 #, kde-format
 msgid "Some suggestions to do this are:"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:416
+#: src/commands/importcertificatescommand.cpp:282
 #, kde-format
 msgid "Do you wish to start this process now?"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:417
+#: src/commands/importcertificatescommand.cpp:283
 #, kde-format
 msgctxt "@title"
 msgid "You have imported a new certificate (public key)"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:418
+#: src/commands/importcertificatescommand.cpp:284
 #: src/conf/groupsconfigwidget.cpp:188
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
@@ -2381,51 +2312,59 @@ msgctxt "@action:button"
 msgid "Certify"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/importcertificatescommand.cpp:471
+#: src/commands/importcertificatescommand.cpp:337
 #, kde-format
 msgctxt "file name (imported with gpg/gpgsm)"
 msgid "%1 (imported with %2)"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:475
+#: src/commands/importcertificatescommand.cpp:341
 #, kde-format
 msgctxt "@info"
 msgid "Audit log is empty."
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:477
+#: src/commands/importcertificatescommand.cpp:343
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info"
 msgid "Import was canceled."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/commands/importcertificatescommand.cpp:499
+#: src/commands/importcertificatescommand.cpp:370
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "@action:button"
+msgid "List Imported Certificates"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/commands/importcertificatescommand.cpp:371
 #, kde-format
-msgid "Certificate Import Result"
+msgctxt "@action:button"
+msgid "Show Audit Log"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:508
+#: src/commands/importcertificatescommand.cpp:394
 #, kde-format
 msgid ""
 "<qt><p>An error occurred while trying to import the certificate:</p><p><b>"
 "%1</b></p></qt>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:513
+#: src/commands/importcertificatescommand.cpp:399
 #, kde-format
 msgid ""
 "<qt><p>An error occurred while trying to import the certificate %1:</p><p><b>"
 "%2</b></p></qt>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:629
+#: src/commands/importcertificatescommand.cpp:515
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<item>%2</item>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:633
+#: src/commands/importcertificatescommand.cpp:519
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2434,19 +2373,19 @@ msgid ""
 "own certificate?</para>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:646
+#: src/commands/importcertificatescommand.cpp:532
 #, kde-format
 msgctxt "@action:button"
 msgid "Yes, It's Mine"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:647
+#: src/commands/importcertificatescommand.cpp:533
 #, kde-format
 msgctxt "@action:button"
 msgid "No, It's Not Mine"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:806
+#: src/commands/importcertificatescommand.cpp:692
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2455,15 +2394,15 @@ msgid ""
 "may lead to unexpected results.</para>"
 msgstr ""
 
-#: src/commands/importcertificatescommand.cpp:870
+#: src/commands/importcertificatescommand.cpp:756
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Fetching 1 signer key... (this can take a while)"
 msgid_plural "Fetching %1 signer keys... (this can take a while)"
 msgstr[0] "Сертификатларни импорт қилиш..."
 
-#: src/commands/importcertificatescommand.cpp:905
-#: src/commands/importcertificatescommand.cpp:958
+#: src/commands/importcertificatescommand.cpp:791
+#: src/commands/importcertificatescommand.cpp:844
 #, kde-format
 msgid ""
 "The type of this certificate (%1) is not supported by this Kleopatra "
@@ -2891,35 +2830,61 @@ msgctxt "@title"
 msgid "No Directory Servers Configured"
 msgstr ""
 
-#: src/commands/newcertificatesigningrequestcommand.cpp:103
-#: src/kleopatraapplication.cpp:574
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "You are not allowed to create S/MIME certificate signing requests."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/newopenpgpcertificatecommand.cpp:155
-#: src/newcertificatewizard/keycreationpage.cpp:83
+#: src/commands/newcertificatesigningrequestcommand.cpp:130
+#: src/commands/newopenpgpcertificatecommand.cpp:162
 #, kde-format
 msgid "Could not start key pair creation: %1"
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:165
-#: src/newcertificatewizard/keycreationpage.cpp:46
+#: src/commands/newcertificatesigningrequestcommand.cpp:140
+#: src/commands/newopenpgpcertificatecommand.cpp:172
 #, kde-format
 msgctxt "@title"
 msgid "Creating Key Pair..."
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:166
-#: src/newcertificatewizard/keycreationpage.cpp:50
+#: src/commands/newcertificatesigningrequestcommand.cpp:141
+#: src/commands/newopenpgpcertificatecommand.cpp:173
 #, kde-format
 msgid ""
 "The process of creating a key requires large amounts of random numbers. This "
 "may require several minutes..."
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:200
+#: src/commands/newcertificatesigningrequestcommand.cpp:176
+#: src/commands/newopenpgpcertificatecommand.cpp:283
+#: src/crypto/newsignencryptemailcontroller.cpp:378
+#: src/crypto/newsignencryptemailcontroller.cpp:380
+#, kde-format
+msgctxt "@title:window"
+msgid "Error"
+msgstr ""
+
+#: src/commands/newcertificatesigningrequestcommand.cpp:182
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The creation of the certificate signing request failed.</"
+"para><para>Error: <message>%1</message></para>"
+msgstr ""
+
+#: src/commands/newcertificatesigningrequestcommand.cpp:219
+#: src/kleopatraapplication.cpp:580
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgid "You are not allowed to create S/MIME certificate signing requests."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/commands/newopenpgpcertificatecommand.cpp:219
+#: src/commands/newopenpgpcertificatecommand.cpp:251
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@info"
+msgid "Failed to create signing subkey: %1"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/commands/newopenpgpcertificatecommand.cpp:244
+#: src/commands/newopenpgpcertificatecommand.cpp:258
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2927,7 +2892,7 @@ msgid ""
 "para><para>Fingerprint of the new certificate: %1</para>"
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:214
+#: src/commands/newopenpgpcertificatecommand.cpp:270
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2935,21 +2900,13 @@ msgid ""
 "<message>%1</message></para>"
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:220
+#: src/commands/newopenpgpcertificatecommand.cpp:276
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "<para>A new OpenPGP certificate was created successfully, but it has not "
 "been found in the key ring.</para><para>Fingerprint of the new certificate:"
 "<nl/>%1</para>"
-msgstr ""
-
-#: src/commands/newopenpgpcertificatecommand.cpp:227
-#: src/crypto/newsignencryptemailcontroller.cpp:378
-#: src/crypto/newsignencryptemailcontroller.cpp:380
-#, kde-format
-msgctxt "@title:window"
-msgid "Error"
 msgstr ""
 
 #: src/commands/openpgpgeneratecardkeycommand.cpp:104
@@ -3014,62 +2971,62 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Бекор қилинди."
 
-#: src/commands/refreshcertificatescommand.cpp:187
-#: src/commands/refreshcertificatescommand.cpp:260
+#: src/commands/refreshcertificatescommand.cpp:188
+#: src/commands/refreshcertificatescommand.cpp:261
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@info:status"
 msgid "Updating key..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:204
+#: src/commands/refreshcertificatescommand.cpp:205
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info:status"
 msgid "Updating certificate..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:279
+#: src/commands/refreshcertificatescommand.cpp:280
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The certificate has not changed."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:283
+#: src/commands/refreshcertificatescommand.cpp:284
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The certificate has been revoked."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:286
+#: src/commands/refreshcertificatescommand.cpp:287
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The certificate has been updated."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:290
+#: src/commands/refreshcertificatescommand.cpp:291
 #, kde-format
 msgid "New user IDs: %1"
 msgstr ""
 
-#: src/commands/refreshcertificatescommand.cpp:293
+#: src/commands/refreshcertificatescommand.cpp:294
 #, kde-format
 msgid "New subkeys: %1"
 msgstr ""
 
-#: src/commands/refreshcertificatescommand.cpp:296
+#: src/commands/refreshcertificatescommand.cpp:297
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "New signatures: %1"
 msgstr "Бекор қилинди."
 
-#: src/commands/refreshcertificatescommand.cpp:306
+#: src/commands/refreshcertificatescommand.cpp:307
 #, kde-format
 msgid "Additionally, one new key has been retrieved."
 msgid_plural "Additionally, %1 new keys have been retrieved."
 msgstr[0] ""
 
-#: src/commands/refreshcertificatescommand.cpp:404
+#: src/commands/refreshcertificatescommand.cpp:405
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3077,22 +3034,22 @@ msgid ""
 "Directory"
 msgstr ""
 
-#: src/commands/refreshcertificatescommand.cpp:407
-#: src/commands/refreshcertificatescommand.cpp:424
-#: src/commands/refreshcertificatescommand.cpp:441
+#: src/commands/refreshcertificatescommand.cpp:408
+#: src/commands/refreshcertificatescommand.cpp:425
+#: src/commands/refreshcertificatescommand.cpp:442
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Update failed:</para><para><message>%1</message></para>"
 msgstr ""
 
-#: src/commands/refreshcertificatescommand.cpp:409
+#: src/commands/refreshcertificatescommand.cpp:410
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Update skipped because no OpenPGP keyserver is configured.</para>"
 msgstr ""
 
-#: src/commands/refreshcertificatescommand.cpp:411
-#: src/commands/refreshcertificatescommand.cpp:427
+#: src/commands/refreshcertificatescommand.cpp:412
+#: src/commands/refreshcertificatescommand.cpp:428
 #, fuzzy, kde-kuit-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
@@ -3100,9 +3057,9 @@ msgid "<para>The certificate was not found.</para>"
 msgid_plural "<para>The certificates were not found.</para>"
 msgstr[0] "Сертификатларни импорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:414
-#: src/commands/refreshcertificatescommand.cpp:431
-#: src/commands/refreshcertificatescommand.cpp:444
+#: src/commands/refreshcertificatescommand.cpp:415
+#: src/commands/refreshcertificatescommand.cpp:432
+#: src/commands/refreshcertificatescommand.cpp:445
 #, fuzzy, kde-kuit-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
@@ -3110,20 +3067,20 @@ msgid "<para>The certificate was updated.</para>"
 msgid_plural "<para>The certificates were updated.</para>"
 msgstr[0] "Сертификатларни импорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:422
+#: src/commands/refreshcertificatescommand.cpp:423
 #, kde-format
 msgctxt "@info"
 msgid "Result of update from Web Key Directory"
 msgstr ""
 
-#: src/commands/refreshcertificatescommand.cpp:439
+#: src/commands/refreshcertificatescommand.cpp:440
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
 msgid "Result of S/MIME certificate update"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/commands/refreshcertificatescommand.cpp:449
+#: src/commands/refreshcertificatescommand.cpp:450
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:window"
@@ -3131,135 +3088,12 @@ msgid "Certificate Updated"
 msgid_plural "Certificates Updated"
 msgstr[0] "Сертификат тафсилотлари..."
 
-#: src/commands/refreshcertificatescommand.cpp:449
+#: src/commands/refreshcertificatescommand.cpp:450
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@title:window"
 msgid "Update Failed"
 msgstr "Сертификатларни экспорт қилиш..."
-
-#: src/commands/refreshopenpgpcertscommand.cpp:42
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Refreshing the OpenPGP certificates is not possible because the usage of key "
-"servers has been disabled explicitly."
-msgstr ""
-
-#: src/commands/refreshopenpgpcertscommand.cpp:48
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>Refreshing OpenPGP certificates implies downloading all certificates "
-"anew, to check if any of them have been revoked in the meantime.</"
-"para><para>This can put a severe strain on your own as well as other "
-"people's network connections, and can take up to an hour or more to "
-"complete, depending on your network connection, and the number of "
-"certificates to check.</para> <para>Are you sure you want to continue?</para>"
-msgstr ""
-
-#: src/commands/refreshopenpgpcertscommand.cpp:54
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "OpenPGP Certificate Refresh"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/refreshopenpgpcertscommand.cpp:71
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "OpenPGP Certificate Refresh Error"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/refreshopenpgpcertscommand.cpp:76
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@title:window"
-msgid "OpenPGP Certificate Refresh Finished"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/refreshopenpgpcertscommand.cpp:82
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>The GPG process that tried to refresh OpenPGP certificates ended "
-"prematurely because of an unexpected error.</para><para>Please check the "
-"output of <icode>%1</icode> for details.</para>"
-msgstr ""
-
-#: src/commands/refreshopenpgpcertscommand.cpp:91
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>An error occurred while trying to refresh OpenPGP certificates.</para> "
-"<para>The output from <command>%1</command> was: <bcode>%2</bcode></para>"
-msgstr ""
-
-#: src/commands/refreshopenpgpcertscommand.cpp:99
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@info"
-msgid "OpenPGP certificates refreshed successfully."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/commands/refreshx509certscommand.cpp:40
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>Refreshing X.509 certificates implies downloading CRLs for all "
-"certificates, even if they might otherwise still be valid.</para><para>This "
-"can put a severe strain on your own as well as other people's network "
-"connections, and can take up to an hour or more to complete, depending on "
-"your network connection, and the number of certificates to check.</para> "
-"<para>Are you sure you want to continue?</para>"
-msgstr ""
-
-#: src/commands/refreshx509certscommand.cpp:46
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "X.509 Certificate Refresh"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/refreshx509certscommand.cpp:66
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "X.509 Certificate Refresh Error"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/refreshx509certscommand.cpp:71
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "X.509 Certificate Refresh Finished"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/commands/refreshx509certscommand.cpp:77
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>The GpgSM process that tried to refresh X.509 certificates ended "
-"prematurely because of an unexpected error.</para><para>Please check the "
-"output of <icode>%1</icode> for details.</para>"
-msgstr ""
-
-#: src/commands/refreshx509certscommand.cpp:86
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>An error occurred while trying to refresh X.509 certificates.</"
-"para><para>The output from <command>%1</command> was: <bcode>%2</bcode></"
-"para>"
-msgstr ""
-
-#: src/commands/refreshx509certscommand.cpp:94
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgctxt "@info"
-msgid "X.509 certificates refreshed successfully."
-msgstr "Сертификатларни импорт қилиш..."
 
 #: src/commands/revokecertificationcommand.cpp:99
 #, kde-kuit-format
@@ -3660,69 +3494,76 @@ msgctxt "@title:tab"
 msgid "General"
 msgstr "Жараённи тўхтатиш"
 
-#: src/conf/appearanceconfigwidget.cpp:413
+#: src/conf/appearanceconfigwidget.cpp:407
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Categories"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/conf/appearanceconfigwidget.cpp:414
 #, kde-format
 msgctxt "@action:button"
 msgid "Set Icon..."
 msgstr ""
 
-#: src/conf/appearanceconfigwidget.cpp:420
+#: src/conf/appearanceconfigwidget.cpp:421
 #, kde-format
 msgctxt "@action:button"
 msgid "Set Text Color..."
 msgstr ""
 
-#: src/conf/appearanceconfigwidget.cpp:427
+#: src/conf/appearanceconfigwidget.cpp:428
 #, kde-format
 msgctxt "@action:button"
 msgid "Set Background Color..."
 msgstr ""
 
-#: src/conf/appearanceconfigwidget.cpp:434
+#: src/conf/appearanceconfigwidget.cpp:435
 #, kde-format
 msgctxt "@action:button"
 msgid "Set Font..."
 msgstr ""
 
-#: src/conf/appearanceconfigwidget.cpp:441
+#: src/conf/appearanceconfigwidget.cpp:442
 #, kde-format
 msgctxt "@option:check"
 msgid "Italic"
 msgstr ""
 
-#: src/conf/appearanceconfigwidget.cpp:448
+#: src/conf/appearanceconfigwidget.cpp:449
 #, kde-format
 msgctxt "@option:check"
 msgid "Bold"
 msgstr ""
 
-#: src/conf/appearanceconfigwidget.cpp:455
+#: src/conf/appearanceconfigwidget.cpp:456
 #, kde-format
 msgctxt "@option:check"
 msgid "Strikeout"
 msgstr ""
 
-#: src/conf/appearanceconfigwidget.cpp:464
+#: src/conf/appearanceconfigwidget.cpp:465
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:button"
 msgid "Default Appearance"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/conf/appearanceconfigwidget.cpp:472
+#: src/conf/appearanceconfigwidget.cpp:473
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:tab"
 msgid "Certificate Categories"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/conf/appearanceconfigwidget.cpp:497
+#: src/conf/appearanceconfigwidget.cpp:498
 #, kde-format
 msgid "The preview of colors is disabled because high-contrast mode is active."
 msgstr ""
 
 #. i18n: ectx: label, entry (AttributeOrder), group (DN)
-#: src/conf/appearanceconfigwidget.cpp:506 src/kcfg/settings.kcfg:148
+#: src/conf/appearanceconfigwidget.cpp:507 src/kcfg/settings.kcfg:142
 #, kde-format
 msgid "DN-Attribute Order"
 msgstr ""
@@ -3848,33 +3689,33 @@ msgstr ""
 msgid "Archive command to use when archiving files:"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:124
+#: src/conf/dirservconfigpage.cpp:125
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title"
 msgid "OpenPGP Keyserver"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/conf/dirservconfigpage.cpp:129
+#: src/conf/dirservconfigpage.cpp:130
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Please note that only one OpenPGP keyserver can be configured."
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:132
+#: src/conf/dirservconfigpage.cpp:133
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@label:checkbox"
 msgid "Use OpenPGP keyserver"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/conf/dirservconfigpage.cpp:142
+#: src/conf/dirservconfigpage.cpp:143
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "OpenPGP keyserver:"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/conf/dirservconfigpage.cpp:147
+#: src/conf/dirservconfigpage.cpp:148
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -3884,35 +3725,35 @@ msgid ""
 "OpenPGP keyserver enter the special value <emphasis>none</emphasis>."
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:167
+#: src/conf/dirservconfigpage.cpp:168
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Search missing keys when verifying a signature"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:183
+#: src/conf/dirservconfigpage.cpp:184
 #, kde-format
 msgid "X.509 Directory Services"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:201
+#: src/conf/dirservconfigpage.cpp:204
 #, fuzzy, kde-format
 #| msgid "LDAP &timeout (minutes:seconds)"
 msgid "LDAP &timeout (minutes:seconds):"
 msgstr "LDAP &таймаут (дақиқа:сония)"
 
-#: src/conf/dirservconfigpage.cpp:210
+#: src/conf/dirservconfigpage.cpp:213
 #, kde-format
 msgid "&Maximum number of items returned by query:"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:218
+#: src/conf/dirservconfigpage.cpp:221
 #, kde-format
 msgctxt "@option:check"
 msgid "Retrieve missing certification keys when importing new keys"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:220
+#: src/conf/dirservconfigpage.cpp:223
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -3920,13 +3761,13 @@ msgid ""
 "were used to certify the user IDs of newly imported OpenPGP keys."
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:227
+#: src/conf/dirservconfigpage.cpp:230
 #, kde-format
 msgctxt "@option:check"
 msgid "Query certificate directories of providers for all user IDs"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:229
+#: src/conf/dirservconfigpage.cpp:232
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -3936,12 +3777,12 @@ msgid ""
 "WKDs for all user IDs."
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:472
+#: src/conf/dirservconfigpage.cpp:475
 #, kde-format
 msgid "Backend error: gpgconf does not seem to know the entry for %1/%2"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:479
+#: src/conf/dirservconfigpage.cpp:482
 #, kde-format
 msgid "Backend error: gpgconf has wrong type for %1/%2: %3 %4"
 msgstr ""
@@ -4013,7 +3854,7 @@ msgid "Edit"
 msgstr ""
 
 #: src/conf/groupsconfigwidget.cpp:184
-#: src/dialogs/deletecertificatesdialog.cpp:164
+#: src/dialogs/deletecertificatesdialog.cpp:168
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
@@ -4100,19 +3941,31 @@ msgstr ""
 msgid "Cannot be configured with Kleopatra"
 msgstr ""
 
-#: src/conf/smimevalidationconfigurationwidget.cpp:131
+#: src/conf/smimevalidationconfigurationwidget.cpp:52
+#, kde-format
+msgctxt "@label"
+msgid "HTTP Proxy"
+msgstr ""
+
+#: src/conf/smimevalidationconfigurationwidget.cpp:53
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enter the proxy to use for HTTP requests."
+msgstr ""
+
+#: src/conf/smimevalidationconfigurationwidget.cpp:135
 #, kde-format
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
-#: src/conf/smimevalidationconfigurationwidget.cpp:274
-#: src/conf/smimevalidationconfigurationwidget.ui:219
+#: src/conf/smimevalidationconfigurationwidget.cpp:278
+#: src/conf/smimevalidationconfigurationwidget.ui:209
 #, kde-format
 msgid "no proxy"
 msgstr ""
 
-#: src/conf/smimevalidationconfigurationwidget.cpp:276
+#: src/conf/smimevalidationconfigurationwidget.cpp:280
 #, kde-format
 msgid "(Current system setting: %1)"
 msgstr ""
@@ -4121,7 +3974,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, intervalRefreshSB)
 #. i18n: ectx: whatsthis, entry (RefreshInterval), group (SMime Validation)
 #: src/conf/smimevalidationconfigurationwidget.ui:18
-#: src/conf/smimevalidationconfigurationwidget.ui:31 src/kcfg/settings.kcfg:248
+#: src/conf/smimevalidationconfigurationwidget.ui:31 src/kcfg/settings.kcfg:242
 #, kde-format
 msgid ""
 "This option enables interval checking of certificate validity. You can also "
@@ -4239,26 +4092,8 @@ msgstr ""
 msgid "Never consult a CRL"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, allowMarkTrustedCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:162
-#, kde-format
-msgid ""
-"If this option is checked while a root CA certificate is being imported, you "
-"will be asked to confirm its fingerprint and to state whether or not you "
-"consider this root certificate to be trusted. A root certificate needs to be "
-"trusted before the certificates it certified become trusted, but lightly "
-"allowing trusted root certificates into your certificate store will "
-"undermine the security of the system."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, allowMarkTrustedCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:165
-#, kde-format
-msgid "Allow to mark root certificates as trusted"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, fetchMissingCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:172
+#: src/conf/smimevalidationconfigurationwidget.ui:162
 #, kde-format
 msgid ""
 "If this option is checked, missing issuer certificates are fetched when "
@@ -4266,31 +4101,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, fetchMissingCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:175
+#: src/conf/smimevalidationconfigurationwidget.ui:165
 #, kde-format
 msgid "Fetch missing issuer certificates"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabHTTP)
-#: src/conf/smimevalidationconfigurationwidget.ui:183
+#: src/conf/smimevalidationconfigurationwidget.ui:173
 #, kde-format
 msgid "&HTTP Requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, disableHTTPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:189
+#: src/conf/smimevalidationconfigurationwidget.ui:179
 #, kde-format
 msgid "Entirely disables the use of HTTP for S/MIME."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, disableHTTPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:192
+#: src/conf/smimevalidationconfigurationwidget.ui:182
 #, kde-format
 msgid "Do not perform any HTTP requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreHTTPDPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:199
+#: src/conf/smimevalidationconfigurationwidget.ui:189
 #, kde-format
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
@@ -4301,13 +4136,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreHTTPDPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:202
+#: src/conf/smimevalidationconfigurationwidget.ui:192
 #, kde-format
 msgid "Ignore HTTP CRL distribution point of certificates"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, honorHTTPProxyRB)
-#: src/conf/smimevalidationconfigurationwidget.ui:209
+#: src/conf/smimevalidationconfigurationwidget.ui:199
 #, kde-format
 msgid ""
 "If this option is selected, the value of the HTTP proxy shown on the right "
@@ -4316,19 +4151,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, honorHTTPProxyRB)
-#: src/conf/smimevalidationconfigurationwidget.ui:212
+#: src/conf/smimevalidationconfigurationwidget.ui:202
 #, kde-format
 msgid "Use system HTTP proxy:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, useCustomHTTPProxyRB)
-#: src/conf/smimevalidationconfigurationwidget.ui:229
+#: src/conf/smimevalidationconfigurationwidget.ui:219
 #, kde-format
 msgid "Use this proxy for HTTP requests: "
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, customHTTPProxy)
-#: src/conf/smimevalidationconfigurationwidget.ui:236
+#: src/conf/smimevalidationconfigurationwidget.ui:226
 #, kde-format
 msgid ""
 "<p>If no system proxy is set, or you need to use a different proxy for "
@@ -4338,25 +4173,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabLDAP)
-#: src/conf/smimevalidationconfigurationwidget.ui:257
+#: src/conf/smimevalidationconfigurationwidget.ui:247
 #, kde-format
 msgid "&LDAP Requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, disableLDAPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:263
+#: src/conf/smimevalidationconfigurationwidget.ui:253
 #, kde-format
 msgid "Entirely disables the use of LDAP for S/MIME."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, disableLDAPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:266
+#: src/conf/smimevalidationconfigurationwidget.ui:256
 #, kde-format
 msgid "Do not perform any LDAP requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreLDAPDPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:273
+#: src/conf/smimevalidationconfigurationwidget.ui:263
 #, kde-format
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
@@ -4367,19 +4202,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreLDAPDPCB)
-#: src/conf/smimevalidationconfigurationwidget.ui:276
+#: src/conf/smimevalidationconfigurationwidget.ui:266
 #, kde-format
 msgid "Ignore LDAP CRL distribution point of certificates"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, customLDAPLabel)
-#: src/conf/smimevalidationconfigurationwidget.ui:283
+#: src/conf/smimevalidationconfigurationwidget.ui:273
 #, kde-format
 msgid "Primary host for LDAP requests:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, customLDAPProxy)
-#: src/conf/smimevalidationconfigurationwidget.ui:294
+#: src/conf/smimevalidationconfigurationwidget.ui:284
 #, kde-format
 msgid ""
 "Entering an LDAP server here will make all LDAP requests go to that server "
@@ -5167,22 +5002,28 @@ msgstr ""
 msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1</qt>"
 msgstr ""
 
-#: src/crypto/gui/resultitemwidget.cpp:121
+#: src/crypto/gui/resultitemwidget.cpp:120
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "Force decryption"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/resultitemwidget.cpp:146
+#: src/crypto/gui/resultitemwidget.cpp:154
 #, kde-format
 msgid "Diagnostics"
 msgstr ""
 
-#: src/crypto/gui/resultitemwidget.cpp:147
+#: src/crypto/gui/resultitemwidget.cpp:155
 #, kde-format
 msgctxt "The Audit Log is a detailed error log from the gnupg backend"
 msgid "Show Audit Log"
+msgstr ""
+
+#: src/crypto/gui/resultitemwidget.cpp:261
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close message"
 msgstr ""
 
 #: src/crypto/gui/resultlistwidget.cpp:118
@@ -5328,7 +5169,7 @@ msgstr "Сертификатларни импорт қилиш..."
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@option:check on SignEncryptPage"
-msgid "&Sign as:"
+msgid "Sign &as:"
 msgstr "Бекор қилинди."
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:154
@@ -5369,7 +5210,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@option:check on SignEncryptPage"
-msgid "Encrypt / Sign &each file separately."
+msgid "Enc&rypt / Sign each file separately."
 msgstr "Сертификат тафсилотлари..."
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:177
@@ -5578,7 +5419,7 @@ msgid "Output directory"
 msgstr ""
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:504
-#: src/dialogs/signencryptclipboarddialog.cpp:167
+#: src/dialogs/signencryptclipboarddialog.cpp:170
 #, kde-format
 msgctxt "@title"
 msgid "Results"
@@ -5605,7 +5446,7 @@ msgid "Sign / Encrypt Files"
 msgstr "Сертификат тафсилотлари..."
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:553
-#: src/dialogs/selftestdialog.cpp:443
+#: src/dialogs/selftestdialog.cpp:451
 #: src/dialogs/signencryptclipboarddialog.cpp:149
 #, kde-format
 msgctxt "@action:button"
@@ -5620,38 +5461,35 @@ msgid "Results"
 msgstr "Сертификат тафсилотлари..."
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:564
-#: src/dialogs/signencryptclipboarddialog.cpp:181
+#: src/dialogs/signencryptclipboarddialog.cpp:184
 #, kde-format
 msgctxt "@action:button"
 msgid "Finish"
 msgstr ""
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:581
-#: src/dialogs/signencryptclipboarddialog.cpp:221
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@action:button"
-msgid "Sign"
+msgid "&Sign"
 msgstr "Бекор қилинди."
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:584
-#: src/dialogs/signencryptclipboarddialog.cpp:224
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
-msgid "Encrypt"
+msgid "&Encrypt"
 msgstr "Сертификат тафсилотлари..."
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:587
-#: src/dialogs/signencryptclipboarddialog.cpp:227
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
-msgid "Sign / Encrypt"
+msgid "&Sign / Encrypt"
 msgstr "Сертификат тафсилотлари..."
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:605
-#: src/dialogs/signencryptclipboarddialog.cpp:243
+#: src/dialogs/signencryptclipboarddialog.cpp:246
 #, kde-format
 msgctxt "@action:button"
 msgid "Next"
@@ -5679,7 +5517,7 @@ msgstr ""
 #: src/crypto/gui/signencryptwidget.cpp:210
 #, fuzzy, kde-format
 #| msgid "Canceled."
-msgid "&Sign as:"
+msgid "Sign &as:"
 msgstr "Бекор қилинди."
 
 #: src/crypto/gui/signencryptwidget.cpp:250
@@ -5695,14 +5533,14 @@ msgctxt "@label"
 msgid "Encrypt for others:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:293
+#: src/crypto/gui/signencryptwidget.cpp:294
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@option:check"
 msgid "Encrypt with password:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:296
+#: src/crypto/gui/signencryptwidget.cpp:297
 #, kde-format
 msgctxt "Tooltip information for symmetric encryption"
 msgid ""
@@ -5712,61 +5550,61 @@ msgid ""
 "Even if you pick a very strong password."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:303
+#: src/crypto/gui/signencryptwidget.cpp:304
 #, kde-format
 msgctxt "@info"
 msgid "Anyone you share the password with can read the data."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:411
+#: src/crypto/gui/signencryptwidget.cpp:426
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "text for screen readers"
 msgid "recipient key"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptwidget.cpp:486
+#: src/crypto/gui/signencryptwidget.cpp:501
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Usable for Signing"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:487
+#: src/crypto/gui/signencryptwidget.cpp:502
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Certificates that can be used for signing"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptwidget.cpp:490
-#: src/crypto/gui/signencryptwidget.cpp:524 src/dialogs/editgroupdialog.cpp:219
+#: src/crypto/gui/signencryptwidget.cpp:505
+#: src/crypto/gui/signencryptwidget.cpp:539 src/dialogs/editgroupdialog.cpp:219
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Usable for Encryption"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:491
-#: src/crypto/gui/signencryptwidget.cpp:525 src/dialogs/editgroupdialog.cpp:220
+#: src/crypto/gui/signencryptwidget.cpp:506
+#: src/crypto/gui/signencryptwidget.cpp:540 src/dialogs/editgroupdialog.cpp:220
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Certificates that can be used for encryption"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptwidget.cpp:712
-#: src/crypto/gui/signencryptwidget.cpp:995
+#: src/crypto/gui/signencryptwidget.cpp:727
+#: src/crypto/gui/signencryptwidget.cpp:1019
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
 msgid "This certificate is expired."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptwidget.cpp:715
+#: src/crypto/gui/signencryptwidget.cpp:730
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
 msgid "This certificate expires today."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptwidget.cpp:717
+#: src/crypto/gui/signencryptwidget.cpp:732
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info"
@@ -5774,32 +5612,42 @@ msgid "This certificate expires tomorrow."
 msgid_plural "This certificate expires in %1 days."
 msgstr[0] "Сертификат тафсилотлари..."
 
-#: src/crypto/gui/signencryptwidget.cpp:722
+#: src/crypto/gui/signencryptwidget.cpp:737
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
 msgid "This certificate cannot be used for encryption."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptwidget.cpp:724
+#: src/crypto/gui/signencryptwidget.cpp:739
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
 msgid "This certificate cannot be used for signing."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/crypto/gui/signencryptwidget.cpp:958
+#: src/crypto/gui/signencryptwidget.cpp:965
+#, kde-kuit-format
+msgctxt ""
+"@info translate 'Encrypt for others' the same way as for the other string in "
+"this file"
+msgid ""
+"Please choose at least one recipient or deselect <interface>Encrypt for "
+"others</interface>."
+msgstr ""
+
+#: src/crypto/gui/signencryptwidget.cpp:980
 #, kde-format
 msgid "Could not find a key for the following recipients:"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:960
+#: src/crypto/gui/signencryptwidget.cpp:982
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to find some keys"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:998
+#: src/crypto/gui/signencryptwidget.cpp:1022
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info"
@@ -6381,7 +6229,6 @@ msgid "Verifying checksums (%2) in %1"
 msgstr ""
 
 #: src/dialogs/addsubkeydialog.cpp:76
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:111
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@title:window"
@@ -6389,7 +6236,6 @@ msgid "Advanced Settings"
 msgstr "Бекор қилинди."
 
 #: src/dialogs/addsubkeydialog.cpp:92
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:133
 #, kde-format
 msgctxt "@title:group"
 msgid "Key Material"
@@ -6401,23 +6247,20 @@ msgid "Algorithm:"
 msgstr ""
 
 #: src/dialogs/addsubkeydialog.cpp:102
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:153
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:group"
 msgid "Certificate Usage"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/addsubkeydialog.cpp:105
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:157
+#: src/dialogs/addsubkeydialog.cpp:105 src/dialogs/createcsrdialog.cpp:449
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@option:check"
 msgid "Signing"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/addsubkeydialog.cpp:108
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:162
+#: src/dialogs/addsubkeydialog.cpp:108 src/dialogs/createcsrdialog.cpp:452
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@option:check"
@@ -6471,7 +6314,7 @@ msgstr ""
 msgid "Enter a name and/or an email address to use for the user ID."
 msgstr ""
 
-#: src/dialogs/adduseriddialog.cpp:131
+#: src/dialogs/adduseriddialog.cpp:131 src/dialogs/createcsrdialog.cpp:600
 #, kde-format
 msgid "Enter a name or an email address."
 msgstr ""
@@ -6542,362 +6385,291 @@ msgctxt "@info:tooltip"
 msgid "Update the key from external sources."
 msgstr ""
 
-#: src/dialogs/certificatedetailsinputwidget.cpp:59
-#: src/newcertificatewizard/enterdetailspage.cpp:80
-#, kde-format
-msgctxt "Format string for the labels in the \"Your Personal Data\" page"
-msgid "%1 (%2)"
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:70
-#: src/dialogs/certificatedetailswidget.cpp:173
-#: src/newcertificatewizard/enterdetailspage.cpp:313
-#, kde-format
-msgctxt "interpunctation for labels"
-msgid "%1:"
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:80
-#: src/newcertificatewizard/enterdetailspage.cpp:128
-#: src/newcertificatewizard/enterdetailspage.cpp:136
-#: src/newcertificatewizard/enterdetailspage.cpp:315
-#, kde-format
-msgid "(required)"
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:80
-#: src/newcertificatewizard/enterdetailspage.cpp:315
-#, fuzzy, kde-format
-#| msgid "Stop Operation"
-msgid "(optional)"
-msgstr "Жараённи тўхтатиш"
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:108
-#: src/newcertificatewizard/enterdetailspage.cpp:476
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<interface>%1</interface> is required, but empty."
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:111
-#: src/newcertificatewizard/enterdetailspage.cpp:479
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<interface>%1</interface> is required, but empty.<nl/>Local Admin rule: "
-"<icode>%2</icode>"
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:119
-#: src/newcertificatewizard/enterdetailspage.cpp:487
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<interface>%1</interface> is incomplete."
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:122
-#: src/newcertificatewizard/enterdetailspage.cpp:490
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<interface>%1</interface> is incomplete.<nl/>Local Admin rule: <icode>%2</"
-"icode>"
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:129
-#: src/newcertificatewizard/enterdetailspage.cpp:497
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<interface>%1</interface> is invalid."
-msgstr ""
-
-#: src/dialogs/certificatedetailsinputwidget.cpp:132
-#: src/newcertificatewizard/enterdetailspage.cpp:500
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<interface>%1</interface> is invalid.<nl/>Local Admin rule: <icode>%2</icode>"
-msgstr ""
-
-#: src/dialogs/certificatedetailswidget.cpp:164
+#: src/dialogs/certificatedetailswidget.cpp:163
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "User ID:"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:184
+#: src/dialogs/certificatedetailswidget.cpp:172
+#, kde-format
+msgctxt "interpunctation for labels"
+msgid "%1:"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:183
 #, kde-format
 msgid "Trust level:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:189
+#: src/dialogs/certificatedetailswidget.cpp:188
 #, kde-format
 msgid "Valid from:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:194
+#: src/dialogs/certificatedetailswidget.cpp:193
 #, kde-format
 msgid "Valid until:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:197
+#: src/dialogs/certificatedetailswidget.cpp:196
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Change the end of the validity period"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:198
+#: src/dialogs/certificatedetailswidget.cpp:197
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@action:button"
 msgid "Change Validity"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/certificatedetailswidget.cpp:204
+#: src/dialogs/certificatedetailswidget.cpp:203
 #, kde-format
 msgid "Status:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:209
+#: src/dialogs/certificatedetailswidget.cpp:208
 #: src/dialogs/certifywidget.cpp:176
 #, kde-format
 msgid "Fingerprint:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:213
+#: src/dialogs/certificatedetailswidget.cpp:212
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy the fingerprint to the clipboard"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:214
+#: src/dialogs/certificatedetailswidget.cpp:213
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy fingerprint"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:221
+#: src/dialogs/certificatedetailswidget.cpp:220
 #, fuzzy, kde-format
 #| msgid "Issuer"
 msgid "Issuer:"
 msgstr "Ким томонидан берилган"
 
-#: src/dialogs/certificatedetailswidget.cpp:224
+#: src/dialogs/certificatedetailswidget.cpp:223
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info:tooltip"
 msgid "Show the issuer certificate"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:225
+#: src/dialogs/certificatedetailswidget.cpp:224
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:button"
 msgid "Show certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:231
+#: src/dialogs/certificatedetailswidget.cpp:230
 #, kde-format
 msgid "Compliance:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:236
+#: src/dialogs/certificatedetailswidget.cpp:235
 #, kde-format
 msgid "Usage:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:241
+#: src/dialogs/certificatedetailswidget.cpp:240
 #, kde-format
 msgid "Trusted introducer for:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:243
+#: src/dialogs/certificatedetailswidget.cpp:242
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info:tooltip"
 msgid "See certifications for details."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:247
+#: src/dialogs/certificatedetailswidget.cpp:246
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Private Key:"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:262
+#: src/dialogs/certificatedetailswidget.cpp:261
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:tab"
 msgid "User IDs"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:266
+#: src/dialogs/certificatedetailswidget.cpp:265
 #, kde-format
 msgid "Related addresses"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:269
+#: src/dialogs/certificatedetailswidget.cpp:268
 #, kde-format
 msgctxt "@title:tab"
 msgid "Related Addresses"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:272
+#: src/dialogs/certificatedetailswidget.cpp:271
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:tab"
 msgid "Subkeys"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:275
+#: src/dialogs/certificatedetailswidget.cpp:274
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:tab"
 msgid "Certifications"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:278
+#: src/dialogs/certificatedetailswidget.cpp:277
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:tab"
 msgid "Trust Chain Details"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:281
+#: src/dialogs/certificatedetailswidget.cpp:280
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:tab"
 msgid "Certificate Dump"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:285
+#: src/dialogs/certificatedetailswidget.cpp:284
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title:tab"
 msgid "Revokers"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:344
+#: src/dialogs/certificatedetailswidget.cpp:343
 #, kde-format
 msgctxt "Valid until:"
 msgid "unlimited"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:351
-#: src/dialogs/subkeyswidget.cpp:411
+#: src/dialogs/certificatedetailswidget.cpp:350
+#: src/dialogs/subkeyswidget.cpp:414
 #, kde-format
 msgctxt "not applicable"
 msgid "n/a"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:354
+#: src/dialogs/certificatedetailswidget.cpp:353
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "As in 'this secret key is stored on smart card <serial number>'"
 msgid "smart card %1"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:356
+#: src/dialogs/certificatedetailswidget.cpp:355
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "As in 'this secret key is stored on a smart card'"
 msgid "smart card"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:359
-#: src/dialogs/subkeyswidget.cpp:419
+#: src/dialogs/certificatedetailswidget.cpp:358
+#: src/dialogs/subkeyswidget.cpp:422
 #, kde-format
 msgctxt "key is 'offline key', i.e. secret key is not stored on this computer"
 msgid "offline"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:362
+#: src/dialogs/certificatedetailswidget.cpp:361
 #, kde-format
 msgctxt "As in 'this key is stored on this computer and on smart card(s)'"
 msgid "On this computer and on a smart card"
 msgid_plural "On this computer and on %1 smart cards"
 msgstr[0] ""
 
-#: src/dialogs/certificatedetailswidget.cpp:366
+#: src/dialogs/certificatedetailswidget.cpp:365
 #, kde-format
 msgctxt "As in 'this secret key is stored on this computer'"
 msgid "on this computer"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:378
+#: src/dialogs/certificatedetailswidget.cpp:377
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "encryption"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:381
+#: src/dialogs/certificatedetailswidget.cpp:380
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "signing"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/certificatedetailswidget.cpp:384
+#: src/dialogs/certificatedetailswidget.cpp:383
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "certification"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certificatedetailswidget.cpp:387
+#: src/dialogs/certificatedetailswidget.cpp:386
 #, fuzzy, kde-format
 msgid "authentication"
 msgstr "Манзили"
 
-#: src/dialogs/certificatedetailswidget.cpp:390
+#: src/dialogs/certificatedetailswidget.cpp:389
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "as in: can be used for ..."
 msgid "qualified signatures"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/certificatedetailswidget.cpp:393 src/view/cardkeysview.cpp:201
+#: src/dialogs/certificatedetailswidget.cpp:392 src/view/cardkeysview.cpp:201
 #, kde-format
 msgctxt "Separator between words in a list"
 msgid ", "
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:502
+#: src/dialogs/certificatedetailswidget.cpp:501
 #: src/dialogs/useridswidget.cpp:370
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Updating..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/dialogs/certificatedetailswidget.cpp:578
+#: src/dialogs/certificatedetailswidget.cpp:577
 #, kde-format
 msgid "Common Name"
 msgstr "Умумий номи"
 
-#: src/dialogs/certificatedetailswidget.cpp:579
+#: src/dialogs/certificatedetailswidget.cpp:578
 #, kde-format
 msgid "Organization"
 msgstr "Ташкилот"
 
-#: src/dialogs/certificatedetailswidget.cpp:580
+#: src/dialogs/certificatedetailswidget.cpp:579
 #, kde-format
 msgid "Street"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:581
+#: src/dialogs/certificatedetailswidget.cpp:580
 #, kde-format
 msgid "City"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:582
+#: src/dialogs/certificatedetailswidget.cpp:581
 #, kde-format
 msgid "State"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:583
+#: src/dialogs/certificatedetailswidget.cpp:582
 #, kde-format
 msgid "Country"
 msgstr "Давлат"
 
-#: src/dialogs/certificatedetailswidget.cpp:630
+#: src/dialogs/certificatedetailswidget.cpp:629
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The issuer certificate could not be found locally."
@@ -7018,14 +6790,14 @@ msgstr "Сертификат тафсилотлари..."
 msgid "Certify"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certifycertificatedialog.cpp:84
+#: src/dialogs/certifycertificatedialog.cpp:86
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title:window arg is name, email of certificate holder"
 msgid "Certify Certificate: %1"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certifycertificatedialog.cpp:95
+#: src/dialogs/certifycertificatedialog.cpp:97
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title:window Certify Certificate Group <group name>"
@@ -7073,8 +6845,8 @@ msgstr "Сертификат тафсилотлари..."
 msgid "User IDs"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certifywidget.cpp:223 src/dialogs/certifywidget.cpp:450
-#: src/dialogs/certifywidget.cpp:464 src/view/cardkeysview.cpp:428
+#: src/dialogs/certifywidget.cpp:223 src/dialogs/certifywidget.cpp:452
+#: src/dialogs/certifywidget.cpp:466 src/view/cardkeysview.cpp:428
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:column"
@@ -7185,7 +6957,7 @@ msgstr ""
 msgid "Domain:"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:432
+#: src/dialogs/certifywidget.cpp:433
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -7194,48 +6966,48 @@ msgid ""
 "fingerprints clearly identify the certificate and its owner.</i>"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:464
-#: src/dialogs/lookupcertificatesdialog.cpp:238
-#: src/dialogs/revokerswidget.cpp:74 src/dialogs/subkeyswidget.cpp:164
+#: src/dialogs/certifywidget.cpp:466
+#: src/dialogs/lookupcertificatesdialog.cpp:239
+#: src/dialogs/revokerswidget.cpp:74 src/dialogs/subkeyswidget.cpp:165
 #: src/view/cardkeysview.cpp:430
 #, kde-format
 msgctxt "@title:column"
 msgid "Fingerprint"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:480 src/dialogs/certifywidget.cpp:481
+#: src/dialogs/certifywidget.cpp:482 src/dialogs/certifywidget.cpp:483
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info:tooltip"
 msgid "S/MIME certificates cannot be certified."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/certifywidget.cpp:483 src/dialogs/certifywidget.cpp:484
+#: src/dialogs/certifywidget.cpp:485 src/dialogs/certifywidget.cpp:486
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info:tooltip"
 msgid "Expired or revoked certificates cannot be certified."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certifywidget.cpp:794
+#: src/dialogs/certifywidget.cpp:796
 #, kde-format
 msgid "Is this your own key?"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:809
+#: src/dialogs/certifywidget.cpp:811
 #, kde-format
 msgid ""
 "<p>Changing the certification trust of the key <b>%1</b> failed:</p><p>%2</p>"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:812
+#: src/dialogs/certifywidget.cpp:814
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:window"
 msgid "Certification Trust Change Failed"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/certifywidget.cpp:819
+#: src/dialogs/certifywidget.cpp:821
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Owner trust set successfully."
@@ -7293,6 +7065,97 @@ msgid ""
 "<emphasis>%2</emphasis></para><para>Choose one of the following options to "
 "continue:</para>"
 msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:390
+#, kde-format
+msgid "Enter a name and an email address to use for the certificate."
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:391
+#, kde-format
+msgid "Enter a name and/or an email address to use for the certificate."
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:422
+#, fuzzy, kde-format
+#| msgid "Canceled."
+msgid "Advanced options"
+msgstr "Бекор қилинди."
+
+#: src/dialogs/createcsrdialog.cpp:429
+#, kde-format
+msgctxt "The algorithm and strength of encryption key"
+msgid "Key material"
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:444
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Certificate usage"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/createcsrdialog.cpp:478
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label:textbox"
+msgid "Additional email addresses"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/createcsrdialog.cpp:480
+#, kde-format
+msgid "Enter email addresses in the correct format, like name@example.com."
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:488
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgctxt "@label:textbox"
+msgid "Domain names"
+msgstr "Нурали Абдураҳмонов"
+
+#: src/dialogs/createcsrdialog.cpp:490
+#, kde-format
+msgid "Enter domain names in the correct format, like www.example.com."
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:498
+#, kde-format
+msgctxt "@label:textbox"
+msgid "URIs"
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:500
+#, kde-format
+msgid "Enter URIs in the correct format."
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:627
+#, fuzzy, kde-format
+#| msgid "Stop Operation"
+msgctxt "@info Error in Label of input field: Message"
+msgid "Error in %1: %2"
+msgstr "Жараённи тўхтатиш"
+
+#: src/dialogs/createcsrdialog.cpp:629
+#, kde-format
+msgctxt "@info"
+msgid "Correct the following errors:"
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:634
+#, kde-kuit-format
+msgctxt "@info Error in Label of input field: Message"
+msgid "Error in <interface>%1</interface>: <message>%2</message>"
+msgstr ""
+
+#: src/dialogs/createcsrdialog.cpp:646
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "title:window"
+msgid "Create S/MIME Certificate Signing Request"
+msgstr "Сертификатларни импорт қилиш..."
 
 #: src/dialogs/debugdialog.cpp:67
 #, fuzzy, kde-format
@@ -7364,7 +7227,7 @@ msgctxt "@info"
 msgid "Exit code: %1"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:111
+#: src/dialogs/deletecertificatesdialog.cpp:108
 #, kde-format
 msgid ""
 "The certificate is part of a group. Deleting it may prevent this recipient "
@@ -7374,7 +7237,7 @@ msgid_plural ""
 "recipients from decrypting messages to:"
 msgstr[0] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:115
+#: src/dialogs/deletecertificatesdialog.cpp:112
 #, kde-format
 msgid ""
 "The certificate is part of several groups. Deleting it may prevent the "
@@ -7384,7 +7247,22 @@ msgid_plural ""
 "recipients from decrypting messages to:"
 msgstr[0] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:169
+#: src/dialogs/deletecertificatesdialog.cpp:152
+#: src/dialogs/deletecertificatesdialog.cpp:154
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Certificates"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/deletecertificatesdialog.cpp:156
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Groups"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/deletecertificatesdialog.cpp:173
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7397,14 +7275,14 @@ msgid ""
 "contents, too.</para>"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:207
+#: src/dialogs/deletecertificatesdialog.cpp:211
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "The following certificate was selected for deletion:"
 msgid_plural "The following certificates were selected for deletion:"
 msgstr[0] "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/deletecertificatesdialog.cpp:220
+#: src/dialogs/deletecertificatesdialog.cpp:224
 #, kde-format
 msgid ""
 "The following certificate will be deleted even though you did <b>not</b> "
@@ -7414,7 +7292,7 @@ msgid_plural ""
 "explicitly select them (<a href=\"whatsthis://\">Why?</a>):"
 msgstr[0] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:251
+#: src/dialogs/deletecertificatesdialog.cpp:255
 #, kde-format
 msgid ""
 "The certificate to be deleted is your own. It contains private key material, "
@@ -7426,7 +7304,7 @@ msgid_plural ""
 "certificate, and should therefore not be deleted."
 msgstr[0] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:265
+#: src/dialogs/deletecertificatesdialog.cpp:269
 #, kde-format
 msgid ""
 "One of the certificates to be deleted is your own. It contains private key "
@@ -7438,7 +7316,7 @@ msgid_plural ""
 "certificate, and should therefore not be deleted."
 msgstr[0] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:280
+#: src/dialogs/deletecertificatesdialog.cpp:284
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@title:window"
@@ -7702,6 +7580,13 @@ msgstr "Сертификат тафсилотлари..."
 msgid "Note: This group is defined in the configuration files of gpg."
 msgstr ""
 
+#: src/dialogs/importedcertificatesdialog.cpp:112
+#, fuzzy, kde-format
+#| msgid "Import Certificates..."
+msgctxt "@title:dialog as in 'list of certificates that were imported'"
+msgid "Imported Certificates"
+msgstr "Сертификатларни импорт қилиш..."
+
 #: src/dialogs/lookupcertificatesdialog.cpp:171
 #, fuzzy, kde-format
 #| msgid "Find"
@@ -7714,27 +7599,34 @@ msgstr "Қидириш"
 msgid "Search"
 msgstr "Қидириш:"
 
-#: src/dialogs/lookupcertificatesdialog.cpp:195
+#: src/dialogs/lookupcertificatesdialog.cpp:187
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Results"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/lookupcertificatesdialog.cpp:196
 #, kde-format
 msgid "Select All"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:200
+#: src/dialogs/lookupcertificatesdialog.cpp:201
 #, kde-format
 msgid "Deselect All"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:207
+#: src/dialogs/lookupcertificatesdialog.cpp:208
 #, kde-format
 msgid "Details..."
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:212
+#: src/dialogs/lookupcertificatesdialog.cpp:213
 #, kde-format
 msgid "Save As..."
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:236
+#: src/dialogs/lookupcertificatesdialog.cpp:237
 #: src/dialogs/revokerswidget.cpp:75
 #, fuzzy, kde-format
 #| msgid "Serial Number"
@@ -7742,7 +7634,7 @@ msgctxt "@title:column"
 msgid "Name"
 msgstr "Серия рақами"
 
-#: src/dialogs/lookupcertificatesdialog.cpp:237
+#: src/dialogs/lookupcertificatesdialog.cpp:238
 #: src/dialogs/revokerswidget.cpp:76
 #, fuzzy, kde-format
 #| msgid "Email"
@@ -7750,70 +7642,70 @@ msgctxt "@title:column"
 msgid "Email"
 msgstr "Электрон почта"
 
-#: src/dialogs/lookupcertificatesdialog.cpp:239
-#: src/dialogs/subkeyswidget.cpp:166
+#: src/dialogs/lookupcertificatesdialog.cpp:240
+#: src/dialogs/subkeyswidget.cpp:167
 #, kde-format
 msgctxt "@title:column"
 msgid "Valid From"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:240
-#: src/dialogs/subkeyswidget.cpp:167
+#: src/dialogs/lookupcertificatesdialog.cpp:241
+#: src/dialogs/subkeyswidget.cpp:168
 #, kde-format
 msgctxt "@title:column"
 msgid "Valid Until"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:241 src/view/cardkeysview.cpp:429
+#: src/dialogs/lookupcertificatesdialog.cpp:242 src/view/cardkeysview.cpp:429
 #, kde-format
 msgctxt "@title:column"
 msgid "Protocol"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:242
-#: src/dialogs/subkeyswidget.cpp:163
+#: src/dialogs/lookupcertificatesdialog.cpp:243
+#: src/dialogs/subkeyswidget.cpp:164
 #, kde-format
 msgctxt "@title:column"
 msgid "Key ID"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:243
+#: src/dialogs/lookupcertificatesdialog.cpp:244
 #, kde-format
 msgctxt "@title:column"
 msgid "Origin"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:264
+#: src/dialogs/lookupcertificatesdialog.cpp:265
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@title:window"
 msgid "Lookup on Server"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/lookupcertificatesdialog.cpp:271
+#: src/dialogs/lookupcertificatesdialog.cpp:272
 #, kde-format
 msgid "Import"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:335
+#: src/dialogs/lookupcertificatesdialog.cpp:336
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Enter a search term to search for matching certificates."
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:337
+#: src/dialogs/lookupcertificatesdialog.cpp:338
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Enter an email address to search for matching certificates."
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:417
-#: src/dialogs/lookupcertificatesdialog.cpp:420
+#: src/dialogs/lookupcertificatesdialog.cpp:418
+#: src/dialogs/lookupcertificatesdialog.cpp:421
 #, kde-format
 msgid "LDAP"
 msgstr ""
 
-#: src/dialogs/lookupcertificatesdialog.cpp:422
+#: src/dialogs/lookupcertificatesdialog.cpp:423
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Keyserver"
@@ -7934,32 +7826,32 @@ msgctxt "text for screen readers for an unknown email"
 msgid "unknown email"
 msgstr "mavnur@gmail.com"
 
-#: src/dialogs/selftestdialog.cpp:89
+#: src/dialogs/selftestdialog.cpp:91
 #, kde-format
 msgid "Skipped"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:90
+#: src/dialogs/selftestdialog.cpp:92
 #, kde-format
 msgid "Passed"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:108
+#: src/dialogs/selftestdialog.cpp:110
 #, kde-format
 msgid "Test Name"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:110
+#: src/dialogs/selftestdialog.cpp:112
 #, kde-format
 msgid "Result"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:260
+#: src/dialogs/selftestdialog.cpp:268
 #, kde-format
 msgid "(select test first)"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:336
+#: src/dialogs/selftestdialog.cpp:344
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7968,51 +7860,51 @@ msgid ""
 "due to prior tests failing.</para>"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:354
+#: src/dialogs/selftestdialog.cpp:362
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "test results"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/selftestdialog.cpp:368
+#: src/dialogs/selftestdialog.cpp:376
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@title:group"
 msgid "Details"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/selftestdialog.cpp:394
+#: src/dialogs/selftestdialog.cpp:402
 #, kde-format
 msgctxt "@title:group"
 msgid "Proposed Corrective Action"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:421
+#: src/dialogs/selftestdialog.cpp:429
 #, kde-format
 msgctxt "@action:button"
 msgid "Do It"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:433
+#: src/dialogs/selftestdialog.cpp:441
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@option:check"
 msgid "Show all test results"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/selftestdialog.cpp:437
+#: src/dialogs/selftestdialog.cpp:445
 #, kde-format
 msgctxt "@option:check"
 msgid "Run these tests at startup"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:444
+#: src/dialogs/selftestdialog.cpp:452
 #, kde-format
 msgctxt "@action:button"
 msgid "Rerun Tests"
 msgstr ""
 
-#: src/dialogs/selftestdialog.cpp:455
+#: src/dialogs/selftestdialog.cpp:463
 #, kde-format
 msgctxt "@title:window"
 msgid "Self Test"
@@ -8099,11 +7991,32 @@ msgctxt "@title"
 msgid "Sign/Encrypt Clipboard"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/signencryptclipboarddialog.cpp:195
+#: src/dialogs/signencryptclipboarddialog.cpp:198
 #, kde-format
 msgctxt "@info"
 msgid "The clipboard does not contain text."
 msgstr ""
+
+#: src/dialogs/signencryptclipboarddialog.cpp:224
+#, fuzzy, kde-format
+#| msgid "Canceled."
+msgctxt "@action:button"
+msgid "Sign"
+msgstr "Бекор қилинди."
+
+#: src/dialogs/signencryptclipboarddialog.cpp:227
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@action:button"
+msgid "Encrypt"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/signencryptclipboarddialog.cpp:230
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@action:button"
+msgid "Sign / Encrypt"
+msgstr "Сертификат тафсилотлари..."
 
 #: src/dialogs/smartcardwindow.cpp:97 src/dialogs/smartcardwindow.cpp:119
 #, fuzzy, kde-format
@@ -8140,90 +8053,90 @@ msgctxt "@title:window"
 msgid "Manage Smart Cards"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/subkeyswidget.cpp:160
+#: src/dialogs/subkeyswidget.cpp:161
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@label"
 msgid "Subkeys"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/subkeyswidget.cpp:165
+#: src/dialogs/subkeyswidget.cpp:166
 #, kde-format
 msgctxt "@title:column"
 msgid "Status"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:168 src/view/cardkeysview.cpp:432
+#: src/dialogs/subkeyswidget.cpp:169 src/view/cardkeysview.cpp:432
 #, kde-format
 msgctxt "@title:column"
 msgid "Usage"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:169 src/view/cardkeysview.cpp:433
+#: src/dialogs/subkeyswidget.cpp:170 src/view/cardkeysview.cpp:433
 #, kde-format
 msgctxt "@title:column"
 msgid "Algorithm"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:170
+#: src/dialogs/subkeyswidget.cpp:171
 #, kde-format
 msgctxt "@title:column"
 msgid "Storage"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:171 src/view/cardkeysview.cpp:434
+#: src/dialogs/subkeyswidget.cpp:172 src/view/cardkeysview.cpp:434
 #, kde-format
 msgctxt "@title:column"
 msgid "Keygrip"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:178
+#: src/dialogs/subkeyswidget.cpp:179
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "Add subkey"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/dialogs/subkeyswidget.cpp:179
+#: src/dialogs/subkeyswidget.cpp:180
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@action:button"
 msgid "Change validity"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/subkeyswidget.cpp:180
+#: src/dialogs/subkeyswidget.cpp:181
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgctxt "@action:button"
 msgid "Export OpenSSH key"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/dialogs/subkeyswidget.cpp:181
+#: src/dialogs/subkeyswidget.cpp:182
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore printed backup"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:182
+#: src/dialogs/subkeyswidget.cpp:183
 #, kde-format
 msgctxt "@action:button"
 msgid "Transfer to smartcard"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:183
+#: src/dialogs/subkeyswidget.cpp:184
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:button"
 msgid "Export secret subkey"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/subkeyswidget.cpp:184
+#: src/dialogs/subkeyswidget.cpp:185
 #, kde-format
 msgctxt "@action:button"
 msgid "Add ADSK"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:186
+#: src/dialogs/subkeyswidget.cpp:187
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -8233,7 +8146,7 @@ msgid ""
 "client encrypting the message supports this functionality.</html>"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:198 src/dialogs/useridswidget.cpp:165
+#: src/dialogs/subkeyswidget.cpp:199 src/dialogs/useridswidget.cpp:165
 #: src/dialogs/weboftrustwidget.cpp:133
 #, fuzzy, kde-format
 #| msgid "Canceled."
@@ -8241,54 +8154,61 @@ msgctxt "@info:tooltip"
 msgid "Show more options"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/subkeyswidget.cpp:294
+#: src/dialogs/subkeyswidget.cpp:295
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgid "Change validity"
 msgstr "Бекор қилинди."
 
-#: src/dialogs/subkeyswidget.cpp:301
+#: src/dialogs/subkeyswidget.cpp:302
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Export OpenSSH key"
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/dialogs/subkeyswidget.cpp:307
+#: src/dialogs/subkeyswidget.cpp:308
 #, kde-format
 msgid "Transfer to smartcard"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:315
+#: src/dialogs/subkeyswidget.cpp:316
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Export secret subkey"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/subkeyswidget.cpp:414
+#: src/dialogs/subkeyswidget.cpp:417
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "smart card <serial number>"
 msgid "smart card %1"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/subkeyswidget.cpp:416
+#: src/dialogs/subkeyswidget.cpp:419
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "smart card"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/dialogs/subkeyswidget.cpp:421
+#: src/dialogs/subkeyswidget.cpp:424
 #, kde-format
 msgid "on this computer"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:423
+#: src/dialogs/subkeyswidget.cpp:426
 #, kde-format
 msgctxt "unknown storage location"
 msgid "unknown"
 msgstr ""
 
-#: src/dialogs/trustchainwidget.cpp:80
+#: src/dialogs/trustchainwidget.cpp:45
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label"
+msgid "Certificate chain"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/dialogs/trustchainwidget.cpp:81
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Issuer Certificate Not Found (%1)"
@@ -8384,7 +8304,6 @@ msgid "Revoke Certifications"
 msgstr "Сертификат тафсилотлари..."
 
 #: src/dialogs/useridswidget.cpp:253
-#: src/newcertificatewizard/enterdetailspage.cpp:62
 #, kde-format
 msgid "Name"
 msgstr ""
@@ -8935,91 +8854,69 @@ msgid ""
 "signing requests."
 msgstr "Сертификатларни импорт қилиш..."
 
-#. i18n: ectx: label, entry (cmsSigningAllowed), group (CMS)
-#: src/kcfg/settings.kcfg:114
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Allow signing with S/MIME certificates"
-msgstr "Сертификатларни импорт қилиш..."
-
-#. i18n: ectx: tooltip, entry (cmsSigningAllowed), group (CMS)
-#: src/kcfg/settings.kcfg:115
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Allows signing of text or files with S/MIME certificates."
-msgstr "Сертификатларни импорт қилиш..."
-
-#. i18n: ectx: whatsthis, entry (cmsSigningAllowed), group (CMS)
-#: src/kcfg/settings.kcfg:116
-#, kde-format
-msgid ""
-"If false, then Kleopatra will not offer functionality for creating "
-"signatures with S/MIME certificates."
-msgstr ""
-
 #. i18n: ectx: label, entry (ShowAppearanceConfiguration), group (ConfigurationDialog)
-#: src/kcfg/settings.kcfg:122
+#: src/kcfg/settings.kcfg:116
 #, fuzzy, kde-format
 msgid "Show appearance configuration"
 msgstr "Манзили"
 
 #. i18n: ectx: label, entry (ShowCryptoOperationsConfiguration), group (ConfigurationDialog)
-#: src/kcfg/settings.kcfg:126
+#: src/kcfg/settings.kcfg:120
 #, kde-format
 msgid "Show crypto operations configuration"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowDirectoryServicesConfiguration), group (ConfigurationDialog)
-#: src/kcfg/settings.kcfg:130
+#: src/kcfg/settings.kcfg:124
 #, kde-format
 msgid "Show directory services configuration"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowGnuPGSystemConfiguration), group (ConfigurationDialog)
-#: src/kcfg/settings.kcfg:134
+#: src/kcfg/settings.kcfg:128
 #, fuzzy, kde-format
 msgid "Show GnuPG system configuration"
 msgstr "Манзили"
 
 #. i18n: ectx: label, entry (ShowSmartCardsConfiguration), group (ConfigurationDialog)
-#: src/kcfg/settings.kcfg:138
+#: src/kcfg/settings.kcfg:132
 #, fuzzy, kde-format
 msgid "Show smart cards configuration"
 msgstr "Манзили"
 
 #. i18n: ectx: label, entry (ShowSMimeValidationConfiguration), group (ConfigurationDialog)
-#: src/kcfg/settings.kcfg:142
+#: src/kcfg/settings.kcfg:136
 #, kde-format
 msgid "Show S/MIME validation configuration"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (AttributeOrder), group (DN)
-#: src/kcfg/settings.kcfg:149
+#: src/kcfg/settings.kcfg:143
 #, kde-format
 msgid "Specifies the display order of the DN attributes of X.509 certificates."
 msgstr ""
 
 #. i18n: ectx: label, entry (UsePGPFileExt), group (FileOperations)
-#: src/kcfg/settings.kcfg:155
+#: src/kcfg/settings.kcfg:149
 #, kde-format
 msgid "Use pgp as the default extension for generated OpenPGP files"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (UsePGPFileExt), group (FileOperations)
-#: src/kcfg/settings.kcfg:156
+#: src/kcfg/settings.kcfg:150
 #, kde-format
 msgid ""
 "Set this to make kleopatra default to pgp file extensions for OpenPGP files."
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoExtractArchives), group (FileOperations)
-#: src/kcfg/settings.kcfg:160
+#: src/kcfg/settings.kcfg:154
 #, kde-format
 msgid "Automatically extract archives after decryption."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (AutoExtractArchives), group (FileOperations)
-#: src/kcfg/settings.kcfg:161
+#: src/kcfg/settings.kcfg:155
 #, kde-format
 msgid ""
 "If this option is set, then Kleopatra automatically extracts file archives "
@@ -9027,13 +8924,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (ArchiveCommand), group (FileOperations)
-#: src/kcfg/settings.kcfg:165
+#: src/kcfg/settings.kcfg:159
 #, kde-format
 msgid "Use this command to create file archives."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ArchiveCommand), group (FileOperations)
-#: src/kcfg/settings.kcfg:166
+#: src/kcfg/settings.kcfg:160
 #, kde-format
 msgid ""
 "When encrypting multiple files or a folder Kleopatra creates an encrypted "
@@ -9041,14 +8938,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AddASCIIArmor), group (FileOperations)
-#: src/kcfg/settings.kcfg:170
+#: src/kcfg/settings.kcfg:164
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Create signed or encrypted files as text files."
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: whatsthis, entry (AddASCIIArmor), group (FileOperations)
-#: src/kcfg/settings.kcfg:171
+#: src/kcfg/settings.kcfg:165
 #, kde-format
 msgid ""
 "Set this option to encode encrypted or signed files as base64 encoded text. "
@@ -9057,69 +8954,69 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (DontUseTmpDir), group (FileOperations)
-#: src/kcfg/settings.kcfg:175
+#: src/kcfg/settings.kcfg:169
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Create temporary decrypted files in the folder of the encrypted file."
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: whatsthis, entry (DontUseTmpDir), group (FileOperations)
-#: src/kcfg/settings.kcfg:176
+#: src/kcfg/settings.kcfg:170
 #, kde-format
 msgid "Set this option to avoid using the users temporary directory."
 msgstr ""
 
 #. i18n: ectx: label, entry (SymmetricEncryptionOnly), group (FileOperations)
-#: src/kcfg/settings.kcfg:180
+#: src/kcfg/settings.kcfg:174
 #, kde-format
 msgid "Use symmetric encryption only."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SymmetricEncryptionOnly), group (FileOperations)
-#: src/kcfg/settings.kcfg:181
+#: src/kcfg/settings.kcfg:175
 #, kde-format
 msgid "Set this option to disable public key encryption."
 msgstr ""
 
 #. i18n: ectx: label, entry (PublicKeyEncryptionOnly), group (FileOperations)
-#: src/kcfg/settings.kcfg:185
+#: src/kcfg/settings.kcfg:179
 #, kde-format
 msgid "Use public key encryption only."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (PublicKeyEncryptionOnly), group (FileOperations)
-#: src/kcfg/settings.kcfg:186
+#: src/kcfg/settings.kcfg:180
 #, kde-format
 msgid "Set this option to disable password-based encryption."
 msgstr ""
 
 #. i18n: ectx: label, entry (GroupsEnabled), group (Groups)
-#: src/kcfg/settings.kcfg:192
+#: src/kcfg/settings.kcfg:186
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Enable Groups"
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: tooltip, entry (GroupsEnabled), group (Groups)
-#: src/kcfg/settings.kcfg:193
+#: src/kcfg/settings.kcfg:187
 #, kde-format
 msgid "Enable usage of groups of keys."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (GroupsEnabled), group (Groups)
-#: src/kcfg/settings.kcfg:194
+#: src/kcfg/settings.kcfg:188
 #, kde-format
 msgid "Enable usage of groups of keys to create lists of recipients."
 msgstr ""
 
 #. i18n: ectx: label, entry (RetrieveSignerKeysAfterImport), group (Import)
-#: src/kcfg/settings.kcfg:200
+#: src/kcfg/settings.kcfg:194
 #, kde-format
 msgid "Retrieve signer keys after import"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (RetrieveSignerKeysAfterImport), group (Import)
-#: src/kcfg/settings.kcfg:203
+#: src/kcfg/settings.kcfg:197
 #, kde-format
 msgid ""
 "If enabled, then Kleopatra will automatically try to retrieve the keys\n"
@@ -9129,13 +9026,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (QueryWKDsForAllUserIDs), group (Import)
-#: src/kcfg/settings.kcfg:207
+#: src/kcfg/settings.kcfg:201
 #, kde-format
 msgid "Query certificate directories of providers for all user IDs"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (QueryWKDsForAllUserIDs), group (Import)
-#: src/kcfg/settings.kcfg:210
+#: src/kcfg/settings.kcfg:204
 #, kde-format
 msgid ""
 "By default, Kleopatra only queries the certificate directories of providers "
@@ -9147,14 +9044,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowExpiryNotifications), group (Notifications)
-#: src/kcfg/settings.kcfg:216
+#: src/kcfg/settings.kcfg:210
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Notify about upcoming certificate expiration"
 msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: ectx: whatsthis, entry (ShowExpiryNotifications), group (Notifications)
-#: src/kcfg/settings.kcfg:218
+#: src/kcfg/settings.kcfg:212
 #, kde-format
 msgid ""
 "If enabled, then Kleopatra will show notifications in some place when using\n"
@@ -9162,13 +9059,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (BlockedUrlSchemes), group (Privacy)
-#: src/kcfg/settings.kcfg:224
+#: src/kcfg/settings.kcfg:218
 #, kde-format
 msgid "URL schemes to block"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (BlockedUrlSchemes), group (Privacy)
-#: src/kcfg/settings.kcfg:226
+#: src/kcfg/settings.kcfg:220
 #, kde-format
 msgid ""
 "This is a list of URL schemes that shall be blocked by the application.\n"
@@ -9177,14 +9074,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AlwaysSearchCardOnKeyserver), group (Smartcard)
-#: src/kcfg/settings.kcfg:232
+#: src/kcfg/settings.kcfg:226
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Always search smartcard certificates on keyserver"
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: tooltip, entry (AlwaysSearchCardOnKeyserver), group (Smartcard)
-#: src/kcfg/settings.kcfg:233
+#: src/kcfg/settings.kcfg:227
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid ""
@@ -9193,7 +9090,7 @@ msgid ""
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: whatsthis, entry (AlwaysSearchCardOnKeyserver), group (Smartcard)
-#: src/kcfg/settings.kcfg:235
+#: src/kcfg/settings.kcfg:229
 #, kde-format
 msgid ""
 "Searches on keyservers regardless of the protocol for the smartcards key, "
@@ -9203,19 +9100,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (autoLoadP15Certs), group (Smartcard)
-#: src/kcfg/settings.kcfg:239
+#: src/kcfg/settings.kcfg:233
 #, kde-format
 msgid "Try to load S/MIME certificates from PKCS#15 smartcards"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (autoLoadP15Certs), group (Smartcard)
-#: src/kcfg/settings.kcfg:240
+#: src/kcfg/settings.kcfg:234
 #, kde-format
 msgid "Automatically load S/MIME certificates from PKCS#15 (CardOS) smartcards"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoLoadP15Certs), group (Smartcard)
-#: src/kcfg/settings.kcfg:241
+#: src/kcfg/settings.kcfg:235
 #, kde-format
 msgid ""
 "If true, then Kleopatra will call gpgsm --learn if a PKCS#15 Smartcard is "
@@ -9224,39 +9121,39 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (RefreshInterval), group (SMime Validation)
-#: src/kcfg/settings.kcfg:247
+#: src/kcfg/settings.kcfg:241
 #, kde-format
 msgid "Certificate refresh interval (in hours). Zero (0) disables."
 msgstr ""
 
 #. i18n: ectx: label, entry (ProfilesDisabled), group (General)
-#: src/kcfg/settings.kcfg:255
+#: src/kcfg/settings.kcfg:249
 #, kde-format
 msgid "Disable profile settings"
 msgstr ""
 
 #. i18n: ectx: label, entry (AllowCustomDebugCommands), group (General)
-#: src/kcfg/settings.kcfg:259
+#: src/kcfg/settings.kcfg:253
 #, kde-format
 msgid "Allow custom debug commands"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowResultsAfterSignEncrypt), group (General)
-#: src/kcfg/settings.kcfg:263
+#: src/kcfg/settings.kcfg:257
 #, fuzzy, kde-format
 #| msgid "Can be used for signing"
 msgid "Show results after signing and encrypting files"
 msgstr "Имзолаш учун ишлатилиши мумкин"
 
 #. i18n: ectx: label, entry (ShowValidity), group (Tooltip)
-#: src/kcfg/settings.kcfg:269
+#: src/kcfg/settings.kcfg:263
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Show certificate validity"
 msgstr "Сертификатларни импорт қилиш..."
 
 #. i18n: ectx: whatsthis, entry (ShowValidity), group (Tooltip)
-#: src/kcfg/settings.kcfg:270
+#: src/kcfg/settings.kcfg:264
 #, kde-format
 msgid ""
 "Show validity information for certificates in tooltip, such as whether the "
@@ -9264,13 +9161,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowOwnerInformation), group (Tooltip)
-#: src/kcfg/settings.kcfg:274
+#: src/kcfg/settings.kcfg:268
 #, kde-format
 msgid "Show certificate owner information"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowOwnerInformation), group (Tooltip)
-#: src/kcfg/settings.kcfg:275
+#: src/kcfg/settings.kcfg:269
 #, kde-format
 msgid ""
 "Show owner information for certificates in tooltip, such as User IDs, "
@@ -9278,14 +9175,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowCertificateDetails), group (Tooltip)
-#: src/kcfg/settings.kcfg:279
+#: src/kcfg/settings.kcfg:273
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Show certificate details"
 msgstr "Сертификат тафсилотлари..."
 
 #. i18n: ectx: whatsthis, entry (ShowCertificateDetails), group (Tooltip)
-#: src/kcfg/settings.kcfg:280
+#: src/kcfg/settings.kcfg:274
 #, kde-format
 msgid ""
 "Show more certificate details, such as fingerprint, key length and "
@@ -9298,51 +9195,45 @@ msgstr ""
 msgid "&File"
 msgstr ""
 
-#. i18n: ectx: Menu (view)
-#: src/kleopatra.rc:28
-#, kde-format
-msgid "&View"
-msgstr ""
-
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
-#: src/kleopatra.rc:43 src/kleopatra.rc:137
+#: src/kleopatra.rc:28 src/kleopatra.rc:125
 #, kde-format
 msgid "&Certificates"
 msgstr ""
 
-#. i18n: ectx: Menu (tools)
-#: src/kleopatra.rc:66
+#. i18n: ectx: Menu (_tools)
+#: src/kleopatra.rc:53
 #, kde-format
 msgid "&Tools"
 msgstr ""
 
+#. i18n: ectx: Menu (_view)
+#: src/kleopatra.rc:73
+#, kde-format
+msgid "&View"
+msgstr ""
+
 #. i18n: ectx: Menu (settings)
-#: src/kleopatra.rc:83
+#: src/kleopatra.rc:84
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
-#. i18n: ectx: Menu (window)
-#: src/kleopatra.rc:89
-#, kde-format
-msgid "&Window"
-msgstr ""
-
 #. i18n: ectx: Menu (help)
-#: src/kleopatra.rc:100
+#: src/kleopatra.rc:88
 #, kde-format
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: Menu (help_more)
-#: src/kleopatra.rc:107
+#: src/kleopatra.rc:95
 #, kde-format
 msgid "&More Documentation"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/kleopatra.rc:121 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:109 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -9487,13 +9378,13 @@ msgctxt "@info:shell"
 msgid "String or Fingerprint for query and search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:452
+#: src/kleopatraapplication.cpp:458
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to execute command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:475
+#: src/kleopatraapplication.cpp:481
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -9501,48 +9392,48 @@ msgid ""
 "application> is not already running."
 msgstr ""
 
-#: src/kleopatraapplication.cpp:512
+#: src/kleopatraapplication.cpp:518
 #, kde-format
 msgid "Ambiguous protocol: --openpgp and --cms"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:546
+#: src/kleopatraapplication.cpp:552
 #, kde-format
 msgid "No search string specified for --search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:557
+#: src/kleopatraapplication.cpp:563
 #, kde-format
 msgid "No fingerprint argument specified for --query"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:618
+#: src/kleopatraapplication.cpp:624
 #, kde-format
 msgid "Ambiguous commands \"%1\" and \"%2\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:625
+#: src/kleopatraapplication.cpp:631
 #, kde-format
 msgid "No files specified for \"%1\" command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:639
+#: src/kleopatraapplication.cpp:645
 #, kde-format
 msgid "Cannot read \"%1\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:918
+#: src/kleopatraapplication.cpp:924
 #, kde-format
 msgid "Opening an external link is administratively prohibited."
 msgstr ""
 
-#: src/kleopatraapplication.cpp:918
+#: src/kleopatraapplication.cpp:924
 #, kde-format
 msgctxt "@title:window"
 msgid "Prohibited"
 msgstr ""
 
-#: src/main.cpp:162
+#: src/main.cpp:166
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -9553,13 +9444,13 @@ msgid ""
 "administrator for help in resolving this issue.</para>"
 msgstr ""
 
-#: src/main.cpp:166
+#: src/main.cpp:170
 #, kde-format
 msgctxt "@title"
 msgid "GpgME Too Old"
 msgstr ""
 
-#: src/main.cpp:188
+#: src/main.cpp:192
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -9570,24 +9461,24 @@ msgid ""
 "permissions.</para>"
 msgstr ""
 
-#: src/main.cpp:192
+#: src/main.cpp:196
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Are you sure that you want to continue?</para>"
 msgstr ""
 
-#: src/main.cpp:193
+#: src/main.cpp:197
 #, kde-format
 msgctxt "@title"
 msgid "Running as Administrator"
 msgstr ""
 
-#: src/main.cpp:259
+#: src/main.cpp:263
 #, kde-format
 msgid "GPG UI Server Error"
 msgstr ""
 
-#: src/main.cpp:263
+#: src/main.cpp:267
 #, kde-format
 msgctxt ""
 "This error message is only shown on Windows when the socket to communicate "
@@ -9601,24 +9492,24 @@ msgid ""
 "other problems.</qt>"
 msgstr ""
 
-#: src/main.cpp:294
+#: src/main.cpp:298
 #, kde-format
 msgid "Invalid arguments: %1"
 msgstr ""
 
-#: src/mainwindow.cpp:110
+#: src/mainwindow.cpp:112
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "&Quit <application>%1</application>"
 msgstr ""
 
-#: src/mainwindow.cpp:117
+#: src/mainwindow.cpp:119
 #, kde-format
 msgctxt "@action:button"
 msgid "Only &Close Window"
 msgstr ""
 
-#: src/mainwindow.cpp:211
+#: src/mainwindow.cpp:213
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -9627,41 +9518,41 @@ msgid ""
 "%1</application>."
 msgstr ""
 
-#: src/mainwindow.cpp:214
+#: src/mainwindow.cpp:216
 #, kde-format
 msgctxt "@title:window"
 msgid "Really Quit?"
 msgstr ""
 
-#: src/mainwindow.cpp:305
+#: src/mainwindow.cpp:307
 #, kde-format
 msgid ""
 "Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
 "installation."
 msgstr ""
 
-#: src/mainwindow.cpp:307
+#: src/mainwindow.cpp:309
 #, kde-format
 msgid "Error Starting KWatchGnuPG"
 msgstr ""
 
-#: src/mainwindow.cpp:520
+#: src/mainwindow.cpp:534
 #, kde-format
 msgid "GnuPG Log Viewer"
 msgstr ""
 
-#: src/mainwindow.cpp:532
-#, fuzzy, kde-format
-msgid "Show GnuPG Configuration"
-msgstr "Манзили"
+#: src/mainwindow.cpp:546
+#, kde-format
+msgid "GnuPG Command Line"
+msgstr ""
 
-#: src/mainwindow.cpp:545
+#: src/mainwindow.cpp:559
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Restart Background Processes"
 msgstr ""
 
-#: src/mainwindow.cpp:546
+#: src/mainwindow.cpp:560
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -9669,12 +9560,12 @@ msgid ""
 "configuration."
 msgstr ""
 
-#: src/mainwindow.cpp:558
+#: src/mainwindow.cpp:572
 #, kde-format
 msgid "Check for updates"
 msgstr ""
 
-#: src/mainwindow.cpp:571
+#: src/mainwindow.cpp:585
 #, kde-format
 msgctxt ""
 "@action show input / output area for encrypting/signing resp. decrypting/"
@@ -9682,51 +9573,64 @@ msgctxt ""
 msgid "Notepad"
 msgstr ""
 
-#: src/mainwindow.cpp:572
+#: src/mainwindow.cpp:586
 #, kde-format
 msgid "Show pad for encrypting/decrypting and signing/verifying text"
 msgstr ""
 
-#: src/mainwindow.cpp:582
+#: src/mainwindow.cpp:596
 #, kde-format
 msgctxt "@action show smartcard management view"
 msgid "Smartcards"
 msgstr ""
 
-#: src/mainwindow.cpp:583
+#: src/mainwindow.cpp:597
 #, kde-format
 msgid "Show smartcard management"
 msgstr ""
 
-#: src/mainwindow.cpp:594
+#: src/mainwindow.cpp:608
 #, kde-format
 msgid "Perform Self-Test"
 msgstr ""
 
-#: src/mainwindow.cpp:605
-#, kde-format
-msgid "Configure Groups..."
-msgstr ""
+#: src/mainwindow.cpp:619
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgid "Manage Groups..."
+msgstr "Сертификат тафсилотлари..."
 
-#: src/mainwindow.cpp:617
+#: src/mainwindow.cpp:631
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:intoolbar"
 msgid "Groups"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/mainwindow.cpp:648
+#: src/mainwindow.cpp:662
 #, kde-format
 msgctxt "@action"
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/mainwindow.cpp:660
+#: src/mainwindow.cpp:672
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure visible columns"
+msgstr ""
+
+#: src/mainwindow.cpp:679
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure table sort order"
+msgstr ""
+
+#: src/mainwindow.cpp:690
 #, kde-format
 msgid "Gpg4win Compendium"
 msgstr ""
 
-#: src/mainwindow.cpp:664
+#: src/mainwindow.cpp:694
 #, kde-format
 msgctxt ""
 "The Gpg4win compendium is only availableat this point (24.7.2017) in german "
@@ -9734,37 +9638,37 @@ msgctxt ""
 msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:675
+#: src/mainwindow.cpp:705
 #, kde-format
 msgid "&Quick Guide Encrypt and Sign"
 msgstr ""
 
-#: src/mainwindow.cpp:676
+#: src/mainwindow.cpp:706
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "encrypt_and_sign_gnupgvsd_en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:685
+#: src/mainwindow.cpp:715
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Certificate &Groups"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/mainwindow.cpp:686
+#: src/mainwindow.cpp:716
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "groupfeature_gnupgvsd_en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:695
+#: src/mainwindow.cpp:725
 #, kde-format
 msgid "&Mail Encryption in Outlook"
 msgstr ""
 
-#: src/mainwindow.cpp:696
+#: src/mainwindow.cpp:726
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages. "
@@ -9772,43 +9676,43 @@ msgctxt ""
 msgid "gpgol_outlook_addin_en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:706
+#: src/mainwindow.cpp:736
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "&Certification Management"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/mainwindow.cpp:707
+#: src/mainwindow.cpp:737
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "certification_management_gnupgvsd_en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:715
+#: src/mainwindow.cpp:745
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "&Smartcard Setup"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/mainwindow.cpp:716
+#: src/mainwindow.cpp:746
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "smartcard_setup_gnupgvsd_en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:723
+#: src/mainwindow.cpp:753
 #, kde-format
 msgid "GnuPG Command&line"
 msgstr ""
 
-#: src/mainwindow.cpp:733
+#: src/mainwindow.cpp:763
 #, kde-format
 msgid "Manual for VS-NfD Approval"
 msgstr ""
 
-#: src/mainwindow.cpp:734
+#: src/mainwindow.cpp:764
 #, kde-format
 msgctxt ""
 "Only available in German and English. Keep the English file name for other "
@@ -9816,12 +9720,12 @@ msgctxt ""
 msgid "handbuch_zulassung_gnupgvsd_en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:742
+#: src/mainwindow.cpp:772
 #, kde-format
 msgid "SecOps for VS-NfD Approval"
 msgstr ""
 
-#: src/mainwindow.cpp:743
+#: src/mainwindow.cpp:773
 #, kde-format
 msgctxt ""
 "Only available in German and English. Keep the English file name for other "
@@ -9829,341 +9733,41 @@ msgctxt ""
 msgid "BSI-VSA-10867_ENG_secops.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:768
+#: src/mainwindow.cpp:798
 #, kde-format
 msgid ""
 "There are still some background operations ongoing. These will be terminated "
 "when closing the window. Proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:771
+#: src/mainwindow.cpp:801
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:902
+#: src/mainwindow.cpp:932
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "&Password-based Encryption"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/mainwindow.cpp:903
+#: src/mainwindow.cpp:933
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "symmetric_encryption_gnupgvsd_en.pdf"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:138
+#: src/mainwindow.cpp:964
 #, kde-format
-msgctxt "@info:label"
-msgid "RSA key strength:"
+msgctxt "@action:inmenu"
+msgid "Ascending"
 msgstr ""
 
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:177
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:tab"
-msgid "Technical Details"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:196
+#: src/mainwindow.cpp:974
 #, kde-format
-msgctxt "@title:group"
-msgid "EMail Addresses"
-msgstr ""
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:204
-#, fuzzy, kde-format
-#| msgid "Serial Number"
-msgctxt "@title:group"
-msgid "DNS Names"
-msgstr "Серия рақами"
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:212
-#, kde-format
-msgctxt "@title:group"
-msgid "URIs"
-msgstr ""
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:222
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:tab"
-msgid "Personal Details"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:240
-#, kde-format
-msgid "new email"
-msgstr ""
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:241
-#, kde-format
-msgid "new dns name"
-msgstr ""
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:242
-#, kde-format
-msgid "new uri"
-msgstr ""
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:345
-#, kde-format
-msgctxt "%2: some admin-supplied text, %1: key size in bits"
-msgid "%2 (1 bit)"
-msgid_plural "%2 (%1 bits)"
-msgstr[0] ""
-
-#: src/newcertificatewizard/advancedsettingsdialog.cpp:346
-#, kde-format
-msgctxt "%1: key size in bits"
-msgid "1 bit"
-msgid_plural "%1 bits"
-msgstr[0] ""
-
-#: src/newcertificatewizard/enterdetailspage.cpp:65
-#, fuzzy, kde-format
-#| msgid "Email"
-msgid "EMail"
-msgstr "Электрон почта"
-
-#: src/newcertificatewizard/enterdetailspage.cpp:106
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title"
-msgid "Enter Details"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/enterdetailspage.cpp:126
-#, fuzzy, kde-format
-#| msgid "Serial Number"
-msgid "Real name:"
-msgstr "Серия рақами"
-
-#: src/newcertificatewizard/enterdetailspage.cpp:134
-#, kde-format
-msgid "EMail address:"
-msgstr ""
-
-#: src/newcertificatewizard/enterdetailspage.cpp:143
-#, kde-format
-msgid "Protect the generated key with a passphrase."
-msgstr ""
-
-#: src/newcertificatewizard/enterdetailspage.cpp:145
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Encrypts the secret key with an unrecoverable passphrase. You will be asked "
-"for the passphrase during key generation."
-msgstr ""
-
-#: src/newcertificatewizard/enterdetailspage.cpp:181
-#, kde-format
-msgid "Advanced Settings..."
-msgstr ""
-
-#: src/newcertificatewizard/enterdetailspage.cpp:201
-#, kde-format
-msgid "Please enter your personal details below."
-msgstr ""
-
-#: src/newcertificatewizard/enterdetailspage.cpp:203
-#, kde-format
-msgid ""
-"Please enter your personal details below. If you want more control over the "
-"parameters, click on the Advanced Settings button."
-msgstr ""
-
-#: src/newcertificatewizard/enterdetailspage.cpp:223
-#, kde-format
-msgctxt "@action"
-msgid "Create"
-msgstr ""
-
-#: src/newcertificatewizard/keycreationpage.cpp:136
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Operation canceled."
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/keycreationpage.cpp:136
-#, kde-format
-msgid "Could not create key pair: %1"
-msgstr ""
-
-#: src/newcertificatewizard/keycreationpage.cpp:143
-#, kde-format
-msgid "Could not write output file %1: %2"
-msgstr ""
-
-#: src/newcertificatewizard/keycreationpage.cpp:150
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Key pair created successfully."
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/listwidget.cpp:178
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Entry"
-msgstr ""
-
-#: src/newcertificatewizard/listwidget.cpp:180
-#, kde-format
-msgctxt "@action:button"
-msgid "Remove Entry"
-msgstr ""
-
-#: src/newcertificatewizard/listwidget.cpp:182
-#, kde-format
-msgctxt "@action:button"
-msgid "Move Up"
-msgstr ""
-
-#: src/newcertificatewizard/listwidget.cpp:184
-#, kde-format
-msgctxt "@action:button"
-msgid "Move Down"
-msgstr ""
-
-#: src/newcertificatewizard/newcertificatewizard.cpp:39
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title:window"
-msgid "Key Pair Creation Wizard"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/resultpage.cpp:75
-#, kde-format
-msgctxt "@title:group"
-msgid "Result"
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:85
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Drag this icon to your mail application's composer to attach the request to "
-"a mail."
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:91
-#, kde-format
-msgid "Restart This Wizard (Keeps Your Parameters)"
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:95
-#, kde-format
-msgctxt "@title:group"
-msgid "Next Steps"
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:98
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Save Certificate Request To File..."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/newcertificatewizard/resultpage.cpp:101
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Send Certificate Request By EMail..."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/newcertificatewizard/resultpage.cpp:104
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Create Signing Certificate With Same Parameters"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/resultpage.cpp:107
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgid "Create Encryption Certificate With Same Parameters"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/resultpage.cpp:147
-#, fuzzy, kde-format
-#| msgid "Certificate Details..."
-msgctxt "@title"
-msgid "Key Creation Failed"
-msgstr "Сертификат тафсилотлари..."
-
-#: src/newcertificatewizard/resultpage.cpp:148
-#, kde-format
-msgid "Key pair creation failed. Please find details about the failure below."
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:150
-#, kde-format
-msgctxt "@title"
-msgid "Key Pair Successfully Created"
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:151
-#, kde-format
-msgid ""
-"Your new key pair was created successfully. Please find details on the "
-"result and some suggested next steps below."
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:217
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Could not copy temporary file <filename>%1</filename> to file <filename>%2</"
-"filename>: <message>%3</message>"
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:236
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Please process this certificate."
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/newcertificatewizard/resultpage.cpp:237
-#, kde-format
-msgid ""
-"Please process this certificate and inform the sender about the location to "
-"fetch the resulting certificate.\n"
-"\n"
-"Thanks,\n"
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:241
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para><application>Kleopatra</application> tried to send a mail via your "
-"default mail client.</para><para>Some mail clients are known not to support "
-"attachments when invoked this way.</para><para>If your mail client does not "
-"have an attachment, then drag the <application>Kleopatra</application> icon "
-"and drop it on the message compose window of your mail client.</"
-"para><para>If that does not work, either, save the request to a file, and "
-"then attach that.</para>"
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:246
-#, fuzzy, kde-format
-#| msgid "Canceled."
-msgctxt "@title"
-msgid "Sending Mail"
-msgstr "Бекор қилинди."
-
-#: src/newcertificatewizard/resultpage.cpp:273
-#, kde-format
-msgctxt "@info"
-msgid ""
-"This operation will delete the certification request. Please make sure that "
-"you have sent or saved it before proceeding."
-msgstr ""
-
-#: src/newcertificatewizard/resultpage.cpp:275
-#, kde-format
-msgctxt "@title"
-msgid "Certification Request About To Be Deleted"
+msgctxt "@action:inmenu"
+msgid "Descending"
 msgstr ""
 
 #: src/selftest/compliancecheck.cpp:33
@@ -11137,7 +10741,7 @@ msgid ""
 "bug."
 msgstr ""
 
-#: src/utils/accessibility.cpp:88
+#: src/utils/accessibility.cpp:90
 #, kde-format
 msgctxt ""
 "text for screen readers to indicate that the associated object, such as a "
@@ -11145,7 +10749,7 @@ msgctxt ""
 msgid "invalid entry"
 msgstr ""
 
-#: src/utils/accessibility.cpp:96
+#: src/utils/accessibility.cpp:98
 #, kde-format
 msgctxt ""
 "text for screen readers to indicate that the associated object, such as a "
@@ -11229,6 +10833,34 @@ msgstr "Бекор қилинди."
 msgctxt "@action"
 msgid "Decrypt/Verify..."
 msgstr "Сертификат тафсилотлари..."
+
+#: src/utils/csrutils.cpp:65
+#, kde-format
+msgctxt "@title"
+msgid "Save Request"
+msgstr ""
+
+#: src/utils/csrutils.cpp:68
+#, kde-format
+msgid "PKCS#10 Requests (*.p10)"
+msgstr ""
+
+#: src/utils/csrutils.cpp:78
+#, fuzzy, kde-kuit-format
+#| msgid "Import Certificates..."
+msgctxt "@info"
+msgid ""
+"<para>Failed to write the request to the file <filename>%1</filename>.</"
+"para><para><message>%2</message></para>"
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/utils/csrutils.cpp:86
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Successfully wrote request to <filename>%1</filename>.</para><para>You "
+"should now send the request to the Certification Authority (CA).</para>"
+msgstr ""
 
 #: src/utils/fileutils.cpp:22
 #, fuzzy, kde-format
@@ -11351,7 +10983,14 @@ msgstr "Жорий таъминловчи"
 msgid "No input device"
 msgstr ""
 
-#: src/utils/keyexportdraghandler.cpp:141
+#: src/utils/keyexportdraghandler.cpp:74 src/utils/keyexportdraghandler.cpp:78
+#, fuzzy, kde-kuit-format
+#| msgid "Import Certificates..."
+msgctxt "@info"
+msgid "Failed to write the certificates to a temporary file."
+msgstr "Сертификатларни импорт қилиш..."
+
+#: src/utils/keyexportdraghandler.cpp:154
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "A generic filename for exported certificates"
@@ -11693,293 +11332,282 @@ msgstr "Сертификатларни импорт қилиш..."
 msgid "Loading certificate cache..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:331
+#: src/view/keylistcontroller.cpp:328
 #, kde-format
 msgid "New OpenPGP Key Pair..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:332
+#: src/view/keylistcontroller.cpp:329
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Create a new OpenPGP certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:340
+#: src/view/keylistcontroller.cpp:337
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Export..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:341
+#: src/view/keylistcontroller.cpp:338
 #, kde-format
 msgid "Export the selected certificate (public key) to a file"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:349
+#: src/view/keylistcontroller.cpp:346
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Publish on Server..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:351
+#: src/view/keylistcontroller.cpp:348
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Publish the selected certificate (public key) to internal directory"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:352
+#: src/view/keylistcontroller.cpp:349
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Publish the selected certificate (public key) on %1"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:361
+#: src/view/keylistcontroller.cpp:358
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Publish at Mail Provider..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:362
+#: src/view/keylistcontroller.cpp:359
 #, kde-format
 msgid ""
 "Publish the selected certificate (public key) at mail provider's Web Key "
 "Directory if offered"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:371
+#: src/view/keylistcontroller.cpp:368
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Backup Secret Keys..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:380
+#: src/view/keylistcontroller.cpp:377
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Print Secret Key..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:389
+#: src/view/keylistcontroller.cpp:386
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Lookup on Server..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:391
+#: src/view/keylistcontroller.cpp:388
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Search for certificates in internal directory"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:392
+#: src/view/keylistcontroller.cpp:389
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Search for certificates on %1"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:400 src/view/welcomewidget.cpp:178
+#: src/view/keylistcontroller.cpp:397 src/view/welcomewidget.cpp:178
 #, kde-format
 msgid "Import..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:401
+#: src/view/keylistcontroller.cpp:398
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Import a certificate from a file"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:409
+#: src/view/keylistcontroller.cpp:406
 #, kde-format
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:410
+#: src/view/keylistcontroller.cpp:407
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Decrypt and/or verify files"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:418
+#: src/view/keylistcontroller.cpp:415
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:419
+#: src/view/keylistcontroller.cpp:416
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt and/or sign files"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:427
+#: src/view/keylistcontroller.cpp:424
 #, kde-format
 msgid "Sign/Encrypt Folder..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:428
+#: src/view/keylistcontroller.cpp:425
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Encrypt and/or sign folders"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:436
+#: src/view/keylistcontroller.cpp:433
 #, kde-format
 msgid "Create Checksum Files..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:445
+#: src/view/keylistcontroller.cpp:442
 #, kde-format
 msgid "Verify Checksum Files..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:455
-#, kde-format
-msgid "Redisplay"
-msgstr ""
-
-#: src/view/keylistcontroller.cpp:464
-#, kde-format
-msgid "Stop Operation"
-msgstr "Жараённи тўхтатиш"
-
-#: src/view/keylistcontroller.cpp:477
+#: src/view/keylistcontroller.cpp:451
 #, kde-format
 msgid "Details"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:487
+#: src/view/keylistcontroller.cpp:461
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Revoke Certificate..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:488
+#: src/view/keylistcontroller.cpp:462
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Revoke the selected OpenPGP certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:496
+#: src/view/keylistcontroller.cpp:470
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:497
+#: src/view/keylistcontroller.cpp:471
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Delete selected certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:505
+#: src/view/keylistcontroller.cpp:479
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Update Certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:506
+#: src/view/keylistcontroller.cpp:480
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Update selected certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:514
+#: src/view/keylistcontroller.cpp:488
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Certify..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:515
+#: src/view/keylistcontroller.cpp:489
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Certify the validity of the selected certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:523
+#: src/view/keylistcontroller.cpp:497
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Revoke Certification..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:524
+#: src/view/keylistcontroller.cpp:498
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Revoke the certification of the selected certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:532
+#: src/view/keylistcontroller.cpp:506
 #, kde-format
 msgid "Change End of Validity Period..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:541
+#: src/view/keylistcontroller.cpp:515
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:inmenu"
 msgid "Change Certification Power..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:542
+#: src/view/keylistcontroller.cpp:516
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info:tooltip"
 msgid "Grant or revoke the certification power of the selected certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:550
+#: src/view/keylistcontroller.cpp:524
 #, kde-format
 msgid "Change Passphrase..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:559
+#: src/view/keylistcontroller.cpp:533
 #, kde-format
 msgid "Add User ID..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:568
+#: src/view/keylistcontroller.cpp:542
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:inmenu"
 msgid "Create Group..."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:569
+#: src/view/keylistcontroller.cpp:543
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info:tooltip"
 msgid "Create a group from the selected certificates"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:577
+#: src/view/keylistcontroller.cpp:551
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy to Card"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:578
+#: src/view/keylistcontroller.cpp:552
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@info:tooltip"
 msgid "Copy the selected certificate to a smartcard"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:587
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Refresh OpenPGP Certificates"
-msgstr "Сертификатларни импорт қилиш..."
+#: src/view/keylistcontroller.cpp:561
+#, kde-format
+msgid "Redisplay"
+msgstr ""
 
-#: src/view/keylistcontroller.cpp:597
+#: src/view/keylistcontroller.cpp:571
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:615
+#: src/view/keylistcontroller.cpp:589
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:inmenu"
 msgid "Disable Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:618
+#: src/view/keylistcontroller.cpp:592
 #, kde-format
 msgctxt "@action:tooltip"
 msgid ""
@@ -11988,113 +11616,107 @@ msgid ""
 "filters."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:629
+#: src/view/keylistcontroller.cpp:603
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "New S/MIME Certification Request..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:630
+#: src/view/keylistcontroller.cpp:604
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Create a new S/MIME certificate signing request (CSR)"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:638
+#: src/view/keylistcontroller.cpp:612
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Trust Root Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:647
+#: src/view/keylistcontroller.cpp:621
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Distrust Root Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:657
+#: src/view/keylistcontroller.cpp:631
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Technical Details"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keylistcontroller.cpp:667
-#, fuzzy, kde-format
-#| msgid "Import Certificates..."
-msgid "Refresh S/MIME Certificates"
-msgstr "Сертификатларни импорт қилиш..."
-
-#: src/view/keylistcontroller.cpp:676
+#: src/view/keylistcontroller.cpp:640
 #, kde-format
 msgid "Clear CRL Cache"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:685
+#: src/view/keylistcontroller.cpp:649
 #, kde-format
 msgid "Dump CRL Cache"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:694
+#: src/view/keylistcontroller.cpp:658
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Import CRL From File..."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:1154
+#: src/view/keylistcontroller.cpp:1103
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:inmenu"
 msgid "Enable and Show Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keylistcontroller.cpp:1154
+#: src/view/keylistcontroller.cpp:1103
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgctxt "@action:inmenu"
 msgid "Disable and Hide Certificate"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/keytreeview.cpp:233 src/view/keytreeview.cpp:515
+#: src/view/keytreeview.cpp:230 src/view/keytreeview.cpp:512
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Hierarchical list of certificates"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/keytreeview.cpp:233 src/view/keytreeview.cpp:515
+#: src/view/keytreeview.cpp:230 src/view/keytreeview.cpp:512
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "List of certificates"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:83
+#: src/view/padwidget.cpp:91
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Sign / Encrypt Notepad"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:84
+#: src/view/padwidget.cpp:92
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Decrypt / Verify Notepad"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:85
+#: src/view/padwidget.cpp:93
 #, kde-format
 msgid "Import Notepad"
 msgstr ""
 
-#: src/view/padwidget.cpp:86
+#: src/view/padwidget.cpp:94
 #, kde-format
 msgid "Revert"
 msgstr ""
 
-#: src/view/padwidget.cpp:101
+#: src/view/padwidget.cpp:109
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgid "Signing and encryption is not possible."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:103
+#: src/view/padwidget.cpp:111
 #, kde-kuit-format
 msgctxt ""
 "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO "
@@ -12105,19 +11727,117 @@ msgid ""
 "<application>Kleopatra</application> is not %1.</para>"
 msgstr ""
 
-#: src/view/padwidget.cpp:168
+#: src/view/padwidget.cpp:169
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter a message to encrypt or decrypt..."
 msgstr ""
 
-#: src/view/padwidget.cpp:294
+#: src/view/padwidget.cpp:211
+#, kde-format
+msgctxt "@label:textbox for assistive tools"
+msgid "Text to process"
+msgstr ""
+
+#: src/view/padwidget.cpp:213
+#, kde-format
+msgctxt "@info for assistive tools"
+msgid ""
+"Either enter a text you want to sign or encrypt, or an encrypted or signed "
+"text you want to decrypt or verify. You can also enter certificates in text "
+"form to import them."
+msgstr ""
+
+#: src/view/padwidget.cpp:347
+#, fuzzy, kde-format
+#| msgid "Canceled."
+msgctxt "@label:textbox for assistive tools"
+msgid "Signed text"
+msgstr "Бекор қилинди."
+
+#: src/view/padwidget.cpp:348
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
-msgid "Decrypt / Verify"
+msgctxt "@info for assistive tools"
+msgid "This is the result of the sign operation."
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:351
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label:textbox for assistive tools"
+msgid "Encrypted text"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:352
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@info for assistive tools"
+msgid "This is the result of the encryption."
 msgstr "Сертификат тафсилотлари..."
 
 #: src/view/padwidget.cpp:355
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label:textbox for assistive tools"
+msgid "Signed and encrypted text"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:356
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@info for assistive tools"
+msgid "This is the result of the sign and encrypt operation."
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:366
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label:textbox for assistive tools"
+msgid "Decrypted and verified text"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:367
+#, kde-format
+msgctxt "@info for assistive tools"
+msgid "This is the result of decryption and signature verification."
+msgstr ""
+
+#: src/view/padwidget.cpp:369
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@label:textbox for assistive tools"
+msgid "Decrypted text"
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:370
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@info for assistive tools"
+msgid "This is the result of the decryption."
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:372
+#, kde-format
+msgctxt "@label:textbox for assistive tools"
+msgid "Verified text"
+msgstr ""
+
+#: src/view/padwidget.cpp:373
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@info for assistive tools"
+msgid "This is the result of the signature verification."
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:391
+#, fuzzy, kde-format
+#| msgid "Certificate Details..."
+msgctxt "@info:progress"
+msgid "Decrypting and/or verifying..."
+msgstr "Сертификат тафсилотлари..."
+
+#: src/view/padwidget.cpp:456
 #, kde-kuit-format
 msgctxt ""
 "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO "
@@ -12128,48 +11848,48 @@ msgid ""
 "<application>Kleopatra</application> is not %1.</para>"
 msgstr ""
 
-#: src/view/padwidget.cpp:365
+#: src/view/padwidget.cpp:466
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@info:progress"
 msgid "Signing notepad..."
 msgstr "Бекор қилинди."
 
-#: src/view/padwidget.cpp:368
+#: src/view/padwidget.cpp:469
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info:progress"
 msgid "Encrypting notepad..."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:371
+#: src/view/padwidget.cpp:472
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@info:progress"
 msgid "Signing and encrypting notepad..."
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:417
+#: src/view/padwidget.cpp:519
 #, fuzzy, kde-format
 #| msgid "Export Certificates..."
 msgid "Importing..."
 msgstr "Сертификатларни экспорт қилиш..."
 
-#: src/view/padwidget.cpp:456
+#: src/view/padwidget.cpp:559
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "Sign Notepad"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:459
+#: src/view/padwidget.cpp:562
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
 msgid "Encrypt Notepad"
 msgstr "Сертификат тафсилотлари..."
 
-#: src/view/padwidget.cpp:463
+#: src/view/padwidget.cpp:566
 #, fuzzy, kde-format
 #| msgid "Certificate Details..."
 msgctxt "@action:button"
@@ -12468,48 +12188,48 @@ msgctxt "@info:tooltip"
 msgid "Create an S/MIME certificate signing request for this key"
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/smartcardswidget.cpp:78
+#: src/view/smartcardswidget.cpp:79
 #, kde-format
 msgctxt "OpenPGP refers to a smartcard protocol"
 msgid "OpenPGP v2.0 or later"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:79
+#: src/view/smartcardswidget.cpp:80
 #, kde-format
 msgctxt "Gnuk is a cryptographic token for GnuPG"
 msgid "Gnuk"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:80
+#: src/view/smartcardswidget.cpp:81
 #, kde-format
 msgctxt "NetKey refers to a smartcard protocol"
 msgid "NetKey v3 or later"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:81
+#: src/view/smartcardswidget.cpp:82
 #, kde-format
 msgctxt "PIV refers to a smartcard protocol"
 msgid "PIV (requires GnuPG 2.3 or later)"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:82
+#: src/view/smartcardswidget.cpp:83
 #, kde-format
 msgctxt "CardOS is a smartcard operating system"
 msgid "CardOS 5 (various apps)"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:84
+#: src/view/smartcardswidget.cpp:85
 #, fuzzy, kde-format
 #| msgid "Import Certificates..."
 msgid "Please insert a compatible smartcard."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/smartcardswidget.cpp:86
+#: src/view/smartcardswidget.cpp:87
 #, kde-format
 msgid "Kleopatra currently supports the following card types:"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:350
+#: src/view/smartcardswidget.cpp:351
 #, kde-format
 msgctxt ""
 "@title:tab smartcard application - name of card holder - serial number of "
@@ -12517,75 +12237,75 @@ msgctxt ""
 msgid "%1 - %2 - %3"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:355
+#: src/view/smartcardswidget.cpp:356
 #, kde-format
 msgctxt "@title:tab smartcard application - serial number of smartcard"
 msgid "%1 - %2"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:484
+#: src/view/smartcardswidget.cpp:485
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@title:window"
 msgid "Change Cardholder"
 msgstr "Бекор қилинди."
 
-#: src/view/smartcardswidget.cpp:485
+#: src/view/smartcardswidget.cpp:486
 #, kde-format
 msgctxt "@label "
 msgid "Enter the new cardholder name:"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:496
+#: src/view/smartcardswidget.cpp:497
 #, kde-format
 msgctxt "@info"
 msgid "The \"<\" character may not be used."
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:500
+#: src/view/smartcardswidget.cpp:501
 #, kde-format
 msgctxt "@info"
 msgid "Double spaces are not allowed"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:504
+#: src/view/smartcardswidget.cpp:505
 #, kde-format
 msgctxt "@info"
 msgid "The size of the name may not exceed 38 characters."
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:515 src/view/smartcardswidget.cpp:559
+#: src/view/smartcardswidget.cpp:516 src/view/smartcardswidget.cpp:562
 #, kde-format
 msgctxt "@info"
 msgid "Failed to find the OpenPGP card with the serial number: %1"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:522
+#: src/view/smartcardswidget.cpp:523
 #, kde-format
 msgctxt "@info"
 msgid "Name change failed: %1"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:539
+#: src/view/smartcardswidget.cpp:541
 #, fuzzy, kde-format
 #| msgid "Canceled."
 msgctxt "@title:window"
 msgid "Change Public Key URL"
 msgstr "Бекор қилинди."
 
-#: src/view/smartcardswidget.cpp:540
+#: src/view/smartcardswidget.cpp:542
 #, kde-format
 msgctxt "@label"
 msgid "Enter the new public key URL:"
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:551
+#: src/view/smartcardswidget.cpp:554
 #, kde-format
 msgctxt "@info"
-msgid "The size of the URL may not exceed 254 characters."
+msgid "The URL is too long."
 msgstr ""
 
-#: src/view/smartcardswidget.cpp:566
+#: src/view/smartcardswidget.cpp:574 src/view/smartcardswidget.cpp:580
 #, kde-format
 msgctxt "@info"
 msgid "URL change failed: %1"
@@ -12737,87 +12457,87 @@ msgstr "Сертификатларни импорт қилиш..."
 msgid "No matching certificate was found in directory service."
 msgstr "Сертификатларни импорт қилиш..."
 
-#: src/view/tabwidget.cpp:660
+#: src/view/tabwidget.cpp:639
 #, kde-format
 msgid "Rename Tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:660
+#: src/view/tabwidget.cpp:639
 #, kde-format
 msgid "New tab title:"
 msgstr ""
 
-#: src/view/tabwidget.cpp:864
+#: src/view/tabwidget.cpp:843
 #, kde-format
 msgid "New Tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:865
+#: src/view/tabwidget.cpp:844
 #, kde-format
 msgid "Open a new tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:879
+#: src/view/tabwidget.cpp:858
 #, kde-format
 msgid "Rename Tab..."
 msgstr ""
 
-#: src/view/tabwidget.cpp:880
+#: src/view/tabwidget.cpp:859
 #, kde-format
 msgid "Rename this tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:892
+#: src/view/tabwidget.cpp:871
 #, kde-format
 msgid "Duplicate Tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:893
+#: src/view/tabwidget.cpp:872
 #, kde-format
 msgid "Duplicate this tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:903
+#: src/view/tabwidget.cpp:882
 #, kde-format
 msgid "Close Tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:904
+#: src/view/tabwidget.cpp:883
 #, kde-format
 msgid "Close this tab"
 msgstr ""
 
-#: src/view/tabwidget.cpp:916
+#: src/view/tabwidget.cpp:895
 #, kde-format
 msgid "Move Tab Left"
 msgstr ""
 
-#: src/view/tabwidget.cpp:917
+#: src/view/tabwidget.cpp:896
 #, kde-format
 msgid "Move this tab left"
 msgstr ""
 
-#: src/view/tabwidget.cpp:929
+#: src/view/tabwidget.cpp:908
 #, kde-format
 msgid "Move Tab Right"
 msgstr ""
 
-#: src/view/tabwidget.cpp:930
+#: src/view/tabwidget.cpp:909
 #, kde-format
 msgid "Move this tab right"
 msgstr ""
 
-#: src/view/tabwidget.cpp:942
+#: src/view/tabwidget.cpp:921
 #, kde-format
 msgid "Hierarchical Certificate List"
 msgstr ""
 
-#: src/view/tabwidget.cpp:955
+#: src/view/tabwidget.cpp:934
 #, kde-format
 msgid "Expand All"
 msgstr ""
 
-#: src/view/tabwidget.cpp:968
+#: src/view/tabwidget.cpp:947
 #, kde-format
 msgid "Collapse All"
 msgstr ""
@@ -12920,6 +12640,209 @@ msgid ""
 "Import certificate from a file.<nl/>To import from a public keyserver use "
 "<interface>Lookup on Server</interface> instead."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Allow signing with S/MIME certificates"
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Allows signing of text or files with S/MIME certificates."
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "Secret Key Backup Error"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "Certificate Details"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Stop Operation"
+#~ msgid "(optional)"
+#~ msgstr "Жараённи тўхтатиш"
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:tab"
+#~ msgid "Technical Details"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Serial Number"
+#~ msgctxt "@title:group"
+#~ msgid "DNS Names"
+#~ msgstr "Серия рақами"
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:tab"
+#~ msgid "Personal Details"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "EMail"
+#~ msgstr "Электрон почта"
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title"
+#~ msgid "Enter Details"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Serial Number"
+#~ msgid "Real name:"
+#~ msgstr "Серия рақами"
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Operation canceled."
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Key pair created successfully."
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "Key Pair Creation Wizard"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Save Certificate Request To File..."
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Send Certificate Request By EMail..."
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Create Signing Certificate With Same Parameters"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Create Encryption Certificate With Same Parameters"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title"
+#~ msgid "Key Creation Failed"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Please process this certificate."
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Canceled."
+#~ msgctxt "@title"
+#~ msgid "Sending Mail"
+#~ msgstr "Бекор қилинди."
+
+#, fuzzy
+#~| msgid "Canceled."
+#~ msgctxt "@option:check on SignEncryptPage"
+#~ msgid "&Sign as:"
+#~ msgstr "Бекор қилинди."
+
+#, fuzzy
+#~| msgid "Canceled."
+#~ msgid "&Sign as:"
+#~ msgstr "Бекор қилинди."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgid "Decrypt / Verify"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "OpenPGP Certificate Refresh"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "OpenPGP Certificate Refresh Error"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgctxt "@title:window"
+#~ msgid "OpenPGP Certificate Refresh Finished"
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgctxt "@info"
+#~ msgid "OpenPGP certificates refreshed successfully."
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "X.509 Certificate Refresh"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "X.509 Certificate Refresh Error"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Certificate Details..."
+#~ msgctxt "@title:window"
+#~ msgid "X.509 Certificate Refresh Finished"
+#~ msgstr "Сертификат тафсилотлари..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgctxt "@info"
+#~ msgid "X.509 certificates refreshed successfully."
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#~ msgid "Stop Operation"
+#~ msgstr "Жараённи тўхтатиш"
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Refresh OpenPGP Certificates"
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgid "Refresh S/MIME Certificates"
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Imported Certificates from %1"
+#~ msgstr "Сертификатларни импорт қилиш..."
+
+#, fuzzy
+#~| msgid "Import Certificates..."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Imported certificates from these sources:<br/>%1"
+#~ msgstr "Сертификатларни импорт қилиш..."
 
 #, fuzzy
 #~| msgid "Import Certificates..."
@@ -13103,11 +13026,6 @@ msgstr ""
 #~ msgctxt "@title:group"
 #~ msgid "Prove authenticity (sign)"
 #~ msgstr "Манзили"
-
-#, fuzzy
-#~| msgid "Canceled."
-#~ msgid "Sign as:"
-#~ msgstr "Бекор қилинди."
 
 #, fuzzy
 #~| msgid "Certificate Details..."
@@ -13324,16 +13242,6 @@ msgstr ""
 #~| msgid "Serial Number"
 #~ msgid "Enter a name."
 #~ msgstr "Серия рақами"
-
-#, fuzzy
-#~| msgid "Certificate Details..."
-#~ msgid "Enter an email address."
-#~ msgstr "Сертификат тафсилотлари..."
-
-#, fuzzy
-#~| msgid "Canceled."
-#~ msgid "Advanced options"
-#~ msgstr "Бекор қилинди."
 
 #, fuzzy
 #~| msgid "Certificate Details..."
